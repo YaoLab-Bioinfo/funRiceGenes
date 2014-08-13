@@ -1,0 +1,53 @@
+LOCUS       AB027123                 533 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group COX5c mRNA for cytochrome c oxidase
+            subunit 5c, complete cds.
+ACCESSION   AB027123
+VERSION     AB027123.1  GI:4850329
+KEYWORDS    cytochrome c oxidase subunit 5c.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Hamanaka,S., Ohtsu,K., Kadowaki,K., Nakazono,M. and Hirai,A.
+  TITLE     Identification of cDNA encoding cytochrome c oxidase subunit 5c
+            (COX5c) from rice: comparison of its expression with
+            nuclear-encoded and mitochondrial-encoded COX genes
+  JOURNAL   Genes Genet. Syst. 74 (3), 71-75 (1999)
+   PUBMED   10586516
+REFERENCE   2  (bases 1 to 533)
+  AUTHORS   Nakazono,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAY-1999) Contact:Mikio Nakazono The University of
+            Tokyo, Laboratory of Plant Molecular Genetics, Grad.Sch.Agr.Life
+            Sci.; Yayoi 1-1-1, Bunkyo-ku, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="EST clone R0095"
+     gene            1..533
+                     /gene="COX5c"
+     CDS             99..290
+                     /gene="COX5c"
+                     /codon_start=1
+                     /product="cytochrome c oxidase subunit 5c"
+                     /protein_id="BAA77682.1"
+                     /db_xref="GI:4850330"
+                     /translation="MAGGRIAHATLKGPSVVKEICIGLTLGLVAGGLWKMHHWNEQRK
+                     TRSFYDMLEKGQISVVVEE"
+ORIGIN      
+        1 aagtcgaccc acgcgtccgc ctcctctccc tcgcggcggc ggcgcggcgt ctatcctcct
+       61 ccaccggcgg caaggcatct gagctcaaca gcaagcaaat ggcaggtggc agaattgcac
+      121 atgcgaccct caaggggccg agcgtggtga aggagatctg cattgggctc acccttgggc
+      181 tggtcgctgg tggtctgtgg aagatgcatc actggaacga gcagaggaag actagatcct
+      241 tctacgacat gctcgagaag ggccagatca gtgttgtcgt cgaggagtag tcttttgtgt
+      301 tgaaagtctt ttgcctttgt tttttgcaag ttatttctga aactctctgg agagcatgac
+      361 aaagctagtg ccgtggagat tgtcatgaaa aataagcata gcaatttgag aacatttgat
+      421 ctcgttgaat ttgcttcttt tcttgtatta tcttaaaatc tgtctttaat atatgccagt
+      481 aacagcttaa gggattggat ggcttccccc tgacaaaaaa aaaaaaaaaa aaa
+//
+

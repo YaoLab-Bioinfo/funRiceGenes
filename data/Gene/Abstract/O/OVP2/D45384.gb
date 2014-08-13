@@ -1,0 +1,108 @@
+LOCUS       D45384                  2710 bp    mRNA    linear   PLN 18-AUG-2007
+DEFINITION  Oryza sativa mRNA for vacuolar H+-pyrophosphatase, complete cds.
+ACCESSION   D45384
+VERSION     D45384.1  GI:1747295
+KEYWORDS    vacuolar H+-pyrophosphatase; V-PPase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sakakibara,Y., Kobayashi,H. and Kasamo,K.
+  TITLE     Isolation and characterization of cDNAs encoding vacuolar
+            H(+)-pyrophosphatase isoforms from rice (Oryza sativa L.)
+  JOURNAL   Plant Mol. Biol. 31 (5), 1029-1038 (1996)
+   PUBMED   8843945
+REFERENCE   2  (bases 1 to 2710)
+  AUTHORS   Sakakibara,Y. and Kasamo,K.
+  TITLE     Molecular cloning of cDNAs encoding isoforms of vacuolar
+            H+-pyrophosphatase in rice (Oryza sativa L.)
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2710)
+  AUTHORS   Sakakibara,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-1995) Yoshikiyo Sakakibara, National Food
+            Research Institute, Department of Biological Function; 2-1-2
+            Kannondai, Tsukuba, Ibaraki 305, Japan
+            (E-mail:sakaki@nfri.affrc.go.jp, Tel:0298-38-8063,
+            Fax:0298-38-7996)
+FEATURES             Location/Qualifiers
+     source          1..2710
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="OVP2"
+                     /tissue_type="root"
+                     /dev_stage="callus"
+     CDS             95..2398
+                     /EC_number="3.6.1.1"
+                     /note="V-PPase"
+                     /codon_start=1
+                     /product="vacuolar H+-pyrophosphatase"
+                     /protein_id="BAA08233.1"
+                     /db_xref="GI:1747296"
+                     /translation="MAILSALGTEVFIPVAAAVGVAFAVAQWLLVARVKVNPAHAAAA
+                     AASGGSKNGGYGDYLIEEEEGLNDHNVVVKCHEIQTAISEGATSFLFTEYQYVGIFMS
+                     IFAVVIFLFLGSVEGFSTKSQPCTYSKDKYCKPALFNALFSTASFLLGAITSLVSGYL
+                     GMKIATFANARTTLEARKGVGKAFIIAFRSGAVMGFLLASSGLVVLYIAINVFKLYYG
+                     DDWEGLFESITGYGLGGSSMALFGRVGGGIYTKAADVGADLVGKVERNIPEDDPRNPA
+                     VIADNVGDNVGDIAGMGSDLFGSYAESSCAALVVASISSFGINHDFTGMCYPLLVSSV
+                     GIIVCLITTLFATDFFEIKAVKEIEPALKKQLIISTALMTVGIAIISWLALPAKFTIF
+                     NFGAQKEVTNWGLFFCVAIGLWAGLIIGFVTEYYTSNAYSPVQDVADSCRTGAATNVI
+                     FGLALGYKSVIIPIFAIAVSIYVSFSIAAMYGIAVAALGMLSTIATGLAIDAYGPISD
+                     NAGGIAEMAGMSHRIRERTDALDAAGNTTAAIGKGFAIGSAALVSLALFGAFVSRAGV
+                     KVVDVLSPKVFIGLIVGAMLPYWFSAMTMKSVGSAALKMVEEVRRQFNSIPGLMEGTG
+                     KPDYATCVKISTDASIKEMIPPGALVMLTPLIVGTLFGVETLSGVLAGALVSGVQIAI
+                     SASNTGGAWDNAKKYIEAGASEHARTLGPKGSDCHKAAVIGDTIGDPLKDTSGPSLNI
+                     LIKLMAVESLVFAPFFATHGGLLFKWF"
+ORIGIN      
+        1 gagacgcgtc acctcctccc cgccgccgcc gccgccgcct cgcctccgtt gcaaccgtag
+       61 tagggttagg gttttcgtgg tgggcgccgc cgccatggcg atcctctcgg cgctcgggac
+      121 cgaggtgttc atccccgtcg cggccgccgt cggcgtcgcg ttcgccgtcg cgcagtggct
+      181 gctcgtcgcg cgggtgaagg tcaacccggc gcacgcggcg gcggccgcgg cgtcgggggg
+      241 gagcaagaac ggcgggtacg gggactacct catcgaggag gaggaggggc tcaacgacca
+      301 caacgtcgtc gtcaagtgcc acgagatcca gaccgccatc tccgaaggag caacatcatt
+      361 tctcttcacg gagtaccaat atgttggtat cttcatgtca atcttcgctg tcgtgatctt
+      421 cctcttcctt ggttcagtcg agggattcag tacaaagagc cagccttgca catacagcaa
+      481 ggacaagtac tgcaagcctg cccttttcaa cgcgctcttt agcactgcat ctttcttgct
+      541 gggagcgatc acctctttgg tctctggtta ccttggaatg aagatcgcca catttgccaa
+      601 tgccagaact accctggaag caaggaaggg tgttgggaag gcatttatca ttgctttccg
+      661 ctctggtgct gttatgggct tcttgctggc atcaagtggt cttgtggttc tttacatcgc
+      721 cattaatgta tttaagttgt attatggtga tgactgggaa ggtctttttg agtctatcac
+      781 tggttatggt cttggtggat cttccatggc tctcttcgga agggttggtg gaggtattta
+      841 cactaaggct gctgatgtgg gtgctgatct tgttggcaag gttgagagga acatccctga
+      901 agatgatccc aggaacccag ctgtgattgc tgacaatgtc ggtgacaatg ttggtgatat
+      961 tgctggaatg ggatcagatc tctttgggtc atacgccgaa tcatcctgtg ctgctcttgt
+     1021 tgttgcatct atctcatctt ttggaatcaa ccatgatttc actgggatgt gctacccact
+     1081 gcttgtcagc tctgttggca tcattgtttg tttgatcacc acactctttg caactgattt
+     1141 ctttgagatc aaggcagtga aagaaattga acctgctctg aagaagcagc tcatcatctc
+     1201 cactgctttg atgactgttg gtattgcaat aatcagctgg ttggcccttc cagcaaagtt
+     1261 caccatcttc aattttggtg ctcagaagga agttaccaac tggggcttgt tcttctgcgt
+     1321 tgcaattggt ctgtgggctg gtctgatcat tggttttgtg acagagtact acactagcaa
+     1381 tgcatacagc cctgtgcaag atgttgcaga ttcctgcaga actggtgctg ccactaatgt
+     1441 catatttggt cttgctctgg gatacaaatc agttatcatc ccaatttttg ctattgctgt
+     1501 cagcatatat gttagtttct ctattgctgc aatgtacggc atagccgttg ccgctcttgg
+     1561 catgctaagc accattgcaa caggccttgc cattgatgct tatggtccta tcagtgacaa
+     1621 tgctggtggt attgccgaga tggctggtat gagccacaga atccgtgaga gaactgatgc
+     1681 ccttgatgct gctggcaaca caactgctgc tattgggaag ggttttgcca ttggatcagc
+     1741 tgctctggtg tcccttgcac tttttggtgc cttcgtcagc agagctggag tgaaggttgt
+     1801 tgatgtcctg tctccaaagg tcttcatcgg tttgattgtt ggagccatgc tcccgtactg
+     1861 gttctctgcc atgaccatga agagtgttgg aagtgccgcc ctcaagatgg ttgaggaggt
+     1921 tcggaggcaa ttcaactcca ttcctgggct aatggaggga actggcaagc ctgactatgc
+     1981 cacctgcgtc aagatctcca ctgatgcttc catcaaggag atgattcccc ctggtgcttt
+     2041 ggtgatgctc acccccctca tcgtcggaac tctctttggt gtggagaccc tgtctggtgt
+     2101 tctggctggt gctcttgttt ccggagttca gatcgccatc tcggcctcca acactggtgg
+     2161 cgcatgggat aacgcaaaga agtacattga ggctggtgcc agtgagcatg ctcggaccct
+     2221 tggtcccaag ggatcagact gccacaaggc cgccgtgatc ggtgacacca ttggagaccc
+     2281 cctcaaggac acatcaggcc cgtcgctcaa catcctcatc aagctcatgg ccgtcgagtc
+     2341 ccttgtgttt gcgcctttct tcgccacaca cggtggtctg ctgttcaagt ggttctaaga
+     2401 acataatacc attggcagca gcgctgaaat cttcgacgga catcacgaat aacgactgcc
+     2461 agtgtacgtt gtgcttggga atcgcccgca ccgtttcttt ttgggtctca tgttgtttca
+     2521 ggattgctgt tgtcttatct ttggcctctt gggagttgtt accttagcct tactgttagc
+     2581 ttcacttaga agagaccaga gtctagatgt tctcccatct ctggtgcgtg tctggcaaat
+     2641 tttcctcgtc ccatgatgac gacgataatg tttgaactct tgaacaatga gatgatgatt
+     2701 gttgcatgtt
+//
+

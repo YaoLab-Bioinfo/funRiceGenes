@@ -1,0 +1,62 @@
+LOCUS       AB239918                 912 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group Os;CDKB1;1 mRNA for cyclin-dependent
+            kinase, complete cds.
+ACCESSION   AB239918
+VERSION     AB239918.1  GI:94467443
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sakaguchi,N., Furukawa,T., Shimada,H., Hashimoto,J., Sakaguchi,K.
+            and Umeda,M.
+  TITLE     Isolation and characterization of a rice cDNA encoding B1-type
+            cyclin-dependent kinase
+  JOURNAL   Plant Biotechnol. 23, 211-214 (2006)
+REFERENCE   2  (bases 1 to 912)
+  AUTHORS   Umeda,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-OCT-2005) Contact:Masaaki Umeda Institute of
+            Molecular and Cellular Biosciences, The University of Tokyo;
+            yayoi1-1-1, bunkyo-ku, tokyo 113-0032, Japan
+FEATURES             Location/Qualifiers
+     source          1..912
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..912
+                     /gene="Os;CDKB1;1"
+     CDS             1..912
+                     /gene="Os;CDKB1;1"
+                     /codon_start=1
+                     /product="cyclin-dependent kinase"
+                     /protein_id="BAE93883.1"
+                     /db_xref="GI:94467444"
+                     /translation="MEKYEKLEKVGEGTYGKVYKAQDRATGQLVALKKTRLEMDEEGI
+                     PPTALREISILRLLSQSLYVVRLLSVEQATKNGKPVLYLVFEFLDTDLKKFVDAYRKG
+                     PNPRPLPTNVIKSFLYQLCKGVAHCHGHGVLHRDLKPQNLLVDKEKGILKIADLGLGR
+                     AFTVPMKSYTHEIVTLWYRAPEVLLGSTHYSTGVDIWSVGCIFAEMVRRQALFPGDSE
+                     LQQLLHIFRLLGTPTEEQWPGVTDLRDWHEFPQWKPQILERQVPSLEPEGVDLLSKML
+                     QYNPANRISAKAAMEHPYFDSLDKSQF"
+ORIGIN      
+        1 atggagaagt acgagaagct ggagaaggtg ggggaaggga cgtacgggaa ggtgtacaag
+       61 gcgcaggaca gggcgacggg gcagctggtg gcgctgaaga agacgaggct ggagatggac
+      121 gaggagggga tcccgcccac cgcgctgcgc gagatctcca tcctcaggct gctctcccag
+      181 tcgctctacg tcgtccgcct cctctccgtc gagcaggcca ccaagaacgg caagcccgtc
+      241 ctctacctcg tcttcgagtt cctcgacacc gacctcaaga agttcgtcga cgcctaccgc
+      301 aagggcccca accctcgccc cctccccacc aacgtcatca agagcttctt gtatcagtta
+      361 tgcaaaggag tcgcacattg ccatggccat ggtgtccttc accgtgattt aaagccacaa
+      421 aacctgttgg tcgacaagga aaaggggata ttgaaaattg ctgatcttgg gctaggtagg
+      481 gcgttcactg ttcctatgaa aagctacaca catgagattg tgactctttg gtacagagct
+      541 cctgaagttt tgcttggatc aacacattac tcaaccggtg ttgacatttg gtccgttggt
+      601 tgcatcttcg ctgaaatggt cagaagacaa gctctttttc caggtgactc tgagttgcaa
+      661 cagttgcttc acattttcag gttgttggga actcctactg aggagcagtg gcctggagta
+      721 actgatttga gggactggca tgagtttcca cagtggaagc cacagatttt agaacgtcaa
+      781 gtcccatcat tggagcctga aggagttgac cttttatcga aaatgctcca gtataaccca
+      841 gcaaatcgga tctcagcaaa ggctgctatg gaacacccct acttcgacag cctcgacaag
+      901 tcccagttct ag
+//
+

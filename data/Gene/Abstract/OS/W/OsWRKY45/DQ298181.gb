@@ -1,0 +1,69 @@
+LOCUS       DQ298181                1377 bp    mRNA    linear   PLN 28-JUL-2006
+DEFINITION  Oryza sativa WRKY transcription factor 45 mRNA, complete cds.
+ACCESSION   DQ298181
+VERSION     DQ298181.1  GI:83320246
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1377)
+  AUTHORS   Ryu,H.S., Han,M., Lee,S.K., Cho,J.I., Ryoo,N., Heu,S., Lee,Y.H.,
+            Bhoo,S.H., Wang,G.L., Hahn,T.R. and Jeon,J.S.
+  TITLE     A comprehensive expression analysis of the WRKY gene superfamily in
+            rice plants during defense response
+  JOURNAL   Plant Cell Rep. 25 (8), 836-847 (2006)
+   PUBMED   16528562
+REFERENCE   2  (bases 1 to 1377)
+  AUTHORS   Ryu,H.-S. and Jeon,J.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-NOV-2005) Plant Metabolism Research Center, Kyung Hee
+            University, Seochun 1, Gihung, Yongin, Kyungi 449-701, Korea
+FEATURES             Location/Qualifiers
+     source          1..1377
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /cultivar="RIL260"
+                     /db_xref="taxon:4530"
+                     /note="derived from a cross between Moroberekan (African
+                     japonica rice) and CO39 (indica rice); carries the blast
+                     resistance gene Pi5(t)"
+     CDS             94..1050
+                     /note="OsWRKY45"
+                     /codon_start=1
+                     /product="WRKY transcription factor 45"
+                     /protein_id="ABC02809.1"
+                     /db_xref="GI:83320247"
+                     /translation="MSPAPAPAYAQVMEDMEKGKELAAQLQGLLRDSPEAGRFVDQIL
+                     HTFSRAMRALDKAAVSAAGGEGSEVQSEVTCGGGASAGGKRKAPAANRKANCRRRTQQ
+                     SSGNTVVVKNLDDGQAWRKYGQKEIQNSKHPKAYFRCTHKYDQMCTAQRQVQRCDDDP
+                     ASYRVTYIGEHTCRDPATAPIIAAHVIHQVAAGDDDDGCGGLHAGSRLISFVAAPAAP
+                     VDAAAAPTTSTITTVTAPGPLLQPLKVEGGIGSSDQEEVLSSLTPGSSAARGGGVAGP
+                     FGPDQGDVTSSLHWSYDAVAGMEFFKNDEVVFDLDDIMGLSF"
+ORIGIN      
+        1 agctgagctg cgaggaagag agagtgcgag agtgcgcggc agcgccagtg tagtgtcagt
+       61 cactgggtgt gcgcttgctt gcttggattg aggatgtcgc cggcgccggc gccggcgtac
+      121 gcgcaggtga tggaggacat ggagaagggg aaggagctgg cggcgcagct gcaggggctc
+      181 ctccgcgact cgccggaggc cggccgcttc gtcgaccaga ttctccacac cttctcccgg
+      241 gcgatgcggg cgctcgacaa ggcggcggtc tccgccgccg gaggagaagg gtcggaggtg
+      301 cagagcgagg tcacctgcgg gggcggggcc agcgccggcg ggaagaggaa agcccccgcc
+      361 gccaaccgga aggccaactg ccgcaggagg acgcagcaat cgtccgggaa tacggtggtc
+      421 gtcaagaacc tcgacgacgg ccaggcatgg cgcaagtacg ggcagaagga gatccaaaac
+      481 tccaagcacc caaaggccta cttccggtgc acgcacaagt acgaccagat gtgcacggcg
+      541 cagcggcagg tgcagcgctg cgacgacgac ccggcgagct acagggtcac ctacatcggc
+      601 gagcacacct gccgggaccc ggccaccgcc cccatcatcg cggcgcacgt catccaccag
+      661 gtcgctgccg gcgacgacga cgacggctgc ggcggcctcc acgcggggtc ccgcctcatc
+      721 agcttcgtcg ccgcgccggc ggcgccagta gacgctgccg cggcgccgac gaccagcacg
+      781 atcaccacgg tcaccgcgcc gggcccgctg ctgcagccgc tcaaggtgga gggcggcatc
+      841 ggctcgtccg accaggagga ggtgctgagc agcctcacgc ccggcagctc cgcggcgcgc
+      901 ggcggcggag tcgcgggtcc cttcgggccg gaccagggcg atgtcacgtc ctccctgcac
+      961 tggagctacg acgccgtcgc cggcatggag ttcttcaaga acgacgaggt tgtcttcgat
+     1021 ctggacgaca ttatgggttt gagcttttga tcaccgaaga atcatggatg gacacgggcc
+     1081 gggtaaaacg atcgaaagaa gatggattcc acgcgtgtgt acagaaataa ttagcggcag
+     1141 cgcggatctt aatttggaac ttgcaaagat actcctaatt agcctggcta gattagtttg
+     1201 taaattcctt gttgatgtgt cgtctcagct ttaagctgca gacatgctag caagtagcaa
+     1261 cacgattagt acgtagtaat gtggttcctg attatgagct gggggtctta accttttttg
+     1321 tgtgacaagc aagagaagag gatttgggta caatgtaatc ctgttcttcc gctttcg
+//
+

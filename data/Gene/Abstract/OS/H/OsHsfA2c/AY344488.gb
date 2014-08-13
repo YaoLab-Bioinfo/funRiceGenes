@@ -1,0 +1,72 @@
+LOCUS       AY344488                1336 bp    mRNA    linear   PLN 20-OCT-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) heat shock factor RHSF6
+            mRNA, complete cds.
+ACCESSION   AY344488
+VERSION     AY344488.1  GI:33591105
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1336)
+  AUTHORS   Liu,J.G., Yao,Q.H., Zhang,Z., Peng,R.H., Xiong,A.S., Xu,F. and
+            Zhu,H.
+  TITLE     Isolation and characterization of a cDNA encoding two novel
+            heat-shock factor OsHSF6 and OsHSF12 in Oryza sativa L
+  JOURNAL   J. Biochem. Mol. Biol. 38 (5), 602-608 (2005)
+   PUBMED   16202242
+REFERENCE   2  (bases 1 to 1336)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Isolation Rice Heat Shock Factor by Modified Yeast One-Hybrid
+            System Method
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1336)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUL-2003) Bio-Tech Center, Shanghai Academy of
+            Agricultural Science, Beidi Road 2901, Shanghai 021-201106, China
+FEATURES             Location/Qualifiers
+     source          1..1336
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             35..1111
+                     /note="transcription factor"
+                     /codon_start=1
+                     /product="heat shock factor RHSF6"
+                     /protein_id="AAQ23060.1"
+                     /db_xref="GI:33591106"
+                     /translation="MDPAAAGIVKEEMLESQQQQRQEDGGAAPRPMEGLHEVGPPPFL
+                     TKTYDLVEDPATDGVVSWSRAGNSFVVWDPHVFADLLLPRLFKHNNFSSFVRQLNTYG
+                     FRKVDPDRWEFANEGFLRGQRHLLKTIKRRKPPSNAPPSQQQSLTSCLEVGEFGFEEE
+                     IDRLKRDKNILITEVVKLRQEQQATKDHVKAMEDRLRAAEQKQVQMMGFLARAMRNPE
+                     FFQQLAQQKEKRKELEDAISKKRRRPIDNVPFYDPGETSQTEQLDSPYLFDSGVLNEL
+                     SEPGIPELENLAVNIQDLGKGKVDEERQNQTNGQAELGDDFWAELLVEDFTGKEEQSE
+                     LDGKIDGIDELAQQLGYLSSTSPK"
+ORIGIN      
+        1 gggttcttgg ttgtgaaagg cgggaggggg ggtcatggac ccggcggcgg cgggcattgt
+       61 gaaggaggag atgctggagt cgcagcagca gcagcggcag gaggatggcg gggcggcgcc
+      121 gcggccgatg gaggggctgc acgaggttgg gccgccgccg ttcctgacga agacgtacga
+      181 cctggtggag gacccggcca ccgacggcgt cgtgtcgtgg agccgcgcgg gcaacagctt
+      241 cgtcgtctgg gacccgcacg tcttcgccga cctcctcctc ccgcgcctct tcaagcacaa
+      301 caacttctcc agcttcgtcc ggcagctcaa cacctacggc ttcagaaagg tcgatcctga
+      361 taggtgggag tttgcaaatg agggttttct caggggccaa aggcatctcc tgaaaacgat
+      421 aaagagaagg aagcccccgt ccaatgcacc tccgtcacaa caacagtccc tcacatcttg
+      481 tctggaagtt ggtgagtttg gattcgagga agaaattgac aggctgaagc gtgataagaa
+      541 catcttgatc acagaggtag taaagctaag gcaggagcag caggccacta aagatcatgt
+      601 gaaagccatg gaagataggc tacgagccgc tgagcagaaa caggtccaga tgatggggtt
+      661 cttggcaaga gcaatgcgca acccagagtt cttccagcag ttggcacagc agaaagagaa
+      721 gaggaaggag cttgaggatg ccatctcgaa gaaaagaagg cggcctatag acaatgttcc
+      781 attctatgac cctggggaaa caagtcagac tgagcaactt gattcgccgt atttgtttga
+      841 ttcaggtgtg cttaatgagt taagtgaacc tggaatccct gagctggaga atctcgcagt
+      901 gaacattcag gatctgggga agggtaaagt agatgaagag aggcagaatc aaactaatgg
+      961 tcaggcagag ctcggagatg acttctgggc agagctgttg gttgaagatt tcacaggcaa
+     1021 ggaggagcag tcagagttgg atggcaaaat tgacggcatc gacgaactgg ctcaacagtt
+     1081 ggggtatctg agctctacta gtccaaaata gagttgattt tgtgattgtt catccaacaa
+     1141 ctactgctgc ttcagtgctt ttgaagatca tcttgaacaa actggtatat ttcacattca
+     1201 acggtgcaaa tctgataaaa ctgctcatat attgatattt tgtttaaatt acattatctc
+     1261 gcttatatct gcaggaatgt tggctgtgta catccgtttg gatgtagagg ccggtttaat
+     1321 ccattatcta aaaaaa
+//
+

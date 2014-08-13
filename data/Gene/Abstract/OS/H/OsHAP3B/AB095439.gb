@@ -1,0 +1,65 @@
+LOCUS       AB095439                 924 bp    mRNA    linear   PLN 23-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsHAP3B mRNA for HAP3, partial cds.
+ACCESSION   AB095439
+VERSION     AB095439.1  GI:30409460
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Miyoshi,K., Ito,Y., Serizawa,A. and Kurata,N.
+  TITLE     OsHAP3 genes regulate chloroplast biogenesis in rice
+  JOURNAL   Plant J. 36 (4), 532-540 (2003)
+   PUBMED   14617083
+REFERENCE   2
+  AUTHORS   Thirumurugan,T., Ito,Y., Kubo,T., Serizawa,A. and Kurata,N.
+  TITLE     Identification, characterization and interaction of HAP family
+            genes in rice
+  JOURNAL   Mol. Genet. Genomics 279 (3), 279-289 (2008)
+   PUBMED   18193457
+REFERENCE   3  (bases 1 to 924)
+  AUTHORS   Ito,Y., Miyoshi,K. and Kurata,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-NOV-2002) Contact:Yukihiro Ito Tohoku University,
+            Laboratory of Environmental Biotechnology, Graduate School of
+            Agricultural Science; 1-1 Tsutsumidori-Amamiyamachi, Aoba-ku,
+            Sendai, Miyagi 981-8555, Japan
+FEATURES             Location/Qualifiers
+     source          1..924
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <1..924
+                     /gene="OsHAP3B"
+     CDS             <1..505
+                     /gene="OsHAP3B"
+                     /codon_start=2
+                     /product="HAP3"
+                     /protein_id="BAC76332.1"
+                     /db_xref="GI:30409461"
+                     /translation="GRWSATRPGGGGGGGGGVREQDRFLPIANISRIMKKAIPANGKI
+                     AKDAKETVQECVSEFISFITSEASDKCQREKRKTINGDDLLWAMATLGFEDYIEPLKV
+                     YLQKYREMEGDSKLTAKAGDGSVKKDVLGSHGGSSSSAQGMGQQAAYNQGMGYMQPQY
+                     HNGDVSN"
+ORIGIN      
+        1 cggacgctgg tcggccacgc gtccgggggg aggtgggggt gggggtgggg gggtgaggga
+       61 gcaggacagg ttcctcccca tcgccaacat cagccgcatc atgaagaagg ccatcccggc
+      121 caacgggaag atcgccaagg acgccaagga gaccgtgcag gagtgcgtct ccgagttcat
+      181 ctccttcatc accagcgagg cgagcgataa atgccagagg gagaagcgca agaccatcaa
+      241 cggcgacgac ttgctgtggg cgatggccac gctgggcttc gaggactaca tcgagcccct
+      301 caaggtctac ctgcagaagt acagagagat ggagggtgat agtaaattaa ctgcaaaggc
+      361 tggtgatggc tctgtgaaaa aggatgtact tggttctcat ggaggaagca gttcaagtgc
+      421 ccaagggatg ggccaacaag cagcatacaa tcaaggaatg ggttatatgc aacctcagta
+      481 ccataatggg gatgtctcaa actgaagata ggaccttttc atgcaactgt tgctaggtgg
+      541 attttatttg gtgctgcagt cgttagctaa tatatatacc tacacctcat ggtgagcagt
+      601 gaaggaagta acttgctacc acctctaggt cccatgtttg tcaaccagga actgatgctg
+      661 cttggaagcg tcgagccaag gctgcttctc agatgtaaat tactccccgt gaggatagtt
+      721 tcggttcgtg gtctagctct gttgttgtat gtatattcag gataatttaa caattggtct
+      781 ttggctgtca ttcggttcca tataatctgt attgggaggc ataaatattc atgttgtatt
+      841 tcgtcctgaa ctagcgtgtt gtactattga gaaatagatg ctctctgtaa tggtagcaat
+      901 tttactctga aaaaaaaaaa aaaa
+//
+

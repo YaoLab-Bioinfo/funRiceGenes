@@ -1,0 +1,87 @@
+LOCUS       AB044537                2115 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for aldehyde dehydrogenase ALDH2b,
+            complete cds.
+ACCESSION   AB044537
+VERSION     AB044537.1  GI:11691925
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Nakazono,M. and Tsuji,H.
+  TITLE     Rice mitochondrial aldehyde dehydrogenase Aldh2b
+  JOURNAL   Published Only in Database (2000)
+REFERENCE   2  (bases 1 to 2115)
+  AUTHORS   Nakazono,M. and Tsuji,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2000) Contact:Mikio Nakazono Laboratory of Plant
+            Molecular Genetics, Graduate School of Agricultural and Life
+            Sciences, The University of Tokyo; 1-1-1 Yayoi, Bunkyo-ku, Tokyo
+            113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..2115
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaves of seedlings"
+     gene            1..2115
+                     /gene="Aldh2b"
+     CDS             174..1823
+                     /gene="Aldh2b"
+                     /note="nuclear gene encoding mitochondrial protein"
+                     /codon_start=1
+                     /product="aldehyde dehydrogenase ALDH2b"
+                     /protein_id="BAB19052.1"
+                     /db_xref="GI:11691926"
+                     /translation="MAAAAARRGSSLLSRCLLSRPAAAASPAVPSALRRADGTQGLLP
+                     GILQRFSTAAVAEEPISPPVQVNYTQLLIDGKFVDSASGKTFPTLDPRTGELIAHVAE
+                     GDAEDINRAVHAARKAFDEGPWPKMTAYERSRILLRFADLIEKHNDEIAALETWDNGK
+                     PYAQAANIEVPMVARLMRYYAGWADKIHGLVVPADGPHHVQVLHEPIGVAGQIIPWNF
+                     PLLMFAWKVGPALACGNTVVLKTAEQTPLSALFASKLLHEAGLPDGVVNVVSGFGPTA
+                     GAALASHMDVDKIAFTGSTDTGKVVLELAARSNLKSVTLELGGKSPFIIMDDADVDHA
+                     VELAHFALFFNQGQCCCAGSRTFVHERIYDEFVEKAKARALKRVVGDPFKNGVEQGPQ
+                     IDDEQFNKILRYIKYGVDSGANLVTGGDRLGDKGYYIQPTIFSDVQDNMRIAQEEIFG
+                     PVQSILKFNDLNEVIKRANASQYGLAAGVFTNNLNTANTLTRALRVGTVWVNCFDVFD
+                     AAIPFGGYKQSGIGREKGIDSLKNYLQVKAVVTPIKNAAWL"
+ORIGIN      
+        1 caaagcaaag ccgccattac tgctcctctt ccattccact ggggacgtac gagctccgcg
+       61 catcccttcc attccattac tgaccttggc tgctgcggct gcagtgcaga gggggtttgg
+      121 tggtgcggtt gatttgagca ataaattctc taggggggag ggaggtatcg gtcatggctg
+      181 ccgctgctgc aaggaggggc tcatcgctgc tctctcgctg cctgctgtcc aggcccgccg
+      241 ccgccgcctc gcctgctgtc ccctctgcgc tccgcagggc agatgggaca caaggattgt
+      301 tgccgggaat ccttcagagg ttcagcactg cagcagtagc agaggagccc atatcacccc
+      361 cagtccaagt gaactacact cagctcctca ttgatggaaa attcgttgat tcagcatctg
+      421 gcaaaacttt cccaactctg gaccctcgta ccggggagct gattgcccat gtggctgaag
+      481 gcgatgcgga ggatattaac cgtgcggttc atgcggcccg caaggctttc gatgaagggc
+      541 catggccaaa gatgactgcc tatgagagat cccggattct gttgcggttt gctgacttga
+      601 ttgagaagca caacgatgaa attgctgcat tggagacatg ggacaacggc aagccgtatg
+      661 cgcaagctgc caacattgaa gtgccaatgg tggcacggct gatgcggtac tatgctggtt
+      721 gggctgacaa gatccatggg cttgtcgtgc cggctgacgg cccacaccat gtacaggtgc
+      781 tgcacgagcc cattggtgtc gcaggtcaga tcatcccatg gaactttccg cttctgatgt
+      841 ttgcgtggaa agttggccct gctttggctt gtggaaacac tgttgtgctc aagacggctg
+      901 agcaaactcc tctgtctgct ctatttgctt ctaagctgtt gcatgaggct ggactcccag
+      961 acggtgttgt taacgtggta tctggttttg gacctactgc tggtgctgct cttgctagtc
+     1021 acatggatgt cgataagatt gcattcactg gatcgaccga tactggaaaa gtcgtccttg
+     1081 agttggctgc aaggagcaac cttaagtcag tgacactgga gctaggaggc aagtctcctt
+     1141 tcatcatcat ggatgatgct gatgttgacc atgctgttga gcttgcgcat tttgcactgt
+     1201 tctttaacca gggacaatgt tgctgtgctg ggtctcgtac atttgtgcat gagcgtatct
+     1261 atgatgagtt cgtggagaag gccaaggctc gtgctctcaa gcgtgtggtt ggtgatccat
+     1321 tcaagaatgg tgttgaacag ggccctcaga ttgatgacga gcaattcaac aagatcttgc
+     1381 gctacatcaa gtatggtgtt gacagtggag ccaaccttgt gactggtggc gacagattag
+     1441 gtgacaaagg ttactacatc cagccaacaa ttttctcgga tgtacaggat aacatgagga
+     1501 ttgctcaaga agagatattt ggccctgtgc agtccattct gaagttcaat gatctgaacg
+     1561 aggtcatcaa gagggcaaat gcaagccagt acgggctggc tgctggggtc ttcaccaaca
+     1621 acctgaacac ggccaacacc ctgacccgcg cgctcagggt cgggaccgtg tgggtgaact
+     1681 gcttcgacgt cttcgacgcc gcgatcccgt tcggcggata caagcagagc ggcatcggga
+     1741 gggagaaggg catcgacagc ctgaagaact acctgcaggt caaggccgtc gtcacgccga
+     1801 tcaagaacgc cgcgtggttg taaacacata gatgtttgga catttcagaa ctggggaaga
+     1861 aataggtata atcttatgga cggatgcgaa aatggcgata aattatggcg ataagattat
+     1921 gatgatgatg atgaagaaga agaagaggag gaggaagaac agctgaaata agcttgtcct
+     1981 agcatggggc tggcattgtc tctaataaac cttgtggttg gtgctcatgt tactgatgga
+     2041 gtatattgta gaagcagatt tatgttcatt atgaaatata tatcgcttgt ttgggataaa
+     2101 aaaaaaaaaa aaaaa
+//
+

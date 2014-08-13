@@ -1,0 +1,58 @@
+LOCUS       EU213045                 808 bp    mRNA    linear   PLN 21-OCT-2008
+DEFINITION  Oryza sativa Japonica Group peptide deformylase 1A (PDF1A) mRNA,
+            complete cds.
+ACCESSION   EU213045
+VERSION     EU213045.1  GI:164633051
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 808)
+  AUTHORS   Moon,S., Giglione,C., Lee,D.Y., An,S., Jeong,D.H., Meinnel,T. and
+            An,G.
+  TITLE     Rice peptide deformylase PDF1B is crucial for development of
+            chloroplasts
+  JOURNAL   Plant Cell Physiol. 49 (10), 1536-1546 (2008)
+   PUBMED   18718933
+REFERENCE   2  (bases 1 to 808)
+  AUTHORS   Moon,S. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-OCT-2007) Life Science, POSTECH, Hyoja Dong, Pohang
+            790-784, Korea
+FEATURES             Location/Qualifiers
+     source          1..808
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..808
+                     /gene="PDF1A"
+     CDS             4..786
+                     /gene="PDF1A"
+                     /codon_start=1
+                     /product="peptide deformylase 1A"
+                     /protein_id="ABY64739.1"
+                     /db_xref="GI:164633052"
+                     /translation="MEAHLRPLSAAALLLSPAAPLPTAVAASARRASPGGRRWSSVRA
+                     SAGGGGWLSGLLGGKGGGGAPTAMTVTPGTVKAGDPVLHEPAQDVAPGDIPSEKVQGV
+                     IDRMVAVMRKAPGVGLAAPQIGVPLKIIVLEDTQEYISYAPKKDIEAQDRRPFDLLVI
+                     INPKLKTTSKRTALFFEGCLSVDGYRALVERHLDVEVSGLDRNGRPIKVEASGWQARI
+                     LQHECDHLEGTLYVDTMVPRTFRIVDNLDLPLPVGCPPIGAR"
+ORIGIN      
+        1 gagatggaag ctcacctccg gccgctctcc gccgcggcgc tcctcctttc ccccgctgcg
+       61 ccgcttccca ccgccgttgc tgcttctgcg aggagagcat cccccggtgg caggaggtgg
+      121 agcagcgtga gggccagcgc gggcggcggg ggctggctgt cgggcctgct cggaggcaag
+      181 ggcggcggcg gcgcgccgac ggcgatgacg gtgacgccgg ggaccgtgaa ggcgggggac
+      241 cccgtcctgc acgagccggc tcaggacgtt gcccccgggg acatcccctc ggagaaggtc
+      301 cagggcgtca tcgaccggat ggtcgccgtc atgcgcaagg cccccggcgt cggcctcgcc
+      361 gccccgcaga tcggcgtccc cttgaagatt atcgtcctgg aggataccca agaatacatc
+      421 agctatgctc ccaagaagga cattgaagcg caggatcgcc gtcctttcga tcttcttgtt
+      481 atcatcaatc ctaagcttaa gacgacgagt aaaagaactg cattgttctt cgaggggtgt
+      541 ttgagtgtag atggatacag ggcacttgtc gagcgacacc tggatgttga ggtttcaggt
+      601 ttggacagga atggacgccc catcaaggta gaagcttcag gatggcaggc acgtatcctg
+      661 cagcacgaat gtgatcatct tgaaggtaca ttgtatgttg acacgatggt ccctaggaca
+      721 ttcagaattg ttgataactt ggatcttccg cttcctgttg gatgccctcc aataggtgca
+      781 cgctgaggtg gagagcattc cacatttt
+//
+

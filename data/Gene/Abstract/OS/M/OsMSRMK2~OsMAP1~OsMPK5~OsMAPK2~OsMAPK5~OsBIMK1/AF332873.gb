@@ -1,0 +1,66 @@
+LOCUS       AF332873                1424 bp    mRNA    linear   PLN 07-FEB-2001
+DEFINITION  Oryza sativa MAP kinase BIMK1 mRNA, complete cds.
+ACCESSION   AF332873
+VERSION     AF332873.1  GI:12698875
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1424)
+  AUTHORS   Song,F. and Goodman,R.M.
+  TITLE     OsBIMK1, a novel MAP kinase from rice that is involved in systemic
+            acquired resistance
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1424)
+  AUTHORS   Song,F. and Goodman,R.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-DEC-2000) Department of Plant Pathology, University
+            of Wisconsin-Madison, 1630 Linden Drive, Madison, WI 53706, USA
+FEATURES             Location/Qualifiers
+     source          1..1424
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Yuanfengzao"
+                     /db_xref="taxon:39946"
+                     /dev_stage="seedling"
+     CDS             99..1208
+                     /codon_start=1
+                     /product="MAP kinase BIMK1"
+                     /protein_id="AAK01710.1"
+                     /db_xref="GI:12698876"
+                     /translation="MDGAPVAEFRPTMTHGGRYLLYDIFGNKFEVTNKYQPPIMPIGR
+                     GAYGIVCSVMNFETREMVAIKKIANAFNNDMDAKRTLREIKLLRHLDHENIIGIRDVI
+                     PPPIPQAFNDVYIATELMDTDLHHIIRSNQELSEEHCQYFLYQILRGLKYIHSANVIH
+                     RDLKPSNLLLNANCDLKICDFGLARPSSESDMMTEYVVTRWYRAPELLLNSTDYSAAI
+                     DVWSVGCIFMELINRQPLFPGRDHMHQMRLITEVIGTPTDDELGFIRNEDARKYMRHL
+                     PQYPRRTFASMFPRVQPAALDLIERMLTFNPLQRITVEEALDHPYLERLHDIADEPIC
+                     LEPFSFDFEQKALNEDQMKQLIFNEAIEMNPNFRY"
+ORIGIN      
+        1 aattcggcac gagggcgaat cgagagagag tcagataagg tcgttaatta ggttggtcaa
+       61 ttcggctgct tgcggcgaga gaagaggagg gattagggat ggacggggcg ccggtggcgg
+      121 agttcaggcc gacgatgacg cacggcggcc ggtacctgct ctacgacatc ttcgggaaca
+      181 agttcgaggt gacgaacaag taccagccgc ccatcatgcc cattggccgc ggcgcctacg
+      241 ggatcgtctg ctccgtgatg aactttgaga cgagggagat ggtggcgata aagaagatcg
+      301 ccaacgcgtt caacaacgac atggacgcca agcgcacgct ccgggagatc aagctcctca
+      361 ggcacctcga ccacgagaac atcataggca tcagggatgt gatcccgccg ccgatccctc
+      421 aggcgttcaa cgacgtctac atcgccacgg agctcatgga caccgacctc catcacatca
+      481 tccgctccaa ccaagaactg tcagaagagc actgccagta tttcctgtac cagatcctgc
+      541 gggggctcaa gtacatccac tcggcgaacg tgatccaccg cgacctgaag ccgagcaacc
+      601 tgctgctgaa cgccaactgc gacctcaaga tctgcgactt cgggctggcg cggccgtcgt
+      661 cggagagcga catgatgacg gagtacgtgg tcacccggtg gtaccgcgcg ccggagctgc
+      721 tgctcaactc caccgactac tccgccgcca tcgacgtctg gtccgtcggc tgcatcttca
+      781 tggagctcat caaccgccag ccgctcttcc ccggcaggga ccacatgcac cagatgcgcc
+      841 tcatcaccga ggtgatcggg acgccgacgg acgacgagct ggggttcata cggaacgagg
+      901 acgcgaggaa gtacatgagg cacctgccgc agtacccgcg ccggacgttc gcgagcatgt
+      961 tcccgcgggt gcagcccgcc gcgctcgacc tcatcgagag gatgctcacc ttcaacccgc
+     1021 tgcagagaat cacagttgag gaggcgctcg atcatcctta cctagagaga ttgcacgaca
+     1081 tcgccgatga gcccatctgc ctggagccct tctccttcga cttcgagcag aaggctctaa
+     1141 acgaggacca aatgaagcag ctgatcttca acgaagcgat cgagatgaac ccaaacttcc
+     1201 ggtactagat tgaatcacca tggaaatgag atcccgtcta tacctgcttt gtacatatga
+     1261 tcaagattga gagccgggta gactgaacat tgcatttgtt tgtttgttga tgttcgaaac
+     1321 ccacattctc tgcaagttgt ggctgctttg tatgatatat ggtactatgt tcgaataaaa
+     1381 gggtttggaa ctttggatta tgaaaaaaaa aaaaaaaaaa aaaa
+//
+

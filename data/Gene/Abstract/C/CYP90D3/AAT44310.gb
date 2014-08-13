@@ -1,0 +1,69 @@
+LOCUS       AAT44310                 503 aa            linear   PLN 09-JUN-2004
+DEFINITION  putative cytochrome P450 [Oryza sativa Japonica Group].
+ACCESSION   AAT44310
+VERSION     AAT44310.1  GI:48475241
+DBSOURCE    accession AC130732.2
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 503)
+  AUTHORS   Chow,T.-Y., Hsing,Y.-I.C., Chen,C.-S., Chen,H.-H., Liu,S.-M.,
+            Chao,Y.-T., Chang,S.-J., Chen,H.-C., Chen,S.-K., Chen,T.-R.,
+            Chen,Y.-L., Cheng,C.-H., Chung,C.-I., Han,S.-Y., Hsiao,S.-H.,
+            Hsiung,J.-N., Hsu,C.-H., Huang,J.-J., Kau,P.-I., Lee,M.-C.,
+            Leu,H.-L., Li,Y.-F., Lin,S.-J., Lin,Y.-C., Wu,S.-W., Yu,C.-Y.,
+            Yu,S.-W., Wu,H.-P. and Shaw,J.-F.
+  TITLE     Oryza sativa PAC P0708D12 genomic sequence
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 503)
+  AUTHORS   Chow,T.-Y. and Hsing,Y.-I.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-AUG-2002) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   3  (residues 1 to 503)
+  AUTHORS   Chow,T.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-OCT-2003) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   4  (residues 1 to 503)
+  AUTHORS   Chow,T.-Y. and Hsing,Y.-I.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2004) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..503
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="5"
+                     /clone="P0708D12"
+     Protein         1..503
+                     /product="putative cytochrome P450"
+     Region          42..503
+                     /region_name="p450"
+                     /note="Cytochrome P450; cl12078"
+                     /db_xref="CDD:264539"
+     CDS             1..503
+                     /gene="P0708D12.2"
+                     /coded_by="join(AC130732.2:16346..16584,
+                     AC130732.2:16691..17033,AC130732.2:17729..17878,
+                     AC130732.2:17995..18261,AC130732.2:19542..19631,
+                     AC130732.2:20157..20491,AC130732.2:21132..21219)"
+                     /note="'similar to rice EST CB662247, AK101670'"
+                     /db_xref="UniProtKB/TrEMBL:Q94IW5"
+ORIGIN      
+        1 mqplaagggv swplyaatva aallvtaivl rlaarstaaa ckarppagsl gwplvgetlq
+       61 fisaayssrp esfvekrcrr ygkvfrshlw gspavvsada easravlqsd asafvpwypr
+      121 slmelmgess ilvlggalqr rvhglagaff kspelkarvt admrsrlaaa mdawrataat
+      181 gagaavrvqd eaklivfeil vraligleqg qemnylrqqf hifiaglisl piklpgtqly
+      241 rslkakkrmt sliqniiqek rrrifegkdl cavsrdlidv lmsngsdels ltdelisdnm
+      301 idfmipaeds vpvlitlaik ylsecplalq qleeenmelk rqksdvgetl ewtdymsltf
+      361 tqhvitetlr igniisgimr kavrdvevkg qgdvvipkgw cvlvyfrsvh ldaniyddpy
+      421 afnpwrwker dmaaatansg sgftpfgggq rlcpgldlar lqtsiflhhl vtnftwvaqg
+      481 dvvvnfptvr lkrgmpikvt pkt
+//
+

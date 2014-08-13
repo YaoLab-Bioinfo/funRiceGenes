@@ -1,0 +1,122 @@
+LOCUS       BK004856                4000 bp    DNA     linear   PLN 03-FEB-2006
+DEFINITION  TPA_exp: Oryza sativa (japonica cultivar-group) growth-regulating
+            factor 1 (GRF1) gene, complete cds.
+ACCESSION   BK004856
+VERSION     BK004856.1  GI:51039830
+KEYWORDS    Third Party Data; TPA; TPA:experimental.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 4000)
+  AUTHORS   Choi,D., Kim,J.H. and Kende,H.
+  TITLE     Whole genome analysis of the OsGRF gene family encoding
+            plant-specific putative transcription activators in rice (Oryza
+            sativa L.)
+  JOURNAL   Plant Cell Physiol. 45 (7), 897-904 (2004)
+   PUBMED   15295073
+REFERENCE   2  (bases 1 to 4000)
+  AUTHORS   Choi,D. and Kende,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JAN-2004) MSU-DOE Plant Research Laboratory, Michigan
+            State University, East Lansing, MI 48824, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-4000              AP005538.2         18982-22981
+FEATURES             Location/Qualifiers
+     source          1..4000
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+     gene            <1709..>3113
+                     /gene="GRF1"
+     mRNA            join(<1709..1931,2028..2990,3106..>3113)
+                     /gene="GRF1"
+                     /product="growth-regulating factor 1"
+     CDS             join(1709..1931,2028..2990,3106..3113)
+                     /gene="GRF1"
+                     /note="putative transcription regulator; OsGRF1"
+                     /codon_start=1
+                     /product="growth-regulating factor 1"
+                     /protein_id="DAA05205.1"
+                     /db_xref="GI:51039831"
+                     /translation="MMMMSGRPSGGAGGGRYPFTASQWQELEHQALIYKYMASGTPIP
+                     SDLILPLRRSFLLDSALATSPSLAFPPQPSLGWGCFGMGFGRKAEDPEPGRCRRTDGK
+                     KWRCSKEAYPDSKYCEKHMHRGKNRSRKPVEMSLATPPPPSSSATSAASNTSAGVAPT
+                     TTTTSSPAPSYSRPAPHDAAPYQALYGGPYAAATARTPAAAAYHAQVSPFHLQLDTTH
+                     PHPPPSYYSMDHKEYAYGHATKEVHGEHAFFSDGTEREHHHAAAGHGQWQFKQLGMEP
+                     KQSTTPLFPGAGYGHTAASPYAIDLSKEDDDEKERRQQQQQQQQQHCFLLGADLRLEK
+                     PAGHDHAAAAQKPLRHFFDEWPHEKNSKGSWMGLEGETQLSMSIPMAANDLPITTTSR
+                     YHNDD"
+ORIGIN      
+        1 aaacgagtcc tgagaatgaa agtgattgac taaaaactat tatggccgag tttagtttca
+       61 aagttttctt caaacttcca actttttcat cacatcaaaa cttttctaca cacaaacttt
+      121 caacttttcc gtcacattgt tacaatttca actaaggctg tgtttagttc acaccaaaat
+      181 tagaagtttg gttgaaatat gaacaatgtg atggaaaagt tggaagttcg tgtgtaggaa
+      241 agttttgata tgatggaaaa gtcaaaagtt tgaacaatta ttttcgaact aaacacggag
+      301 taaacttcca attttatcat gaactaaaca caccctatgt gtaaatgtct cactgttaat
+      361 gagaagtgaa agatctataa atttctatcc ggcctagaaa cagttgaagt aataacatca
+      421 ctaccttaac taaagatgtt gggttttttt ttaaaaaaaa acacattata aacgtacacc
+      481 cacctgtaaa catatacact cactttgcat attcggttat attccgacaa tataaatggc
+      541 aaaacttgaa aggtgccatg catagggaaa aaaactgtca tgctaaacag gaaaatacat
+      601 acttggtgtc aactacttcg tgggttatta tattttgacg aacgcattag tgttaattca
+      661 cactataata tatttgttga aatacttttc actaaaaaca ccctaatcgc tgaagcggta
+      721 aaaaaagatt agatcttatt tggactatag ggctcgtata atatgtttga tatgtcattt
+      781 taaagtttaa ttaattagat aattaccttc tagtttacaa atgtctagaa cttcaataac
+      841 atatctggtt catatgatgt cacaataaaa tgccagtccg agtgattttc tttctaaccg
+      901 tcgtctaagc cgtacatacg taaaatactc catttgtttc taaatatttg acaccgttga
+      961 ctttttagca catatttgac cgtttgtctt tttcaaaaac ttttgtgaaa tatgtaaaac
+     1021 tatatgtata catataagta tatttaacaa taaatcaaat gatagaaaaa gaattaataa
+     1081 ttacttaaat tttttaaata atactaatgg ttaaacgtat ttaaaaaaat cgatggcgtc
+     1141 aaatatttag aaacggaggg agtatatata agttagactc atgataatcc aactctatac
+     1201 gttaatattg caattttaaa aggtaaaata tactttttat gcaggactaa ttgactgtat
+     1261 tgaaagatag ttgatgcatt tacgtagtag tacagtaacg ttttatagaa ttcacattcg
+     1321 tttaattaaa acccaccgtt tattaattag aaaatgtatt aataaatggc cgaaacctga
+     1381 tatttttggc aggcaggagc gcatttcgca gtattaccct cgggttttct tctggatccg
+     1441 gaaacagcct ccggctcgca agtcttaaat gcgcacggac gtcgcttccc accctcaccc
+     1501 cacccttccc cgcccattac aaaaccccag ccaccgagag ctctcccgct ccactcgccg
+     1561 cacaccacca ccctcacccc tccccccatc cgcgtgatct cccgagcagc tagagcgcgc
+     1621 gcccgcggcg cctgtactgc gagaccgctt cgctcgcttc cggtcggtga agaggcggtc
+     1681 ggtcgcagct gaagtagttg ttgcagagat gatgatgatg agcggtcgcc cgagcggcgg
+     1741 cgccggcgga ggtcggtacc cgttcacggc gtcgcagtgg caggagctgg agcaccaggc
+     1801 gctcatctac aagtacatgg cgtccgggac tcccatcccc tccgacctca tcctccccct
+     1861 ccgccgcagc ttcctcctcg actccgccct cgccacctcc ccttccctcg ccttccctcc
+     1921 ccaaccttca cgtacgttac acacatcctc ctccacgtac gtacgtacgc gttgttgccg
+     1981 atgctaacaa agtccatatt gtgattggtg ttttctttgg aatgcagtgg ggtggggttg
+     2041 ctttggcatg gggtttgggc ggaaggcgga ggacccggag ccagggcgat gccggcgtac
+     2101 ggacggcaag aagtggcggt gctccaagga ggcgtacccg gactccaagt actgcgagaa
+     2161 gcacatgcac cgtggcaaga accgttcaag aaagcctgtg gaaatgtcct tggccacgcc
+     2221 gccgccgccg tcctcctccg ccacctccgc cgcgtcgaac acctccgccg gcgtngcccc
+     2281 caccaccacc accacctcct ccccggcgcc ctcctacagc cgcccggcgc cgcacgacgc
+     2341 ggcgccgtac caggcgctct acggcgggcc ctacgccgcg gccaccgcgc gcacccccgc
+     2401 cgccgcggcg taccacgcgc aggtgagccc gttccacctc cagctcgaca ccacccaccc
+     2461 gcacccgccg ccgtcctact actccatgga ccacaaggag tacgcgtacg ggcacgccac
+     2521 caaggaggtg cacggcgagc acgccttctt ctccgatggc accgagaggg agcaccacca
+     2581 cgccgccgcc gggcacggcc agtggcagtt caagcagctc ggcatggagc ccaagcagag
+     2641 caccacgcct ctcttcccgg gcgccggcta cggccacacc gcggcgtcgc cgtacgccat
+     2701 tgatctttca aaagaggacg acgatgagaa agagaggcgg caacagcagc agcagcagca
+     2761 gcagcagcac tgcttcctcc tgggcgccga cctccgtctg gagaagccgg cgggccacga
+     2821 ccacgcggcg gcggcgcaga aacctctccg ccacttcttc gacgagtggc cgcatgagaa
+     2881 gaacagcaag ggctcctgga tggggctcga aggcgagacg cagctgtcca tgtccatccc
+     2941 catggccgcc aacgacctcc cgatcaccac cacctcccgc taccacaatg gtgcgtagag
+     3001 tactaacctt cgtctccact gatcagaacc gtttcttgat tcttatggcg agccgtgctg
+     3061 acgatgatcc aacttgcttc ctgtttggtc ttgtgcaatc tgcagatgat taatctcttg
+     3121 aagaagccaa gaagtgatca acacgcggaa gaaatcaaca gcttctttca cggcgtgcga
+     3181 gctgcatgct gatgctccag gatcgatcga tcgatcattg catctccaaa ctaatcacgc
+     3241 ttcgatcttt caggacttca tcaatgacag gccgaaacct cctacgagtt ctctgatgat
+     3301 attcttattt ttttcccact tcttttcgtt gagctttttg taatgttgct tcgagtgtta
+     3361 ctcctacatt ttctccgaaa tggcctcaga atgatgcggt cgggctgatt aattaggtta
+     3421 gactcttcct gaaccaacta ggaatagatt ttctgcctgg ttcctgtcag tccttgtaat
+     3481 atctgcagca gcttgtgaga caagcgtgtt cgcttttgtg aacgcccttt ttcttctttc
+     3541 cgattcctct gcctgtgata gtactcgctc cgaaaaaaaa aaaaaaagca aaccgtggat
+     3601 tcttgggtca acgtgtccgt tttatattgt ccgttttata tgaaattttt ttataattaa
+     3661 aatttctatt gttgttagat gataaaacat gattaatatg tgacttattt tttttatata
+     3721 ttttttttaa ataagacgga cggtcgacac ggtttttttt ttttttaaga aggagggagt
+     3781 aagtcacatc tctggattct gctgaaaagc tcactagcgc catcctgctt cagagaatac
+     3841 tttatgcttt ctgacaagtc ggtgtaggag tagtagtatt gctaggtgta ctccactccc
+     3901 ctccttaagt acattaccag tgcaacgtaa aacagctttg ctcctgagca acggaaatgc
+     3961 ttaataccgt actcttgcac ttcgtcagtt ggttgagtac
+//
+

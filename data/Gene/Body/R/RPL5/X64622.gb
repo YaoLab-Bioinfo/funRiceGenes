@@ -1,0 +1,53 @@
+LOCUS       X64622                  1114 bp    DNA     linear   PLN 06-JUN-2003
+DEFINITION  O.sativa Rrl5 mRNA for 5S ribosomal RNA.
+ACCESSION   X64622
+VERSION     X64622.1  GI:20163
+KEYWORDS    5S ribosomal RNA; ribosomal RNA.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kim,J.K. and Wu,R.
+  TITLE     A rice (Oryza sativa L.) cDNA encodes a protein sequence homologous
+            to the eukaryotic ribosomal 5S RNA-binding protein
+  JOURNAL   Plant Mol. Biol. 23 (2), 409-413 (1993)
+   PUBMED   8219074
+REFERENCE   2  (bases 1 to 1114)
+  AUTHORS   Kim,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-FEB-1992) J. Kim, Cornell University, Section of
+            Biochemistry, Cell and Mol Biology, Ithaca NY 14853, USA
+FEATURES             Location/Qualifiers
+     source          1..1114
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /clone="Rrl5"
+                     /clone_lib="IR36 aleurone cDNA library"
+     rRNA            <1..882
+                     /product="5S ribosomal RNA"
+ORIGIN      
+        1 atgggagggt ttgtcaagac ccagaagacc aatgcctact acaagcgttt ccaagtcaag
+       61 ttcaagagac ggaggcaggg caagactgac tacagggcca ggattaggct caccaaccaa
+      121 gataagaaca agtacaacac accgaagtac cgcttcgttg tgagatttac aaacaaagat
+      181 atcacagctc aaattgtcta tgctaccatt gctggtgata tcgtgatggc tgctgcctac
+      241 tcccatgagc tgcctcgcta tggtcttgaa gttggtctca ccaactatgc ggcagcttat
+      301 tgcactggct tgcttttggc tcgccgtgtg ctcaagctcc gtggtttgga ccaggagtac
+      361 gagggcaata ttgaggccac tggggaggac tactatgttg aaccagctga tgaaaggcgg
+      421 cctttccgtg ctctcttgga tgttggcctc attaggacaa ccactggaaa ccgtgtcttt
+      481 ggtgccctca agggagcttt ggatggtggt cttgacattc ctcacagtga caagaggttt
+      541 gctgggttca agaaggacga gaagcagctt gattctgata ttcaccgcaa gtacatctac
+      601 ggtgggcacg tggctgacta catgaggtct atggcggagg aggaacctga gaaattccaa
+      661 gcccacttca gtgagtacct caagaaggga attgatgctg atggcatgga agcactgtac
+      721 aagaaggtcc atgctgccat ccgtgctgat ccctaccatg gccaaatcaa ccaagaagga
+      781 accggcgacc cacaagagat acaacctcaa gaagctaacc tacgaacaga ggaaggccag
+      841 tcttgtcgaa agattgaatg ctctcaactc ctctgctggt gctgatgatg atgacgagga
+      901 agaggatgat gagtgaaaga gtttagcctt atcacagtag ttccatcttt atgctgccaa
+      961 acaaactcca tatggttaag ttcacctgta tagtcttgca agttgcaaca ggcatttttg
+     1021 tttatgttcg gaactccgct caaagaacct atttctttcg gtttttggtt ctcaacctgg
+     1081 agtgtgagaa gctgccgttt ggataaaaaa aaaa
+//
+

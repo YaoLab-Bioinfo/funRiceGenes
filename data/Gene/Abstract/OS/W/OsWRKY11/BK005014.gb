@@ -1,0 +1,91 @@
+LOCUS       BK005014                2223 bp    DNA     linear   PLN 17-MAR-2006
+DEFINITION  TPA_inf: Oryza sativa (japonica cultivar-group) WRKY transcription
+            factor 11 (WRKY11) gene, complete cds.
+ACCESSION   BK005014
+VERSION     BK005014.1  GI:46394275
+KEYWORDS    Third Party Data; TPA; TPA:inferential.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2223)
+  AUTHORS   Zhang,Z.L., Xie,Z., Zou,X., Casaretto,J., Ho,T.H. and Shen,Q.J.
+  TITLE     A rice WRKY gene encodes a transcriptional repressor of the
+            gibberellin signaling pathway in aleurone cells
+  JOURNAL   Plant Physiol. 134 (4), 1500-1513 (2004)
+   PUBMED   15047897
+REFERENCE   2  (bases 1 to 2223)
+  AUTHORS   Zhang,Z.-L., Xie,Z., Zou,X., Casaretto,J., Ho,T.-h.D. and Shen,Q.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2004) Department of Biological Sciences,
+            University of Nevada, Las Vegas, 4505 Maryland Parkway, Las Vegas,
+            NV 89154, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-2223              AP002744.2         78180-80402
+FEATURES             Location/Qualifiers
+     source          1..2223
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <1..>2223
+                     /gene="WRKY11"
+                     /note="OsWRKY11"
+     mRNA            join(<1..530,1451..1594,1758..>2223)
+                     /gene="WRKY11"
+                     /product="WRKY transcription factor 11"
+     CDS             join(1..530,1451..1594,1758..2223)
+                     /gene="WRKY11"
+                     /codon_start=1
+                     /product="WRKY transcription factor 11"
+                     /protein_id="DAA05076.1"
+                     /db_xref="GI:46394276"
+                     /translation="MSSGGGGGGGGDRHGPYHQHGHLGRGEGADYVYSSSDMESFFFS
+                     QPGGVGIGGGGGGVVGAGGADEIMPYSSITDYLQGLLDPSGLARHLDVACPSSQDTVV
+                     KQELSVDVTSHDSQGTGGVAGEGVAQATPNSSASFSSSDGEAEGGKSSRRCKKGQAKA
+                     EEEDDKDEEDGENSKKPNKPKKKAEKRQRQPRVAFLTKSEVDHLEDGYRWRKYGQKAV
+                     KNSPYPRSYYRCTTPKCGVKKRVERSYQDPSTVITTYEGQHTHHSPASLRGGGGGVGI
+                     VGGHHHHHLFMPGVHGLPPSHLMPAGFHPELMGLMHHHPAMAAAAANPSMYFPGVAAS
+                     APPPPAVAGGGAMPPNDHPPLQQHHFTDYALLQDLFPSTMPSSNP"
+ORIGIN      
+        1 atgtcttctg gaggaggagg aggaggagga ggagatcgcc atggccccta ccaccagcac
+       61 gggcacctcg gccgcggcga aggcgctgat tacgtgtaca gcagcagcga catggagagc
+      121 ttcttcttca gccaacccgg gggcgtcggc atcggcgggg gtggtggtgg cgtcgtcggc
+      181 gccggcggtg ccgacgagat catgccgtac tccagcatca cggactacct gcaggggtta
+      241 ttggacccct ccgggctagc tcggcacctc gacgtggcgt gcccgtcgtc tcaggacacg
+      301 gtggtcaagc aggagctgtc ggtggatgtg acgagccacg acagccaggg caccggcggc
+      361 gtcgccggag aaggcgtcgc gcaggccacg ccgaactcgt cggcgtcctt ctcgtccagc
+      421 gacggagagg cggagggcgg caaatcgtca cgccggtgca agaagggtca ggcgaaggcg
+      481 gaggaggagg acgacaagga tgaggaggat ggagagaact ccaagaaacc gtatgttaaa
+      541 tttccattga ttctactcta tactttgtct gattcttgtc ttgatttctt gcttgattaa
+      601 ttcttttttg atgcgtgtct tgagatgggg atactttctt ggggctagat ctggttggtc
+      661 atactgttgc ggagttgcaa aatttgacct gaaattttct ttcgtttatg ctttctctct
+      721 actgcatgca tggtgtgaac attagggttt gctagaattt tggttcctta gggttctttt
+      781 tagtagatcc gtctatcctc ttgttcccct tttcttctga ttccgttttg acccaatttc
+      841 caatatgatc tttcagacga tggggctact actattcgat ttaatttaat agacaaccaa
+      901 cctatgctcc ataatagatc ttgcgtagaa tgaatcaatt ttacgagtta tagcttcaat
+      961 ttttgacttg ctaggtcttt gaagattata ttatgatttc cccttttaga aatgattcaa
+     1021 attaagatat attttcgtat caccaccaac cacctaaatc tacaatagtt cctcagtact
+     1081 tttgcaaaat taacgctgat cttgccccat aacatgcaat ccaacagata tctagctagc
+     1141 tagctaactt attagaccct aattaatact atatatcaaa ataacaacta tttctagcaa
+     1201 aacctggtgc taatctaaca tgaaatagct agctattccc atagtccacc atgatcctac
+     1261 ctatctagca agctagttag ctagtttgat tgttggtgct ctgaaaaagc ccaaactaat
+     1321 taataattag gcctgattga gcttgtcacc gcagaaatat caactgatct tctgaatcca
+     1381 tatcatctct ctgtttctag ctaatccacc tgaccttatt tttgatattt tgtaccatgc
+     1441 atctacacag gaacaagccc aagaagaaag ctgagaagag gcagcggcag cctcgcgtgg
+     1501 cgttcctcac caagagcgag gttgatcacc tcgaggacgg ctaccggtgg cgcaagtacg
+     1561 gccagaaggc agtcaagaac agcccatacc cgaggtacac atctatatac atgtacaaac
+     1621 cttaatttca cccagttgtt gtagcacata catatatcgt agtataccat gttactgtgc
+     1681 catacaattg catggcacga tggtgttcaa gtactccaat ttcaaaatgc aattcaattc
+     1741 gaattcgaat attgcaggag ctactaccgg tgcacgacgc ccaagtgcgg tgtgaagaag
+     1801 cgggtggagc ggtcgtacca ggacccctcc acggtgatca ccacgtacga agggcagcac
+     1861 acgcaccaca gcccggcgag cctccgcggc ggcggcggcg gcgtcggcat cgtcggaggg
+     1921 caccaccacc accacctctt catgcccggc gtgcatggcc tgccgccgtc gcacctcatg
+     1981 ccggcggggt tccaccctga gctgatgggc ctcatgcacc accacccggc catggccgcc
+     2041 gccgccgcaa accctagcat gtacttcccg ggcgtagctg cttctgctcc gccgcctcct
+     2101 gctgtggctg gcggcggtgc aatgccgccc aacgatcatc ctcctcttca gcagcatcac
+     2161 ttcactgact acgccctgct gcaagacctt ttcccttcca caatgcccag cagcaaccca
+     2221 tga
+//
+

@@ -1,0 +1,78 @@
+LOCUS       AJ549926                1146 bp    mRNA    linear   PLN 04-DEC-2006
+DEFINITION  Oryza sativa Indica Group mRNA for putative topoisomerase VI
+            subunit A (spo11-1 gene).
+ACCESSION   AJ549926
+VERSION     AJ549926.1  GI:53127613
+KEYWORDS    spo11-1 gene; topoisomerase VI subunit A.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Jain,M., Tyagi,A.K. and Khurana,J.P.
+  TITLE     Overexpression of putative topoisomerase 6 genes from rice confers
+            stress tolerance in transgenic Arabidopsis plants
+  JOURNAL   FEBS J. 273 (23), 5245-5260 (2006)
+   PUBMED   17116242
+REFERENCE   2
+  AUTHORS   Jain,M. and Khurana,J.P.
+  TITLE     Isolation and characterization of the topoisomerase VI subunit A
+            (SPO11-1) gene from rice (Oryza sativa indica)
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1146)
+  AUTHORS   Jain,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAR-2003) Jain M., Department of Plant Molecular
+            Biology, University of Delhi South Campus, Benito Juarez Marg, New
+            Delhi-110021, INDIA
+FEATURES             Location/Qualifiers
+     source          1..1146
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pusa Basmati 1"
+                     /db_xref="taxon:39946"
+     gene            1..1146
+                     /gene="spo11-1"
+     CDS             1..1146
+                     /gene="spo11-1"
+                     /codon_start=1
+                     /product="putative topoisomerase VI subunit A"
+                     /protein_id="CAD71263.1"
+                     /db_xref="GI:53127614"
+                     /db_xref="GOA:Q5ZPV8"
+                     /db_xref="InterPro:IPR002815"
+                     /db_xref="InterPro:IPR011991"
+                     /db_xref="InterPro:IPR013048"
+                     /db_xref="InterPro:IPR013049"
+                     /db_xref="UniProtKB/TrEMBL:Q5ZPV8"
+                     /translation="MAGREKRRRVAALDGEERRRRQEEAATLLHRIRGLVRWVVAEVA
+                     AGRSPTVALHRYQNYCSSASAAAASPCACSYDVPVGTDVLSLLHRGSHASRLNVLLRV
+                     LLVVQQLLQQNKHCSKRDIYYMYPSIFQEQAVVDRAINDICVLFKCSRHNLNVVPVAK
+                     GLVMGWIRFLEGEKEVYCVTNVNAAFSIPVSIEAIKDVVSVADYILIVEKETVFQRLA
+                     NDKFCERNRCIVITGRGYPDIPTRRFLRYLVEQLHLPVYCLVDADPYGFDILATYKFG
+                     SLQLAYDANFLRVPDIRWLGVFTSDFEDYRLPDCCLLHLSSEDRRKAEGILSRCYLHR
+                     EAPQWRLELEAMLQKGVKFEIEALSACSISFLSEEYIPKKIKQGRHI"
+ORIGIN      
+        1 atggcgggga gggagaagag gcggcgggtg gcggcgctcg acggcgaaga gcggcggcgg
+       61 cggcaggagg aagcggcgac cctcctccac aggatcagag ggttggtgcg ctgggtcgtc
+      121 gccgaggtcg ccgccggccg ctccccgacc gtcgcgctcc accgctacca gaactactgc
+      181 tcctccgcct ccgccgccgc cgcgtcccca tgcgcctgca gctacgacgt ccccgtgggc
+      241 acagatgtac tctcgctcct ccaccggggc tcccacgcct cccggctcaa tgtgctcctc
+      301 agggttcttc tcgtcgtgca gcaactcctg cagcagaaca agcactgctc caagagggac
+      361 atctactaca tgtacccctc catattccaa gaacaagcgg ttgttgaccg tgcaatcaat
+      421 gatatatgcg tactcttcaa gtgcagccgg cacaatctca atgtggttcc tgtggcaaaa
+      481 ggcttggtga tgggctggat tagattttta gagggagaaa aggaagtcta ttgtgtaacg
+      541 aatgtcaatg ctgccttctc tatcccagtt agcatcgaag caataaaaga tgttgttagt
+      601 gttgcggact acatacttat tgtcgagaag gagacagtgt ttcaacgttt ggctaatgac
+      661 aagttctgtg aaaggaatcg ctgcattgtg attacaggaa gaggctaccc agatattcca
+      721 acaagaagat tcttgcgcta ccttgttgaa cagctgcatt tgccagttta ctgtttggtg
+      781 gatgcagacc cttatggttt cgacattctg gctacctaca aatttggttc actgcaattg
+      841 gcatacgatg caaatttcct gcgtgtgcct gatattcggt ggcttggggt cttcacatct
+      901 gattttgagg attatcgcct tccagactgc tgcctacttc acttgtcgtc tgaagacaga
+      961 aggaaagctg aaggaattct ctcaaggtgt tacttgcaca gggaagcccc acaatggagg
+     1021 ttggagttag aagccatgtt gcaaaagggt gtcaaatttg agattgaggc gttatctgca
+     1081 tgttccattt cctttttatc agaagagtac attcccaaga agatcaaaca aggaagacat
+     1141 atataa
+//
+

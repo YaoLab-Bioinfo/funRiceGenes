@@ -1,0 +1,69 @@
+LOCUS       OSU50333                1598 bp    mRNA    linear   PLN 28-FEB-1997
+DEFINITION  Oryza sativa gibberellin C-20 oxidase mRNA, complete cds.
+ACCESSION   U50333
+VERSION     U50333.1  GI:1854636
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1598)
+  AUTHORS   Toyomasu,T., Kawaide,H., Sekimoto,H., von Numers,C., Phillips,A.,
+            Hedden,Y. and Kamiya,Y.
+  TITLE     Cloning and characterization of a cDNA encoding gibberellin
+            20-oxidase from rice (Oryza sativa L.) seedlings
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1598)
+  AUTHORS   Kamiya,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-FEB-1996) Yuji Kamiya, Plant Hormone Function,
+            Frontier Research Program, RIKEN, Hirosawa 2-1, Wako-shi, Saitama
+            351-01, Japan
+FEATURES             Location/Qualifiers
+     source          1..1598
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             170..1285
+                     /codon_start=1
+                     /product="gibberellin C-20 oxidase"
+                     /protein_id="AAB48239.1"
+                     /db_xref="GI:1854637"
+                     /translation="MSMVVQQEQEVVFDAAVLSGQTEIPSQFIWPAEESPGSVAVEEL
+                     EVALIDVGAGAERSSVVRQVGEACERHGFFLVVNHGIEAALLEEAHRCMDAFFTLPLG
+                     EKQRRSGARGRTAYASSFTGRFASKLPWKETLSFRYSSAGDEEGEEGVGEYLVRKLGA
+                     EHGRRLGEVYSRYCHEMSRLSLELMEVLGESLGIVGDRRHYFRRFFQRNDSIMRLNYY
+                     PACQRPLDTLGTGPHCDPTSLTILHQDHVGGLEVWAEGRWRAIRPRPGALVVNVGDTF
+                     MALSNARYRSCLHRAVVNSTAPRRSLAFFLCPEMDTVVRPPEELVDDHHPRVYPDFTW
+                     RALLDFTQRHYRADMRTFQAFSDWLNHHRHLQPTIYS"
+ORIGIN      
+        1 tggtcgatcc agcggctggg gatgagtact tagttagctc ggagctagct actaatggat
+       61 gatatactta tgctagttag ttaaatacag ttattagtta gttgtaggtt gcatctatca
+      121 tatctccatc ggttaattaa ttgattgata gctagattat caacaattaa tgagcatggt
+      181 ggtgcagcag gagcaggagg tggtgttcga cgcggcggtg ctgagcgggc agacggagat
+      241 cccgtcgcag ttcatatggc cggcggagga gagccccggg tcggtggcgg tggaggagct
+      301 ggaggtggcg ctgatcgacg tgggggcggg ggcggagagg tcgtcggtgg tccggcaggt
+      361 gggggaggcg tgcgagaggc acggcttctt cctggtggtt aaccacggca tcgaggcggc
+      421 gctgctggag gaggcgcacc ggtgcatgga cgccttcttc acgctgccgc tgggggagaa
+      481 gcagcggcgc agcggcgcgc gggggagaac tgcgtacgcc agcagcttca cggggcgctt
+      541 cgcgtccaag ctgccgtgga aggagacgct gtcgttccgg tactcatcgg ctggagatga
+      601 agagggcgag gagggcgtgg gtgagtacct ggtgcggaag ctcggggcgg agcacgggcg
+      661 gcggctgggc gaggtgtact cgcgctactg ccacgagatg agccgcctgt cgctggagct
+      721 gatggaggtg ctcggggaga gcctgggcat cgtcggagac cggcgccact acttccggcg
+      781 attcttccag cgcaacgact ccatcatgcg cctcaactac tacccggcgt gccagaggcc
+      841 actcgacacg ctgggcaccg gtccgcactg cgaccccacc tcgctcacca tcctccacca
+      901 ggaccacgtc ggcggcctgg aggtgtgggc ggaggggcgg tggcgcgcca tccgccctcg
+      961 ccccggggcg ctcgtcgtca acgtcggcga caccttcatg gcgctctcca acgccaggta
+     1021 ccgcagctgc ctgcaccggg cggtcgtcaa cagcacggcg cctcgccgct cgctggcctt
+     1081 cttcctctgc ccggagatgg acacggtggt gcgcccgccg gaggagctgg tcgacgacca
+     1141 ccacccgagg gtgtacccgg acttcacgtg gcgggcgctg ctggacttca cgcagcgcca
+     1201 ctacagggcc gacatgcgca cgtttcaggc cttctccgac tggcttaatc atcatcgtca
+     1261 cctgcaacca acaatatact cctagctcct agtcctagct atatactcct attatccatc
+     1321 catccatcca tcttacacta ctataccatt agcatcgatc gatcatccat taattaatta
+     1381 attaattact agttccggct tagatatata tctggcgatt atttcagttc ctagctactc
+     1441 ctacatgcat gctttgctta attagatcta tctatctaat ctatcccggc cggcctgttt
+     1501 taattccata tatcatttgg tttgcacgta cccatctatg atctatatat acatgcatgt
+     1561 cgactattgt tggtcgtacg atattatatt atatataa
+//
+

@@ -1,0 +1,56 @@
+LOCUS       DQ912176                 825 bp    mRNA    linear   PLN 21-MAY-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) acid phosphatase mRNA,
+            complete cds.
+ACCESSION   DQ912176
+VERSION     DQ912176.1  GI:115361862
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 825)
+  AUTHORS   Hur,Y.J., Lee,H.G., Jeon,E.J., Lee,Y.Y., Nam,M.H., Yi,G., Eun,M.Y.,
+            Nam,J., Lee,J.H. and Kim,D.H.
+  TITLE     A phosphate starvation-induced acid phosphatase from Oryza sativa:
+            phosphate regulation and transgenic expression
+  JOURNAL   Biotechnol. Lett. 29 (5), 829-835 (2007)
+   PUBMED   17415667
+REFERENCE   2  (bases 1 to 825)
+  AUTHORS   Kim,D.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-2006) College of Natural Resources and Life
+            Science, Dong-A University, #840 Hadan 2dong Sahagu, Busan 604-714,
+            Korea
+FEATURES             Location/Qualifiers
+     source          1..825
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             1..825
+                     /codon_start=1
+                     /product="acid phosphatase"
+                     /protein_id="ABI95993.1"
+                     /db_xref="GI:115361863"
+                     /translation="MAGIVVVFDFDKTIIDVDSDNWVVDGLGTTEEFERLLPTMPWNT
+                     LMDTMMGELHASGKSLADVAGVLRSAPLDPRVVAAIKACYGLGCDLRILSDANRFFID
+                     TILDHHGLTGYFSEINTNPSAVDAATGRLRIAPYHDFHAGPHGCGLGICPPNMCKGQV
+                     LDRIRASAGAAGKRVIYLGDGRGDYCPSLRLGRDDFMMPRRGFPVWELICEDPSLLHA
+                     EVHSWADGAEMEETLLRLVGRVLLEERNLPPLDCKLESLPAVAVQDGMPMTLRIKN"
+ORIGIN      
+        1 atggccggga tcgtggtggt gttcgacttc gacaagacga tcatcgacgt cgacagcgac
+       61 aactgggtcg tggacgggct cggcacgacg gaggagttcg agcggctgct gcccaccatg
+      121 ccgtggaaca ccctcatgga caccatgatg ggcgagctcc acgcgagcgg caagtcgctc
+      181 gccgacgtcg cgggcgtgct caggtcggcg ccgctcgacc cgcgcgtcgt cgccgccatc
+      241 aaggcctgct acggcctggg ctgcgacctc cggatcctca gcgacgccaa ccgcttcttc
+      301 atcgacacca tcctcgacca ccacggcctc acgggttact tctccgagat caacaccaac
+      361 ccgagcgccg tcgacgccgc caccggccgc ctccgcatcg cgccgtacca cgacttccac
+      421 gccggcccgc acgggtgcgg cctcgggatc tgcccgccca acatgtgcaa gggccaggtg
+      481 ctcgaccgca tccgcgcctc cgccggcgcc gccggcaaga gggtcatcta cctcggtgac
+      541 ggccgcggcg actactgccc gtcgctccgc ctcggccgcg acgacttcat gatgccacgc
+      601 aggggcttcc ccgtgtggga gctcatctgc gaggacccgt cgctgctcca cgcggaggtg
+      661 cactcgtggg ccgacggcgc cgagatggag gagacgctgc tgcggctggt cggcagggtg
+      721 ctcctcgagg agaggaacct gccgccgctc gactgcaagc tcgagtcgtt gccggccgtc
+      781 gccgtgcagg acggcatgcc catgacgctc cggatcaaga actga
+//
+

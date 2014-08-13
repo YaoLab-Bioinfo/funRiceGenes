@@ -1,0 +1,70 @@
+LOCUS       AB111867                1294 bp    DNA     linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group C gene for Myb protein, complete cds,
+            haplotype:SA1.
+ACCESSION   AB111867
+VERSION     AB111867.1  GI:38707397
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Saitoh,K., Onishi,K., Mikami,I., Thidar,K. and Sano,Y.
+  TITLE     Allelic diversification at the C (OsC1) locus of wild and
+            cultivated rice: nucleotide changes associated with phenotypes
+  JOURNAL   Genetics 168 (2), 997-1007 (2004)
+   PUBMED   15514070
+REFERENCE   2  (bases 1 to 1294)
+  AUTHORS   Saitoh,K., Onishi,K., Mikami,I. and Sano,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUN-2003) Contact:Yoshio Sano Hokkaido Univ.,
+            Graduate School of Agriculture; Kita 9, Nishi 9, Sapporo 060-8589,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1294
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+                     /haplotype="SA1"
+     gene            join(1..133,268..397,739..1294)
+                     /gene="C"
+     CDS             join(1..133,268..397,739..1294)
+                     /gene="C"
+                     /note="A homologue of maize C1"
+                     /codon_start=1
+                     /allele="C"
+                     /product="Myb protein"
+                     /protein_id="BAD04022.1"
+                     /db_xref="GI:38707398"
+                     /translation="MGRRACCAKEGMKRGAWTSKEDDVLASYIKSHGEGKWREVPQRA
+                     GLRRCGKSCRLRWLNYLRPNIKRGNIDDDEEELIVRLHTLLGNRWSLIAGRLPGRTDN
+                     EIKNYWNSTLSRKIGTAATAAAGSRGGSTPDTARATDAASSSSVVQPGQQQQPASRAD
+                     TDTATAAAAAAATTTTVWAPKAVRCTRGFFFHDRETAPLAAAAPAPAGELGDGDDVDC
+                     DYYCSGSSSAATTTSSSSLPAVVEPCFSAGDDWMDDVRALASFLDTDDAWNLCA"
+ORIGIN      
+        1 atggggagga gagcttgctg cgcaaaggaa gggatgaaga gaggggcatg gacgagcaag
+       61 gaggacgacg tgcttgcctc ctacatcaag tcccatggcg aaggcaagtg gcgcgaggtc
+      121 ccccaacgag ctggtgagct agctattacc taatcgatcg atggtcatcg atcatgagat
+      181 gatgatgatg agatttgtac ttaattgtga tctgtatgga tgctgttgtt gatcaagttc
+      241 ttgcgatcga tcgatctgaa ttttcaggtt tgaggcggtg cggcaagagc tgcaggctcc
+      301 ggtggctcaa ctatctccgg cctaacatca agcgcggcaa catcgacgac gacgaggagg
+      361 agctcatcgt caggctccac accctcctcg gcaacaggta atctcatcac ttcatgatca
+      421 ctccgagttc cgtatcaatt tcgttgagtt cacagcttaa atttggagct atttggtact
+      481 gtcggtgtgt ggatagtgat atactttttt cttttcctgg ttacggcttt ttagggttgt
+      541 aatataaact tcgcaacttc ttatacgagt cattcgaaaa aaatttgaag ctggctaacg
+      601 ctagacaata ataagctgat ttaacttctg ttttattttt atttattttt atctttatct
+      661 tttttaacaa atttgtaatt tgagctgtga aatcatagct tactgccgtt ttgatcgatc
+      721 gtgtatatat gttgtcaggt ggtctctcat tgcaggcagg ctgccgggcc gaacagacaa
+      781 tgaaatcaag aactactgga acagcacgct cagccgcaag atcggcaccg ccgccaccgc
+      841 cgccgccggc agccgcggtg gcagcacgcc ggacaccgcc agagcgacgg acgcggcgtc
+      901 gtccagctcc gtcgtgcagc cgggccagca gcagcagcca gcctcccgcg ccgacaccga
+      961 cacagcaacg gcagcggcgg cggcggcggc gacgacgacc accgtgtggg cgcccaaggc
+     1021 cgtgcggtgc acgcgcgggt tcttcttcca cgaccgtgaa acggcgccgc tcgccgcggc
+     1081 ggcgccggcg ccggcagggg aattaggaga cggcgatgac gtcgactgcg actactactg
+     1141 cagcggcagc agctcggcgg cgacgacgac gtcgtcgagc tcattaccgg cggtcgtcga
+     1201 gccgtgcttc tccgccggcg acgactggat ggacgacgtg agagccttgg cgtcgtttct
+     1261 tgacaccgac gacgcctgga acttgtgtgc gtga
+//
+

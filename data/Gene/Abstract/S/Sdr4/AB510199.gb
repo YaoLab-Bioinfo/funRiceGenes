@@ -1,0 +1,116 @@
+LOCUS       AB510199                3704 bp    DNA     linear   PLN 10-APR-2010
+DEFINITION  Oryza sativa Japonica Group Sdr4 gene for putative zinc finger
+            protein Sdr4, complete cds.
+ACCESSION   AB510199
+VERSION     AB510199.1  GI:290490681
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sugimoto,K., Takeuchi,Y., Ebana,K., Miyao,A., Hirochika,H.,
+            Hara,N., Ishiyama,K., Kobayashi,M., Ban,Y., Hattori,T. and Yano,M.
+  TITLE     Molecular cloning of Sdr4, a regulator involved in seed dormancy
+            and domestication of rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 107 (13), 5792-5797 (2010)
+   PUBMED   20220098
+REFERENCE   2  (bases 1 to 3704)
+  AUTHORS   Sugimoto,K., Takeuchi,Y. and Yano,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUN-2009) Contact:Kazuhiko Sugimoto National
+            Institute of Agrobiological Science, QTL Genomics Research Center;
+            2-1-2 Kannondai, Tsukuba, Ibaraki 305-8602, Japan URL
+            :http://www.nias.affrc.go.jp/qtl/
+FEATURES             Location/Qualifiers
+     source          1..3704
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="7"
+     gene            2129..3160
+                     /gene="Sdr4"
+     CDS             2129..3160
+                     /gene="Sdr4"
+                     /function="pre-harvest sprouting resistance"
+                     /standard_name="Seed Dormancy 4"
+                     /experiment="QTL cloning"
+                     /codon_start=1
+                     /allele="Sdr4-n"
+                     /product="putative zinc finger protein Sdr4"
+                     /protein_id="BAI79301.1"
+                     /db_xref="GI:290490682"
+                     /translation="MAMVQPVDMAVKANEIMARFRPIAPKPVLPAAAAGVTGGGDGAA
+                     AVAATNRVLCQLQSRPCRARKRGRPSVVPPVSPPAGAKRKRAPAYPVPVAPLRCAAVA
+                     TATRARVSVVVVPAPESAGGVSALAPVSPSAGDSTRLSPTVVEVEDEDEERGVVLVER
+                     DLLRKLLEPRKLLEPRAVRPVGSTIHVESVHIDVGRTTAAAAAAAPKTAEEVEAELES
+                     DSLPAVVSDSSNRVRLVNDAYKRMVGQPECPWLDAVATAASRRISGEVALVVSEPAAA
+                     AAALPETCKGFSCSAKIAWERDGKWSSVHAPCDVTRLQCESRDYVFAWRFRAAGDECN
+                     THRRAAGDA"
+ORIGIN      
+        1 cacctattta caactccaag tctaactata accaaataag actggtatat tcgacaccta
+       61 ttctaaaacg tgagttatta ttgcaacggc acatgtggtg gggcgcgtgg taaggacggc
+      121 acggaggcgc gggtagcgcc cgacgcgggg cattttccaa aaaagatgtc taaggattac
+      181 gcgagaccgt gagagtgcgt acgtgcaaaa tcagggcgga atttctctcc cgtgtctgcc
+      241 acggccaccg gtgcattgca tatgcgcaca cgaggagcaa agctcgcgac ctcgcgcgtt
+      301 gcactgccgc actgaacgat cgacggacga cggcagcgcg cggccgggcg tcgcgcgctg
+      361 taccgcagcg cgcaccgcac caactgaact ctgcaaggtg caagcaacta gcgtacggcg
+      421 tagcgtcgcg ctcgcgcggc cgcgcctcgc ctcgcgacgt acgcgcttgc gaattgaaag
+      481 ccttcctttt cgtccgttcc ctgagaccct gacccgcgcc cacccactcg ccaagcggga
+      541 gcgagacgga gcggcgcctg cacccgcgcg cccgccaatg gcagggcggc cactcgtcgc
+      601 gcggcgttgc tacccgctcg ccacggcacg cagcacatgc cgtgcatgca aaagggtggg
+      661 ttcttataaa aaaaaagaga gagtaagaaa cggagctgta gcgtcggtcc aaaagtttgt
+      721 ttctcgagca gggagatcga agagagaagc atttgccctg ctgctgctcc ggctggccgg
+      781 tttaaattcg tgctgctgca ttcggccggg tagctagccg gcccgtggtt gggctccagt
+      841 aggacacgcg acatgcatgc tccacgtgtg acgctttgcc tgctgtttcg tgtaccgcag
+      901 ctgcatgtat gcgtaaagtt tttctactac tagtttattt tttattgggc ggacaggtcg
+      961 tcacagtaga gcatttaccg tcgagccgcg tactttttgg aacagaagag ttagatccac
+     1021 agtgttttac atatccagtc gatttatgtt tgggtttggg aaatttcacc ggtgtaaaaa
+     1081 gcttctcact tcatcgggca ccgtcttctg taaatttttt tcgatatgaa ctttgataaa
+     1141 ttttgctcct cgtccaggcg aagaaactcc ggctttggct ataggaaacg gatggtgcat
+     1201 gcatctagtc ccgacgagcg acgtaagcaa gcgttcgccc ggtcttgatg tgtgccacgt
+     1261 gctggagacc gtcgtcacca gcttttaatt catcggaaag atagcaaagc gtttgtcgtc
+     1321 gtggtttaca ttgcatcgtc tggtttccct ccgagatttt gtatgtacat gcatgtatag
+     1381 tctcgtagac catacatgac cagcaaaacc acgtgcggat atatcaactt ttaggcggtt
+     1441 ttgtgctggc tgaaacaata tgtacctcag ctgagaagta atctcgaaag catgagtaca
+     1501 ccaccggagt cggagtgtac atgcatgcat gcacggcaag gtatgaccaa aaagcagttt
+     1561 tgacgcagat tgatcattcg atctggtagt gaaaaacaaa aaaaaaaaaa ggtaaagtgg
+     1621 tgtgtcccgg tgtccgccta tacgctaaac ttaccgtggt gctagagtac aagcgagccg
+     1681 gttggtggag gcgagcgcaa aagcgccaca cggccttctg ccaatgaggc ctcacgccgt
+     1741 cacgcggggc acgccagcca gccagtgacc gcggcggaac gcgccacggg ggacgatgcg
+     1801 cccgaggggg gcggacgccg catgcagcgc aacgcgagta cgcgacctcg cctcacctca
+     1861 cctccaccat acgcctcgcg ctgctggctg gaatccaccg gagcgcgcgg cccgcgactc
+     1921 cgctccgcct acgtgtcggc cgcgtccccg cgcggtcgcc cacgtacccc gccccgccct
+     1981 cccacgtgcc cctcccccct gcgcgcatcc gattggccgc ccacgccttc ttaaccccac
+     2041 caccccacca ctcgggcccc aacgcatccg ttcaccacct gcgagagcga gcgtaccgtt
+     2101 cgttcgttcg tccggtgtac gtctcgccat ggccatggtg cagccggtgg acatggccgt
+     2161 gaaggccaac gagatcatgg cgaggttcag gcccatcgcg cccaagcccg tgctgccggc
+     2221 ggcggcggcg ggggtgacgg gtggtggtga cggtgctgcg gcggtggcgg cgacgaaccg
+     2281 cgtgctctgc cagctgcaga gcaggccgtg ccgggcgcgg aagcgggggc ggcccagcgt
+     2341 agtgccgccg gtgtccccgc cggcgggggc caagaggaag agggcgccgg cgtacccggt
+     2401 ccccgtggcg ccgctccggt gcgcggcggt ggccacggcg acgagggcgc gcgtgtcggt
+     2461 ggtggtcgtc ccggccccgg agagtgcggg cggggttagt gcgctggcgc cggtgtcgcc
+     2521 gagtgccggg gactcgacga ggctctcgcc gacggtggtg gaggtggagg acgaggacga
+     2581 ggagaggggc gtggtgctcg tggagcgcga cctgctgcgg aagctgctgg agccgcggaa
+     2641 gctgctggag ccgcgcgcgg tgcgccccgt gggctccacc atccacgtcg agtcagtcca
+     2701 catcgacgtc ggccgcacca ccgccgccgc cgccgcagcc gccccgaaga cggcggagga
+     2761 ggtggaggcg gagctggagt cggactccct cccggcggtg gtctcggact ccagcaaccg
+     2821 cgtccggctg gtgaacgacg cgtacaagcg aatggtgggg cagcccgagt gcccgtggct
+     2881 cgacgccgtg gccaccgccg cgtccaggag gatcagcggc gaggtggcgc tggtagtgtc
+     2941 cgagccggcg gcggcggcgg cggcgctgcc ggagacatgc aaggggttct cgtgctcggc
+     3001 caagatcgcg tgggagcgcg acggcaagtg gtcatccgtc catgcaccgt gcgacgtcac
+     3061 ccggctgcag tgcgagtcga gggactacgt cttcgcctgg aggttccgcg ccgccggcga
+     3121 cgaatgcaac acccaccgcc gcgccgccgg cgacgcgtga cgacgtgatg catcaagccg
+     3181 gagcaaactt tagtagtgca tagatgtaat cgtgttaagg tgcaatgtta ctagtagtag
+     3241 caaactagat cggctgcttc ctcttttgcg aagcttatag gatgcaaggc caggttctaa
+     3301 agtatatatg atgttgaccg gagaatgcaa gggaaaattg taacttttgc tttagtgaga
+     3361 tttgtttgtt ctcatgtagt ttagcactaa tgatccattt gacagcgaca agtgattgcg
+     3421 tctgcatgca tggacatccc aggatagatg catgcatgga caacccaggt tagacaaatg
+     3481 cgtggtcgca atcacattat ccgtgtcgcg ttatcaaaca aaataaagaa aaacgtcttc
+     3541 actgtcgtgt tccaagagtt gagagcaaac cagggcagaa caacacttaa gttttgcttt
+     3601 aacaacctaa gcaaacaggt aaaggatctt tatgaaatga tgtggaagga taatggtaaa
+     3661 caattttagt acacaggaaa tcattctatt tgatcacagt gcac
+//
+

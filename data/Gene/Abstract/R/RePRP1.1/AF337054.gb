@@ -1,0 +1,68 @@
+LOCUS       AF337054                1493 bp    mRNA    linear   PLN 01-MAR-2005
+DEFINITION  Oryza sativa repetitive proline rich protein mRNA, complete cds.
+ACCESSION   AF337054
+VERSION     AF337054.1  GI:18478605
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1493)
+  AUTHORS   Akiyama,T. and Pillai,M.A.
+  TITLE     Isolation and characterization of a gene for a repetitive proline
+            rich protein (OsPRP) down-regulated during submergence in rice
+            (Oryza sativa)
+  JOURNAL   Physiol. Plantarum 118 (4), 507-513 (2003)
+REFERENCE   2  (bases 1 to 1493)
+  AUTHORS   Akiyama,T. and Pillai,A.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JAN-2001) Low Temp. Science, Hokkaido National
+            Agricultural Experiment Station, 1 Hitsujigaoka, Toyohira-ku,
+            Sapporo 0628555, Japan
+FEATURES             Location/Qualifiers
+     source          1..1493
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             64..1140
+                     /note="PRP"
+                     /codon_start=1
+                     /product="repetitive proline rich protein"
+                     /protein_id="AAL73214.1"
+                     /db_xref="GI:18478606"
+                     /translation="MARRSPCLTAAVLLLGALAVASALVDEAAAAGQGLGHGARFMSK
+                     QGRAMYEKPPELEPKPKPKPHPKHESKPEPKPEPKPEPKPYPEPKPETKPELKPEPKP
+                     NPEPKPEPKPEPKPEPKPYPEPKPKPKPEPKPEPKPEHKPEPKPEPEPKPYPKPKPEP
+                     KPGPKPEPKPEPKPHPEPKPEPKPKPVPHPEPKPEPKPEPKPHPEPKPEPKPEPKLHP
+                     KPEPKPHPEPEPKLKPEPKPEPKPEPEPKPEPKPEPKPEPKPYPKPKPEPKPVPKPKP
+                     IPHPGPKPKPKPDPKLEPKPHPEPKPHPMPEPEPKPKPEPKPEPKPYPEPKPKLKPEP
+                     KPGPKPIAPPNKHKPPHMPPATNQ"
+ORIGIN      
+        1 caacagcaga agtgagagag ggagaagaag ataagcgaag aggaggagct tagcttgcca
+       61 gccatggcta ggcgctctcc ttgcctcact gccgccgtgc tcctgcttgg ggcattggcg
+      121 gtggcgagcg ctttagttga tgaagcggcg gcagctggcc agggactcgg ccatggcgcc
+      181 cgcttcatga gcaagcaggg ccgtgcgatg tacgagaagc cgccagagct ggagccgaag
+      241 ccaaagccaa agcctcatcc taagcatgaa tcaaaaccgg agccaaagcc agaacctaag
+      301 ccggagccaa agccataccc agagccgaag ccagagacga aaccggagct aaagccagaa
+      361 ccaaaaccta atccagaacc taaacctgag cctaagcctg aaccaaaacc agaaccaaag
+      421 ccatacccag agccgaagcc aaagcccaaa ccggagccaa agccagaacc aaaacctgag
+      481 cataaacctg aaccaaaacc agaaccagaa ccaaagccat acccaaagcc aaagccagag
+      541 ccaaaaccgg ggcccaaacc cgagccgaag ccagagccta agccacaccc agaaccgaaa
+      601 ccggagccca aaccaaagcc agtgccacac cctgaaccaa aaccggaacc aaagccggag
+      661 cccaaaccac acccagaacc aaagcctgag ccgaaacccg agcctaagct acacccgaag
+      721 cctgagccaa agccacaccc agagcctgag cctaagctta aacctgaacc aaaaccagag
+      781 ccaaagccag agcctgaacc gaagcccgag ccaaagcctg aaccaaaacc agagcctaaa
+      841 ccatatccaa agccaaaacc ggaacctaaa ccggtgccga agccgaagcc cattccacac
+      901 ccaggaccaa aaccaaagcc taaacctgac ccaaagctag agcccaagcc acacccggag
+      961 ccaaaaccac atccgatgcc tgaacctgaa ccaaagccta agcccgaacc aaagccagag
+     1021 cctaaaccat acccagaacc aaagcctaaa ctgaaacctg aacctaagcc tggaccgaaa
+     1081 cctatagcac cgccgaacaa gcacaagccg ccgcacatgc caccagcgac aaaccagtga
+     1141 cggcgatcgc tggagaccga gcatttgctg gctgcacggt tgaggcaccg acgacattat
+     1201 ttcacccgag gaaggagcgc tagcgagtca ctacactgta ccgtttctgg aataaagtga
+     1261 tgagctagct ttctgcttgc cttttctttt cctctcttat tttcctttta tttcatgttg
+     1321 gtttttcgga tgtgccactg ctagctagtg taattaaatt atttattatg tgcctaccgt
+     1381 catttttatt accgtgtctg tgacattcta ttgtctattg gcattattct cattgtaaaa
+     1441 tcttttggta atattatttg tcatcatttt tacccagctt ctaaaaaaaa aaa
+//
+

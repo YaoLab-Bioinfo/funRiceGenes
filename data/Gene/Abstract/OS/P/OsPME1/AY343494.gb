@@ -1,0 +1,77 @@
+LOCUS       AY343494                1302 bp    mRNA    linear   PLN 03-AUG-2010
+DEFINITION  Oryza sativa (indica cultivar-group) putative pectinesterase mRNA,
+            complete cds.
+ACCESSION   AY343494
+VERSION     AY343494.2  GI:39653368
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1302)
+  AUTHORS   Kanneganti,V. and Gupta,A.K.
+  TITLE     Isolation and Expression analysis of OsPME1, encoding for a
+            putative Pectin Methyl Esterase from Oryza sativa (subsp. indica)
+  JOURNAL   Physiol Mol Biol Plants 15 (2), 123-131 (2009)
+   PUBMED   23572921
+REFERENCE   2  (bases 1 to 1302)
+  AUTHORS   Vydehi,K. and Gupta,A.K.
+  TITLE     Partial cDNA sequence of a putative pectinesterase from Oryza
+            sativa panicle cDNA library
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1302)
+  AUTHORS   Vydehi,K. and Gupta,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUL-2003) Department of Plant Biotechnology, Madurai
+            Kamaraj University, Palkalainagar, Madurai, TamilNadu 625021, India
+REFERENCE   4  (bases 1 to 1302)
+  AUTHORS   Vydehi,K. and Gupta,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-DEC-2003) Department of Plant Biotechnology, Madurai
+            Kamaraj University, Palkalainagar, Madurai, TamilNadu 625021, India
+  REMARK    Sequence update by submitter
+COMMENT     On Dec 10, 2003 this sequence version replaced gi:33504647.
+FEATURES             Location/Qualifiers
+     source          1..1302
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR50"
+                     /db_xref="taxon:39946"
+     CDS             47..1084
+                     /codon_start=1
+                     /product="putative pectinesterase"
+                     /protein_id="AAQ20039.2"
+                     /db_xref="GI:39653369"
+                     /translation="MARPRLLLLPLLAVAAAVLSSPLGRALAKTAKKSNDIVNGPLLT
+                     SKINAKRTLIVGPEDEFKTVQSAIDAVPVGNTEWVIVHLRSGIYREKVMIPETKPFIF
+                     VRGNGKGRTSINHESASSHNAESAAFTVHADNVIVFGLSIRNSARAGLPNVPEVRTVA
+                     AMVGGDKIAFYHCAFYSPHHTLFDVAGRHYYESCYIQGNIDFIFGGGQSIFQCPEIFV
+                     KPDRRTEIKGSITAQNRKQEDGSGFVFIKGKVYGVGQVYLGRANEAYSRVIFADTYLS
+                     KTINPAGWTSYGYTGSTDHVMLGEFNCTGPGSEATKREPWSRQLTQEEADKFINIDFI
+                     NGKEWLPAYYY"
+ORIGIN      
+        1 ggcacgagaa gccatcttcg atcgcagaaa cccgcggtgc gtagcgatgg cccggccacg
+       61 cctcctcctc ctccctctcc tcgccgtcgc cgcggcggtg ctctcgtcgc cgctcggccg
+      121 cgcgctcgcc aagacggcca agaagagcaa cgacatcgtc aatggcccac tgctcacctc
+      181 caagatcaac gccaagcgca cgctgatcgt cggccccgag gacgagttca agaccgtgca
+      241 gtccgccatc gacgccgtgc ccgtcggcaa caccgagtgg gtcatcgtcc acctccgctc
+      301 cggcatctac agggagaaag ttatgatccc ggaaaccaag ccgttcatct tcgtgagggg
+      361 caacggcaag ggccggacct caatcaacca cgagtccgct tcctcccaca acgccgagtc
+      421 tgccgccttc accgtgcacg cggacaacgt catcgtcttc ggcctcagca tcaggaacag
+      481 cgcgcgcgcc gggctgccca acgtcccgga ggtgcgcacg gtggccgcca tggtcggcgg
+      541 cgacaagatt gccttctacc actgcgcgtt ctacagcccc caccacaccc tcttcgacgt
+      601 cgccggccgc cactactacg agagctgtta catccagggc aacatcgact tcatcttcgg
+      661 cggcggccag tccatcttcc aatgcccgga gatcttcgtg aagcctgacc ggcggacgga
+      721 gatcaagggg tccatcacgg cgcagaaccg caagcaagag gacggcagcg gcttcgtctt
+      781 catcaagggc aaggtgtacg gcgtcgggca ggtgtacctg ggccgcgcca acgaggccta
+      841 ctcgcgcgtc atcttcgccg acacctacct ctccaagacc atcaacccgg ccggctggac
+      901 cagctacggc tacaccggat ccaccgacca cgtgatgctc ggggagttca actgcaccgg
+      961 gccgggctcc gaagcgacga agcgcgagcc gtggtcgcgg cagctcaccc aggaggaggc
+     1021 cgacaagttc atcaacatcg acttcatcaa cggcaaggag tggctcccgg cgtactacta
+     1081 ctgatcatat ccaaccaaaa agagaaacgt agtaacatgt atgtgcgtgt gcatgcatgc
+     1141 tctgggccgg ctagccgtaa ccatggtgtc aagagttcta aacttctaat cgaaacggaa
+     1201 gcgcactgga acgattggtg tctttgcagt aggaagatgg cagatttaat ttgttgatca
+     1261 tgagctcgaa atgaacttgc gcattttatt gcaaaaaaaa aa
+//
+

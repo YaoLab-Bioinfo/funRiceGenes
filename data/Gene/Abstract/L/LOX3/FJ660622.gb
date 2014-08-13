@@ -1,0 +1,42 @@
+LOCUS       FJ660622                 308 bp    mRNA    linear   PLN 10-MAR-2009
+DEFINITION  Oryza sativa Indica Group cultivar pusa basmati LOX3 mRNA, partial
+            cds.
+ACCESSION   FJ660622
+VERSION     FJ660622.1  GI:224552686
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 308)
+  AUTHORS   Singh,V.K., Gaur,V.S., Kumar,A. and Marla,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JAN-2009) Biotechnology & Bioinformatics, Jaypee
+            University of Information Technology, JUIT, Waknaghat, Solan, H.P.
+            173215, India
+FEATURES             Location/Qualifiers
+     source          1..308
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="pusa basmati"
+                     /db_xref="taxon:39946"
+                     /country="India"
+     CDS             <1..>308
+                     /note="PBOS"
+                     /codon_start=2
+                     /product="LOX3"
+                     /protein_id="ACN54653.1"
+                     /db_xref="GI:224552687"
+                     /translation="ENEVAWRTDEEFAREILAGLNPMVIRRLTEFPPKSTLDPSKYGD
+                     QTSTITPAHIEKNLEGLSVQQALDSNRLYILDHHDHFMPFLIDINSLDGIFTYATRTL
+                     "
+ORIGIN      
+        1 agagaacgag gttgcttgga ggacagatga ggaatttgca cgagagattc ttgctggtct
+       61 gaatcccatg gtcatcaggc gtctcacgga attcccacca aaaagtactc ttgatcctag
+      121 caagtacggt gaccagacta gcacaatcac cccagctcac attgagaaga acctcgaagg
+      181 cctcagcgtg caacaggcac tggatagcaa caggctctac attctggatc atcatgatca
+      241 tttcatgcca ttcctcattg acattaacag ccttgatggt atcttcacct atgccacaag
+      301 gaccctgt
+//
+

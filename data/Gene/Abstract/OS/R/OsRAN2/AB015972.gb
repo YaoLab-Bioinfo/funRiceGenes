@@ -1,0 +1,58 @@
+LOCUS       AB015972                 815 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsRan2 mRNA for small GTP-binding
+            protein (Ran2), complete cds.
+ACCESSION   AB015972
+VERSION     AB015972.1  GI:18146759
+KEYWORDS    small GTP-binding protein (Ran2).
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kawagishi-Kobayashi,M.
+  TITLE     Molecular Analysis of rice Ran-related genes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 815)
+  AUTHORS   Kawagishi-Kobayashi,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUL-1998) Contact:Makiko Kawagishi-Kobayashi National
+            Agriculture Research Center, Laboratory of Biotech-Breeding;
+            Kannondai 3-1-1, Tsukuba, Ibaraki 305-8666, Japan
+FEATURES             Location/Qualifiers
+     source          1..815
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /dev_stage="seedling"
+     gene            1..815
+                     /gene="OsRan2"
+     CDS             50..715
+                     /gene="OsRan2"
+                     /codon_start=1
+                     /product="small GTP-binding protein (Ran2)"
+                     /protein_id="BAB82438.1"
+                     /db_xref="GI:18146760"
+                     /translation="MALPNQGTVDYPSFKLVIVGDGGTGKTTFVKRHLTGEFEKKYEP
+                     TIGVEVHPLDFTTNCGKIRFYCWDTAGQEKFGGLRDGYYIHGQCAIIMFDVTSRLTYK
+                     NVPTWHRDLCRVCENIPIVLCGNKVDVKNRQVKAKQVTFHRKKNLQYYEISAKSNYNF
+                     EKPFLYLARKLAGDPNLHFVEAVALKPPEVPIDLAMQQQHEAELAAAAAQPLPDDDDD
+                     LIE"
+ORIGIN      
+        1 caccccggtg tcctcccctc cgccgctcgc gtcgccgcct ttttccccta tggcgctgcc
+       61 gaatcagggg accgtggatt accccagctt caagctggtt atcgtcggcg atggcgggac
+      121 tggtaaaact acatttgtga agaggcatct cactggagag tttgaaaaga aatatgagcc
+      181 aaccattggt gtcgaagttc accctctaga ttttaccacc aactgtggta agatccgctt
+      241 ctactgctgg gacactgctg gacaagagaa gtttggtgga cttagggatg gatactatat
+      301 ccatggtcaa tgtgcgataa ttatgtttga tgtcacttca aggctgactt acaagaatgt
+      361 tccaacgtgg catagggact tgtgcagggt gtgtgaaaac atccccattg tcctgtgtgg
+      421 taacaaggtt gatgtgaaga acaggcaggt taaagccaag caggtcacat tccacaggaa
+      481 gaagaatctc cagtactatg aaatttctgc caagagcaac tacaactttg agaagccctt
+      541 cctttatctt gcaaggaagc ttgctggtga cccgaacctg catttcgttg aagctgttgc
+      601 tcttaaacct ccggaagttc ccattgacct ggcaatgcag caacagcatg aggctgagct
+      661 tgcggctgca gcagcacaac ctctcccaga tgacgatgac gatctgatcg agtagagagg
+      721 atcatgagtc tatcatgctt cagcctgagt ctcttcataa gagtctgaat taggccaatg
+      781 catgctagtg ttagcttgtc tgtggaatgt ggacg
+//
+

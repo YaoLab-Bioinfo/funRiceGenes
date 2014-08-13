@@ -1,0 +1,60 @@
+LOCUS       AY238894                1122 bp    mRNA    linear   PLN 14-JUN-2005
+DEFINITION  Oryza sativa (indica cultivar-group) adenine
+            phosphoribosyltransferase form 2 mRNA, complete cds.
+ACCESSION   AY238894
+VERSION     AY238894.1  GI:29826069
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1122)
+  AUTHORS   Li,J., Liang,C.Y., Yang,J.L., Xing,Q.H., Yang,D.E., Deng,Q.Y.,
+            Weng,M.L. and Wang,B.
+  TITLE     Cloning of the APRT gene from rice and analysis of its association
+            with TGMS
+  JOURNAL   Acta Bot. Sin. 45 (11), 1319-1328 (2003)
+REFERENCE   2  (bases 1 to 1122)
+  AUTHORS   Li,J., Weng,M. and Wang,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-FEB-2003) Institute of Genetics and Developmental
+            Biology, Chinese Academy of Sciences, Datun Road, Beijing 100101,
+            P.R. China
+FEATURES             Location/Qualifiers
+     source          1..1122
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+                     /chromosome="4"
+     CDS             125..763
+                     /codon_start=1
+                     /product="adenine phosphoribosyltransferase form 2"
+                     /protein_id="AAO85795.1"
+                     /db_xref="GI:29826070"
+                     /translation="MGEEDISNDSKSSCGCEDGTVEAPAAAAPKENGRAADPRLQAIS
+                     DAIRVVPHFPKPGIMFNDITALLLRPAAFKDAVDMFVERYRGMRIAAVAGIEARGFIF
+                     GPAIALAIGAKFIPLRKPKKLPGEVISETYILEYGTDCLEMHVGATEPGERVVVVDDL
+                     VATGGTLCAAIKLLERAGADVVECACLIGLPKYKNFYKLNGKPVYILVESRK"
+ORIGIN      
+        1 ggatagccgg aggaagaaga agaagcaaca gcagcagtca agccaacccg tccggcgagc
+       61 aagaagcaac cgaggcagca aaaggaggag gagggaggac tccactgttc gcttgtatcg
+      121 tcttatgggg gaagaggata tcagcaacga cagcaagagc agctgcggct gcgaggacgg
+      181 cacggtggag gctccggcgg ctgcggcgcc gaaggagaac ggccgagccg cggacccgcg
+      241 cctccaggcc atctccgacg ccatccgcgt cgtcccgcac ttccccaagc cagggatcat
+      301 gttcaacgac atcacggcgc tgctgctccg gcccgccgcg ttcaaggacg ccgtggacat
+      361 gttcgtcgag cgctaccgcg gcatgcgcat cgcggccgtc gcaggtattg aagccagagg
+      421 attcatattt ggcccagcga tcgcactagc aattggagca aaattcatac cgttgcgcaa
+      481 acctaagaaa ctcccaggtg aggtaatttc tgagacctat atacttgagt atgggacgga
+      541 ttgtttggag atgcatgttg gagctactga acctggtgag cgcgtagtgg tcgttgatga
+      601 tttagttgca accggtggaa cactttgtgc tgcaataaaa cttcttgaac gagctggagc
+      661 tgacgtagtt gagtgtgcat gcctcattgg ccttcctaag tataagaatt tctacaagct
+      721 caatggaaaa ccagtttata tactggtgga gtctcgcaaa tagaaagtaa caaagcaatg
+      781 atcagaaaga ttcacagctt cattcctttg caagagcacg ttggaggaat tggatcggta
+      841 ttggtgagca gtgactctgc acgcagcaca actgttaatg taatctcggt ggagagatga
+      901 tgagatagat gaaatgtaat ctttgtagca cgactagttt tccaggtagt gtcgacgacg
+      961 agagcttgta gttatttctg tcgggaactg ttgattaccc cgaagagaaa gggattaagg
+     1021 gaattgccat cccgcttgtt cagttcctct tttcttttct agtgacaatt gtccttttcg
+     1081 ccgcacttga tgatttatac ttctttggta aaactaccac tc
+//
+

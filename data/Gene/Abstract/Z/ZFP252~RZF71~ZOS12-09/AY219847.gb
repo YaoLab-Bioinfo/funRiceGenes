@@ -1,0 +1,62 @@
+LOCUS       AY219847                1033 bp    mRNA    linear   PLN 17-MAR-2008
+DEFINITION  Oryza sativa Japonica Group zinc finger protein ZFP252 mRNA,
+            complete cds.
+ACCESSION   AY219847
+VERSION     AY219847.1  GI:28849864
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1033)
+  AUTHORS   Xu,D.Q., Huang,J., Guo,S.Q., Yang,X., Bao,Y.M., Tang,H.J. and
+            Zhang,H.S.
+  TITLE     Overexpression of a TFIIIA-type zinc finger protein gene ZFP252
+            enhances drought and salt tolerance in rice (Oryza sativa L.)
+  JOURNAL   FEBS Lett. 582 (7), 1037-1043 (2008)
+   PUBMED   18325341
+REFERENCE   2  (bases 1 to 1033)
+  AUTHORS   Huang,J., Hou,F.Y. and Zhang,H.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JAN-2003) Agronomy, Rice Institute, WeiGang 1,
+            Nanjing Agricultural University, Nanjing, Jiangsu 210095, China
+FEATURES             Location/Qualifiers
+     source          1..1033
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Jiu Caiqing"
+                     /db_xref="taxon:39947"
+                     /clone="Z2"
+                     /tissue_type="young panicle"
+     CDS             113..865
+                     /codon_start=1
+                     /product="zinc finger protein ZFP252"
+                     /protein_id="AAO46041.1"
+                     /db_xref="GI:28849865"
+                     /translation="MAVEAVLEASRSSSEEEAEVIVTHGGGGGGGGGGGQVEGWGKRK
+                     RSRRRRPQLPPSEEEYLALCLLMLARGRRDGDDVAASASAAAAAVEHRCSVCGKAFAS
+                     YQALGGHKASHRKPPPPPPPAMVDDDEVVVETKPAAIATPSSSASGVSGGGGGRAHEC
+                     NVCGKAFPTGQALGGHKRCHYDGTIGSAAGAGASKPAAKTTVAVAASRGFDLNLPALP
+                     DVAAAADQRCAAEDDEVLSPLAFKKPRLMIPA"
+ORIGIN      
+        1 tctccttcca tttttcttgt gcacttctct ttcccttgca agctcaagaa acccaattaa
+       61 ttaagatagt tgtgatcatc tccaagctta gctaattaag ctactagtgg ccatggcggt
+      121 ggaggcggtt cttgaggcgt cgagaagtag tagtgaggag gaggcggagg tgatcgtcac
+      181 gcacggcggc ggcggcggcg gcggaggagg aggaggacag gtggaggggt gggggaagcg
+      241 gaagcggtcg cggcggcggc gaccgcagct gccgccctcc gaggaggagt acctcgcgct
+      301 ctgcctcctc atgctggcgc gcgggcgacg cgacggcgac gacgtggcgg cgtcggcgtc
+      361 ggcggcggcg gcggcggtgg agcaccggtg ctccgtctgc ggcaaggcgt tcgcgtccta
+      421 ccaggctctc ggcggccaca aggccagcca ccggaagccg ccgccgccgc cgccgcccgc
+      481 catggtcgac gacgacgagg tggtggtgga gacgaaaccg gcggctatcg cgacgccgtc
+      541 ctcgtcggcg tcgggcgtct ccggcggcgg cggcgggagg gcgcacgagt gcaacgtgtg
+      601 cggcaaggcg ttcccgacgg ggcaggcgct gggcggccac aagcgatgcc actacgacgg
+      661 cacgatcggc agcgccgccg gcgccggcgc gtccaagccg gcggcgaaga cgaccgtggc
+      721 ggtggcggcg agccggggct tcgacctcaa cctgccggcg ctgccggacg tcgccgccgc
+      781 cgccgaccag cggtgcgcgg cggaggacga cgaggtgctc agccctctcg ccttcaagaa
+      841 gcccaggctc atgatcccgg catagctagc caagcccaca agatttgttt aattttagcc
+      901 ataaaattcc attaaattaa acccatagtt ttttctgtta attactttct taatttggtg
+      961 attagtctta ggaatgatga ttagtttgtg tatatagcca ttgtttgttc atcaaaaaaa
+     1021 aaaaaaaaaa aaa
+//
+

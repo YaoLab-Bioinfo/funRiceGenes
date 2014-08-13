@@ -1,0 +1,77 @@
+LOCUS       OSU89895                2031 bp    DNA     linear   PLN 14-MAR-1997
+DEFINITION  Oryza sativa pathogenesis-related protein class 1 (PR-1) gene,
+            complete cds.
+ACCESSION   U89895
+VERSION     U89895.1  GI:1888550
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2031)
+  AUTHORS   Bhargava,T. and Hamer,J.E.
+  TITLE     Complete nucleotide sequence of the rice PR-1 gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2031)
+  AUTHORS   Bhargava,T. and Hamer,J.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-1997) Biological Sciences, Purdue University, 333
+            Hansen Building, West Lafayette, IN 47907, USA
+FEATURES             Location/Qualifiers
+     source          1..2031
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /strain="indica"
+                     /cultivar="Co39"
+                     /db_xref="taxon:39946"
+     gene            965..1459
+                     /gene="PR-1"
+     CDS             965..1459
+                     /gene="PR-1"
+                     /note="induced by pathogen attack in plants"
+                     /codon_start=1
+                     /product="pathogenesis-related protein class 1"
+                     /protein_id="AAB49685.1"
+                     /db_xref="GI:1888551"
+                     /translation="MEVSKLAIALAMVAAMALPSQAQNSPQDYVRLHNAARAAVGVGP
+                     VTWDTSVQAFAENYASQRSGDCSLIHSSNRNNLGENLFWGSAGGDWTAASAVQSWVGE
+                     KSDYDYASNSCAQGKVCGHYTQVVWRASTSIGCARVVCSNGRGVFITCNYKPAGNFVG
+                     QRPY"
+ORIGIN      
+        1 gaatttcttg gattccttta atttattcga gcgccacatg acggcttgag agtgtttata
+       61 ggaagtttaa tggacgtttt tgtatataat agatagatag atagatagat atcctccgtc
+      121 ccacaatata gggattttta gtttttgctt gcaatgtttg accactcgtc ttattcaaat
+      181 tttttttaca aatataaaaa atgaaaagtt gtgcttaaag tactgtagat aataaagtaa
+      241 gtcacaaata aaataaataa taatttcaaa attttttgaa taagacaagt ggtcaaacgt
+      301 tgaaagcaaa aactcaaaat cccttatatt atgggacaga gggactagaa gatagttttt
+      361 gtatgtgttg ttcgatgttt tacgctccca aatatattaa tactacattg gatcaccatt
+      421 ttaaatttat tatagataag tttaatacga aaatttcaga tttgttttct taatttttat
+      481 gaacaacatt tgcatacaac atctggtcgt aataactacg ttgaatatta ccctcttgat
+      541 gacttgacta attttagaca aaagatggtc acccacccag cttttcattg aaagtataag
+      601 agttcgtaca gtgcaaaaag gaacaaaggt aaaataaaag gaaagtaaaa atcccaagtc
+      661 ctgcgtacaa atctatagtt caagacatac acatcgcctt ccaactgagg tcgagttgcc
+      721 ccggtgccat gtcttattcg tggaattcta tgtccaagtg catactttgc gggggtaaaa
+      781 ttttctacac gtatgttgcc aaaatttctg ctaagttttc gtgccaactc gagaaattct
+      841 tacacagcct gcagtctata aatattcaca catttcacaa aaaaatactt gcaacatcaa
+      901 agctacacag gtagaatcat cgaccgtaag taggtacgta cattaagtgt gagcttgatt
+      961 aactatggag gtatccaagc tggccattgc tttggccatg gtagccgcca tggcactccc
+     1021 ctcccaagct caaaactccc cgcaggacta cgtgaggctc cacaacgccg cccgcgccgc
+     1081 cgtcggcgtg ggtccggtga cctgggacac gagcgtgcag gcgttcgcgg agaactacgc
+     1141 cagccagagg agcggcgact gcagcctgat ccactccagc aaccggaaca accttggcga
+     1201 gaacctcttc tggggttcgg ccggggggga ctggacggcg gcgagcgcgg tgcagtcgtg
+     1261 ggtgggcgag aagagcgact acgactacgc ctccaacagc tgcgcgcagg ggaaggtgtg
+     1321 cgggcactac acgcaggtgg tgtggcgcgc gtcgaccagc atcggctgcg cccgcgtcgt
+     1381 ctgcagcaac ggccgcggcg tcttcatcac atgcaactat aagccggccg gcaacttcgt
+     1441 cggacagagg ccttactaag ttatttatac acacgggcgt acgtactggc tagtactacg
+     1501 tatagtagtg aataaataaa gacgtacgtg aaaatgtaaa caggtccacg gtccataccg
+     1561 aggattctat ataaagcgtc ttgtcgtaca agtaaaaata aatagtactc tctctgtttc
+     1621 tgtttcaggt tataaaacct attaactttg gttaaagtta aattacttca aatttaacta
+     1681 aatttgtaga aaaaataata gcatttttaa cctaagacaa atttattatg gtaatatatt
+     1741 caattattga tctaatgaga ctaatttgat actatatttg tctacaaact taatcaaact
+     1801 taaagtagtt tgattttgac gaaagtcaaa acgctttata accttaaacg gagggagttg
+     1861 taaaaccgtc taaaagcatg tgccagttgc tagcagatgg tccattccat cgccgcactt
+     1921 ctctaatttg ccttgtcagt tgtcactggg taagttttct tttgaattct tgagggtacg
+     1981 ctcaaagaca acccaaatat gtaattggta aaaattctaa aaaaaattcc g
+//
+

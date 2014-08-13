@@ -1,0 +1,62 @@
+LOCUS       DQ779790                1068 bp    mRNA    linear   PLN 23-SEP-2008
+DEFINITION  Oryza sativa (indica cultivar-group) mitogen-activated protein
+            kinase kinase 6 mRNA, complete cds.
+ACCESSION   DQ779790
+VERSION     DQ779790.1  GI:109727199
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1068)
+  AUTHORS   Kumar,K., Rao,K.P., Sharma,P. and Sinha,A.K.
+  TITLE     Differential regulation of rice mitogen activated protein kinase
+            kinase (MKK) by abiotic stress
+  JOURNAL   Plant Physiol. Biochem. 46 (10), 891-897 (2008)
+   PUBMED   18619847
+REFERENCE   2  (bases 1 to 1068)
+  AUTHORS   Kumar,K., Rao,P., Sharma,P. and Sinha,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2006) National Centre for Plant Genome Research,
+            Aruna Asaf Ali Marg, New Delhi 110067, India
+FEATURES             Location/Qualifiers
+     source          1..1068
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pusa Basmati 1"
+                     /db_xref="taxon:39946"
+     CDS             1..1068
+                     /note="OsMKK6"
+                     /codon_start=1
+                     /product="mitogen-activated protein kinase kinase 6"
+                     /protein_id="ABG45894.1"
+                     /db_xref="GI:109727200"
+                     /translation="MRGKKPHKELKLSVPAQETPVDKFLTASGTFKDGELRLNQRGLQ
+                     LISEETADEPQSTNLKVEDVQLSMDDLEMIQVIGKGSGGIVQLVRHKWVGTLYALKGI
+                     QMNIQEAVRKQIVQELKINQATQNPHIVLCHQSFYHNGVIYLVLEYMDRGSLADIIKQ
+                     VKTILEPYLAVLCKQVLEGLLYLHHERHVIHRDIKPSNLLVNRKGEVKITDFGVSAVL
+                     ASSMGQRDTFVGTYNYMAPERISGSSYDYKSDIWSLGLVILECAIGRFPYIPSEGEGW
+                     LSFYELLEAIVDQPPPSAPADQFSPEFCAFISSCIQKDPAERMSASELLNHPFIKKFE
+                     DKDLDLRILVESLEPPMNISE"
+ORIGIN      
+        1 atgaggggga agaagccgca caaggagctc aagctctccg tgcctgcgca ggagacgccc
+       61 gtcgacaagt tcctgaccgc gagtggtaca ttcaaggatg gtgaactgcg gcttaatcaa
+      121 agaggtttgc agcttatatc cgaggaaact gcagatgaac ctcagtcaac aaacctgaag
+      181 gtggaagatg ttcagttgtc aatggatgac cttgagatga ttcaagtcat tggtaagggg
+      241 agtggtggta tcgtccaact agttcggcac aagtgggtgg ggacattata tgccttgaag
+      301 ggcattcaaa tgaacattca agaggcagtt cgcaaacaaa tagtacaaga gctcaaaata
+      361 aatcaagcaa cacagaaccc acatatagtc ctttgccacc aatctttcta ccataatggt
+      421 gtaatatatc tcgttctaga atacatggac cgtggatctc ttgcagatat cattaaacaa
+      481 gtcaaaacaa ttctggagcc atacctggca gtactttgca aacaggtttt ggagggtcta
+      541 ctgtatcttc atcatgaaag gcatgtgatt cacagggata taaagccatc taacttgtta
+      601 gttaaccgta aaggtgaagt aaagattacc gattttgggg taagtgcggt gctagcaagt
+      661 tcaatgggtc agcgggatac gtttgttgga acctacaact atatggcgcc tgagcgtatt
+      721 agtggaagct cctatgacta caagagtgac atatggagtt tgggcttagt aatactcgag
+      781 tgtgccattg gtcggttccc ctatatacct tcagaagggg aaggttggtt aagcttctac
+      841 gaattattag aagcaattgt tgaccagcca ccaccctctg caccagcgga ccagttctct
+      901 ccagaatttt gtgcatttat ctcctcctgc atacaaaagg atcctgcgga gcggatgtct
+      961 gcttcagaac tcttgaatca tcctttcatc aagaagtttg aggataagga tttagacctg
+     1021 cgcattcttg tcgagagcct tgaacctcca atgaatatat ccgagtaa
+//
+

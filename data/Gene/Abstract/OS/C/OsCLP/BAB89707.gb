@@ -1,0 +1,104 @@
+LOCUS       BAB89707                 424 aa            linear   PLN 16-FEB-2008
+DEFINITION  putative xylanase inhibitor [Oryza sativa Japonica Group].
+ACCESSION   BAB89707
+VERSION     BAB89707.1  GI:20160766
+DBSOURCE    accession AP003269.2
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sasaki,T., Matsumoto,T., Yamamoto,K., Sakata,K., Baba,T.,
+            Katayose,Y., Wu,J., Niimura,Y., Cheng,Z., Nagamura,Y.,
+            Antonio,B.A., Kanamori,H., Hosokawa,S., Masukawa,M., Arikawa,K.,
+            Chiden,Y., Hayashi,M., Okamoto,M., Ando,T., Aoki,H., Arita,K.,
+            Hamada,M., Harada,C., Hijishita,S., Honda,M., Ichikawa,Y.,
+            Idonuma,A., Iijima,M., Ikeda,M., Ikeno,M., Ito,S., Ito,T., Ito,Y.,
+            Ito,Y., Iwabuchi,A., Kamiya,K., Karasawa,W., Katagiri,S.,
+            Kikuta,A., Kobayashi,N., Kono,I., Machita,K., Maehara,T.,
+            Mizuno,H., Mizubayashi,T., Mukai,Y., Nagasaki,H., Nakashima,M.,
+            Nakama,Y., Nakamichi,Y., Nakamura,M., Namiki,N., Negishi,M.,
+            Ohta,I., Ono,N., Saji,S., Sakai,K., Shibata,M., Shimokawa,T.,
+            Shomura,A., Song,J., Takazaki,Y., Terasawa,K., Tsuji,K., Waki,K.,
+            Yamagata,H., Yamane,H., Yoshiki,S., Yoshihara,R., Yukawa,K.,
+            Zhong,H., Iwama,H., Endo,T., Ito,H., Hahn,J.H., Kim,H.I., Eun,M.Y.,
+            Yano,M., Jiang,J. and Gojobori,T.
+  TITLE     The genome sequence and structure of rice chromosome 1
+  JOURNAL   Nature 420 (6913), 312-316 (2002)
+   PUBMED   12447438
+REFERENCE   2  (residues 1 to 424)
+  AUTHORS   Sasaki,T., Matsumoto,T. and Yamamoto,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-FEB-2001) Contact:Takuji Sasaki National Institute of
+            Agrobiological Sciences, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan URL
+            :http://rgp.dna.affrc.go.jp/
+COMMENT     Genes were predicted from the integrated results of the following:
+            GENSCAN (http://CCR-081.mit.edu/GENSCAN.html), FGENESH
+            (http://www.softberry.com/), GeneMark.hmm
+            (http://opal.biology.gatech.edu/GeneMark/), GlimmerM
+            (http://www.tigr.org/tdb/glimmerm/glmr_form.html), RiceHMM
+            (http://rgp.dna.affrc.go.jp/RiceHMM/), SplicePredictor
+            (http://bioinformatics.iastate.edu/cgi-bin/sp.cgi), sim4
+            (http://globin.cse.psu.edu/html/docs/sim4.html), gap2
+            (http://www.tigr.org/software/glimmerm/), BLASTN and BLASTX. The
+            genomic sequence was searched against NCBI NonRedundant Protein
+            database, nr (ftp://ncbi.nlm.nih.gov/blast/db) and the cDNA
+            sequence database at RGP or DDBJ. Protein homologies of the coding
+            regions were searched against NCBI NonRedundant Protein database
+            with BLASTP. ESTs represent the identified cDNA sequences using
+            BLASTN with the corresponding DDBJ accession no. and RGP clone ID.
+            Full-length cDNAs represent the identified cDNA sequences using
+            BLASTN with the corresponding DDBJ accession no.
+            A gene with identity or significant homology to a protein is
+            classified based on the protein name to indicate the homology level
+            such as same name, 'putative-' and '-like protein'.  A gene without
+            significant homology to any protein but with full-length cDNA or
+            EST homology (covering almost the entire length of partial
+            sequence) is classified as an 'unknown' protein. A gene predicted
+            by two or more gene prediction programs is classified as a
+            'hypothetical' protein according to IRGSP standard. A gene
+            predicted by a single gene prediction program is also classified as
+            a probable 'hypothetical' protein and is included as a
+            miscellaneous feature of the sequence.
+            The orientation of the sequence is from SP6 to T7 of the PAC clone.
+            This sequence of P0504E02 clone has an overlap with P0492G09 clone
+            (DDBJ: AP003266) at 5' end and an overlap with B1150F11 (DDBJ:
+            AP003412) at 3' end. Detailed information on overlap and assembly
+            quality together with annotation of this entry is available at
+            http://rgp.dna.affrc.go.jp/GenomeSeq.html.
+FEATURES             Location/Qualifiers
+     source          1..424
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+                     /clone="P0504E02"
+     Protein         1..424
+                     /product="putative xylanase inhibitor"
+     Region          48..408
+                     /region_name="xylanase_inhibitor_I_like"
+                     /note="TAXI-I inhibits degradation of xylan in the cell
+                     wall; cd05489"
+                     /db_xref="CDD:133156"
+     Site            390
+                     /site_type="other"
+                     /note="protein-protein interaction interface"
+                     /db_xref="CDD:133156"
+     CDS             1..424
+                     /gene="P0504E02.9"
+                     /coded_by="complement(AP003269.2:28769..30043)"
+                     /note="contains EST(s): C98239(C1310),D15808(C1310A)"
+ORIGIN      
+        1 mslhlllavs lcvalasslp waaasangng ngkplvaait kdaatslytv pikdgrplvl
+       61 dlagalvwms caaahptlec hhhfcmhahs yhppgcphng ygradvedpf rckctahpyn
+      121 pfsgesatad ltrtrlsana tdgknplypv sfaavtscap dsllaklpag avgvaglart
+      181 rlalqaqvar sqkvankfal clpsggggdg vaifgggplf llppgrpdva atlagetplh
+      241 rnkdlpgyfi satkiavnqe qvqlytqepl vvelctripy talrpdvyra vvdafarata
+      301 grkrvtpppp paapfelcyd srdlgstrlg yavpqidlvl eggknwtvfg gnsmaqvsdn
+      361 taclavvkvk gekgsppppa aiiggfqmen nlvvfdeekq rlgfsgllwg rqttcsnfnf
+      421 tlaa
+//
+

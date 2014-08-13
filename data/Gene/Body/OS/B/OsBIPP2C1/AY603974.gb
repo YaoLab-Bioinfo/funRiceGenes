@@ -1,0 +1,84 @@
+LOCUS       AY603974                1900 bp    mRNA    linear   PLN 23-MAY-2006
+DEFINITION  Oryza sativa (indica cultivar-group) BTH-induced protein
+            phosphatase 1 (bipp2C1) mRNA, complete cds.
+ACCESSION   AY603974
+VERSION     AY603974.1  GI:47525230
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1900)
+  AUTHORS   Hu,X., Song,F. and Zheng,Z.
+  TITLE     Molecular characterization and expression analysis of a rice
+            protein phosphatase 2C gene, OsBIPP2C1, and overexpression in
+            transgenic tobacco conferred enhanced disease resistance and
+            abiotic tolerance
+  JOURNAL   Physiol. Plantarum 127 (2), 225-236 (2006)
+REFERENCE   2  (bases 1 to 1900)
+  AUTHORS   Hu,X., Song,F. and Zheng,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-APR-2004) Department of Plant Protection, Zhejiang
+            University, 268 Kaixuan Road, Hangzhou, Zhejiang 310029, PR China
+FEATURES             Location/Qualifiers
+     source          1..1900
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+                     /dev_stage="seedling"
+     gene            1..1900
+                     /gene="bipp2C1"
+     CDS             18..1727
+                     /gene="bipp2C1"
+                     /note="OsBIPP2C1"
+                     /codon_start=1
+                     /product="BTH-induced protein phosphatase 1"
+                     /protein_id="AAT35116.1"
+                     /db_xref="GI:47525231"
+                     /translation="MDEEARAAGCSPAPPRAPAASCGAAAELCLCSPTGVEGIEQVPG
+                     CPCFEDAGAVVVSGEAPEGPGVLCSGDGAELKLAEQGALDVRLGSPAVGIHEQQLLHR
+                     GTSGSDEAGAINEISPVEVSPSEASSNLDTAGAIGGSPLMLESLPETSDTRGCEQEVM
+                     PGVVVGSSNRDASSEVGVESECGSDADGRNGLGEGELVSSVDGGGAEKSSKVTGVLSE
+                     EGVDGMETALEPCVASVGSITQVEEGVDRMETSLDDSEASDGSTTQDFDTDVETESSG
+                     SSIEEQDMGYGVHIPHTEQAICEVARGNKSSEVKSSDRMSSVTLPTLILASGAAMLPH
+                     PSKVLTGGEDAYFIACDGWFGVADGVGQWSFEGINAGLYARELMDGCKKAVMESQGAP
+                     EMRTEEVLAKAADEARSPGSSTVLVAHFDGQVLHACNIGDSGFLVIRNGEIYQKSKPM
+                     TYGFNFPLQIEKGDDPFKLVQKYTIDLQEGDAIVTATDGLFDNVYEEEIAAVISKSLE
+                     AGLKPSEIAEFLVARAKEVGRSATCRSPFSDAALAVGYLGYSGGKLDDVTVVVSVVRK
+                     SEV"
+ORIGIN      
+        1 caggctctag cttagccatg gatgaagagg cgcgcgccgc cggatgctcc ccagcgccgc
+       61 cccgcgcgcc ggctgcttcc tgtggcgctg ccgccgagct ctgcctctgc tcccctacag
+      121 gtgtggaggg tatcgagcag gtgcctggat gtccgtgttt tgaggacgcc ggcgctgtcg
+      181 tggtgagtgg agaggcgccg gaaggaccgg gggttttgtg ctctggggat ggcgctgagc
+      241 tcaaattagc tgagcagggt gccctggatg tgagattagg ttctccggca gtcggaatcc
+      301 atgagcagca gctgttgcat cgtggtactt caggttccga tgaagctggt gcaatcaatg
+      361 agatttcacc cgttgaggtg tcgccgtcag aggctagttc aaatttggat actgctgggg
+      421 ctattggtgg ctcccctctc atgttggagt ccctgccaga gaccagtgat acccgaggat
+      481 gtgaacaaga ggttatgccc ggtgttgttg tagggtcatc taatagggat gcaagttctg
+      541 aggtcggtgt cgagtcggag tgtggctcgg atgcggacgg tcgaaatggc cttggtgaag
+      601 gggaattggt gtcgagcgtt gatggaggcg gcgccgagaa gagctcaaag gtgactggcg
+      661 tcttgtctga agaaggtgtg gacgggatgg aaacagccct ggagccgtgt gtggcgtctg
+      721 ttggctccat cacgcaggtt gaggaaggtg tggacaggat ggagacgagt ttggatgact
+      781 ctgaggcttc agacggctca accacgcagg attttgatac tgacgtggag acggagtcga
+      841 gcggttcaag tatagaagaa caagacatgg gatacggagt gcacatccca cacacggaac
+      901 aagcgatctg tgaagtggcc aggggaaaca agagttcaga ggtgaagagc tctgacagga
+      961 tgtcttcagt aaccctacca acacttatat tggcttcagg tgcagcaatg ctacctcatc
+     1021 cttcaaaggt gctgacaggt ggtgaagatg cttattttat agcttgtgac ggttggtttg
+     1081 gtgtagcaga tggagtaggt caatggtcat ttgaaggaat caatgcaggg ctgtatgcca
+     1141 gagaattaat ggatggttgt aagaaagctg ttatggagag tcaaggagct ccagagatga
+     1201 gaactgagga agttcttgct aaggctgcag atgaagcacg atcccctggt tcttccactg
+     1261 ttttggttgc tcactttgat ggtcaagtac ttcatgcatg taatataggt gattctggat
+     1321 tcttggtgat aagaaacgga gaaatatatc aaaaatcaaa gccaatgact tacggcttca
+     1381 attttccctt gcaaattgag aagggggatg atcctttcaa acttgtacag aaatacacaa
+     1441 ttgatctaca agaaggagat gccattgtga cagcaacaga tggccttttt gacaatgtct
+     1501 atgaggaaga aatagcagct gtcatctcca aatcattgga agccggcctc aagccttcgg
+     1561 agattgcgga gttcctggtt gctagggcga aggaagtggg cagatcggca acctgtagaa
+     1621 gccccttctc tgacgcggct cttgcagttg ggtatctggg ttactctggg ggcaagctgg
+     1681 atgatgtaac agttgttgta tccgttgttc ggaaatctga agtttaaact ataagcctct
+     1741 ttttggctta agtgaatgca gctcctagat tttgccagag ctgcgtttgc tggcgaatgt
+     1801 ccatgagcat tccatgcgag gtacccccaa cctcacgtgt acatatgata agctgtatgt
+     1861 tcctcgtggc catgatcgca gctactaaaa aaaaaaaaaa
+//
+

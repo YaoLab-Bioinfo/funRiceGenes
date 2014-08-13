@@ -1,0 +1,63 @@
+LOCUS       AB222272                 897 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group Lsi1 mRNA for NOD26-like major
+            intrinsic protein, complete cds.
+ACCESSION   AB222272
+VERSION     AB222272.1  GI:90855459
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ma,J.F., Tamai,K., Yamaji,N., Mitani,N., Konishi,S., Katsuhara,M.,
+            Ishiguro,M., Murata,Y. and Yano,M.
+  TITLE     A silicon transporter in rice
+  JOURNAL   Nature 440 (7084), 688-691 (2006)
+   PUBMED   16572174
+REFERENCE   2  (bases 1 to 897)
+  AUTHORS   Ma,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUL-2005) Contact:Jian Feng Ma Okayama University,
+            Research Institute for Bioresources; Chuo 2-20-1, Kurashiki,
+            Okayama 710-0046, Japan
+FEATURES             Location/Qualifiers
+     source          1..897
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Oochikara"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+     gene            1..897
+                     /gene="Lsi1"
+     CDS             1..897
+                     /gene="Lsi1"
+                     /codon_start=1
+                     /allele="lsi1"
+                     /product="NOD26-like major intrinsic protein"
+                     /protein_id="BAE92561.1"
+                     /db_xref="GI:90855460"
+                     /translation="MASNNSRTNSRANYSNEIHDLSTVQNGTMPTMYYGEKAIADFFP
+                     PHLLKKVVSEVVATFLLVFMTCGAAGISGSDLSRISQLGQSIAGGLIVTVMIYAVGHI
+                     SGAHMNPAVTLAFAVFRHFPWIQVPFYWAAQFTGAICASFVLKAVIHPVDVIGTTTPV
+                     GPHWHSLVVEVIVTFNMMFVTLAVATDTRAVGELAGLAVGSAVCITSIFAGAISGGSM
+                     NPARTLGPALASNKFDGLWIYFLGPVMGTLSGAWTYTFIRFEDTPKEGSSQKLSSFKL
+                     RRLRSQQSIAADDVDEMENIQV"
+ORIGIN      
+        1 atggccagca acaactcgag aacaaactcc agggcgaact actccaacga gatccacgat
+       61 ctctccacgg tgcagaacgg caccatgcct accatgtact acggcgagaa ggccatcgcc
+      121 gacttcttcc ctcctcacct cctcaagaag gtcgtgtcgg aggtggtggc cacgttcctg
+      181 ctggtgttca tgacgtgtgg ggcggcaggg atcagcggca gcgacctgtc tcgcatatcg
+      241 cagctgggac agtcgatcgc cggtggcctc atcgtgacgg tgatgatcta cgccgtcggc
+      301 cacatctccg gcgcccacat gaaccccgcc gtgacgctcg cgttcgccgt gttcaggcat
+      361 ttcccctgga ttcaggttcc gttctactgg gcggcgcagt tcaccggagc gatatgcgcg
+      421 tcgttcgtgc tcaaggcggt gatccacccg gtggatgtga tcggaaccac cacgcccgtg
+      481 gggccgcact ggcactcgct cgtcgtcgag gtcatcgtga cgttcaacat gatgttcgtc
+      541 acgctcgccg tcgccacgga cacgagagcg gtgggtgagt tggccgggtt ggcggttggt
+      601 tccgcggttt gcattacgtc catcttcgca ggggcaattt caggtggatc gatgaacccg
+      661 gcaaggacgc tggggccggc gctggcgagc aacaagttcg acggcctgtg gatctacttc
+      721 ctgggcccag tcatgggcac gctctcggga gcatggacct acaccttcat ccgcttcgag
+      781 gacaccccca aggaaggctc ctcccagaag ctctcctcct tcaagctgcg ccgcttgcgg
+      841 agccagcagt ccatcgccgc cgacgacgtc gacgagatgg agaacatcca agtgtga
+//
+

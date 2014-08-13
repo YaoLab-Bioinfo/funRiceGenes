@@ -1,0 +1,68 @@
+LOCUS       AJ251298                1308 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for spermidine synthase 1 (spdSyn1 gene).
+ACCESSION   AJ251298
+VERSION     AJ251298.1  GI:6468655
+KEYWORDS    spdSyn1 gene; spermidine synthase 1.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Franceschetti,M. and Michael,A.J.
+  TITLE     plant aminopropyltransferase families
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1308)
+  AUTHORS   Michael,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-1999) Michael A.J., Division of Food Safety,
+            Institute of Food Research, Norwich Research Park, Colney, Norwich,
+            NR4 7UA, UNITED KINGDOM
+FEATURES             Location/Qualifiers
+     source          1..1308
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="japonica"
+                     /db_xref="taxon:39947"
+     gene            1..1308
+                     /gene="spdSyn1"
+     CDS             100..1071
+                     /gene="spdSyn1"
+                     /codon_start=1
+                     /product="spermidine synthase 1"
+                     /protein_id="CAB61629.1"
+                     /db_xref="GI:6468656"
+                     /db_xref="GOA:Q9SMB1"
+                     /db_xref="InterPro:IPR001045"
+                     /db_xref="UniProtKB/Swiss-Prot:Q9SMB1"
+                     /translation="MEAEAAAKRARESGDAAAAGAGEQAGISAVIPGWFSEISPMWPG
+                     EAHSLKVEKVLFQGKSDYQNVMVFQSSTYGKVLVLDGVIQVTERDECAYQEMITHLPL
+                     CSIKDPKKVLVIGGGDGGVLREVSRHSSVEQIDICEIDKMVVDVSKQFFPHLAVGFED
+                     PRVSLHIGDGVAFLKNAPEGTYDAVIVDSSDPIGPAQELFEKPFFQSVARALRPGGVV
+                     CTQAESIWLHMHIIEDIVANCRQVFKGSVNYAWTTVPTYPSGVIGFMLCSTEGPTVDF
+                     QHPIFNIEDNEFSTKSKGPLKFYNSEIHSASFCLPSFAKRVIGSKAN"
+ORIGIN      
+        1 ccacgcgtcc ggagcgctcc tcccgtctct cccccaaccc gccgccagcc accgagctcg
+       61 ccaccgtctc cgttgcctcg ccgtgctcta ggttctcgga tggaggccga ggcggcggcg
+      121 aagagggcgc gggagagcgg tgacgcggcg gcggccggtg ccggcgagca ggcgggtatc
+      181 tctgccgtca tccctggatg gttctccgag attagcccca tgtggcctgg tgaggcacac
+      241 tcattgaagg tcgaaaaggt actattccaa ggaaagtcgg actaccaaaa tgtgatggtg
+      301 tttcagtcct ccacgtacgg caaggttctt gtgctggatg gagtgattca ggtcactgag
+      361 agggatgagt gtgcttacca agagatgatt acccacctcc ccctttgctc tatcaaagat
+      421 cccaagaagg tgttagttat tggaggtgga gatggtggtg ttttgcgtga agtttcacga
+      481 cattcctcgg tggagcaaat tgacatatgt gaaattgata agatggtggt agatgtctcc
+      541 aaacaatttt ttcctcatct ggctgttgga tttgaagacc cccgtgtgtc attacacatt
+      601 ggagatggcg tggccttttt gaaaaatgct ccagagggta cttatgatgc agttattgtg
+      661 gattcctctg atccaatagg accggctcaa gagcttttcg agaagccttt cttccagtca
+      721 gttgccagag ctttgcgtcc tggtggtgtt gtatgtaccc aggcagagag catatggttg
+      781 catatgcata ttattgaaga tattgtagct aattgtcgcc aagtttttaa aggctcagtg
+      841 aattatgctt ggacaacagt accaacatac cctagtggtg ttattggttt tatgctttgc
+      901 tccaccgagg ggcctactgt tgatttccag catcctattt ttaacattga ggataatgag
+      961 ttctcaacaa aatcgaaagg accacttaag ttctacaatt ccgagatcca ctcagcatca
+     1021 ttttgtttgc cgtcttttgc gaagagagtc attggatcca aggccaacta gatcaaagat
+     1081 cactgagccc aaggccaact ggactggaat ccctccgaca agagatttgg ttgtagcaga
+     1141 aagagcaatg accccttttt tcccatttaa ataaaaattg gagatgtaaa cggttatcca
+     1201 agtgcttttg aattttgtct cagtatgaga acgttttgta tttggtaact gttttcccgc
+     1261 atctccctta ccatttaccc aaatgagtat tgctgtagtt ttcatctg
+//
+

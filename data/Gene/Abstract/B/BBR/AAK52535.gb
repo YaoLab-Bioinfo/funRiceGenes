@@ -1,0 +1,73 @@
+LOCUS       AC078891_4               343 aa            linear   PLN 05-OCT-2005
+DEFINITION  Unknown protein [Oryza sativa Japonica Group].
+ACCESSION   AAK52535
+VERSION     AAK52535.1  GI:14028994
+DBSOURCE    accession AC078891.2
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 343)
+  AUTHORS   Wing,R.A., Frisch,D., Presting,G., Wood,T., Yu,Y., Soderlund,C.,
+            Kim,H.-R., Rambo,T., Henry,D. and Simmons,J.
+  TITLE     Rice Genomic Sequence
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 343)
+  AUTHORS   Wing,R.A., Frisch,D., Presting,G., Wood,T., Yu,Y., Rambo,T.,
+            Crane,L. and Schwartzbeck,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2000) Clemson University Genomics Institute,
+            Clemson University, 100 Jordan Hall, Clemson, SC 29634, USA
+REFERENCE   3  (residues 1 to 343)
+  AUTHORS   Wing,R.A., Frisch,D., Presting,G., Wood,T., Yu,Y., Soderlund,C.,
+            Kim,H.-R., Rambo,T., Henry,D. and Simmons,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-APR-2001) Clemson University Genomics Institute,
+            Clemson University, 100 Jordan Hall, Clemson, SC 29634, USA
+REFERENCE   4  (residues 1 to 343)
+  AUTHORS   Wing,R.A., Frisch,D., Presting,G., Wood,T., Yu,Y., Soderlund,C.,
+            Kim,H.-R., Rambo,T., Henry,D., Simmons,J., Thurmond,S.K. and Mao,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-APR-2001) Clemson University Genomics Institute,
+            Clemson University, 100 Jordan Hall, Clemson, SC 29634, USA
+REFERENCE   5  (residues 1 to 343)
+  AUTHORS   Wing,R.A., Frisch,D., Presting,G., Wood,T.C., Yu,Y., Soderlund,C.,
+            Kim,H., Rambo,T., Henry,D., Simmons,J., Thurmond,S.K. and Mao,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAY-2001) Clemson University Genomics Institute,
+            Clemson University, 100 Jordan Hall, Clemson, SC 29634, USA
+REFERENCE   6  (residues 1 to 343)
+  AUTHORS   Wing,R.A., Frisch,D., Presting,G., Wood,T.C., Yu,Y., Soderlund,C.,
+            Kim,H., Rambo,T., Henry,D., Simmons,J., Thurmond,S.K. and Mao,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-FEB-2002) Clemson University Genomics Institute,
+            Clemson University, 100 Jordan Hall, Clemson, SC 29634, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..343
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+                     /chromosome="10"
+                     /clone="OSJNBa0092N12"
+     Protein         1..343
+                     /product="Unknown protein"
+     Region          54..343
+                     /region_name="GAGA_bind"
+                     /note="GAGA binding protein-like family; pfam06217"
+                     /db_xref="CDD:253621"
+     CDS             1..343
+                     /gene="OSJNBa0092N12.3"
+                     /coded_by="join(AC078891.2:20891..20991,
+                     AC078891.2:21565..21605,AC078891.2:22149..22418,
+                     AC078891.2:22600..23219)"
+ORIGIN      
+        1 mavvdmhggs wgggdgeggv evegegrkwr wkgrhqhgsa yisgpdrrfg ggemnddasm
+       61 ssmglrgwga fyepparnlg lqlmssvpad rdtkhllsat pflhhhqhqq yvphhhhqph
+      121 hprdcgtnan angngngvgy gmmpathtlr mlqhqpepqp qlqhppspph pkeecisppl
+      181 meenvpvkpp ppkkrqqgrq pkvlrpkkpk kpaapcedga ppsapaprrr gprknigmvi
+      241 ngidldlsri ptricsctga pqqryrwgag gwqsaccttt vstyplpmsm kprgariagr
+      301 kmshgafkkv leklasegyn lnnpidlktf wakhgtnkfv tir
+//
+

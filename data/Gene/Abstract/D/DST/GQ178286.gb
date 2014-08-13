@@ -1,0 +1,63 @@
+LOCUS       GQ178286                 906 bp    mRNA    linear   PLN 07-AUG-2009
+DEFINITION  Oryza sativa Japonica Group drought and salt tolerance protein
+            mRNA, complete cds.
+ACCESSION   GQ178286
+VERSION     GQ178286.1  GI:255529742
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 906)
+  AUTHORS   Huang,X.Y., Chao,D.Y., Gao,J.P., Zhu,M.Z., Shi,M. and Lin,H.X.
+  TITLE     A previously unknown zinc finger protein, DST, regulates drought
+            and salt tolerance in rice via stomatal aperture control
+  JOURNAL   Genes Dev. 23 (15), 1805-1817 (2009)
+   PUBMED   19651988
+REFERENCE   2  (bases 1 to 906)
+  AUTHORS   Huang,X.-Y., Chao,D.-Y., Gao,J.-P., Zhu,M.-Z., Shi,M. and Lin,H.-X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-MAY-2009) National Key Laboratory of Plant Molecular
+            Genetics, Shanghai Institute of Plant Physiology and Ecology,
+            Shanghai Institutes for Biological Sciences, Chinese Academy of
+            Sciences, 300 Fenglin Road, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..906
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     CDS             1..906
+                     /note="DST; zinc finger protein; negatively regulates
+                     stomatal closure by direct modulation of genes related to
+                     H2O2 homeostasis"
+                     /codon_start=1
+                     /product="drought and salt tolerance protein"
+                     /protein_id="ACU12847.1"
+                     /db_xref="GI:255529743"
+                     /translation="MDSPSPMAAQAADLSLTLAPSGGGGGGGGGGGGGGSSSACIDGK
+                     DVRLFPCLFCNKKFLKSQALGGHQNAHKKERSIGWNPYFYMPPTPHPAGNAAAAAAAA
+                     TPGGMSSVTTPSGSYGVVGGAAVGATAGVGGGGGVGGGLLPAHAYAGHGYAAVPTSFP
+                     IASHSSSVVGSGGLQYYAGTDCGAAAAGAAKTTTTAAAAATAVAGSESGVQVPRFATH
+                     QHHLLAVVSSGRAMLAAPDQPGAGRDDMIDMLNWRRGSHGPTASAAATTPSPASTTTT
+                     LTTFASADGSNNGEENEELDLNLSL"
+ORIGIN      
+        1 atggactccc cgtcgcctat ggcggcgcag gcggccgacc tgtcgctgac gctggcgccg
+       61 tcgggagggg gtggtggggg aggaggaggc ggcggcggtg gtgggtcgtc gtcggcgtgc
+      121 atcgacggca aggacgtgcg gctgttcccg tgcttgttct gcaacaagaa gttcttgaag
+      181 tcgcaggcgc tgggcgggca ccagaacgcg cacaagaagg agcggagcat cgggtggaat
+      241 ccctacttct acatgccgcc gacgccgcac cccgccggca atgccgccgc cgccgccgcg
+      301 gcggcgacgc ccggtgggat gtcgtccgtc acgacgccat ccgggagcta cggcgtcgtc
+      361 ggtggtgccg ccgtcggggc tactgctggc gttgggggcg gaggtggagt gggagggggg
+      421 cttctcccgg cgcacgcgta cgccgggcac gggtacgccg cggtgccgac gtcgttcccc
+      481 atcgcgtcgc acagctcgag cgtggttggc tccggtgggc tgcagtacta cgctggtacc
+      541 gactgcggcg cggcggcggc gggtgcggcg aagacgacga cgacggcggc ggcggcggcg
+      601 acggccgtgg cggggagcga gagcggcgtg caggtgcccc ggttcgcgac gcaccagcac
+      661 catctcctgg cggtggtgag cagcgggcgc gcgatgctgg cggcgcccga ccagccgggc
+      721 gccgggcgcg acgacatgat cgacatgctc aactggaggc gaggctccca cggccccacc
+      781 gcctccgccg ccgccaccac gccctccccg gcaagcacca ccaccacgct caccaccttc
+      841 gccagcgccg acggcagcaa caacggcgag gagaacgagg agctcgacct caacttgagc
+      901 ctctag
+//
+

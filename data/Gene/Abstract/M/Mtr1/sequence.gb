@@ -1,0 +1,69 @@
+LOCUS       AB300404                1095 bp    mRNA    linear   PLN 05-JUL-2008
+DEFINITION  Oryza sativa Japonica Group MTR1 mRNA for arogenate dehydratase
+            mutant, complete cds.
+ACCESSION   AB300404
+VERSION     AB300404.1  GI:157362173
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yamada,T., Matsuda,F., Kasai,K., Fukuoka,S., Kitamura,K.,
+            Tozawa,Y., Miyagawa,H. and Wakasa,K.
+  TITLE     Mutation of a rice gene encoding a phenylalanine biosynthetic
+            enzyme results in accumulation of phenylalanine and tryptophan
+  JOURNAL   Plant Cell 20 (5), 1316-1329 (2008)
+   PUBMED   18487352
+REFERENCE   2  (bases 1 to 1095)
+  AUTHORS   Yamada,T., Tozawa,Y., Kitamura,K. and Wakasa,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-APR-2007) Contact:Tetsuya Yamada Hokkaido University,
+            Research Faculty of Agriculture; Kita 9, Hishi 9, Kita-ku, Sapporo,
+            Hokkaido 060-8589, Japan
+FEATURES             Location/Qualifiers
+     source          1..1095
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Norin 8 mutant"
+                     /db_xref="taxon:39947"
+                     /chromosome="7"
+                     /tissue_type="callus"
+     gene            1..1095
+                     /gene="MTR1"
+     CDS             1..1095
+                     /gene="MTR1"
+                     /codon_start=1
+                     /product="arogenate dehydratase mutant"
+                     /protein_id="BAF80328.1"
+                     /db_xref="GI:157362174"
+                     /translation="MVSPSLRIPAAARVFDPAINTRCPPPHAVVMRMRSRSRRSIAAS
+                     ASPPGDPSIRDPISLPRPLTSADLMEASGDGLKVAYQGCPGAYSEAAAKKAYPSCHTV
+                     PCEYFETAFQAVENWVADRAVLPLENSLGGSIHRNYDLLLRHRLHIVGEVRLAVRHCL
+                     LANRGVKIQNLRSAMSHPQALAQCEQTLTKLGIEHREAVDDTAGAAKLIAEQKLQDTG
+                     AVASSLAAQLYGLDILAENIQDDTDNVTRFMMLAREPIIPRTDKPFKTSIVFSLEEGP
+                     GQLFKALAVFALRKINLTKMEIRPHKKKPLRIADDNCSAPLKHFDYLFYVDLEASMAD
+                     PNAQNALANLKEFATFLRVLGSYPTDVSEA"
+ORIGIN      
+        1 atggtttccc cttcgcttcg gatccccgcg gccgcgcgcg tcttcgatcc cgccatcaac
+       61 acccgctgcc ctccgcccca cgccgtcgtc atgcgcatgc gcagtcgcag ccgccgttcc
+      121 atcgctgcct ccgcttcgcc gccgggggac ccctccatcc gcgaccccat ctcactgcca
+      181 aggccgctca ccagcgcgga tctgatggag gccagcggag acggtttgaa ggtcgcatac
+      241 cagggatgcc cgggtgccta cagtgaggcc gccgccaaga aggcgtaccc gagttgccac
+      301 accgtgccct gcgaatactt cgagaccgcc tttcaggctg tcgaaaattg ggtggctgac
+      361 cgcgcggtcc tgccacttga gaattccttg ggtggtagca tccatcgaaa ctatgacctt
+      421 ctacttcgcc ataggctgca cattgttggt gaggtgcgcc ttgcagttcg ccattgcttg
+      481 ttagcaaatc gtggtgtgaa gatccaaaat ttgagaagtg ccatgagcca tcctcaagct
+      541 cttgcacagt gtgaacaaac actgacaaag ttaggcatcg agcatagaga agctgttgac
+      601 gatacagcag gtgcagcaaa gcttattgca gaacaaaagc tccaggacac tggagcagtt
+      661 gctagttcat tggcagctca actttatgga ctggatattc ttgcagaaaa tattcaggat
+      721 gacaccgata atgtaacacg ctttatgatg ctggctcggg aacccattat tcctcgtact
+      781 gataagccat tcaagactag catagtcttt tctttggaag aagggcctgg gcaactattt
+      841 aaggcgctgg cagtgtttgc actgagaaaa attaacctca ccaagatgga aatccgtcca
+      901 cacaagaaaa agcctctacg tatagctgat gataattgtt ctgcaccatt gaagcatttc
+      961 gactacctct tctatgtaga tcttgaggcg tcaatggctg atccaaatgc tcaaaatgct
+     1021 ctggcaaact taaaggagtt cgcaaccttt ctaagagttc ttgggagcta tcctaccgat
+     1081 gtcagtgaag catga
+//
+

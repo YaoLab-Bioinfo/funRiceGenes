@@ -1,0 +1,72 @@
+LOCUS       AM039890                 906 bp    DNA     linear   PLN 15-SEP-2006
+DEFINITION  Oryza sativa Japonica Group cdsp32 gene for thioredoxin.
+ACCESSION   AM039890
+VERSION     AM039890.1  GI:67904931
+KEYWORDS    cdsp32 gene; thioredoxin.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Perez-Ruiz,J.M., Spinola,M.C., Kirchsteiger,K., Moreno,J.,
+            Sahrawy,M. and Cejudo,F.J.
+  TITLE     Rice NTRC is a high-efficiency redox system for chloroplast
+            protection against oxidative damage
+  JOURNAL   Plant Cell 18 (9), 2356-2368 (2006)
+   PUBMED   16891402
+REFERENCE   2  (bases 1 to 906)
+  AUTHORS   Cejudo,F.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2005) Cejudo F.J., Instituto de Bioquimica
+            Vegetal y Fotosi, Universidad de Sevilla, Avda Americo Vespucio 49,
+            41092-Sevilla, SPAIN
+FEATURES             Location/Qualifiers
+     source          1..906
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+     gene            1..906
+                     /gene="cdsp32"
+     CDS             1..906
+                     /gene="cdsp32"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="thioredoxin"
+                     /protein_id="CAJ01694.1"
+                     /db_xref="GI:67904932"
+                     /db_xref="GOA:Q84NN4"
+                     /db_xref="HSSP:1ERW"
+                     /db_xref="InterPro:IPR005746"
+                     /db_xref="InterPro:IPR012335"
+                     /db_xref="InterPro:IPR012336"
+                     /db_xref="InterPro:IPR013766"
+                     /db_xref="UniProtKB/Swiss-Prot:Q84NN4"
+                     /translation="MASTAAFLSTLAGSTSLGGATPASGGGSGRSKTARFLRRRRRGG
+                     AVRAAVSGTEQAPETTKKKGGGGGGGDERVVQVHSAEELDGALRAAKERLVVVEFAAS
+                     HSVNSSRIYPCMVELSRTCGDVDFLLVMGDESDATRELCRREGITAVPHFTFYKGAEK
+                     VHEEEGIGPDQLAGDVLYYGDHHSAVVQLHSRADVESLISDHRGEGGKLVVLDVGLKR
+                     CGPCVKVYPTVVKLSRTMADTTVFARMNGDENDSCMEFLRDMDVVEVPTFLFIRDGDI
+                     VGRYVGSGRGELIGEILRYNGVKVT"
+ORIGIN      
+        1 atggcatcca ccgccgcctt cctgtccacg ctcgccggct cgaccagcct gggcggcgcc
+       61 acgccggcca gcggcggcgg gagcgggagg agcaagacgg cgaggttctt gaggaggcgg
+      121 cggcgcggcg gcgcggtgag ggcggcggtg tccggcacgg agcaggcgcc ggagacgacg
+      181 aagaagaagg gcggcggcgg cggcggcggg gacgagcggg tggtgcaggt gcacagcgcg
+      241 gaggagctcg acggcgcgct gcgggcggcg aaggagcggc tggtggtggt ggagttcgcg
+      301 gcgagccaca gcgtgaacag cagccgcatc tacccgtgca tggtggagct gagccgcacc
+      361 tgcggcgacg tcgacttcct cctcgtcatg ggcgacgagt cggacgccac ccgggagctg
+      421 tgccgccggg aggggatcac cgccgtgccc cacttcacct tctacaaggg cgccgagaag
+      481 gtccacgagg aggaggggat cggccccgac cagctcgccg gcgacgtcct ctactacggc
+      541 gaccaccact ccgccgtcgt ccagctccac tcccgcgccg acgtcgagtc cctcatctcc
+      601 gaccaccgcg gcgagggcgg caagctggtg gtgctcgacg tggggctcaa gcgatgcggg
+      661 ccctgcgtga aggtgtaccc caccgtcgtg aagctgtcgc gcaccatggc cgacaccacc
+      721 gtcttcgccc gcatgaacgg cgacgagaac gacagctgca tggagttcct ccgcgacatg
+      781 gacgtcgtcg aggtgcccac cttcctcttc atcagggacg gcgacatcgt cggccgctac
+      841 gtcggctccg gcagggggga gctcatcggc gagatcctca gatacaacgg cgtcaaggtc
+      901 acctag
+//
+

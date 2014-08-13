@@ -1,0 +1,59 @@
+LOCUS       AF300972                 897 bp    mRNA    linear   PLN 05-MAR-2003
+DEFINITION  Oryza sativa putative DRE-binding protein 1B mRNA, complete cds.
+ACCESSION   AF300972
+VERSION     AF300972.1  GI:22594972
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 897)
+  AUTHORS   Dubouzet,J.G., Sakuma,Y., Ito,Y., Kasuga,M., Dubouzet,E.G.,
+            Miura,S., Seki,M., Shinozaki,K. and Yamaguchi-Shinozaki,K.
+  TITLE     OsDREB genes in rice, Oryza sativa L., encode transcription
+            activators that function in drought-, high-salt- and
+            cold-responsive gene expression
+  JOURNAL   Plant J. 33 (4), 751-763 (2003)
+   PUBMED   12609047
+REFERENCE   2  (bases 1 to 897)
+  AUTHORS   Dubouzet,J.G., Sakuma,Y. and Yamaguchi-Shinozaki,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-AUG-2000) Biological Resources Division, Japan
+            International Research Center for Agricultural Science, 2-1
+            Ohwashi, Tsukuba, Ibaraki 305-8686, Japan
+FEATURES             Location/Qualifiers
+     source          1..897
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /note="derived from dbEST AU070067"
+     CDS             16..672
+                     /note="upregulated by cold-stress; OsDREB1B"
+                     /codon_start=1
+                     /product="putative DRE-binding protein 1B"
+                     /protein_id="AAN02488.1"
+                     /db_xref="GI:22594973"
+                     /translation="MEVEEAAYRTVWSEPPKRPAGRTKFRETRHPVYRGVRRRGGRPG
+                     AAGRWVCEVRVPGARGSRLWLGTFATAEAAARAHDAAALALRGRAACLNFADFAWRMP
+                     PVPASAALAGARGVRDPVAVAVEAFQRQSAAPSSPAETFANDGDEEEANKDVLPVAAA
+                     EVFDAGAFELDDGFRFGGMDAGSYYASLAQGLLVEPPAAGAWWEDGELAGSDMPLWSY
+                     "
+ORIGIN      
+        1 cagagagagt catccatgga ggtggaggag gcggcgtaca ggacggtgtg gtcggagccg
+       61 ccgaagaggc cggcgggaag gaccaagttc agggagacga ggcacccggt gtaccgcggc
+      121 gtgcggcggc gcggggggcg gccgggcgcg gcggggaggt gggtgtgcga ggtgcgggtg
+      181 cccggggcgc gcggctccag gctgtggctc ggcacgttcg ccaccgccga ggcggcggcg
+      241 cgcgcgcacg acgccgccgc gctggcgctc cgcggcaggg ccgcctgcct caacttcgcc
+      301 gacttcgcgt ggcggatgcc gccggtcccc gcgtccgccg cgctcgccgg cgcgaggggg
+      361 gtcagggacc ccgtcgccgt ggccgtcgag gcgttccagc gccagtcggc cgcgccgtcg
+      421 tctccggcgg agaccttcgc caacgatggc gacgaagaag aagccaacaa ggacgtgttg
+      481 ccggtggcgg cggcggaggt gttcgacgcg ggggcgttcg agctcgacga cgggttcagg
+      541 ttcggcggga tggacgccgg gtcgtactac gcgagcttgg cgcaggggct gctcgtcgag
+      601 ccgccggccg ccggagcgtg gtgggaggac ggcgagctcg ccggctccga catgccgctc
+      661 tggagctact aatcaaaatc tcgcactgaa aagtgtggac aaattttgat tctccagaaa
+      721 ttgggggaaa aaagagaaca gagtattggt gaatttagaa cagagtaggc aatgagactg
+      781 aggatgaatg gcaatttttg taattttgga atgtgccaga tttctccctc cttttgtgat
+      841 tccatctgat tttgaatgtg cagtcaatga attcctgtaa atttacttct cctctcc
+//
+

@@ -1,0 +1,105 @@
+LOCUS       AB049822                2301 bp    mRNA    linear   PLN 14-APR-2001
+DEFINITION  Oryza sativa ALS mRNA for acetolactate synthase, complete cds,
+            herbicide sensitive wild type.
+ACCESSION   AB049822
+VERSION     AB049822.1  GI:12082313
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Shimizu,T., Kato,Y., Nakayama,I., Nakayama,K., Fukuda,A. and
+            Tanaka,Y.
+  TITLE     Isolation and Expression of acetolactate synthase genes from Oryza
+            sativa
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2301)
+  AUTHORS   Shimizu,T., Nakayama,I., Nagayama,K., Fukuda,A. and Tanaka,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-OCT-2000) Tsutomu Shimizu, Life Science Research
+            Institute, Kumiai Chemical Industry Co., Ltd., Biotechnology
+            Research Group; Kikugawa-cho, Ogasa-gun, Shizuoka 439-0035, Japan
+            (E-mail:tsutom.shimizu@nifty.ne.jp,
+            URL:http://www.netforward.or.jp/kumika/, Tel:81-537-35-0711,
+            Fax:81-537-36-3718)
+FEATURES             Location/Qualifiers
+     source          1..2301
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Kinmaze"
+                     /db_xref="taxon:39947"
+                     /cell_type="callus"
+                     /clone_lib="lambda gt11 rice callus cDNA"
+                     /country="Japan"
+                     /note="herbicide sensitive wild type"
+     gene            1..2301
+                     /gene="ALS"
+     CDS             48..1982
+                     /gene="ALS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="function is confirmed by enzyme activity of the
+                     protein expressed in E. Coli;
+                     herbicide sensitive wild type"
+                     /codon_start=1
+                     /product="acetolactate synthase"
+                     /protein_id="BAB20812.1"
+                     /db_xref="GI:12082314"
+                     /translation="MATTAAAAAAALSAAATAKTGRKNHQRHHVLPARGRVGAAAVRC
+                     SAVSPVTPPSPAPPATPLRPWGPAEPRKGADILVEALERCGVSDVFAYPGGASMEIHQ
+                     ALTRSPVITNHLFRHEQGEAFAASGYARASGRVGVCVATSGPGATNLVSALADALLDS
+                     VPMVAITGQVPRRMIGTDAFQETPIVEVTRSITKHNYLVLDVEDIPRVIQEAFFLASS
+                     GRPGPVLVDIPKDIQQQMAVPVWDTSMNLPGYIARLPKPPATELLEQVLRLVGESRRP
+                     ILYVGGGCSASGDELRWFVELTGIPVTTTLMGLGNFPSDDPLSLRMLGMHGTVYANYA
+                     VDKADLLLAFGVRFDDRVTGKIEAFASRAKIVHIDIDPAEIGKNKQPHVSICADVKLA
+                     LQGLNALLQQSTTKTSSDFSAWHNELDQQKREFPLGYKTFGEEIPPQYAIQVLDELTK
+                     GEAIIATGVGQHQMWAAQYYTYKRPRQWLSSAGLGAMGFGLPAAAGASVANPGVTVVD
+                     IDGDGSFLMNIQELALIRIENLPVKVMVLNNQHLGMVVQWEDRFYKANRAHTYLGNPE
+                     CESEIYPDFVTIAKGFNIPAVRVTKKSEVRAAIKKMLETPGPYLLDIIVPHQEHVLPM
+                     IPSGGAFKDMILDGDGRTVY"
+     polyA_site      2276
+                     /gene="ALS"
+ORIGIN      
+        1 cccaaaccca gaaaccctcg ccgccgccgc cgccgccacc acccaccatg gctacgaccg
+       61 ccgcggccgc ggccgccgcc ctgtccgccg ccgcgacggc caagaccggc cgtaagaacc
+      121 accagcgaca ccacgtcctt cccgctcgag gccgggtggg ggcggcggcg gtcaggtgct
+      181 cggcggtgtc cccggtcacc ccgccgtccc cggcgccgcc ggccacgccg ctccggccgt
+      241 gggggccggc cgagccccgc aagggcgcgg acatcctcgt ggaggcgctg gagcggtgcg
+      301 gcgtcagcga cgtgttcgcc tacccgggcg gcgcgtccat ggagatccac caggcgctga
+      361 cgcgctcccc ggtcatcacc aaccacctct tccgccacga gcagggcgag gcgttcgcgg
+      421 cgtccgggta cgcgcgcgcg tccggccgcg tcggggtctg cgtcgccacc tccggccccg
+      481 gggcaaccaa cctcgtgtcc gcgctcgccg acgcgctgct cgactccgtc ccgatggtcg
+      541 ccatcacggg ccaggtcccc cgccgcatga tcggcaccga cgccttccag gagacgccca
+      601 tagtcgaggt cacccgctcc atcaccaagc acaattacct tgtccttgat gtggaggaca
+      661 tcccccgcgt catacaggaa gccttcttcc tcgcgtcctc gggccgtcct ggcccggtgc
+      721 tggtcgacat ccccaaggac atccagcagc agatggccgt gccggtctgg gacacctcga
+      781 tgaatctacc agggtacatc gcacgcctgc ccaagccacc cgcgacagaa ttgcttgagc
+      841 aggtcttgcg tctggttggc gagtcacggc gcccgattct ctatgtcggt ggtggctgct
+      901 ctgcatctgg tgacgaattg cgctggtttg ttgagctgac tggtatccca gttacaacca
+      961 ctctgatggg cctcggcaat ttccccagtg acgacccgtt gtccctgcgc atgcttggga
+     1021 tgcatggcac ggtgtacgca aattatgccg tggataaggc tgacctgttg cttgcgtttg
+     1081 gtgtgcggtt tgatgatcgt gtgacaggga aaattgaggc ttttgcaagc agggccaaga
+     1141 ttgtgcacat tgacattgat ccagcagaga ttggaaagaa caagcaacca catgtgtcaa
+     1201 tttgcgcaga tgttaagctt gctttacagg gcttgaatgc tctgctacaa cagagcacaa
+     1261 caaagacaag ttctgatttt agtgcatggc acaatgagtt ggaccagcag aagagggagt
+     1321 ttcctctggg gtacaaaact tttggtgaag agatcccacc gcaatatgcc attcaggtgc
+     1381 tggatgagct gacgaaaggt gaggcaatca tcgctactgg tgttgggcag caccagatgt
+     1441 gggcggcaca atattacacc tacaagcggc cacggcagtg gctgtcttcg gctggtctgg
+     1501 gcgcaatggg atttgggctg cctgctgcag ctggtgcttc tgtggctaac ccaggtgtca
+     1561 cagttgttga tattgatggg gatggtagct tcctcatgaa cattcaggag ctggcattga
+     1621 tccgcattga gaacctccct gtgaaggtga tggtgttgaa caaccaacat ttgggtatgg
+     1681 tggtgcaatg ggaggatagg ttttacaagg cgaatagggc gcatacatac ttgggcaacc
+     1741 cggaatgtga gagcgagata tatccagatt ttgtgactat tgctaagggg ttcaatattc
+     1801 ctgcagtccg tgtaacaaag aagagtgaag tccgtgccgc catcaagaag atgctcgaga
+     1861 ctccagggcc atacttgttg gatatcatcg tcccgcacca ggagcatgtg ctgcctatga
+     1921 tcccaagtgg gggcgcattc aaggacatga tcctggatgg tgatggcagg actgtgtatt
+     1981 aatctataat ctgtatgttg gcaaagcacc agcccggcct atgtttgacc tgaatgaccc
+     2041 ataaagagtg gtatgcctat gatgtttgta tgtgctctat caataactaa ggtgtcaact
+     2101 atgaaccata tgctcttctg ttttacttgt ttgatgtgct tggcatggta atcctaatta
+     2161 gcttcctgct gtctaggttt gtagtgtgtt gttttctgta ggcatatgca tcacaagata
+     2221 tcatgtaagt ttcttgtcct acatatcaat aataagagaa taaagtactt ctatgcaaaa
+     2281 aaaaaaaaaa aaaaaaaaaa a
+//
+

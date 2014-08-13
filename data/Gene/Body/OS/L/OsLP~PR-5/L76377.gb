@@ -1,0 +1,66 @@
+LOCUS       RIC14B                   803 bp    DNA     linear   PLN 28-AUG-1997
+DEFINITION  Oryza sativa (clone 14b) osmotin protein (14b) gene, 3' complete
+            cds.
+ACCESSION   L76377
+VERSION     L76377.1  GI:1196834
+KEYWORDS    osmotic stress; osmotin; osmotin-like proteins; stress inducible
+            gene.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 803)
+  AUTHORS   Medina,J. and Quatrano,R.S.
+  TITLE     Characterization of a rice cDNA (Accession No. L76377) encoding an
+            Osmotin-like protein (PGR96-058)
+  JOURNAL   Plant Physiol. 111, 1354 (1996)
+REFERENCE   2  (bases 1 to 803)
+  AUTHORS   Medina,J., Davis,J. and Quatrano,R.S.
+  TITLE     Characterization of a novel Osmotin-like protein from Oryza sativa
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 803)
+  AUTHORS   Quatrano,R.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-FEB-1996) Department of Biology, University of North
+            Carolina, Chapel Hill, North Carolina 27599-3280, USA
+FEATURES             Location/Qualifiers
+     source          1..803
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:4530"
+                     /clone="14b"
+                     /cell_line="rice cell suspension"
+                     /cell_type="embryogenic"
+                     /tissue_type="callus"
+                     /clone_lib="lambda ZAP Andre Nantel's 1995"
+     gene            1..657
+                     /gene="14b"
+     CDS             <1..657
+                     /gene="14b"
+                     /codon_start=1
+                     /product="osmotin"
+                     /protein_id="AAB67852.1"
+                     /db_xref="GI:1196835"
+                     /translation="ARASVHLLLLVVVLAAAADAVTFTIVNKCGYTVWPAALPSGDGN
+                     QLDPGQSWAVYVPAGTKGARVWGRTGCGFISGGSLGQCQTGDCGGTLRCAAVGAPPVT
+                     VAEFSLGQASKDDYFDISLVDGFNAPMAIVPAAAGGRRCPRGGPRCAAEITLQCPGEL
+                     RAKAGCNNPCRGNSTCGPTKDTEFFKKLCPETVTYARDGQGTTFTCPAGTEYQIVFCP
+                     "
+ORIGIN      
+        1 gcacgagctt ctgtccacct cctcctcctc gtcgtggtgc tcgccgccgc cgccgatgcg
+       61 gtgacgttca ccatcgtcaa caagtgcggg tacaccgtgt ggccggcggc gctgccgtcg
+      121 ggcgacggca atcagctcga cccggggcag agctgggccg tgtacgtgcc ggcgggcacc
+      181 aagggcgcgc gcgtgtgggg gcgcacgggc tgcggcttca tctccggcgg cagcctaggg
+      241 cagtgccaga cgggcgactg cggcggcacg ctgcggtgcg cggccgtcgg cgcgccgccc
+      301 gtcacggtgg ccgagttctc gctgggccag gcgagcaagg acgactactt cgacatctcg
+      361 ctcgtggatg ggttcaacgc gccaatggcc atcgtgccgg cggcggcggg cgggcggcgg
+      421 tgcccccgcg gcgggcctcg gtgcgcggcg gagatcacgc tgcagtgccc cggcgaactg
+      481 cgcgccaagg ccgggtgcaa caacccgtgc agggggaaca gcacgtgcgg gccgaccaag
+      541 gacacggagt ttttcaagaa gctgtgcccg gagacggtga cctatgcccg ggacggccaa
+      601 ggcaccacct tcacctgccc cgccggcacc gaataccaga ttgttttttg cccatgatga
+      661 ggttggtttt gtacagggac agtaataagt attttagttc ctgtaattgt atatggtggt
+      721 aaataaaacc tggcactgag tgaatcaatt gtttgggata atgaaaataa atggataaat
+      781 tttgtcagtt aaaaaaaaaa aaa
+//
+

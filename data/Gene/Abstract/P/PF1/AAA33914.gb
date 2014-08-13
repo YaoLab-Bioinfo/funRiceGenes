@@ -1,0 +1,50 @@
+LOCUS       AAA33914                 213 aa            linear   PLN 11-MAR-1994
+DEFINITION  AT hook 1 from AA 98-106, AT hook 2 from AA 129-137, AT hook 3 from
+            AA 154-162, AT hook 4 from AA 192-200 [Oryza sativa Indica Group].
+ACCESSION   AAA33914
+VERSION     AAA33914.1  GI:453692
+DBSOURCE    locus RICPF1XXXA accession L24390.1
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 213)
+  AUTHORS   Nieto-Sotelo,J., Ichida,A. and Quail,P.H.
+  TITLE     PF1: an A-T hook-containing DNA binding protein from rice that
+            interacts with a functionally defined d(AT)-rich element in the oat
+            phytochrome A3 gene promoter
+  JOURNAL   Plant Cell 6 (2), 287-301 (1994)
+   PUBMED   8148649
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..213
+                     /organism="Oryza sativa Indica Group"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /tissue_type="shoot"
+                     /dev_stage="seven day-old dark grown seedlings"
+                     /tissue_lib="lambdagt11"
+     Protein         1..213
+                     /name="AT hook 1 from AA 98-106, AT hook 2 from AA
+                     129-137, AT hook 3 from AA 154-162, AT hook 4 from AA
+                     192-200."
+     Region          19..85
+                     /region_name="H15"
+                     /note="Domain in histone families 1 and 5; smart00526"
+                     /db_xref="CDD:197772"
+     Site            order(26,38)
+                     /site_type="DNA binding"
+                     /note="DNA-binding site [nucleotide binding]"
+                     /db_xref="CDD:238028"
+     CDS             1..213
+                     /gene="PF1"
+                     /coded_by="L24390.1:35..676"
+ORIGIN      
+        1 mateedastm aaaeadpkpa atpsypemil aaiealddrn gsnktaisqh iegkyegllp
+       61 pahpslltah larmkqtgel afsknnyfrg ddpslppkrg rgrppkpkda aaaaaapapa
+      121 paapaasspr prgrppkpkd plaeavakat sgmprargrp pkkakveqed pigapaaasa
+      181 paaaaeaapp vkrgrgrppk vrpaapvgep aaa
+//
+

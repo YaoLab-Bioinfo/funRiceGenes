@@ -1,0 +1,100 @@
+LOCUS       EU286801                2720 bp    DNA     linear   PLN 04-JUN-2008
+DEFINITION  Oryza sativa Indica Group cultivar Minghui 63 GHD7 (Ghd7) gene,
+            complete cds.
+ACCESSION   EU286801
+VERSION     EU286801.1  GI:168188198
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2720)
+  AUTHORS   Xue,W., Xing,Y., Weng,X., Zhao,Y., Tang,W., Wang,L., Zhou,H.,
+            Yu,S., Xu,C., Li,X. and Zhang,Q.
+  TITLE     Natural variation in Ghd7 is an important regulator of heading date
+            and yield potential in rice
+  JOURNAL   Nat. Genet. 40 (6), 761-767 (2008)
+   PUBMED   18454147
+REFERENCE   2  (bases 1 to 2720)
+  AUTHORS   Xue,W., Xing,Y., Weng,X. and Zhang,Q.
+  TITLE     A major QTL for productivity and adaptability of rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2720)
+  AUTHORS   Xue,W., Xing,Y., Weng,X. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-NOV-2007) National Key Laboratory of Crop Genetic
+            Improvement, National Center of Plant Gene Research (Wuhan),
+            Huazhong Agricultural University, Wuhan, Hubei 430070, China
+FEATURES             Location/Qualifiers
+     source          1..2720
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Minghui 63"
+                     /db_xref="taxon:39946"
+     gene            62..2720
+                     /gene="Ghd7"
+                     /note="CCT"
+     mRNA            join(62..715,2361..2720)
+                     /gene="Ghd7"
+                     /product="GHD7"
+     CDS             join(272..715,2361..2690)
+                     /gene="Ghd7"
+                     /codon_start=1
+                     /product="GHD7"
+                     /protein_id="ACA14489.1"
+                     /db_xref="GI:168188199"
+                     /translation="MSMGPAAGEGCGLCGADGGGCCSRHRHDDDGFPFVFPPSACQGI
+                     GAPAPPVHEFQFFGNDGGGDDGESVAWLFDDYPPPSPVAAAAGMHHRQPPYDGVVAPP
+                     SLFRRNTGAGGLTFDVSLGGRPDLDAGLGLGGGSGRHAEAAASATIMSYCGSTFTDAA
+                     SSMPKEMVAAMADVGESLNPNTVVGAMVEREAKLMRYKEKRKKRCYEKQIRYASRKAY
+                     AEMRPRVRGRFAKEADQEAVAPPSTYVDPSRLELGQWFR"
+ORIGIN      
+        1 cgctctcctc gatcgatcat aatatgatct cgcaatggcc cccctacctt tccctcatcc
+       61 ccaacttgcc ctgtcttctt cttcttcttc ttcttgtacc tatattatta caagtcatcg
+      121 atctcgctga tcgatcagtg atcacaagca tttcacaacc ctagctagct gagctgatcg
+      181 agctcaagtg acctcacctg ctatagctaa cttactagct agctctagct agttgttgtt
+      241 tgtagctcga tcgagtttga tttatccgtt catgtcgatg ggaccagcag ccggagaagg
+      301 atgtggcctg tgcggcgccg acggtggcgg ctgttgctcc cgccatcgcc acgatgatga
+      361 tggattcccc ttcgtcttcc cgccgagtgc gtgccagggg atcggcgccc cggcgccacc
+      421 ggtgcacgag ttccagttct tcggcaacga cggcggcggc gacgacggcg agagcgtggc
+      481 ctggctgttc gatgactacc cgccgccgtc gcccgttgct gccgccgccg ggatgcatca
+      541 tcggcagccg ccgtacgacg gcgtcgtggc gccgccgtcg ctgttcagga ggaacaccgg
+      601 cgccggcggg ctcacgttcg acgtctccct cggcggacgg cccgacctgg acgccgggct
+      661 cggcctcggc ggcggcagcg gccggcacgc cgaggccgcg gccagcgcca ccatcgtgag
+      721 tatcaatcca ataatcctga tccggccggc atgatcggct cgatcgagcc gtgtcgatta
+      781 ttaatttcca tcttatatat tattaattga tgaattcttg attgattcat cgatcctcct
+      841 cgtcttttct tggcttcctt gtttttgtta tttagtcaaa aacaactctt catttctgct
+      901 gcctatatgc cgtacaactt caaactatca aaggtcaaat aatcgatcaa tatataccaa
+      961 gtttgaatta atttggagct taattaatta attactggct tgcagcagct ggtttatagt
+     1021 attgtttcta gctatatatg tgagggccgt gtgtgggatg tgatttgcat ctttcgatgg
+     1081 cgacttaatt aattcgatga tatatttcat tgcatatgca tacggatcca gcctctgtct
+     1141 atactgtacg attccacata cgtatatgta cggttaagtc agtatatata cttttagata
+     1201 gtcgcgtgtg cttttcgagt tcggtagcta tattttagat tgtaaaaaca agtcagaggc
+     1261 taattttata atctagaaat acttatttcc ccgtatataa ccgtatgtta aatattgatg
+     1321 gtgtaatcta cttataagtc aggaaacatc attgcttgct ttctggcgct ttcttctaca
+     1381 tatcagtaga ggaaaatgga aaaaaaaaag atgaattttg atgttgtagt ttgctatatt
+     1441 cagcatatat gccatcagtt atacatatgc agatcttgct aaaaccaaaa taaaaataga
+     1501 actgtaagga gatattgtgc ttctcggtct atttacttac agtttgttga gaagtaatac
+     1561 gagcaagcaa atgtatatat atatttcttt agaactgcaa ggagatgcat atacatgtgt
+     1621 gattcaaaca cacgtactgc acattcaaac tataaaaaca acttgattgc cgtagaagtt
+     1681 aaaagggaga catatccatg ggtttcggat tctaaatcaa tctatgtgta aatgaaactt
+     1741 tagtatagta ggaaataggt tttcaaaaaa aaagtatagt aggaaatagt atgtgtatat
+     1801 gcctttttaa cccttaatta caagttgtaa taattcagtg ttaacaaagt cacggactca
+     1861 cagagtgtgc ccttacacaa tttcagacta atttgtaaat gcatcgatcg tcacatttta
+     1921 tgtggttcaa ttatctgaca cagttaatta atggtggccg atcgatgtat gctcctctag
+     1981 ctttccagct atatgcgtat gtaataaatg aataaaacgt gtaggatgaa atgtgaatac
+     2041 gcatcattgc aattaatttg attaatgcta gtaaaaaatc tgcaaatttg tctttttgaa
+     2101 attaaaatat gccttataaa attaatggac ccaggcccct aggccaaaat atattggggc
+     2161 acaaaatcat gtccatatat acattcttat ttgaaagtag actctgaaac aaaatatgcc
+     2221 catataaatc aagggaggtt acaactaact gcatttgctt atgcgtacat ctggattgta
+     2281 acttctacgt tttgtacata cgatgattaa ttgtattcga gcttcttaat tgtacatcta
+     2341 ttaactaact agttttgcag atgtcatatt gtgggagcac gttcactgac gcagcgagct
+     2401 cgatgcccaa ggagatggtg gccgccatgg ccgatgttgg ggagagcttg aacccaaaca
+     2461 cggtggttgg cgcaatggtg gagagggagg ccaagctgat gaggtacaag gagaagagga
+     2521 agaagaggtg ctacgagaag caaatccggt acgcgtccag aaaagcctat gccgagatga
+     2581 ggccccgagt gagaggtcgc ttcgccaaag aagctgatca ggaagctgtc gcaccgccat
+     2641 ccacctatgt cgatcctagt aggcttgagc ttggacaatg gttcagatag ataattacag
+     2701 tgcgtatata ccactaacta
+//
+

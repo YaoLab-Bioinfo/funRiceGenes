@@ -1,0 +1,206 @@
+LOCUS       RICRFNR                 3897 bp    DNA     linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group FNR gene for ferredoxin-NADP+
+            reductase, complete cds (exon1-6).
+ACCESSION   D38445
+VERSION     D38445.1  GI:902935
+KEYWORDS    ferredoxin-NADP+ reductase; FNR.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Aoki,H., Tanaka,K. and Ida,S.
+  TITLE     The genomic organization of the gene encoding a nitrate-inducible
+            ferredoxin-NADP+ oxidoreductase from rice roots
+  JOURNAL   Biochim. Biophys. Acta 1229 (3), 389-392 (1995)
+   PUBMED   7748889
+REFERENCE   2  (bases 1 to 3897)
+  AUTHORS   Aoki,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-OCT-1994) Contact:Hideyuki Aoki Kyoto University,
+            Research Institute for Food Science; Gokanosho, Uji, Kyoto 611,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..3897
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="root"
+                     /clone_lib="EMBL3"
+     misc_signal     complement(376..381)
+                     /note="ATCAA(A/C) sequence"
+     misc_signal     complement(509..514)
+                     /note="ATCAA(A/C) sequence"
+     misc_signal     518..529
+                     /note="AAAGTTTTTTTT sequence;
+                     Although the hexameric and T-rich motifs are suggestive of
+                     a function in the transcriptional control, their
+                     significance is as yet unknown."
+     misc_signal     547..558
+                     /note="AAAGTTTTTTTT sequence"
+     misc_signal     882..887
+                     /note="ATCAA(A/C) sequence"
+     misc_signal     888..893
+                     /note="ATCAA(A/C) sequence"
+     misc_signal     926..931
+                     /note="ATCAA(A/C) sequence"
+     misc_signal     980..985
+                     /note="ATCAA(A/C) sequence"
+     GC_signal       995..1000
+                     /note="GC-like signal"
+     CAAT_signal     1011..1014
+     TATA_signal     1093..1097
+     gene            1123..>3827
+                     /gene="root FNR"
+     mRNA            join(1123..1210,1308..1364,1680..2015,2368..2587,
+                     2971..3211,3429..>3827)
+                     /gene="root FNR"
+     exon            1123..1210
+                     /gene="root FNR"
+                     /note="encoding transit peptide"
+                     /number=1
+     5'UTR           1123..1186
+                     /gene="root FNR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="decided by primer extension analysis"
+     CDS             join(1187..1210,1308..1364,1680..2015,2368..2587,
+                     2971..3211,3429..3687)
+                     /gene="root FNR"
+                     /EC_number="1.18.1.2"
+                     /note="nitrate assimilation pathway"
+                     /codon_start=1
+                     /product="root ferredoxin-NADP+ reductase"
+                     /protein_id="BAA07479.1"
+                     /db_xref="GI:902936"
+                     /translation="MATAVASQVAVSAPAGSDRGLRSSGIQGSNNISFSNKSWVGTTL
+                     AWESKATRPRHANKVLCMSVQQASESKVAVKPLDLESANEPPLNTYKPKEPYTATIVS
+                     VERIVGPKAPGETCHIVIDHGGNVPYWEGQSYGIIPPGENPKKPGAPHNVRLYSIAST
+                     RYGDSFDGRTTSLCVRRAVYYDPETGKEDPSKNGVCSNFLCNSKPGDKVKVTGPSGKI
+                     MLLPEEDPNATHIMIATGTGVAPFRGYLRRMFMEDVPKYRFGGLAWLFLGVANTDSLL
+                     YDEEFTSYLKQYPDNFRYDKALSREQKNKNAGKMYVQDKIEEYSDEIFKLLDGGAHIY
+                     FCGLKGMMPGIQDTLKKVAEQRGESWEQKLSQLKKNKQWHVEVY"
+     transit_peptide join(1187..1210,1308..1364,1680..1784)
+                     /gene="root FNR"
+     mat_peptide     join(1785..2015,2368..2587,2971..3211,3429..3684)
+                     /gene="root FNR"
+                     /product="root ferredoxin-NADP+ reductase"
+                     /EC_number="1.18.1.2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="The N-terminal amino acid sequence of the mature
+                     peptide was decided."
+     intron          1211..1307
+                     /gene="root FNR"
+                     /number=1
+     exon            1308..1364
+                     /gene="root FNR"
+                     /note="encoding transit peptide"
+                     /number=2
+     intron          1365..1679
+                     /gene="root FNR"
+                     /number=2
+     exon            1680..2015
+                     /gene="root FNR"
+                     /note="encoding transit peptide and mature peptide"
+                     /number=3
+     intron          2016..2367
+                     /gene="root FNR"
+                     /number=3
+     exon            2368..2587
+                     /gene="root FNR"
+                     /note="encoding mature peptide"
+                     /number=4
+     intron          2588..2970
+                     /gene="root FNR"
+                     /number=4
+     exon            2971..3211
+                     /gene="root FNR"
+                     /note="encoding mature peptide"
+                     /number=5
+     intron          3212..3428
+                     /gene="root FNR"
+                     /number=5
+     exon            3429..>3687
+                     /gene="root FNR"
+                     /note="encoding mature peptide"
+                     /number=6
+     3'UTR           3688..>3897
+     misc_signal     3771..3775
+                     /gene="root FNR"
+                     /note="TGTAA motif"
+     misc_signal     3818..3822
+                     /gene="root FNR"
+                     /note="TGTAA motif"
+     misc_signal     3863..3867
+                     /note="TGTAA motif"
+ORIGIN      
+        1 gagctcctca tggaggcctt gatcacatca tggggatgtg atcatctgaa acgaagctgg
+       61 ctgtttgcaa ctcatcatat gcctgaagtc aggactcagg actagtccat ctgtagttag
+      121 cctaccaaaa ggattatact tttagtttta cctttaaaaa gaaatggcgt gtgccattga
+      181 aggataagaa atgtgttggt tgtagttaaa aggtactgct tgctatcctg tgatgctgta
+      241 aaaatgcaac agaattgcgc agctctctgc acaagtagtt ctcagctttt ggtgaacagt
+      301 ccgaaatgga gaaacaaagg taaaaacatc agacttacat ggttctcttc tgtggtgttg
+      361 catgacccga ttacatttga tgagcatagt aggcccataa aatttgctac cttttggtcc
+      421 ttgccttttt ttttaatttt ttttgggtaa atttgcaatg tgatcagtca catgatggct
+      481 cattggtgca agggcaaaca tctagccctt tgatcacaaa gttttttttc cccctctatc
+      541 cttaaaaaag tttttttttt cgccaagatt tgacacattt tggcagtaaa atgtccaaca
+      601 gatacacacc ggcttgtgca ctacatgcac acgctgccaa ctcatgtact gttccaaaaa
+      661 actaaaaagc taataatata caagttgtat gtgcatctgg ctagctccat gggatacatg
+      721 catctcttca ggccaaaggt gacccttgat gccaccacaa agccattttt atcagcagcc
+      781 atctggagca ctcaagctgc agccaccatt tctgctagtc aagcagccag gcaacccaac
+      841 cctctgctgc tacctccacc taacccaaac cccctaatct aatcaacatc aaaaacgaaa
+      901 aaaacaaaat cttttttttt aaattatcaa accccaaacc caaactctaa aacgaaatta
+      961 ctaagcagct aaagcttaaa tcaaccccaa gagcggccgg gttaatcacg caattaagca
+     1021 gctaatagct taagtcgccc cttccagcac ctcaagagct cacctcactc ctcccccttc
+     1081 tctgattctg tctataaacc ccgcctcctc ccctcccatc tcatctcaac tcatctcatc
+     1141 tcccttctcc agatcaaaag acccttgctt tccctcagga tcggccatgg cgaccgccgt
+     1201 tgcgtcccag gtacgcgccg tcctcgcggt tttttggatc ccctggttgt ctgcgctgcg
+     1261 cgatggtgct gagttcatgg gggttcttgt ggctgtttct gacacaggtt gctgtctctg
+     1321 ctccggctgg ctcggatcgc ggcttgagga gttctgggat ccaggtgcgt ggtttggtgc
+     1381 ccctgatggt agaacttgct tccttttggg tggaatcctg tgaggattcc gcgggcttgg
+     1441 attggtcaat gtgtagtagg tggatacaaa tctatgggat atatctcaga ttggttcagt
+     1501 attgagcgct attgagagct aggcaacgcc agatattgct gctgcttgtt aattcgatgt
+     1561 gcagatcaat tatcagggtt cagggttttg gtttagtagg ctgtttatcc tgaattcaca
+     1621 gcgttcttga atggtggtgc taaactatgt gctggatttc attctgtgtg attcctcagg
+     1681 gtagcaacaa tattagcttt agcaacaaat catgggttgg caccacattg gcgtgggaga
+     1741 gcaaggccac gcgaccgagg catgcgaaca aggtgctctg catgtcagtt cagcaagcga
+     1801 gcgaaagcaa ggttgctgtc aagcctcttg atttggagag tgctaacgag ccgccgctca
+     1861 acacatacaa accaaaggag ccttacaccg ccacaattgt ctcggttgag aggatcgtag
+     1921 gccccaaggc tccaggagag acatgccaca ttgttattga tcatggtggc aatgtgcctt
+     1981 actgggaggg gcaaagctat ggcattattc ctccagtaag taattcctgc tttcaatcat
+     2041 tttccttgtt taaaatagaa cattatgctt atgctttgtc ggtttcgttc atagtctatt
+     2101 tatctgattg gatattgacg attgtctcgt tgacactatt aattaagaac ttacaaagat
+     2161 atagtcggta gtatattagg attatttctg tagacactgt ttccaatgtt ctattcaatg
+     2221 gcttaaaatt gtaaacctag gtgagaaaac ctgctcttga taggagactt gagtatgtgc
+     2281 acacactatt aatacagttc cagtggtatc tccatgggca tcaccctctt cactgttctc
+     2341 taaaccctgt gcatttttgc ttgttagggg gagaacccga agaagcctgg tgcaccacat
+     2401 aatgtccgtc tttattcaat tgcatctaca aggtatggag attcattcga tggaaggacc
+     2461 actagtttat gtgtgcgccg tgccgtttat tatgatcctg aaactggcaa ggaggacccc
+     2521 tcaaaaaatg gtgtctgcag taacttccta tgtaattcaa aaccagggga caaggttaaa
+     2581 gtgacaggtt agttgatttc tttcagcttc agatgaatgc aaaggctttg tgagtttcct
+     2641 atgaggttgt ttaacttcta attccaagcg gagcaaaatt agttgtttta gttgcgtttt
+     2701 tcctgaaacc cacctttggt agacaaccta tttctgagtt catacatacc aacaacaaat
+     2761 aaacggttct ctgcaacaaa ggttccaata gcctctcctc taatatgatt atgccccttc
+     2821 tacaatatga ttatcttatc ttgctctttt cctttcttac taaagtttgc aatcgcatct
+     2881 tagtttaccc ttttctttgt tagtcatcat gtcctttgtg gcacatgatg gatgccaagt
+     2941 atctcacagt gatttccttc tgaacaccag gtccgtcagg caaaataatg ctcctgcctg
+     3001 aggaagatcc aaatgcaact cacatcatga tagctactgg cactggtgtt gctccattcc
+     3061 gtggctacct acgccgtatg ttcatggaag atgtcccaaa gtacagattt ggtggcttgg
+     3121 cctggctctt ccttggtgtg gctaacactg acagccttct ctatgatgaa gagttcacaa
+     3181 gctaccttaa gcagtatcca gacaatttca ggttgctaga catcatctgt cttgactctt
+     3241 cgtattaatt attagtacta catgcatact tggctgaaac agcgccacat aatgaacata
+     3301 gatgcctctg tcaactgatg ccatcataga attattgagc tttgactttg agagtaccac
+     3361 ataaatgagc tgtttttgtt aagtatattc gtgcatattg ctataattga attgtgttga
+     3421 atttgtaggt atgacaaagc gctaagcagg gagcagaaaa acaagaacgc tggcaagatg
+     3481 tatgtccagg acaagatcga ggagtacagc gacgagatct tcaagctctt ggatggcggc
+     3541 gcgcacatct acttctgtgg tttgaagggg atgatgcctg ggattcaaga caccctcaag
+     3601 aaagtggcgg agcagagagg ggagagctgg gagcagaagc tatcccagct caagaagaac
+     3661 aagcaatggc acgttgaggt ctactaggat ctaagtgtcc aaggattatg attgttgcgc
+     3721 agtgaaaaag agaaaacaaa acgcatgatc tgatgattct tgtagggtgg tgtaaaatca
+     3781 tcattttttt tctgaatatg aatcataaaa tcacccatgt aattcataag cttctgcatc
+     3841 acatgatgaa cgaaaggaag catgtaactt ttgcctgtca ctattgcagc tggtacc
+//
+

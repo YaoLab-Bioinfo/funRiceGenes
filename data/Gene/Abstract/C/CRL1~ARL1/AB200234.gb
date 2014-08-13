@@ -1,0 +1,62 @@
+LOCUS       AB200234                 780 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group CRL1 mRNA for LOB domain protein,
+            complete cds.
+ACCESSION   AB200234
+VERSION     AB200234.1  GI:57999826
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Inukai,Y., Sakamoto,T., Ueguchi-Tanaka,M., Shibata,Y., Gomi,K.,
+            Umemura,I., Hasegawa,Y., Ashikari,M., Kitano,H. and Matsuoka,M.
+  TITLE     Crown rootless1, which is essential for crown root formation in
+            rice, is a target of an AUXIN RESPONSE FACTOR in auxin signaling
+  JOURNAL   Plant Cell 17 (5), 1387-1396 (2005)
+   PUBMED   15829602
+REFERENCE   2  (bases 1 to 780)
+  AUTHORS   Inukai,Y., Sakamoto,T. and Matsuoka,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JAN-2005) Contact:Tomoaki Sakamoto The University of
+            Tokyo, Field Production Science Center; 1-1-1 Midoricyo,
+            Nishi-Tokyo, Tokyo 188-0002, Japan URL
+            :http://www.fm.a.u-tokyo.ac.jp/
+FEATURES             Location/Qualifiers
+     source          1..780
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     gene            1..780
+                     /gene="CRL1"
+     CDS             1..780
+                     /gene="CRL1"
+                     /note="CROWN ROOTLESS1"
+                     /codon_start=1
+                     /product="LOB domain protein"
+                     /protein_id="BAD88523.1"
+                     /db_xref="GI:57999827"
+                     /translation="MTGFGSPCGACKFLRRKCVRGCVFAPYFCHEQGAAHFAAIHKVF
+                     GASNVSKLLAHLPLADRPEAAVTISYEAQARLRDPIYGCVAHIFALQQQVMTLQAQLA
+                     SLKAAAAQGIHHQDVGATTKGGYMSAAATAADDQLGYGGYNQWCGSNGGGAPAASQPG
+                     AYSSNGGAGHGHDSITALLAAGSDYMQHSLYHAFEHSEGAGAVDDGHAAAAAFEAAAE
+                     SSSCGMAASFAADESVWRSSSSGYQDCEDLQSVAYAYLNRS"
+ORIGIN      
+        1 atgacgggat ttggatcgcc gtgcggcgcg tgcaagtttc tgcggcgcaa gtgcgtgcgc
+       61 gggtgcgtgt tcgcgccata cttctgccac gagcaagggg cggcgcactt cgccgccatc
+      121 cacaaggtgt tcggcgccag caacgtgtcc aagctgctcg cccacctgcc gctcgccgac
+      181 cgccccgagg ccgccgtcac tatctcctac gaggcgcagg cccgcctccg cgaccccatc
+      241 tatggctgcg tcgcccacat cttcgccctc cagcagcagg tgatgacgct gcaggcgcag
+      301 ctggcgtcgc tcaaggcggc ggcggcgcaa gggatacacc accaggacgt cggcgccacc
+      361 accaagggcg gctacatgag cgccgccgcc accgccgccg acgaccaatt agggtacggc
+      421 ggctacaacc agtggtgcgg cagcaatggg ggcggcgcgc cggcggcgtc gcagccgggc
+      481 gcgtatagca gcaatggcgg cgccggccac ggccacgact ccatcaccgc gctgctggcg
+      541 gccgggtcgg actacatgca gcactcgctg taccacgcgt tcgagcactc ggagggcgcc
+      601 ggcgccgtgg acgacgggca cgcggccgcc gcggccttcg aggcggcggc ggagtcgtcg
+      661 tcgtgcggca tggcggcgtc gttcgccgcc gacgagagcg tgtggaggtc gtcgtcgtcg
+      721 ggataccaag attgcgagga tctccagagc gtcgcctacg cttaccttaa ccgctcgtaa
+//
+

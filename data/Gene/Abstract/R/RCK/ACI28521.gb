@@ -1,0 +1,102 @@
+LOCUS       ACI28521                1205 aa            linear   PLN 01-JUL-2009
+DEFINITION  rice meiotic crossover 1 [Oryza sativa Japonica Group].
+ACCESSION   ACI28521
+VERSION     ACI28521.1  GI:208436345
+DBSOURCE    accession FJ008126.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 1205)
+  AUTHORS   Wang,K., Tang,D., Wang,M., Lu,J., Yu,H., Liu,J., Qian,B., Gong,Z.,
+            Wang,X., Chen,J., Gu,M. and Cheng,Z.
+  TITLE     MER3 is required for normal meiotic crossover formation, but not
+            for presynaptic alignment in rice
+  JOURNAL   J. Cell. Sci. 122 (PT 12), 2055-2063 (2009)
+   PUBMED   19470578
+REFERENCE   2  (residues 1 to 1205)
+  AUTHORS   Wang,K., Tang,D., Wang,M. and Cheng,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-AUG-2008) State Key Laboratory of Plant Genomics and
+            Center for Plant Gene Research, Institute of Genetics and
+            Developmental Biology, Chinese Academy of Sciences, Datun Road,
+            Chaoyang District, Beijing 100101, P.R. China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..1205
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+                     /map="Os02g0617500"
+     Protein         1..1205
+                     /product="rice meiotic crossover 1"
+                     /name="helicase"
+     Region          14..739
+                     /region_name="PRK00254"
+                     /note="ski2-like helicase; Provisional"
+                     /db_xref="CDD:234702"
+     Region          49..218
+                     /region_name="DEXDc"
+                     /note="DEAD-like helicases superfamily. A diverse family
+                     of proteins involved in ATP-dependent RNA or DNA
+                     unwinding. This domain contains the ATP-binding region;
+                     cd00046"
+                     /db_xref="CDD:238005"
+     Site            57..61
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238005"
+     Site            172..175
+                     /site_type="other"
+                     /note="putative Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238005"
+     Region          271..432
+                     /region_name="HELICc"
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast
+                     initiation factor 4A, Ski2p, and Hepatitis C virus NS3
+                     helicases; this domain is found in a wide variety of
+                     helicases and helicase related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+     Site            order(289..292,347,349,374..376)
+                     /site_type="other"
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+     Site            order(382,413,417,420)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+     Region          541..858
+                     /region_name="Sec63"
+                     /note="Sec63 Brl domain; pfam02889"
+                     /db_xref="CDD:251597"
+     CDS             1..1205
+                     /gene="RMC1"
+                     /coded_by="FJ008126.1:177..3794"
+ORIGIN      
+        1 maamghlgdp yalrsvadlp ppfrsvfgfr yfnslqsecf pacflsdvnm visaptgsgk
+       61 tvlfelcilr llsrflssew rfnlikgtlk tiyiapmkal vqeklrdwnm klgslgiscl
+      121 emtgdnefyn tksihdadli lttpekfdsv srhgirdggl gffsdialvl idevhllndp
+      181 rgaaleaivs rikmlsrlgt mkiaplanvr fiavsatipn iediaewlav psegikrfge
+      241 emrpvklttk vfgyaparnd flferrlqsf ifdilmqhsr gksalvfcst rkgaqeaaqc
+      301 lsqtasslgy snpfmksmqq yehlkeaalt csdkqlqacl vhgvgyhngg lclkdrsvve
+      361 glflkgdiqi lcttntlahg inlpahtvvi kstqffnkek glyveyersm vlqmcgragr
+      421 ppfddtgtii imtrretvhl yenllngcem vesqllpcav ehlnaeivql tvsditlaie
+      481 wlkcsylyir ikknpqhygi kkeiprelle kqmkdicvek ihelgeygli wtdedgfllk
+      541 plepgrlmtk fylkfdtmkl ivkasacctl edllhiichs aeitwiqlrr nekkllnein
+      601 adkegrlwfh vvgangkrkk riqtreekif ilandcltgd plvhdlslnq emnsicsngc
+      661 rvakcmreyf iykknyksai ssmllakclh qklwesspfl lkqlpgigiv takalktagi
+      721 dsfeslatad arkiesvtgr nypfgdsiks ylpslgpkid iniedagnrq gkstiivtlt
+      781 rlsqavgssk qnyadmvvgs eednailfhe kiktqefssp ysvklyvpcp pnaratlkvd
+      841 vifeeyvgld ihkkhvvsre dfhvtkvfgi kkaeplynlp aesclvsskt trtnqskyhn
+      901 gqnplskevc vieddfraka pdkddndlei lgtreynnla sleapsftll heedyedvpd
+      961 vlasepveae cksatnntif dhirkksrdf pnlmlsksmd ssyeplilkk mktsgdqfgl
+     1021 dqsslhayev tpmvfdrtea rvspnntder crniltrtae trsfqftgkm dsisqkseil
+     1081 nrtqgknstq lagkkafeks ktpdenslhf vgkrdsssek skalsktpde nslqflgkmd
+     1141 sssekskfcf sspladfqpm qctkqvaasv qpltiqdyck dilasakssg tgasfldvks
+     1201 vfsfl
+//
+

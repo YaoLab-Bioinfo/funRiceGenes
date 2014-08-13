@@ -1,0 +1,106 @@
+LOCUS       AY347876                2271 bp    mRNA    linear   PLN 31-MAY-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) map BAC OSJNBa0070C17
+            ent-kaurene synthase 1A (OsKS1A) mRNA, complete cds.
+ACCESSION   AY347876
+VERSION     AY347876.1  GI:34452213
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2271)
+  AUTHORS   Margis-Pinheiro,M., Zhou,X.R., Zhu,Q.H., Dennis,E.S. and
+            Upadhyaya,N.M.
+  TITLE     Isolation and characterization of a Ds-tagged rice (Oryza sativa
+            L.) GA-responsive dwarf mutant defective in an early step of the
+            gibberellin biosynthesis pathway
+  JOURNAL   Plant Cell Rep. 23 (12), 819-833 (2005)
+   PUBMED   15668792
+REFERENCE   2  (bases 1 to 2271)
+  AUTHORS   Margis-Pinheiro,M., Zhou,X.-R., Zhu,Q.-H., Dennis,E.S. and
+            Upadhyaya,N.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2003) Rice Functional Genomics Group, Genomics
+            and Plant Development Program, CSIRO Plant Industry, Cnr. Barry
+            Drive and Clunies Ross Street, GPO Box 1600, Canberra, ACT 2601,
+            Australia
+FEATURES             Location/Qualifiers
+     source          1..2271
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="4"
+                     /map="BAC OSJNBa0070C17"
+     gene            1..2271
+                     /gene="OsKS1A"
+                     /note="disrupted in the Ds insertion dwarf mutant
+                     TT14-1-3-3-1-1 in GenBank Accession Number AY347873"
+     CDS             1..2271
+                     /gene="OsKS1A"
+                     /note="OSKS1A"
+                     /codon_start=1
+                     /product="ent-kaurene synthase 1A"
+                     /protein_id="AAQ72559.1"
+                     /db_xref="GI:34452214"
+                     /translation="MQHRKELQARTRDQLQTLELSTSLYDTAWVAMVPLRGSRQHPCF
+                     PQCVEWILQNQQDDGSWGTRGFGVAVTRDVLSSTLACVLALKRWNVGQEHIRRGLDFI
+                     GRNFSIAMDEQIAAPVGFNITFPGMLSLAMGMDLEFPVRQTDVDRLLHLREIELEREA
+                     GDHSYGRKAYMAYVTEGLGNLLEWDEIMMFQRKNGSFFNCPSTTAATLVNHYNDKALQ
+                     YLNCLVSKFGSAVPTVYPLNIYCQLSWVDALEKMGISQYFVSEIKSILDTTYVSWLER
+                     DEEIMLDITTCAMAFRLLRMNGYHVSSVELSPVAEASSFRESLQGYLNDKKSLIELYK
+                     ASKVSKSENESILDSIGSWSGSLLKESVSSNGVKKAPIFEEMKYALKFPFYTTLDRLD
+                     HKRNIERFDAKDSQMLKTEYLLPHANQDILALAVEDFSSSQSIYQDELNYLECWVKDE
+                     KLDQLPFARQKLTYCYLSAAATIFPRELSEARIAWAKNGVLTTVVDDFFDLGGSKEEL
+                     ENLIALVEKWDGHQEEFYSEQVRIVFSAIYTTVNQLGAKASALQGRDVTKHLTEIWLC
+                     LMRSMMTEAEWQRTKYVPTMEEYMANAVVSFALGPIVLPTLYFVGPKLQEDVVRDHEY
+                     NELFRLMSTCGRLLNDSQGFERESLEGKLNSVSLLVHHSGGSISIDEAKMKAQKSIDT
+                     SRRNLLRLVLGEQGAVPRPCKQLFWKMCKIVHMFYSRTDGFSSPKEMVSAVNAVVKEP
+                     LKLKVSDPYGSILSGN"
+     misc_difference 1087
+                     /gene="OsKS1A"
+                     /note="compared to genomic sequence in GenBank Accession
+                     Number AL731610"
+                     /replace="t"
+ORIGIN      
+        1 atgcagcaca ggaaggagct ccaggcaagg acaagggacc agctccagac attggagtta
+       61 tctacgtctt tgtacgacac ggcgtgggtg gccatggtgc cactgcgggg ttcccgtcag
+      121 catccgtgtt tcccacaatg cgtggagtgg atattacaaa accagcagga tgatggatct
+      181 tggggtacaa gaggattcgg cgtggcggtc acaagagatg ttctgtcgtc tacgttggcg
+      241 tgtgttcttg cactcaagag atggaatgtt gggcaggagc acatcaggag aggactagat
+      301 tttattggaa ggaatttctc cattgccatg gatgagcaga ttgctgctcc tgttggtttc
+      361 aacatcactt ttcctggtat gcttagcctt gccatgggga tggatttaga attccctgtc
+      421 agacagacgg atgttgatag acttcttcac ctccgggaga tagaactgga aagagaggct
+      481 ggagaccatt cttatggaag aaaggcatat atggcttatg tcacagaagg attaggaaac
+      541 ctgttggagt gggatgagat tatgatgttc cagaggaaga atggatcatt tttcaactgt
+      601 ccttccacaa ctgctgccac attagtcaac cactataacg ataaagccct ccagtactta
+      661 aattgtctgg ttagtaaatt tggcagtgca gtaccaacag tgtatccact aaacatatat
+      721 tgtcagcttt catgggtgga tgcacttgaa aagatgggaa tttctcagta ttttgtcagt
+      781 gagataaaga gcatcctaga cacaacatac gtttcatggt tagaaagaga tgaggaaatt
+      841 atgctggaca taacaacatg tgcaatggct tttcgcctgt taaggatgaa tgggtatcat
+      901 gtttcctcag tcgagttatc tcctgttgct gaagcttcca gtttccgtga atcacttcaa
+      961 ggatatttaa atgataagaa atctctaatc gaattataca aggcttcaaa agtcagtaaa
+     1021 tcagaaaatg aatcaatctt agatagcata ggctcttggt caggtagctt attgaaggaa
+     1081 agtgtgagct ctaatggggt gaaaaaagct ccaatctttg aagagatgaa gtatgctctt
+     1141 aagtttccct tctacaccac actggaccgt ctagatcaca agaggaacat tgaacgtttt
+     1201 gatgcaaagg attcccagat gttaaagacg gaatacttgc ttcctcatgc caatcaagat
+     1261 attctagctt tggctgttga agatttcagt agttctcaat ctatatacca ggatgaactt
+     1321 aattatcttg agtgttgggt gaaagatgaa aagctcgatc agctgccatt tgcacgccag
+     1381 aagttgacat attgctacct ttctgctgct gctaccatat tcccccgtga attgtctgaa
+     1441 gcccgcattg catgggctaa aaatggtgta ctgacaactg ttgttgatga cttctttgat
+     1501 cttgggggat caaaagaaga actagaaaac ctcattgctt tagttgagaa gtgggatgga
+     1561 catcaagagg agttctactc agaacaagta agaatagttt tttctgctat ttatactaca
+     1621 gtgaaccagc ttggagcaaa ggcttctgca ttacaaggcc gtgatgttac aaaacaccta
+     1681 acagaaatat ggttatgtct gatgaggtct atgatgaccg aagctgaatg gcagaggaca
+     1741 aaatatgtgc cgacaatgga agaatatatg gcaaatgctg ttgtctcatt tgcactggga
+     1801 cctattgtgc tcccgactct gtatttcgta ggaccgaagc tccaagagga tgtcgtcagg
+     1861 gatcatgagt acaatgaatt atttagactg atgagcactt gtgggcgtct cctgaatgac
+     1921 agccaaggct ttgagaggga gagcctggag ggaaagctga acagtgtctc actgcttgtt
+     1981 catcacagtg gtggttctat ctccatagac gaggctaaaa tgaaagccca gaaatccata
+     2041 gacacttcca ggaggaactt gttaagattg gtccttggag aacagggtgc tgttcctagg
+     2101 ccatgcaagc agctgttctg gaagatgtgc aagattgttc acatgttcta ctctcggact
+     2161 gatgggttta gctcgccgaa ggaaatggtt agtgcagtga atgcagtcgt caaggagcca
+     2221 cttaaactca aagtgagtga tccatatggc tctattttgt cgggcaattg a
+//
+

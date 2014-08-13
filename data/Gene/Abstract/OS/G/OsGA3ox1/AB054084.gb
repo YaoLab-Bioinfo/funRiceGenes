@@ -1,0 +1,72 @@
+LOCUS       AB054084                1140 bp    DNA     linear   PLN 24-JUL-2001
+DEFINITION  Oryza sativa gene for GA 3beta-hydroxylase, complete cds.
+ACCESSION   AB054084
+VERSION     AB054084.1  GI:14780048
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Itoh,H., Ueguchi-Tanaka,M., Sentoku,N., Kitano,H., Matsuoka,M. and
+            Kobayashi,M.
+  TITLE     Cloning and functional analysis of two gibberellin 3 beta
+            -hydroxylase genes that are differently expressed during the growth
+            of rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 98 (15), 8909-8914 (2001)
+   PUBMED   11438692
+REFERENCE   2  (bases 1 to 1140)
+  AUTHORS   Itoh,H., Ueguchi-Tanaka,M., Sentoku,N., Kitano,H., Matsuoka,M. and
+            Kobayashi,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JAN-2001) Hironori Itoh, Nagoya University,
+            BioScience CTR; Chikusa-ku Furo-cho, Nagoya, Aichi 464-8601, Japan
+            (E-mail:i994003d@mbox.media.nagoya-u.ac.jp, Tel:81-52-789-5225,
+            Fax:81-52-789-5226)
+FEATURES             Location/Qualifiers
+     source          1..1140
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /clone_lib="IR-36 genome"
+                     /dev_stage="vegetative shoot"
+                     /country="Japan"
+     gene            1..1140
+                     /gene="OsGA3ox1"
+     CDS             1..1140
+                     /gene="OsGA3ox1"
+                     /codon_start=1
+                     /product="GA 3beta-hydroxylase"
+                     /protein_id="BAB62073.1"
+                     /db_xref="GI:14780049"
+                     /translation="MTSSSTSPTSPLAAAAHNGVTAAYFNFRGAERVPESHVWKGMHE
+                     KDTAPVAAADADGGDAVPVVDMSGGDDAAVAAVARAAEEWGGFLLVGHGVTAEALARV
+                     EAQAARLFALPADDKARGARRPGGGNTGYGVPPYLLRYPKQMWAEGYTFPPPAIRDEF
+                     RRVWPDAGDDYHRFCSAMEEYDSSMRALGERLLAMFFKALGLAGNDAPGGETERKIRE
+                     TLTSSTIHLNMFPRCPDPDRVVGLAAHTDSGFFTFILQSPVPGLQLLRHRPDRWVTVP
+                     GTPGALIVVVGDLFHVLTNGRFHSVFHRAVVNRERDRISMPYFLGPPADMKVTPLVAA
+                     GSPESKAVYQAVTWPEYMAVRDKLFGTNISALSMIRVAKEEDKES"
+ORIGIN      
+        1 atgacatcgt cgtcgacctc gccgacctcg ccgctggccg ccgccgcaca caatggcgtc
+       61 accgccgcct acttcaactt ccgcggggcg gagcgcgtgc cggagtcgca cgtgtggaag
+      121 gggatgcacg agaaggacac cgcgccggtg gcggcggcgg acgcggacgg cggcgacgcg
+      181 gtgccggtgg tggacatgag cggcggcgac gacgccgcgg tggcggcggt ggcgcgcgcg
+      241 gcggaggagt ggggcgggtt cctgctcgtc gggcacggcg tgaccgcgga ggccctggcg
+      301 cgcgtcgagg cgcaggcggc gcggctgttc gcgctgccgg cggacgacaa ggcgcgcggg
+      361 gcgcggcggc ccggcggcgg gaacaccggc tacggcgtgc cgccgtacct cctccggtac
+      421 ccgaagcaga tgtgggccga gggctacacc ttccctcccc ctgccatccg cgacgagttc
+      481 cgccgcgtct ggcccgacgc cggcgacgac taccaccgct tctgctccgc catggaggag
+      541 tacgactcgt cgatgagagc tctgggcgag aggctcctcg ccatgttctt caaggcgctc
+      601 gggctcgccg gcaacgatgc ccccggcggc gagaccgagc ggaagatccg cgaaacgttg
+      661 acgtcgtcga cgattcacct caacatgttc cctaggtgtc cagatccaga ccgggtggtc
+      721 gggctggcgg cgcacacgga ctcaggcttc ttcaccttca tcctgcagag ccccgtgccg
+      781 gggttgcagc tgctccgcca ccggccggac cggtgggtga cggttccggg gacgccgggg
+      841 gcgctcatcg tcgtcgtcgg cgatctcttc catgtgctca ccaacgggcg cttccacagc
+      901 gtgttccacc gcgccgtcgt gaaccgggag agagaccgga tctccatgcc ctacttcctc
+      961 ggtccgccgg ccgacatgaa ggtgacacct ctcgtggcgg cggggtcgcc ggagagcaag
+     1021 gccgtgtatc aggccgtgac atggccggag tacatggctg taagggataa gttgttcggg
+     1081 acaaatatat cggcgttgag catgattcga gtagcgaagg aagaggacaa ggagagttag
+//
+

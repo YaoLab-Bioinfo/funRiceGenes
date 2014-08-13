@@ -1,0 +1,91 @@
+LOCUS       AF543191                2443 bp    DNA     linear   PLN 24-JUN-2005
+DEFINITION  Oryza sativa (indica cultivar-group) phosphoribulokinase precursor
+            gene, complete cds.
+ACCESSION   AF543191
+VERSION     AF543191.1  GI:23305933
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2443)
+  AUTHORS   Chen,X., Yu,T., Xiong,J., Zhang,Y., Hua,Y., Li,Y. and Zhu,Y.
+  TITLE     Molecular cloning and expression analysis of rice
+            phosphoribulokinase gene that is regulated by environmental
+            stresses
+  JOURNAL   Mol. Biol. Rep. 31 (4), 249-255 (2004)
+   PUBMED   15663008
+REFERENCE   2  (bases 1 to 2443)
+  AUTHORS   Chen,X., Li,X., Zhu,Y. and Li,Y.
+  TITLE     Cloning and characterization of rice phosphoribulokinase
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2443)
+  AUTHORS   Chen,X., Li,X., Zhu,Y. and Li,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-SEP-2002) College of Life Science, Wuhan university,
+            Luojiashan street, Wuhan, Hubei 430072, P.R.China
+FEATURES             Location/Qualifiers
+     source          1..2443
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39946"
+     mRNA            join(1..710,1005..1089,1179..1263,1433..1677,1908..2428)
+                     /product="phosphoribulokinase precursor"
+     CDS             join(166..710,1005..1089,1179..1263,1433..1677,1908..2159)
+                     /codon_start=1
+                     /product="phosphoribulokinase precursor"
+                     /protein_id="AAN17353.1"
+                     /db_xref="GI:23305934"
+                     /translation="MAISSLHATTSLHSPCTTNTSFRQNQVIFFTTRSNRRGSTRYGG
+                     ARTFQVSCSVDKPVVIGLAADSGCGKSTFMRRLTSVFGGAAEPPKGGNPDSNTLISDT
+                     TTVICLDDYHSLDRTGRKEKGVTALDPRANDFDLMYEQVKAIKEGKAIEKPIYNHVTG
+                     LLDPPELIQPPKIFVIEGLHPMFDERVRDLLDFSIYLDISDEVKFAWKIQRDMAERGH
+                     SLESIKASIEARKPDFDAFIDPQKQYADAVIEVLPTQLIPDDNEGKVLRVKLIMKEGV
+                     KNFNPVYLFDEGSSITWVPCGRKLTCSYPGIKFAYGPDTYFGHEVSVLEMDGQFDRLD
+                     ELIYVESHLSNLSTKFYGEVTQQMLKHADFPGSNNGTGLFQTIVGLKIRDLYEQIIAE
+                     RAGAPTEAAKV"
+ORIGIN      
+        1 ggaaaataag gggtaccaca tcatcatcat cctctctcct ccttatgttc tcctagctct
+       61 atccccacaa ttctttcaac ctcctctctc ttctcatcaa gcctcaatca aaaggcttga
+      121 agggaagaag agcaactcca gcaggtagaa aggccagaag caaagatggc gatctccagc
+      181 ctacatgcca ccacctccct gcactcccca tgcaccacca acacaagctt caggcagaac
+      241 caggtcatct tcttcaccac cagaagcaac aggaggggta gcacaaggta cggaggagca
+      301 agaacctttc aggtttcatg ctcagtcgac aagccagtgg tgattggcct tgcagcagac
+      361 tcaggatgcg ggaagagcac cttcatgcgc cggctcacca gtgtgtttgg tggtgctgca
+      421 gagccaccca agggtggcaa cccagactca aacacactca tcagtgacac gacaacggtg
+      481 atatgcctcg atgactacca ttccttggac aggactggca ggaaggagaa aggtgtgact
+      541 gccctggacc ctagggcaaa cgattttgat ctcatgtatg agcaggtgaa ggcaatcaaa
+      601 gaaggcaagg caattgagaa gccaatctac aaccatgtta ctggtctcct agacccaccg
+      661 gagcttatcc agccccccaa gatttttgtc attgagggct tacatcccat gtgagtttac
+      721 attttatccc atgctccaca tgattcttcc ttctgctgta gtatttggtg tttattcttt
+      781 tgtttcttca tcacatttga ttacattctg ggtaaatcgc tctcataatc tcagtccaaa
+      841 ttatgttata tatcttaaaa aatatttcaa gtacctgatt tttcaggagg taaaaatact
+      901 tcccgagtaa aactaacatg atcattttga caagtctaac acaagcagat tgtttttcca
+      961 atttcttgtc attacttatt agtttactta tacttttaaa ccaggtttga tgaacgtgtg
+     1021 agggacctcc tagatttcag catctacctg gacatcagtg acgaggttaa atttgcatgg
+     1081 aaaattcagg tctgtccaac agtaaggtta atgtatttct tcttccacat gagccatgga
+     1141 acagcagatt ttgctaaaat aaacttgcac ttatgcagag ggatatggca gagcgcggtc
+     1201 acagccttga aagcatcaag gctagtatcg aagccaggaa accagatttt gatgccttca
+     1261 ttggtactgc tttttactaa ctaaaatttc aaagctacaa ttataattca gtaaaaaaag
+     1321 aagaagctat atttgaatag ataaaagata tgcaaggcat accacatcaa atcaccaaca
+     1381 attgaaactc aataaaacaa gacatgtcaa tgcttaccat ttgttatgac agatccccag
+     1441 aagcaatatg ctgatgcagt gattgaagtt ctgccaaccc agcttattcc tgatgacaat
+     1501 gaaggaaagg tgctacgtgt taaattgatc atgaaagaag gtgtaaagaa cttcaaccca
+     1561 gtttacctct tcgacgaagg atcaagcatc acctgggtcc cttgtggaag aaaactcaca
+     1621 tgttcttatc ctggcatcaa atttgcctat ggcccagaca cttactttgg gcatgaggta
+     1681 atttaaatgg tttatttgtc cctttttgcc atgtccgcag caaaccaacc actgtcactt
+     1741 ggatattaaa atgacagcaa gatagcgagc agtctgaact ctgaagtatg aacaaatact
+     1801 ccaaaacaac tatagatcaa caattcactt cgtacacaaa tcataattgt caatcagctt
+     1861 tcctctccca gagctgtata tgcttactgg tttgttgatg tcttcaggta tcagtgctgg
+     1921 agatggatgg ccaatttgac agactagatg agcttatcta tgttgagagc catttaagca
+     1981 acctctcaac caaattttat ggagaggtga cacagcaaat gctaaagcat gcagacttcc
+     2041 ccggcagcaa caatggaaca ggtctcttcc aaactatcgt aggactgaag attagagatc
+     2101 tctatgagca gattattgct gagagggccg gtgcacctac tgaagcggca aaagtttaat
+     2161 gagctccaca ttcatatttc gtgaatctct tcatcaccat accatatcaa tgacaatggg
+     2221 catcctcgca tttcttgtaa ctagttttgg aaatattaca gctagaagaa agtaggatgg
+     2281 tcattgcata acttgtgaaa ccatgcaatg gaacttctaa aaatccctct ccatgaggat
+     2341 gctcctacct ctcttcttga cacatttcaa tgtacatctt ctatatttca atgtagaaag
+     2401 aaatacggtt gctttctact ataaaaaata ggtccttcct tta
+//
+

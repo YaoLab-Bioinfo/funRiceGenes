@@ -1,0 +1,67 @@
+LOCUS       AJ278436                 830 bp    mRNA    linear   PLN 11-AUG-2000
+DEFINITION  Oryza sativa mRNA for PR1a protein.
+ACCESSION   AJ278436
+VERSION     AJ278436.1  GI:9801265
+KEYWORDS    pr1A gene.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Agrawal,G.K., Jwa,N.S. and Rakwal,R.
+  TITLE     A novel rice (Oryza sativa L.) acidic PR1 gene highly responsive to
+            cut, phytohormones, and protein phosphatase inhibitors
+  JOURNAL   Biochem. Biophys. Res. Commun. 274 (1), 157-165 (2000)
+   PUBMED   10903912
+REFERENCE   2  (bases 1 to 830)
+  AUTHORS   Agrawal,G.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUN-2000) Agrawal G.K., Biotechnology and
+            Biochemistry, Research Lab. for Agri. Biotech. and Bioch. (RLABB),
+            GPO 8207, Kathmandu, Nepal, Kathmandu, NEPAL
+FEATURES             Location/Qualifiers
+     source          1..830
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="Leaf"
+                     /dev_stage="seedling"
+                     /country="Japan"
+     gene            1..830
+                     /gene="Pr1a"
+     CDS             99..605
+                     /gene="Pr1a"
+                     /function="defence response"
+                     /codon_start=1
+                     /product="PR1a protein"
+                     /protein_id="CAC03571.1"
+                     /db_xref="GI:9801266"
+                     /db_xref="GOA:Q7FP72"
+                     /db_xref="InterPro:IPR001283"
+                     /db_xref="InterPro:IPR002413"
+                     /db_xref="InterPro:IPR014044"
+                     /db_xref="InterPro:IPR018244"
+                     /db_xref="UniProtKB/TrEMBL:Q7FP72"
+                     /translation="MASSSSRLSCCLLVLAAAAMAATAQNSAQDFVDPHNAARADVGV
+                     GPVSWDDTVAAYAESYAAQRQGDCKLEHSDSGGKYGENIFWGSPGGDWTAASAVSAWV
+                     SEKQWYDHGSNSCSAPEGSSCGHYTQVVWRDSTAIGCARVVCDGDLGVFITCNYSPPG
+                     NFVGQSPY"
+ORIGIN      
+        1 ggcacgagtc gatctccatc atctcttcgt ctactaacaa agttataata tcaaattaag
+       61 gtatatatat atatatatag tagagctagc ttcaattaat ggcgagttcg tcgagcaggt
+      121 tatcctgctg cttgctggtg ctcgcggcgg cggccatggc ggcgacggcg cagaactcgg
+      181 cgcaggactt cgtggacccg cacaacgcgg cgagggccga cgtcggggtg gggccggtga
+      241 gctgggacga cacggtggcg gcgtacgcgg agagctacgc ggcgcagcgg cagggcgact
+      301 gcaagctgga gcactcggac tccggcggga agtacggcga gaacatcttc tggggctccc
+      361 ccggcggcga ctggacggcg gcgagcgccg tgtcggcgtg ggtgtcggag aagcagtggt
+      421 acgaccacgg cagcaacagc tgctcggcgc cggaggggag ctcgtgcggg cactacacgc
+      481 aggtggtgtg gcgcgactcg acggcgatcg gctgcgcccg cgtcgtctgc gacggcgacc
+      541 tcggcgtctt catcacctgc aactactcgc cgccgggcaa cttcgtcggc caatctccct
+      601 actgattaat taattaatta tattatcaca ctcactaatt aatcatatcg tatgctatgc
+      661 tacgtgttta tgcatgtatg gacatgtagt gtcatatggt atatcgtata tgtgtacgta
+      721 taatatacgt acgtatgctg gtgagaataa atccgatgaa taaataaata aagctgtact
+      781 gtcagccgta tttgcttagt gtaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+//
+

@@ -1,0 +1,193 @@
+LOCUS       BAD34326                1214 aa            linear   PLN 16-FEB-2008
+DEFINITION  putative systemin receptor SR160 precursor (Brassinosteroid LRR
+            receptor kinase) [Oryza sativa Japonica Group].
+ACCESSION   BAD34326
+VERSION     BAD34326.1  GI:50725324
+DBSOURCE    accession AP006156.2
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sasaki,T., Matsumoto,T. and Katayose,Y.
+  TITLE     Oryza sativa nipponbare(GA3) genomic DNA, chromosome 9, BAC
+            clone:B1043F11
+  JOURNAL   Published Only in Database (2003)
+REFERENCE   2  (residues 1 to 1214)
+  AUTHORS   Sasaki,T., Matsumoto,T. and Katayose,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JAN-2003) Contact:Takuji Sasaki National Institute of
+            Agrobiological Sciences, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan URL
+            :http://rgp.dna.affrc.go.jp/
+COMMENT     Genes were predicted from the integrated results of the following:
+            GENSCAN (http://CCR-081.mit.edu/GENSCAN.html), FGENESH
+            (http://www.softberry.com/), GeneMark.hmm
+            (http://opal.biology.gatech.edu/GeneMark/), GlimmerM
+            (http://www.tigr.org/tdb/glimmerm/glmr_form.html), RiceHMM
+            (http://rgp.dna.affrc.go.jp/RiceHMM/), SplicePredictor
+            (http://bioinformatics.iastate.edu/cgi-bin/sp.cgi), sim4
+            (http://globin.cse.psu.edu/html/docs/sim4.html), gap2
+            (http://www.tigr.org/software/glimmerm/), BLASTN and BLASTX. The
+            genomic sequence was searched against NCBI NonRedundant Protein
+            database, nr (ftp://ncbi.nlm.nih.gov/blast/db) and the cDNA
+            sequence database at RGP or DDBJ. Protein homologies of the coding
+            regions were searched against NCBI NonRedundant Protein database
+            with BLASTP. ESTs represent the identified cDNA sequences using
+            BLASTN with the corresponding DDBJ accession no. and RGP clone ID.
+            Full-length cDNAs represent the identified cDNA sequences using
+            BLASTN with the corresponding DDBJ accession no.
+            A gene with identity or significant homology to a protein is
+            classified based on the protein name to indicate the homology level
+            such as same name, 'putative-' and '-like protein'.  A gene without
+            significant homology to any protein but with full-length cDNA or
+            EST homology (covering almost the entire length of partial
+            sequence) is classified as an 'unknown' protein. A gene predicted
+            by two or more gene prediction programs is classified as a
+            'hypothetical' protein according to IRGSP standard. A gene
+            predicted by a single gene prediction program is also classified as
+            a probable 'hypothetical' protein and is included as a
+            miscellaneous feature of the sequence.
+            The orientation of the sequence is from M13rev to -21M13 of the BAC
+            clone. This sequence of B1043F11 clone has an overlap with B1054C11
+            (DDBJ: AP006464) clone at 5' end and an overlap with OSJNBa0044K01
+            (DDBJ: AP005839) clone at 3' end.  Detailed information on overlap
+            and assembly quality together with annotation of this entry is
+            available at
+            http://rgp.dna.affrc.go.jp/GenomeSeq.html.
+FEATURES             Location/Qualifiers
+     source          1..1214
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="9"
+                     /clone="B1043F11"
+     Protein         1..1214
+                     /product="putative systemin receptor SR160 precursor
+                     (Brassinosteroid LRR receptor kinase)"
+     Region          <44..76
+                     /region_name="LRRNT_2"
+                     /note="Leucine rich repeat N-terminal domain; pfam08263"
+                     /db_xref="CDD:254692"
+     Region          <132..341
+                     /region_name="LRR_RI"
+                     /note="Leucine-rich repeats (LRRs), ribonuclease inhibitor
+                     (RI)-like subfamily. LRRs are 20-29 residue sequence
+                     motifs present in many proteins that participate in
+                     protein-protein interactions and have different functions
+                     and cellular locations. LRRs correspond...; cd00116"
+                     /db_xref="CDD:238064"
+     Site            order(134,137,139,142,144,159,162,164,167,169,180,183,185,
+                     188,190,229,232,234,237,239,255,258,260,264,266,280,283,
+                     285,288,290,305,308,310,313,315,330,333,335,338,340)
+                     /site_type="other"
+                     /note="Leucine-rich repeats"
+                     /db_xref="CDD:238064"
+     Site            order(141,187,236,287,309,311,334)
+                     /site_type="other"
+                     /note="Substrate binding site [chemical binding]"
+                     /db_xref="CDD:238064"
+     Region          159..216
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          248..487
+                     /region_name="LRR_RI"
+                     /note="Leucine-rich repeats (LRRs), ribonuclease inhibitor
+                     (RI)-like subfamily. LRRs are 20-29 residue sequence
+                     motifs present in many proteins that participate in
+                     protein-protein interactions and have different functions
+                     and cellular locations. LRRs correspond...; cd00116"
+                     /db_xref="CDD:238064"
+     Region          254..315
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Site            order(255,258,260,263,265,280,283,285,288,290,308,330,333,
+                     335,338,340,379,382,384,387,389,404,407,409,412,414,430,
+                     433,435,438,440,455,458,460,463,465,479,482,484,487)
+                     /site_type="other"
+                     /note="Leucine-rich repeats"
+                     /db_xref="CDD:238064"
+     Site            order(287,337,386,437,459,461,483)
+                     /site_type="other"
+                     /note="Substrate binding site [chemical binding]"
+                     /db_xref="CDD:238064"
+     Region          357..414
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          403..465
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          453..513
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          501..562
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          551..610
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          695..750
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          918..1181
+                     /region_name="Pkinase"
+                     /note="Protein kinase domain; pfam00069"
+                     /db_xref="CDD:249558"
+     Region          918..1180
+                     /region_name="PKc_like"
+                     /note="Protein Kinases, catalytic domain; cl09925"
+                     /db_xref="CDD:263920"
+     Site            order(918..922,926,938,940,969,985..988,992,994,1038,1040,
+                     1042..1043,1045,1056,1059,1082..1083)
+                     /site_type="active"
+                     /db_xref="CDD:173623"
+     Site            order(918..922,926,938,940,969,985..988,992,1038,1040,
+                     1042..1043,1045,1056)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:173623"
+     Site            order(922,992,994,1038,1040,1042,1059,1082..1083)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:173623"
+     Site            order(1055..1061,1082..1083)
+                     /site_type="other"
+                     /note="activation loop (A-loop)"
+                     /db_xref="CDD:173623"
+     CDS             1..1214
+                     /gene="B1043F11.38"
+                     /coded_by="complement(AP006156.2:128974..132618)"
+ORIGIN      
+        1 maasppfmaa aafltlvvvl frapapaiav geeaaallaf rrasvaddpd galaswvlga
+       61 gganstapcs wdgvscappp dgrvaavdls gmslagelrl dallalpalq rlnlrgnafy
+      121 gnlshaapsp pcalvevdis snalngtlpp sflapcgvlr svnlsrngla gggfpfapsl
+      181 rsldlsrnrl adagllnysf agchgvgyln lsanlfagrl pelaacsavt tldvswnhms
+      241 gglppglvat apanltylni agnnftgdvs gydfggcanl tvldwsyngl sstrlppgli
+      301 ncrrletlem sgnkllsgal ptflvgfssl rrlalagnef tgaipvelgq lcgriveldl
+      361 ssnrlvgalp asfakcksle vldlggnqla gdfvasvvst iaslrelrls fnnitgvnpl
+      421 pvlaagcpll evidlgsnel dgeimpdlcs slpslrklll pnnylngtvp pslgdcanle
+      481 sidlsfnllv gkipteiirl pkivdlvmwa nglsgeipdv lcsngttlet lvisynnftg
+      541 siprsitkcv nliwvslsgn rltgsvpggf gklqklailq lnknllsghv paelgscnnl
+      601 iwldlnsnsf tgtippqlag qaglvpggiv sgkqfaflrn eagnicpgag vlfeffgirp
+      661 erlaefpavh lcpstriytg ttvytftnng smifldlsyn gltgtipgsl gnmmylqvln
+      721 lghnelngti pdafqnlksi galdlsnnql sggippglgg lnfladfdvs nnnltgpips
+      781 sgqlttfpps rydnnnglcg iplppcghnp pwggrprgsp dgkrkvigas ilvgvalsvl
+      841 illlllvtlc klrmnqktee vrtgyveslp tsgtsswkls gvreplsinv atfekplrkl
+      901 tfahlleatn gfsaetligs ggfgevykak lkdgsvvaik klihftgqgd reftaemeti
+      961 gkikhrnlvp llgyckigde rllvyeymkh gsldvvlhdk akasvkldws arkkiaigsa
+     1021 rglaflhhsc iphiihrdmk ssnvlldnnl darvsdfgma rlmnaldthl svstlagtpg
+     1081 yvppeyyqsf rcttkgdvys ygvvllells gkkpidptef gdnnlvgwvk qmvkenrsse
+     1141 ifdptltdrk sgeaelyqyl kiaceclddr pnrrptmiqv mamfkelqld sdsdildgfs
+     1201 insstidesg eksm
+//
+

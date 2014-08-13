@@ -1,0 +1,78 @@
+LOCUS       X59276                  1303 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  Rice rgp1 mRNA for a ras-related GTP-binding protein.
+ACCESSION   X59276
+VERSION     X59276.1  GI:20355
+KEYWORDS    GTP binding protein; ras-like gene.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1303)
+  AUTHORS   Sano,H. and Youssefian,S.
+  TITLE     A novel ras-related rgp1 gene encoding a GTP-binding protein has
+            reduced expression in 5-azacytidine-induced dwarf rice
+  JOURNAL   Mol. Gen. Genet. 228 (1-2), 227-232 (1991)
+   PUBMED   1715972
+REFERENCE   2  (bases 1 to 1303)
+  AUTHORS   Sano,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-APR-1991) H. Sano, Biotechnology Institute, Akita
+            Prefectural College of, Agriculture, Ohgata Akita 010-04, JAPAN
+FEATURES             Location/Qualifiers
+     source          1..1303
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /strain="GINBOZU"
+                     /db_xref="taxon:4530"
+                     /dev_stage="4-week-seedling"
+     gene            1..1303
+                     /gene="rgp1"
+     mRNA            1..1303
+                     /gene="rgp1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     CDS             441..1121
+                     /gene="rgp1"
+                     /codon_start=1
+                     /product="GTP-binding protein"
+                     /protein_id="CAA41966.1"
+                     /db_xref="GI:20356"
+                     /db_xref="GOA:P25766"
+                     /db_xref="InterPro:IPR001806"
+                     /db_xref="InterPro:IPR003579"
+                     /db_xref="InterPro:IPR005225"
+                     /db_xref="InterPro:IPR013753"
+                     /db_xref="InterPro:IPR015595"
+                     /db_xref="InterPro:IPR020851"
+                     /db_xref="UniProtKB/Swiss-Prot:P25766"
+                     /translation="MSRGGGSYGEVGQKIDYVFKVVLIGDSAVGKSQLLAGFARNEFN
+                     LDSKATIGVEFQTRTLHIDARTVKAQTRDTAGQERYRAVTSAYYRGAVGAMLVYDITK
+                     RQSFDHVARWLEELRGHADKNIVIMLIGNKSDLGTLRVVPTEDAKEFAERENLFFMET
+                     SALESTNLENAFMTVLTEIYRIVSKKNLVANEEVDSSGNSSLLKGTKIVVPGQEPAPP
+                     TKASCCMS"
+ORIGIN      
+        1 ggtcgtcgtc ttggtcactt ggtctccatc tcctcttctt cttccacctc ctcatgccca
+       61 tggcggcttc ccattgatcc cttcaacacc gctctatttt accatccaat tagcaattag
+      121 cgctagttga gtatcatctc cactatttat tctaatccag tgtaatcatc ctccttcttc
+      181 tcccaaaaac aataccaaag aaatccaagc accgccgcct ctctctgctc tacccccatc
+      241 tcgccaccaa gctcccccct ccattttgat actaaaaatt cagcaactcg ccagggagag
+      301 cagggtcgat ccaagaatcg attgctgttc ggttcttgga ttggagagac gggacgggag
+      361 aagaagaaga agaagaaaga aaagattgca gtcttttgtg ttgttgaggt agaaggagaa
+      421 gaggaggagg tgggggaaag atgtcgcgag gaggagggag ctacggggag gtggggcaga
+      481 agatcgacta cgtgttcaag gtggtgctga tcggcgactc cgcggtgggg aagtcgcagc
+      541 tgctggcggg gttcgcccgc aacgagttca acctcgactc caaggccacc atcggcgtcg
+      601 agttccagac gcgaaccctc cacatcgacg cccgcaccgt caaggcccag actcgggaca
+      661 ccgccggcca ggaaaggtac cgagcagtaa caagtgcata ctaccgtggt gcagtgggag
+      721 ctatgttagt atatgacata acaaagcgtc agtcatttga tcatgtagct aggtggctcg
+      781 aggagttaag aggccatgct gacaagaaca ttgttattat gcttatcggt aacaaatctg
+      841 atctaggcac gcttcgggtt gtaccgactg aggatgcaaa ggaatttgct gagcgtgaga
+      901 atctcttctt catggagacc tctgctcttg agtctaccaa tcttgaaaat gctttcatga
+      961 ccgtacttac ggagatttac cgtattgtca gcaagaaaaa ccttgttgca aatgaggagg
+     1021 ttgattctag cggaaactcg agcttactga aaggtacaaa aattgttgtc ccaggtcagg
+     1081 agccagcccc tccaaccaaa gcatcatgtt gtatgtccta ggcatagcat tgtactgtgt
+     1141 tgtttcggag tttactcctg ccatatcaac actgaatagc tgggattcct gtgagtaaag
+     1201 atgaaaaggt ctacatgtgg acagttaact cacatatgtt gtaattttat gaatcactct
+     1261 tttttgtatc tgattgtgtg atggtgtgtg tagtcattta gag
+//
+

@@ -1,0 +1,92 @@
+LOCUS       AF014470                2388 bp    DNA     linear   PLN 27-SEP-1997
+DEFINITION  Oryza sativa peroxidase (POXgX9) gene, complete cds.
+ACCESSION   AF014470
+VERSION     AF014470.1  GI:2429291
+KEYWORDS    defense response gene; bacterial blight; organ-specific expression.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2388)
+  AUTHORS   Chittoor,J.M., Leach,J.E. and White,F.F.
+  TITLE     Differential induction of a peroxidase gene family during infection
+            of rice by Xanthomonas oryzae pv. oryzae
+  JOURNAL   Mol. Plant Microbe Interact. 10 (7), 861-871 (1997)
+   PUBMED   9304860
+REFERENCE   2  (bases 1 to 2388)
+  AUTHORS   Chittoor,J.M., Leach,J.E. and White,F.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-1997) Plant Pathology, Kansas State University,
+            Throckmorton Hall, Manhattan, KS 66506, USA
+FEATURES             Location/Qualifiers
+     source          1..2388
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /strain="IRBB10"
+                     /db_xref="taxon:39946"
+                     /chromosome="7"
+                     /map="R2576S"
+                     /note="IR36 rice genomic library (Clontech)"
+     TATA_signal     644..650
+     gene            <769..>2022
+                     /gene="POXgX9"
+     mRNA            join(<769..978,1094..1270,1378..1543,1631..>2022)
+                     /gene="POXgX9"
+                     /product="peroxidase"
+     CDS             join(769..978,1094..1270,1378..1543,1631..2022)
+                     /gene="POXgX9"
+                     /note="expressed in roots"
+                     /codon_start=1
+                     /product="peroxidase"
+                     /protein_id="AAC49821.1"
+                     /db_xref="GI:2429292"
+                     /translation="MASASSVSLMLLVAAAMASAASAQLSATFYDTSCPNALSTIKSA
+                     VTAAVNSEPRMGASLVRLHFHDCFVQGCDASVLLSGQEQNAGPNAGSLRGFNVVDNIK
+                     TQVEAICSQTVSCADILAVAARDSVVALGGPSWTVLLGRRDSTTANESQANTDLPAPS
+                     SSLAELIGNFSRKGLDVTDMVALSGAHTIGQAQCQNFRDRLYNETNIDSSFATALKAN
+                     CPRPTGSGDSNLAPLDTTTPNAFDSAYYTNLLSNKGLLHSDQVLFNGGSTDNTVRNFS
+                     SNTAAFNSAFTVAMVKMGNISPLTGTQGQIRLNCSKVN"
+ORIGIN      
+        1 tggcttaagc aacgcgtgat taatggttaa cagattaagg tcaagcgaaa tggaccgaac
+       61 tgaccctaca ttgcatgaat aatgcagagt tgatgatgtt ggccgtaggc cgtacgtaga
+      121 aacttatgtt ggacacacat gtaagtacta gtagtctagt agcactaata aagttaacta
+      181 ataaattata tatgatgtca ctttaaaaaa tacagattca aattcgatat attgaagttg
+      241 aacaaattaa attctagcta gttagtatgc acacattcac actcatattt gtttttgtgt
+      301 tgtaatttat agaagttaaa attcaacttg caatttgtta gtaaaaacat aactatttag
+      361 atgactagaa acatatcctt ctgttgtaat gtgccaggct catataagta gaaatatgct
+      421 attagaaaat tagagatagt actctgtgcg tggtgggagg agggatgaaa aaatgacgag
+      481 ttcgatttta aggtagtaga gatatgtaca aagcaatagg atattcctgt tgagattaaa
+      541 atccattccc ctgcccagct cccctcgtat gattaatgta cctgcatatt tcgtctcatc
+      601 tcggcaccaa tcgatggcgt caagcctgta gctaagctag ctatataata tgcagcgtgg
+      661 caccagcctc tcttgcaagc cacggccagc gaaaaagctt aaaaaaaact gcagttattt
+      721 aggtaggatt aagcatacgc gcacggcgca tcatatcgct cactctgcat ggcttcggct
+      781 tcttctgtca gcttaatgct gctcgttgct gcagctatgg cctcagccgc ctcggcgcag
+      841 ctgtcggcga cgttctacga cacgtcgtgc ccaaacgcat tgtccaccat caagagcgca
+      901 gtgacggccg ccgtgaacag cgagccccga atgggagcct cgctggtcag gctgcacttc
+      961 cacgactgct tcgtccaagc aagttttgat cacctaatct aatcagctgt acaagtagtt
+     1021 ctccttagac tgtactttga gacaaggaaa ttaataacag aggatgtatc tatggacttc
+     1081 actgatgatg cagggctgtg acgcgtctgt tctgctgtcc ggccaggagc agaatgcagg
+     1141 cccgaacgct gggtcacttc ggggattcaa cgtcgtcgac aacatcaaga cgcaggtcga
+     1201 ggccatctgc agccagaccg tctcctgcgc cgacatcctc gccgtcgccg cccgtgactc
+     1261 cgtcgtcgcg gtaagatcac ggatgagatt actacatgat gcatatattt cttgtagact
+     1321 gtagtagtac gtactcctaa tcgctcttgg tttggtttgg aatccttata tttgcagctc
+     1381 ggagggccgt cgtggacggt tctattggga agaagggact ccaccactgc gaacgaaagc
+     1441 caagcaaata ccgacctccc tgccccttcc tctagcctcg ctgaacttat cggcaatttc
+     1501 tccagaaagg gactcgacgt aaccgacatg gttgctctct caggtacata tatgtacaca
+     1561 gattatatca gtgattgatt ctattacaaa ttttctgata agaaatcata atacgatgaa
+     1621 gaacttgcag gcgcacacac gatcgggcag gcgcagtgcc agaacttcag ggacaggctc
+     1681 tacaacgaga caaacatcga ctccagcttc gcgacggcgc tcaaggccaa ctgcccacgg
+     1741 ccgacgggca gcggcgacag caacctggcg ccgctggaca cgacgacgcc caacgccttc
+     1801 gacagcgcct actacaccaa cctgctgtcc aacaagggcc tcctgcactc cgaccaggtg
+     1861 ctcttcaacg gcggcagcac ggacaacacg gtcaggaact tctcttccaa cacggcggcg
+     1921 ttcaacagcg ccttcacggt ggccatggtg aagatgggga acatctcgcc cttgactgga
+     1981 acccaggggc agatcaggct caactgctcc aaggttaact agccggtgat gatgagtacg
+     2041 tgatggtctc agggaataaa gctaggcccc gacattgctg ccaatagcgt gcagctagct
+     2101 gtggccgtct catcactttc atggttcaat ggtttcatca gcaagtgcac ggaacagact
+     2161 agagagtgta ggtgtatgca tgtgtgatgt catgtaacga gttgccatgc aaaggcatga
+     2221 ggattacgaa cctctctttc gtcgtaatcc tagcagctac agatttcaac tgtcgtgtta
+     2281 accaagtgaa gtgctagttt cgaatgtatt ggcccctctc tgctcttctc tgctctggcg
+     2341 atctggcctc tgcgaaggtt tcttctaagg aataattcat ctaaagtc
+//
+

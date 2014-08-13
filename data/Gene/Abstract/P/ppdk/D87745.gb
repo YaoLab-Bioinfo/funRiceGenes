@@ -1,0 +1,122 @@
+LOCUS       D87745                  3331 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for orthophosphate dikinase,
+            complete cds.
+ACCESSION   D87745
+VERSION     D87745.1  GI:2443401
+KEYWORDS    orthophosphate dikinase; pyruvate.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Imaizumi,N., Ku,M.S., Ishihara,K., Samejima,M., Kaneko,S. and
+            Matsuoka,M.
+  TITLE     Characterization of the gene for pyruvate,orthophosphate dikinase
+            from rice, a C3 plant, and a comparison of structure and expression
+            between C3 and C4 genes for this protein
+  JOURNAL   Plant Mol. Biol. 34 (5), 701-716 (1997)
+   PUBMED   9278162
+REFERENCE   2  (bases 1 to 3331)
+  AUTHORS   Imaizumi,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-SEP-1996) Contact:Nobuyuki Imaizumi Japan Turfgrass
+            Inc., Laboratory; 3-6-2 Akanehama, Narashino, Chiba 275, Japan
+FEATURES             Location/Qualifiers
+     source          1..3331
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="cpdk"
+                     /tissue_type="green leaf"
+     gene            1..3331
+                     /gene="cpdk"
+     CDS             243..3086
+                     /gene="cpdk"
+                     /EC_number="2.7.9.1"
+                     /note="pyruvate"
+                     /codon_start=1
+                     /product="orthophosphate dikinase"
+                     /protein_id="BAA22419.1"
+                     /db_xref="GI:2443402"
+                     /translation="MPSVSRAVCVQRASGNNGRRCRDGAAAAGRRSVVAQRARHGKPE
+                     VAIRSGSGGSARGGHCSPLRAVAAPIPTTKKRVFHFGKGKSEGNKAMKDLLGGKGANL
+                     AEMASIGLSVPPGFTVSTEACQQYQAAGKTLPAGLWEEIVEGLQWVEEYMAARLGDPA
+                     RPLLLSVRSGAAVSMPGMMDTVLNLGLNDEVAAGLAAKSGDRFAYDSYRRFLDMFGNV
+                     VMDIPHALFEEKLEAMKAVKGLHNDTDLTATDLKELVAQYKDVYVEAKGEPFPSDPKK
+                     QLQLAVLAVFNSWDSPRAIKYRSINKITGLKGTAVNVQTMVFGNMGNTSGTGVLFTRN
+                     PSTGEKKLYGEFLVNAQGEDVVAGIRTPEDLDAMRDHMPEPYEELVENCKILESHYKE
+                     MMDIEFTVQENRLWMLQCRTGKRTGKGAVKIALDMVNEGLVERRTALKMVEPGHLDQL
+                     LHPQFENPSGYKDKVIATGLPASPGAAVGQIVFTAEDAEAWHAQGKDVILVRTETSPE
+                     DVGGMHAAVGILTARGGMTSHAAVVARGWGKCCVSGCSSVRVNDASKIVVIEDKALHE
+                     GEWLSLNGSTGEVIIGKQPLCPPALSGDLETFMSWVDEVRKLKVMANADTPEDATTAR
+                     QNGAEGIGLCRTEHMFFASDERIKAVRQMIMASSLELRQKALDRLLPYQRSDFEGIFR
+                     AMDGLPVTIRLLDPPLHEFLPEGHVEDMVRELCSETGAAQDDVLARVEKLSEVNPMLG
+                     FRGCRLGISYPELTEMQARAIFEAAITMTNQGIQVFPEIMVPLVGTPQELGHQVDVIR
+                     QIANKVFTDMGKTIGYKVGTMIEIPRAALVADEIAEQAEFFSFGTNDLTQMTFGYSRD
+                     DVGKFLPIYLSQGILQHDPFEVLDQRGVGELVKLATERGRKARPNLKVGICGEHGGEP
+                     LSVAFFAKAGLDYVSCSPFRVPIARLAAAQVLL"
+     transit_peptide 243..455
+                     /gene="cpdk"
+     polyA_signal    3314..3319
+                     /gene="cpdk"
+ORIGIN      
+        1 cgattggggc gcttgtgaac accggggcgc cacgtggaga ggacgttaca ctccagccgc
+       61 caaatttcca ctcccacacc cgcgctcccc tcccctctct tttccgtgat cgcacctcgc
+      121 ccacgcgccc cccgccacac acaatctctg cagctctcca gcttcgttgg aactcgcgaa
+      181 tctctctccg atcccaggtg aagcgcgact tggagttgga ggggagatcg atcagggcca
+      241 ggatgccgtc ggtttcgagg gccgtgtgcg tgcagagggc gagcgggaat aacggtagga
+      301 ggtgcagaga tggggcggcc gccgccggcc gccgatccgt cgtggcgcag agagcgcggc
+      361 acggcaagcc ggaggtcgcc atccgctcgg ggtccggcgg ctcggcgcgg ggcgggcatt
+      421 gctcgcctct cagggcagtg gcggcgccga tcccgactac caaaaagagg gtgttccact
+      481 tcggcaaggg caagagcgag ggcaacaagg ccatgaagga cctgctggga gggaaggggg
+      541 cgaacttggc ggagatggcg agcatcgggc tgtcggtgcc gccggggttc acggtgtcga
+      601 cggaggcgtg ccagcagtac caggcggcgg ggaagacgct gccggcgggg ctgtgggagg
+      661 agatcgtcga ggggctccag tgggtggagg agtacatggc ggcgcgcctc ggcgaccccg
+      721 cccgccctct cctcctctcc gtccgctccg gcgccgccgt gtcgatgccg gggatgatgg
+      781 acacggtgct gaacctgggg ctgaacgacg aggtggcggc gggactggcg gccaagagcg
+      841 gcgaccgctt cgcgtacgac tcctaccgcc gtttcctcga catgttcggc aacgtggtca
+      901 tggacattcc tcatgcactg ttcgaggaga agctcgaagc catgaaagca gtcaaggggc
+      961 tgcacaacga cactgacctg actgccactg acctcaaaga actagtggca cagtacaagg
+     1021 atgtctatgt tgaagctaag ggagagccat tcccctctga tcccaagaag caactgcagc
+     1081 tggccgtgtt ggccgtgttc aactcatggg atagcccaag agcaatcaag tacagaagca
+     1141 taaacaagat cactgggctg aagggcactg ctgtaaacgt gcagaccatg gtgtttggaa
+     1201 acatggggaa cacctctggc acgggtgtgc tcttcactag gaacccaagc actggagaga
+     1261 agaagcttta cggcgaattc cttgtgaatg ctcagggtga agatgtggtt gctggaatca
+     1321 gaactccaga ggatcttgat gctatgaggg accacatgcc ggagccttat gaagagctcg
+     1381 ttgagaactg caaaattttg gagagtcact ataaagaaat gatggatatt gaatttactg
+     1441 ttcaggaaaa taggctttgg atgcttcagt gcagaacagg aaagcgcaca ggaaaaggtg
+     1501 ctgtaaagat tgctctagac atggttaacg agggccttgt tgagcgccgc acagcactta
+     1561 agatggtaga accaggtcac ctggatcagc ttcttcatcc tcagtttgag aacccatcag
+     1621 ggtataaaga caaagttatt gccacgggct tacctgcatc acctggggct gctgtgggcc
+     1681 aaattgtatt cactgccgag gatgctgaag catggcatgc ccaagggaaa gatgttattc
+     1741 tggtgaggac agagaccagc ccagaggatg ttggtggcat gcatgcagct gttggaattc
+     1801 ttacagcaag aggtggtatg acctctcacg ctgctgttgt tgcgcgcgga tggggcaaat
+     1861 gttgtgtgtc aggatgctca agcgtccgtg taaatgatgc gtccaagatt gtagtgattg
+     1921 aagacaaggc gctgcatgaa ggtgagtggc tatcgttgaa tggatcaact ggtgaagtga
+     1981 tcattggcaa gcagccactc tgcccaccag cccttagtgg tgatttggaa actttcatgt
+     2041 cttgggtgga tgaagttagg aaactcaagg ttatggcaaa tgctgatacc cccgaggatg
+     2101 caacaacagc cagacagaat ggggcagaag gaattgggct atgccggact gaacatatgt
+     2161 tcttcgcttc agacgagagg attaaggctg tcaggcagat gattatggct tcaagtcttg
+     2221 aactgaggca gaaagcacta gatcgccttt tgccttatca gaggtctgac tttgaaggca
+     2281 tcttccgtgc aatggatggg cttccggtaa ctattagact cttggatcct ccacttcatg
+     2341 agttccttcc agaaggccat gttgaggata tggtgcgtga gctatgctct gaaactggag
+     2401 cagctcagga tgatgtcctt gcaagagtag aaaaactttc cgaagtaaat ccaatgcttg
+     2461 gtttccgtgg gtgcaggctt ggtatatcat accctgaatt gactgaaatg caagcccgtg
+     2521 ccatctttga agctgctata accatgacca accagggtat tcaagtcttt ccggagataa
+     2581 tggttcccct tgttggaact cctcaggaat tggggcatca agtggatgtt atccgtcaaa
+     2641 ttgccaacaa ggtgttcaca gacatgggaa aaactattgg ctacaaagtt ggaactatga
+     2701 ttgaaattcc cagggcagct ttagtggctg atgagatagc agagcaggct gagttcttct
+     2761 cctttggaac aaacgaccta acacagatga catttggtta cagtagggat gatgtgggga
+     2821 agttccttcc catctatctg tctcagggta tcctccagca tgaccccttt gaggtgcttg
+     2881 atcagagggg agttggggag ctggttaagc tggctacaga gagaggccgc aaagctaggc
+     2941 ctaacttgaa ggtgggcatc tgtggtgaac atggtggaga gcctctgtca gtcgctttct
+     3001 ttgcgaaggc tgggctggac tatgtttctt gttcgccttt cagggtccca attgctaggc
+     3061 tagctgcagc tcaggtgctc ctctgatgat gacgcccttc tctttaccgg caaccagatc
+     3121 gcctgctgtt ggtgcacctg gtgaagaata ataaatacat agccatggaa tggtggaaac
+     3181 tctgctgcct gtcaaaggcg ccgttgtatg tagtatgcat gttcgcatgt aagcctatgt
+     3241 ggtggtagtt ttctgaaaat ttcgcttgaa ctgccacggt aatgtaccaa acagcgatga
+     3301 cgacgaagaa tcgaataaag gtggtgatta c
+//
+

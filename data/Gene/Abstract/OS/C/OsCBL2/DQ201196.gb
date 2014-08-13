@@ -1,0 +1,65 @@
+LOCUS       DQ201196                 678 bp    mRNA    linear   PLN 07-MAY-2008
+DEFINITION  Oryza sativa Japonica Group calcineurin B-like protein 2 (CBL2)
+            mRNA, complete cds.
+ACCESSION   DQ201196
+VERSION     DQ201196.1  GI:76577788
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 678)
+  AUTHORS   Gu,Z., Ma,B., Jiang,Y., Chen,Z., Su,X. and Zhang,H.
+  TITLE     Expression analysis of the calcineurin B-like gene family in rice
+            (Oryza sativa L.) under environmental stresses
+  JOURNAL   Gene 415 (1-2), 1-12 (2008)
+   PUBMED   18395997
+REFERENCE   2  (bases 1 to 678)
+  AUTHORS   Gu,Z.M., Chen,Z.W. and Zhang,H.S.
+  TITLE     Genes for calcineurin B-like proteins in rice are differentially
+            regulated by stress signals
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 678)
+  AUTHORS   Gu,Z.M., Chen,Z.W. and Zhang,H.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-SEP-2005) Department Agronomy, Rice Institute,
+            Weigang 1#, Nanjing Agricultural University, Nanjing, Jiangsu
+            210095, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..678
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /dev_stage="seedling"
+     gene            1..678
+                     /gene="CBL2"
+                     /note="OsCBL2"
+     CDS             1..678
+                     /gene="CBL2"
+                     /note="calcium binding protein"
+                     /codon_start=1
+                     /product="calcineurin B-like protein 2"
+                     /protein_id="ABA54177.1"
+                     /db_xref="GI:76577789"
+                     /translation="MVQCLDGVRQLLAVVFKCCDLELKQPRGLEDPQVLARETVFSVS
+                     EVEALYELFKKISSAVIDDGLINKEEFQLALFKTSKKESLFADRVFDLFDTKHNGILG
+                     FDEFARALSVFHPSAPLDEKIDFSFQLYDLKQQGYIERQEVKQMVVATLAESGMNLSD
+                     EIIESIIDKTFEEADTKHDGRIDKEEWRNLVLRHPSLLKNMTLQYLKDITTTFPSFVF
+                     HSQVDDT"
+ORIGIN      
+        1 atggtgcagt gtctcgacgg ggtgaggcag ctgctggcgg tcgtgttcaa gtgctgcgac
+       61 ctcgagctga agcagccgcg ggggctcgag gatccccagg tcctcgcgag ggagaccgtc
+      121 ttcagcgtga gcgaggtcga ggcgctgtac gagctcttca agaagataag cagtgctgtg
+      181 attgatgacg ggctgattaa caaggaggag tttcagttgg cgctgttcaa gaccagcaag
+      241 aaggagagcc tgttcgccga ccgtgtattt gatttgtttg acacaaaaca caatggaatt
+      301 ttaggatttg atgaatttgc tcgtgcactc tcagtatttc atccaagtgc tccacttgat
+      361 gagaagattg acttttcatt ccagttatat gatctcaagc aacaaggcta tattgagaga
+      421 caagaggtta agcagatggt tgttgctaca cttgctgagt ctggaatgaa tctttctgat
+      481 gaaattatag agagcataat cgataagaca tttgaggagg cagacacaaa gcatgatgga
+      541 agaattgata aagaagagtg gcgcaatctg gttcttcgtc atccctcttt gctgaagaac
+      601 atgactctcc agtacctcaa ggacatcacc actacatttc caagctttgt cttccattcc
+      661 caggtcgatg acacctga
+//
+

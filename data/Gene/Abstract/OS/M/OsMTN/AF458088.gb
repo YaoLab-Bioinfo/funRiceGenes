@@ -1,0 +1,74 @@
+LOCUS       AF458088                1227 bp    mRNA    linear   PLN 02-OCT-2007
+DEFINITION  Oryza sativa methylthioadenosine/S-adenosyl homocysteine
+            nucleosidase mRNA, complete cds.
+ACCESSION   AF458088
+VERSION     AF458088.1  GI:18087496
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1227)
+  AUTHORS   Rzewuski,G., Cornell,K.A., Rooney,L., Burstenbinder,K., Wirtz,M.,
+            Hell,R. and Sauter,M.
+  TITLE     OsMTN encodes a 5'-methylthioadenosine nucleosidase that is
+            up-regulated during submergence-induced ethylene synthesis in rice
+            (Oryza sativa L.)
+  JOURNAL   J. Exp. Bot. 58 (6), 1505-1514 (2007)
+   PUBMED   17339651
+REFERENCE   2  (bases 1 to 1227)
+  AUTHORS   Rzewuski,G., Marwedel,T. and Sauter,M.
+  TITLE     Identification of the MTA cycle gene MTA/SAH nucleosidase from rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1227)
+  AUTHORS   Rzewuski,G., Marwedel,T. and Sauter,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-DEC-2001) Institut fuer Allgemeine Botanik,
+            Universitaet Hamburg, Ohnhorststrasse 18, Hamburg 22609, Germany
+FEATURES             Location/Qualifiers
+     source          1..1227
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     5'UTR           1..56
+     CDS             57..836
+                     /EC_number="3.2.2.9"
+                     /function="conversion of methylthioadenosine to
+                     methylthioribose"
+                     /note="Os-MTN; MTA/SAH nucleosidase; MTA cycle enzyme"
+                     /codon_start=1
+                     /product="methylthioadenosine/S-adenosyl homocysteine
+                     nucleosidase"
+                     /protein_id="AAL58883.1"
+                     /db_xref="GI:18087497"
+                     /translation="MAPPSDSDDSAPIPAGAISKLLIVIAMQTEALPLVNEFHLVEAE
+                     ESIFPKGAPWIRYHGNYKGLHVDLVWPGKDPVLGVDCVGTVSAALVTYASIQSLKPDL
+                     IINAGTAGGFKAKGADIGDVYLASDVAFHDRRIPIPVFDMYGIGTRKTFATPNILKEL
+                     NLKVGKLSTGDSLDMSPHDESAILNNDATVKDMEGAAVAYVADMFSTPAIFVKAVTDI
+                     VDGEKPTAEEFLQNLVAVTAALDKAVTEVVDFISGKCISDL"
+     3'UTR           837..1227
+ORIGIN      
+        1 accacgcggc ggcggcagca gcagcagcta gggtttagag agcagccccc aatcccatgg
+       61 cgccgccctc cgactccgac gactcggccc cgatccccgc cggcgccatc tccaagctcc
+      121 tcatcgtcat agcgatgcag acggaggcgc tcccgctcgt caacgagttc cacctcgtcg
+      181 aggcggagga atccatattt cctaaaggtg ccccatggat tagataccat ggcaactaca
+      241 aaggccttca cgttgacctt gtatggcctg gaaaagatcc tgttctcgga gttgactgtg
+      301 ttggcacggt atcagcagca cttgtgactt atgcttctat tcagtcattg aagccagatc
+      361 tgatcatcaa tgctggcact gctggtgggt ttaaggccaa aggagcagac attggagatg
+      421 tctacttagc atccgatgtt gcattccacg ataggagaat acctatccct gtcttcgaca
+      481 tgtatggaat tggaacacga aaaacatttg ctacccctaa tatattgaag gaactcaatt
+      541 tgaaggttgg gaagctctca actggcgatt ctctagatat gtctccccat gacgagtcag
+      601 caatattgaa caatgatgct acagtcaagg atatggaggg agccgcggtg gcatatgttg
+      661 ctgacatgtt ttcaacaccg gcaatctttg tgaaagctgt gactgatatt gttgatgggg
+      721 agaaaccaac agccgaggag tttctgcaga acctggttgc tgtgacagca gctctggaca
+      781 aggcagttac agaagtggtt gatttcatca gtgggaaatg catatcggat ctttgaatga
+      841 tgaagcttag aaacctgttc atcaaatcca agctctgctg cttcaatgca ctatactata
+      901 ctacatcact gctgtatgat ttttcatggg gatgcgtata caatttttag gttcccctga
+      961 ggccctgatc ccccgtatgt acaaaattct tggcaattac ttggatcaat agcgtggaat
+     1021 tttgtagaat attctgcaaa atgtgcagtg taatgaaact aaataaggtg atattctgtc
+     1081 aaactaagat aagtggtggg cggtggagtt attttcttaa tagagcattg agaccatctt
+     1141 cattgtttgc tctacgattg gtaaactgtg aaaaaaaaaa cccgaagaag caataaacat
+     1201 agtttacgtg taaaaaaaaa aaaaaaa
+//
+

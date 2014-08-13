@@ -1,0 +1,72 @@
+LOCUS       AJ697744                 915 bp    mRNA    linear   PLN 06-JUN-2006
+DEFINITION  Oryza sativa mRNA for impaired sucrose induction 1-like protein
+            (isi1 gene).
+ACCESSION   AJ697744
+VERSION     AJ697744.1  GI:55956226
+KEYWORDS    impaired sucrose induction 1-like protein; isi1 gene.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Rook,F., Corke,F., Baier,M., Holman,R., May,A.G. and Bevan,M.W.
+  TITLE     Impaired sucrose induction1 encodes a conserved plant-specific
+            protein that couples carbohydrate availability to gene expression
+            and plant growth
+  JOURNAL   Plant J. 46 (6), 1045-1058 (2006)
+   PUBMED   16805736
+REFERENCE   2  (bases 1 to 915)
+  AUTHORS   Rook,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-APR-2004) Rook F., Cell and Developmental Biology,
+            John Innes Centre, Colney Lane, Norwich, NR4 7UH, UNITED KINGDOM
+COMMENT     Related sequence: AP000391 (PAC clone P0538C01).
+FEATURES             Location/Qualifiers
+     source          1..915
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /chromosome="VI"
+                     /tissue_type="leaves"
+     gene            1..915
+                     /gene="isi1"
+     CDS             1..909
+                     /gene="isi1"
+                     /function="putative regulator of carbohydrate allocation"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="impaired sucrose induction 1-like protein"
+                     /protein_id="CAG26909.1"
+                     /db_xref="GI:55956227"
+                     /db_xref="GOA:Q5TJC3"
+                     /db_xref="InterPro:IPR011989"
+                     /db_xref="InterPro:IPR012535"
+                     /db_xref="InterPro:IPR016024"
+                     /db_xref="UniProtKB/TrEMBL:Q5TJC3"
+                     /translation="MSRKEVVVAAAGGGAGAESGAEGSSSAGSSGGGGELAEALARRR
+                     LYREVTLALRTGLRDAKADFSFLRARGLRSLLGFLRSTASATDDSQLLLFRHSQSIPD
+                     LQVIPVLFQNSLHQPKEDPVVTLDHIFGVEPMKITSPPTDNEIALALRVLEGCCLLYS
+                     RCTALAHKYKAVKVILNILANRGPAEQGVCLDALISLMLDSPPNQMDFEEFSGLEKVA
+                     ELLKDVQVEEHIRLKCGEFLLLLIGHVYAKENSPIHEQMRILFGEQCASLIWAASRFG
+                     STLDVEQRQMALQIQARRVVESLEPY"
+ORIGIN      
+        1 atgagccgga aggaggtggt ggtggcggcg gctggagggg gcgcgggtgc ggaatcggga
+       61 gcggagggat cttcatctgc gggaagcagc ggcggcggcg gggagctcgc ggaggcgctg
+      121 gcgcggcggc ggctgtaccg ggaggtgacg ctggcgctgc gcacggggct gcgcgacgcc
+      181 aaggccgact tctccttcct ccgcgcgcgg gggctccgca gcctcctcgg cttcctccgc
+      241 tccaccgcct ccgccaccga cgactcgcag ctgctcctct tccggcattc ccagtctatc
+      301 cccgatctcc aagttattcc tgttctcttt cagaactcat tgcatcaacc aaaggaagat
+      361 cctgttgtga ccttggatca tatatttgga gtagaaccaa tgaagattac aagcccccca
+      421 acagataatg aaattgctct cgctcttaga gtcttggaag gatgttgcct tttgtatagc
+      481 cgatgcactg ctctggcaca caagtacaag gctgtgaagg taatcctgaa tatattagct
+      541 aaccgaggtc cagctgagca aggagtgtgc ttggacgcgc tgatatcgtt gatgttggat
+      601 tcacccccca atcagatgga tttcgaggaa ttcagtggac ttgagaaggt tgcagagctt
+      661 ttaaaggatg tgcaagtaga agagcacata agattgaaat gtggggagtt cctactattg
+      721 ctaattgggc atgtttatgc gaaagaaaac tctcccatac acgaacaaat gagaattttg
+      781 ttcggcgagc agtgcgcatc actgatatgg gcagcaagtc ggtttggctc cactctcgac
+      841 gtggagcaga ggcagatggc cttgcaaata caagcaagga gagttgttga atccttggag
+      901 ccctactaag acaaa
+//
+

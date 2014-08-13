@@ -1,0 +1,69 @@
+LOCUS       AB125304                1304 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group SAPK3 mRNA for serine/threonine protein
+            kinase SAPK3, complete cds.
+ACCESSION   AB125304
+VERSION     AB125304.1  GI:46917333
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kobayashi,Y., Yamamoto,S., Minami,H., Kagaya,Y. and Hattori,T.
+  TITLE     Differential activation of the rice sucrose nonfermenting1-related
+            protein kinase2 family by hyperosmotic stress and abscisic acid
+  JOURNAL   Plant Cell 16 (5), 1163-1177 (2004)
+   PUBMED   15084714
+REFERENCE   2  (bases 1 to 1304)
+  AUTHORS   Kobayashi,Y., Yamamoto,S., Minami,H., Kagaya,Y. and Hattori,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-OCT-2003) Contact:Tsukaho Hattori Nagoya University,
+            Biotechnology and Bioscience Center; Chikusa, Nagoya, Aichi
+            464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..1304
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1304
+                     /gene="SAPK3"
+     CDS             121..1125
+                     /gene="SAPK3"
+                     /codon_start=1
+                     /product="serine/threonine protein kinase SAPK3"
+                     /protein_id="BAD17999.1"
+                     /db_xref="GI:46917334"
+                     /translation="MEERYEALKELGAGNFGVARLVRDKRSKELVAVKYIERGKKIDE
+                     NVQREIINHRSLRHPNIIRFKEVCLTPTHLAIVMEYAAGGELFEQICTAGRFSEDEAR
+                     YFFQQLISGVSYCHSLEICHRDLKLENTLLDGSPTPRVKICDFGYSKSALLHSKPKST
+                     VGTPAYIAPEVLSREEYDGKVADVWSCGVTLYVMLVGSYPFEDPGDPRNFRKTISRIL
+                     GVQYSIPDYVRVSSDCRRLLSQIFVADPSKRITIPEIKKHTWFLKNLPKEISEREKAD
+                     YKDTDAAPPTQAVEEIMRIIQEAKVPGDMAAADPALLAELAELKSDDEEEAADEYDTY
+                     "
+ORIGIN      
+        1 tgggatttgg tctggtttgg ttggaggtta gctcgcctct gattgggttg gttgggtggt
+       61 cggcttcggt ctcgaaccgc ggcgacttct cctctttggg tttgggtttc gagggggcca
+      121 atggaggaga ggtacgaggc gttgaaggag ctcggggccg gcaacttcgg ggtggccagg
+      181 ctggtcaggg acaagaggag caaggagctc gtcgccgtca agtacatcga gaggggcaag
+      241 aagattgatg aaaatgtgca gagggagatc atcaatcata ggtcgctccg gcatcccaat
+      301 atcattcggt ttaaggaggt ttgtttgaca cccacacacc tagccattgt catggagtat
+      361 gctgctggtg gagaactctt tgaacaaatc tgcaccgcag ggcgattcag cgaagacgag
+      421 gcaaggtact tcttccagca gctaatatca ggtgtcagct actgtcattc tctggaaatt
+      481 tgccaccgtg atcttaaact tgagaacacc ctcctggatg gaagcccaac acctcgtgtg
+      541 aagatttgtg actttggtta ctcaaagtct gctttgctgc attcgaagcc gaagtctaca
+      601 gttggtactc cagcatacat agcgccagaa gttctttcaa gagaagaata tgatggcaag
+      661 gtagcagacg tttggtcctg tggtgtgaca ctgtacgtga tgcttgtcgg ttcatacccg
+      721 tttgaagatc caggtgatcc gaggaatttc cgcaaaacga tcagcagaat tcttggcgtg
+      781 caatactcca tcccggacta cgtgagggtg tcttccgact gcaggcgcct tctatctcaa
+      841 atatttgttg ccgatccttc aaagaggatc acgatccctg agataaagaa gcacacgtgg
+      901 tttctgaaga atctgccaaa ggagatatcg gagagggaga aggccgacta caaggacacg
+      961 gacgccgccc ctccgacgca ggccgtcgag gagatcatgc ggatcatcca ggaggccaag
+     1021 gtccccggcg acatggccgc cgccgacccg gcgctgctcg cggagctcgc cgagctgaag
+     1081 agcgacgacg aagaggaggc cgccgatgag tatgacacct actgaccatc catgatccat
+     1141 atgcatccat ggtcgttgtg ctgcagctgt aaatatgatc cggaatatac gtgatcgcca
+     1201 gaccaaatga tatgcgtatt ctgatgcatt ttctgccgtg tatactctgc accggatttt
+     1261 cgtgcagcgt aaataataaa gaaaaaaaat aattatttgt ttgc
+//
+

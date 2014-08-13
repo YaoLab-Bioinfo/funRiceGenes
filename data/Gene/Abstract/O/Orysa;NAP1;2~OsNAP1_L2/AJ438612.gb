@@ -1,0 +1,77 @@
+LOCUS       AJ438612                1553 bp    mRNA    linear   PLN 19-NOV-2004
+DEFINITION  Oryza sativa mRNA for nucleosome assembly protein 1 - like protein
+            2.
+ACCESSION   AJ438612
+VERSION     AJ438612.1  GI:45433310
+KEYWORDS    nap1_L2 gene; nucleosome assembly protein 1 - like protein 2.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Dong,A., Zhu,Y., Yu,Y., Cao,K., Sun,C. and Shen,W.H.
+  TITLE     Regulation of biosynthesis and intracellular localization of rice
+            and tobacco homologues of nucleosome assembly protein 1
+  JOURNAL   Planta 216 (4), 561-570 (2003)
+   PUBMED   12569397
+REFERENCE   2  (bases 1 to 1553)
+  AUTHORS   Dong,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-MAR-2002) Dong A., Biochemistry, School of Life
+            Sciences, Fudan University, Shanghai 200433, CHINA
+FEATURES             Location/Qualifiers
+     source          1..1553
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone="R86"
+                     /tissue_lib="root"
+     gene            1..1553
+                     /gene="nap1_L2"
+     CDS             119..1213
+                     /gene="nap1_L2"
+                     /function="involved in nucleosome assembly"
+                     /codon_start=1
+                     /product="nucleosome assembly protein 1-like protein 2"
+                     /protein_id="CAD27459.1"
+                     /db_xref="GI:45433311"
+                     /db_xref="GOA:Q70Z20"
+                     /db_xref="InterPro:IPR002164"
+                     /db_xref="UniProtKB/TrEMBL:Q70Z20"
+                     /translation="MSDGKDSLDLSGLGAAVPNAKELSAEDKANLVESIKNTLQGLAA
+                     RHTDVLESLEPKVRKRVEVLREIQSQHDDLEAKFFEERAALEAKYQKMYEPLYSKRYE
+                     IVNGVVEVDGVTKEAADETPAEQKEEKGVPEFWLNAMKNHEILSEEIQERDEEALKYL
+                     KDIKWYRISEPKGFKLEFYFDTNPFFKNSVLTKTYHMIDEDEPILEKAIGTEIEWFPG
+                     KCLTQKVLKKKPKKGSKNTKPITKTENCESFFNFFSPPQVPDDDEEIDEDTAEQLQNQ
+                     MEQDYDIGSTIRDKIIPHAVSWFTGEAAQDEDFEGIMDDEDDDDEDDDDDEDEDDEDD
+                     DEDDEDEKKGGRVPSGEGQQGERPAECKQQ"
+ORIGIN      
+        1 ctcccctcct ctcaaccccc acagctcgcg ccgccgccgc agctagggtt tctctccgcc
+       61 ctagcctacc tcgcggagac ctaccacccg aagcttcggg aaccctcgca tagccgccat
+      121 gagcgacggc aaggactccc tcgacctctc cggcctcggc gccgccgtcc ccaacgccaa
+      181 agagctcagc gcggaggaca aggccaacct cgtggagtcg attaagaaca cgctgcaggg
+      241 attggcggcg cggcacacgg acgtgctcga gagcctcgag cccaaggtca ggaagcgcgt
+      301 ggaggtgctt agggagatcc agagccaaca cgatgatcta gaggcgaagt tctttgagga
+      361 gagagctgca cttgaagcta aatatcagaa gatgtatgaa ccactttact ccaagcgtta
+      421 tgaaatcgtg aatggtgtgg ttgaggtaga tggtgtcacc aaagaagctg cagatgaaac
+      481 ccctgcagag cagaaagagg agaagggtgt accagagttc tggcttaatg ccatgaagaa
+      541 ccatgaaatt ctgtctgagg agatccagga gagggatgag gaagctctta agtacctcaa
+      601 ggacatcaaa tggtacagaa ttagtgagcc aaagggtttc aagcttgaat tttacttcga
+      661 tactaatcca ttcttcaaga actcggtgct taccaaaaca taccacatga ttgatgaaga
+      721 tgaaccaatt ctggagaaag ccattggtac tgaaattgaa tggttccctg ggaagtgttt
+      781 gacacaaaag gttctcaaga agaaaccaaa gaagggctca aagaacacta aacctatcac
+      841 aaaaactgaa aactgtgaga gcttctttaa cttcttcagc ccacctcaag ttcctgatga
+      901 tgatgaggaa attgatgagg atacagctga acagttgcag aaccaaatgg agcaagatta
+      961 tgacattgga tctaccatca gagacaagat cattccacat gctgtttcat ggtttactgg
+     1021 agaggctgct caagatgagg acttcgaagg cattatggat gatgaagatg atgacgatga
+     1081 agatgacgac gatgatgaag atgaggatga cgaggatgat gatgaagacg acgaggatga
+     1141 aaagaagggc ggacgagttc cttcagggga agggcagcag ggagagcgac ctgcagaatg
+     1201 caagcaacag taagatgctt cctacctgag cgtttccaaa gtccggtcct ggagtgaaga
+     1261 agaatgtttg gttcggcttg atgcaatgtc tcgtccattt ggtttggaga gccagttggg
+     1321 gaagtgttgg gattgagttg gtttagtgga actggcgggg gatatttttt tcgggacatg
+     1381 gtattatatg tttggtagct ttttccattg ttgtattggg tcgacatatc ttgtgcgaag
+     1441 cttatggttg agtgatgaat atcgccggtt tggtattatc atattgccaa taccactggc
+     1501 atagtctagt ctttctcttt tcacttgtgc tgagaaaaaa aaaaaaaaaa aaa
+//
+

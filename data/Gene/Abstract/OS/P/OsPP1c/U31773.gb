@@ -1,0 +1,58 @@
+LOCUS       OSU31773                 954 bp    mRNA    linear   PLN 23-MAR-1999
+DEFINITION  Oryza sativa protein phosphatase 1 mRNA, complete cds.
+ACCESSION   U31773
+VERSION     U31773.1  GI:951335
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 954)
+  AUTHORS   Chang,M., Wang,B., Chen,X. and Wu,R.
+  TITLE     Molecular characterization of catalytic-subunit cDNA sequences
+            encoding protein phosphatases 1 and 2A and study of their roles in
+            the gibberellin-dependent Osamy-c expression in rice
+  JOURNAL   Plant Mol. Biol. 39 (1), 105-115 (1999)
+   PUBMED   10080713
+REFERENCE   2  (bases 1 to 954)
+  AUTHORS   Wang,B., Chang,M., Chen,X. and Wu,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-1995) Baiyang Wang, Biochemistry, Cornell
+            University, Ithaca, NY 14853, USA
+FEATURES             Location/Qualifiers
+     source          1..954
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="seed"
+     CDS             1..954
+                     /codon_start=1
+                     /product="protein phosphatase 1"
+                     /protein_id="AAA74625.1"
+                     /db_xref="GI:951336"
+                     /translation="MAPRRRGGGMDPVLLDDIIPPLLEVRTARPGKQVHLSESEIRQL
+                     CSVSREIFLSQPNLLELEAPIKICGDIHGQYSDLLRLFEYGGFPPEANYLFLGDYVDR
+                     GKQSLETICLLLGYKIKYPENFFLLRGNHECASINRIYGFYDECKRRFNMRLWKVFTD
+                     CFNCLPVAALIDDKILCMHGGLSPDLTHLDEIKRLARPTDVPDTGLLCDYFWSDPGKD
+                     VQGWGMNDRGVSYTFGADKVSEFLEKHDLDLICRAHQVVEDGYEFFADRQLVTIFSAP
+                     NYCGEFDNAGAMMSVDETLMCSFQILKPAERKGKFMASNKM"
+ORIGIN      
+        1 atggcgccgc gtcgacgcgg cggcgggatg gaccccgtcc tcctcgacga tatcatcccc
+       61 cccctgctcg aggtgcggac ggcgcgcccg gggaagcagg tccacctctc cgagtcggag
+      121 atccgccagc tctgctctgt atcccgagaa atcttcctca gccagcccaa tctcctcgag
+      181 ctcgaggcgc ccatcaagat ctgcggtgac atccatggtc agtacagtga ccttctaagg
+      241 ctttttgagt atggtggttt tcccccagaa gccaattatc tattcttagg tgattatgtt
+      301 gatcgaggca aacaaagttt ggaaacaata tgcctcctcc ttggatacaa aatcaagtac
+      361 ccggagaatt tttttcttct cagaggcaat catgagtgtg catcaataaa caggatatat
+      421 ggattttatg atgaatgcaa acgccgattt aatatgcgtc tatggaaggt cttcactgat
+      481 tgttttaact gtctccctgt ggctgcgcta attgatgata aaatattatg catgcatggg
+      541 gggctctctc ctgatctgac acatttagat gagataaaga ggttggcccg gcctactgat
+      601 gttccggata caggtctgct atgcgactac ttctggtcag atccaggaaa agacgttcaa
+      661 ggttggggca tgaatgatag gggggtctca tacacttttg gtgctgacaa agtttcagaa
+      721 ttcctggaaa aacatgacct tgatcttatt tgccgggcac atcaggttgt tgaggatgga
+      781 tatgagttct ttgccgacag acaacttgtc accatattct cagctccaaa ctattgtggt
+      841 gaatttgata atgcaggtgc aatgatgagt gttgatgaaa ctttgatgtg ttcttttcaa
+      901 attcttaaac ctgctgagag aaaaggcaaa tttatggcat caaacaaaat gtga
+//
+

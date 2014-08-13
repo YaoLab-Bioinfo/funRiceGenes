@@ -1,0 +1,76 @@
+LOCUS       HM450152                1472 bp    mRNA    linear   PLN 30-JUL-2010
+DEFINITION  Oryza sativa Japonica Group RAV-like 1 protein (RAVL1) mRNA,
+            complete cds.
+ACCESSION   HM450152
+VERSION     HM450152.1  GI:299882829
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1472)
+  AUTHORS   Je,B.I., Piao,H.L., Park,S.J., Park,S.H., Kim,C.M., Xuan,Y.H.,
+            Park,S.H., Huang,J., Do Choi,Y., An,G., Wong,H.L., Fujioka,S.,
+            Kim,M.C., Shimamoto,K. and Han,C.D.
+  TITLE     RAV-Like1 Maintains Brassinosteroid Homeostasis via the Coordinated
+            Activation of BRI1 and Biosynthetic Genes in Rice
+  JOURNAL   Plant Cell 22 (6), 1777-1791 (2010)
+   PUBMED   20581303
+REFERENCE   2  (bases 1 to 1472)
+  AUTHORS   Je,B.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JUN-2010) Division of Applied Biological Sciences,
+            Plant Mol. Biol. & Biotech. Res. Center, Gyeongsang National
+            University, South Korea, Gazwa-dong 900, Jinju, GyeongNam 660-701,
+            South Korea
+FEATURES             Location/Qualifiers
+     source          1..1472
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Dongjin"
+                     /db_xref="taxon:39947"
+     gene            1..1472
+                     /gene="RAVL1"
+     CDS             1..1203
+                     /gene="RAVL1"
+                     /codon_start=1
+                     /product="RAV-like 1 protein"
+                     /protein_id="ADJ57333.1"
+                     /db_xref="GI:299882830"
+                     /translation="MEQEQDEEEEEAEASPREIPFMTSAAAAATASSSSPTSVSPSAT
+                     ASAAASTSASGSPFRSSDGAGASGSGGGGGGEDVEVIEKEHMFDKVVTPSDVGKLNRL
+                     VIPKQHAEKYFPLDSAANEKGLLLSFEDRTGKLWRFRYSYWNSSQSYVMTKGWSRFVK
+                     EKRLDAGDTVSFCRGAAQATRDRLFIDWKRRADVRDPHRFQRLPLPMTSPYGPWGGGA
+                     GAFFMPPAPPATLYEHHRFRQGFDFRNINPAVPARQLVFFGSPGTGIHQHPPLPPPPS
+                     PPPPPHQLHITVHHPSPVVTAGLPMVVDSVPHVNNPAAASKRVRLFGVNLDNPHPDGG
+                     QSSSGHDANALSLRMPGWQRPAPLRSLELPPHMPAGAAGAESSAASSPSSSSSSKREA
+                     HSSLDLDL"
+ORIGIN      
+        1 atggagcagg agcaggatga agaggaggag gaggcggagg cctcgccccg cgagatcccc
+       61 ttcatgacgt cggcggcggc ggcggccacc gcctcatcgt cctccccaac atcggtctcc
+      121 ccttccgcca ccgcttccgc ggcggcgtcc acgtcggcgt cgggctctcc cttccggtcg
+      181 agcgacggtg cgggagcgtc ggggagtggc ggcggcggtg gcggcgagga cgtggaggtg
+      241 atcgagaagg agcacatgtt cgacaaggtg gtgacgccga gcgacgtggg gaagctgaac
+      301 cggctggtga tcccgaagca gcacgccgag aagtacttcc cgctggactc ggcggcgaac
+      361 gagaagggcc ttctcctcag cttcgaggac cgaaccggca agctatggcg cttccgctac
+      421 tcctactgga acagcagcca gagctacgtc atgaccaagg gttggagccg cttcgtcaag
+      481 gagaagcgcc tcgacgccgg ggacaccgtc tccttctgcc gcggcgccgc ccaggccacc
+      541 cgcgaccgcc tcttcatcga ctggaagcgc cgcgccgacg tccgcgaccc gcaccgcttc
+      601 cagcgcctac cgctccccat gacctcgccc tacggcccgt ggggcggcgg cgcgggcgcc
+      661 ttcttcatgc cgcccgcgcc gcccgccacg ctctacgagc atcaccgctt tcgccagggc
+      721 ttcgacttcc gcaacatcaa ccccgctgtg ccggcgaggc agctcgtctt cttcggctcc
+      781 ccagggacgg ggattcatca gcacccgccc ttgccaccgc cgccgtcgcc acctccgcct
+      841 cctcaccaac tccacattac ggtgcaccac ccgagccccg tagtcaccgc cggcctgccc
+      901 atggttgtcg actcggtgcc gcacgtcaac aacccagcgg cggcatcgaa gcgcgtccgg
+      961 ctgttcggag tcaacctcga taacccacat ccggacggcg gccagtcgtc gagcggccac
+     1021 gacgccaatg cattgtcgct acggatgccc gggtggcaaa ggcctgcacc attgaggtcg
+     1081 ctggaattgc ctccacacat gccggctggt gcagctggag cggagtcctc tgccgcgtcg
+     1141 tcgccgtcgt catcgtcgtc atccaagaga gaggcgcact cctcgttgga tctcgatctg
+     1201 tgaaggaggg atcaggccac ctcgatcgat cgggagcgta ccaaaggaaa gttcaaaaaa
+     1261 tccatcttcc gtctgctgcc ttcttctact tctccacctt ttgcaattct ccatcataac
+     1321 tttgatcata gagttagcat aacttttggt ttcctttttt gtttttggcc attcacattc
+     1381 ttatgtttgt ttgagaatat atagagaaaa attaggcgaa ttaatgaatt attaatgttt
+     1441 ttatttgggt ttagaaaaaa aaaaaaaaaa aa
+//
+

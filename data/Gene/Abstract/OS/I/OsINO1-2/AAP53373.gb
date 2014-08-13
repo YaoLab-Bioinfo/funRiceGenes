@@ -1,0 +1,69 @@
+LOCUS       AAP53373                 509 aa            linear   PLN 05-MAY-2011
+DEFINITION  Inositol-3-phosphate synthase, putative, expressed [Oryza sativa
+            Japonica Group].
+ACCESSION   AAP53373
+VERSION     AAP53373.1  GI:31431622
+DBLINK      BioProject: PRJNA13174
+DBSOURCE    accession DP000086.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 509)
+  CONSRTM   Rice Chromosome 10 Sequencing Consortium
+  TITLE     In-depth view of structure, activity, and evolution of rice
+            chromosome 10
+  JOURNAL   Science 300 (5625), 1566-1569 (2003)
+   PUBMED   12791992
+  REMARK    Erratum:[Science. 2003 Sep 5;301(5638):1327]
+REFERENCE   2  (residues 1 to 509)
+  AUTHORS   Buell,C.R., Wing,R.A., McCombie,W.R., Messing,J., Yuan,Q. and
+            Ouyang,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAY-2003) The Institute for Genomic Research, 9712
+            Medical Center Dr., Rockville, MD 20850, USA
+REFERENCE   3  (residues 1 to 509)
+  AUTHORS   Buell,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2006) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..509
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="10"
+     Protein         1..509
+                     /product="Inositol-3-phosphate synthase, putative,
+                     expressed"
+     Region          1..509
+                     /region_name="PLN02438"
+                     /note="inositol-3-phosphate synthase"
+                     /db_xref="CDD:178057"
+     CDS             1..509
+                     /coded_by="join(DP000086.1:11288582..11288766,
+                     DP000086.1:11288964..11289032,
+                     DP000086.1:11289745..11289880,
+                     DP000086.1:11290445..11290692,
+                     DP000086.1:11291142..11291368,
+                     DP000086.1:11291478..11291593,
+                     DP000086.1:11291688..11291864,
+                     DP000086.1:11292272..11292460,
+                     DP000086.1:11292567..11292629,
+                     DP000086.1:11293052..11293171)"
+                     /note="predicted by fgenesh"
+ORIGIN      
+        1 mfvegfrves prvrygdgei eseyrydtte vvappspekg wvvrpksvty hfkttttvpk
+       61 lgvmlvgwgg nngttltagv ianregiswa tkekvhkany fgsltqssti rvgsyngeei
+      121 yapfkslvpm vnpndivfgg wdissmnlad amtrarvldi dlqkqlrhhm esmvplpgvy
+      181 npdfiaanqg srannvikgt kkeqveqvkk direfkeksk vdkvvvlwta nterysnvva
+      241 gmndtmdnll asldkdepem spstlyaiac vmegvpfing spqntfvpgl ielaikknsv
+      301 iggddfksgq tkmksvlvdf lvgagikpts iasynhlgnn dgmnlsapqt frskeisksg
+      361 vvddmvssna ilyepgehpd hvivikyipy vgdskramde ytseifmggk ntivlhntce
+      421 dsllaapiil dlvllaelst riqlkaedqd kyhsfhpvat ilsylskapl vppgtpvvna
+      481 lakqramlen ilracvglap ennmmleyk
+//
+

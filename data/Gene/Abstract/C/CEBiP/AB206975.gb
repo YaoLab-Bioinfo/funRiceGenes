@@ -1,0 +1,74 @@
+LOCUS       AB206975                1436 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group CEBiP mRNA for chitin elicitor binding
+            protein, partial cds.
+ACCESSION   AB206975
+VERSION     AB206975.1  GI:108860574
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kaku,H., Nishizawa,Y., Ishii-Minami,N., Akimoto-Tomiyama,C.,
+            Dohmae,N., Takio,K., Minami,E. and Shibuya,N.
+  TITLE     Plant cells recognize chitin fragments for defense signaling
+            through a plasma membrane receptor
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 103 (29), 11086-11091 (2006)
+   PUBMED   16829581
+REFERENCE   2  (bases 1 to 1436)
+  AUTHORS   Kaku,H., Minami,E. and Shibuya,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2005) Contact:Hanae Kaku Department of Life
+            Sciences, Facluty of Agriculture, Meiji University; 1-1-1
+            Higashi-Mita, Tama-ku, Kawasaki, Kanagawa 214-8571, Japan
+FEATURES             Location/Qualifiers
+     source          1..1436
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone_lib="lambdaZap II rice suspension cultured cell
+                     cDNA"
+     gene            <1..>1436
+                     /gene="CEBiP"
+     CDS             <1..>1147
+                     /gene="CEBiP"
+                     /codon_start=2
+                     /product="chitin elicitor binding protein"
+                     /protein_id="BAE95828.1"
+                     /db_xref="GI:108860575"
+                     /translation="PAPVSTRQSNKHQASHSHLSRRAFPTMASLTAALATPAAAALLL
+                     LVLLAAPASAANFTCAVASGTTCKSAILYTSPNATTYGNLVARFNTTTLPDLLGANGL
+                     PDGTLSSAPVAANSTVKIPFRCRCNGDVGQSDRLPIYVVQPQDGLDAIARNVFNAFVT
+                     YQEIAAANNIPDPNKINVSQTLWIPLPCSCDKEEGSNVMHLAYSVGKGENTSAIAAKY
+                     GVTESTLLTRNKIDDPTKLQMGQILDVPLPVCRSSISDTSADHNLMLLPDGTYGFTAG
+                     NCIRCSCSSTTYQLNCTAVQNKGCPSVPLCNGTLKLGETNGTGCGSTTCAYSGYSNSS
+                     SLIIQTSLATNQTTACQRGGSGRSQFARSMWSMSVISFHMVLIIICFL"
+ORIGIN      
+        1 tcctgctcca gtgtcaacac gacagtcaaa caaacaccaa gcctctcatt cccacctctc
+       61 gaggagagct ttccccacca tggcgtcgct caccgccgcc ctggccacgc cggcggccgc
+      121 tgccctcctc ctcctcgtcc tcctcgccgc ccccgcctcc gccgccaact tcacctgcgc
+      181 ggtggcttca ggcaccacct gcaagtccgc catcctctac acctccccca acgccaccac
+      241 ctacggcaac ctcgtcgccc gcttcaacac caccaccctc cccgacctcc tcggcgccaa
+      301 cggcctcccc gacggcacgc tttcctccgc ccccgtcgcc gccaattcca ccgtcaaaat
+      361 ccccttccgc tgccgctgca acggcgacgt cggccagtcg gaccgcctcc ccatctacgt
+      421 cgtgcagccg caggacgggc tcgacgccat cgcgcgcaac gtgttcaacg ccttcgtcac
+      481 ctaccaggag atcgccgccg cgaacaacat ccccgacccc aacaagataa atgtcagcca
+      541 gacgctgtgg attccgctgc cctgcagctg cgacaaggag gaaggctcta acgtgatgca
+      601 cctcgcctac agcgtcggca aaggggagaa cacgtcggcg atcgctgcca agtacggggt
+      661 gacggagtcc acgcttctca ccagaaataa gatcgacgac cccacgaaat tgcagatggg
+      721 acagattcta gatgtcccgc tccctgtgtg ccgttcatca atcagcgata cctcagctga
+      781 tcacaatctg atgctcctcc cggatggcac ctatggattc accgcaggaa actgcatccg
+      841 ctgcagctgc agttcaacta cctaccagct aaactgcact gcagtacaga acaagggatg
+      901 cccgtcagtg ccactgtgca atggaacgct gaagcttggt gagacgaacg gcaccggttg
+      961 cggatcaaca acgtgcgcct acagtggtta ctccaacagt tcatcgctca tcatacaaac
+     1021 cagccttgca actaatcaga caacagcctg ccagagagga ggatctggga ggtcgcagtt
+     1081 cgctaggtcc atgtggagca tgtctgttat ctccttccac atggtgttga tcattatctg
+     1141 tttcctttga tgttggagac tactgcaact ctagatggta catttcaaag agttctctac
+     1201 gatctatgat tgttgtatac gatatatgat tgttgtcgta acttagattt tgatgactgg
+     1261 tttatccagc tttgaaattt gagttttgac tctgttcttt agaggatgag tggcacttgt
+     1321 acggctgctt gaataaaacg tcgatgtatt gtattcgatc tgcatctgaa aaggaatatt
+     1381 cattagatag gattattcga aataaaaaga tcccacatgt ttttgttaaa aaaaaa
+//
+

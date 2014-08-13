@@ -1,0 +1,65 @@
+LOCUS       DQ784546                 840 bp    mRNA    linear   PLN 20-OCT-2011
+DEFINITION  Oryza sativa Japonica Group putative NECK LEAF 1 (NL1) mRNA,
+            complete cds.
+ACCESSION   DQ784546
+VERSION     DQ784546.1  GI:110611213
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 840)
+  AUTHORS   Wang,L., Yin,H., Qian,Q., Yang,J., Huang,C., Hu,X. and Luo,D.
+  TITLE     NECK LEAF 1, a GATA type transcription factor, modulates
+            organogenesis by regulating the expression of multiple regulatory
+            genes during reproductive development in rice
+  JOURNAL   Cell Res. 19 (5), 598-611 (2009)
+   PUBMED   19337211
+REFERENCE   2  (bases 1 to 840)
+  AUTHORS   Wang,L.P., Yin,H.F., Huang,C.F., Xue,H.W., Qian,Q. and Luo,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUN-2006) National Laboratary of Plant Molecular
+            Genetics, Institute of Plant Physiology & Ecology, Fenglin Road,
+            No.300, Shanghai 200032, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..840
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua11"
+                     /db_xref="taxon:39947"
+                     /chromosome="5"
+                     /map="between RSL0049 and JD189"
+     gene            1..840
+                     /gene="NL1"
+     CDS             1..840
+                     /gene="NL1"
+                     /note="putative GATA-type zinc finger transcription
+                     factor"
+                     /codon_start=1
+                     /product="putative NECK LEAF 1"
+                     /protein_id="ABG77977.1"
+                     /db_xref="GI:110611214"
+                     /translation="MLHHYYSGGAGHHQDVAAAGSPGDMASSTFSLFFPMSNGQCWPP
+                     STVEESAAYDDHSTVTTSPSSPSSSSTGSVDCTLSLGTPSSRRAEPVAAAAPAANHGA
+                     PVPAHYPSLSAATVSWDATAESYYCGQQGRPATGAAKCAAGAGHDALLDRRCANCGTA
+                     STPLWRNGPRGPKSLCNACGIRYKKEERRAAATTTTADGAAGCGFITAQRGRGSTAAK
+                     AAPAVTTCGEETSPYVVGGGGGGGEVADAAYLAWRLNVVPPAATATAFSVWPERASLY
+                     HYN"
+ORIGIN      
+        1 atgcttcacc attactacag cggcggcgcc ggccatcatc aggacgtcgc tgcagctggt
+       61 agccccggcg acatggcttc ctccaccttc tcgctcttct tcccgatgtc caatgggcag
+      121 tgttggccgc cgtcgacggt ggaggagtcc gcggcctacg acgaccacag caccgtcacc
+      181 acctctcctt cctcgccttc gtcgtcctcc accggctccg tcgactgcac gctctcgctc
+      241 ggcacgccgt cgtctcgccg cgccgagccc gtcgcggcgg cggcgccagc ggcaaaccat
+      301 ggggcgcccg tgccggcgca ttatccgtcg ctgtcagcgg cgaccgtgtc ctgggacgcg
+      361 actgccgagt cgtactattg tggccagcag gggaggccgg ccaccggcgc cgccaagtgc
+      421 gccgccggcg ccgggcacga cgcgctcctc gaccgccgct gcgccaactg cggcaccgcg
+      481 tccacgccgc tctggaggaa cggccctcgc ggacccaagt cgctgtgcaa cgcgtgcggg
+      541 atcaggtaca agaaggagga gcggcgcgcg gcggcgacga cgacgacggc cgacggcgcc
+      601 gccggatgcg gcttcatcac cgcgcagcgt ggacgcgggt cgaccgcggc caaggcggcg
+      661 cccgccgtga cgacgtgcgg cgaggagacg tcaccgtacg tcgtcggcgg cggcggcggc
+      721 ggcggcgagg tcgcggacgc ggcgtatctc gcctggcggc tcaacgtcgt cccaccggcg
+      781 gcgacggcga cggcgttctc ggtgtggccg gagcgagcta gcctctacca ctacaactag
+//
+

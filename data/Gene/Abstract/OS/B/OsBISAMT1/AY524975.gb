@@ -1,0 +1,80 @@
+LOCUS       AY524975                1371 bp    mRNA    linear   PLN 24-JUL-2006
+DEFINITION  Oryza sativa (indica cultivar-group) benzothiadiazole-induced
+            S-adenosyl-L-methionine:salicylic acid carboxyl methyltransferase 1
+            (BISAMT1) mRNA, complete cds.
+ACCESSION   AY524975
+VERSION     AY524975.1  GI:42528300
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1371)
+  AUTHORS   Xu,R., Song,F. and Zheng,Z.
+  TITLE     OsBISAMT1, a gene encoding S-adenosyl-L-methionine: salicylic acid
+            carboxyl methyltransferase, is differentially expressed in rice
+            defense responses
+  JOURNAL   Mol. Biol. Rep. 33 (3), 223-231 (2006)
+   PUBMED   16850192
+REFERENCE   2  (bases 1 to 1371)
+  AUTHORS   Xu,R., Song,F., Goodman,R.M. and Zheng,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-2004) Department of Plant Protection, College of
+            Agriculture and Biotechnology, Zhejiang University, 268 Kaixuan
+            Road, Hangzhou, Zhejiang 310029, People's Republic of China
+FEATURES             Location/Qualifiers
+     source          1..1371
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Yuanfengzao"
+                     /db_xref="taxon:39946"
+                     /tissue_type="leaves"
+                     /dev_stage="seedlings"
+     gene            1..1371
+                     /gene="BISAMT1"
+                     /note="OsBISAMT1"
+     CDS             73..1200
+                     /gene="BISAMT1"
+                     /note="OsBISAMT1; BTH-induced
+                     S-adenosyl-L-methionine:salicylic acid carboxyl
+                     methyltransferase 1"
+                     /codon_start=1
+                     /product="benzothiadiazole-induced
+                     S-adenosyl-L-methionine:salicylic acid carboxyl
+                     methyltransferase 1"
+                     /protein_id="AAS18419.1"
+                     /db_xref="GI:42528301"
+                     /translation="MKIERDFHMMKGDSEFSYAKNSRIQKRVVLAAKPIVEKAVREVC
+                     IDLHPQSMVIADLGCSFGANTLLFISEMITTICEDYNNTIKESSMEVQFFLNDLPSND
+                     FNHIFQSLEQFEQLITQDCACKGLQPPPHFVAGLPGSFYTRLFPCNSVHLFHSSMSVT
+                     WLSQVPEQLDGSMNEGNIHIGATTPPSVAKLYQNQFEKDFSRFLQMRCMEIVPGGRMV
+                     LTVAGRKSKDVFNAGGTTTIFDLLSQGLRILVAEGRVAKEKLDSFNIPVYCPSADELT
+                     QLVQQCELLDISDIQLFEMDENRMHDSEQAEGTTAAHTAGQSMSATLRAAAESLVASH
+                     FGEDILEEIFMVFARNFTSYIESEVEKSGITIITLYLQAKH"
+ORIGIN      
+        1 gtgctgttgt ctagctaggc agatagcaac acatacaggg aattaagctt ctagccaaag
+       61 catcttgcag ccatgaagat cgagcgagat ttccacatga tgaaagggga cagtgagttc
+      121 agttatgcca agaattcaag gatccaaaaa agagttgttc ttgctgccaa accaatagtt
+      181 gagaaagctg tacgggaagt atgcatagat cttcatcctc aatcaatggt cattgctgac
+      241 cttggctgct ccttcggtgc aaacacactc ctcttcatct ctgagatgat caccacaata
+      301 tgtgaggact ataacaacac catcaaggag agctccatgg aggtccagtt cttcctcaat
+      361 gacctaccaa gcaatgactt taaccacatc ttccaatcac tagagcagtt cgagcagttg
+      421 ataacgcaag attgcgcttg caaagggtta caacctcccc cgcactttgt cgcaggcctg
+      481 ccaggttcct tctacactag actcttccct tgtaatagcg tccatctctt ccattcctcc
+      541 atgagcgtca cgtggctctc tcaggttcct gagcagcttg atggcagcat gaatgagggg
+      601 aacattcaca taggagcgac tacaccacca tccgtggcaa agctctacca aaatcagttt
+      661 gagaaagact tctcacggtt cctccagatg agatgcatgg agattgtgcc cggaggccgg
+      721 atggtgctga cggttgctgg gaggaagagc aaagatgtgt tcaatgcagg agggacgacc
+      781 acgatatttg atttgctttc acaagggcta cgtattcttg ttgctgaggg tcgtgttgcc
+      841 aaggagaagc tggactcttt caacattcca gtgtactgcc cttcagctga tgagctgacg
+      901 cagctggtgc agcagtgcga gctgcttgac ataagtgaca ttcaactctt cgagatggat
+      961 gagaaccgca tgcatgactc agagcaagca gagggcacca ccgccgctca cacagcggga
+     1021 cagagcatgt ctgcaactct aagggcggcg gcagagtccc tggtagcaag ccattttggg
+     1081 gaggacatac tcgaggagat cttcatggtg tttgcacgta atttcactag ttatattgag
+     1141 agtgaggttg agaaaagtgg catcaccatc atcacactgt acttgcaggc aaaacactag
+     1201 ctagataatg gtactatacg gtagagtgtc aacaatatat cctggcagag aaacataaag
+     1261 tttaaatata acgtgatttt atagagtaaa gtgcgctcat gatatgcccg cttggcaagt
+     1321 tcggtgaaag ttaatgcaag aaattgaaaa taaaaaaaaa aaaaaaaaaa a
+//
+

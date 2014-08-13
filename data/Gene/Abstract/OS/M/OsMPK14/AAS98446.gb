@@ -1,0 +1,111 @@
+LOCUS       AAS98446                 542 aa            linear   PLN 18-JUN-2004
+DEFINITION  putative Mitogen-activated protein kinase [Oryza sativa Japonica
+            Group].
+ACCESSION   AAS98446
+VERSION     AAS98446.1  GI:46485821
+DBSOURCE    accession AC104277.2
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 542)
+  AUTHORS   Chow,T.-Y., Hsing,Y.-I.C., Chen,C.-S., Chen,H.-H., Liu,S.-M.,
+            Chao,Y.-T., Chang,S.-J., Chen,H.-C., Chen,S.-K., Chen,T.-R.,
+            Chen,Y.-L., Cheng,C.-H., Chung,C.-I., Han,S.-Y., Hsiao,S.-H.,
+            Hsiung,J.-N., Hsu,C.-H., Huang,J.-J., Kau,P.-I., Lee,M.-C.,
+            Leu,H.-L., Li,Y.-F., Lin,S.-J., Lin,Y.-C., Wu,S.-W., Yu,C.-Y.,
+            Yu,S.-W., Wu,H.-P. and Shaw,J.-F.
+  TITLE     Oryza sativa BAC OJ1264_A04 genomic sequence
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 542)
+  AUTHORS   Chow,T.-Y. and Hsing,Y.-I.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2001) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   3  (residues 1 to 542)
+  AUTHORS   Hsing,Y.-I.C. and Chow,T.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAR-2003) Institute of Botany, Academia Sinica, 128,
+            Section 2, Yien-chu-yuan Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   4  (residues 1 to 542)
+  AUTHORS   Chow,T.-Y. and Hsing,Y.-I.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-AUG-2003) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   5  (residues 1 to 542)
+  AUTHORS   Chow,T.-Y. and Hsing,Y.-I.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-APR-2004) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   6  (residues 1 to 542)
+  AUTHORS   Chow,T.-Y. and Hsing,Y.-I.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUN-2004) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..542
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="5"
+                     /clone="OJ1264_A04"
+     Protein         1..542
+                     /product="putative Mitogen-activated protein kinase"
+     Region          12..349
+                     /region_name="STKc_TDY_MAPK_plant"
+                     /note="Catalytic domain of the Serine/Threonine Kinases,
+                     TDY Mitogen-Activated Protein Kinases from Plants;
+                     cd07859"
+                     /db_xref="CDD:143364"
+     Region          13..304
+                     /region_name="S_TKc"
+                     /note="Serine/Threonine protein kinases, catalytic domain;
+                     smart00220"
+                     /db_xref="CDD:214567"
+     Site            order(19..22,24..25,27,40,42,59,73,94..97,100,102..103,
+                     139,141,143..144,146,156..157,160,175,177..180,182,221)
+                     /site_type="active"
+                     /db_xref="CDD:143364"
+     Site            order(19..22,24..25,27,40,42,73,94..97,100,103,141,
+                     143..144,146,156..157)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:143364"
+     Site            order(59,102,139,141,160,175,177..180,182,221)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:143364"
+     Site            order(70,98..99,104,115,118,125,147..151,307,309,312)
+                     /site_type="other"
+                     /note="KIM docking site [polypeptide binding]"
+                     /db_xref="CDD:143364"
+     Site            156..182
+                     /site_type="other"
+                     /note="activation loop (A-loop)"
+                     /db_xref="CDD:143364"
+     CDS             1..542
+                     /gene="OJ1264_A04.20"
+                     /coded_by="join(AC104277.2:128013..128409,
+                     AC104277.2:129736..129863,AC104277.2:129950..130009,
+                     AC104277.2:130887..131036,AC104277.2:131126..131281,
+                     AC104277.2:131375..131586,AC104277.2:131906..132007,
+                     AC104277.2:132117..132253,AC104277.2:132369..132655)"
+                     /note="'similar to rice EST CA754061, AK063944'"
+                     /db_xref="dbEST:25798100"
+                     /db_xref="UniProtKB/TrEMBL:AAQ94319"
+ORIGIN      
+        1 mdffteygeg nrykieevig kgsygvvcsa ldthtgdkva ikkindifeh vsdatrilre
+       61 ikllrllrhp diveikhill ppsrrefkdi yvvfelmesd lhqvikandd ltpehyqffl
+      121 yqllrglkyi htanvfhrdl kpknilanad cklkicdfgl arvafsdtpt aifwtdyiat
+      181 rwyrapelcg sffskytpai diwsigcifa elltgkplfp gknvvhqldi itdllgtpsp
+      241 etisrirnek arrylnsmrr kkpipftqkf pnadplamrl lermlafdpk drpsaeeala
+      301 dpyfknianv drepsaqpit klefeferrr itkedireli yreileyhpk mlreflegte
+      361 stgfmypsav dhfkkqfayl eehyakgsta apperqhnsl prpcvvysdn rpqstasvte
+      421 dlsrclirdn nlksqdsasv gasripqgaa arpgkavgsv lrygncstsa aeqqyeqrrv
+      481 vrnpaiapns svplgssypr rnqtcksetg dveridssqt gppkpyvank lpatvdgrsg
+      541 hw
+//
+

@@ -1,0 +1,79 @@
+LOCUS       ADV58351                1021 aa            linear   PLN 18-MAR-2011
+DEFINITION  resistance protein Pikp-2 [Oryza sativa Japonica Group].
+ACCESSION   ADV58351
+VERSION     ADV58351.1  GI:319655782
+DBSOURCE    accession HM035360.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 1021)
+  AUTHORS   Yuan,B., Zhai,C., Wang,W., Zeng,X., Xu,X., Hu,H., Lin,F., Wang,L.
+            and Pan,Q.
+  TITLE     The Pik-p resistance to Magnaporthe oryzae in rice is mediated by a
+            pair of closely linked CC-NBS-LRR genes
+  JOURNAL   Theor. Appl. Genet. 122 (5), 1017-1028 (2011)
+   PUBMED   21153625
+REFERENCE   2  (residues 1 to 1021)
+  AUTHORS   Pan,Q., Yuan,B. and Wang,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2010) College of Resources and Environmental
+            Sciences, South China Agricultural University, Wushan, Guangzhou,
+            Guangdong 510652, China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..1021
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+                     /chromosome="11"
+                     /map="between RM224 and RM5766"
+     Protein         1..1021
+                     /product="resistance protein Pikp-2"
+                     /name="NBS-LRR protein"
+     Region          185..515
+                     /region_name="AAA"
+                     /note="The AAA+ (ATPases Associated with a wide variety of
+                     cellular Activities) superfamily represents an ancient
+                     group of ATPases belonging to the ASCE (for additional
+                     strand, catalytic E) division of the P-loop NTPase fold.
+                     The ASCE division also includes ABC; cl18944"
+                     /db_xref="CDD:267297"
+     Region          206..>224
+                     /region_name="Fer4_NifH"
+                     /note="The Fer4_NifH superfamily contains a variety of
+                     proteins which share a common ATP-binding domain.
+                     Functionally, proteins in this superfamily use the energy
+                     from hydrolysis of NTP to transfer electron or ion;
+                     cd01983"
+                     /db_xref="CDD:238941"
+     Region          662..699
+                     /region_name="LRR_4"
+                     /note="Leucine Rich repeats (2 copies); pfam12799"
+                     /db_xref="CDD:257306"
+     CDS             1..1021
+                     /gene="Pikp-2"
+                     /coded_by="join(HM035360.1:11487..12478,
+                     HM035360.1:12643..14716)"
+ORIGIN      
+        1 melvvgasea tmksllgklg nllaqeyali sgirgdiqyi ndelasmqaf lrdlsnvpeg
+       61 hshghrmkdw mkqirdiayd vedciddfah rlpqdsisda kwsflltkiy elwtwwprrv
+      121 iasniaqlkv raqqiadrrs rygvnnpehl dssssartra vnyeiaeyqv tspqiigike
+      181 pvgmktvmee levwltnpqa engqavlsiv gfggvgktti atalyrkvsd kfqcrasvav
+      241 sqnydqgkvl nsilsqvsnq eqgssttise kknltsgaks mlktalsllr gncicqpend
+      301 gnpdntpirl qettdddqnp rkleqllaek syilliddiw saetwesirs ilpknnkggr
+      361 iivttrfqav gstcspletd rlhtvdfltd desqnlfnts iceskirkds nkvdeqvpee
+      421 iwkicgglpl aivtmaglva cnprkaccdw sklckslfpe qetpltldgv trildccynd
+      481 lpadlktcll ylsifpkgwk isrkrlsrrw iaegfanekq gltqervaea yfnqltrrnl
+      541 vrpmehgsng kvktfqvhdm vleyimsksi eenfitvvgg hwqmtapsnk vrrlsmqssg
+      601 snrgsstkgl nlaqvrsltv fgnlnhmpfh sfnygiiqvl dledwkglke rhmteicqml
+      661 llkylsirrt eiskipskiq kleyletldi retyvrdlpk sivqlkriis ilggnkntrk
+      721 glrlpqeksk kpiknpspqg ktkepakkgf lsqekgkgam kalrvlsgie iveessevaa
+      781 glhqltglrk laiyklnitk ggdtfkqlqs sieylgscgl qtlaindens efinslgdmp
+      841 apprylvale lsgkleklpk witsittlnk ltisvtvlrt etleilhilp slfsltfafs
+      901 lsaakqdqdi ikdilennkl dsdgeivipa egfkslkllr ffaplvpkls fldknampal
+      961 eiiemrfkdf eglfgieile nlrevhlkvs dgaeaitkfl vndlkvntek pkvfvdgivt
+     1021 a
+//
+

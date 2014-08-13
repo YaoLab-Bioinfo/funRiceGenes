@@ -1,0 +1,62 @@
+LOCUS       AB032062                1004 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsPAA2 mRNA for alpha 1-2 subunit of
+            20S proteasome, complete cds.
+ACCESSION   AB032062
+VERSION     AB032062.1  GI:15022419
+KEYWORDS    alpha 1-2 subunit of 20S proteasome.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Oguchi,S., Sassa,H. and Hirano,H.
+  TITLE     OsPAA2, a distinct alpha 1 subunit gene for the 20S proteasome in
+            rice (Oryza sativa L.)
+  JOURNAL   Gene 272 (1-2), 19-23 (2001)
+   PUBMED   11470506
+REFERENCE   2  (bases 1 to 1004)
+  AUTHORS   Sassa,H. and Hirano,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-AUG-1999) Contact:Hidenori Sassa Yokohama City
+            University, Kihara Institute for Biological Research; Maioka
+            641-12, Totsuka, Yokohama 244-0813, Japan
+FEATURES             Location/Qualifiers
+     source          1..1004
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1004
+                     /gene="OsPAA2"
+     CDS             19..780
+                     /gene="OsPAA2"
+                     /codon_start=1
+                     /product="alpha 1-2 subunit of 20S proteasome"
+                     /protein_id="BAB62241.1"
+                     /db_xref="GI:15022420"
+                     /translation="MPEAEAAAVVTGGGSRAAGPADYERFITLFSPEGRLCQLDYAFN
+                     AVKLAGITSVGVRGDDSVYVLTHRKEDKLHDPTTITNLFAITDRIGLLATGMPGDGRA
+                     IAQEARNAAAEFRFKWGYKMSPCMLAQWIADRAQIRTQHAQIRPYGVVSMIFGIDEEK
+                     GTPELFTCDPAGQFFAHKATSAGPKEKEVMNFLEERMKSKPSLSSGTTKGLAKSALKH
+                     VLEGDFYAREFELGFIKKGDPTVTLHPVKFKRTRR"
+ORIGIN      
+        1 ggtgaatttg ctagcgagat gccggaagcc gaggccgcgg cggtggtcac cggaggcggc
+       61 agccgcgccg ccggccccgc cgactacgag cgcttcatca ccctcttctc cccggagggc
+      121 cgcctctgcc aactcgacta cgcgttcaac gccgtgaagc tggccgggat cacctccgtc
+      181 ggcgtgcgcg gcgacgactc cgtctacgtc ctcacccatc ggaaggagga caagttgcac
+      241 gacccgacga ccatcacgaa cctgttcgcg atcaccgacc ggattgggct gctcgccacc
+      301 gggatgccag gtgatggaag ggcaatagct caggaggcaa ggaacgcagc tgccgagttt
+      361 cgcttcaagt ggggatataa aatgtctcct tgtatgttag ctcaatggat tgcagacaga
+      421 gcacagatcc gcacccagca tgctcagata agaccttatg gagttgtttc tatgatcttt
+      481 ggaattgatg aagagaaagg aacccccgag ctcttcacat gtgatccagc tggacaattc
+      541 tttgcacaca aggccacaag tgctggtccg aaagagaagg aagttatgaa ctttcttgag
+      601 gaaagaatga agagcaaacc ttctctatca tctggcacaa caaaagggtt ggcaaaatct
+      661 gcgttgaaac atgtcctgga gggggatttc tatgcccgag aatttgagct tggatttatc
+      721 aagaaagggg atccaactgt aactctgcac ccagtgaaat tcaagcgcac gcggaggtga
+      781 aggacgagag cagaacaaag tgctcgatat aggacgatca ccagtctttc aaatctttta
+      841 cagcatggaa gttatgcaaa accattaccg ctaactgatt actgtacgct atagctatat
+      901 gtatgactgc gctcaagctg tgtcaagtgt caattatgag ttgcccccgg atttacgata
+      961 ccaactgatg atcacacatc aacacttcaa aaaaaaaaaa aaaa
+//
+

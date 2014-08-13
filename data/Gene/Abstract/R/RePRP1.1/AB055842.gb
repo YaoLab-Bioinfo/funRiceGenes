@@ -1,0 +1,75 @@
+LOCUS       AB055842                 980 bp    mRNA    linear   PLN 15-FEB-2002
+DEFINITION  Oryza sativa OsPRP1 mRNA for proline-rich protein, complete cds.
+ACCESSION   AB055842
+VERSION     AB055842.1  GI:18676393
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Wang,T., Mao,A.J. and Ding,Z.J.
+  TITLE     Oryza sativa mRNA for proline-rich protein
+  JOURNAL   Published Only in Database (2002)
+REFERENCE   2  (bases 1 to 980)
+  AUTHORS   Wang,T., Mao,A.J. and Ding,Z.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-FEB-2001) Tai Wang, Institute of Botany, Research
+            Center for Molecular and Developmental Biology; 20 Nanxincun,
+            Xiangshan, Haidianqu, Beijing 100093, China
+            (E-mail:twang@ns.ibcas.ac.cn, Tel:0086-10-62591431(ex.6210),
+            Fax:0086-10-62590833)
+FEATURES             Location/Qualifiers
+     source          1..980
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="spikelets"
+                     /dev_stage="early anther"
+     gene            1..980
+                     /gene="OsPRP1"
+     5'UTR           1..57
+                     /gene="OsPRP1"
+     CDS             58..732
+                     /gene="OsPRP1"
+                     /function="not determined"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /codon_start=1
+                     /product="proline-rich protein"
+                     /protein_id="BAB84823.1"
+                     /db_xref="GI:18676394"
+                     /translation="MAGAPRGLVLLGVCAVLMAVAVGGEAASVVVGTAKCADCTRKNM
+                     KAEDAFKNLQVAIKCKNGNGEYESKATGKLDGTGVFSIPLDADLHSSDCVAQLHGATN
+                     EPCPGQEPSKIVLMSEGTFIAVAGQTHYPSALCASVTICGPIKKKIIDHFHKKPVPPK
+                     PEPKPEPPKPKPEPEHPFLDHIHKKEKHSFDHFHKKPVPPKPEPKPEPKPQPAPEYHN
+                     PSPPAN"
+     3'UTR           733..980
+                     /gene="OsPRP1"
+     polyA_signal    824..829
+                     /gene="OsPRP1"
+     polyA_signal    907..912
+                     /gene="OsPRP1"
+     polyA_signal    932..937
+                     /gene="OsPRP1"
+ORIGIN      
+        1 atccatctct acacatcagc aatagctaca cagagctaag ctagggttag ctcagcaatg
+       61 gcaggtgctc ctcgaggact agttctcctc ggcgtttgtg ccgtcttgat ggcggtcgcc
+      121 gtcggcggag aggcggcgtc ggtcgtcgtc ggcacggcca agtgcgccga ctgcaccagg
+      181 aagaacatga aagctgagga tgctttcaag aacctccagg tggcgatcaa gtgcaagaac
+      241 ggcaatggtg agtacgagag caaggccacc ggaaagctcg acggtaccgg cgtcttcagc
+      301 atccccctcg acgccgacct ccacagctcc gactgcgtcg cacagctcca tggcgcgacc
+      361 aacgagccat gccccggaca agagccatcc aagatcgtgc taatgtcaga gggcaccttt
+      421 atcgccgtcg ccggccagac ccactaccca tcagcgttgt gcgcatcggt gaccatctgc
+      481 ggcccaatca agaagaagat catagaccac ttccacaaga agccggtgcc acccaagccg
+      541 gagccaaagc cggagccacc caagcccaag cctgagccgg agcacccatt cctcgaccac
+      601 atccacaaga aggagaagca ctccttcgac cacttccaca agaagcccgt gccacccaag
+      661 cctgagccta agcccgagcc caagccgcag cctgcgccag agtaccacaa ccctagccct
+      721 ccggcgaatt aagcaatgga agtttgcatg catgcatggt tcgtttggtt agtacgtttg
+      781 gtgttgttgc atatgatttc ctgtcatgtc agtttgtctg cagaataatg gttttctttg
+      841 atgcattagc ttttactcac aagtttaatt tgtgtgtgtg tgtctatttg tttggtatca
+      901 gcaagtaatt aatataatca gggatgtgca taatatatgt gcaacttgtt tgatctcaaa
+      961 aaaaaaaaaa aaaaaaaaaa
+//
+

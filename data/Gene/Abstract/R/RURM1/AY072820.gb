@@ -1,0 +1,42 @@
+LOCUS       AY072820                 394 bp    mRNA    linear   PLN 17-FEB-2002
+DEFINITION  Oryza sativa ubiquitin mRNA, partial cds.
+ACCESSION   AY072820
+VERSION     AY072820.1  GI:18698988
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 394)
+  AUTHORS   Quanhong,Y., Rihe,P., Aisheng,X., Xian,L. and Huiqin,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JAN-2002) Bio-tech, Shanghai Academy of Agriculture
+            Science, Beidi Road 2901, Shanghai 201106, China
+FEATURES             Location/Qualifiers
+     source          1..394
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /note="isolated by yeast one-hybrid system using H-BOX
+                     cis-element binding site encoded by GenBank Accession
+                     Number AF408177 as bait"
+     CDS             <1..195
+                     /note="contains H-BOX cis-element binding domain; may be
+                     involved in plant disease resistance"
+                     /codon_start=1
+                     /product="ubiquitin"
+                     /protein_id="AAL77200.1"
+                     /db_xref="GI:18698989"
+                     /translation="ALEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLA
+                     DYNIQKESTLHLVLRLRGGQ"
+ORIGIN      
+        1 gctttggagg ttgagagctc cgacaccatt gataatgtga aggccaagat ccaggacaag
+       61 gaggggattc ccccagacca gcagcgtctg atcttcgctg gcaagcagct ggaggatgga
+      121 cgcaccctcg ccgactacaa catccagaag gagtccaccc tccacctggt gctccgcctc
+      181 cgtggtggtc agtaatcagc cagtttggtg gagctgccga tgtgcctggt cgtcccgagc
+      241 ctctgttcgt caagtatttg tggtgctgat gtctacttgt gtctggttta atggaccatc
+      301 gagtccgtat gatatgttag ttttatgaaa cagtttcctg tgggacagca gtatgcttta
+      361 tgaataagtt ggatttgaac ctaaaaaaaa aaaa
+//
+

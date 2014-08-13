@@ -1,0 +1,74 @@
+LOCUS       AB219540                1464 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsSPO11D mRNA for topoisomerase Spo11,
+            complete cds.
+ACCESSION   AB219540
+VERSION     AB219540.1  GI:150371046
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yamada,K., Kawagishi-Kobayashi,M., Shingu,Y., Mikawa,T., Wakasa,K.
+            and Shibata,T.
+  TITLE     Isolation and characterization of rice SPO11 genes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1464)
+  AUTHORS   Kawagishi-Kobayashi,M., Yamada,K., Shingu,Y., Mikawa,T. and
+            Shibata,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2005) Contact:Makiko Kawagishi-Kobayashi National
+            Institute of Crop Science, NARO; Kannondai 2-1-18, Tsukuba, Ibaraki
+            305-8518, Japan
+FEATURES             Location/Qualifiers
+     source          1..1464
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1464
+                     /gene="OsSPO11D"
+     CDS             1..1464
+                     /gene="OsSPO11D"
+                     /codon_start=1
+                     /product="topoisomerase Spo11"
+                     /protein_id="BAF65347.1"
+                     /db_xref="GI:150371047"
+                     /translation="MDDSTDDDSYHPRKHYAYDRQVSSSRWRTSREYIRGPGPETHTT
+                     ESAQDGQDPPAGVYSYGYFSGSGNDPQVQGHFVPEIQKYNPYVIFKGEQLPVPIWELP
+                     EEKVQDFHDRYFIAKDKSRVEARKTLNRLLEGNINTIERGHGYKFNIPKYTDNMEFNE
+                     EVKVSLAKAGKTISRSFCNANQREVASRTGYTIDLIERTLGAGLNISKRTVLYTNKDL
+                     FGDQSKSDQAINDICALTNIRRGSLGIIAAEKGIVVGNIFLELTNGKSISCSIGVQIP
+                     HRLDQIKDVCVEIGSRNIEYILVVEKHTMLNYLLEMDYHTNNNCIILTGCGMPTLQTR
+                     DFLRFLKQRTGLPVFGLCDPDPEGISILATYARGSCNSAYDNFNISVPSICWVGLSSS
+                     DMIKLNLSETNYSRLSREDKTMLKNLWQDDLSDVWKRRIEEMISFDKKASFEAIHSLG
+                     FDYFATNLLPDMINKVREGYVQVQEKKEPQDTEASED"
+ORIGIN      
+        1 atggatgatt caacggatga cgattcgtat catccaagaa aacactatgc ttatgatcgt
+       61 caggtttctt caagcagatg gcgtaccagc cgcgagtata tcagaggtcc cggccccgaa
+      121 actcatacta ctgagagtgc tcaagatgga caggatccac ctgctggagt atattcctat
+      181 ggttattttt ctggcagtgg taatgatcct caagttcaag gacactttgt tccggagatt
+      241 caaaagtaca acccttacgt gattttcaaa ggtgaacaac tcccggttcc tatatgggaa
+      301 ctgccagagg agaaggtcca agattttcat gataggtact ttattgcaaa agacaagagt
+      361 cgagttgaag ccaggaagac tctgaatagg ttgttagagg ggaacatcaa tacaattgaa
+      421 aggggacatg gatataaatt caatattcca aaatatacag ataacatgga gtttaatgag
+      481 gaagtcaagg tttctctagc aaaagcaggc aagaccataa gccgttcctt ttgcaatgcg
+      541 aatcagcggg aagttgcatc taggactggc tataccattg atctaataga acggacactt
+      601 ggggctggat tgaacatctc gaagagaact gtcttataca caaacaagga tctgtttggg
+      661 gatcaaagta aatcagatca agcgatcaat gacatctgcg ctttgacaaa tatcagaagg
+      721 ggctctttgg gtataatagc agctgaaaaa ggaattgtag ttggaaacat tttcctggaa
+      781 ttgacaaatg gcaaatcgat tagttgttct attggagtgc agataccaca caggcttgac
+      841 cagatcaaag atgtttgtgt tgaaataggt tcacgcaaca tagagtatat tcttgttgtg
+      901 gaaaagcata caatgttgaa ttatctacta gagatggact atcacaccaa taacaactgt
+      961 ataattctga caggatgtgg catgccaacc ctccaaacaa gggatttcct cagattcttg
+     1021 aaacaacgca ctggactacc tgtctttgga ctttgtgatc cagatcctga aggtataagt
+     1081 attcttgcta cgtatgctag agggtcttgc aattcagcat atgacaattt caatatttcc
+     1141 gtgccatcta tttgttgggt tggattgtca tcctcagaca tgataaagtt gaatttgtct
+     1201 gagaccaact actcacgttt gtctcgcgag gacaaaacta tgttgaagaa cctttggcag
+     1261 gacgatttgt ccgatgtatg gaaacgcaga atcgaagaaa tgataagttt tgacaagaag
+     1321 gcctcttttg aagctattca tagtttgggg tttgattatt ttgcaaccaa tttgcttccg
+     1381 gatatgatta acaaagtacg agaaggctat gttcaggttc aagagaaaaa agagcctcaa
+     1441 gacactgaag ccagtgagga ctga
+//
+

@@ -1,0 +1,83 @@
+LOCUS       CAA67000                 553 aa            linear   PLN 18-APR-2005
+DEFINITION  transcription factor GAMyb [Oryza sativa Indica Group].
+ACCESSION   CAA67000
+VERSION     CAA67000.1  GI:1707640
+DBSOURCE    embl accession X98355.1
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Gubler,F., Watts,R.J., Kalla,R. and Jacobsen,J.V.
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 553)
+  AUTHORS   Gubler,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-1996) F. Gubler, Co-operative Research Centre for
+            Plant Science, PO Box 475, Canberra City, ACT, Australia, AUSTRALIA
+FEATURES             Location/Qualifiers
+     source          1..553
+                     /organism="Oryza sativa Indica Group"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /clone="4"
+                     /haplotype="triploid"
+                     /cell_type="aleurone"
+                     /tissue_type="endosperm"
+                     /clone_lib="lambda ZAP II"
+     Protein         1..553
+                     /product="transcription factor GAMyb"
+                     /function="activator of alpha-amylase gene promoter"
+     Region          44..89
+                     /region_name="SANT"
+                     /note="'SWI3, ADA2, N-CoR and TFIIIB' DNA-binding domains.
+                     Tandem copies of the domain bind telomeric DNA tandem
+                     repeatsas part of the capping complex. Binding is sequence
+                     dependent for repeats which contain the G/C rich motif
+                     [C2-3 A (CA)1-6]. The...; cd00167"
+                     /db_xref="CDD:238096"
+     Site            order(45,76..77,79..80,82..84,86..88)
+                     /site_type="DNA binding"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238096"
+     Region          97..138
+                     /region_name="SANT"
+                     /note="'SWI3, ADA2, N-CoR and TFIIIB' DNA-binding domains.
+                     Tandem copies of the domain bind telomeric DNA tandem
+                     repeatsas part of the capping complex. Binding is sequence
+                     dependent for repeats which contain the G/C rich motif
+                     [C2-3 A (CA)1-6]. The...; cd00167"
+                     /db_xref="CDD:238096"
+     Site            order(98,127..128,130..131,133..135,137..138)
+                     /site_type="DNA binding"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238096"
+     CDS             1..553
+                     /gene="Gam1"
+                     /coded_by="X98355.1:396..2057"
+                     /note="Myb-like;
+                     expression is regulated by gibberellin"
+                     /db_xref="GOA:A2WW87"
+                     /db_xref="InterPro:IPR001005"
+                     /db_xref="InterPro:IPR009057"
+                     /db_xref="InterPro:IPR012287"
+                     /db_xref="InterPro:IPR014778"
+                     /db_xref="InterPro:IPR015495"
+                     /db_xref="InterPro:IPR016310"
+                     /db_xref="InterPro:IPR017930"
+                     /db_xref="UniProtKB/Swiss-Prot:A2WW87"
+ORIGIN      
+        1 myrvksesdc emihqeqmds pvaddgssgg sphrgggppl kkgpwtsaed ailvdyvkkh
+       61 gegnwnavqk ntglfrcgks crlrwanhlr pnlkkgafta eeerliiqlh skmgnkwarm
+      121 aahlpgrtdn eiknywntri krcqraglpi yptsvcnqss nedqqcssdf dcgenlsndl
+      181 lnanglylpd ftcdnfians ealpyaphls avsisnllgq sfaskscsfm dqvnqtgmlk
+      241 qsdgvlpgls dtingvissv dqfsndsekl kqavgfdylh eanstskiia pfggalngsh
+      301 aflngnfsas rptsgplkme lpslqdtesd pnswlkytva palqptelvd pylqspaatp
+      361 svksecaspr nsglleelih eaqtlrsgkn qqtsvissss svgtpcnttv lspefdmcqe
+      421 yweeqhpgpf lndcapfsgn sftestppvs aaspdifqls kvspaqstsm gsgeqvmgpk
+      481 yepgdtsphp enfrpdalfs gntadpsvfn naiamllgnd lsidcrpvlg dgimfnsssw
+      541 snmphacems efk
+//
+

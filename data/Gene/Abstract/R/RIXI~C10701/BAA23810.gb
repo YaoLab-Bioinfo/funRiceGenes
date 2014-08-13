@@ -1,0 +1,68 @@
+LOCUS       BAA23810                 304 aa            linear   PLN 19-FEB-2008
+DEFINITION  chitinase [Oryza sativa Japonica Group].
+ACCESSION   BAA23810
+VERSION     BAA23810.1  GI:2696229
+DBSOURCE    accession D55712.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Nagasaki,H., Yamamoto,K., Shomura,A., Koga-ban,Y., Takasuga,A.,
+            Yano,M., Minobe,Y. and Sasaki,T.
+  TITLE     Rice class III chitinase homologues isolated by random cloning of
+            rice cDNAs
+  JOURNAL   DNA Res. 4 (6), 379-385 (1997)
+   PUBMED   9501993
+REFERENCE   2  (residues 1 to 304)
+  AUTHORS   Sasaki,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUN-1995) Contact:Takuji Sasaki National Institute of
+            Agrobiological Resources, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..304
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="C10701"
+                     /tissue_type="callus"
+     Protein         1..304
+                     /product="chitinase"
+                     /EC_number="3.2.1.14"
+     Region          34..302
+                     /region_name="GH18_hevamine_XipI_class_III"
+                     /note="This conserved domain family includes xylanase
+                     inhibitor Xip-I, and the class III plant chitinases such
+                     as hevamine, concanavalin B, and PPL2, all of which have a
+                     glycosyl hydrolase family 18 (GH18) domain. Hevamine is a
+                     class III endochitinase that...; cd02877"
+                     /db_xref="CDD:119356"
+     Region          38..291
+                     /region_name="Glyco_hydro_18"
+                     /note="Glycosyl hydrolases family 18; pfam00704"
+                     /db_xref="CDD:250070"
+     Site            order(39,65,153,155,189,212,214,286)
+                     /site_type="active"
+                     /db_xref="CDD:119356"
+     Site            order(42..43,65,67,77,79..80,106..108,286,290)
+                     /site_type="other"
+                     /note="substrate-binding cleft [chemical binding]"
+                     /db_xref="CDD:119356"
+     Site            155
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:119356"
+     CDS             1..304
+                     /coded_by="D55712.1:82..996"
+ORIGIN      
+        1 mvalgrrswl vplamvlavs sclagpamaa gktgqmtvfw grnknegtlk etcdtglytt
+       61 vvisfysvfg hgrywgdlsg hdlrvigadi khcqsknifv flsiggagkd yslptsksaa
+      121 dvadniwnah mdgrrpgvfr pfgdaavdgi dffidqgapd hyddlarnly aynkmyrart
+      181 pvrltatvrc afpdprmkka ldtklferih vrfyddatcs ynhaglagvm aqwnkwtary
+      241 pgshvylgla aanvpgkndn vfikqlyydl lpnvqkakny ggimlwdrfy dkqtgygktv
+      301 kywa
+//
+

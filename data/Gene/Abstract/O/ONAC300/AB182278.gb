@@ -1,0 +1,74 @@
+LOCUS       AB182278                1435 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for ONAC300, complete cds.
+ACCESSION   AB182278
+VERSION     AB182278.1  GI:60677627
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kusano,H., Asano,T., Shimada,H. and Kadowaki,K.
+  TITLE     Molecular characterization of ONAC300, a novel NAC gene
+            specifically expressed at early stages in various developing
+            tissues of rice
+  JOURNAL   Mol. Genet. Genomics 272 (6), 616-626 (2005)
+   PUBMED   15654622
+REFERENCE   2  (bases 1 to 1435)
+  AUTHORS   Kusano,H., Asano,T., Shimada,H. and Kadowaki,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUN-2004) Contact:Koh-ichi Kadowaki National
+            Institute of Agrobiological Sciences, Genetic Diversity Department;
+            Kannondai 2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1435
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="phloem"
+                     /tissue_lib="phloem cDNA library"
+     gene            1..1435
+                     /gene="ONAC300"
+     CDS             92..1282
+                     /gene="ONAC300"
+                     /codon_start=1
+                     /product="ONAC300"
+                     /protein_id="BAD91001.1"
+                     /db_xref="GI:60677628"
+                     /translation="MVESTTSLVKLEQDGGLFLPPGFRFHPTDAEVILSYLLQKLLNP
+                     SFTSLPIGEVDLNKCEPWDLPSKAKMGEKEWYFFSHKDIKYPTGMRTNRATKEGYWKA
+                     TGKDREIFRQPAAVNTSSYGGSSNKKKQLVGMKKTLVFYMGRAPKGTKTNWVMHEFRL
+                     HANLHNHHPNLRLNPKDEWVVCKVFHKKQGDEAINNQQQQPQYAAVDQYSAETPNSGS
+                     SVVQAGDIDGGDDFFQLDDIIDPSIYFVSNSSNILSAPPNNNNAVYSVSASTTTTNTT
+                     AVSFQQQPNYYSLINKSSSSSSSNYSAPLQQHVSSWNITPGAGGAHGIGSSYYNLQQQ
+                     QAAMVKALENVIAVPNFGTLLPSSNKLKGLSKSAMAGLTQQNPLGVPQYKIENYGDHY
+                     ISRQ"
+ORIGIN      
+        1 ggcacgagcc ttctcctcta gctagagcta gtgcttcctc catcttcagt ctagcttcaa
+       61 ttcaagctag ggagcaagct agctagctag catggtggag tctactacat cccttgtgaa
+      121 attagagcaa gatggaggct tgttcttgcc tccaggcttc aggtttcacc cgacggacgc
+      181 tgaggtaatc ttaagctacc tcctgcagaa gttgctcaac cctagcttca cctccttgcc
+      241 catcggcgag gtcgacctca acaagtgcga gccatgggat cttccaagca aggcgaagat
+      301 gggggaaaaa gaatggtact tcttcagcca caaggacatt aaatacccaa ctggcatgcg
+      361 aaccaaccgg gccaccaagg agggctactg gaaggccacc ggcaaggaca gggagatctt
+      421 caggcagcct gcagctgtta atacaagcag ctatggaggc agcagcaaca agaagaagca
+      481 gctggttggg atgaagaaga cgctggtgtt ctacatgggg agggctccca agggcaccaa
+      541 gaccaactgg gtgatgcacg agttccgtct ccacgccaac ctccacaacc accacccaaa
+      601 ccttcgtctg aatcccaagg acgaatgggt tgtgtgcaag gtcttccaca agaagcaggg
+      661 agacgaagcc atcaacaacc agcagcagca accacagtat gcagccgtgg atcagtactc
+      721 tgccgaaacc cccaacagcg gcagctccgt cgttcaagcc ggcgacatcg acggcggcga
+      781 tgacttcttt cagctagacg acatcattga ccccagcatc tacttcgtca gcaactcttc
+      841 caacatcttg tcggcgccgc ccaacaacaa caacgcggtt tattccgttt ctgcaagtac
+      901 gacgacgact aatactactg ccgttagctt ccagcagcag ccaaactact acagcttgat
+      961 caacaaaagc agcagcagca gcagcagcaa ctatagtgct cctctgcagc agcacgtctc
+     1021 ttcttggaat attacgcctg gagctggagg agcccatgga attggaagca gctactacaa
+     1081 cttgcagcag cagcaggcag caatggtgaa agccctagaa aatgtcattg ctgtcccgaa
+     1141 ttttggtact ctactgccga gcagcaacaa gctgaagggt ttatcgaagt cggcgatggc
+     1201 tgggcttacg cagcagaatc cccttggcgt gccgcagtac aagatagaga attatgggga
+     1261 tcattacata tcacgacagt aatgatcaca tatacatata tattgcatgc tgctgcgttc
+     1321 tgagaatttt tgtgctcggc tactgcatta ctgaattacg tactgaacat ggacatcatc
+     1381 gagatttagg aatatatgtg tgtgcaattt attttaaaaa aaaaaaaaaa aaaaa
+//
+

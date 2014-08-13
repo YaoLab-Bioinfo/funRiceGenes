@@ -1,0 +1,88 @@
+LOCUS       AB189166                1835 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsGDH2 mRNA for glutamate dehydrogenase
+            2, complete cds.
+ACCESSION   AB189166
+VERSION     AB189166.1  GI:81686711
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Abiko,T., Obara,M., Ushioda,A., Hayakawa,T., Hodges,M. and
+            Yamaya,T.
+  TITLE     Localization of NAD-isocitrate dehydrogenase and glutamate
+            dehydrogenase in rice roots: candidates for providing carbon
+            skeletons to NADH-glutamate synthase
+  JOURNAL   Plant Cell Physiol. 46 (10), 1724-1734 (2005)
+   PUBMED   16120687
+REFERENCE   2  (bases 1 to 1835)
+  AUTHORS   Ushioda,A., Hayakawa,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-AUG-2004) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultural Science, Department of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1835
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+                     /tissue_type="roots"
+     gene            1..1835
+                     /gene="OsGDH2"
+     5'UTR           1..247
+                     /gene="OsGDH2"
+     CDS             248..1483
+                     /gene="OsGDH2"
+                     /codon_start=1
+                     /product="glutamate dehydrogenase 2"
+                     /protein_id="BAE48298.1"
+                     /db_xref="GI:81686712"
+                     /translation="MNALAATSRNFRQAARLLGLDSKLEKSLLIPFREIKVECTIPKD
+                     DGTLASFIGFRVQHDNARGPMKGGIRYHPEVDPDEVNALAQLMTWKTAVAAIPYGGAK
+                     GGIGCAPGELSTSELERLTRVFTQKIHDLIGAHTDVPAPDMGTNSQTMAWILDEYSKF
+                     HGHSPAVVTGKPIDLGGSLGRDAATGRGVMYATEALLAEHGKSISGSTFVIQGFGNVG
+                     SWAARIIHEKGGKVIALGDVTGSIRNKNGLDIPALMKHRNEGGALKDFHDAEVMDSSE
+                     LLVHECDVLIPCALGGVLNRENAPDVKAKFIIEAANHPTDPEADEILAKKGVTILPDI
+                     YANSGGVIVSYFEWVQNIQGFMWDEEKVNMELHKYMNNSFQHIKAMCKSHDCNLRMGA
+                     FTLGVNRVARATLLRGWEA"
+     3'UTR           1484..1835
+                     /gene="OsGDH2"
+ORIGIN      
+        1 agccaaacgc agccggccga cctcctcccg tgccttcctc ctcgatcccc ggagagagaa
+       61 aaaaggctcc atcttttttc ctctttccgt ttttgggcgc gaacgcctcg tcccccccgg
+      121 atcgatcttg ctcgcgcgcg gtccgtagtc gcgtgctctg ttcgaaaggc gagtcccttt
+      181 ttttttttct tctccggccg cgggcgctaa ttttcttgga gggcgacgcg ccacctttgg
+      241 cccggccatg aacgcgctcg ccgccaccag ccgtaacttc cggcaggccg ccaggctgct
+      301 cggcctcgac tccaagctcg agaagagcct cctgatcccg ttccgcgaga tcaaggtgga
+      361 atgcaccatc cccaaagacg atggaacctt ggcgtccttc attgggttcc gcgtgcagca
+      421 cgacaatgcc cgcgggccaa tgaaaggtgg cattcgctat caccctgagg ttgatccaga
+      481 tgaagtaaat gcacttgctc aactaatgac atggaagact gctgttgcag caattccata
+      541 tggtggagca aagggtggga ttggatgcgc tcctggtgaa ttaagcacga gtgagctgga
+      601 gcgtttgaca cgtgtattta cacagaaaat tcatgatctt attggagctc atactgacgt
+      661 gccagctcct gacatgggaa ctaattcaca gaccatggct tggattttgg atgagtactc
+      721 gaaattccat ggtcattcac cggcagttgt cactgggaag ccaatagatc ttggtggatc
+      781 attaggtaga gatgctgcta caggaagagg tgtgatgtac gctactgagg ctcttttggc
+      841 tgaacatgga aagtccattt ctggatcaac ctttgttatc cagggttttg gtaatgttgg
+      901 ttcatgggct gcacgaatca tccatgagaa gggtggcaag gtgattgcac ttggagatgt
+      961 gacaggctca atcagaaaca agaatgggtt agacatacct gctctgatga agcacagaaa
+     1021 tgagggtggt gctttgaaag attttcatga tgcggaagtc atggattctt cagagctact
+     1081 agtgcatgaa tgcgatgttc tcatcccatg cgctttaggt ggagtgctca acagggaaaa
+     1141 tgcacctgat gtgaaggcca aatttataat tgaagctgct aatcatccaa ctgatccaga
+     1201 agctgacgag attcttgcca agaagggagt gaccatatta cctgacattt acgccaactc
+     1261 cggtggtgtg atcgttagct attttgagtg ggttcagaac attcaagggt tcatgtggga
+     1321 tgaggagaag gtgaacatgg agctccacaa gtacatgaac aattctttcc agcacatcaa
+     1381 ggccatgtgt aaatctcatg attgcaacct gaggatgggg gcgttcaccc tgggagtcaa
+     1441 ccgggttgca cgtgccaccc tcttgagggg atgggaggca tgaggccatt aacaacactc
+     1501 atatccatgt ccgaaaatgt tggacgacca atgtctgatc tgataaattc atcagaagtg
+     1561 gccggcttgg aaggagctca cttgcaataa tattcaagat agatcggcgt cggcgtcctt
+     1621 ccaccgttcc ggcgaaaaat aataataaaa tatattaagg gtacctaaca aaaatgtgat
+     1681 gtttcttctt tcgtttttac aaaaggccga ttcaatcgtg cgtgattata gtattgacaa
+     1741 aaaatggtgt aagctctaga ggcaatttga atttcacaaa ggttgtattc tgtcattgtc
+     1801 attctgaggt tcaaagtctg cgagatggtt gaccc
+//
+

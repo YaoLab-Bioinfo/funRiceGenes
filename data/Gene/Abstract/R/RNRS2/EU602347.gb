@@ -1,0 +1,76 @@
+LOCUS       EU602347                1516 bp    mRNA    linear   PLN 05-MAY-2009
+DEFINITION  Oryza sativa Japonica Group ribonucleotide diphosphate reductase
+            small subunit 2 (RnrS2) mRNA, complete cds.
+ACCESSION   EU602347
+VERSION     EU602347.1  GI:186920367
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1516)
+  AUTHORS   Yoo,S.C., Cho,S.H., Sugimoto,H., Li,J., Kusumi,K., Koh,H.J., Iba,K.
+            and Paek,N.C.
+  TITLE     Rice Virescent3 and Stripe1 Encoding the Large and Small Subunits
+            of Ribonucleotide Reductase Are Required for Chloroplast Biogenesis
+            during Early Leaf Development
+  JOURNAL   Plant Physiol. 150 (1), 388-401 (2009)
+   PUBMED   19297585
+REFERENCE   2  (bases 1 to 1516)
+  AUTHORS   Yoo,S.-C., Cho,S.-H. and Paek,N.-C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAR-2008) Plant Science, Seoul National University,
+            San 56-1, Sillim-dong, Kwanak-ku, Seoul 151-921, Korea
+FEATURES             Location/Qualifiers
+     source          1..1516
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+                     /clone="J033022H19"
+     gene            1..1516
+                     /gene="RnrS2"
+     CDS             89..1126
+                     /gene="RnrS2"
+                     /codon_start=1
+                     /product="ribonucleotide diphosphate reductase small
+                     subunit 2"
+                     /protein_id="ACC95437.1"
+                     /db_xref="GI:186920368"
+                     /translation="MPAAAAAKTLVPARGGGDMEEPLLAESSDRFSMFPIRYPQIWEF
+                     YKKAVASFWTAEEVDLSADARHWDAALSPDERHFVSHVLAFFAASDGIVLENLASRFM
+                     SDVQVAEARAFYGFQIAIENIHSEMYSLLLETYIRDDVEKDRLFRAIDTVPAVRRKAD
+                     WAMRWIDGGERFAERLVAFACVEGIFFSGSFCAIFWLKKRGLMPGLTFSNELISRDEG
+                     LHCDFACLLYDLLRGKLDESRVQEIVADAVDIEREFVCDALPVALVGMNGELMSQYIE
+                     FVADRLLMALGCKKMYNVANPFDWMELISLQGKTNFFEKRVGDYQKASVMSSLNGGAS
+                     CNHVFSIDEDF"
+ORIGIN      
+        1 gacacaccca ctcgccgagc caactccaat ccccaaacca ccagatcgaa tcgcggttgc
+       61 cgcggcggag gcgaggagga agacgaggat gccggcggcg gcggcggcga agacgctggt
+      121 gccagcccgc ggcggcggcg acatggagga gccgctgctg gcggagtcgt cggatcgctt
+      181 ctcgatgttc ccgatcaggt acccgcagat ctgggagttc tacaagaagg cggtggcgtc
+      241 gttctggacg gcggaggagg tggacctctc cgccgacgcg cgccactggg acgccgcgct
+      301 gtcgcccgac gagcgccact tcgtctccca cgtgctcgcc ttcttcgcgg cctccgatgg
+      361 catcgtgctc gagaacctcg cctccaggtt catgtccgac gtgcaggtcg ccgaggctcg
+      421 cgccttctac ggcttccaga tcgccatcga gaacatccac tcggagatgt actcgcttct
+      481 gctcgagacg tacatccgcg acgacgtcga gaaggaccgc ctcttccgcg ccatcgacac
+      541 cgtccccgcc gtgcgccgca aggccgactg ggccatgcga tggatcgacg gcggcgagcg
+      601 cttcgccgag cggctcgtcg ccttcgcctg cgtcgagggg atcttcttct cgggttcatt
+      661 ctgcgccatc ttctggctca agaagcgcgg actcatgccg ggcctcacct tctccaacga
+      721 gctcatctcc cgcgacgagg gtctccactg cgacttcgcc tgcctcctct acgacctcct
+      781 ccgcggcaag ctcgacgagt cacgcgtcca ggagatcgtc gccgacgccg tggacatcga
+      841 gagggagttc gtctgcgacg cgctccccgt cgcgctcgtc gggatgaacg gcgagctcat
+      901 gagccagtac atcgagttcg tcgccgaccg gctgctcatg gcgctcgggt gcaagaagat
+      961 gtacaacgtc gccaacccgt tcgactggat ggagctcatc tccctgcagg gcaagaccaa
+     1021 cttcttcgag aagcgcgtcg gcgactacca gaaggcgtcc gtaatgtcca gcctcaacgg
+     1081 cggcgcttct tgcaaccatg tcttcagcat cgacgaggac ttctgatcac atcgactgcc
+     1141 atagtagtat taaagtagaa atacatgttc tcccaaagtg ttcgtatggt ttcttgtttt
+     1201 atttgttctg gtttgacatg tactcctgta atgaatcaag taaaaagttt ctcaatacat
+     1261 caactggtca ttgcctgtat gcggtgtgtt cgacgaaatg cttattagaa ctcatgccat
+     1321 tctgggggcg caaccagggc gttcgatgaa atgtctctga gcataagatg ttccaagcga
+     1381 aggagattgt gttggggaaa tggattatgg atcgcttggc tccagccgca cgcgcgtcgc
+     1441 ctgttccgtt tctgttcacc aatccccttc ccttcaatcc ttcccgaaag acgaaacgag
+     1501 cgccgcgccg gcgact
+//
+

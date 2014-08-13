@@ -1,0 +1,58 @@
+LOCUS       AB015287                1020 bp    mRNA    linear   PLN 18-AUG-2007
+DEFINITION  Oryza sativa mRNA for Ran, complete cds.
+ACCESSION   AB015287
+VERSION     AB015287.1  GI:5360229
+KEYWORDS    Ran.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Jiang,C., Matsuki,R. and Yamamoto,N.
+  TITLE     Functional characterization of rice Ran homologues
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1020)
+  AUTHORS   Yamamoto,N., Matsuki,R. and Jiang,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUN-1998) Naoki Yamamoto, National Institute of
+            Agrobiological Resources, Department of Plant Physiology; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+            (E-mail:naoyam@abr.affrc.go.jp, Tel:+81-298-38-7074,
+            Fax:+81-298-38-7073)
+FEATURES             Location/Qualifiers
+     source          1..1020
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     CDS             77..742
+                     /codon_start=1
+                     /product="Ran"
+                     /protein_id="BAA81911.1"
+                     /db_xref="GI:5360230"
+                     /translation="MALPNQGTVDYPSFKLVIVGDGGTGKTTFVKRHLTGEFEKKYEP
+                     TIGVEVHPLDFTTNCGKIRFYCWDTAGQEKFGGLRDGYYIHGQCAIIMFDVTSRLTYK
+                     NVPTWHRDLCRVCENIPIVLCGNKVDVKNRQVKAKQVTFHRKKNLQYYEISAKSNYNF
+                     EKPFLYLARKLAGDPNLHFVEAVALKPPEVPIDLAMQQQHEAELAAAAAQPLPDDDDD
+                     LIE"
+ORIGIN      
+        1 gggttttgtt ggcccccatt cctcccccac cccggtgtcc tcccctccgc cgctcgcgtc
+       61 gccgcctttt tcccctatgg cgctgccgaa tcaggggacc gtggattacc ccagcttcaa
+      121 gctggtcatc gtcggcgatg gcgggactgg taaaactaca tttgtgaaga ggcatctcac
+      181 tggagagttt gaaaagaaat atgagccaac cattggtgtc gaagttcacc ctctagattt
+      241 taccaccaac tgtggtaaga tccgcttcta ctgctgggac actgctggac aagagaagtt
+      301 tggtggactt agggatggat actatatcca tggtcaatgt gcgataatta tgtttgatgt
+      361 cacttcaagg ctgacttaca agaatgttcc aacatggcat agggacttgt gcagggtgtg
+      421 tgaaaacatc cccattgtcc tgtgtggtaa caaggttgat gtgaagaaca ggcaggttaa
+      481 agccaagcag gtcacattcc acaggaagaa gaatctccag tactatgaaa tttctgccaa
+      541 gagcaactac aactttgaga agcccttcct ttatcttgca aggaagcttg ctggtgaccc
+      601 gaacctgcat ttcgttgaag ctgttgctct taaacctccg gaagttccca ttgacctggc
+      661 aatgcagcaa cagcatgagg ctgagcttgc ggctgcagca gcacaacctc tcccagatga
+      721 cgatgacgat ctgatcgagt agagaggatc atgagtctat catgcttcag cctgagtctc
+      781 ttcataagag tctgaattag gccaatgcat gctagtgtta gcttgtctgt ggaatgtgga
+      841 cgtttcctgc gtgcctgatg ggttgaaaac ttttgatgtg tggtgttaca tgttgctgcc
+      901 atgaatttgt tggctctttt ttaacactgc tgtgttactt ctatggttat gcttaaacta
+      961 tttgtatcat cgagctggta tttatttatt tatccggtgt tgcacaaaaa aaaaaaaaaa
+//
+

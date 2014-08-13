@@ -1,0 +1,58 @@
+LOCUS       FJ809894                 663 bp    mRNA    linear   PLN 08-JUL-2009
+DEFINITION  Oryza sativa Indica Group cultivar Nona Bokra halotolerance protein
+            HAL3 mRNA, complete cds.
+ACCESSION   FJ809894
+VERSION     FJ809894.1  GI:226510851
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 663)
+  AUTHORS   Sun,S.Y., Chao,D.Y., Li,X.M., Shi,M., Gao,J.P., Zhu,M.Z.,
+            Yang,H.Q., Luan,S. and Lin,H.X.
+  TITLE     OsHAL3 mediates a new pathway in the light-regulated growth of rice
+  JOURNAL   Nat. Cell Biol. 11 (7), 845-851 (2009)
+   PUBMED   19543273
+REFERENCE   2  (bases 1 to 663)
+  AUTHORS   Sun,S.-Y., Chao,D.-Y., Li,X.-M., Shi,M., Gao,J.-P., Zhu,M.-Z.,
+            Yang,H.-Q. and Lin,H.-X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAR-2009) National Key Laboratory of Plant Molecular,
+            Shanghai Institute of Plant Physiology and Ecology, Shanghai
+            Institutes for Biological Sciences, Chinese Academy of Sciences,
+            300 Fenglin Road, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..663
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nona Bokra"
+                     /db_xref="taxon:39946"
+                     /chromosome="6"
+     CDS             1..663
+                     /note="FMN-binding protein; OsHAL3"
+                     /codon_start=1
+                     /product="halotolerance protein HAL3"
+                     /protein_id="ACO59959.1"
+                     /db_xref="GI:226510852"
+                     /translation="MTTSESVQETLGLDFPHPSKPRVLLAASGSVAAIKFESLCRSFS
+                     EWAEVRAVATKASLHFIDRTSLPSDIILYTDDDEWSTWKKIGDEVLHIELRKWADIMV
+                     IAPLSANTLAKIAGGLCDNLLTCIVRAWDYSKPLFVAPAMNTFMWNNPFTSRHLETIN
+                     LLGISLVPPITKRLACGDYGNGAMAEPSVIDSTVRLACKRQPLNTNSSHVIPAGRNLP
+                     SS"
+ORIGIN      
+        1 atgactacat cagagtcagt acaagaaacc ttgggattgg atttccctca tcctagcaaa
+       61 cctcgggtcc tccttgctgc ctctggaagc gtcgctgcta taaaatttga gagcctttgc
+      121 cgtagcttct cggaatgggc agaagtcaga gccgtcgcca ccaaggcttc attacatttt
+      181 attgatagaa catctttgcc tagcgatatt attctttaca ctgatgatga tgaatggtct
+      241 acctggaaga agataggaga tgaagttttg cacattgaat tgcgaaaatg ggcagatatc
+      301 atggtgattg cgccattatc agctaatacc ctggctaaga ttgctggtgg tttatgtgac
+      361 aacctcttga catgcatagt gagagcatgg gactacagca aaccactctt tgttgcccca
+      421 gctatgaaca ccttcatgtg gaacaacccg ttcaccagtc gtcatctcga gacaatcaac
+      481 ctgttaggta tatctttggt ccctcccatt accaaaaggc tggcctgtgg tgattatggt
+      541 aatggtgcaa tggctgagcc ttctgtgatc gattccaccg tcaggcttgc ttgcaagaga
+      601 cagccactta atacaaatag ttcacatgtg attcctgccg gcagaaacct cccatctagc
+      661 tga
+//
+

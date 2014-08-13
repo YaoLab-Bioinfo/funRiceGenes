@@ -1,0 +1,64 @@
+LOCUS       AY151044                1287 bp    mRNA    linear   PLN 10-NOV-2002
+DEFINITION  Oryza sativa (japonica cultivar-group) transcription factor MYBS3
+            mRNA, complete cds.
+ACCESSION   AY151044
+VERSION     AY151044.1  GI:24850306
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1287)
+  AUTHORS   Lu,C.A., Ho,T.H., Ho,S.L. and Yu,S.M.
+  TITLE     Three novel MYB proteins with one DNA binding repeat mediate sugar
+            and hormone regulation of alpha-amylase gene expression
+  JOURNAL   Plant Cell 14 (8), 1963-1980 (2002)
+   PUBMED   12172034
+REFERENCE   2  (bases 1 to 1287)
+  AUTHORS   Lu,C.A., Ho,T.H., Ho,S.L. and Yu,S.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-SEP-2002) Institute of Molecular Biology, Academis
+            Sinica, Taipei, Nankang 115, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..1287
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             67..1023
+                     /note="OsMYBS3"
+                     /codon_start=1
+                     /product="transcription factor MYBS3"
+                     /protein_id="AAN63154.1"
+                     /db_xref="GI:24850307"
+                     /translation="MTRRCSHCSHNGHNSRTCPNRGVKIFGVRLTDGSIRKSASMGNL
+                     SLLSSAAGSTSGGASPADGPDAAPTAADGYASDDFVQGFSSATRDRKKGVPWTEEEHR
+                     RFLLGLQKLGKGDWRGISRNFVVSRTPTQVASHAQKYFIRQSNMTRRKRRSSLFDMVP
+                     DESMDLPPLPGGQEPETQVLNQPALPPPKEEEEVDSMESDTSAVAESSSASAIMPDNL
+                     QSTYPVIVPAYFSPFLQFSVPFWQNQKDEDGPVQETHEIVKPVPVHSKSPINVDELVG
+                     MSKLSIGESNQETESTSLSLNLVGGQNRQSAFHANPPTRAQA"
+ORIGIN      
+        1 atcgatcgat cgatctccat aggtggggga agggaagctt tggaaggtgg agggacggag
+       61 ggggggatga cgaggcggtg ctcgcactgc agccacaacg ggcacaactc gcggacgtgc
+      121 cccaaccgcg gggtcaagat cttcggggtg cgcctcaccg atggctccat ccgcaagagc
+      181 gccagcatgg ggaacctctc cctcctctcc tccgccgccg gatccaccag cggcggcgcc
+      241 tcccccgccg acggccccga cgccgccccc accgccgccg acggctacgc ctccgacgac
+      301 ttcgtccagg gcttctcctc cgccacccgc gaccgcaaga agggtgttcc ttggactgaa
+      361 gaagaacacc ggaggttttt gcttggattg caaaagcttg gcaaaggtga ttggcgagga
+      421 atctctcgta atttcgtggt ctcaagaaca cctactcaag tagccagtca tgctcagaaa
+      481 tattttatac gccaatccaa tatgaccaga aggaaaagaa ggtctagcct ttttgacatg
+      541 gtgccagatg agtctatgga ccttccacca cttcctggag gtcaagaacc agagacccaa
+      601 gtattaaatc aaccagcact acctccaccg aaggaggaag aggaggtaga ttctatggag
+      661 tcagatactt ctgccgttgc agagagctct tccgcttctg ctatcatgcc agataatttg
+      721 cagtcgacct atccagtgat tgttccagct tatttctcgc cctttttgca attctcggtt
+      781 cctttctggc aaaatcagaa agatgaagat ggtcctgtgc aagaaacaca tgagattgtc
+      841 aagcctgttc cagttcattc aaagagccca atcaacgttg atgagcttgt tggcatgtcg
+      901 aagctcagca taggagagtc caatcaagag acagagtcta cttctctttc attaaatctg
+      961 gtaggaggtc aaaatagaca atcagctttc catgcaaatc caccaacaag ggcacaggca
+     1021 tgatctggtt gtgcacacaa ctgcatttag atgaatccca ggcaaaataa gctttgcctc
+     1081 cttgtttttt tgtttttatt ttaagattaa ccgttctccg tagtctgtat catgtgctgt
+     1141 aagttatgct atgtatgaat gtatctgttg tttgtctggc acacatgata aatcactcta
+     1201 tgttaacaaa atcagtaatg gtagtgctga tcttcgtggt tgtactgttg taaactcttt
+     1261 tataagaaaa aaaaatatta gttagtc
+//
+

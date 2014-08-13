@@ -1,0 +1,68 @@
+LOCUS       AB020973                1000 bp    mRNA    linear   PLN 08-MAR-2008
+DEFINITION  Oryza sativa mRNA for heat shock protein 26, complete cds.
+ACCESSION   AB020973
+VERSION     AB020973.1  GI:4996283
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Lee,B.H., Won,S.H., Lee,H.S., Miyao,M., Chung,W.I., Kim,I.J. and
+            Jo,J.
+  TITLE     Expression of the chloroplast-localized small heat shock protein by
+            oxidative stress in rice
+  JOURNAL   Gene 245 (2), 283-290 (2000)
+   PUBMED   10717479
+REFERENCE   2  (bases 1 to 1000)
+  AUTHORS   Lee,B.-H. and Jo,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-1998) Contact:Byung-Hyun Lee Kyungpook National
+            University, Department of Animal Resource Science; Sankyukdong,
+            Taegu 702-701, Korea
+FEATURES             Location/Qualifiers
+     source          1..1000
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone="OsHSP26-5"
+                     /tissue_type="green leaf"
+                     /clone_lib="lambda ZAP II"
+     gene            1..1000
+                     /gene="Oshsp26"
+     CDS             107..826
+                     /gene="Oshsp26"
+                     /note="chloroplast-localized small heat shock protein"
+                     /codon_start=1
+                     /product="heat shock protein 26"
+                     /protein_id="BAA78385.1"
+                     /db_xref="GI:4996284"
+                     /translation="MAAPFALVSRVSPAARLPIRAAWRSEPTVGLPSSGRARQLAVAS
+                     AAQENRDNTAVDVHVNQDGGNQQGNAVQRRPRRSSAFGRHLPFGLVDPMSPMRTMRQM
+                     LDTMDRMFDDVALGFPATPRRSLATGEVRMPWDVMEDDKEVRMRFDMPGLSREEVKVM
+                     VEDDALVIRGEHKKEEGEGAEGSGDGWWKERSVSSYDMRLALPDECDKSKVRAELKNG
+                     VLLVTVPKTEVERKVIDVQVQ"
+     polyA_site      1000
+                     /gene="Oshsp26"
+                     /note="26 a nucleotides"
+ORIGIN      
+        1 aagcaatcaa gcgacgataa ttagagcact cgcgacctct ccgacgatct ccagctcact
+       61 gcttttaggt tctcaaactc tgatttcctc tctactctgt agtgcaatgg ctgctccatt
+      121 cgctctcgtc agccgtgtct cgccagcggc gcggctcccc atccgcgccg cctggaggag
+      181 cgagccgacg gtcgggctcc cgtcctcggg gagggcccgc cagctcgccg tggcctccgc
+      241 ggcgcaggag aacagggaca acaccgccgt cgatgtccac gtcaaccagg acggcgggaa
+      301 ccagcagggg aacgccgtgc agcgccgccc gcgccgctcg tcggcgtttg gacggcatct
+      361 cccgttcggc ctcgtggacc cgatgtcgcc gatgcggacg atgcggcaga tgctggacac
+      421 gatggaccgg atgttcgacg acgtcgcgct ggggttcccc gccacgccgc ggaggtcgct
+      481 ggcgacgggg gaggtgcgga tgccgtggga cgtcatggag gacgacaagg aggtgaggat
+      541 gcggttcgac atgccgggcc tgtcgcggga ggaggtgaag gtgatggtgg aggacgacgc
+      601 gctcgtcatc cgcggggagc acaagaagga ggagggcgag ggcgcggagg gctccggcga
+      661 cgggtggtgg aaggagcgca gcgtgagctc ctacgacatg cggctcgcgc tccccgacga
+      721 gtgcgacaag agcaaggtcc gcgccgagct caagaacggc gtgctgctcg tcaccgtgcc
+      781 caagacggag gtggagcgca aggtcatcga cgtgcaggtc cagtagacga atggctgcta
+      841 ctactactga acggtcactc tggaggatgt gagcctgtga ccgtgagggt ttaagcagtg
+      901 tgaggtttga aaaagtcgtg tactagaggt tgtaattact cagcgaacga gcgaatgaat
+      961 ggaataatgc tagtatgaga taaaaggttt ggttgctctc
+//
+

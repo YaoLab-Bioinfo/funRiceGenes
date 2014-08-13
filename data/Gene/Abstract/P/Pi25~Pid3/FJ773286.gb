@@ -1,0 +1,116 @@
+LOCUS       FJ773286                3224 bp    DNA     linear   PLN 11-SEP-2009
+DEFINITION  Oryza sativa Japonica Group cultivar Nipponbare resistance protein
+            Pid3 gene, complete cds.
+ACCESSION   FJ773286
+VERSION     FJ773286.1  GI:225030801
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 3224)
+  AUTHORS   Shang,J., Tao,Y., Chen,X., Zou,Y., Lei,C., Wang,J., Li,X., Zhao,X.,
+            Zhang,M., Lu,Z., Xu,J., Cheng,Z., Wan,J. and Zhu,L.
+  TITLE     Identification of a new rice blast resistance gene, Pid3, by
+            genomewide comparison of paired nucleotide-binding
+            site--leucine-rich repeat genes and their pseudogene alleles
+            between the two sequenced rice genomes
+  JOURNAL   Genetics 182 (4), 1303-1311 (2009)
+   PUBMED   19506306
+REFERENCE   2  (bases 1 to 3224)
+  AUTHORS   Shang,J., Tao,Y., Chen,X., Zou,Y., Lei,C., Wang,J., Li,X., Zhao,X.,
+            Zhang,M., Lu,Z., Xu,J., Cheng,Z., Wan,J. and Zhu,L.
+  TITLE     Identification of a blast resistance gene, Pid3, by genome-wide
+            comparison of paired NBS-LRR genes and pseudogenes between indica
+            and japonica rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 3224)
+  AUTHORS   Shang,J., Tao,Y., Chen,X., Zou,Y., Lei,C., Wang,J., Li,X., Zhao,X.,
+            Zhang,M., Lu,Z., Xu,J., Cheng,Z., Wan,J. and Zhu,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-FEB-2009) Institute of Genetics and Developmental
+            Biology, Chinese Academy of Sciences, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..3224
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     mRNA            <15..>2225
+                     /product="resistance protein Pid3"
+     CDS             15..2225
+                     /codon_start=1
+                     /product="resistance protein Pid3"
+                     /protein_id="ACN79514.1"
+                     /db_xref="GI:225030802"
+                     /translation="MAEGVVGSLIVKLGDALASEAVEVAKSLLGLEGSALKRLFSEIR
+                     EVKGELESIHAFLQAAERFKDADETTSAFVKQVRSLALSIEDVVDEFTYELGEGDGRM
+                     GMAVALKRMCKMGTWSRLAGNLQDIKVNLKNAAERRIRYDLKGVERGAKSMAGRRSSN
+                     WRSDSVLFKREDELVGIEKKRDLLMKWVKDEEQRRMVVSVWGMSGIGKTALVANVYNA
+                     IKADFDTCAWITVSQSYEADDLLRRTAQEFRKNDRKKDFPIDVDITNYRGLVETTRSY
+                     LENKRYVLVLDDVWNANVWFDSKDAFEDGNIGRIILTSRNYDVALLAHETHIINLQPL
+                     EKHHAWDLFCKEAFWKNEIRNCPPELQPWANNFVDKCNGLPIAIVCIGRLLSFQGSTY
+                     SDWEKVYKNLEMQLTNNSIMDMMNIILKISLEDLPHNIKNCFLYCSMFPENYVMKRKS
+                     LVRLWVAEGFIEETEHRTLEEVAEHYLTELVNRCLLLLVKRNEAGHVHEVQMHDILRV
+                     LALSKAHEQNFCIVVNHSRSTHLIGEARRLSIQRGDFAQLADHAPHLRSLLLFQSSPN
+                     VSSLQSLPKSMKLLSVLDLTDSSVDRLPKEVFGLFNLRFLGLRRTKISKLPSSIGRLK
+                     ILLVLDAWKCKIVKLPLAITKLQKLTHLIVTSKAVVVSKQFVPSFDVPAPLRICSMTT
+                     LQTLLLMEASSQMVHHLGSLVELRTFRISKVRSCHCEQLFMAITNMIHLTRLGI"
+ORIGIN      
+        1 gaagctagca agctatggcg gagggtgttg tgggctcact aatcgtcaag cttggggatg
+       61 ccctggcgag tgaagcagtg gaggtcgcca agtccttgct tgggctagag ggatctgctc
+      121 tgaagcgcct cttttctgag atccgggagg tgaaggggga gctggagagc atccatgcct
+      181 tcttgcaggc agccgagcgg ttcaaggacg ccgacgagac aacctccgcg ttcgtcaagc
+      241 aggtgaggag cctcgccctg agcatcgagg acgtagtcga tgagttcacc tacgagctgg
+      301 gggaaggaga cggccggatg gggatggcag tggcactcaa gaggatgtgc aagatgggca
+      361 catggtctcg cctggctggc aatctgcagg acatcaaggt caacctgaaa aacgctgccg
+      421 agaggaggat taggtatgat ctgaagggcg tcgagagagg cgcgaaatcg atggcgggaa
+      481 ggaggagctc aaactggaga tctgactctg tactcttcaa gagggaggat gagcttgttg
+      541 gtatcgagaa gaagagggat ttgctgatga aatgggtgaa agatgaggag cagcgccgca
+      601 tggtggtcag tgtgtgggga atgagtggaa tcggcaagac ggcactggtt gctaatgttt
+      661 acaatgctat caaggctgac tttgacacct gtgcttggat cactgtgtct cagagctacg
+      721 aggctgacga tttgcttagg cgaactgctc aagagtttcg caagaatgat cggaagaaag
+      781 acttcccaat tgacgttgat atcacaaatt acagaggctt ggtcgaaacc acccgctctt
+      841 acctggagaa caaaaggtat gtccttgtcc tagatgatgt atggaatgca aatgtttggt
+      901 tcgatagcaa agatgcattt gaagatggca atattggccg aataattctt acatcaagga
+      961 attatgatgt ggcgttactt gcgcatgaaa cccatataat taatttgcag ccgttggaga
+     1021 aacaccatgc gtgggatctg ttctgtaaag aggcattttg gaagaatgag ataaggaatt
+     1081 gtccgccgga gttgcagccc tgggctaata attttgttga caagtgcaat ggcttgccaa
+     1141 tcgcaattgt gtgcattgga cgccttctgt catttcaagg gtcaacttat tcagactggg
+     1201 aaaaggtgta caaaaatctt gagatgcaac taacaaacaa ctctatcatg gacatgatga
+     1261 acattatctt gaagattagt ttggaagatc taccgcacaa cattaagaac tgcttccttt
+     1321 attgctccat gtttcctgaa aattatgtga tgaagaggaa gtccctagta cgactctggg
+     1381 ttgctgaagg atttattgaa gaaactgagc atagaacact tgaggaagtg gcagagcatt
+     1441 acttgactga acttgtgaac cgatgtcttc tgttgctggt gaagagaaat gaggctggac
+     1501 atgttcatga agtccaaatg cacgatatcc tccgtgtttt ggctctttcc aaggctcatg
+     1561 aacaaaattt ttgcattgtc gttaaccact cgaggagtac acatcttatt ggagaagcac
+     1621 gccgtttatc aattcagaga ggggattttg cacaacttgc agaccatgca ccacatcttc
+     1681 gatccttgct gcttttccaa agttcaccca atgtcagttc gcttcagtca ttaccaaagt
+     1741 ctatgaagtt gttgtctgtt ttggatctaa ctgatagttc agttgatagg ctgccaaagg
+     1801 aagtgtttgg cttgttcaac ttgcgttttc tgggtctcag gcgtactaaa atctccaagc
+     1861 ttccaagctc cattggaagg ctaaaaattc tgctggtgtt ggacgcttgg aagtgtaaaa
+     1921 ttgtaaagct tccattggcg attacaaaac ttcaaaagct aacacatctt attgtaactt
+     1981 cgaaagcagt cgttgtttct aagcaatttg ttccttcttt tgatgtgcca gcacctttgc
+     2041 gtatctgctc catgacaacc cttcagacat tactactcat ggaagctagt tctcaaatgg
+     2101 ttcatcacct aggctctctt gtggagttaa gaacctttcg tatcagcaag gtgcgaagtt
+     2161 gccattgtga gcagttgttc atggccatca ctaatatgat tcatcttacc cgtcttggga
+     2221 tctaggcaga cagtagtcaa gaagtgctgc atcttgaatc acttaaacct cctcctctac
+     2281 ttcagaaact tttcttgcaa ggtacattat ctcatgaatc attacctcat ttcgtgtctg
+     2341 taagcaatct gaataacctc acgtttctac gtcttgctgg gtcaagaatt gacgaaaatg
+     2401 cattccttaa tcttgaggga ttacagcagt tggtaaagct acagctttat gatgcatatg
+     2461 atggaatgaa tatatacttc catgagaact catttccaaa gctcagaata ctgaaaatat
+     2521 ggggtgcccc acacctgaat gaaattaaga tgacaaaagg agctgtggca agcctaacag
+     2581 atctgaagtt cctgctctgt ccaaacctga agcagttgcc ttgcggtatt gaacatgtga
+     2641 ggactcttga ggagctcact ctggatcata cagcagaaga gcttgtggat agaatccgac
+     2701 agaaaaaaga gcgaatgatt tgtgacgtcc agagagttta tgttgggttc atcagaaatg
+     2761 gtgtgttggc tgcagaaagg attcaataag ttggtttcag tcaggatatt cattctttat
+     2821 cctgcatcat atagtcaatg ttcaatttta ctttcaatac tattttccca ttatgtctta
+     2881 ttcatatttt tttcgataat agaatcttaa ttaagcgtct acatccggga tgaatcatga
+     2941 tcaccatctg aaattgactt tcaattttta tttgttccat accctcaata ttgtatattc
+     3001 aaatatatat atctttttgg caaaatttgc cacagtacat ccaaaaattc gtgtaattat
+     3061 tagctgggag ataaaaaaaa acgctacact gccgatgtac accataaaat ttatgtaatt
+     3121 ggctgtagga cttccaaggc aatatttttt atcattttca aaaggacata aatgcccttg
+     3181 gcttcgatag catgtaagaa tgtaacccca accagaccca atca
+//
+

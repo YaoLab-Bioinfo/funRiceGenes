@@ -1,0 +1,56 @@
+LOCUS       AB354585                 778 bp    DNA     linear   PLN 17-JUL-2009
+DEFINITION  Oryza sativa Japonica Group FCP2 gene for FON2-like CLE protein 2,
+            complete cds.
+ACCESSION   AB354585
+VERSION     AB354585.1  GI:196259762
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Suzaki,T., Yoshida,A. and Hirano,H.Y.
+  TITLE     Functional diversification of CLAVATA3-related CLE proteins in
+            meristem maintenance in rice
+  JOURNAL   Plant Cell 20 (8), 2049-2058 (2008)
+   PUBMED   18676878
+REFERENCE   2  (bases 1 to 778)
+  AUTHORS   Suzaki,T. and Hirano,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-AUG-2007) Contact:Takuya Suzaki Department for Stem
+            Cell Biology, Institute of Zoology, Ruprecht-Karls-University
+            Heidelberg; Im Neuenheimer Feld 230, Heidelberg 69120, Germany
+FEATURES             Location/Qualifiers
+     source          1..778
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            198..572
+                     /gene="FCP2"
+     CDS             198..572
+                     /gene="FCP2"
+                     /codon_start=1
+                     /product="FON2-like CLE protein 2"
+                     /protein_id="BAG68681.1"
+                     /db_xref="GI:196259763"
+                     /translation="MAAAAASSSAMAAKAAVVMALFLACTLDRAWTPTGAARTMTMMM
+                     VQRGEVSAVVAVNGGGGGGGERGNNGGAQPEQRKEFVGMAAFTRSLAVAPPPPPSVHG
+                     DREVPSGPDPIHHGASPSSASP"
+ORIGIN      
+        1 tggtattgtc gttagcattg ctgtcgagct cgagcaaggt agttggccgg cctcttcagg
+       61 gttatccact ggtgtatata aggccgtgca gtcgcatgcc tttgaccacc atccatagcg
+      121 aaccagctta gctagctagc acgacagtac aaatatatat actactacat ctgaagaaat
+      181 tgttggtgtg ttagttcatg gctgctgctg ctgcttcttc ttcagcaatg gcggcgaagg
+      241 cggcggtggt catggcgctg ttcctggcct gcactctcga ccgggcatgg acgccgaccg
+      301 gagcggcgag gacgatgacg atgatgatgg tgcagagagg cgaggtttct gcggtggtgg
+      361 ctgtcaatgg cggcggcggt ggcggtggtg aacgagggaa taatggtggt gcgcagccgg
+      421 agcagaggaa ggagttcgtc gggatggcgg cgttcacgcg gagcctcgcc gtggcgccgc
+      481 cgccgccgcc gagcgtccat ggcgacaggg aggtgccgag cgggcccgac ccgatacacc
+      541 acggcgcctc gccgtcgtcg gcttcaccgt agagacatat gcgtgcatgc aatattaata
+      601 tagagagtga gactagtggt gcatggtgag tgtagacgta cgtgtcaagg gaaaagtcca
+      661 ttttactagg aaaactatat attttgttgg agtattgact ttctaaactg tttttttatc
+      721 aatctacttt tcaaattact taaaaattca ccctctttag tttacaaaca ttattttt
+//
+

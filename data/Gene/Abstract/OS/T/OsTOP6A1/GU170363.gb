@@ -1,0 +1,70 @@
+LOCUS       GU170363                1146 bp    mRNA    linear   PLN 21-JUN-2011
+DEFINITION  Oryza sativa Japonica Group topoisomerase 6 subunit A-like protein
+            (SPO11-1) mRNA, complete cds.
+ACCESSION   GU170363
+VERSION     GU170363.1  GI:269859218
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1146)
+  AUTHORS   An,X.J., Deng,Z.Y. and Wang,T.
+  TITLE     OsSpo11-4, a Rice Homologue of the Archaeal TopVIA Protein,
+            Mediates Double-Strand DNA Cleavage and Interacts with OsTopVIB
+  JOURNAL   PLoS ONE 6 (5), E20327 (2011)
+   PUBMED   21637817
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1146)
+  AUTHORS   Wang,T., An,X.J. and Ding,Z.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-NOV-2009) Key Laboratory of Photosynthesis and
+            Environmental Molecular Physiology, Institute of Botany, Chinese
+            Academy of Sciences, 20 Nanxincun, Xiangshan, Haidianqu, Beijing
+            100093, China
+FEATURES             Location/Qualifiers
+     source          1..1146
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     gene            1..1146
+                     /gene="SPO11-1"
+                     /note="OsSPO11-1"
+     CDS             1..1146
+                     /gene="SPO11-1"
+                     /codon_start=1
+                     /product="topoisomerase 6 subunit A-like protein"
+                     /protein_id="ACZ52153.1"
+                     /db_xref="GI:269859219"
+                     /translation="MAGREKRRRVAALDGEERRRRQEEAATLLHRIRGLVRWVVAEVA
+                     AGRSPTVALHRYQNYCSSASAAAASPCACSYDVPVGTDVLSLLHRGSHASRLNVLLRV
+                     LLVVQQLLQQNKHCSKRDIYYMYPSIFQEQAVVDRAINDICVLFKCSRHNLNVVPVAK
+                     GLVMGWIRFLEGEKEVYCVTNVNAAFSIPVSIEAIKDVVSVADYILIVEKETVFQRLA
+                     NDKFCERNRCIVITGRGYPDIPTRRFLRYLVEQLHLPVYCLVDADPYGFDILATYKFG
+                     SLQLAYDANFLRVPDIRWLGVFTSDFEDYRLPDCCLLHLSSEDRRKAEGILSRCYLHR
+                     EAPQWRLELEAMLQKGVKFEIEALSACSISFLSEEYIPKKIKQGRHI"
+ORIGIN      
+        1 atggcgggga gggagaagag gcggcgggtg gcggcgctcg acggcgaaga gcggcggcgg
+       61 cggcaggagg aagcggcgac cctcctccac aggatcagag ggttggtgcg ctgggtcgtc
+      121 gccgaggtcg ccgccggccg ctccccgacc gtcgcgctcc accgctacca gaactactgc
+      181 tcctccgcct ccgccgccgc cgcgtcccca tgcgcctgca gctacgacgt ccccgtgggc
+      241 acagatgtac tctcgctcct ccaccggggc tcccacgcct cccggctcaa tgtgctcctc
+      301 agggttcttc tcgtcgtgca gcaactcctg cagcagaaca agcactgctc caagagggac
+      361 atctactaca tgtacccctc catattccaa gaacaagcgg ttgttgaccg tgcaatcaat
+      421 gatatatgcg tactcttcaa gtgcagccgg cacaatctca atgtggttcc tgtggcaaaa
+      481 ggcttggtga tgggctggat tagattttta gagggagaaa aggaagtcta ttgtgtaacg
+      541 aatgtcaatg ctgccttctc tatcccagtt agcatcgaag caataaaaga tgttgttagt
+      601 gttgcggact acatacttat tgtcgagaag gagacagtgt ttcaacgttt ggctaatgac
+      661 aagttctgtg aaaggaatcg ctgcattgtg attacaggaa gaggctaccc agatattcca
+      721 acaagaagat tcttgcgcta ccttgttgaa cagctgcatt tgccagttta ctgtttggtg
+      781 gatgcagacc cttatggttt cgacattctg gctacctaca aatttggttc actgcaattg
+      841 gcatacgatg caaatttcct gcgtgtgcct gatattcggt ggcttggggt cttcacatct
+      901 gattttgagg attatcgcct tccagactgc tgcctacttc acttgtcgtc tgaagacaga
+      961 aggaaagctg aaggaattct ctcaaggtgt tacttgcaca gggaagcccc acaatggagg
+     1021 ttggagttag aagccatgtt gcaaaagggt gtcaaatttg agattgaggc gttatctgca
+     1081 tgttccattt cctttttatc agaagagtac attcccaaga agatcaaaca aggaagacat
+     1141 atataa
+//
+

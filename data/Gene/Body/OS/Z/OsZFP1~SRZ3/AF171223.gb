@@ -1,0 +1,54 @@
+LOCUS       AF171223                 834 bp    mRNA    linear   PLN 11-FEB-2002
+DEFINITION  Oryza sativa putative zinc finger protein mRNA, complete cds.
+ACCESSION   AF171223
+VERSION     AF171223.1  GI:5679335
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 834)
+  AUTHORS   Li,Z.Y. and Chen,S.Y.
+  TITLE     Isolation, characterization and chromosomal location of a novel
+            zinc-finger protein gene that is down-regulated by salt stress
+  JOURNAL   Theor. Appl. Genet. 102, 363-368 (2001)
+REFERENCE   2  (bases 1 to 834)
+  AUTHORS   Li,Z.Y. and Chen,S.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUL-1999) Laboratory of Plant Biotechnology,
+            Institute of Genetics, Chinese Academy of Sciences, Datun Road,
+            Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..834
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhaiyeqing 8"
+                     /db_xref="taxon:39946"
+                     /chromosome="6"
+                     /note="near waxy locus"
+     CDS             64..501
+                     /codon_start=1
+                     /product="putative zinc finger protein"
+                     /protein_id="AAD46926.1"
+                     /db_xref="GI:5679336"
+                     /translation="MNIQRKPGDWNCKSCQHLNFSRRDYCQRCHTPRQDLPLGDGYVP
+                     GGVLSSLDIRPGDWYCNCGYHNFASRASCFKCGAIVKDLPAGQGGGVANGDFARALDS
+                     SAVRAGWKAGDWICTRPGCNVHNFASRIECYRCNAPREAGNVK"
+ORIGIN      
+        1 cctagtacta agaacagcaa ccacctctga aagctttaca agttcgcagg ggcttaactg
+       61 cgaatgaaca tccagaggaa gccaggagac tggaactgca aatcgtgcca gcatctcaac
+      121 ttcagccgcc gggactactg ccagcgctgc cataccccac gccaggacct gccgcttggc
+      181 gatggttatg tcccaggtgg tgtgctgtcc tccctggaca ttcgcccggg cgactggtac
+      241 tgcaactgcg gctatcacaa ctttgctagc cgagcaagct gcttcaaatg tggcgccatt
+      301 gtgaaggacc ttccagcagg ccaaggtggt ggtgttgcca acggtgactt tgcccgtgcc
+      361 ctcgacagca gcgcagttcg tgctgggtgg aaggcgggtg actggatttg cacaaggcct
+      421 ggttgcaacg tccacaactt tgcaagtagg attgagtgct ataggtgcaa tgcacctagg
+      481 gaagcaggta atgtgaagta agaaaagact gacgcgacca aagatcgtga gacgtgacga
+      541 gctggccgag gatgaataaa gtgactgctg tcagttgtca cattcacagg ctgcgatcca
+      601 gaaactatgg atgggactat gtagtaacgt gctgatatat tattgctaag tgttactact
+      661 gcatggttgc aagggtggta gaagtacctt agcttccaag atcgttgtaa tgtgtgagtt
+      721 taattttggc gttttaagta ataagtctag tgattgcagg attgtacggg gtaatgtact
+      781 tgcattatcc attataatct taagcatcca atataattat gcaaaaaaaa aaaa
+//
+

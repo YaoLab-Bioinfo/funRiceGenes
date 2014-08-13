@@ -1,0 +1,69 @@
+LOCUS       AF261273                1158 bp    mRNA    linear   PLN 30-APR-2004
+DEFINITION  Oryza sativa beta-expansin (EXPB5) mRNA, complete cds.
+ACCESSION   AF261273
+VERSION     AF261273.1  GI:8118427
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1158)
+  AUTHORS   Cosgrove,D.J., Bedinger,P. and Durachko,D.M.
+  TITLE     Group I allergens of grass pollen as cell wall-loosening agents
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 94 (12), 6559-6564 (1997)
+   PUBMED   9177257
+REFERENCE   2  (bases 1 to 1158)
+  AUTHORS   Cosgrove,D.J.
+  TITLE     Characterization of beta-expansin in rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1158)
+  AUTHORS   Cosgrove,D.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-APR-2000) Biology, Pennsylvania State University, 208
+            Mueller Lab, University Park, PA 16802, USA
+FEATURES             Location/Qualifiers
+     source          1..1158
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1158
+                     /gene="EXPB5"
+     CDS             40..867
+                     /gene="EXPB5"
+                     /function="putative cell wall loosening activity"
+                     /note="OsEXPB5"
+                     /codon_start=1
+                     /product="beta-expansin"
+                     /protein_id="AAF72986.1"
+                     /db_xref="GI:8118428"
+                     /translation="MVSRGTFVFAVLVALPILSLPVSGYEQNYTAGRRSTMSLGRGYG
+                     WSSGGATWYGGPQGDGSEGGACGYQSAVGQRPFSSMIAAGGPSLFKNGKGCGSCYQIK
+                     CTGNRACSGRPVTVVITDSCPGGVCLNEAAHFDMSGTAFGAMANRGMGDRLRSAGVLK
+                     IQYKRVPCRFAMNVAFKVDAGSNPYYLAILVQYANGDGDLAAVHIMKARGGGGWKAMQ
+                     QSWGATWRLNSNTGKPLSPPFSIRLTSGSGKVLVANNVIPSGWQAGLTYRSTVNYAA"
+     sig_peptide     40..111
+                     /gene="EXPB5"
+ORIGIN      
+        1 tcccagctac ctaaccgatt gcccaacaag aaaatagcaa tggttagccg gggcactttc
+       61 gtttttgccg tcctagtggc gctaccgata ctgtcactcc ccgtctctgg ctacgagcag
+      121 aactacactg ccggcagacg gagcaccatg tcgctgggca gaggctacgg ctggtcctcc
+      181 ggcggcgcga cgtggtacgg cggcccgcaa ggcgacggca gcgaaggcgg cgcgtgcggt
+      241 taccagagcg ccgtcgggca gcgcccgttc tcgtcgatga tcgccgccgg cgggccctcc
+      301 ctcttcaaga atggcaaagg ctgcggctca tgctaccaaa ttaagtgcac cggcaaccgg
+      361 gcgtgctccg gccgcccagt gaccgtcgtg atcaccgact cctgccctgg aggggtatgc
+      421 ctgaacgagg cggcgcactt cgacatgagc ggcaccgcct tcggcgccat ggccaaccgt
+      481 ggcatgggcg accgcctccg ctccgccgga gtcctcaaga tccagtataa gagggtgccg
+      541 tgcaggtttg ccatgaacgt ggccttcaag gtggacgcgg gctccaaccc gtactacctc
+      601 gccatcctgg tccagtacgc gaacggcgac ggcgacctcg ccgcggtgca catcatgaag
+      661 gcccgcggcg gcggcgggtg gaaggcgatg cagcagtcgt ggggcgccac ctggcgcctc
+      721 aactccaaca ccgggaagcc gctgagcccg ccgttctcga tccggctcac ctcgggctcc
+      781 ggcaaggtgc tcgtcgccaa caacgtcatc ccctccgggt ggcaggccgg gttgacctac
+      841 cgatccaccg tgaactacgc cgcctaatgc ggcggcgtcg tgcgcgacta cgtacgcgcg
+      901 tgtttgttaa cgtcgccgcg atagatccat cgcgaggcag aagctcgcct cgtcgaagtg
+      961 agttcggtgt gtgcgcgtcc gggaatcgtg cgcagccgcg gtaaaagagg agttcgatct
+     1021 gttagtgtta agtgttcgtg atgtgtgttc tccctccgtg gccgtttgca gagctgcttc
+     1081 tagtgacgtc tcttgcttgg ttataactta accgaattct gcgttgcgat ttgcactaaa
+     1141 aaaaaaaaaa aaaaaaaa
+//
+

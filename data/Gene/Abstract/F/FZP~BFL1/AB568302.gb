@@ -1,0 +1,62 @@
+LOCUS       AB568302                 956 bp    DNA     linear   PLN 17-JUN-2010
+DEFINITION  Oryza sativa Japonica Group FZP gene for hypothetical protein,
+            complete cds, cultivar: Gimbozu.
+ACCESSION   AB568302
+VERSION     AB568302.1  GI:298566002
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kato,T. and Horibata,A.
+  TITLE     A novel frameshift mutant for rice FZP, a gene for the regulation
+            of spikelet meristem identity
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 956)
+  AUTHORS   Kato,T. and Horibata,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2010) Contact:Tsuneo Kato Kinki University,
+            Faculty of Biology-Oriented Science and Technology; 930
+            Nishimitani, Kinokawa, Wakayama 649-6493, Japan E-mail
+            :tkato@waka.kindai.ac.jp Phone :81-736-77-3888(ex.4112) Fax
+            :81-736-77-4754
+FEATURES             Location/Qualifiers
+     source          1..956
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Gimbozu"
+                     /db_xref="taxon:39947"
+                     /chromosome="7"
+     gene            1..564
+                     /gene="FZP"
+     CDS             1..564
+                     /gene="FZP"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="BAJ09616.1"
+                     /db_xref="GI:298566003"
+                     /translation="MNTRGSGSSSSSSSSQASLMAFSEPPKPASQPSPPSSPMSERPP
+                     SGRSRRRAQEPGRFLGVRRRPWGRYAAEIRDPTTKERHWLGTFDTAQEAALAYDRAAL
+                     SMKGAQARTNFVYTHAAYNYPPFLAPFHARSTPLPPPRRPRCSTAAAWARRRTLARTV
+                     TTTTTTTTTDMARRRARRRWASARRCR"
+ORIGIN      
+        1 atgaacactc gaggcagcgg cagtagcagc agcagcagca gcagccaggc cagcctgatg
+       61 gcgttctcgg agccgccgaa gccggcgagc cagccgtcgc cgccgtcgtc gccgatgagc
+      121 gagcggccgc cgtcggggcg cagcaggcgg cgcgcgcagg agccagggag gttcctcggc
+      181 gtgcggcggc ggccgtgggg gaggtacgct gccgagatac gcgacccgac caccaaggag
+      241 cggcactggc tgggcacgtt cgacacggcg caggaggcgg cgctggcgta cgaccgcgcc
+      301 gcgctgtcca tgaagggcgc ccaggcgcgc accaacttcg tctacaccca cgccgcctac
+      361 aactacccgc cgttcctcgc gccgttccac gcgcgcagta cgccgctgcc gccgccgcgc
+      421 cgtcctcggt gcagtacggc ggcggcgtgg gcgcggcgcc gcacattggc tcgtacggtc
+      481 accaccacca ccaccaccac caccacggac atggcgcggc gtcgggcgcg tcgtcggtgg
+      541 gcgagtgctc gacgatgccg gtgatggtcc cggttgatcc ccaccgctcc agcatgtcgt
+      601 cgtcgctgct ggacatggac aggaacggcc acgacttcct cttctccggc gccgacgaca
+      661 actccgggta cctgagcagc gtggtgccgg agagctgcct ccggccgagg ggcggcggcg
+      721 ccgcggccga tcatcaggac atgcggcgct actccgacgc cgacgcctac ggcatgatgg
+      781 ggctccggga ggacgtcgac gacctcgcgc agatggtcgc cggcttctgg ggcggcggcg
+      841 acgcggcgga ccagctcggc gcctgcgggt tcccggcgag cggcggcgcc gccgacatgg
+      901 tcgcctcgtc gcagggctcc gactcctact ctccattcag cttcctctcc cattga
+//
+

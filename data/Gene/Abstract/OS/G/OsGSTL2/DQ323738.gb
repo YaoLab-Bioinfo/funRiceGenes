@@ -1,0 +1,58 @@
+LOCUS       DQ323738                 735 bp    mRNA    linear   PLN 01-JAN-2007
+DEFINITION  Oryza sativa (indica cultivar-group) glutathione S-transferase
+            (GSTZ5) mRNA, complete cds.
+ACCESSION   DQ323738
+VERSION     DQ323738.1  GI:85700989
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 735)
+  AUTHORS   Hu,T., Cao,K. and Wang,X.
+  TITLE     Genomic structure and over expression of two tandem-arranged GSTZ
+            genes in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 735)
+  AUTHORS   Hu,T., Cao,K. and Wang,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-DEC-2005) Biochemistry, Fudan University, 220 Handan
+            Street, Shanghai, Shanghai 200433, P.R.China
+FEATURES             Location/Qualifiers
+     source          1..735
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+                     /chromosome="3"
+     gene            1..735
+                     /gene="GSTZ5"
+                     /note="OsGSTZ5"
+     CDS             1..735
+                     /gene="GSTZ5"
+                     /EC_number="2.5.1.18"
+                     /codon_start=1
+                     /product="glutathione S-transferase"
+                     /protein_id="ABC74869.1"
+                     /db_xref="GI:85700990"
+                     /translation="MAAAAAAPASSEKEVLPPSLTSSSEPPPLFDGTTRLYVAYHCPY
+                     AQRAWIARNYKGLQDKIKIVAIDLADRPAWYKEKVYPENKVPSLEHNNQVKGESLDLV
+                     KYIDTNFEGPALLPDDSEKQQFAEELLAYTDAFNKASYSSIVAKGDVCDEAVAALDKI
+                     EAALSKFNDGPFFLGQFSLVDIAYVPFIERFQIFFSGIKNYDITKGRPNLQKFIEEVN
+                     KIHAYTETKQDPQFLLEHTKKRLGIA"
+ORIGIN      
+        1 atggctgccg cggccgccgc accggcaagc tctgagaagg aagtgctccc cccttccctg
+       61 acctcctcat cggagccccc tcccctcttc gatggaacca ccaggttgta cgttgcgtac
+      121 cactgccctt acgcgcagcg cgcgtggatt gccaggaact acaagggttt gcaggataag
+      181 atcaagattg tcgcgattga tcttgcagac aggcctgctt ggtacaagga gaaggtttac
+      241 ccagagaaca aggtaccttc acttgagcac aacaatcagg tgaaaggaga aagcttggat
+      301 ttggtcaagt acattgacac caatttcgaa gggccagcat tactccctga tgattctgag
+      361 aagcagcagt tcgctgagga gcttcttgcg tacactgatg cgttcaacaa agcatcgtac
+      421 tcatccatag tcgccaaggg agatgtgtgc gatgaggctg ttgctgctct tgacaaaata
+      481 gaagctgctc tgtcaaagtt caacgatggc ccattcttcc ttggccagtt cagcttggtg
+      541 gacattgcgt atgttccatt tattgaaagg tttcagatat tcttttctgg tataaagaac
+      601 tacgatatca ccaagggccg acccaacctt cagaaattca tcgaggaagt gaacaagatt
+      661 catgcctata cagaaaccaa acaggaccca cagtttttgc ttgaacacac aaagaagcgt
+      721 cttgggattg cctga
+//
+

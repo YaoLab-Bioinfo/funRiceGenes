@@ -1,0 +1,75 @@
+LOCUS       ABF94526                 318 aa            linear   PLN 05-MAY-2011
+DEFINITION  hydrolase, alpha/beta fold family protein, expressed [Oryza sativa
+            Japonica Group].
+ACCESSION   ABF94526
+VERSION     ABF94526.1  GI:108706731
+DBLINK      BioProject: PRJNA15730
+DBSOURCE    accession DP000009.2
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 318)
+  AUTHORS   Buell,C.R., Yuan,Q., Ouyang,S., Liu,J., Zhu,W., Wang,A., Maiti,R.,
+            Haas,B., Wortman,J., Pertea,M., Jones,K.M., Kim,M., Overton,L.,
+            Tsitrin,T., Fadrosh,D., Bera,J., Weaver,B., Jin,S., Johri,S.,
+            Reardon,M., Webb,K., Hill,J., Moffat,K., Tallon,L., Van Aken,S.,
+            Lewis,M., Utterback,T., Feldblyum,T., Zismann,V., Iobst,S.,
+            Hsiao,J., de Vazeille,A.R., Salzberg,S.L., White,O., Fraser,C.,
+            Yu,Y., Kim,H., Rambo,T., Currie,J., Collura,K.,
+            Kernodle-Thompson,S., Wei,F., Kudrna,K., Ammiraju,J.S., Luo,M.,
+            Goicoechea,J.L., Wing,R.A., Henry,D., Oates,R., Palmer,M.,
+            Pries,G., Saski,C., Simmons,J., Soderlund,C., Nelson,W., de la
+            Bastide,M., Spiegel,L., Nascimento,L., Huang,E., Preston,R.,
+            Zutavern,T., Palmer,L., O'Shaughnessy,A., Dike,S., McCombie,W.R.,
+            Minx,P., Cordum,H., Wilson,R., Jin,W., Lee,H.R., Jiang,J. and
+            Jackson,S.
+  CONSRTM   Rice Chromosome 3 Sequencing Consortium
+  TITLE     Sequence, annotation, and analysis of synteny between rice
+            chromosome 3 and diverged grass species
+  JOURNAL   Genome Res. 15 (9), 1284-1291 (2005)
+   PUBMED   16109971
+REFERENCE   2  (residues 1 to 318)
+  AUTHORS   Buell,C.R., Wing,R.A., McCombie,W.A. and Ouyang,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-APR-2005) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+REFERENCE   3  (residues 1 to 318)
+  AUTHORS   Buell,R., Wing,R.A., McCombie,W.A. and Ouyang,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUN-2006) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..318
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     Protein         1..318
+                     /product="hydrolase, alpha/beta fold family protein,
+                     expressed"
+     Region          72..310
+                     /region_name="Abhydrolase_6"
+                     /note="Alpha/beta hydrolase family; pfam12697"
+                     /db_xref="CDD:257231"
+     Region          <96..>175
+                     /region_name="Hydrolase_4"
+                     /note="Putative lysophospholipase; cl19140"
+                     /db_xref="CDD:267493"
+     CDS             1..318
+                     /locus_tag="LOC_Os03g10620"
+                     /coded_by="join(DP000009.2:5400621..5401144,
+                     DP000009.2:5401236..5401668)"
+                     /note="predicted by fgenesh"
+ORIGIN      
+        1 mlrsthppps spsssssggg ggggssasss sektmvgggg gggggsgsaa psgakllqil
+       61 nvrvvgsger vvvlshgfgt dqsawsrvlp yltrdhrvvl ydlvcagsvn pdhfdfrryd
+      121 nldayvddll aildalripr cafvghsvsa migilasirr pdlfaklvli gasprflnds
+      181 dyhggfelee iqqvfdamga nysawatgya plavgadvpa avqefsrtlf nmrpdislhv
+      241 cqtvfktdlr gvlgmvrapc vvvqttrdvs vpasvaaylk ahlggrttve flqteghlph
+      301 lsapsllaqv lrralary
+//
+

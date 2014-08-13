@@ -1,0 +1,53 @@
+LOCUS       EU282465                 537 bp    mRNA    linear   PLN 15-DEC-2007
+DEFINITION  Oryza sativa Japonica Group non-specific lipid transfer
+            protein-like protein 1 mRNA, complete cds.
+ACCESSION   EU282465
+VERSION     EU282465.1  GI:162280752
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 537)
+  AUTHORS   Mashiguchi,K., Yamaguchi,I. and Suzuki,Y.
+  TITLE     Isolation and identification of
+            glycosylphosphatidylinositol-anchored arabinogalactan proteins and
+            novel beta-glucosyl Yariv-reactive proteins from seeds of rice
+            (Oryza sativa)
+  JOURNAL   Plant Cell Physiol. 45 (12), 1817-1829 (2004)
+   PUBMED   15653800
+REFERENCE   2  (bases 1 to 537)
+  AUTHORS   Mashiguchi,K., Yamaguchi,I. and Suzuki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-NOV-2007) Department of Applied Biological Chemistry,
+            University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..537
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     CDS             1..537
+                     /note="OsLTPL1"
+                     /codon_start=1
+                     /product="non-specific lipid transfer protein-like protein
+                     1"
+                     /protein_id="ABX83037.1"
+                     /db_xref="GI:162280753"
+                     /translation="MAVAARAAAVACLLVVGLAAVAGVDGATASSPAPAPAVDCTAEA
+                     LKLADCLDYVTPGKTAPSRPSKLCCGEVKGALKDSAAVGCLCAAFTSKTLPLPINITR
+                     ALHLPAACGADASAFSKCLAPAPSPSVAPGTSSGSGGAAAAPAKGAAAARSPMASTTA
+                     VLVVAAAVAAPLLAFFHF"
+ORIGIN      
+        1 atggctgttg ccgcaagagc cgccgccgtg gcgtgcctcc tggtcgtagg cctcgcggcc
+       61 gtggcggggg tcgacggcgc cacggcgagc tccccggccc cggcgccggc cgtggactgc
+      121 acggcggagg cgctgaagtt ggcggactgc ctggactacg tgaccccggg gaagacggcg
+      181 ccgagccggc cgtcgaagct gtgctgcggg gaggtgaagg gcgcgctcaa ggacagcgcc
+      241 gccgtgggct gcctgtgcgc cgccttcacc tccaagacgc tgcccctccc gatcaacatc
+      301 acccgcgcct tgcacctccc cgccgcctgc ggcgccgacg cctccgcctt cagcaagtgc
+      361 ctcgcaccgg cgccgtcgcc gtccgtggcc ccggggacat cgtccggcag cggcggtgcg
+      421 gcagcggcac cggcgaaggg cgccgccgca gcgaggtctc cgatggcatc gaccaccgcc
+      481 gtgctcgtcg tcgccgccgc cgtggcagct cctctgctcg ccttctttca cttctga
+//
+

@@ -1,0 +1,66 @@
+LOCUS       AB255026                1032 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group NOL1 mRNA for short-chain
+            dehydrogenase/reductase NOL1, complete cds.
+ACCESSION   AB255026
+VERSION     AB255026.1  GI:134254414
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kusaba,M., Ito,H., Morita,R., Iida,S., Sato,Y., Fujimoto,M.,
+            Kawasaki,S., Tanaka,R., Hirochika,H., Nishimura,M. and Tanaka,A.
+  TITLE     Rice NON-YELLOW COLORING1 is involved in light-harvesting complex
+            II and grana degradation during leaf senescence
+  JOURNAL   Plant Cell 19 (4), 1362-1375 (2007)
+   PUBMED   17416733
+REFERENCE   2  (bases 1 to 1032)
+  AUTHORS   Kusaba,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2006) Contact:Makoto Kusaba University of Tokyo,
+            Graduate School of Agricultural and Life Sciences; Yayoi 1-1-1,
+            Bunkyo-ku, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1032
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1032
+                     /gene="NOL1"
+     CDS             1..1032
+                     /gene="NOL1"
+                     /codon_start=1
+                     /product="short-chain dehydrogenase/reductase NOL1"
+                     /protein_id="BAF49741.1"
+                     /db_xref="GI:134254415"
+                     /translation="MAATAAYLPLRAQAQVGLAPLRPSGSAAAGARLPGRTARRRLAA
+                     RGGPEAAGIRAEAVPGGGGVARRAAMVPPYNVLITGSTKGIGYALAKEFLKAGDNVVI
+                     CSRSAERVESAVTDLKKEFGEQHVWGIVCDVREGKDVKALVDFARDKMKYIDIWINNA
+                     GSNAYSYKPLVETSDEALMEVITTNTLGLMICCREAINMMRNQPRGGHIFNIDGAGSD
+                     GRPTPRFAAYGATKRSVVHLTKSLQAELQMNEVNNVMVHNLSPGMVTTDLLMSGATTK
+                     QAKFFINILAEPANVVADYLVPNIRAIPTNQSMKPTYIRFLTGLKAYSRIFSRIAFGA
+                     RRNKYVAED"
+ORIGIN      
+        1 atggcggcca ccgccgccta cctcccgctc cgtgcccagg cgcaggtggg cctggctccg
+       61 ctccggccgt cgggctcggc cgctgctggg gcgcggttgc ccggccggac ggcgcggcgc
+      121 cggcttgcgg cgagaggcgg gccggaggct gccggtatcc gcgcggaggc tgtccctggt
+      181 ggtggagggg tcgcgcggag ggcggccatg gtgcccccgt ataatgttct aatcaccggt
+      241 tccacgaaag gtataggata tgctctggca aaggaatttt tgaaggctgg cgataatgtt
+      301 gtaatctgct caagatcagc tgaaagggta gaatctgcgg tgactgactt gaaaaaggaa
+      361 tttggagagc aacatgtgtg gggaattgtc tgtgatgtta gggaaggaaa ggatgtaaag
+      421 gcactagttg attttgcacg tgacaagatg aagtatattg atatttggat caacaatgct
+      481 ggatcaaatg catatagtta caaaccgttg gtcgagacct ccgacgaggc tctcatggaa
+      541 gtgatcacaa ctaacactct tggattaatg atatgttgtc gtgaggcaat aaatatgatg
+      601 agaaaccaac ctcgaggtgg ccacatattt aacatcgatg gtgctggttc tgatggaagg
+      661 ccaaccccaa ggtttgctgc atatggtgca acgaagagaa gtgtggtgca ccttacaaaa
+      721 tctctgcagg ccgagttgca gatgaatgaa gtgaacaatg ttatggtgca caatttgtcg
+      781 cctggcatgg ttacaacaga tcttcttatg tctggtgcca caacaaagca ggccaaattt
+      841 ttcatcaata tattagctga acctgctaat gtggttgcgg attatctcgt tccaaacatc
+      901 agagcaatac ctactaacca gtccatgaaa ccaacctaca tccgttttct cacaggcttg
+      961 aaagcctact ccagaatatt ttcaaggatt gcttttggtg ctcgtaggaa caagtatgtt
+     1021 gctgaggatt ag
+//
+

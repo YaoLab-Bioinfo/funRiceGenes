@@ -1,0 +1,89 @@
+LOCUS       D87819                  2036 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for sucrose transporter, complete
+            cds.
+ACCESSION   D87819
+VERSION     D87819.1  GI:2723470
+KEYWORDS    sucrose transporter.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Hirose,T., Imaizumi,N., Scofield,G.N., Furbank,R.T. and Ohsugi,R.
+  TITLE     cDNA cloning and tissue specific expression of a gene for sucrose
+            transporter from rice (Oryza sativa L.)
+  JOURNAL   Plant Cell Physiol. 38 (12), 1389-1396 (1997)
+   PUBMED   9522469
+REFERENCE   2  (bases 1 to 2036)
+  AUTHORS   Hirose,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-SEP-1996) Contact:Tatsuro Hirose Hokuriku National
+            Agricultural Experiment Station, Lab. of Rice Metabolism;
+            1-2-1Inada, Joetsu, Niigata 943-01, Japan
+FEATURES             Location/Qualifiers
+     source          1..2036
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="pSTP1-1"
+                     /tissue_type="green leaf"
+     gene            1..2036
+                     /gene="OsSUT1"
+     CDS             67..1680
+                     /gene="OsSUT1"
+                     /codon_start=1
+                     /product="sucrose transporter"
+                     /protein_id="BAA24071.1"
+                     /db_xref="GI:2723471"
+                     /translation="MARGSGAGGGGGGGGGGLELSVGVGGGGARGGGGGEAAAAVETA
+                     APISLGRLILSGMVAGGVQYGWALQLSLLTPYVQTLGLSHALTSFMWLCGPIAGMVVQ
+                     PCVGLYSDRCTSKWGRRRPYILTGCVLICLAVVVIGFSADIGYAMGDTKEDCSVYHGS
+                     RWHAAIVYVLGFWLLDFSNNTVQGPARALMADLSGRHGPGTANSIFCSWMAMGNILGY
+                     SSGSTNNWHKWFPFLKTRACCEACANLKGAFLVAVIFLSLCLVITLIFAKEVPFKGNA
+                     ALPTKSNEPAEPEGTGPLAVLKGFRNLPTGMPSVLIVTGLTWLSWFPFILYDTDWMGR
+                     EIYHGDPKGTDPQIEAFNQGVRAGAFGLLLNSIVLGFSSFLIEPMCRKVGPRVVWVTS
+                     NFLVCIAMAATALISFWSLKDFHGTVQKAITADKSIKAVCLVLFAFLGVPLAVLYSVP
+                     FAVTAQLAATRGGGQGLCTGVLNISIVIPQVVIALGAGPWDELFGKGNIPAFGLASGF
+                     ALIGGVAGIFLLPKISKRQFWSVSMGGGH"
+     polyA_site      2036
+                     /gene="OsSUT1"
+                     /note="24 A nucleotides"
+ORIGIN      
+        1 tttcttggcc tctcctcctc tgacacaggg gtgtgcaggt ttgtgtttgt gcgtggcgcg
+       61 tccgccatgg ctcgcggcag cggggccgga ggaggcggcg gcggtggtgg cggggggctg
+      121 gagctgtcgg tcggggtcgg cggcggcggc gcgcgtggtg ggggaggcgg tgaggcggcg
+      181 gcggcggtgg agacggcggc gccgatcagc ctcgggaggc tcatcctctc cgggatggtc
+      241 gccggcggcg tgcagtacgg gtgggcgctc cagctctccc tcctcacccc ctacgtccag
+      301 acactcggac tgtcgcatgc tcttacttca ttcatgtggc tctgtggtcc tattgctggc
+      361 atggtggttc aaccatgcgt gggtctatac agtgataggt gcacctcaaa atggggaaga
+      421 cgaaggccat atattcttac aggatgtgtg ttgatatgct tggctgtcgt agttattgga
+      481 ttttcagctg acattggata cgccatgggt gatacaaagg aagactgcag tgtctaccat
+      541 ggatcacggt ggcatgctgc tattgtatat gtcctgggat tctggcttct tgatttttcc
+      601 aacaacactg tgcagggtcc agcacgtgct ctaatggctg atttatcagg acgtcatgga
+      661 cctggcacag ctaactccat cttctgttct tggatggcaa tgggaaacat cctaggatac
+      721 tcctctggtt ccacaaacaa ttggcacaag tggtttccat tccttaaaac aagagcttgc
+      781 tgtgaagctt gtgcaaattt gaaaggtgca tttctggtgg ctgtgatttt cctgtccctg
+      841 tgcttggtta taactctgat atttgccaag gaagttccat tcaaaggaaa tgcagccctc
+      901 ccaacaaaat caaacgagcc agctgagcct gaaggcactg gtccactagc agtgttgaaa
+      961 ggcttcagga acttacctac tgggatgcct tctgtgctta ttgtgactgg ccttacctgg
+     1021 ttgtcttggt tcccattcat cctctacgac actgactgga tgggccgtga gatctaccac
+     1081 ggtgacccaa agggaactga tcctcagatc gaggctttca accagggtgt cagggcaggt
+     1141 gcatttggcc tgctactgaa ttcgattgtg ctaggattca gctcattctt gattgaacca
+     1201 atgtgccgga aagtcgggcc aagggtggtg tgggtgacga gcaatttcct cgtctgcatc
+     1261 gccatggctg caactgcact gatcagcttc tggtcactca aggacttcca tggaactgtt
+     1321 cagaaagcca tcactgcaga caagagcatc aaggctgtct gcctcgtcct ctttgcgttt
+     1381 cttggagtcc ctctcgccgt tctgtacagt gttcccttcg cagtgacggc gcaattagcg
+     1441 gccactagag ggggtggcca agggctctgc accggcgtcc tcaacatctc catcgtcatc
+     1501 cctcaggtgg tcatcgcgct gggagccggg ccgtgggacg agctgttcgg gaaggggaac
+     1561 atcccggcgt tcggcctcgc ctcgggattc gcgctcatcg gcggcgtcgc cggaatattc
+     1621 ctgctgccca agatctccaa gcgccagttc tggtcggtca gcatgggcgg cggtcactga
+     1681 ccgcccgctc tcgccgccgg ctgcggcggc ggcggcggcc ggagcagcgc cgccggaagt
+     1741 ggtgagcttt gtagttctcg tttgcaatgg atcaaaggag ccccctcttt ttttttacat
+     1801 agggtaatta attaattaag gctgttaatt aggaaggggt gaggtggccc tgcagctggg
+     1861 gcccacgctt tgttgccacc tcggtagaag agaataagca gatcatgcag ataatatgga
+     1921 actgtaaaac tgttttgtgt tgtgtgtgtg tgcagtgtgc ttggtaatta gtgtgtaatg
+     1981 aatggtcagg agaagtgcag tgaactaagt gaaagtgagc ttccatcatc atcatc
+//
+

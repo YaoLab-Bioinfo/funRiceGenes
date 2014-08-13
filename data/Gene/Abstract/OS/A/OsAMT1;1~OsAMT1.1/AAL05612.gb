@@ -1,0 +1,48 @@
+LOCUS       AF289477_1               532 aa            linear   PLN 20-SEP-2001
+DEFINITION  ammonium transporter 1-1 [Oryza sativa].
+ACCESSION   AAL05612
+VERSION     AAL05612.1  GI:15705368
+DBSOURCE    accession AF289477.1
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 532)
+  AUTHORS   Hoque,M.S., Masle,J., Udvardi,M.K. and Upadhyaya,N.M.
+  TITLE     Cloning and characterization of three Ammonium transporter genes
+            from rice
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 532)
+  AUTHORS   Hoque,M.S., Masle,J., Udvardi,M.K. and Upadhyaya,N.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2000) Gene Expression and Plant Improvement,
+            CSIRO Plant Industry, Cnr. of Barry Drive and Clunies Ross Street,
+            Canberra, ACT 2601, Australia
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..532
+                     /organism="Oryza sativa"
+                     /db_xref="taxon:4530"
+     Protein         1..532
+                     /product="ammonium transporter 1-1"
+     Region          36..459
+                     /region_name="amt"
+                     /note="ammonium transporter; TIGR00836"
+                     /db_xref="CDD:233145"
+     CDS             1..532
+                     /gene="Osamt1-1"
+                     /coded_by="AF289477.1:1763..3361"
+ORIGIN      
+        1 matcaadlap llgpvaanat dylcnrfadt tsavdatyll fsaylvfamq lgfamlcags
+       61 vrakntmnim ltnvldaaag alfyylfgfa fafgtpsngf igkqffglkh mpqtgfdydf
+      121 flfqwafaia aagitsgsia ertqfvayli ysafltgfvy pvvshwiwsa dgwasasrts
+      181 gpllfgsgvi dfagsgvvhm vggvaglwga liegprigrf dhagrsvalk ghsaslvvlg
+      241 tfllwfgwyg fnpgsfttil ktygpaggin gqwsgvgrta vtttlagsva alttlfgkrl
+      301 qtghwnvvdv cngllggfaa itagcsvvdp waaiicgfvs awvliglnal aarlkfddpl
+      361 eaaqlhggcg awgilftalf arqkyveeiy gagrpyglfm ggggkllaah viqilvifgw
+      421 vsctmgplfy glkklgllri saedetsgmd ltrhggfayv yhdedehdks gvggfmlrsa
+      481 qtrvepaaag clqqqqpsvt nperttsqrr kksrvslplr srssrhkfdp hi
+//
+

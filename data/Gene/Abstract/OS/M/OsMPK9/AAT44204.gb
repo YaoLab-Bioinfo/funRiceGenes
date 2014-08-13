@@ -1,0 +1,116 @@
+LOCUS       AAT44204                 721 aa            linear   PLN 24-JUN-2004
+DEFINITION  putative mitogen-activated protein kinase [Oryza sativa Japonica
+            Group].
+ACCESSION   AAT44204
+VERSION     AAT44204.1  GI:48475135
+DBSOURCE    accession AC098573.2
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 721)
+  AUTHORS   Chow,T.-Y., Hsing,Y.-I.C., Chen,C.-S., Chen,H.-H., Liu,S.-M.,
+            Chao,Y.-T., Chang,S.-J., Chen,H.-C., Chen,S.-K., Chen,T.-R.,
+            Chen,Y.-L., Cheng,C.-H., Chung,C.-I., Han,S.-Y., Hsiao,S.-H.,
+            Hsiung,J.-N., Hsu,C.-H., Huang,J.-J., Kau,P.-I., Lee,M.-C.,
+            Leu,H.-L., Li,Y.-F., Lin,S.-J., Lin,Y.-C., Wu,S.-W., Yu,C.-Y.,
+            Yu,S.-W., Wu,H.-P. and Shaw,J.-F.
+  TITLE     Oryza sativa BAC OJ1651_G11 genomic sequence
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 721)
+  AUTHORS   Hsing,Y.-I.C. and Chow,T.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-OCT-2001) Institute of Botany, Academia Sinica, 128,
+            Section 2, Yien-chu-yuan Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   3  (residues 1 to 721)
+  AUTHORS   Hsing,Y.-I.C. and Chow,T.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAR-2003) Institute of Botany, Academia Sinica, 128,
+            Section 2, Yien-chu-yuan Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   4  (residues 1 to 721)
+  AUTHORS   Chow,T.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2004) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   5  (residues 1 to 721)
+  AUTHORS   Chow,T.-Y. and Hsing,Y.-I.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2004) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+REFERENCE   6  (residues 1 to 721)
+  AUTHORS   Chow,T.-Y. and Hsing,Y.-I.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUN-2004) Institute of Botany, Academia Sinica, 128,
+            Section 2, Academia Road, Nankang, Taipei 11529, Taiwan
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..721
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="5"
+                     /clone="OJ1651_G11"
+     Protein         1..721
+                     /product="putative mitogen-activated protein kinase"
+     Region          106..464
+                     /region_name="STKc_TDY_MAPK_plant"
+                     /note="Catalytic domain of the Serine/Threonine Kinases,
+                     TDY Mitogen-Activated Protein Kinases from Plants;
+                     cd07859"
+                     /db_xref="CDD:143364"
+     Region          107..419
+                     /region_name="S_TKc"
+                     /note="Serine/Threonine protein kinases, catalytic domain;
+                     smart00220"
+                     /db_xref="CDD:214567"
+     Site            order(113..116,118..119,121,134,136,153,167,188..191,194,
+                     196..197,233,235,237..238,240,250..251,254,269,271..274,
+                     276,315)
+                     /site_type="active"
+                     /db_xref="CDD:143364"
+     Site            order(113..116,118..119,121,134,136,167,188..191,194,197,
+                     235,237..238,240,250..251)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:143364"
+     Site            order(153,196,233,235,254,269,271..274,276,315)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:143364"
+     Site            order(164,192..193,198,209,212,219,241..245,422,424,427)
+                     /site_type="other"
+                     /note="KIM docking site [polypeptide binding]"
+                     /db_xref="CDD:143364"
+     Site            250..276
+                     /site_type="other"
+                     /note="activation loop (A-loop)"
+                     /db_xref="CDD:143364"
+     CDS             1..721
+                     /gene="OJ1651_G11.11"
+                     /coded_by="join(AC098573.2:88048..88104,
+                     AC098573.2:88445..88568,AC098573.2:88888..88979,
+                     AC098573.2:89386..89791,AC098573.2:90770..90897,
+                     AC098573.2:90986..91045,AC098573.2:91527..91676,
+                     AC098573.2:91712..91930,AC098573.2:92074..92285,
+                     AC098573.2:92411..92509,AC098573.2:93056..93225,
+                     AC098573.2:93305..93753)"
+                     /note="'similar to rice EST CB629390, AK065930'"
+                     /db_xref="UniProtKB/TrEMBL:AAS16898"
+ORIGIN      
+        1 mavkmrigrr raiqqgiaeg gfewrrvwgc readsrgalw elvwgersvr ernaagaaee
+       61 vialfimdem cdpasnleyv vekakcdvhr tssaeeffte ygdanryriq evigkgsygv
+      121 vcsaidlhtr qkvaikkvhn ifehvsdaar ilreikllrl lrhpdiveik himlppsrrd
+      181 fkdiyvvfel mesdlhqvik anddltkehy qfflyqllra lkyihtasvy hrdlkpknil
+      241 ansncklkic dfglarvafn dtpttvfwtd yvatrwyrap elcgsffsky tpaidiwsig
+      301 cifaevltgk plfpgknvvh qldlmtdllg tpsmdtisrv llggdfsdpq hlsycslpfq
+      361 vrnekarryl ssmrkkdpvp fsqkfpnadp lalkllqrll afdpkdrpta eealtdpyfk
+      421 glskidreps cqpirklefe feqkklsked irelifqeil eyhpqlqkny rngreratfl
+      481 ypsavdqfkk qfsnleesng sgsaipmerk haslprsttv hstpippkeq plaaslkssr
+      541 pvsdepcknp wvmggfsgni ptssqvsqva kpvapgrpvg svfpyetgst ndpygprgpv
+      601 mssgyppqqq isqaygyhqv parmncveqs qamdaykmhs qsqtqayayp nskvtadval
+      661 dmrgstfhhs agskngsldr mvtqtdiytr slngivaaat sagvgtnrkv gavpistsrm
+      721 y
+//
+

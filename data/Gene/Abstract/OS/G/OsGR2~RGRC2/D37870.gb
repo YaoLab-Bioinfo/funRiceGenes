@@ -1,0 +1,108 @@
+LOCUS       SPIGLRE                 1788 bp    mRNA    linear   PLN 12-MAY-2009
+DEFINITION  Spinacia oleracea mRNA for glutathione reductase precursor, partial
+            cds.
+ACCESSION   D37870
+VERSION     D37870.1  GI:529374
+KEYWORDS    .
+SOURCE      Spinacia oleracea (spinach)
+  ORGANISM  Spinacia oleracea
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; Caryophyllales; Amaranthaceae; Chenopodioideae;
+            Anserineae; Spinacia.
+REFERENCE   1  (bases 1 to 1788)
+  AUTHORS   Aono,M., Fujiyama,K., Sano,T. and Tanaka,K.
+  TITLE     cDNA for chloroplastic glutathione reductase of spinach
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1788)
+  AUTHORS   Tanaka,K., Sano,T., Ishizuka,K., Shirai,S., Fujiyama,K., Beppu,T.,
+            Igarashi,T., Lee,J., Aono,M. and Kubo,A.
+  TITLE     Magnesium deficiency enhances expression of glutathione reductase
+            mRNA
+  JOURNAL   Unpublished
+REFERENCE   3
+  AUTHORS   Aono,M., Saji,H., Fujiyama,K., Sugita,M., Kondo,N. and Tanaka,K.
+  TITLE     Decrease in activity of glutathione reductase enhances paraquat
+            sensitivity in transgenic Nicotiana tabacum
+  JOURNAL   Unpublished
+REFERENCE   4  (bases 1 to 1788)
+  AUTHORS   Aono,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-AUG-1994) Contact:Mitsuko Aono National Institute for
+            Environmental Studies, Environmental Biology Division; 16-2
+            Onogawa, Tsukuba, Ibaraki 305, Japan
+FEATURES             Location/Qualifiers
+     source          1..1788
+                     /organism="Spinacia oleracea"
+                     /mol_type="mRNA"
+                     /cultivar="New Asia"
+                     /db_xref="taxon:3562"
+                     /tissue_type="leaf"
+                     /note="common name: Spinach"
+     CDS             <1..1471
+                     /EC_number="1.8.1.7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="chloroplastic glutathione reductase"
+                     /citation=[2]
+                     /codon_start=2
+                     /product="glutathione reductase precursor"
+                     /protein_id="BAA07108.1"
+                     /db_xref="GI:529375"
+                     /translation="EDNHSTVEDDAANYDFDLFVIGAGSGGVRAARFSANLGAKVGIC
+                     ELPFHPISSEVIGGVGGTCVIRGCVPKKILVYGASFGGELEDAKNYGWELNEKIDFNW
+                     KKLLQKKTDEIIRLNNIYKRLLSNAGVKLYEGEGKIVGPNEVQVTQLDGTKLSYSAKH
+                     ILIATGSRAQRPNIPGQELAITSDEALSLEEFPKRVVILGGGYISVEFASIWRGMGAD
+                     VNLCFRKELPLRGFDDEMRAAVARNLEGRGVNVHPRTTLTELVKTDGGVVARTDHGEE
+                     IEADVVLFATGRSPNTKRLNLEALGVELDRTGAVKVDEYSRTSVPSIWAIGDVTNRMN
+                     LTPVALMEGTCFAKTVFGGQNSKPDYSNIACAVFSIPPLAVVGLSEEQAIEQASGDIL
+                     VFTSSFNPMKNTISGRQEKTIMKLVVDAETDKVLGASMCGPDAAEIMQGIAIALKFGA
+                     TKAQFDSTVGIHPSAAEEFVTMREPSRRVPGAGKPKTNL"
+     transit_peptide <1..>7
+                     /function="chloroplastic transit peptide"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /citation=[2]
+     mat_peptide     8..1468
+                     /product="glutathione Reductase"
+                     /EC_number="1.8.1.7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /citation=[2]
+     polyA_signal    1719..1724
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+     polyA_site      1788
+ORIGIN      
+        1 ggaagataac cattctactg tcgaagatga cgccgcgaat tacgatttcg atttgttcgt
+       61 tatcggtgcc ggaagcggcg gtgttcgtgc tgctcgattt tctgcaaatt tgggtgctaa
+      121 ggttggaatt tgcgagcttc catttcatcc cataagttcg gaggttatag gaggagttgg
+      181 tggaacatgt gtaattcgcg ggtgtgttcc caaaaagatt ttggtgtatg gagcctcttt
+      241 tggtggtgaa cttgaggatg caaaaaatta tggttgggag ttgaatgaga agattgattt
+      301 caactggaaa aagctgttgc aaaagaagac agatgagatt atcagactca ataacattta
+      361 caaacggttg ctgtcaaatg ctggggtcaa actatacgaa ggcgagggaa agatagttgg
+      421 tcctaatgag gtccaagtga cgcagctaga tggtacaaag ttgtcatact cagcaaaaca
+      481 tatattgatt gcaacaggaa gccgggcgca acgtcccaat attcctgggc aggaattggc
+      541 cataacttct gacgaggctt taagtttgga ggaatttccc aaacgcgttg tcatacttgg
+      601 aggagggtac atatctgttg aatttgcttc tatatggcgt gggatgggtg ccgatgtgaa
+      661 tctttgcttc agaaaggaac ttcctttgag aggctttgat gatgaaatga gggctgcagt
+      721 cgctagaaat ctggaaggtc ggggagttaa tgtgcatcca aggacaacgc tgacagagct
+      781 ggtaaaaact gatggcggtg ttgtagctcg taccgatcat ggggaagaga ttgaagcaga
+      841 tgttgtactc tttgctactg ggcgttctcc taacacaaaa aggctgaatc tggaagcttt
+      901 aggtgtagaa cttgaccgaa caggagctgt caaggttgac gagtattcaa gaacgagtgt
+      961 acctagcata tgggctattg gtgatgttac taatcgaatg aaccttactc ctgtggcttt
+     1021 gatggaagga acttgtttcg ctaaaactgt atttgggggc cagaatagca aaccggatta
+     1081 cagcaatata gcatgtgccg tcttcagcat acctcctcta gccgtggtgg gcctaagtga
+     1141 agaacaagct atagagcaag caagtggtga tattttggtc ttcacgtcat cattcaaccc
+     1201 aatgaaaaat actatttctg gacgacaaga aaagactatt atgaagcttg ttgttgatgc
+     1261 tgagacagat aaagtgcttg gagcatccat gtgtggccca gatgcagctg aaattatgca
+     1321 gggaattgct atagcactga aatttggagc aacaaaggca caatttgata gtacggtggg
+     1381 aatacatcct tctgcagccg aagagtttgt gacaatgagg gaaccatcaa gacgtgtccc
+     1441 tggtgctggc aagcccaaga ccaatctttg aggttgaatt atatactcac gaccatatct
+     1501 caagagtgtt atacgaataa atagaccatt gagaaaacct atattgtata ttgtatattg
+     1561 tatactgtga cgcctggtag gtcaaccttt gcaaaccttt tttactcgct attttttctg
+     1621 ttcgacctaa ggattatgtt tggaaatttt ggcatcttgg gaaatatgca attacacagg
+     1681 agagctacct aatctcatag gaatcataga tactgcccaa taaatacagt aggcttgtac
+     1741 atactattga tgtttttctt taaaacatac cccgtactac gtagtatt
+//
+

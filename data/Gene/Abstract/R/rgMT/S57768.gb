@@ -1,0 +1,38 @@
+LOCUS       S57763S2                  90 bp    DNA     linear   VRT 07-MAY-1993
+DEFINITION  LP=cartilage link protein {promoter, 5' region} [chickens,
+            Genomic/mRNA, 90 nt, segment 2 of 2].
+ACCESSION   S57768
+VERSION     S57768.1  GI:236687
+KEYWORDS    .
+SEGMENT     2 of 2
+SOURCE      Unknown. (chickens)
+  ORGANISM  Unknown.
+            Unclassified.
+REFERENCE   1  (bases 1 to 90)
+  AUTHORS   Deak,F., Barta,E., Mestric,S., Biesold,M. and Kiss,I.
+  TITLE     Complex pattern of alternative splicing generates unusual diversity
+            in the leader sequence of the chicken link protein mRNA
+  JOURNAL   Nucleic Acids Res. 19 (18), 4983-4990 (1991)
+   PUBMED   1923766
+  REMARK    GenBank staff at the National Library of Medicine created this
+            entry [NCBI gibbsq 57768] from the original journal article.
+FEATURES             Location/Qualifiers
+     source          1..90
+                     /organism="unknown"
+                     /mol_type="unassigned DNA"
+                     /note="chickens"
+     gene            order(S57763.1:1..890,1..90)
+                     /gene="LP"
+                     /note="cartilage link protein"
+     CDS             71..88
+                     /gene="LP"
+                     /note="cartilage link protein"
+                     /codon_start=1
+                     /protein_id="AAA05088.1"
+                     /db_xref="GI:236688"
+                     /translation="MTSLLF"
+ORIGIN      
+        1 tccaaaaaat tgatgagcct ttctgttatg tgatgccctt acagtgaaga agattcttgt
+       61 gactgtgaag atgacaagtc tactctttct
+//
+

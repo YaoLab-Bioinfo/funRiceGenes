@@ -1,0 +1,83 @@
+LOCUS       JQ990990                2068 bp    mRNA    linear   PLN 27-MAR-2013
+DEFINITION  Oryza sativa Indica Group cultivar Zhongxian 3037 Bub1-like kinase
+            mRNA, complete cds.
+ACCESSION   JQ990990
+VERSION     JQ990990.1  GI:392937539
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2068)
+  AUTHORS   Wang,M., Tang,D., Luo,Q., Jin,Y., Shen,Y., Wang,K. and Cheng,Z.
+  TITLE     BRK1, a Bub1-related kinase, is essential for generating proper
+            tension between homologous kinetochores at metaphase I of rice
+            meiosis
+  JOURNAL   Plant Cell 24 (12), 4961-4973 (2012)
+   PUBMED   23243128
+REFERENCE   2  (bases 1 to 2068)
+  AUTHORS   Wang,M., Tang,D. and Cheng,Z.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-APR-2012) Center for Genome Biology, Institute of
+            Genetics and Developmental Biology, Chinese Academy of Sciences,
+            Datun Road, Chaoyang District, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..2068
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhongxian 3037"
+                     /db_xref="taxon:39946"
+     CDS             190..1872
+                     /codon_start=1
+                     /product="Bub1-like kinase"
+                     /protein_id="AFM93783.1"
+                     /db_xref="GI:392937540"
+                     /translation="MVLLERTPLVVPEAAAAAAAASSPLRRPSPRVLREVPPPPLDPI
+                     LPYLRSINKAMDELRTGPKFEAAALDRLKICVMECIDKYGDDYQYSTDPRLLKIWILY
+                     ADAIGDFDKAYKQLEEKRMFLEHALLYDAYALFLFSKGKVLEAGKVYEVGISRKAEPL
+                     DHLKKMHTIFLKHLEKIVEEADADAQPKPSKIQKKEPILLDPWSESTMNNLLENINVD
+                     LKKFAGYHKSNKVYHGKVPLTSPQNVLRNKVIELGGRKYQIKGSPGTGAFAKVYKASV
+                     DGNTEDLVALKIQKPPFPWEFYMYRQLDTRVSDIERPSFGYTHEVHVYADVSVLVCDY
+                     LPYGTLLDVINSHLVLERHMDEVLCIYYTIEMLRMLETLHSVGIIHGDFKPDNMLVCY
+                     PSGEITDETFKGETRSERNQGLCLVDWGRGIDLNLFPSGAEFYGDCRTSGFSCVEMQE
+                     QRAWTFQADTYGLCVIAHMMLHGTQMSIQKTPRPDGSYMYQPTSPFKRYWNVELWKNL
+                     FSTLLNATSNGSDAAVLRSLRMSFQEYLCSNRQLVGKLNQQLAKQKTSLCLS"
+ORIGIN      
+        1 ctcccaagcg atccgcatcc caaaccattc gaaattcaaa ttattcccct cttccgctcc
+       61 atctccttcc cgtctttctc tctccacaca gacagcgcac gcatccacca ccccccaaca
+      121 cgggagcgga gagctcgccg ccggcgatcg cagcaggatt ccgagggctt ctcccggcgg
+      181 ccacgggaga tggttctgct cgaacgcacg ccgttggtgg tgcccgaggc agcagcagca
+      241 gccgccgccg cctccagccc gctccggagg ccgtcgccta gggttctgag ggaggtgccc
+      301 ccgccccccc tcgatcccat cctcccctac ctcaggtcta tcaacaaggc tatggatgag
+      361 ctcaggacag gcccaaaatt tgaagcagca gcgcttgatc ggctcaagat ttgtgtaatg
+      421 gaatgcattg ataagtatgg tgacgattac cagtactcca cagacccccg actcctcaag
+      481 atctggatcc tctatgcgga tgcaataggt gattttgata aggcatataa gcagttggag
+      541 gagaaaagaa tgtttttaga gcatgcactg ctctatgatg catatgcact gtttctcttc
+      601 agtaagggga aagtgctgga ggctggtaag gtgtatgaag ttggtatttc cagaaaagcc
+      661 gagccacttg atcatttgaa gaagatgcat acgatatttt taaaacactt ggagaagatt
+      721 gtagaagaag cagatgccga tgcccagccg aaaccatcga aaatacaaaa gaaagaacct
+      781 attttgctgg atccatggtc tgagtctact atgaataatt tattggagaa cattaatgtt
+      841 gatctgaaga agttcgctgg ctatcataag agcaataagg tctatcatgg aaaggtgcca
+      901 ttaacttcgc ctcagaatgt tttaagaaac aaagtcattg aattaggtgg tagaaagtac
+      961 cagatcaaag gttctcctgg tactggtgct tttgcaaaag tttacaaagc cagtgtcgat
+     1021 ggtaatacag aagacctggt tgctttaaag attcagaaac caccatttcc ttgggaattt
+     1081 tacatgtatc gccagcttga tacgcgcgta tctgatattg agagaccaag ctttggctac
+     1141 actcatgaag tgcatgtata cgctgatgtc agtgtgcttg tttgtgatta cctgccatac
+     1201 ggaactcttc tggatgttat aaattctcat ctagtacttg aacgccatat ggatgaagtt
+     1261 ctatgcatat attacactat agagatgctg cgcatgttgg aaacactgca cagcgttggc
+     1321 ataattcatg gtgatttcaa gcctgacaat atgcttgttt gctacccaag tggagaaatc
+     1381 acagacgaaa ccttcaaagg cgagacaaga tccgagcgga atcaggggct ctgccttgtt
+     1441 gactggggcc gtggcatcga cctgaacctc ttcccatccg gtgcggagtt ctacggcgac
+     1501 tgccgaacct ccgggttcag ctgcgtcgag atgcaggaac agagagcctg gacgtttcag
+     1561 gctgacactt acggcctctg cgtcatcgcg cacatgatgc tacatgggac gcagatgagc
+     1621 atccagaaga cgcccaggcc cgatggaagc tacatgtacc agcccacatc gccgttcaaa
+     1681 aggtactgga acgtggagct gtggaaaaac ctcttctcca cgctgctcaa cgcgacctcc
+     1741 aacggcagcg acgcggccgt gctccggagc ctccggatgt ccttccagga gtacctgtgc
+     1801 agcaaccggc agctcgtcgg caagctgaac cagcaactgg ccaagcagaa gacctccctg
+     1861 tgcctatcct gaccgagaca tatacgcatc tcgcgtttca tcctcatcat ttttcccgat
+     1921 tccctcgtgt tgcctgtgtg taaagtggtg gagtataaga taccttccgt aacttcgtag
+     1981 cacttcctct gtgcgtgcgt gtgcagcagt aattaacgtg ccacatctcc actttgaaag
+     2041 ctgaaacatc tactattggg ccagatgg
+//
+

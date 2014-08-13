@@ -1,0 +1,85 @@
+LOCUS       X58194                  1764 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  O.sativa mRNA for cdc2+/CDC28-related protein kinase.
+ACCESSION   X58194
+VERSION     X58194.1  GI:20193
+KEYWORDS    cdc2+/CDC28-related protein kinase; serine/threonine protein
+            kinase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Hata,S.
+  TITLE     cDNA cloning of a novel cdc2+/CDC28-related protein kinase from
+            rice
+  JOURNAL   FEBS Lett. 279 (1), 149-152 (1991)
+   PUBMED   1995335
+REFERENCE   2  (bases 1 to 1764)
+  AUTHORS   Hata,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-OCT-1991) Hata,S. Faculty of Science, Himeji
+            Institute of Technology Kamigori, Ako-gun, Hyogo 678-12, JAPAN
+FEATURES             Location/Qualifiers
+     source          1..1764
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="R2"
+                     /cell_type="cultured suspension cells"
+                     /clone_lib="cDNA"
+     CDS             173..1447
+                     /codon_start=1
+                     /product="cdc2+/CDC28-related protein kinase"
+                     /protein_id="CAA41172.1"
+                     /db_xref="GI:20194"
+                     /db_xref="GOA:P29620"
+                     /db_xref="InterPro:IPR000719"
+                     /db_xref="InterPro:IPR002290"
+                     /db_xref="InterPro:IPR008271"
+                     /db_xref="InterPro:IPR011009"
+                     /db_xref="InterPro:IPR017441"
+                     /db_xref="InterPro:IPR017442"
+                     /db_xref="UniProtKB/Swiss-Prot:P29620"
+                     /translation="MASGDGGDDAGVKRVADRYLKREVLGEGTYGVVFKAVDTKTGNT
+                     VAIKKIRLGKYKEGVNFTALREIKLLKELKDSNIIELIDAFPYKGNLHLVFEFMETDL
+                     EAVIRDRNIVLSPADTKSYIQMMLKGLAFCHKKWVLHRDMKPNNLLIGADGQLKLADF
+                     GLARIFGSPERNFTHQVFARWYRAPELLFGTKQYGSAVDIWAAGCIFAELLLRRPFLQ
+                     GSSDIDQLGKIFAAFGTPKSSQWPDMVYLPDYVEYQFVSAPPLRSLFPMASDDALDLL
+                     SRMFTYDPKARITAQQALEHRYFLSVPAPTKPSQLPRPPPKGDSGNNKIPDLNLQDGP
+                     VVLSPPRKLRRVTAHEGMEVHMHRADRTEEHPSGARHMDDMSSQSSRIPMSVDVGAIF
+                     GTRPAPRPTLNSADKSRLKRKLDMDPEFGYTE"
+ORIGIN      
+        1 cgcgcatcgc agccgagacg agccgccccc cgcaccgcac tctccgccgc cggccgcgcc
+       61 gacctcctcc gccgcgccgc ctccccggcg cgcgcccccg tcaccctctc tcgcctcgcc
+      121 gccgccgccg ctgcctcctc gtgagggggg acggtggtgg gggcctctgc ctatggcgag
+      181 cggcgacggc ggcgacgacg cgggcgtgaa gcgcgtggcg gaccgctacc tgaagcgcga
+      241 ggtcctggga gagggaacct acggcgtcgt cttcaaggcc gtcgacacca agactgggaa
+      301 tacagtcgca ataaagaaaa tccggctagg gaagtacaag gaaggtgtca atttcactgc
+      361 attgagggaa attaaacttc ttaaggagct gaaagattct aatattatag agctgattga
+      421 tgctttccct tacaagggaa acttacatct tgtatttgag ttcatggaga ctgatttgga
+      481 agctgtcata cgagatagga acattgtatt atctccagct gatacaaaat cttatattca
+      541 gatgatgtta aaaggtttag ccttctgcca taagaaatgg gtgctacaca gggatatgaa
+      601 accaaataat ttactcattg gcgctgatgg gcagcttaag cttgctgact ttggtctggc
+      661 gcgcatattt gggagtccag agcggaactt cactcatcag gtctttgcac gatggtaccg
+      721 agcaccagaa ttattatttg gcaccaagca gtatggatct gcagttgata tttgggctgc
+      781 tggttgtatt tttgctgaac tgctgcttag gcgaccgttt ctccagggtt ctagtgacat
+      841 tgatcaactt gggaagatct ttgctgcatt tggaactcca aagtcttctc aatggccgga
+      901 catggtttat cttccagatt atgttgaata ccaatttgtc tctgcacctc cacttcgctc
+      961 attgtttcca atggccagtg atgatgcatt ggatcttcta tcaagaatgt ttacatatga
+     1021 tccaaaagca agaattacag ctcagcaggc tctagaacac cggtactttt tatcagtacc
+     1081 agcgccaaca aaaccatcac agcttccaag gccaccacct aagggtgatt cagggaataa
+     1141 caagatacca gacttgaacc tgcaggacgg ccctgttgtt ctgtccccgc caagaaagtt
+     1201 gcgcagggtg actgcccatg aagggatgga agtccatatg catcgggcgg atagaacaga
+     1261 agagcatcct tcaggggcaa ggcacatgga tgacatgtcc agccagagtt ctagaatacc
+     1321 aatgtcagtt gatgttggag ctatttttgg gacacgacct gctcctagac caacgttaaa
+     1381 cagtgccgac aagtctcgtt taaaacggaa acttgatatg gatccagaat ttggatacac
+     1441 agagtaaatc accatttttt ccatactggc ttgttgattt ttaaaatatt ctttggggag
+     1501 atagttccac tatctaccaa caaaagagga ttgtgtcgaa agccataaaa acttcactga
+     1561 agggcgctga caggatggca cagccaacta tgctgttatc gtttttgact accaaagccg
+     1621 gctcaggaag aggaaactga agagttacgt gttacgatgc taatttacac caggacgtgc
+     1681 acatgccatt tcattttggc tggcatacat aaatctgtaa tctttattgc atagatgagt
+     1741 ttgcttgtgt gagcatgttt cttc
+//
+

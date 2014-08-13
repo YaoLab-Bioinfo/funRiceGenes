@@ -1,0 +1,71 @@
+LOCUS       AB667900                1299 bp    mRNA    linear   PLN 01-MAR-2012
+DEFINITION  Oryza sativa Japonica Group APG mRNA for basic helix-loop-helix
+            protein APG, complete cds.
+ACCESSION   AB667900
+VERSION     AB667900.1  GI:378924998
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Heang,D. and Sassa,H.
+  TITLE     Antagonistic actions of HLH/bHLH proteins are involved in grain
+            length and weight in rice
+  JOURNAL   PLoS ONE 7 (2), E31325 (2012)
+   PUBMED   22363621
+REFERENCE   2  (bases 1 to 1299)
+  AUTHORS   Heang,D. and Sassa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-AUG-2011) Contact:Hidenori Sassa Chiba University,
+            Graduate School of Horticulture; Matsudo 648, Matsudo, Chiba
+            271-8510, Japan
+FEATURES             Location/Qualifiers
+     source          1..1299
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="mixture of lemma and palea"
+     gene            1..1299
+                     /gene="APG"
+     CDS             1..1299
+                     /gene="APG"
+                     /codon_start=1
+                     /product="basic helix-loop-helix protein APG"
+                     /protein_id="BAL63287.1"
+                     /db_xref="GI:378924999"
+                     /translation="MLRGNDTGSDLAELLWDNGAPAPLRPPPPPPFQPFTCSAAATTS
+                     PPAHDYLFIKNLMRGGGAANHHHHDDDDDDDDDVPWLHYHPVVDDDDDADADTAPLPP
+                     DYCAALLSGLSDHLPPPAAAASRVDPDPCSSSHGAVVPSTSAAAAKQARTSGGGGGGV
+                     MNFTFFSRPLQQRPSGGETASASASAAATSTVPVESTVVQAATNRLRSTPLFSDQRMA
+                     WLHPPKPSPRAAAPPPPPPLAPTTRHRLDTAAATATVAQRLPPSEARAPDAPPPAATA
+                     TATTSSVCSGNGDRRQLNWRDSHNNQSAEWSASQDELDLDDELAGVHRRSAARSSKRS
+                     RTAEVHNLSERRRRDRINEKMRALQELIPNCNKIDKASMLEEAIEYLKTLQLQVQMMS
+                     MGTGMFVPPPFPHAAATAVEQTPSPPGAADAGNAPAVKQA"
+ORIGIN      
+        1 atgctacgcg ggaacgacac cggcagcgac ctggccgagc tgctctggga caacggcgcc
+       61 ccggcgccgc tcaggccgcc tccgcctccg cccttccagc ccttcacctg cagcgccgcc
+      121 gccaccacgt cgccgccggc gcacgactac ctcttcatca agaatctcat gcggggcggc
+      181 ggcgccgcca accaccacca ccacgatgac gatgacgacg acgacgacga cgtgccgtgg
+      241 ttgcattacc accctgtcgt ggacgacgac gacgacgccg acgctgacac ggcgccgctg
+      301 cctcccgact actgcgccgc cttgctctcc ggcctctccg accacctccc gccgcccgcc
+      361 gctgcggcga gcagggtgga ccccgacccc tgctcctcct cccacggcgc cgtcgtcccg
+      421 tccacgtccg ccgccgccgc caagcaggct cgcacgagcg gcggcggcgg cggcggcgtc
+      481 atgaacttca ccttcttctc gaggcctctg cagcagcgcc cctccggcgg cgagaccgcg
+      541 tcggcgtcgg cgtcggcggc ggccacctcg accgtccccg tcgagtcgac ggtggtgcag
+      601 gcggcgacga accggctgag aagcaccccg ctcttctccg accagaggat ggcatggctg
+      661 cacccgccca agccgtcgcc acgcgccgcc gcaccgccgc cgccgccgcc tctggcccct
+      721 accactcggc accgactcga caccgccgcc gcgacggcga cggtggcgca gaggttgccg
+      781 ccgtccgagg caagagctcc cgacgcgccc ccgcctgccg cgaccgcgac ggcgacgacc
+      841 tcgtccgtct gctccggcaa cggcgaccgg agacagctca attggaggga cagccacaac
+      901 aaccagtccg ccgagtggtc ggccagtcaa gacgagctgg acctcgacga cgagctcgca
+      961 ggcgtccacc ggaggtcggc ggcgaggagc tccaagcgca gccgcaccgc cgaagtccac
+     1021 aacctgtcag agcggaggag aagagaccgg atcaacgaga agatgcgggc gctgcaagag
+     1081 ctcatcccaa actgcaacaa gattgacaag gcgtcgatgc tggaggaagc catcgagtac
+     1141 ctcaagacgc tgcagctgca ggtgcagatg atgtcgatgg ggacggggat gttcgtgccg
+     1201 ccgccgttcc ctcacgcggc cgccaccgcc gtcgagcaga cgccgtctcc gccgggagca
+     1261 gcagacgccg gcaacgcccc cgccgtgaag caggcgtga
+//
+

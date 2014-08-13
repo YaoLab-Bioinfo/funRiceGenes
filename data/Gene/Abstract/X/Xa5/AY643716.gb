@@ -1,0 +1,52 @@
+LOCUS       AY643716                 318 bp    mRNA    linear   PLN 23-FEB-2005
+DEFINITION  Oryza sativa (indica cultivar-group) transcription factor IIA gamma
+            subunit (TFIIAy) mRNA, partial cds.
+ACCESSION   AY643716
+VERSION     AY643716.1  GI:55585038
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 318)
+  AUTHORS   Iyer,A.S. and McCouch,S.R.
+  TITLE     The rice bacterial blight resistance gene xa5 encodes a novel form
+            of disease resistance
+  JOURNAL   Mol. Plant Microbe Interact. 17 (12), 1348-1354 (2004)
+   PUBMED   15597740
+REFERENCE   2  (bases 1 to 318)
+  AUTHORS   Iyer,A.S., Blair,M.W., Garris,A.J. and McCouch,S.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUN-2004) Plant Breeding and Genetics, Cornell
+            University, Tower Road, Ithaca, NY 14853, USA
+FEATURES             Location/Qualifiers
+     source          1..318
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IRBB5"
+                     /db_xref="taxon:39946"
+                     /chromosome="5"
+                     /ecotype="Aus-Boro"
+                     /note="resistant"
+     gene            1..>318
+                     /gene="TFIIAy"
+                     /note="xa5 disease resistance gene for bacterial blight"
+     CDS             1..>318
+                     /gene="TFIIAy"
+                     /codon_start=1
+                     /product="transcription factor IIA gamma subunit"
+                     /protein_id="AAV53715.1"
+                     /db_xref="GI:55585039"
+                     /translation="MATFELYRRSTIGMCLTETLDEMVSSGTLSPELAIQVLEQFDKS
+                     MTEALENQVKSKVSIKGHLHTYRFCDNVWTFILTEASFKNEETTEQVGKVKIVACDSK
+                     LLSQ"
+ORIGIN      
+        1 atggccacct tcgagctcta ccggaggtcc accattggca tgtgcctcac tgagacgctc
+       61 gacgagatgg tctccagcgg caccctcagc ccggagctcg ccattcaagt tcttgagcag
+      121 tttgataagt ctatgacgga agccttggag aaccaagtca agagcaaggt ttctatcaag
+      181 ggccacctgc acacttacag gttctgtgac aatgtatgga cattcatctt gactgaagca
+      241 tcattcaaga acgaggagac tacagaacaa gttggcaagg tgaagattgt ggcctgtgat
+      301 tccaaactac tcagccaa
+//
+

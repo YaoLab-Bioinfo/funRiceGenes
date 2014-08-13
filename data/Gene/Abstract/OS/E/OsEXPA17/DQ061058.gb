@@ -1,0 +1,58 @@
+LOCUS       DQ061058                 808 bp    mRNA    linear   PLN 13-JUN-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) alpha-expansin 17 (EXPA17)
+            mRNA, partial cds.
+ACCESSION   DQ061058
+VERSION     DQ061058.1  GI:67037346
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 808)
+  AUTHORS   Shin,J.-H., Jeong,D.-H., Park,M.C. and An,G.
+  TITLE     Characterization of alpha-Expansin Gene Family in Rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 808)
+  AUTHORS   Shin,J.-H., Jeong,D.-H., Park,M.C. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAY-2005) National Research Laboratory of Plant
+            Functional Genomics, POSTECH Biotech Center, Division of Molecular
+            and Life Sciences, Pohang University of Science and Technology,
+            Pohang 790-784, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..808
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            <1..>808
+                     /gene="EXPA17"
+                     /note="OsEXPA17"
+     CDS             <1..>808
+                     /gene="EXPA17"
+                     /codon_start=3
+                     /product="alpha-expansin 17"
+                     /protein_id="AAY63549.1"
+                     /db_xref="GI:67037347"
+                     /translation="NNPAIFLAAALAVATAAQVVTAGFTTDLYWQQQPAPGAVTPYKT
+                     SDWHDGSATFYGDPSGMGDDFGGACGYVSNDIVSLYSTKTAALSTPLFADGNGCGQCY
+                     ELRCVKSPWCNPGSPSVVITGTNLCPPNWYLPNDDGGWCNPPRHHFDMAPPSFLKLAQ
+                     RVAGIVPVQYRRVPCQRTGGVRFCLQGNHYWLLLYVMNVGGAGDVSSLSVKTSGGGGA
+                     WIQAAHNWGITYQVFAALDNSDGLTVKLTTYSTPQQTIIVSDAISPWWITG"
+ORIGIN      
+        1 ggaataatcc ggccatcttc ctcgccgccg cgctggcggt ggcgacggcg gcgcaggtcg
+       61 tcacggccgg tttcaccaca gacttgtact ggcagcaaca gccggcgcct ggtgccgtca
+      121 ccccctacaa gacatcggac tggcacgacg gctccgccac cttctacggc gacccctccg
+      181 gcatgggcga cgacttcggt ggcgcgtgcg ggtacgtgtc gaacgacatc gtgtcgctct
+      241 actcgacgaa gacggcggcg ctgagcacgc cgctgttcgc cgacggcaac gggtgcgggc
+      301 agtgctacga gctgcggtgc gtcaagtcgc cgtggtgcaa cccggggtcg ccgtcggtgg
+      361 tcatcacggg gaccaacctg tgcccgccca actggtacct ccccaacgac gacggcggct
+      421 ggtgcaaccc gccgcggcac cacttcgaca tggcgccgcc ctccttcctc aagctcgcgc
+      481 agagggtcgc cgggatcgtg ccggtgcagt accgccgcgt gccgtgccag aggaccggcg
+      541 gcgtcaggtt ctgcctccag gggaaccact actggttgct gctctacgtc atgaacgtcg
+      601 gcggcgccgg cgacgtctcc tccctctccg tcaagacctc cggtggcggc ggcgcctgga
+      661 tccaggcggc gcacaactgg ggcatcacgt accaggtgtt cgccgcgctg gacaactccg
+      721 acggcctcac cgtcaagctc accacctaca gcacgccgca gcagaccatc atcgtctccg
+      781 acgccatctc cccctggtgg atcaccgg
+//
+

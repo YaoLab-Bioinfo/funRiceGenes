@@ -1,0 +1,83 @@
+LOCUS       EU095553                1797 bp    mRNA    linear   PLN 30-OCT-2008
+DEFINITION  Oryza sativa Japonica Group grain incomplete filling 1 (GIF1) mRNA,
+            complete cds.
+ACCESSION   EU095553
+VERSION     EU095553.1  GI:158827596
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1797)
+  AUTHORS   Wang,E., Wang,J., Zhu,X., Hao,W., Wang,L., Li,Q., Zhang,L., He,W.,
+            Lu,B., Lin,H., Ma,H., Zhang,G. and He,Z.
+  TITLE     Control of rice grain-filling and yield by a gene with a potential
+            signature of domestication
+  JOURNAL   Nat. Genet. 40 (11), 1370-1374 (2008)
+   PUBMED   18820698
+REFERENCE   2  (bases 1 to 1797)
+  AUTHORS   Wang,E. and He,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-AUG-2007) Shanghai Institute of Plant Physiology and
+            Ecology (SIPPE), Shanghai Institutes for Biological Sciences
+            (SIBS), Chinese Academy of Sciences (CAS), 300 Fenglin Road,
+            Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..1797
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..1797
+                     /gene="GIF1"
+     CDS             1..1797
+                     /gene="GIF1"
+                     /note="cell wall invertase"
+                     /codon_start=1
+                     /product="grain incomplete filling 1"
+                     /protein_id="ABW80997.1"
+                     /db_xref="GI:158827597"
+                     /translation="MGVLGSRVAWAWLVQLLLLQQLAGASHVVYDDLELQAAATTADG
+                     VPPSIVDSELRTGYHFQPPKNWINDPNAPMYYKGWYHLFYQYNPKGAVWGNIVWAHSV
+                     SRDLINWVALKPAIEPSIRADKYGCWSGSATMMADGTPVIMYTGVNRPDVNYQVQNVA
+                     LPRNGSDPLLREWVKPGHNPVIVPEGGINATQFRDPTTAWRGADGHWRLLVGSLAGQS
+                     RGVAYVYRSRDFRRWTRAAQPLHSAPTGMWECPDFYPVTADGRREGVDTSSAVVDAAA
+                     SARVKYVLKNSLDLRRYDYYTVGTYDRKAERYVPDDPAGDEHHIRYDYGNFYASKTFY
+                     DPAKRRRILWGWANESDTAADDVAKGWAGIQAIPRKVWLDPSGKQLLQWPIEEVERLR
+                     GKWPVILKDRVVKPGEHVEVTGLQTAQADVEVSFEVGSLEAAERLDPAMAYDAQRLCS
+                     ARGADARGGVGPFGLWVLASAGLEEKTAVFFRVFRPAARGGGAGKPVVLMCTDPTKSS
+                     RNPNMYQPTFAGFVDTDITNGKISLRSLIDRSVVESFGAGGKACILSRVYPSLAIGKN
+                     ARLYVFNNGKAEIKVSQLTAWEMKKPVMMNGA"
+ORIGIN      
+        1 atgggagttc ttggtagtag ggtcgcttgg gcatggctgg tccagctgct gctgctccag
+       61 cagctcgccg gagcgtcgca cgtcgtctac gacgacctcg agctgcaggc ggctgctacc
+      121 acagcggacg gcgtgccgcc gtccatcgtc gactctgagc tccggactgg gtatcacttc
+      181 cagccaccca agaactggat caatgatccg aacgcgccga tgtactacaa ggggtggtac
+      241 catctgttct accagtacaa ccccaagggc gccgtgtggg ggaacatcgt gtgggcgcac
+      301 tcagtgtcac gtgacctcat caactgggtg gcgctcaagc cggccatcga gcccagcatc
+      361 agggccgaca agtacggctg ctggtcgggg tcggcgacga tgatggccga cgggacgccg
+      421 gtgatcatgt acaccggcgt caaccgcccc gacgtcaact accaggtgca gaacgtggcg
+      481 ctgccgagga acgggtcgga cccgctgctg cgcgagtggg tgaagcccgg ccacaacccg
+      541 gtgatcgtgc ccgagggcgg catcaacgcg acgcagttcc gcgacccgac caccgcgtgg
+      601 cgcggggccg acggccactg gcggctgctc gtcggcagcc tcgcggggca gtcccgcggc
+      661 gtggcgtacg tgtaccggag cagggacttc cggcggtgga cgcgcgcggc gcagccgctg
+      721 cactcggcgc ccacggggat gtgggagtgc ccggacttct acccggtcac cgcggacggc
+      781 cgccgcgagg gcgtcgacac ctcgtccgcc gtcgtcgacg ccgccgcctc ggcgcgcgtc
+      841 aagtacgtgc tcaagaacag cctcgacctg cgccggtacg actactacac cgtcggaacg
+      901 tacgaccgga aggccgagcg gtacgtgccg gacgaccccg ccggcgacga gcaccacatc
+      961 cgctacgact acggcaactt ctacgcctcc aagacgttct acgacccggc gaagcgccgc
+     1021 cgcatcctct ggggatgggc caacgagtcc gacaccgccg ccgacgacgt ggccaagggc
+     1081 tgggccggaa tccaggcgat tccgaggaaa gtgtggctgg acccaagtgg gaagcaactg
+     1141 ttgcagtggc caatcgagga ggtcgagagg ctgagaggga agtggccggt cattctcaag
+     1201 gacagggtgg tcaagccagg ggaacacgtc gaggtgaccg ggctacaaac tgcacaggct
+     1261 gacgtggagg tgagcttcga ggtggggagc ctggaggcgg cggagcggct ggacccggcg
+     1321 atggcgtacg acgcgcagcg gctgtgcagc gcgcggggcg ccgacgcgag gggcggcgtg
+     1381 gggccgttcg gcctgtgggt gctcgcgtcc gcggggctgg aggagaagac cgccgtgttc
+     1441 ttcagggtgt tcaggccggc ggcgcgcggc ggcggcgccg gcaagcccgt cgtgctcatg
+     1501 tgcaccgacc ccaccaagtc atcgcgcaac ccgaacatgt accagccgac gtttgcaggg
+     1561 ttcgttgaca cggacatcac caacgggaag atatctctga ggagcctgat cgacaggtcg
+     1621 gttgttgaga gcttcggggc tggaggaaag gcgtgcatcc tgtcgagggt gtacccgtcg
+     1681 ctggccatcg gcaagaacgc gcgcctttac gttttcaata acgggaaggc ggagatcaag
+     1741 gtgtcgcagc tcaccgcgtg ggagatgaag aagccggtca tgatgaatgg agcctaa
+//
+

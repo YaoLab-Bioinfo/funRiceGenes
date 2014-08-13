@@ -1,0 +1,74 @@
+LOCUS       EF521182                1498 bp    mRNA    linear   PLN 16-MAY-2008
+DEFINITION  Orayza sativa japonica LFL1 mRNA, complete cds.
+ACCESSION   EF521182
+VERSION     EF521182.1  GI:134244195
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1498)
+  AUTHORS   Peng,L.T., Shi,Z.Y., Li,L., Shen,G.Z. and Zhang,J.L.
+  TITLE     Overexpression of transcription factor OsLFL1 delays flowering time
+            in Oryza sativa
+  JOURNAL   J. Plant Physiol. 165 (8), 876-885 (2008)
+   PUBMED   17913295
+REFERENCE   2  (bases 1 to 1498)
+  AUTHORS   Peng,L.-T., Li,L., An,L.-S., Shen,G.-Z. and Zhang,J.-L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAR-2007) National Key Laboratory of Plant Molecular
+            Genetics, Institute of Plant Physiology and Ecology, Shanghai
+            Institutes for Biological Sciences, Chinese Academy of Sciences,
+            Fenglin Road 300, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..1498
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua 11"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+     CDS             48..1256
+                     /note="OsLFL1; contains B3 DNA domain transcription
+                     factor; nuclear localized; prevents rice callus
+                     regeneration"
+                     /codon_start=1
+                     /product="LFL1"
+                     /protein_id="ABO64645.1"
+                     /db_xref="GI:134244196"
+                     /translation="MRGEERWQEQPALASHPSRATLRPRGWPRLGLAPTGVGSSCPPA
+                     PASELARHLARRAPVSASPPVLPPIKDQGARPPTLAASAAAASSPPPPPPPPIPPLPP
+                     STSTSAARPTDMAGVTSKRRSSSASTSSSSGDGAAVSDRPRGVTRKRRSGGRCPRPAA
+                     SLRPAAPRPSSHHTAGLRVILQKELRYSDVSQLGRIVLPKKEAEAYLPILTSKDGKKS
+                     LCMHDLQNAQLWTFKYRYWPNNKSRMYVLENTGDYVRTHDLQLGDSIVIYKDDENNRF
+                     VIGAKKAGDQQAATVPQVDEHISTLFPIFPIAQVDDYLSPMAPQVDISAFVPHADENH
+                     EIFDGILNSLPEIPVANVRYSDFFDPFDDGMDMANTLNANANQSASLHVTDDKSGHSL
+                     IPNPKSGPHM"
+ORIGIN      
+        1 agagagagag ggagagccat tcggcgcggc gcccgcaggg aatcccgatg cggggggagg
+       61 agagatggca ggagcagcca gccctcgcct cccacccgtc gcgtgccacc ttgcgcccgc
+      121 gcggttggcc gcgcctcggc ctcgccccga cgggcgttgg ctcctcctgc ccacctgcac
+      181 ccgcctcaga gctcgcacgc cacttggcgc gccgcgcccc cgtctccgcg tctccgcccg
+      241 tcctccctcc tataaaagac cagggagcgc ggcccccaac cctagccgcc tccgccgccg
+      301 cagcgtcctc gcctcctcct cctcctcctc ctccaattcc tcctcttcct ccctccacct
+      361 cgacctccgc cgcccgtccc accgacatgg ccggggtcac cagcaagcgc cgatcctcct
+      421 ccgcctccac ctcctcctcc tccggcgacg gcgccgccgt ctccgaccgg ccgcgggggg
+      481 tgacccggaa gcgcaggtcc ggcggccgtt gcccccgccc cgccgcctcc ctgaggccgg
+      541 ccgcgccccg accctcctct caccacactg ctggattgag agtaattctg caaaaggaac
+      601 tacggtacag cgacgtaagc cagctaggga gaattgttct cccgaagaaa gaggcagagg
+      661 cttacctacc aattctgaca tcaaaggatg gcaagaaaag tttatgtatg catgatttgc
+      721 aaaatgcaca actctggacc ttcaagtaca ggtattggcc caacaacaag agcaggatgt
+      781 atgtacttga gaataccggg gattatgtca gaacccatga tcttcaacta ggagactcca
+      841 ttgtgatata caaagatgat gagaataacc gatttgtcat cggagcaaag aaggcaggtg
+      901 atcaacaagc tgccactgtg ccacaagttg acgagcatat ctctaccctc ttccccattt
+      961 ttccaattgc acaagtcgat gactatctct ctcccatggc accacaagtt gatatctctg
+     1021 ccttcgtgcc acatgctgat gagaaccatg agatatttga cgggatactg aattctctgc
+     1081 cagagatacc agtagccaat gtgaggtatt ctgacttctt cgacccattc gatgatggta
+     1141 tggacatggc aaacactctg aacgccaacg ccaaccagtc tgctagtctg catgtcactg
+     1201 atgataagtc tgggcattcc ttgattccca acccaaagtc tgggcctcac atgtgagact
+     1261 gacagggaag tggtatttca taccatggtc agtttgtatg aagctcagaa accccttccc
+     1321 tggcgccatt gttgtacatc caaataattg gtgtccttat tttgacgctg tatatgctaa
+     1381 ctgctacatg cagttttatg tgtaaaatat tttgttcaca acccaactgg aggtttaatc
+     1441 agatgaaaca ttgtaactct gttcagttca gctcagaaat gtaattgttt ctttcagt
+//
+

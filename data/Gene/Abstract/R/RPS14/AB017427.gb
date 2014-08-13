@@ -1,0 +1,75 @@
+LOCUS       AB017427                1233 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for mitochondrial ribosomal
+            protein S14, complete cds.
+ACCESSION   AB017427
+VERSION     AB017427.1  GI:5688944
+KEYWORDS    mitochondrial ribosomal protein S14.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kubo,N., Harada,K., Hirai,A. and Kadowaki,K.
+  TITLE     A single nuclear transcript encoding mitochondrial RPS14 and SDHB
+            of rice is processed by alternative splicing: common use of the
+            same mitochondrial targeting signal for different proteins
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 96 (16), 9207-9211 (1999)
+   PUBMED   10430921
+REFERENCE   2  (bases 1 to 1233)
+  AUTHORS   Kadowaki,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-SEP-1998) Contact:Koh-ichi Kadowaki National
+            Institute of Agrobiological Resources, Department of Molecular
+            Genetics; Kannondai 2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1233
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="R14-701"
+                     /tissue_type="seedling"
+                     /clone_lib="Uni-Zap XR"
+     gene            1..1233
+                     /gene="rps14"
+     CDS             21..1073
+                     /gene="rps14"
+                     /note="5' portion of the rps14 cDNA is identical to that
+                     of rice sdhB cDNA;
+                     nuclear encoded"
+                     /codon_start=1
+                     /product="mitochondrial ribosomal protein S14"
+                     /protein_id="BAA82748.1"
+                     /db_xref="GI:5688945"
+                     /translation="MAAAALLRRSPAARALLSPALSSRLVASKPHSSSPAPPPPPSKA
+                     GANTKTFSIYRWDPDSPSTKPHLKDYKVDLSDCGPMVLDVLLKIKNEQDPSLTFRRSC
+                     REGICGSCAMNIDGDNGLACLTKISSASSASTISPLPHMFVIKDLVVDMTNFYNQYKS
+                     VEPWLKRKDAPPQPGKEIPQTKADRAKLDGMYECILCACCSTSCPSYWWNPEEYLGPA
+                     ALLHANRLPLLGTLIKPKPNMFMHIQARGYHGVSEKRNLLDHKRRLLAAKYELKGKLY
+                     KAVCRDPDLPADMQDQFRYKLSKLPRNSSMTRLRNRCIFTGRSRAVYKKFRMSRIVFR
+                     SLANKGELLGVKKASW"
+ORIGIN      
+        1 gaaaccccaa atccgccgcg atggccgccg ccgccctcct ccgccgctcg ccggcggcgc
+       61 gcgccctcct ctccccggcg ctctcctccc gcctcgtcgc ctccaagccc cactcgtcgt
+      121 cccccgcgcc gccgccgccg ccgtcgaagg cgggggcgaa caccaagacg ttctcgatct
+      181 acaggtggga tcccgactcg ccgtcgacga agccccacct caaggactac aaggtggacc
+      241 tctccgactg cgggccgatg gtgctcgacg tgctgctcaa gatcaagaac gagcaggacc
+      301 cgtcgctcac cttccgccgc agctgccgcg aggggatctg cgggagctgc gcgatgaaca
+      361 tcgacggcga caatggcctc gcctgcctca ccaagatctc gtcggcgtcc tcggcctcca
+      421 cgatctcgcc gctcccccac atgttcgtca tcaaggacct cgtcgtcgac atgaccaact
+      481 tctacaacca gtacaagagc gtggagccgt ggctcaagcg caaggacgcg ccgccgcagc
+      541 ccgggaagga gatcccgcag accaaggccg accgcgccaa gctcgacggc atgtacgagt
+      601 gcatcctctg cgcctgctgc tccacctcct gcccctccta ctggtggaac cccgaggagt
+      661 acctcggccc cgccgcgctc ctccacgcca acaggcttcc gctgttgggg acgctaatca
+      721 aaccaaaacc caacatgttc atgcacatcc aagctcgagg atatcacggg gtatcggaga
+      781 agagaaactt gctggatcac aaacgtagat tgcttgcagc aaaatatgaa ctgaaaggaa
+      841 agctttataa ggctgtttgt agggaccctg atcttccagc agatatgcag gaccagtttc
+      901 gctataagct gtccaagttg ccaagaaata gctccatgac acgccttaga aaccgctgta
+      961 tcttcacggg ccgctcgcgc gctgtttaca agaaattccg catgtctcgt attgtgttcc
+     1021 ggtcattggc taataagggt gaattgttgg gtgttaagaa agcgtcttgg tagatgctaa
+     1081 caaccagtag atcaaagcac tagctctgca gtagtccagc acaataagtt tgcctccatg
+     1141 cagtttttca gtgtttgcaa cctgaaacta tatttcaatc ttatgaccag cagccaatct
+     1201 ggcactcttt caattaaaaa aaaaaaaaaa aaa
+//
+

@@ -1,0 +1,55 @@
+LOCUS       AY286474                 540 bp    mRNA    linear   PLN 23-MAY-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) zinc finger protein ZFP182
+            mRNA, complete cds.
+ACCESSION   AY286474
+VERSION     AY286474.1  GI:31075614
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 540)
+  AUTHORS   Huang,J., Yang,X., Wang,M.M., Tang,H.J., Ding,L.Y., Shen,Y. and
+            Zhang,H.S.
+  TITLE     A novel rice C2H2-type zinc finger protein lacking
+            DLN-box/EAR-motif plays a role in salt tolerance
+  JOURNAL   Biochim. Biophys. Acta 1769 (4), 220-227 (2007)
+   PUBMED   17434609
+REFERENCE   2  (bases 1 to 540)
+  AUTHORS   Huang,J. and Zhang,H.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-APR-2003) Agronomy, Rice Research Institute, Weigang,
+            Nanjing Agricultural University, Nanjing, Jiangsu 210095, China
+FEATURES             Location/Qualifiers
+     source          1..540
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Jiu Caiqing"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+                     /clone="Z14"
+                     /tissue_type="NaCl-treated seedling"
+     CDS             12..524
+                     /note="contains 2 zinc fingers; includes conserved QALGGH
+                     motif"
+                     /codon_start=1
+                     /product="zinc finger protein ZFP182"
+                     /protein_id="AAP42461.1"
+                     /db_xref="GI:31075615"
+                     /translation="MKHPRQEEEVSLALALSTDCSSTASDSSAAAAGGAARRKRARRR
+                     SVVATSGEGEFVCKTCSRAFPTFQALGGHRTSHLRGRSNGLDLGAIGDKAIRLHRAAD
+                     KEHRDKHECHICGLGFEMGQALGGHMRRHREEMAAAGGGSSADDWVWRCDARPEGIAA
+                     EPPVLLELFA"
+ORIGIN      
+        1 tcgaatcgga gatgaagcac ccgaggcagg aggaggaggt gtcgctggcg ctggcgctga
+       61 gcacggactg ctcgtcgacg gcgtcggact cgtcggcggc ggcggcgggc ggcgcggcga
+      121 ggaggaagag ggcgcggcgg aggagcgtgg tggcgacgtc gggggaaggg gagttcgtgt
+      181 gcaagacttg cagccgcgcg ttcccgacct tccaggcgct cgggggccac cggaccagcc
+      241 acctccgcgg ccggagcaac gggctcgacc tcggcgccat cggcgacaag gcgatcaggc
+      301 tgcacagggc ggccgacaag gagcacaggg acaagcacga gtgccacatc tgcggcctcg
+      361 gcttcgagat gggccaggcg ctcggcggac acatgcggcg ccaccgcgag gagatggccg
+      421 ccgccggcgg tggatcctcc gccgacgact gggtctggcg ctgcgacgcg cggccggagg
+      481 ggatcgccgc cgagccaccg gtgttgctgg agttgttcgc ctagttaccg ctggtctcat
+//
+

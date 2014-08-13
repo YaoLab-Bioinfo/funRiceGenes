@@ -1,0 +1,82 @@
+LOCUS       AB180689                1543 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsGS1;3 mRNA for cytosolic glutamine
+            synthetase 1;3, complete cds.
+ACCESSION   AB180689
+VERSION     AB180689.1  GI:66912122
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Tabuchi,M., Sugiyama,K., Ishiyama,K., Inoue,E., Sato,T.,
+            Takahashi,H. and Yamaya,T.
+  TITLE     Severe reduction in growth rate and grain filling of rice mutants
+            lacking OsGS1;1, a cytosolic glutamine synthetase1;1
+  JOURNAL   Plant J. 42 (5), 641-651 (2005)
+   PUBMED   15918879
+REFERENCE   2  (bases 1 to 1543)
+  AUTHORS   Tabuchi,M., Hayakawa,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAY-2004) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultural Science, Dept. of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1543
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+                     /tissue_type="spikelets"
+     gene            1..1543
+                     /gene="OsGS1;3"
+     5'UTR           1..168
+                     /gene="OsGS1;3"
+     CDS             169..1281
+                     /gene="OsGS1;3"
+                     /EC_number="6.3.1.2"
+                     /codon_start=1
+                     /product="cytosolic glutamine synthetase 1;3"
+                     /protein_id="BAD99301.1"
+                     /db_xref="GI:66912123"
+                     /translation="MSSSLLTDLVNLDLSESTDKVIAEYIWVGGTGMDVRSKARTLSG
+                     PVDDPSKLPKWNFDGSSTGQATGDDSEVILHPQAIFRDPFRKGKNILVMCDCYAPNGE
+                     PIPTNNRYNAARIFSHPDVKAEEPWYGIEQEYTLLQKHINWPLGWPLGGYPGPQGPYY
+                     CAAGADKSYGRDIVDAHYKACLFAGINISGINAEVMPGQWEFQIGPVVGVSAGDHVWV
+                     ARYILERITEIAGVVVSFDPKPIPGDWNGAGAHTNYSTKSMRSNGGYEVIKKAIKKLG
+                     MRHREHIAAYGDGNERRLTGRHETADINNFVWGVANRGASVRVGRDTEKDGKGYFEDR
+                     RPASNMDPYLVTAMIAETTILWEPSHGHGHGQSNGK"
+     3'UTR           1282..1543
+                     /gene="OsGS1;3"
+ORIGIN      
+        1 cctctgccta tataggcagg agcaaagcta ctgggtgaca cacaaaccat tgatagcctg
+       61 tgcgtctcca agaagaggct tgccgctgcc gccattggag ccctctcgtt tctgctcgag
+      121 ctctgcattt cttcagtagg aggaggagga ggaagagttg gagtcgccat gtcgtcgtcc
+      181 ctgctcactg acctcgttaa cctcgacctg tcggagagca cggacaaggt catcgccgag
+      241 tacatatggg ttggtggtac tgggatggat gtgaggagca aagccagaac gttgtctgga
+      301 cctgttgatg acccaagcaa gcttccaaag tggaactttg atggctccag caccggtcag
+      361 gctaccggtg acgacagtga agtcatcctc caccctcaag ccatcttcag agacccattc
+      421 aggaagggga agaacatcct ggtcatgtgt gactgttatg cgccgaatgg cgagccgatt
+      481 ccgacgaaca accggtacaa tgcagcaagg atcttcagtc atcctgatgt caaggctgaa
+      541 gagccatggt atgggattga gcaggagtac acccttcttc agaagcacat caactggcct
+      601 cttggctggc cactaggtgg ctatccaggc cctcagggtc cgtactactg tgcggcggga
+      661 gccgataaat cgtacgggcg cgacatcgtt gatgcccact acaaggcctg cctgtttgcc
+      721 ggcatcaaca tcagcgggat caacgcagaa gtcatgccgg ggcagtggga gttccagatt
+      781 ggccctgtcg ttggcgtctc cgcaggggat catgtctggg tggcacgcta cattcttgag
+      841 aggatcactg agattgctgg cgtcgtcgtg tccttcgacc ccaagcccat tccgggagac
+      901 tggaatggcg ccggtgctca caccaactac agcaccaagt cgatgaggag caatggcggc
+      961 tacgaggtga tcaagaaagc gatcaagaag cttggcatgc gccaccgtga gcacatcgcc
+     1021 gcctacggcg acggcaacga gcgccgcctc accggccgcc acgagaccgc cgacatcaac
+     1081 aacttcgtct ggggcgtagc gaaccgcggc gcgtcggtgc gtgtcggccg ggacaccgag
+     1141 aaggacggca aaggttactt cgaggacagg aggccggcgt ccaacatgga cccgtacctg
+     1201 gtgaccgcca tgatcgccga gaccaccatc ctctgggagc ccagccacgg ccacggccac
+     1261 ggccaatcca acggcaagtg aggaggagtc gcctcgcccg ggttgatgaa ctgctttctc
+     1321 gcgttctggg tttcatggaa atctgtgtgt gtggtttctc tgacgctggt gctgttagaa
+     1381 acttccaata attcagaaat aactgcgatg tgctctcaaa tttctcatga ggccatcacc
+     1441 tgcagcatct catgaaatag atctattgca atgacaatac caatggcaac gcaaaatttt
+     1501 atggtacctc cagataccat ctactctcct caataatgac aat
+//
+

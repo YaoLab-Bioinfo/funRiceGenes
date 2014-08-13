@@ -1,0 +1,73 @@
+LOCUS       AJ304840                1407 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for ethylene responsive protein (ebp-89 gene).
+ACCESSION   AJ304840
+VERSION     AJ304840.1  GI:18369750
+KEYWORDS    ebp-89 gene; ethylene responsive protein.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yang,H.J.
+  JOURNAL   Thesis (2001) Department of Biological Sciences, University fo
+            Cambridge, Cambridge, United Kingdom
+REFERENCE   2  (bases 1 to 1407)
+  AUTHORS   Yang,H.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-DEC-2000) Yang H.J., Shanghai Institute for
+            Biological Science, CAS, Institute of Plant Physiology and Ecology,
+            300 Fenglin Road, Shanghai, 200032, CHINA
+FEATURES             Location/Qualifiers
+     source          1..1407
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1407
+                     /gene="ebp-89"
+     CDS             23..1003
+                     /gene="ebp-89"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="ethylene responsive protein"
+                     /protein_id="CAC83122.1"
+                     /db_xref="GI:18369751"
+                     /db_xref="GOA:Q8VXC3"
+                     /db_xref="HSSP:2GCC"
+                     /db_xref="InterPro:IPR001471"
+                     /db_xref="InterPro:IPR016177"
+                     /db_xref="UniProtKB/TrEMBL:Q8VXC3"
+                     /translation="MCGGAILADFTPARVPRRLTAAELLPVTPTPPAAERRTTRKRKS
+                     DVDFEAEFELFEDDDDDDEFELSDDGDESLAVSCVSSPKSKAVPSFSFSSDVSSSSRP
+                     RRRVAAAAAGRRKASKKSKYRGVRLRPSGRFAAEIRDPKKGRRVWLGTYGSAEEAAMA
+                     YDREARRIRGKGARLNFPRDGDGSPRRSNDRPCWTIDLNLPAAAVSGDDDDAMAVDAA
+                     DADAGSAGRAAAYADQEALSAAKCKIKQCPRDEQMASATPELMEEDASSSRNMVPLSM
+                     ALQLQYAAMIAECDREMEEIAAVERDLERRRRQVFERRGHLVRQASLLLD"
+ORIGIN      
+        1 agaaagaaga gcgcgccgcg ccatgtgcgg cggtgcgatc ctcgccgatt tcaccccggc
+       61 gagggtgccc cggcggctga ccgccgccga gctcctgccg gtgaccccga ctccccccgc
+      121 cgccgagagg agaaccaccc ggaagcgcaa gtccgacgtc gacttcgagg cggagttcga
+      181 gcttttcgag gacgacgacg acgacgatga gttcgagctt tccgacgatg gcgacgagag
+      241 tttggccgtg tcatgtgtgt cgtcccccaa gtcgaaggca gtaccttcgt tttctttttc
+      301 gtcggatgtc tcctcgagct ccaggccgcg gcggcgcgtg gcggcggcgg cggccggtcg
+      361 tcggaaggcg agcaagaaga gcaagtacag gggcgtccgg cttcggccgt cggggaggtt
+      421 cgcggcggag atcagggacc ccaagaaggg gcggcgcgtg tggctcggca cgtacggcag
+      481 cgccgaggag gccgccatgg cctacgaccg cgaggcccgc cgcatccgcg gcaagggcgc
+      541 gaggctcaac ttcccccgcg acggcgatgg ctcccctcgc cggagtaacg accggccctg
+      601 ctggaccatc gacctcaacc tccccgcggc ggccgtctcc ggtgacgacg acgacgccat
+      661 ggccgtcgac gccgcagacg cagacgcagg cagtgctggc cgtgcagcag cctatgcaga
+      721 tcaagaagca ttgagcgcgg caaagtgcaa gatcaagcag tgtcctcgcg acgaacagat
+      781 ggcgagcgcc acacctgagc tcatggagga ggacgcgagc agcagcagaa acatggtgcc
+      841 cctgtccatg gcgctgcagc tgcagtatgc ggcgatgatc gccgaatgcg accgcgagat
+      901 ggaggagatc gccgccgtgg agagggacct cgagaggcgc aggaggcagg tgttcgagcg
+      961 cagaggccac cttgtcaggc aggcctctct tctgctcgac tgacgatctt gctgaactga
+     1021 actctgaatg tttgagcttg tctgaagtct gaactctgca ctatgccata tggtgtttca
+     1081 ccttcactgt gaggctgaca tgtgggccag acgtccgttt gccttgcttg cttttgagct
+     1141 gcaactgggc gttgtgctgc aagcctgcaa agtgcctgtg taaagtttgt gggattgtgt
+     1201 gtgtggatct tgtatccttg tgactttgca agctttaatt ttgtgaggaa caatagtatt
+     1261 ttagcttgat gtgtaaaata tagaaataaa taatagtagc aactaaattt tggttttcag
+     1321 ctcttcatca gatggtttgt catgggaaca aaatttcaaa catgagcaaa ttaaggtcaa
+     1381 aaaaaaaaaa aaaaaaaaaa aaaaaaa
+//
+

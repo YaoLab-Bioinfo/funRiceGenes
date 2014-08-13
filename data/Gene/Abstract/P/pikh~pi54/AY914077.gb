@@ -1,0 +1,82 @@
+LOCUS       AY914077                1459 bp    DNA     linear   PLN 08-DEC-2005
+DEFINITION  Oryza sativa (indica cultivar-group) cultivar Tetep NBS-LRR (Pikh)
+            gene, partial cds.
+ACCESSION   AY914077
+VERSION     AY914077.1  GI:63103205
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1459)
+  AUTHORS   Sharma,T.R., Madhav,M.S., Singh,B.K., Shanker,P., Jana,T.K.,
+            Dalal,V., Pandit,A., Singh,A., Gaikwad,K., Upreti,H.C. and
+            Singh,N.K.
+  TITLE     High-resolution mapping, cloning and molecular characterization of
+            the Pi-k (h) gene of rice, which confers resistance to Magnaporthe
+            grisea
+  JOURNAL   Mol. Genet. Genomics 274 (6), 569-578 (2005)
+   PUBMED   16228246
+  REMARK    Erratum:[Mol Genet Genomics. 2005 Dec;274(6):671]
+REFERENCE   2  (bases 1 to 1459)
+  AUTHORS   Maganti,S.M., Sharma,T.R., Pandit,A., Dalal,V. and Singh,N.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JAN-2005) National Research Centre on Plant
+            Biotechnology, Indian Agricultural Research Institute, New Delhi,
+            Pusa Campus, New Delhi 110012, India
+FEATURES             Location/Qualifiers
+     source          1..1459
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Tetep"
+                     /db_xref="taxon:39946"
+                     /chromosome="11"
+                     /map="101.9 cM"
+     gene            complement(<452..>1442)
+                     /gene="Pikh"
+     mRNA            complement(<452..>1442)
+                     /gene="Pikh"
+                     /product="NBS-LRR"
+     CDS             complement(<452..1442)
+                     /gene="Pikh"
+                     /note="disease resistance protein; confers resistance to
+                     rice blast"
+                     /codon_start=1
+                     /product="NBS-LRR"
+                     /protein_id="AAY33493.1"
+                     /db_xref="GI:63103206"
+                     /translation="MSELQSLPDLNRLSLVNLEKVSDTEDARMAKLQEKEKLETLMLR
+                     WNMDAGNASRIDHEVLETLQPSQCLKTLEIVAYEGYVFPSWMTRTEPYLTSLVEIRLV
+                     NMRACEKALPPLGILPCLKIAEISGVDNLSSIGDNFYGHNGTFPSLEKLILSYMTSLE
+                     VWEQSSRMNLFPRLAELVIIQCPKLRALHMEFPSIEKLILWMNNKMLYSSKEGMRGVE
+                     KSLENLSISFCEELHASSGCEGLQALDRLKKLEICGCHELSCLPQGLQHLSSLTSLKI
+                     DNCNKLEILPEWLENLPFLQIMCLSGCPILHSIPEGLTCSDIIVEDCPNFKEPS"
+ORIGIN      
+        1 catgagttcc catttactat tcctctcttc taaccacatc cacaatgaga aatctaattc
+       61 gattttaaaa atgatctcca gttgcagaaa cagatcaaca ggttgatcat gaaattctct
+      121 gcttctgatc accaaattgg ccttccctta aatcgctgaa ctaatgtaaa actaatcttc
+      181 catgacgact attcgtttgc cctcgtgcag ctgtttttca cacaataata cgtcagaagt
+      241 gttgaaagaa acaacttcat atcgtgccaa ttcaactcaa gaggatatgt attaataact
+      301 gaacatgagt tcattcactt gaacatcaaa aagaaatagc aaggacaact aattgtttgt
+      361 ttaatctatc aaggctagtt caattgcttt aagaatagct caatgaaaat cataaacatg
+      421 gctttccatg aacagagcac tgatgacata cctgatggtt ctttaaaatt ggggcaatct
+      481 tcaacaataa tgtcgctaca tgttaggcct tcaggaatgg agtgcagaat tggacagcca
+      541 gacaaacaca ttatctgtag aaaaggtagg ttctccaacc attctggcaa aatctccaat
+      601 ttgttgcagt tatcaatttt caagctggtg agagaggaaa gatgctgcaa accctgtggg
+      661 aggcatgata attcatgaca accacatatc tccaacttct tgaggcgatc aagagcctgt
+      721 agaccctcac agcctgaaga agcatgcaac tcttcacaga aagaaattga aagattttcg
+      781 aggctcttct ctacacctct cataccttcc ttcgagctgt acaacatctt gttattcatc
+      841 cacaaaatca acttttcaat cgatggaaac tccatatgca gtgctctcaa ttttgggcac
+      901 tgaatgatga caagttctgc aagacgagga aacagattca tcctagatga ctgttcccag
+      961 acttcaaggc ttgtcatgta tgatagaatc agcttctcca gtgaagggaa tgtgccgtta
+     1021 tgaccataga aattatcacc aatagaactg agattatcaa ctccacttat ctctgcaatc
+     1081 ttcagacatg gtagtatccc aagtggaggt aatgcctttt cacatgctct catattaact
+     1141 agtcttatct caaccagaga tgtaagatat ggctcggttc ttgtcatcca agatggaaat
+     1201 acatatcctt catacgcaac aatctccaaa gttttcaggc actggctagg ttggagggtt
+     1261 tcaagtactt catgatctat tctactggca tttccagcat ccatattcca cctcaacatc
+     1321 aatgtctcga gcttttcttt ctcttgaagt tttgccattc ttgcatcttc agtgtctgaa
+     1381 accttttcaa ggttcactag tgatagtcta ttgaggtctg gcagtgattg aagctctgac
+     1441 attgcactac taccaatgt
+//
+

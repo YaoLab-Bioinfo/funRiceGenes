@@ -1,0 +1,79 @@
+LOCUS       BK005053                1141 bp    DNA     linear   PLN 03-FEB-2006
+DEFINITION  TPA_exp: Oryza sativa (indica cultivar-group) WRKY transcription
+            factor 51 (WRKY51) gene, complete cds.
+ACCESSION   BK005053
+VERSION     BK005053.1  GI:46394353
+KEYWORDS    Third Party Data; TPA; TPA:experimental.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1141)
+  AUTHORS   Zhang,Z.L., Xie,Z., Zou,X., Casaretto,J., Ho,T.H. and Shen,Q.J.
+  TITLE     A rice WRKY gene encodes a transcriptional repressor of the
+            gibberellin signaling pathway in aleurone cells
+  JOURNAL   Plant Physiol. 134 (4), 1500-1513 (2004)
+   PUBMED   15047897
+REFERENCE   2  (bases 1 to 1141)
+  AUTHORS   Xie,Z., Zhang,Z.L., Zou,X., Huang,J., Ruas,P., Thompson,D. and
+            Shen,Q.J.
+  TITLE     Annotations and Functional Analyses of the Rice WRKY Gene
+            Superfamily Reveal Positive and Negative Regulators of Abscisic
+            Acid Signaling in Aleurone Cells
+  JOURNAL   Plant Physiol. 137 (1), 176-189 (2005)
+   PUBMED   15618416
+REFERENCE   3  (bases 1 to 1141)
+  AUTHORS   Zhang,Z.-L., Xie,Z., Zou,X., Casaretto,J., Ho,T.-h.D. and Shen,Q.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2004) Department of Biological Sciences,
+            University of Nevada, Las Vegas, 4505 Maryland Parkway, Las Vegas,
+            NV 89154, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1141              AAAA01014518.1     2776-3916
+FEATURES             Location/Qualifiers
+     source          1..1141
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39946"
+     gene            <1..>1141
+                     /gene="WRKY51"
+                     /note="OsWRKY51"
+     mRNA            join(<1..686,755..880,961..>1141)
+                     /gene="WRKY51"
+                     /product="WRKY transcription factor 51"
+     CDS             join(1..686,755..880,961..1141)
+                     /gene="WRKY51"
+                     /codon_start=1
+                     /product="WRKY transcription factor 51"
+                     /protein_id="DAA05115.1"
+                     /db_xref="GI:46394354"
+                     /translation="MITMDLMSGYGRVDEQVAIQEAAAAGLRGMEHLILQLSQTGTSE
+                     RSPAPAPAQEQQQQQQVDCREITDMTVSKFKKVISMLNRTGHARFRRGPVVAQSSGPA
+                     ASEPAPVRSSPSAVSRPMTLDFTKAASGYGKDAGFSVSGISAASSSFLSSVTGDGSVS
+                     NGRGGGSSSLMLPPPPATSCGKPPLSSAAAAMSAGVGHKRKCHDHAHSENIAGGKYGS
+                     TGGRCHCSKRRKHRVKRTIRVPAISSKVADIPADDFSWRKYGQKPIKGSPFPRGYYKC
+                     STLRGCPARKHVERDPADPSMLIVTYEGEHRHTPSAAGQDHPPAPPPPLALPLA"
+ORIGIN      
+        1 atgattacca tggatctgat gagtgggtac gggcgggtgg acgagcaggt ggccatccag
+       61 gaggcggcgg cggcggggct gagggggatg gagcatctta ttctgcagct gtcccagact
+      121 gggacgagcg agaggtcgcc ggcgccggcg ccggcgcagg agcagcagca gcagcagcag
+      181 gtggactgca gggagatcac ggacatgacg gtgtccaagt tcaagaaggt gatctccatg
+      241 ctgaaccgca ccggccacgc gcggttccgg cggggcccgg tggtggcgca gtcgtctggc
+      301 ccggcggcgt ccgagccggc gccggtgagg tcgtccccgt cggcggtgtc gaggcccatg
+      361 acgctcgact tcaccaaggc ggcgtccgga tacggcaagg acgccgggtt cagcgtctcc
+      421 ggcatctccg ccgcgagctc gtccttcctc tcgtcggtca ccggcgacgg cagcgtgtcc
+      481 aacgggcgcg gcggcgggtc atcctccctg atgcttcccc caccgccggc gaccagctgc
+      541 ggcaagccac cgctgtcctc cgccgccgcc gccatgtcag ccggcgtcgg ccacaagcgc
+      601 aagtgccacg accacgcgca ctccgagaac atcgccggcg gcaagtacgg ctccaccggc
+      661 ggccgctgcc actgctccaa gcgccggtaa aaatcttcac gactccctcc atttccccca
+      721 cctcgaattg aactcatcgg aattaatttt ccaggaagca tcgggtgaag aggacgatcc
+      781 gcgtgccggc gataagctcg aaggtggcgg acatccccgc cgacgacttc tcgtggcgga
+      841 agtacgggca gaagcccatc aagggctccc ccttcccacg gtgagcaccg cactgccccg
+      901 ccgtctctcc tcactccgtc gacattaaca cttaaaacta atagtcgcct cattttttag
+      961 aggatactac aagtgcagca cgctgcgcgg gtgcccggcg aggaagcacg tggagcgcga
+     1021 ccccgccgac ccgtccatgc tcatcgtcac ctacgagggc gagcaccgcc acaccccctc
+     1081 cgccgccggc caggaccacc cgccggcgcc gcctccgccg ctggcgctgc cgctcgcctg
+     1141 a
+//
+

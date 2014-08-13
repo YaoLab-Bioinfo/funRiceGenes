@@ -1,0 +1,134 @@
+LOCUS       BN000704                3000 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  TPA_inf: Oryza sativa (japonica cultivar-group) lar gene for
+            leucanthocyanidin reductase, exons 1-5.
+ACCESSION   BN000704
+VERSION     BN000704.1  GI:76559881
+KEYWORDS    Third Party Data; TPA; lar gene; leucoanthocyanidin reductase;
+            TPA:INFERENTIAL.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Bogs,J., Downey,M.O., Harvey,J.S., Ashton,A.R., Tanner,G.J. and
+            Robinson,S.P.
+  TITLE     Proanthocyanidin synthesis and expression of genes encoding
+            leucoanthocyanidin reductase and anthocyanidin reductase in
+            developing grape berries and grapevine leaves
+  JOURNAL   Plant Physiol. 139 (2), 652-663 (2005)
+   PUBMED   16169968
+  REMARK    DOI: 10.1104/pp.105.064238.
+REFERENCE   2  (bases 1 to 3000)
+  AUTHORS   Ashton,A.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-NOV-2004) Ashton A.R., Plant Industry, CSIRO, PO Box
+            1600, Canberra City, ACT 2601, AUSTRALIA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-3000              AC125495.3         1-3000              c
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39947"
+     gene            <227..>1670
+                     /gene="lar"
+     CDS             join(227..451,538..687,796..1033,1125..1328,1411..1670)
+                     /gene="lar"
+                     /EC_number="1.17.1.3"
+                     /function="proanthocyanidin synthesis"
+                     /codon_start=1
+                     /product="leucanthocyanidin reductase"
+                     /protein_id="CAI56328.1"
+                     /db_xref="GI:76559882"
+                     /db_xref="GOA:Q3KN74"
+                     /db_xref="InterPro:IPR008030"
+                     /db_xref="InterPro:IPR016040"
+                     /db_xref="UniProtKB/TrEMBL:Q3KN74"
+                     /translation="MAPAAQELLLQEVPQPRRTGAALIVGATGYIGRFVAEACLDSGR
+                     DTFILVRPGNACPARAASVDALRQKGAVVIEGCVGGKEGRKSVEAALRARGVEVVISV
+                     MGGASILDQLGLIEAIRAAGTVKRFLPSEFGHDVDRARPVGAGLRFYEEKRLVRRAAE
+                     ASGVPYTFICCNSIAGWPYHDSTHPSELPPPLDRFQIYGDGDVRAFFVAGSDIGKFTI
+                     RAAYDARSINKIVHFRPACNLLSTNEMASLWESKIGRTLPRVTLTEEDLIAMAADDII
+                     PESIVASLTHDIFINGCQTHFYIDGPRDIEISSLYPDIPFRTIDECFDDYIHVLNLAE
+                     EAKEEEEKKNAPTVGRLAIPPTCA"
+     exon            <227..451
+                     /gene="lar"
+                     /number=1
+     intron          452..537
+                     /gene="lar"
+                     /number=1
+     exon            538..687
+                     /gene="lar"
+                     /number=2
+     intron          688..795
+                     /gene="lar"
+                     /number=2
+     exon            796..1033
+                     /gene="lar"
+                     /number=3
+     intron          1034..1124
+                     /gene="lar"
+                     /number=3
+     exon            1125..1328
+                     /gene="lar"
+                     /number=4
+     intron          1329..1410
+                     /gene="lar"
+                     /number=4
+     exon            1411..>1670
+                     /gene="lar"
+                     /number=5
+ORIGIN      
+        1 gccgtctatc acccgtacgt cgcacgaagg cggccatgtg tttacctact gttctctcct
+       61 gcctccacac tttctggcac ggtacaaaag ccatacatag ccacactgcc acactcattg
+      121 cgtgtgtgtc gaagacggcc gggcgctgct agatctacca agcactcgat cagctttcag
+      181 ctctgggtgt tagccagcaa gaacccatcg gtcgatcgat cgatccatgg cgcctgctgc
+      241 tcaggagctg ctgctgcaag aagtgccgca gcctcgccgc accggcgcgg ccctcatcgt
+      301 gggcgccacc ggctacatcg gccgtttcgt cgccgaggcc tgcctcgaca gcggccgcga
+      361 caccttcatc ctcgtccgcc ccgggaacgc ctgccccgcg cgcgccgcct ccgtcgacgc
+      421 gctccgccag aaaggcgccg tcgtcatcga ggtgattaga gtttaaaatt aaccaactta
+      481 gttaagcgcg cggaaatgaa cacatatttg gattcatggc gtgtgtgctc gtgacagggc
+      541 tgcgtcgggg ggaaggaggg gaggaagtcc gtggaggcgg cgctccgcgc gcgcggcgtc
+      601 gaggtggtga tctcggtgat gggcggcgcc agcatcctcg accagctcgg cctcatcgag
+      661 gccatccgag ctgcaggcac ggtcaaagta cgtacactac acattttaca tacgagcgcg
+      721 tgcatgcgcg cgtcgcacaa ctcggatttt tggcacgtaa agtttggtct gcgcggtgcg
+      781 tgtgcgtggg tgcagaggtt tctgccgtcg gagttcgggc acgacgtgga cagggcgcgg
+      841 ccggtggggg cggggctgag gttctacgag gagaagcggc tggtgcggcg ggcggcggag
+      901 gcgtcgggcg tgccgtacac cttcatctgc tgcaactcca tcgccggctg gccctaccac
+      961 gacagcacgc acccgtccga gctgccgccg ccgctcgacc gcttccagat ctacggcgac
+     1021 ggcgacgtca gaggtacgta gtacacgctc atgcttgcgc cgcatgatga aattcacctt
+     1081 cgatgcgatt ttgccaacgg tgtgctgcat gcgcgcgcgt gcagctttct tcgtggctgg
+     1141 aagcgacatt ggtaagttca ccatcagggc tgcctacgac gcccggagca tcaacaagat
+     1201 cgtgcacttc cgtcccgcct gcaatctcct cagcacgaac gagatggcgt cgctgtggga
+     1261 gagcaagatc ggccggacac tgccacgcgt gacgcttacc gaggaggact tgatcgccat
+     1321 ggctgcaggt ttggccacct aaaagaatac tctcgcgctc taaatggaat tttgtcatgg
+     1381 tgtatgatct attcatcatt ttgactgcag atgacatcat cccggagagc atagtcgctt
+     1441 cactgacgca tgacattttt ataaacggtt gccagacaca tttctacata gacgggccta
+     1501 gagacattga aatctcaagc ctttaccctg atattccctt cagaacaata gacgaatgct
+     1561 tcgacgacta catacatgtc ctcaacctag cagaggaagc taaagaagag gaggagaaga
+     1621 agaacgcgcc aacagttggg agattggcaa taccacctac ttgtgcttag gtcctcataa
+     1681 gaagtcctga aacaattacc ttctcgtgtt tcttccaccg tccatgtatc catccgattt
+     1741 gattgtctga aactatgttt tatttatgtg tatctatcta gaccatggaa ttgatgtacc
+     1801 attaattact acgtgtctgt ttggaagatg tttttattcc tttttagatt ggtttggcaa
+     1861 atttgaaatt atcatcatct caatatccaa cagttatgaa cggttcttat ccagtcaatt
+     1921 tatttctttt ttactataca tatagacata cattctaccc ccggatcccc cccccccaac
+     1981 acacacacac acacacacaa aaagtgagtg agagagagag agagagagag agagagagag
+     2041 agagagagag agagagatta acattcagca gttgaaggac cttggtttga ccacctgaaa
+     2101 agattatttt ttgaacgaaa cccctgaaaa gattattcat tttatgtatt actacagatg
+     2161 tttattcacc ctttcctaat gcagggggat gataaaagta caagtctgca agacggcaac
+     2221 aaactaacag tcttatttga gaaaaaaaaa acaatcattt atcaaccaac acaacttagc
+     2281 acgggtaaaa tttgaacttc tacccactaa cacgcttctc tagtcacaca attgtgtcgt
+     2341 caggttgttg accatgaaaa gttgagagcc ggactgattg cagtgcatgc cccgtcaaca
+     2401 gaaatgcatc ccatatgcaa aagccaagaa agatagcctt tttaaatact ccctccgtcc
+     2461 cataatataa gggattttaa tttttttctt acactgtttg accattcgtc ttattttttt
+     2521 taaaaaatag aattattatt tattttattt gtgacttact ttattatcca aagtacttta
+     2581 aacaaaactt tttgtttttt ttatatttgc acaatttttt taataagacg aatggtcaaa
+     2641 cagtgcaaga aaaaaaaaat aaaatccctt atattatggg acggagggag tatacgtttt
+     2701 cttgaacaac cgtcgttact tacaagcact actctgttag aacccacaac atgatctcaa
+     2761 tatccaacag tcatgatcag ttcttatcct agtcaatttt agtgtacata gatgtcaagg
+     2821 agagctatca ttttaaaccc cgatttttaa cctcagaaag ccatcagcat tttgcagttg
+     2881 aaggacccgc ttttccagta tgacagtatg gacgttgtca ttccattaac acttcagaca
+     2941 tcaaacaaaa ctttgatggt atgatatggc tgagaataaa tgactatgta cctcaagctt
+//
+

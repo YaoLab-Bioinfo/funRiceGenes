@@ -1,0 +1,62 @@
+LOCUS       OSU08404                1148 bp    mRNA    linear   PLN 09-FEB-1996
+DEFINITION  Oryza sativa chloroplast carbonic anhydrase mRNA, complete cds.
+ACCESSION   U08404
+VERSION     U08404.1  GI:606816
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1147)
+  AUTHORS   Suzuki,S. and Burnell,J.N.
+  TITLE     Rice carbonic anhydrase: Purification, location, and sequence
+            analysis of carbonic anhydrase from a monocotyledonous plant
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1148)
+  AUTHORS   Burnell,J.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-1994) James N. Burnell, Queensland University of
+            Technology, Centre for Molecular Biotechnology, Gardens Point Road,
+            Brisbane, Queensland 4001, Australia
+FEATURES             Location/Qualifiers
+     source          1..1148
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="leaf"
+                     /dev_stage="adult"
+     CDS             33..854
+                     /note="nuclear encoded, localized to chloroplast"
+                     /codon_start=1
+                     /product="carbonic anhydrase"
+                     /protein_id="AAA86943.1"
+                     /db_xref="GI:606817"
+                     /translation="MSTAAAAAAAQSWCFATVTPRSRATVVASLASPSPSSSSSSSSN
+                     SSNLPAPFRPRLIRNTPVFAAPVAPAAMDAAVDRLKDGFAKFKTEFYDKKPELFEPLK
+                     AGQAPKYMVFSCADSRVCPSVTMGLEPGEAFTVRNIANMVPAYCKIKHAGVGSAIEYA
+                     VCALKVELIVVIGHSRCGGIKALLSLKDGAPDSFHFVEDWVRTGFPAKKKVQTEHASL
+                     PFDDQCAILEKEAVNQSLENLKTYPFVKEGIANGTLKLVGGHYDFVSGNLDLWEP"
+ORIGIN      
+        1 gccgcgaatt cttccgccgt gcacctctca caatgtcgac cgccgccgcc gccgccgctg
+       61 cccagagctg gtgcttcgcc actgtcaccc cgcgctcccg cgccacagtc gtcgccagcc
+      121 tcgcctcccc atcaccgtcc tcctcctcct cctcctcctc caacagcagc aacctcccgg
+      181 cccccttccg cccccgcctc atccgcaaca cccccgtctt cgccgccccc gtcgcccccg
+      241 ccgcgatgga cgccgccgtc gaccgcctca aggatgggtt cgccaagttc aagaccgagt
+      301 tctatgacaa gaagccggag ctcttcgagc cgctcaaggc cggccaggca cccaagtaca
+      361 tggtgttctc gtgcgccgac tctcgcgtgt gcccgtcggt gaccatgggc ctggagcccg
+      421 gcgaggcctt caccgtccgc aacatcgcca acatggtccc agcttactgc aagatcaagc
+      481 acgctggcgt cgggtcggcc atcgagtacg ccgtctgcgc cctcaaggtc gaactcatcg
+      541 tggtgattgg ccacagccgc tgcggtggaa tcaaggccct cctctcactc aaggatggag
+      601 caccagactc cttccacttc gtcgaggact gggtcaggac cggtttcccc gccaagaaga
+      661 aggttcagac cgagcacgcc tcgctgcctt tcgatgacca atgcgccatc ttggagaagg
+      721 aggccgtgaa ccaatccctg gagaacctca agacctaccc gttcgtcaag gaggggatcg
+      781 ccaacggcac cctcaagctc gtcggcggcc actacgactt cgtctccggc aacttggact
+      841 tatgggagcc ctaaatccga ccgtccgtcc gttcagttcg tcagtttacg ccaacgcttt
+      901 tgcataagta ctacctgagg atatcgtccc cgatcatcga tgtgaacgcg tggagtacta
+      961 ctacgtacgt accggatggt tcgatatatg tgaatgctgt attaagtaat aacaagaaat
+     1021 atatctcctc tactttttcc tgacgcggag ttgtactgcc tatgatgcat aatttgatcg
+     1081 cagtgtgatc aaaagacatc agctataatg tcttaataat attattatga agagtttacc
+     1141 tttttact
+//
+

@@ -1,0 +1,77 @@
+LOCUS       AB046620                1348 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for OsDmc1 protein, complete cds.
+ACCESSION   AB046620
+VERSION     AB046620.1  GI:18389303
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ding,Z.-J., Wang,T., Chong,K. and Bai,S.-N.
+  TITLE     Isolation and characterization of OsDMC1, the rice homologue of the
+            yeast DMC1 gene essential for meiosis
+  JOURNAL   Sex. Plant Reprod. 13, 285-288 (2001)
+REFERENCE   2  (bases 1 to 1348)
+  AUTHORS   Wang,T. and Ding,J.Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUL-2000) Contact:Tai Wang Institute of Botany,
+            Chinese Academy of Sciences, Research Center for Plant Molecular
+            and Developmental Biology; 20 Nanxincun, Xiangshan, Beijing 100093,
+            China
+FEATURES             Location/Qualifiers
+     source          1..1348
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /tissue_type="spikelet"
+                     /dev_stage="early anther"
+     gene            1..1348
+                     /gene="OsDMC1"
+     CDS             46..1080
+                     /gene="OsDMC1"
+                     /note="yeast DMC1 homolog"
+                     /codon_start=1
+                     /product="OsDmc1 protein"
+                     /protein_id="BAB84121.1"
+                     /db_xref="GI:18389304"
+                     /translation="MAPSKQYDEGGQLQLMDAERIEEEEECFESIDKLISQGINSGDV
+                     KKLQDAGIYTCNGLMMHTKKSLTGIKGLSEAKVDKICEAAEKLLSQGFMTGSDLLIKR
+                     KSVVRITTGSQALDELLGGGIETLCITEAFGEFRSGKTQLAHTLCVSTQLPIHMHGGN
+                     GKVAYIDTEGTFRPERIVPIAERFGMDANAVLDNIIYARAYTYEHQYNLLLGLAAKMA
+                     EEPFRPLIVDSVIALFRVDFSGRGELAERQQKLAQMLSRLTKIAEEFNVAVYITNQVI
+                     ADPGGGMFITDLKKPAGGHVLAHAATIRLMLRKGKGEQRVCKIFDAPNLPEGEAVFQV
+                     TSGGIMDAKD"
+     polyA_signal    1168..1173
+                     /gene="OsDMC1"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+     polyA_site      1337
+                     /gene="OsDMC1"
+ORIGIN      
+        1 cgccggccgc ctccgcctac aggtgcgggg ggtctgtgtg agcagatggc gccgtccaag
+       61 cagtacgacg aaggcgggca gctccagctc atggatgcag agaggatcga ggaggaggag
+      121 gagtgcttcg agtccatcga caagttaatc tcgcaaggga taaactctgg agatgtgaag
+      181 aagctgcagg atgctggtat ctacacttgc aatggcctca tgatgcatac aaagaagagc
+      241 ctgacaggaa tcaagggatt atctgaagca aaggtagaca agatctgtga agcagctgaa
+      301 aagcttctga gccagggctt catgacagga agtgatctcc ttatcaagcg gaagtctgtt
+      361 gttcggatca ccactgggag ccaggcactt gatgagctgc ttggcggagg gattgaaaca
+      421 ctctgcatca cagaggcatt tggagagttc cgatcaggga agacccagtt ggctcacact
+      481 ctatgtgtct ccactcagct tccaattcac atgcatgggg ggaatgggaa ggtcgcttat
+      541 atcgatactg agggaacatt ccggcctgaa cgaattgtgc cgattgctga gagatttggg
+      601 atggatgcca atgctgttct tgataatatc atatatgctc gtgcatacac ctatgagcac
+      661 cagtacaacc ttctccttgg ccttgccgct aagatggctg aagagccttt caggcctctg
+      721 attgtggatt ctgtgatcgc actattccgt gtcgatttca gtggcagggg tgaacttgca
+      781 gagcgccagc aaaaattggc acagatgctc tcccgcctta ctaaaatagc tgaggagttc
+      841 aatgttgcag tgtacatcac caaccaagtg attgccgacc caggtggtgg aatgttcata
+      901 actgacctga aaaaaccagc gggaggccac gtgctggcgc atgcagctac catccggttg
+      961 atgctgagga aaggcaaagg agagcagcgt gtctgcaaga tctttgatgc ccctaacctg
+     1021 cctgagggag aagctgtttt ccaggtaaca tcaggtggaa taatggatgc gaaagactga
+     1081 atgttcattg agggtgcttc ctgtcttcaa attattcagg tttctcctag taaattcctg
+     1141 cataggccat ataggtttgg tacattgact aaactactac tgctactttg ccactgtcga
+     1201 ggaaatatgc aacctcattt atccagacga ttatacctta aaatgggtat ttttctatgc
+     1261 ttatgagatc aacagttgta ctgaaacaaa tacagtattg gcttaagtga aaatatataa
+     1321 gagggttaca tgatggtaaa aaaaaaaa
+//
+

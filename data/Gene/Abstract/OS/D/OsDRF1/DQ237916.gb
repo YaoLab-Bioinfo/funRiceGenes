@@ -1,0 +1,78 @@
+LOCUS       DQ237916                1421 bp    mRNA    linear   PLN 22-DEC-2008
+DEFINITION  Oryza sativa (indica cultivar-group) defense-related F-box protein
+            (DRF1) mRNA, complete cds.
+ACCESSION   DQ237916
+VERSION     DQ237916.1  GI:78498845
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1421)
+  AUTHORS   Cao,Y., Yang,Y., Zhang,H., Li,D., Zheng,Z. and Song,F.
+  TITLE     Overexpression of a rice defense-related F-box protein gene OsDRF1
+            in tobacco improves disease resistance through potentiation of
+            defense gene expression
+  JOURNAL   Physiol Plant 134 (3), 440-452 (2008)
+   PUBMED   18573188
+REFERENCE   2  (bases 1 to 1421)
+  AUTHORS   Cao,Y., Song,F. and Zheng,Z.
+  TITLE     Involvement of a rice defense-related F-box protein gene, OsDRF1,
+            in disease resistance and abscisic acid responses
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1421)
+  AUTHORS   Cao,Y., Song,F. and Zheng,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-OCT-2005) Institute of Biotechnology, Zhejiang
+            University, 268 Kaixuan Road, Hangzhou, Zhejiang 310029, People's
+            Republic of China
+FEATURES             Location/Qualifiers
+     source          1..1421
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+                     /dev_stage="seedling"
+                     /note="authority: Oryza sativa L."
+     gene            1..1421
+                     /gene="DRF1"
+     CDS             107..1093
+                     /gene="DRF1"
+                     /note="OsDRF1"
+                     /codon_start=1
+                     /product="defense-related F-box protein"
+                     /protein_id="ABB45381.1"
+                     /db_xref="GI:78498846"
+                     /translation="MASSDVSVDVQPEFNSFDHLRSIRYIATDRPWLTLYGIRVQPVT
+                     PFSSLSSRPDLALIHQCLPDELLFEIFARMSPYSLGRAACVCRKWKYTVRNPTLWRNA
+                     CLKTWQRTGMEANYQMVQSLYDSSWRKMWMLRPRIQFDGLYVSRNTYIHTGTAEWQFT
+                     KTVNVVCYYRYLRFFPSGKFLYKISPQKIKDVVKCMHFRASKGDCVFKGDYVLSEDGQ
+                     IELALLYPGRRYTLVRMRLKLRSHNSWAQLTRLDVLKILTTGVNATELRNWKGSVLEL
+                     VETWDEDETHDPEVPAVTHSRGLTPFVFVPFEEADTSVMNLPVEKMDYFVPG"
+ORIGIN      
+        1 agctcgcgcg cacgcacgca cgctgggcgc ttcttcttcc cccgcgcatc gtccgaaatc
+       61 ctccggattt tctgaggaat ccccccgaat ttccttgcgt cccatcatgg cctcctcaga
+      121 tgtctccgtt gatgttcagc cagagtttaa ctcttttgat catttgagaa gcatacgata
+      181 tattgcaaca gatagaccat ggctgacgtt atatggaata agagttcaac ctgtaacacc
+      241 attcagcagt ttgagcagta gacctgatct ggcactcatt catcaatgcc tacctgatga
+      301 gctgcttttt gagatctttg caaggatgag tccatattct ttagggaggg ctgcttgtgt
+      361 gtgtcgcaag tggaaatata ctgtacgcaa tccgactttg tggcggaatg cttgcctcaa
+      421 aacttggcag aggactggaa tggaggctaa ctaccagatg gtgcagtcgc tatatgattc
+      481 ttcttggagg aaaatgtgga tgctgagacc aagaatccaa tttgacggtc tttatgttag
+      541 taggaacaca tatatccata cggggactgc ggagtggcag ttcacaaaaa ctgtcaatgt
+      601 ggtttgctac tatcgttact tgagattttt tccaagtgga aaattcctct acaagatttc
+      661 cccacagaag attaaggatg ttgtcaagtg catgcatttc cgggcatcca aaggtgattg
+      721 tgtatttaaa ggcgactacg tattgtcaga ggatggccag atagaactgg cactcctgta
+      781 tccagggcgt cgctacacac tagttaggat gcgcctcaag cttagaagcc acaactcttg
+      841 ggcgcaacta acaaggttgg atgtattgaa gatcttaacc accggggtga atgcaaccga
+      901 actgagaaac tggaaaggca gcgtgcttga acttgtggag acctgggatg aggatgagac
+      961 gcatgatcca gaagttcctg ctgttaccca cagcaggggt ttgaccccat ttgtgtttgt
+     1021 tccatttgag gaggctgata cttcagtgat gaatctgcca gtggagaaga tggactactt
+     1081 tgtccctggg tgatcttgcg cacaaataat agtttttcca agatatatga tgaagacgca
+     1141 atttcgctga tgttagggca ataatgtgca tacaccatca gacgtcagtc tttgttcaat
+     1201 ttcatgctca tgttgcttgt atactgttgt atgaataatg ctatgttttg ttggtgcttg
+     1261 aaagcaaaca ttttgttgga ccatcctccc gcagcaataa tggtccaata cttactagta
+     1321 catggtgttg ccttgtaaat agatcatggt gcaactgatg aaacaataca tttgtggctc
+     1381 agtacatttc tcaccaaaaa aaaaaaaaaa aaaaaaaaaa a
+//
+

@@ -1,0 +1,83 @@
+LOCUS       X14245                  1553 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  Oryza sativa shoot GS1 mRNA for cytosolic glutamine synthetase (EC
+            6.3.1.2) (clone lambda-GS28).
+ACCESSION   X14245
+VERSION     X14245.1  GI:20367
+KEYWORDS    glutamate-ammonia ligase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1553)
+  AUTHORS   Sakamoto,A., Ogawa,M., Masumura,T., Shibata,D., Takeba,G.,
+            Tanaka,K. and Fujii,S.
+  TITLE     Three cDNA sequences coding for glutamine synthetase polypeptides
+            in Oryza sativa L
+  JOURNAL   Plant Mol. Biol. 13 (5), 611-614 (1989)
+   PUBMED   2577497
+REFERENCE   2  (bases 1 to 1553)
+  AUTHORS   Sakamoto,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JAN-1989) Sakamoto A., Lab of Biochemistry, Faculty
+            of Agriculture, Kyoto Prefectural University, Shimogamo, Kyoto 606,
+            Japan
+COMMENT     See X14244-X14246 for other glutamine synthetase sequences.
+FEATURES             Location/Qualifiers
+     source          1..1553
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Kinmaze"
+                     /db_xref="taxon:39947"
+                     /clone="lambda RGS28"
+                     /clone_lib="shoot cDNA"
+                     /dev_stage="2 week seedling"
+     CDS             55..1125
+                     /note="unnamed protein product; cytosolic glutamine
+                     synthetase (AA 1-356)"
+                     /codon_start=1
+                     /protein_id="CAA32461.1"
+                     /db_xref="GI:20368"
+                     /db_xref="GOA:P14656"
+                     /db_xref="InterPro:IPR008146"
+                     /db_xref="InterPro:IPR008147"
+                     /db_xref="InterPro:IPR014746"
+                     /db_xref="UniProtKB/Swiss-Prot:P14656"
+                     /translation="MASLTDLVNLNLSDTTEKIIAEYIWIGGSGMDLRSKARTLSGPV
+                     TDPSKLPKWNYDGSSTGQAPGEDSEVILYPQAIFKDPFRKGNNILVMCDCYTPAGEPI
+                     PTNKRHNAAKIFSSPEVASEEPWYGIEQEYTLLQKDINWPLGWPVGGFPGPQGPYYCG
+                     IGADKSFGRDIVDSHYKACLYAGINISGINGEVMPGQWEFQVGPSVGISAGDQVWVAR
+                     YILERITEIAGVVVSFDPKPIPGDWNGAGAHTNYSTKSMRNDGGYEIIKSAIEKLKLR
+                     HKEHISAYGEGNERRLTGRHETADINTFSWGVANRGASVRVGRETEQNGKGYFEDRRP
+                     ASNMDPYIVTSMIAETTIIWKP"
+     polyA_site      1553
+                     /note="polyA site"
+ORIGIN      
+        1 accctccttg ttacagctgt gccgcctctt gcttcctcct cctcatcgtc cgccatggct
+       61 tctctcaccg atctcgtcaa cctcaacctc tccgacacca cggagaagat catcgccgag
+      121 tacatatgga tcggtggatc tggcatggat ctcaggagca aggctaggac tctctccggc
+      181 cctgtgactg atcccagcaa gctgcccaag tggaactacg atggctccag caccggccag
+      241 gcccccggcg aggacagtga ggtcatcctg tacccacagg ctatcttcaa ggacccattc
+      301 aggaagggaa acaacatcct tgtcatgtgc gattgctaca cgccagccgg agaaccgatc
+      361 cccaccaaca agaggcacaa tgctgccaag atcttcagct cccctgaggt tgcttctgag
+      421 gagccctggt acggtattga gcaagagtac accctcctcc agaaggacat caactggccc
+      481 cttggctggc ctgttggtgg cttccctggt cctcagggtc cttactactg tggtatcggt
+      541 gctgacaagt cttttgggcg tgatattgtt gactcccact acaaggcttg cctctatgcc
+      601 ggcatcaaca tcagtggaat caacggcgag gtcatgccag gacagtggga gttccaagtt
+      661 ggcccgtctg tcggcatttc tgccggtgat caggtgtggg ttgctcgcta cattcttgag
+      721 aggatcaccg agatcgccgg agtcgtcgtc tcatttgacc ccaagcccat cccgggagac
+      781 tggaacggtg ctggtgctca caccaactac agcaccaagt cgatgaggaa cgatggtggc
+      841 tacgagatca tcaagtccgc cattgagaag ctcaagctca ggcacaagga gcacatctcc
+      901 gcctacggcg agggcaacga gcgccggctc accggcaggc acgagaccgc cgacatcaac
+      961 accttcagct ggggagttgc caaccgcggc gcctcggtcc gcgtcggccg ggagacggag
+     1021 cagaacggca agggctactt cgaggatcgc cggccggcgt ccaacatgga cccttacatc
+     1081 gtcacctcca tgatcgccga gaccaccatc atctggaagc cctgaagcgg cttcttgacg
+     1141 ccacgacatc ctcgtcatcg tcctccccag ctcgccgtgt cgctccggtt gctccattga
+     1201 tcggacgatc tggtgaattg catttgtgct gggagaagta aaaaaaaaag gaaagagaaa
+     1261 aaaaagaaaa tcacgccaaa aaaaattctc attccatttc gatttggttg catgctacca
+     1321 ctactactac attgctcatc tgccatttag attagctcct ttttcttcgt cttttgggtg
+     1381 agtgcgtttg ggtgctcttg tgtaatcctc caataatggc cgtacctacg gtacttgtcc
+     1441 catcctgtgg atcatcgtcc tcctttccac atgtggtttt atcatcattg ttattagtga
+     1501 tcacctttat ataaagttct tgctgggctt ccaatagccg tggcttttgc gtt
+//
+

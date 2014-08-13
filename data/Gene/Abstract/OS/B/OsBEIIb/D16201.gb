@@ -1,0 +1,109 @@
+LOCUS       RICBCE3                 2918 bp    mRNA    linear   PLN 11-JAN-2003
+DEFINITION  Oryza sativa mRNA for branching enzyme-3, complete cds.
+ACCESSION   D16201
+VERSION     D16201.1  GI:436051
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2918)
+  AUTHORS   Mizuno,K., Kawasaki,T., Shimada,H., Satoh,H., Kobayashi,E.,
+            Okumura,S., Arai,Y. and Baba,T.
+  TITLE     Alteration of the structural properties of starch components by the
+            lack of an isoform of starch branching enzyme in rice seeds
+  JOURNAL   J. Biol. Chem. 268 (25), 19084-19091 (1993)
+   PUBMED   8360192
+REFERENCE   2  (bases 1 to 2918)
+  AUTHORS   Baba,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAY-1993) Tadashi Baba, University of Tsukuba,
+            Institute of Applied Biochemistry; Tennohdai 1-1-1, Tsukuba Science
+            City, Ibaraki 305, Japan (Tel:81-298-53-6632, Fax:81-298-53-6632)
+FEATURES             Location/Qualifiers
+     source          1..2918
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /dev_stage="immature seed"
+                     /note="clones RB[31, 32 and 33]"
+     5'UTR           1..127
+     CDS             128..2605
+                     /EC_number="2.4.1.18"
+                     /codon_start=1
+                     /product="branching enzyme-3 precursor"
+                     /protein_id="BAA03738.1"
+                     /db_xref="GI:436052"
+                     /translation="MAAPASAVPGSAAGLRAGAVRFPVPAGARSWRAAAELPTSRSLL
+                     SGRRFPGAVRVGGSGGRVAVRAAGASGEVMIPEGESDGMPVSAGSDDLQLPALDDELS
+                     TEVGAEVEIESSGASDVEGVKRVVEELAAEQKPRVVPPTGDGQKIFQMDSMLNGYKYH
+                     LEYRYSLYRRLRSDIDQYEGGLETFSRGYEKFGFNHSAEGVTYREWAPGAHSAALVGD
+                     FNNWNPNADRMSKNEFGVWEIFLPNNADGSSPIPHGSRVKVRMETPSGIKDSIPAWIK
+                     YSVQAAGEIPYNGIYYDPPEEEKYIFKHPQPKRPKSLRIYETHVGMSSTEPKINTYAN
+                     FRDEVLPRIKKLGYNAVQIMAIQEHAYYGSFGYHVTNFFAPSSRFGTPEDLKSLIDKA
+                     HELGLVVLMDVVHSHASNNTLDGLNGFDGTDTHYFHSGSRGHHWMWDSRLFNYGNWEV
+                     LRFLLSNARWWLEEYKFDGFRFDGVTSMMYTHHGLQVAFTGNYSEYFGFATDADAVVY
+                     LMLVNDLIHGLYPEAITIGEDVSGMPTFALPVQDGGVGFDYRLHMAVPDKWIELLKQS
+                     DESWKMGDIVHTLTNRRWSEKCVTYAESHDQALVGDKTIAFWLMDKDMYDFMALDRPA
+                     TPSIDRGIALHKMIRLITMGLGGEGYLNFMGNEFGHPEWIDFPRAPQVLPNGKFIPGN
+                     NNSYDKCRRRFDLGDADYLRYRGMLEFDRAMQSLEEKYGFMTSDHQYISRKHEEDKMI
+                     IFEKGDLVFVFNFHWSNSYFDYRVGCLKPGKYKVVLDSDAGLFGGFGRIHHTAEHFTA
+                     DCSHDNRPYSFSVYSPSRTCVVYAPAE"
+     transit_peptide 128..322
+     mat_peptide     323..2602
+                     /product="branching enzyme-3"
+                     /EC_number="2.4.1.18"
+     3'UTR           2606..2918
+ORIGIN      
+        1 cggcgcacac ccacacaccg accaccaggc agcgcctcct cgctttggct ctcgcgtgag
+       61 gagggtttag gtggaagcag agcgcggggg ttgccggggg atccgatccg gctgcggtgc
+      121 gggcgagatg gcggcgccgg cgtctgcggt tcccgggagc gcggcggggc tacgggcggg
+      181 ggccgtgcgg ttccccgtgc cagccggggc ccggagctgg cgtgcggcgg cggagctccc
+      241 gacgtcgcgg tcgctgctct ccggccggag attccccggt gccgttcgcg tggggggttc
+      301 cggggggcgc gtggccgtgc gcgcggcggg cgcgtcaggg gaggtgatga tccccgaggg
+      361 cgagagcgac gggatgccgg tttcagcagg ttcagacgat ctgcagttgc cagccttaga
+      421 tgatgaatta agcacggagg ttggagctga agttgagatt gagtcatctg gagcaagtga
+      481 cgttgaaggc gtgaagagag tggttgaaga attagctgct gagcagaaac cacgagttgt
+      541 cccaccaaca ggagatgggc aaaaaatatt ccagatggac tctatgctta atggctataa
+      601 gtaccatctt gaatatcgat atagcctata taggagactg cgttcagaca ttgatcagta
+      661 tgaaggagga ctggaaacat tttctcgcgg ttatgagaag tttggattta atcacagtgc
+      721 tgaaggtgtc acttatcgag aatgggctcc cggggcacat tctgcagcat tagtaggtga
+      781 cttcaacaat tggaatccaa atgcagaccg catgagcaaa aatgagtttg gtgtttggga
+      841 gatttttctg cctaacaatg ctgatggctc atctcctatt ccacatggct cacgtgtaaa
+      901 ggtgcgaatg gaaactccat ctggtataaa ggattctatt cctgcctgga tcaagtactc
+      961 tgtgcaggcc gcaggagaaa tcccatacaa tggaatatat tatgatcctc ctgaagagga
+     1021 gaagtacata ttcaagcatc ctcaacctaa aagaccaaag tcattgcgga tatacgaaac
+     1081 tcatgttgga atgagtagca cggagccaaa gatcaacacg tatgcaaact ttagggatga
+     1141 ggtgcttcca agaatcaaaa agcttggata caatgcagtg caaataatgg caattcaaga
+     1201 gcatgcatat tatggaagct ttgggtacca tgtcaccaat ttctttgcac caagtagtcg
+     1261 tttcgggacc ccagaagatt taaagtcatt gattgataaa gctcatgagc ttggtttagt
+     1321 tgtgctcatg gatgttgttc acagccatgc gtcaaataat accctagatg ggttgaacgg
+     1381 ttttgatggt acagatacgc attactttca tagtggttca cgcggccatc attggatgtg
+     1441 ggattctcgc cttttcaact atgggaattg ggaagttcta agatttctac tatccaatgc
+     1501 aagatggtgg ctcgaggagt ataagtttga tggtttcaga tttgacggtg taacctcaat
+     1561 gatgtacact catcatggat tacaagtagc atttacgggg aactacagtg aatactttgg
+     1621 atttgccact gatgctgatg cagtagttta cttgatgctg gtaaatgatt taattcatgg
+     1681 actttatcct gaggccataa ccatcggtga agatgtcagt ggaatgccta catttgccct
+     1741 tcctgttcaa gatggtgggg ttggttttga ttatcgcctt catatggctg ttcctgacaa
+     1801 atggattgaa ctcctcaagc aaagtgatga atcttggaag atgggtgata ttgtgcacac
+     1861 actgactaac agaaggtggt cagagaagtg tgttacttat gctgaaagtc atgatcaagc
+     1921 actagttggt gacaaaacta ttgcattctg gttgatggac aaggatatgt atgattttat
+     1981 ggctctggac agaccggcaa cacctagcat tgatcgtgga atagcattgc ataaaatgat
+     2041 tagacttatc acaatggggt taggaggaga aggctatctt aactttatgg gaaatgagtt
+     2101 cggacatcct gaatggattg attttccaag agctccacaa gtacttccaa atggtaaatt
+     2161 catcccaggg aataacaaca gttatgataa atgccgtcga agatttgacc tgggtgatgc
+     2221 ggactatctt aggtatcgtg gcatgctaga gtttgaccgc gcgatgcagt ctctcgagga
+     2281 aaaatatggg ttcatgacat cagaccacca gtacatatct cgaaagcatg aagaggataa
+     2341 gatgattata tttgagaagg gagatctggt atttgtgttc aacttccatt ggagtaacag
+     2401 ctattttgac taccgtgttg gttgtttaaa gccagggaaa tataaggtgg tcttggactc
+     2461 agatgctgga ctctttggtg gatttggcag gatccatcac actgcagagc acttcactgc
+     2521 cgattgttca catgacaaca ggccctactc gttctcagtt tattctccta gcagaacctg
+     2581 cgttgtctat gctccagcgg aatgagaaca ccaagaggca gcatgcaagt gtgtgcggct
+     2641 gctagtgcga aggagcaaga aaaactagtt gccagcaatc tgtgaacggc tttcctaggt
+     2701 tctgcttcga tgaatgccgg atagactaga cagcttgctt ttgtgctttg cgctcccaat
+     2761 ttgtagtttt agtttgtgag ggaaagaaac gtttatttgt aattatctat ggctgtcgaa
+     2821 cggcgacgaa accatgaacc ccgtatattt gttggtaccg ttcgaactgc cagttataca
+     2881 tagttctgca cttctgtaca tcttgtgatg cttgaatc
+//
+

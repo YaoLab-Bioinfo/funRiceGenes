@@ -1,0 +1,91 @@
+LOCUS       AB021878                2313 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsNHX1 mRNA, complete cds.
+ACCESSION   AB021878
+VERSION     AB021878.1  GI:5731736
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Fukuda,A., Nakamura,A. and Tanaka,Y.
+  TITLE     Molecular cloning and expression of the Na+/H+ exchanger gene in
+            Oryza sativa
+  JOURNAL   Biochim. Biophys. Acta 1446 (1-2), 149-155 (1999)
+   PUBMED   10395929
+REFERENCE   2  (bases 1 to 2313)
+  AUTHORS   Fukuda,A., Tanaka,Y. and Nakamura,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-DEC-1998) Contact:Atsunori Fukuda National Institute
+            of Agrobiological Resources, Department of Plant Physiology;
+            Kannondai 2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..2313
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..2313
+                     /gene="OsNHX1"
+     CDS             297..1904
+                     /gene="OsNHX1"
+                     /note="similar to yeast sodium/proton exchanger"
+                     /codon_start=1
+                     /protein_id="BAA83337.1"
+                     /db_xref="GI:5731737"
+                     /translation="MGMEVAAARLGALYTTSDYASVVSINLFVALLCACIVLGHLLEE
+                     NRWVNESITALIIGLCTGVVILLMTKGKSSHLFVFSEDLFFIYLLPPIIFNAGFQVKK
+                     KQFFRNFMTITLFGAVGTMISFFTISIAAIAIFSRMNIGTLDVGDFLAIGAIFSATDS
+                     VCTLQVLNQDETPFLYSLVFGEGVVNDATSIVLFNALQNFDLVHIDAAVVLKFLGNFF
+                     YLFLSSTFLGVFAGLLSAYIIKKLYIGRHSTDREVALMMLMAYLSYMLAELLDLSGIL
+                     TVFFCGIVMSHYTWHNVTESSRVTTKHAFATLSFIAETFLFLYVGMDALDIEKWEFAS
+                     DRPGKSIGISSILLGLVLIGRAAFVFPLSFLSNLTKKAPNEKITWRQQVVIWWAGLMR
+                     GAVSIALAYNKFTRSGHTQLHGNAIMITSTITVVLFSTMVFGMMTKPLIRLLLPASGH
+                     PVTSEPSSPKSLHSPLLTSMQGSDLESTTNIVRPSSLRMLLTKPTHTVHYYWRKFDDA
+                     LMRPMFGGRGFVPFSPGSPTEQSHGGR"
+     polyA_site      2313
+                     /gene="OsNHX1"
+                     /note="17 a nucleotides"
+ORIGIN      
+        1 gagaagagag ttttgtagcg agctcgcgcg aatgcgaagc caaccgagag aggtctcgat
+       61 accaaatccc gatttctcaa cctgaatccc ccccccacgt tcctcgtttc aatctgttcg
+      121 tctgcgaatc gaattctttg tttttttttc tctaatttta ccgggaattg tcgaattagg
+      181 cattcaccaa cgagcaagag gggagtggat tggttggtta aagctccgca tcttgcggcg
+      241 gaaatctcgc tctcttctct gcggtgggtg gccggagaag tcgccgccgg tgaggcatgg
+      301 ggatggaggt ggcggcggcg cggctggggg ctctgtacac gacctccgac tacgcgtcgg
+      361 tggtgtccat caacctgttc gtcgcgctgc tctgcgcctg catcgtcctc ggccacctcc
+      421 tcgaggagaa tcgctgggtc aatgagtcca tcaccgcgct catcatcggg ctctgcaccg
+      481 gcgtggtgat cttgctgatg accaaaggga agagctcgca cttattcgtc ttcagtgagg
+      541 atctcttctt catctacctc ctccctccga tcatcttcaa tgcaggtttt caggtaaaga
+      601 aaaagcaatt cttccggaat ttcatgacga tcacattatt tggagccgtc gggacaatga
+      661 tatccttttt cacaatatct attgctgcca ttgcaatatt cagcagaatg aacattggaa
+      721 cgctggatgt aggagatttt cttgcaattg gagccatctt ttctgcgaca gattctgtct
+      781 gcacattgca ggtcctcaat caggatgaga cacccttttt gtacagtctg gtattcggtg
+      841 aaggtgttgt gaacgatgct acatcaattg tgcttttcaa cgcactacag aactttgatc
+      901 ttgtccacat agatgcggct gtcgttctga aattcttggg gaacttcttt tatttatttt
+      961 tgtcgagcac cttccttgga gtatttgctg gattgctcag tgcatacata atcaagaagc
+     1021 tatacattgg aaggcattct actgaccgtg aggttgccct tatgatgctc atggcttacc
+     1081 tttcatatat gctggctgag ttgctagatt tgagcggcat tctcaccgta ttcttctgtg
+     1141 gtattgtaat gtcacattac acttggcata acgtcacaga gagttcaaga gttacaacaa
+     1201 agcacgcatt tgcaactctg tccttcattg ctgagacttt tctcttcctg tatgttggga
+     1261 tggatgcatt ggatattgaa aaatgggagt ttgccagtga cagacctggc aaatccattg
+     1321 ggataagctc aattttgcta ggattggttc tgattggaag agctgctttt gtattcccgc
+     1381 tgtcgttctt gtcgaaccta acaaagaagg caccgaatga aaaaataacc tggagacagc
+     1441 aagttgtaat atggtgggct gggctgatga gaggagctgt gtcgattgct cttgcttaca
+     1501 ataagtttac aagatctggc catactcagc tgcacggcaa tgcaataatg atcaccagca
+     1561 ccatcactgt cgttcttttt agcactatgg tatttgggat gatgacaaag ccattgatca
+     1621 ggctgctgct accggcctca ggccatcctg tcacctctga gccttcatca ccaaagtccc
+     1681 tgcattctcc tctcctgaca agcatgcaag gttctgacct cgagagtaca accaacattg
+     1741 tgaggccttc cagcctccgg atgctcctca ccaagccgac ccacactgtc cactactact
+     1801 ggcgcaagtt cgacgacgcg ctgatgcgac cgatgtttgg cgggcgcggg ttcgtgccct
+     1861 tctcccctgg atcaccaacc gagcagagcc atggaggaag atgaacagtg caaagaaatg
+     1921 agaatggaat ggttgatgag gagaatacat gtaaaatgtg acagcaaaag agagaaggca
+     1981 agttttgggt ttgtagagtt tggctgctgc taatgagttg ttgatagtgc ctatattctt
+     2041 cagaacttca gatggtgcct caccaaggcc taagagccag gaggaccttc tgataatggt
+     2101 tcgggatgat tggtttgttc tgtcaggatg aaccctagtg agtgacacag ggtgatgtgc
+     2161 tccgacaacc tgtaaatttt gtagattaac agccccattt gtacctgtct accatcttta
+     2221 gttggcgggt gttctttcct agttgccacc ctgcatgtaa aatgaaattc tccgccaaaa
+     2281 tagatttgtg tgtataataa ttttgcttgg ttg
+//
+

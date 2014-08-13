@@ -1,0 +1,76 @@
+LOCUS       AY429651                1517 bp    mRNA    linear   PLN 01-NOV-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) glutelin type-B (GluB) mRNA,
+            complete cds.
+ACCESSION   AY429651
+VERSION     AY429651.1  GI:37993737
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1517)
+  AUTHORS   Wan,J.M., Niu,H.B., Zhai,H.Q., Wang,C.M. and Jiang,L.
+  TITLE     Glutelin precursor gene (Oryza sativa)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1517)
+  AUTHORS   Wan,J.M., Niu,H.B., Zhai,H.Q., Wang,C.M. and Jiang,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-OCT-2003) Nanjing Agricultural University, State Key
+            Laboratory of Crop Genetics and Germplasm Enhancement, Jiangsu
+            Research Center of Plant Gene Engineering, Weigang 1, Nanjing,
+            Jiangsu 210095, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..1517
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="japonica"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+     gene            1..1517
+                     /gene="GluB"
+     CDS             4..1491
+                     /gene="GluB"
+                     /note="storage protein"
+                     /codon_start=1
+                     /product="glutelin type-B"
+                     /protein_id="AAR06952.1"
+                     /db_xref="GI:37993738"
+                     /translation="MTISVFSRFSIYFCVLLLCNGSMAQLFDPATNQWQTHRQGSFRE
+                     CRFERLQAFEPLQNVRSEAGVTEYFDETNELFQCTGTFVIRRVIQPQGLLIPRYANTP
+                     GMVYIIQGRGSMGLTFPGCPATYQQQSQQFLFQGESQSQKFIDEHQKIHQFRQGDIVV
+                     LPTGVAHWFYNDGDTPVVALYVYDINNSANQLEPRHREFLLAGKNNRVQQVYGRSIQQ
+                     HSGQNIFNGFSVEPLSEALNINTVTTKRLQSQNDQRGEIIHVKNGLQLLKPTLTQRQE
+                     QEQAQYQEVQYSEKPQTSSRWNGLEENLCTIKTRLNIENPSRADSYDPRAGRITSLDS
+                     QKFPILNIIQMSATRVNLYQNAILTPFWNVNAHSLMYVIRGRARVQVVSNFGKTVFDG
+                     VLRPEQLLIIPQNYVVLKKAQHEGCQYIAINTNANAFVSHLAGVDSVFHALPVDVIAN
+                     AYCISREEARRLKNNRGDEYGPFPPRLQQQIYPEFSNESKGETSE"
+ORIGIN      
+        1 gctatgacta tttccgtttt ctctcgattt tctatatact tttgtgttct tctcttgtgc
+       61 aatggatcta tggcccaact atttgatcca gccacaaacc aatggcaaac tcatcgacaa
+      121 ggaagcttta gggagtgtag atttgagaga ctacaagcat ttgagcctct tcagaatgtg
+      181 aggtcggaag ctggtgtgac cgagtacttt gatgagacga atgaattgtt tcagtgcaca
+      241 ggtacatttg tcatccgacg tgttattcaa cctcaaggcc ttctaatacc tcgatacgcc
+      301 aatactcctg gcatggtcta catcatccaa ggaagaggtt ctatgggtct aaccttccct
+      361 ggatgccccg caacttacca gcagcaatcc caacagtttt tgtttcaagg cgaaagtcag
+      421 agccaaaagt ttatagatga gcaccaaaag attcatcaat ttaggcaagg tgatatcgtt
+      481 gtactcccaa caggtgttgc acattggttc tacaatgatg gtgacacgcc tgttgttgcc
+      541 ctatatgttt atgacataaa caatagcgct aatcaacttg aaccaaggca tagggagttc
+      601 ttattggctg gtaagaacaa tagggtacaa caagtgtatg gtcgctcaat tcagcaacac
+      661 tctgggcaaa acatattcaa tggattcagt gttgagccac taagtgaggc tttaaacatc
+      721 aacacagtaa caacaaagag gctacaaagc caaaatgacc aaagaggaga gatcatacat
+      781 gtaaagaatg gccttcaatt gctgaaacca actttgacac aacgacaaga acaagaacaa
+      841 gctcaatacc aagaagtcca atatagtgaa aaaccacaaa catcttcccg atggaacggt
+      901 ttagaggaga acttgtgcac aatcaagacg aggttaaaca ttgaaaatcc aagtcgtgct
+      961 gattcatacg atccacgtgc tggaaggatc acaagtcttg atagtcagaa attccctatc
+     1021 cttaatatca tccaaatgag tgctactaga gtaaatctat accagaatgc tattctcaca
+     1081 ccattctgga atgtaaatgc tcatagtttg atgtatgtga ttcgagggcg tgctcgagtc
+     1141 caagtcgtca gtaactttgg aaagactgtg ttcgacggtg ttcttcgtcc agaacaacta
+     1201 ttgattattc cacaaaacta tgttgtctta aagaaagcac aacatgaagg atgccaatat
+     1261 attgcaatca acacaaacgc taatgccttc gtgagccacc ttgcaggggt agactcagta
+     1321 ttccatgcct taccagttga tgttatcgct aatgcgtatt gcatctcaag ggaagaggct
+     1381 cgaagactca agaacaacag gggagacgag tatggtccat tccctcctag attacaacaa
+     1441 caaatctacc cagaattctc gaatgaatct aaaggcgaga cttcagagta atgtaactaa
+     1501 gatctaatat taggaaa
+//
+

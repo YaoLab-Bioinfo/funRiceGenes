@@ -1,0 +1,50 @@
+LOCUS       AB055076                 505 bp    mRNA    linear   PLN 16-DEC-2009
+DEFINITION  Oryza sativa Japonica Group mRNA for mitochondrial ATP synthase 6
+            KD subunit, complete cds.
+ACCESSION   AB055076
+VERSION     AB055076.1  GI:12597250
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Zhang,X., Takano,T. and Liu,S.
+  TITLE     Identification of a mitochondrial ATP synthase small subunit gene
+            (RMtATP6) expressed in response to salts and osmotic stresses in
+            rice (Oryza sativa L.)
+  JOURNAL   J. Exp. Bot. 57 (1), 193-200 (2006)
+   PUBMED   16317034
+REFERENCE   2  (bases 1 to 505)
+  AUTHORS   Takano,T. and Liu,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JAN-2001) Contact:Tetsuo Takano Asian Natural
+            Environmental Science Center, The University of Tokyo; 1-1-1
+            Midori-cho, Nishi-tokyo, Tokyo 188-0002, Japan
+FEATURES             Location/Qualifiers
+     source          1..505
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /country="Japan"
+     CDS             85..261
+                     /codon_start=1
+                     /product="mitochondrial ATP synthase 6 KD subunit"
+                     /protein_id="BAB21526.1"
+                     /db_xref="GI:12597251"
+                     /translation="MFFSRFDPWPVFFRREWKRCWPFLTGFAVTGAIITKMTAGLTEE
+                     DLKNSKFVQAHKKH"
+ORIGIN      
+        1 atcgagaaaa aagcgaaagg acctcttgac cccccaacca caccgaggcc gccgcggagg
+       61 aggaggaaga ggaggagatc gaggatgttt ttcagccgct tcgatccgtg gccggtgttc
+      121 ttccggaggg agtggaagcg ctgctggccc ttcctcaccg gcttcgccgt caccggcgcc
+      181 atcatcacca agatgaccgc cggcctcacc gaggaggacc tcaagaactc caagttcgtc
+      241 caggcgcaca agaagcactg atctgatccg tgcctccatg gtgaaggaac agctggtatt
+      301 gcctaagtct tcagtttggc ctatttttct gttccaaatg aacctacctg ttttttgttt
+      361 atccatttgg gtggacaacc gctccagttg tatctaataa gaggcgtttg aatctttgga
+      421 ccaaaaaatt tgagcttctg gtataaacct gtaatactct tcaaaaaaaa aaaanaaaaa
+      481 naaaaanaaa aaaaaaaaaa aaaaa
+//
+

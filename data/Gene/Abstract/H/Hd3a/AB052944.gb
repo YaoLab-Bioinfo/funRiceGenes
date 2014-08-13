@@ -1,0 +1,62 @@
+LOCUS       AB052944                 847 bp    mRNA    linear   PLN 30-OCT-2013
+DEFINITION  Oryza sativa Japonica Group Hd3a mRNA, complete cds,
+            cultivar:Nipponbare.
+ACCESSION   AB052944
+VERSION     AB052944.1  GI:14517623
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kojima,S., Takahashi,Y., Kobayashi,Y., Monna,L., Sasaki,T.,
+            Araki,T. and Yano,M.
+  TITLE     Hd3a, a rice ortholog of the Arabidopsis FT gene, promotes
+            transition to flowering downstream of Hd1 under short-day
+            conditions
+  JOURNAL   Plant Cell Physiol. 43 (10), 1096-1105 (2002)
+   PUBMED   12407188
+  REMARK    DOI:10.1093/pcp/pcf156
+REFERENCE   2  (bases 1 to 847)
+  AUTHORS   Yano,M. and Kojima,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-DEC-2000) Contact:Masahiro Yano National Institute of
+            Agrobiological Resources, Department of Molecular Genetics; 2-1-2
+            Kannondai, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..847
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+     gene            1..847
+                     /gene="Hd3a"
+     CDS             153..692
+                     /gene="Hd3a"
+                     /codon_start=1
+                     /protein_id="BAB61030.1"
+                     /db_xref="GI:14517624"
+                     /translation="MAGSGRDRDPLVVGRVVGDVLDAFVRSTNLKVTYGSKTVSNGCE
+                     LKPSMVTHQPRVEVGGNDMRTFYTLVMVDPDAPSPSDPNLREYLHWLVTDIPGTTAAS
+                     FGQEVMCYESPRPTMGIHRLVFVLFQQLGRQTVYAPGWRQNFNTKDFAELYNLGSPVA
+                     AVYFNCQREAGSGGRRVYP"
+ORIGIN      
+        1 tgcaccacac acagttcagc tagcagatca cctagctaga tagctgcctc tatcacagta
+       61 tatttgctcc ctgcaacttg ctgctgctgc aatagctagc agctgcagct agtaagcaaa
+      121 actataaacc ttcagggttt tttgcaagat cgatggccgg aagtggcagg gacagggacc
+      181 ctcttgtggt tggtagggtt gtgggtgatg tgctggacgc gttcgtccgg agcaccaacc
+      241 tcaaggtcac ctatggctcc aagaccgtgt ccaatggctg cgagctcaag ccgtccatgg
+      301 tcacccacca gcctagggtc gaggtcggcg gcaatgacat gaggacattc tacacccttg
+      361 tgatggtaga cccagatgca ccaagcccaa gtgaccctaa ccttagggag tatctacatt
+      421 ggttggtcac tgatattcct ggtactactg cagcgtcatt tgggcaagag gtgatgtgct
+      481 acgagagccc aaggccaacc atggggatcc accggctggt gttcgtgctg ttccagcagc
+      541 tggggcgtca gacagtgtac gcgcccgggt ggcgtcagaa cttcaacacc aaggacttcg
+      601 ccgagctcta caacctcggc tcgccggtcg ccgccgtcta cttcaactgc cagcgcgagg
+      661 caggctccgg cggcaggagg gtctacccct agctaacgat gatcccgatc gatctgctgc
+      721 atgctcacta tcatcatcca gcatgctata cattgcaggt tcagacaatt gaaatgattc
+      781 tcgacacaca acatatatat gatggtgtaa ttaattatgc aattaaatag ctgagcaagg
+      841 ctaaggt
+//
+

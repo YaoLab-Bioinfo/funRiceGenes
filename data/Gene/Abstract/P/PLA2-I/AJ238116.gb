@@ -1,0 +1,75 @@
+LOCUS       AJ238116                 804 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for putative phospholipase A2, isoform I.
+ACCESSION   AJ238116
+VERSION     AJ238116.1  GI:4585705
+KEYWORDS    phospholipase a2; pla2-I gene.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Stahl,U., Lee,M., Sjoedahl,S., Acher,D., Cellini,F., Ek,B.,
+            Iannacone,R., MacKenzie,D.A., Semeraro,L., Tramontano,E. and
+            Stymne,S.
+  TITLE     Plant low-molecular-weight phospholipase A2S (PLA2s) are
+            structurally related to the animal secretory PLA2s and are present
+            as a family of isoforms in rice (Oryza sativa)
+  JOURNAL   Plant Mol. Biol. 41 (4), 481-490 (1999)
+   PUBMED   10608658
+REFERENCE   2  (bases 1 to 804)
+  AUTHORS   Stahl,U.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-APR-1999) Stahl U., Department of Plant Biology,
+            Swedish University of Agricultural Sciences, Box 7080, 75007
+            Uppsala, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..804
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="green shoot"
+                     /dev_stage="8 days old green shoot"
+     gene            1..804
+                     /gene="pla2-I"
+     CDS             31..447
+                     /gene="pla2-I"
+                     /EC_number="3.1.1.4"
+                     /function="in lipid degradation by hydrolysing the sn-2
+                     acyl group of phospholipids."
+                     /codon_start=1
+                     /product="putative phospholipase A2"
+                     /protein_id="CAB40841.1"
+                     /db_xref="GI:4585706"
+                     /db_xref="GOA:Q9XG80"
+                     /db_xref="HSSP:1L8S"
+                     /db_xref="InterPro:IPR013090"
+                     /db_xref="InterPro:IPR016090"
+                     /db_xref="UniProtKB/Swiss-Prot:Q9XG80"
+                     /translation="MPPRSPLLALVFLAAGVLSSATSPPPPPCSRSCAALNCDSVGIR
+                     YGKYCGVGWSGCDGEEPCDDLDACCRDHDHCVDKKGLMSVKCHEKFKNCMRKVKKAGK
+                     IGFSRKCPYEMAMATMTSGMDMAIMLSQLGTQKLEL"
+     sig_peptide     31..87
+                     /gene="pla2-I"
+     mat_peptide     88..444
+                     /gene="pla2-I"
+                     /product="putative phospholipase A2"
+                     /EC_number="3.1.1.4"
+ORIGIN      
+        1 aattcaccat cccatccaat cttgacgacg atgccgccga gatcgccgct tctcgccctc
+       61 gtcttcctcg ccgccggcgt cctatcctcg gccacctctc cgcctccgcc gccgtgcagc
+      121 cgctcgtgcg ccgccctcaa ctgcgactcc gtagggatcc ggtatggcaa gtactgcggc
+      181 gttggctgga gcggctgcga tggagaggag ccctgcgatg acctcgacgc ctgctgccgc
+      241 gaccacgacc actgcgtcga caagaaaggt ctgatgagtg tgaaatgcca tgagaaattc
+      301 aaaaactgca tgaggaaggt aaaaaaggct ggcaagattg gcttctctag gaaatgcccg
+      361 tacgagatgg ctatggcaac aatgacctca gggatggaca tggccatcat gctcagtcag
+      421 ttgggcaccc agaagttgga actgtagctt taatttggct tctccttacg gaggtactcc
+      481 atttcttaga tgatggttaa ccgtatttga ttgcaccaaa gtttgatttt ttttttacag
+      541 gaatgtattg atttgggcag cctaaaaaga tttcttttcc ccttgctgca caatttgcag
+      601 catatagtat tttttttgta caagagattt ggcatgtaaa ctgaaccaaa tgttccggct
+      661 cactgggtat gggtaaaaag ggttttcctt tcctttatgc tgtaacatta tccatttact
+      721 ttgctttgat acgttggatc agtaggggtc tggatctctt taacataata atgtaacact
+      781 cctgagtctc tgagcatgtt atgg
+//
+

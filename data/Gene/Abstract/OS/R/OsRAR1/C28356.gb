@@ -1,0 +1,43 @@
+LOCUS       C28356                   424 bp    mRNA    linear   EST 04-APR-2002
+DEFINITION  C28356 Rice callus cDNA Oryza sativa Japonica Group cDNA clone
+            C60815_1A, mRNA sequence.
+ACCESSION   C28356
+VERSION     C28356.1  GI:2312201
+DBLINK      BioSample: LIBEST_000961
+KEYWORDS    EST.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 424)
+  AUTHORS   Yamamoto,K. and Sasaki,T.
+  TITLE     Rice cDNA from callus 1997
+  JOURNAL   Unpublished (1997)
+COMMENT     Contact: Takuji Sasaki
+            National Institute of Agrobiological Resources
+            Rice Genome Research Program, Kannondai 2-1-2, Tsukuba, Ibaraki
+            305-8602, Japan
+            Email: URL:http://rgp.dna.affrc.go.jp/
+            PROJECT ='RGP'.
+FEATURES             Location/Qualifiers
+     source          1..424
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="C60815_1A"
+                     /tissue_type="callus"
+                     /dev_stage="callus"
+                     /clone_lib="LIBEST_000961 Rice callus cDNA"
+ORIGIN      
+        1 agagaggcca caggcggcgg cggcanagcg gaagtctctc gtctcgtccg tggagaaagg
+       61 gggaagacga agatgtcgac ggaggcggag accaccagcn ncgccgcccc cgcccccgcc
+      121 cccgcccccg catcggcgcc ggcgcggtgc cagcggatag gctgcgacgc cacgttcacc
+      181 gacgacaaca accccgacgg ctcctgccaa taccacccct ccggacctat gtttcatgat
+      241 ggcatgaaac agtggagttg ctgtaagaaa aaaagccatg attttagcct atttttggct
+      301 attcctgggt gcaaaactgg aaagcacaca actgagaaac caatcacaaa agcagttnct
+      361 actaaaccat caaaggcagt tccagtncag actttggagg cagagtnttg ggagcttgac
+      421 actt
+//
+

@@ -1,0 +1,68 @@
+LOCUS       OSU37936                 775 bp    mRNA    linear   PLN 10-AUG-1999
+DEFINITION  Oryza sativa clone pFDRSC61 novel calmodulin-like protein mRNA,
+            complete cds.
+ACCESSION   U37936
+VERSION     U37936.1  GI:1235663
+KEYWORDS    calmodulin; farnesyl group binding site; CAAX box.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 775)
+  AUTHORS   Xiao,C., Xin,H., Dong,A., Sun,C. and Cao,K.
+  TITLE     A novel calmodulin-like protein gene in rice which has an unusual
+            prolonged C-terminal sequence carrying a putative prenylation site
+  JOURNAL   DNA Res. 6 (3), 179-181 (1999)
+   PUBMED   10470849
+REFERENCE   2  (bases 1 to 775)
+  AUTHORS   Xiao,C., Xin,H. and Cao,K.
+  TITLE     Sequencing of the cDNA encoding a novel calmodulin-like protein
+            with the CAAX box (farnesyl group binding site) from rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 775)
+  AUTHORS   Xiao,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-OCT-1995) C. Xiao, Biochemistry, Fudan University,
+            Handan Road 220#, Shanghai 200433, People's Republic of China
+COMMENT     On Mar 22, 1996 this sequence version replaced gi:1036867.
+FEATURES             Location/Qualifiers
+     source          1..775
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /cultivar="Guang Lu Ai 4"
+                     /db_xref="taxon:4530"
+                     /clone="pFDRSC61"
+                     /tissue_type="shoot"
+                     /clone_lib="FDRSC"
+                     /dev_stage="etiolate"
+     5'UTR           1..70
+     CDS             71..634
+                     /note="C-terminal of this sequence contains a CAAX box
+                     which is common in signal transport protein, but not in
+                     calmodulin"
+                     /codon_start=1
+                     /product="novel calmodulin-like protein"
+                     /protein_id="AAA98933.1"
+                     /db_xref="GI:1235664"
+                     /translation="MADQLSEEQIVEFREAFSLFDKDGDGSITTKELGTVMRSLGQNP
+                     TEAELQDMISEVDADSNGNIEFKEFLGLMARKLRDKDSEEELKEAFRVFDKDQNGFIS
+                     AAELRHVMANIGERLTDEEVGEMISEADVDGDGQINYEEFVKCMMAKKRRKRIEEKRE
+                     HDGGSRTKSAGPSAAPASKRGQKCVIL"
+     3'UTR           635..775
+ORIGIN      
+        1 cacctccaca ccattagcca tcaacgacca gcatctcggc tttgctcgcc ttctcgaagc
+       61 ttctgctgcc atggcggacc agctctccga agagcagatt gtagagttca gggaggcctt
+      121 cagcctcttc gacaaggacg gcgacggttc tatcaccacc aaggagctag gaaccgtgat
+      181 gcgaagtctg gggcagaacc caacagaggc ggagctgcag gacatgatca gcgaggtgga
+      241 cgcggacagc aacggcaaca tcgaattcaa ggagttcctg ggcctgatgg cgcgcaagct
+      301 gagggacaag gactccgagg aggagctgaa ggaggcgttc cgcgtcttcg acaaggacca
+      361 gaacggcttc atctccgccg ccgagctccg ccacgtgatg gccaacatcg gggagcggct
+      421 caccgacgag gaggtcggcg agatgatcag cgaggccgac gtcgacggcg acgggcagat
+      481 caactacgag gagttcgtca agtgcatgat ggccaagaag aggaggaaga ggatagagga
+      541 gaagagggag cacgacggcg gcagcaggac gaagagtgca gggccctccg ccgcgccggc
+      601 gagcaagcgt ggccagaagt gcgtgatcct gtaataattg agccagcact gagattctca
+      661 tgagtcaatg agctacacga atgatgtgtg ttgttgtaaa atggcaaaac aattgtgtgg
+      721 gcgtgtagta tgatgctcca ctgaaagatc gagaaataac actggccagt gcaag
+//
+

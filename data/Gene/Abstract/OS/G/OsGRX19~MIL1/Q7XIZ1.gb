@@ -1,0 +1,119 @@
+LOCUS       GRXC9_ORYSJ              192 aa            linear   PLN 19-FEB-2014
+DEFINITION  RecName: Full=Glutaredoxin-C9.
+ACCESSION   Q7XIZ1
+VERSION     Q7XIZ1.1  GI:75142699
+DBSOURCE    UniProtKB: locus GRXC9_ORYSJ, accession Q7XIZ1;
+            class: standard.
+            created: Dec 12, 2006.
+            sequence updated: Oct 1, 2003.
+            annotation updated: Feb 19, 2014.
+            xrefs: AP003704.3, BAC79508.1, AP006163.4, BAD31906.1
+            xrefs (non-sequence databases): ProteinModelPortal:Q7XIZ1,
+            EnsemblPlants:OS07T0151100-00, EnsemblPlants:OS07T0151100-00,
+            EnsemblPlants:OS07G0151100, Gramene:Q7XIZ1, eggNOG:NOG317221,
+            HOGENOM:HOG000242134, OMA:MSCHING, GO:0005737, GO:0005634,
+            GO:0009055, GO:0015035, GO:0045454, Gene3D:3.40.30.10,
+            InterPro:IPR011905, InterPro:IPR002109, InterPro:IPR012336,
+            Pfam:PF00462, SUPFAM:SSF52833, TIGRFAMs:TIGR02189, PROSITE:PS51354
+KEYWORDS    Complete proteome; Cytoplasm; Disulfide bond; Electron transport;
+            Nucleus; Redox-active center; Reference proteome; Transport.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 192)
+  CONSRTM   International Rice Genome Sequencing Project
+  TITLE     The map-based sequence of the rice genome
+  JOURNAL   Nature 436 (7052), 793-800 (2005)
+   PUBMED   16100779
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   2  (residues 1 to 192)
+  AUTHORS   Rouhier,N., Couturier,J. and Jacquot,J.P.
+  TITLE     Genome-wide analysis of plant glutaredoxin systems
+  JOURNAL   J. Exp. Bot. 57 (8), 1685-1696 (2006)
+   PUBMED   16720602
+  REMARK    GENE FAMILY.
+COMMENT     [FUNCTION] Has a glutathione-disulfide oxidoreductase activity in
+            the presence of NADPH and glutathione reductase. Reduces low
+            molecular weight disulfides and proteins (By similarity).
+            [SUBCELLULAR LOCATION] Cytoplasm (By similarity). Nucleus (By
+            similarity).
+            [SIMILARITY] Belongs to the glutaredoxin family. CC-type subfamily.
+            [SIMILARITY] Contains 1 glutaredoxin domain.
+FEATURES             Location/Qualifiers
+     source          1..192
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+     gene            1..192
+                     /gene="GRXC9"
+                     /locus_tag="Os07g0151100"
+                     /gene_synonym="B1364A02.2"
+                     /gene_synonym="LOC_Os07g05630"
+                     /gene_synonym="OJ1048_C10.3"
+     Protein         1..192
+                     /gene="GRXC9"
+                     /locus_tag="Os07g0151100"
+                     /gene_synonym="B1364A02.2"
+                     /gene_synonym="LOC_Os07g05630"
+                     /gene_synonym="OJ1048_C10.3"
+                     /product="Glutaredoxin-C9"
+                     /UniProtKB_evidence="Inferred from homology"
+     Region          1..192
+                     /gene="GRXC9"
+                     /locus_tag="Os07g0151100"
+                     /gene_synonym="B1364A02.2"
+                     /gene_synonym="LOC_Os07g05630"
+                     /gene_synonym="OJ1048_C10.3"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Glutaredoxin-C9. /FTId=PRO_0000269670."
+     Region          89..191
+                     /gene="GRXC9"
+                     /locus_tag="Os07g0151100"
+                     /gene_synonym="B1364A02.2"
+                     /gene_synonym="LOC_Os07g05630"
+                     /gene_synonym="OJ1048_C10.3"
+                     /region_name="Domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Glutaredoxin."
+     Region          92..192
+                     /gene="GRXC9"
+                     /locus_tag="Os07g0151100"
+                     /gene_synonym="B1364A02.2"
+                     /gene_synonym="LOC_Os07g05630"
+                     /gene_synonym="OJ1048_C10.3"
+                     /region_name="GlrX-like_plant"
+                     /note="Glutaredoxin-like family; TIGR02189"
+                     /db_xref="CDD:233771"
+     Bond            bond(109,112)
+                     /gene="GRXC9"
+                     /locus_tag="Os07g0151100"
+                     /gene_synonym="B1364A02.2"
+                     /gene_synonym="LOC_Os07g05630"
+                     /gene_synonym="OJ1048_C10.3"
+                     /bond_type="disulfide"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Redox-active (By similarity)."
+     Region          189..192
+                     /gene="GRXC9"
+                     /locus_tag="Os07g0151100"
+                     /gene_synonym="B1364A02.2"
+                     /gene_synonym="LOC_Os07g05630"
+                     /gene_synonym="OJ1048_C10.3"
+                     /region_name="Short sequence motif of biological interest"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Responsive for interaction with TGA factors (By
+                     similarity)."
+ORIGIN      
+        1 mservfaela tihyqkslpc rhsfdpprtt pilhlyiihl llppliaivc lcyiaivpfe
+       61 eeeermrmqv vetaaveeee aaaammsvye rvarmasgna vvvfsasgcc mchvvkrlll
+      121 glgvgpavye ldqlaaaadi qaalsqllpp gqppvpvvfv ggrllggvek vmachingtl
+      181 vpllkqagal wl
+//
+

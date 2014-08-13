@@ -1,0 +1,58 @@
+LOCUS       HM369059                 855 bp    mRNA    linear   PLN 06-SEP-2010
+DEFINITION  Oryza sativa Indica Group UreG mRNA, complete cds.
+ACCESSION   HM369059
+VERSION     HM369059.1  GI:301344552
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 855)
+  AUTHORS   Cao,F.Q., Werner,A.K., Dahncke,K., Romeis,T., Liu,L.H. and
+            Witte,C.P.
+  TITLE     Identification and characterization of proteins involved in rice
+            urea and arginine catabolism
+  JOURNAL   Plant Physiol. 154 (1), 98-108 (2010)
+   PUBMED   20631318
+REFERENCE   2  (bases 1 to 855)
+  AUTHORS   Cao,F.-Q., Dahncke,K., Liu,L.H., Romeis,T., Werner,A.K. and
+            Witte,C.-P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAY-2010) Biochemistry of Plants, Freie Universitaet,
+            Koenigin-Luise-Str. 12-16, Berlin, Berlin 14195, Germany
+FEATURES             Location/Qualifiers
+     source          1..855
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Hunan Late 2"
+                     /db_xref="taxon:39946"
+     CDS             1..855
+                     /codon_start=1
+                     /product="UreG"
+                     /protein_id="ADK73998.1"
+                     /db_xref="GI:301344553"
+                     /translation="MASHDHDHHHHHHHSHDDGDHHHSHHQDGSHGGGGGSWVGEDGR
+                     VWHSHDGLAPHSHEPIYSPGDFSKRAPPLISRRFAERAFTVGIGGPVGTGKTALMLAL
+                     CRSLREKYSLAAVTNDIFTKEDGEFLIKHGALPEERIRAVETGGCPHAAIREDISINL
+                     GPLEELSNLYKADLLLCESGGDNLAANFSRELADYIIYIIDVSGGDKIPRKGGPGITQ
+                     ADLLIINKTDLAPAVGADLAVMERDALRMREGGPFVFAQVKHGVGVEEIVNHILQAWE
+                     IATGNKRR"
+ORIGIN      
+        1 atggcgtctc acgaccacga ccaccaccac caccaccacc acagccacga cgacggcgac
+       61 caccaccatt cccaccacca ggacggcagc catggcggcg gcggcggctc gtgggtcggg
+      121 gaggacgggc gcgtgtggca ctcgcacgac ggcctcgcgc cgcactccca cgagcccatc
+      181 tactcccccg gcgacttctc caagcgcgcg ccgccgctca tatcgcggcg cttcgcggaa
+      241 cgcgccttca ccgtcggcat cggtggtccc gtcggcactg ggaaaactgc cctgatgcta
+      301 gcactttgca ggtccctgcg tgaaaaatat agtctcgcag cggttacaaa tgatatattc
+      361 acaaaagagg atggagaatt cttgatcaaa catggagcac tgcctgaaga gcgcatccgt
+      421 gcagtcgaaa ctggaggctg ccctcacgct gcaatacgtg aggacatcag cataaatcta
+      481 ggtcctctgg aagaactatc aaacttgtac aaagctgatt tactcctctg tgaatctgga
+      541 ggagataact tggctgccaa cttcagcagg gaactggcag actacataat ctacatcatc
+      601 gatgtttctg gtggggacaa aataccaaga aaaggtggcc ctgggataac ccaagcagat
+      661 cttttgataa taaacaagac agaccttgca ccagcagttg gagctgacct ggctgtaatg
+      721 gaacgagatg cgcttcgcat gcgggaagga gggccttttg tctttgcaca ggtgaaacat
+      781 ggagtcggcg tggaggaaat tgtgaaccac atcctgcaag cttgggagat cgccaccggc
+      841 aacaagcgtc gatag
+//
+

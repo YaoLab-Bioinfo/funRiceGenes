@@ -1,0 +1,78 @@
+LOCUS       AF050180                1521 bp    mRNA    linear   PLN 03-MAR-1999
+DEFINITION  Oryza sativa strain Indica IR58 KNOX class homeodomain protein
+            (Oskn2) mRNA, complete cds.
+ACCESSION   AF050180
+VERSION     AF050180.1  GI:2935572
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1521)
+  AUTHORS   Postma-Haarsma,A.D., Verwoert,I.I., Stronk,O.P., Koster,J.,
+            Lamers,G.E., Hoge,J.H. and Meijer,A.H.
+  TITLE     Characterization of the KNOX class homeobox genes Oskn2 and Oskn3
+            identified in a collection of cDNA libraries covering the early
+            stages of rice embryogenesis
+  JOURNAL   Plant Mol. Biol. 39 (2), 257-271 (1999)
+   PUBMED   10080693
+REFERENCE   2  (bases 1 to 1521)
+  AUTHORS   Postma-Haarsma,A.D., Verwoert,I.I.G.S., Stronk,O.P., Koster,J.,
+            Lamers,G.E.M., Hoge,J.H.C. and Meijer,A.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-1998) Institute of Molecular Plant Sciences,
+            Leiden University, Clusius Laboratory, Wassenaarseweg 64, Leiden
+            2333 AL, The Netherlands
+FEATURES             Location/Qualifiers
+     source          1..1521
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR58"
+                     /db_xref="taxon:39946"
+                     /dev_stage="early zygotic embryo"
+     gene            1..1521
+                     /gene="Oskn2"
+                     /note="homeobox gene"
+     CDS             316..1251
+                     /gene="Oskn2"
+                     /function="transcription factor"
+                     /codon_start=1
+                     /product="KNOX class homeodomain protein"
+                     /protein_id="AAC32817.1"
+                     /db_xref="GI:2935573"
+                     /translation="MEDLYSIHPGISRGGGGGGGGAASEASGVAGGGSSPPHPPPPAT
+                     TAAAADLTELMKAQIAGHPSYPSLLSAYIECRKVGAPPEVTTLLEEIGREGRGGGGGA
+                     TAGGEIGLDPELDEFMETYCRVLERYKEELTRPFDEAASFLTGIHTQLASLCGGAPPP
+                     TDNSDEMVGSSEDEPCSGDADAADFGQEHSSRLADHELKEMLLKKYSGCLSRLRSEFL
+                     KKRKKGKLPKDARSALMDWWNTHYRWPYPTEEDKVRLAAMTGLDPKQINNWFINQRKR
+                     HWKPSEDMRFALMEGVTGGSSSGTTLYFDTGTIGP"
+ORIGIN      
+        1 tgctgctcca gcagcagagg ctgcagtgca atccgctgcc aaattcctct tcttctcctt
+       61 cctactagct tttctcttct tcttcttctt cttcttggaa agctggaact tggagctgct
+      121 taagcttaca cctgctgatt catctccagc tgctgctgct gctgattcag tattattatg
+      181 tgtggagatg tacagtagat gaggaggaag gaagtagcta ctggatagct agctgagctg
+      241 agctaagctg agctaagctt cttggctagg taggtagcta gaggtgaggt gaggtggggg
+      301 aagaggggat tggacatgga ggatctgtac agcatccacc cgggaatctc ccgcggcggc
+      361 ggtgggggag gaggaggtgc ggccagcgag gcgtccgggg tcgccggagg ggggagctcg
+      421 ccgccgcatc ccccaccgcc ggcgacgacg gcggcggcgg cggatctgac ggagctgatg
+      481 aaggcgcaga tcgccggcca cccgagctac ccttccctcc tctccgccta catcgaatgc
+      541 cgcaaggttg gtgcgccgcc ggaggtgacc acgctgctgg aggagatagg ccgggagggg
+      601 cgcggcggcg gcggcggcgc gacagccggc ggggaaattg gcctcgatcc ggagctcgac
+      661 gagttcatgg agacgtactg ccgggtgctg gagcggtaca aggaagaact cacgcggccg
+      721 ttcgacgagg cggcctcctt cctcaccggc atccacaccc agctcgcctc cctctgtggc
+      781 ggcgcgccgc cgcccaccga caactccgat gaaatggtgg ggtcttcaga ggatgagccg
+      841 tgctcaggag acgccgatgc agcagatttt gggcaagaac acagctcccg cttggctgac
+      901 catgagctca aagagatgtt gctcaagaag tacagtggct gcctcagccg cctccggtcc
+      961 gagttcttga agaagaggaa gaaagggaaa ctaccgaaag acgcgcgatc ggcacttatg
+     1021 gactggtgga acacacatta ccgttggcct taccccacgg aagaggataa ggtgaggctg
+     1081 gccgcgatga ctggcctcga cccgaagcag atcaacaact ggttcatcaa ccagaggaag
+     1141 aggcactgga agccatcgga ggacatgcgg ttcgcgctca tggagggggt caccggagga
+     1201 tcctcctccg ggacgacact gtacttcgac accggcacaa ttggtccatg atcagattgc
+     1261 actccaaatt aaatgtagca ccttgcaaca gacattggca ggtattacct cgtgctacac
+     1321 cctctgtgag gagcaaggga tgatcatata ttaaaaggaa aaaaagatga aatcaatcaa
+     1381 taacctcatc attttgtcga aattattgtg tatatggtgt tgtaagaggg agttgggatg
+     1441 acctgtaaaa acttgcctgc attcagctac cataacatta attaattgtt tgtatccctg
+     1501 acaaaaaaaa aaaaaaaaaa a
+//
+

@@ -1,0 +1,81 @@
+LOCUS       Y14824                  1251 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  Oryza sativa RIR1b gene.
+ACCESSION   Y14824
+VERSION     Y14824.1  GI:2584800
+KEYWORDS    RIR1b gene.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Mauch,F., Reimmann,C., Freydl,E., Schaffrath,U. and Dudler,R.
+  TITLE     Characterization of the rice pathogen-related protein Rir1a and
+            regulation of the corresponding gene
+  JOURNAL   Plant Mol. Biol. 38 (4), 577-586 (1998)
+   PUBMED   9747803
+REFERENCE   2  (bases 1 to 1251)
+  AUTHORS   Dudler,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-SEP-1997) R. Dudler, Institute of Plant Biology,
+            University of Zuerich, Zollikerstrasse 107, CH-8008 Zuerich,
+            SWITZERLAND
+COMMENT     Related sequences: M94959, M95500, X87686.
+FEATURES             Location/Qualifiers
+     source          1..1251
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /clone="lambda29"
+                     /clone_lib="lambda EMBL 3"
+     TATA_signal     112..117
+     mRNA            join(<166..308,1001..>1251)
+     exon            <166..308
+                     /number=1
+     gene            order(182..308,1001..1197)
+                     /gene="RIR1b"
+     CDS             join(182..308,1001..1197)
+                     /gene="RIR1b"
+                     /codon_start=1
+                     /product="RIR1b protein"
+                     /protein_id="CAA75102.1"
+                     /db_xref="GI:2584801"
+                     /db_xref="UniProtKB/TrEMBL:O24232"
+                     /translation="MMRKQSRSPCSSSSSAAVVSLCKVLLMVLALICTLETVSVEGGR
+                     VAAAALVGGGVPLNPRYPAIPEEPYIGRRGDPYTGRGGEPYTRPGRGCTVAYGCYGGP
+                     PAAKP"
+     sig_peptide     182..292
+                     /gene="RIR1b"
+     mat_peptide     join(293..308,1001..1194)
+                     /gene="RIR1b"
+                     /product="unnamed"
+     intron          309..1000
+                     /gene="RIR1b"
+                     /number=1
+     exon            1001..>1251
+                     /number=2
+ORIGIN      
+        1 atgaccacta tattggccag tgcctaattt gtcctaaaag gagcgcattg acccctggta
+       61 aacgatagcg aactgcacta cgtaccctgc cttgctaagt tagctgtctc cataaattct
+      121 gaaaacccaa cagctagctc gtacacaaca aacaaaccaa gagctaaaat ttcagtcagt
+      181 gatgatgagg aagcaaagcc gctctccttg ttcatcttct tcttctgctg ctgttgtgtc
+      241 cctctgcaag gtgctcctga tggtcctggc tctcatctgc accctggaaa ctgtctcagt
+      301 agaaggaggt aaatacttcc tctgtctcac aaaaaataac tacaatacac gaatctgaac
+      361 aaacattcat ccaatccaag tttaccctca gaaattggct tttatgggac agaggatgca
+      421 catatttaaa ctcataatca ttgagagtta atcaattact ctctctggtt atgttttgga
+      481 taagattgta gtcaaacttt tataacttta attatcaaaa ttttaaaagt atttaattta
+      541 aaagaactag accaacatat atgtatttgt cgttcaaagt tctataataa aaataaacat
+      601 gtatttattt attctatata ttataataga aaaacaagat caaagatata ttttcgaaga
+      661 ctgtgttatt gtctaaaacc gacaagaatt ataaaaccga agaagtacta tggctgtgtt
+      721 ggaggaggag atagagaaga ttgagaagat acgtaaaacc gaaggtgaac cattagcaca
+      781 tgattaatta aatattagct attttaaact ttaaaaatgg attaatataa ttttctaaag
+      841 caacttttct gtagaaactt tttgcaaaaa atacaccgtt tagtagtttg ggaagcgtgc
+      901 gtacggaaaa cgaaacaaac aatctcccta tcaccccaga acgaacgcag cctaagttac
+      961 ttcggttggt taactaaatt tggtatatgg atggatgcag ggagagtggc agcagcagca
+     1021 ttagttggtg ggggcgtacc actgaatcca cggtacccgg cgattcctga agaaccttac
+     1081 ataggccgga gaggcgatcc gtacacaggt cggggaggcg aaccttacac acgcccggga
+     1141 cggggatgca ccgttgcata cggatgctat ggaggtcctc cagctgccaa accatgacga
+     1201 tcgacacact actctgctac tgctactgca tgttcacttg ttatttcgat c
+//
+

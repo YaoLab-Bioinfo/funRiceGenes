@@ -1,0 +1,49 @@
+LOCUS       AY256682                 504 bp    mRNA    linear   PLN 22-APR-2003
+DEFINITION  Oryza sativa (indica cultivar-group) putative brown
+            planthopper-inducible protein BpHi008A mRNA, complete cds.
+ACCESSION   AY256682
+VERSION     AY256682.1  GI:30060268
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 504)
+  AUTHORS   Yuan,H. and He,G.
+  TITLE     Molecular responses to brown planthopper feeding in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 504)
+  AUTHORS   Yuan,H. and He,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2003) College of Life Sciences, Wuhan University,
+            Key Laboratory of Ministry of Education for Plant Developmental
+            Biology, Wuhan, Hubei 430072, China
+FEATURES             Location/Qualifiers
+     source          1..504
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+     CDS             21..269
+                     /note="consists of a hydrophobic N-terminus and a
+                     hydrophilic C-terminus relatively rich in proline and
+                     glycine"
+                     /codon_start=1
+                     /product="putative brown planthopper-inducible protein
+                     BpHi008A"
+                     /protein_id="AAP13013.1"
+                     /db_xref="GI:30060269"
+                     /translation="MASLRATTLLVLMQIIMVFYTVILSCSFSDARTFPGGEGGLDPN
+                     HPVCVGGACPTPGLPYTNPRGPCIYRNTCNPPGRMGDP"
+ORIGIN      
+        1 ggatttattg aaggccaacc atggcgtctc ttagagccac cacactcctt gtgttgatgc
+       61 aaattattat ggtgttttac accgtcatct taagctgctc gttttctgat gcccgaactt
+      121 tcccaggcgg agaaggtggg ttagacccaa atcatccagt atgcgttggc ggcgcgtgtc
+      181 caacaccagg tctaccatac actaatccac gtggtccttg catataccgt aacacgtgca
+      241 atccaccagg acggatgggt gatccataag taattttcat catcaatatt tatcgttgtg
+      301 atccagtata cgtccacatc gtccacatga caatagtgtg tttgtgtatg ttatactagt
+      361 attcactagc tgctcacact gcatgagagc tagttaatta agagaatgtc tatgtatgac
+      421 aaataatgac tgtggtacta tatatgtatc cccctgtctc ggcaatatct ggattaataa
+      481 gacaaaaaaa aaaaaaaaaa aaaa
+//
+

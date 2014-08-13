@@ -1,0 +1,68 @@
+LOCUS       AB003325                1289 bp    mRNA    linear   PLN 02-MAY-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for MADS box-like protein,
+            complete cds, clone:E31864.
+ACCESSION   AB003325
+VERSION     AB003325.1  GI:5295983
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Shinozuka,Y., Kojima,S., Shomura,A., Ichimura,H., Yano,M.,
+            Yamamoto,K. and Sasaki,T.
+  TITLE     Isolation and characterization of rice MADS box gene homologues and
+            their RFLP mapping
+  JOURNAL   DNA Res. 6 (2), 123-129 (1999)
+   PUBMED   10382970
+REFERENCE   2  (bases 1 to 1289)
+  AUTHORS   Sasaki,T., Yamamoto,K. and Sasaki,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-1997) Contact:Takuji Sasaki National Institute of
+            Agrobiological Resources, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1289
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="E31864"
+                     /tissue_type="panicle at pre-meiotic stage"
+                     /clone_lib="cDNA panicle at pre-meiotic stage"
+     CDS             125..928
+                     /codon_start=1
+                     /product="MADS box-like protein"
+                     /protein_id="BAA81883.1"
+                     /db_xref="GI:5295984"
+                     /translation="MGRGKVQLKRIENKINRQVTFSKRRNGLLKKAHEISVLCDAEVA
+                     AIVFSPKGKLYEYATDSRMDKILERYERYSYAEKALISAESESEGNWCHEYRKLKAKI
+                     ETIQKCHKHLMGEDLESLNLKELQQLEQQLESSLKHIISRKSHLMLESISELQKKERS
+                     LQEENKALQKELVERQKNVRGQQQVGQWDQTQVQAQAQAQPQAQTSSSSSSMLRDQQA
+                     LLPPQNICYPPVMMGERNDAAAAAAVAAQGQVQLRIGGLPPWMLSHLNA"
+ORIGIN      
+        1 ctcctcctcc tcttcttctt cttccactag ctagttcgtc ttcctccttc agctagcttg
+       61 tagcagctaa ggttaggtcg gatcgagatc gggatcggcc gccggcgagc ggcgagcggc
+      121 gaggatgggg cgggggaagg tgcagctgaa gcggatagag aacaagatca acaggcaggt
+      181 gacgttctcc aagaggagga atggattgct gaagaaggcg cacgagatct ccgtcctctg
+      241 cgacgccgag gtcgccgcca tcgtcttctc ccccaagggc aagctctacg agtacgccac
+      301 tgactccagg atggacaaaa tccttgaacg ttatgagcgc tattcatatg ctgaaaaggc
+      361 tcttatttca gctgaatccg agagtgaggg aaattggtgc catgaataca ggaaacttaa
+      421 ggcaaagatt gagaccatac aaaaatgtca caaacacctc atgggagagg atctagaatc
+      481 cctgaatctc aaagaactcc aacagctaga gcagcagctg gagagttcat tgaagcacat
+      541 aatatcaaga aagagccacc ttatgcttga gtccatttcc gagctgcaga aaaaggagag
+      601 gtcactgcag gaggagaaca aggctctgca gaaggaactg gtggagaggc agaagaatgt
+      661 gaggggccag cagcaagtag ggcagtggga ccaaacccag gtccaggccc aggcccaagc
+      721 ccaaccccaa gcccagacaa gctcctcctc ctcctccatg ctgagggatc agcaggcact
+      781 tcttccacca caaaatatct gctacccgcc ggtgatgatg ggcgagagaa atgatgcggc
+      841 ggcggcggcg gcggtggcgg cgcagggcca ggtgcaactc cgcatcggag gtcttccgcc
+      901 atggatgctg agccacctca atgcttaaga tgatcatcgt cgtcgtcgtc ggccaaacag
+      961 ctgccgtatg caccgtgaat catgggagca accttgaatg aattgaagtc attggtatcg
+     1021 atcctagcga taatatatat gattctccta aaatgaaatt gatctcaaaa aaacaaacct
+     1081 agcgattaag ctattcttat atatgtgttt gcctgctgcc ccctacccta caggctacat
+     1141 atgatttgca agaaattaat tatgagcaag gatcaggatg tgtctttgtg taatcatcag
+     1201 cacgtaccta gtgcttccta ctgatatata tgcatgcaat tgtgtgcata taaatatatt
+     1261 tgcatgccat gctcccgtga tggttaatt
+//
+

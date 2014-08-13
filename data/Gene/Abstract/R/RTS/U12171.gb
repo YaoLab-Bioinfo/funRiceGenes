@@ -1,0 +1,88 @@
+LOCUS       OSU12171                2067 bp    DNA     linear   PLN 24-AUG-2010
+DEFINITION  Oryza sativa IR54 anther specific (RTS2) gene, complete cds.
+ACCESSION   U12171
+VERSION     U12171.1  GI:607894
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2067)
+  AUTHORS   Lee,J.-Y.K. and Hodges,T.K.
+  TITLE     Genomic DNA sequence of a rice anther-specific gene
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2067)
+  AUTHORS   Lee,J.-Y.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-1994) Jang-Yong K. Lee, Botany and Plant
+            Pathology, Purdue University, Lily Hall of Life Sciences, West
+            Lafayette, IN 47907, USA
+REFERENCE   3  (bases 1 to 2067)
+  AUTHORS   Luo,H., Lee,J.Y., Hu,Q., Nelson-Vasilchik,K., Eitas,T.K.,
+            Lickwar,C., Kausch,A.P., Chandlee,J.M. and Hodges,T.K.
+  TITLE     RTS, a rice anther-specific gene is required for male fertility and
+            its promoter sequence directs tissue-specific gene expression in
+            different plant species
+  JOURNAL   Plant Mol. Biol. 62 (3), 397-408 (2006)
+   PUBMED   16897470
+FEATURES             Location/Qualifiers
+     source          1..2067
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR54"
+                     /db_xref="taxon:39946"
+                     /cell_type="tapetum"
+                     /tissue_type="anther"
+                     /dev_stage="vigorous meiosis"
+     TATA_signal     1164..1167
+     gene            1275..1559
+                     /gene="RTS2"
+     CDS             1275..1559
+                     /gene="RTS2"
+                     /codon_start=1
+                     /product="anther specific"
+                     /protein_id="AAA58584.1"
+                     /db_xref="GI:607895"
+                     /translation="MVRVAAAAAVLVLAAAAAAAAAMAAEPPTDDGAVRVAAGLTKCV
+                     SGCGSKVTSCLLGCYGGGGGAAAAATAMPFCVIGCTSDVLSCATGCSTSL"
+     polyA_signal    1597..1602
+     polyA_site      1768
+ORIGIN      
+        1 gagctcaccg gcgaggcggt gcgtctcctc ggagatgtgg tagaagctgg cgccccattt
+       61 catggcggcg agcgggccgg gcggcctcct gccgcagcgg gattcggtgg ctagaccgat
+      121 ctgtgggtgg aggtcgggga cgaggtagag gagacagagg cggcattgga agaggggaag
+      181 aggaggagga agtggtggca ggcagaggcg gatgaggaac ttgcgccagc gacgtggata
+      241 tggagggggc gacggcaatg gggaggcggc gatggaagcg aggagatggg caggcggcgg
+      301 aggcagcggt ggattttttt tttctttttc tttttcggac cctttcacct gctcggtgat
+      361 tcttcttttt tatacagcac gacggcttct cctattcacg acgcctcggc tggaccatgg
+      421 accgttggcc actggagcat tcttccatga tctagatttt ttttttcact caactttact
+      481 acttcacatc tgatggctgg tgttgaattc attgtgcatc caacggtcat tattaaattg
+      541 atgacgtggc gcaatgaggt gacgaaacac tttacttttt ttactacttt agatctgtcg
+      601 gcaggagtcc cagatagata cttgagctgg ttagttgggt tttggatgga gtaactttct
+      661 gcagactgca acattctgac acacgtagca gcacaaaaga gttgcgaaca aacttggact
+      721 gttaacatgt caacgcataa aactgaaaaa aaaaacctgt caaaatgcat aataaataaa
+      781 actgaaaaaa aataagaata aatgttgaga gtgggatttg aacccacgcc ctttcggacc
+      841 agaaccttaa tctggcgcct tagaccaact cggccatctc aactttttgc tctgtcatcc
+      901 aaacaaagtt ataagaaatc atataataat aactaagact tgatgcctca gtagtttagt
+      961 taaactaatt tgaatttgtt agtacagttt gcatttcaaa ttgttccaat ttggacgcca
+     1021 cggctggttt cagttgctca cgacgcctca cacacatatt ttgcttcctt gcttgtgaca
+     1081 ctagggcaca aaactccaac actcaaacga cacttcacgc atctctcctg aaatcttgca
+     1141 ccccccaact ctgcatcgtc gcgtataaaa tgcagaccaa accccagctc aactctgcat
+     1201 catcatcatc aactcgatag aaaaagaaag aaattaaaaa gaaaatcacg gcgcgtgagc
+     1261 ttgcagagac agcaatggtg agagttgctg ccgccgcggc ggtgctcgtg ctggcggcgg
+     1321 cggcggcggc ggcggcggcc atggccgccg agccgcccac cgatgacggc gcggtccggg
+     1381 tggcggcggg gctgacgaag tgcgtgtccg ggtgcggtag caaggtgacc tcctgcttgc
+     1441 tcggctgcta cggcggcggc ggcggcgccg ccgccgccgc gacggcgatg ccgttctgcg
+     1501 tcatcggctg caccagcgac gtcttgtcct gcgccaccgg ctgctccacc tcgctctgat
+     1561 taagtactaa tgaagtaatt aaccgcgcta attaataata aatcgcacct acgtatgcac
+     1621 atgtggactc gcttgactaa ttaaatactg ccatgcgaat gcgattagtg gattatgaaa
+     1681 agaggaaatg taagaactca tggctctctc tgtgccatgc ctgtactgca ttgaaatgaa
+     1741 tctgcatgca gccatgaact gatatacaaa tacgaccatg ttacctgtaa tctctccatc
+     1801 atgtggggct ttcatgcttt aataacgtgt gatattgata ttatgtgatt aattgtatgc
+     1861 atcgttggag tttcaactag tctactcttg ccctttccct ctatttttaa atatataatg
+     1921 ttgttggttt tcgtataaca tttgaccatt tctcttattc aaaacttatg caaatataca
+     1981 caaatataag tcacgatcaa agtgtctttg atgataaaaa caacaatcta taataaaaat
+     2041 aaatagtact tatgtagttt ttcagaa
+//
+

@@ -1,0 +1,64 @@
+LOCUS       AF098752                1157 bp    mRNA    linear   PLN 21-MAY-1999
+DEFINITION  Oryza sativa clone FIL1 unknown mRNA.
+ACCESSION   AF098752
+VERSION     AF098752.1  GI:3859567
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1157)
+  AUTHORS   Sawa,S., Watanabe,K., Goto,K., Liu,Y.G., Shibata,D., Kanaya,E.,
+            Morita,E.H. and Okada,K.
+  TITLE     FILAMENTOUS FLOWER, a meristem and organ identity gene of
+            Arabidopsis, encodes a protein with a zinc finger and HMG-related
+            domains
+  JOURNAL   Genes Dev. 13 (9), 1079-1088 (1999)
+   PUBMED   10323860
+REFERENCE   2  (bases 1 to 1157)
+  AUTHORS   Sawa,S., Watanabe,K. and Okada,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-1998) Department of Botany, Graduate School of
+            Science, Kyoto University, Sakyo-ku, Kitashirakawa, Oiwakecho,
+            Kyoto 606-8502, Japan
+FEATURES             Location/Qualifiers
+     source          1..1157
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone="FIL1"
+     CDS             220..729
+                     /note="similar to Arabidopsis thaliana FILAMENTOUS FLOWER
+                     gene (FIL); contains HMG-related domains"
+                     /codon_start=1
+                     /product="unknown"
+                     /protein_id="AAC72847.1"
+                     /db_xref="GI:3859568"
+                     /translation="MSVQFTSEHVCYVNCNYCNTILVVNVPNNCSYNIVTVRCGHCTM
+                     VLSMDLAPFHQARTVQDHQVQNRGFQGNNFGSYDIASRNQRTSTAMYPMPTSQQQVSP
+                     IRPPEKRQRVPSAYNRFIKEEIQRIKTSNPEISHREAFSAAAKNWAHLPRLHFGLNVA
+                     DGGGGGGSN"
+ORIGIN      
+        1 tagacagcca aaagggtcaa gaggaaattg ggtttgtgct ctccccaaaa tcctccatat
+       61 atagtgcaca ggaggcatca ttctgttcat acatatctct cccttgcttg ctttgctcct
+      121 ggatatatag ctagcttctt tctttcttcc tctctccctg tgtggcacgc gcctccaatc
+      181 gatctcttcg gtgagtagac gcatcgagat cggggggaaa tgtcggtcca gtttacatcg
+      241 gagcatgttt gctatgtcaa ctgcaactat tgcaacacta tccttgtggt gaatgtgcca
+      301 aacaattgtt cctacaacat tgtgactgtt agatgtgggc attgcacaat ggtgctctcc
+      361 atggatcttg ctccttttca ccaagcacgc actgttcaag atcaccaggt acagaacaga
+      421 ggatttcaag gtaataactt tggaagctat gacatagctt ccagaaatca gaggacatcg
+      481 acagccatgt acccaatgcc aaccagtcag cagcaagtgt cacctatacg tccccctgag
+      541 aaaagacagc gtgtcccatc tgcatacaac agattcatca aggaggagat acagaggatt
+      601 aaaaccagca atcctgagat tagccacagg gaggcattca gtgctgctgc aaagaactgg
+      661 gctcatcttc cccggctcca ttttggcctc aacgtcgccg acggcggcgg cggcggcggc
+      721 agcaactaat cgcggcggcg cggcctgccg gccggccacc gatcgccggc gtgcacgccg
+      781 gcgcgcgcga cggccggtcg agaatgcgcg cgcaggaggg acgacgacga tatattatta
+      841 tcgcgtgtgc ccctctctct tcgccgcgta attaattaat cagttaatta attacgtacg
+      901 acctactgtg ttatgctatc gatccgtgtt aattaattac ctacgtatct tgattaatta
+      961 gtctcgtatt atacgtacta ttatacgtac gtgctgtgct atgtacgtag acaacaaaaa
+     1021 aaaatgtgcg tgatgagttc tactacgtac gtacgtactg tgttctagtg ttttaatttg
+     1081 tatccgaacc aaggagttgt ttaattaact gcatgcacat gcactggact tgaatctgga
+     1141 gtaaaaaaaa aaaaaaa
+//
+

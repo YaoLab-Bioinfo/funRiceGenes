@@ -1,0 +1,71 @@
+LOCUS       AB079873                1377 bp    mRNA    linear   PLN 29-JUL-2008
+DEFINITION  Oryza sativa Japonica Group OsDMC1A mRNA for DMC1, complete cds.
+ACCESSION   AB079873
+VERSION     AB079873.1  GI:18700482
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sakane,I., Kamataki,C., Takizawa,Y., Nakashima,M., Toki,S.,
+            Ichikawa,H., Ikawa,S., Shibata,T. and Kurumizaka,H.
+  TITLE     Filament formation and robust strand exchange activities of the
+            rice DMC1A and DMC1B proteins
+  JOURNAL   Nucleic Acids Res. 36 (13), 4266-4276 (2008)
+   PUBMED   18583359
+REFERENCE   2  (bases 1 to 1377)
+  AUTHORS   Nakashima,M., Shimazu,J., Niizeki,M., Mimida,N., Osakabe,K.,
+            Toki,S. and Ichikawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-FEB-2002) Contact:Marina Nakashima National Institute
+            of Agrobiological Sciences, Department of Plant Biotechnology;
+            2-1-2 Kannondai, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1377
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1377
+                     /gene="OsDMC1A"
+     CDS             75..1109
+                     /gene="OsDMC1A"
+                     /codon_start=1
+                     /product="DMC1"
+                     /protein_id="BAB85213.1"
+                     /db_xref="GI:18700483"
+                     /translation="MAPSKQYSEGGQLQLMDAERIEEEEECFESIDKLISQGINSGDV
+                     KKLQDAGIYTCNGLMMHTKKSLTGIKGLSEAKVDKICEAAEKLLSQGFITGSDLLIKR
+                     KSVVRITTGSQALDKLLGGGIETLCITEAFGEFRSGKTQLAHTLCVSAQLPIHMHGGN
+                     GKVAYIDTEGTFRPERIVPIAERFGMDANAVLDNIIYARAYTYEHQYNLLLGLAAKMA
+                     EEPFRLLIVDSVIALFRVDFSGRGELAERQQKLAQMLSRLTKIAEEFNVAVYITNQVI
+                     ADPGGGMFITDLKKPAGGHVLAHAATIRLMLRKGKGEQRVCKIFDAPNLPEGEAVFQV
+                     TSGGIMDAKD"
+ORIGIN      
+        1 cctctgctgc ttccttctcc tccaagcccc gctccgctcc gacgacctcg ccgcctccgc
+       61 ctacaggtgg gcagatggcg ccgtccaagc agtacagcga aggcgggcag ctccagctca
+      121 tggacgccga gaggatcgag gaggaggagg agtgcttcga gtccatcgac aagctaatct
+      181 cgcaagggat aaactctgga gatgtgaaga agctgcagga tgctggtatc tacacttgca
+      241 atggcctcat gatgcataca aagaagagcc tgacaggaat caagggatta tctgaagcaa
+      301 aggtagacaa gatctgcgaa gcagccgaaa aacttctgag tcagggcttc ataacaggaa
+      361 gtgatctcct tattaagcgg aaatctgttg ttcgaatcac cactgggagc caggcgcttg
+      421 acaagctgct tggcggaggg attgaaacac tttgcatcac agaggcattt ggagaatttc
+      481 gatcagggaa gacccagttg gctcacactc tatgcgtctc cgctcagctt ccaatccaca
+      541 tgcatggggg gaacgggaag gttgcttaca ttgatactga gggaacattc cggcctgaac
+      601 gaattgtgcc gattgctgag agatttggga tggatgccaa tgctgttctt gataatatca
+      661 tatatgctcg tgcatacacc tatgagcacc agtacaacct tctccttggc cttgccgcta
+      721 agatggctga agagcctttc aggcttctga ttgtggattc tgtgatcgca ctattccgtg
+      781 tcgatttcag tggcaggggt gaacttgcag agcgccagca aaaattggca cagatgctct
+      841 cccgccttac taaaatagct gaggagttca atgttgcagt gtacatcacc aaccaagtga
+      901 ttgccgaccc aggtggtgga atgttcataa ctgacctgaa aaaaccagcg ggaggccacg
+      961 tgctggcgca tgcagctacc atccggttga tgctgaggaa aggcaaagga gagcagcgtg
+     1021 tctgcaagat ctttgatgcc cctaacctgc ctgagggaga agctgttttc caggtaacat
+     1081 caggtggaat aatggatgcg aaagactgaa tgttcattga gggtgcttcc tgtcttcaaa
+     1141 ttattcaggt ttctcctagt aaattcctgc ataggccata taggtttggt acattgacta
+     1201 aactactact gctactttgc cactgtcgag gaaatatgca acctcattta tccagacgat
+     1261 tataccttaa aatgggtatt tttctatgct tatgagatca acagttgtac tgaaacaaat
+     1321 acagtattgt cttaagtgaa aaatatataa gaggtttaca tgatggtaac tttcccc
+//
+

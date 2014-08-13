@@ -1,0 +1,82 @@
+LOCUS       AB267728                1346 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mGmk gene for mitochondrial guanylate
+            kinase, complete cds, cultivar: Taichung 65.
+ACCESSION   AB267728
+VERSION     AB267728.1  GI:124484326
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sugimoto,H., Kusumi,K., Noguchi,K., Yoshimura,A. and Iba,K.
+  TITLE     VIRESCENT-2, a rice nuclear gene essential for chloroplast
+            development, encodes a novel type of guanylate kinase targeted to
+            mitochondria
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1346)
+  AUTHORS   Sugimoto,H., Kusumi,K. and Iba,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2006) Contact:Koh Iba Faculty of Science, Kyushu
+            University, Department of Biology; 6-10-1, Hakozaki, Fukuoka,
+            Fukuoka 812-8581, Japan
+FEATURES             Location/Qualifiers
+     source          1..1346
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Taichung 65"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     gene            <1..>1346
+                     /gene="mGmk"
+     exon            <1..298
+                     /gene="mGmk"
+                     /number=1
+     CDS             104..961
+                     /gene="mGmk"
+                     /codon_start=1
+                     /product="mitochondrial guanylate kinase"
+                     /protein_id="BAF46274.1"
+                     /db_xref="GI:124484327"
+                     /translation="MLLTRRFSSALARSPLLPRSLPPPRAVPATPPAPRPPPRRLMSS
+                     SSSGWHHSSRPPPPPPSGADKDQLFRGLEAALGTTFSSEPLAPPPQPMILVISGPSGV
+                     GKDAVIQRLQEEREGMHFVVTATSRAKRPGEVDGKDYYFVTKEEFLTMIERKELLEYA
+                     LVYGEYKGIPKQQIRDYMAKGYDIVLRVDIQGAATLREILGESAIFIFLVAESEEALV
+                     KRLIHRKTETSDMLLVRVATAREEVKRMNNFDYVVVNSEGNLEGAVKQVESIIDAEKA
+                     KVHKRTVNI"
+     exon            299..430
+                     /gene="mGmk"
+                     /number=2
+     exon            431..622
+                     /gene="mGmk"
+                     /number=3
+     exon            623..>1346
+                     /gene="mGmk"
+                     /number=4
+ORIGIN      
+        1 caaacaaatc actccaatcc ccacatcggc agcacatccc ccttcgctcc cctcctcgtc
+       61 gccctcctct gccctcccct cccctccttc cggaaccttc tagatgcttc tcacgcgaag
+      121 gttctcctcc gccctcgcgc gctcccccct tctccccagg tccctccctc ctccgcgggc
+      181 cgtgcccgcc acccctccgg cgccccgccc gccgccgcgc cgcctcatgt cctcctcctc
+      241 ctccggctgg caccactcct ctcgcccgcc cccgccgccc ccctccggcg ccgacaagga
+      301 tcagctgttc cgggggctgg aggcggcgct cggcacgacg ttcagctcgg agccgctcgc
+      361 gccgccgccg cagccgatga tcctcgtcat cagcgggccc agcggcgtcg gcaaggacgc
+      421 tgtcatccag aggctgcaag aagagaggga ggggatgcat ttcgttgtca ccgcgacaag
+      481 cagagcgaag cggcccggtg aagttgatgg gaaggactat tacttcgtca ccaaggagga
+      541 gttcctcacg atgattgaaa ggaaggagtt gctcgagtac gcacttgtct atggggagta
+      601 taaggggatc cccaagcagc agatccgtga ttacatggcg aaaggttatg atattgtctt
+      661 gagagtggac attcaaggag cagcaacctt gagagagatt cttggcgaat cagcaatttt
+      721 catctttttg gttgcagaga gtgaagaggc acttgtcaaa aggctaattc accgcaaaac
+      781 agaaacatca gatatgcttc ttgtcagagt tgcaacggcc agagaagagg tgaaacgcat
+      841 gaacaatttt gattatgtag ttgtcaattc tgaagggaat cttgaggggg ctgttaaaca
+      901 ggtggagtct atcattgatg ctgagaaggc taaggtccac aaacgtacgg ttaatatcta
+      961 gtcaatgctc ataagtcaca tgctctttta acggtttgga ggaaaattac ctggtatttt
+     1021 taatcaattc aagtttgaac tattgtggag gaaatcgcca atgacaatct gacctgactc
+     1081 ttacaaaaaa ggccaatttg acttacatta aatttgtagc tgtaagtcag aaagtgaagt
+     1141 gcatggcaag tcattggagt taaatactga atatcctgat tcaagtggct tataacagca
+     1201 atgtacttgt gcaactcttt ctgggtagaa gtaggtactt tttattattt atatattatc
+     1261 tgtattttat ttgtttgttc gaatattaca aactactaat aactgcttgg gatgaatcct
+     1321 tatgctacgg atatttcctt ttccat
+//
+

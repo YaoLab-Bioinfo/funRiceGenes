@@ -1,0 +1,80 @@
+LOCUS       AK353935                1332 bp    mRNA    linear   PLN 20-MAY-2011
+DEFINITION  Hordeum vulgare subsp. vulgare mRNA for predicted protein, complete
+            cds, clone: NIASHv1003O07.
+ACCESSION   AK353935
+VERSION     AK353935.1  GI:326493385
+KEYWORDS    FLI_CDNA; CAP trapper.
+SOURCE      Hordeum vulgare subsp. vulgare (domesticated barley)
+  ORGANISM  Hordeum vulgare subsp. vulgare
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Pooideae; Triticeae; Hordeum.
+REFERENCE   1
+  AUTHORS   Matsumoto,T., Tanaka,T., Sakai,H., Amano,N., Kanamori,H.,
+            Kurita,K., Kikuta,A., Kamiya,K., Yamamoto,M., Ikawa,H., Fujii,N.,
+            Hori,K., Itoh,T. and Sato,K.
+  TITLE     Comprehensive Sequence Analysis of 24,783 Barley Full-Length cDNAs
+            Derived from 12 Clone Libraries
+  JOURNAL   Plant Physiol. 156 (1), 20-28 (2011)
+   PUBMED   21415278
+REFERENCE   2  (bases 1 to 1332)
+  AUTHORS   Matsumoto,T., Kanamori,H. and Tanaka,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2010) Contact:Takashi Matsumoto National
+            Institute of Agrobiological Sciences, Division of Genome and
+            Biodiversity Research; Kannondai 2-1-2, Tsukuba, Ibaraki 305-8602,
+            Japan
+COMMENT     This clone was obtained at our laboratory
+            Please visit our web site
+            URL: http://barleyflc.dna.affrc.go.jp/hvdb/index.html.
+FEATURES             Location/Qualifiers
+     source          1..1332
+                     /organism="Hordeum vulgare subsp. vulgare"
+                     /mol_type="mRNA"
+                     /cultivar="Haruna Nijo"
+                     /sub_species="vulugare"
+                     /db_xref="taxon:112509"
+                     /clone="NIASHv1003O07"
+                     /tissue_type="shoot"
+                     /clone_lib="Normalized barley full-length cDNA library
+                     from seedling shoot in normal or dark"
+                     /dev_stage="seedling"
+     CDS             26..1222
+                     /codon_start=1
+                     /product="predicted protein"
+                     /protein_id="BAJ85154.1"
+                     /db_xref="GI:326493386"
+                     /translation="MAALLLSPRLPTSTAVAAPRPTPRFLSFSLTTAKACRRGGCILA
+                     SSATSPSPAAAQSFRSLPPSDTTVLVTGSTGYIGRFVVRELLYRGHRVIAVARPRSGI
+                     HGKNSPEEVVSDLAPARVVFSDVTDPGALLAGLSEYGPVHAAVCCLASRGGGVQDSWR
+                     VDYRATLHTLQAARSLGAAHFVLLSAVCVQKPLLEFQRAKLKFEDELAAEAARDPAFT
+                     YSIVRPTAFFKSLGGQVETVKKGNPYVMFGDGKLCACKPISEEDLASFIADCIFDEEK
+                     ANKVLPIGGPGKALTPLEQGEMLFRLLGREPKFIKVPIQIMDGVIWVLDGLAKVFPGL
+                     EDAAEFGKIGRYYASESMLVLDPETGEYSDDKTPSYGTDTLEHFFDKVIREGMAGQEL
+                     GEQTIF"
+ORIGIN      
+        1 ggatactgca tttccgtcga gcgcgatggc cgcccttctc ctctcccccc gcctccccac
+       61 cagcacggcc gtcgcagctc cccgccccac accgcgcttc ctctccttct ccctcacaac
+      121 cgccaaggct tgccgccgcg ggggctgcat cctcgcatcc tccgcgacgt cgccctcccc
+      181 ggccgcggcc caatcattcc gttccctgcc cccctccgat accaccgtcc tcgtcaccgg
+      241 ctccacgggc tacatcggcc gcttcgtcgt ccgcgagctg ctctatcgcg gtcaccgcgt
+      301 catcgccgtc gcccgccccc gcagcggcat ccacggcaaa aactcccctg aggaggttgt
+      361 ctccgacctc gcccccgccc gcgtagtctt ctccgatgtc accgacccgg gcgccctcct
+      421 cgcgggccta tcggagtacg gtcccgtaca cgccgcggtc tgctgcctcg ccagccgcgg
+      481 cggcggggtg caggattcgt ggcgcgtcga ctaccgcgcc acgctccaca ccctccaggc
+      541 cgcgcgcagc ctcggcgccg cccacttcgt cctcctctcc gcggtctgcg tccagaagcc
+      601 gctcctcgag ttccagcgcg ccaagctcaa gttcgaggac gagctcgccg ccgaggcggc
+      661 gcgggacccg gcattcacct acagcatcgt ccgccccacc gccttcttca agagcctagg
+      721 cggccaggtg gaaaccgtca agaagggcaa tccctacgtc atgtttggcg acggcaagct
+      781 ctgcgcttgc aagcctatca gcgaggagga tctcgcctcc ttcatcgccg attgcatctt
+      841 cgacgaggaa aaggctaaca aggtgcttcc aattggaggg ccggggaagg ccctcacgcc
+      901 gctggagcaa ggggagatgc tgttccggct gctcgggcgc gaacccaagt tcatcaaggt
+      961 gcccattcaa atcatggatg gtgtcatctg ggtgctcgat ggattggcca aggtgttccc
+     1021 ggggctggag gatgccgccg agttcggcaa aattgggagg tactatgcgt cggagagcat
+     1081 gctagtgctc gatcccgaaa ccggggagta cagtgacgac aagacgccga gctatggcac
+     1141 agacacgctt gagcacttct tcgacaaggt aataagggaa ggaatggcgg ggcaggagct
+     1201 gggcgagcag accatctttt aggccttccg gcttgtaagt gacgcttttg acatgttgat
+     1261 atttccaaca caattagtag cccaaatgta ccatgcaagg cgttgtctaa tttgagggtg
+     1321 gagaattttg cc
+//
+

@@ -1,0 +1,52 @@
+LOCUS       AB072977                 598 bp    mRNA    linear   PLN 17-SEP-2005
+DEFINITION  Oryza sativa OsBLE1 mRNA for BLE1 protein, complete cds.
+ACCESSION   AB072977
+VERSION     AB072977.1  GI:19912028
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yang,G. and Komatsu,S.
+  TITLE     Molecular cloning and characterization of a novel brassinolide
+            enhanced gene OsBLE1 in Oryza sativa seedlings
+  JOURNAL   Plant Physiol. Biochem. 42 (1), 1-6 (2004)
+   PUBMED   15061077
+REFERENCE   2  (bases 1 to 598)
+  AUTHORS   Komatsu,S. and Yang,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2001) Setsuko Komatsu, National Institute
+            Agrobiological Sciences, Department of Molecular Genetics;
+            Kannondai 2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+            (E-mail:skomatsu@affrc.go.jp, Tel:81-298-38-7446,
+            Fax:81-298-38-7408)
+FEATURES             Location/Qualifiers
+     source          1..598
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..598
+                     /gene="OsBLE1"
+     CDS             37..282
+                     /gene="OsBLE1"
+                     /codon_start=1
+                     /product="BLE1 protein"
+                     /protein_id="BAB88326.1"
+                     /db_xref="GI:19912029"
+                     /translation="MGGGGHGGGTTYKGYTIPHNKRWHTVAGKGLCAVMWFWVFYRAK
+                     QDGAVLLGMRHPWDGHDDHSHGHGHEHEGSSSTSSSH"
+ORIGIN      
+        1 aattcggcac gagcggcggc gagaggagcg gcggcgatgg gcggcggcgg gcacggcggc
+       61 ggcacgacgt acaaggggta caccatcccc cacaacaagc gctggcacac cgtcgccggc
+      121 aagggcctct gcgccgtcat gtggttttgg gttttctaca gggctaagca ggacggtgct
+      181 gttctcttgg gcatgcgtca tccttgggat ggtcatgatg atcactcaca tggtcatggg
+      241 catgagcatg agggatcatc atcaacatcg tcgtctcact aaatcaactg cttcttggcg
+      301 gctgagggag actcgctgct ttggttgtcg cgatgaaatc ctcgaagata ataaagtttc
+      361 acactattaa ttttattaag atgggttcat gttgttggca actgtttaag gcaaactggt
+      421 tatgtatttt gcttttgaga tagcctccct cgatggaaaa cccatgtatg ttgttgctta
+      481 ttaggctgtg gacatccttt tggatgtaga ggctgggttt ttaatccatt atctaaaaaa
+      541 atgttgttgc ttcttccgat caaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaa
+//
+

@@ -1,0 +1,70 @@
+LOCUS       BK005079                1087 bp    DNA     linear   PLN 17-MAR-2006
+DEFINITION  TPA_inf: Oryza sativa (indica cultivar-group) WRKY transcription
+            factor 76 (WRKY76) gene, complete cds.
+ACCESSION   BK005079
+VERSION     BK005079.1  GI:46394405
+KEYWORDS    Third Party Data; TPA; TPA:inferential.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1087)
+  AUTHORS   Zhang,Z.L., Xie,Z., Zou,X., Casaretto,J., Ho,T.H. and Shen,Q.J.
+  TITLE     A rice WRKY gene encodes a transcriptional repressor of the
+            gibberellin signaling pathway in aleurone cells
+  JOURNAL   Plant Physiol. 134 (4), 1500-1513 (2004)
+   PUBMED   15047897
+REFERENCE   2  (bases 1 to 1087)
+  AUTHORS   Zhang,Z.-L., Xie,Z., Zou,X., Casaretto,J., Ho,T.-h.D. and Shen,Q.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2004) Department of Biological Sciences,
+            University of Nevada, Las Vegas, 4505 Maryland Parkway, Las Vegas,
+            NV 89154, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1087              AAAA01010861.1     2637-3723           c
+FEATURES             Location/Qualifiers
+     source          1..1087
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39946"
+     gene            <1..>1087
+                     /gene="WRKY76"
+                     /note="OsWRKY76"
+     mRNA            join(<1..165,269..>1087)
+                     /gene="WRKY76"
+                     /product="WRKY transcription factor 76"
+     CDS             join(1..165,269..1087)
+                     /gene="WRKY76"
+                     /codon_start=1
+                     /product="WRKY transcription factor 76"
+                     /protein_id="DAA05141.1"
+                     /db_xref="GI:46394406"
+                     /translation="MDAAWRGGVGCSPVCLDLCVGLSPVREPSAARHELLDRPAGCRG
+                     GGDSKSMTNDEAKILEAKVTQMSEENRRLTEVIARLYGGQIARLGLDGSASPPRPVSP
+                     LSGKKRSRESMETANSCDANSNRHQGGDADHAESFAADDGTCRRIKVSRVCRRIDPSD
+                     TSLVVKDGYQWRKYGQKVTRDNPSPRAYFRCAFAPSCPVKKKVQRSAEDSSLLVATYE
+                     GEHNHPHPSPRAGELPAAVGGAGGSLPCSISINSSGPTITLDLTKNGGAVQVVEAAHP
+                     PPPPDLKEVCREVASPEFRTALVEQMASALTSDPKFTGALAAAILQKLPEF"
+ORIGIN      
+        1 atggacgcgg cgtggcgcgg cggcgttggc tgctcgccgg tctgcctcga cctctgcgtc
+       61 gggctgtcgc cggtgcggga gccgtcggcg gcgaggcacg agctgcttga ccggccggcc
+      121 ggctgccgcg gcggtgggga ttccaagtcg atgaccaatg acgaggtgag gtgttcttga
+      181 ttgattgatt gattgatcgg ttgattgctc ccgcggattc ggttcttgct tggttttgat
+      241 cgttggaaat gtggggggat tccttcaggc gaagatcctc gaggcgaagg tcactcagat
+      301 gagcgaggag aatcggcggc tgaccgaggt gatcgcccgc ctgtacggcg gccaaatcgc
+      361 gcggctcggc ctcgacggct cggcctcgcc gccgcggccg gtgtcgccgt tatcgggcaa
+      421 gaagaggagc agggagagca tggagacggc gaattcctgc gacgccaaca gcaacaggca
+      481 tcagggcggc gacgccgacc acgccgagag cttcgccgcc gacgatggca cctgccggag
+      541 gatcaaggtc agccgggtgt gcaggcggat cgacccgtcg gacacctccc tggtggtcaa
+      601 ggacgggtac caatggcgga agtacgggca gaaggtgacg cgcgacaacc cgtcgccgag
+      661 ggcctacttc cggtgcgcct tcgcgccgtc gtgcccggtg aagaagaagg tgcagcggag
+      721 cgcggaggac agctcgctgc tggtggcgac gtacgagggc gagcacaacc acccgcaccc
+      781 gtctccgcgc gccggcgagc tcccggcggc ggtggggggg gccggtggct cgctgccgtg
+      841 ctccatctcc atcaactcct ccggcccgac catcacgctc gacctcacca agaacggggg
+      901 agccgtgcag gtggtcgagg cggcgcatcc gccgccgccg ccggacctca aggaggtgtg
+      961 ccgggaggtc gcgtcgccgg agttccggac cgcgctggtg gagcagatgg ccagcgcgct
+     1021 caccagcgac cccaagttca ccggcgcgct cgccgcggcg atcctccaga agctgcccga
+     1081 attctag
+//
+

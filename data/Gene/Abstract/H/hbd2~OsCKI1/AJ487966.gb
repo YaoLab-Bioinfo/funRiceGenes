@@ -1,0 +1,89 @@
+LOCUS       AJ487966                1939 bp    mRNA    linear   PLN 15-OCT-2003
+DEFINITION  Oryza sativa Japonica Group partial mRNA for putative casein kinase
+            I.
+ACCESSION   AJ487966
+VERSION     AJ487966.1  GI:37693195
+KEYWORDS    casein kinase I.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Liu,W., Xu,Z.H., Luo,D. and Xue,H.W.
+  TITLE     Roles of OsCKI1, a rice casein kinase I, in root development and
+            plant hormone sensitivity
+  JOURNAL   Plant J. 36 (2), 189-202 (2003)
+   PUBMED   14535884
+REFERENCE   2  (bases 1 to 1939)
+  AUTHORS   Liu,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAY-2002) Liu W., National Lab. of Plant Mol.
+            Genetics, Shanghai Inst.of Plant Physiol., 300 Fenglin Rd., 200032
+            Shanghai, CHINA
+FEATURES             Location/Qualifiers
+     source          1..1939
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua 11"
+                     /db_xref="taxon:39947"
+     CDS             <1..1392
+                     /function="putative role in cell cycle control"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="putative casein kinase I"
+                     /protein_id="CAD32377.1"
+                     /db_xref="GI:37693196"
+                     /db_xref="GOA:Q70YQ4"
+                     /db_xref="InterPro:IPR000719"
+                     /db_xref="InterPro:IPR008271"
+                     /db_xref="InterPro:IPR011009"
+                     /db_xref="InterPro:IPR017441"
+                     /db_xref="InterPro:IPR017442"
+                     /db_xref="UniProtKB/TrEMBL:Q70YQ4"
+                     /translation="MEHVIGGKFKLGRKIGSGSFGELYLGVNIQSSEEVAIKLESVKS
+                     RHPQLHYESKLYMLLQGGTGIPHLKWFGVEGEYNVMVIDLLGPSLEDLFNYCNRKFSL
+                     KTVLMLADQMINRVEYMHTRGFLHRDIKPDNFLMGLGRKASQVYVIDYVLAKKYRDLQ
+                     THKHIPYRENKNLTGTARYASVNTHLGVEQSRRDDLESLGYVLMYFLRGSLPWQGLKA
+                     GTKKQKYDKISEKKMLTPVEVLCKSYPTEFISYFHYCRSLRFEDKPDYSYLKRLFRDL
+                     FIREGYQLDYIFDWTKQGSESNRLRSSGRTSGLVGPSAERTERAAARQDVPDRFSGTV
+                     DPFARRTGSGSGHYGEHTKHRNILDSLLAPKTAVDLDKRRPTSSSRNGSTSRKALLSS
+                     SRPSSGDPIDPNRSNLIPTSSGSSRPSTMQRLHQSTGLETRSSLTKTARNVHDDPTLR
+                     TFERLSISADRRK"
+ORIGIN      
+        1 atggagcatg tgatcggggg gaagtttaag ctggggagga agattgggag cggatctttt
+       61 ggggagctat accttggtgt gaatatacag agcagcgagg aggtagccat caagttggaa
+      121 tctgtaaaat caaggcatcc tcagcttcat tatgagtcaa aactatacat gcttctgcag
+      181 gggggaactg gaattcctca tctgaagtgg tttggagtgg agggggagta caatgtcatg
+      241 gttatcgatc ttcttggtcc aagtttagag gacttattca actactgcaa cagaaagttt
+      301 tctcttaaaa cagtacttat gcttgctgat cagatgatca acagggtaga gtacatgcac
+      361 actagggggt ttctacatcg tgatatcaag ccagacaact tccttatggg tttaggccgc
+      421 aaagcaagcc aggtttatgt catcgactat gttcttgcaa agaaataccg ggacctccaa
+      481 actcataagc atatacctta cagggagaac aaaaatctca caggaacagc acgctatgct
+      541 agtgtaaaca cccatcttgg agttgaacaa agcaggagag atgatttaga gtctctgggc
+      601 tatgtgctta tgtatttctt aagaggaagc cttccttggc aaggtctaaa agctggcaca
+      661 aaaaaacaga aatatgacaa aattagtgaa aagaaaatgc ttactccagt tgaggttctc
+      721 tgtaaatctt atcccacaga gttcatttca tacttccatt actgtcgatc tttgcgattt
+      781 gaagataaac cagactacag ctatttgaag agacttttcc gagatctatt catccgtgaa
+      841 gggtaccagc ttgattatat atttgattgg acgaagcaag gttcagaaag taacagattg
+      901 cgatcaagtg gaaggacaag tgggttggtg ggaccatctg cagaacggac tgaacgagct
+      961 gcagcaagac aggatgttcc tgacagattc tctggtacag tcgatccatt tgctagaaga
+     1021 actggctctg gttctggcca ttacggagag cacacaaagc acagaaatat attggattca
+     1081 ttacttgcac ccaagacggc tgttgattta gataaaagaa ggcccacatc atcatctcgt
+     1141 aatgggagca catcaaggaa ggctctcttg tcaagcagca gaccaagttc tggagatccc
+     1201 attgatccga accgcagtaa cctaattcca accagcagtg gcagcagtcg cccatcaact
+     1261 atgcagaggc ttcaccagtc aacaggactt gagaccaggt cctcgcttac caaaactgca
+     1321 agaaatgtcc atgatgatcc cactttgagg acctttgaac gcctttcaat cagtgctgac
+     1381 agaaggaaat aatgcttcga agagcaaaag atgtgagttg ctgctccagt gstaggacac
+     1441 tggggattcc ttcacacgat gattactgat caacaagtaa aaaccattct gtgctacaga
+     1501 tgatgctgag atatgcttaa gagtgaagtt tgcttactga atcttggcgc aaaagaaatg
+     1561 gttaaagaaa ccattttaca cgccattcag aagaacccgg accagcaacc cgtgctggtc
+     1621 caattaatgc tgatgttgat caaatatttg tagaaatgtt attgaaataa agcagttcat
+     1681 tactagcaaa atatgtacta tcacgtagta tttcctttgt gcactgcaac tagaacttct
+     1741 gccactctgc cactatactc ttaagataat caatatcctt ttttgcttag tgccctttag
+     1801 atactccgtc acattatttc cttaaaaact tggagatcat gtaatcgtta ttaatatatc
+     1861 atacgatcag atatcgttat tcaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     1921 aaaaaaaaaa aaaaaaaaa
+//
+

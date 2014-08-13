@@ -1,0 +1,76 @@
+LOCUS       AJ224327                1139 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for aquaporin, complete CDS.
+ACCESSION   AJ224327
+VERSION     AJ224327.1  GI:2894533
+KEYWORDS    aquaporin; PIP1a gene.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Malz,S.
+  JOURNAL   Thesis (1998) Department of General Botany, University of Hamburg,
+            Hamburg, GERMANY
+REFERENCE   2
+  AUTHORS   Malz,S. and Sauter,M.
+  TITLE     Expression of two PIP genes in rapidly growing internodes of rice
+            is not primarily controlled by meristem activity or cell expansion
+  JOURNAL   Plant Mol. Biol. 40 (6), 985-995 (1999)
+   PUBMED   10527423
+REFERENCE   3  (bases 1 to 1139)
+  AUTHORS   Malz,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-FEB-1998) Malz S., Department of General Botany, AMP
+            II, University of Hamburg, Ohnhorststrasse 18, 22609 Hamburg,
+            GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1139
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /cell_type="meristematic"
+                     /tissue_type="meristem"
+                     /clone_lib="lambda gt11"
+                     /dev_stage="adult"
+     gene            1..1139
+                     /gene="PIP1a"
+     CDS             25..894
+                     /gene="PIP1a"
+                     /codon_start=1
+                     /product="aquaporin"
+                     /protein_id="CAA11896.1"
+                     /db_xref="GI:2894534"
+                     /db_xref="GOA:Q6EU94"
+                     /db_xref="InterPro:IPR000425"
+                     /db_xref="InterPro:IPR012269"
+                     /db_xref="InterPro:IPR022357"
+                     /db_xref="UniProtKB/Swiss-Prot:Q6EU94"
+                     /translation="MEGKEEDVRLGANRYSERQPIGTAAQGAGDDKDYKEPPPAPLFE
+                     PGELKSWSFYRAGIAEFVATFLFLYITILTVMGVSKSSSKCATVGIQGIAWSFGGMIF
+                     ALVYCTAGISGGHINPAVTFGLFLARKLSLTRAIFYIVMQCLGAICGAGVVKGFQQGL
+                     YMGNGGGANVVASGYTKGDGLGAEIVGTFILVYTVFSATDAKRNARDSHVPILAPLPI
+                     GFAVFLVHLATIPITGTGINPARSLGAAIIYNKDHAWNDHWIFWVGPFVGAALAAIYH
+                     QVIIRAIPFKSRS"
+ORIGIN      
+        1 acgcattgca gaggagaggc gacaatggag gggaaggagg aggacgtgcg gctgggggcg
+       61 aacaggtact cggagaggca gccgataggg acggcggcgc agggcgccgg ggacgacaag
+      121 gactacaagg agccgccgcc ggcgccgctg ttcgagccag gggagctcaa gtcgtggtct
+      181 ttctaccggg ccgggatcgc cgagttcgtc gccaccttcc tcttcctcta catcaccatc
+      241 ctcaccgtca tgggggtctc caagtcctcc tccaagtgcg ccaccgtcgg catccagggc
+      301 atcgcctggt ccttcggagg catgatcttc gcgctcgtct actgcaccgc cggcatctcc
+      361 ggaggacaca tcaacccagc agttactttt gggctgttct tggccaggaa gctgtccctg
+      421 acccgggcca tcttctacat agtgatgcaa tgcctagggg ccatctgcgg agctggagtt
+      481 gtgaagggct tccagcaggg tctgtacatg ggcaatggcg gtggtgccaa tgtagttgcc
+      541 agtggctaca ccaagggtga cggtcttggt gctgagattg ttggcacctt catcctggtc
+      601 tacaccgtct tctcagccac tgatgccaag aggaatgcca gggactcaca tgttcctatc
+      661 cttgccccac tgccaattgg ttttgcggtg ttcctggtcc acctggccac catccccatc
+      721 accggtactg gcatcaaccc agccaggagc cttggcgctg ccatcatcta caacaaggac
+      781 catgcctgga atgaccattg gatcttctgg gttggtccct tcgttggcgc tgccctggct
+      841 gccatctacc accaggtgat catcagggcg atcccattca agagcaggtc ttaagccccg
+      901 cgccaccgct gcgcagccga cgacatgcaa cgcaatcgtg atgtcctgtt tcccgcgcgc
+      961 tactgctgcg catctgtcga ttccctctat ctctagtccc caagatgttt ttcctatctg
+     1021 aaccctgaac aactcaatcg tgtaatccag tactcagtca ctgtatgttt ttatgtgatg
+     1081 gagatcttaa ttcttaagtt atcatctctg ttgctggaaa aaaaaaaaaa aaaaaaaaa
+//
+

@@ -1,0 +1,58 @@
+LOCUS       AF416604                 848 bp    DNA     linear   PLN 02-NOV-2001
+DEFINITION  Oryza sativa pathogen-related protein gene, complete cds.
+ACCESSION   AF416604
+VERSION     AF416604.1  GI:16589075
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 848)
+  AUTHORS   Kim,S.T., Yu, Kim,S.G., Chu,C.H., Joung,Y.C. and Kang,K.Y.
+  TITLE     Isolation and characterization of rice PR-10 gene induced by rice
+            blast fungus, M.grisea
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 848)
+  AUTHORS   Kim,S.T., Yu, Kim,S.G., Chu,C.H., Joung,Y.C. and Kang,K.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2001) Division of Applied Life Science,
+            Gyeongsang National University, Gawja-dong 900, Chinju, Gyeongnam
+            660-701, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..848
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="leaf"
+                     /note="infected with blast fungus, M. grisea"
+     mRNA            <74..>556
+                     /product="pathogen-related protein"
+     CDS             74..556
+                     /note="rPR-10"
+                     /codon_start=1
+                     /product="pathogen-related protein"
+                     /protein_id="AAL27005.1"
+                     /db_xref="GI:16589076"
+                     /translation="MASTNSWTHEIESPVAAPRLFRAAVMDWHTLAPKIASHIVASAH
+                     PVDGDGSVGSVRQFNFTSAMPFSHMKERLEFLDVDKCECKSTLVEGGGIGKAIETATS
+                     HIKVEPAANGGSVVKVESTYKLLPGVEVKDEITKAKESLTGIFKTAEAYLIANPDAYN
+                     "
+ORIGIN      
+        1 gcagcggcaa agcaagtgat ctctttagct cggatcatct ctgcatttgc atttgcagct
+       61 gctcgtcacg gcaatggcat ccaccaacag ctggacccac gagatcgagt cgccggtggc
+      121 cgcgccgcgc ctgttccgcg ccgccgtcat ggactggcac acccttgccc ccaagatcgc
+      181 ctcccacatc gtcgccagcg cccaccccgt cgacggcgac ggcagcgtcg gcagcgtcag
+      241 gcagttcaac ttcacctcag ccatgccatt cagccacatg aaggagaggc tggagttcct
+      301 ggacgtggac aagtgcgagt gcaagtcgac gctggtggag ggcggcggca tcggcaaggc
+      361 gatcgagacg gcgacgtcgc acatcaaggt ggagccggcg gcgaacggcg ggagcgtcgt
+      421 gaaggtggag tccacgtaca agctcctccc cggagtggag gtgaaggacg agatcaccaa
+      481 ggctaaggag tccctcaccg gcatcttcaa gaccgccgag gcctacctca tcgccaaccc
+      541 ggacgcttac aactaaatcg tcatcatgcc tatgccccca aaatatgttt gataatattt
+      601 gatctttgcg agtgtgtatg atcgaaataa agctgcttcc aagcagtgat tgagaagtga
+      661 gcagcgagaa gcttggtgtg tggtttggtt gctgtcggag aatggttttg tttgacatga
+      721 tgctgtcaac accggctatg ttatgtatct atctagcatc tacctgttgg ttttgcgtgg
+      781 gaataaaaac atactataaa agataatgag ctcggaagct actatctgtg aaaaaaaaaa
+      841 aaaaaaaa
+//
+

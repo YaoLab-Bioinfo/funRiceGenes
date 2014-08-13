@@ -1,0 +1,76 @@
+LOCUS       AB292777                1540 bp    DNA     linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group APO1 gene for panicle organization
+            related protein, complete cds.
+ACCESSION   AB292777
+VERSION     AB292777.1  GI:155029181
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ikeda,K., Ito,M., Nagasawa,N., Kyozuka,J. and Nagato,Y.
+  TITLE     Rice ABERRANT PANICLE ORGANIZATION 1, encoding an F-box protein,
+            regulates meristem fate
+  JOURNAL   Plant J. 51 (6), 1030-1040 (2007)
+   PUBMED   17666027
+REFERENCE   2  (bases 1 to 1540)
+  AUTHORS   Ikeda,K. and Nagato,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2007) Contact:Kyoko Ikeda Okayama University,
+            Research Institute for Bioresources; 2-20-1 Chuo, Kurashiki,
+            Okayama 710-0046, Japan URL
+            :http://www.rib.okayama-u.ac.jp/pgm/index.html
+FEATURES             Location/Qualifiers
+     source          1..1540
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+     gene            join(81..784,867..1452)
+                     /gene="APO1"
+     CDS             join(81..784,867..1452)
+                     /gene="APO1"
+                     /codon_start=1
+                     /product="panicle organization related protein"
+                     /protein_id="BAF75467.1"
+                     /db_xref="GI:155029182"
+                     /translation="MMNPRRLPPLPSSTSSASAADDMDPRVWRRLPQPLVDRILACLP
+                     TPSFLRLRAACRRFYHLLFSSPFLHSHLLLSPHLPFFAFVVPAAGHLLLLDPTATASW
+                     SRLPLPLPPVAGGPAAFSPAAASAGLLAFLSDASGHKTLLLANPITRLLAALPISPTP
+                     RLSPTVGLAAGPTSIIAVVAGDDLVSPFAVKNISADTFVADAASVPPSGFWAPSSLLP
+                     RLSSLDPRAGMAFASGRFYCMSSSPFAVLVFDVAENVWSKVQPPMRRFLRSPALVELG
+                     GGREGAARVALVSAVEKSRLSVPRSVRLWTLRGGGGGGGGGAWTEVARMPPEVHAQFA
+                     AAEGGRGFECAAHGDYVVLAPRGPVAQAPTSALVFDSRRDEWRWAPPCPYVVVAHHGG
+                     AGAAGFRVFAYEPRLATPAIGLLDATAPVALHGMHDG"
+ORIGIN      
+        1 cactccactc cacttcaccc ttgaaaattt tcagctcacg cagctgcagc tgacgacgcc
+       61 gcgcgccgac gacgacgacc atgatgaacc ctcgccggct gccgcctctg ccgtcgtcga
+      121 cgtcgtccgc ctcggcagcg gacgacatgg acccgcgcgt gtggcgccgg ctgccgcagc
+      181 cgctggtgga ccgcatcctg gcgtgcctcc cgacgccgtc gttcctccgc ctccgcgccg
+      241 cctgccgccg cttctaccac ctcctcttct cctccccgtt cctccactcc cacctcctcc
+      301 tctcccctca cctccccttc ttcgccttcg tcgtccccgc cgccggccac ctcctcctcc
+      361 tcgaccccac cgccaccgcc tcctggtccc gcctcccgct cccgctcccg cccgtcgccg
+      421 gcggccccgc cgcgttctcg cccgcggccg cgtccgccgg cctgctcgcg ttcctgtccg
+      481 acgcgtcggg gcacaagacg ctgctgctcg ccaacccgat cacccgcctc ctcgccgcgc
+      541 tccccatctc cccgaccccg cgcctctccc ccaccgtcgg cctcgccgcc ggcccgacct
+      601 ccatcatcgc cgtcgtggcc ggggacgacc tcgtgtcccc cttcgccgtc aagaacatct
+      661 ccgccgacac gttcgtcgcc gacgccgcct ccgtcccgcc ctccggcttc tgggctccca
+      721 gctccctgct ccctcgcctc tcctccctcg atccccgcgc cggcatggcc ttcgcctccg
+      781 gcaggtaagc gcgccgcgcc attgatgacg catgggtaaa tactcttgca cagatttgct
+      841 gatcttgcct tggttgttgt tcttaggttc tactgcatga gctcgtcgcc gtttgcggtt
+      901 ctggtgttcg acgtggcgga gaacgtatgg agcaaggtgc agccgccgat gaggcggttc
+      961 ctgaggtcgc cggcgctggt ggagctcggc ggcgggaggg agggagcggc gagggtggcg
+     1021 ctggtgtcgg ccgtcgagaa gagccgtctc agcgtgcccc gcagcgtgcg cctgtggacg
+     1081 ctgcgcggcg gcggcggcgg cggcggcggt ggcgcgtgga cggaggtggc gcggatgccg
+     1141 ccggaggtgc acgcgcagtt cgccgcggcg gagggcgggc gcgggttcga gtgcgcggcg
+     1201 cacggcgact acgtcgtgct cgcgccgcgc gggcccgtgg cgcaggcgcc cacgagcgcg
+     1261 ctcgtgttcg actcccgccg cgacgagtgg cggtgggcgc cgccgtgccc gtacgtcgtc
+     1321 gtcgcgcacc acggcggcgc cggcgcggcg ggtttccggg tgttcgcgta cgagccccgg
+     1381 ctggcgacgc cggccattgg cctcctcgac gccacggcgc ccgtcgcctt gcatggcatg
+     1441 catgatggtt aggagcatac tatgtgcttt tttgtgcatg ctgcctgcat caactaatca
+     1501 atttgttatg gcctagggca tgcatacaca tgttcatgag
+//
+

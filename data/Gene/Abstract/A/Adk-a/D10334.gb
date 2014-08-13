@@ -1,0 +1,70 @@
+LOCUS       RICADKA                 1154 bp    mRNA    linear   PLN 18-AUG-2007
+DEFINITION  Oryza sativa mRNA for adenylate kinase-a, complete cds.
+ACCESSION   D10334
+VERSION     D10334.1  GI:391876
+KEYWORDS    adenylate kinase-a; Adk-a.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1154)
+  AUTHORS   Kawai,M., Kidou,S., Kato,A. and Uchimiya,H.
+  TITLE     Molecular characterization of cDNA encoding for adenylate kinase of
+            rice (Oryza sativa L.)
+  JOURNAL   Plant J. 2 (6), 845-854 (1992)
+   PUBMED   1302636
+REFERENCE   2  (bases 1 to 1154)
+  AUTHORS   Kawai,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JAN-1992) Maki Kawai, Univ. of Tokyo, Inst. of
+            Molecular and Cellular Biosciences; Yayoi 1-1-1, Bunkyo-ku, Tokyo
+            113, Japan (Tel:03-3812-2111(ex.7845), Fax:03-3812-2910)
+FEATURES             Location/Qualifiers
+     source          1..1154
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /strain="Yamahoushi"
+                     /db_xref="taxon:4530"
+                     /clone="Adk-a-29 and Adk-a-50"
+                     /clone_lib="lambda gt10"
+                     /dev_stage="callus"
+     gene            1..1154
+                     /gene="Adk-a"
+     CDS             137..862
+                     /gene="Adk-a"
+                     /EC_number="2.7.4.3"
+                     /codon_start=1
+                     /product="adenylate kinase-a"
+                     /protein_id="BAA01180.1"
+                     /db_xref="GI:391877"
+                     /translation="MAANLEDVPSMELMTELLRRMKCSSKPDKRVILVGPPGCGKGTQ
+                     SPLIKDEFCLCHLATGDMLRAAVAAKTPLGIKAKEAMDKGELVSDDLVVGIIDEAMKK
+                     TSCQKGFILDGFPRTVVQAQKLDEMLAKQGTKIDKVLNFAIDDAILEERITGRWIHPS
+                     SGRSYHTKFAPPKTPGLDDVTGEPLIQRKDDTAAVLKSRLEAFHVQTKPVIDYYTKKG
+                     IVANLHAEKPPKEVTVEVQKALS"
+     polyA_signal    1078..1086
+                     /gene="Adk-a"
+ORIGIN      
+        1 cagaaacgaa acaaaaagcc ccaccaccta aacctcctcg atccgaccga gactcctcca
+       61 tttcagcggc gcacgcggag agcacgcgac gagttcgtcg acgaacaagg ctagtgcagt
+      121 agttgttgct gcggagatgg cggcgaacct ggaggacgtg ccgtcgatgg agctgatgac
+      181 ggagctgctc cgccgcatga agtgcagctc caagcccgac aagcgcgtca tcctcgtcgg
+      241 tccacctggc tgcggaaagg gaacacagtc accgctgatt aaggatgaat tttgcttgtg
+      301 ccatttagcc actggtgata tgttgagggc tgcagtggct gctaaaactc cacttgggat
+      361 taaggctaaa gaagctatgg acaagggaga gcttgtttct gatgacttgg ttgttgggat
+      421 tattgatgaa gccatgaaga aaacttcatg ccagaaaggt tttatccttg atggtttccc
+      481 tagaactgtt gttcaagcac agaagcttga tgaaatgttg gccaaacaag gtactaagat
+      541 tgacaaggtt ctaaattttg caattgatga tgcaatactg gaagaacgaa ttaccggtcg
+      601 ttggatccac ccatcaagtg gtagatctta tcatacaaaa tttgctcctc ctaagactcc
+      661 tggacttgat gatgttactg gagaaccctt aattcaaagg aaagatgaca cagctgcagt
+      721 attgaagtca aggcttgaag ccttccacgt acaaactaag cctgtgattg actactacac
+      781 caagaagggc atagtcgcaa atctgcatgc cgaaaaacca ccaaaggaag tgactgttga
+      841 ggtccagaaa gccctatcat aaactgccag ttcttcagcc tataaacatg acatgtgccg
+      901 aaaacccctt acactgggtt ttctagatgt ttaaactgct gccaacacca tgtggttttc
+      961 attttgattt gctgtatggc gcaattgctc cattttatca cagttttcgc ttcacagtct
+     1021 gaaatttgtc aaaataattt gttggaatga ggaaagaagt tttgtatacc aacaccgata
+     1081 taattacatc aagtcaatct tgacagggta ttccttctgt tcatcttaat tttgaaattg
+     1141 atgcctttgt ggtg
+//
+

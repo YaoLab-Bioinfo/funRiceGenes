@@ -1,0 +1,58 @@
+LOCUS       AY177699                 684 bp    mRNA    linear   PLN 31-DEC-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) transcription factor MADS32
+            mRNA, complete cds.
+ACCESSION   AY177699
+VERSION     AY177699.1  GI:30313682
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 684)
+  AUTHORS   Lee,S., Kim,J., Son,J.S., Nam,J., Jeong,D.H., Lee,K., Jang,S.,
+            Yoo,J., Lee,J., Lee,D.Y., Kang,H.G. and An,G.
+  TITLE     Systematic reverse genetic screening of T-DNA tagged genes in rice
+            for functional genomic analyses: MADS-box genes as a test case
+  JOURNAL   Plant Cell Physiol. 44 (12), 1403-1411 (2003)
+   PUBMED   14701936
+REFERENCE   2  (bases 1 to 684)
+  AUTHORS   Lee,S., Kim,J. and An,G.
+  TITLE     Identification and mutant isolation of rice MADS box genes
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 684)
+  AUTHORS   Lee,S., Kim,J. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2002) Division of Molecular and Life Sciences,
+            Pohang University of Science and Technology, San 31, Hyoja-Dong,
+            Nam-Gu, Pohang, Kyungbuk 790-784, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..684
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Dongjin"
+                     /db_xref="taxon:39947"
+     CDS             1..591
+                     /codon_start=1
+                     /product="transcription factor MADS32"
+                     /protein_id="AAO47709.1"
+                     /db_xref="GI:30313683"
+                     /translation="MGRGRSEIKRIENPTQRQSTFYKRRDGLFKKARELAVLCDADLL
+                     LLLFSASGKLYHFLSPTVPSVREFVERYEATTHTKVWADIRQERRAELEKVGSMCDLL
+                     EKQLRFMTVDDGEEYTVPSLEALEHNLEAAMRKVRSEKDRKIGGEICYLQNIIRGRQE
+                     ERYGLCDKIAHAQTLKDVECGSTSLSNGLDLKLGFN"
+ORIGIN      
+        1 atggggaggg ggcgcagcga gataaagagg atagagaacc ccacgcagcg gcagtccacc
+       61 ttctacaagc gcagggacgg cctgttcaag aaggccaggg agctcgccgt cctctgcgac
+      121 gccgacctcc tcctcctcct cttctccgcc tccggcaagc tctaccactt cctctccccc
+      181 accgtcccct ccgtgaggga gtttgtcgag aggtacgagg ccaccacgca caccaaggtt
+      241 tgggcagata tcaggcagga gaggcgcgcc gagctggaga aggtgggcag catgtgcgac
+      301 ctcctggaga aacagctgag gttcatgacg gtggacgacg gcgaggagta cacggtgccg
+      361 tcgctggagg cgctggagca caatctggag gccgccatgc gcaaggtgcg ctccgagaag
+      421 gaccgcaaga tcggaggcga gatctgctac ctccagaaca ttattagggg gcgacaagag
+      481 gagcggtacg ggctgtgcga caagattgct catgcacaga ctctgaagga tgtggaatgt
+      541 ggatccacct cactaagcaa tggcttggac cttaaactgg ggttcaacta gaaacagatg
+      601 gacgcttgac gttcagattt cctttattgc tgcttagagc cagtgttcta ttatgaaaga
+      661 ttatgctgaa cttttccggg gtta
+//
+

@@ -1,0 +1,59 @@
+LOCUS       AF541859                 918 bp    mRNA    linear   PLN 28-FEB-2003
+DEFINITION  Oryza sativa (indica cultivar-group) HMG1 protein (HMG1) mRNA,
+            complete cds.
+ACCESSION   AF541859
+VERSION     AF541859.1  GI:23345286
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 918)
+  AUTHORS   Wu,Q., Zhang,W., Pwee,K.H. and Kumar,P.P.
+  TITLE     Rice HMGB1 protein recognizes DNA structures and bends DNA
+            efficiently
+  JOURNAL   Arch. Biochem. Biophys. 411 (1), 105-111 (2003)
+   PUBMED   12590928
+REFERENCE   2  (bases 1 to 918)
+  AUTHORS   Wu,Q., Zhang,W., Pwee,K.H. and Kumar,P.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-AUG-2002) Biological Sciences, National University of
+            Singapore, Science Drive 4, Singapore 117543, Singapore
+FEATURES             Location/Qualifiers
+     source          1..918
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+     gene            1..918
+                     /gene="HMG1"
+     CDS             124..597
+                     /gene="HMG1"
+                     /note="DNA-binding Protein"
+                     /codon_start=1
+                     /product="HMG1 protein"
+                     /protein_id="AAN28722.1"
+                     /db_xref="GI:23345287"
+                     /translation="MKGAKSKGAAKPDAKLAVKSKGAEKPAAKGRKGKAGKDPNKPKR
+                     APSAFFVFMEEFRKEFKEKNPKNKSVAAVGKAAGDRWKSLTEADKAPYVAKANKLKAE
+                     YNKAIAAYNKGESTAKKAPAKEEEEDDEEESDKSKSEVNDEDDDEGSEEDEDDDE"
+ORIGIN      
+        1 tcttctcttc tctggtggtg tgggtgtgtc cctgtctccc ctccttcctc ctctcctttc
+       61 ccctcctctc ttcccccctc tcacaagaga gagagagcgc cagactctcc ccaggattca
+      121 gccatgaagg gggccaaatc caagggcgcc gccaagcccg acgccaagtt ggctgtgaag
+      181 agtaagggcg cggagaagcc cgccgccaag ggcaggaagg ggaaggccgg caaggacccc
+      241 aacaagccca agagggctcc ctccgctttc ttcgttttta tggaggagtt ccgtaaggag
+      301 ttcaaggaga agaaccccaa gaataaatct gtcgctgctg taggaaaagc agccggtgat
+      361 aggtggaaat ccctgaccga agcggacaag gctccctatg tagccaaggc caacaagctc
+      421 aaggccgagt acaacaaggc cattgctgcc tacaacaagg gcgagagcac tgccaagaag
+      481 gcacccgcca aggaggaaga ggaggacgac gaggaggaat ctgacaagtc caagtccgag
+      541 gtcaatgatg aggatgacga cgagggcagc gaagaggatg aagacgatga cgagtgagcc
+      601 ttccagtgga caagatggga gcagcaagac gctaagggcg gcgggcgtcc taaggagcct
+      661 atccatcatc atcatcgtct actagaatta ttcagtttca cttcacatcg tgatgtttta
+      721 ctttttctct cgtcctataa cggatagcgc tccttgttgg cgccactggt gggtgttgtg
+      781 gtgcagccaa tgtcttgtct ccaccgtcaa tgatccgctt gtacctagat tactctttcc
+      841 attgtcatcg gctaacattg tgataatatc agtttgcgta tgttagatta aattgtttct
+      901 aaaaaaaaaa aaaaaaaa
+//
+

@@ -1,0 +1,115 @@
+LOCUS       AB267729                1829 bp    mRNA    linear   PLN 16-NOV-2007
+DEFINITION  Oryza sativa Japonica Group Gmk gene for guanylate kinase, complete
+            cds, cultivar: Taichung 65.
+ACCESSION   AB267729
+VERSION     AB267729.1  GI:124484328
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sugimoto,H., Kusumi,K., Noguchi,K., Yano,M., Yoshimura,A. and
+            Iba,K.
+  TITLE     The rice nuclear gene, VIRESCENT 2, is essential for chloroplast
+            development and encodes a novel type of guanylate kinase targeted
+            to plastids and mitochondria
+  JOURNAL   Plant J. 52 (3), 512-527 (2007)
+   PUBMED   17727616
+REFERENCE   2  (bases 1 to 1829)
+  AUTHORS   Sugimoto,H., Kusumi,K. and Iba,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2006) Koh Iba, Faculty of Science, Kyushu
+            University, Department of Biology; 6-10-1, Hakozaki, Fukuoka,
+            Fukuoka 812-8581, Japan (E-mail:koibascb@mbox.nc.kyushu-u.ac.jp,
+            Tel:81-92-642-2621, Fax:81-92-642-2621)
+FEATURES             Location/Qualifiers
+     source          1..1829
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Taichung 65"
+                     /db_xref="taxon:39947"
+                     /chromosome="12"
+     gene            <1..>1829
+                     /gene="Gmk"
+     exon            <1..317
+                     /gene="Gmk"
+                     /number=1
+     exon            318..357
+                     /gene="Gmk"
+                     /number=2
+     CDS             355..1503
+                     /gene="Gmk"
+                     /codon_start=1
+                     /product="guanylate kinase"
+                     /protein_id="BAF46275.1"
+                     /db_xref="GI:124484329"
+                     /translation="MGEEAPEFRVESVALESKDCLQNAIDIGDKTYVISRSDDPKSSI
+                     TIKILDKLTQTWVVPTVLGAPPNPTSSHSAVLVNNEKILIIEKGVPLNDSIWFLEVDT
+                     PFVKQQSKIKGTVVVAWSKGVIGEGQKPIVISGPSGVGKGTLIAKLMKEYPSKFGFSV
+                     SHTTRAPREKEIDGVHYHFTERSKIEEEISEGKFLEFAHVHGNVYGTSVEAVESVTDE
+                     GKRCILDIDVQGARSVRASSLEAIFIFVCPPSFEELEKRLRARGTETEEQIQKRLRNA
+                     RAELDQSNSPGLFDHLLVNDDLEACYENLKKLLSLDDDHEDSNDSFIKDGKETACYSI
+                     LSKTNSEILLQSETNEAEKGTTNLLSLDLSLSGGAPGRTRGLKISPVN"
+     exon            358..447
+                     /gene="Gmk"
+                     /number=3
+     exon            448..521
+                     /gene="Gmk"
+                     /number=4
+     exon            522..651
+                     /gene="Gmk"
+                     /number=5
+     exon            652..1014
+                     /gene="Gmk"
+                     /number=6
+     exon            1015..1136
+                     /gene="Gmk"
+                     /number=7
+     exon            1137..1272
+                     /gene="Gmk"
+                     /number=8
+     exon            1273..1318
+                     /gene="Gmk"
+                     /number=9
+     exon            1319..1427
+                     /gene="Gmk"
+                     /number=10
+     exon            1428..>1829
+                     /gene="Gmk"
+                     /number=11
+ORIGIN      
+        1 gggtaattaa aaaaaacaaa ataaaaaaaa gcccacaaaa aaaaaagaaa aaaaaagaga
+       61 gagagaagag aagaaaaagt cgtataaagc cgccgcggcg tcgacgtcga cgccgtcgcc
+      121 tcctcctccc caccaaattc ctcctccgat tcgatcctct cctctcctcc atcgccgccg
+      181 ccgacgcccg ccgcccgcct ccgaccccct cctgctcggc gtcagcattc ttgggcgggt
+      241 ttcggtttct tggggtcgtc gtcgtagcgg ccaccgagag gggatcaaga agctgaggat
+      301 cgcggtgggg caacgaggat tggaggcgcg tctgccctga tcacggcgca ttttatgggt
+      361 gaagaggctc cggagtttcg tgtcgagagc gtcgccttgg aatccaagga ctgcctgcag
+      421 aatgccatag atataggcga taagacgtat gttatcagca gatcagatga ccccaagtca
+      481 tcgattacca tcaaaatttt ggacaaacta actcagactt gggttgtacc tacagtactt
+      541 ggggcacctc caaatccaac cagctcacac tcagcggttc tcgtaaacaa tgagaagata
+      601 ctgattattg agaagggtgt tcccttgaat gattctatct ggttccttga ggtagacact
+      661 ccttttgtta agcagcagag caaaattaag ggcacagttg ttgttgcatg gagcaaggga
+      721 gtaattggtg agggccaaaa gccaattgtg attagcgggc cttctggtgt tggtaaaggg
+      781 acattaattg caaaattaat gaaagaatat ccatcaaagt ttggattttc tgttagccac
+      841 accacaagag ctccaaggga gaaagaaata gatggagttc attaccactt cacagaacga
+      901 agcaagattg aggaagagat aagtgagggc aaatttcttg agtttgctca tgttcatgga
+      961 aatgtctatg gcactagcgt tgaagcagtt gaatctgtta ctgatgaggg gaagaggtgt
+     1021 attctcgaca ttgatgtcca aggagctcgt tctgtgaggg cttcttctct tgaagcaata
+     1081 ttcatctttg tatgccctcc atcgttcgag gaactagaga agcgccttcg ggcacgggga
+     1141 actgaaacag aggagcaaat ccagaagcga ctgaggaatg ctcgtgcaga gcttgaccag
+     1201 tccaattcac caggtctttt cgatcatctt ttggtaaatg atgaccttga agcttgttat
+     1261 gaaaatttga agaagttgct ttctttggat gatgaccacg aagattcaaa tgattctttc
+     1321 atcaaggacg ggaaagaaac tgcatgttac tcaatcctgt ccaaaacaaa ctcagaaatt
+     1381 ttgttgcaat ctgagactaa cgaagcagag aaaggaacca caaacttgtt atcgctcgac
+     1441 ttgtctctct caggaggtgc tcctggacga acaaggggcc tcaagatatc cccggttaac
+     1501 tagataactc aaaacattgt tgctgatggc attgcagaag cactgacgag aaacttttga
+     1561 tcaacctgct tgagataaca gattcagaaa caccctagga caaaggaaat aaaaaaaaca
+     1621 tggaattcat ttccatttgt tatttgtttg ccggagaggc atcagctact aggttcatca
+     1681 tacctgaact aggtgaaatc atagtgagga attgtaccgt atcattgagg aattgtttgc
+     1741 ttcattgttc ttgagaggtt tttttgttcg ttgaacggag tacaatgagg gctcctttat
+     1801 cagtgaagta aaagaattca tgtagtcct
+//
+

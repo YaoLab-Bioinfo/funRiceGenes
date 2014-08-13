@@ -1,0 +1,76 @@
+LOCUS       AY974045                1726 bp    mRNA    linear   PLN 01-AUG-2005
+DEFINITION  Zea mays inorganic phosphate transporter 5 mRNA, complete cds.
+ACCESSION   AY974045
+VERSION     AY974045.1  GI:65335910
+KEYWORDS    .
+SOURCE      Zea mays
+  ORGANISM  Zea mays
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; PACMAD
+            clade; Panicoideae; Andropogoneae; Zea.
+REFERENCE   1  (bases 1 to 1726)
+  AUTHORS   Nagy,R., Vasconcelos,M.J.V., Zhao,S., McElver,J., Bruce,W.,
+            Amrhein,N., Raghothama,K.G. and Bucher,M.
+  TITLE     Differential regulation of six Pht1 phosphate transporters from
+            maize (Zea mays L.)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1726)
+  AUTHORS   Zhao,S., McElver,J. and Bruce,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2005) Swiss Federal Institute of Technology (ETH)
+            Zurich, Institute of Plant Sciences, Plant Biochemistry and
+            Physiology Group, Experimental Station Eschikon 33, Lindau 8315,
+            Switzerland
+FEATURES             Location/Qualifiers
+     source          1..1726
+                     /organism="Zea mays"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4577"
+     CDS             74..1603
+                     /note="transmembrane protein; Pht1"
+                     /codon_start=1
+                     /product="inorganic phosphate transporter 5"
+                     /protein_id="AAY42389.1"
+                     /db_xref="GI:65335911"
+                     /translation="MALGQQLRVLHALDVARTQLYHFMATAIAGMGFFTDAYDFFAIS
+                     LVMDLISYLYNEEQIDRGVKATINGIALCGAVPGQLVFGWLGDKMGRKRIYGVTLLLM
+                     VVTSLASGLYFGTNEASNVVAVLCFFRFWLGFGIGGDYPLSATIMSEYANKRRRGAFI
+                     AAVFAMQGFGNLAAGIVAVVVSASFLRTNPRRNANFVWRIVLMLGAVPAILTYYWRMK
+                     MPETARYTALVAKDARKAASDMSSVLHVEIIPEDEAVRQDKYGLFSAQFLRYHGTHLL
+                     ATSACWLAVDITFYSLNLYMKDIFADVGLIDPPGNNDLFTRMTVTTLLHTGIALCGTL
+                     PGYFFTVAFVDRIGRVRIQLLGFTMMSVLTAILAATYAYWKRQETIQRKMGFAVLYGL
+                     TNFFANFGPNTTTFIVPAEIFPARMRATCHGIAGAFGKIGAIIGVFGFMSNMEEHGVV
+                     PRKLWALFASNLVGLVFTFLLPDSKGKSLEEMAGETEEQQQQQDAAVVAAADHINLVP
+                     I"
+ORIGIN      
+        1 gtttctgaca ctccatttct ctgcaggccg gagtggcttg cagcaagagc tcgcgagagg
+       61 gagaagaaga ccaatggctc ttgggcagca gctgagagta ctgcacgctc tggatgttgc
+      121 caggacacag ctctaccact ttatggcaac cgcaatcgcc ggcatgggct tcttcacgga
+      181 tgcctatgat ttcttcgcca tctccctcgt catggatctc ataagctacc tgtacaacga
+      241 ggaacagatt gatcgcggcg tcaaagccac catcaacggc atcgctctgt gtggcgccgt
+      301 gccggggcaa ctggtctttg gctggctggg cgacaagatg ggccgcaagc gcatctacgg
+      361 cgtcacgctg cttctcatgg tggtcacctc cctggcgtcg ggcctctact tcggcaccaa
+      421 cgaagcgtcg aacgtggtgg ccgtcctctg cttcttccgc ttctggcttg gcttcggcat
+      481 cggcggcgat tacccgctct cggcaaccat catgtccgag tacgccaaca agaggagacg
+      541 cggcgccttc attgcggctg ttttcgccat gcaaggtttc ggcaaccttg cagctggaat
+      601 cgttgccgtg gtggtatcag cctcgtttct gaggaccaat ccaagaagga acgctaactt
+      661 cgtctggcgg atcgttctca tgctgggcgc ggttccggcg atcctcacct actactggcg
+      721 catgaagatg cccgagacgg cgcggtacac cgcgctggtg gcaaaggatg cgaggaaggc
+      781 agcgtcagac atgtcctccg tcctccacgt ggaaatcatc ccagaggacg aagcagtcag
+      841 gcaggacaag tacggtctct tctcggcgca gttcctacga taccatggaa cacacctgct
+      901 cgccaccagc gcgtgctggc tcgccgtcga catcaccttc tactcgctca acctctacat
+      961 gaaggacatc tttgccgacg tcggtctgat tgaccctccg gggaataacg acttgttcac
+     1021 gcggatgacc gtcactacct tgctgcacac gggcatcgcg ctctgtggta cactgccggg
+     1081 atacttcttc accgtcgcat tcgttgaccg catcggccgt gtcaggattc agctactggg
+     1141 attcactatg atgtccgtct tgacagccat cctcgcagcc acttatgcgt actggaaacg
+     1201 gcaggaaaca atacagcgca agatgggctt cgcagtcttg tatggcttga ccaacttctt
+     1261 cgccaatttt ggtcccaaca ccacaacatt catagttccg gcggagattt tcccagcacg
+     1321 gatgcgcgcg acgtgccatg gcatagccgg cgcattcggg aagataggcg ccatcatcgg
+     1381 cgtgtttggc ttcatgtcca acatggaaga acacggcgtc gtcccaagaa agctgtgggc
+     1441 actatttgcc tccaacctag tcggccttgt gttcaccttc cttctaccgg attccaaagg
+     1501 taagtcgctg gaagagatgg ccggtgaaac ggaagaacag cagcagcaac aggacgctgc
+     1561 agtagttgcc gcggccgacc atataaattt ggtgcctatt tagcacgccc aatggtcact
+     1621 gtttgttgca cgcaatgggg tgcgtggcac tacttcgtga tatgtgaata tttcatagat
+     1681 cttcttctaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaa
+//
+

@@ -1,0 +1,57 @@
+LOCUS       AY286473                 465 bp    mRNA    linear   PLN 13-OCT-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) zinc finger protein ZFP15
+            mRNA, complete cds.
+ACCESSION   AY286473
+VERSION     AY286473.1  GI:31075604
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 465)
+  AUTHORS   Huang,J., Wang,J. and Zhang,H.
+  TITLE     Rice ZFP15 gene encoding for a novel C2H2-type zinc finger protein
+            lacking DLN box, is regulated by spike development but not by
+            abiotic stresses
+  JOURNAL   Mol. Biol. Rep. 32 (3), 177-183 (2005)
+   PUBMED   16172918
+REFERENCE   2  (bases 1 to 465)
+  AUTHORS   Huang,J., Hou,F.-Y., Jiang,Y. and Zhang,H.-S.
+  TITLE     Molecular cloning of a C2H2 zinc finger protein family from rice
+            (Oryza sativa L.)
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 465)
+  AUTHORS   Huang,J., Hou,F.-Y., Jiang,Y. and Zhang,H.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-APR-2003) Agronomy, Rice Research Institute, Weigang,
+            Nanjing Agricultural University, Nanjing, Jiangsu 210095, China
+FEATURES             Location/Qualifiers
+     source          1..465
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Jiu Caiqing"
+                     /db_xref="taxon:39947"
+                     /clone="Z15"
+                     /tissue_type="NaCl-treated seedling"
+     CDS             8..442
+                     /note="contains 2 zinc fingers; includes conserved QALGGH
+                     motif"
+                     /codon_start=1
+                     /product="zinc finger protein ZFP15"
+                     /protein_id="AAP42460.1"
+                     /db_xref="GI:31075605"
+                     /translation="MTKHPRDGEVISLSLSLTLGAAADSGERKKPRRGSSPAASGSGD
+                     FVCKTCSRAFPSFQALGGHRTSHLRGRHGLALGLAAATAKETTKKVQEKPAAAATHEC
+                     HICGQGFEMGQALGGHMRRHREEAAAAAAAVHAPPVLLELFV"
+ORIGIN      
+        1 cttgaccatg accaagcatc cgagggacgg cgaggtgatc agcctctcgc tgtcgctcac
+       61 gctcggcgct gccgcggata gcggcgagcg gaagaagccg cggcgcgggt cgtcgccggc
+      121 ggcgtccggg agtggggact tcgtctgcaa gacgtgcagc cgcgcgttcc cgtcgttcca
+      181 ggcgctgggc ggccaccgga ccagccacct gcgcggccgc cacgggctcg cgctcggcct
+      241 cgccgccgcc acggccaagg agaccaccaa gaaggtgcag gagaagccgg cggcggcggc
+      301 gacccacgag tgccacatct gcggccaagg cttcgagatg ggccaggcgc tcggcggcca
+      361 catgcgccgc caccgcgagg aggccgccgc cgccgccgcg gcggtgcacg cgccgcccgt
+      421 tctgctcgag ctcttcgttt agattcgtgc gattgctgcc tgtac
+//
+

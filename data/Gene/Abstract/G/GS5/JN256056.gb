@@ -1,0 +1,79 @@
+LOCUS       JN256056                1449 bp    mRNA    linear   PLN 09-DEC-2011
+DEFINITION  Oryza sativa Indica Group cultivar Zhenshan 97 grain size 5 (GS5)
+            mRNA, complete cds.
+ACCESSION   JN256056
+VERSION     JN256056.1  GI:346577720
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1449)
+  AUTHORS   Li,Y., Fan,C., Xing,Y., Jiang,Y., Luo,L., Sun,L., Shao,D., Xu,C.,
+            Li,X., Xiao,J., He,Y. and Zhang,Q.
+  TITLE     Natural variation in GS5 plays an important role in regulating
+            grain size and yield in rice
+  JOURNAL   Nat. Genet. 43 (12), 1266-1269 (2011)
+   PUBMED   22019783
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1449)
+  AUTHORS   Li,Y., He,Y. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2011) Life Science, Huazhong Agricultural
+            University, Huazhong Agricultural University, Wuhan, Hubei 430070,
+            China
+FEATURES             Location/Qualifiers
+     source          1..1449
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhenshan 97"
+                     /db_xref="taxon:39946"
+     gene            1..1449
+                     /gene="GS5"
+     CDS             1..1449
+                     /gene="GS5"
+                     /note="putative serine carboxypeptidase belonging to the
+                     peptidase S10 family"
+                     /codon_start=1
+                     /allele="1"
+                     /product="grain size 5"
+                     /protein_id="AEO37081.1"
+                     /db_xref="GI:346577721"
+                     /translation="MAVAAAAAAAARRRDVSCLLLLLCFSSSMAATGGGGGEQEADRV
+                     ARLPGQPASPAVSQFAGYVGVDERHGRALFYWFFEAQASPAPEKKPLLLWLNGGPGCS
+                     SIGYGAASELGPLRVARQGAALEFTKYGWNKEANLLFLESPVGVGFSYTNTSSDLSNL
+                     NDDFVAEDAYSFLVNWFKRFPQYKDNEFYISGESYAGHYVPQLADLVYERNKDKRAST
+                     YINLKGFIVGNPLTDDYYDSKGLAEYAWSHAIVSDQVYERIKKTCNFKNSNWTDDCNA
+                     AMNIIFSQYNQIDIYNIYAPKCLLNSTSASSPDRAFFANNQEQFRWRIKMFSGYDPCY
+                     SSYAEDYFNKHDVQEAFHANASGLLPGKWQVCSDQILNSYNFSVLSILPIYSKLIKAG
+                     LRVWLYSGDADGRVPVISSRYCVDALGLPIKTDWQSWYLDKQVAGRFVEYHGMTMVTV
+                     RGAGHLVPLNKPAEGLMLINAFLHGEKLPTSR"
+ORIGIN      
+        1 atggcggtgg cggcggcggc ggcggcggcg gcgaggcggc gagatgtctc ttgtcttctc
+       61 ctcctcctgt gcttcagctc gtcaatggcg gcgaccggcg gcggcggcgg cgagcaggag
+      121 gctgacaggg tggcgcggct cccggggcag ccggcgagcc ccgccgtgtc gcagttcgcc
+      181 ggctacgtcg gcgtcgacga gcggcacggc agggcgctgt tctactggtt cttcgaggcg
+      241 caggcgtcgc cggcgccgga gaagaagccg ctgctcctct ggctcaatgg aggacctggt
+      301 tgctcttcca ttggctatgg tgctgcatca gagctagggc ctctcagagt tgcaagacaa
+      361 ggagcagcac tagagttcac taagtatggc tggaacaaag aggctaacct cctgttcttg
+      421 gagtctcctg ttggggtcgg cttctcctac accaacacat cctctgacct ctccaatctt
+      481 aatgatgatt ttgtagctga ggatgcttat agtttcctgg tgaactggtt caagagattt
+      541 cctcagtaca aggacaatga gttctacatc tcaggggaga gctatgcagg tcactatgtg
+      601 ccccaacttg ctgaccttgt ctatgagagg aacaaagaca aaagggccag cacatatatc
+      661 aacctcaagg ggttcattgt aggcaaccct ctcaccgatg attactatga ttcaaaaggt
+      721 ttggctgagt atgcctggag ccatgcaatt gtgtcggatc aagtttacga gcgcatcaag
+      781 aaaacttgca acttcaagaa ctccaactgg actgacgatt gcaatgctgc aatgaacata
+      841 atcttcagtc agtacaatca gatagatata tacaacattt atgccccaaa gtgccttcta
+      901 aacagtactt cagcatcttc acctgatcgt gcattcttcg caaataacca ggaacaattc
+      961 aggtggagaa tcaagatgtt ttcaggctat gatccatgct actcatccta tgctgaggac
+     1021 tacttcaata agcatgatgt gcaagaagca ttccatgcaa atgccagtgg actgcttcca
+     1081 gggaagtggc aagtttgcag tgaccaaatc ctcaactctt acaatttctc agtactttcc
+     1141 atcctaccta tatactccaa gctcatcaaa gcagggctga gagtttggct ctacagcggt
+     1201 gatgctgacg gcagggtccc ggttatcagt tctcggtact gcgtggacgc actcggccta
+     1261 ccgatcaaga ccgattggca atcttggtac cttgacaagc aggttgctgg gaggtttgtg
+     1321 gagtaccatg gaatgacaat ggtgactgtc agaggggcag gtcacctggt tcccctcaac
+     1381 aaacctgctg aagggcttat gctgataaat gcattccttc atggtgagaa gcttccgaca
+     1441 agcagatga
+//
+

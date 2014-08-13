@@ -1,0 +1,80 @@
+LOCUS       AAT37534                 702 aa            linear   PLN 01-JUN-2004
+DEFINITION  arginine decarboxylase [Oryza sativa].
+ACCESSION   AAT37534
+VERSION     AAT37534.1  GI:47716667
+DBSOURCE    accession AY604047.1
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 702)
+  AUTHORS   Akiyama,T.
+  TITLE     Cloning and characterization of a rice arginine decarboxylase gene
+            induced specifically by low temperature
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 702)
+  AUTHORS   Akiyama,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-APR-2004) Low-Temperature Science, National
+            Agricultural Research Center for Hokkaido Region, 1 Hitsujigaoka,
+            Toyohira-ku, Sapporo, Hokkaido 0628555, Japan
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..702
+                     /organism="Oryza sativa"
+                     /db_xref="taxon:4530"
+     Protein         1..702
+                     /product="arginine decarboxylase"
+     Region          114..660
+                     /region_name="PLN02439"
+                     /note="arginine decarboxylase"
+                     /db_xref="CDD:215240"
+     Region          114..598
+                     /region_name="PLPDE_III_ADC"
+                     /note="Type III Pyridoxal 5-phosphate (PLP)-Dependent
+                     Enzyme Arginine Decarboxylase; cd06830"
+                     /db_xref="CDD:143503"
+     Site            order(149,151,174,201,251,301,304,340..341,390..393,
+                     540..541,579,583,587)
+                     /site_type="active"
+                     /db_xref="CDD:143503"
+     Site            order(149,151,174,201,251,301,304,340..341,390..393,540,
+                     579)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate (PLP) binding site [chemical
+                     binding]"
+                     /db_xref="CDD:143503"
+     Site            order(151,176..177,179..180,206,226,230,234,270..273,
+                     469..472,496,498,500,503,537,539..541,543,582..584,
+                     587..589)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:143503"
+     Site            order(151,540)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:143503"
+     Site            order(304,393,540..541,579,583,587)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:143503"
+     CDS             1..702
+                     /gene="ADC1"
+                     /coded_by="AY604047.1:19..2127"
+ORIGIN      
+        1 mpalavdaaa pvahafacda arfpapllgp aaaaaavaek pdaaawsadl ssalynvdgw
+       61 gapyffvndd gdvavrphga atlpgqeidl akvvakaagp rsggglglpl pllvrfpdvl
+      121 rhrvealnaa fdyavrstgy ggryqgvypv kcnqdrhvve divefgepfr fgleagskpe
+      181 lllamsclaa rgnpdallic ngykddeyvs laliartmgl ntvivleqee eldivvdasr
+      241 rlgvrpvvgm raklrtkhag hfgstsgekg kfglnaaqil svvaklktlg mldclqllhf
+      301 higsqiptta llgdgvgeaa qiycelarlg aamrvidvgg glgidydgsh saqtdmsvay
+      361 sleeyaaavv aavgrvcdrk gvahpiicse sgralvshhs vlvfeafsas apgridpatg
+      421 ylldeltddc hadyrnlmaa avrgdfdtca lyadqlkrrc adqfkdgvlg lehlaavdsl
+      481 ceivargmga aepprtyhin lsvftslpdm waigqmfpii piqrlgerpa vdgvlsdltc
+      541 dsdgkvdhfi ggrhslplhe lpvhgtrgyy lgmflggayq ealgglhnlf ggpsvvrvsq
+      601 sdgphcfavt raaagpscad vlrsmqhepe vmfevlkqrt dgataaalar afgampylsf
+      661 dpeaaamasg essgmssdse gsaagaaeed ddewefmrgl tv
+//
+

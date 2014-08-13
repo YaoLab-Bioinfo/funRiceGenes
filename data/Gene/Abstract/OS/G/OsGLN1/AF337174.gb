@@ -1,0 +1,62 @@
+LOCUS       AF337174                1162 bp    mRNA    linear   PLN 11-DEC-2001
+DEFINITION  Oryza sativa endo-1,3-beta-glucanase mRNA, complete cds.
+ACCESSION   AF337174
+VERSION     AF337174.1  GI:17483757
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1162)
+  AUTHORS   Akiyama,T. and Pillai,M.A.
+  TITLE     Molecular cloning, characterization and in vitro expression of a
+            novel endo-1,3-beta-glucanase up-regulated by ABA and drought
+            stress in rice (Oryza sativa L.)
+  JOURNAL   Plant Sci. 161 (6), 1089-1098 (2001)
+REFERENCE   2  (bases 1 to 1162)
+  AUTHORS   Akiyama,T. and Pillai,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JAN-2001) Low Temp. Physiology Laboratory, Hokkaido
+            National Agricultural Experiment Station, 1 Hitsujigaoka,
+            Toyohira-ku, Sapporo 062 8555, Japan
+FEATURES             Location/Qualifiers
+     source          1..1162
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             40..996
+                     /note="drought responsive"
+                     /codon_start=1
+                     /product="endo-1,3-beta-glucanase"
+                     /protein_id="AAL40191.1"
+                     /db_xref="GI:17483758"
+                     /translation="MGGAHGVCYGVVGNNLPSRSEVVQLYKSKGISAMRIYYPDQEAL
+                     AALRGSGIAVIVDVGDKGAVANLANNPSAAADWVRNNVQAYWPSVFIRYIAVGNQLGP
+                     GDMGTILPAMQNLYNALVSAGLSNSIKVSTAVKMDVITNSFPPSHGVFRPDLQRFIVP
+                     IAQFLANTMSPLLVNVYPYFAYRDNPRDIPLNYATFQPGTTVRDNDSGLTYTNLFSAM
+                     VDAVYAALEKAGAPGVRVVVSESGWPSAGGFAANVENARNHNQGVIDNVKNGTPKRPG
+                     QLETYVFAMFNENQKPGDETERHFGLFNPDKRPVYPITFPPN"
+ORIGIN      
+        1 cagatttgag catctccgac aactgagtaa tttgagcaaa tgggaggtgc ccacggtgtc
+       61 tgctatggcg ttgtcggcaa caacctcccg tcgcggagcg aggtcgtgca gctgtacaag
+      121 tcgaaaggca tcagcgcgat gcgcatctac tacccggacc aggaagccct cgccgcgctc
+      181 cgcggcagcg gcatcgccgt catcgtcgac gtcggcgaca agggcgcggt ggccaacctc
+      241 gccaacaacc cctccgccgc cgccgactgg gtccggaaca acgtccaggc ctactggccg
+      301 agcgtcttca tccggtacat cgccgtcggc aaccagctcg gccccggcga catggggacc
+      361 atcctcccgg ccatgcagaa cttgtacaac gcgctcgtgt ccgccggcct ctcgaacagc
+      421 atcaaggtgt cgacngcggt gaagatggac gtgatcacca actcgttccc tccgtcgcac
+      481 ggcgtgttcc gccccgacct tcagcggttc attgtgccca tcgcgcagtt cctcgccaac
+      541 accatgtcgc cgctgctcgt caacgtgtac ccctacttcg cctacaggga caacccgcgc
+      601 gacatcccgc tcaactacgc cacgttccag ccgggcacca cggtgaggga caacgacagc
+      661 ggcctcacct acaccaacct cttcagcgcc atggtggacg ccgtgtacgc cgcgctggag
+      721 aaggccggcg cgccnggcgt ccgggtcgtc gtgtcggaga gcgggtggcc gtcggcggga
+      781 gggttcgcgg cgaacgtgga gaacgcgagg aatcacaacc agggcgtgat cgacaacgtc
+      841 aagaacggga cgccgaagcg gcccgggcag ctggagacgt acgtgttcgc catgttcaac
+      901 gagaaccaga agcccgggga tgagaccgag aggcattttg ggctcttcaa tcctgacaag
+      961 aggccggtct acccgattac gtttcctccg aattagcggc tgaccatgtc aatgcgaata
+     1021 aggatttcca tagacgaata atccatgctt aaataattaa tgttggttga atgttaatgt
+     1081 actctgtatg gcacattgtg ctttgaaaat gctacatgaa taaaagttcc aaatttattt
+     1141 ctttaaaaaa aaaaaaaaaa aa
+//
+

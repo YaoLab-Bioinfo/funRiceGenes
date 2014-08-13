@@ -1,0 +1,76 @@
+LOCUS       AY685117                1539 bp    mRNA    linear   PLN 16-DEC-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) transcription factor
+            AP2D23-like (AP2D23) mRNA, complete cds.
+ACCESSION   AY685117
+VERSION     AY685117.1  GI:58432889
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1539)
+  AUTHORS   Lee,J., Lee,D.Y. and An,G.
+  TITLE     The AP2 subfamily genes in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1539)
+  AUTHORS   Lee,J., Lee,D.Y. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUL-2004) Division of Molecular and Life Sciences,
+            Pohang University of Science and Technology, San 31, Hyoja-Dong,
+            Pohang, Kyungbuk 790-784, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..1539
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Dongjin"
+                     /db_xref="taxon:39947"
+                     /chromosome="5"
+     gene            1..1539
+                     /gene="AP2D23"
+                     /note="OsAP2D23"
+     CDS             1..1539
+                     /gene="AP2D23"
+                     /codon_start=1
+                     /product="transcription factor AP2D23-like"
+                     /protein_id="AAW78371.1"
+                     /db_xref="GI:58432890"
+                     /translation="MELDLNNVAEGVVEKHETAARSDSGTSESSVLNGEASGAAIAPA
+                     EEGSSSTPPSPPPPPAAVLEFSILRSSASASGENDADDDEEEEATPSPPPHHQHQQLL
+                     VTRELFPSAAPSPQHWAELGFLRPDPPRPHPDIRILAHAPPPAPPPPPPQPQPQAAKK
+                     SRRGPRSRSSQYRGVTFYRRTGRWESHIWDCGKQVYLGGFDTAHAAARAYDRAAIKFR
+                     GVEADINFNLSDYEEDMRQMKSLSKEEFVHVLRRQSTGFSRGSSKYRGVTLHKCGRWE
+                     ARMGQFLGKKYIYLGLFDSEVEAARAYDKAAIKCNGREAVTNFEPSTYDGELPTDAAA
+                     QGADVDLNLRISQPAASQQSPKRDSGSLGLQIHHGSFEGSEFKRAKNDAAPSELASRP
+                     HRFPLLTEHPPIWTAQPHPLFPNNEDASRSSDQKRKPSEGVAVPSWAWKQVSHHHPAP
+                     PHTLPLPFFSSSSSSPSSSSAAASSGFSKAATTAAAAQHTATLRFDPTAPSSSSSSRH
+                     HHHH"
+ORIGIN      
+        1 atggagttgg atctgaacaa cgtggcggaa ggggtggtgg agaagcatga gacggcggcg
+       61 aggagcgact ccggcacgtc ggagtcgtcg gtgctcaacg gggaggcgtc tggcgcggcc
+      121 atcgcgccgg cggaagaggg gtcgagctcg acgccgccgt cgccgccgcc gcctcccgcg
+      181 gcggtgctcg agttcagcat cctgaggagc tcggcgtcgg cgtcgggcga gaacgacgcc
+      241 gacgacgacg aggaggagga ggccaccccc tcgccgccgc cgcaccacca acaccagcag
+      301 ctgctcgtca cccgggagct attcccttcc gccgctccct cgccgcagca ttgggcggag
+      361 ctcggcttcc tccgccccga cccaccgcgc ccacacccag acatcagaat cctcgcccac
+      421 gcgcctcccc cggcgccacc gccgccgccg ccgcagccgc agcctcaggc ggccaagaaa
+      481 agccgccgcg ggccgcgctc tcgcagctcg caataccgcg gcgtcacctt ctaccgccgc
+      541 accggccgct gggaatccca catctgggat tgcggcaagc aagtctacct aggtggattc
+      601 gacactgctc acgcagctgc aagggcgtac gacagggcgg cgatcaagtt caggggagta
+      661 gaggctgaca tcaacttcaa cctgagcgac tacgaggagg acatgaggca gatgaagagc
+      721 ttgtccaagg aggagttcgt gcacgttctc cggcgacaga gcaccggctt ctcccgcggc
+      781 agctcaaagt acaggggtgt caccctccac aagtgcggcc gctgggaggc tcgcatgggc
+      841 caattccttg gcaagaagta catatatctt gggctattcg acagcgaagt agaggctgca
+      901 agggcttatg ataaggctgc gatcaaatgc aatggcagag aagccgtcac caacttcgag
+      961 cccagcacat atgatggtga gctgcctact gatgctgctg ctcaaggagc cgatgtggat
+     1021 ctgaacctga gaatatctca gcctgcagcc tcacagcaga gccccaagag ggatagcggc
+     1081 tcccttggcc tgcaaatcca ccatggatca tttgaaggtt ctgaattcaa gagagcaaag
+     1141 aatgatgcag ctccctctga acttgctagc cgccctcatc ggttccctct tctgaccgag
+     1201 catccgccaa tctggactgc ccaacctcat cccctattcc caaataatga ggatgcatcc
+     1261 agatcatcgg atcagaagag gaagccatca gagggggtag ctgttccaag ctgggcatgg
+     1321 aagcaggtga gccatcatca ccctgctcct cctcacacgc tgccattgcc cttcttctcc
+     1381 tcctcctcgt cgtcgccgtc gtcgtcctcc gctgcagcat catcaggatt ctccaaagcc
+     1441 gccacgacag cagctgctgc ccaacacact gccaccctcc ggttcgaccc gacggcgccg
+     1501 tcgtcttcgt cgtcaagccg ccatcaccac caccattga
+//
+

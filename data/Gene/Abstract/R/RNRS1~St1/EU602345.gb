@@ -1,0 +1,86 @@
+LOCUS       EU602345                1926 bp    mRNA    linear   PLN 05-MAY-2009
+DEFINITION  Oryza sativa Japonica Group ribonucleotide diphosphate reductase
+            small subunit 1 (RnrS1) mRNA, complete cds.
+ACCESSION   EU602345
+VERSION     EU602345.1  GI:186920363
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1926)
+  AUTHORS   Yoo,S.C., Cho,S.H., Sugimoto,H., Li,J., Kusumi,K., Koh,H.J., Iba,K.
+            and Paek,N.C.
+  TITLE     Rice Virescent3 and Stripe1 Encoding the Large and Small Subunits
+            of Ribonucleotide Reductase Are Required for Chloroplast Biogenesis
+            during Early Leaf Development
+  JOURNAL   Plant Physiol. 150 (1), 388-401 (2009)
+   PUBMED   19297585
+REFERENCE   2  (bases 1 to 1926)
+  AUTHORS   Yoo,S.-C., Cho,S.-H. and Paek,N.-C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAR-2008) Plant Science, Seoul National University,
+            San 56-1, Sillim-dong, Kwanak-ku, Seoul 151-921, Korea
+FEATURES             Location/Qualifiers
+     source          1..1926
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+                     /clone="P0624H09"
+     gene            1..1926
+                     /gene="RnrS1"
+     CDS             417..1436
+                     /gene="RnrS1"
+                     /function="plastid differentiation"
+                     /note="St1/RnrS1; stripe-1; produces temperature-dependent
+                     stripe phenotype on leaves"
+                     /codon_start=1
+                     /product="ribonucleotide diphosphate reductase small
+                     subunit 1"
+                     /protein_id="ACC95435.1"
+                     /db_xref="GI:186920364"
+                     /translation="MPAAPTLVPACDLEEPLLAESSERFSMFPIRYPQIWEFYKKAVA
+                     SFWTAEEVDLSADARHWDAALSPDERHFISHVLAFFAASDGIVLENLASRFMSDVQVA
+                     EARAFYGFQIAIENIHSEMYSLLLETYIRDGAEKDRLFRAIDTVPAVRRKADWAMRWI
+                     DGGERFAERLVAFACVEGIFFSGSFCAIFWLKKRGLMPGLTFSNELISRDEGLHCDFA
+                     CLLYDLLRGKLDEARVREIVADAVDIEREFVCDALPVALVGMNGDLMSQYIEFVADRL
+                     LMALGCKKMYNVANPFDWMELISLQGKTNFFEKRVGDYQKASVMSSLNGGASANHVFS
+                     IDEDF"
+ORIGIN      
+        1 ctctccagtg gcaaattctt aagtgcaaat ctaagaaggg tatttggtta attgccaaac
+       61 ctcaaagtgg caaatagtta aatttcccca aaccacatgc cctgccgccg tcttccgtct
+      121 gccgtctgcc gcgccatctc ccccaaatca ccgggcaaaa tcgaaaattt ccccccaatc
+      181 ttcctcggca cggcgcgctc tcttccctcc ccttatccgc tcctccttcc ctcgcaagcc
+      241 accgccaaaa tccattccaa ttcaaaatct ccccaccccc ccccccccct caaattcccc
+      301 ccacccccgc attataaatg ccccctctcc ccctccccac cgctccccac gccgccgccg
+      361 ccgaatcccc acaaccccaa atccccatcc agaaaccacc ccgatccgcg acgaagatgc
+      421 cggccgcgcc gacgctggtg cccgcctgcg acctggagga gccgctgctg gcggagtcgt
+      481 ccgagcgatt ctcgatgttc ccgatcaggt acccgcagat ctgggagttc tacaagaagg
+      541 cggtggcgtc gttctggacg gcggaggagg tggacctctc cgccgacgcg cgccactggg
+      601 acgccgcgct gtcccccgac gagcgccact tcatctccca cgtgctcgcc ttcttcgccg
+      661 cctccgacgg catcgtgctc gagaacctcg cctccaggtt catgtccgac gtgcaggtcg
+      721 ccgaggcgcg cgccttctac ggattccaga tcgccatcga gaacatccac tctgagatgt
+      781 actcgctgct gctcgagacc tacatccgcg acggcgccga gaaggaccgg ctgttccgcg
+      841 ccatcgacac cgtcccggcc gtgcgccgca aggccgactg ggccatgcgc tggatcgacg
+      901 gcggcgagcg cttcgccgag cgcctcgtcg ccttcgcctg cgtcgagggg atcttcttct
+      961 cgggctcctt ctgcgccatc ttctggctca agaagcgggg gctcatgccg ggcctcacct
+     1021 tctccaacga gctcatctcc cgcgacgagg gcctgcactg cgacttcgcc tgcctcctct
+     1081 acgacctcct ccgcggcaag ctcgacgagg cgcgcgtccg cgagatcgtc gccgacgccg
+     1141 tcgacatcga gagggagttc gtctgcgacg cgctccccgt cgcgctcgtc ggcatgaacg
+     1201 gcgacctcat gagccagtac atcgagttcg tcgccgaccg cctcctcatg gcgctcggct
+     1261 gcaagaagat gtacaacgtc gctaacccct tcgactggat ggagctcata tccctgcagg
+     1321 gcaagaccaa cttcttcgag aagcgcgtcg gcgactacca gaaggcgtcc gtcatgtcga
+     1381 gcctcaacgg cggcgcctcc gccaaccacg tcttcagcat cgacgaagac ttctgatttg
+     1441 ccaatctcct cgtgtacatc tccaaccctc gcagtcactt gctctctgcc cccccttact
+     1501 agtagtagta gtaatacatg cgcgtggtgc tccctaatgt tatagttggt gtgttgctgg
+     1561 ttcttgttgg tgatgtatcc taatgaatta tgaatccagt tgtttagtat cagctgcccg
+     1621 tgtcctgcac gcagggtgtt cgacgaaatg gctgaggcct aagctaatgt gtgcgcgcag
+     1681 ccagggcgtt cgaccaaatg cctacacgac gccgtgccag tctgggagtg caggcaaggc
+     1741 gttcggtgaa atgcctggga ggataagggg ttggggacgg attagggttt taggagagcg
+     1801 cgggaccatc tcctggcggc tggttgcggc gcgccagatt tgccggcctt ggcgcctggc
+     1861 ccagtagtac acagaatcta catgtgaatc gcagctgtaa ctttcagttg gataatattg
+     1921 taacgg
+//
+

@@ -1,0 +1,73 @@
+LOCUS       X89891                  1067 bp    mRNA    linear   PLN 12-MAR-1996
+DEFINITION  O.sativa mRNA for Ca+2-binding EF hand protein.
+ACCESSION   X89891
+VERSION     X89891.1  GI:1177319
+KEYWORDS    abscisic acid responsive gene; EF-hand; efa27 gene.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Frandsen,G., Muller-Uri,F., Nielsen,M., Mundy,J. and Skriver,K.
+  TITLE     Novel plant Ca(2+)-binding protein expressed in response to
+            abscisic acid and osmotic stress
+  JOURNAL   J. Biol. Chem. 271 (1), 343-348 (1996)
+   PUBMED   8550584
+REFERENCE   2  (bases 1 to 1067)
+  AUTHORS   Mundy,J.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-1995) J.W. Mundy, Molecular Biology Institute,
+            Copenhagen University, Oester Farimagsgade 2A, 1353 Copenhagen K,
+            DENMARK
+FEATURES             Location/Qualifiers
+     source          1..1067
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /tissue_type="embryo endosperm, and plantlet"
+                     /dev_stage="germinating seed"
+     gene            1..1067
+                     /gene="efa27"
+     CDS             84..818
+                     /gene="efa27"
+                     /codon_start=1
+                     /product="EFA27 for EF hand, abscisic acid, 27kD"
+                     /protein_id="CAA61981.1"
+                     /db_xref="GI:1177320"
+                     /db_xref="InterPro:IPR007736"
+                     /db_xref="UniProtKB/TrEMBL:Q40679"
+                     /translation="MAEEAASKAAPTDALSSVAAEAPVTRERPVRADLEVQIPKPYLA
+                     RALVAPDVYHPEGTEGRDHRQMSVLQQHVAFFDLDGDGIVYPWETYGGLRELGFNVIV
+                     SFFLAIAINVGLSYPTLPSWIPSLLFPIHIKNIHRAKHGSDSSTYDNEGRFMPVNFES
+                     IFSKNARTAPDKLTFGDIWRMTEGQRVALDLLGRIASKGEWILLYVLAKDEEGFLRKE
+                     AVRRCFDGSLFESIAQQRREAHEKQK"
+     misc_feature    237..371
+                     /gene="efa27"
+                     /note="EF hand"
+     polyA_signal    1017..1021
+                     /gene="efa27"
+     polyA_site      1052
+                     /gene="efa27"
+ORIGIN      
+        1 gcaattttgc aaagcgagaa attccacaca ggttacacca gtatatacgc atcttgctaa
+       61 accgactact gatcgagatc gctatggcgg aggaggcggc tagcaaggca gcgccgaccg
+      121 atgcgctgtc gtccgtggcg gcggaggcgc cggtgacgag agaacggccg gtccgagcgg
+      181 acttggaagt gcagattccg aagccctatt tggcccgagc tctggttgct ccggacgtgt
+      241 accatcctga aggaaccgag gggcgtgacc accggcagat gagtgtgctg cagcagcatg
+      301 tggctttctt cgacctggat ggcgacggta tcgtttatcc atgggaaact tatggaggac
+      361 tacgggaatt gggcttcaac gtgattgttt cgttcttttt ggcgatagcc ataaacgttg
+      421 gtctaagcta cccaactctg ccaagctgga taccatctct cctgttccct atacacataa
+      481 aaaacatcca cagggctaag cacggcagcg atagctcgac gtacgacaac gagggaaggt
+      541 ttatgccggt caatttcgag agcatcttca gcaagaacgc ccgcacggcg ccggacaagc
+      601 tcacgttcgg cgatatctgg cggatgaccg aaggccaaag ggtggcgctc gacttgcttg
+      661 ggaggatcgc gagtaagggg gagtggatat tgctctacgt gcttgcgaaa gatgaggaag
+      721 gattcctcag gaaggaggct gttcgccgct gcttcgatgg gagcctattc gagtcgattg
+      781 cccagcagag aagggaggca catgagaagc agaagtagcc tcctaatttc atcgtcccgg
+      841 gacctgggat gtgcttgatt gcttgtgtgt gttgttgtgt ggactatagc tatagccaca
+      901 tcatgtttgt ccatctgaaa aaacaatgga aataaggttt accggttgga acatacatta
+      961 tgtactatcc atgtgattat tgaaatgtgt ctgtaacctg aaagtgtgat tgacatataa
+     1021 aattctgtga ttgaagtaaa ggtaagcatt aaaaaaaaaa aaaaaaa
+//
+

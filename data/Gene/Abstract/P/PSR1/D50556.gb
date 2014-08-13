@@ -1,0 +1,94 @@
+LOCUS       RICFNR                  2410 bp    mRNA    linear   PLN 27-DEC-2006
+DEFINITION  Oryza sativa mRNA for ferredoxin-nitrite reductase, complete cds.
+ACCESSION   D50556
+VERSION     D50556.1  GI:809513
+KEYWORDS    ferredoxin-nitrite reductase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2410)
+  AUTHORS   Terada,Y., Aoki,H., Tanaka,T., Morikawa,H. and Ida,S.
+  TITLE     Cloning and nucleotide sequence of a leaf ferredoxin-nitrite
+            reductase cDNA of rice
+  JOURNAL   Biosci. Biotechnol. Biochem. 59 (11), 2183-2185 (1995)
+   PUBMED   8541663
+REFERENCE   2  (bases 1 to 2410)
+  AUTHORS   Ida,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAY-1995) Shoji Ida, Research Institute for Food
+            Science,Kyoto University, Food Production; Gokashou, Uji, Kyoto
+            611, Japan (E-mail:sida@scl.kyoto-u.ac.jp, Tel:0774-38-3727,
+            Fax:0774-33-3004)
+FEATURES             Location/Qualifiers
+     source          1..2410
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Kinmaze"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+                     /note="Common name: Rice"
+     CDS             45..1835
+                     /EC_number="1.7.7.1"
+                     /codon_start=1
+                     /product="ferredoxin-nitrite reductase"
+                     /protein_id="BAA09122.1"
+                     /db_xref="GI:809514"
+                     /translation="MASSASLQRFLPPYPHAAASRCRPPGVRARPVQSSTVSAPSSST
+                     PAADEAVSAERLEPRVEQREGRYWVLKEKYRTGLNPQEKVKLGKEPMSLFMEGGIKEL
+                     AKMPMEEIEADKLSKEDIDVRLKWLGLFHRRKHQYGRFMMRLKLPNGVTTSEQTRYLA
+                     SVIEAYGKEGCADVTTRQNWQIRGVTLPDVPAILDGLNAVGLTSLQSGMDNVRNPVGN
+                     PLAGIDPDEIVDTRSYTNLLSSYITSNFQGNPTITNLPRKWNVCVIGSHDLYEHPHIN
+                     DLAYMPAVKGGKFGFNLLVGGFISPKRWEEALPLDAWVPGDDIIPVCKAVLEAYRDLG
+                     TRGNRQKTRMMWLIDELGMEAFRSEVEKRMPNGVLERAAPEDLIDKKWQRRDYLGVHP
+                     QKQEGMSYVGLHVPVGRVQAADMFELARLADEYGSGELRLTVEQNIVIPNVKNEKVEA
+                     LLSEPLLQKFSPQPSLLLKGLVACTGNQFCGQAIIETKQRALLVTSQVEKLVSVPRAV
+                     RMHWTGCPNSCGQVQVADIGFMGCLTKDSAGKIVEAADIFVGGRVGSDSHLAGAYKKS
+                     VPCDELAPIVADILVERFGAVRREREEDEE"
+     polyA_signal    2009..2014
+                     /note="putative"
+ORIGIN      
+        1 caccaccacc accaccacca ccaccaccac caccgtctcc agccatggcc tcctccgcct
+       61 ccctgcagcg cttcctcccc ccgtaccccc acgcggcagc atcccgctgc cgccctcccg
+      121 gcgtccgcgc ccgccccgtg cagtcgtcga cggtgtccgc accgtcctcc tcgactccgg
+      181 cggcggacga ggccgtgtcg gcggagcggc tggagccgcg ggtggagcag cgggagggcc
+      241 ggtactgggt gctcaaggag aagtaccgga cggggctgaa cccgcaggag aaggtgaagc
+      301 tggggaagga gcccatgtca ttgttcatgg agggcggcat caaggagctc gccaagatgc
+      361 ccatggagga gatcgaggcc gacaagctct ccaaggagga catcgacgtg cggctcaagt
+      421 ggctcggcct cttccaccgc cgcaagcatc agtatgggcg gttcatgatg cggctgaagc
+      481 tgccaaacgg tgtgacgacg agcgagcaga cgaggtacct ggcgagcgtg atcgaggcgt
+      541 acggcaagga gggctgcgcc gacgtgacaa cccgccagaa ctggcagatc cgcggcgtca
+      601 cgctccccga cgtgccggcc atcctcgacg ggctcaacgc cgtcggcctc accagcctcc
+      661 agagcggcat ggacaacgtc cgcaaccccg tcggcaaccc gctcgccggc atcgaccccg
+      721 acgagatcgt cgacacgcga tcctacacca acctcctctc ctcctacatc accagcaact
+      781 tccagggcaa ccccaccatc accaacctgc cgaggaagtg gaacgtgtgc gtgatcgggt
+      841 cgcacgatct gtacgagcac ccacacatca acgacctcgc gtacatgccg gcggtgaagg
+      901 gcggcaagtt cgggttcaac ctcctcgtcg gcgggttcat aagccccaag aggtgggagg
+      961 aggcgctgcc gctcgacgcc tgggtccccg gcgacgacat catcccggtg tgcaaggccg
+     1021 ttctcgaggc gtaccgcgac ctcggcacca ggggcaaccg ccagaagacc cgcatgatgt
+     1081 ggctcatcga cgaacttgga atggaggctt ttcggtcgga ggtggagaag aggatgccga
+     1141 acggcgtgct ggagcgcgcg gcgccggagg acctcatcga caagaaatgg cagaggaggg
+     1201 actacctcgg cgtgcacccg cagaagcagg aagggatgtc ctacgtcggc ctgcacgtgc
+     1261 ccgtcggccg ggtgcaggcg gcggacatgt tcgagctcgc acgcctcgcc gacgagtacg
+     1321 gctccggcga gctccgcctc accgtggagc agaacatcgt gatcccgaac gtcaagaacg
+     1381 agaaggtgga ggcgctgctc tccgagccgc tgcttcagaa gttctccccg cagccgtcgc
+     1441 tgctgctcaa gggcctcgtc gcgtgcaccg gcaaccagtt ctgcggccag gccatcatcg
+     1501 agacgaagca gcgggcgctg ctggtgacgt cgcaggtgga gaagctcgtg tcggtgcccc
+     1561 gggcggtgcg gatgcactgg accggctgcc ccaacagctg cggccaggtg caggtcgccg
+     1621 acatcggctt catgggctgc ctcaccaagg acagcgccgg caagatcgtt gaggcggccg
+     1681 acatcttcgt cggcggccgc gtcggcagcg actcgcacct cgccggcgcg tacaagaagt
+     1741 ccgtgccgtg cgacgagctg gcgccgatcg tcgccgacat cctggtcgag cggttcgggg
+     1801 ccgtgcggag ggagagggag gaggacgagg agtaggaaca cagactgggg tgttttgctt
+     1861 gctccggtga tctctcgccg tccttgtaaa gtagacgaca atatgccttc gcccatggca
+     1921 cgcttgtact gtcacgtttt ggtttgatct tgtagcccaa aagttgtgtt cattctcgtt
+     1981 acagtcttac agaggatgat tgattgataa ataaagaaga aacagattct gtcaagtttg
+     2041 gcaccgatgc gaagtacatt gccgtaggtt ctatggatcg taacctacgg atatttgggc
+     2101 atccgggaga agatgatcaa atggacgacg caaagccatc ggaagagtga tgaaaccaat
+     2161 tgtacttcat ttggcctgcg taaattgctc cctgtttgtg tgttttgacg gtggatgagc
+     2221 tggctgagat tggaggcaca taacaacggg agacgagaag ttccttgcag gagcaatttg
+     2281 gtgggctttg gtcgatgtaa acaaatttga cattgttatt gtatttgtag gccttactac
+     2341 ctaatgagga tacggtttgt tttggagatg aatacaatgc tgaagtgctc gacttgcgga
+     2401 catgccaaaa
+//
+

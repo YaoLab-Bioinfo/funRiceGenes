@@ -1,0 +1,79 @@
+LOCUS       AB117936                1431 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsACR9 mRNA for ACT-domain repeat
+            protein 9, complete cds.
+ACCESSION   AB117936
+VERSION     AB117936.1  GI:125860405
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Hayakawa,T., Kudo,T., Ito,T., Takahashi,N. and Yamaya,T.
+  TITLE     ACT domain repeat protein 7, ACR7, interacts with a chaperone
+            HSP18.0-CII in rice nuclei
+  JOURNAL   Plant Cell Physiol. 47 (7), 891-904 (2006)
+   PUBMED   16720649
+REFERENCE   2  (bases 1 to 1431)
+  AUTHORS   Hayakawa,T., Takahashi,N., Ito,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-AUG-2003) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultural Science, Department of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1431
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+                     /tissue_type="green leaf"
+     gene            <1..1431
+                     /gene="OsACR9"
+     5'UTR           <1..44
+                     /gene="OsACR9"
+     CDS             45..1373
+                     /gene="OsACR9"
+                     /codon_start=1
+                     /product="ACT-domain repeat protein 9"
+                     /protein_id="BAF46926.1"
+                     /db_xref="GI:125860406"
+                     /translation="MERYHPSEVYELFVRHMNTPRVVVDSGVCATATLVQVHSARKHG
+                     MLLEAVAALSEHGVCVRKGYISSDDGRWFMDVFHVTDAAGRKVADADALLARLESSLS
+                     AEALPRAAAGGPAAEGLTLLELVGADRPGLLSEVFAVLHDLRCNTVEARAWTHGGRVA
+                     ALVFVRDEETGAPIDDAARVRRIESRLRHVLRGGARCARTVLADPSAAGNLDRRLHQL
+                     LKEDGEADSRGAAPMTAVAVQDWGERGYSVVTVSCRDRPKLLFDVVCTLTDLDYVVYH
+                     GTFDTDGDHAQQEFYIRRSDGRPISSEAERQHVIRCLQAAIERRASEGVRLELRISDR
+                     RGLLAYVTRVFRENGLSVTHAEITTRDDMAMNVFHVTDVAGRPADPKTIDEVIQRIGT
+                     ESLRVDEERWPRLCSAEGDAAGRGGGGGLFSLGSLVKKNLFSLGLIRSCS"
+     3'UTR           1374..1431
+                     /gene="OsACR9"
+ORIGIN      
+        1 cgggaggcgg gcaaactgaa gcggcagcgg cagcggcaga ggcgatggag cggtaccatc
+       61 cctccgaggt gtatgagctc ttcgtgcggc acatgaacac cccgagggtg gtggtggaca
+      121 gcggggtgtg cgcgacggcg acgctggtgc aggtgcacag cgcgcggaag cacgggatgc
+      181 tgctggaggc ggtggcggcg ctgtcggagc acggggtgtg cgtccgcaag gggtacatct
+      241 cgtccgacga cgggcggtgg ttcatggacg tgttccacgt cacggacgcc gcggggagga
+      301 aggtggccga cgcggacgcg ctactggcgc gcctcgagtc gtcgctgtcc gcggaagcat
+      361 tgccgcgggc ggcggcgggc ggccccgccg cggaggggct caccctgctc gagctcgtcg
+      421 gcgccgaccg cccgggcctc ctttcggagg tgttcgccgt gctgcacgac ctccggtgta
+      481 acaccgtcga ggccagggcg tggacgcacg gcggccgcgt cgcagcgctg gtgttcgtcc
+      541 gcgacgagga gacgggcgcg ccgatcgacg acgcggcccg ggtcaggcgc atcgagtccc
+      601 gcctcaggca cgtcctccgc ggcggcgcgc gctgcgcgag gacggtcctg gctgatccgt
+      661 cggcggccgg aaacctggac cggaggctcc accagctgct gaaagaggac ggggaggccg
+      721 acagccgcgg cgccgcgccg atgacggcgg tggcggtgca ggattggggg gagagagggt
+      781 actcggtggt gaccgtgagc tgccgcgaca ggccgaagct gctcttcgac gtggtctgca
+      841 ccttgacgga cttggattac gtggtgtacc acggcacgtt cgacaccgac ggcgatcacg
+      901 cgcagcagga gttctacata cggcgttcgg acgggcggcc aatcagctcg gaggccgaga
+      961 ggcagcatgt gatccgatgc ttgcaagcgg caatcgagag gcgcgcatcc gagggcgtgc
+     1021 ggctcgagct ccgcatctcc gaccgccgcg ggctgctcgc ctacgtgacg cgcgtgttcc
+     1081 gggagaacgg cctctcggtg acgcacgccg agatcacgac aagggacgac atggccatga
+     1141 acgtcttcca cgtcaccgac gtggccggcc gccccgccga tcccaagacg atcgacgagg
+     1201 tgatacagag gatcggcacg gagagcctcc gggtggacga ggagcggtgg ccgcgccttt
+     1261 gctcggcgga aggcgacgcc gccggccgcg gcggcggcgg cgggctgttc tcgctgggga
+     1321 gcctcgtcaa gaagaacctc ttcagccttg gcctcataag atcctgctcg tgagtacaga
+     1381 tgacgtgtcc gatccgatgg catgcttgtg taaatatggg ggcggtccat g
+//
+

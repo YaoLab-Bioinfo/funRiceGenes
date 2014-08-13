@@ -1,0 +1,92 @@
+LOCUS       AF140606                1965 bp    mRNA    linear   PLN 07-MAR-2000
+DEFINITION  Oryza sativa nitrate transporter (NRT1) mRNA, complete cds.
+ACCESSION   AF140606
+VERSION     AF140606.1  GI:6409175
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1965)
+  AUTHORS   Lin,C.M., Koh,S., Stacey,G., Yu,S.M., Lin,T.Y. and Tsay,Y.F.
+  TITLE     Cloning and functional characterization of a constitutively
+            expressed nitrate transporter gene, OsNRT1, from rice
+  JOURNAL   Plant Physiol. 122 (2), 379-388 (2000)
+   PUBMED   10677431
+REFERENCE   2  (bases 1 to 1965)
+  AUTHORS   Lin,C.-M., Yu,S.-M. and Tsay,Y.-F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-APR-1999) Institute of Molecular Biology, Academia
+            Sinica, Taipei 11529, Taiwan
+REFERENCE   3  (bases 1 to 1965)
+  AUTHORS   Koh,S. and Stacey,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-NOV-1999) Department of Microbiology, Center for
+            Legume Research, University of Tennessee, Knoxville, TN 37996-0845,
+            USA
+REFERENCE   4  (bases 1 to 1965)
+  AUTHORS   Lin,C.-M. and Lin,T.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-NOV-1999) Department of Life Science, National Tsing
+            Hua University, School of Life Science, Hsin-Chu, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..1965
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1965
+                     /gene="NRT1"
+     CDS             144..1898
+                     /gene="NRT1"
+                     /codon_start=1
+                     /product="nitrate transporter"
+                     /protein_id="AAF07875.1"
+                     /db_xref="GI:6409176"
+                     /translation="MDSSYQHDKPLLDEENSSQVTLEYTGDGSVCIRGHPALRKHTGN
+                     WKGSSLAIVFSFCSYLAFTSIVKNLVSYLTKVLHETNVAAARDVATWSGTSYLAPLVG
+                     AFLADSYLGKYCTILIFCTIFIIGLMMLLLSAAVPLISTGPHSWIIWTDPVSSQNIIF
+                     FVGLYMVALGYGAQCPCISSFGADQFDDTDENERTKKSSFFNWTYFVANAGSLISGTV
+                     IVWVQDHKGWIWGFTISALFVYLGFGTFIFGSSMYDFRNLEEAPLARICQVVVAAIHK
+                     RDKDLPCDSSVLYEFLGQSSAIEGSRKLEHTTGLKFFDRAAMVTPSDFESDGLLNTWK
+                     ICTVTQVEELKILIRMFPVWATMILFAAVLDNMFSTFIEQGMVMEKHIGSFEIPAASF
+                     QSIDVIAVLILVPVYERVLVPVFRKFTGRANGITPLQRMGIGLFFSMLSMVSAALVES
+                     NRLRIAQDEGLVHRKVAVPMSILWQGPQYFLIGVGEVFSNIGLTEFFYQESPDAMRSL
+                     CLAFSLANVSAGSYLSSFIVSLVPVFTAREGSPGWIPDNLNEGHLDRFFWMMAGLCFL
+                     NMLAFVFCAMRYKCKKAS"
+ORIGIN      
+        1 ggtggaggag agtgaggacg gcccacgcgg acgagcagag agtggcgggc tcagtgtcgg
+       61 gctcgccgga gtccgcgcaa tccggccgtt catgcttcat tctctcggac attaacctgg
+      121 tttacttgta agaaagtaga gccatggact cctcatacca gcatgacaag cctctgctgg
+      181 atgaagagaa ctcctcgcaa gtgacccttg aatatacagg tgatggatct gtttgcatcc
+      241 gtgggcatcc tgctttaagg aaacatacag ggaactggaa gggttcctca ttagccatcg
+      301 ttttttcatt ctgctcttat ctggccttta cttcaattgt aaaaaaccta gtcagttatc
+      361 tcacaaaagt tctacatgaa acaaacgtgg ccgctgcaag agatgttgca acttggtcag
+      421 gaacaagtta tcttgcacct ctggttggag ccttcttagc tgattcatat ctggggaagt
+      481 actgtacaat tctgatcttc tgcacgatct tcattatcgg attgatgatg ttgcttctgt
+      541 cagcagcagt tccattaatc tctactggtc ctcactcatg gatcatatgg acagatccag
+      601 tctcttctca gaacatcata ttctttgtcg gtttgtacat ggttgcttta gggtatggtg
+      661 cacagtgccc ctgcatatca tcatttggtg ctgatcaatt tgatgacact gatgaaaatg
+      721 agagaacaaa aaagagttct tttttcaatt ggacctattt cgtagccaat gcgggctcat
+      781 tgatctcggg gactgttatt gtgtgggtgc aagatcacaa aggttggatc tggggtttta
+      841 ccatttctgc actatttgtg tatttaggtt ttggtacttt tatctttggc tcctctatgt
+      901 atgatttcag aaacctggag gaagcccctc ttgcgagaat atgccaggtt gttgttgctg
+      961 ctattcacaa acgcgataaa gatttgccat gtgattcctc agttctttat gagtttctgg
+     1021 ggcagagttc agcaatcgaa ggcagccgaa aattggagca tacaactgga cttaagttct
+     1081 ttgatagagc tgcaatggtg acaccatctg attttgaatc tgatggccta ctaaacacat
+     1141 ggaagatttg cacagtcact caagtggagg aactgaagat tttgatcagg atgttccccg
+     1201 tttgggcaac gatgatatta tttgctgcag ttctggacaa catgttttcg acattcatag
+     1261 aacaggggat ggtgatggag aaacacatcg gctctttcga aatacctgcg gcgtccttcc
+     1321 aatccattga tgtcattgct gtccttatac tagttccagt ctatgaaaga gtccttgttc
+     1381 cagtgttcag aaaattcact ggcagagcaa atggcattac tccactgcag cgaatgggga
+     1441 tcggcctgtt cttttccatg ctctccatgg tatcagcagc attggtggag agtaatcggt
+     1501 tgcggattgc gcaggatgaa ggtttggtgc acaggaaggt ggctgttcca atgagcatcc
+     1561 tgtggcaggg accccagtac ttcctgatag gcgtgggaga ggtgttctca aacattgggt
+     1621 taactgaatt tttctaccag gaatcaccgg acgccatgag aagcttatgt ctcgcattct
+     1681 cacttgctaa cgtttcggca ggaagttacc tcagctcgtt tatcgtttct cttgtgccag
+     1741 tgttcacagc cagagaaggc agtcctggat ggatacctga taacttgaac gaagggcatt
+     1801 tggatcggtt cttctggatg atggctggct tgtgtttctt gaatatgctg gcctttgtgt
+     1861 tctgtgccat gaggtacaaa tgtaagaagg cttcctgaac cttgttaaca ttagcaatat
+     1921 aatggtggtg gaaaaggaca attgtgttgc aaaaaaaaaa aaaaa
+//
+

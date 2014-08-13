@@ -1,0 +1,72 @@
+LOCUS       AF014468                1220 bp    mRNA    linear   PLN 27-SEP-1997
+DEFINITION  Oryza sativa peroxidase (POX8.1) mRNA, complete cds.
+ACCESSION   AF014468
+VERSION     AF014468.1  GI:2429287
+KEYWORDS    defense response gene; bacterial blight.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1220)
+  AUTHORS   Chittoor,J.M., Leach,J.E. and White,F.F.
+  TITLE     Differential induction of a peroxidase gene family during infection
+            of rice by Xanthomonas oryzae pv. oryzae
+  JOURNAL   Mol. Plant Microbe Interact. 10 (7), 861-871 (1997)
+   PUBMED   9304860
+REFERENCE   2  (bases 1 to 1220)
+  AUTHORS   Chittoor,J.M., Leach,J.E. and White,F.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-1997) Plant Pathology, Kansas State University,
+            Throckmorton Hall, Manhattan, KS 66506, USA
+FEATURES             Location/Qualifiers
+     source          1..1220
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /strain="IRBB10"
+                     /db_xref="taxon:39946"
+                     /chromosome="7"
+                     /map="R2576S; L831"
+                     /tissue_type="leaf"
+                     /note="mRNA isolated from rice leaves 12 hours following
+                     infiltration with incompatible strain of Xanthomonas
+                     oryzae pv. oryzae"
+     gene            1..1220
+                     /gene="POX8.1"
+     CDS             43..990
+                     /gene="POX8.1"
+                     /note="pathogen and wound inducible"
+                     /codon_start=1
+                     /product="peroxidase"
+                     /protein_id="AAC49819.1"
+                     /db_xref="GI:2429288"
+                     /translation="MASSLSVAVLLCLAAAAAAQLSPTFYDTSCPRALATIKSAVTAA
+                     VNNEPRMGASLLRLHFHDCFVQGCDASVLLADTATFTGEQNALPNKNSLRGFNVVDSI
+                     KTQLEGICSQTVSCADILAVAARDSVVALGGPSWTVGLGRRDSTTASMDSANNDLPPP
+                     FFDLENLIKAFGDKGFSVTDMVALSGAHTIGQAQCTNFRGRIYNETNIDAGYAASLRA
+                     NCPPTAGTGDSNLAALDTTTPYSFDTAYYSNLLSNKGLLHSDQVLFNGNSTDNTVRNF
+                     ASNRAAFSSAFSSAMVKMANLGPLIGSQGQIRLSCSKVN"
+ORIGIN      
+        1 gctctggtag tctactgctg cttgatcgat cgatcgatcg ccatggcttc ttctctgtca
+       61 gtggccgtgc tcctgtgcct cgccgccgcc gccgcggcgc agctgtcgcc gacgttctac
+      121 gacacgtcgt gccccagggc gctggccacc atcaagagcg ccgtgacggc cgccgtgaac
+      181 aacgagcctc gcatgggggc gtcactgctc aggctgcact tccatgactg ctttgtccaa
+      241 gggtgcgatg cgtccgtact gctggcggac acggccacgt tcaccggcga gcagaatgct
+      301 cttcctaaca agaattctct cagaggcttc aacgtcgtcg acagcatcaa gacgcagctc
+      361 gagggcatct gcagccagac cgtctcctgc gccgacatcc tcgccgtcgc cgcccgcgac
+      421 tccgtcgtcg cactgggagg gccgtcatgg acggttggtc tcgggaggag ggactcaacc
+      481 acggcgagca tggacagcgc taacaacgac ctgcctcctc ctttcttcga cctcgagaac
+      541 ctcatcaagg cgttcggcga caagggtttc agtgtcaccg acatggttgc tctctcaggt
+      601 gcgcacacga tcgggcaggc gcagtgcacc aacttcaggg gaaggatcta caacgagacc
+      661 aacatcgacg ccggctacgc ggcgtcgctc agggccaact gcccgccgac ggccggcacc
+      721 ggcgacagca acctggcggc gctggacacg acgacgccct actcctttga caccgcctac
+      781 tacagcaacc tgctgtccaa caaggggctc ctgcactccg accaggtgct cttcaacggc
+      841 aacagcacgg acaacacggt caggaacttc gcctccaaca gggcggcgtt cagcagcgcc
+      901 ttctcgtcgg ccatggtgaa gatggccaac ctcggaccac tcatcgggag ccagggacag
+      961 atcaggctta gctgctccaa agtgaactaa taattaagta aagaatcaaa ctggatacaa
+     1021 aagcaaacac aaatttggga ataaggctgg gccatatatg tcacagtagt agtattttac
+     1081 tagtctgaaa tgtttgctaa gagtgttttc tctgatcagc acaaagtgtt tgaaacagat
+     1141 caggaagccc atgttatgta ccgatcagta tggttttgaa gttatcaagg aatgcatgaa
+     1201 tgataaaaaa aaaaaaaaaa
+//
+

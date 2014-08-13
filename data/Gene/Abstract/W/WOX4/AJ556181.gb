@@ -1,0 +1,60 @@
+LOCUS       AJ556181                 714 bp    mRNA    linear   PLN 19-APR-2004
+DEFINITION  Oryza sativa Japonica Group partial mRNA for homeobox protein HB3
+            (hb3 gene).
+ACCESSION   AJ556181
+VERSION     AJ556181.1  GI:46408854
+KEYWORDS    hb3 gene; homeobox protein HB3.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Duan,K.
+  TITLE     A new homeobox gene cloned from rice unmature embryo also has
+            transcripts in pollen mother cell
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 714)
+  AUTHORS   Duan,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2003) Duan K., National Lab of Plant Molecular
+            Genetics, Shanghai Institute of Biological Science, No.300 Fenglin
+            Road, 200032 Shanghai, CHINA
+FEATURES             Location/Qualifiers
+     source          1..714
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..>714
+                     /gene="hb3"
+     CDS             1..>714
+                     /gene="hb3"
+                     /codon_start=1
+                     /product="Homeobox protein HB3"
+                     /protein_id="CAD88982.1"
+                     /db_xref="GI:46408855"
+                     /db_xref="GOA:Q7XTV3"
+                     /db_xref="InterPro:IPR001356"
+                     /db_xref="InterPro:IPR009057"
+                     /db_xref="InterPro:IPR012287"
+                     /db_xref="UniProtKB/Swiss-Prot:Q7XTV3"
+                     /translation="MRLHHLHVAYLDHKASSSSSSPAPPSISPSSIPGSAAFPAFSFK
+                     CLRPLAPKISLPEPRKMIAPPDFVVPRARNASKLLNYTVQVPAAGTTRWNPSAEQIKV
+                     LEMLYRGGMRTPNSVQIERITEELGKYGRIEGKNVFYWFQNHKARERQKQKRAALLTL
+                     RTLDPSLLRRPLTKPNRHRTTRRRTWKMDWRAASGGARRGLTAPAMETRWWRRRRRRL
+                     HRRSVPGALPVASQIVGPVG"
+ORIGIN      
+        1 atgaggcttc accatctgca tgtggcctac ctggatcaca aagcgtcgtc gtcctcgtcg
+       61 tctccggcgc caccatccat ctccccgtcg tcgatccccg gatcggccgc cttccctgct
+      121 ttctccttca aatgcctccg cccgctcgcg cccaagatct cgctgccgga gccgaggaag
+      181 atgatcgcgc cgccggactt cgtcgtccct cgcgccagaa acgcttccaa gctgctcaac
+      241 tacactgtgc aggtgccggc ggcggggacg acgaggtgga acccgtcggc ggagcagata
+      301 aaggtgctgg agatgctgta ccgcggcggg atgcggacgc cgaactccgt ccagatcgag
+      361 cggatcacgg aggagctcgg caagtacggc cggatcgagg gcaagaacgt cttctactgg
+      421 ttccagaatc acaaggcccg cgagcgccag aagcagaagc gcgccgccct cctcaccctc
+      481 aggacgctcg acccttcctt gctgcgccga ccgctaacga aaccaaatag gcaccgtaca
+      541 acaaggagaa ggacgtggaa gatggattgg cgagctgcaa gcggcggtgc aaggcgtggg
+      601 ttgacggcgc cggcgatgga gacgcggtgg tggcgacgga ggcggcggcg gctgcaccga
+      661 cgaagtgtcc ctggagctct tcccgttgca tcccaaatcg tcggacctgt agga
+//
+

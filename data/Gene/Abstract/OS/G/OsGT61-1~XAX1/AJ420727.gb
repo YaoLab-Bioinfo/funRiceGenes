@@ -1,0 +1,41 @@
+LOCUS       AJ420727                 511 bp    mRNA    linear   EST 08-JAN-2011
+DEFINITION  AJ420727 Oryza sativa PCR-based subtractive cloning Oryza sativa
+            cDNA clone OsSsp 62, mRNA sequence.
+ACCESSION   AJ420727
+VERSION     AJ420727.1  GI:25044744
+DBLINK      BioSample: LIBEST_010105
+KEYWORDS    EST.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 511)
+  AUTHORS   Sahi,C., Agarwal,M., Reddy,M.K., Sopory,S.K. and Grover,A.
+  TITLE     Isolation and cloning of novel salt stress responsive mRNAs by
+            PCR-based subtractive cloning
+  JOURNAL   Unpublished (2002)
+COMMENT     Contact: Sahi C
+            Department of Plant Molecular Biology
+            University of Delhi South Campus
+            Benito Juarez Road, New Delhi-110021, Delhi, INDIA.
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone="OsSsp 62"
+                     /clone_lib="LIBEST_010105 Oryza sativa PCR-based
+                     subtractive cloning"
+ORIGIN      
+        1 cctttttttt agtagaaaag aatgtatagt gttgaatggg ctggcgaagt gaaggagtgc
+       61 aagaagaaca aaaaaatcga acatctttgg tgtgtaatgc ctatacaaat tgttacaaac
+      121 caaaatggac aacccaacca attaccaata tgcgaaaagc ttccacctgc ctcgccaaca
+      181 actgatggtt ctcctccggt taagatcatc atcatctctt tcaagcagca gtacaatata
+      241 ctagtatccg ttcttgttcc tcgtcgtgtc gtctcgtccc ggcatataca ttgatgtgtg
+      301 ccatgagctg cctgcgatta ttgggataga cgagttactg ctgcagcctg tcgagcgcct
+      361 gcagcaggat tggccggaac ctggtgaggt tgacctcgat gtcctgcttc atgatagtcg
+      421 cggcgagtgt ctgccatccc tgcgcgtgga gcgccttggg gtccttgaac accatgtgca
+      481 tctcgcgagt agttgtgctt caggctcgtt t
+//
+

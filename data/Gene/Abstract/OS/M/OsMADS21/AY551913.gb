@@ -1,0 +1,53 @@
+LOCUS       AY551913                1049 bp    mRNA    linear   PLN 17-MAR-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) MADS-box protein RMADS207
+            mRNA, complete cds.
+ACCESSION   AY551913
+VERSION     AY551913.1  GI:45385947
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1049)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-FEB-2004) Bio-Tech Center, Shanghai Academy of
+            Agricultural Science, Beidi Road 2901, Shanghai 201106, China
+FEATURES             Location/Qualifiers
+     source          1..1049
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             87..884
+                     /note="transcription factor"
+                     /codon_start=1
+                     /product="MADS-box protein RMADS207"
+                     /protein_id="AAS59819.1"
+                     /db_xref="GI:45385948"
+                     /translation="MGRGKIEIKRIENKTSRQVTFCKRRNGLLKKAYELAILCDAEIA
+                     LIVFSSRGRLYEFSNVNSTRSTIERYKKASASTSGSAPVIDVNSHQYFQQEAAKMRHQ
+                     IQTLQNANRHLIGESIGNMTAKELKSLENRLEKGISRIRSKKHELLFSEIEYMQKREA
+                     DLQNENMFLRAKVAEAERAEHDDQQAAEDDEMAPAPAVGGGSSSGTELEALPATFDTR
+                     EYYQPAPPVSMLAAAAAAAAAQYSSDHHQTALHLGYFKVDSGKGGLL"
+ORIGIN      
+        1 gcttctgcca tgaattgcta agagggaggt gttgcatggt tgtacatgta catgtttaat
+       61 ttgtgaaggt ggatcgattg atcaacatgg ggagggggaa gattgagata aagagaatcg
+      121 agaacaagac gagccgtcag gtgaccttct gcaagcgcag gaatgggctg ctgaagaagg
+      181 cctacgagct cgccatactc tgcgacgctg agatcgcact catcgtcttc tccagccgag
+      241 gacgcctcta tgagttctcc aatgtaaaca gcacaaggtc aacaatcgag aggtacaaga
+      301 aagcctctgc cagcacttca ggatccgctc cagtgataga cgtcaattct catcaatact
+      361 ttcagcaaga agcagcaaaa atgcgccacc agatacagac cttgcagaat gcaaacaggc
+      421 acctcatcgg tgagtccatt ggcaatatga ccgcaaagga gctcaagagc cttgaaaatc
+      481 ggcttgaaaa gggcatcagc cgaattcgat caaagaagca tgagctgctg ttctcggaga
+      541 tcgaatacat gcagaaaagg gaagcagatc ttcagaacga gaacatgttc ctgagagcca
+      601 aggtggcaga ggccgagcga gctgaacatg atgatcagca ggcggcggag gacgacgaga
+      661 tggcgccggc gccggcggtc ggcggcgggt catcgtcggg gacagagctg gaggcgctgc
+      721 cggcgacgtt cgacacaagg gaatactacc agccggcgcc gccggtgagc atgctggccg
+      781 ccgcggcggc ggcggcggcg gcgcagtact cgtcggacca ccaccagact gctctccacc
+      841 tcggctactt caaggtcgac tccggcaaag gcggcctcct ctagatcgat cgccatggat
+      901 gcaaatattg catgcattcg atcgaattat actgtattcc gtaagagcga cgacgatgaa
+      961 gatgacaata attattgtgg tattgtacgt atagtacgct ggtagaccta cgtatacgta
+     1021 tacgtatgta tgatgaagaa aaaaaaaaa
+//
+

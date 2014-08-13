@@ -1,0 +1,71 @@
+LOCUS       AB056519                1122 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group D18 mRNA for GA 3beta-hydroxylase,
+            complete cds.
+ACCESSION   AB056519
+VERSION     AB056519.1  GI:15004946
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Itoh,H., Ueguchi-Tanaka,M., Sentoku,N., Kitano,H., Matsuoka,M. and
+            Kobayashi,M.
+  TITLE     Cloning and functional analysis of two gibberellin 3 beta
+            -hydroxylase genes that are differently expressed during the growth
+            of rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 98 (15), 8909-8914 (2001)
+   PUBMED   11438692
+REFERENCE   2  (bases 1 to 1122)
+  AUTHORS   Itoh,H., Ueguchi,M.T., Sentoku,N., Kitano,H., Kobayashi,M. and
+            Matsuoka,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-MAR-2001) Contact:Hironori Itoh Nagoya University,
+            BioScience CTR; Chikusa-ku Furocho, Nagoya, Aichi 464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..1122
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+                     /clone="OsGA3ox2"
+                     /dev_stage="vegetative shoot"
+     gene            1..1122
+                     /gene="D18"
+     CDS             1..1122
+                     /gene="D18"
+                     /codon_start=1
+                     /product="GA 3beta-hydroxylase"
+                     /protein_id="BAB62155.1"
+                     /db_xref="GI:15004947"
+                     /translation="MPTPSHLKNPLCFDFRAARRVPETHAWPGLDDHPVVDGGGGGGE
+                     DAVPVVDVGAGDAAARVARAAEQWGAFLLVGHGVPAALLSRVEERVARVFSLPASEKM
+                     RAVRGPGEPCGYGSPPISSFFSKLMWSEGYTFSPSSLRSELRRLWPKSGDDYLLFCDV
+                     MEEFHKEMRRLADELLRLFLRALGLTGEEVAGVEAERRIGERMTATVHLNWYPRCPEP
+                     RRALGLIAHTDSGFFTFVLQSLVPGLQLFRRGPDRWVAVPAVAGAFVVNVGDLFHILT
+                     NGRFHSVYHRAVVNRDRDRVSLGYFLGPPPDAEVAPLPEAVPAGRSPAYRAVTWPEYM
+                     AVRKKAFATGGSALKMVSTDAAAAADEHDDVAAAADVHA"
+ORIGIN      
+        1 atgccgacgc cgtcgcactt gaagaacccg ctctgcttcg acttccgggc ggcgaggcgg
+       61 gtgccggaga cgcacgcgtg gccggggctg gacgaccacc cggtggtgga cggcggcggc
+      121 ggcggcggcg aggacgcggt gccggtggtg gacgtcgggg cgggcgacgc ggcggcgcgg
+      181 gtggcgcggg cggcggagca gtggggcgcg ttccttctgg tcgggcacgg cgtgccggcg
+      241 gcgctgctgt cgcgcgtcga ggagcgcgtc gcccgcgtgt tctccctgcc ggcgtcggag
+      301 aagatgcgcg ccgtccgcgg ccccggcgag ccctgcggct acggctcgcc gcccatctcc
+      361 tccttcttct ccaagctcat gtggtccgag ggctacacct tctccccttc ctccctccgc
+      421 tccgagctcc gccgcctctg gcccaagtcc ggcgacgact acctcctctt ctgtgacgtg
+      481 atggaggagt ttcacaagga gatgcggcgg ctagccgacg agttgctgag gttgttcttg
+      541 agggcgctgg ggctcaccgg cgaggaggtc gccggagtcg aggcggagag gaggatcggc
+      601 gagaggatga cggcgacggt gcacctcaac tggtacccga ggtgcccgga gccgcggcga
+      661 gcgctggggc tcatcgcgca cacggactcg ggcttcttca ccttcgtgct ccagagcctc
+      721 gtcccggggc tgcagctgtt ccgtcgaggg cccgaccggt gggtggcggt gccggcggtg
+      781 gcgggggcct tcgtcgtcaa cgtcggcgac ctcttccaca tcctcaccaa cggccgcttc
+      841 cacagcgtct accaccgcgc cgtcgtgaac cgcgaccgcg accgggtctc gctcggctac
+      901 ttcctcggcc cgccgccgga cgccgaggtg gcgccgctgc cggaggccgt gccggccggc
+      961 cggagccccg cctaccgcgc tgtcacgtgg ccggagtaca tggccgtccg caagaaggcc
+     1021 ttcgccaccg gcggctccgc cctcaagatg gtctccaccg acgccgccgc cgccgccgac
+     1081 gaacacgacg acgtcgccgc cgccgccgac gtccacgcat aa
+//
+

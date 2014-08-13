@@ -1,0 +1,134 @@
+LOCUS       HE995412                3543 bp    DNA     linear   PLN 16-JUL-2013
+DEFINITION  Oryza sativa OsRRMh gene for spen-like protein, cultivar Zhonghua
+            NO.11.
+ACCESSION   HE995412
+VERSION     HE995412.1  GI:421994877
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group x Oryza sativa Indica Group
+  ORGANISM  Oryza sativa Japonica Group x Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Liu,D. and Cai,X.
+  TITLE     OsRRMh, a Spen-like Gene, Plays an Important Role during the
+            Vegetative to Reproductive Transition in Rice
+  JOURNAL   J Integr Plant Biol (2013) In press
+   PUBMED   23621499
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 3543)
+  AUTHORS   Liu,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-SEP-2012) National Key Laboratory of Plant Molecular
+            Genetic, Institute of Plant Physiology and Ecology, 300 Fenglin
+            Road, Shanghai, 200032, CHINA
+FEATURES             Location/Qualifiers
+     source          1..3543
+                     /organism="Oryza sativa Japonica Group x Oryza sativa
+                     Indica Group"
+                     /mol_type="genomic DNA"
+                     /variety="L. subsp."
+                     /cultivar="Zhonghua NO.11"
+                     /db_xref="taxon:1080340"
+                     /chromosome="9"
+                     /ecotype="japonica cv."
+                     /PCR_primers="fwd_name: OsTPs, fwd_seq:
+                     gccatcgtgtcctgcgtcct, fwd_name: OsRRMh-5's, fwd_seq:
+                     gtgtagccaactactaac, rev_name: ORF3', rev_seq:
+                     aactgcaaactgcatatgtt, rev_name: OsRRMh-3'r, rev_seq:
+                     cgatctgctctaaggatg"
+     gene            116..2818
+                     /gene="OsRRMh"
+     CDS             116..2818
+                     /gene="OsRRMh"
+                     /function="flowering control"
+                     /experiment="Northern blot dsRNAi Overexpression
+                     complementation"
+                     /codon_start=1
+                     /product="spen-like protein"
+                     /protein_id="CCM44540.1"
+                     /db_xref="GI:421994878"
+                     /db_xref="GOA:K8DVL5"
+                     /db_xref="InterPro:IPR000504"
+                     /db_xref="InterPro:IPR012677"
+                     /db_xref="InterPro:IPR012921"
+                     /db_xref="UniProtKB/TrEMBL:K8DVL5"
+                     /translation="MSSEPPPPQPQPQEAAGREASSSLSPAKESAAGGGGVGGSGAPE
+                     TNTLWVGNLPAQAAEDDVMASFSPHGALDCVMARAGPRSYAFVLFRSVPEARAALDAL
+                     QGSKVKGSVVRLEFARPARAVKNLWVGGISSSISKEELEEEFKKFGKVDGIAFSRDQT
+                     SAYIDFDKLEDAISAHRALNGRVLGGQELCVDFQRSRGRAEWLETGSFNGRTGPAKGY
+                     GVRNRESNPTNVLWVGFPNTAKINEEALRQAMAVHGAVTNTKVFPTRQYAFVEFATVG
+                     EASNAKKNLDGRLFNDQRIQILFSNSELAPNKLDNPTAVSGFPKSEMYYDDGQYGASD
+                     YFDPRRGRSRYFEYSGVPVSGGILPSPESGNPLLTGRSAQSTFDPREAKRLRLDAAAD
+                     PYDTRAGSEGLYSAGYSQRESARSERSSSPAIRIHGTVHRTSYLEHFWRGSIAKGGSP
+                     VCRARCLPIRKGVEIPLPDVVNCSARTGLDMLAKHYRDASGFDIVFFLPDSEDDFVSY
+                     TEFLRYLGSKSRAGVVKVDGGTTLFLVPPSDFLRNVLQVDGPERLYGVVLHIPQMSAA
+                     APASAPTPAVQRPQLTAPESQPYYDEREIPLQRRYSMITPSNNHHRDADHRGSLREDS
+                     LHQLGQILARPRVDEGQVVQPNLAGIPTNAGLQVQPSLQPDMIATLAKLLPSGQSSAL
+                     VTGQLPLSSTDQPALTQMNDASTLAKVWRPENQAMACTSSLEQIGNFQHSGQQFSKQA
+                     GAVHLPNYGNLAGAQEHPTQHSAYNPEMTLNLPPPPPPPTLPPSSAILSSQVGHSLPT
+                     QMSQQQYQPEQYYMTQSNYGQLATVSSSNLQAHHQQIVATPAAQAPVAAQFPPAMQAP
+                     AAAQAPVAAQASADEAERNRKYQATLQLAQRLLGQLQQKPGNQP"
+ORIGIN      
+        1 gaccccacct catcgcctca gaattcagaa acgaaagcca aaaaaaaaaa aaaaaaaaaa
+       61 atccccatct gctttagggt ttccgtcgat ctctctccct cgcgcggcgc cgccgatgtc
+      121 gtcggagccg ccgccgccgc agccgcagcc gcaggaggcg gcgggccggg aggcgtcgtc
+      181 ctccctctcc cccgcgaagg aatctgccgc cggtggaggc ggggtcgggg ggtcgggggc
+      241 accggagacg aacacgctgt gggtgggcaa cctgcccgcg caggcggcgg aggacgacgt
+      301 gatggcgtcc ttctccccgc acggcgcgct cgactgcgtc atggcccgcg cgggcccgcg
+      361 gagctacgcg ttcgtgctgt tccgctccgt cccggaggcc cgcgccgccc tcgacgcgct
+      421 ccagggctcc aaggtcaagg gcagcgtcgt ccggctcgag ttcgcccggc cggctagagc
+      481 tgttaagaac ttatgggttg gtggcattag ctcctcaatt tcaaaggagg agctggagga
+      541 ggagtttaag aaatttggaa aggttgatgg tattgcattc tctcgtgatc agacttccgc
+      601 gtacattgat tttgacaagc tggaagatgc aatttcggca catagagcct tgaatggaag
+      661 agttttaggt ggacaagaac tgtgtgttga tttccaaagg tccaggggca gagcggaatg
+      721 gttggagaca ggcagcttca atggtagaac tggacctgca aagggttatg gagtacgaaa
+      781 tcgagaatcc aatcccacca atgttctttg ggtaggtttc cctaatacag ctaaaatcaa
+      841 tgaggaggca cttcggcaag cgatggctgt acatggtgct gttacaaata caaaagtttt
+      901 cccaacaagg caatatgctt ttgtggagtt tgcaacagtt ggggaagctt ctaatgctaa
+      961 gaaaaatcta gatggtcgtc ttttcaatga tcagagaatt caaattcttt tctcgaacag
+     1021 tgagcttgcg ccaaataaat tagataatcc aacagcagtt tctggatttc caaaatcaga
+     1081 gatgtattat gatgatggtc agtatggcgc ttctgattat tttgatcctc gacggggaag
+     1141 atcaagatac tttgagtaca gtggtgtccc tgtttctggt ggtattcttc catcaccgga
+     1201 atctggaaat cctctcttaa ctggacgatc tgctcagagt acattcgatc caagagaagc
+     1261 caagaggttg cggttggatg ctgcagctga cccttatgat acaagggcag gtagtgaggg
+     1321 tctttattct gctgggtact ctcagcgcga gagtgcacgt tctgagagga gctcaagtcc
+     1381 tgctattcga atccatggca cagtgcaccg aacatcatac cttgagcact tctggcgtgg
+     1441 tagcattgcc aaaggtggat ctcctgtatg tcgtgctcgc tgtttgccta taaggaaggg
+     1501 tgttgagata cctttaccgg atgttgttaa ttgttccgct agaactggac tagatatgct
+     1561 ggcaaagcat tatagagacg cttcagggtt tgatatcgtc ttcttcttgc cagatagtga
+     1621 agatgacttt gtttcttaca ctgaattttt gcgctactta ggctcaaaaa gtcgggcagg
+     1681 ggttgtaaag gttgatgggg ggactacttt atttttggtc ccaccttccg attttttacg
+     1741 aaatgttttg caagttgatg gtccagaacg tctttacggt gtagtattac acattccgca
+     1801 aatgtctgct gctgctcctg cttctgctcc cactcctgct gtacaaaggc cacaactaac
+     1861 tgcaccagaa tcacaacctt actacgatga aagggaaatt cctttgcaga gaaggtatag
+     1921 tatgattacg cctagcaaca atcaccatcg agatgctgat caccgtggat ctttacgtga
+     1981 ggattcattg catcaattgg ggcaaattct tgcacgacct cgggtggatg aaggacaagt
+     2041 agttcagcca aaccttgccg gtatccctac aaacgcagga ctacaggtac agccttcact
+     2101 ccagcctgat atgatagcca ctttagctaa acttttgcca agtgggcagt catcagctct
+     2161 ggtcactggc cagcttcccc tgagctcaac agaccaacct gcattaaccc aaatgaatga
+     2221 tgcatctact cttgcaaaag tatggagacc tgaaaatcaa gcaatggctt gtacttcatc
+     2281 cttagagcag atcggtaatt tccagcattc aggacaacag ttcagcaaac aagctggagc
+     2341 agttcatctg ccaaactatg ggaacttggc aggtgcacag gagcacccaa cacaacatag
+     2401 tgcttacaat cctgaaatga ctctaaactt gccaccacca ccaccacctc ctacgctgcc
+     2461 acccagttct gctatattat catcgcaagt tggtcacagt ttgcctacgc agatgagtca
+     2521 gcaacagtat caaccagagc agtattatat gactcaaagc aattatggtc aattggccac
+     2581 agttagcagt tctaatcttc aggcgcacca tcaacaaatt gttgcgactc ctgctgcaca
+     2641 agctcctgtt gctgcgcaat tccctcctgc tatgcaagct cctgctgccg cacaagctcc
+     2701 tgttgctgca caagcttctg ctgacgaggc agaacggaac aggaagtatc aggcgactct
+     2761 tcagttggct cagcgcctgt tgggtcagct acaacagaag cctggaaatc aaccttaagg
+     2821 ctatcctgga aatcaacctt caggctaagt tacttattca ggtacgtttt atgtgctgct
+     2881 ctgcaattgt tctttccgtg ccatttacaa cttctctgct atgaaattag gtatcaagtg
+     2941 aaatatccaa acagattcag gcattcagct aatcgtaggt gtagtatatg cacttcttaa
+     3001 aagttaaaac cagaaactct gctaacaagt tttgtaggct ttatttctgc tagggcatag
+     3061 tccaatttag gcgaacaagg gagatatgat agtttgcatc atacttgttc ccttgtattt
+     3121 tgttcaagca tatcttaaca aagttgaggt ttttttcctt agaaaaacaa atatatatat
+     3181 atgacaaact attaagatga cttttaaact tggaatttaa actattaagg ttagcttatg
+     3241 catatcacgg attataattg tgggtggtta cagttttaga tctttttagt gagacacgtt
+     3301 taccattttc tgtgcatttg ctattgatag tatttaattt atagttgtgt gatatgttat
+     3361 ctgcatattc ttgtgttatt ctagtatata caatgcttag gttgttctac gagtgtgcat
+     3421 accatacaca agcattcaag ttatttgatt tgataaatgt atgaacttct ttcatgtaat
+     3481 aagctttgtg gtaatctaaa gtagcgaacc ttatctgaaa tgaccccaaa atcacatttt
+     3541 gcc
+//
+

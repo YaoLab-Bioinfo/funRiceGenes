@@ -1,0 +1,64 @@
+LOCUS       AB059239                 947 bp    mRNA    linear   PLN 19-FEB-2002
+DEFINITION  Oryza sativa CAI1 mRNA for glycine rich protein, complete cds.
+ACCESSION   AB059239
+VERSION     AB059239.1  GI:15887007
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Che,F.S., Entani,T., Marumoto,T., Taniguchi,M., Takayama,S. and
+            Isogai,A.
+  TITLE     Identification of novel genes differentially expressed in
+            compatible and incompatible interactions between rice and
+            Pseudomonas avenae
+  JOURNAL   Plant Sci. 162, 449-458 (2002)
+REFERENCE   2  (bases 1 to 947)
+  AUTHORS   Che,F. and Entani,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-APR-2001) Fang-Sik Che, Nara Institute of Science and
+            Technology, Graduate School of Biological Sciences; Takayama
+            8916-5, Ikoma, Nara 630-0101, Japan
+            (E-mail:fsche@bs.aist-nara.ac.jp, Tel:81-743-72-5452,
+            Fax:81-743-72-5459)
+FEATURES             Location/Qualifiers
+     source          1..947
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /cell_line="Oc"
+     gene            1..947
+                     /gene="CAI1"
+     CDS             147..704
+                     /gene="CAI1"
+                     /codon_start=1
+                     /product="glycine rich protein"
+                     /protein_id="BAB69447.1"
+                     /db_xref="GI:15887008"
+                     /translation="MTKLVALSFIVLLSVGLANATRVARYASAGGGGGGGGGGGGSNG
+                     GSGWGSGSGSGYGQASGDGSYASGGGGGGGGGGGQNGGSGYGSGSGSGYGQAGGYGPY
+                     GGGYAQGGGGGQGGGGGQNGGSGYGSGSGSGYGQAEGYGPYGGGYAQAGGQGGGGGGG
+                     QSGPGGSGYGSGSGSGSGSAYGGHP"
+     polyA_site      947
+                     /gene="CAI1"
+ORIGIN      
+        1 ctttctagtt atcctgtaat tgactaaaga agctgcgtct tgcatgacag cttcaagtta
+       61 cacatgctgt ctggtgctat aaatacccac gaactcttca ctcaacattc atctcattct
+      121 tcacttcagt ggctccatcc atcacaatga ctaagctcgt ggctcttagc tttatcgtcc
+      181 tcctaagcgt tggactagcc aacgctacaa gggtagctag atatgctagc gctggaggag
+      241 gtggcggtgg tggaggaggt ggtggtgggt caaacggtgg ttctggctgg ggatctggct
+      301 ctggctcagg gtatggccag gcaagtggtg atggatcgta tgctagtgga ggcggaggtg
+      361 gtggtggtgg tggaggtggg cagaatggtg gatccggata tggttctggt tctggatctg
+      421 ggtatggaca agccggtggg tatggacctt atggtggagg atatgctcaa ggagggggtg
+      481 gtggccaagg tggcggcggc gggcagaatg gtggatctgg atatggttct ggctctggat
+      541 ctggatatgg tcaagccgag ggatatgggc catatggtgg tggttatgct caagctggtg
+      601 gccaaggtgg tggcggtggt ggtggacaaa gtggtccagg tggtagcggg tatggcagcg
+      661 gttctggaag tggttctgga agtgcttatg gtggacaccc atagtagtgt tccacctaca
+      721 ttagcagagc ttctatattg aaagctgggt tggacagata tattactgtt atttttacgt
+      781 ggataataag aaataaaggg cttcactgaa tgtaataatt agagtggtgt tgtgcaccac
+      841 aatgcggttg taagctcttg gtgtaattga atgtttgatc aatatgttat tccaaatgca
+      901 tgataattca cgatcgaacc acactgagga ccatttcggt ttgaagt
+//
+

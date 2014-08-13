@@ -1,0 +1,62 @@
+LOCUS       AB253626                 876 bp    mRNA    linear   PLN 02-APR-2009
+DEFINITION  Oryza sativa Japonica Group STAR1 mRNA for sensitive to aluminum
+            rhizotoxicity 1, complete cds.
+ACCESSION   AB253626
+VERSION     AB253626.1  GI:224770634
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Huang,C.F., Yamaji,N., Mitani,N., Yano,M., Nagamura,Y. and Ma,J.F.
+  TITLE     A Bacterial-Type ABC Transporter Is Involved in Aluminum Tolerance
+            in Rice
+  JOURNAL   Plant Cell 21 (2), 655-667 (2009)
+   PUBMED   19244140
+REFERENCE   2  (bases 1 to 876)
+  AUTHORS   Ma,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAR-2006) Contact:Jian Feng Ma Okayama University,
+            Research Institute for Bioresources; Chuo 2-20-1, Kurashiki,
+            Okayama 710-0046, Japan
+FEATURES             Location/Qualifiers
+     source          1..876
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Koshihikari"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+     gene            1..876
+                     /gene="STAR1"
+     CDS             1..876
+                     /gene="STAR1"
+                     /codon_start=1
+                     /product="sensitive to aluminum rhizotoxicity 1"
+                     /protein_id="BAH28259.1"
+                     /db_xref="GI:224770635"
+                     /translation="MRIARIPTSIPPHLRLPLDLSAVSPMGSASEHDVREHLLDVDGV
+                     GEEGAAAAAGPKIRVRGLTRRSEARGEEILRGVDLDVPRGVVVGVIGPSGSGKSTLLR
+                     ALNRLWEPAPGAVLLDGVDICGIDVLALRRKVGMLFQLPAMFDGTVADNVRYGPQLQG
+                     KKLTDAEVQSLLSLADLDPALCSKPASELSVGQAQRVALARTLANDPEVLLLDEPTSA
+                     LDPISTQNIEEAIVRLKKTRGLTTVMVSHSVKQIQRIADLVCLLVAGEVVEVLPPSEL
+                     SEAKHPMARRFLELS"
+ORIGIN      
+        1 atgcgcattg cccggattcc cacttcgatc ccccctcacc ttcgtcttcc tctcgacctc
+       61 tccgctgtct ctccgatggg ctcagcttca gagcatgatg tcagggagca cctgctggac
+      121 gtggacggcg tcggggaaga aggggcggcg gcggcggcgg ggccgaagat acgggtgcgg
+      181 gggctgacgc ggcggtcgga ggcgagaggc gaggagatcc tgcggggcgt cgacctggac
+      241 gtgccgcgcg gggtggtcgt cggcgtcatc ggccccagcg gcagcggcaa gtccacgctg
+      301 ctccgcgcgc tcaaccgcct ctgggagccc gcgccgggcg ccgtgctcct cgacggcgtc
+      361 gacatctgcg gcatcgacgt cctcgcgctc cgccggaagg tcggcatgct cttccagctc
+      421 cccgccatgt tcgacggaac cgtggctgac aacgtgcgat acgggccaca gctgcagggc
+      481 aagaagctga cggacgccga ggtgcagagc ctactgagcc tcgccgacct ggaccctgct
+      541 ctctgctcca agcccgcctc cgagctctcc gtcggccagg cgcagcgcgt cgcattggct
+      601 cgcaccctcg ccaacgatcc ggaggtgctt ctgctggatg agccgacgag cgcgttggat
+      661 cccatctcga cgcagaacat cgaggaggcg atcgtgcggc tgaagaagac gagggggctc
+      721 accacggtga tggtgtcgca cagcgtgaag cagatccagc ggatcgccga cctggtctgc
+      781 ctcctcgtcg ccggcgaggt cgtcgaggtg ctcccgccgt cggagctgtc cgaggccaag
+      841 caccccatgg cacggcgctt cctcgagctc agctga
+//
+

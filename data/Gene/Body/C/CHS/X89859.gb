@@ -1,0 +1,84 @@
+LOCUS       X89859                  1606 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  O.sativa mRNA for chalcone synthase.
+ACCESSION   X89859
+VERSION     X89859.1  GI:927490
+KEYWORDS    chalcone synthase.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Scheffler,B.E., Reddy,A., Hoffmann,I. and Wienand,U.
+  TITLE     Chalcone synthase cDNA from Rice (Oryza sativa)
+  JOURNAL   Plant Physiol. 109, 722-722 (1995)
+REFERENCE   2  (bases 1 to 1606)
+  AUTHORS   Scheffler,B.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUL-1995) B.E. Scheffler, Inst.f. Allgemeine Botanik,
+            Univ. Hamburg, Ohnhorststr.18, D- 22609 Hamburg, FRG
+COMMENT     CC   Ref [3]: Plant Gene Register PGR95-071 (1995).
+FEATURES             Location/Qualifiers
+     source          1..1606
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="purple puttu"
+                     /db_xref="taxon:39946"
+                     /clone="cDNA 1"
+                     /tissue_type="leaf"
+                     /dev_stage="30 days after germination"
+     gene            1..1606
+                     /gene="chalcone synthase"
+     CDS             1..1197
+                     /gene="chalcone synthase"
+                     /EC_number="2.3.1.74"
+                     /codon_start=1
+                     /product="naringenin-chalcone synthase"
+                     /protein_id="CAA61955.1"
+                     /db_xref="GI:927491"
+                     /db_xref="GOA:A2ZEX7"
+                     /db_xref="InterPro:IPR001099"
+                     /db_xref="InterPro:IPR011141"
+                     /db_xref="InterPro:IPR012328"
+                     /db_xref="InterPro:IPR016038"
+                     /db_xref="InterPro:IPR016039"
+                     /db_xref="InterPro:IPR018088"
+                     /db_xref="UniProtKB/Swiss-Prot:A2ZEX7"
+                     /translation="MAAAVTVEEVRRAQRAEGPATVLAIGTATPANCVYQADYPDYYF
+                     RITKSEHMVELKEKFKRMCDKSQIRKRYMHLTEEILQENPNMCAYMAPSLDARQDIVV
+                     VEVPKLGKAAAQKAIKEWGQPRSRITHLVFCTTSGVDMPGADYQLAKMLGLRPNVSRL
+                     MMYQQGCFAGGTVLRVAKDLAENNRGARVLAVCSEITAVTFRGPSESHLDSMVGQALF
+                     GDGAAAVIVGSDPDEAVERPLFQMVSASQTILPDSEGAIDGHLREVGLTFHLLKDVPG
+                     LISKNIERALGDAFTPLGISDWNSIFWVAHPGGPAILDQVEAKVGLDKERMRATRHVL
+                     SEYGNMSSACVLFILDEMRKRSAEDGHATTGEGMDWGVLFGFGPGLTVETVVLHSVPI
+                     TAGAAA"
+ORIGIN      
+        1 atggcagcgg cggtgacggt ggaggaggtg aggagggcgc agagggcgga ggggccagcg
+       61 acggtgctgg cgatcgggac ggcgacgccg gcgaactgcg tgtaccaggc cgactacccg
+      121 gactactact tcaggatcac caagagcgag cacatggtcg agctcaagga gaagttcaag
+      181 aggatgtgtg acaagtcgca gatcaggaag aggtacatgc acctgacgga ggagatcctg
+      241 caggagaacc ccaacatgtg cgcgtacatg gcgccgtcgc tggacgcgcg gcaggacatc
+      301 gtcgtcgtcg aggtccccaa gctggggaag gcggcggcgc agaaggcgat caaggagtgg
+      361 gggcagccgc gctcccgcat cacccacctc gtcttctgca ccacctccgg cgtcgacatg
+      421 cccggcgccg actaccagct cgccaagatg ctcggcctga ggcccaacgt gagccgcctc
+      481 atgatgtacc agcaggggtg cttcgccggc ggcacggtgc tccgcgtcgc taaggacctc
+      541 gccgagaaca accgcggcgc gcgcgtcctc gccgtgtgct ccgagatcac ggcggtgacg
+      601 ttccgggggc cctccgagtc ccacctcgac tccatggtcg ggcaggcgct gttcggcgac
+      661 ggcgcggcgg cggtgatcgt cggctccgac cccgacgagg ccgtcgagcg gccgctgttc
+      721 cagatggtgt cggcgagcca gaccatcctc ccggacagcg agggcgccat cgacggccac
+      781 ctgagggagg tcgggctgac gttccacctg ctcaaggacg tgccggggct catctcgaag
+      841 aacatcgagc gcgcgctggg cgacgcgttc acaccgctgg ggatctcgga ctggaactcc
+      901 atcttctggg tggcgcaccc cggaggtccg gcgatcctgg accaggtgga ggcgaaggtt
+      961 gggctggaca aggagaggat gagggcgacg cgccacgtgc tgtccgagta cggcaacatg
+     1021 tcgagcgcct gcgtgctctt catcctcgac gagatgcgca agcgctccgc cgaggacggc
+     1081 cacgccacca ccggcgaggg catggactgg ggcgtcctct tcggcttcgg ccccggcctc
+     1141 accgtcgaga ccgtcgtcct ccacagcgtc cccatcaccg ccggcgccgc cgcctgagcg
+     1201 ctccgccatg gtcgccgccg gccggcctac gtacgccaca cgtcatcttt tatcatcgat
+     1261 cataaaaaaa aaattatata tatatcgata tcgatatata tatatatttc ctaataataa
+     1321 ctactactac aataacaacg ttatcgaatt aaaaagttat tcccttttcc cgtgtgttgg
+     1381 tagggataaa aagtgaaaaa aaattattac tttgttttgc atgtgtcatg tatgggtggt
+     1441 ttggttggta gtagcatata tatgtatact gaaaagagaa agggaggtca attaagtgtc
+     1501 atggatggtg aggtttattg taaacctgtg taagagatgc ttggctgtta ctattcaatt
+     1561 tgaaaactta attaattttg tgtacctaaa ttgatgtgca aaaaaa
+//
+

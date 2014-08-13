@@ -1,0 +1,127 @@
+LOCUS       JN615010                4265 bp    DNA     linear   PLN 18-JAN-2012
+DEFINITION  Oryza coarctata iron deficiency-responsive cis-acting
+            element-binding factor 1 (IDEF1) gene, complete cds.
+ACCESSION   JN615010
+VERSION     JN615010.1  GI:372199366
+KEYWORDS    .
+SOURCE      Oryza coarctata (Porteresia coarctata)
+  ORGANISM  Oryza coarctata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 4265)
+  AUTHORS   Purohit,D., George,S., Sankararamasubramanian,H. and Parida,A.
+  TITLE     Idef1 transcript expression is regulated by iron deficiency
+            combined with salt treatment in the halophytic wild rice relative
+            porteresia coarctata
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4265)
+  AUTHORS   Purohit,D., George,S., Sankararamasubramanian,H. and Parida,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-AUG-2011) Plant Molecular Biology, MS Swaminathan
+            Research Foundation, Third Cross Road, Taramani Institutional Area,
+            Chennai, Tamil Nadu 600113, India
+FEATURES             Location/Qualifiers
+     source          1..4265
+                     /organism="Oryza coarctata"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:77588"
+                     /note="authority: Oryza coarctata Roxb."
+     gene            292..3796
+                     /gene="IDEF1"
+     mRNA            join(292..571,957..1270,1704..1820,1915..2037,2346..2438,
+                     2546..2646,2991..3037,3120..3196,3489..3796)
+                     /gene="IDEF1"
+                     /product="iron deficiency-responsive cis-acting
+                     element-binding factor 1"
+     CDS             join(451..571,957..1270,1704..1820,1915..2037,2346..2438,
+                     2546..2646,2991..3037,3120..3196,3489..3536)
+                     /gene="IDEF1"
+                     /note="PcIDEF1 transcription factor; IDE-binding factor"
+                     /codon_start=1
+                     /product="iron deficiency-responsive cis-acting
+                     element-binding factor 1"
+                     /protein_id="AEX88465.1"
+                     /db_xref="GI:372126552"
+                     /translation="MGQMDGGDGGGGHPYHYQALLAAVHQQTVPFPNPFPAPSSGTEA
+                     IHPHNHNHNQNNNHNHNAAPHPCHTPTPRGFADWSASTSAFTSLAAHSSTAPTNAVHY
+                     SFSPCYAFWTPYMLNKNAYPSFPAPHDDHLRLANNHHPRDAPGPASSYGVESFTSVSM
+                     EPNICTNMPPIGGPISAKEDKKPEILPRVIKSSDELEITNSNVELSCETFGTLPQLKQ
+                     GHESRATKLLNSGEYQVILRKELTKSDVGNVGRIVLPKKDAEASLPPLLQRDPVILHM
+                     DDMVLPVTWKFKYRYWPNNKSRMYILDSAGEFLKTHGLQAGDVIIIYKNMAPGKFIIR
+                     GEKAIHQQTTNP"
+ORIGIN      
+        1 taagtggtcg tcgtgtggcg cagagtgagg gaatggggga gaagaaatgg tccaaagata
+       61 gtaaagagga aaataagagg gagatgatga gtgtaattac tgagcagtag tagtaacaaa
+      121 ctcttggacc tgataggtgg atgagtcata caggcggaga gaggagagaa tggatggatg
+      181 gatggatgga taggtactcc ggatagacag atagatagat tggctggtag aacgggtcac
+      241 ctcaccacca ccaccacctc cgcctcctcc tcctctccta gtgggggtgg cctcctctct
+      301 gcgagtgagc gactgctctc ttcttcttcc ctctgccctc tgggtgtgtg tgtgtcgtgt
+      361 gtgaggagag agaaagaaag tgagagaggg gaaagcgagt gagcgagcac tccaacaaga
+      421 caagacagga gaagagaaga gaagcgggca atggggcaaa tggacggcgg cgacggcggc
+      481 ggcggccatc cctaccacta tcaggccctc ctggccgccg tccaccagca gaccgtcccc
+      541 tttcccaatc ccttccccgc cccttcctcg ggtactccct ctccctctct ctctctacat
+      601 ctttgttaga atgttagggg agcaggtagg cagagcaaaa ttcagatctt attatcatca
+      661 tcatcatcat catcatcatt attattatta ttattaaaag aaacaagaga atctggaggt
+      721 cattgtttac catttattga ttttaattta gagatcccct cccacgccac tccgctccgc
+      781 tccgctgctt gatttgattt agggtctatt tagggtgatc aatcattcct cttcctccac
+      841 gccgtcactc tatgtattca atttattcgt cactctgtgc attcaattca ttcagttcgg
+      901 ttaattagcc catgtatgta aatgtattga cgatgattgg tgtgcttgga ttgcaggaac
+      961 cgaggccatc cacccgcaca atcacaatca caatcaaaac aacaatcaca atcacaatgc
+     1021 tgctccccac ccttgtcaca ctcccactcc cagaggtttc gcagactgga gcgcctccac
+     1081 cagcgccttc acctcccttg ccgctcactc ctctactgcc cccaccaatg ccgtccatta
+     1141 cagcttctcc ccctgctatg ccttctggac accttacatg ctcaacaaga acgcctaccc
+     1201 ctccttccct gcgccacacg acgaccactt gcgccttgcc aacaatcatc atcctagaga
+     1261 tgcaccaggt gttacatttt actacattcc ctcactctgc tccttcaaag ctatctcctt
+     1321 tccaactaaa ccaacatata ctgcatgcct tttttccttt taatgcaata aactaattta
+     1381 atcttccgtt acattgctca gagctgtaaa tgtcgcttgt aacaactagg aattttgact
+     1441 gagctagctc attttaattg ttagggtgcg cctctgatgt tgaacaagta ggtccatgag
+     1501 gcatttacat tcttgctctc catacttcga ttgatatgag tagtggatct aaggacactt
+     1561 gttactgtat tccactcttg gcattagctg attgccaggt tttcttaatc atgtacatat
+     1621 ggggcagcta tttgcgtccc gccaaattct ttcacccagt cattgtcagt tttttcctca
+     1681 tatcctggtt aaattaccag gagcctgcat ccagctacgg ggttgagtct tttacttcag
+     1741 tgtccatgga accaaatatt tgcaccaaca tgcctcccat aggaggaccc atatctgcca
+     1801 aggaagataa gaaaccagag gtatataata agaaccttca aaatttggaa aacctttcaa
+     1861 gttttcatca tcttcataac acatactcta actactgtaa tggatgctaa ccagattttg
+     1921 cctagagtga ttaagagcag tgatgaattg gaaatcacaa acagcaatgt tgaactttcc
+     1981 tgtgagacct ttggcactct cccacagttg aagcaaggcc atgaaagtcg tgctactgtg
+     2041 agtaacacac tacacttaac gtgctgtctg tatctgattt acttcataaa tttctatctc
+     2101 tcatttaatc tacactaggc aagtgcatag aataagtaat ggagcaagta tctatcaatt
+     2161 actccatgcc gctatagtca ttgagcagaa gggcaaatga agcagcaatt ccttagtagt
+     2221 tcagtaattc aagtagcctg taaagatgat aagccaaaac atcgatgcag tacatgggca
+     2281 catacttctc tcataattag caccttcatt tcctttgtgt tcatgggggt gtgcttttat
+     2341 gccagaaact actcaactct ggagaatacc aagtcattct gcgcaaggag ttgacaaaga
+     2401 gtgatgttgg aaatgttgga agaattgttc tacccaaggt atgttccgta tttccgtctc
+     2461 ttgaaagttt tctagcatca ttctgtgaga actttcatgc ggtctaaact atgcttcata
+     2521 atgtaactgt ctgaatttat ttcagaagga tgcagaggct agtcttccac ctttgctgca
+     2581 aagggatcct gtgatactgc acatggacga catggtgctc ccagttacat ggaagtttaa
+     2641 gtacaggtgc ttttcctgtt atcttatggc atctctcaca tgcaatttct gaaagacaac
+     2701 aacaaaaaaa aagattcgga attgcaatga cataacgaga tgcctagatt aagaaaaagt
+     2761 gggaggttga aggcacctca tgcattaagt tccacatcat gtttagaaat ctgaaatttg
+     2821 taaagcagtt cataggttca tacatcttgt ggcagctgcc tgattgctaa ttctggtttg
+     2881 tttacatgaa cagttgtcac agcatggaaa aactgataca ttgctgctta acctagatat
+     2941 actctatcac ttactactac taattcacgg agtcaacaat gctatttcag gtactggcca
+     3001 aataacaaaa gcagaatgta cattctggat tctgcaggta tgattcaaca tgggaagtat
+     3061 tgtgtatttc ctgcggatgt ggacatcggt agattgaaat ttcgtattca tcttggcagg
+     3121 tgaatttctg aagacacatg gtcttcaggc tggggatgtc atcattatct acaaaaacat
+     3181 ggctcccgga aaatttgtat gcaacctttt tcttctgttt cttccttttt gtacattgca
+     3241 tctctgactt agcatttatg gcttgcaaat ctcaattatc gcttttgaca taactgataa
+     3301 aaatgcttag tacaaaaaaa tgataagccc tcctaaacaa accaacttga gaaacatata
+     3361 gatcaccact catgaatatt ctgtgggatg cacacaaaat tgccagctct gttcattttc
+     3421 cctgaaaagt atgttaataa tgattcttcg catgtcttat tggacctttg tgttttttta
+     3481 taaagaagat tatccgaggg gagaaggcca ttcatcagca gacaacaaat ccctagatgc
+     3541 atttggggtt aattgcaaca gtgttaattg aggcatttga agggaaggac gtggacttac
+     3601 cataagctgg caatccagga gaagttgaaa gcggcatcga tttttatatc actggtggcc
+     3661 accatcacat gggataagat taaagaaggg catgcggctt tgacctgtta actctgaatg
+     3721 aatggggaaa agaaataaga caaagattgg tagaatattg aactgtcggc gaagggcttc
+     3781 tacagcttat cttgggttga gaaaagcact tgtcagttta tttaattcag ttgtgttggg
+     3841 gagcttgagt tctactttca gaacaatatt tgcagcttct gtatattttt ggtctataag
+     3901 ataaagagag tggtgtgtaa ttttggtttt gacgtcatcc atctatttgt cttactaatg
+     3961 cagcggaaca tgatgaattc tgttcattgt catggataca ttggcaatgt atccacaaca
+     4021 tccaccctgg ttgtcgctgg ctctttgcta gtagaaacgt cagtcaaatg aatgcacaga
+     4081 agaatcgtca gcgcaccgaa gggacaaaaa aaaagtcgag aagactggag gtgcggggga
+     4141 tcgagcagcg tgcctctcgc atgcgaagcg aacgctagat acacccccga accctagctc
+     4201 aaactatata tgacatacac cccatggaag aacgaatctt gtgtccatcc aatggcagca
+     4261 ctatg
+//
+

@@ -1,0 +1,72 @@
+LOCUS       AY345599                1132 bp    mRNA    linear   PLN 18-APR-2008
+DEFINITION  Oryza sativa Indica Group stress-associated protein 8 (SAP8) mRNA,
+            complete cds.
+ACCESSION   AY345599
+VERSION     AY345599.2  GI:35187686
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1132)
+  AUTHORS   Kanneganti,V. and Gupta,A.K.
+  TITLE     Overexpression of OsiSAP8, a member of stress associated protein
+            (SAP) gene family of rice confers tolerance to salt, drought and
+            cold stress in transgenic tobacco and rice
+  JOURNAL   Plant Mol. Biol. 66 (5), 445-462 (2008)
+   PUBMED   18205020
+REFERENCE   2  (bases 1 to 1132)
+  AUTHORS   Vydehi,K. and Gupta,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2003) Department of Plant Biotechnology, Madurai
+            Kamaraj University, Palkalainagar, Madurai, Tamilnadu 625021, India
+REFERENCE   3  (bases 1 to 1132)
+  AUTHORS   Vydehi,K. and Gupta,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-SEP-2003) Department of Plant Biotechnology, Madurai
+            Kamaraj University, Palkalainagar, Madurai, Tamilnadu 625021, India
+  REMARK    Sequence update by submitter
+COMMENT     On Sep 24, 2003 this sequence version replaced gi:33621225.
+FEATURES             Location/Qualifiers
+     source          1..1132
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR50"
+                     /db_xref="taxon:39946"
+                     /tissue_type="root"
+     gene            1..1132
+                     /gene="SAP8"
+                     /note="OsiSAP8"
+     CDS             61..576
+                     /gene="SAP8"
+                     /codon_start=1
+                     /product="stress-associated protein 8"
+                     /protein_id="AAQ84334.1"
+                     /db_xref="GI:35187687"
+                     /translation="MEHKETGCQQPKGPILCINNCGFFGSAATMNMCSKCHKEMIMKQ
+                     EQAKLAASSIDSIVNGGDSGKEPIIAGHAEVAVAQVEVKTLVAQPAEIAGPSEGVTVN
+                     PKGREGPNRCSTCRKRVGLTGFNCRCGNLYCAMHRYSDKHDCQFDYRTAARDAIAKAN
+                     PVVKAEKLDKI"
+ORIGIN      
+        1 atcgcgcgga ggaaaaaaaa aagaaaaggg cttcctcgtc gtctaagtta aaaggaagcc
+       61 atggagcaca aggagactgg atgccagcag ccaaaaggcc cgatcctttg catcaataac
+      121 tgcggcttct ttggcagtgc ggctaccatg aacatgtgct caaagtgcca caaggagatg
+      181 ataatgaagc aggagcaggc caagctggca gcctcctcta tcgacagcat tgtcaatggt
+      241 ggtgattccg ggaaggaacc aattattgct ggtcacgctg aagtagctgt tgctcaagtc
+      301 gaggtgaaga cgcttgttgc gcagcctgct gagattgctg gccctagtga gggggtcacg
+      361 gtgaacccca aggggaggga aggaccaaat cggtgctcca cttgtcggaa gagggttggt
+      421 cttaccggat tcaactgccg atgtggcaac ttgtactgcg caatgcaccg ctattccgat
+      481 aagcatgact gccagtttga ctatcggacc gctgctaggg atgctattgc caaggctaat
+      541 ccggtggtga aggcggagaa acttgacaaa atttaggggt ttcatatggt tggtgaacga
+      601 agcgtcacaa tctgcggtct tcatcatcca tctttgctgc attatccatg ccttttcctt
+      661 tcatgttggc tgctacaatc tagttgttcg gcatttgtga tgcatggcac accacggcag
+      721 cttcaagaac cctcatctct ggtcagtccg aatggtttgc atgttggcta tgttgtgtaa
+      781 gctttattta tgatcgtctt gcgctgacgg tattgtggct tcgcatttag ctagctctgt
+      841 aatgtactat tgtatccgaa gtgttacatt gcaaccagta atagtaatca gcaatcgtcc
+      901 gttatatggt actgatgacc attcctgtgt gcagtacatc tcaatcttct acatggtaaa
+      961 ctctgggtga ggattcacaa tatatatact acctggatat ctcccacaaa gacttgttta
+     1021 gaagtttagg tgacctggtg agaatgtggt tctgtggttg gtttgtgtag gctttggctt
+     1081 tacctggata ttatacactg gaatatatac ttttgcatgt ggaaaaaaaa aa
+//
+

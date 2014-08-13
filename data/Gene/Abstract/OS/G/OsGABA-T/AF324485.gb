@@ -1,0 +1,78 @@
+LOCUS       AF324485                1632 bp    mRNA    linear   PLN 01-DEC-2006
+DEFINITION  Oryza sativa aminotransferase-like protein mRNA, complete cds.
+ACCESSION   AF324485
+VERSION     AF324485.1  GI:12963337
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1632)
+  AUTHORS   Wu,C., Zhou,S., Zhang,Q., Zhao,W. and Peng,Y.
+  TITLE     Molecular cloning and differential expression of an
+            gamma-aminobutyrate transaminase gene, OsGABA-T, in rice (Oryza
+            sativa) leaves infected with blast fungus
+  JOURNAL   J. Plant Res. 119 (6), 663-669 (2006)
+   PUBMED   16896530
+REFERENCE   2  (bases 1 to 1632)
+  AUTHORS   Peng,Y.-L., Wu,C.-X. and Zhang,Q.
+  TITLE     A rice aminotransferase-like cDNA induced by infection by blast
+            fungus
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1632)
+  AUTHORS   Peng,Y.-L., Wu,C.-X. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2000) Department of Plant Pathology, China
+            Agricultural University, Yuan-Ming-Yuan West Road 2, Haidian
+            District, Beijing 100094, People's Republic of China
+FEATURES             Location/Qualifiers
+     source          1..1632
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             21..1472
+                     /codon_start=1
+                     /product="aminotransferase-like protein"
+                     /protein_id="AAK11219.1"
+                     /db_xref="GI:12963338"
+                     /translation="MTTPHGLLQYSSGAFSDQVPADDSAEEHGVKDHAMLAPFTAAWQ
+                     TAISPPLVIERSEGCYVYDVNGTKYLDALAGLLSTALGGSEPRLVKAATEQLNKLPFY
+                     HSFWNHTTRPSLDLAKELISMFTAREMGKVFFTNSGSEANDSQVKIVWYYNNALGRPK
+                     KKNIISRTQSYHGTTFISASLSGLPTLHQDFDLPGRFVLHTDCPHYWRFHLPGETEEE
+                     FATRLADNLENLILKQGPETIAAFIAEPVIGAGGVILPPKTYFEKIQAVVKKYDNLFI
+                     VDEVITGFERLGTMFGSDLYNIKPDLVSLAKALSSAYAPIGAILVSPEISDVIHSHSN
+                     KLGTFAHGFTYSGHPVSCAVALEALKIYRERDIPGHVTHVAQRFQEGIKAFAAGSPIV
+                     GETRGVGLLIATEFTDNKSPYELFPFEWGVGEIFGQECKKRGMMVKVLGNLIAMSPPL
+                     IITREEIDKLVSIYGEALKATEERVAELKSKKN"
+ORIGIN      
+        1 gcgaactttc atctttatat atgacgactc ctcatggcct cctccagtac tcatcaggtg
+       61 ccttctctga tcaggtgcca gctgatgact ctgctgaaga acatggggtt aaggatcatg
+      121 ccatgcttgc accgtttaca gccgcatggc agaccgctat ctcaccacca ctggttattg
+      181 agagatctga gggatgttac gtttacgatg tcaacgggac caagtatcta gatgcacttg
+      241 caggattgtt gtctacagct ttaggtggta gtgagcctcg tttagtcaaa gctgctacgg
+      301 agcaattaaa caagttaccc ttctaccact ccttttggaa ccatacaacc aggccttctt
+      361 tggatcttgc gaaagaactt attagcatgt ttactgccag ggaaatgggc aaagtgttct
+      421 ttacgaacag tggttcagaa gcaaatgact ctcaggttaa gatagtatgg tattataaca
+      481 atgcattggg gaggccaaag aagaaaaata tcatttcacg gacacaatca tatcatggaa
+      541 caacattcat atcagctagt ctatcagggc ttcctacctt gcatcaggat tttgatctgc
+      601 caggacgttt tgttctgcac acagactgcc ctcactactg gcgcttccat ctccctggtg
+      661 agacagaaga agaatttgca actagacttg ccgataattt agagaatctt atcctcaaac
+      721 aaggaccaga aacgatcgct gccttcattg ctgaacctgt gattggtgct ggtggtgtta
+      781 tccttcctcc aaagacatat tttgagaaga ttcaagcagt ggttaagaag tatgacaacc
+      841 tttttattgt agatgaggtt attactggat ttgaaaggtt gggaaccatg ttcggatctg
+      901 atttgtataa catcaaacca gatcttgtct ccttggccaa ggctctttct tctgcctatg
+      961 ctcccattgg agcgatactt gttagcccgg aaatatcaga tgtgattcat tctcatagta
+     1021 acaagctcgg tacatttgct catggcttta catattctgg ccatcctgtt tcctgtgctg
+     1081 ttgctttaga ggcgctgaaa atttatcggg aaagagatat tcctggtcat gtcacacatg
+     1141 ttgctcaaag gttccaggag ggaatcaagg cctttgcagc tggaagtcca attgttgggg
+     1201 agacacgtgg tgtaggattg ctgatagcaa ctgagttcac cgataacaaa tcaccatatg
+     1261 agttattccc ttttgagtgg ggtgttggtg aaatatttgg acaggagtgt aagaaacgtg
+     1321 gcatgatggt taaggttctt ggaaacttga tagcgatgtc cccaccactg ataataaccc
+     1381 gtgaagaaat tgataaactg gtgagcatat atggagaagc tctgaaggca acagaggaaa
+     1441 gagtggcaga gctaaaatcc aagaagaatt agtcaacata tgtcatctat ggcaatggcg
+     1501 gcaaaggttg aaggcaatga tgtggtccct gcaccgaata aattccactg gtgcttgttg
+     1561 ttcgataatt tgttgaaata ttactgatgt tgtgttaaaa gccaattaaa aaaaaaaaaa
+     1621 aaaaaaaaaa aa
+//
+

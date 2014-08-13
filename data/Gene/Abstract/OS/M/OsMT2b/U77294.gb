@@ -1,0 +1,50 @@
+LOCUS       OSU77294                 679 bp    mRNA    linear   PLN 13-NOV-1996
+DEFINITION  Oryza sativa metallothionein-like protein mRNA, complete cds.
+ACCESSION   U77294
+VERSION     U77294.1  GI:1667587
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 679)
+  AUTHORS   Lee,M.C., Park,J.Y., Lee,J.S. and Eun,M.Y.
+  TITLE     Molecular cloning and characterization of a metallothionein-like
+            protein gene in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 679)
+  AUTHORS   Lee,M.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-OCT-1996) Cytogenetics Division, National Institute
+            of Agricultural Science and Technology, Rural Development
+            Administration, Suwon 441-707, Korea
+FEATURES             Location/Qualifiers
+     source          1..679
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Milyang 23"
+                     /db_xref="taxon:39946"
+                     /clone="KCDL1016"
+     CDS             90..344
+                     /codon_start=1
+                     /product="metallothionein-like protein"
+                     /protein_id="AAB18814.1"
+                     /db_xref="GI:1667588"
+                     /translation="MSCCGGNCGCGSGCQCGGGCGGCKMFPDVEATATTKTFVLAAPS
+                     NKASSGGMEMAVESGENGGCGCNTCKCGTSCSGCSCCSCN"
+ORIGIN      
+        1 cggcacgagg caattcttga gctcaatcag caacaacatc tatctccttc ttgcttagtt
+       61 aagtccttcg ccctcccaag aaaaaaaaaa tgtcttgctg cggcggcaac tgcggctgcg
+      121 gcagcggctg ccaatgcggc ggcggctgcg gcggatgcaa aatgttccct gatgtggagg
+      181 ccacagccac caccaagacc ttcgtcctcg ctgctccatc caacaaggcg agctctggag
+      241 gaatggagat ggcggtggag agcggcgaaa acggcggctg cggctgcaac acctgcaagt
+      301 gtggcaccag ctgcagcggc tgctcctgct gctcctgcaa ctgaatctat cgtcgtcctc
+      361 gcccggctgc atgaagattt atcgtatgga tgctgctact gtcgatcaga actttgatcg
+      421 aagccttaat ttgcttgcat tagacaccca ccttatatgt aggcaggcct tgccttttgt
+      481 tgagacgcct aaataaaacc gtcgttgtcg ttgtcagtgt gggcgtgtgt cgatcaatgt
+      541 gggatggatc cctagctagc tgggatggat catctatcat catggtgatc tcatcatgaa
+      601 ctcctgctcc atctcatcag gcgggccagg cttcttaata taatctacct ctgctttcat
+      661 cccaaaaaaa aaaaaaaaa
+//
+

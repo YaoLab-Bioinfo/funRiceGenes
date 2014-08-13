@@ -1,0 +1,69 @@
+LOCUS       OSU63530                1533 bp    mRNA    linear   PLN 07-AUG-1997
+DEFINITION  Oryza sativa osRAD23 mRNA, complete cds.
+ACCESSION   U63530
+VERSION     U63530.1  GI:1488296
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1533)
+  AUTHORS   Schultz,T.F. and Quatrano,R.S.
+  TITLE     Characterization and expression of a rice RAD23 gene
+  JOURNAL   Plant Mol. Biol. 34 (3), 557-562 (1997)
+   PUBMED   9225866
+REFERENCE   2  (bases 1 to 1533)
+  AUTHORS   Schultz,T.F. and Quatrano,R.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUL-1996) Biology, University of North Carolina at
+            Chapel Hill, CB 3280, Coker Hall, Chapel Hill, NC 27599-3280, USA
+FEATURES             Location/Qualifiers
+     source          1..1533
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     CDS             58..1236
+                     /note="RAD23 homolog"
+                     /codon_start=1
+                     /product="osRAD23"
+                     /protein_id="AAB65841.1"
+                     /db_xref="GI:1488297"
+                     /translation="MKISVKTLKGSTFQIEVDSAQKVADVKRIIETTQGQHIYPAEQQ
+                     MLIHQGKVLKDDTTLDENKVLENSFLVIMLRQGKGSSSSAPATSKAPSNQAPPTQTVP
+                     AAPASQAPVAPATTVPVTVSAPTPTATASPAPAVAVSSEADNYGQATSNLVAGSNLEA
+                     TIQSILEMGGGIWDRDIVLHALSAAFNNPERAVEYLYSGVPEQMDIPVPPPSIQPANP
+                     TQASQATQPAAPSILSSGPNASPLDLFPQALPNASTDAAGLGNLDALRNNAQFRTLLS
+                     LVQANPQILQPLLQELGKQNPQILQLIQENQAEFLHLINEPAEGDDEENLLDQFPEAM
+                     PQTIAVTPEEDEAILRLEPMGFDRALVLDVFFACNKDEQLAANYLLDHMNEFADEGPP
+                     "
+ORIGIN      
+        1 gaattcggca cgagctccgc cctagagctc gacggcggcg gcaacaaggg ctgggggatg
+       61 aagatatccg tgaagacact caagggatcc accttccaga tcgaggtgga ctccgcgcag
+      121 aaggttgctg atgtgaaaag gataatcgag actactcaag gacagcacat ttacccagct
+      181 gagcaacaga tgctcattca tcaggggaag gtgctcaagg atgacaccac attggatgaa
+      241 aacaaagttc ttgaaaacag cttccttgtt ataatgctta gacagggtaa gggctcatca
+      301 agttcagctc ctgctacatc taaggcaccc tcaaatcagg ctccccctac tcaaacagtg
+      361 cctgcagctc ctgcatctca agcaccagtt gcaccagcaa ctactgtacc tgtcactgtc
+      421 agtgctccta ccccaactgc cacagcttcc ccagctcctg ctgttgctgt atcctctgaa
+      481 gctgataact acggtcaggc cacctcaaac cttgttgctg gcagcaatct agaggcaaca
+      541 attcaatcaa ttcttgaaat gggtggtgga atatgggata gagacattgt gctgcatgct
+      601 ctaagcgctg cattcaacaa cccggagagg gctgttgaat atctgtactc tggtgttcct
+      661 gagcagatgg acattccagt tccacctccg agtatacagc cagccaatcc tacccaggct
+      721 tcacaggcaa ctcaaccagc agctccatca attctttcgt ctggaccaaa cgctagtccc
+      781 ttggacctct ttcctcaagc ccttccaaat gcttccaccg atgctgctgg tctaggaaat
+      841 cttgatgctt tgcgcaataa tgcacaattc cgaaccttgc tttctttagt gcaagccaat
+      901 cctcaaattt tacagccatt gcttcaagaa ttggggaaac aaaatcccca gattttgcag
+      961 ctgattcagg aaaaccaagc tgagttcctc cacttaatca atgaaccagc tgagggtgat
+     1021 gatgaagaga atttgctaga ccagtttcca gaggcaatgc cacagaccat agcagttact
+     1081 ccagaggagg atgaagccat acttcgtctt gaaccaatgg gctttgaccg cgcgcttgtt
+     1141 ctggacgtgt tcttcgcttg caacaaggac gagcagctgg cggcaaacta tctcctagat
+     1201 cacatgaacg agttcgccga cgaggggcca ccataagaca cgcggatggg aaacttgtca
+     1261 agctccaacc tggtatcatt ggagccaagg gtttgtgacc cgtagtccgt agagccaaag
+     1321 gcttagtaaa acctttttat tttattttat ttttttgtgg aatcgtctcc ttctgttcct
+     1381 tcttttcttt cattagtctg taattctttt cagtttggct tttactttct tgcgtacata
+     1441 ctctagatta ccttttttac agacttgata acggagggaa aaaaaggttc agaacccgtc
+     1501 ttcattccaa aaaaaaaaaa aaaaaaactc gag
+//
+

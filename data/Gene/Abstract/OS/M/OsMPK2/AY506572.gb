@@ -1,0 +1,70 @@
+LOCUS       AY506572                1591 bp    mRNA    linear   PLN 30-DEC-2004
+DEFINITION  Oryza sativa MAPK-like protein mRNA, complete cds.
+ACCESSION   AY506572
+VERSION     AY506572.1  GI:45934579
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1591)
+  AUTHORS   Wang,Y.D., Chen,X. and Ye,Z.
+  TITLE     A novel protein kinase OsMAPK-like involved in the developmental
+            regulation for rice plants
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1591)
+  AUTHORS   Wang,Y.D., Chen,X. and Ye,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2003) College of Life Science, Plant Development
+            and Molecular Biology, Beijing Normal University, No. 19,
+            XinJieKouWai Avenue, Beijing 100875, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..1591
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             43..1227
+                     /note="protein kinase"
+                     /codon_start=1
+                     /product="MAPK-like protein"
+                     /protein_id="AAS79349.1"
+                     /db_xref="GI:45934580"
+                     /translation="MRMEGGGGGGHGHHGGGGGGHGHHGGIGGGEAQIKGTLTHGGRY
+                     VQYNVYGNLFEVSSKYVPPIRPVGRGACGIICAVVNAQTRQEVAIKKIGNAFDNQIDA
+                     KRTLREIKLLRHMDHDNVISIKDIIRPPRRENFNDVYIVYELMDTDLHHLLRSNQPLT
+                     DDHCQYFLYQVLRGLKYVHSANVLHRDLRPSNLLLNAKCDLKIGDFGLARTTNETDFM
+                     MEYVVTRWYRAPELLLNCSEYTAAIDIWSVGCILGEIVTREPLFPGKDYVHQLRLITE
+                     LIGSPDDSSLGFLRSDNARRYVRSLPQYPKQQFRARFPTMSSGAMDLLERMLVFDPSK
+                     RITVDEALCHPYLASLHEIYDEPVCPAPFSFDFEQPSLTEEDIKEIIWREALKFNPEP
+                     IH"
+ORIGIN      
+        1 gggttcgttt cttggctggt tttgttgggc ggcgatcgat cgatgcgcat ggagggcggc
+       61 ggcggcggcg gccatggcca tcacggcggc ggcggcggtg gccatggcca tcacggtggc
+      121 atcggaggag gggaggcgca gatcaagggg acgctgacgc acggcgggag gtacgtgcag
+      181 tacaacgtgt atggtaacct gttcgaggtt tcgtccaagt acgtccctcc catccgcccc
+      241 gtcggccgcg gcgcctgcgg catcatctgt gcggttgtga atgcgcagac tcgtcaggag
+      301 gtggcaatca agaagatcgg caacgcgttc gacaaccaga tcgacgccaa gcgcaccctg
+      361 cgagagatca agctgcttcg gcacatggat catgataatg tcatctcaat aaaggacatc
+      421 atacggccac caaggaggga gaacttcaat gatgtctaca ttgtctatga gctcatggac
+      481 actgatcttc accaccttct tcgatcaaac cagccactaa cagatgatca ctgtcagtat
+      541 tttctctatc aggtactacg aggattgaag tatgtgcatt cagcaaatgt cttgcacaga
+      601 gacctcaggc caagtaattt gctgctgaat gcgaaatgcg atcttaagat cggagacttt
+      661 ggattagcaa ggaccacaaa tgaaactgac ttcatgatgg agtatgttgt tactcgatgg
+      721 tacagggcac ctgaactcct gctaaactgc tcagagtaca ctgcagctat tgatatctgg
+      781 tcggtaggct gcatccttgg tgagatcgtt acaagggagc ctttgtttcc tggaaaggat
+      841 tatgtccatc agctgaggct aataactgag ttaataggct cacctgatga ctcgagcctt
+      901 gggtttcttc gaagcgacaa cgcccgcaga tatgtgaggt cgcttcctca ataccccaag
+      961 caacaattcc gtgcacggtt ccccactatg tctagtggtg ccatggattt gcttgagagg
+     1021 atgcttgtgt ttgatcccag caaaaggatt actgttgatg aagctctgtg ccatccatac
+     1081 ttggcatccc ttcatgagat atatgatgaa ccagtctgcc cagcgccttt cagcttcgat
+     1141 ttcgagcagc cgtcgctcac cgaagaagat atcaaggaga tcatatggag ggaggcactt
+     1201 aagttcaacc ctgaaccaat tcactagatg aattcccaat gaagaacgga agcagatcac
+     1261 actggcagat gatcatccat ccactccttg gggaagacat gagccaacag catgatgtat
+     1321 agttgatcac cctctcagca tctcatcttg tggcttgtca gcgacaccct gacatcgcaa
+     1381 attcggacat ttatgaaaac aagaaaagct tgatcaaata atttgtagta cgaaaaaaat
+     1441 caggagctta actgtatctt cttgttagat ttgtatctat cccatttggt tgtatgctta
+     1501 agaaacctgg gagcttgtca ctagttatgg aggtacagca atctccagat actcttcagt
+     1561 catcagttca gttcaccaaa aaaaaaaaaa a
+//
+

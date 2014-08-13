@@ -1,0 +1,65 @@
+LOCUS       AY222337                1137 bp    mRNA    linear   PLN 02-OCT-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) putative transcription
+            factor bHLH (bHLH) mRNA, complete cds.
+ACCESSION   AY222337
+VERSION     AY222337.1  GI:34391900
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1137)
+  AUTHORS   Wang,Y.J., Zhang,Z.G., He,X.J., Zhou,H.L., Wen,Y.X., Dai,J.X.,
+            Zhang,J.S. and Chen,S.Y.
+  TITLE     A rice transcription factor OsbHLH1 is involved in cold stress
+            response
+  JOURNAL   Theor. Appl. Genet. 107 (8), 1402-1409 (2003)
+   PUBMED   12920519
+REFERENCE   2  (bases 1 to 1137)
+  AUTHORS   Wang,Y., Zhang,J. and Chen,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2003) Plant Biotechnology Laboratory, Institute
+            of Genetics,Chinese Academy of Sciences, Andingmenwai Datun Road,
+            Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..1137
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..1137
+                     /gene="bHLH"
+     CDS             121..918
+                     /gene="bHLH"
+                     /note="cold-inducible; OsbHLH"
+                     /codon_start=1
+                     /product="putative transcription factor bHLH"
+                     /protein_id="AAP12519.1"
+                     /db_xref="GI:34391901"
+                     /translation="MVPRDRVNAAAAGGGGEGRLVQSGIVNKKCDKKAPKRIHKSERE
+                     KLKRDKQNDLFNELGNLLEPDRQNNGKACVLGETTRILKDLLSQVESLRKENSSLKNE
+                     SHYVALERNELHDDYSMLRTEILELQNELRTRMEGNPVWSHVNTRPALRVPYPTTGVF
+                     PVQHLPHLPVTTTAAFPQKLPVIIEQHYAATPRELQLFPESATSEDSEPSQEHGISDH
+                     VTRPQPRYPTPTATLPVNLFPVFPGRQDQQCSSGTSGTNEEDRIGRS"
+ORIGIN      
+        1 tgcagccagc cacgagccga ggaagccgag gccgaggagg aagacgacga agacaagtag
+       61 cgcaaggaac cctcgaaccg ggaggccgcc gcggctccga tctgggaggg ggaggtcgag
+      121 atggtgccca gggacagggt gaatgccgct gccgctggtg gcggcggcga ggggaggctg
+      181 gtccagagcg gtatagtgaa caagaagtgt gataagaagg ctccaaagag aatccataaa
+      241 tcagagaggg agaaacttaa gcgggacaag cagaatgacc tctttaatga gctgggaaac
+      301 ttgctagaac ctgacaggca gaacaatggg aaggcatgtg tactgggtga aactacacga
+      361 atactaaaag atttactttc acaagtggaa tctctccgga aggagaatag ttcactgaag
+      421 aatgaatctc attatgttgc attggagaga aatgaactgc acgacgatta cagcatgctt
+      481 cgtactgaaa tcttggagct tcaaaacgag cttaggacgc ggatggaagg caatcctgtt
+      541 tggagtcatg taaacaccag accagctctc agggtacctt atccgacaac cggagtgttc
+      601 ccagtacagc acctgccaca tttaccagtc accacgacgg cagcatttcc tcagaagcta
+      661 ccggttatca tcgagcagca ctatgccgcc acgccaagag aacttcagct cttccctgag
+      721 tctgcgacca gcgaagacag cgaaccgtca caagaacacg ggatttctga ccatgtaaca
+      781 cggcctcagc caaggtaccc aacaccaacg gccactttgc cagtaaacct gtttccagtg
+      841 tttccaggaa gacaagatca acaatgtagc agtggtactt ctggcactaa cgaggaagac
+      901 cgtataggta gatcttaggt acactacata acgagaggtc cacacaatga tttgagaatt
+      961 cctttagttt caacgtttaa ctttgcaagt ttagcaaatg tgaaacagag atctgcgact
+     1021 gtgctcatgg gtagcaccta atctgtatat ctgaatctca gttttaagtg gtcaaatagg
+     1081 tgacattcag aaaagtttga aatgctttga ttattctgta aaaaaaaaaa aaaaaaa
+//
+

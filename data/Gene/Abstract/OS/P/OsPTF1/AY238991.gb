@@ -1,0 +1,81 @@
+LOCUS       AY238991                1862 bp    mRNA    linear   PLN 11-AUG-2005
+DEFINITION  Oryza sativa bHLH transcription factor PTF1 (PTF1) mRNA, complete
+            cds.
+ACCESSION   AY238991
+VERSION     AY238991.1  GI:29424046
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1862)
+  AUTHORS   Yi,K., Wu,Z., Zhou,J., Du,L., Guo,L., Wu,Y. and Wu,P.
+  TITLE     OsPTF1, a novel transcription factor involved in tolerance to
+            phosphate starvation in rice
+  JOURNAL   Plant Physiol. 138 (4), 2087-2096 (2005)
+   PUBMED   16006597
+REFERENCE   2  (bases 1 to 1862)
+  AUTHORS   Wu,P., Yi,K. and Wu,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-FEB-2003) The College of Life Sciences, Zhejiang
+            University, The Institute of Plant Science, Kaixuan Road 268,
+            Hangzhou, Zhejiang 310029, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..1862
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1862
+                     /gene="PTF1"
+                     /note="OsPTF1"
+     CDS             67..1503
+                     /gene="PTF1"
+                     /codon_start=1
+                     /product="bHLH transcription factor PTF1"
+                     /protein_id="AAO73566.1"
+                     /db_xref="GI:29424047"
+                     /translation="MDYSAGSYMWPGNSGSENYNFVDGSSESYAEEGSLPPSGYFMGA
+                     GSDRSLKITENERNPTMLANGCLPYNTQAHPLSGQILPKGELPNNLLDLQQLQNSSNL
+                     RSNSIPPGVLQCNSTSGTFDAKLDTPGLAELPHALSSSIDSNGSDISAFLADVHAVSS
+                     APTLCSAFQNVSSFMEPVNLDAFGFQGAQNVAMLNKTSLPNGNPSLFDNAAIASLHDS
+                     KEFLNGGSIPSFGTVLQALGAGGLKAAQQEQNIRNIPLPTFTSGSHLAVTDAQGPPLP
+                     SKIPPLIHDHNSEYPINHSSDVEPQANSAPGNSANAKPRTRARRGQATDPHSIAERLR
+                     REKISERMKNLQVLVPNSNKADKASMLDEIIDYVKFLQLQVKVLSMSRLGAPGAVLPL
+                     LRESQTECHSNPSLSASTISQGPTDMPDSEDSSAFEQEVVKLMETSIISAMQYLQNKG
+                     LCLMPIALASAISNQKGMAAAAAIPPEK"
+ORIGIN      
+        1 acactttctg tttctagagg ccattctctg taacactttg gagcatcaat tttgtagcgt
+       61 gctatcatgg actactctgc tggttcctac atgtggcctg gcaattcagg ttctgagaac
+      121 tataattttg ttgacggttc gtcggaatca tatgcagaag aaggaagcct accaccttca
+      181 ggctatttca tgggagctgg atcagatcgc agtttaaaga tcacggagaa tgaaaggaac
+      241 cccactatgc ttgcaaatgg atgcttgcca tacaacaccc aggctcatcc attatctggc
+      301 cagattctac ctaagggtga gctccctaac aatcttctgg atcttcaaca gctacagaac
+      361 agcagcaatc tgcgaagcaa ttcaattccc ccaggggttc ttcagtgcaa ttcaacatct
+      421 ggaacatttg atgcgaaatt ggatacacct ggtcttgcag aactgcctca tgctttgtcc
+      481 agttcaattg atagcaatgg tagtgacatt tctgcttttc ttgctgatgt gcatgccgtt
+      541 tcttcagccc cgacgttgtg ttcagcattc caaaacgttt cctccttcat ggaaccagta
+      601 aatctagatg ctttcggttt ccaaggggca caaaatgttg ctatgttgaa caaaacaagt
+      661 cttccaaatg ggaatccctc gctgtttgat aatgctgcca tagcatcact acatgatagc
+      721 aaagagtttc tcaatggtgg ttccatccct tcgtttggta ctgtcctgca ggcactagga
+      781 gcgggtggtt tgaaggctgc tcaacaggag caaaatatcc ggaatatacc tctccctaca
+      841 ttcacatctg gtagtcattt ggcagttact gatgcacaag ggccaccact tccttcaaag
+      901 ataccaccat tgatccatga ccataatagt gagtacccta ttaaccattc ttctgatgtg
+      961 gaaccccaag caaattcagc tcctggaaat agtgccaatg cgaagccacg tacaagggct
+     1021 cgccgtggac aggcaactga tcctcacagt attgctgaac ggcttcgccg agagaaaatt
+     1081 tcagaaagga tgaaaaatct ccaagtcctt gtcccaaact ccaataaggc agataaggca
+     1141 tcaatgcttg atgaaataat tgattatgtg aaatttcttc agcttcaggt caaggtattg
+     1201 agcatgagca ggctaggagc tcctggagca gttcttcccc ttcttaggga atctcaaacc
+     1261 gagtgccata gtaatccatc tctatcagct tcaaccattt cacaagggcc aacagacatg
+     1321 ccagactcag aagacagctc tgcctttgag caagaggtag tgaagctgat ggaaacgagc
+     1381 atcatcagcg cgatgcagta tcttcagaac aagggtctct gcctgatgcc cattgctctc
+     1441 gcttcggcca tatccaacca gaaaggcatg gctgctgctg ctgcaatccc tcctgaaaaa
+     1501 tgaaaaaaaa aatgaaatcg gaaaaatatg gggggaacaa ctgcagaaga cataataact
+     1561 caacggctgc agaaatgtgc tggacactgc aggttttgtg aatgaagtga aatccaatcc
+     1621 agggggtcat aaaacatagg aagttatctg actaattcag gcttatgaca caatctactc
+     1681 tatagtctat agctattgtg tgcctgttgc acatcagttg atgtgtattc ttttgttttt
+     1741 tttgtattgc atccggatgc taattaggta gtagtgtttc ctttgatgta catgagtatt
+     1801 atctatgcgg ttttatctaa tgtgcatata aagtaaaatc tggtaaaaaa aaaaaaaaaa
+     1861 aa
+//
+

@@ -1,0 +1,96 @@
+LOCUS       D89727                  1527 bp    DNA     linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group DAD1 gene for defender against
+            apoptotic death 1 protein, complete cds.
+ACCESSION   D89727
+VERSION     D89727.1  GI:2723882
+KEYWORDS    DAD1; defender against apoptotic death 1 protein.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Tanaka,Y., Makishima,T., Sasabe,M., Ichinose,Y., Shiraishi,T.,
+            Nishimoto,T. and Yamada,T.
+  TITLE     dad-1, A putative programmed cell death suppressor gene in rice
+  JOURNAL   Plant Cell Physiol. 38 (3), 379-383 (1997)
+   PUBMED   9150612
+REFERENCE   2  (bases 1 to 1527)
+  AUTHORS   Tanaka,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-DEC-1996) Contact:Yoshikazu Tanaka Okayama
+            University, Lab. Plant Pathology & Applied Genetic Engineering;
+            tsushimanaka 1choume 1-1, Okayama, Okayama 700, Japan
+COMMENT     Sequence updated (27-Dec-1996) by:Yoshikazu Tanaka.
+FEATURES             Location/Qualifiers
+     source          1..1527
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     exon            1..104
+                     /number=1
+     gene            join(24..104,180..227,872..959,1040..1083,1169..1252)
+                     /gene="DAD1"
+     CDS             join(24..104,180..227,872..959,1040..1083,1169..1252)
+                     /gene="DAD1"
+                     /function="a putative programmed cell death suppressor"
+                     /codon_start=1
+                     /product="defender against apoptotic death 1 protein"
+                     /protein_id="BAA24104.1"
+                     /db_xref="GI:2723883"
+                     /translation="MPRATSDAKLLIQSLGKAYAATPTNLKIIDLYVVFAVATALIQV
+                     VYMGIVGSFPFNSFLSGVLSCIGTAVLAVCLRIQVNKDNKEFKDLPPERAFADFVLCN
+                     LVLHLVIMNFLG"
+     intron          103..179
+                     /gene="DAD1"
+                     /number=1
+     exon            180..227
+                     /gene="DAD1"
+                     /number=2
+     intron          228..871
+                     /gene="DAD1"
+                     /number=2
+     exon            872..959
+                     /gene="DAD1"
+                     /number=3
+     intron          960..1039
+                     /gene="DAD1"
+                     /number=3
+     exon            1040..1083
+                     /gene="DAD1"
+                     /number=4
+     intron          1084..1168
+                     /gene="DAD1"
+                     /number=4
+     exon            1169..1527
+                     /number=5
+ORIGIN      
+        1 gtagaacaca caagattttg aggatgccga gggccacgag cgatgcgaag cttctaattc
+       61 agtccctggg caaggcttat gctgccacac caacaaatct caaggtatta gttggctttt
+      121 tttttatcta taagctgtca tcttaaacta ttggctaatt actgatcata tttctgcaga
+      181 tcattgacct ctatgtggtc tttgcagtcg ccactgccct tattcaggta actcaatcaa
+      241 ttaccaggac accttgaaac atatattatc tgcaaaatat tttcatgctt tcatgttggg
+      301 gatttttttc tttgcaaaag caaacatgag ataaaaatta agtaggcaac caaatgatag
+      361 cttaacacga gggcggtaca cagcagatgg gcacgattac cctggaaatt tgatgctttc
+      421 ctaatgctat ataccgtttt gtttgatgga aaacattcct atttgttggt gatagtgata
+      481 tcgtatcact tattgttgac aaggatgatt tgtcaacaca gaaatttctt ccactttttt
+      541 atgcagagaa atatgttcta gttcatcatc tagcttacat tttttttcat atatatatgc
+      601 agctgttatg gattactgtt gtttgggttg atagacaagc acatgacctg tattttttta
+      661 atatgatgtt actgtgtaat agagggtcag tcaatattct taaagcttgg tgcaattttt
+      721 tattaagctc ctaatttact gagtgaacat aagtttctgt tcagttcaca agtcccttct
+      781 tccatcactg ttgcaaacta gttggtatca gccttgttat gcttacagtt ccatttgcaa
+      841 actattgaaa tgctctcctc tgacaaaaca ggttgtttac atgggaatag tggggtcatt
+      901 tcctttcaac tctttccttt ctggcgtcct ctcatgcata ggaactgcag tcctcgctgg
+      961 tagggatttc ttaacccctt ctcaattccg gttacccttt ttcggttgta cgatacataa
+     1021 ctgtcaatgt ttcgtgcagt ttgccttcgt attcaagtta acaaagataa caaggaattc
+     1081 aaggtaactc tactttcacc ttagtctgtt ggggccatta attcttgaga ttctggcgta
+     1141 acgtcgcatg ccaaaacact atctgcagga tcttcctcct gaaagggcgt ttgcagattt
+     1201 cgttctgtgc aatctggtgc tccacttggt gatcatgaac ttccttggtt gatgtcctgc
+     1261 ccctacaact gatcaaggtt ttgtagcccc agtttatggt cactggtcag aacaccctga
+     1321 tgtttgggag tgtcatagta tgagatattc atatgatctt tcacacttca ccgatgtaat
+     1381 tcgacaattt ttcgagaaac tataagttct ctacctgccg ttcgctgcgg cttatcttta
+     1441 tatctgtgta tttagtgttt aacaatctta gaacatgtga tcctgttttc ttcaagtgac
+     1501 cgaaggttgg caacatgcta ttcgacc
+//
+

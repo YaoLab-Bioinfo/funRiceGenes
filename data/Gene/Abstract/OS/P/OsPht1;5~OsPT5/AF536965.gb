@@ -1,0 +1,85 @@
+LOCUS       AF536965                2199 bp    DNA     linear   PLN 09-OCT-2002
+DEFINITION  Oryza sativa (japonica cultivar-group) putative phosphate
+            transporter OsPT5 gene, complete cds.
+ACCESSION   AF536965
+VERSION     AF536965.1  GI:23600452
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2199)
+  AUTHORS   Paszkowski,U., Kroken,S., Roux,C. and Briggs,S.P.
+  TITLE     Rice phosphate transporters include an evolutionarily divergent
+            gene specifically activated in arbuscular mycorrhizal symbiosis
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 99 (20), 13324-13329 (2002)
+   PUBMED   12271140
+REFERENCE   2  (bases 1 to 2199)
+  AUTHORS   Paszkowski,U. and Briggs,S.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-AUG-2002) Torrey Mesa Research Institute, 3115,
+            Merryfield Row, San Diego, CA 92121, USA
+FEATURES             Location/Qualifiers
+     source          1..2199
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39947"
+     mRNA            <1..>1638
+                     /product="putative phosphate transporter OsPT5"
+     CDS             1..1638
+                     /codon_start=1
+                     /product="putative phosphate transporter OsPT5"
+                     /protein_id="AAN39046.1"
+                     /db_xref="GI:23600453"
+                     /translation="MVQDRKVLDALDTAKTQWYHFTAVVIAGMGFFTDAYDLFSISLV
+                     TKLLGRIYYFNPASKSPGSLPPNVSAAVNGVAFCGTLAGQLFFGWLGDKMGRKKVYGM
+                     TLMLMVICCLASGLSFGSSAKGVMATLCFFRFWLGFGIGGDYPLSATIMSEYANKRTR
+                     GAFIAAVFAMQGFGNLTGGIVAIIVSAAFKLRFDAPAYRDDRAGXXADYAWRIVLMFG
+                     AIPALLTYYWRMKMPETARYTALVAKNDKKAAADMARVLNVELVDEQEKAAAATAAAA
+                     EEEAARREQYGLFSREFARRHGHHLLGTTVCWFVLDIAYYSQNLFQKDIYTAVQWLPK
+                     ADTMSALEEMFKISRAQTLVALCGTIPGYWFTVLFIDIVGRFAIQLGGFFLMTAFMLG
+                     LAVPYHHWTTPGNHVGFVVMYAFTFFFANFGPNSTTFIVPAEIFPARLRSTCHGISSA
+                     AGKMGAIVGSFGFLYAAQSTDPSKTDAGYPRGIGVRNSLFLLAGCNVVGFLFTFLVPE
+                     SKGKSLEELSGENEMEAEPAAATNSYRQTVPDSGQSE"
+     polyA_signal    2141..2146
+ORIGIN      
+        1 atggttcagg atcgcaaggt gctcgacgcg ctggacacgg cgaagacgca gtggtaccac
+       61 ttcacggcgg tggtgatcgc cggcatgggc ttcttcaccg acgcctacga cctcttctcc
+      121 atctccctcg tcaccaagct gctcggccgc atctactact tcaacccggc gtccaagagc
+      181 cccggctccc tcccgcccaa cgtctccgcc gccgtcaatg gcgtcgcctt ctgcggcacg
+      241 ctcgccggcc agctcttctt cggctggctc ggcgacaaga tggggcgcaa gaaggtgtac
+      301 gggatgacgc tcatgctcat ggtcatctgc tgcctcgcct ccggcctctc gttcgggtcg
+      361 tcggcgaaag gcgtcatggc cacgctctgc ttcttccgct tctggcttgg gttcggcatc
+      421 ggtggcgact acccgctctc ggcgaccatc atgtcggagt atgctaacaa gcgtacccgt
+      481 ggcgcgttca tcgccgccgt gttcgccatg cagggcttcg gcaacctcac cggcggcatc
+      541 gtggccatca tcgtgtccgc cgcgttcaag ttgcggttcg acgcgccggc gtacagggac
+      601 gaccgggccg gntncancgc tgactacgcg tggcgcatcg tgctcatgtt cggcgccatc
+      661 ccggcgctgc tcacctacta ctggcggatg aagatgccgg agacggcgcg ctacaccgcg
+      721 ctggtcgcca agaacgacaa gaaggcagcc gccgacatgg cgcgcgttct caacgtcgag
+      781 ctcgtcgacg agcaggagaa ggcagcggcg gcgacggcgg cggctgcgga ggaggaggca
+      841 gcacggcgcg agcagtacgg gctcttctcc cgggaattcg cacggcgcca tggccaccac
+      901 ctgctgggca cgacggtgtg ctggttcgtg ctggacatcg cctactactc gcagaacctg
+      961 ttccagaagg acatctacac ggcggtgcag tggctgccca aggcggacac catgagcgcc
+     1021 ctggaggaga tgttcaagat ctcccgggca cagacgctcg tggcgctgtg cggcaccatc
+     1081 ccgggctact ggttcaccgt cctcttcatc gacatcgtcg gccgcttcgc catccagctc
+     1141 ggcggcttct tcctcatgac ggcgttcatg ctcggcctcg ccgtgccgta ccaccactgg
+     1201 acgacgccgg ggaaccacgt cggcttcgtg gtcatgtacg ccttcacctt cttcttcgcc
+     1261 aacttcgggc caaactccac gaccttcatc gtgccggccg agatcttccc ggcgaggctg
+     1321 cgttccacct gccacggcat ctcgtcggcg gccgggaaga tgggcgccat cgtcgggtcg
+     1381 ttcgggttct tgtacgccgc gcagagcacc gacccgagca agacggacgc cggctacccg
+     1441 cggggcatcg gcgtgcgcaa ctcgctgttc ctgctcgccg gatgcaacgt cgtcggcttc
+     1501 ttgttcacgt tcttggtgcc agagtcgaag gggaagtcgc tggaggagct ctccggcgag
+     1561 aacgaaatgg aggctgagcc ggcggcagca actaactcct acaggcagac cgtccctgac
+     1621 agcggacagt ccgagtaaat aaacataaat taccgcaatt actgtatctg atcttgtata
+     1681 ctctcactag ttgcattctg ccattcttgc ctcaggccgt ataataataa tctcgaaatc
+     1741 ttgctactgc ccatgactag gattctggga accagcagat tttcaccatg ttggtacagc
+     1801 ttctctggat ctcttctatg gtctgcaaga ccacctggaa ttctcacatg gcaccttggt
+     1861 gccctctgag tctcatttca cagattggca aatgagataa actttaaacg ctccagagca
+     1921 attgatactg gcaaatgaga taatgttcct tgagcggcat tgcatccacg tctttttcac
+     1981 cctgatgctt ataactctga ggagcatgga tgtttcttcg aagaaattgg ttacaacttc
+     2041 caactcccaa ctcagagcaa gaacacaggc aacctccaaa ggggacaaaa aaatgacagg
+     2101 caaaacttag gaaatgccca attgcaattg aatgttattg aataaatttt aaacttcaaa
+     2161 tctaggttta aacaaaaggg aaaaagaaac tccaggtct
+//
+

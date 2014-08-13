@@ -1,0 +1,79 @@
+LOCUS       AY850134                1524 bp    mRNA    linear   PLN 02-JUL-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) senescence-inducible
+            chloroplast stay-green protein (SGR) mRNA, complete cds; nuclear
+            gene for chloroplast product.
+ACCESSION   AY850134
+VERSION     AY850134.1  GI:58866280
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1524)
+  AUTHORS   Park,S.Y., Yu,J.W., Park,J.S., Li,J., Yoo,S.C., Lee,N.Y., Lee,S.K.,
+            Jeong,S.W., Seo,H.S., Koh,H.J., Jeon,J.S., Park,Y.I. and Paek,N.C.
+  TITLE     The senescence-induced staygreen protein regulates chlorophyll
+            degradation
+  JOURNAL   Plant Cell 19 (5), 1649-1664 (2007)
+   PUBMED   17513504
+REFERENCE   2  (bases 1 to 1524)
+  AUTHORS   Paek,N.-C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-DEC-2004) Plant Science, Seoul National University,
+            San56-1 Sillim-dong Kwanak-ku, Seoul 151-921, Korea
+FEATURES             Location/Qualifiers
+     source          1..1524
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Hwacheong-wx"
+                     /db_xref="taxon:39947"
+                     /chromosome="9"
+                     /note="identical sequence found in Oryza sativa (indica
+                     cultivar-group) cultivar IR36"
+     gene            1..1524
+                     /gene="SGR"
+     CDS             251..1075
+                     /gene="SGR"
+                     /note="OsSGR; single-recessive stay-green (sgr) mutant
+                     maintains leaf greenness during natural senescence and
+                     dark-induced senescence"
+                     /codon_start=1
+                     /product="senescence-inducible chloroplast stay-green
+                     protein"
+                     /protein_id="AAW82954.1"
+                     /db_xref="GI:58866281"
+                     /translation="MAAATSTMSLLPPITQQQRWHAADSLVVLASRCHNSRRRRRCRY
+                     VVPRARLFGPAIFEASKLKVLFLGVDEEKHQHPGKLPRTYTLTHSDVTARLTLAVSHT
+                     INRAQLQGWYNKLQRDEVVAEWKKVQGHMSLHVHCHISGGHVLLDLIAGLRYYIFRKE
+                     LPVVLKAFVHGDGNLFSRHPELEEATVWVYFHSNLPRFNRVECWGPLRDAGAPPEEDD
+                     AVAAAAAEEAAAEQMPAAGEWPRRCPGQCDCCFPPYSLIPWPHQHDVAAADGQPQQ"
+ORIGIN      
+        1 gagaagccaa tccgcgaagc taccaaaccg agccaaaatt ttgatcgatc gatcggccgg
+       61 ccggtgtctt tgttgaggcg tgcaaggctc gtgctttcgc cgagagggat taattagccg
+      121 cgcctccagc atctccggcc tccatagaga tcccagctta taattaaagc tgtcaagagt
+      181 cgttttggtt gttaggctta aagttaacta ctgctggcta gctaggacta agagatccga
+      241 gggagcagac atggctgctg ctacttcgac catgtccctg cttcctccca tcacccagca
+      301 gcagcggtgg cacgccgccg actccctcgt cgtcctcgcc tcccgctgcc acaactctcg
+      361 ccgccgccgc cgctgccgct acgtcgtgcc gagggcgagg ctgttcgggc cggcgatctt
+      421 cgaggcgtcg aagctgaagg tgctgttcct gggggtggac gaggagaagc accagcaccc
+      481 ggggaagctg ccgcggacgt acacgctgac gcacagcgac gtgacggcga ggctgacgct
+      541 ggcggtgtcg cacaccatca accgggcgca gctgcagggg tggtacaaca agctgcagcg
+      601 ggacgaggtg gtggcggagt ggaagaaggt gcagggccac atgtcgctgc acgtccactg
+      661 ccacatctcc ggcggccacg tcctcctcga cctcatcgcc ggcctccgct actacatctt
+      721 ccgcaaggag ctccccgtgg ttctgaaggc gttcgtccac ggcgacggca acctgttcag
+      781 ccggcacccg gagctggagg aggccacggt gtgggtctac ttccactcca acctcccacg
+      841 cttcaaccgc gtcgagtgct ggggcccgct ccgcgacgcc ggagcgccgc ccgaggaaga
+      901 cgacgccgtc gccgccgcgg cggccgagga ggcggcggcg gagcagatgc ccgcggccgg
+      961 cgagtggccg cggcggtgcc cggggcagtg cgactgctgc ttcccgccat acagcctcat
+     1021 cccctggccg caccagcacg acgtcgccgc cgccgacggc cagccgcagc agtgacggcg
+     1081 gcgccgccgc gattcgtaga ttagcgaatt cgtttggttg ccatggtaca cctacacgca
+     1141 tgcaatgtcg ccaaatgacg ctgcgtgctt tgcgttaaat tctttaatta ttcgtagtgg
+     1201 catttagctc agctcagctc agctctgcaa ttagcacata tttgattagc tttagggaat
+     1261 gagtgtggtg agcttgtaaa tagaagaaca ctagtagatg gcaagcaaat ggaaacgatc
+     1321 gatgatgcag tagatgttac tgcaaaaatg gcaattatta gatgaagtcg acacacaaag
+     1381 acagatctcg tttcatttgt acattctaca gtctacgtcg atgaggacat gactggattt
+     1441 gtatagcaaa ttagtactag cagctaataa gtgtggatta attatgaaac acgattgttt
+     1501 aaaaaaaaaa aaaaaaaaaa aaaa
+//
+

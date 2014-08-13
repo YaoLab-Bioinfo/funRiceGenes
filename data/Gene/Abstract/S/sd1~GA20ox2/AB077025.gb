@@ -1,0 +1,69 @@
+LOCUS       AB077025                1170 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for GA C20oxidase2, complete cds.
+ACCESSION   AB077025
+VERSION     AB077025.1  GI:20152206
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sasaki,A., Ashikari,M., Ueguchi-Tanaka,M., Itoh,H., Nishimura,A.,
+            Swapan,D., Ishiyama,K., Saito,T., Kobayashi,M., Khush,G.S.,
+            Kitano,H. and Matsuoka,M.
+  TITLE     Green revolution: a mutant gibberellin-synthesis gene in rice
+  JOURNAL   Nature 416 (6882), 701-702 (2002)
+   PUBMED   11961544
+REFERENCE   2  (bases 1 to 1170)
+  AUTHORS   Matsuoka,M., Sasaki,A. and Ashikari,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-DEC-2001) Contact:Makoto Matsuoka Nagoya University,
+            BioScicence Center; Furocho, Chikusa, Nagoya, Aichi 464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..1170
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+                     /country="Japan"
+     gene            1..1170
+                     /gene="C20ox2"
+     CDS             1..1170
+                     /gene="C20ox2"
+                     /function="GA biosynthetic enzyme"
+                     /codon_start=1
+                     /product="GA C20oxidase2"
+                     /protein_id="BAB89356.1"
+                     /db_xref="GI:20152207"
+                     /translation="MVAEHPTPPQPHQPPPMDSTAGSGIAAPAAAAVCDLRMEPKIPE
+                     PFVWPNGDARPASAAELDMPVVDVGVLRDGDAEGLRRAAAQVAAACATHGFFQVSEHG
+                     VDAALARAALDGASDFFRLPLAEKRRARRVPGTVSGYTSAHADRFASKLPWKETLSFG
+                     FHDRAAAPVVADYFSSTLGPDFAPMGRVYQKYCEEMKELSLTIMELLELSLGVERGYY
+                     REFFADSSSIMRCNYYPPCPEPERTLGTGPHCDPTALTILLQDDVGGLEVLVDGEWRP
+                     VSPVPGAMVINIGDTFMALSNGRYKSCLHRAVVNQRRERRSLAFFLCPREDRVVRPPP
+                     SAATPQHYPDFTWADLMRFTQRHYRADTRTLDAFTRWLAPPAADAAATAQVEAAS"
+ORIGIN      
+        1 atggtggccg agcaccccac gccaccacag ccgcaccaac caccgcccat ggactccacc
+       61 gccggctctg gcattgccgc cccggcggcg gcggcggtgt gcgacctgag gatggagccc
+      121 aagatcccgg agccattcgt gtggccgaac ggcgacgcga ggccggcgtc ggcggcggag
+      181 ctggacatgc ccgtggtcga cgtgggcgtg ctccgcgacg gcgacgccga ggggctgcgc
+      241 cgcgccgcgg cgcaggtggc cgccgcgtgc gccacgcacg ggttcttcca ggtgtccgag
+      301 cacggcgtcg acgccgctct ggcgcgcgcc gcgctcgacg gcgccagcga cttcttccgc
+      361 ctcccgctcg ccgagaagcg ccgcgcgcgc cgcgtcccgg gcaccgtgtc cggctacacc
+      421 agcgcccacg ccgaccgctt cgcctccaag ctcccatgga aggagaccct ctccttcggc
+      481 ttccacgacc gcgccgccgc ccccgtcgtc gccgactact tctccagcac cctcggcccc
+      541 gacttcgcgc caatggggag ggtgtaccag aagtactgcg aggagatgaa ggagctgtcg
+      601 ctgacgatca tggaactcct ggagctgagc ctgggcgtgg agcgaggcta ctacagggag
+      661 ttcttcgcgg acagcagctc aatcatgcgg tgcaactact acccgccatg cccggagccg
+      721 gagcggacgc tcggcacggg cccgcactgc gaccccaccg ccctcaccat cctcctccag
+      781 gacgacgtcg gcggcctcga ggtcctcgtc gacggcgaat ggcgccccgt cagccccgtc
+      841 cccggcgcca tggtcatcaa catcggcgac accttcatgg cgctgtcgaa cgggaggtat
+      901 aagagctgcc tgcacagggc ggtggtgaac cagcggcggg agcggcggtc gctggcgttc
+      961 ttcctgtgcc cgcgggagga cagggtggtg cggccgccgc cgagcgccgc cacgccgcag
+     1021 cactacccgg acttcacctg ggccgacctc atgcgcttca cgcagcgcca ctaccgcgcc
+     1081 gacacccgca cgctcgacgc cttcacgcgc tggctcgcgc cgccggccgc cgacgccgcc
+     1141 gcgacggcgc aggtcgaggc ggccagctga
+//
+

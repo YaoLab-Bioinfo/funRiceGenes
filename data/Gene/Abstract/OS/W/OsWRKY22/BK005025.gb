@@ -1,0 +1,118 @@
+LOCUS       BK005025                3980 bp    DNA     linear   PLN 17-MAR-2006
+DEFINITION  TPA_inf: Oryza sativa (japonica cultivar-group) WRKY transcription
+            factor 22 (WRKY22) gene, complete cds.
+ACCESSION   BK005025
+VERSION     BK005025.1  GI:46394297
+KEYWORDS    Third Party Data; TPA; TPA:inferential.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 3980)
+  AUTHORS   Zhang,Z.L., Xie,Z., Zou,X., Casaretto,J., Ho,T.H. and Shen,Q.J.
+  TITLE     A rice WRKY gene encodes a transcriptional repressor of the
+            gibberellin signaling pathway in aleurone cells
+  JOURNAL   Plant Physiol. 134 (4), 1500-1513 (2004)
+   PUBMED   15047897
+REFERENCE   2  (bases 1 to 3980)
+  AUTHORS   Zhang,Z.-L., Xie,Z., Zou,X., Casaretto,J., Ho,T.-h.D. and Shen,Q.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2004) Department of Biological Sciences,
+            University of Nevada, Las Vegas, 4505 Maryland Parkway, Las Vegas,
+            NV 89154, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-3980              AP003302.2         18955-22934
+FEATURES             Location/Qualifiers
+     source          1..3980
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <1..>3980
+                     /gene="WRKY22"
+                     /note="OsWRKY22"
+     mRNA            join(<1..107,384..491,3398..>3980)
+                     /gene="WRKY22"
+                     /product="WRKY transcription factor 22"
+     CDS             join(1..107,384..491,3398..3980)
+                     /gene="WRKY22"
+                     /codon_start=1
+                     /product="WRKY transcription factor 22"
+                     /protein_id="DAA05087.1"
+                     /db_xref="GI:46394298"
+                     /translation="MVKRSDNMDSSSECSRGAHKRLLQDSRSYDQENAMKKVCIGTRT
+                     EYTYAPYHDGYQWRKYGQKMIRGNSFPRCYYRCTYHQDHGCPASKHVEQHNSEDPPLF
+                     RVIYTNEHTCGTSNSASDYMASSMQIQQIADASLRKAQAAERLRKAEVETPRLMHSPP
+                     PRCSGGYNMAMKEEKDVIVSSLLTVIRGCHIAESAGNNSAAALPVNRPPPAVARSDHY
+                     SCSYAISPELLPASDDLTLDFMLDSVLDPHWVEPLDLAWLKESTHTG"
+ORIGIN      
+        1 atggttaaga ggagcgacaa catggacagc tccagtgaat gttctagagg agcccataaa
+       61 aggcttctgc aggacagtag gagctatgac caggagaacg ctatgaagta agttaatcca
+      121 tgcatatata tatgtataac aatagctagc cattcatttc actggttttg cacgcgctta
+      181 aactgagtta attcttaatt gttgcgtatt tcgatgaaat tgtaattgag ttgcgattga
+      241 tggagctaat gaattcgtct ggtcgttggt gcttgctgca aacgatgttt gtagttagtt
+      301 cctattgcat gtaatattcc tcttcgatct tttggtgcat ttatttaaat gtttaagtaa
+      361 ttagcgttaa tttcctcaaa tagaaaggtt tgcatcggaa caagaactga gtacacatat
+      421 gcaccatatc atgatgggta ccagtggaga aaatacgggc aaaagatgat ccggggcaac
+      481 tccttcccaa ggtacatgca ctactcaatt acctgtagtt ctttaatcaa catttgtctg
+      541 ttatggggaa taattggcca aattttgaac aatcaaaatg ttggataatg gggtagtaga
+      601 tgccactagt gtaatttata cagtgtcaga cttgatggca aagacgaatt gtaagcttat
+      661 gcacttgcaa ggaattcaaa tgggttggaa aaccagcttg tactgaactc tctatattgc
+      721 aagaatgaaa ggtgaaatgt agtaaaaaga tatttgtagg ctcagtagaa ctaatccatg
+      781 tagatgaccc agctgggcta cactctggtt caggatttca cataatatat aagctcctta
+      841 atttacactc tggttcagga tttcacataa tataagctcc ttaattataa gcatgatgag
+      901 ggtgtttaat tattataaag gttgttgttt aactcttaac tgatcgaact catacccaca
+      961 tgtataccaa tacaaaataa tattgaaaca cacactgtat gtaaataggg tgcttccctt
+     1021 atcagttaag ttcattggat tgatctcatt gcaaggtttc catattagtt aagtgcatgt
+     1081 gattaatccc gtttgaaggc ttaaggaact taataattgt gtctatccgg aaagctggct
+     1141 ttctggttgc attcatatat atagtttaat gggaagtgtg tttcaagcaa aaagatatct
+     1201 tgttcatgtg cagtttatta aattgtgccg tccatcttcc cagtagctac cctcgcatca
+     1261 cattgtattg tttgccttta ggctgtcgtg tatccaaaaa tcacatgctt gaatgggagc
+     1321 aacttctaag aagcacaata atccaaatag ggaaaaatag aaccaagaac tataatacgt
+     1381 cgacagaatt gtcatggtac atgctctcct gtgctccact gggggttgtt tagtagtcca
+     1441 aaagatgcct attagtttcc taataattaa catgcacgaa ctgaggatta gatatttaaa
+     1501 tgatccaact caacttgcct ttgattacac caagcttttg atttgttttg tttgctatga
+     1561 tagattttct aacgtaccat acttatgaat cgaacaagga attggtgcaa catccatgta
+     1621 ctagcaatat atgccatggg aattttcagg gatagttgaa ggtttcattg tacctgcaat
+     1681 gttgtataag gaacatgttt gttctacttg tggctgcgtt acagctgcag caacagtata
+     1741 tatccacact aaaaaaaaat gaactacggc tgtgcttccg tagttagcac aaacgatcag
+     1801 aacctaagta attcaatctt ggcgaaaatc atattatgat tttaatttaa acccgacaca
+     1861 atcaaattta tatataattt cttgctccga ataatcctca agttgttact ggataacggt
+     1921 gcctaccccg tagaccatgt tgtctgaata ttagtttaaa tttcttttcc tttataatag
+     1981 atgcctatta ctcatttatg ggaagcagct taatttgttt acaccctgcc gcaatttctg
+     2041 ataggggtca ctttttgcat gggattaatt catctttttt tggggaagac ttgggtttta
+     2101 tcatgggatt aattcagctt tttgcatgat atttcaaatc acattttgat ttggggatat
+     2161 tattcaatat aattttaact gaaacctctt gaactgagag aaatgaagga atgctcccaa
+     2221 cgcaaatatc aattcacagg cgcgctatgc acttaccatc agacaataat tgttccttta
+     2281 ttagtttttt tttattttag agatacactt gatagtgtag tggcaagggg tgtgttgatt
+     2341 caactctaaa gcctcgtgtt caatctctaa catgctcaca atttattctt aaaaaaaata
+     2401 tttggaggga catctctcct tccaaatctc attctttttt agtttttttt atttctagag
+     2461 cattgtatgc tctacacggt gtgcaatgaa gggcaaactg cacggtttgg gagatggatt
+     2521 ctagtaggtc gagtggacat ctacccgttt attgcatgtc aaatagatgg ttacgaaaaa
+     2581 ttttcaaaaa aattgacaag atagatcaat atgtaatata tcactccaca aacatgcaag
+     2641 ttcaaattta acttctacaa gttgtaacaa aaataacaaa tttaattgta aatatacata
+     2701 tagtaatttg agttttgttt gttatttttg ttacaatttg tagaagttga attttaactt
+     2761 gcatgtttgt gaattgatat attacatatt gatctatctt attcatattt tttcaatttt
+     2821 ttcatagcca tttagatgac atacagtaaa cgggtggacg tccactcgaa ctgttaaaac
+     2881 agtttcccgt ctgacaagat aactaaacta gatttgcatg tctcaggctc cctgccgatt
+     2941 atgtaatgta gaccacggta tattgtatac actaattgag gctaaacgtt ttgattcata
+     3001 atatgatgta ctaagacgta aatagtccat cattaattaa ctggaactac tatatataca
+     3061 atttgatgag gatatatact agaccccttg gtgttggggg catgtggtgt atgtatcgat
+     3121 cccatacctg gggataccat cccccacatt gtgctatccc aaagcatgct tgcatgggaa
+     3181 tactcctttg gggctaataa tgcatgtcgg catggttaaa caattacgag ataagtgttg
+     3241 tacaatgcca aatattgtca tgtgtcaaag tttctggcta ccacatgcat gtcgacggcc
+     3301 ctcttttctt agcattcttc cttcaaggaa tgcaaaagtg agcactaaac aactgtaata
+     3361 ctaattaagc atcatatatt attgcttgca aatgcaggtg ctactacagg tgcacgtacc
+     3421 atcaggacca tggctgtcca gcgagcaagc acgtggagca gcacaactcg gaggacccgc
+     3481 ctttgttccg ggtgatctac accaacgagc acacatgcgg caccagcaat tctgcctccg
+     3541 attacatggc ttcctccatg caaatccagc agattgccga cgcctccttg agaaaggcac
+     3601 aggcggcgga aagactgaga aaggcagagg tggaaacacc tcgcctgatg cattctcctc
+     3661 ctcctcgctg cagcggcggc tacaacatgg cgatgaaaga agagaaggat gtgatcgtct
+     3721 cctcgctgct caccgtcatc agaggctgtc acattgcaga atcagctggt aataatagcg
+     3781 ccgctgcttt gccggtaaac aggccgccgc cggcggtggc cagaagcgac cattacagct
+     3841 gcagctatgc gatttcgcct gaattgttgc cggcgtccga cgacctgaca ctggacttca
+     3901 tgctggattc agtactggat ccccactggg tcgagcctct ggatttggct tggctcaaag
+     3961 aatccacgca cactggttga
+//
+

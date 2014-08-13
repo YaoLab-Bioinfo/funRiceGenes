@@ -1,0 +1,129 @@
+LOCUS       AY954394                3733 bp    DNA     linear   PLN 25-JAN-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) polyubiquitin (rubi3) gene,
+            promoter region and complete cds.
+ACCESSION   AY954394
+VERSION     AY954394.1  GI:61223099
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 3733)
+  AUTHORS   Sivamani,E. and Qu,R.
+  TITLE     Expression enhancement of a rice polyubiquitin gene promoter
+  JOURNAL   Plant Mol. Biol. 60 (2), 225-239 (2006)
+   PUBMED   16429261
+REFERENCE   2  (bases 1 to 3733)
+  AUTHORS   Sivamani,E. and Qu,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAR-2005) Dept of Crop Science, North Carolina State
+            University, 101 Derieux Place, Raleigh, NC 27695, USA
+FEATURES             Location/Qualifiers
+     source          1..3733
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="4"
+     gene            1..>3733
+                     /gene="rubi3"
+     repeat_region   769..788
+                     /rpt_type=tandem
+                     /rpt_unit_seq="gc"
+                     /satellite="microsatellite"
+     TATA_signal     1277..1284
+                     /gene="rubi3"
+     mRNA            join(1310..1376,2517..>3733)
+                     /gene="rubi3"
+                     /product="polyubiquitin"
+     exon            1310..1376
+                     /gene="rubi3"
+                     /number=1
+     5'UTR           1310..1376
+                     /gene="rubi3"
+     exon            2517..>3733
+                     /gene="rubi3"
+                     /number=2
+     CDS             2517..3662
+                     /gene="rubi3"
+                     /note="contains five ubiquitin repeats"
+                     /codon_start=1
+                     /product="polyubiquitin"
+                     /protein_id="AAX40652.1"
+                     /db_xref="GI:61223100"
+                     /translation="MQIFVKTLTGKTITLEVEFSDTIDNVKAKIQDKEGIPPDQQRLI
+                     FAGKQLEDGRTLADYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVESSDTIDNV
+                     KAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYNIQKESTLHLVLRLRGGMQIFVKTL
+                     TGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLADYNIQKEST
+                     LHLVLRLRGGMQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLVFAGK
+                     QLEDGRTLADYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVESSDTIDNVKAKI
+                     QDKEGIPPDQQRLIFAGKQLEDGRTLADYNIQKESTLHLVLRLRGGL"
+     3'UTR           3663..>3733
+                     /gene="rubi3"
+ORIGIN      
+        1 gactggtaat cttgtaatgt tgccccattt ctggatgttc tggaacattt ttagtgcatg
+       61 cctaaattga agttgatcta ctacaaataa aacacttgtt tagccatact atcttcccca
+      121 agtgttaaga caaacagaca aatacataaa aattccacat ttctcgccct tacttgcatg
+      181 aatgtatggg aacaacttga agcagcgtcg agacaccttt ggtgacaatc tctctagcct
+      241 tgactacctc ctccgctact ggaatcatgc gcttgattgg atactccttt gcccggttct
+      301 ttatcctctt gaggatcata ggccgaagct gcttccagtc caccctcgaa gagtacagcc
+      361 tctgattcat aaccgagcca cacagctccg agcaaatgta gcccccgact ctccgccgca
+      421 tcaacgccat tgccacacac acgcacacac agcagagcac gcctgcaagt tcaaatcttg
+      481 cattagcgca agaaacgaac cccacccaac cccatatcga cagaggatgt gaagaacagg
+      541 taaatcacgc agaagaaccc atctctgata gcagctatcg attagaacaa cgaatccata
+      601 ttgggtccgt gggaaatact tactgcacag gaaggggggc gatctgacga ggccccgcca
+      661 ccggcctcga cccgaggccg aggccgacga agcgccggcg agtacggcgc cgcggcggcc
+      721 tctgcccgtg ccctctgcgc gtgggaggga gaggccgcgg tggtgggggc gcgcgcgcgc
+      781 gcgcgcgcag ctggtgcggc ggcgcggggg tcagccgccg agccggcggc gacggaggag
+      841 cagggcggcg tggacgcgaa cttccgatcg gttggtcaga gtgcgcgagt tgggcttagc
+      901 caattaggtc tcaacaatct attgggccgt aaaattcatg ggccctggtt tgtctaggcc
+      961 caatatcccg ttcatttcag cccacaaata tttccccaga ggattattaa ggcccacacg
+     1021 cagcttatag cagatcaagt acgatgtttc ctgatcgttg gatcggaaac gtacggtctt
+     1081 gatcaggcat gccgacttcg tcaaagagag gcggcatgac ctgacgcgga gttggttccg
+     1141 ggcaccgtct ggatggtcgt accgggaccg gacacgtgtc gcgcctccaa ctacatggac
+     1201 acgtgtggtg ctgccattgg gccgtacgcg tggcggtgac cgcaccggat gctgcctcgc
+     1261 accgccttgc ccacgcttta tatagagagg ttttctctcc attaatcgca tagcgagtcg
+     1321 aatcgaccga aggggagggg gagcgaagct ttgcgttctc taatcgcctc gtcaaggtaa
+     1381 ctaatcaatc acctcgtcct aatcctcgaa tctctcgtgg tgcccgtcta atctcgcgat
+     1441 tttgatgctc gtggtggaaa gcgtaggagg atcccgtgcg agttagtctc aatctctcag
+     1501 ggtttcgtgc gattttaggg tgatccacct cttaatcgag ttacggtttc gtgcgatttt
+     1561 agggtaatcc tcttaatctc tcattgattt agggtttcgt gagaatcgag gtagggatct
+     1621 gtgttattta tatcgatcta atagatggat tggttttgag attgttctgt cagatgggga
+     1681 ttgtttcgat atattaccct aatgatgtgt cagatgggga ttgtttcgat atattaccct
+     1741 aatgatgtgt cagatgggga ttgtttcgat atattaccct aatgatggat aataagagta
+     1801 gttcacagtt atgttttgat cctgccacat agtttgagtt ttgtgatcag atttagtttt
+     1861 acttatttgt gcttagttcg gatgggattg ttctgatatt gttccaatag atgaatagct
+     1921 cgttaggtta aaatctttag gttgagttag gcgacacata gtttatttcc tctggatttg
+     1981 gattggaatt gtgttcttag tttttttccc ctggatttgg attggaattg tgtggagctg
+     2041 ggttagagaa ttacatctgt atcgtgtaca cctacttgaa ctgtagagct tgggttctaa
+     2101 ggtcaattta atctgtattg tatctggctc tttgcctagt tgaactgtag tgctgatgtt
+     2161 gtactgtgtt tttttacccg ttttatttgc tttactcgtg caaatcaaat ctgtcagatg
+     2221 ctagaactag gtggctttat tctgtgttct tacatagatc tgttgtcctg tagttactta
+     2281 tgtcagtttt gttattatct gaagatattt ttggttgttg cttgttgatg tggtgtgagc
+     2341 tgtgagcagc gctcttatga ttaatgatgc tgtccaattg tagtgtagta tgatgtgatt
+     2401 gatatgttca tctattttga gctgacagta ccgatatcgt aggatctggt gccaacttat
+     2461 tctccagctg ctttttttta cctatgttaa ttccaatcct ttcttgcctc ttccagatgc
+     2521 agatattcgt taagaccctc actggcaaga ccatcacctt ggaggttgag ttctccgata
+     2581 cgattgacaa tgtgaaggct aagattcagg acaaggaggg catccctccg gaccagcaac
+     2641 gccttatctt cgctggcaag cagcttgagg atgggcgtac tctcgcggat tataacatcc
+     2701 agaaggagtc caccttgcac cttgtcctcc gccttcgtgg aggcatgcaa atattcgtga
+     2761 agaccctcac cggcaagacc attaccctgg aggtcgagtc ctccgacacg atcgataatg
+     2821 tgaaggccaa gatccaggac aaggagggaa tcccaccaga ccagcagcgt ctcatctttg
+     2881 ctgggaagca gctcgaggat ggccgcaccc ttgcagacta caacatccaa aaggaatcca
+     2941 ccctgcacct tgtcctgcgc ctccggggcg gtatgcagat ctttgtgaag acccttactg
+     3001 gcaagacgat caccttggag gttgagtcct ctgacacgat cgacaatgtg aaggccaaga
+     3061 tccaggacaa ggagggtatt ccaccagacc agcagcggct catcttcgct ggcaagcagc
+     3121 ttgaggacgg ccgcaccctt gctgactata acatccagaa ggagtccacc ttgcacttgg
+     3181 tcctccgcct tcgtggaggt atgcagatct tcgtgaagac cctcaccggc aagaccatca
+     3241 ccctggaggt tgagtcgtct gacacgatcg acaatgtgaa ggccaagatc caggacaagg
+     3301 agggtattcc accagaccag cagcgcctcg tcttcgctgg caagcagctt gaggatggtc
+     3361 gcacccttgc agattacaac atccagaagg agtccaccct gcaccttgtc ctgcgccttc
+     3421 gtggaggtat gcagatcttc gtgaagaccc tcactggcaa gaccatcact ctggaggttg
+     3481 agtcctctga caccatcgac aacgtgaagg ccaagatcca ggataaggag ggcatccctc
+     3541 cagaccagca gcgcctcatc ttcgccggca agcagctcga ggatggccgc acccttgccg
+     3601 actataacat ccagaaggag tccaccctgc accttgtcct gcgcctccgt ggtggtctct
+     3661 gagcgtgtgc tgtggtgcag cattggactt cattatacct atgccgctcg tctgtcatat
+     3721 catcgtgtaa gcc
+//
+

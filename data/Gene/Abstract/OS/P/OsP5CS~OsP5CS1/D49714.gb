@@ -1,0 +1,104 @@
+LOCUS       D49714                  2549 bp    mRNA    linear   PLN 18-AUG-2007
+DEFINITION  Oryza sativa mRNA for deltal-pyrroline-5-carboxylate synthetase,
+            complete cds.
+ACCESSION   D49714
+VERSION     D49714.1  GI:2081611
+KEYWORDS    deltal-pyrroline-5-carboxylate synthetase; OSP5CS.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Igarashi,Y., Yoshiba,Y., Sanada,Y., Yamaguchi-Shinozaki,K., Wada,K.
+            and Shinozaki,K.
+  TITLE     Characterization of the gene for delta1-pyrroline-5-carboxylate
+            synthetase and correlation between the expression of the gene and
+            salt tolerance in Oryza sativa L
+  JOURNAL   Plant Mol. Biol. 33 (5), 857-865 (1997)
+   PUBMED   9106509
+REFERENCE   2  (bases 1 to 2549)
+  AUTHORS   Igarashi,Y., Yoshiba,Y., Sanada,Y., Wada,K., Yamaguchi-Shinozaki,K.
+            and Shinozaki,K.
+  TITLE     Nucleotide sequence of a cDNA encoding
+            delta1-pyrroline-5-carboxylate synthetase in rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2549)
+  AUTHORS   Yoshiba,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAR-1995) Yoshu Yoshiba, Hitachi Ltd., Advanced
+            Research Laboratory; Hatoyama, Hiki-gun, Saitama 350-03, Japan
+            (Tel:0492-96-6111, Fax:0492-96-6006)
+FEATURES             Location/Qualifiers
+     source          1..2549
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Akibare"
+                     /db_xref="taxon:39947"
+     gene            1..2549
+                     /gene="OSP5CS"
+     CDS             99..2249
+                     /gene="OSP5CS"
+                     /codon_start=1
+                     /product="deltal-pyrroline-5-carboxylate synthetase"
+                     /protein_id="BAA19916.1"
+                     /db_xref="GI:2081612"
+                     /translation="MASVDPSRSFVRDVKRVIIKVGTAVVSRQDGRLALGRVGALCEQ
+                     VKELNSLGYEVILVTSGAVGVGRQRLRYRKLVNSSFADLQKPQMELDGKACAAVGQSG
+                     LMALYDMLFNQLDVSSSQLLVTDSDFENPKFREQLTETVESLLDLKVIPIFNENDAIS
+                     TRKAPYEDSSGIFWDNDSLAGLLALELKADLLILLSDVDGLYSGPPSEPSSKIIHTYI
+                     KEKHQQEITFGDKSRVGRGGMTAKVKAAVLASNSGTPVVITSGFENRSILKVLHGEKI
+                     GTLFHKNANLWESSKDVSTREMAVAARDCSRHLQNLSSEERKKILLDVADALEANEDL
+                     IRSENEADVAAAQVAGYEKPLVARLTIKPGKIASLAKSIRTLANMEDPINQILKKTEV
+                     ADDLVLEKTSCPLGVLLIVFESRPDALVQIASLAIRSGNGLLLKGGKEAIRSNTILHK
+                     VITDAIPRNVGEKLIGLVTTRDEIADLLKLDDVIDLVTPRGSNKLVSQIKASTKIPVL
+                     GHADGICHVYIDKSADMDMAKLIVMDAKTDYPAACNAMETLLVHKDLMKSPGLDDILV
+                     ALKTEGVNIYGGPIAHKALGFPKAVSFHHEYSSMACTVEFVDDVQSAIDHIHRYGSAH
+                     TDCIVTTDDKVAETFLRRVDSAAVFHNASTRFSDGARFGLGAEVGISTGRIHARGPVG
+                     VEGLLTTRWILRGRGQVVNGDKDVVYTHKSLPLQ"
+ORIGIN      
+        1 gcggctgcgg cggcaaggcg gcgagacgtg ggagagggat ttacaggtag agggagaggg
+       61 tggaggagga gaggctgagg ctaggaagcg gtttcgccat ggcgagcgtc gacccgtccc
+      121 ggagcttcgt gagggacgtg aagcgcgtca tcatcaaggt gggcactgca gttgtctcca
+      181 gacaagatgg aagattggct ttgggcaggg ttggagctct gtgcgagcag gttaaggaac
+      241 tgaactcttt aggatacgaa gtgattttgg tcacctcagg tgctgttgga gtggggcgac
+      301 agcgacttag gtaccggaag cttgtcaata gcagctttgc tgatctgcaa aagccacaga
+      361 tggagttaga tggaaaggct tgtgccgctg ttggtcagag tggactgatg gctctttacg
+      421 atatgttgtt taaccaactg gatgtctcgt catctcaact tcttgtcacc gacagtgatt
+      481 ttgagaaccc aaagttccgg gagcaactca ctgaaactgt tgagtcatta ttagatctta
+      541 aagttatacc aatatttaat gaaaatgatg ccatcagcac tagaaaggct ccatatgagg
+      601 attcatctgg tatattctgg gataatgaca gtttagcagg actgttggca ctggaactga
+      661 aagctgatct ccttattctg ctcagtgatg tggatgggtt gtatagtggt ccaccaagtg
+      721 aaccatcatc aaaaatcata cacacttata ttaaagaaaa gcatcagcaa gaaatcactt
+      781 ttggagacaa atctcgtgta ggtagaggag gcatgacagc aaaagtgaag gctgctgtct
+      841 tggcttcaaa tagcggcaca cctgtggtta ttacaagtgg gtttgaaaat cggagcattc
+      901 ttaaagttct tcatggggaa aaaattggta ctctctttca caagaatgcg aatttgtggg
+      961 aatcatctaa ggatgttagt actcgtgaga tggctgttgc cgcaagagat tgttcaaggc
+     1021 atctacagaa tttgtcatca gaggaacgaa aaaagatatt gctagatgtt gcagatgctt
+     1081 tggaggcaaa tgaggattta ataaggtctg agaatgaagc tgatgtagct gcggcccaag
+     1141 ttgctggata tgagaagcct ttggttgcta gattgactat aaaaccagga aagatagcaa
+     1201 gccttgcaaa atctattcgt acccttgcaa atatggaaga ccctataaac cagatactta
+     1261 aaaagacaga ggttgctgat gatttagttc ttgagaaaac atcttgccca ttaggtgttc
+     1321 tcttaattgt ttttgagtcc cgacctgatg ccttggttca gattgcatct ttggcaattc
+     1381 gaagtggtaa tggtcttctc ctaaaaggtg gaaaagaagc tatcagatca aacacgatat
+     1441 tgcataaggt tataactgat gctattcctc gtaatgttgg tgaaaaactt attggccttg
+     1501 ttacaactag agatgagatc gcagatttgc taaagcttga tgatgtcatt gatcttgtca
+     1561 ctccaagagg aagtaataag cttgtctctc aaatcaaggc gtcaactaag attcctgttc
+     1621 ttgggcatgc tgatggtata tgccacgtat atattgacaa atcagctgac atggatatgg
+     1681 caaaacttat tgtaatggat gcaaaaactg attacccagc agcctgcaat gcaatggaga
+     1741 ccttactagt tcataaggat cttatgaaga gtccaggcct tgacgacata ttagtagcac
+     1801 taaaaacaga aggagttaat atttatggtg gacctattgc gcacaaagct ctgggatttc
+     1861 caaaagctgt ttcatttcat catgagtata gttctatggc ctgcactgtt gagtttgttg
+     1921 atgatgttca atcagcaatt gaccatattc atcgttatgg aagtgctcat acagattgta
+     1981 tcgtcactac agatgataag gtagcagaga cttttctacg cagagttgat agtgctgctg
+     2041 tatttcataa tgcaagtacg agattctctg atggggctcg ttttggattg ggtgctgagg
+     2101 ttggcataag cacagggcgt atccatgccc gtggaccagt gggtgttgaa ggtctcttaa
+     2161 ctacacgatg gatcttgcga ggacgtgggc aagtggtgaa tggtgacaag gatgtcgtgt
+     2221 acacccataa gagtcttcct ttgcaatgag gtcaaatgct ccttttagcc tgttcaggag
+     2281 taggtgaata tccttttaag aatggattga ctactttatt ttgtcatctt gtacaagcat
+     2341 cttattgcgg cattccgatg gattattgat tttgggggtt cccactttca aatgtgacac
+     2401 caaaaataaa ttcatcagtt ctgagagcaa gattttggag gttcagcttc tccatgtaat
+     2461 aagtaaattc agttctgaga acttgtgtac caacgcgcta tgttgcttgt aatgagcgat
+     2521 actaacatct gtgattgcac atatactaa
+//
+

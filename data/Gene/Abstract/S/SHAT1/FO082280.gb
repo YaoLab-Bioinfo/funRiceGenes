@@ -1,0 +1,62 @@
+LOCUS       FO082280                1383 bp    mRNA    linear   PLN 10-MAY-2012
+DEFINITION  Oryza rufipogon (W1943) shattering abortion 1(SHAT1) gene:
+            OR_W1943_CDS_SHAT1, PCR product.
+ACCESSION   FO082280
+VERSION     FO082280.1  GI:387155794
+KEYWORDS    CDS.
+SOURCE      Oryza rufipogon
+  ORGANISM  Oryza rufipogon
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Zhou,Y., Lu,D.F., Li,C.Y., Luo,J.H., Zhu,B., Zhu,J.J.,
+            Shangguan,Y.Y., Wang,Z.X., Sang,T., Zhou,B. and Han,B.
+  TITLE     Genetic Control of Seed Shattering in Rice by the APETALA2
+            Transcription Factor SHATTERING ABORTION1
+  JOURNAL   Plant Cell 24 (3), 1034-1048 (2012)
+   PUBMED   22408071
+REFERENCE   2
+  AUTHORS   Zhou,Y., Lu,D.F., Li,C.Y., Luo,J.H., Zhu,B., Zhu,J.J.,
+            Shangguan,Y.Y., Wang,Z.X., Sang,T., Zhou,B. and Han,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-NOV-2011) to the INSDC. Han Bin, National Center for
+            Gene Research, Chinese Academy of sciences, 500# Cao Bao Road,
+            Shanghai 200233, CHINA. E-mail enquiries: bhan@ncgr.ac.cn. Clone
+            requests: bhan@ncgr.ac.cn
+  REMARK    Oryza rufipogon (W1943) shattering abortion 1(SHAT1) gene:
+            OR_W1943_CDS_SHAT1, PCR product.
+FEATURES             Location/Qualifiers
+     source          1..1383
+                     /organism="Oryza rufipogon"
+                     /mol_type="mRNA"
+                     /cultivar="W1943"
+                     /db_xref="taxon:4529"
+                     /clone="OR_W1943_CDS_SHAT1"
+ORIGIN      
+        1 atgtgggacc tcaatgactc gccggcggcc gaggccgcgc cgccgccgct gtcgccgtcc
+       61 gccgacgact ccggcgcctc ctcgtcctcg gccgccgccg tcgtcgagat acccgacgac
+      121 gccgacgacg actcggccgc tgtggttgtc gtcacgcgcc agttcttccc tccggccgtc
+      181 ccgggcggcg gcggcgaccc cgcccccggg aacgcgcgcg ccgggtggct ccgcctggcc
+      241 ggagccgccc cgccggtcgc tgcaacgggg ccggcggcgt cggcggcggt gtccaagaag
+      301 agccggcgcg ggccgcggtc gcgcagctcg cagtaccgcg gcgtcacgtt ctaccgccgc
+      361 accgggcgat gggaatcgca catatgggat tgtggcaagc aggtctattt gggcggattt
+      421 gacactgctc atgcggcggc tcgggcgtac gatcgggcgg cgatcaagtt ccgcggcgtg
+      481 gaggccgaca tcaatttcag cttggaggat tacgaggatg acctgaagca gatgagcaac
+      541 ctgaccaagg aggagttcgt ccacgtgctc cggcggcaga gcacggggtt cccccgggga
+      601 agctccaagt acaggggcgt gacgctccac aagtgcggga gatgggaggc tcggatgggc
+      661 caattcctcg gcaagaagta cgtctacttg gggctgttcg acaccgagga ggaagctgcc
+      721 agggcgtacg accgcgctgc catcaagtgc aatggcaagg atgcggtgac gaacttcgat
+      781 ccaagcattt acgccgggga gttcgagccg ccggcagcgg ccacgggtga tgccgccgag
+      841 cacaacctgg acctctcgct tgggagctcg gcgggctcca agaggggcaa cgttgacggt
+      901 ggcggggacg acgagatcac cggcggcggt ggcggtggcg cgggctccga ccagcgcgtc
+      961 cctatggcgt tcgaccttga ctggcaaacg gcggcggcga ggagcaccaa agctaagttc
+     1021 gaccagaact cgaaccatcc ccagatgcct ccggtcctgc aggtcaccca cctgccattc
+     1081 agtcccaggc atcatcacca attcttgagc aatggtgatc cggggacagc gggaggcctg
+     1141 tcactgacga tcggcgcagg catggccggg cactggcctc cccagcagca gcaggggtgg
+     1201 ggcaacgccg gcggcatgag ctggccgctg ccgccgcacc cgccgccgcc gccgaccaac
+     1261 gccgcggccg ccgcaaccgc tacagcagct gcagcatcat cacgattccc tccctacatt
+     1321 gcgacgcaag cctcaacctg gctgcagaag aacgggttcc attccctgac ccggcccacc
+     1381 taa
+//
+

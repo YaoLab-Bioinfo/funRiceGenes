@@ -1,0 +1,76 @@
+LOCUS       BK005065                1463 bp    DNA     linear   PLN 17-MAR-2006
+DEFINITION  TPA_inf: Oryza sativa (indica cultivar-group) WRKY transcription
+            factor 62 (WRKY62) gene, complete cds.
+ACCESSION   BK005065
+VERSION     BK005065.1  GI:46394377
+KEYWORDS    Third Party Data; TPA; TPA:inferential.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1463)
+  AUTHORS   Zhang,Z.L., Xie,Z., Zou,X., Casaretto,J., Ho,T.H. and Shen,Q.J.
+  TITLE     A rice WRKY gene encodes a transcriptional repressor of the
+            gibberellin signaling pathway in aleurone cells
+  JOURNAL   Plant Physiol. 134 (4), 1500-1513 (2004)
+   PUBMED   15047897
+REFERENCE   2  (bases 1 to 1463)
+  AUTHORS   Zhang,Z.-L., Xie,Z., Zou,X., Casaretto,J., Ho,T.-h.D. and Shen,Q.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2004) Department of Biological Sciences,
+            University of Nevada, Las Vegas, 4505 Maryland Parkway, Las Vegas,
+            NV 89154, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1463              AAAA01006961.1     4506-5968
+FEATURES             Location/Qualifiers
+     source          1..1463
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39946"
+     gene            <1..>1463
+                     /gene="WRKY62"
+                     /note="OsWRKY62"
+     mRNA            join(<1..300,395..517,1047..>1463)
+                     /gene="WRKY62"
+                     /product="WRKY transcription factor 62"
+     CDS             join(1..300,395..517,1047..1463)
+                     /gene="WRKY62"
+                     /codon_start=1
+                     /product="WRKY transcription factor 62"
+                     /protein_id="DAA05127.1"
+                     /db_xref="GI:46394378"
+                     /translation="MEENARLTRALDAILAGHHAHQRALLAPSLSPPPPSATARAPSV
+                     STSCAAREDAAPAVAAAAASTACPSRQQPPTAEPRPKVRTVRVRADAADATDANSMAE
+                     TVKDGYQWRKYGQKVTRDNPYPRAYFRCAFAPSCPVKKKLQRCAEDRSMLVATYEGEH
+                     NHALSTQTTEFVASGCTTSQHAGGSSSSPLPCSISINSSGRTITLDLTNQAGSGSIAS
+                     CGVEAAAVSGELVTVLSPELRRHLVEEVVQVLKNDAEFVEAVTNAVAARVVDQIPHIP
+                     VHL"
+ORIGIN      
+        1 atggaggaga acgcgcggct gacgcgagcg ctcgacgcca ttctggccgg tcaccacgcc
+       61 caccagcgcg cgctcttggc gccgtcgctg tcgccgccgc cgccttccgc cacagcaagg
+      121 gcgccgagcg tgtccaccag ctgcgcggcg agggaggacg ccgcaccggc ggtcgccgcc
+      181 gccgccgcgt cgacggcatg tccgtcgaga cagcagccgc cgaccgcgga gccacggccc
+      241 aaggtcagga cggtccgcgt gcgcgccgac gccgccgacg ccaccgacgc caacagcatg
+      301 gtaaaactcg atcaaacact ttgaatgcat tgccatggcg ctcgatttcg agcatgatct
+      361 ggactgaatc ttttcccctt cctggcatcg ccaggcggag accgtgaagg atgggtacca
+      421 atggaggaag tacgggcaga aggtgacgcg tgacaacccc taccctagag cttacttccg
+      481 ctgcgcattc gcgccgtctt gccccgtcaa gaagaaggta cagaagcaag agaaatgaac
+      541 ataacagaaa atgattgcat tttttcgagt aatcttacta tgcgcacgag gtttcaaatt
+      601 ttacaataaa aaaattaatt gcctttctgg ttatataatt tttcaaattt caatttacaa
+      661 tgaaccgaaa ttaccgacag ctccctctct taggagtgac gaattttcag agttgttaaa
+      721 aaaagttaca agcttacccg taaaagcata tgttaaacaa cctatggtaa acggatcctc
+      781 gtgtacgggg tatcagcctt aaaatctcgg gttatttgtg gctttgactt agattttttc
+      841 ttagcttaaa aaaggctgtg gggatacatt tttccccatc catcgagttt ttattataag
+      901 ttttatttcc gaaaacatgt acgccctccg tctccaaaat aaaaacagta tagaagggga
+      961 tgtgatcctt atgttggttt tttttaagaa cggagggagt tcagtttatt gctgaatttt
+     1021 gacctcgggc tctatgttat atgtagctcc aaagatgtgc ggaggatagg tcaatgctag
+     1081 tggcgaccta cgagggagaa cacaaccatg ccctgtccac gcagacaacc gaattcgtcg
+     1141 ccagcggctg cactacgagc cagcacgccg gggggtcgtc gtcgtcgccg ctgccgtgct
+     1201 ccatctccat caactcgtcg ggccgcacga tcacactcga cctgacgaac caagcagggt
+     1261 ccggatcgat cgcgagctgc ggcgtcgagg cggccgccgt ctccggcgag ctcgtcacgg
+     1321 tgctctcgcc ggagttgagg aggcacctcg tggaggaggt ggtgcaagtg ctcaagaacg
+     1381 acgccgagtt cgtggaggcc gtgaccaacg ccgtggccgc tagagttgtg gatcaaatcc
+     1441 cacacattcc tgttcatttg tag
+//
+

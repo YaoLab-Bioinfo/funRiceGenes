@@ -1,0 +1,60 @@
+LOCUS       X75616                   712 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  O.sativa (Tainong 67) mRNA for heat shock protein 17.8.
+ACCESSION   X75616
+VERSION     X75616.1  GI:1213072
+KEYWORDS    heat shock protein 17.8.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 712)
+  AUTHORS   Chow,V.T. and Quek,H.H.
+  TITLE     HEP-COP, a novel human gene whose product is highly homologous to
+            the alpha-subunit of the yeast coatomer protein complex
+  JOURNAL   Gene 169 (2), 223-227 (1996)
+   PUBMED   8647451
+REFERENCE   2  (bases 1 to 712)
+  AUTHORS   Lin,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-NOV-1993) Chu-Yung Lin, Department of Botany,
+            National Taiwan University, Sect.4 Roosevelt Rd., Taipei, Taiwan,
+            117, Republic of China
+FEATURES             Location/Qualifiers
+     source          1..712
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /strain="Tainong 67"
+                     /db_xref="taxon:39947"
+                     /clone_lib="cDNA library"
+                     /dev_stage="Seedling"
+     CDS             82..564
+                     /codon_start=1
+                     /product="heat shock protein 17.8"
+                     /protein_id="CAA53286.1"
+                     /db_xref="GI:1213073"
+                     /db_xref="GOA:Q84Q72"
+                     /db_xref="InterPro:IPR002068"
+                     /db_xref="InterPro:IPR008978"
+                     /db_xref="UniProtKB/Swiss-Prot:Q84Q72"
+                     /translation="MSLIRRSNVFDPFSLDLWDPFDGFPFGSGSRSSGTIFPSFPRGT
+                     SSETAAFAGARIDWKETPEHVFKADVPGLKKEEVKVEVEDGNVSRSAGEASKEQEEKT
+                     DKWHRVEASSGKFLRRFRLPENTKPEQIKASMENGVLTVTVPKEEPKKPDVKSIQVTG
+                     "
+     terminator      562..564
+     polyA_signal    640..645
+ORIGIN      
+        1 cgccgcttga gaattgagat caccctcttt ccatctagaa cacaaaccag acaaccaaaa
+       61 aacagcaaga cacaatacac aatgtcgctg atccgccgca gcaacgtgtt cgaccccttc
+      121 tccctcgacc tctgggaccc cttcgacggc ttccccttcg gctccggcag cagaagcagc
+      181 ggcacgatct tcccgtcctt cccccgcggc acctcctccg agaccgcggc cttcgccggc
+      241 gcgcgcatcg actggaagga gacgccggag cacgtgttca aggcggacgt gccggggctg
+      301 aagaaggagg aggtcaaggt ggaggtggag gacggcaacg tctccagatc agccggcgag
+      361 gccagcaagg agcaggagga gaagacggac aagtggcacc gcgtggaggc tagcagcggc
+      421 aagttcctcc gcaggttccg gctgccggag aacaccaagc cggagcagat caaggcgtcc
+      481 atggagaatg gcgtgctcac cgtcaccgtg cccaaggagg agcccaagaa gcccgacgtc
+      541 aagtccatcc aggttaccgg ctagtaagaa acttcgggtg tgacatgcac ggtggagagg
+      601 cttcgattcg aggcttcggt ttgttgatca attgcagtaa ataaaacggt caaatctggt
+      661 cctcagtgtt tatgctgtga aaaagttcaa agctatgttg gaagtgagca at
+//
+

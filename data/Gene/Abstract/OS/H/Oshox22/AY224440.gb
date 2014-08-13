@@ -1,0 +1,64 @@
+LOCUS       AY224440                 837 bp    mRNA    linear   PLN 15-APR-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) isolate 22834 homeodomain
+            leucine zipper protein-like protein mRNA, partial cds.
+ACCESSION   AY224440
+VERSION     AY224440.1  GI:29367372
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 837)
+  AUTHORS   Cooper,B., Clarke,J.D., Budworth,P., Kreps,J., Hutchison,D.,
+            Park,S., Guimil,S., Dunn,M., Luginbuhl,P., Ellero,C., Goff,S.A. and
+            Glazebrook,J.
+  TITLE     A network of rice genes associated with stress response and seed
+            development
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 100 (8), 4945-4950 (2003)
+   PUBMED   12684538
+REFERENCE   2  (bases 1 to 837)
+  AUTHORS   Cooper,B., Clarke,J., Kreps,J., Budworth,P., Hutchison,D., Park,S.,
+            Guimil,S., Dunn,M., Luginbuhl,P., Ellero,C., Goff,S. and
+            Glazebrook,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2003) Torrey Mesa Research Institute, Syngenta
+            Research and Technology, 3115 Merryfield Row, San Diego, CA 92121,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..837
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /isolate="22834"
+                     /db_xref="taxon:39947"
+                     /note="derived from yeast two-hybrid experiments"
+     CDS             <1..837
+                     /note="RAP1b interactor"
+                     /codon_start=1
+                     /product="homeodomain leucine zipper protein-like protein"
+                     /protein_id="AAO72559.1"
+                     /db_xref="GI:29367373"
+                     /translation="HASDGRTQLASWARIAMDRGDHHHLQQQHQFLMPPPAPVVPPQL
+                     CMPAMMADEQYMDLGGGGAAAAPGRGGAGERKRRFTEEQIRSLESMFHAHHAKLEPRE
+                     KAELARELGLQPRQVAIWFQNKRARWRSKQLEHDYAALRSKYDALHSRVESLKQEKLA
+                     LTVQLHELRERLREREERSGNGGAATTAASSSSCNGSGSEEVDDDDDKRNAAAGCLDL
+                     EPPESCVLGGATCATPADVSVESDQCDDQLDYDEGLFPESFCATPELWEPWPLVEWNA
+                     VA"
+ORIGIN      
+        1 cacgcgtccg atggtcgaac acagctagct agctgggcta ggatcgccat ggatcggggt
+       61 gaccaccacc acctccagca gcagcaccag ttcttgatgc caccgcctgc gccggtggtg
+      121 ccgccgcagc tgtgcatgcc ggcgatgatg gcggacgagc agtacatgga cctgggcggt
+      181 ggcggggcgg cggcggcgcc ggggaggggc ggggccgggg agaggaagcg gcggttcacg
+      241 gaggagcaga tacggtcgct ggagtccatg ttccacgcgc accacgccaa gctggagccc
+      301 cgcgagaagg cggagctggc gcgcgagctg ggcctgcagc cgcggcaggt ggccatctgg
+      361 ttccagaaca agcgcgcgcg gtggcgctcc aagcagctcg agcacgacta cgccgcactc
+      421 cgctccaagt acgacgccct ccactcccgc gtcgagtccc tcaagcaaga gaagctcgct
+      481 ctcaccgtcc agttgcacga gctaagagag aggctgaggg aacgggagga gaggagcggc
+      541 aacggtggtg ccgccacgac ggcagcaagc agcagcagct gcaacggatc aggcagcgag
+      601 gaggtcgacg acgacgacga caagaggaac gccgccgcgg ggtgcctgga cctcgagccg
+      661 ccggagagct gcgtgctcgg cggcgcgacg tgcgccacgc cggcggacgt gtcggtggag
+      721 tcggatcagt gcgacgacca gcttgactac gatgagggct tgttcccgga gtccttctgc
+      781 gccacgccgg agctgtggga gccatggccg ctcgtcgagt ggaatgcggt ggcttga
+//
+

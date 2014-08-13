@@ -1,0 +1,79 @@
+LOCUS       AB206579                1521 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsDWARF4 mRNA for cytochrome P450,
+            complete cds.
+ACCESSION   AB206579
+VERSION     AB206579.1  GI:60677680
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sakamoto,T., Morinaka,Y., Ohnishi,T., Sunohara,H., Fujioka,S.,
+            Ueguchi-Tanaka,M., Mizutani,M., Sakata,K., Takatsuto,S.,
+            Yoshida,S., Tanaka,H., Kitano,H. and Matsuoka,M.
+  TITLE     Erect leaves caused by brassinosteroid deficiency increase biomass
+            production and grain yield in rice
+  JOURNAL   Nat. Biotechnol. 24 (1), 105-109 (2006)
+   PUBMED   16369540
+REFERENCE   2  (bases 1 to 1521)
+  AUTHORS   Sakamoto,T. and Matsuoka,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-MAR-2005) Contact:Tomoaki Sakamoto The University of
+            Tokyo, Graduate School of Agricultural and Life Sciences; 518
+            Nakazato, Ninomiya, Kanagawa 259-0131, Japan
+FEATURES             Location/Qualifiers
+     source          1..1521
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     gene            1..1521
+                     /gene="OsDWARF4"
+     CDS             1..1521
+                     /gene="OsDWARF4"
+                     /note="brassinosteroid C-22 hydroxylase"
+                     /codon_start=1
+                     /product="cytochrome P450"
+                     /protein_id="BAD90972.1"
+                     /db_xref="GI:60677681"
+                     /translation="MAAMMASITSELLFFLPFILLALLTFYTTTVAKCHGGHWWRGGT
+                     TPAKRKRMNLPPGAAGWPLVGETFGYLRAHPATSVGRFMEQHIARYGKIYRSSLFGER
+                     TVVSADAGLNRYILQNEGRLFECSYPRSIGGILGKWSMLVLVGDPHREMRAISLNFLS
+                     SVRLRAVLLPEVERHTLLVLRAWPPSSTFSAQHQAKKFTFNLMAKNIMSMDPGEEETE
+                     RLRREYITFMKGVVSAPLNLPGTPYWKALKSRAAILGVIERKMEERVEKLSKEDASVE
+                     QDDLLGWALKQSNLSKEQILDLLLSLLFAGHETSSMALALAIFFLEGCPKAVQELREE
+                     HLGIARRQRLRGECKLSWEDYKEMVFTQCVINETLRLGNVVRFLHRKVIKDVHYKGYD
+                     IPSGWKILPVLAAVHLDSSLYEDPQRFNPWRWKSSGSSGGLAQSSSFMPYGGGTRLCA
+                     GSELAKLEMAVFLHHLVLNFRWELAEPDQAFVFPFVDFPKGLPIRVHRIAQDDEQE"
+ORIGIN      
+        1 atggccgcca tgatggcgtc cataaccagc gagctgctct tctttctccc cttcatcctc
+       61 cttgccctgc tcacgttcta caccaccacc gtggccaaat gccacggcgg gcactggtgg
+      121 cgaggtggga cgacgccggc gaagaggaag cggatgaacc tgccgcccgg cgccgccggg
+      181 tggccgctcg tcggcgagac gttcggctac ctccgcgccc accccgccac ctccgtcggc
+      241 cgcttcatgg agcagcacat cgcacggtac gggaagatat accggtcgag cctgttcggg
+      301 gagcggacgg tggtgtcggc ggacgcgggg ctcaaccggt acatcctgca gaacgagggg
+      361 aggctgttcg agtgcagcta cccgcgcagc atcggcggca tcctgggcaa gtggtccatg
+      421 ctggtcctcg tcggggaccc gcaccgcgag atgcgcgcca tctccctcaa cttcctctcc
+      481 tccgtccgcc tccgcgccgt cctcctcccc gaggtcgagc gccacaccct cctcgtcctc
+      541 cgcgcctggc ccccttcctc caccttctcc gctcagcacc aagccaagaa gttcacgttc
+      601 aacctgatgg cgaagaacat aatgagcatg gacccggggg aggaagagac ggagcggctg
+      661 cggcgggagt acatcacctt catgaagggc gtggtctccg cgccgctcaa cctgcccggg
+      721 acgccctact ggaaggctct caagtcgcgt gctgccattc tcggagtaat agagaggaaa
+      781 atggaagagc gggttgagaa gctgagcaag gaggatgcaa gcgtagagca agacgatctt
+      841 ctcggatggg ctctgaaaca atctaacctt tcaaaagagc aaatcctgga cctcttgctg
+      901 agcttgctct tcgccgggca cgagacgtcg tccatggcgc tcgccctcgc catcttcttc
+      961 cttgaaggct gccccaaggc tgtccaagaa ctgagggagg agcatcttgg gattgcaagg
+     1021 agacaaaggc taagagggga gtgcaaattg agctgggaag actacaaaga gatggttttc
+     1081 acgcaatgtg tcataaacga gacgttgcgg ctaggaaacg tggtcaggtt cctgcaccgg
+     1141 aaggtcatca aggacgtgca ctacaagggt tatgacattc caagcggatg gaagatcctg
+     1201 ccggtgttag ccgcggtgca tctggactcg tccctgtacg aggaccccca gcgcttcaat
+     1261 ccctggagat ggaagagtag cggatcatcc ggcggcttgg ctcagagcag cagcttcatg
+     1321 ccgtacggcg gcgggacgcg gctgtgcgcc gggtcggagc tcgcgaagct ggagatggcc
+     1381 gtgttcttgc accacctggt gctcaacttc aggtgggagc tcgccgagcc ggaccaagcc
+     1441 ttcgtcttcc ccttcgtcga cttccccaag ggccttccca ttagggttca tagaattgca
+     1501 caggatgatg agcaggagta a
+//
+

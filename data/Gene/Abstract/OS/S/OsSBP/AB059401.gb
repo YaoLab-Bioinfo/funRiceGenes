@@ -1,0 +1,87 @@
+LOCUS       AB059401                1374 bp    mRNA    linear   PLN 10-JUN-2004
+DEFINITION  Oryza sativa Os SBP mRNA for putative selenium binding protein,
+            complete cds.
+ACCESSION   AB059401
+VERSION     AB059401.1  GI:13560274
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sawada,K. and Iwata,M.
+  TITLE     Isolation of blast fungal cerebroside elicitor-responsive genes in
+            rice plants
+  JOURNAL   J. Gen. Plant Pathol. 68, 128-133 (2002)
+REFERENCE   2
+  AUTHORS   Sawada,K., Tokuda,L. and Shinmyo,A.
+  TITLE     Characterization of the Rice Blast Fungal Elicitor-Responsive Gene
+            OsSBP Encoding a Homolog to the Mammalian Selenium-binding Proteins
+  JOURNAL   Plant Biotechnol. 20, 177-181 (2003)
+REFERENCE   3
+  AUTHORS   Sawada,K., Hasegawa,M., Tokuda,L., Kameyama,J., Kodama,O.,
+            Kohchi,T., Yoshida,K. and Shinmyo,A.
+  TITLE     Enhanced resistance to blast fungus and bacterial blight in
+            transgenic rice constitutively expressing OsSBP, a rice homologue
+            of mammalian selenium-binding proteins
+  JOURNAL   Biosci. Biotechnol. Biochem. 68 (4), 873-880 (2004)
+   PUBMED   15118317
+REFERENCE   4  (bases 1 to 1374)
+  AUTHORS   Sawada,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-APR-2001) Kazutoshi Sawada, Research Association for
+            Biotechnology, Technology Department; Takayama, 8916-5, Ikoma, Nara
+            630-0101, Japan (E-mail:ksawada@bs.aist-nara.ac.jp,
+            Tel:81-743-72-5606, Fax:81-743-72-5607)
+FEATURES             Location/Qualifiers
+     source          1..1374
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Akitakomachi"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+                     /country="Japan"
+     gene            1..1374
+                     /gene="Os SBP"
+     CDS             1..1374
+                     /gene="Os SBP"
+                     /codon_start=1
+                     /product="putative selenium binding protein"
+                     /protein_id="BAB40923.1"
+                     /db_xref="GI:13560275"
+                     /translation="MEKGPREKLLYVTCVYNGTGINKPDYLGTVDVDPNSPTYSQVIH
+                     RLPVTHVGDELHHSGWNACSSCHGDPSASRRFLILPSLLSGRVYVVDTLKDPRAPALH
+                     KVVEAEDIAEKTGLGFPHTSHCLASGEIMISCLGDKEGNAAGNGFLLLDSEFNVKGRW
+                     EKPGHSPLFGYDYWYQPRHKTMISSSWGAPAAFRTGFDLQHVQDGLYGRHLHVYDWPG
+                     GELKQTLDLGSTGLLPLEVRFLHDPSKDTGYVGCALTSNMVRFFKTADGSWSHEVAIS
+                     IKPLKVRNWILPEMPGLITDFVISLDDRYLYLVNWLHGDIRQYNIEDPAKPVLAGQVW
+                     AGGLLQKGSEVVYVTEDDKEEQYSVPQVKGHRLRGGPQMIQLSLDGKRIYVTNSLFSR
+                     WDEQFYGQDLVKKGSHMLQIDVDTEKGGLSINPNFFVDFGAEPEGPSLAHEMRYPGGD
+                     CTSDIWI"
+ORIGIN      
+        1 atggagaagg gcccgaggga gaagctcctc tacgtcacct gcgtctacaa cggtactgga
+       61 attaacaagc cggattacct gggtacggtg gacgtggacc ccaattcccc tacatactcc
+      121 caagtgatcc acaggctccc agtcacccat gtcggcgatg agctgcatca ctctggatgg
+      181 aacgcttgca gttcttgcca tggtgatcca tcggctagcc gccgtttctt gattctgcct
+      241 tcgttgctgt ctggccgtgt gtatgtcgtt gacacgctga aggacccaag ggcgcctgcc
+      301 ttgcataagg tggtcgaggc tgaggacatt gctgagaaga cagggcttgg atttcctcat
+      361 acatctcatt gcctggcatc tggggagata atgatttctt gccttgggga taaggaggga
+      421 aatgctgctg gcaatggctt cctcctgctg gattctgaat tcaatgtcaa aggacgttgg
+      481 gaaaagccag gtcacagccc cttgtttggc tatgattatt ggtatcaacc tcgtcacaag
+      541 acaatgatca gttcatcatg gggagcacct gcagctttca ggactggttt tgatcttcag
+      601 catgtgcagg atggtctcta tggaagacat ctgcacgtgt atgactggcc tggtggtgag
+      661 ctcaagcaga cactagattt aggcagtaca ggtcttcttc cacttgaggt gaggttttta
+      721 catgatccat caaaggatac tgggtatgtg ggctgtgctc tgacaagcaa catggtcaga
+      781 tttttcaaga ctgcagatgg atcatggagc catgaggttg ctatatctat aaaaccattg
+      841 aaagtgcgca actggattct gcctgaaatg ccaggactga taactgattt tgttatctct
+      901 ctggatgatc gctatctcta cttggtcaac tggcttcatg gtgatatcag gcagtacaac
+      961 atcgaggacc ctgcgaagcc tgtgttggct ggacaagtat gggcaggagg ccttcttcaa
+     1021 aagggcagtg aggttgtgta tgtaactgag gatgacaaag aagagcagta cagtgtgccc
+     1081 caggtcaagg gtcatcgact tagaggtggg ccacagatga ttcagctgag cctggatggg
+     1141 aagaggatat atgtgaccaa ctctcttttc agccgatggg acgagcagtt ctatggccaa
+     1201 gatcttgtca agaagggctc ccacatgttg cagatcgacg tcgacactga gaaaggagga
+     1261 ctatcgatca accctaactt ctttgtagat tttggtgctg agccagaggg tccctccttg
+     1321 gcccatgaga tgagatatcc tggtggagat tgcacctctg atatatggat ataa
+//
+

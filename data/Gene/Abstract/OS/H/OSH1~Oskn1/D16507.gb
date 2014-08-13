@@ -1,0 +1,104 @@
+LOCUS       RICOSH1                 2598 bp    mRNA    linear   PLN 05-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OSH1 mRNA for homeobox protein,
+            complete cds.
+ACCESSION   D16507
+VERSION     D16507.1  GI:452235
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Matsuoka,M., Ichikawa,H., Saito,A., Tada,Y., Fujimura,T. and
+            Kano-Murakami,Y.
+  TITLE     Expression of a rice homeobox gene causes altered morphology of
+            transgenic plants
+  JOURNAL   Plant Cell 5 (9), 1039-1048 (1993)
+   PUBMED   8104574
+REFERENCE   2  (bases 1 to 2598)
+  AUTHORS   Matsuoka,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUN-1993) Contact:Makoto Matsuoka National Institute
+            of Agrobiological Resources; Kannondai 2-1-2, Tsukuba, Ibaraki 305,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..2598
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+                     /tissue_type="shoot meristem"
+     gene            1..2598
+                     /gene="OSH1"
+     misc_feature    263..326
+                     /gene="OSH1"
+                     /note="putative homeodomain"
+     TATA_signal     782..787
+                     /gene="OSH1"
+     TATA_signal     806..809
+                     /gene="OSH1"
+     misc_feature    847
+                     /gene="OSH1"
+                     /note="CAPing site"
+     CDS             1065..2150
+                     /gene="OSH1"
+                     /codon_start=1
+                     /product="homeobox protein"
+                     /protein_id="BAA03959.1"
+                     /db_xref="GI:540536"
+                     /translation="MEEISHHFGVVGASGVHGGHQHQHHHHPWGSSLSAIVAPPPPPQ
+                     LQQQQTQAGGMAHTPLTLNTAAAAVGNPVLQLANGSLLDACGKAKEASASASYAPDVE
+                     AIKAKIISHPHYSSLLAAYLDCQKVGAPPEVAARLTAVAQDLELRQRTALGVLGAATE
+                     PELDQFMEAYHEMLVKYREELTRPLQEAMEFLRRVETQLNTLSISGRSLRNILSSGSS
+                     EEDQEGSGGETELPEIDAHGVDQELKHHLLKKYSGYLSSLKQELSKKKKKGKLPKDAR
+                     QQLLNWWELHYKWPYPSESQKVALAESTGLDLKQINNWFINQRKRHWKPSDEMQFVMM
+                     DGYHPTNAAAFYMDGHFINDGGLYRLG"
+ORIGIN      
+        1 gcatgctcgc gaaaaacgag gaggggagtt aggaaccttg acatacaacc aatgatacca
+       61 ttttttttca agcagctaga ggtacagagg ttcatatttt ttagatggct cattagtgat
+      121 attttagtca aaaatttcag aagtacggcc acgggtgatg gcctgaacta atattttatt
+      181 cgaggtgccg ctacatcatc gtctaaagta cacgcaagat tcaacggaaa aaagaaaccg
+      241 atcgatcgag atcagttagt taatgaaata actagatcaa ctcatgtcgt caaaaacaaa
+      301 agatgctcat ctatggacaa cacacgctga tgattcgatc atcaaacaaa ggtggtagta
+      361 gtagtaaagc gtatcgtgtt tctcatcaga aagaagaatt aaagaaaaaa ctaatcccgt
+      421 ctcgcgagcc agagaaaatt ccctacaaaa gccactcctt tgatttgaca tgcaaaagca
+      481 aggctccact cctctactac cctacaacta cacaacactg tctctctatc tccaaaggca
+      541 gtagctgtat tggcttccag cttttcctct ctacctctaa tgatagcttg gagcaagttc
+      601 aatagtatag ctaactacta gctctaattc atctataatc aatctaatag cttattcata
+      661 caatagttat atactacatt attaatatct ggtcccatct atcatacaca ctgagtctgt
+      721 gctatagctg actacaaatc tgtagcccgc tgctcttctc tcttcattta tcttcttaaa
+      781 atatatttgc agctggctta tggcttatag cttgatattg agagggagag gagtgagagc
+      841 tagctcagct cagctcaagg taaacaacaa ggcacactct tcctacctct tctccggttc
+      901 ttcctttttc ctctttctct tcgtccaaga acttcacctc aatagctcga gctacggcct
+      961 aacttttgcg ttgcgcagga gagctcgatc gctgcaccaa tacttcactg gagatcgcct
+     1021 agctgcagct agctagctta tcctgcgtgt cttgagcttc tctcatggag gagatctccc
+     1081 accacttcgg ggtcgtcgga gccagcggcg tccatggcgg ccaccagcat cagcatcacc
+     1141 accacccgtg gggttcttcc ctgagcgcca tcgtcgcgcc gccgccgccg ccgcagctgc
+     1201 agcagcagca gacgcaggcc ggcggcatgg cgcacacgcc gctcacgctg aacacggcgg
+     1261 cggcggcggt cggcaacccg gtgctgcagc tggcgaacgg cagcctgctc gacgcgtgcg
+     1321 gcaaggcgaa ggaggcgtcg gcgtcggcgt cgtacgcgcc cgacgtggag gccatcaagg
+     1381 ccaagatcat ctcccacccc cactactcct ccctcctcgc cgcctacctc gactgccaga
+     1441 aggttggggc gccgccggag gtggcggcga ggctgacggc ggtggcgcag gacctggagc
+     1501 ttcgccagcg cacggcgctc ggcgtcctcg gcgccgccac ggagccggag ctggaccagt
+     1561 tcatggaggc gtaccacgag atgctggtga agtacaggga ggagctgacg aggccgctgc
+     1621 aggaggccat ggagttcttg aggagggtgg agacgcagct caacacgctc tccatctccg
+     1681 gcagatcgct tcgcaatatc ctttcctccg gctcttctga ggaggaccaa gaaggtagcg
+     1741 gaggagagac agagctacct gagattgatg cacatggtgt ggatcaggag ctcaagcacc
+     1801 atttgctgaa gaagtacagt ggatacctga gctccctgaa gcaagaactg tcaaagaaga
+     1861 agaaaaaagg gaagctcccc aaggatgctc gtcaacagct cctcaactgg tgggagctgc
+     1921 actacaaatg gccttacccc tcggagagtc agaaggtggc actggcggag tcgacggggc
+     1981 tggacctgaa gcagatcaac aactggttca tcaaccagag gaagcggcac tggaagccct
+     2041 ccgacgagat gcagttcgtg atgatggacg gctaccaccc gaccaacgcc gccgccttct
+     2101 acatggacgg ccacttcatc aacgacggcg gcctctacag gctcggctag ctagctagcc
+     2161 tactccttat ccccagctac catgacctag atcgatctcg accccaaatc aatggtcgct
+     2221 aagctactga aaagtttgtg atgagaattg aagaacctag gttagtcttc ctggtaattt
+     2281 gatgctcgcg cgtacgcacg ccatggatgg ctgcgtgctt attttgtttc ttgccgcaat
+     2341 atgtaatgca attgccttag ctaatgcatc aactcgggtc ggttttagct gctgctgctg
+     2401 cgccacaatg aaggtggttg tggttatgct tttgtgtggt ttaatacgcc aagacgtaca
+     2461 cattgcttcg aaatgtcgct actcttgctg ctgctaatta agtgcgtgtt tgaataattc
+     2521 ggatctatat actacctggt taattcctat cttctgatta tataatttgc tgatcgttcg
+     2581 agtttgtgag attttttt
+//
+

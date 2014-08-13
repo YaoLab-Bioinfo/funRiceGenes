@@ -1,0 +1,66 @@
+LOCUS       AB119279                 868 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group GLB1 mRNA for PII-like protein,
+            complete cds.
+ACCESSION   AB119279
+VERSION     AB119279.1  GI:57999639
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sugiyama,K., Hayakawa,T., Kudo,T., Ito,T. and Yamaya,T.
+  TITLE     Interaction of N-acetylglutamate kinase with a PII-like protein in
+            rice
+  JOURNAL   Plant Cell Physiol. 45 (12), 1768-1778 (2004)
+   PUBMED   15653795
+REFERENCE   2  (bases 1 to 868)
+  AUTHORS   Sugiyama,K., Hayakawa,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-SEP-2003) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultural Science, Department of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..868
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+                     /tissue_type="green leaf"
+     gene            1..868
+                     /gene="GLB1"
+     5'UTR           1..13
+                     /gene="GLB1"
+     CDS             14..652
+                     /gene="GLB1"
+                     /codon_start=1
+                     /product="PII-like protein"
+                     /protein_id="BAD88531.1"
+                     /db_xref="GI:57999640"
+                     /translation="MSSPATAAAAAASCGVLRHHHPPASPRPPPTTTTTTSRLLLASR
+                     SRGLQRPLRVNHAPPRRLPPTAARAQSAAAAGYQPESEFYKVEAILRPWRVPYVSSGL
+                     LQMGIRGVTVSDVRGFGAQGGSTERHEGSEFAEDTFIDKVKMEIVVSKDQVEAVVDKI
+                     IEKARTGEIGDGKIFLIPVSDVIRIRTGERGERAERMAGGLADKLSSAMPIS"
+     3'UTR           653..868
+                     /gene="GLB1"
+ORIGIN      
+        1 cgacggttca atcatgtcgt cgccggcgac cgccgccgcc gccgccgcgt cctgtggcgt
+       61 cctccgccac caccatcctc cggcttcccc gcggcctcct cccaccacca ccaccaccac
+      121 ctcccgcctc ctcctcgcct cgcgctcgcg gggcctccag cggccactcc gagtcaacca
+      181 cgcgccccct cgtcgcctcc cgcccacggc cgcgcgcgcc cagagtgccg ccgcagcagg
+      241 gtaccagccg gagtcggagt tctacaaggt ggaggcaatc ctgaggccat ggagggtgcc
+      301 ttatgtgtca tcgggtttgc tgcaaatggg gatcagaggc gtgacggtgt ccgacgtgcg
+      361 gggtttcggc gcacagggcg ggtcaactga gaggcatgaa gggtcagaat ttgcagaaga
+      421 tacatttatt gataaagtta agatggaaat agtggtgtcc aaggatcagg ttgaagctgt
+      481 tgttgacaag ataattgaaa aggcaagaac aggagaaatt ggtgatggaa aaatattttt
+      541 gatacccgtg tcggacgtga tcagaatacg caccggcgaa cgaggggagc gagcggagag
+      601 gatggccgga gggctggcgg acaagctgtc ctcagcaatg ccgatctcat gagagagcat
+      661 gtttcctgta ggtaccacta ctgcactccc ctgttgatta gtgatgatga tgatcatgcc
+      721 tgtgtgaact ccagcagcaa taataaagct ggaacgtaat gcccctccag tccagggctc
+      781 caggcatctt acactgaaaa tgttgttgcc agaaacaaac tcatgaactg gatttcatta
+      841 tgaacaaaga tgggggaaat tcatgtga
+//
+

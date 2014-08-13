@@ -1,0 +1,63 @@
+LOCUS       AJ302060                 888 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for glycine rich RNA binding protein (grp5 gene).
+ACCESSION   AJ302060
+VERSION     AJ302060.1  GI:18103930
+KEYWORDS    glycine rich RNA binding protein; grp5 gene.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Agarwal,M., Sahi,C. and Grover,A.
+  TITLE     Isolation and characterisation of mRNA of a novel Glycine rich RNA
+            binding protein OsGrp5
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 888)
+  AUTHORS   Agarwal,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2001) Agarwal M., University of Delhi South
+            Campus, Department of Plant Molecular Biology, Benito Juarez Road,
+            New Delhi-110021, Delhi, INDIA
+FEATURES             Location/Qualifiers
+     source          1..888
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pusa 169"
+                     /db_xref="taxon:39946"
+     gene            1..888
+                     /gene="grp5"
+     CDS             102..686
+                     /gene="grp5"
+                     /codon_start=1
+                     /product="glycine rich RNA binding protein"
+                     /protein_id="CAC83314.1"
+                     /db_xref="GI:18103931"
+                     /db_xref="GOA:Q8VXC4"
+                     /db_xref="HSSP:1FXL"
+                     /db_xref="InterPro:IPR000504"
+                     /db_xref="InterPro:IPR012677"
+                     /db_xref="InterPro:IPR015465"
+                     /db_xref="UniProtKB/TrEMBL:Q8VXC4"
+                     /translation="MAAPDVEYRCFVGGLAWATDDRSLEAAFSTYGEILESKIINDRE
+                     TGRSRGFGFVTFSSEQAMRDAIEGMNGKELDGRNITVNEAQSRRSGGGGGGGYGQRGG
+                     GGGYGGGGYGGGGGGGGYGQRREAATAVAVATVAAVVAAATVVATAAAAAATPTGTGG
+                     TERWGPHGQVIYLSNRATIIIIRSLSSLVLCGTI"
+ORIGIN      
+        1 ggcacgagca gaggtgggtt ggcttctcct ccccctcccg gttcggttcg ggtccggttc
+       61 gatttcggtt ttttcttcgg ttcgggggtt ggtgggaaag catggcggcg ccggatgttg
+      121 agtaccgctg cttcgtcggc ggcctcgcct gggccaccga cgaccgctcc ctcgaagccg
+      181 ccttctccac ctacggcgag atcctcgagt ccaagatcat caacgatcgg gagacgggga
+      241 ggtcgcgcgg gttcgggttc gtgacgttct cgagcgagca ggccatgcgc gacgccatcg
+      301 aggggatgaa cggcaaggag ctcgacggcc gcaacatcac cgttaacgag gcccagtcgc
+      361 gccgctccgg aggcggaggc ggcggtggct acggccagcg cggcggaggc ggaggctacg
+      421 gtggcggcgg ctacggtggt ggtggcggcg gcggtggcta cggccagcgc cgtgaagcgg
+      481 ctacggcggt ggcggtggct acggtggcgg ccgtggtggc ggcagctacg gtggtggcta
+      541 cggcagccgc ggcggcggca actccgacgg gaactggagg aactgagcgg tggggccctc
+      601 atggccaagt tatctatcta tctaatcgag ctaccatcat catcatccga tcgttatcat
+      661 cgttagtttt gtgtggaact atctagtttg tgttaactgt gtggttgccc atctgtgttt
+      721 ttgatcgcaa gaagaaagct cgtctcgttt gctttgatca aatgaatgaa tgaatgaatc
+      781 ttagtgtgct ccgctctcgt caaatccatc gaattattta atttgtcatg gttgtgaatc
+      841 ttggttgccc tggaatgaat cataaccagt caaaaaaaaa aaaaaaaa
+//
+

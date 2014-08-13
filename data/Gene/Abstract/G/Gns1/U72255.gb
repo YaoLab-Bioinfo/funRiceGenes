@@ -1,0 +1,101 @@
+LOCUS       OSU72255                2187 bp    DNA     linear   PLN 27-JUN-2000
+DEFINITION  Oryza sativa beta-1,3-glucanase precursor (Gns9) gene, complete
+            cds.
+ACCESSION   U72255
+VERSION     U72255.1  GI:4097947
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2187)
+  AUTHORS   Romero,G.O., Simmons,C., Yaneshita,M., Doan,M., Thomas,B.R. and
+            Rodriguez,R.L.
+  TITLE     Characterization of rice endo-beta-glucanase genes (Gns2-Gns14)
+            defines a new subgroup within the gene family
+  JOURNAL   Gene 223 (1-2), 311-320 (1998)
+   PUBMED   9858757
+REFERENCE   2  (bases 1 to 2187)
+  AUTHORS   Romero,G.O., Simmons,C.R. and Rodriguez,R.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-SEP-1996) Molecular and Cellular Biology, University
+            of California at Davis, Davis, CA 95616, USA
+FEATURES             Location/Qualifiers
+     source          1..2187
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /strain="M202"
+                     /db_xref="taxon:39947"
+     gene            <956..>2187
+                     /gene="Gns9"
+     mRNA            join(<956..1028,1127..>2187)
+                     /gene="Gns9"
+                     /product="beta-1,3-glucanase precursor"
+     CDS             join(956..1028,1127..2187)
+                     /gene="Gns9"
+                     /codon_start=1
+                     /product="beta-1,3-glucanase precursor"
+                     /protein_id="AAD10386.1"
+                     /db_xref="GI:4097948"
+                     /translation="MALPGGLRALILAVALPLLFLSASEAGTVGINYGRVANDLPNPA
+                     AVVQLMKQQGIAQVKLYDTEPTVLRALANTGIKVVVALPNEQLLAAASRPSYALAWVR
+                     RNVAAYYPATQIQGIAVGNEVFASAKNLTAQLVPAMTNVHAALARLSLDKPVKVSSPI
+                     ALTALAGSYPPSAGVFREDLAQAVMKPMLDFLAQTGSYLMVNAYPFFAYSGNTDVISL
+                     DYALFRPNAGVLDSGSGLKYYSLLDAQLDAVFTAVSKLGNYNAVRVVVSETGWPSKGD
+                     AKETGAAAANAAAYNGNLVRRVLSGNARTPRRPDADMDVYLFALFNENQKPGPTSERN
+                     YGVFYPNQQKVYDVEFVLGGNSLAAAAAAARTTAGSAGRTTAG"
+     sig_peptide     join(956..1028,1127..1137)
+                     /gene="Gns9"
+     mat_peptide     1138..2184
+                     /gene="Gns9"
+                     /product="beta-1,3-glucanase"
+     exon            <956..1028
+                     /gene="Gns9"
+                     /number=1
+     intron          1029..1126
+                     /gene="Gns9"
+                     /number=1
+     exon            1127..>2187
+                     /gene="Gns9"
+                     /number=2
+ORIGIN      
+        1 ggatccaggg gacttaactt tagtccatat atttagacac taatttagag tattaaatat
+       61 aaattactta caaaactaat tcaataaatg aaagctaatt tgcgagacaa attttttatg
+      121 tttaattaat ccataattag agaatgttta ctgtagcatc acatagacta atcatggatt
+      181 aattaggctc aatagattcg tctcgtgaat tagtccaaga ttatggatgg attttattaa
+      241 tagtctacgt ttaatattta taattagtgt tcaaacatcc gatgtgatag ggacttaaaa
+      301 agtttagtcc catctaaaca gggccacagt ctatgtggag catgttcacc gaacaccgat
+      361 aaatattgca aagcccagaa tgattttggt cccacatgcc agaaactacc acacccacat
+      421 ttcggttcat tttcagctca ggaaaatcgt ccaacaattt cagctcagga aattaaatcg
+      481 tccgagaaag gaacaagttt ggagccgttg ggatgagagc aattaggtca cgcttaacta
+      541 caagtacagt ctcattcatc gacattgatt agccagcaac taaccactta accccgagcc
+      601 agcccaagcg ctccgtacgt tcgttgggcc cccgccgcgc aggcggagac aacggtcatc
+      661 cggcgcgccg gtcgctctcc ctcgctcgca cggccgcacc acccacttcg ccacgaaccc
+      721 gacgcgagcg cgacgtgcat ctcccaacat ccccgccatt tcctccccac ccaaaaccaa
+      781 cccgcccgcg tgcggctggc ccactttaca gcgcctcacc tcccccaacc ataaatcccc
+      841 gcccttttcc ccccctctcc accactcacc acgctctcca ctacacgact cgtcgccgtc
+      901 ttgctctgct gcctctcgcg cccgcgcagc agtgagcagc agcaagagca gcaaaatggc
+      961 tctacccggg ggcctccgcg ccctcatcct cgccgttgca ttgccgctgc tcttcctgtc
+     1021 cgcttcaggt aacgagagat ttggcaatgc aggtggttta gtggagagta gtgtggttga
+     1081 ttggtggaga gtagtgtggt tgattgttgg gttggtttgg ttacagaggc gggcacggtg
+     1141 gggatcaact atgggagggt ggcgaacgac ctgcccaacc cggcggcggt ggtgcagctg
+     1201 atgaagcagc agggcatcgc gcaggtgaag ctgtacgaca ccgagccgac cgtgctgcgg
+     1261 gcgctggcca acaccggcat caaggtggtg gtcgcgctgc ccaacgagca gctgctcgcc
+     1321 gcggcgtcgc gcccgtcgta cgcgctcgcc tgggtgcgcc gcaacgtcgc agcgtactac
+     1381 ccggccacgc agatccaggg catcgccgtc gggaacgagg tgttcgcctc ggccaagaac
+     1441 ctcacggcgc agctcgtccc ggcgatgacc aacgtgcacg ccgcgctggc gaggctcagc
+     1501 cttgacaagc ccgtcaaggt gtcgtccccc atcgcgctca ccgcgctcgc cggctcgtac
+     1561 ccgccgtcgg ccggcgtgtt ccgggaggac ctcgcccagg cggtcatgaa gcccatgctc
+     1621 gacttcctcg cgcagaccgg ctcgtacctc atggtgaacg cgtacccgtt cttcgcgtac
+     1681 tctggcaata ctgacgtcat ctccctcgac tacgcgctgt tccgccccaa cgccggcgtg
+     1741 ctcgactccg ggagcggcct caagtactac agcctcctcg acgcccagct cgacgccgtg
+     1801 ttcaccgcgg tgagcaagct tgggaactac aatgccgtgc gcgtcgtggt gtcggagacc
+     1861 gggtggccgt ccaagggtga cgccaaggag accggcgccg cggcggccaa cgccgcggcc
+     1921 tacaacggca acctggtgcg ccgcgtcctc tccggcaacg ccagaacgcc gcgccgcccc
+     1981 gacgccgaca tggacgtgta cctcttcgct ctcttcaacg agaaccagaa acccggaccg
+     2041 acctccgagc gcaactacgg cgtgttctac ccgaaccagc agaaggtcta cgacgtcgag
+     2101 ttcgtcctcg gcggcaactc gctggcggcg gcggcagcag cggcaaggac aacggcgggc
+     2161 tcggctggca ggacaacggc ggggtaa
+//
+

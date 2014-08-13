@@ -1,0 +1,60 @@
+LOCUS       AY226827                1018 bp    mRNA    linear   PLN 31-DEC-2003
+DEFINITION  Oryza sativa (indica cultivar-group) small GTP binding protein
+            (Rab7) mRNA, complete cds.
+ACCESSION   AY226827
+VERSION     AY226827.1  GI:29293693
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1018)
+  AUTHORS   Nahm,M.Y., Kim,S.W., Yun,D., Lee,S.Y., Cho,M.J. and Bahk,J.D.
+  TITLE     Molecular and biochemical analyses of OsRab7, a rice Rab7 homolog
+  JOURNAL   Plant Cell Physiol. 44 (12), 1341-1349 (2003)
+   PUBMED   14701929
+REFERENCE   2  (bases 1 to 1018)
+  AUTHORS   Nahm,M. and Bahk,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2003) Biochemistry, Division of Applied Life
+            Science, Graduate School of Gyeongsang National University, 900
+            Gajwa-dong, Jinju-si, Gyeongnam-do 660-701, Korea
+FEATURES             Location/Qualifiers
+     source          1..1018
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+     gene            1..1018
+                     /gene="Rab7"
+                     /note="OsRab7"
+     CDS             66..686
+                     /gene="Rab7"
+                     /codon_start=1
+                     /product="small GTP binding protein"
+                     /protein_id="AAO67728.1"
+                     /db_xref="GI:29293694"
+                     /translation="MASRRRTLLKVIILGDTGVGKTSLMNQYVNKKFSNQYKATIGAD
+                     FLTKEVQFEDRLFTLQIWDTAGQERFQSLGVAFYRGADCCVLVYDVNSMKSFDNLNNW
+                     REEFLIQASPSDPDNFPFVLLGNKVDVDSGNSRVVSEKKAKAWCASKGNIPYFETSAK
+                     DGTNVEEAFQCIVKNALKNEPEEELYVPDTVDVVGGNRAPRSSGCC"
+ORIGIN      
+        1 tcctcctctt ccccttcccc gcgccgcgcg agatcgctcc ccccgggggc agcagctaga
+       61 tcccgatggc ttcgcgccgc cgcaccctcc tcaaggtcat catcctcggc gacacggggg
+      121 ttgggaagac gtccctgatg aaccaatatg tgaacaagaa gttcagcaac cagtacaagg
+      181 ctacgattgg cgcggatttc ctcaccaagg aggttcagtt cgaggatagg ctcttcactt
+      241 tgcaaatatg ggatactgct ggccaggaaa ggtttcagag tcttggtgtt gcattctacc
+      301 gtggagcaga ttgctgtgtt ctagtttatg atgtcaattc tatgaagtca tttgataatc
+      361 ttaacaactg gcgtgaagaa tttctaattc aggcaagccc atcagaccct gataacttcc
+      421 cttttgttct tttgggcaac aaagttgatg tagacagtgg caacagccgt gtggtctctg
+      481 agaagaaggc aaaggcatgg tgtgcctcta aagggaatat cccatacttt gagacatctg
+      541 ccaaggatgg tacaaacgtg gaggaggctt tccagtgcat tgtaaagaat gctctgaaga
+      601 atgaaccaga ggaagaactg tatgtgccgg acaccgtgga tgtggtgggt ggcaaccggg
+      661 ccccaagatc atcaggctgc tgctagaaca tgatggacca tgagggctga gactgttggc
+      721 tatgcggtaa cagaactacc tttggacatt gctgtgcctc catggtgact ctcaaggacc
+      781 cattcgtaac cttttcaatc acctcatgta cccagttaag attgatgcgt ctggcctgag
+      841 ttgtcaaatt tgtggatgtt gtgcaattta tcagtagcgt catatctttg tgaatacaat
+      901 cggtgaaata agtcgagtgt aaactgaagt ttctccatta tggttctctc tgaaacgaac
+      961 aagatgaaat tgttctgtct gcattgaggc tgaaaaaaaa aaaaaaaaaa aaaaaaaa
+//
+

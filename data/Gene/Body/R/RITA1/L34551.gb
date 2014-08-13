@@ -1,0 +1,67 @@
+LOCUS       RICRITA1A               1226 bp    mRNA    linear   PLN 28-OCT-1994
+DEFINITION  Oryza sativa transcriptional activator protein (RITA-1) mRNA,
+            complete cds.
+ACCESSION   L34551
+VERSION     L34551.1  GI:556408
+KEYWORDS    transcriptional activator protein.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1226)
+  AUTHORS   Izawa,T., Foster,R., Nakajima,M., Shimamoto,K. and Chua,N.H.
+  TITLE     The rice bZIP transcriptional activator RITA-1 is highly expressed
+            during seed development
+  JOURNAL   Plant Cell 6 (9), 1277-1287 (1994)
+   PUBMED   7919992
+COMMENT     Original source text: Oryza sativa cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..1226
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /dev_stage="seedling"
+     gene            1..1226
+                     /gene="RITA-1"
+     CDS             181..1077
+                     /gene="RITA-1"
+                     /codon_start=1
+                     /product="transcriptional activator protein"
+                     /protein_id="AAC37418.1"
+                     /db_xref="GI:556409"
+                     /translation="MKKCPSELNFEAFFHGERGEDDADAAADQKPGGGPHPPPFAMFS
+                     AADLSSFGFADSVTSTITGVIPNHIWPQSQSLNARHPAVYTIESQSSICAAASPTSAT
+                     TLNMKESQTLGGTSGSDSDSESLLDIEGGPCEQSTNPLDVKRMRRMVSNRESARRSRK
+                     RKQAHLADLETQVDQLRGENASLFKQLTDANQQFTTAVTDNRILKSDVEALRVKVKMA
+                     EDMVARGALSCGLGHLGGLSPALNPRQGACRVPDVLTGLDYAGDDPFTGLSPPEQVQM
+                     PGGGEVGDAWGWDNHSNGAMSK"
+     misc_binding    607..834
+                     /gene="RITA-1"
+                     /bound_moiety="basic DNA binding domain; leucine zipper
+                     protein dimerization domain"
+                     /function="bZIP domain"
+ORIGIN      
+        1 gggcagctca gctttgtggg gggcgaaaaa gaggagcttt cccttctcct tcttctcctt
+       61 ctcctccctc ggtgatctgc ctcgctgggg catctctaaa agcatccgac tccgacgcca
+      121 ccaccaccag ttcaccacct ctggaagaat cagcagcagc agcagagacc acacgaggag
+      181 atgaagaagt gcccgtcgga gctgaacttc gaggcgttct tccacggcga gaggggggag
+      241 gacgacgccg acgccgccgc cgaccagaag cccggcggcg gcccgcaccc gccgccgttc
+      301 gccatgttct ccgccgccga cctctccagc ttcggcttcg cggactcggt gacgagcacc
+      361 atcactgggg tcattcccaa tcacatatgg ccccagtccc agagcctcaa cgcacggcat
+      421 cctgcagtct acacaattga gtcgcaatca tcaatctgtg cagcagcaag tcccacgtca
+      481 gctaccactc tgaacatgaa ggagagccaa actctgggag gcacaagtgg ttcagattct
+      541 gacagtgagt cgctgttgga tatagagggc ggtccatgcg aacaaagcac aaacccactg
+      601 gacgttaaga gaatgagaag gatggtttcc aaccgggagt ctgctcgtcg atcaaggaag
+      661 agaaagcaag ctcacttagc tgatctcgag acgcaggttg accagctccg gggcgaaaac
+      721 gcatcgcttt tcaagcagtt gacagatgcc aatcagcaat tcacgacggc ggtcacggac
+      781 aacagaatcc tcaaatcaga cgtggaggcc ctccgggtca aggtgaagat ggcggaggac
+      841 atggtggcgc ggggggcgct gtcgtgcggc ctcggccacc tgggcgggct gtcgccggcg
+      901 ctgaaccccc ggcagggggc gtgccgcgtc cccgacgtgc tcaccgggct ggactacgcc
+      961 ggcgacgacc ccttcaccgg gctgtccccg ccggagcagg tgcagatgcc cggcggtggc
+     1021 gaggtgggtg acgcctgggg ctgggacaac cactccaatg gcgccatgtc caagtgaaaa
+     1081 ctacttctta ctgctttgtc agctcagcta cgtataaaaa tgtgatgtcc caagtgaacg
+     1141 gacttgagtt tttcagagtc ctcgtgtcgt gtcaagtgtc gtcctgtaat agaactgact
+     1201 agctatatat agtacacagt atttgg
+//
+

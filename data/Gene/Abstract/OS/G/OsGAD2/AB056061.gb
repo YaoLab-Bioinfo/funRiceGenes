@@ -1,0 +1,91 @@
+LOCUS       AB056061                1781 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group GAD mRNA for glutamate decarboxylase,
+            complete cds, clone:OsGAD2.
+ACCESSION   AB056061
+VERSION     AB056061.1  GI:13111469
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Akama,K., Akihiro,T., Kitagawa,M. and Takaiwa,F.
+  TITLE     Rice (Oryza sativa) contains a novel isoform of glutamate
+            decarboxylase that lacks an authentic calmodulin-binding domain at
+            the C-terminus
+  JOURNAL   Biochim. Biophys. Acta 1522 (3), 143-150 (2001)
+   PUBMED   11779628
+REFERENCE   2  (bases 1 to 1781)
+  AUTHORS   Akama,K., Akihiro,T., Kitagawa,M. and Takaiwa,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-FEB-2001) Contact:Kazuhito Akama Shimane University,
+            Department of Biological Science; 1060 Nishikawatsu-chou, Matsue,
+            Shimane 690-8504, Japan
+FEATURES             Location/Qualifiers
+     source          1..1781
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="OsGAD2"
+                     /tissue_type="shoot"
+                     /clone_lib="lambda ZapII rice shoot cDNA"
+     gene            1..1781
+                     /gene="GAD"
+     CDS             66..1568
+                     /gene="GAD"
+                     /EC_number="4.1.1.15"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /codon_start=1
+                     /product="glutamate decarboxylase"
+                     /protein_id="BAB32869.1"
+                     /db_xref="GI:13111470"
+                     /translation="MVLTHVEAVEEGSEAAAAVFASRYVQDPVPRYELGERSISKDAA
+                     YQIVHDELLLDSSPRLNLASFVTTWMEPECDRLILEAINKNYADMDEYPVTTELQNRC
+                     VNIIARLFNAPVGDGEKAVGVGTVGSSEAIMLAGLAFKRRWQNRRKAAGKPHDKPNIV
+                     TGANVQVCWEKFARYFEVELKEVKLTEGCYVMDPVKAVDMVDENTICVAAILGSTLTG
+                     EFEDVRRLNDLLAAKNKRTGWDTPIHVDAASGGFIAPFIYPELEWDFRLPLVKSINVS
+                     GHKYGLVYAGVGWVIWRNKEDLPEELIFHINYLGADQPTFTLNFSKGSSQIIAQYYQF
+                     LRLGFEGYKSVMKNCMESARTLREGLEKTGRFTIISKEEGVPLVAFTFKDGAGAQAFR
+                     LSSGLRRYGWIVPAYTMPAALEHMTVVRVVVREDFGRPLAERFLSHVRMALDEMDLAA
+                     RAPVPRVQLTIELGPARTAGEEASIRVVKSEAVPVRKSVPLVAGKTKGVC"
+     polyA_site      1763
+                     /gene="GAD"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="18 a nucleotides"
+ORIGIN      
+        1 gagacaccaa tctcgtacgt agcatatcta catcgcagga acacccaaat cactcgtgcg
+       61 taggtatggt tctgacgcac gtcgaggcgg tggaggaggg cagcgaggcg gcggccgccg
+      121 tgttcgcgtc gaggtacgtg caggacccgg tgccgaggta cgagctcggc gagaggtcga
+      181 tatccaagga cgccgcgtac cagatcgtcc acgacgagct cctcctggac agcagcccgc
+      241 gcctgaacct ggcgtccttc gtcaccacct ggatggagcc cgagtgcgac aggctcatcc
+      301 tcgaggccat caacaagaac tacgccgaca tggacgagta ccccgtcacc accgagctcc
+      361 agaaccggtg cgtgaacatc atagcgaggc tgttcaatgc gccggtgggc gacggcgaga
+      421 aggcggtcgg ggtgggcacg gtggggtcgt cggaggccat aatgctggcc gggctggcgt
+      481 tcaagcggcg gtggcagaac cggcggaagg cggcggggaa gccccacgac aagcccaaca
+      541 tcgtgacggg ggccaacgtg caggtgtgct gggagaagtt cgcgcgctac ttcgaggtgg
+      601 agctcaagga ggtgaagctg accgaaggct gctacgtgat ggaccccgtc aaggccgtgg
+      661 acatggtcga cgagaacacc atctgcgtcg ccgccatcct cggctccacc ctcaccggcg
+      721 agttcgagga cgtcaggcgc ctcaacgacc tcctcgccgc caagaacaag cggacgggtt
+      781 gggacacgcc gatccacgtc gacgcggcga gcggcgggtt catcgcgccg ttcatctacc
+      841 cggagctgga gtgggacttc cggctgccgc tggtgaagag catcaacgtc agcggccaca
+      901 agtacgggct cgtctacgcc ggcgtcgggt gggtcatctg gcgcaacaag gaggacctcc
+      961 ccgaggagct catcttccac atcaactacc tcggcgccga ccagccaacc ttcacgctca
+     1021 acttctccaa agggtccagt cagattattg cgcaatatta ccagtttctt cgactcggat
+     1081 ttgaggggta caagagcgtg atgaagaact gcatggagag cgcgaggacg ctccgggagg
+     1141 gcctggagaa gacggggcgg ttcaccatca tctccaagga ggagggcgtg ccgctggtgg
+     1201 ccttcacgtt caaggacggc gccggcgcgc aggccttcag gctgtcgtcg ggcctgcgcc
+     1261 ggtacgggtg gatcgtgccg gcgtacacga tgccggcggc gctggagcac atgacggtcg
+     1321 tccgcgtcgt cgtccgggaa gacttcggcc ggccgctcgc cgagcggttc ctgtcccacg
+     1381 tcaggatggc cctggacgag atggacctcg ccgccagggc ccccgtgccc agggtgcagc
+     1441 tcaccatcga gctcggcccc gcccggaccg ccggcgagga ggcctcgatc agggtggtca
+     1501 agagcgaggc cgtgcccgtg cgcaagagcg tcccgctcgt cgccggcaaa accaagggcg
+     1561 tttgctagac cgggttaaat ttttttttaa aatactggtg ggaacacgac caaaataaaa
+     1621 tttcaaaatg ggagcgtact aaaccttctt tatgctacag taactatgta gtacaagcat
+     1681 gccgaaagtt aatcatcgtg tgtaatcgta ttagagtttg caacagcata ttataatgtg
+     1741 gagaagaaca cgcaagcgac atcaaaaaaa aaaaaaaaaa a
+//
+

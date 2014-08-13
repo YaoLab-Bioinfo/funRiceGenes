@@ -1,0 +1,58 @@
+LOCUS       AY525368                 988 bp    mRNA    linear   PLN 29-JUN-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) zinc finger protein LSD1
+            mRNA, complete cds.
+ACCESSION   AY525368
+VERSION     AY525368.1  GI:42406063
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 988)
+  AUTHORS   Wang,L., Pei,Z., Tian,Y. and He,C.
+  TITLE     OsLSD1, a rice zinc finger protein, regulates programmed cell death
+            and callus differentiation
+  JOURNAL   Mol. Plant Microbe Interact. 18 (5), 375-384 (2005)
+   PUBMED   15915636
+REFERENCE   2  (bases 1 to 988)
+  AUTHORS   Wang,L.-J. and He,C.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-2004) Laboratory of Plant Biotechnology,
+            Institute of Microbiology,Chinese Academy of Sciences, Beiyitiao
+            No.13, Zhongguancun, Beijing 100080, P.R.China
+FEATURES             Location/Qualifiers
+     source          1..988
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="8"
+     CDS             190..621
+                     /codon_start=1
+                     /product="zinc finger protein LSD1"
+                     /protein_id="AAS13688.1"
+                     /db_xref="GI:42406064"
+                     /translation="MPVPLAPYPTPPVPFTPPNGAQSQLVCSGCRNLLMYPAGATSVC
+                     CAVCSTVTAVPAPGTEMAQLVCGGCHTLLMYIRGATSVQCSCCHTVNLAMEANQVAHV
+                     NCGNCRMLLMYQYGARSVKCAVCNFVTSVGASPGIDQKPSS"
+ORIGIN      
+        1 tagagagagc tgtactaact gatgaactgc tctcatgcaa gccagattac cataaagatt
+       61 gggtcataag cactgttgtt agggtttctt tcttgtaggg aaaggaaagg tgatttcagt
+      121 tgcctgactg ctgccagaat ctgcgaagca tctacaagcg acgccgtcgt tcaggcagcc
+      181 ggcacggcaa tgccggttcc ccttgctcca tacccaaccc cgcctgtgcc atttacacct
+      241 cccaatgggg ctcaaagcca gctcgtgtgc tctgggtgcc gtaatctgct catgtatcca
+      301 gccggagcaa cgtcggtttg ctgcgcagtt tgcagtaccg tgactgctgt gcctgctcct
+      361 ggaaccgaga tggcgcagtt agtttgcgga ggatgccaca ctctcctgat gtatatacgc
+      421 ggtgcgacaa gtgtgcaatg ttcttgctgt cacactgtca acctggctat ggaagcaaat
+      481 caagttgcgc atgtaaactg cgggaactgc cgtatgctgc tcatgtacca gtatggcgca
+      541 aggtctgtca aatgcgcagt ctgcaatttt gtgacatcag ttggggcctc acctggtata
+      601 gaccagaagc ccagcagctg aactgctgaa gtgccataaa tattcagaaa agagcttctc
+      661 aaaccgatgc tttgagtgca catgtataga gttcttccct gaagcatttt ttttctccct
+      721 tttttatctc cctttccccc caattttcca cctttccttc cttggatatg gagagagcct
+      781 gcggaataaa tgagagtttt gctaaatacc tagtgctcaa aattcgtcga atcgtctgta
+      841 tgaccgaaca agattgacag attatataca taaacctatg ataatattta tgcattgctc
+      901 attgtttctg aataaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+      961 aaaaaaaaaa aaaaaaaaaa aaaaaaaa
+//
+

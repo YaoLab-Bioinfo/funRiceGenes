@@ -1,0 +1,47 @@
+LOCUS       CR291522                 511 bp    mRNA    linear   EST 10-JAN-2011
+DEFINITION  CR291522 Oryza sativa library (Han B) Oryza sativa cDNA clone
+            y758h05p5, mRNA sequence.
+ACCESSION   CR291522
+VERSION     CR291522.1  GI:44678088
+DBLINK      BioSample: LIBEST_015105
+KEYWORDS    EST.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 511)
+  AUTHORS   Han,B., Feng,Q., Huang,Y.C., Ying,K., Li,Y., Guan,J.P., Zhu,J.J.,
+            Zhao,Q., Hu,X., Liu,Y.L., Mu,J., Yu,Z., Chen,L., Fan,D.L.,
+            Weng,Q.J., Zhang,L., Lu,Y.Q., Yu,S.L., Liu,X.H., Lu,T.T.,
+            Zhang,Y.J., Lu,Y., Li,C., Li,T., Zhang,Y., Hu,H., Jia,P.X.,
+            Zhang,L., Lan,L.F., Chen,W., Wu,S.A. and Xue,Y.B.
+  TITLE     Rice cDNA EST clone
+  JOURNAL   Unpublished (2003)
+COMMENT     Contact: Han Bin
+            National Center for Gene Research
+            Chinese Academy of Sciences
+            500# Cao Bao Road, Shanghai 200233, China
+            Email: bhan@ncgr.ac.cn
+            Clone requests: bhan@ncgr.ac.cn
+             This is rice cdna est clone
+            Web site: http://www.ncgr.ac.cn.
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone="y758h05p5"
+                     /clone_lib="LIBEST_015105 Oryza sativa library (Han B)"
+ORIGIN      
+        1 ttaccgggaa tcggccatat ggccggggtt gtcccgaggt tatcaacaac aaaggatatg
+       61 atggagccaa ggctgatctg tggtcatgtg gagtgattct ctttgtcctc atggcaggct
+      121 accttccatt tgaagactca aacctcatgt cacttcacaa gaagatcttc aaagcagact
+      181 tcagttgccc gtcttggttc tctacaagtg cgaagaagct catcaagaaa atactagatc
+      241 ctaatcctag caccaggata accatcgcag agcttatcaa caatgagtgg ttcaagaagg
+      301 gatatcagcc tccaaggttt gagacagcag atgttaacct ggatgatatc aactctattt
+      361 ttaatgaatc tggggaccaa acacagcttg ttgtcgagag gcgagaaggg aggccatcag
+      421 tgatgaatgc ttttgagttg atctctacat ctcaagggtc tcaatcttgg ggacacatct
+      481 ttgaaaagca atcgcagggg ttctgtgaaa c
+//
+

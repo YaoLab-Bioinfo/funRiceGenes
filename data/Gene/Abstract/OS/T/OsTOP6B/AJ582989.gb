@@ -1,0 +1,102 @@
+LOCUS       AJ582989                2091 bp    mRNA    linear   PLN 04-DEC-2006
+DEFINITION  Oryza sativa Indica Group mRNA for putative topoisomerase VI
+            subunit B (topo6B gene).
+ACCESSION   AJ582989
+VERSION     AJ582989.1  GI:53124894
+KEYWORDS    topo6B gene; Topoisomerase VI subunit B.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Jain,M., Tyagi,A.K. and Khurana,J.P.
+  TITLE     Overexpression of putative topoisomerase 6 genes from rice confers
+            stress tolerance in transgenic Arabidopsis plants
+  JOURNAL   FEBS J. 273 (23), 5245-5260 (2006)
+   PUBMED   17116242
+REFERENCE   2
+  AUTHORS   Jain,M. and Khurana,J.P.
+  TITLE     Isolation and characterization of the topoisomerase VI subunit B
+            gene from rice (Oryza sativa Indica)
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2091)
+  AUTHORS   Jain,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2003) Jain M., Department of Plant Molecular
+            Biology, University of Delhi South Campus, Benito Juarez Marg, New
+            Delhi-110021, INDIA
+FEATURES             Location/Qualifiers
+     source          1..2091
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pusa Basmati 1"
+                     /db_xref="taxon:39946"
+     gene            1..2091
+                     /gene="topo6B"
+     CDS             1..2091
+                     /gene="topo6B"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="putative topoisomerase VI subunit B"
+                     /protein_id="CAE47077.1"
+                     /db_xref="GI:53124895"
+                     /db_xref="GOA:Q5ZPR4"
+                     /db_xref="InterPro:IPR003594"
+                     /db_xref="InterPro:IPR010979"
+                     /db_xref="InterPro:IPR014721"
+                     /db_xref="InterPro:IPR015320"
+                     /db_xref="InterPro:IPR020568"
+                     /db_xref="UniProtKB/TrEMBL:Q5ZPR4"
+                     /translation="MDDDAGDGAASGGTKRKVTAASSSAAAKGKAAGKGKAASKASAL
+                     ATAKESSLLKQKSPAEFFAENKNIAGFDNPGKSLYTTMRELVENALDSAESISELPDI
+                     EIIIEEITKSKFNTMIGLVDRQRIDEELYDDFESAKAREKRLAKEARFQETQAKNAAL
+                     GKKVKEAPAARGKGRGEAAFFGVTCKDNGRGMPHDDIPNMLGRVLSGTKYGLRQTRGK
+                     FGLGAKMALIWSKMSTGLPIEIKSSMKGQNFISFCRLDIDIHKNVPHVHLHEKRENKD
+                     RWHGAELQVIIEGNWTTHRSKILHYMRQMAVITPYAQFLFRFLSDSPDKNLTIQFARR
+                     TDVMPPIPLQTKHHPSAVDLLLIKRLISETTKQNLLQFLQHEFVNISKSHAERLIGEM
+                     GPDFSAKTTVKSLTSQQLVRIHQLFRQAKFDDPSGNCLSPAGEYNLRLGIIKELHPDL
+                     VATHASSPQVFEGHPFIVEAGISIGGKDVKHGLNIFRYANRIPLLFEQGADVITRTAL
+                     KRINWSSYKINQQQDKIGVFVSIVSTKIPFKGTGKEYIGDDITEIASAVQSALKQCCL
+                     QLKSKIVKKLQARERQDRKRNLNRYIPDVARAIMETLGEIADESPPKRPHYDKEDEEL
+                     LEKVNSEEVTEMTFRDCLTQHVEQVDYEMALEYAMQSGVSEEPREALYLNSLEGSYKF
+                     IDFQSPVFVFRFIP"
+ORIGIN      
+        1 atggacgacg acgctggcga cggcgccgct agcggcggga caaagaggaa ggtcactgcg
+       61 gcgtcgtcgt cggcggcggc gaaggggaag gcggcgggga aagggaaggc cgcctctaag
+      121 gcgtcggcgt tggccacggc caaggagagc agcctcctca agcagaagtc gcctgctgaa
+      181 ttcttcgcgg agaacaagaa catcgcgggg tttgacaatc ctggaaagtc actgtacaca
+      241 acgatgcggg agctagttga gaatgccctt gattcagccg agtccatctc tgagctccct
+      301 gacatagaaa ttataataga agagatcacg aagagcaagt tcaacacaat gatagggcta
+      361 gttgatcgac agcgtattga tgaagagctc tatgatgact ttgaatcggc taaggctcgt
+      421 gagaaacgcc ttgccaaaga agcacgcttc caagaaacac aagccaaaaa tgctgctctt
+      481 gggaagaagg ttaaggaggc tccagctgct cgagggaaag gtcggggtga ggctgcattt
+      541 tttggggtga cttgcaagga taatggtcga ggtatgccac atgatgatat cccaaatatg
+      601 cttggtagag tgttatcggg cacaaagtat ggtttgaggc aaacacgtgg aaaatttggt
+      661 cttggtgcta aaatggcact tatatggtca aagatgagca caggccttcc tattgagatt
+      721 aagtcatcaa tgaaaggcca gaattttatt tcattttgtc gtcttgatat cgatattcat
+      781 aagaatgtcc ctcatgttca tttacatgag aaaagggaga ataaagatcg ctggcatggg
+      841 gcggagcttc aagttataat tgaggggaat tggacaactc atcgttcaaa gatactacat
+      901 tacatgcgtc agatggctgt catcacacca tacgctcaat tcctttttag atttctctca
+      961 gactcacccg acaaaaattt gacaatacag tttgcacgga ggacagatgt tatgcctcct
+     1021 attcctcttc aaactaagca tcatccttct gctgttgatt tactgctgat aaagcgctta
+     1081 atatcagaga ctacaaagca aaaccttttg cagttcctcc aacatgagtt tgtgaatatt
+     1141 agcaaatctc atgctgaacg tttgatcggg gagatggggc ctgatttcag tgcaaaaacg
+     1201 acagttaaga gtcttacatc acagcaatta gttcggatac atcagttatt tcggcaggca
+     1261 aaatttgatg atcccagtgg caattgtctt agtcctgcag gtgaatacaa tttacgtcta
+     1321 ggtatcataa aagagctgca ccctgatcta gttgctacgc atgcaagcag cccacaggtt
+     1381 tttgaaggtc atccattcat cgttgaagct ggaataagta ttggtggaaa agatgttaaa
+     1441 catggtctaa acatttttag atatgcgaac cgaatcccac ttctctttga acaaggtgct
+     1501 gatgtcatca caagaactgc tttaaaaaga atcaattgga gcagctacaa aataaatcaa
+     1561 cagcaggaca agattggtgt ctttgttagc attgtaagta caaagatacc ttttaaagga
+     1621 actggaaaag agtacattgg ggatgacata accgaaatag catctgctgt tcagtcagcc
+     1681 cttaagcagt gttgtcttca actgaagtca aagatagtaa agaaactaca ggctcgtgaa
+     1741 cggcaggaca ggaaaaggaa cctaaacaga tacattcctg atgttgcgag ggcaattatg
+     1801 gagactctgg gagagattgc agatgagtct cccccaaaga ggccacatta tgataaggaa
+     1861 gatgaggaac tccttgagaa agtaaattct gaggaggtga cagagatgac ctttagggat
+     1921 tgcttaacac aacatgttga acaggttgat tatgaaatgg cattggagta cgccatgcag
+     1981 agtggagtaa gcgaggaacc tcgtgaagca ttatatttaa actcccttga aggatcttac
+     2041 aagtttatcg atttccagag ccctgttttt gtgttcagat ttattccttg a
+//
+

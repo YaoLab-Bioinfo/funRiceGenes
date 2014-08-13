@@ -1,0 +1,72 @@
+LOCUS       AB037595                1275 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsGS1;1 mRNA for cytosolic glutamine
+            synthethase 1;1, complete cds.
+ACCESSION   AB037595
+VERSION     AB037595.1  GI:7804486
+KEYWORDS    cytosolic glutamine synthethase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kojima,S., Hanzawa,S., Hayakawa,T., Hayashi,M. and Yamaya,T.
+  TITLE     Nucleotide sequence of a genomic DNA (Accession No. AB037664) and a
+            cDNA (Accession No. AB037595) encoding cytosolic glutamine
+            synthetase in Sasanishiki, a leading cultivar of rice in northern
+            Japan (PGR00-048)
+  JOURNAL   Plant Physiol. 122, 1459 (2000)
+REFERENCE   2  (bases 1 to 1275)
+  AUTHORS   Kojima,S., Hayakawa,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JAN-2000) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultual Science, Dept. of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1275
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+     gene            1..1275
+                     /gene="OsGS1;1"
+     CDS             10..1080
+                     /gene="OsGS1;1"
+                     /codon_start=1
+                     /product="cytosolic glutamine synthethase 1;1"
+                     /protein_id="BAA95679.1"
+                     /db_xref="GI:7804487"
+                     /translation="MASLTDLVNLNLSDTTEKIIAEYIWIGGSGMDLRSKARTLSGPV
+                     TDPSKLPKWNYDGSSTGQAPGEDSEVILYPQAIFKDPFRKGNNILVMCDCYTPAGEPI
+                     PTNKRHNAAKIFSSPEVASEEPWYGIEQEYTLLQKDINWPLGWPVGGFPGPQGPYYCG
+                     IGADKSFGRDIVDSHYKACLYAGINISGINGEVMPGQWEFQVGPSVGISAGDQVWVAR
+                     YILERITEIAGVVVSFDPKPIPGDWNGAGAHTNYSTKSMRNDGGYEIIKSAIEKLKLR
+                     HKEHISAYGEGNERRLTGRHETADINTFSWGVANRGASVRVGRETEQNGKGYFEDRRP
+                     ASNMDPYIVTSMIAETTIIWKP"
+ORIGIN      
+        1 tcgtccgcca tggcttctct caccgatctc gtcaacctca acctctccga caccacggag
+       61 aagatcatcg ccgagtacat atggatcggt ggatctggca tggatctcag gagcaaggct
+      121 aggactctct ccggccctgt gactgatccc agcaagctgc ccaagtggaa ctacgatggc
+      181 tccagcaccg gccaggcccc cggcgaggac agtgaggtca tcctgtaccc acaggctatc
+      241 ttcaaggacc cattcaggaa gggaaacaac atccttgtca tgtgcgattg ctacacgcca
+      301 gccggagaac cgatccccac caacaagagg cacaatgctg ccaagatctt cagctcccct
+      361 gaggttgctt ctgaggagcc ctggtacggt attgagcaag agtacaccct cctccagaag
+      421 gacatcaact ggccccttgg ctggcctgtt ggtggcttcc ctggtcctca gggtccttac
+      481 tactgtggta tcggtgctga caagtctttt gggcgtgata ttgttgactc ccactacaag
+      541 gcttgcctct atgccggcat caacatcagt ggaatcaacg gcgaggtcat gccaggacag
+      601 tgggagttcc aagttggccc gtctgtcggc atttctgccg gtgatcaggt gtgggttgct
+      661 cgctacattc ttgagaggat caccgagatc gccggagtcg tcgtctcatt tgaccccaag
+      721 cccatcccgg gagactggaa cggtgctggt gctcacacca actacagcac caagtcgatg
+      781 aggaacgatg gtggctacga gatcatcaag tccgccattg agaagctcaa gctcaggcac
+      841 aaggagcaca tctccgccta cggcgagggc aacgagcgcc ggctcaccgg caggcacgag
+      901 accgccgaca tcaacacctt cagctgggga gttgccaacc gcggcgcctc ggtccgcgtc
+      961 ggccgggaga cggagcagaa cggcaagggc tacttcgagg atcgccggcc ggcgtccaac
+     1021 atggaccctt acatcgtcac ctccatgatc gccgagacca ccatcatctg gaagccctga
+     1081 agcggcttct tgacgccacg acatcctcgt catcgtcctc cccagctcgc cgtgtcgctc
+     1141 cggttgctcc attgatcgga cgatctggtg aattgcattt gtgctgggag aagtaaaaaa
+     1201 aaaaggaaag agaaaaaaaa gaaaatcacg ccaaaaaaaa ttctcattcc atttcgattt
+     1261 ggttgcatgc tacca
+//
+

@@ -1,0 +1,67 @@
+LOCUS       AB185280                1277 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsOBF1 mRNA for bZIP protein, complete
+            cds.
+ACCESSION   AB185280
+VERSION     AB185280.1  GI:71061097
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Shimizu,H., Sato,K., Berberich,T., Miyazaki,A., Ozaki,R., Imai,R.
+            and Kusano,T.
+  TITLE     LIP19, a basic region leucine zipper protein, is a Fos-like
+            molecular switch in the cold signaling of rice plants
+  JOURNAL   Plant Cell Physiol. 46 (10), 1623-1634 (2005)
+   PUBMED   16051676
+REFERENCE   2  (bases 1 to 1277)
+  AUTHORS   Kusano,T., Shimizu,H. and Imai,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2004) Contact:Tomonobu Kusano Tohoku University,
+            Graduate School of Life Sciences; 2-1-1 Katahira, Aoba, Sendai,
+            Miyagi 980-8577, Japan
+FEATURES             Location/Qualifiers
+     source          1..1277
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Yukihikari"
+                     /db_xref="taxon:39947"
+                     /dev_stage="seedling"
+     gene            1..1277
+                     /gene="OsOBF1"
+     CDS             532..969
+                     /gene="OsOBF1"
+                     /codon_start=1
+                     /product="bZIP protein"
+                     /protein_id="BAE16260.1"
+                     /db_xref="GI:71061098"
+                     /translation="MSSSSLSPAGSSDGDSAGVVVAADHRREKRRLSNRESARRSRLR
+                     KQQHLDELVQEVARLQADNARVLARASEIAGQYARVEQENTVLRARAAELGDRLRSVN
+                     EVLRVVEEFSGVAMDIQEECPPDDPLLRPWQIPCPAAAHMLQY"
+ORIGIN      
+        1 tctttgattt gggtggttgc cattcatctc catctctcga tccatttctc cccccaaatt
+       61 cttctccaat cagctcgatt ccgtcctctt cgagcagatc agctcccgct gatcgaatcg
+      121 gtgtcgaatt ttggttgtgg ttgctgttct tgggttggat cttggtggtg agaaagatcg
+      181 tgatttttgt tgttgggatt tgggaggaat tgtttgcgct ggagggagga gttgagctcg
+      241 ctggccatgg tttgccgagg cgagcagaga agaaatctct gagctttatg aagatcgcca
+      301 ctcacctgcg ccgctcctgc ttcctccact ccttctcggt tgtcttcctc tactggtttt
+      361 atgtgatctc ataattctgg gggaatcatc ttctccgcgt caatccgcca ttgttactag
+      421 tagtagtaga gctctcttgt tgttgttctt cttcttcgtg ttcttcttcg gttgattaaa
+      481 taatcgtagc agcagaagaa gcagctgttt gtagacaagg tgtttgtgga aatgtcgtcg
+      541 tcgtcgctgt cgccggcggg gtcgtcggac ggggactcgg cgggggtggt ggtggcggcg
+      601 gaccaccgga gggagaagcg gcggctgtcg aacagggagt cggcgaggcg gtcgcggctg
+      661 cggaagcagc agcacctgga cgagctggtg caggaggtgg cgaggctgca ggcggacaac
+      721 gcgcgcgtgc tggcgcgcgc cagcgaaatc gccgggcagt acgcgcgcgt ggagcaggag
+      781 aacacggtgc tccgggcgcg cgccgccgag ctcggcgaca ggctgcgcag cgtcaacgag
+      841 gtgctccgcg tcgtcgagga gttcagcggc gtcgccatgg acatccagga ggagtgcccc
+      901 cccgacgacc cgctgctccg gccatggcag atcccctgcc ccgccgccgc gcacatgctc
+      961 cagtactgaa cgaacgccgc gccatgggag agtgagctct gagctaagct gtggttggca
+     1021 tcaagaagtc ttcatctttt ttcttctctt ggctgctttg agaatttcaa ggctttaatc
+     1081 tgctgctgct ctatggtctt cttctactac tcttctgatg atgattttgt gtctgaataa
+     1141 gtgatggtct tttgtctgtg tccatgtggt gttttgtaag ggttaattat gttgtttgtg
+     1201 ttatgtaatg ttataaacta tgtcattata tcaattcctc ttgtgatcat caatgtaaaa
+     1261 ttgcgttgga aattcaa
+//
+

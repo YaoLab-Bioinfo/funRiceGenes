@@ -1,0 +1,51 @@
+LOCUS       DQ132851                 465 bp    mRNA    linear   PLN 20-OCT-2011
+DEFINITION  Oryza sativa (japonica cultivar-group) sulfiredoxin-like protein
+            mRNA, complete cds.
+ACCESSION   DQ132851
+VERSION     DQ132851.1  GI:71905634
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 465)
+  AUTHORS   Liu,X.P., Liu,X.Y., Zhang,J., Xia,Z.L., Liu,X., Qin,H.J. and
+            Wang,D.W.
+  TITLE     Molecular and functional characterization of sulfiredoxin homologs
+            from higher plants
+  JOURNAL   Cell Res. 16 (3), 287-296 (2006)
+   PUBMED   16541127
+REFERENCE   2  (bases 1 to 465)
+  AUTHORS   Liu,X.P., Liu,X.Y. and Zhang,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUL-2005) State Key Lab of Plant Cell & Chromosome
+            Engineering, Institute of Genetics and Developmental Biology, Datun
+            Road, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..465
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+     CDS             1..465
+                     /note="OsSrx"
+                     /codon_start=1
+                     /product="sulfiredoxin-like protein"
+                     /protein_id="AAZ52795.1"
+                     /db_xref="GI:71905635"
+                     /translation="MAASSSLDLVKTMAASGFLLRCPAAPSAVPLWGRSGRGGGGGLA
+                     FSASSSNGAAVPSSLSDSEKKGPVVMEIPLDKIRRPLMRTRANDPAKVQELMDSIRVI
+                     GLQVPIDVLEVDGVYYGFSGCHRYEAHQRLGLPTIRCKVRRGTKETLRHHMR"
+ORIGIN      
+        1 atggcggcga gctcgagctt ggatttggtg aagaccatgg cggcgtccgg gttcctcctc
+       61 cgctgccctg cggcgcccag cgctgtccca ctctggggaa ggagcgggag gggcggcggc
+      121 ggcggcctcg ccttctccgc ttcgtcctcc aatggtgcag ctgttccatc ctccctaagt
+      181 gactcagaga agaagggccc tgtggtgatg gaaattccac tggacaagat taggaggcca
+      241 ctgatgcgga cgcgtgccaa tgatccagcc aaggtgcaag aactcatgga cagtatccgt
+      301 gtcattggcc tccaagtacc tattgacgta ctggaggttg atggagtcta ctatggtttt
+      361 tctggatgtc accgctatga ggctcaccag cgcctaggtc tcccgactat ccgctgcaaa
+      421 gtccgtcgcg ggacgaaaga aacactaagg caccatatgc gatga
+//
+

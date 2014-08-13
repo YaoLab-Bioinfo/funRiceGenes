@@ -1,0 +1,105 @@
+LOCUS       AC022457_5               140 aa            linear   PLN 04-SEP-2002
+DEFINITION  60S ribosomal protein L17 [Oryza sativa Japonica Group].
+ACCESSION   AAK27802
+VERSION     AAK27802.1  GI:13489168
+DBSOURCE    accession AC022457.8
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 140)
+  AUTHORS   Buell,C.R., Yuan,Q., Ouyang,S., Moffat,K.S., Hill,J.N., Burr,P.C.,
+            Hsiao,J., Zismann,V., Pai,G., Bowman,C.L., Fujii,C.Y.,
+            VanAken,S.E., Bowman,C.L., Craven,B., Utterback,T.R., Khalak,H.,
+            Feldblyum,T.V., Quackenbush,J., White,O., Salzberg,S.L. and
+            Fraser,C.M.
+  TITLE     Oryza sativa chromosome 10 BAC OSJNBa0006L06 genomic sequence
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 140)
+  AUTHORS   Buell,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-FEB-2000) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+REFERENCE   3  (residues 1 to 140)
+  AUTHORS   Buell,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAR-2001) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA, rbuell@tigr.org
+REFERENCE   4  (residues 1 to 140)
+  AUTHORS   Buell,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-APR-2001) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA, rbuell@tigr.org
+REFERENCE   5  (residues 1 to 140)
+  AUTHORS   Buell,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-APR-2001) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA, rbuell@tigr.org
+REFERENCE   6  (residues 1 to 140)
+  AUTHORS   Buell,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2001) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA, rbuell@tigr.org
+REFERENCE   7  (residues 1 to 140)
+  AUTHORS   Buell,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2002) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA, rbuell@tigr.org
+COMMENT     Address all correspondence to:rice@tigr.org
+            
+            BAC clone OSJNBa0006L06 is from Oryza sativa chromosome 10
+            The orientation of the sequence is from SP6 to T7 end of the BAC
+            clone.
+            Genes were identified by a combination of several methods: Gene
+            prediction programs including genscan and Genscan+ (Chris Burge,
+            http://CCR-081.mit.edu/GENSCAN.html), GeneMarkHMM (Mark Borodovsky,
+            http://genemark.biology.gatech.edu/GeneMark/), Fgenesh
+            (http://www.softberry.com/), and GeneSplicer (Mihaela Pertea and
+            Steven Salzberg, contact mpertea@tigr.org), searches of the
+            complete sequence against a peptide database and the plant EST
+            database at TIGR (http://www.tigr.org/tdb/tgi.shtml). Annotated
+            genes are named to indicate the level of evidence for their
+            annotation. Genes with similarity to other proteins are named after
+            the database hits. Genes without significant peptide similarity but
+            with EST similarity are named as  unknown  proteins. Genes without
+            protein or EST similarity, that are predicted by more than two gene
+            prediction programs over most of their length are annotated as
+            hypothetical  proteins. Genes encoding tRNAs are predicted by
+            tRNAscan-SE (Sean Eddy, http://genome.wustl.edu/eddy/tRNAscan-SE/).
+            Simple repeats are identified by repeatmasker (Arian Smit,
+            http://ftp.genome.washington.edu/RM/RepeatMasker.html).
+            
+            There is a small sequence gap (less than 500 bp) between 2096 and
+            2320. Closure effort for this BAC is still continuing.
+            
+            This BAC overlaps with rice BAC OSJNBa0071K18 (AC027038) and
+            OSJNBa0079L16 (AC026815).
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..140
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="10"
+                     /map="R2825"
+                     /clone="OSJNBa0006L06"
+                     /note="japonica cultivar-group"
+     Protein         1..140
+                     /product="60S ribosomal protein L17"
+     Region          2..140
+                     /region_name="PTZ00054"
+                     /note="60S ribosomal protein L23; Provisional"
+                     /db_xref="CDD:185418"
+     CDS             1..140
+                     /gene="OSJNBa0006L06.7"
+                     /coded_by="complement(join(AC022457.8:57089..57171,
+                     AC022457.8:57273..57314,AC022457.8:58472..58756,
+                     AC022457.8:58863..58875))"
+ORIGIN      
+        1 mskrgrggsa gnkfrmslgl pvaatvncad ntgaknlyii svkgikgrln rlpsacvgdm
+       61 vmatvkkgkp dlrkkvmpav ivrqrkpwrr kdgvymyfed nagvivnpkg emkgsaitgp
+      121 igkecadlwp riasaanaiv
+//
+

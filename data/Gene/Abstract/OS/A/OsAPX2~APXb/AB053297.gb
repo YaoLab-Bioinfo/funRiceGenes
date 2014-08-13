@@ -1,0 +1,67 @@
+LOCUS       AB053297                1160 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group APXb mRNA for L-ascorbate peroxidase,
+            complete cds.
+ACCESSION   AB053297
+VERSION     AB053297.1  GI:12082340
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Lu,Z., Takano,T. and Liu,S.
+  TITLE     Purification and characterization of two ascorbate peroxidases of
+            rice (Oryza sativa L.) expressed in Escherichia coli
+  JOURNAL   Biotechnol. Lett. 27 (1), 63-67 (2005)
+   PUBMED   15685422
+REFERENCE   2  (bases 1 to 1160)
+  AUTHORS   Takano,T. and Liu,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2001) Contact:Tetsuo Takano Asian Natural
+            Environmental Science Center, The University of Tokyo, Laboratory
+            of Tolerance Mechanism; 1-1-1 Midori-cho, Tanashi, Tokyo 188-0002,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1160
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /country="Japan"
+     gene            1..1160
+                     /gene="APXb"
+     CDS             64..819
+                     /gene="APXb"
+                     /codon_start=1
+                     /product="L-ascorbate peroxidase"
+                     /protein_id="BAB20889.1"
+                     /db_xref="GI:12082341"
+                     /translation="MGSKSYPTVSDEYLAAVGKAKRKLRGLIAEKNCAPLMLRLAWHS
+                     AGTFDVSSRTGGPFGTMKNPGEQSHAANAGLDIAVRLLDPIKDQLPILSYADFYQLAG
+                     VVAVEVTGGPEVPFHPGRQDKPEPPPEGRLPDATQGSDHLRQVFSAQMGLSDKDIVAL
+                     SGGHTLGRCHKERSGFEGAWTSNPLIFDNSYFTELVSGEKEGLLQLPSDKALMADPAF
+                     RPLVEKYAADEDAFFADYAEAHLKLSELGFAEE"
+ORIGIN      
+        1 aggtgagttg agttggggat tgattgattg attcggattg ggaagaagaa gaagcagggg
+       61 agcatgggca gcaagtcgta cccgacggtg agcgatgagt acctggcggc cgtgggcaag
+      121 gcgaagcgca agctccgcgg cctcatcgcc gagaagaact gcgccccact catgctccgc
+      181 ctcgcgtggc actctgctgg caccttcgat gtgtcgtcga ggaccggcgg gcccttcggc
+      241 accatgaaga accccggcga gcagtcccac gccgccaacg ccggcctcga catcgccgtc
+      301 aggcttctcg accccatcaa ggaccaactt cccatcctct cctacgccga cttctaccag
+      361 cttgctggcg ttgtggccgt cgaggtcacc ggcggacctg aggtcccctt ccatccgggc
+      421 aggcaggaca agcctgagcc tcctcctgaa ggccgtcttc ctgatgccac acaaggttct
+      481 gaccacctaa ggcaggtctt ttctgcgcag atgggtttga gtgacaagga catagttgct
+      541 ctttctggtg gtcacaccct gggaagatgc cacaaggaga gatctggctt tgagggagcc
+      601 tggacgtcca accctttgat ctttgacaac tcttacttca ccgagcttgt gagtggcgag
+      661 aaggaaggcc ttcttcagct gccaagtgac aaagccctca tggctgaccc agccttccgt
+      721 ccactggtgg agaaatatgc tgcggatgag gacgccttct ttgcggatta cgccgaggcc
+      781 cacctcaagc tctctgaact gggatttgct gaggaataag aagcctttag agagcgggat
+      841 atccgcaaaa gattaatgcc gatttgtatt ttgcgcctta gagtcagtac gatcaagact
+      901 gtcgtggcgg ttgtaataaa aattagtgcg ctttgggcca tctttttatg tgattccaat
+      961 tgtctttctc ttcattcttg ctttgatgct ctttgtctgg acctctagac cgccgtattg
+     1021 tactgtggag tttcaaagtt accaagctat ttgctgtcaa gataactatg gattgaattc
+     1081 cccttgatgg atgaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     1141 aaaaaaaaaa aaaaaaaaaa
+//
+

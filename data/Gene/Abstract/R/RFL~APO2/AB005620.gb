@@ -1,0 +1,75 @@
+LOCUS       AB005620                1495 bp    mRNA    linear   PLN 06-OCT-1999
+DEFINITION  Oryza sativa mRNA for RFL gene, complete cds.
+ACCESSION   AB005620
+VERSION     AB005620.1  GI:2274789
+KEYWORDS    RFL.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kyozuka,J., Konishi,S., Nemoto,K., Izawa,T. and Shimamoto,K.
+  TITLE     Down-regulation of RFL, the FLO/LFY homolog of rice, accompanied
+            with panicle branch initiation
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 95 (5), 1979-1982 (1998)
+   PUBMED   9482818
+REFERENCE   2  (bases 1 to 1495)
+  AUTHORS   Kyozuka,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUL-1997) Junko Kyozuka, Nara Institute of Science
+            and Technoogy; 8916-5 Takayama, Ikoma, Nara 630-01, Japan
+            (E-mail:junko@bs.aist-nara.ac.jp, Tel:0743-72-5501,
+            Fax:0743-72-5502)
+FEATURES             Location/Qualifiers
+     source          1..1495
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /strain="cv. Toride"
+                     /db_xref="taxon:39947"
+                     /tissue_type="developing panicle"
+     gene            1..1495
+                     /gene="RFL"
+     CDS             76..1245
+                     /gene="RFL"
+                     /codon_start=1
+                     /protein_id="BAA21547.1"
+                     /db_xref="GI:2274790"
+                     /translation="MDPNDAFSAAHPFRWDLGPPAPAPVPPPPPPPPPPPPANVPREL
+                     EELVAGYGVRMSTVARISELGFTASTLLAMTERELDDMMAALAGLFRWDLLLGERFGL
+                     RAALRAERGRLMSLGGRHHGHQSGSTVDGASQEVLSDEHDMAGSGGMGDDDNGRRMVT
+                     GKKQAKKGSAARKGKKARRKKVDDLRLDMQEDEMDCCDEDGGGGSESTESSAGGGGGE
+                     RQREHPFVVTEPGEVARAKKNGLDYLFHLYEQCRLFLLQVQSMAKLHGHKSPTKVTNQ
+                     VFRYAKKVGASYINKPKMRHYVHCYALHCLDEEASDALRRAYKARGENVGAWRQACYA
+                     PLVDISARHGFDIDAVFAAHPRLAIWYVPTRLRQLCHQARSSHAAAAAALPPPLF"
+     polyA_site      1495
+                     /gene="RFL"
+                     /note="9 a nucleotides"
+ORIGIN      
+        1 ctcgaaacac aagaaacaac cggagaaact gagcccggcc gaccgcaagg acagcaagct
+       61 attagccatc ctcgcatgga tcccaacgat gccttctcgg ccgcgcaccc gttccggtgg
+      121 gacctcggcc cgccggcgcc ggcgcccgtg ccaccaccgc cgccaccacc gccgccgccg
+      181 ccgccggcta acgtgcccag ggagctggag gagctggtgg cagggtacgg cgtgcggatg
+      241 tcgacggtgg cgcggatctc ggagctcggg ttcacggcga gcacgctcct ggccatgacg
+      301 gagcgcgagc tcgacgacat gatggccgcg ctcgccgggc tgttccgctg ggacctgctc
+      361 ctcggcgagc ggttcggcct ccgcgccgcg ctgcgagccg agcgcggccg cctgatgtcg
+      421 ctcggcggcc gccaccatgg gcaccagtcc gggagcaccg tggacggcgc ctcccaggaa
+      481 gtgttgtccg acgagcatga catggcgggg agcggcggca tgggcgacga cgacaacggc
+      541 aggaggatgg tgaccggcaa gaagcaggcg aagaagggat ccgcggcgag gaagggcaag
+      601 aaggcgagga ggaagaaggt ggacgaccta aggctggaca tgcaggagga cgagatggac
+      661 tgctgcgacg aggacggcgg cggcgggtcg gagtcgacgg agtcgtcggc cggcggcggc
+      721 ggcggggagc ggcagaggga gcatcctttc gtggtgacgg agcccggcga ggtggcgagg
+      781 gccaagaaga acgggctgga ctacctgttc catctgtacg agcagtgccg cctcttcctg
+      841 ctgcaggtgc aatccatggc taagctgcat ggacacaagt ccccaaccaa ggtgacgaac
+      901 caggtgttcc ggtacgcgaa gaaggtcggg gcgagctaca tcaacaagcc caagatgcgg
+      961 cactacgtgc actgctacgc gctgcactgc ctggacgagg aggcgtcgga cgcgctgcgg
+     1021 cgcgcctaca aggcccgcgg cgagaacgtg ggggcgtgga ggcaggcctg ctacgcgccg
+     1081 ctcgtcgaca tctccgcgcg ccacggattc gacatcgacg ccgtcttcgc cgcgcacccg
+     1141 cgcctcgcca tctggtacgt gcccaccaga ctccgccagc tctgccacca ggcgcggagc
+     1201 agccacgccg ccgccgccgc cgcgctcccg ccgcccttgt tctaagctcg ccggagactc
+     1261 tgctgctgtt cccgcgccgc cacggcgcgt gggagtttcc tgtggtgttg ggccgtgttt
+     1321 tcgttgtaag gcagttaggt cgttctaagc tattcgatgg gccgatcgag gatgcgtcgt
+     1381 cgtgtaggaa ctcgtcgtgt acccatgttt gcgatctgga tggcccattt gtttagctgt
+     1441 taccatgtta aattcgtttc ctttatttat gaaatggtaa atcctaaatg tcgtg
+//
+

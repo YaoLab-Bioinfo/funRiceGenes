@@ -1,0 +1,79 @@
+LOCUS       AB112060                1671 bp    mRNA    linear   PLN 14-FEB-2008
+DEFINITION  Oryza sativa Indica Group OsMGD mRNA for putative
+            monogalactosyldiacylglycerol synthase, complete cds.
+ACCESSION   AB112060
+VERSION     AB112060.1  GI:31711496
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Qi,Y., Yamauchi,Y., Ling,J., Kawano,N., Li,D. and Tanaka,K.
+  TITLE     Cloning of a putative monogalactosyldiacylglycerol synthase gene
+            from rice (Oryza sativa L.) plants and its expression in response
+            to submergence and other stresses
+  JOURNAL   Planta 219 (3), 450-458 (2004)
+   PUBMED   15088147
+REFERENCE   2  (bases 1 to 1671)
+  AUTHORS   Qi,Y.H., Yamauchi,Y., Ling,J.Q., Kawano,N., Li,D.B. and Tanaka,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUN-2003) Contact:Yanhua Qi Laboratory of Plant
+            Biotechnology, Faculty of Agriculture,Tottori University; Koyama
+            minami,4-101, Tottori, Tottori 680-8553, Japan
+FEATURES             Location/Qualifiers
+     source          1..1671
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="FR13A"
+                     /db_xref="taxon:39946"
+                     /tissue_type="leaf"
+                     /dev_stage="3-weeks old seedling"
+                     /country="Philippines:Makati"
+     gene            1..1671
+                     /gene="OsMGD"
+     CDS             181..1257
+                     /gene="OsMGD"
+                     /codon_start=1
+                     /product="putative monogalactosyldiacylglycerol synthase"
+                     /protein_id="BAC77638.1"
+                     /db_xref="GI:31711497"
+                     /translation="MESSYKFMVKHVQLWKVAFHTTSPRWVHCFYLAALASFYAKKVE
+                     AGLKKYKPDIIISVHPLMQHIPLWVLKWQGLQNRVVFVTVITDLNTCHPTWFHADVNR
+                     CYCPSEEVAKRAALDDLQPSQIRVFGLPIRPSFCRAVLVKDDLRKELELDPELPAVLL
+                     MGGGEGMGPVKKTAKALGESLFDEELGKPIGQLIVICGRNKTLSSSLQALEWKIPIKV
+                     RGFETQMEKWMGACDCIITKAGPGTIAEALIRGLPIILNDFIPGQEVGNVPYVVDNGA
+                     GVFSKSSRETAKLVARWFGPDSDELKRMSEKALKLAQPEAVFDIVRDIHELSREQGVI
+                     SQISSSLTSSFFIPSPETTPIQLM"
+ORIGIN      
+        1 cttttttttt tttttttttt tttgctgctg tcgtctcgtg tgaaatcggc atggtagcgt
+       61 aggctggaat ctggccattg ggaacacaag ggttttgatt tgttgtgctc gggattggcg
+      121 ttgtggcagg tcttcgtcaa ggatctgtgc aaggatcacg cggggtggcc gctgaacaac
+      181 atggagagct cgtacaagtt catggtgaag catgtgcagc tatggaaggt ggccttccac
+      241 accacatcgc cgagatgggt ccattgcttc tacctcgccg cgctcgcctc attctatgcc
+      301 aagaaggttg aggctggact caagaagtac aaaccagata ttataattag tgtccacccc
+      361 ctcatgcaac acattcctct atgggtactc aaatggcaag ggctacaaaa tagagtggtc
+      421 tttgtcactg tcatcacaga cctcaacact tgtcacccta catggttcca tgctgatgtc
+      481 aatagatgtt actgcccatc ggaagaagtt gccaagagag cagcactgga tgacctacaa
+      541 ccttctcaaa tccgtgtgtt tggccttccg attcgtccat cattctgccg agccgttctt
+      601 gttaaggatg atttgaggaa ggaacttgaa ttggatcctg agctgcctgc agtattgctg
+      661 atgggaggtg gagagggcat gggtcctgtc aagaagaccg caaaagccct tggagagtcg
+      721 ttgtttgacg aggagcttgg aaaaccaatt ggacagttaa ttgtcatttg tggtcggaac
+      781 aaaacgctga gctcctcatt gcaggctctt gaatggaaaa taccaattaa ggttagggga
+      841 tttgagaccc agatggagaa atggatgggg gcttgtgatt gcattataac aaaggctgga
+      901 ccaggtacca tcgccgaagc cttgattaga gggttgccta tcatccttaa tgacttcata
+      961 cctggacagg aagttggcaa tgtcccttat gttgtggaca atggtgctgg tgtcttctcc
+     1021 aaaagttcta gggaaactgc taaacttgtt gcccgctggt ttggtccaga ttctgatgaa
+     1081 ctgaagagga tgtcagaaaa agcgttaaaa ctggctcagc cagaagcggt gtttgatatt
+     1141 gtcagagaca tccatgagct atctcgggag caaggggtga tttcacagat atccagttcc
+     1201 ttgacatcat cctttttcat accatcgcca gaaaccacac ctatacaact tatgtgaaaa
+     1261 atccgtgtat agctagaact gcattctttg acctcgtgaa atttgccttt gtcctacaat
+     1321 gtcctgaaaa agaaaaatat gtcaatggat ttagctggtt tgtttcatct gtctcacggc
+     1381 gttgggatga ggtaagcagg atttcgactg cttttcagtt tgtggtctct catggtagtt
+     1441 atgggcttgt ttgactgaca gctgctcttg tgtaatatcc atattcggtt tttgttaaaa
+     1501 tcattcgttc atatgatttt tttaaaaaaa tcctgtcgtc ctttgttcag agggaccagc
+     1561 gatgggctgc aaattgtaca ctgttagttg atgttggaaa gtttaaacct ctcgacttgt
+     1621 aacatatcca ttcaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaag t
+//
+

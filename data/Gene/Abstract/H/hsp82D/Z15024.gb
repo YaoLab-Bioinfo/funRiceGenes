@@ -1,0 +1,52 @@
+LOCUS       Z15024                   368 bp    mRNA    linear   PLN 14-NOV-2006
+DEFINITION  O.sativa (Taichung Native One) hsp82 mRNA for heat shock protein
+            82.
+ACCESSION   Z15024
+VERSION     Z15024.1  GI:20258
+KEYWORDS    HSP82.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 368)
+  AUTHORS   Van Breusegem,F., Dekeyser,R., Garcia,A.B., Claes,B., Gielen,J.,
+            Van Montagu,M. and Caplan,A.B.
+  TITLE     Heat-inducible rice hsp82 and hsp70 are not always co-regulated
+  JOURNAL   Planta 193 (1), 57-66 (1994)
+   PUBMED   7764623
+REFERENCE   2  (bases 1 to 368)
+  AUTHORS   Van Breusegem,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-1992) Van Breusegem F., Universiteit Gent, Labo
+            voor genetika, Ledeganckstraat 35, Gent, Belgium, 9000
+FEATURES             Location/Qualifiers
+     source          1..368
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /strain="Taichung Native One"
+                     /cultivar="Taichung Native 1"
+                     /db_xref="taxon:4530"
+                     /clone="E3"
+                     /clone_lib="pSP65 cDNA library"
+     CDS             1..220
+                     /codon_start=2
+                     /product="hsp82"
+                     /protein_id="CAA78743.1"
+                     /db_xref="GI:1345559"
+                     /db_xref="GOA:Q40695"
+                     /db_xref="InterPro:IPR001404"
+                     /db_xref="InterPro:IPR020576"
+                     /db_xref="UniProtKB/TrEMBL:Q40695"
+                     /translation="NDKSVKDLVMLLFETALLTSGFSLEDPNTFGTRIHRMLKLGLSI
+                     DEDESAEADADMPPLEDDAGETKMEEVD"
+ORIGIN      
+        1 gaatgacaag tccgtgaagg acctggtgat gctgctcttc gagactgccc tgctgacctc
+       61 cggtttcagc ttggaggacc ccaacacctt cggcaccagg atccaccgca tgctcaagct
+      121 cggcctgagc atcgacgagg acgagtccgc cgaggctgac gccgacatgc ctccgctgga
+      181 ggacgacgcc ggcgagacga agatggagga ggtcgactaa acgtcatgga cccatggatg
+      241 ccattctgtc ccttctagtt atccctctcc tagttctctt ctcatagctt tctgactgct
+      301 gctgttcgct ttctttttgg tacgttgatc gatcagtttg tcttgtctag ctctaacacg
+      361 ctggtact
+//
+

@@ -1,0 +1,79 @@
+LOCUS       AB690553                1616 bp    mRNA    linear   PLN 10-SEP-2013
+DEFINITION  Oryza sativa Japonica Group OsNramp5 mRNA for Nramp metal
+            transporter, Koshihikari mutant2.
+ACCESSION   AB690553
+VERSION     AB690553.1  GI:407228318
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ishikawa,S., Ishimaru,Y., Igura,M., Kuramata,M., Abe,T.,
+            Senoura,T., Hase,Y., Arao,T., Nishizawa,N.K. and Nakanishi,H.
+  TITLE     Ion-beam irradiation, gene identification, and marker-assisted
+            breeding in the development of low-cadmium rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 109 (47), 19166-19171 (2012)
+   PUBMED   23132948
+  REMARK    DOI:10.1073/pnas.1211132109
+REFERENCE   2  (bases 1 to 1616)
+  AUTHORS   Ishikawa,S., Kuramata,M., Abe,T., Igura,M., Ishimaru,Y.,
+            Nakanishi,H. and Nishizawa,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-DEC-2011) Contact:Satoru Ishikawa National Institute
+            for Agro-Environmental Sciences, Soil Environment Division; 3-1-3,
+            Kannondai, Tukuba, Ibaraki 305-8604, Japan
+FEATURES             Location/Qualifiers
+     source          1..1616
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Koshihikari"
+                     /db_xref="taxon:39947"
+                     /chromosome="7"
+                     /note="Koshihikari mutant2"
+     gene            1..1616
+                     /gene="OsNramp5"
+     CDS             1..1077
+                     /gene="OsNramp5"
+                     /codon_start=1
+                     /product="Nramp metal transporter"
+                     /protein_id="BAM45316.1"
+                     /db_xref="GI:407228319"
+                     /translation="MEIERESSERGSISWRASAAHDQDAKKLDADDQLLMKEPAWKRF
+                     LAHVGPGFMVSLAYLDPGNLETDLQAGANHRYELLWVILIGLIFALIIQSLAANLGVV
+                     TGRHLAEICKSEYPKFVKIFLWLLAELAVIAADIPEVIGTAFAFNILFHIPVWVGVLI
+                     TGTSTLLLLGLQKYGVRKLEFLISMLVFVMAACFFGELSIVKPPAKEVMKGLFIPRLN
+                     GDGATADAIALLGALVMPHNLFLHSALVLSRKTPASVRGIKDGCRFFLYESGFALFVA
+                     LLINIAVVSVSGTACSSANLSQEDADKCATSASTPPPSFSRTCWASRVRSCTAWHCWH
+                     LGRAPLLPAHTLDSTSCRVSWTSG"
+ORIGIN      
+        1 atggagattg agagagagag cagtgagaga gggagcatca gctggagagc tagtgcggca
+       61 catgatcaag atgccaagaa gctcgacgca gatgatcagc tgctaatgaa ggagcctgca
+      121 tggaaaaggt tccttgccca tgttggtcct ggattcatgg tgtctttagc ctacttggat
+      181 cctggcaatt tggaaaccga tctgcaagcc ggagccaacc acagatatga gctgctctgg
+      241 gtgattctga ttggactcat cttcgcactt atcatacagt cgctagcagc taatcttgga
+      301 gtggttacag ggaggcatct ggctgagatc tgcaagagtg agtaccccaa gttcgtcaag
+      361 attttcctat ggctgctggc agagttggcc gtcatcgctg cagatatccc agaagttata
+      421 gggacggcct ttgctttcaa catattgttc catattccgg tgtgggtcgg cgtcctcatc
+      481 accggcacca gcactctact gcttcttggc ctccaaaaat acggggtgag gaagctggag
+      541 tttctgatat cgatgctggt gttcgtgatg gcggcgtgct tcttcgggga gctgagcatc
+      601 gtgaagccgc cggcgaagga ggtgatgaag gggctcttca tccccaggct caacggcgac
+      661 ggcgccaccg ccgacgccat tgccctcctc ggagctcttg tcatgcccca caatctgttc
+      721 ttgcattctg ccttggtgct atcgaggaag acaccggcat cagtcagagg aatcaaggac
+      781 gggtgcaggt tcttcctgta cgagagcggg ttcgcgctgt tcgtggcgct gctgataaac
+      841 atcgccgtcg tctccgtctc cggcaccgcc tgctcctccg ccaacctctc ccaagaggac
+      901 gccgacaagt gcgcaacctc agcctcgaca cctcctcctt ccttctcaag aacgtgctgg
+      961 gcaagtcgag tgcgatcgtg tacggcgtgg cactgttggc atctgggcag agctccacta
+     1021 ttaccggcac atacgctgga cagtacatca tgcagggttt cttggacatc aggatgagga
+     1081 agtggcttcg gaacctgatg acaagaacca tcgccatcgc gccgagcctc atcgtctcca
+     1141 tcatcggcgg ctccaggggc gccggccgcc tcatcatcat cgcttcgatg atactgtcct
+     1201 tcgagctgcc gtttgctctc atccctcttc tcaagttcag cagcagtaag agcaagatgg
+     1261 ggccccacaa gaactctatc tatataatag tgttctcgtg gttcctgggt ctgctcatca
+     1321 tcggcatcaa catgtacttc ctgagcacga gcttcgtcgg ctggctcatc cacaacgacc
+     1381 tccccaagta cgccaacgtg ctcgtcggcg ccgccgtctt cccgttcatg ctcgtctaca
+     1441 tcgtcgccgt cgtctacctc accatcagga aggactccgt cgtcaccttc gtcgccgact
+     1501 cctccctcgc cgccgtcgtc gacgccgaga aggccgacgc cggcgacctc gccgtcgacg
+     1561 acgacgagcc cttgccgtac cgcgacgacc tggccgacat cccgctccca aggtag
+//
+

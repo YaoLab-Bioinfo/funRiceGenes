@@ -1,0 +1,55 @@
+LOCUS       AY224525                 528 bp    mRNA    linear   PLN 05-FEB-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) isolate 20946 putative
+            transcription factor BTF3 mRNA, complete cds.
+ACCESSION   AY224525
+VERSION     AY224525.1  GI:29367566
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 528)
+  AUTHORS   Cooper,B., Hutchison,D., Park,S., Guimil,S., Luginbuhl,P.,
+            Ellero,C., Goff,S.A. and Glazebrook,J.
+  TITLE     Identification of rice (Oryza sativa) proteins linked to the
+            cyclin-mediated regulation of the cell cycle
+  JOURNAL   Plant Mol. Biol. 53 (3), 273-279 (2003)
+   PUBMED   14750518
+REFERENCE   2  (bases 1 to 528)
+  AUTHORS   Cooper,B., Hutchison,D., Park,S., Guimil,S., Luginbuhl,P.,
+            Ellero,C., Goff,S. and Glazebrook,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2003) Torrey Mesa Research Institute, Syngenta
+            Research and Technology, 3115 Merryfield Row, San Diego, CA 92121,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..528
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /isolate="20946"
+                     /db_xref="taxon:39947"
+                     /note="derived from yeast two-hybrid experiments"
+     CDS             1..528
+                     /note="RNA polymerase B transcription factor 3"
+                     /codon_start=1
+                     /product="putative transcription factor BTF3"
+                     /protein_id="AAO72645.1"
+                     /db_xref="GI:29367567"
+                     /translation="MNVDKLKKMAGAVRTGGKGSMRRKKKAVHKTTTTDDKRLQSTLK
+                     RVGVNNIPGIEEVNIFKDDVVIQFQNPKVQASIGANTWVVSGTPQTKKLQDLLPTIIN
+                     QLGPDNLDNLRRLAEQFQKQVPGAEAGASAGNAQDDDDDVPELVPGETFEEAAEEKEP
+                     EEKKEAEVEEKKESS"
+ORIGIN      
+        1 atgaatgtcg acaagcttaa gaagatggcg ggtgccgtgc gcaccggtgg caagggcagc
+       61 atgcgcagga agaagaaggc agttcacaag actaccacca ctgatgacaa gaggcttcaa
+      121 agcaccttga aaagagtagg agtgaacaac attcctggta tcgaagaggt caatatcttc
+      181 aaggatgatg tggttatcca atttcagaat ccaaaagtgc aagcatccat tggtgcaaat
+      241 acatgggtag tgagtggaac accacagacg aagaagctgc aagatctgct tccaacaatc
+      301 atcaaccagt tgggacctga taacctggac aacctcagga ggcttgctga gcagttccag
+      361 aagcaggtac ccggtgctga ggctggtgcc agcgcaggta acgctcagga cgacgacgat
+      421 gatgtccctg agcttgtccc tggagagacg ttcgaggagg ctgcagagga gaaggagcct
+      481 gaggagaaga aggaagcgga ggtggaagag aagaaagagt cgtcctag
+//
+

@@ -1,0 +1,93 @@
+LOCUS       AB071014                2274 bp    mRNA    linear   PLN 26-JUN-2004
+DEFINITION  Oryza sativa OsTPC1 mRNA for putative two-pore calcium channel,
+            complete cds.
+ACCESSION   AB071014
+VERSION     AB071014.1  GI:32351751
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kurusu,T., Sakurai,Y., Miyao,A., Hirochika,H. and Kuchitsu,K.
+  TITLE     Identification of a putative voltage-gated Ca2+ -permeable channel
+            (OsTPC1) involved in Ca2+ influx and regulation of growth and
+            development in rice
+  JOURNAL   Plant Cell Physiol. 45 (6), 693-702 (2004)
+   PUBMED   15215504
+REFERENCE   2  (bases 1 to 2274)
+  AUTHORS   Kurusu,T., Sakurai,Y. and Kuchitsu,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2001) Takamitsu Kurusu, Tokyo University of
+            Science, Department of Applied Biological Science; 2641 Yamazaki,
+            Noda, Chiba 278-8510, Japan (E-mail:j6402705@ed.noda.tus.ac.jp,
+            Tel:81-471-24-1501(ex.3414), Fax:81-471-23-9767)
+FEATURES             Location/Qualifiers
+     source          1..2274
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..2274
+                     /gene="OsTPC1"
+     CDS             1..2274
+                     /gene="OsTPC1"
+                     /codon_start=1
+                     /product="putative two-pore calcium channel"
+                     /protein_id="BAC78525.1"
+                     /db_xref="GI:32351752"
+                     /translation="MRERGEMREAKAPLIAEAAEHISHSHGSGSSGTGSHTSGGGGGW
+                     RGSRQYQRRSDALAYGNRYQKAAALVDLAEDGVGIPEDVLNDTRFERAMRFYFVYLRL
+                     DWLWSLNLFALILLNFLEKPLWCRGYSQHACDQRDLYFLGQLPYLSKTESLIYEGLTL
+                     VILVMDIFYPLSYEGLNLFWKNTINKLKVLLLFILACDILVFAFSPQPFRVAPYIRVA
+                     FLIMNIRELRMCAVTLVGMVGTYLNVLALSLLFLLFASWLAYVTFEDTPQGKTVFSSY
+                     GTTLYQMFILFTTSNNPDVWVPAYKSSRWSSLFFIVYVLLGVYFLTNLILAVIYDSFK
+                     EQLAKQVSQADCTRKSILEKAFGIIDATGQGYLNKEQCLSLLDELNKYRSLPKTSRED
+                     FELIFAELDQSGDFKVTSEEFATLCNTIAIKFQKEPPPSYLEKYPSFYHSALCEWLKS
+                     FVRSPLFEYIVIFVLLMNLVAVIIETTLDIENSSSQKVWQEVEFVFGWIYVIEMALKI
+                     FSLGFGAYWMEGQNKFDFVLTWTIFIGETLTFAFPSKLSFLSNGEWIRYLLLGRMLRL
+                     TRILLQVRRFRAFVATFFTLMSSLMPYLGIVFCTLCIYCSLGLQIFGGIVYAGNPTLE
+                     ETDLFSNDYLLFNFNDYPSGMVTLFNLLVMGNWQAWMESYRQLTGSYWSLIYFVSFYL
+                     ISVLLLLNLIVAFVLEAFFAEMELEKDGEADIQDPTLEGRNRRRSVRVRTKGTMVDIL
+                     LHHMLSNELDGSQNRDQ"
+ORIGIN      
+        1 atgagggaga ggggagagat gagggaggcg aaggcgcctc tgatcgcgga ggcggcggag
+       61 cacatatccc attcccacgg ctccgggtcg tccggcaccg gcagccacac cagcggcggc
+      121 ggcggcgggt ggaggggctc gaggcagtac cagcgccgct cggacgccct cgcctacggc
+      181 aaccggtacc agaaggcggc cgccctcgtc gacctcgcag aagatggtgt gggtatccct
+      241 gaggatgtct tgaatgacac aaggtttgag agggctatga gattctattt tgtgtatctc
+      301 cggttggatt ggctgtggtc acttaaccta tttgctttga ttcttttgaa ttttctcgag
+      361 aagcctctct ggtgccgggg atattctcaa catgcttgtg atcaaaggga tctttacttt
+      421 ctggggcagt tgccatactt gagcaaaact gaatctctca tatatgaggg gctcacactt
+      481 gttattcttg taatggatat cttctatcca ctgtcctatg aaggtttaaa cctattctgg
+      541 aagaacacaa taaataaact gaaggttctt cttctcttca tcttagcatg tgacatactg
+      601 gtgtttgcat ttagtcccca acctttcaga gtagctcctt acatccgtgt tgcgtttcta
+      661 ataatgaata tcagggaact gcgaatgtgt gctgttacac tggttggtat ggttgggaca
+      721 taccttaatg ttttggccct ttcactattg ttcctcttat tcgcaagctg gctagcttat
+      781 gtaacatttg aggatacacc acaaggaaag actgttttct cgtcatatgg taccacgtta
+      841 tatcagatgt ttattctctt caccacctcc aataatcctg atgtatgggt tcctgcttat
+      901 aagagctctc gttggtcctc actatttttt attgtctacg tacttttggg agtttacttc
+      961 ctaacaaatt taattcttgc tgtcatttat gatagcttta aggagcagct agcaaagcaa
+     1021 gtttctcagg cagactgtac aaggaaaagt atactagaga aggcatttgg tatcattgat
+     1081 gctactggtc agggttatct caacaaagaa cagtgcctat cattactaga tgagctcaac
+     1141 aaatacagat cgttacctaa aacctcaagg gaagattttg aattaatttt tgccgagctt
+     1201 gatcagagtg gtgattttaa ggttacctct gaagaatttg ctacactgtg caataccatt
+     1261 gcaataaaat tccagaaaga accacctcca tcctatctcg agaagtatcc atctttctat
+     1321 cattcagcac tgtgtgaatg gttgaaatct tttgtgcgga gcccactgtt tgagtatatt
+     1381 gttatttttg ttcttctgat gaatctagtc gctgtcatta ttgaaacaac gctggatata
+     1441 gaaaacagct cctcgcagaa agtgtggcaa gaagttgagt ttgtctttgg atggatttac
+     1501 gttatagaga tggcactcaa aatattttca ttaggatttg gtgcctactg gatggaaggt
+     1561 caaaacaagt ttgattttgt gcttacttgg actatattta ttggagagac tctaacattt
+     1621 gccttcccat cgaagctttc ttttctttca aatggagaat ggattcggta ccttcttctt
+     1681 ggaaggatgt tacgcttgac aagaattctg ttgcaagttc ggcgtttcag agcatttgtt
+     1741 gcaacattct ttactctgat gtctagcttg atgccatatt tggggattgt attctgcacc
+     1801 ctttgcattt actgctccct tggtttgcag atatttgggg gcattgtgta tgcaggaaat
+     1861 ccaacactag aagaaaccga tctcttcagt aacgactatc ttctttttaa cttcaatgac
+     1921 tatccaagtg gtatggtaac tctgttcaat ttgttagtga tgggcaattg gcaagcttgg
+     1981 atggagagct acaggcaatt gactggaagt tattggagcc tgatttattt tgtcagcttt
+     2041 tacctcattt cagtattact gctgcttaat ctgattgtag catttgtgtt ggaggcattt
+     2101 tttgctgaga tggaactgga gaaagatggc gaagctgata tccaggatcc tactttggaa
+     2161 ggaagaaaca ggcggcgatc tgtgcgtgtg aggacaaagg ggaccatggt tgatattctt
+     2221 cttcaccata tgttgagcaa tgaacttgat ggatctcaaa accgtgacca atag
+//
+

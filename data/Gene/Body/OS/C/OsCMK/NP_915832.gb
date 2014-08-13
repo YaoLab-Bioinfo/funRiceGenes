@@ -1,0 +1,53 @@
+LOCUS       NP_915832                401 aa            linear   PLN 09-NOV-2004
+DEFINITION  putative 4-diphosphocytidyl-2-C-methyl-D- erythritol kinase [Oryza
+            sativa (japonica cultivar-group)].
+ACCESSION   NP_915832
+VERSION     NP_915832.1  GI:34908970
+DBSOURCE    REFSEQ: accession NM_190943.1
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa (japonica cultivar-group)
+  ORGANISM  Oryza sativa (japonica cultivar-group)
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 401)
+  CONSRTM   The NCBI Genome Assembly Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JUL-2004) National Center for Biotechnology
+            Information, National Institutes of Health, Bethesda 20894, United
+            States of America
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from BAB86428.
+FEATURES             Location/Qualifiers
+     source          1..401
+                     /organism="Oryza sativa (japonica cultivar-group)"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     Protein         1..401
+                     /product="putative 4-diphosphocytidyl-2-C-methyl-D-
+                     erythritol kinase"
+                     /calculated_mol_wt=43710
+     Region          91..371
+                     /region_name="PRK14609"
+                     /note="4-diphosphocytidyl-2-C-methyl-D-erythritol kinase;
+                     Provisional"
+                     /db_xref="CDD:237766"
+     Region          173..230
+                     /region_name="GHMP_kinases_N"
+                     /note="GHMP kinases N terminal domain; pfam00288"
+                     /db_xref="CDD:249743"
+     CDS             1..401
+                     /gene="P0003D09.22"
+                     /coded_by="NM_190943.1:1..1206"
+                     /note="contains ESTs AU056041(S20242),AU056042(S20242)"
+                     /db_xref="GeneID:3049029"
+ORIGIN      
+        1 macsthllsq slyplnranp aaarghlrfq aspsvrlgsg tsrrralglr vaasaeqgrr
+       61 qveveydlqa kfnkladqid qnagitrlnl fspckinvfl ritgkrpdgf hdlaslfhvi
+      121 slgdtikfsl spskskdrls tnvagvpvde snliikalnl yrkktgtdnf fwihldkkvp
+      181 tgaglgggss naatalwaan qfsgciasek elqewsgeig sdipfffsqg aayctgrgei
+      241 vedirnplpa nlpmvlvkpp eacstaevyk rlrlehtsqt dplvllkeit engisqdacv
+      301 ndleppafev lpslkrlkkr iiaanrgdyd avfmsgsgst ivgigspdpp afvyddddyk
+      361 dtfvseacfl trnenewyre pisskitsee dlppevasvs d
+//
+

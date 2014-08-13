@@ -1,0 +1,67 @@
+LOCUS       AF402792                1014 bp    mRNA    linear   PLN 16-JUN-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) clone C61372_1A putative
+            glutathione S-transferase OsGSTZ2 mRNA, complete cds.
+ACCESSION   AF402792
+VERSION     AF402792.1  GI:15430706
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1014)
+  AUTHORS   Soranzo,N., Sari Gorla,M., Mizzi,L., De Toma,G. and Frova,C.
+  TITLE     Organisation and structural evolution of the rice glutathione
+            S-transferase gene family
+  JOURNAL   Mol. Genet. Genomics 271 (5), 511-521 (2004)
+   PUBMED   15069639
+REFERENCE   2  (bases 1 to 1014)
+  AUTHORS   Soranzo,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2001) Dipartimento di Genetica e di Biologia dei
+            Microrganismi, Universita' degli Studi di Milano, Via Celoria 26,
+            Milano 20133, Italy
+FEATURES             Location/Qualifiers
+     source          1..1014
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="C61372_1A"
+                     /tissue_type="callus"
+                     /note="obtained from the MAFF DNA bank of the Japanese
+                     Rice Genome Research Program of the National Institute of
+                     Agrobiological Resources (NIAR) and the Institute of the
+                     Society of Techno-Innovation in Agriculture, Forestry and
+                     Fisheries (STAFF), Tsukuba, Japan; derived from sequence
+                     with GenBank Accession Number C28507;
+                     group: japonica cultivar-group"
+     CDS             73..711
+                     /codon_start=1
+                     /product="putative glutathione S-transferase OsGSTZ2"
+                     /protein_id="AAK98533.1"
+                     /db_xref="GI:15430707"
+                     /translation="MASSKPILYGAWISSCSHRIRIVLNLKGVDYEYKSVNPRTDPDY
+                     EKINPIKYIPALVDGDLVVSDSLAIALYLEDKYPQHALLPKDLKKKALNLQIANIVCS
+                     SIQPLQGYAVIGLHEGKLSPDESLQIVQHYIDKGFKAIEKLLEGSNFKYATGDEVQLG
+                     DVFLAPQIHAGINRFQIDITKYPNLARLHDTYMEIPAFQAALPKNQPDAPSC"
+ORIGIN      
+        1 tcacggtttc atctcgacat ctcatcatct gttttaagct tgctagctga ggaggaggag
+       61 caggtgccag caatggcgtc gtcaaagcca atcctgtacg gtgcctggat cagctcctgc
+      121 tctcaccgaa tccggatcgt tctcaatctc aaaggtgtgg attatgagta caagtcagtc
+      181 aatcctcgaa cagatccaga ctatgagaaa atcaatccaa ttaagtacat accagcatta
+      241 gtagatggag acctagttgt ttctgactct ctcgccattg cattgtatct tgaagataaa
+      301 taccctcaac atgctctcct acctaaggat ctcaaaaaga aagctcttaa tcttcagatt
+      361 gcaaacatag tttgttcaag catccaacct ctccaaggtt atgctgtaat tggtttgcat
+      421 gagggtaagc taagccccga tgagagtctt cagatagttc agcattatat tgataagggc
+      481 ttcaaagcaa tcgaaaagct tttagaagga tccaacttta aatatgctac tggggacgaa
+      541 gttcaattgg gggatgtgtt tctagcacca cagatccatg ctggcataaa tcgcttccaa
+      601 attgatatca caaagtaccc aaatttggca agactccatg acacatacat ggaaattcct
+      661 gcatttcagg cagcacttcc aaagaatcag ccagatgcac cttcatgcta aaatcaagat
+      721 tgcaaacaag ctgccatatc caaaggtgca agacctgctt gcccttgtat aagagggtca
+      781 gtgtttgaga atgtggctct ccaccaacca tgtcatattg tcattttgca tgaatgtcta
+      841 agtttgttag ttctaaaaac agcagaaatg tgttaacaga tgttttgaat gtatgtaact
+      901 ggggttccac aaatcaaata taagcagctc aactcaagtg ctcagtcaca ctttggtaat
+      961 aaatacggaa tttgtcatca aatgaatgag tacatgtcta aaaaaaaaaa aaaa
+//
+

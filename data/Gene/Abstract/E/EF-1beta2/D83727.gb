@@ -1,0 +1,66 @@
+LOCUS       D83727                  1350 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for elongation factor 1 beta 2,
+            complete cds.
+ACCESSION   D83727
+VERSION     D83727.1  GI:3894215
+KEYWORDS    elongation factor 1 beta 2.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Terui,Y., Tsutsumi,K., Kidou,S., Sawazaki,T., Kuroiwa,Y., Yamaki,M.
+            and Ejiri,S.
+  TITLE     A novel variant of translation elongation factor-1beta: isolation
+            and characterization of the rice gene encoding EF-1beta2
+  JOURNAL   Biochim. Biophys. Acta 1442 (2-3), 369-372 (1998)
+   PUBMED   9804992
+REFERENCE   2  (bases 1 to 1350)
+  AUTHORS   Yoshiaki,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-FEB-1996) Contact:Terui Yoshiaki Institute for Cell
+            Biology and Genetics, Faculty of Agriculture, Iwate University;
+            Ueda 3-18-8, Morioka, Iwate 020, Japan
+FEATURES             Location/Qualifiers
+     source          1..1350
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     CDS             100..780
+                     /codon_start=1
+                     /product="elongation factor 1 beta 2"
+                     /protein_id="BAA34599.1"
+                     /db_xref="GI:3894216"
+                     /translation="MAITLSNVNSEAGLQKLDEYLLTRSYISGYQASKDDMTVFTSLP
+                     SAPAASYVNVTRWYDHISALLRSSGVTAEGEGVKVESTACSVSPTADQKAPAADEEDD
+                     DDVDLFGEETEEEKKAAEERAAAVKASGKKKESGKSSVLLDVKPWDDETDMAKLEEAV
+                     RNVKMEGLLWGASKLVPVGYGIKKLQIMMTIVDDLVSVDSLIEDYFYTEPANEFIQSC
+                     DIVAFNKI"
+ORIGIN      
+        1 cgtcgatctc ctcgcgactt tgcccgccgc cgccgccgcc gctctccatc ccgcgagaag
+       61 ctcgtcgccg gcgtcccgct gcatccatcc tctccggcga tggcgattac tttgtccaat
+      121 gtcaactctg aggcaggcct ccagaagctt gatgagtacc tccttactcg cagctacatc
+      181 agtgggtacc aggcttcaaa ggatgacatg actgttttca cctcacttcc ttctgctccc
+      241 gcagcaagct atgtcaatgt cacaaggtgg tatgatcaca tcagtgctct cctaagatcc
+      301 agtggagtta ccgcagaggg tgaaggtgtg aaggttgagt caactgcttg ttctgtgtct
+      361 ccaactgctg accaaaaggc accagcagct gatgaagaag atgatgacga tgttgatctg
+      421 tttggtgagg agactgaaga ggagaagaaa gcagcagaag aacgggccgc agctgtcaag
+      481 gcttctggaa agaagaaaga atctgggaaa tcatcggttc tgctagatgt aaagccatgg
+      541 gatgacgaaa cagacatggc aaagcttgag gaagctgtga ggaatgtgaa gatggagggc
+      601 ctgctctggg gtgcatccaa acttgtacca gttggatatg gcatcaagaa gttgcaaatt
+      661 atgatgacca ttgtggacga tcttgtttct gtggacagtc tcattgagga ttatttttac
+      721 acggaaccag ctaatgagtt tattcagagt tgtgacattg ttgctttcaa caaaatctaa
+      781 aatggagtct tgtcagaggc agccttacta aaagaggaat gctatatgct catcatcaga
+      841 atttcccaat ggtttatgtt tcgtctatgg accttgagtg tactgcgaac cagcgtttgg
+      901 tattatcatg agatttaaat cttggttgga cttgttttgg ccagttgccc cctgttggtt
+      961 tgtacctatt gattttggag gtctttgtca catgcccgtt cagtcgttct acacaagtag
+     1021 ttgccctttg catgatctgg tataacagct gcacaactgt tctcggctga tgtacgataa
+     1081 tattgtctat atcgtacctg gtacaccgaa atagtgggat atttaactat tttctacttt
+     1141 caaggtgtgg catttaaaaa attgttactc agtttatgac atgtgggtat tcgtacggct
+     1201 atgatttatg ggttcagtaa caaatcgtta aatgtcacat caatgagtgg aaaatagtta
+     1261 aatatctctg aaatagcggg ggcaggcgca aagggtgtct actcaaggag caaaatgcag
+     1321 ctgcacccaa agaaaagtga gaactagttt
+//
+

@@ -1,0 +1,91 @@
+LOCUS       BAB93279                 163 aa            linear   PLN 31-AUG-2004
+DEFINITION  P0046B10.19 [Oryza sativa (japonica cultivar-group)].
+ACCESSION   BAB93279
+VERSION     BAB93279.1  GI:21104689
+DBSOURCE    accession AP003314.3
+KEYWORDS    .
+SOURCE      Oryza sativa (japonica cultivar-group)
+  ORGANISM  Oryza sativa (japonica cultivar-group)
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae;
+            Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sasaki,T., Matsumoto,T., Yamamoto,K., Sakata,K., Baba,T.,
+            Katayose,Y., Wu,J., Niimura,Y., Cheng,Z., Nagamura,Y.,
+            Antonio,B.A., Kanamori,H., Hosokawa,S., Masukawa,M., Arikawa,K.,
+            Chiden,Y., Hayashi,M., Okamoto,M., Ando,T., Aoki,H., Arita,K.,
+            Hamada,M., Harada,C., Hijishita,S., Honda,M., Ichikawa,Y.,
+            Idonuma,A., Iijima,M., Ikeda,M., Ikeno,M., Ito,S., Ito,T., Ito,Y.,
+            Ito,Y., Iwabuchi,A., Kamiya,K., Karasawa,W., Katagiri,S.,
+            Kikuta,A., Kobayashi,N., Kono,I., Machita,K., Maehara,T.,
+            Mizuno,H., Mizubayashi,T., Mukai,Y., Nagasaki,H., Nakashima,M.,
+            Nakama,Y., Nakamichi,Y., Nakamura,M., Namiki,N., Negishi,M.,
+            Ohta,I., Ono,N., Saji,S., Sakai,K., Shibata,M., Shimokawa,T.,
+            Shomura,A., Song,J., Takazaki,Y., Terasawa,K., Tsuji,K., Waki,K.,
+            Yamagata,H., Yamane,H., Yoshiki,S., Yoshihara,R., Yukawa,K.,
+            Zhong,H., Iwama,H., Endo,T., Ito,H., Hahn,J.H., Kim,H.I., Eun,M.Y.,
+            Yano,M., Jiang,J. and Gojobori,T.
+  TITLE     The genome sequence and structure of rice chromosome 1
+  JOURNAL   Nature 420 (6913), 312-316 (2002)
+   PUBMED   12447438
+REFERENCE   2  (residues 1 to 163)
+  AUTHORS   Sasaki,T., Matsumoto,T. and Yamamoto,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-FEB-2001) Takuji Sasaki, National Institute of
+            Agrobiological Sciences, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+            (E-mail:tsasaki@nias.affrc.go.jp, URL:http://rgp.dna.affrc.go.jp/,
+            Tel:81-298-38-7441, Fax:81-298-38-7468)
+COMMENT     Genes were predicted from the integrated results of the following:
+            GENSCAN1.0, BLASTN2.0, BLASTX2.0 as well as SplicePredictor
+            (October 1998 version). The genomic sequence was searched against
+            NCBI NonRedundant Protein database, nr
+            (ftp://ncbi.nlm.nih.gov/blast/db) and the cDNA sequence database at
+            RGP. Protein homologies of the coding regions were searched against
+            NCBI NonRedundant Protein database with BLASTP2.0. ESTs represent
+            the identified cDNA sequences using BLASTN 2.0 with the
+            corresponding DDBJ accession no. and RGP clone ID.
+            A gene with identity or significant homology to a protein is
+            classified based on the protein name to indicate the homology level
+            such as same name, 'putative-' and '-like protein'.  A gene without
+            significant homology to any protein but with EST homology (covering
+            almost the entire length of partial sequence) is classified as an
+            'unknown' protein. A gene predicted with a gene prediction program
+            is classified as a 'hypothetical' protein.
+            The orientation of the sequence is from SP6 to T7 of the PAC clone.
+            This sequence of P0046B10 clone has an overlap with P0410E03 clone
+            (DDBJ : AP002844) at the position 1 to 13,581 of 5' end and an
+            overlap with P0410E01 clone (DDBJ: AP002866) at the position 78,661
+            to 142,596 of 3' end. Detailed information on overlap and assembly
+            quality together with annotation of this entry is available at
+            http://rgp.dna.affrc.go.jp/GenomeSeq.html.
+FEATURES             Location/Qualifiers
+     source          1..163
+                     /organism="Oryza sativa (japonica cultivar-group)"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+                     /clone="P0046B10"
+     Protein         1..163
+                     /name="P0046B10.19"
+     Region          73..97
+                     /region_name="zf-LSD1"
+                     /note="LSD1 zinc finger; pfam06943"
+                     /db_xref="CDD:191646"
+     Region          111..135
+                     /region_name="zf-LSD1"
+                     /note="LSD1 zinc finger; pfam06943"
+                     /db_xref="CDD:191646"
+     CDS             1..163
+                     /gene="P0046B10.19"
+                     /coded_by="join(AP003314.3:117112..117310,
+                     AP003314.3:118301..118408,AP003314.3:118897..119006,
+                     AP003314.3:119772..119846)"
+                     /note="contains ESTs AU031595(E61925),AU031596(E61925);
+                     unknown protein"
+ORIGIN      
+        1 msqlplasqa tttdlvstta mqpqsegivd eslqpqhpps stahdspclq dsvplvpppp
+       61 spylnkevgq mvcgscrill ayfrgagyvh ctccqtmnyv leahevgkvh cghcatllmy
+      121 pfgapavkcs lclfvteige rnvrrrlsie qptrtnssgl aea
+//
+

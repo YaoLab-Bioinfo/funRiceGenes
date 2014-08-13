@@ -1,0 +1,66 @@
+LOCUS       AY916493                1475 bp    mRNA    linear   PLN 22-FEB-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) cathepsin B-like cysteine
+            protease mRNA, complete cds.
+ACCESSION   AY916493
+VERSION     AY916493.1  GI:59895950
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1475)
+  AUTHORS   Chung,Y.Y., Gothandam,K.M., Hyun,J.Y. and Yum,H.S.
+  TITLE     Isolation and characterization of cathepsin B-like cysteine
+            protease gene, OsCatB, from rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1475)
+  AUTHORS   Chung,Y.Y., Gothandam,K.M., Hyun,J.Y. and Yum,H.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-FEB-2005) Biotechnology, Korea University, Anam dong,
+            Seoul 136 701, South Korea
+FEATURES             Location/Qualifiers
+     source          1..1475
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             145..1221
+                     /codon_start=1
+                     /product="cathepsin B-like cysteine protease"
+                     /protein_id="AAX11351.1"
+                     /db_xref="GI:59895951"
+                     /translation="MGMPLLLLLLILVAAGPQAGRAAKPIPNLQLMTKEGGSSRIIQD
+                     DIIKAINKHPNAGWTAARNPYFANYTTAQFKHILGVKPTPHSVLNDVPVKTYPRSLML
+                     PKEFDARSAWSQCNTIGTILDQGHCGSCWAFGAVECLQDRFCIHFNMNISLSVNDLVA
+                     CCGFMCGDGCDGGYPIMAWRYFVRNGVVTDECDPYFDQVGCKHPGCEPAYPTPVCEKK
+                     CKVQNQVWLEKKHFSVNAYRVNSDPHDIMAEVYQNGPVEVAFTVYEDFAHYKSGVYKH
+                     ITGGMMGGHAVKLIGWGTTDAGEDYWLLANQWNRGWGDDGYFKIIRGTNECGIEEDVV
+                     AGMPSTKNMVRNYDSAFGVGTAIV"
+ORIGIN      
+        1 ctcccacatc catcctcttg ttaattgact tgttcatttt tgcaagctgt aggtctggag
+       61 agtggagagg aagaggaatc ctcctcagtc ctcaccttca gatttcagaa cacaggcaat
+      121 cggccctagc tgcaatccaa caagatgggc atgcctctgc tgctgctgct gctgatcctc
+      181 gtcgctgctg gcccccaggc aggcagagct gcaaagccaa tcccaaatct ccagctcatg
+      241 accaaggagg gcggcagttc aagaatcatc caggacgaca tcataaaggc aatcaacaag
+      301 catcccaatg ctggctggac ggctgcacgg aatccatact ttgcaaacta tactactgcg
+      361 caattcaaac atatccttgg agtgaagcca acaccgcata gtgtgctaaa tgatgtccct
+      421 gtcaaaactt atccaagatc gctgatgctt ccaaaggagt ttgatgccag gtctgcatgg
+      481 tcacagtgta acacaattgg gaccatactt gatcagggtc actgtggctc gtgttgggca
+      541 tttggtgctg tggagtgtct ccaggatcgt ttctgcattc atttcaacat gaacatttcg
+      601 ctatctgtca atgacctagt ggcatgctgc ggtttcatgt gcggcgatgg ttgtgatgga
+      661 ggctatccta tcatggcatg gcgctacttt gttcggaatg gtgttgttac cgatgagtgc
+      721 gatccatact ttgatcaggt cggttgtaag catccaggat gcgaacctgc ttatcctacg
+      781 ccagtgtgcg agaagaaatg caaggtgcag aaccaagttt ggctggaaaa gaagcatttc
+      841 agtgtcaatg catacagagt aaattctgat ccacatgaca taatggcaga ggtctaccaa
+      901 aatggccctg tagaagttgc tttcaccgtt tatgaggatt ttgcacacta caaatcagga
+      961 gtatacaagc acatcacagg tggcatgatg ggtggtcatg ctgtcaagtt gattggatgg
+     1021 ggaaccacgg atgctggcga ggattactgg ctgcttgcaa accagtggaa cagaggatgg
+     1081 ggcgatgatg ggtacttcaa gatcataagg ggcacaaacg aatgtggcat cgaagaagat
+     1141 gttgttgctg gtatgccctc gacgaagaac atggtgagga actatgatag cgccttcgga
+     1201 gtcggaacgg ccatagtttg actttaatca atgttaatgg cctcaaatac ggttgggatc
+     1261 atgtaaattt gtcctgggtg atttctggat tttgcacaca cgggcaggct tctcgagact
+     1321 gatcggagtt taggctactt gtccagaaac acattggaat aatatctgaa taatagatgt
+     1381 attctctctc tctctctctc tctctctctc tctctctcta cgtccggtta actacgggat
+     1441 gtgacgtaga ggtgttaggg aggagcgcac gttaa
+//
+

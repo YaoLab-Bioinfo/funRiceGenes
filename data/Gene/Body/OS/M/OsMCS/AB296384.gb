@@ -1,0 +1,61 @@
+LOCUS       AB296384                 621 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsCMS mRNA for 4-(cytidine
+            5'-diphospho)-2-C-methyl-D-erythritol synthase, complete cds.
+ACCESSION   AB296384
+VERSION     AB296384.1  GI:139006318
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Okada,A., Shimizu,T., Okada,K., Kuzuyama,T., Koga,J., Shibuya,N.,
+            Nojiri,H. and Yamane,H.
+  TITLE     Elicitor induced activation of the methylerythritol phosphate
+            pathway toward phytoalexins biosynthesis in rice
+  JOURNAL   Plant Mol. Biol. 65 (1-2), 177-187 (2007)
+   PUBMED   17634747
+REFERENCE   2  (bases 1 to 621)
+  AUTHORS   Okada,K., Okada,A., Nojiri,H., Yamane,H. and Kuzuyama,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAR-2007) Contact:Kazunori Okada The University of
+            Tokyo, Biotechnology Research Center; 1-1-1 Yayoi, Bunkyo-ku, Tokyo
+            113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..621
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /cell_type="suspension cultured cells"
+                     /note="has enzymatic activities"
+     gene            1..621
+                     /gene="OsCMS"
+     CDS             1..621
+                     /gene="OsCMS"
+                     /EC_number="2.7.7.60"
+                     /experiment="complementation of E. coli mutant"
+                     /codon_start=1
+                     /product="4-(cytidine
+                     5'-diphospho)-2-C-methyl-D-erythritol synthase"
+                     /protein_id="BAF52631.1"
+                     /db_xref="GI:139006319"
+                     /translation="MPKQYLPLLGLPIALHSLKTFCQLKEVKEVVVVCDPDYKDIFEG
+                     SIENVQIPIKFALPGKERQDSVYNGLQEIDGDSELVCVHDSARPLVSSEDVKKVLEDA
+                     IVHGAAVLGVPVKATIKEADSNSFVVKTLDRKTLWEMQTPQVMRPSLLRDGFELVKRD
+                     GLEVTDDVSIVEYLKHSVYITEGSYTNIKVTTPDDLLLAERLMNEK"
+ORIGIN      
+        1 atgccaaaac aatatctacc attattgggg ctgccgattg cactgcacag tttaaagaca
+       61 ttctgtcagc tgaaggaagt aaaagaagtt gtagtggtgt gtgatccaga ctacaaagat
+      121 atatttgaag gctctattga aaacgtgcaa ataccaatta aatttgcact cccagggaaa
+      181 gagagacaag actctgttta taatggacta caggagattg atggagactc tgaacttgtt
+      241 tgtgtacatg attctgcaag gcccttagtg tcatctgaag atgtcaaaaa ggtattagaa
+      301 gatgctatag tgcacggagc tgctgttctt ggtgtgcctg tgaaagctac tatcaaggag
+      361 gctgacagca attcttttgt cgtaaaaaca cttgatagga aaactctttg ggaaatgcaa
+      421 actccacagg tgatgaggcc cagtttactc agagatggtt ttgagctagt taaacgggat
+      481 ggacttgagg tcactgatga cgtgtccatt gtagaatacc tgaagcactc tgtttatatc
+      541 acagagggct cttacacaaa cataaaggtg acgactcctg atgacttgct cctggctgag
+      601 cgcctgatga atgagaaata a
+//
+

@@ -1,0 +1,69 @@
+LOCUS       AB126086                1113 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsIRT2 mRNA for iron regulated
+            transporter-like protein, complete cds.
+ACCESSION   AB126086
+VERSION     AB126086.1  GI:47169680
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ishimaru,Y., Suzuki,M., Tsukamoto,T., Suzuki,K., Nakazono,M.,
+            Kobayashi,T., Wada,Y., Watanabe,S., Matsuhashi,S., Takahashi,M.,
+            Nakanishi,H., Mori,S. and Nishizawa,N.K.
+  TITLE     Rice plants take up iron as an Fe3+-phytosiderophore and as Fe2+
+  JOURNAL   Plant J. 45 (3), 335-346 (2006)
+   PUBMED   16412081
+REFERENCE   2  (bases 1 to 1113)
+  AUTHORS   Ishimaru,Y. and Nishizawa,N.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-NOV-2003) Contact:Yasuhiro Ishimaru University of
+            Tokyo, Department of Global Agricultural Sciences, Graduate School
+            of Agricultural and Life Science; Yayoi1-1-1, Bunkyo-ku, Tokyo
+            113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1113
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..1113
+                     /gene="OsIRT2"
+     CDS             1..1113
+                     /gene="OsIRT2"
+                     /note="IRT-like protein;
+                     ZRT, zinc regulated transporter"
+                     /codon_start=1
+                     /product="iron regulated transporter-like protein"
+                     /protein_id="BAD18964.1"
+                     /db_xref="GI:47169681"
+                     /translation="MMMSSSQTPVRIAFVFLVILAATDAHSDHRTPPPACGGAAVGGE
+                     CHSVARALRLKLIAIPAILAASVAGVCLPLFARSVPALRPDGGLFAVVKAFASGVILG
+                     TGYMHVLPDSFNDLTSPCLPRKPWSEFPFAAFVAMLAAVFTLMVDSLMLTFHTRGSKG
+                     RASSAVAHHGDHGHCHAHALGQADVAALSTTEAADQGSGDVEAGNTTKAQLLRNRVIV
+                     QVLEMGIVVHSVVIGLGMGASQNVCTIRPLVAALCFHQMFEGMGLGGCILQAGYGGRT
+                     RSALVFFFSTTTPFGIALGLALTRVYSDSSPTALVVVGLLNAASAGLLHYMALVELLA
+                     ADFMGPKLQGNVRLQLAASLAILLGAGGMSVMAKWA"
+ORIGIN      
+        1 atgatgatgt cttcttcgca aacaccagta cggatcgcct tcgttttcct cgtcatcctc
+       61 gccgcgactg atgcgcacag cgaccaccga actccgccgc cggcgtgcgg aggcgcggcc
+      121 gtgggagggg aatgccacag cgtggccagg gcgctccgcc tgaagctgat cgccatcccg
+      181 gcgatcctcg ccgccagcgt ggccggcgtg tgcctgccgc tcttcgcccg gtccgtgccg
+      241 gcgctccgcc ccgacggcgg cctcttcgcc gtcgtgaagg cgttcgcgtc gggcgtcatc
+      301 ctcggcaccg gctacatgca cgtgctcccg gactcgttca acgacctcac ctcgccgtgc
+      361 ctgcccagga agccatggtc ggagttcccg ttcgcggcgt tcgtcgccat gctcgccgcc
+      421 gtgttcacgc tcatggtgga ctcgctcatg ctcacgttcc acacgcgggg cagcaaggga
+      481 cgggccagca gcgccgtcgc gcaccacggc gaccacgggc actgtcacgc tcacgcgctg
+      541 gggcaagcag acgtcgctgc gctgtcgacg acggaggcgg cggatcaggg cagcggcgac
+      601 gtcgaggccg gtaacaccac caaggcgcag cttctcagga atcgcgtcat tgtgcaggtt
+      661 ctcgagatgg gcatcgtggt gcactcagtg gtgatcgggc tgggcatggg ggcgtcgcag
+      721 aacgtgtgca cgatccggcc gctggtggcg gcgctgtgct tccaccagat gttcgagggg
+      781 atggggctcg gcggctgcat cctgcaggcg gggtacggcg ggaggacgag gtcggcgctg
+      841 gtcttcttct tctccaccac gacgccgttc gggatcgcgc tggggctcgc gctgaccagg
+      901 gtgtacagcg acagcagccc gacggcgctg gtcgtcgtcg gcctgctcaa cgcggcgtcg
+      961 gcggggctgc tgcactacat ggcgctggtg gagctcctcg ccgccgattt catggggccc
+     1021 aagctgcagg gcaacgtccg tctccagctc gccgcgtccc tcgccatcct cctcggcgcc
+     1081 ggcggcatgt ccgtcatggc caagtgggcg tga
+//
+

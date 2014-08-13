@@ -1,0 +1,58 @@
+LOCUS       EU556723                 504 bp    DNA     linear   PLN 30-OCT-2008
+DEFINITION  Oryza sativa Indica Group cultivar Teqing prostrate growth 1
+            (prog1) gene, complete cds.
+ACCESSION   EU556723
+VERSION     EU556723.1  GI:189498981
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 504)
+  AUTHORS   Tan,L., Li,X., Liu,F., Sun,X., Li,C., Zhu,Z., Fu,Y., Cai,H.,
+            Wang,X., Xie,D. and Sun,C.
+  TITLE     Control of a key transition from prostrate to erect growth in rice
+            domestication
+  JOURNAL   Nat. Genet. 40 (11), 1360-1364 (2008)
+   PUBMED   18820699
+REFERENCE   2  (bases 1 to 504)
+  AUTHORS   Tan,L., Li,X., Liu,F., Sun,X., Li,C., Zhu,Z., Fu,Y., Cai,H.,
+            Wang,X., Xie,D. and Sun,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2008) Department of Plant Genetics and Breeding,
+            China Agricultural University, No.2 Yuanmingyuan Xi Lu, Haidian,
+            Beijing, Beijing 100094, China
+FEATURES             Location/Qualifiers
+     source          1..504
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Teqing"
+                     /db_xref="taxon:39946"
+     gene            <1..>504
+                     /gene="prog1"
+     mRNA            <1..>504
+                     /gene="prog1"
+                     /product="prostrate growth 1"
+     CDS             1..504
+                     /gene="prog1"
+                     /codon_start=1
+                     /product="prostrate growth 1"
+                     /protein_id="ACE06780.1"
+                     /db_xref="GI:189498982"
+                     /translation="MDPSSASWPAPASPPVELSLSLPAAAARNRDEAAPTAIVDGKQV
+                     RLFPCLFCAKTFRKSQALGGHQNAHRKERVAGGSWNPNVYGDGGGSASMPIASHGVTA
+                     AGSSTAADGRWCGGAASDDDTTAAPMPSLGSGSAALGAGAGFASTERGSSGGGVAGEE
+                     LVLELGL"
+ORIGIN      
+        1 atggatccct catcggcttc ttggccggct ccggcttctc cgccggtgga gctgtccctg
+       61 tccctgccgg cggcggcggc gaggaaccgc gacgaggcgg cgccgacggc gatcgtcgac
+      121 ggcaagcaag tgaggctgtt cccgtgcctc ttctgcgcca agacgttccg caagtcgcag
+      181 gcgctcggcg gccaccagaa cgcgcaccgg aaggagcgcg tcgccggcgg cagctggaac
+      241 cccaacgtct acggcgacgg cggcggatca gcgtccatgc ccatcgcctc ccatggcgtc
+      301 acggcggcgg ggagtagtac ggcagccgac ggccggtggt gcggcggcgc tgccagcgac
+      361 gacgacacaa cggcggcgcc catgccttcc ctcggctcag gctcggcggc gctcggcgcc
+      421 ggcgccggtt tcgcttcgac cgaaaggggc tcttccggcg gcggcgtcgc cggcgaggag
+      481 cttgtcctcg agctcggcct ctag
+//
+

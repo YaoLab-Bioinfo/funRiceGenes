@@ -1,0 +1,86 @@
+LOCUS       AF177392                2092 bp    mRNA    linear   PLN 08-FEB-2000
+DEFINITION  Oryza sativa blast and wounding induced mitogen-activated protein
+            kinase (BWMK1) mRNA, complete cds.
+ACCESSION   AF177392
+VERSION     AF177392.1  GI:5815409
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2092)
+  AUTHORS   He,C., Fong,S.H., Yang,D. and Wang,G.L.
+  TITLE     BWMK1, a novel MAP kinase induced by fungal infection and
+            mechanical wounding in rice
+  JOURNAL   Mol. Plant Microbe Interact. 12 (12), 1064-1073 (1999)
+   PUBMED   10624015
+REFERENCE   2  (bases 1 to 2092)
+  AUTHORS   He,C., Fong,S.H.T., Yang,D. and Wang,G.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-1999) Laboratory of Rice Disease Resistance,
+            Institute of Molecular Agrobiology, 1 Research Link 117604,
+            Singapore
+FEATURES             Location/Qualifiers
+     source          1..2092
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /chromosome="6"
+     gene            1..2092
+                     /gene="BWMK1"
+     CDS             13..1533
+                     /gene="BWMK1"
+                     /note="BWMK1 MAP kinase"
+                     /codon_start=1
+                     /product="blast and wounding induced mitogen-activated
+                     protein kinase"
+                     /protein_id="AAD52659.1"
+                     /db_xref="GI:5815410"
+                     /translation="MEFFTEYGEASQYQIQEVIGKGSYGVVAAAVDTRTGERVAIKKI
+                     NDVFEHVSDATRILREIKLLRLLRHPDIVEIKHIMLPPSRREFQDIYVVFELMESDLH
+                     QVIRANDDLTPEHYQFFLYQLLRALKYIHAANVFHRDLKPKNILANSDCKLKICDFGL
+                     ARASFNDAPSAIFWTDYVATRWYRAPELCGSFFSKYTPAIDIWSIGCIFAELLTGRPL
+                     FPGKNVVHQLDIITDLLGTPSSETLSRIRNEKARRYLSTMRKKHAVPFSQKFRNTDPL
+                     ALRLLERLLAFDPKDRPSAEEALADPYFASLANVEREPSRHPISKLEFEFERRKLTKD
+                     DVRELIYREILEYHPQMLQEYMKGGEQISFLYPSGVDRFKRQFAHLEENYSKGERGSP
+                     LQRKHASLPRERVGVSKDGYNQQNTNDQERSADSVARTTVSPPMSQDAQQHGSAGQNG
+                     VTSTDLSSRSYLKSASISASKCVAVKDNKEPEDDYISEEMEGSVDGLSEQVSRMHS"
+ORIGIN      
+        1 aacacagtgg aaatggagtt cttcactgag tatggagaag caagccagta ccagatccag
+       61 gaagtcattg gcaaaggaag ttatggagta gttgctgctg cagtagatac ccgcacgggt
+      121 gagcgggttg cgatcaagaa gatcaatgat gtgtttgagc atgtatcaga cgctacgcgc
+      181 atattgcgtg agatcaagct ccttcgtctg ctccgtcacc cagacatagt tgagatcaaa
+      241 cacattatgc ttcccccttc tcgaagggag ttccaagata tttatgttgt ttttgagctc
+      301 atggaatcag atctccatca agtcatcaga gcgaacgatg acctcacccc ggagcactac
+      361 cagtttttcc tgtaccaact tctccgtgct ctcaagtaca tccatgcagc taatgtattt
+      421 catcgcgatc taaagcccaa gaatatactg gcaaactcag actgcaaatt gaaaatatgt
+      481 gatttcggac ttgcccgagc atcattcaat gatgcccctt cagcaatatt ttggacggat
+      541 tatgttgcaa cgaggtggta ccgagcacct gaattatgtg gctcattttt ctccaaatac
+      601 actcctgcaa ttgatatttg gagtattggg tgcatatttg ctgaacttct cactgggaga
+      661 ccactatttc ctgggaagaa tgttgtgcac caattagata ttataacaga tcttcttgga
+      721 actccatcat cagaaacctt atccaggatt cgaaatgaga aggccaggag atacttgagc
+      781 accatgcgga aaaaacatgc tgtccccttc tctcagaagt tccgcaatac tgaccccttg
+      841 gctcttcgtc tgctagagcg tttactggca tttgatccta aagatcggcc ttcagctgaa
+      901 gaagctttgg ctgatccgta cttcgcaagt cttgctaatg tggaacgtga gccctcaaga
+      961 catccaatct caaaacttga gtttgaattc gagagacgga agctgacaaa agatgatgtt
+     1021 agagaattaa tttatcgaga gattttggag tatcacccac agatgctgca agagtatatg
+     1081 aaaggtggag agcagattag cttcctctat ccaagtgggg ttgatcgctt caaacgacag
+     1141 tttgcacacc ttgaggagaa ctacagcaaa ggagaaagag gttctccact gcagaggaag
+     1201 catgcttctt taccgaggga gagagtaggt gtatcaaagg atggttataa ccaacaaaac
+     1261 accaatgacc aagagaggag tgcagattcc gttgcccgca ctacagtaag ccctccaatg
+     1321 tcacaagatg cacaacaaca tggatctgct ggccaaaatg gtgtgacatc cacagacttg
+     1381 agttcgagga gctatctgaa gagtgcaagc attagtgctt ccaagtgtgt cgctgtcaag
+     1441 gacaataaag aaccagagga tgattacatc tctgaagaaa tggaagggtc ggtcgatgga
+     1501 ttgtctgaac aagtctccag gatgcactcc tagtgcacaa cgatgacgat gatcagtgca
+     1561 agattctgtg aggcgcacca aatgctgata atttccaagc agaatgctgc actgcaagtt
+     1621 tggactttgg acaatgcaag tatgcaacag ccagcccgag atgattggca tcttcttatg
+     1681 ctcatccatg ttcacatatt cttcttgcca ttgtgctgtc tgtcactaca ggacccctgc
+     1741 atggattaat gtattatccc tctgatgtaa cactagatta gtccatctgt ccatggagga
+     1801 atgaatagca agcagccagc ttgtgcatca tgtgggcatg ttcattttcc agtgagatct
+     1861 agtcatatcc atgctttttt tgtaatggta tatgaaacag tttatcagtg agactgtggt
+     1921 ccattcctct ttgaagaact gctgagacag tgatccattc ctctttgaag aactgttcat
+     1981 tttcggtaca ttaagcctag taaagttcag atgtttgagt tcggtgctta aaaaaaaaaa
+     2041 aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aa
+//
+

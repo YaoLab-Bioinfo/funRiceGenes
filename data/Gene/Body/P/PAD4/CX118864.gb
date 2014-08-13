@@ -1,0 +1,69 @@
+LOCUS       CX118864                1084 bp    mRNA    linear   EST 08-FEB-2011
+DEFINITION  EI117B04 A normalized whole-life-cycle cDNA library of rice Oryza
+            sativa Indica Group cDNA clone EI117B04 5', mRNA sequence.
+ACCESSION   CX118864
+VERSION     CX118864.1  GI:66932016
+DBLINK      BioSample: LIBEST_016785
+KEYWORDS    EST.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1084)
+  AUTHORS   Zhang,J., Feng,Q., Jin,C., Qiu,D., Zhang,L., Xie,K., Yuan,D.,
+            Han,B., Zhang,Q. and Wang,S.
+  TITLE     Features of the expressed sequences revealed by a large-scale
+            analysis of ESTs from a normalized cDNA library of the elite indica
+            rice cultivar Minghui 63
+  JOURNAL   Plant J. 42 (5), 772-780 (2005)
+   PUBMED   15918889
+COMMENT     Contact: Wang S
+            National Key Laboratory of Crop Genetic Improvement
+            Hauzhong Agricultural University
+            Wuhan 430070, China
+            Tel: 86-27-87282044
+            Fax: 86-27-87287092
+            Email: shipingwang@hotmail.com
+            Seq primer: T7.
+FEATURES             Location/Qualifiers
+     source          1..1084
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /strain="indica"
+                     /cultivar="Minghui 63"
+                     /db_xref="taxon:39946"
+                     /clone="EI117B04"
+                     /tissue_type="whole plant"
+                     /dev_stage="whole-life-cycle"
+                     /lab_host="E. coli DH10B"
+                     /clone_lib="LIBEST_016785 A normalized whole-life-cycle
+                     cDNA library of rice"
+                     /note="Vector: pSPORT1; Site_1: SalI; Site_2: NotI; The
+                     library is constructed based on the strategy of satuation
+                     hybridization with genomic DNA using rice cultivar Minghui
+                     63. This library consists of cDNA from 15 directionally
+                     cloned cDNA libraries constructed with different tissues
+                     from 9 developmental stages."
+ORIGIN      
+        1 cgcgcgtcgg ccggaattcg ggtcgaccac gcgtcgctgc cgctatcaac tacgacgtcg
+       61 gcatctccat tgcactggag gcatcaggta tcaccggtga agctacagag gcagcaccgg
+      121 cacggcagtg gctgaagacg tcgaagcgcg tgggccggag cccgagcctg aactgtgcga
+      181 gcctcgcaac gcggttggga cggatcacgc cgtgccgagc gcagatcgag tggtacaagg
+      241 cattgttcga tgccaacact gggtattacg acgcattcaa gcagcggcta tcacctaaga
+      301 agttcagcaa ggccaacatg taccgcatca agctcgcaca gttctgggat ggcgtcctct
+      361 ccatgcttga caccagccag ctcccctacg acttccaccg ccgtgccaag tgggtcaacg
+      421 ctgcccactt ctaccagctc cttgttgagc cgcttgacat tgcccactac caccgaaaca
+      481 acctacaccg cacacgcggc tcttacatca cccatggncg ggagagaagg tatgagctgt
+      541 tcgacaagtg gtggaagcag aagggctgca cagatcccag cactggtgac acctctgtca
+      601 ccacgacagc ggaggaggag caagttcgcg gggcttacgc aggacccgtg cttctgggcg
+      661 actgtggagg aagcgcgcga gcagacagag agtggcacga gcgaacgaga catgacattg
+      721 ctggcaggat cttgaggact tgccaggttt gaggccatca ggcaactgtg agagcaggcg
+      781 tccatgatgt ggtgacacat gaccaccctg ggtaggagta tgaccaccgg aaaatgacat
+      841 gttcattcgg taccttgact ttcaaatagt gggacgccat ggccagtgac atgtgtactc
+      901 actatctctg accacaacac tngncnctac gagacaatcg gactataaac atgacgcaag
+      961 atcaagggag gcgacagaac gctatattga ctatgcaacg tgatcgtgat ggcacacagt
+     1021 agatacagat aacgcacatg aaacacatac taaaacagag aaagtataag tgaatacaga
+     1081 aata
+//
+

@@ -1,0 +1,57 @@
+LOCUS       AY860058                 474 bp    mRNA    linear   PLN 28-MAR-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) dual-specificity
+            tyrosine-phosphatase CDC25 (CDC25.2) mRNA, complete cds.
+ACCESSION   AY860058
+VERSION     AY860058.1  GI:61742097
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 474)
+  AUTHORS   Duan,G.L., Zhou,Y., Tong,Y.P., Mukhopadhyay,R., Rosen,B.P. and
+            Zhu,Y.G.
+  TITLE     A CDC25 homologue from rice functions as an arsenate reductase
+  JOURNAL   New Phytol. 174 (2), 311-321 (2007)
+   PUBMED   17388894
+REFERENCE   2  (bases 1 to 474)
+  AUTHORS   Duan,G., Tong,Y. and Zhu,Y.
+  TITLE     The dual-specificity tyrosine-phosphatase CDC25 in rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 474)
+  AUTHORS   Duan,G., Tong,Y. and Zhu,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-DEC-2004) Research Centre for Eco-environmental
+            Sciences, Chinese Academy of Sciences, 18 Shuangqing RD, PO Box
+            2871, Beijing, Beijing 100085, China
+FEATURES             Location/Qualifiers
+     source          1..474
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /tissue_type="shoot"
+     gene            1..474
+                     /gene="CDC25.2"
+                     /note="OsCDC25.2"
+     CDS             49..441
+                     /gene="CDC25.2"
+                     /note="OsCDC25.2 phosphatase; cell cycle regulator"
+                     /codon_start=1
+                     /product="dual-specificity tyrosine-phosphatase CDC25"
+                     /protein_id="AAX54895.1"
+                     /db_xref="GI:61742098"
+                     /translation="MARGVSYVSAAQLVPMLRDPRIAVVDVRDEERIYDAHIAGSHHY
+                     ASDSFGERLPELAQATKGKETLVFHCALSKVRGPSCAQMYLDYLSEADEDSDVKNIMV
+                     LERGFNGWELSGRPVCRCKDAPCKGVCS"
+ORIGIN      
+        1 cccatcaaac acagagtgcc atcgctcaca cggccggcgg cggcggcgat ggcgaggggc
+       61 gtctcctacg tttccgcggc gcagctcgtc cccatgctcc gggacccccg gatcgccgtc
+      121 gtcgatgtca gggacgaaga gaggatctac gacgcgcaca tcgccggctc gcatcattac
+      181 gccagcgaca gcttcgggga gcggctgccg gagctggccc aggccaccaa gggcaaggaa
+      241 accctcgtct tccactgtgc cctcagcaag gtgcgtggcc catcttgtgc gcaaatgtat
+      301 ctggactatt tgtcagaggc tgatgaagat tcagatgtaa agaacatcat ggtccttgaa
+      361 cgtggattta atggatggga actttcaggg aggcctgttt gccgctgcaa ggacgctcct
+      421 tgcaagggtg tgtgctcttg agtatccata tgaaactatg catttacctg tgca
+//
+

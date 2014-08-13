@@ -1,0 +1,89 @@
+LOCUS       AJ535841                1701 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa Japonica Group mRNA for mitogen-activated protein
+            kinase (sipk gene).
+ACCESSION   AJ535841
+VERSION     AJ535841.1  GI:29500878
+KEYWORDS    mitogen-activated protein kinase; sipk gene.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Rakwal,R., Jwa,N.S., Shibato,J. and Iwahashi,H.
+  TITLE     Identification of a novel rice (Oryza sativa L. japonica-type cv.
+            Nipponbare) mitogen-activated protein kinase OsSIPK, an orthologue
+            of tobacco NtSIPK
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1701)
+  AUTHORS   Rakwal,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JAN-2003) Rakwal R., Central 6, National Ins. Adv.
+            Indus. Sci. Tech., 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, JAPAN
+FEATURES             Location/Qualifiers
+     source          1..1701
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+                     /dev_stage="2 week old"
+     gene            1..1701
+                     /gene="sipk"
+     CDS             41..1237
+                     /gene="sipk"
+                     /function="defense/stress response"
+                     /codon_start=1
+                     /product="mitogen-activated protein kinase"
+                     /protein_id="CAD59793.1"
+                     /db_xref="GI:29500879"
+                     /db_xref="GOA:Q84UI5"
+                     /db_xref="InterPro:IPR000719"
+                     /db_xref="InterPro:IPR002290"
+                     /db_xref="InterPro:IPR003527"
+                     /db_xref="InterPro:IPR008271"
+                     /db_xref="InterPro:IPR008351"
+                     /db_xref="InterPro:IPR011009"
+                     /db_xref="InterPro:IPR017441"
+                     /db_xref="InterPro:IPR017442"
+                     /db_xref="UniProtKB/Swiss-Prot:Q84UI5"
+                     /translation="MDAGAQPPDTEMAEAGGGQQPPAAAAAAGAGAGAGMMENIQATL
+                     SHGGRFIQYNIFGNVFEVTAKYKPPILPIGKGAYGIVCSALNSETGEQVAIKKIANAF
+                     DNKIDAKRTLREIKLLRHMDHENIVAIRDIIPPPQRNSFNDVYIAYELMDTDLHQIIR
+                     SNQALSEEHCQYFLYQILRGLKYIHSANVLHRDLKPSNLLLNANCDLKICDFGLARTT
+                     SETDFMTEYVVTRWYRAPELLLNSSEYTAAIDVWSVGCIFMELMDRKPLFPGRDHVHQ
+                     LRLLMELIGTPNEADLDFVNENARRYIRQLPRHARQSFPEKFPHVHPLAIDLVEKMLT
+                     FDPRQRITVEGALAHPYLASLHDISDEPVCSSPFSFDFEQHALSEEQMKDLIYQEGLA
+                     FNPDYQ"
+ORIGIN      
+        1 acctccacct cctcgtcgcg atccaaatcc gaatccggcc atggacgccg gggcgcagcc
+       61 gccggacacg gagatggcgg aggccggcgg cgggcagcag ccgcctgctg cggctgcggc
+      121 ggcgggggcg ggggcagggg cggggatgat ggagaacatc caggcgacgc tgagccatgg
+      181 cgggaggttc atccagtaca acatcttcgg gaacgtgttc gaggtcaccg ccaagtacaa
+      241 gccccccatc ctccccatcg gcaagggcgc ctacggcatc gtctgctcgg cgctcaactc
+      301 ggagacgggg gagcaggtgg cgatcaagaa gatcgccaac gcgttcgaca acaagatcga
+      361 cgccaagcgc acgctcaggg agatcaagct gctccgccac atggaccacg agaatattgt
+      421 tgccataagg gatatcatac ctcctccaca aaggaattca ttcaatgacg tttatattgc
+      481 atatgaattg atggatactg atctgcatca aattattcgc tcaaatcaag cattgtcaga
+      541 ggagcactgc cagtatttcc tttatcagat tctccgtggc ttgaagtata tacattcagc
+      601 aaatgtcctt caccgagact tgaagcccag caacctactt ttgaatgcaa attgtgacct
+      661 caaaatttgt gattttggac ttgctcgtac cacctcagaa accgatttta tgactgagta
+      721 tgttgtcaca agatggtata gggcaccgga acttctgttg aattcctctg aatatactgc
+      781 agcaattgat gtgtggtctg tgggctgtat ttttatggaa ctcatggatc gtaaaccttt
+      841 gtttcctgga agagatcatg tccatcaatt acgtctacta atggagctca tcggaacgcc
+      901 aaatgaggct gatctggatt ttgtaaatga aaatgcaaga agatacattc gccaacttcc
+      961 tagacatgca aggcagtcct ttcctgaaaa atttccacat gttcatcctt tagcaattga
+     1021 tctggttgaa aagatgctga catttgatcc tagacagaga ataacagttg aaggtgccct
+     1081 tgcacatcct tacctggcat cactgcatga cataagtgat gagccagtct gctcatcacc
+     1141 cttcagcttt gacttcgagc agcatgcatt gtccgaggaa caaatgaagg atctaatcta
+     1201 ccaagaaggc cttgcgttca accctgatta ccagtagctg gtgttctatt tcagccttgg
+     1261 attgattcta ttcatatgga gttttttcct cctgcgccac aaaaggtcgc cgacagtgat
+     1321 cactagttgt aaataattgc ctcacctgaa aaatcctccc tggttcaaag ctgaaggtgt
+     1381 tgttctaaga gtagaaatgt actttgtgat caagttcctg ggtagctgct atgccattct
+     1441 tatgcttatg tatgttgttt aatgtgggat ttttttccat cttaaatgtt tttagtccct
+     1501 tttgtaagaa gagttagttc atgaacgatg acggcctaaa ttctgcggtt atcatcaaat
+     1561 tccccatttt cttgtcgatt catggatttc tcatggtttt acttaatgct ccatgttgta
+     1621 agacgtggtc aatggaagag gatatattga ctcttgattc agtggtggca gtttggagtt
+     1681 gatcgtaaga ctggaacatt a
+//
+

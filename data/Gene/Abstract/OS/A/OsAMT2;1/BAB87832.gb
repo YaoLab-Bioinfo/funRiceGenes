@@ -1,0 +1,56 @@
+LOCUS       BAB87832                 486 aa            linear   PLN 07-MAR-2003
+DEFINITION  ammonium transporter [Oryza sativa].
+ACCESSION   BAB87832
+VERSION     BAB87832.1  GI:19909968
+DBSOURCE    accession AB051864.1
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Suenaga,A., Moriya,K., Sonoda,Y., Ikeda,A., Von Wiren,N.,
+            Hayakawa,T., Yamaguchi,J. and Yamaya,T.
+  TITLE     Constitutive expression of a novel-type ammonium transporter OsAMT2
+            in rice plants
+  JOURNAL   Plant Cell Physiol. 44 (2), 206-211 (2003)
+   PUBMED   12610225
+REFERENCE   2  (residues 1 to 486)
+  AUTHORS   Suenaga,A., Yamaya,T. and Hayakawa,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-NOV-2000) Toshihiko Hayakawa, Tohoku University,
+            Graduate School of Agricultural Science, Department of Applied
+            Plant Science, Laboratory of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan (E-mail:toshi@biochem.tohoku.ac.jp, Tel:81-22-717-8788,
+            Fax:81-22-717-8788)
+FEATURES             Location/Qualifiers
+     source          1..486
+                     /organism="Oryza sativa"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:4530"
+                     /clone="OsAMT2;1"
+                     /tissue_type="roots"
+     Protein         1..486
+                     /product="ammonium transporter"
+                     /function="putative ammonium transporter"
+     Region          23..441
+                     /region_name="Ammonium_transp"
+                     /note="Ammonium Transporter Family; cl03012"
+                     /db_xref="CDD:261545"
+     CDS             1..486
+                     /gene="OsAMT2;1"
+                     /coded_by="AB051864.1:320..1780"
+ORIGIN      
+        1 maaagaysas lpavpdwlnk gdnawqltas tlvgiqsmpg lvvlygsivk kkwavnsafm
+       61 alyayassll vwvlvgfrma fgdqllpfwg kagvaltqsy lvgratlpat ahgaiprtep
+      121 fypeatlvlf qfefaaitlv llagsvlgrm nikawmaftp lwlllsytvg afslwgggfl
+      181 yrwgvidysg gyvihlssgi agftaaywvg prlksdrerf spnnillmia gggllwmgwa
+      241 gfnggapyaa niaasvavln tnvcaatsll mwtcldviff rkpsvigavq gmmtglvcit
+      301 pgaglvqtwa avvmgifags vpwftmmilh kksallmkvd dtlavfhtha vagllggilt
+      361 gllatpelfs lestvpglrg afygggikqi gkqlggaafv iawnlvvtta illgiglfip
+      421 lrmpdeqlmi gddaahgeea yalwgdgekf datrhdlsrg ggggdrdgpa gerlsalgar
+      481 gvtiql
+//
+

@@ -1,0 +1,252 @@
+LOCUS       HS16A_ORYSJ              150 aa            linear   PLN 11-DEC-2013
+DEFINITION  RecName: Full=16.9 kDa class I heat shock protein 1; AltName:
+            Full=16.9 kDa heat shock protein 1; Short=OsHsp16.9A.
+ACCESSION   P27777
+VERSION     P27777.1  GI:123543
+DBSOURCE    UniProtKB: locus HS16A_ORYSJ, accession P27777;
+            class: standard.
+            extra accessions:Q0JQW0,Q7F5E9
+            created: Aug 1, 1992.
+            sequence updated: Aug 1, 1992.
+            annotation updated: Dec 11, 2013.
+            xrefs: X60820.1, CAA43210.1, M80938.1, AAA33909.1, EU846988.1,
+            ACJ54892.1, AP003250.3, BAB64126.1, AP008207.2, BAF03868.1,
+            CM000138.1, EAZ10446.1, AK242299.1, BAH01253.1, S20874,
+            NP_001041954.1
+            xrefs (non-sequence databases): UniGene:Os.24024,
+            ProteinModelPortal:P27777, SMR:P27777,
+            EnsemblPlants:OS01T0136100-01, EnsemblPlants:OS01T0136100-01,
+            EnsemblPlants:OS01G0136100, GeneID:4325697, KEGG:osa:4325697,
+            Gramene:P27777, eggNOG:COG0071, HOGENOM:HOG000251751, KO:K13993,
+            OMA:HENEDGY, ProtClustDB:CLSN2691038, ArrayExpress:P27777,
+            GO:0005737, GO:0051259, GO:0009408, InterPro:IPR002068,
+            InterPro:IPR008978, Pfam:PF00011, SUPFAM:SSF49764, PROSITE:PS01031
+KEYWORDS    Complete proteome; Cytoplasm; Direct protein sequencing; Reference
+            proteome; Stress response.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 150)
+  AUTHORS   Tseng,T.S., Yeh,K.W., Yeh,C.H., Chang,F.C., Chen,Y.M. and Lin,C.Y.
+  TITLE     Two rice (Oryza sativa) full-length cDNA clones encoding
+            low-molecular-weight heat-shock proteins
+  JOURNAL   Plant Mol. Biol. 18 (5), 963-965 (1992)
+   PUBMED   1581572
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA].;
+            STRAIN=cv. Tainung 67
+REFERENCE   2  (residues 1 to 150)
+  AUTHORS   Tzeng,S.S., Yeh,K.W., Chen,Y.M. and Lin,C.Y.
+  TITLE     Two Oryza sativa Genomic DNA Clones Encoding 16.9-Kilodalton
+            Heat-Shock Proteins
+  JOURNAL   Plant Physiol. 99 (4), 1723-1725 (1992)
+   PUBMED   16669102
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA].;
+            STRAIN=cv. Tainung 67
+REFERENCE   3  (residues 1 to 150)
+  AUTHORS   Yoon,U.H. and Kim,Y.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-JUN-2008)
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA].;
+            STRAIN=cv. Ilpoombyeo; TISSUE=Seed
+REFERENCE   4  (residues 1 to 150)
+  AUTHORS   Sasaki,T., Matsumoto,T., Yamamoto,K., Sakata,K., Baba,T.,
+            Katayose,Y., Wu,J., Niimura,Y., Cheng,Z., Nagamura,Y.,
+            Antonio,B.A., Kanamori,H., Hosokawa,S., Masukawa,M., Arikawa,K.,
+            Chiden,Y., Hayashi,M., Okamoto,M., Ando,T., Aoki,H., Arita,K.,
+            Hamada,M., Harada,C., Hijishita,S., Honda,M., Ichikawa,Y.,
+            Idonuma,A., Iijima,M., Ikeda,M., Ikeno,M., Ito,S., Ito,T., Ito,Y.,
+            Ito,Y., Iwabuchi,A., Kamiya,K., Karasawa,W., Katagiri,S.,
+            Kikuta,A., Kobayashi,N., Kono,I., Machita,K., Maehara,T.,
+            Mizuno,H., Mizubayashi,T., Mukai,Y., Nagasaki,H., Nakashima,M.,
+            Nakama,Y., Nakamichi,Y., Nakamura,M., Namiki,N., Negishi,M.,
+            Ohta,I., Ono,N., Saji,S., Sakai,K., Shibata,M., Shimokawa,T.,
+            Shomura,A., Song,J., Takazaki,Y., Terasawa,K., Tsuji,K., Waki,K.,
+            Yamagata,H., Yamane,H., Yoshiki,S., Yoshihara,R., Yukawa,K.,
+            Zhong,H., Iwama,H., Endo,T., Ito,H., Hahn,J.H., Kim,H.I., Eun,M.Y.,
+            Yano,M., Jiang,J. and Gojobori,T.
+  TITLE     The genome sequence and structure of rice chromosome 1
+  JOURNAL   Nature 420 (6913), 312-316 (2002)
+   PUBMED   12447438
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   5  (residues 1 to 150)
+  CONSRTM   International Rice Genome Sequencing Project
+  TITLE     The map-based sequence of the rice genome
+  JOURNAL   Nature 436 (7052), 793-800 (2005)
+   PUBMED   16100779
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   6  (residues 1 to 150)
+  AUTHORS   Tanaka,T., Antonio,B.A., Kikuchi,S., Matsumoto,T., Nagamura,Y.,
+            Numa,H., Sakai,H., Wu,J., Itoh,T., Sasaki,T., Aono,R., Fujii,Y.,
+            Habara,T., Harada,E., Kanno,M., Kawahara,Y., Kawashima,H.,
+            Kubooka,H., Matsuya,A., Nakaoka,H., Saichi,N., Sanbonmatsu,R.,
+            Sato,Y., Shinso,Y., Suzuki,M., Takeda,J., Tanino,M., Todokoro,F.,
+            Yamaguchi,K., Yamamoto,N., Yamasaki,C., Imanishi,T., Okido,T.,
+            Tada,M., Ikeo,K., Tateno,Y., Gojobori,T., Lin,Y.C., Wei,F.J.,
+            Hsing,Y.I., Zhao,Q., Han,B., Kramer,M.R., McCombie,R.W.,
+            Lonsdale,D., O'Donovan,C.C., Whitfield,E.J., Apweiler,R.,
+            Koyanagi,K.O., Khurana,J.P., Raghuvanshi,S., Singh,N.K.,
+            Tyagi,A.K., Haberer,G., Fujisawa,M., Hosokawa,S., Ito,Y., Ikawa,H.,
+            Shibata,M., Yamamoto,M., Bruskiewich,R.M., Hoen,D.R., Bureau,T.E.,
+            Namiki,N., Ohyanagi,H., Sakai,Y., Nobushima,S., Sakata,K.,
+            Barrero,R.A., Sato,Y., Souvorov,A., Smith-White,B., Tatusova,T.,
+            An,S., An,G., OOta,S., Fuks,G., Fuks,G., Messing,J., Christie,K.R.,
+            Lieberherr,D., Kim,H., Zuccolo,A., Wing,R.A., Nobuta,K.,
+            Green,P.J., Lu,C., Meyers,B.C., Chaparro,C., Piegu,B., Panaud,O.
+            and Echeverria,M.
+  CONSRTM   Rice Annotation Project
+  TITLE     The Rice Annotation Project Database (RAP-DB): 2008 update
+  JOURNAL   Nucleic Acids Res. 36 (DATABASE ISSUE), D1028-D1033 (2008)
+   PUBMED   18089549
+  REMARK    GENOME REANNOTATION.;
+            STRAIN=cv. Nipponbare
+REFERENCE   7  (residues 1 to 150)
+  AUTHORS   Yu,J., Wang,J., Lin,W., Li,S., Li,H., Zhou,J., Ni,P., Dong,W.,
+            Hu,S., Zeng,C., Zhang,J., Zhang,Y., Li,R., Xu,Z., Li,S., Li,X.,
+            Zheng,H., Cong,L., Lin,L., Yin,J., Geng,J., Li,G., Shi,J., Liu,J.,
+            Lv,H., Li,J., Wang,J., Deng,Y., Ran,L., Shi,X., Wang,X., Wu,Q.,
+            Li,C., Ren,X., Wang,J., Wang,X., Li,D., Liu,D., Zhang,X., Ji,Z.,
+            Zhao,W., Sun,Y., Zhang,Z., Bao,J., Han,Y., Dong,L., Ji,J., Chen,P.,
+            Wu,S., Liu,J., Xiao,Y., Bu,D., Tan,J., Yang,L., Ye,C., Zhang,J.,
+            Xu,J., Zhou,Y., Yu,Y., Zhang,B., Zhuang,S., Wei,H., Liu,B., Lei,M.,
+            Yu,H., Li,Y., Xu,H., Wei,S., He,X., Fang,L., Zhang,Z., Zhang,Y.,
+            Huang,X., Su,Z., Tong,W., Li,J., Tong,Z., Li,S., Ye,J., Wang,L.,
+            Fang,L., Lei,T., Chen,C., Chen,H., Xu,Z., Li,H., Huang,H.,
+            Zhang,F., Xu,H., Li,N., Zhao,C., Li,S., Dong,L., Huang,Y., Li,L.,
+            Xi,Y., Qi,Q., Li,W., Zhang,B., Hu,W., Zhang,Y., Tian,X., Jiao,Y.,
+            Liang,X., Jin,J., Gao,L., Zheng,W., Hao,B., Liu,S., Wang,W.,
+            Yuan,L., Cao,M., McDermott,J., Samudrala,R., Wang,J., Wong,G.K. and
+            Yang,H.
+  TITLE     The Genomes of Oryza sativa: a history of duplications
+  JOURNAL   PLoS Biol. 3 (2), E38 (2005)
+   PUBMED   15685292
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   8  (residues 1 to 150)
+  CONSRTM   The rice full-length cDNA consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-OCT-2006)
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   9  (residues 1 to 150)
+  AUTHORS   Komatsu,S., Kojima,K., Suzuki,K., Ozaki,K. and Higo,K.
+  TITLE     Rice Proteome Database based on two-dimensional polyacrylamide gel
+            electrophoresis: its status in 2003
+  JOURNAL   Nucleic Acids Res. 32 (DATABASE ISSUE), D388-D392 (2004)
+   PUBMED   14681440
+  REMARK    PROTEIN SEQUENCE OF 75-84.;
+            STRAIN=cv. Nipponbare; TISSUE=Embryo
+REFERENCE   10 (residues 1 to 150)
+  AUTHORS   Young,L.S., Yeh,C.H., Chen,Y.M. and Lin,C.Y.
+  TITLE     Molecular characterization of Oryza sativa 16.9 kDa heat shock
+            protein
+  JOURNAL   Biochem. J. 344 (PT 1), 31-38 (1999)
+   PUBMED   10548530
+  REMARK    SUBUNIT, AND REGION.
+REFERENCE   11 (residues 1 to 150)
+  AUTHORS   Guan,J.C., Jinn,T.L., Yeh,C.H., Feng,S.P., Chen,Y.M. and Lin,C.Y.
+  TITLE     Characterization of the genomic structures and selective expression
+            profiles of nine class I small heat shock protein genes clustered
+            on two chromosomes in rice (Oryza sativa L.)
+  JOURNAL   Plant Mol. Biol. 56 (5), 795-809 (2004)
+   PUBMED   15803416
+  REMARK    INDUCTION.
+REFERENCE   12 (residues 1 to 150)
+  AUTHORS   Sarkar,N.K., Kim,Y.K. and Grover,A.
+  TITLE     Rice sHsp genes: genomic organization and expression profiling
+            under stress and development
+  JOURNAL   BMC Genomics 10, 393 (2009)
+   PUBMED   19703271
+  REMARK    INDUCTION, AND GENE FAMILY.
+            Publication Status: Online-Only
+COMMENT     On or before Nov 6, 2009 this sequence version replaced
+            gi:122241271, gi:75295489, gi:82480.
+            [SUBUNIT] Forms oligomeric structures.
+            [SUBCELLULAR LOCATION] Cytoplasm (Potential).
+            [INDUCTION] By heat shock.
+            [SIMILARITY] Belongs to the small heat shock protein (HSP20)
+            family.
+FEATURES             Location/Qualifiers
+     source          1..150
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+     gene            1..150
+                     /gene="HSP16.9A"
+                     /locus_tag="Os01g0136100"
+                     /gene_synonym="LOC_Os01g04370"
+                     /gene_synonym="OsJ_00279"
+                     /gene_synonym="P0443D08.5"
+     Protein         1..150
+                     /gene="HSP16.9A"
+                     /locus_tag="Os01g0136100"
+                     /gene_synonym="LOC_Os01g04370"
+                     /gene_synonym="OsJ_00279"
+                     /gene_synonym="P0443D08.5"
+                     /product="16.9 kDa class I heat shock protein 1"
+                     /note="16.9 kDa heat shock protein 1; OsHsp16.9A"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..150
+                     /gene="HSP16.9A"
+                     /locus_tag="Os01g0136100"
+                     /gene_synonym="LOC_Os01g04370"
+                     /gene_synonym="OsJ_00279"
+                     /gene_synonym="P0443D08.5"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="16.9 kDa class I heat shock protein 1.
+                     /FTId=PRO_0000125980."
+     Region          1..42
+                     /gene="HSP16.9A"
+                     /locus_tag="Os01g0136100"
+                     /gene_synonym="LOC_Os01g04370"
+                     /gene_synonym="OsJ_00279"
+                     /gene_synonym="P0443D08.5"
+                     /region_name="Region of interest in the sequence"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Important for thermostability under elevated
+                     temperature."
+     Region          7..149
+                     /gene="HSP16.9A"
+                     /locus_tag="Os01g0136100"
+                     /gene_synonym="LOC_Os01g04370"
+                     /gene_synonym="OsJ_00279"
+                     /gene_synonym="P0443D08.5"
+                     /region_name="IbpA"
+                     /note="Molecular chaperone (small heat shock protein)
+                     [Posttranslational modification, protein turnover,
+                     chaperones]; COG0071"
+                     /db_xref="CDD:223149"
+     Region          44..135
+                     /gene="HSP16.9A"
+                     /locus_tag="Os01g0136100"
+                     /gene_synonym="LOC_Os01g04370"
+                     /gene_synonym="OsJ_00279"
+                     /gene_synonym="P0443D08.5"
+                     /region_name="ACD_ScHsp26_like"
+                     /note="Alpha crystallin domain (ACD) found in
+                     Saccharomyces cerevisiae (Sc) small heat shock protein
+                     (Hsp)26 and similar proteins. sHsps are molecular
+                     chaperones that suppress protein aggregation and protect
+                     against cell stress, and are generally active as...;
+                     cd06472"
+                     /db_xref="CDD:107229"
+     Site            order(44..50,57,59,61..62,84,89,92..100,102,107,126..128)
+                     /gene="HSP16.9A"
+                     /locus_tag="Os01g0136100"
+                     /gene_synonym="LOC_Os01g04370"
+                     /gene_synonym="OsJ_00279"
+                     /gene_synonym="P0443D08.5"
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:107229"
+ORIGIN      
+        1 mslvrrsnvf dpfsldlwdp fdsvfrsvvp atsdndtaaf anaridwket peshvfkadl
+       61 pgvkkeevkv eveegnvlvi sgqrskeked kndkwhrver ssgqfmrrfr lpenakvdqv
+      121 kaglengvlt vtvpkaevkk pevkaieisg
+//
+

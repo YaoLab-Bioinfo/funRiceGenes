@@ -1,0 +1,58 @@
+LOCUS       OSU76004                1050 bp    mRNA    linear   PLN 29-AUG-1997
+DEFINITION  Oryza sativa Bowman-Birk proteinase inhibitor mRNA, complete cds.
+ACCESSION   U76004
+VERSION     U76004.1  GI:1800226
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1050)
+  AUTHORS   Chen,P.-W., Chow,S.-H. and Chen,L.-J.
+  TITLE     The electronic Plant Gene Register
+  JOURNAL   Plant Physiol. 113 (2), 663-665 (1997)
+   PUBMED   9046601
+REFERENCE   2  (bases 1 to 1050)
+  AUTHORS   Chen,L.J. and Chen,P.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-OCT-1996) Institute of Molecular Biology, National
+            Chung Hsing University, Taichung, Taiwan 40227, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..1050
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /cultivar="Lomello"
+                     /db_xref="taxon:4530"
+                     /clone="Ose727A"
+                     /dev_stage="embryo"
+     CDS             160..747
+                     /codon_start=1
+                     /product="Bowman-Birk proteinase inhibitor"
+                     /protein_id="AAB68026.1"
+                     /db_xref="GI:1800227"
+                     /translation="MIYPPLYRCNDEVKQCAAACKECVEAPGGDFNGGAFVCSDWFST
+                     VDPGPKCTAALDGLSMEKPWKCCDNIERLPTKTNPPQWRCNDELEPSQCTAACKSCRE
+                     APGPFPGKLICEDIYWGADPGPFCTPRTWGDCCDKAFCNKMNPPTCRCMDEVKECADA
+                     CKDCQRVESSEPPRYVCKDRFTGHPGPVCKPRAEN"
+ORIGIN      
+        1 gctacttcca ccatcctgct cttcctcctc gccggcctcg ccgccgccca cggcgacggc
+       61 gacaccacca tccgtctccc cagcgacggc gccaaagcat cacgaccacg cgccgccaaa
+      121 ccatgggact gctgcgacaa catcgagatc tcccggctaa tgatctaccc gccactgtac
+      181 cgctgcaacg acgaggtgaa gcagtgcgcc gccgcctgca aggagtgcgt ggaggcgccc
+      241 ggcggcgact tcaacggcgg cgccttcgtc tgcagtgact ggttctcgac ggtggacccc
+      301 ggccccaagt gcacggcggc gctggatggg ctgtcgatgg agaagccgtg gaagtgctgc
+      361 gacaacatcg agcggctgcc gacgaagacc aacccgccgc agtggcgctg caacgacgag
+      421 ctggagccca gccagtgcac cgccgcgtgc aagtcgtgcc gggaggcgcc ggggccattc
+      481 ccggggaagc tcatctgcga ggacatctac tggggcgccg acccgggccc cttctgcacg
+      541 ccgcggacat ggggagattg ctgcgacaag gccttctgca acaagatgaa cccgccgacc
+      601 tgccgctgca tggacgaggt gaaggagtgc gccgacgcgt gcaaggattg ccagcgcgtg
+      661 gagtcgtcgg agccgcctcg ctacgtctgc aaggaccgct tcaccggcca tcccggcccc
+      721 gtgtgcaaac cccgagcgga gaactagcta gctacagatg atcgatgatc gatctgtgtg
+      781 tccatcaata aaactcgccc tagcttgcag ctagctgatc gttcgttcga tcattcagag
+      841 ttggtatagc tagaggctag agcttagctc catccagatt tttcagtgct ctgcagcttt
+      901 tgtgcatctt gcatgctttg ttagtttgtg tgctccatgt gtgtgggtgt gtttgtctct
+      961 gttcgcttgt gtggaccatg aggaaaaata aaataaatat gcaatgcaag cgtggatatg
+     1021 taccccaaaa aaaaaaaaaa aaaaaaaaaa
+//
+

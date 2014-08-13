@@ -1,0 +1,71 @@
+LOCUS       GQ202237                 666 bp    mRNA    linear   PLN 31-MAY-2011
+DEFINITION  Oryza sativa Japonica Group cultivar Zhonghua11 lumazine synthase
+            (LS) mRNA, complete cds.
+ACCESSION   GQ202237
+VERSION     GQ202237.1  GI:246772258
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 666)
+  AUTHORS   Wu,T., Guo,A., Zhao,Y., Wang,X., Wang,Y., Zhao,D., Li,X., Ren,H.
+            and Dong,H.
+  TITLE     Ectopic expression of the rice lumazine synthase gene contributes
+            to defense responses in transgenic tobacco
+  JOURNAL   Phytopathology 100 (6), 573-581 (2010)
+   PUBMED   20465413
+REFERENCE   2  (bases 1 to 666)
+  AUTHORS   Wu,T.Q., Ren,H.Y., Sun,L.J., Song,T., Qu,S.P., Guo,A., Peng,J.L.,
+            Zhang,S.J., Qian,J. and Dong,H.S.
+  TITLE     Genetic analysis of rice lumazine synthase reveals important roles
+            for flavin signaling in plant growth and defense
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 666)
+  AUTHORS   Wu,T.Q., Ren,H.Y., Sun,L.J., Song,T., Qu,S.P., Guo,A., Peng,J.L.,
+            Zhang,S.J., Qian,J. and Dong,H.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-MAY-2009) Plant Pathology, Key Laboratory of
+            Monitoring and Management of Plant Pathogens and Insect Pests,
+            Ministry of Agriculture of China, Nanjing Agricultural University,
+            Weigang No. 1, Nanjing, Jiangsu 210095, China
+FEATURES             Location/Qualifiers
+     source          1..666
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua11"
+                     /db_xref="taxon:39947"
+                     /PCR_primers="fwd_seq: gcggatccatggcggcggctgc, rev_seq:
+                     gcgtcgactcaggccaggtgatgct"
+     gene            1..666
+                     /gene="LS"
+                     /note="OsLS"
+     CDS             1..666
+                     /gene="LS"
+                     /function="catalyzes the penultimate step of riboflavin
+                     biosynthesis"
+                     /codon_start=1
+                     /product="lumazine synthase"
+                     /protein_id="ACS94980.1"
+                     /db_xref="GI:246772259"
+                     /translation="MAAAAPATTSSAAARPSSSSSSSRQSDAPLRAATVSFPYSPRPA
+                     ALAAGARASRVSPVVVAAGGGHQRLMGSLTNTQGLRFGVVVARFNEIVTNLLLQGALE
+                     TFERYSVKKENITVVSVPGSFEIPVAAQKLGKSGKFDAILCIGAVIRGDTTHYDAVAN
+                     SAASGVLSAGLSAEIPCIFGVLTCDDMDQALNRAGGKAGNKGAEAALTAIEMASLFQH
+                     HLA"
+ORIGIN      
+        1 atggcggcgg ctgcccccgc gacgacgtca tccgcggccg cgaggccctc ctcctcctcc
+       61 tcctcctcgc ggcaatccga cgctcctctg cgcgccgcca ccgtctcctt cccttactcc
+      121 ccacggccgg ccgcgttggc tgcaggcgct cgggcctcgc gggttagccc cgtcgtggtc
+      181 gccgccggcg gcgggcacca gcggcttatg gggtcgttga ctaataccca ggggctcagg
+      241 tttggagtgg ttgtggcacg gttcaatgag attgtcacca acttgctact gcagggagct
+      301 cttgagacat ttgagagata ttccgtcaaa aaagaaaata taacagttgt aagtgttcct
+      361 ggcagttttg aaattcctgt tgcggcacaa aagcttggga agtctggaaa gtttgatgca
+      421 attttgtgca ttggcgctgt gattagaggt gacacaaccc actacgatgc tgttgcaaac
+      481 tctgctgctt caggtgtact gtctgctgga ttgtctgctg agatcccatg catatttggt
+      541 gttctgacat gtgatgacat ggaccaggct ctaaatcgtg ctggtggtaa ggctggaaac
+      601 aagggagctg aagccgctct aactgcaatc gagatggcct cgctgttcca gcatcacctg
+      661 gcctga
+//
+

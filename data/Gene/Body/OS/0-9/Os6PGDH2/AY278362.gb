@@ -1,0 +1,82 @@
+LOCUS       AY278362                1480 bp    mRNA    linear   PLN 24-MAY-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) cytosolic 6-phosphogluconate
+            dehydrogenase (6PGDH2) mRNA, complete cds.
+ACCESSION   AY278362
+VERSION     AY278362.2  GI:38426300
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1480)
+  AUTHORS   Hou,F.-Y., Huang,J., Yu,S.-L. and Zhang,H.-S.
+  TITLE     The 6-phosphogluconate Dehydrogenase Genes Are Responsive to
+            Abiotic Stresses in Rice
+  JOURNAL   J. Integr. Plant Biol. 49 (5), 655-663 (2007)
+REFERENCE   2  (bases 1 to 1480)
+  AUTHORS   Hou,F.Y., Huang,J. and Zhang,H.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-APR-2003) Agronomy, Rice Research Institute, Weigang,
+            Nanjing Agricultural University, Nanjing, Jiangsu 210095, China
+REFERENCE   3  (bases 1 to 1480)
+  AUTHORS   Hou,F.Y., Huang,J. and Zhang,H.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-NOV-2003) Agronomy, Rice Research Institute, Weigang,
+            Nanjing Agricultural University, Nanjing, Jiangsu 210095, China
+  REMARK    Nucleotide and amino acid sequences updated by submitter
+COMMENT     On Nov 19, 2003 this sequence version replaced gi:30841727.
+FEATURES             Location/Qualifiers
+     source          1..1480
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Jiu Caiqing"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+     gene            1..1480
+                     /gene="6PGDH2"
+     CDS             9..1442
+                     /gene="6PGDH2"
+                     /EC_number="1.1.1.44"
+                     /note="Os6PGDH2"
+                     /codon_start=1
+                     /product="cytosolic 6-phosphogluconate dehydrogenase"
+                     /protein_id="AAP33506.2"
+                     /db_xref="GI:38426301"
+                     /translation="MGQKLALNIAEKGFPISVYNRTAAKVDATVSRAEAEGALPVLGH
+                     RDPRGFVLSLSRPRTVVLLVQAGRAVDATIDALVPYLDAGDAIVDGGNEWYQNTERRI
+                     EEAAARGILYLGMGVSGGEEGARNGPSLMPGGHIDAYNNIRDILEKAAAQTEDGACVT
+                     FVGPGGAGNFVKMVHNGIEYGDMQLIAEAYDVLRRVGGLSNSEIADVFAEWNRGELES
+                     FLVEITADIFTVADPLDGSGGGGLVDKILDKTGMKGTGKWTVQQAAELAIAAPTIAAS
+                     LDGRYLSGLKDERVAAAGVLKAEGMPSGLLETINVDKKMLVDRVRQALYASKICSYAQ
+                     GMNLLRAKSVEKGWNLNLAELARIWKGGCIIRAKFLDRIKKAYDRNPELANLIVDREF
+                     AREMVQRQNAWRWVVARAVEAGISTPGMSASLSYFDTYRCSRLPANLIQAQRDLFGAH
+                     TYERIDRPGSFHTEWTKLARKSNGAAI"
+ORIGIN      
+        1 tcgccaccat gggccagaaa ctcgccctca acatcgccga gaagggcttc ccgatctccg
+       61 tctacaaccg caccgccgcc aaggtcgacg ccaccgtgtc ccgcgccgag gccgagggcg
+      121 cgctcccggt gctcggccac cgcgacccgc ggggcttcgt cctctccctc tccaggcccc
+      181 gcaccgtcgt gctgctcgtc caggccgggc gcgccgtcga cgccaccatc gacgcgctcg
+      241 tcccctacct cgacgccggg gacgccatcg tcgacggcgg gaacgagtgg taccagaaca
+      301 cggagcggcg gatcgaggag gccgccgcga gggggatact ctacctcggg atgggggtct
+      361 ccggcggcga ggagggcgcg cggaacgggc cctcgctgat gccggggggc cacatcgacg
+      421 cctacaacaa catcagggac atcctcgaga aggccgccgc gcagacggag gatggggcgt
+      481 gcgtcacctt cgtcggcccc ggcggcgcgg gcaacttcgt taagatggtg cacaacggga
+      541 tcgagtacgg cgacatgcag ctcatcgccg aggcctacga cgtgctccgc cgcgtcggcg
+      601 gcctgtccaa ctcggagatc gctgacgtct tcgcggagtg gaaccggggg gaattggaga
+      661 gtttcttggt tgagattact gccgatatat tcacggtggc cgacccgctt gatggcagcg
+      721 gcggcggtgg gctggtggac aagattcttg acaagacggg gatgaaggga accgggaagt
+      781 ggacggtgca gcaggcagca gagcttgcga ttgctgcgcc cacgattgca gcatcactgg
+      841 atgggaggta cttgtctggg ttgaaggacg agcgtgtggc ggccgcaggg gttctaaagg
+      901 cggaggggat gccatcaggg ctactcgaga cgattaatgt tgataagaag atgctagttg
+      961 acagggtgag gcaagctctg tatgcgtcaa aaatttgcag ctacgcgcag gggatgaacc
+     1021 ttctgcgagc aaagagtgtg gagaaggggt ggaatcttaa cctcgcagag cttgcaagga
+     1081 tttggaaggg cgggtgcatt atccgggcga agtttcttga taggatcaag aaggcgtatg
+     1141 acaggaaccc tgagctggcc aatctgatcg tggacaggga gtttgcaagg gagatggttc
+     1201 agcggcagaa tgcatggcgg tgggttgtgg ctcgtgctgt ggaggctggg attagcactc
+     1261 cagggatgtc tgctagcctt tcatactttg acacctacag gtgtagtcgg ctgcctgcaa
+     1321 atctgatcca agcacagaga gacttgtttg gggcacacac ctatgagcgc attgaccgtc
+     1381 caggttcgtt ccacacagag tggactaagc tggcgagaaa gagtaatggt gcggccattt
+     1441 gaggacttga atggtatcag taactctgtg tggtgtctct
+//
+

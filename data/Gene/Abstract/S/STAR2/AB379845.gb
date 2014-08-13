@@ -1,0 +1,62 @@
+LOCUS       AB379845                 858 bp    mRNA    linear   PLN 02-APR-2009
+DEFINITION  Oryza sativa Japonica Group STAR2 mRNA for putative ABC
+            transporter, complete cds.
+ACCESSION   AB379845
+VERSION     AB379845.1  GI:224770636
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Huang,C.F., Yamaji,N., Mitani,N., Yano,M., Nagamura,Y. and Ma,J.F.
+  TITLE     A Bacterial-Type ABC Transporter Is Involved in Aluminum Tolerance
+            in Rice
+  JOURNAL   Plant Cell 21 (2), 655-667 (2009)
+   PUBMED   19244140
+REFERENCE   2  (bases 1 to 858)
+  AUTHORS   Ma,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2008) Contact:Jian Feng Ma Okayama University,
+            Research Institute for Bioresources; Chuo 2-20-1, Kurashiki,
+            Okayama 710-0046, Japan
+FEATURES             Location/Qualifiers
+     source          1..858
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="5"
+     gene            1..858
+                     /gene="STAR2"
+     CDS             1..858
+                     /gene="STAR2"
+                     /codon_start=1
+                     /product="putative ABC transporter"
+                     /protein_id="BAH28260.1"
+                     /db_xref="GI:224770637"
+                     /translation="MMASMAALLQRLLVVVNQVDPGAPGFWREFLVGMLKPVAATAVV
+                     AMAVALSFTQRLGLEGEMLYAMARAFLQLSVIGFVLQFIFTQKSAAWILLAYLFMVTV
+                     AGYTAGQRARHVPRGKHIAAVSILAGTSVTMALLVALRVFPFTPRYIIPVAGMMVGNA
+                     MTVTGVTMKKLREDVGMQRGVVETALALGATPRQATARQVRRSLVIALSPVIDNAKTV
+                     GLIALPGAMTGLIMGGASPLEAIQLQIVVMNMLMGASTVSSILSTYLCWPAFFTGAFQ
+                     LNDAVFAAD"
+ORIGIN      
+        1 atgatggcga gcatggcggc gctgctgcag cgtctgctgg tggtggtgaa tcaggtggac
+       61 ccgggcgcgc cggggttctg gcgggagttc ttggtgggca tgctgaagcc ggtggcggcg
+      121 acggcggtgg tggcgatggc ggtggcgctg agcttcacgc agcggctggg gctcgagggc
+      181 gagatgctgt acgccatggc gcgggcgttc ctccagctct ccgtcatcgg cttcgtcctc
+      241 cagttcatct tcacccagaa gagcgccgcc tggatcctcc tcgcctacct cttcatggtc
+      301 accgtcgccg gctacaccgc ggggcagcgc gcccgccacg tcccgcgggg gaagcacatc
+      361 gccgccgtct ccatcctcgc cggcacctcc gtcaccatgg ccctcctcgt ggcgctccgg
+      421 gtgttcccgt tcacgccgcg gtacatcatc ccggtggccg ggatgatggt cgggaacgcg
+      481 atgacggtga ccggggtgac gatgaagaag ctgagggagg acgtggggat gcagcgaggg
+      541 gtggtggaga cggcgctggc gctgggcgcg acgccgcggc aggcgacggc gcggcaggtg
+      601 aggaggtcgc tggtgatcgc gctgtcgccg gtgatcgaca acgccaagac ggtggggctg
+      661 atcgcgctgc cgggcgccat gaccggcctc atcatgggcg gcgcgtcgcc gctggaggcc
+      721 atccagctgc agatcgtggt gatgaacatg ctcatgggcg cttccaccgt cagcagcatc
+      781 ctctccacct acctctgctg gccggccttc ttcaccggcg ccttccagct caacgacgcc
+      841 gtcttcgccg ccgactaa
+//
+

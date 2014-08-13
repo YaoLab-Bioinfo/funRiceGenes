@@ -1,0 +1,65 @@
+LOCUS       AX046728                1618 bp    DNA     linear   PAT 15-DEC-2000
+DEFINITION  Sequence 15 from Patent WO0068393.
+ACCESSION   AX046728
+VERSION     AX046728.1  GI:11876265
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   della Penna,D., Collakova,E., Coughlan,S.J. and Helentjaris,T.G.
+  TITLE     Phytyl/prenyltransferase nucleic acids, polypeptides and uses
+            thereof
+  JOURNAL   Patent: WO 0068393-A 15 16-NOV-2000;
+            PIONEER HI-BRED INTERNATIONAL, INC. (US) ; University of
+            Nevada-Reno (US)
+FEATURES             Location/Qualifiers
+     source          1..1618
+                     /organism="Oryza sativa"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:4530"
+     CDS             59..1273
+                     /note="unnamed protein product"
+                     /codon_start=1
+                     /protein_id="CAC18914.1"
+                     /db_xref="GI:11876266"
+                     /translation="MDSLRLRPSLLAARAPGAASLPPLRRDHFLPPLCSIHRNGKRPV
+                     SLSSQRTQGPSFDQCQKFFGWKSSHHRIPHRPTSSSADASGQPLQSSAEAHDSSSIWK
+                     PISSSPDAFYRFSRPHTVIGTALSIVSVSLLAVENLSDVSPLFLTGLLEAVVAALFMN
+                     IYIVGLNQLFDIEIDKVNKPTLPLASGEYSPATGVALVSAFAAMSFGLGWAVGSQPLF
+                     LALFISFILGTAYSINLPFLRWKRSAVVAALCILAVRAVIVQLAFFLHIQTFVFRRPA
+                     VFTRPLIFATAFMTFFSVVIALFKDIPDIEGDRIFGIKSFSVRLGQKKVFWICVGLLE
+                     MAYCVAILMGATSACLWSKYATVVGHAILAAILWNRSRSIDLTSKTAITSFYMFIWKL
+                     FYAEYLLIPLVR"
+ORIGIN      
+        1 gcacgagctt acaagccgcc gcgcgcgccc ggccgccgcg gtggtggcgg cggcggcgat
+       61 ggattcgctg cgcctccggc cgtcgctcct cgccgcgcgg gcccccggcg cggcctcgct
+      121 gccgcctctc cggcgagatc actttctacc acctttatgt tctatccata gaaatggtaa
+      181 acggccagtt tctttgtcca gccaaaggac ccaaggtcct tccttcgatc aatgtcagaa
+      241 attctttggt tggaaatcct cccaccacag gataccacat cgaccaacat ctagttccgc
+      301 tgacgcttcg ggacaacctc tacaatcttc agctgaagca catgattcat caagtatatg
+      361 gaagccaata tcatcttctc cggatgcatt ttacaggttt tctcggccac atactgtcat
+      421 aggaacagca cttagcatag tctcagtttc gctgctagct gttgagaatt tgtccgatgt
+      481 gtctcccttg ttcctcactg gtttgctgga ggcagtggta gcagctcttt tcatgaacat
+      541 ctatatcgtt ggattgaatc agttgttcga cattgagata gataaggtta acaagccaac
+      601 tcttccatta gcatctgggg aatattctcc tgcaactgga gttgcacttg tatcagcctt
+      661 cgctgctatg agctttggcc ttggatgggc tgttggatca cagcctctgt tcctggctct
+      721 tttcattagc tttattcttg gaacagcata ttcgattaat ctgccattcc tgagatggaa
+      781 gagatctgct gttgttgcag cactttgcat attagcagtc cgtgcagtga ttgttcagct
+      841 ggcatttttt ctccacattc agacattcgt attcagaaga ccagcagtct ttaccaggcc
+      901 attgattttt gcaactgcat tcatgacctt tttctccgtt gtaatagcat tgttcaagga
+      961 tatacctgat attgaaggag accgtatttt tggtatcaaa tctttcagtg ttcgattagg
+     1021 tcaaaagaag gttttctgga tttgtgttgg tctgctcgag atggcttatt gtgttgcaat
+     1081 attgatggga gctacttctg cctgtttgtg gagcaaatac gcaactgtgg tgggacatgc
+     1141 aatccttgcg gcaatcctat ggaaccgctc acggtcgatt gatctgacaa gcaaaactgc
+     1201 aatcacttct ttctacatgt ttatctggaa gctgttctac gcggaatacc ttctcattcc
+     1261 tcttgtaagg tgacaaaggc gattactcca ggtagattgg aattggatca tggctggatg
+     1321 gatgaacgga cggcgcccca taaaatcacc tgcaaatcac ccggtacaca tgttgacatc
+     1381 ctgcatccag atatgatatt gatagatcat cgtcggcacc atcattcctc tgaaagattt
+     1441 cgcacggcat ttcaacctcc aactcccaac gtaccccaaa aaaagtaact aggccaggtg
+     1501 agcatctgct agcctatagt agacgttatt ggaacagtgg tagtacttgt tagcagcagt
+     1561 aataataatc atcataataa agctctgggt tactgtcaaa aaaaaaaaaa aaaaaaaa
+//
+

@@ -1,0 +1,63 @@
+LOCUS       AB103120                1020 bp    DNA     linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group fzp gene for frizzy panicle, complete
+            cds.
+ACCESSION   AB103120
+VERSION     AB103120.1  GI:32813260
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Komatsu,M., Chujo,A., Nagato,Y., Shimamoto,K. and Kyozuka,J.
+  TITLE     FRIZZY PANICLE is required to prevent the formation of axillary
+            meristems and to establish floral meristem identity in rice
+            spikelets
+  JOURNAL   Development 130 (16), 3841-3850 (2003)
+   PUBMED   12835399
+REFERENCE   2  (bases 1 to 1020)
+  AUTHORS   Komatsu,M. and Kyozuka,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-FEB-2003) Contact:Junko Kyozuka University of Tokyo,
+            Dept. of Agricultural and Environmental Biology; 1-1-1 Yayoi,
+            Bunkyo, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1020
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39947"
+     gene            64..1020
+                     /gene="fzp"
+     CDS             64..1020
+                     /gene="fzp"
+                     /codon_start=1
+                     /product="frizzy panicle"
+                     /protein_id="BAC79264.1"
+                     /db_xref="GI:32813261"
+                     /translation="MNTRGSGSSSSSSSSQASLMAFSEPPKPASQPSPPSSPMSERPP
+                     SGRSRRRAQEPGRFLGVRRRPWGRYAAEIRDPTTKERHWLGTFDTAQEAALAYDRAAL
+                     SMKGAQARTNFVYTHAAYNYPPFLAPFHAPQYAAAAAAPSSVQYGGGVGAAPHIGSYG
+                     HHHHHHHHHGHGAASGASSVGECSTMPVMVPVDPHRSSMSSSLLDMDRNGHDFLFSGA
+                     DDNSGYLSSVVPESCLRPRGGGAAADHQDMRRYSDADAYGMMGLREDVDDLAQMVAGF
+                     WGGGDAADQLGACGFPASGGAADMVASSQGSDSYSPFSFLSH"
+ORIGIN      
+        1 agcctagctc actctcactc tcactcttgc attgcattgc aatattgcaa tattgcattg
+       61 gtcatgaaca ctcgaggcag cggcagtagc agcagcagca gcagcagcca ggccagcctg
+      121 atggcgttct cggagccgcc gaagccggcg agccagccgt cgccgccgtc gtcgccgatg
+      181 agcgagcggc cgccgtcggg gcgcagcagg cggcgcgcgc aggagccagg gaggttcctc
+      241 ggcgtgcggc ggcggccgtg ggggaggtac gctgccgaga tacgcgaccc gaccaccaag
+      301 gagcggcact ggctgggcac gttcgacacg gcgcaggagg cggcgctggc gtacgaccgc
+      361 gccgcgctgt ccatgaaggg cgcccaggcg cgcaccaact tcgtctacac ccacgccgcc
+      421 tacaactacc cgccgttcct cgcgccgttc cacgcgccgc agtacgccgc tgccgccgcc
+      481 gcgccgtcct cggtgcagta cggcggcggc gtgggcgcgg cgccgcacat tggctcgtac
+      541 ggtcaccacc accaccacca ccaccaccac ggacatggcg cggcgtcggg cgcgtcgtcg
+      601 gtgggcgagt gctcgacgat gccggtgatg gtcccggttg atccccaccg ctccagcatg
+      661 tcgtcgtcgc tgctggacat ggacaggaac ggccacgact tcctcttctc cggcgccgac
+      721 gacaactccg ggtacctgag cagcgtggtg ccggagagct gcctccggcc gaggggcggc
+      781 ggcgccgcgg ccgatcatca ggacatgcgg cgctactccg acgccgacgc ctacggcatg
+      841 atggggctcc gggaggacgt cgacgacctc gcgcagatgg tcgccggctt ctggggcggc
+      901 ggcgacgcgg cggaccagct cggcgcctgc gggttcccgg cgagcggcgg cgccgccgac
+      961 atggtcgcct cgtcgcaggg ctccgactcc tactctccat tcagcttcct ctcccattga
+//
+

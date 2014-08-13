@@ -1,0 +1,71 @@
+LOCUS       AF283006                1057 bp    mRNA    linear   PLN 15-MAY-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) cold acclimation protein
+            WCOR413-like protein mRNA, complete cds.
+ACCESSION   AF283006
+VERSION     AF283006.1  GI:10121844
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1057)
+  AUTHORS   Breton,G., Danyluk,J., Charron,J.B. and Sarhan,F.
+  TITLE     Expression profiling and bioinformatic analyses of a novel
+            stress-regulated multispanning transmembrane protein family from
+            cereals and Arabidopsis
+  JOURNAL   Plant Physiol. 132 (1), 64-74 (2003)
+   PUBMED   12746512
+REFERENCE   2  (bases 1 to 1057)
+  AUTHORS   Breton,G., Danyluk,J. and Sarhan,F.
+  TITLE     Molecular characterization of a wheat putative transmembrane
+            protein induced by cold acclimation and water stress
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1057)
+  AUTHORS   Breton,G. and Sarhan,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUN-2000) Sciences Biologiques, Universite du Quebec
+            a Montreal, Montreal, Que H3C 3P8, Canada
+FEATURES             Location/Qualifiers
+     source          1..1057
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="EST D39684 (provided by the NIAR (Japanese Rice
+                     Genome Research Program of the national Institute of
+                     Agrobiological Resources) and the STAFF (Society of
+                     Techno-Innovation in Agriculture, Forestry and Fisheries)"
+                     /tissue_type="shoot"
+                     /clone_lib="Yamamoto and Sasaki, Plant Mol Biol 35:
+                     135-144 (1997)"
+     CDS             108..740
+                     /codon_start=1
+                     /product="cold acclimation protein WCOR413-like protein"
+                     /protein_id="AAG13395.1"
+                     /db_xref="GI:10121845"
+                     /translation="MGKGFMSYLAMKTDAAGGEAAQAALIDADLQELGVAARKLANHA
+                     LVLGGGLGFGTTFLKWLAFFAAVYLLILDRTNWKTNMLTALLVPYIFFTLPGGLFSLL
+                     RGEIGKWIAIIAVILRLFFPRHFPDWLELPGAVILLIAVAPNLFASTFRGDLVGIFIC
+                     LIIGCYLLQEHIRASGGFRNAFRKGNGVSNSIGILLLFIYPVWALVLNFL"
+ORIGIN      
+        1 cacgcgtctt gctttgattt gatccgcgcg cggagaagac gaagcgagag agagagggag
+       61 aggtggagga ggctagctag ggttgcgagc gatctgcagc gtgggagatg gggaaggggt
+      121 tcatgtcgta cctggcgatg aagacggacg cggcgggagg ggaggcggcg caggcggcgc
+      181 tgatcgacgc cgacctgcag gagctgggcg tggcggcgcg gaagctcgcc aaccacgcgc
+      241 tcgtcctcgg cggcggcctc gggttcggca ccaccttcct caagtggctc gccttcttcg
+      301 ccgccgtgta cctcctgata ttggatagga caaactggaa gaccaacatg ctgaccgctc
+      361 tcttggtccc ttacattttc tttacactgc ctggtgggct gttctctctg ttgaggggag
+      421 aaattggaaa atggattgcg atcattgctg tcatccttcg tctcttcttt cctcgccatt
+      481 tccctgattg gttagagctg cctggtgctg tgatccttct cattgctgtt gccccgaacc
+      541 tgtttgcgag caccttccga ggcgacttag ttggcatctt catatgcctc atcattggat
+      601 gctacctgct tcaagagcac atcagggcgt caggtggatt caggaacgcc ttcaggaagg
+      661 gcaacggagt gtccaacagc attggcatcc tcttgctctt catctaccct gtctgggccc
+      721 tggtgctgaa ctttctgtag gcgccaccgc ttcagcgctt ctctacacca tccagctccg
+      781 atcgctgttc gttcttgtgt acatgtcttg tacggtgatt tggtatctgg tgatctggta
+      841 gtatcgtttt gaggagatgg ataatgtatg ttttggacct cctgcctcct gatgcacgtt
+      901 ttcttggcat tttcgtttgt tgtagctttg ctatcagccc gtgtttcgtc gttctgagtg
+      961 tacaagcgtc aataaattca tctctgttgc cttctgtaaa tttaaagagc ttttatccaa
+     1021 gttctcttat gtgattatcc ccaaaaaaaa aaaaaaa
+//
+

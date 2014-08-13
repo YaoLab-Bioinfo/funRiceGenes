@@ -1,0 +1,80 @@
+LOCUS       JF793663                1577 bp    mRNA    linear   PLN 21-SEP-2011
+DEFINITION  Oryza sativa Japonica Group cultivar Tainung 67
+            CPK25/26-interacting protein (OIP30) mRNA, complete cds.
+ACCESSION   JF793663
+VERSION     JF793663.1  GI:332715338
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1577)
+  AUTHORS   Wang,C.W., Chen,W.C., Lin,L.J., Lee,C.T., Tseng,T.H. and Leu,W.M.
+  TITLE     OIP30, a RuvB-Like DNA Helicase 2, is a Potential Substrate for the
+            Pollen-Predominant OsCPK25/26 in Rice
+  JOURNAL   Plant Cell Physiol. 52 (9), 1641-1656 (2011)
+   PUBMED   21771866
+REFERENCE   2  (bases 1 to 1577)
+  AUTHORS   Wang,C.-W. and Leu,W.-M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2011) Institute of Biotechnology, National Chung
+            Hsing University, 250, Kuo-Kuang Rd., Taichung 402, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..1577
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Tainung 67"
+                     /db_xref="taxon:39947"
+                     /tissue_type="pollen"
+     gene            1..1577
+                     /gene="OIP30"
+     CDS             94..1446
+                     /gene="OIP30"
+                     /EC_number="3.6.4.12"
+                     /note="RuvB-like DNA helicase 2; RuvBL2; Rvb2; Reptin52;
+                     ECP51; TAP54beta; p47; TIP48; TIP49; TIP49B; YPL235W;
+                     CGI-46; TIH2"
+                     /codon_start=1
+                     /product="CPK25/26-interacting protein"
+                     /protein_id="AEE98999.1"
+                     /db_xref="GI:332715339"
+                     /translation="MIAVHKPSDQRDVMRLERTGAHSHIHGLGLDDHFEPKPVGQGMV
+                     GQVSARRAAALLLEMIKEGKIAGRAALLAGEPGTGKTAIAMGMSSALGPDTPFTSISG
+                     SEFYSLDMSKTEALMQALRKSIGVRIKEETEIIEGEVVEIQVDRPATGQGTKVGKLTL
+                     KTTEMETVYDLGTKMIESMLKEKVVAGDIISIDKATGKVTKLGRSFTKERDYDASGPQ
+                     SKFVQRPEGELQKRKEVVHTVTLHEIDVINSRTHGFLALFSGDTGEIKTEVREQINAK
+                     VSEWREEGKADIVPGVLFIDEVHMLDIECFSFLNRALESDLAPILVMATNRGMTKVRG
+                     TEYESPHGIPVDLLDRVLIISTVPYTEKEIKQILKVRCEEEDVKMQDDALNILTKIGT
+                     ETSLRYAIQLITTAQLVAQKRGASEVSLQDIKRVYSMFVDVKRSQVYLDEYQSELLYH
+                     "
+ORIGIN      
+        1 ggaagctgct ggagcgcgtg cacgatcgta gcaaatcgtg gtgtggtgtg tttgtgaatc
+       61 agatcaacaa cataggccga aactcgctcg aaaatgattg cagttcacaa accttcagat
+      121 caacgggacg tgatgcggct cgagcgaacc ggagctcatt cccacatcca cggactcggg
+      181 ctcgatgatc atttcgaacc gaaaccggtc ggccagggaa tggttggtca ggtcagtgcg
+      241 cgccgagctg ccgcgctttt gctcgaaatg atcaaagaag gcaaaatcgc tggtcgtgcc
+      301 gcacttcttg ccggtgaacc gggcactggg aaaaccgcca tcgctatggg aatgtcgtcc
+      361 gccctcgggc ccgacactcc gttcacctcg atctcgggtt ccgagttcta ttccttggac
+      421 atgagcaaga ccgaggctct catgcaagca ttacggaaga gtatcggggt acgaatcaag
+      481 gaggaaacag aaatcattga gggtgaggtc gtggagatcc aagtggaccg cccggcgacg
+      541 gggcaaggaa ccaaggtggg aaaactcaca ctgaaaacaa ccgaaatgga aactgtttac
+      601 gacctgggta cgaaaatgat cgagtcgatg ctcaaagaga aggttgtcgc cggtgacatc
+      661 atctccatcg acaaagccac cggtaaagta acaaagttgg gtcggagttt cacaaaggaa
+      721 cgcgactacg atgcctccgg accccagtcg aagttcgtgc agcgtcccga aggtgagctc
+      781 cagaagcgca aggaggtcgt ccataccgtc accttacacg agatcgacgt catcaactcg
+      841 cgcacccacg gattcctagc tctgttcagc ggcgacaccg gagaaatcaa aaccgaagtc
+      901 agggaacaga tcaacgccaa agtttccgag tggcgcgaag aaggcaaagc cgacatcgta
+      961 cccggggtac ttttcatcga cgaagtccac atgctcgaca tcgagtgctt cagctttctg
+     1021 aaccgagcgt tggaaagcga cttggccccg attctcgtca tggcaacgaa ccgaggcatg
+     1081 accaaggtgc gaggtacgga gtacgagtct cctcatggca ttccggtgga tctcttggac
+     1141 agggtcctca tcatctcgac agttccgtac actgaaaaag agatcaagca gatcctcaag
+     1201 gtccgctgcg aggaagaaga cgtcaagatg caagatgacg ctctcaacat cctcacgaag
+     1261 attggaaccg agacttcact tcgttacgcg atccaactca tcaccaccgc tcagctcgtg
+     1321 gctcagaaac gaggggcgtc tgaggtttcc cttcaggaca tcaagcgagt gtattcgatg
+     1381 ttcgtcgatg tcaagcgctc ccaggtctat ctggatgaat atcaatccga gctgctctac
+     1441 cattaagcct agattgggta tcgatgttcg tgtatattat tgcagactct gtgtatatta
+     1501 tggtattgat atgaaataaa cgttttctga tgatgatata agctctctcc aaaaaaaaaa
+     1561 aaaaaaaaaa aaaaaaa
+//
+

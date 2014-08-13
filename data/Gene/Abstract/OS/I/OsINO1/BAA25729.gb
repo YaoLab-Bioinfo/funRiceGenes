@@ -1,0 +1,50 @@
+LOCUS       BAA25729                 510 aa            linear   PLN 15-FEB-2008
+DEFINITION  myo-inositol phosphate synthase [Oryza sativa Japonica Group].
+ACCESSION   BAA25729
+VERSION     BAA25729.1  GI:3062907
+DBSOURCE    accession AB012107.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yoshida,K.T., Wada,T., Koyama,H., Mizobuchi-Fukuoka,R. and Naito,S.
+  TITLE     Temporal and spatial patterns of accumulation of the transcript of
+            Myo-inositol-1-phosphate synthase and phytin-containing particles
+            during seed development in rice
+  JOURNAL   Plant Physiol. 119 (1), 65-72 (1999)
+   PUBMED   9880347
+REFERENCE   2  (residues 1 to 510)
+  AUTHORS   Naito,S. and Yoshida,K.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-1998) Contact:Satoshi Naito Hokkaido Universitry,
+            Faculty of Agriculture; Kita, Sapporo, Hokkaido 060-8589, Japan
+COMMENT     Sequence updated (20-Apr-1998).
+FEATURES             Location/Qualifiers
+     source          1..510
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Kamenoo"
+                     /db_xref="taxon:39947"
+     Protein         1..510
+                     /product="myo-inositol phosphate synthase"
+     Region          1..510
+                     /region_name="PLN02438"
+                     /note="inositol-3-phosphate synthase"
+                     /db_xref="CDD:178057"
+     CDS             1..510
+                     /gene="RINO1"
+                     /coded_by="AB012107.1:110..1642"
+ORIGIN      
+        1 mfiesfrves phvrygaaei esdyqydtte lvheshdgas rwivrpksvr ynfrttttvp
+       61 klgvmlvgwg gnngstltag vianregisw atkdkvqqan yygsltqast irvgsyngee
+      121 iyapfksllp mvnpddlvfg gwdisnmnla damtrakvld idlqkqlrpy mesmvplpgi
+      181 ydpdviaanq gsrannvikg tkkeqmeqii kdirefkeks kvdkvvvlwt anterysnvc
+      241 vglndtmenl lasvdkneae ispstlyaia cvmegipfin gspqntfvpg lidlaiknnc
+      301 liggddfksg qtkmksvlvd flvgagikpt sivsynhlgn ndgmnlsapq tfrskeisks
+      361 nvvddmvssn ailyelgehp dhvvvikyvp yvgdskramd eytseifmgg kstivlhntc
+      421 edsllaapii ldlvllaels triqlkaege ekfhsfhpva tilsyltkap lvppgtpvvn
+      481 alakqramle nimracvgla pennmileyk
+//
+

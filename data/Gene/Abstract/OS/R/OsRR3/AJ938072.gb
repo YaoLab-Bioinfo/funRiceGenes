@@ -1,0 +1,56 @@
+LOCUS       AJ938072                 396 bp    mRNA    linear   PLN 26-JUL-2005
+DEFINITION  Oryza sativa Indica Group mRNA for Type A response regulator 3 (rr3
+            gene).
+ACCESSION   AJ938072
+VERSION     AJ938072.1  GI:71273478
+KEYWORDS    rr3 gene; Type A response regulator 3.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Jain,M. and Khurana,J.P.
+  TITLE     Characterization of type A response regulator gene family in rice
+            (Oryza sativa)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 396)
+  AUTHORS   Jain,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-APR-2005) Jain M., Department of Plant Molecular
+            Biology, University of Delhi South Campus, Benito Juarez Marg, New
+            Delhi-110021, INDIA
+FEATURES             Location/Qualifiers
+     source          1..396
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pusa Basmati-1"
+                     /db_xref="taxon:39946"
+     gene            1..396
+                     /gene="rr3"
+     CDS             1..396
+                     /gene="rr3"
+                     /function="two-component signal transduction"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="Type A response regulator 3"
+                     /protein_id="CAI79407.1"
+                     /db_xref="GI:71273479"
+                     /db_xref="GOA:Q4GZK8"
+                     /db_xref="InterPro:IPR001789"
+                     /db_xref="InterPro:IPR011006"
+                     /db_xref="UniProtKB/TrEMBL:Q4GZK8"
+                     /translation="MSTKTVPEPEPHVLAVDDSIVDRTVISRLLRSSKYRVTTVDSGK
+                     RALEVLSLDRNVHMIITDYCMPEMTGFDLLKRVKESAELKEIPVVLMSSENSPTRIRR
+                     CLEEGAEDFLIKPVRPSDVSRLCNRVIMK"
+ORIGIN      
+        1 atgtcgacga agacagtgcc ggagccggag ccgcacgtcc tcgccgtgga cgacagcatc
+       61 gtcgaccgta ctgtcatctc cagactcctg cgcagctcca aatatcgagt tacgacggtg
+      121 gatagtggca agagagcact ggaggttctc agcctggatc ggaatgtgca tatgatcatc
+      181 acggattact gcatgccgga gatgacaggg ttcgatctcc tcaagagggt caaggagtcg
+      241 gcggagctga aggagattcc ggtggtgcta atgtcgtcgg agaattcgcc gacgagaatc
+      301 cggcggtgcc tggaggaggg ggctgaagac tttttgatca aaccggttcg cccgtctgat
+      361 gtgtcgcgcc tttgcaaccg cgtcatcatg aaatga
+//
+

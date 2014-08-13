@@ -1,0 +1,43 @@
+LOCUS       AF467736                 522 bp    mRNA    linear   PLN 17-FEB-2002
+DEFINITION  Oryza sativa putative transcription factor RPR1 mRNA, partial cds.
+ACCESSION   AF467736
+VERSION     AF467736.1  GI:18698677
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 522)
+  AUTHORS   Peng,R., Yao,Q., Xiong,A., Li,X. and Fan,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JAN-2002) Bio-tech, Shanghai Academy of Agriculture
+            Science, Beidi Road 2901, Shanghai 201106, China
+FEATURES             Location/Qualifiers
+     source          1..522
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             <1..>522
+                     /note="binds to disease-resistent gene with GenBank
+                     Accession Number AY035207"
+                     /codon_start=1
+                     /product="putative transcription factor RPR1"
+                     /protein_id="AAL78375.1"
+                     /db_xref="GI:18698678"
+                     /translation="GGFLQAKIVEAKVTQMSEENRRLTEVIARLYGGQIPRLGLDGSA
+                     SPPRPVSPLSGKKRSRESMETANSCDANSNRHQGGDADHAESFAADDGTCRRIKVSRV
+                     CRRIDPSDTSLVVKDGYQWRKYGQKVTRDNPSPRAYFRCAFAPSCPVKEKGAAERGGQ
+                     LAVVATYEGEAQPP"
+ORIGIN      
+        1 gggggattcc ttcaggcgaa gatcgtcgag gcgaaggtca ctcagatgag cgaggagaat
+       61 cggcggctga ccgaggtgat cgcccgcctg tacggcggcc aaatcccgcg gctcggcctc
+      121 gacggctcgg cctcgccgcc gcggccggtg tcgccgttat cgggcaagaa gaggagcagg
+      181 gagagcatgg agacggcgaa ttcctgcgac gccaacagca acaggcatca gggcggcgac
+      241 gccgaccacg ccgagagctt cgccgccgac gatggcacct gccggaggat caaggtcagc
+      301 cgggtgtgca ggcggatcga cccgtcggac acctccctgg tggtcaagga cgggtaccaa
+      361 tggcggaagt acgggcagaa ggtgacgcgc gacaacccgt cgccgagggc ctactttcgg
+      421 tgcgccttcg cgccatcgtg cccggtgaaa gaaaaaggtg cagcggagcg cggaggacag
+      481 ctcgctgtgg tggcgacgta cgaaggcgaa gcacaaccac cc
+//
+

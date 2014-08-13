@@ -1,0 +1,120 @@
+LOCUS       EF174189                3850 bp    DNA     linear   PLN 11-SEP-2007
+DEFINITION  Oryza sativa (indica cultivar-group) defense-responsive protein
+            (MPK6) gene, complete cds.
+ACCESSION   EF174189
+VERSION     EF174189.1  GI:134284624
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 3850)
+  AUTHORS   Yuan,B., Shen,X., Li,X., Xu,C. and Wang,S.
+  TITLE     Mitogen-activated protein kinase OsMPK6 negatively regulates rice
+            disease resistance to bacterial pathogens
+  JOURNAL   Planta 226 (4), 953-960 (2007)
+   PUBMED   17541629
+REFERENCE   2  (bases 1 to 3850)
+  AUTHORS   Wang,S. and Yuan,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2006) National Key laboratory of Crop Genetic
+            Improvement, Huazhong Agricultural University, Wuhan 430070, China
+FEATURES             Location/Qualifiers
+     source          1..3850
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Minghui 63"
+                     /db_xref="taxon:39946"
+     gene            12..3746
+                     /gene="MPK6"
+                     /gene_synonym="OsDR6"
+     mRNA            join(12..277,547..676,1701..1838,2020..2352,2570..2753,
+                     2827..3007,3442..3746)
+                     /gene="MPK6"
+                     /gene_synonym="OsDR6"
+                     /product="defense-responsive protein"
+     CDS             join(105..277,547..676,1701..1838,2020..2352,2570..2753,
+                     2827..2999)
+                     /gene="MPK6"
+                     /gene_synonym="OsDR6"
+                     /note="OsMPK6; mitogen-activated protein kinase 6"
+                     /codon_start=1
+                     /product="defense-responsive protein"
+                     /protein_id="ABO69383.1"
+                     /db_xref="GI:134284625"
+                     /translation="MDSSSGGAGGGGGAQIKGMGTHGGRYVLYNVYGNFFEVSSKYAP
+                     PIRPIGRGAYGIVCAAVNSENGEEVAIKKIGNAFDNHIDAKRTLREIKLLRHMDHENI
+                     IAIKDIIRPPRRDNFNDVYIVSELMDTDLHQIIRSNQPLTDDHCQYFLYQLLRGLKYV
+                     HSANVLHRDLKPSNLFLNANCDLKIADFGLARTTTETDLMTEYVVTRWYRAPELLLNC
+                     SQYTAAIDVWSVGCILGEIVTRQPLFPGRDYIQQLKLITELIGSPDDSSLGFLRSDNA
+                     RRYMKQLPQYPRQDFRLRFRNMSAGAVDLLEKMLVFDPSRRITVDEALHHPYLASLHD
+                     INEEPTCPAPFSFDFEQPSFTEEHIKELIWRESLAFNPDPPY"
+ORIGIN      
+        1 cctcctccta ctccgatcaa cgactagtcg cggcgaccaa gagccaaacc ctacgcctcc
+       61 tcccctcccc ctccacctcg tcctccccgc gagcggcggc ggccatggat tcctcctccg
+      121 gcggcgcggg cggcggcggc ggcgcgcaga tcaaggggat ggggacgcac gggggccgct
+      181 acgtgctgta caacgtgtac gggaacttct tcgaggtctc ctccaagtac gcccctccca
+      241 tccgccccat cggccggggc gcctacggca ttgtctggtg cgtttgcctc gccctcccct
+      301 cccctcccga gttatgcgtg tgggtttact aattaatagc gaatccgagt tgctattttt
+      361 gttcgaaaat tcgcgagggc gtttatgtgt tcgtgacaca tcgcgtagat ttggctccgg
+      421 atgttgtgtt ttaggcataa ggatgtgtgg gggaaatggg tcacggcggc ccaaaaatgt
+      481 tatggtttga ctgcttgagt agatgtgatt atattgtagt agtaattttg tttttcctat
+      541 ttgtagcgcg gctgttaact cggagaacgg cgaggaagtt gccatcaaga agattggcaa
+      601 tgcattcgac aaccatatcg atgccaagcg gacactgaga gaaatcaagc tgcttcgcca
+      661 catggaccac gagaatgtaa gagctgtttg tttaaattgg ttttcgacat tcctagtgat
+      721 tattgatcga acttggcctt accactatta ggtaatttat tgggtgtgat ttacatttag
+      781 tttacattgg taactaactt ttcctaagga catttttcga gtgcaaacac catattccat
+      841 aatttgttag aaaagcggca gcaacacttt agacctttct gtagttactt acttgcttgt
+      901 aaagagtgca ttactaattg ctattattgg ttatgataga ttaattgtac tccactgaaa
+      961 gatcatccta tcccttatat tccactcatt gcttcactca tactctgcta tcaagttgtg
+     1021 tgactagttg gactagtcga caagtcatcc aaggggcatg acttaacttg ttggcagcag
+     1081 aagatgctat ggagtaaggg cagcatcaat gagccactat tgagcaaatt gggcctcgct
+     1141 tgggaggcct ggtgcatcgg gcccattgtt aatgagtgaa acagagagga gaggcaaaca
+     1201 gattaacagt agaggcaatc ggtatatata tgttgtaatg gtctaataga ccagtcaacc
+     1261 agaacaatag tcctaactag ccacaactag tcgggcaagt cagcagaggg atgactcaac
+     1321 tcgactttac gatttaacaa ccttgcactc atgtgggccg taggggatgt caacactctt
+     1381 atacttacaa agaactgcta tgctacaagt ggaatacttc atctttagtc gtttcattac
+     1441 taagtcatag tagtgccaga tccaagccag gatgttgtac ataaggagta accttgggct
+     1501 cagctgacac catatgttta ttaggtttct atctctacag gtagttttgt ttgctttatt
+     1561 taaacataca aactggaatg tggttttcac tttctgttat ttcctttttt ttttgttggg
+     1621 cggtcaagag cgtgtgatac atttttgact cacacattta tatcatatag tctgatggtg
+     1681 attttaacac tggatcacag attattgcca taaaggacat aattcgcccc ccaagaagag
+     1741 acaactttaa tgatgtttac attgtttctg agttgatgga tactgatctc catcagatca
+     1801 tacgctcaaa tcaaccattg actgatgacc actgccaggt ttgttgcttc cagcttgtgc
+     1861 tttgctgaaa cattttgctt gcagaaaatc tagacagaga tttccatgca ccttgttcct
+     1921 ttggtcgcta tatgttttct tcatcctatc catatttcag cttaacattc tcttgtttat
+     1981 ctggtttaat aatcacaagt gacatgtttt gcattgcagt acttcctgta ccagttgcta
+     2041 cgagggctaa aatatgtgca ctcggcaaat gtcttgcacc gtgatctgaa gccaagcaat
+     2101 ttgttcctta atgcaaattg tgatctcaag attgctgatt ttgggcttgc aagaaccact
+     2161 acggagactg acctcatgac agagtatgtg gtcactcgtt ggtatcgagc accagagctg
+     2221 ctgttgaact gctcgcagta tactgctgct attgatgtct ggtcagttgg atgcatactt
+     2281 ggtgaaattg tgactcgtca acccctgttt cctggaaggg attacattca gcaactaaaa
+     2341 ttgatcactg aggtaaggct tgtctggttc attgcttgca tacttttaat gtctgcataa
+     2401 acgtaatttt ttatttgtac ttgaataaga gatacattac ttgaactctg aatatgtaaa
+     2461 tgtgtttttt tttgggtcca tttttttttc tgttttcttt gcttttctaa aatgtatccc
+     2521 tgtaacccaa gtggtatcaa tattaatcag acccttttct cttcaaaagc tgatagggtc
+     2581 gccagatgac tcaagcctag ggtttcttcg gagtgataat gcaagaagat acatgaaaca
+     2641 gctaccacag tacccaaggc aggacttccg cttgcgcttc cgcaacatgt ctgctggtgc
+     2701 agtcgatctg ttagagaaaa tgctggtgtt tgacccaagc agacggataa ctggtacatt
+     2761 gactttacac caactactcc acttttgttg cctttactgt aaattgaaca ttatttttcc
+     2821 atgcagttga tgaggctctt catcacccat acttggcttc tcttcatgac atcaatgaag
+     2881 aacccacctg cccagcacct ttcagctttg attttgagca accatccttt actgaagaac
+     2941 atataaaaga actcatctgg agggaatcct tggcatttaa tccggatcct ccctactaag
+     3001 agctcaggtt cgttctagag aaccaatgat ctaaaatatt gtagatggct aattctagca
+     3061 tcctgcagag attttttgaa gacttcatat ggatagtttt ccagattgac taatttagac
+     3121 cctgggagaa tgaatgttct tttaaagcca aacaaatgcc tattccactg cgattttata
+     3181 ctcgtaatat accattgcat aaaattctgt tcataactca agtttatgag acaaaactat
+     3241 tctatacctt tttgccacaa atttcatgtt ttctgataat tctcaacagt caatatgctc
+     3301 acttcaccat tttgaatgtt acctccctgt taagatctgc tttgaagaat tcaaatgcta
+     3361 atttgccata cctgcacatt tcaaaaatga aattcctcat ttaatctcta accttttgca
+     3421 tttcttttgc cttgagtgca gagcaattta tcaatgctgg catctgaaga tcggtagctc
+     3481 tagaaaagcc aaatcccctt gctttgtgca tctattaatt ttatgcccac ttgttgggcg
+     3541 aatgagcatg gattattgtt atagtgacaa tttttcttaa ggcctgtcta aagaaacaac
+     3601 atttgtattc cttatcagat agcctgaact tgggcctgta ttataccggt tgattgcata
+     3661 actgttctta tgtatctaag cctgtaattg tcttcacaat ggcttgaact gcccgtgtat
+     3721 atctgagttg acatcttctc tctgatatta tcccatccat gttatttcca tttcggacta
+     3781 atatcttaag ttaacactga ttctgctcat tggtacagtg ctactaggct gtcccaatgt
+     3841 agaggcatgg
+//
+

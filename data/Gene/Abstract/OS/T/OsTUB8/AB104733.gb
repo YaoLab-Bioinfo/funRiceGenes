@@ -1,0 +1,74 @@
+LOCUS       AB104733                1572 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsTUB8 mRNA for beta-tubulin, complete
+            cds.
+ACCESSION   AB104733
+VERSION     AB104733.1  GI:34327939
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yoshikawa,M., Yang,G., Kawaguchi,K. and Komatsu,S.
+  TITLE     Expression analyses of beta-tubulin isotype genes in rice
+  JOURNAL   Plant Cell Physiol. 44 (11), 1202-1207 (2003)
+   PUBMED   14634157
+REFERENCE   2  (bases 1 to 1572)
+  AUTHORS   Yoshikawa,M. and Komatsu,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-FEB-2003) Contact:Setsuko Komatsu National Institute
+            of Agrobiological Sciences; Kannondai 2-1-2, Tsukuba, Ibaraki
+            305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1572
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1572
+                     /gene="OsTUB8"
+     CDS             121..1461
+                     /gene="OsTUB8"
+                     /codon_start=1
+                     /product="beta-tubulin"
+                     /protein_id="BAC82430.1"
+                     /db_xref="GI:34327940"
+                     /translation="MREILHIQGGQCGNQIGAKFWEVICGEHGVDPTGTYTGTSPQQL
+                     ERINVYFNEASGGRHVPRAVLMDLEPGTMDSLRSGPIGGIFRPDNFVFGQSGAGNNWA
+                     KGHYTEGAELIDSVLDVVRKEAENCDCLQGFQVCHSLGGGTGSGMGTLLISKIREEYP
+                     DRMMLTFSVFPSPKVSDTVVEPYNATLSVHQLVENADECMVLDNEALYDICFRTLKLT
+                     NPSFGDLNHLISATMSGVTCCLRFPGQLNSDLRKLAVNLIPFPRLHFFMVGFAPLTSR
+                     GSQQYRALTVPELTQQMWDAKNMMCAADPRHGRYLTASAMFRGRMSTKEVDEQMINVQ
+                     NKNSSYFVEWIPNNVKSSVCDIPPVGLSMASTFVGNSTSIQEMFRRVSEQFTAMFRRK
+                     AFLHWYTSEGMDEMEFTEAESNMNDLVAEYQQYQDATAEDDYDEDDDAAAADEA"
+ORIGIN      
+        1 acgttctcca ccctctctcc atcgatcgat cgcaaaccac ctcccaagaa caaccaagaa
+       61 agagatcgga tcaccgatcg gcgcgcggcg agcgatcgat cgaggtgcaa gcgatcgaag
+      121 atgagggaga tcctgcacat ccagggcggg cagtgcggca accagatcgg cgccaagttc
+      181 tgggaggtga tctgcggcga gcacggcgtc gaccccacgg ggacgtacac cggcacgtcg
+      241 ccgcagcagc tcgagcggat caacgtctac ttcaacgagg cgagcggcgg ccgccacgtc
+      301 ccgcgcgccg tgctcatgga cctcgagccg ggcaccatgg actcgctccg ctccggcccc
+      361 atcggcggca tcttccgccc cgacaacttc gtcttcggcc agtccggcgc cggcaacaac
+      421 tgggccaagg gccactacac cgagggcgcc gagctcatcg actccgtcct cgacgtcgtc
+      481 cgcaaggagg ccgagaactg cgactgcctc caaggattcc aggtgtgcca ctcgctggga
+      541 ggaggcacgg ggtcgggcat gggcacgctg ctcatctcca agatcaggga ggagtacccg
+      601 gaccgcatga tgctgacctt ctccgtgttc ccgtcgccca aggtgtcgga caccgtggtg
+      661 gagccctaca acgcgacgct gtccgtgcac cagctcgtcg agaacgccga cgagtgcatg
+      721 gtcctcgaca acgaggccct ctacgacatc tgcttccgca ccctcaagct caccaaccca
+      781 tcatttggtg acctgaacca cctgatatcg gcgacgatga gcggggtgac gtgctgcctg
+      841 cggttcccgg ggcagctgaa ctcggacctg aggaagctgg cggtgaacct gatcccgttc
+      901 ccgcggctgc acttcttcat ggtggggttc gcgccgctga cgtcgcgcgg gtcgcagcag
+      961 tacagggcgc tgacggtgcc ggagctgacg cagcagatgt gggacgccaa gaacatgatg
+     1021 tgcgccgccg acccgcgcca cggccgctac ctcacggcgt ccgccatgtt ccggggcagg
+     1081 atgagcacca aggaggtgga cgagcagatg atcaacgtgc agaacaagaa ctcgtcctac
+     1141 ttcgtggagt ggatccccaa caacgtcaag tccagcgtct gcgacatccc ccccgtcggc
+     1201 ctctccatgg cgtccacctt cgtcggcaac tccacctcca tccaggagat gttccgccgc
+     1261 gtcagcgagc agttcaccgc catgttccgc cgcaaggcct tcctccactg gtacaccagc
+     1321 gagggaatgg acgagatgga gttcaccgag gccgagagca acatgaacga cctcgtcgcc
+     1381 gagtaccagc agtaccagga cgccaccgcc gaggacgact acgacgagga cgacgacgcc
+     1441 gccgccgccg acgaggcctg atcgatcgat cgatcgatcc ctcccgcttt gcctctctgg
+     1501 ctctctgcta cgctacgcta catatatttc gatcggtaca aacacacaat gtgccgttgc
+     1561 cgtgtctgct gc
+//
+

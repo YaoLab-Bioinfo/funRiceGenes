@@ -1,0 +1,61 @@
+LOCUS       AY271620                 943 bp    mRNA    linear   PLN 07-NOV-2003
+DEFINITION  Oryza sativa (indica cultivar-group) tau class GST protein 3 mRNA,
+            complete cds.
+ACCESSION   AY271620
+VERSION     AY271620.1  GI:33304611
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 943)
+  AUTHORS   Moons,A.
+  TITLE     Osgstu3 and osgtu4, encoding tau class glutathione S-transferases,
+            are heavy metal- and hypoxic stress-induced and differentially salt
+            stress-responsive in rice roots
+  JOURNAL   FEBS Lett. 553 (3), 427-432 (2003)
+   PUBMED   14572664
+REFERENCE   2  (bases 1 to 943)
+  AUTHORS   Moons,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Biology, University of Ottawa, 30 Marie
+            Curie, Ottawa, ON K1N6N5, Canada
+FEATURES             Location/Qualifiers
+     source          1..943
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pokkali"
+                     /db_xref="taxon:39946"
+                     /chromosome="10"
+                     /tissue_type="root"
+     CDS             57..758
+                     /note="OSGSTU3"
+                     /codon_start=1
+                     /product="tau class GST protein 3"
+                     /protein_id="AAQ02687.1"
+                     /db_xref="GI:33304612"
+                     /translation="MAGGGDELKLLGMWASPFALRAKLALSFKGLSYEYVEEDLKNKS
+                     ELLLSSNPVHKKVPVLIHNGKPVCESQVIVQYIDEAFPDAGVPLLPSDPYDRAVARFW
+                     AAYIDDKLLKSWLQASMCKTEQEKAAAMKETFAAVANLEAAFKECSKGKPFFGGDAVG
+                     YVDVTLGAVIGFVRVGEALHGMRLFDASRSPLLDAWLDRFAALDAAKAVLPDTGRLAE
+                     YAKMKQAEWAAAATN"
+ORIGIN      
+        1 agctagcaaa agacaactca agccaaaacc atctcagagc ttcagagagg aagacaatgg
+       61 ccggtggagg agatgagctg aagctgctgg ggatgtgggc gagcccgttc gcgctgcgag
+      121 cgaagctcgc gctcagcttc aagggcctga gctacgagta cgtcgaggag gatctcaaga
+      181 acaagagcga gctgcttctc agctccaacc cggtgcacaa gaaggtaccc gtgctcatcc
+      241 acaacggcaa gcccgtctgc gagtcgcagg tcatcgtgca gtacatcgac gaggcgttcc
+      301 ccgacgccgg cgttcctctc ctcccatccg acccctacga ccgtgccgtc gctcgcttct
+      361 gggccgccta catcgacgac aagctgttga agtcatggct gcaggcgtcg atgtgcaaga
+      421 cggagcagga gaaggcggcg gcgatgaagg agacgttcgc ggcggtggcg aacctggagg
+      481 cggcgttcaa ggagtgctcc aaggggaagc ccttcttcgg cggcgacgcc gtcgggtacg
+      541 tggacgtcac gctcggcgcc gtgatcgggt ttgtgcgcgt cggtgaagcc ctgcacggga
+      601 tgaggctgtt cgatgcgagc cggagcccgc tccttgacgc gtggctggac cgcttcgccg
+      661 cgctggacgc tgccaaggcg gtgttgccgg acaccggtag gctcgccgag tacgccaaga
+      721 tgaagcaggc agagtgggca gcagctgcca ccaactgagc cagcatggcc acgtctggta
+      781 ctctcgtggg gagatgaagt tggtgttggt gtgccacccg taccgtacgt agctagtcct
+      841 gtcgcacgat gtgacgactg tgtgaacttt gctactatac gcaataaaat tgtgaagtcg
+      901 ttaagttttc gtaagtacac aaaaaaaaaa aaaaaaaaaa aaa
+//
+

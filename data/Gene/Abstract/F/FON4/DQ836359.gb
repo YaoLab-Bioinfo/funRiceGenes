@@ -1,0 +1,56 @@
+LOCUS       DQ836359                 476 bp    mRNA    linear   PLN 08-NOV-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) floral organ number 4 (FON4)
+            mRNA, complete cds.
+ACCESSION   DQ836359
+VERSION     DQ836359.1  GI:111013706
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 476)
+  AUTHORS   Chu,H., Qian,Q., Liang,W., Yin,C., Tan,H., Yao,X., Yuan,Z.,
+            Yang,J., Huang,H., Luo,D., Ma,H. and Zhang,D.
+  TITLE     The floral organ number4 gene encoding a putative ortholog of
+            Arabidopsis CLAVATA3 regulates apical meristem size in rice
+  JOURNAL   Plant Physiol. 142 (3), 1039-1052 (2006)
+   PUBMED   17012407
+REFERENCE   2  (bases 1 to 476)
+  AUTHORS   Chu,H., Qian,Q., Liang,W., Yin,C., Tan,H., Yao,X., Yuan,Z.,
+            Yang,J., Huang,H., Luo,D., Ma,H. and Zhang,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JUL-2006) School of Life Science and Biotechnology,
+            Shanghai Jiaotong University, Dongchuan Road 800, Shanghai 200240,
+            China
+FEATURES             Location/Qualifiers
+     source          1..476
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="11"
+                     /PCR_primers="fwd_seq: gtgtgtttgcttgacatgggccg, rev_seq:
+                     gatttgcaccgtccgtccgttc"
+     gene            1..476
+                     /gene="FON4"
+     CDS             16..384
+                     /gene="FON4"
+                     /note="CLV3-like"
+                     /codon_start=1
+                     /product="floral organ number 4"
+                     /protein_id="ABH03378.1"
+                     /db_xref="GI:111013707"
+                     /translation="MGRLFLCLVVAWCWVALLLVAPVHGRVGLPGEFSGDQRPVPATS
+                     FDLVTEPKTKQPRGVKGTRRPSWSSWSSTASRSSPPPGRGAPSAAAAAELRSVPAGPD
+                     PMHHHGSPRRPEHARSTGRP"
+ORIGIN      
+        1 gtgtgtttgc ttgacatggg ccggctcttc ttgtgtttgg tggttgcatg gtgttgggtt
+       61 gctctgctgc ttgttgctcc ggtgcatgga cgtgttggct tgcccggtga gtttagtggt
+      121 gaccagaggc cagtcccggc gacatctttt gatctcgtga cagagccgaa gacgaagcag
+      181 ccgcgcggcg tgaagggcac ccgcaggccg tcgtggtctt cttggtcgtc gacggcgtcg
+      241 agatcgtcgc cgccgccggg gagaggggcg ccctcggccg ccgcggcggc ggagctccgg
+      301 tcagtgccgg ccggcccgga cccgatgcac caccacggca gcccgaggcg gccggagcac
+      361 gcgcgcagca ccggccggcc atgacacccc cgcgcgccgc cgcgtgtgca atattgctct
+      421 ggatgaggcg gcggccggcg agctagccgc cggcgaacgg acggacggtg caaatc
+//
+

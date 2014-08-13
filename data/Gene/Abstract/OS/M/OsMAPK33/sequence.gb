@@ -1,0 +1,70 @@
+LOCUS       AF216317                1545 bp    mRNA    linear   PLN 21-AUG-2002
+DEFINITION  Oryza sativa MAP kinase 3 mRNA, complete cds.
+ACCESSION   AF216317
+VERSION     AF216317.1  GI:11869996
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1545)
+  AUTHORS   Wen,J.Q., Oono,K. and Imai,R.
+  TITLE     Two novel mitogen-activated protein signaling components, OsMEK1
+            and OsMAP1, are involved in a moderate low-temperature signaling
+            pathway in rice
+  JOURNAL   Plant Physiol. 129 (4), 1880-1891 (2002)
+   PUBMED   12177502
+REFERENCE   2  (bases 1 to 1545)
+  AUTHORS   Wen,J.Q. and Imai,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-DEC-1999) Department of Low Temperature Sciences,
+            Hokkaido National Agricultural Experiment Station, Hitsujigaoka-1,
+            Toyohira-ku, Sapporo, Hokkaido 062-8555, Japan
+FEATURES             Location/Qualifiers
+     source          1..1545
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             168..1280
+                     /note="protein kinase; MAP3"
+                     /codon_start=1
+                     /product="MAP kinase 3"
+                     /protein_id="AAG40581.1"
+                     /db_xref="GI:11869997"
+                     /translation="MAIMVDPPNGMGNQGKYYYSMWQTLFEIDTKYVPIKPIGRGAYG
+                     IVCSSINRETNEKVAIKKIHNVFDNRVDALRTLRELKLLRHLRHENVIALKDIMMPVH
+                     RRSFKDVYLVYELMDTDLHQIIKSPQGLSNDHCQYFLFQLLRGLKYLHSAEILHRDLK
+                     PGNLLVNANCDLKICDFGLARTNSSKGQFMTEYVVTRWYRAPELLLCCDNYGTSIDVW
+                     SVGCIFAELLGRKPIFPGTECLNQLKLIVNVLGTMSESDLEFIDNPKARRYIKSLPYT
+                     PGVPLASMYPHAHPLAIDLLQKMLIFDPTKRISVTEALEHPYMSPLYDPSANPPAQVP
+                     IDLDIDENISADMIREMMWHEMLHYHPEVVAAMSAR"
+ORIGIN      
+        1 gggaagctgt cccttctcct cttctcctcc tcggctgcgg ccacggcgac gacgacgacg
+       61 acgaattcga gcgaggcgat cggcgatgga ggcggtggcg atctgatccg ctcttcccgt
+      121 ctcggcctcg cgctcctctc cctccctcgc ggtgtctcgg gtaggaaatg gcgatcatgg
+      181 tggatcctcc aaatgggatg ggtaaccaag ggaagtatta ctactcgatg tggcaaactt
+      241 tgtttgagat agacactaag tatgtgccaa tcaagcccat cgggcgagga gcttatggga
+      301 ttgtttgttc atccataaat cgtgagacca acgagaaagt agcaataaag aagatacaca
+      361 atgtttttga caaccgtgtt gatgcactaa ggactttgcg ggagctgaaa cttctccggc
+      421 atctccgcca tgagaatgtt attgctttga aggatataat gatgccagta cacaggagga
+      481 gttttaaaga tgtgtactta gtttatgaac tcatggatac tgacctgcat cagataatca
+      541 agtcacctca gggtctttcc aatgatcact gccaatattt tctttttcag ttgcttcgag
+      601 gactgaaata tctccattca gcagagatac tccacagaga cctgaaacct ggaaatctac
+      661 tggttaatgc aaactgtgat ctcaagatat gtgattttgg tcttgcacgc acaaacagta
+      721 gtaaaggtca gtttatgact gagtatgttg tcacccgctg gtatagagct cctgagttgc
+      781 tcctttgctg tgacaactat ggcacttcca ttgatgtttg gtctgttggt tgcatcttcg
+      841 ctgagctact tggtcggaaa cctattttcc caggaactga gtgcctaaat cagctcaagc
+      901 tcattgtcaa tgttcttggc accatgagcg agtctgactt ggagttcatt gacaacccaa
+      961 aagctcgcag atatatcaaa tccctcccct acactcccgg tgtgcccctc gcgagtatgt
+     1021 atccgcatgc acaccctctt gccattgatc ttttacagaa gatgctcata tttgatccta
+     1081 ccaaaagaat cagtgtcacc gaggctcttg agcaccctta catgtcccct ctgtatgatc
+     1141 caagtgcaaa tcctcccgcg caagtgccta tcgatctgga catagacgag aacatcagtg
+     1201 cagatatgat cagggaaatg atgtggcacg agatgctcca ctaccaccct gaagttgttg
+     1261 cagcaatgag tgcccgatga tcttcaactg tccccaggaa ctttgcaggc tcactttttt
+     1321 ttcttcttct aaaagcctac ggcgattatc gcacctatta agtaaccaag acgtgcaaga
+     1381 cttatttcat gtatatatga gcgaaataag aacgttgttg tatccatata gttcatgtta
+     1441 tggaccatta cttggtgtat gcatttcaca tttccactgg acagttatgt tgttgtacta
+     1501 gttcatgatg agaagtgcta ttaaagtgaa ttcaaaaaaa aaaaa
+//
+

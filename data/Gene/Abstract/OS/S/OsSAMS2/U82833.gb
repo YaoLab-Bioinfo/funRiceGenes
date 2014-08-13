@@ -1,0 +1,76 @@
+LOCUS       OSU82833                1736 bp    mRNA    linear   PLN 12-MAR-1998
+DEFINITION  Oryza sativa S-adenosyl-L-methionine synthetase (pOS-SAMS2) mRNA,
+            complete cds.
+ACCESSION   U82833
+VERSION     U82833.1  GI:1778820
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1736)
+  AUTHORS   Lee,J.H., Chae,H.S., Lee,J.H., Hwang,B., Hahn,K.W., Kang,B.G. and
+            Kim,W.T.
+  TITLE     Structure and expression of two cDNAs encoding
+            S-adenosyl-L-methionine synthetase of rice (Oryza sativa L.)
+  JOURNAL   Biochim. Biophys. Acta 1354 (1), 13-18 (1997)
+   PUBMED   9375784
+REFERENCE   2  (bases 1 to 1736)
+  AUTHORS   Kim,W.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-DEC-1996) Biology, Yonsei University, Shinchon-dong
+            134, Seodaemoon-gu, Seoul 120-749, South Korea
+FEATURES             Location/Qualifiers
+     source          1..1736
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1736
+                     /gene="pOS-SAMS2"
+     CDS             127..1311
+                     /gene="pOS-SAMS2"
+                     /codon_start=1
+                     /product="S-adenosyl-L-methionine synthetase"
+                     /protein_id="AAC05590.1"
+                     /db_xref="GI:1778821"
+                     /translation="MAAETFLFTSESVNEGHPDKLCDQVSDAVLDACLAQDPDSKVAC
+                     ETCTKTNMVMVFGEITTKATVDYEKIVRDTCRGIGFVSDDVGLDADRCKVLVNIEQQS
+                     PDIAQGVHGHFTKRPEEIGAGDQGHMFGYATDETPELMPLSHVLATKLGARLTEVRKN
+                     GTCAWLRPDGKTQVTVEYLNDAGAMVPVRVHTVLISTQHDETVTNDEIAADLKEHVIK
+                     PVIPDKYLDEKTIFHLNPSGRFVIGGPHGDAGLTGRKIIIDTYGGWGAHGGGAFSGKD
+                     PTKVDRSGAYIARQAAKSIVASGLARRCIVQVSYAIGVPEPLSVFVDSYGTGKIPDKE
+                     ILKIVKENFDFRPGMMTINLDLKRGGNRFIKTAAYGHFGREDPDFTWEVVKPLKYEKA
+                     SS"
+ORIGIN      
+        1 ggcacgagga atcacacacg ccggactctc cccttctctc tgtctcgctc cttcgttcgc
+       61 tcgctttatc ccccccgaat aaaggcgaga agccgcagcg gcggacgaag aagagggcag
+      121 atagaaatgg cggcggagac gttcctcttc acctccgagt ccgtgaacga gggtcacccg
+      181 gacaagctgt gcgaccaggt gtcggacgcg gtgctcgacg cgtgcctcgc ccaggacccc
+      241 gacagcaagg tggcgtgcga gacgtgcacc aagaccaaca tggtgatggt gttcggcgag
+      301 atcaccacca aggccaccgt cgactacgag aagatcgtcc gcgacacctg ccgcggcatc
+      361 ggcttcgtgt ccgacgacgt cggcctcgac gccgaccgct gcaaggtgct cgtcaacatc
+      421 gagcagcagt cgcccgacat cgcgcagggg gtgcacggcc acttcaccaa gcgccccgag
+      481 gagatcggcg ccggcgacca gggccacatg ttcggctacg ccaccgacga gacccccgag
+      541 ctgatgcccc tcagccacgt cctcgccacc aagctcggcg cccgcctcac cgaggtccgc
+      601 aagaacggca cctgcgcctg gctcaggccc gacggcaaga cccaggtcac cgttgagtac
+      661 ctcaacgacg ccggcgccat ggtccccgtc cgcgtccaca ccgtcctcat ctccacccag
+      721 cacgacgaga ccgtcaccaa cgacgagatc gccgccgacc tcaaggagca cgtcatcaag
+      781 ccggtcatcc ccgacaagta cctcgacgag aagaccatct tccacctcaa cccctcgggc
+      841 cgcttcgtca tcggcgggcc ccacggcgac gccggcctca ccggccgcaa gatcatcatc
+      901 gacacctacg gcggatgggg cgcgcacggc ggcggcgcct tctccggcaa ggacccgacc
+      961 aaggtcgacc ggagcggcgc ctacatcgcc aggcaggccg ccaagagcat cgtcgccagc
+     1021 ggcctcgccc gccgctgcat cgtgcaggtg tcgtacgcca tcggcgtccc cgagccgctc
+     1081 tccgtgttcg tcgactccta cggcaccggc aagatccccg acaaggagat cctcaagatc
+     1141 gtcaaggaga acttcgattt caggcccggg atgatgacca tcaacctcga cctcaagagg
+     1201 ggcggcaacc ggttcatcaa gaccgcggcg tacggccatt tcggccgcga ggatcccgac
+     1261 ttcacatggg aggttgtcaa gccgctcaag tatgagaagg catcttcctg aggaagaaga
+     1321 taaagatgat gaccatgaga ggggggtctc tctctcgcta tctacctcca ttgccggccg
+     1381 ttgtcggcgc cgccgccgcc tacctgatgt gtctttgatc agtagtgact ggttgctcca
+     1441 tggaagaaga agaagatggg aagatgatga aagggttgaa atcgacttgc gaagttgcta
+     1501 gtgatatcgg tgtagccagc cagagtttta gtgttcagat atcttcggcg ttttatcctt
+     1561 ttttcatttt tttgagtcag ctgaaactgc aagagagctc tgcagtttgc tctatcagtt
+     1621 tgtcttgttc tttttttttt tcaggttgtt gtgtaaccgc atctgtaata ctgtctcttt
+     1681 caatatgaag gaaccatatg tgatactggc accataattc atccaaaaaa aaaaaa
+//
+

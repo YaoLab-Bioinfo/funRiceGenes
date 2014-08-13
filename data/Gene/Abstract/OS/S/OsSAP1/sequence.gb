@@ -1,0 +1,82 @@
+LOCUS       AB066560                1751 bp    mRNA    linear   PLN 26-NOV-2008
+DEFINITION  Oryza sativa ossap1 mRNA for putative secretory acid phosphatase
+            precursor, complete cds.
+ACCESSION   AB066560
+VERSION     AB066560.1  GI:29466963
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Fukuda,T., Osaki,M., Shinano,T. and Wasaki,J.
+  TITLE     Cloning and characterization of two secreted acid phosphatases from
+            rice calli
+  JOURNAL   (in) Horst,W.J., Schenk,M.K. and etc. (Eds.);
+            PLANT NUTRITION - FOOD SECURITY AND SUSTAINABILITY OF AGRO-SYSMS
+            THROUGH BASIC AND APPLIED RESEARCH: 34-35;
+            Kluwer Academic Publishers, The Netherlands (2001)
+REFERENCE   2  (bases 1 to 1751)
+  AUTHORS   Fukuda,T., Osaki,M., Shinano,T. and Wasaki,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUL-2001) Contact:Takuya Fukuda Hokkaido University,
+            Graduate School of Agriculture; N9W9, Kita-ku, Sapporo, Hokkaido
+            060-8589, Japan
+FEATURES             Location/Qualifiers
+     source          1..1751
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Michikogane"
+                     /db_xref="taxon:39947"
+                     /tissue_type="callus"
+     gene            1..1751
+                     /gene="ossap1"
+     CDS             25..1455
+                     /gene="ossap1"
+                     /codon_start=1
+                     /product="putative secretory acid phosphatase precursor"
+                     /protein_id="BAB88215.1"
+                     /db_xref="GI:29466964"
+                     /translation="MGWRFALLLLHVLLCLVNGVSCGRTSSYVRTEYPSTDIPLESEW
+                     FAVPNGYNAPQQVHITQGDYNGKAVIVSWVTVAEPGTSEVLYGKNEHQYDQRVEGTVT
+                     NYTFYDYKSGYIHHCLVDGLEYNTKYYYKIGSGDSAREFWFETPPAIDPDASYTFGII
+                     GDLGQTFNSLSTLQHYEKSEGQTVLFVGDLSYADRYQHNDGVRWDSWGRLVERSTAYQ
+                     PWIWSAGNHEIEYRPDLGETSTFKPYLHRCHTPYLASKSSSPMWYAVRRASAHIIVLS
+                     SYSPFVKYTPQWTWLKYELKHVDREKTPWLIVLMHSPMYNSNEAHYMEGESMRAAFEK
+                     WFVKYKVDLVFAGHVHAYERSYRISNINYNITSGNRYPVPDKSAPVYITVGDGGNQEG
+                     PASRFSDPQPDYSAFREASYGHSILQLKNRTHAIYQWNRNDDGKHVPADNVVFHNQYW
+                     ASNTRRRRLKKKHFHLDQIEDLISVF"
+ORIGIN      
+        1 gatcggtagt gttctgcatc agtgatgggc tggagatttg cgttgttact gttacatgtt
+       61 cttctgtgcc ttgtcaatgg cgtctcctgt ggccgcacga gctcttacgt gcgtacggag
+      121 tacccatcga ctgatatacc tctagaaagc gaatggtttg cggttccaaa cggctacaat
+      181 gcgccacagc aggttcatat cactcaaggt gactataatg gaaaagctgt tatagtatca
+      241 tgggttactg tagcagaacc tgggacaagt gaggtgctct atggtaaaaa tgagcaccag
+      301 tatgatcaga gagtggaagg aacagtaaca aattatacct tttacgacta taaatctgga
+      361 tatattcacc attgccttgt tgatggtctt gagtataaca ccaaatatta ttataagatt
+      421 ggaagtggag attcagctcg agaattttgg tttgaaactc ctccagcaat tgatccagat
+      481 gcatcataca catttggcat aattggtgat ctggggcaga catttaattc cctctcaacc
+      541 cttcaacatt atgagaaaag cgaaggtcaa actgttttat ttgttgggga tttgtcatat
+      601 gctgatagat atcaacataa tgatggtgtt cgttgggatt cttgggggcg gcttgtggaa
+      661 cgtagtaccg cttatcaacc atggatttgg agcgctggta accatgaaat tgaatacagg
+      721 cctgatctgg gagaaacttc tacatttaag ccatatctgc atagatgtca cactccatat
+      781 ttggcatcaa agagcagttc tcctatgtgg tatgcagtca gacgtgcatc tgctcatatc
+      841 attgtgcttt ctagctattc tccattcgta aaatacactc ctcaatggac ctggttgaag
+      901 tatgaattga agcatgtgga tagagagaag actccttggc ttattgttct catgcattct
+      961 cccatgtaca acagcaatga agcacattac atggagggtg agagtatgag ggctgctttt
+     1021 gagaaatggt ttgtgaagta caaggttgac ttggtatttg cagggcatgt gcatgcttat
+     1081 gagagatcgt atcgtatctc taacatcaac tacaacataa catcgggtaa ccgatatcca
+     1141 gtgccagaca aatctgctcc tgtgtacata acagttggtg atggaggcaa ccaggaaggg
+     1201 cctgcttcaa ggttcagtga tccacagcca gactactctg cattcaggga ggctagttat
+     1261 ggtcattcga tcttgcaact gaaaaacagg actcatgcta tctaccagtg gaatagaaac
+     1321 gatgatggga agcatgtacc tgcggacaat gtggtgtttc acaaccagta ttgggcaagc
+     1381 aacactcgcc gcaggaggct gaagaagaag cattttcact tggatcaaat tgaggacttg
+     1441 atatccgtgt tctaggagtt gatctttcag aacactgcat cgcagacttt ctgaaacggt
+     1501 ggcggaatag ctctgttgcc ctttggtctt gagcctcgac cgagtgaggc agaggctctc
+     1561 ggctctcatg taaaggaacc atgcacaggt ttgtgggatt actattattg agcactgtat
+     1621 tgtatgatga agacaatccg atcagcagat gattagtgct gtacacatgt agcatttcac
+     1681 agccagcgac agtttcgcaa tgtgacagta tcttcaataa agtttcaaag ggttgtaaaa
+     1741 aaaaaaaaaa a
+//
+

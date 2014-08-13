@@ -1,0 +1,64 @@
+LOCUS       AB009665                1116 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for water channel protein,
+            complete cds.
+ACCESSION   AB009665
+VERSION     AB009665.1  GI:2696803
+KEYWORDS    water channel protein.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Li,L., Li,S., Tao,Y. and Kitagawa,Y.
+  TITLE     Molecular cloning of a novel water channel from rice: its products
+            expression in Xenopus oocytes and involvement in chilling tolerance
+  JOURNAL   Plant Sci. 154 (1), 43-51 (2000)
+   PUBMED   10725557
+REFERENCE   2  (bases 1 to 1116)
+  AUTHORS   Kitagawa,Y., Li,L. and Li,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-DEC-1997) Contact:Yoshichika Kitagawa Biotechnology
+            Institute, Laboratory of Plant Genetic Engineering; Minami 2-2,
+            Ohgata, Akita 010-0144, Japan
+FEATURES             Location/Qualifiers
+     source          1..1116
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /strain="wasetoittu"
+                     /db_xref="taxon:39947"
+     CDS             56..925
+                     /function="water transport"
+                     /standard_name="rice water channel gene-1"
+                     /codon_start=1
+                     /product="water channel protein"
+                     /protein_id="BAA24016.1"
+                     /db_xref="GI:2696804"
+                     /translation="MEGKEEDVRPRANRYSERQPIGTAAQGAGDDKDYKEPPPAPLFE
+                     PGELKSWSFYRAGIAEFVATFLFLYITILTVMGVSKSSSKCATVGIQGIAWSFGGMIF
+                     ALVYCTAGISGGHINPAVTFGLFLARKLSLTRAIFYIVMQCLGAICGAGVVKGFQQGL
+                     YMGNGGGANVVASGYTKGDGLGAEIVGTFILVYTVFSATDAKRNARDSHVPILAPLPI
+                     GFAVFLVHLATIPITGTGINPARSLGAAIIYNKDHAWNDHWIFWVGPFVGAALAAIYH
+                     QVIIRAIPFKSRS"
+ORIGIN      
+        1 gaattcgcgg ccgctcacag tctccactca cacgcattgc agaggagaga cgacaatgga
+       61 ggggaaggag gaggacgtgc ggccgcgggc gaacaggtac tcggagaggc agccgatagg
+      121 gacggcggcg cagggcgccg gggacgacaa ggactacaag gagccgccgc cggcgccgct
+      181 gttcgagcca ggggagctca agtcgtggtc tttctaccgg gccgggatcg ccgagttcgt
+      241 cgccaccttc ctcttcctct acatcaccat cctcaccgtc atgggggtct ccaagtcctc
+      301 ctccaagtgc gccaccgtcg gcatccaggg catcgcctgg tccttcggag gcatgatctt
+      361 cgcgctcgtc tactgcaccg ccggcatctc cggaggacac atcaacccag cagttacttt
+      421 tgggctgttc ttggccagga agctgtccct gacccgggcc atcttctaca tagtgatgca
+      481 atgcctaggg gccatctgcg gagctggagt tgtgaagggc ttccagcagg gtctgtacat
+      541 gggcaatggc ggtggtgcca atgtagttgc cagtggctac accaagggtg acggtcttgg
+      601 tgctgagatt gttggcacct tcatcctggt ctacaccgtc ttctcagcca ctgatgccaa
+      661 gaggaatgcc agggactcac atgttcctat ccttgcccca ctgccaattg gttttgcggt
+      721 gttcctggtc cacctggcca ccatccccat caccggtact ggcatcaacc cagccaggag
+      781 ccttggcgct gccatcatct acaacaagga ccatgcctgg aatgaccatt ggatcttctg
+      841 ggttggtccc ttcgttggcg ctgccctggc tgccatctac caccaggtga tcatcagggc
+      901 gatcccattc aagagcaggt cttaagcccc gcgccgccgt gcgcagccga cgacatgcaa
+      961 cgcaatcgtg atgtcctgtt tcccgcgcgc tactgctgcg catctgtcga ttccctctat
+     1021 ctctagtccc caagatgttt ttcctatctg aaccctgaac aactcaatcg tgtaatccag
+     1081 tactcagtca ctgtatgttt ttatgtgaaa aaaaaa
+//
+

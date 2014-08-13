@@ -1,0 +1,68 @@
+LOCUS       AB045120                1216 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group EL5 mRNA, complete cds.
+ACCESSION   AB045120
+VERSION     AB045120.1  GI:8698832
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Takai,R., Hasegawa,K., Kaku,H., Shibuya,N. and Minami,E.
+  TITLE     Isolation and analysis of expression mechanisms of a rice gene,
+            EL5, which shows structual similarity to ATL family from
+            Arabidopsis, in response to N-acetylchitooligosaccharides elicitor
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1216)
+  AUTHORS   Minami,E. and Takai,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUN-2000) Contact:Eiichi Minami National Institute of
+            Agrobiological Resources, Department of Biotechnology; kannondai
+            2-1-2, Tsukuba, Ibaraki 305-0826, Japan
+FEATURES             Location/Qualifiers
+     source          1..1216
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1216
+                     /gene="EL5"
+     CDS             11..988
+                     /gene="EL5"
+                     /codon_start=1
+                     /protein_id="BAA96874.1"
+                     /db_xref="GI:8698833"
+                     /translation="MVRGVEQGGPAMDESSSSSSPSPVSAPAGQAAMTAGGIATVAAV
+                     LIVFAALTLAFVLLQCYCDERRRAVTTTSTSGRGRRPRPRRRSGSGGDGGTGGGVDPE
+                     VLRSLPVTVYSRSTAAAAAKEEEEEDDDGVECAVCLAELEDGEEARFLPRCGHGFHAE
+                     CVDMWLGSHSTCPLCRLTVVVPPPPLPPVPPEPPASYTVSLPASVLLGLSDHGAGAVT
+                     MTAEGRSTLVIEIPESAASTTPRDAAARSSPSLARLRSLRRLWSFGRQGAAGSTSSCS
+                     CATGGDNDDGDVEHGVSVTVAIRAVEAATPARPPEAEAGARTAAAHVRN"
+     polyA_site      1198
+                     /gene="EL5"
+                     /note="18 a nucleotides"
+ORIGIN      
+        1 gtcgattatt atggtgcggg gtgtcgagca gggcggcccc gccatggacg agtcttcgtc
+       61 gtcgtcgtcg ccgtcgccgg tgtccgcgcc tgcagggcag gcagccatga cggccggcgg
+      121 catcgccacc gtggcggccg tgctcatcgt cttcgcggcg ctcacgctcg ccttcgtcct
+      181 gctccagtgc tactgcgacg agcggcgccg cgccgtgacg acgacgtcga cgagcgggcg
+      241 cgggcggcgg ccgcggccgc ggcggcgctc tgggagcggc ggggacggtg gaacgggagg
+      301 aggggtcgac ccggaggtgc tccggtcgct gccggtcacg gtgtacagcc gcagcacggc
+      361 ggcggcggcg gcgaaggagg aggaggagga ggacgacgac ggcgtcgagt gcgcggtgtg
+      421 cctcgcggag ctcgaggacg gcgaggaggc caggttcctc ccccggtgcg gccacggctt
+      481 ccacgccgag tgcgtcgaca tgtggctcgg ctcccactcc acctgcccgc tctgccgcct
+      541 caccgtcgtc gtgccgccgc cgcctcttcc tcccgtcccg ccggagccgc cggcgagcta
+      601 caccgtgagc ctcccggcga gcgtcctgct cggcctgtcc gaccatggcg ccggcgcggt
+      661 gaccatgaca gcggagggcc gcagcacgct ggtgatcgag atccccgaat ccgcggcttc
+      721 gacgaccccg cgcgacgcgg cggcgaggtc gtcgccgagc ttggcgcggc tgaggtcact
+      781 gagaaggctc tggagcttcg ggcggcaagg ggcggcgggg tcgacgtcgt catgctcctg
+      841 cgccaccgga ggagacaacg acgacggcga cgtcgagcac ggtgtcagcg tcaccgtcgc
+      901 catccgcgcc gtggaggcgg caacgccggc acggccaccg gaggccgagg ccggtgcaag
+      961 aaccgccgcc gcgcatgtcc ggaattgacg gcggcgaggt cgtcaagtat tataaggcga
+     1021 tctccctgta catatcggta gaaccgaact ggaatcgcca ttaattccta cgattttaga
+     1081 aaatatcaat ttcattttta agattagaaa catttaagta gaaattattt gttcatcagt
+     1141 caagtagcaa agagaaatgt atggatggca gtgagaagca tccctctccg tatgttccaa
+     1201 aaaaaaaaaa aaaaaa
+//
+

@@ -1,0 +1,75 @@
+LOCUS       EF199631                1417 bp    mRNA    linear   PLN 14-AUG-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) bZIP-type transcription
+            factor ABI5 isoform 2 (ABI5) mRNA, complete cds, alternatively
+            spliced.
+ACCESSION   EF199631
+VERSION     EF199631.1  GI:124055246
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1417)
+  AUTHORS   Zou,M., Guan,Y., Ren,H., Zhang,F. and Chen,F.
+  TITLE     Characterization of alternative splicing products of bZIP
+            transcription factors OsABI5
+  JOURNAL   Biochem. Biophys. Res. Commun. 360 (2), 307-313 (2007)
+   PUBMED   17604002
+REFERENCE   2  (bases 1 to 1417)
+  AUTHORS   Zou,M., Guan,Y., Ren,H., Zhang,F. and Chen,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-DEC-2006) Key Laboratory of Molecular and
+            Developmental Biology, Institute of Genetics and Developmental
+            Biology, Chinese Academy of Sciences, South 1-3, Zhongguancun,
+            Beijing 100080, P. R. China
+FEATURES             Location/Qualifiers
+     source          1..1417
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /chromosome="1"
+     gene            1..1417
+                     /gene="ABI5"
+                     /note="OsABI5"
+     CDS             16..1182
+                     /gene="ABI5"
+                     /note="alternatively spliced"
+                     /codon_start=1
+                     /product="bZIP-type transcription factor ABI5 isoform 2"
+                     /protein_id="ABM90395.1"
+                     /db_xref="GI:124055247"
+                     /translation="MASEMSKNVKVTDDQEVTSQERDQSGGTKVGGEEEIAPLARQSS
+                     ILSLTLEELQNSLCEPGRNFGSMNMDEFVANIWNAEEFQATTGGCKGAMEEAKVVDSG
+                     SGSGDAGGSGLCRQGSFSLPLPLCQKTVEEVWTEINQAPAHTSAPASALQPHAGSGGV
+                     AANDRQVTLGEMTLEDFLVKAGVVRGSFTGQAAMGSGMVNGPVNPMQQGQGGPMMFPV
+                     GPVNAMYPVMGDGMGYPGGYNGMAIVPPPPPAQGAMVVVSPGSSDGMSAMTHADMMNC
+                     IGNGMMIENGTRKRPHREDGCAEKTVERRQRRMIKNRESAARSRARKQAYTVELEAEL
+                     NYLKQENARLKEAEKTVLLTKKQMLVEKMMEQSKEKMNANRGGSQLRRSGSCMW"
+ORIGIN      
+        1 gagtgttata gtgagatggc atcggagatg agcaagaacg tgaaggtcac cgatgatcaa
+       61 gaggttacat cacaggagcg tgaccaaagt ggtggtacaa aagtaggtgg ggaggaggaa
+      121 attgctccac tggcgcggca gtcgtcaatc ctctccctca ccttggaaga gctacaaaac
+      181 tccttgtgtg agccaggacg caactttggt tccatgaaca tggacgagtt tgtggctaac
+      241 atatggaatg ctgaagaatt ccaggctacc accggaggtt gcaagggtgc catggaggaa
+      301 gccaaggtgg tagacagtgg aagcggaagc ggtgatgcag gaggaagcgg tttatgtcgg
+      361 cagggatcat tttccttgcc gctaccgctg tgccagaaga cggtggagga ggtgtggact
+      421 gagatcaacc aagcccctgc acacacctcc gctccggcct ccgcgctcca gccacatgcc
+      481 gggagcggtg gtgttgcagc taacgaccga caggtaacac taggtgagat gacacttgag
+      541 gatttcttgg taaaggccgg ggtggtccga gggtccttta ccgggcaagc ggccatggga
+      601 tctggcatgg tcaacgggcc ggtgaacccc atgcagcagg gccaaggcgg tcctatgatg
+      661 ttcccagtag gaccggtaaa cgccatgtat ccggtgatgg gtgatggcat ggggtacccc
+      721 ggtgggtaca acgggatggc gattgtgcca ccgccacctc ccgcccaagg tgccatggtt
+      781 gtcgtgagtc ctggatcatc agatgggatg agtgccatga cacatgctga tatgatgaat
+      841 tgtattggga atgggatgat gattgagaat ggaacaagaa agcgtcccca cagagaggat
+      901 ggctgcgccg agaagacggt ggagcgccgc caacggcgca tgatcaagaa ccgtgagtca
+      961 gctgcacggt cccgtgctag aaagcaggct tatacggtgg agctcgaagc tgaactgaac
+     1021 tatctcaagc aggagaacgc tcgtctcaaa gaggcagaga agacggttct actgacaaag
+     1081 aagcaaatgc tggttgagaa aatgatggag cagtccaagg agaagatgaa tgcaaatagg
+     1141 ggtggcagcc agctgcgccg cagcggcagc tgcatgtggt gaaacgggca tagcggtgac
+     1201 cggcgagtgg cacactcatc ctgcttctgg tgtggcacta gcctctgagg ctctgaagag
+     1261 gatttgcaca ttaagtcttc tttcagacta agtgatgtga aggtattatg gtagtagttg
+     1321 atatacatat atgctgtgat gcttgtaaac ctgcctggac ccacatgtct tgccatcgtg
+     1381 ttcaccggtc cttgctgctt atatggttac atgtcgc
+//
+

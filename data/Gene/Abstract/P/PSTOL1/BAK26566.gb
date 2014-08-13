@@ -1,0 +1,103 @@
+LOCUS       BAK26566                 324 aa            linear   PLN 19-SEP-2012
+DEFINITION  OsPupK46-2 [Oryza sativa Indica Group].
+ACCESSION   BAK26566
+VERSION     BAK26566.1  GI:333943504
+DBSOURCE    accession AB458444.1
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Heuer,S., Lu,X., Chin,J.H., Pariasca-Tanaka,J., Kanamori,H.,
+            Matsumoto,T., De Leon,T., Ulat,V.J., Ismail,A.M., Yano,M. and
+            Wissuwa,M.
+  TITLE     Comparative sequence analyses of the major quantitative trait locus
+            phosphorus uptake 1 (Pup1) reveal a complex genetic structure
+  JOURNAL   Plant Biotechnol. J. 7 (5), 456-457 (2009)
+   PUBMED   19422603
+REFERENCE   2
+  AUTHORS   Chin,J.H., Gamuyao,R., Dalid,C., Bustamam,M., Prasetiyono,J.,
+            Moeljopawiro,S., Wissuwa,M. and Heuer,S.
+  TITLE     Developing rice with high yield under phosphorus deficiency: Pup1
+            sequence to application
+  JOURNAL   Plant Physiol. 156 (3), 1202-1216 (2011)
+   PUBMED   21602323
+  REMARK    DOI:10.1104/pp111.175471
+REFERENCE   3
+  AUTHORS   Gamuyao,R., Chin,J.H., Pariasca-Tanaka,J., Pesaresi,P.,
+            Catausan,S., Dalid,C., Slamet-Loedin,I., Tecson-Mendoza,E.M.,
+            Wissuwa,M. and Heuer,S.
+  TITLE     The protein kinase Pstol1 from traditional rice confers tolerance
+            of phosphorus deficiency
+  JOURNAL   Nature 488 (7412), 535-539 (2012)
+   PUBMED   22914168
+REFERENCE   4  (residues 1 to 324)
+  AUTHORS   Wissuwa,M., Heuer,S., Yano,M. and Matsumoto,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-SEP-2008) Contact:Matthias Wissuwa Japan
+            International Research Center for Agricultural Sciences, Crop
+            Production and Environment Division; 1-1 Ohwashi, Tsukuba, Ibaraki
+            305-8686, Japan
+COMMENT     Pseudomolecule corresponding to the Pup1 locus as fine mapped in
+            Nipponbare, and flanking regions
+            Genes in Pup1 fine map region are named OsPup..-1
+            assembled from partial sequences of 3 Kasalath BAC clones
+            (K0159D02, K0322B09, K0185A05)
+            gene predictions as obtained through RiceGAAS on July 9, 2008
+            (http://RiceGAAS.dna.affrc.go.jp/)
+            annotation preliminary based on Blastn in TIGR5, status August 2008
+            
+            Sequences of the gene models OsPupK20 and OsPupK46 were updated in
+            May 2011. The revised gene models (OsPupK20-2 and OsPupK46-2)
+            replaced the preliminary gene models (OsPupK20-1 and OsPupK46-1)
+            submitted in 2008.
+FEATURES             Location/Qualifiers
+     source          1..324
+                     /organism="Oryza sativa Indica Group"
+                     /cultivar="Kasalath"
+                     /db_xref="taxon:39946"
+                     /chromosome="12"
+                     /country="Japan:Ibaraki, Tsukuba"
+     Protein         1..324
+                     /name="OsPupK46-2"
+     Region          44..308
+                     /region_name="Pkinase"
+                     /note="Protein kinase domain; pfam00069"
+                     /db_xref="CDD:249558"
+     Region          45..310
+                     /region_name="PKc"
+                     /note="Catalytic domain of Protein Kinases; cd00180"
+                     /db_xref="CDD:173623"
+     Site            order(45..49,53,65,67,95,111..114,118,120,166,168,
+                     170..171,173,184,187,205..208)
+                     /site_type="active"
+                     /db_xref="CDD:173623"
+     Site            order(45..49,53,65,67,95,111..114,118,166,168,170..171,
+                     173,184)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:173623"
+     Site            order(49,118,120,166,168,170,187,205..208)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:173623"
+     Site            order(183..189,205..208)
+                     /site_type="other"
+                     /note="activation loop (A-loop)"
+                     /db_xref="CDD:173623"
+     CDS             1..324
+                     /gene="OsPupK46-2"
+                     /coded_by="AB458444.1:275525..276499"
+                     /note="Ser/Thr protein kinase, putative, expressed;
+                     revised gene model of OsPupK46-1"
+ORIGIN      
+        1 mllcqraskn apriesflqk qetsnpkryt lsevkrmtks fahklgrggf gtvykgslpd
+       61 greiavkmlk dtkgdgeefi nevagiskts hinvvnllgf slqgskrali yeympngsld
+      121 rysfgdssvq gdntlswdrl fniivgiarg leylhchcni rivhfdikpq nillaqdfcp
+      181 kisdfglskl chlkesrisi nglrgtpgyi apevfsrqyg sassksdvys ygmvvlemag
+      241 akkninvstg ssskyfpqwl ydnldqfccp tgeissqttd lvrkmvvvgl wciqlvptdr
+      301 psmrevleml esngrdlplp pkgl
+//
+

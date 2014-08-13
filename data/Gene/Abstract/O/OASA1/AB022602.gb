@@ -1,0 +1,92 @@
+LOCUS       AB022602                2172 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsASA1 mRNA for anthranilate synthase
+            alpha 1 subunit, complete cds.
+ACCESSION   AB022602
+VERSION     AB022602.1  GI:5360656
+KEYWORDS    anthranilate synthase alpha 1 subunit.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Tozawa,Y., Hasegawa,H., Terakawa,T. and Wakasa,K.
+  TITLE     Characterization of rice anthranilate synthase alpha-subunit genes
+            OASA1 and OASA2. Tryptophan accumulation in transgenic rice
+            expressing a feedback-insensitive mutant of OASA1
+  JOURNAL   Plant Physiol. 126 (4), 1493-1506 (2001)
+   PUBMED   11500548
+REFERENCE   2  (bases 1 to 2172)
+  AUTHORS   Tozawa,Y., Hasegawa,H., Terakawa,T. and Wakasa,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JAN-1999) Contact:Yuzuru Tozawa National Agriculture
+            Research Center, Department of Crop Breeding; 3-1-1 Kannondai,
+            Tsukuba, Ibaraki 305-8666, Japan
+FEATURES             Location/Qualifiers
+     source          1..2172
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..2172
+                     /gene="OsASA1"
+     CDS             262..1995
+                     /gene="OsASA1"
+                     /codon_start=1
+                     /product="anthranilate synthase alpha 1 subunit"
+                     /protein_id="BAA82094.1"
+                     /db_xref="GI:5360657"
+                     /translation="MASLVLSLRIARSTPPLGLGGGRFRGRRGAVACRAATFQQLDAV
+                     AVREEESKFKAGAAEGCNILPLKRCIFSDHLTPVLAYRCLVREDDREAPSFLFESVEQ
+                     GSEGTNVGRYSVVGAQPAMEIVAKANHVTVMDHKMKSRREQFAPDPMKIPRSIMEQWN
+                     PQIVEGLPHAFCGGWVGFFSYDTVRYVETKKLPFSNAPEDDRNLPDIHLGLYNDIVVF
+                     DHVEKKTHVIHWVRVDCHESVDEAYEDGKNQLEALLSRLHSVNVPTLTAGSVKLNVGQ
+                     FGSALQKSSMSREDYKKAVVQAKEHILAGDIFQVVLSQRFERRTFADPFEVYRALRIV
+                     NPSPYMAYLQARGCILVASSPEILTRVEKRTIVNRPLAGTIRRGKSKAEDKVLEQLLL
+                     SDGKQCAEHIMLVDLGRNDVGKVSKPGSVKVEKLMNVERYSHVMHISSTVTGELRDDL
+                     TCWDALRAALPVGTVSGAPKVRAMELIDQMEGKMRGPYSGGFGGVSFRGDMDIALALR
+                     TIVFPTGSRFDTMYSYTDKNARQEWVAHLQAGAGIVADSKPDDEHQECLNKAAGLARA
+                     IDLAESTFVDE"
+     polyA_site      2172
+                     /gene="OsASA1"
+                     /note="21 a nucleotides"
+ORIGIN      
+        1 ccgtaaactc aatccctttc tctggagtct tggagcggca cggcggctgc gcacgcgacc
+       61 tcgcccacca cctgctcggc gaaacgccgg ctcggccgcg acgtgtccca ccgcaccgcg
+      121 cgcgcacgcg ccgcgcccga gcccctcgcc gcctccgcgc gggcgccgca ccctatttaa
+      181 atgcggcccc gatcccgcat tctctcaact gcactagtcc ccaccaacgg ctcggtccag
+      241 tagagtttat cccccccacc tatggccagc ctcgtgctct ccctgcgcat cgcccgttcc
+      301 acgccgccgc tggggctggg cggggggcga ttccgcggcc gacgaggggc cgtcgcctgc
+      361 cgcgccgcca cgttccagca gctcgacgcc gtcgcggtga gggaggagga gtccaagttc
+      421 aaggcggggg cggcggaggg ttgcaacatc ctgccgctca agcgatgcat cttctccgac
+      481 cacctcacgc cggtgctcgc gtaccgctgc ctcgtcaggg aggacgaccg cgaggcgccc
+      541 agcttcctgt ttgagtccgt cgagcaggga tccgagggca ccaatgtggg gaggtacagt
+      601 gtggttgggg cacagcctgc gatggagatc gtagccaagg ccaaccatgt gactgtcatg
+      661 gatcataaga tgaagtctag gagggagcaa tttgcgcctg acccgatgaa gataccaagg
+      721 agcattatgg aacagtggaa cccacagatt gttgaaggcc tccctcatgc attttgtgga
+      781 ggatgggttg gattcttctc ttacgacaca gtgcgttatg ttgaaacaaa gaagcttcca
+      841 ttttctaacg cgccagagga tgataggaac cttcctgaca tccatttagg cctctacaat
+      901 gacatagttg tgtttgatca tgttgaaaag aaaacacatg ttatacattg ggtgagggta
+      961 gattgccatg agtcagttga cgaagcgtat gaggacggga agaatcagct ggaagctttg
+     1021 ttatcaagat tacatagtgt taatgtgcca actcttactg ctggttctgt aaaacttaac
+     1081 gttgggcaat ttgggtcagc actacagaaa tcatcaatgt caagggagga ctataagaaa
+     1141 gctgttgttc aagcaaaaga gcacattcta gctggtgaca tttttcaagt agtcttaagc
+     1201 cagcgttttg agaggcgtac atttgctgac ccctttgagg tgtaccgtgc attgcgtatt
+     1261 gtcaatccta gtccttatat ggcctatcta caggctcgtg gttgtattct ggtagcatca
+     1321 agtcctgaaa ttcttacccg ggtggaaaag aggacaattg tcaacaggcc acttgctgga
+     1381 acaattagaa gaggaaaatc gaaagcagaa gacaaagttt tagaacaact gctgttgagt
+     1441 gatggaaagc agtgtgctga gcatattatg ttagtagatc ttggacggaa tgatgttgga
+     1501 aaggtgtcca aaccaggttc agtaaaggtg gagaaactga tgaacgttga acgatattca
+     1561 catgtcatgc acattagctc aacagttact ggagagttgc gtgatgatct gacttgttgg
+     1621 gatgctcttc gagcagcatt gcccgttgga acagttagtg gtgcaccaaa ggtgagagcg
+     1681 atggagctga ttgaccagat ggaagggaag atgcgtgggc cgtacagtgg tggctttgga
+     1741 ggggtttctt tccgtggaga catggacatc gcacttgctc tccgtaccat cgtcttcccc
+     1801 acgggatctc gcttcgacac catgtactcc tacactgaca agaatgctcg tcaggagtgg
+     1861 gtggctcacc ttcaggctgg agctgggatc gtcgctgaca gcaagcctga cgatgagcat
+     1921 caggagtgct tgaacaaggc tgctggcctt gctcgtgcca tcgatcttgc cgagtctaca
+     1981 ttcgtagatg agtagatcat ccagcttagg ttttcagata aaaaaagatc acccagttta
+     2041 ggacagcttt gttttatgtt ctgttgcttt ctagtagagc agaaaccatt ccggcccttg
+     2101 tgctgtagga tttcgctgct ttggattaaa ccatcgtaat aaattcaata aatgtatagc
+     2161 agatggaatg tc
+//
+

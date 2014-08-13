@@ -1,0 +1,77 @@
+LOCUS       D88621                  1640 bp    mRNA    linear   PLN 11-NOV-1997
+DEFINITION  Oryza sativa mRNA for OSMYB5, complete cds.
+ACCESSION   D88621
+VERSION     D88621.1  GI:2605624
+KEYWORDS    Osmyb5.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Suzuki,A., Suzuki,T., Tanabe,F., Toki,S., Washida,H., Wu,C.Y. and
+            Takaiwa,F.
+  TITLE     Cloning and expression of five myb-related genes from rice seed
+  JOURNAL   Gene 198 (1-2), 393-398 (1997)
+   PUBMED   9370307
+REFERENCE   2  (bases 1 to 1640)
+  AUTHORS   Suzuki,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-1996) Akihiro Suzuki, National Institute of
+            Agrobiological Resources, Department of Biotechnology; Kannondai
+            2-1-2, Tsukuba City 305, Japan (E-mail:hnskhrk@abr.affrc.go.jp,
+            Tel:+81-298-38-8450, Fax:+81-298-38-8397)
+FEATURES             Location/Qualifiers
+     source          1..1640
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="seed"
+     gene            1..1640
+                     /gene="Osmyb5"
+     CDS             260..1447
+                     /gene="Osmyb5"
+                     /function="transfactor"
+                     /codon_start=1
+                     /product="OSMYB5"
+                     /protein_id="BAA23341.1"
+                     /db_xref="GI:2605625"
+                     /translation="MHESDSSPDSDRTHWYMSNSDDESFVDKDKDCRRSTVALLLKKG
+                     PWTSWEDSILEKYIKKHGERNWKLVQKNTGLLRCGKSCRLRWMNHLRPNLKKGAFSKE
+                     EENKIINLHRKMGNKWSRMAADLPGRTDNEIKNYWNTRIKKCKNNRSPLYPANVCNDA
+                     LNEDQHESADPNVREKLTNNHLEDTTSMYSAPPGFQDASISNILDRRLASKDYDSIED
+                     QRNQIEVVAKYEIPLPVLKTTNNDIFPSASIFANHGISNGNLSALSTTDALQMELPLI
+                     QFDPNNQFVYSRAYAMHLTNFALLNDQSEELLNDTDVLNYVVMKEELSGGSLSPTINM
+                     PCEAHNSMAASNELVVPQYEGDAPPLQDDFTSYFYLNDTNLSIFEDTNELFLENKLDT
+                     KGN"
+ORIGIN      
+        1 gttgccgcac atatactcgt gctcgcgctc acgccgccgc ccccgaaact ccccgctccg
+       61 ccattgccgg gggaggcgat ctcccatctc catctcccat ctcgcctcag cgaactcccc
+      121 ttcacatcgc gtctcttccg tcgcagagag tggcggccgg tgaccatttc cggtgggagg
+      181 gcggaggttt tgtcccggct ccggcgacac tccacactcc gacagcccac cgctccgtca
+      241 ccctgcattt ttggtcagga tgcacgagag cgacagcagt cctgattctg acaggacaca
+      301 ctggtatatg agcaatagcg atgacgagtc atttgttgat aaagataaag attgcagaag
+      361 gagcaccgta gccctgctgt tgaagaaagg tccatggaca tcttgggagg actccatctt
+      421 agagaagtac atcaagaagc atggtgaaag gaactggaag cttgtgcaga agaacactgg
+      481 cctcttgagg tgtggcaaga gttgccgtct tcggtggatg aaccatctga ggcctaacct
+      541 aaagaagggg gctttcagca aggaagaaga gaataaaatt attaatcttc atcgcaaaat
+      601 ggggaataag tggtctcgga tggctgctga tttgccaggg cgtactgata atgaaataaa
+      661 gaactactgg aacactcgaa taaagaaatg caagaacaat cgttcgcctt tgtatcctgc
+      721 taatgtatgc aacgatgctt tgaatgaaga tcaacatgag tctgctgacc ccaacgttag
+      781 ggagaagctg accaataatc atctagaaga tactactagt atgtattctg cacccccagg
+      841 ttttcaggat gcttccatca gtaatatact tgataggaga cttgcatcaa aagattatga
+      901 ctccatagaa gatcaaagaa accaaataga agttgtagca aaatatgaga ttccacttcc
+      961 tgtgttgaaa acaacgaaca atgacatatt tccatcagcc tctatctttg ccaaccatgg
+     1021 tatttcaaat ggcaatctct ctgctttgtc cacaactgat gctttgcaga tggagctccc
+     1081 tttaatccaa tttgatccaa acaaccagtt cgtttactca agggcttatg cgatgcacct
+     1141 aacaaacttt gctttattaa atgatcaatc agaagaatta ctaaatgata ctgatgtatt
+     1201 gaactatgtg gtgatgaaag aagagctttc tggagggagt ttgagtccta ctattaatat
+     1261 gccatgtgaa gcacataact ccatggctgc ctctaatgag ctggtagtgc cacaatatga
+     1321 aggagatgct ccacctcttc aagatgattt cacatcatat ttctatttga atgatactaa
+     1381 tctatccata ttcgaagaca caaatgaatt gtttttggaa aacaagttgg atactaaagg
+     1441 taactgacgc cagattgtca tgagttgctg ctctcttgga taaactcatc atgaaaccaa
+     1501 gaattttatt ccatgaagct cgtgaacgag ccagtcgttg ctatctctct tattaggatt
+     1561 tccagtttgg atattgccgt actcctttac ttttcttcat gtcgaaatta ccatgcgtgc
+     1621 tatgttgaat ttcatctgct
+//
+

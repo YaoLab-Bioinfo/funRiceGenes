@@ -1,0 +1,59 @@
+LOCUS       AY830122                 906 bp    mRNA    linear   PLN 12-JUL-2005
+DEFINITION  Oryza sativa (indica cultivar-group) nucleosome assembly protein
+            1-like protein 3 mRNA, complete cds.
+ACCESSION   AY830122
+VERSION     AY830122.1  GI:56412260
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 906)
+  AUTHORS   Dong,A., Liu,Z., Zhu,Y., Yu,F., Li,Z., Cao,K. and Shen,W.H.
+  TITLE     Interacting proteins and differences in nuclear transport reveal
+            specific functions for the NAP1 family proteins in plants
+  JOURNAL   Plant Physiol. 138 (3), 1446-1456 (2005)
+   PUBMED   15980199
+REFERENCE   2  (bases 1 to 906)
+  AUTHORS   Dong,A., Cao,K. and Shen,W.-H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-NOV-2004) Cell Biology, Institut de Biologie
+            Moleculaire des Plantes, 12 rue du General Zimmer, Strasbourg
+            67000, France
+FEATURES             Location/Qualifiers
+     source          1..906
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+     CDS             1..906
+                     /note="nucleosome assembly; NAP1_L3; histone chaperone"
+                     /codon_start=1
+                     /product="nucleosome assembly protein 1-like protein 3"
+                     /protein_id="AAV88624.1"
+                     /db_xref="GI:56412261"
+                     /translation="MSNPELLSEKKASLVETLKNKLQALAEQHVDVLESLAPVVRKRV
+                     DVLIEIQSQHDELEAKFLEEKSALEAKYHKLYGPLYSKRSEIVSGVLEVEGETEEREE
+                     KGVPDFWLKAMKNNEILAEEIHESDEEALKYLKDIKWCRIDDLKGFKFEFFFDTNPFF
+                     KNQVLTKTYHMIDEDDEPILEKAIGTEIEWHPGNCLTQEVLTKESLESTKPITKTEEY
+                     ESFFNFFSPPQVPEDDAKIDENTVEELQNQMERDYDIASTLRDKIIPHAVSWFTGEAV
+                     QDEDYGASWVDDEEDDDDEYSDEEA"
+ORIGIN      
+        1 atgagcaatc ccgagctctt gtcagagaaa aaggccagcc tcgtggagac actgaagaac
+       61 aagctgcagg cgttggcgga gcaacatgtt gacgtgctcg aaagcctggc gcccgtggtc
+      121 aggaagcgcg tcgatgtgct catagagatt cagagccaac atgatgaact agaagcgaag
+      181 ttcttggagg aaaaatctgc tctagaagct aaatatcata agctttatgg accattgtac
+      241 tcaaagcgtt ctgaaattgt gagtggtgtt cttgaagtag agggcgagac tgaagaaaga
+      301 gaggaaaagg gtgttccaga tttttggctc aaagcaatga agaacaatga gattcttgct
+      361 gaggagatcc atgagagcga tgaggaagct ctaaagtacc ttaaggacat caaatggtgc
+      421 agaattgatg atctaaaggg ttttaagttc gaattttttt tcgatacaaa tcccttcttt
+      481 aaaaatcaag tgctgactaa aacataccac atgatcgatg aagatgatga acccatccta
+      541 gagaaagcaa ttgggactga aatcgaatgg catccaggaa attgtttgac acaggaggtg
+      601 ctaacaaagg agagtttaga gagcactaaa cctataacaa agactgaaga atatgagagc
+      661 ttctttaact tcttcagccc ccctcaagtt ccagaggatg atgcaaaaat tgacgaaaat
+      721 accgttgaag aattgcagaa tcaaatggaa cgagattatg acattgcatc tactctcagg
+      781 gacaagatca taccacatgc tgtttcttgg ttcactggag aggctgttca agacgaggat
+      841 tatggtgctt cttgggtgga tgatgaagag gatgatgacg atgaatatag tgatgaagaa
+      901 gcatag
+//
+

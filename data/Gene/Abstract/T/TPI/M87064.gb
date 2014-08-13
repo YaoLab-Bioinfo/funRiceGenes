@@ -1,0 +1,56 @@
+LOCUS       RICRIC                  1050 bp    mRNA    linear   PLN 31-MAY-1994
+DEFINITION  Oryza sativa triosephosphate isomerase (Rictpi) mRNA, complete cds.
+ACCESSION   M87064
+VERSION     M87064.1  GI:169820
+KEYWORDS    triosephosphate isomerase.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1050)
+  AUTHORS   Xu,Y. and Hall,T.C.
+  TITLE     Cytosolic triosephosphate isomerase is a single gene in rice
+  JOURNAL   Plant Physiol. 101 (2), 683-687 (1993)
+   PUBMED   8278510
+COMMENT     Original source text: Oryza sativa cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..1050
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1050
+                     /gene="Rictpi"
+     CDS             35..796
+                     /gene="Rictpi"
+                     /EC_number="5.3.1.1"
+                     /codon_start=1
+                     /product="triosephosphate isomerase"
+                     /protein_id="AAA18541.1"
+                     /db_xref="GI:169821"
+                     /translation="MGRKFFVGGNWKCNGTTDQVDKIVKILNEGQIASTDVVEVVVSP
+                     PYVFLPVVKSQLRPEIQVAAQNCWVKKGGAFTGEVSAEMLVNLSIPWVILGHSERRSL
+                     LGESNEFVGDKVAYALSQGLKVIACVGETLEQRESGSTMDVVAAQTKAISERIKDWTN
+                     VVVAYEPVWAIGTGKVATPDQAQEVHDGLRKWLAANVSAEVAESTRIIYGGSVTGANC
+                     KELAAKPDVDGFLVGGASLKPEFIDIINSATVKSA"
+ORIGIN      
+        1 gcgtccagtt ccatctaatc agcttctcgt cgagatgggc cgcaagttct tcgttggtgg
+       61 caactggaaa tgcaacggga ccactgatca ggtggacaaa attgtgaaaa ttctgaatga
+      121 gggacagatt gcttctacag atgttgttga ggtggttgtc agcccacctt atgtgttcct
+      181 tcccgtggtc aagagtcagc tgcgcccgga gatccaagtt gctgctcaga attgttgggt
+      241 gaagaagggc ggggctttca ccggtgaggt cagcgctgag atgcttgtca accttagtat
+      301 tccctgggtt attcttggac actctgaaag gaggagtttg ttgggtgaat caaatgagtt
+      361 tgttggagac aaagtggcat atgcgctctc tcagggcttg aaggtcattg catgtgttgg
+      421 tgagactctc gagcagcggg aatctggatc gaccatggat gttgttgctg cacaaacaaa
+      481 agcaatttct gaaaggatca aggattggac taatgtggtt gttgcctatg aacctgtgtg
+      541 ggccattgga actggtaaag ttgctacacc agatcaagca caagaagtgc atgatggcct
+      601 gaggaagtgg ctcgctgcta atgtcagtgc agaggttgct gaatcaacaa ggatcatcta
+      661 tggaggttcc gtaactggtg cgaactgcaa ggagctggca gcaaagcctg atgttgatgg
+      721 ttttctcgtc ggtggtgctt cattgaagcc tgaattcatc gacatcatca actccgccac
+      781 cgtgaagtcc gcctaagatc ttcaccccat tcacttcggc gtgggaagat gtctgaagag
+      841 gatcatacct ttttctgtgc ttatgtaatg ctagtagttt tgtgctggag cagctactct
+      901 ttttcctccc cttcacttcc ctgaagctac ctgcagcttg agcaatgcta ataatgcaca
+      961 ccactgaaca tactaccata ccaataatgt ttagctcctt ttgtcgtgag ttattatcat
+     1021 gtgagtttca gatcagcggc cgctctagaa
+//
+

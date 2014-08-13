@@ -1,0 +1,440 @@
+LOCUS       NDK1_ORYSJ               149 aa            linear   PLN 19-FEB-2014
+DEFINITION  RecName: Full=Nucleoside diphosphate kinase 1; AltName:
+            Full=Nucleoside diphosphate kinase I; Short=NDK I; Short=NDP kinase
+            I; Short=NDPK I.
+ACCESSION   Q07661
+VERSION     Q07661.1  GI:585551
+DBSOURCE    UniProtKB: locus NDK1_ORYSJ, accession Q07661;
+            class: standard.
+            extra accessions:Q0D6C7,Q6DQV1,Q6ZHK3
+            created: Oct 1, 1994.
+            sequence updated: Oct 1, 1994.
+            annotation updated: Feb 19, 2014.
+            xrefs: D16292.1, BAA03798.1, AY649743.1, AAT70416.1, AP004051.4,
+            BAC83301.1, AP004266.3, BAD30551.1, AP008213.2, BAF21596.1,
+            CM000144.1, EAZ39864.1, S43330, NP_001059682.1, 1PKU_A, 1PKU_B,
+            1PKU_C, 1PKU_D, 1PKU_E, 1PKU_F, 1PKU_G, 1PKU_H, 1PKU_I, 1PKU_J,
+            1PKU_K, 1PKU_L
+            xrefs (non-sequence databases): UniGene:Os.146, PDBsum:1PKU,
+            ProteinModelPortal:Q07661, SMR:Q07661, PaxDb:Q07661,
+            EnsemblPlants:OS07T0492000-01, EnsemblPlants:OS07T0492000-01,
+            EnsemblPlants:OS07G0492000, GeneID:4343275, KEGG:osa:4343275,
+            Gramene:Q07661, eggNOG:COG0105, KO:K00940, OMA:GMKFMNV,
+            ProtClustDB:CLSN2696749, EvolutionaryTrace:Q07661,
+            ArrayExpress:Q07661, GO:0005524, GO:0046872, GO:0004550,
+            GO:0006241, GO:0006183, GO:0006228, Gene3D:3.30.70.141,
+            HAMAP:MF_00451, InterPro:IPR001564, InterPro:IPR023005,
+            Pfam:PF00334, PRINTS:PR01243, SMART:SM00562, SUPFAM:SSF54919,
+            PROSITE:PS00469
+KEYWORDS    3D-structure; ATP-binding; Complete proteome; Kinase; Magnesium;
+            Metal-binding; Nucleotide metabolism; Nucleotide-binding;
+            Phosphoprotein; Reference proteome; Transferase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 149)
+  AUTHORS   Yano,A., Shimazaki,T., Kato,A., Umeda,M. and Uchimiya,H.
+  TITLE     Molecular cloning and nucleotide sequence cDNA encoding nucleoside
+            diphosphate kinase of rice (Oryza sativa L.)
+  JOURNAL   Plant Mol. Biol. 23 (5), 1087-1090 (1993)
+   PUBMED   8260630
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA].
+REFERENCE   2  (residues 1 to 149)
+  AUTHORS   Cho,S.M., Shin,S.H., Kim,K.S., Kim,Y.C., Eun,M.Y. and Cho,B.H.
+  TITLE     Enhanced expression of a gene encoding a nucleoside diphosphate
+            kinase 1 (OsNDPK1) in rice plants upon infection with bacterial
+            pathogens
+  JOURNAL   Mol. Cells 18 (3), 390-395 (2004)
+   PUBMED   15650338
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA], AND INDUCTION.;
+            STRAIN=cv. Dongjin; TISSUE=Leaf
+REFERENCE   3  (residues 1 to 149)
+  CONSRTM   International Rice Genome Sequencing Project
+  TITLE     The map-based sequence of the rice genome
+  JOURNAL   Nature 436 (7052), 793-800 (2005)
+   PUBMED   16100779
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   4  (residues 1 to 149)
+  AUTHORS   Tanaka,T., Antonio,B.A., Kikuchi,S., Matsumoto,T., Nagamura,Y.,
+            Numa,H., Sakai,H., Wu,J., Itoh,T., Sasaki,T., Aono,R., Fujii,Y.,
+            Habara,T., Harada,E., Kanno,M., Kawahara,Y., Kawashima,H.,
+            Kubooka,H., Matsuya,A., Nakaoka,H., Saichi,N., Sanbonmatsu,R.,
+            Sato,Y., Shinso,Y., Suzuki,M., Takeda,J., Tanino,M., Todokoro,F.,
+            Yamaguchi,K., Yamamoto,N., Yamasaki,C., Imanishi,T., Okido,T.,
+            Tada,M., Ikeo,K., Tateno,Y., Gojobori,T., Lin,Y.C., Wei,F.J.,
+            Hsing,Y.I., Zhao,Q., Han,B., Kramer,M.R., McCombie,R.W.,
+            Lonsdale,D., O'Donovan,C.C., Whitfield,E.J., Apweiler,R.,
+            Koyanagi,K.O., Khurana,J.P., Raghuvanshi,S., Singh,N.K.,
+            Tyagi,A.K., Haberer,G., Fujisawa,M., Hosokawa,S., Ito,Y., Ikawa,H.,
+            Shibata,M., Yamamoto,M., Bruskiewich,R.M., Hoen,D.R., Bureau,T.E.,
+            Namiki,N., Ohyanagi,H., Sakai,Y., Nobushima,S., Sakata,K.,
+            Barrero,R.A., Sato,Y., Souvorov,A., Smith-White,B., Tatusova,T.,
+            An,S., An,G., OOta,S., Fuks,G., Fuks,G., Messing,J., Christie,K.R.,
+            Lieberherr,D., Kim,H., Zuccolo,A., Wing,R.A., Nobuta,K.,
+            Green,P.J., Lu,C., Meyers,B.C., Chaparro,C., Piegu,B., Panaud,O.
+            and Echeverria,M.
+  CONSRTM   Rice Annotation Project
+  TITLE     The Rice Annotation Project Database (RAP-DB): 2008 update
+  JOURNAL   Nucleic Acids Res. 36 (DATABASE ISSUE), D1028-D1033 (2008)
+   PUBMED   18089549
+  REMARK    GENOME REANNOTATION.;
+            STRAIN=cv. Nipponbare
+REFERENCE   5  (residues 1 to 149)
+  AUTHORS   Yu,J., Wang,J., Lin,W., Li,S., Li,H., Zhou,J., Ni,P., Dong,W.,
+            Hu,S., Zeng,C., Zhang,J., Zhang,Y., Li,R., Xu,Z., Li,S., Li,X.,
+            Zheng,H., Cong,L., Lin,L., Yin,J., Geng,J., Li,G., Shi,J., Liu,J.,
+            Lv,H., Li,J., Wang,J., Deng,Y., Ran,L., Shi,X., Wang,X., Wu,Q.,
+            Li,C., Ren,X., Wang,J., Wang,X., Li,D., Liu,D., Zhang,X., Ji,Z.,
+            Zhao,W., Sun,Y., Zhang,Z., Bao,J., Han,Y., Dong,L., Ji,J., Chen,P.,
+            Wu,S., Liu,J., Xiao,Y., Bu,D., Tan,J., Yang,L., Ye,C., Zhang,J.,
+            Xu,J., Zhou,Y., Yu,Y., Zhang,B., Zhuang,S., Wei,H., Liu,B., Lei,M.,
+            Yu,H., Li,Y., Xu,H., Wei,S., He,X., Fang,L., Zhang,Z., Zhang,Y.,
+            Huang,X., Su,Z., Tong,W., Li,J., Tong,Z., Li,S., Ye,J., Wang,L.,
+            Fang,L., Lei,T., Chen,C., Chen,H., Xu,Z., Li,H., Huang,H.,
+            Zhang,F., Xu,H., Li,N., Zhao,C., Li,S., Dong,L., Huang,Y., Li,L.,
+            Xi,Y., Qi,Q., Li,W., Zhang,B., Hu,W., Zhang,Y., Tian,X., Jiao,Y.,
+            Liang,X., Jin,J., Gao,L., Zheng,W., Hao,B., Liu,S., Wang,W.,
+            Yuan,L., Cao,M., McDermott,J., Samudrala,R., Wang,J., Wong,G.K. and
+            Yang,H.
+  TITLE     The Genomes of Oryza sativa: a history of duplications
+  JOURNAL   PLoS Biol. 3 (2), E38 (2005)
+   PUBMED   15685292
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   6  (residues 1 to 149)
+  AUTHORS   Huang,J.Y., Chang,T., Chang,C.Y. and Chen,C.J.
+  TITLE     Crystal structure of nucleoside diphosphate kinase required for
+            coleoptile elongation in rice (Oryza sativa L.)
+  JOURNAL   J. Struct. Biol. 150 (3), 309-318 (2005)
+   PUBMED   15890279
+  REMARK    X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS), AND SUBUNIT.
+COMMENT     On or before Jan 23, 2009 this sequence version replaced
+            gi:122167327, gi:75289904, gi:75294281, gi:629798.
+            [FUNCTION] Major role in the synthesis of nucleoside triphosphates
+            other than ATP. The ATP gamma phosphate is transferred to the NDP
+            beta phosphate via a ping-pong mechanism, using a phosphorylated
+            active-site intermediate. This NDK is microtubule-associated.
+            [CATALYTIC ACTIVITY] ATP + nucleoside diphosphate = ADP +
+            nucleoside triphosphate.
+            [COFACTOR] Magnesium (By similarity).
+            [SUBUNIT] Homohexamer.
+            [INDUCTION] By salicylic acid, benzo (1,2,3)
+            thiadiazole-7-carbothioc acid S-methyl ester, jasmonic acid, and
+            abscisic acid.
+            [SIMILARITY] Belongs to the NDK family.
+FEATURES             Location/Qualifiers
+     source          1..149
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+     gene            1..149
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+     Protein         1..149
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /product="Nucleoside diphosphate kinase 1"
+                     /EC_number="2.7.4.6"
+                     /note="Nucleoside diphosphate kinase I; NDK I; NDP kinase
+                     I; NDPK I"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..149
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Nucleoside diphosphate kinase 1.
+                     /FTId=PRO_0000137141."
+     Region          2..133
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="NDK"
+                     /note="Nucleoside diphosphate kinase; pfam00334"
+                     /db_xref="CDD:249778"
+     Region          2..131
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="NDPk_I"
+                     /note="Nucleoside diphosphate kinase Group I
+                     (NDPk_I)-like: NDP kinase domains are present in a large
+                     family of structurally and functionally conserved proteins
+                     from bacteria to humans that generally catalyze the
+                     transfer of gamma-phosphates of a nucleoside...; cd04413"
+                     /db_xref="CDD:239876"
+     Region          3..8
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            order(9,49,57,85,91,102,112,115,117..118,126)
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="active"
+                     /db_xref="CDD:239876"
+     Site            9
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ATP (By similarity)."
+     Region          10..14
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            order(13,18..20,23,26,35..37)
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="other"
+                     /note="multimer interface [polypeptide binding]"
+                     /db_xref="CDD:239876"
+     Region          18..28
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          31..38
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          31
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Y -> F (in Ref. 2; AAT70416)."
+     Region          42..48
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          50..52
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            57
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ATP (By similarity)."
+     Region          58..66
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          70..77
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          80..88
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            85
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ATP (By similarity)."
+     Site            91
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ATP (By similarity)."
+     Region          93..95
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          101..105
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            102
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ATP (By similarity)."
+     Site            112
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="ATP (By similarity)."
+     Region          113..116
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Site            115
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /site_type="active"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Pros-phosphohistidine intermediate (By
+                     similarity)."
+     Region          120..130
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     Region          143..146
+                     /gene="NDKR"
+                     /locus_tag="Os07g0492000"
+                     /gene_synonym="LOC_Os07g30970"
+                     /gene_synonym="OJ1218_C12.24"
+                     /gene_synonym="OsJ_023347"
+                     /gene_synonym="P0038F10.104"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+ORIGIN      
+        1 meqsfimikp dgvqrgligd iisrfekkgf ylrgmkfmnv ersfaqqhya dlsdkpffpg
+       61 lveyiisgpv vamvwegkdv vatgrriiga trpweaapgt iradyavevg rnvihgsdsv
+      121 dngkkeialw fpeglaewrs nlhpwiyes
+//
+

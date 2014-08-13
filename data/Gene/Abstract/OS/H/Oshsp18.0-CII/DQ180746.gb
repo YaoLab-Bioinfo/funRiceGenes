@@ -1,0 +1,61 @@
+LOCUS       DQ180746                 784 bp    mRNA    linear   PLN 16-NOV-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) class II small heat shock
+            protein mRNA, complete cds.
+ACCESSION   DQ180746
+VERSION     DQ180746.1  GI:75911505
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 784)
+  AUTHORS   Chang,P.-F.L., Jinn,T.-L., Huang,W.-K., Chen,Y., Chang,H.-M. and
+            Wang,C.-W.
+  TITLE     Induction of a cDNA clone from rice encoding a class II small heat
+            shock protein by heat stress, mechanical injury, and salicylic acid
+  JOURNAL   Plant Sci. 172 (1), 64-75 (2007)
+REFERENCE   2  (bases 1 to 784)
+  AUTHORS   Chang,P.-F.L., Huang,W.-K., Chang,H.-M., Lin,P.-L. and Wang,C.-W.
+  TITLE     Isolation of a cDNA clone, Oshsp18.0-CII, from rice (Oryza sativa
+            L.) encoding a class II small heat shock protein
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 784)
+  AUTHORS   Chang,P.-F.L., Huang,W.-K., Chang,H.-M., Lin,P.-L. and Wang,C.-W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-AUG-2005) Plant Pathology, National Chung Hsing
+            University, 250, Kuo-Kang Road, Taichung 402, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..784
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Tainong No. 67"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+     CDS             64..564
+                     /note="HSP"
+                     /codon_start=1
+                     /product="class II small heat shock protein"
+                     /protein_id="ABA29610.1"
+                     /db_xref="GI:75911506"
+                     /translation="MESAMFGLETPLMTALQHLLDIPDGEGGAAGKQGATGGPTRAYV
+                     RDARAMAATPADVKDLPGAYAFVVDMPGLKSSDIKVQVEEERLLVISGERRRGGGEEE
+                     KEESCKYLRMERRMGKFMRKFVLPDNADVDKISAVCQDGVLTVTVEKLPPPEPKKPKT
+                     IEVKVA"
+ORIGIN      
+        1 cccagcgcga tccgaggtag aagaagaaga agaagaagaa gaagaagaag aggcgatcga
+       61 gagatggaga gcgccatgtt cgggctggag acgccgctga tgacggcgct gcagcacctg
+      121 ctcgacatcc ccgacggcga gggcggcgcc gccgggaagc agggcgcgac cggtggcccg
+      181 acgcgtgcgt acgtgcgcga cgcccgcgcc atggcggcga cccccgccga cgtgaaggat
+      241 ctgcccgggg cgtacgcgtt cgtggtggac atgcctgggc tcaagtcctc cgacatcaag
+      301 gtgcaggtgg aggaggagag gctgctggtg atcagcgggg agcggcggcg cggcggcggg
+      361 gaggaggaga aggaggagtc gtgcaagtac ctgcggatgg agcggcggat gggcaagttc
+      421 atgcgcaagt tcgtgctccc cgacaacgcc gacgtcgaca agatctccgc cgtgtgccag
+      481 gacggcgtgc tcaccgtcac cgtcgagaag ctcccgccgc cggagcccaa gaagcccaag
+      541 accatcgagg tcaaggtcgc gtgatgagat tccgcatctc tctgcatctg cgtcgctgcg
+      601 tggatcaaag aatcgaagct tgagttgagt gagttgtgac tagtagtatg agtagagtgt
+      661 tcatctttat cgtttgctac gtgagaatgt gaggacatgg tggtctgtat gccgtatgcg
+      721 atgtgatgat gatggatggt ttgatgtttg gtaatggaaa tggggatgtt ctgctgctta
+      781 tctg
+//
+

@@ -1,0 +1,71 @@
+LOCUS       GU798037                1140 bp    DNA     linear   PLN 23-MAY-2010
+DEFINITION  Oryza sativa isolate 60542 ADH1 (adh1) gene, complete cds.
+ACCESSION   GU798037
+VERSION     GU798037.1  GI:296248143
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1140)
+  AUTHORS   Wang,E., Xun,X., Zhang,L., Zhang,H., Lin,L., Wang,Q., Li,Q., Ge,S.,
+            Lu,B.R., Wang,W. and He,Z.
+  TITLE     Duplication and independent selection of cell-wall invertase genes
+            GIF1 and OsCIN1 during rice evolution and domestication
+  JOURNAL   BMC Evol. Biol. 10, 108 (2010)
+   PUBMED   20416079
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1140)
+  AUTHORS   He,Z., Wang,E. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-2010) Institute of Plant Physiology and Ecology,
+            Shanghai Institutes for Biological Sciences, Chinese Academy of
+            Sciences, 300 Fenglin Road, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..1140
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /cultivar="Haisha Caman (Bangladesh IV)"
+                     /isolate="60542"
+                     /db_xref="taxon:4530"
+     gene            <1..>1140
+                     /gene="adh1"
+     mRNA            <1..>1140
+                     /gene="adh1"
+                     /product="ADH1"
+     CDS             1..1140
+                     /gene="adh1"
+                     /codon_start=1
+                     /product="ADH1"
+                     /protein_id="ADH03854.1"
+                     /db_xref="GI:296248144"
+                     /translation="MATAGKVIKCKAAVAWEAAKPLVIEEVEVXXXXXXXXXVKILFT
+                     SLCHTDVYFWEAKGQTPVFPRIFGHEAGGIVESVGEGVTDLAPGDHVLPVFTGECKEC
+                     AHCKSAESNMCDLLRINTDRGVMIGDGKSRFSINGKPIYHFXXXXXFSEYTVMHVGCV
+                     AKINPAAPLDKVCVLSCGISTGLGATINVAKPPKGSXXAIFGLGAVGLAAAEGARIAG
+                     ASRIIGIDLNANRFEEARKFGCTXXXNPKDHDKPVQQVLAEMTNGGVDXXXXXXXXXX
+                     XXXQAFECVHDGWGVAVLVGVPHKDAEFKTHPMNFLNERTLKGTFFGNYKPRTDLPNV
+                     VELYMKKXXXXEKFITHSVPFSEINTAFDLMHKGEGIRCIIRMEN"
+ORIGIN      
+        1 atggcgaccg cagggaaggt gatcaagtgc aaagcggcgg tggcatggga ggccgcgaag
+       61 ccgctggtga tcgaggaggt ggaggtggnn nnnnnnnnnn nnnnnnnnnn nngcgtcaag
+      121 atcctcttca cctcgctctg ccacaccgac gtctacttct gggaggccaa gggacagact
+      181 cccgtgttcc ctcggatctt cggccatgaa gctggaggta ttgtggagag tgttggagag
+      241 ggtgtgactg atcttgcccc tggtgaccat gttctccctg tgttcactgg ggagtgcaag
+      301 gagtgtgccc actgcaagtc agcagagagc aacatgtgtg atctgctcag gatcaacact
+      361 gacaggggtg tgatgattgg tgatggcaaa tcacgctttt ccatcaacgg gaagcccatt
+      421 taccatttcg nnnnnnnnnn nnncttcagc gagtacactg tcatgcatgt tggttgcgtt
+      481 gcgaagatca acccggcagc tccacttgat aaagtttgcg ttcttagctg tggtatttct
+      541 actggtcttg gtgctacaat caatgtggca aagccaccaa agggttcgan nnnngcgata
+      601 tttggtctag gagctgtagg ccttgctgcc gcagaaggtg caaggattgc aggagcgtca
+      661 aggatcattg gcattgacct gaacgccaac agatttgaag aagctaggaa atttggttgc
+      721 actgannnnn tgaacccaaa ggaccatgac aagccagttc agcaggtact tgctgagatg
+      781 accaatggcg gagttgacnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnccaa
+      841 gcatttgaat gtgttcatga tggctggggt gttgctgttt tggtcggcgt gccacacaag
+      901 gacgccgagt tcaagaccca cccgatgaac ttcctgaacg agaggactct caagggaacc
+      961 ttcttcggca actacaagcc gcgcaccgat ctgcccaacg tcgtcgagct ctacatgaag
+     1021 aagnnnnnnn nnnnngagaa gttcatcaca cacagcgtgc cgttctcgga gatcaacacg
+     1081 gcgttcgacc tgatgcacaa gggcgagggc atccgctgca tcatccgcat ggagaactga
+//
+

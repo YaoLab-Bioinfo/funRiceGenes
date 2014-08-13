@@ -1,0 +1,72 @@
+LOCUS       AF272860                1353 bp    mRNA    linear   PLN 26-AUG-2002
+DEFINITION  Oryza sativa receptor-like kinase Xa21-binding protein 3 (Xb3)
+            mRNA, complete cds.
+ACCESSION   AF272860
+VERSION     AF272860.1  GI:14279687
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1353)
+  AUTHORS   Pi,L.-Y., Xiao,H., De Leon,A.L., Benny,U., Ronald,P.C. and
+            Song,W.-Y.
+  TITLE     A Ubiquitin Ligase Mediates Ubiquitination of the Serine/threonine
+            Receptor-like Kinase XA21
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1353)
+  AUTHORS   Pi,L.-Y. and Song,W.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAY-2000) Plant Pathology, University of Florida,
+            Gainesville, FL 32611, USA
+FEATURES             Location/Qualifiers
+     source          1..1353
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /cultivar="Taipei309"
+                     /db_xref="taxon:4530"
+     gene            1..1353
+                     /gene="Xb3"
+     CDS             1..1353
+                     /gene="Xb3"
+                     /note="XB3; ankyrin; RING finger"
+                     /codon_start=1
+                     /product="receptor-like kinase Xa21-binding protein 3"
+                     /protein_id="AAK58690.1"
+                     /db_xref="GI:14279688"
+                     /translation="MGHGVSCARTGDEHDFFRAAQLGDLDALAALLAADPSLARRATL
+                     YDRLSVLHIAAANGRIEVLSMFLDRGAPPDAVNRHKQTPLMLAAMHGKIDCVLKLLQA
+                     DANILMFDSVHARTCLHHAAYYGHVDCLQAILAAAQTTPVADSWGFARFVNVRDDHGA
+                     TPLHLAARQGRPGCVQVLLENGAIVSALTGSYGFPGSTSLHLAARSGNLDCIRKLLAW
+                     GADRLQRDSAGRIPYSVALKRNHGACAALLNPTSAEPMVWPSPLKFISELEPEAKALL
+                     EAALMEANREREKKILNGTKYSLPSPSPGDDSADDDACSEVSDTELCCICFDQACTIE
+                     VQDCGHQMCAPCTLALCCHNKPNPTTLTPPSPACPFCRGSISRLVVAQTRSACDPDKP
+                     SSLQLTRKRSRRSHNLSEGSSSFKGLPSAMGSFSKLGRGSSRMADSDSSNLDKPEHDL
+                     "
+ORIGIN      
+        1 atgggtcacg gtgtcagctg cgcccgcacc ggcgacgagc acgacttctt ccgggcggcg
+       61 cagctcggcg acctcgacgc cctggccgcc ctcctcgccg ccgacccttc cctcgctcgc
+      121 cgcgccaccc tctacgaccg cctctccgtc ctccacatcg ccgccgccaa tggccgcatc
+      181 gaggtgctct ccatgttctt ggatcgcggg gcgccgccgg acgcggtgaa tcggcacaag
+      241 cagacgccgc tgatgctcgc ggccatgcac ggcaagatcg actgcgtgct caagctcctc
+      301 caggccgacg caaatatctt gatgttcgac tcggtgcacg cgaggacctg cctccaccac
+      361 gcggcgtact acggccacgt cgactgcctg caggccatcc tcgccgccgc gcagaccacg
+      421 ccggtggccg actcatgggg tttcgcccgg ttcgtcaacg tcagggacga ccacggcgcc
+      481 actccgctgc atctcgcggc caggcagggg cggccggggt gcgtgcaggt gttgctggag
+      541 aacggcgcca ttgtgtcggc tttgacagga tcatatggct tccctggaag cacgtcgctt
+      601 catttggctg ctcgtagcgg gaacttggat tgcatcagga agctgcttgc ctggggagct
+      661 gatcggctcc aaagggattc ggctgggaga attccctatt ctgttgcgct gaaacggaac
+      721 catggagcat gtgcagcttt gctgaaccct acatcagcag agcccatggt gtggccatcc
+      781 ccacttaagt tcatcagtga gcttgaacca gaagctaagg ctctcctgga agcagctctg
+      841 atggaagcca acagggagag ggagaagaaa atcctgaatg gcacaaagta ctccctgcca
+      901 tccccttcgc ccggtgatga cagtgccgat gacgatgcat gctcagaggt gagcgacacg
+      961 gagctttgct gcatctgctt cgaccaggct tgcaccattg aggtgcaaga ctgtggacat
+     1021 caaatgtgtg caccgtgcac gctggcactg tgctgtcaca acaaacccaa tccgacgacc
+     1081 ctgacaccgc cctcaccggc ctgcccattc tgccggggca gcatctcacg gctggtggtg
+     1141 gcccaaacaa ggtctgcttg tgatcctgac aagccgtcat ccctgcagct cacccggaag
+     1201 cggtcgcgtc gatctcacaa cctcagtgag ggcagcagca gcttcaaagg gctaccttcg
+     1261 gccatgggct ccttctcaaa gcttggccgt ggctcgagcc gcatggcgga cagtgacagc
+     1321 agcaacctgg acaagcctga gcacgatcta tga
+//
+

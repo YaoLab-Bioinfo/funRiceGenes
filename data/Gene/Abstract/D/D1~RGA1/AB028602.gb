@@ -1,0 +1,74 @@
+LOCUS       AB028602                1732 bp    DNA     linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group D1 gene for alpha-subunit of
+            GTP-binding protein, wild type, partial sequence.
+ACCESSION   AB028602
+VERSION     AB028602.1  GI:5822826
+KEYWORDS    D1.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ashikari,M., Wu,J., Yano,M., Sasaki,T. and Yoshimura,A.
+  TITLE     Rice gibberellin-insensitive dwarf mutant gene Dwarf 1 encodes the
+            alpha-subunit of GTP-binding protein
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 96 (18), 10284-10289 (1999)
+   PUBMED   10468600
+REFERENCE   2  (bases 1 to 1732)
+  AUTHORS   Ashikari,M., Sasaki,T., Yoshimura,A., Yano,M. and Wu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUN-1999) Contact:Motoyuki Ashikari Kyushu
+            University, Faculty of Agriculture; Hakozaki, 6-10-1, Fukuoka,
+            Fukuoka 802-8581, Japan
+FEATURES             Location/Qualifiers
+     source          1..1732
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /note="TA vector"
+     gene            1..1732
+                     /gene="D1"
+     misc_feature    1..1732
+                     /gene="D1"
+                     /note="alpha-subunit of GTP-binding protein"
+                     /phenotype="wild type"
+     variation       501..1337
+                     /gene="D1"
+                     /note="There is the 833 bp of deletion region of dwarf
+                     mutant (AB028603) from the strat point between 501 and 505
+                     to the end point between 1333 and 1337."
+                     /replace=""
+ORIGIN      
+        1 ggaagaagat tgctagttgg cttgtgggtt ccacgtgggc cctgcactga ctcagccacc
+       61 acgtcaacaa aaccggaaag caatactacc ttgggattaa aagtggaccg ttttgcaaga
+      121 ttaggggttc agggccgttt aaaactcaac gacaagataa gggaccttag atgaactttt
+      181 ttgggagatg aggcgcctgt gcatatgacc cataggcagg cgacaacgcg gcagcagagc
+      241 gctgcacgac ctccgcctcc ccaatccgtc ccgtctcctc gcccgccgcc ctcgactccc
+      301 gtctcctcgc ctgccgctgg cgccgatctc catcctgcta gcagaggtgg cgccggcgtc
+      361 ctcctgctcc cgccgcattc gcatcctaat ccatcccatc cggcctcggc ctcgaatttc
+      421 gtctcctcgc ccgccgcttg cgccgatccc catcctgcga gcagaggtgg cgcccggcgt
+      481 cctccttctt ccaccgcatc gtcgctcgcc ggtgagcatc cctccctacc cacacctcat
+      541 caggtattct gcgttatccc tcaaaaagtt tgggggttca accgaaacag ggttagatct
+      601 gcctctgccc agctccacct actttcaagt tgttaatttt gatttccgtt tttagcagat
+      661 gtaatttggt tattgaatct catccaaaca cccttagaac gaaaaatgta agctcacata
+      721 atttgtactc atccaaactc acataaattt cttaagaaga atctagacca caaactaccc
+      781 atagtcacac aaaatatctt tttatcaagg tatattctta taagtaattt ttattccaca
+      841 aaattttcta aaggacatac tgtgacactt ggcatgaatc taatttaaca ttctttcttt
+      901 atcaggttat aaattgaaac cattgaacgt attttgtctt cccgtcccta aaacattgtg
+      961 atatatctgt aatattttaa tatttttaat tttaaaaata atttagacta ataatataga
+     1021 tatttaaatt aggtaattag taaattcaaa tcaactatag tttggaataa aaaaacaaaa
+     1081 tgatatatgc caagtacaat ctaataacaa tagaatgcac ttttggttaa tgtttactcc
+     1141 taatttctta atttctagtt tggctccccc caccgttatg gtaaaaaatc gttatgtttt
+     1201 aactatttat ctgctagagc atatgtaata tttatgtaaa ctatgttctt tattaccaat
+     1261 caaaatagac accttaccta ctttcatcaa aagaaataaa aaatgtagta ggtattattc
+     1321 tggaatactc ctcgtcggaa acatatggaa cgcatttccc tcaaaacgca aaaaccgggg
+     1381 ccccgagccc tcgacaccaa ccccgtcaga tgtgaagccg acggcccaaa tggaggccag
+     1441 cggtgccaat gcgtaggcca cgcgtgcctc tgcgcaaatc ttatctcccg ggaggttcgc
+     1501 tccacttccc tccccgagtc actcaaacca tccaatcccc ccaccttccc tttccttgcc
+     1561 cccattcccc accgtcgcaa ggaaaaatat tattaataaa caatgatgtt gatgtattat
+     1621 tattaatcaa tgatattgat gtatttctaa atattttcac gtattattta ttaagtgtca
+     1681 gtgattgaaa tggatcctgg tcggaaatga atcctggtcg gaaaatggtt ac
+//
+

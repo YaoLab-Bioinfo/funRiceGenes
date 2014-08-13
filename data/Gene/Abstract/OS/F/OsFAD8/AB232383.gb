@@ -1,0 +1,78 @@
+LOCUS       AB232383                1630 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsFAD8 mRNA for plastid omega-3 fatty
+            acid desaturase, complete cds.
+ACCESSION   AB232383
+VERSION     AB232383.1  GI:88606634
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yara,A., Yaeno,T., Hasegawa,M., Seto,H., Montillet,J.L., Kusumi,K.,
+            Seo,S. and Iba,K.
+  TITLE     Disease resistance against Magnaporthe grisea is enhanced in
+            transgenic rice with suppression of omega-3 fatty acid desaturases
+  JOURNAL   Plant Cell Physiol. 48 (9), 1263-1274 (2007)
+   PUBMED   17716996
+REFERENCE   2  (bases 1 to 1630)
+  AUTHORS   Iba,K., Kusumi,K. and Yara,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-AUG-2005) Contact:Koh Iba Kyushu University,
+            Department of Biology, Faculty of Science; Hakozaki 6-10-1,
+            Fukuoka, Higashi-ku, Fukuoka 812-8581, Japan
+FEATURES             Location/Qualifiers
+     source          1..1630
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Taichung 65"
+                     /db_xref="taxon:39947"
+                     /country="Japan"
+     gene            1..1630
+                     /gene="OsFAD8"
+     CDS             40..1281
+                     /gene="OsFAD8"
+                     /codon_start=1
+                     /product="plastid omega-3 fatty acid desaturase"
+                     /protein_id="BAE79784.1"
+                     /db_xref="GI:88606635"
+                     /translation="MARLLLSGVAPLPLLPCRRRAIAFALPLGNVRLRLRVAAPTSRV
+                     ATVEEDDNENNAPPPPCEDFDPGAAPPFGLADIRAAIPKHCWVKDPWRSMGYVLRDVV
+                     VVFALAAAAARLHSCLAWPLYWAAQGTMFWALFVLGHDCGHGSFSNNSRLNSVMGHIL
+                     HSSILVPYHGWRISHRTHHQNHGHVDKDESWHPLPERLYRSLNRATRMLRFSIPFPML
+                     AYPFYLWSRSPGKSGSHFHPSSDLFQPNERNDVLTSTACWVAMAALLAGLTFLMGPLL
+                     MLNLYFVPYWIFVMWLDFVTYLHHHGHNDKLPWYRGKEWSYLRGGLTTVDRDYGWINN
+                     IHHDIGTHVIHHLFPQIPHYHLIEATEAAKGVMGKYYREPDKSGPFPLHLFGALSRSL
+                     KRDHYVSDTGDVVYYQTDPAN"
+ORIGIN      
+        1 ggcgccgcgc agcttaccaa tacaccaacc aaggaaagaa tggcccggct gctgctctcc
+       61 ggcgtcgcgc cgctccccct cctcccctgc cgccgtcgcg ccattgcatt tgcgctccca
+      121 cttgggaatg tccgcctccg cctccgtgtg gccgcaccca ccagccgcgt ggccaccgtg
+      181 gaggaggacg acaatgaaaa taatgctcct cctcctcctt gtgaggactt cgacccgggc
+      241 gcggcgcccc cgtttggtct ggccgacatc cgcgccgcta tccccaagca ctgttgggtg
+      301 aaggacccct ggcgatccat ggggtacgtg ctgcgcgacg tggtggtggt gttcgccctc
+      361 gctgccgccg ccgcgcgcct ccacagctgc ctcgcctggc cgctctactg ggcggcgcag
+      421 ggaaccatgt tctgggcgct cttcgtcctc ggccacgact gcgggcacgg gagcttctcc
+      481 aacaactcga ggctcaacag cgtgatgggc cacatactcc actcctccat cctcgtaccc
+      541 taccatggct ggaggattag ccacaggacg catcatcaga accatggcca tgtcgacaag
+      601 gatgagtcct ggcatcccct ccccgagcgg ctgtacagga gccttaacag agccacccgg
+      661 atgctccgct tctccatacc cttccccatg ctcgcctacc cattctacct gtggtctcgg
+      721 agcccaggaa agtctggttc gcatttccat cccagcagcg acctgttcca gcccaacgaa
+      781 aggaacgatg tgctgacatc cacagcgtgc tgggtggcca tggctgccct cctcgcaggc
+      841 ctcaccttcc tcatgggacc cctcctcatg ctcaacctct actttgtccc ttactggatt
+      901 tttgttatgt ggctggactt cgtcacctac ttgcaccatc acggccacaa cgacaagctg
+      961 ccctggtacc gtggcaagga atggagctat ttgcggggag gactgacgac agtggacagg
+     1021 gactatgggt ggatcaacaa catccaccac gacatcggga cacatgtcat tcaccatctt
+     1081 ttcccccaaa tcccgcatta ccatctaatt gaggcgacgg aagcagcaaa gggtgtgatg
+     1141 gggaaatact acagggagcc ggacaagtct gggccttttc ccttacacct gtttggagcg
+     1201 ctgtcccgga gcttgaaacg cgaccactat gtcagcgaca ccggagatgt ggtctactac
+     1261 cagaccgacc ctgctaacta aattaatttt acatttcctt caattctttt aagcccggag
+     1321 gcttaaatta gcttaattag ctagctgcga ctgacctgga catgtattca acattcgatc
+     1381 cacagacaga tagaaagaga cctatatata tcgccgatcg atcgatatat atgtgcgtgt
+     1441 ccgtgtggag atatggaggt cacaattctt tccatggata tataggagta tacatacatg
+     1501 tattgaagga tatgtagcta gatttgatgt gcgtgcgtgc tgtactttgt aagacgcagc
+     1561 ataaagctag tgacaatttg gacaaggcca tattgatata tccattatat acacacctca
+     1621 atgcctcatt
+//
+

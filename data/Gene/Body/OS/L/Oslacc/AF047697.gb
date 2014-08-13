@@ -1,0 +1,85 @@
+LOCUS       AF047697                1874 bp    mRNA    linear   PLN 09-JUL-1999
+DEFINITION  Oryza sativa putative high-pI laccase mRNA, partial cds.
+ACCESSION   AF047697
+VERSION     AF047697.1  GI:2920653
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1874)
+  AUTHORS   LaFayette,P.R., Eriksson,K.E. and Dean,J.F.
+  TITLE     Characterization and heterologous expression of laccase cDNAs from
+            xylem tissues of yellow-poplar (Liriodendron tulipifera)
+  JOURNAL   Plant Mol. Biol. 40 (1), 23-35 (1999)
+   PUBMED   10394942
+REFERENCE   2  (bases 1 to 1874)
+  AUTHORS   Tristram,A., Alexander,S. and Dean,J.F.
+  TITLE     Putative laccase (lacc2.1) from rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1874)
+  AUTHORS   Tristram,A., Alexander,S. and Dean,J.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-1998) School of Forest Resources, University of
+            Georgia, Athens, GA 30602-2152, USA
+FEATURES             Location/Qualifiers
+     source          1..1874
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="green shoot"
+                     /dev_stage="8 days old"
+     CDS             <1..1656
+                     /EC_number="1.10.3.2"
+                     /function="p-diphenol oxidase"
+                     /codon_start=1
+                     /product="putative high-pI laccase"
+                     /protein_id="AAC04576.1"
+                     /db_xref="GI:2920654"
+                     /translation="RVRPRVRNVQMANATRLCNTKSMVTVNGQCPGPELVAREGDRVV
+                     IRVTNNVAHNISLHWHGVRQVRTGWADGPAYITQCPIQTGQSYVYNFTVAGQRGTLWW
+                     HAHISWLRATVYGALVILPKLGVPYPFPAPHKEVPVIFGEWWNADTEEVVNQAVQTGG
+                     GPNVSDAFTINGLPGPLYNCSAQDTFKLKVKPGKTYMLRLINAALNEELFFAVANHTL
+                     TVVEVDAVYVKPFTVDTLVISPGQTTNVLLTAKPYYPGANFYMSAAPYSTARPGTFGN
+                     TTVAGILEYENPAMSPSAASFVKGLPLFKPTLPQLNDTDFVTNFTDKLRSLATPEYPA
+                     AVPQSVDKRFFFTVGLGTLPCPANMTCQGPNNTQMAASMNNVSFVLPARALLQSHFTG
+                     LSSGVYAPDFPVAPLSPFNYTGTPPNNTNVKTGTKLLVLRYNTSVELVMQDTSILGIE
+                     SHPLHLHGFNFFVIGQGFGNYDAVNDPAKFNLVDPVERNTVGVPAGGWVAIRFLADNP
+                     GVWFMHCHLEAHTTWGLRMAWLVLDGSHPNQKLLPPPSDLPKC"
+ORIGIN      
+        1 cgcgtccgcc cacgcgtccg caatgtgcaa atggcgaacg cgacgaggct gtgcaacacc
+       61 aagagcatgg tgacggtgaa cgggcagtgc cccgggccgg agctggtggc gagggaaggc
+      121 gaccgcgtcg tcatccgcgt caccaacaac gtcgcgcaca acatctcgtt gcactggcac
+      181 ggcgtccggc aggtgcggac cgggtgggcg gacgggccgg cgtacatcac gcagtgcccg
+      241 atccagacgg ggcagagcta cgtgtacaac ttcacggtgg ccgggcagcg cggcaccctg
+      301 tggtggcacg cccacatctc ctggctccgc gccaccgtct acggcgccct cgtcatcctc
+      361 cccaagctcg gcgtccccta ccccttcccc gccccgcaca aggaggtccc cgtcatcttc
+      421 ggcgagtggt ggaacgcgga cacggaggag gtggtcaacc aggcggtcca gaccggcgga
+      481 ggcccgaacg tctccgacgc cttcaccatc aacggcctcc ccggccctct ctacaactgc
+      541 tctgcccaag acacgttcaa gctgaaggtg aaacccggga aaacgtacat gctgcgcctc
+      601 atcaacgccg cgctcaacga ggagctcttc ttcgccgtcg ccaaccacac gctcaccgtc
+      661 gtcgaggtcg acgccgtcta cgtcaagccg ttcaccgtcg acaccctggt gatctcgccg
+      721 gggcagacca ccaacgtgct cctcaccgcc aagccgtact accccggcgc caacttctac
+      781 atgtccgccg cgccctactc caccgccagg cctgggacct tcggcaacac gaccgtcgcc
+      841 ggcatcctcg agtacgagaa ccccgccatg tcgccctccg cggcgagctt cgtcaagggc
+      901 ttgccgctgt tcaagccgac gctgccgcag ctcaacgaca ccgacttcgt caccaacttc
+      961 accgacaagc tccgtagcct cgcgacgccg gagtacccgg cggccgtgcc gcagtcggtt
+     1021 gacaagcgat tcttcttcac ggtcgggctg ggcacgctgc cgtgcccggc gaacatgacc
+     1081 tgccagggcc ccaacaacac gcagatggcg gcgtccatga acaacgtctc cttcgtgctc
+     1141 ccggcgaggg cgctgctgca gtcccacttc accggactct ccagcggcgt gtacgcgccg
+     1201 gacttccccg tcgcgccgct gtcgccgttc aactacacgg ggacgccgcc gaacaacacc
+     1261 aacgtgaaga ccgggaccaa gctgctggtg ctgcggtaca acacgtcggt ggagctggtg
+     1321 atgcaggaca ccagcatcct gggcatcgag agccacccgc tgcacctgca cggcttcaac
+     1381 ttcttcgtga tcggccaagg gttcggcaac tacgacgccg tgaacgaccc ggccaagttc
+     1441 aacctcgtcg accccgtcga gcgcaacacc gtcggcgtgc cggccggcgg atgggtggcc
+     1501 atccgtttcc tcgctgacaa cccaggtgta tggttcatgc actgtcattt ggaggcgcac
+     1561 acgacgtggg gcctgaggat ggcatggcta gtgttggatg ggagccatcc gaaccagaag
+     1621 ctgcttcctc cgccgtccga tctgcccaaa tgctagtcgg gaccttacca cagatgccgt
+     1681 tgattcttct ttcctcattt catttgttcg ccaatttgcg attgctttct cctgaaggag
+     1741 attttagtgt gttagcccgt tcttagctaa cttttgtgac attattttgt tcttttttct
+     1801 tttatttgtg tacaactata caatgacact gttttgatgc ttctttgaat aaaaaaatgg
+     1861 gcattaattg catg
+//
+

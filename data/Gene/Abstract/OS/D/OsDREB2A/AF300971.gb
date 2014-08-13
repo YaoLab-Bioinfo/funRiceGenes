@@ -1,0 +1,75 @@
+LOCUS       AF300971                1375 bp    mRNA    linear   PLN 07-FEB-2005
+DEFINITION  Oryza sativa DRE binding protein 2 mRNA, complete cds.
+ACCESSION   AF300971
+VERSION     AF300971.2  GI:58700405
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1375)
+  AUTHORS   Dubouzet,J.G., Sakuma,Y., Ito,Y., Kasuga,M., Dubouzet,E.G.,
+            Miura,S., Seki,M., Shinozaki,K. and Yamaguchi-Shinozaki,K.
+  TITLE     OsDREB genes in rice, Oryza sativa L., encode transcription
+            activators that function in drought-, high-salt- and
+            cold-responsive gene expression
+  JOURNAL   Plant J. 33 (4), 751-763 (2003)
+   PUBMED   12609047
+REFERENCE   2  (bases 1 to 1375)
+  AUTHORS   Dubouzet,J.G., Sakuma,Y. and Yamaguchi-Shinozaki,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-AUG-2000) Biological Resources Division, Japan
+            International Research Center for Agricultural Science, 2-1
+            Ohwashi, Tsukuba, Ibaraki 305-8686, Japan
+REFERENCE   3  (bases 1 to 1375)
+  AUTHORS   Dubouzet,J.G., Sakuma,Y. and Yamaguchi-Shinozaki,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-FEB-2005) Biological Resources Division, Japan
+            International Research Center for Agricultural Science, 2-1
+            Ohwashi, Tsukuba, Ibaraki 305-8686, Japan
+  REMARK    Sequence update by submitter
+COMMENT     On Feb 7, 2005 this sequence version replaced gi:22594970.
+FEATURES             Location/Qualifiers
+     source          1..1375
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             334..1158
+                     /note="drought- and salt-stress-inducible transcriptional
+                     activator; OsDREB2"
+                     /codon_start=1
+                     /product="DRE binding protein 2"
+                     /protein_id="AAN02487.2"
+                     /db_xref="GI:58700406"
+                     /translation="MERGEGRRGDCSVQVRKKRTRRKSDGPDSIAETIKWWKEQNQKL
+                     QEENSSRKAPAKGSKKGCMAGKGGPENSNCAYRGVRQRTWGKWVAEIREPNRGRRLWL
+                     GSFPTALEAAHAYDEAARAMYGPTARVNFADNSTDANSGCTSAPSLMMSNGPATIPSD
+                     EKDELESPPFIVANGPAVLYQPDKKDVLERVVPEVQDVKTEGSNGLKRVCQERKNMEV
+                     CESEGIVLHKEVNISYDYFNVHEVVEMIIVELSADQKTEVHEEYQEGDDGFSLFSY"
+ORIGIN      
+        1 gctggatgag ccagcagccg cccccgcccg cggttgcttc ccctccccac cacgtcaaaa
+       61 cccaacccca accatgatgc tcctgcgcca ccaccaccac ccccacagcg gcgccgccac
+      121 caccagcagc agctgcagcg gcggcggcgg ctgttagaga ggagggcaca caccaccacc
+      181 gacaccgaca cgctcgccat gccaccaagc gaggcggcgg cgtgaggcga cgcagatctg
+      241 aacggaggag gaataggaag aagggaggag gaggggaggg agaggagttg gaagagttgg
+      301 aggaggagga gatctctttc ttgttcccgc tcgatggagc ggggggaggg gaggagggga
+      361 gattgctccg tgcaagtgag gaagaagaga acgcgaagga aaagcgatgg ccctgattca
+      421 atcgctgaaa ccatcaagtg gtggaaggag caaaaccaga agctccagga ggagaatagc
+      481 tccaggaaag cgccagccaa ggggtccaag aaagggtgca tggctgggaa aggaggtccg
+      541 gaaaattcaa attgtgctta ccgcggtgtc aggcaacgga catggggtaa gtgggtggct
+      601 gagatccgtg aaccaaaccg tggaaggcgc ctatggctag gatcatttcc tactgcgctg
+      661 gaggctgcgc atgcatacga tgaggcggca agggcaatgt atggtcccac agcacgtgtc
+      721 aattttgcag ataattccac agatgccaac tctggctgca catcagcacc ttcattgatg
+      781 atgtctaatg ggccggccac tataccttct gatgagaagg atgagctgga atctcctcct
+      841 ttcatcgtgg ctaatgggcc agctgtgttg tatcagcctg ataagaagga tgtgttggaa
+      901 cgtgtagtcc ctgaggtgca ggatgttaaa acagaaggga gcaatggctt gaaacgtgtt
+      961 tgtcaggagc ggaagaatat ggaggtatgt gaatcagaag ggatcgtttt acacaaagaa
+     1021 gtgaacataa gttatgatta tttcaatgtc catgaagttg ttgagatgat aattgttgaa
+     1081 ttaagtgctg atcagaaaac ggaagtacat gaagagtacc aagagggaga tgatgggttt
+     1141 agccttttct cctattagag tagtagtcat gctgcgggtc aataggaata tttcattcta
+     1201 gctgctaggg gatacttcaa atatctgcaa cctgaagctt tgtagtcatt tacggttttc
+     1261 gtcttactgg gtaatagctt tatatatact ataagccaac tggtacaaga agttgtactg
+     1321 tgtgttgagt gcactgtggt aaaaatgaat ctatatttaa tgagcttact ctgtc
+//
+

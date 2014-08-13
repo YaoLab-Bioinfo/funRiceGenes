@@ -1,0 +1,134 @@
+LOCUS       DQ341412                4187 bp    DNA     linear   PLN 24-AUG-2006
+DEFINITION  Oryza sativa (indica cultivar-group) bentazon and
+            sulfonylurea-resistant protein (Bel) gene, promoter region and
+            complete cds.
+ACCESSION   DQ341412
+VERSION     DQ341412.1  GI:85362954
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 4187)
+  AUTHORS   Pan,G., Zhang,X., Liu,K., Zhang,J., Wu,X., Zhu,J. and Tu,J.
+  TITLE     Map-based cloning of a novel rice cytochrome P450 gene CYP81A6 that
+            confers resistance to two different classes of herbicides
+  JOURNAL   Plant Mol. Biol. 61 (6), 933-943 (2006)
+   PUBMED   16927205
+REFERENCE   2  (bases 1 to 4187)
+  AUTHORS   Pan,G., Zhang,X., Liu,K., Zhang,J., Wu,X., Zhu,J. and Tu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-DEC-2005) Agronomy Department, College of Agriculture
+            and Biotechnology, Kaixuan Road, Hangzhou, Zhejiang 310029, China
+FEATURES             Location/Qualifiers
+     source          1..4187
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="W6154S"
+                     /db_xref="taxon:39946"
+                     /chromosome="3"
+                     /map="between 3a and 7a"
+                     /note="photo-thermo-sensitive genic male sterile (P/TGMS)
+                     line"
+     gene            1..3892
+                     /gene="Bel"
+     promoter        1..1306
+                     /gene="Bel"
+     mRNA            join(1307..2283,3010..3892)
+                     /gene="Bel"
+     5'UTR           1307..1359
+                     /gene="Bel"
+     CDS             join(1360..2283,3010..3627)
+                     /gene="Bel"
+                     /note="Bel; CYP81A6; bentazon and sulfonylurea-type
+                     herbicides-resistant protein"
+                     /codon_start=1
+                     /product="bentazon and sulfonylurea-resistant protein"
+                     /protein_id="ABC69856.1"
+                     /db_xref="GI:85362955"
+                     /translation="MDNAYIIAILSVAILFLLHYYLLGRGNGGAARLPPGPPAVPILG
+                     HLHLVKKPMHATMSRLAERYGPVFSLRLGSRRAVVVSSPGCARECFTEHDVTFANRPR
+                     FESQLLVSFNGAALATASYGAHWRNLRRIVAVQLLSAHRVGLMSGLIAGEVRAMVRRM
+                     YRAAAASPAGAARIQLKRRLFEVSLSVLMETIAHTKATRPETDPDTDMSVEAQEFKQV
+                     VDEIIPHIGAANLWDYLPALRWFDVFGVRRKILAAVSRRDAFLRRLIDAERRRLDDGD
+                     EGEKKSMIAVLLTLQKTEPEVYTDNMITALTANLFGAGTETTSTTSEWAMSLLLNHPD
+                     TLKKAQAEIDASVGNSRLITADDVTRLGYLQCIVRETLRLYPAAPMLLPHESSADCKV
+                     GGYNIPRGSMLLINAYAIHRDPAVWEEPEKFMPERFEDGGCDGNLLMPFGMGRRRCPG
+                     ETLALRTVGLVLGTLIQCFDWERVDGVEVDMTEGGGLTIPKVVPLEAMCRPRDAMGGV
+                     LRELV"
+     3'UTR           3628..3892
+                     /gene="Bel"
+ORIGIN      
+        1 gatccctcaa tctacaaaac tcaatcaccc aagattgtag atagtattat gtccggtttt
+       61 aactgacgtg tcaagttgag ttaacgtgga atctatgcgg gccccacatg taagtggcta
+      121 gtactttttt ccacgttgga cgaaaccgtc tcccaaacca ctaaaggagg cgatatgcac
+      181 cgattttgat agatggggga gacgttatac cctgttttat tatcaagaga tgtgattcaa
+      241 ccaggagcaa gagttgagag agcaagaata gacttattcg tgagcccaca ggctaaaccc
+      301 gccacggccc acagactaag cccgccaact cgggccgttc ggcccagttt gcacgcatgg
+      361 tgggccggaa actggaatct ccgaaccgca acggaatcga cgacatctgt agccacagcg
+      421 cgcactcgac ggcgggcagc ttcgtcactg gttcgagctg tctgctgact caacgacgaa
+      481 cacacgtact cctgctcggt ttcttcctcc gtgtcgcaca aaagtcaaat tgctctctat
+      541 tagtattcat tattagcact tcaaaccttt ctttacgttt taaacgaacc aactaatcag
+      601 gttatgagga ctataataat cgaatccagg gatcttgctg gaagcaattg aataatcgcc
+      661 caacgattga gttcatttct tgtctccaaa gctgtctcct gatagtcaac aggtctcggt
+      721 cctcgcagag tcgcactgcg atttggcctc tggaaactgg aaagagatct cgatccacca
+      781 caagaaaatg ccaagcagca cgacgacgaa gacgacaacg ccttccaggt acgtagcaat
+      841 tgaatacgga atactctctc cgtttaaaac gtttgattat tttcctaatc aaactttatc
+      901 atgtttgacc aaatttatag aaaaaaataa caacatctta aatataaaat tagtataact
+      961 aaatctagca ttggatatac tttcataata tttgtttgtt ttatgttaaa aatactacta
+     1021 tatttttcta taagcttagt caaatttaaa tcaaattaaa gaagattaat tagaaaaata
+     1081 gccaaacgat ttgtaatatg caacggagtg agtagaagta atcgcccagc ctcgccaacg
+     1141 aggcaacgag acccgtaatg caacgatcgc atctgcgttt caggcgtcag ccatggcgtc
+     1201 tgcagagatg cctggattgt ctccgcaaga tctgatccat ttcatctcct tctagaagca
+     1261 caagcgccgc tcggtataaa ggcagacgca ttgtcacaaa tagctgcagt gcaccagagt
+     1321 cacagaaaca catcacacat tcgtgagctc agcttagcca tggataacgc ctacattatt
+     1381 gccattctct ctgtagctat cctcttcttg ctccactact acctcctcgg ccgcggcaat
+     1441 ggcggggcgg cgcggctgcc gccgggtcca ccggccgtcc cgatcctggg acacctccac
+     1501 ctcgtcaaga agccgatgca cgccaccatg tcccgcctcg ccgagcggta cgggccggtg
+     1561 ttctcgctgc gcctcgggtc gcggcgcgcc gtggtggtgt cgtcgccggg gtgcgccagg
+     1621 gagtgcttca ccgagcacga cgtgaccttc gcgaaccggc ccaggttcga gtcgcagctg
+     1681 ctggtctcgt tcaacggcgc cgcgctcgcc acggcgagct acggcgcgca ctggcgcaac
+     1741 ctccgccgga tcgtcgccgt gcagctgctc tccgcgcacc gcgtcggcct catgtcgggg
+     1801 ctcatcgccg gcgaggtccg cgccatggtg cggaggatgt accgcgccgc ggccgcgtcc
+     1861 cccgccggcg ccgcgcgcat ccagctgaag cggaggctgt tcgaggtctc cctcagcgtg
+     1921 ctcatggaga ccatcgccca caccaaggcg acccgccccg agacggaccc ggacaccgac
+     1981 atgtccgtgg aagcccagga gtttaagcag gtcgtcgacg agatcatccc gcacatcggc
+     2041 gcggccaacc tgtgggacta cttgccggcg ctccggtggt tcgacgtgtt cggcgtcagg
+     2101 aggaagatcc tcgccgctgt aagccggagg gacgcgttcc ttcgccgcct gatcgacgcg
+     2161 gagcggcgga ggctggacga cggcgacgag ggcgagaaga agagcatgat cgccgtgctg
+     2221 ctcactctgc agaagacaga gccggaggtg tacaccgata acatgatcac agctctaacg
+     2281 gcggtgagtt catcttctgc tgtttacttt ggctgatatc tgaattctct cattggtgcg
+     2341 taattttttt tttttggctg tcatcggtat agctttctta agcactcagt agccttgcaa
+     2401 ttataaaaag aaaaacaatc agtagctttt tacatgcttt gagtcagtca gtagcagtgt
+     2461 ggcactatca gcattcagca gtattcatgt tgtttgctaa tcactatcat ggtttgagtc
+     2521 agcacaatca gtagcttttg acatggtttg agtcagcagt atcttttcta ggaactgaat
+     2581 tagttattca tttagtacaa cttgtttgtc tgtctattga ttgctttaaa ttatttcttc
+     2641 tatgcaaccc tctaatccta gtatagtact agccttttat atgaagaatc atcaataatt
+     2701 ttcttctcac tttcagtgta gctttactta atgaatattt tgaaagatcg cctagttgcc
+     2761 ttattataat tgtataaaag gaaaacaatc agtagccttt tacatggttg agtcagcgag
+     2821 ttatcaggag tactattgtt tatcatggta gtagcacgat agactattca acccgggcga
+     2881 ttaaaatcct tctcccaaat ttgtattctt tgttttttcc tcaaaaattc accaaactct
+     2941 tggaactatt atagttcagt tttagacaaa aaaaaaatga aatcttagtt ccaccctctt
+     3001 gccgtgcaga acttgttcgg agcaggaaca gagacaacct cgacgacatc agaatgggcg
+     3061 atgtcgctac tgctgaacca ccccgacaca ctcaagaaag cgcaagccga gatcgacgca
+     3121 tccgtcggca actctcgcct gatcaccgcc gacgacgtga ctcgcctcgg ctacctccag
+     3181 tgcatcgtca gggagacgct ccgcctgtac cccgccgcgc cgatgctcct cccgcacgag
+     3241 tcctccgccg actgcaaggt cggcggctac aacatcccgc gcgggtcgat gttgctcatc
+     3301 aacgcgtacg ccatccaccg tgacccggcg gtgtgggagg agccggagaa gttcatgccg
+     3361 gagaggttcg aggacggcgg gtgcgacggc aatctcttga tgccgttcgg gatggggagg
+     3421 cggaggtgcc ccggcgagac gctggcgctg cgcacagtgg ggttggtgct gggcacgctg
+     3481 atccagtgct tcgactggga gagggtcgac ggcgtggagg tcgacatgac tgaaggtggc
+     3541 gggctcacca tccccaaggt cgtgccgttg gaggccatgt gcaggccgcg cgacgccatg
+     3601 ggtggtgttc ttcgcgagct cgtctgaata ttttttggcg gcgtttgcat ctccaggacg
+     3661 aactcatgta ttgaaagcac caaaagtaag tagcaaataa gcttctcgtg agcatacaca
+     3721 taacacatgt gagcttgtaa tgtggaataa attacacgta gaggatttgg aagagagtga
+     3781 ctgcgctagc aatcgctctt tgagagttgt gttttacagt tttagtgagg aaccaatttg
+     3841 tatgaatgtg caataatcat gtataaagta taattgtaca cgccaggtat ttcaatttca
+     3901 tattgcttgt gtgatgtatg cgttcgaata ctatacagtc aacaaaagag aacaaaatta
+     3961 ctatgagctt atacgaccag tgttcaaaat aatagccagt caatggtcaa taaaaattaa
+     4021 aattaaaaaa aaagtcttac aaattcctga ttttctatcg tttgaaaaaa aaaaacaact
+     4081 tcgggatatt acacatatta catattgatc caataatcga atatttcaaa tactttctta
+     4141 acgacttcta acttgggagg aagggctttc tgctcggtga cggccgg
+//
+

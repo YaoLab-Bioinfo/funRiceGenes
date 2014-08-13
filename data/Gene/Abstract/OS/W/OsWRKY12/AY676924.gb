@@ -1,0 +1,72 @@
+LOCUS       AY676924                1011 bp    mRNA    linear   PLN 31-JUL-2007
+DEFINITION  Oryza sativa (indica cultivar-group) transcription factor WRKY03
+            (WRKY03) mRNA, complete cds.
+ACCESSION   AY676924
+VERSION     AY676924.1  GI:50843953
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1011)
+  AUTHORS   Liu,X., Bai,X., Wang,X. and Chu,C.
+  TITLE     OsWRKY71, a rice transcription factor, is involved in rice defense
+            response
+  JOURNAL   J. Plant Physiol. 164 (8), 969-979 (2007)
+   PUBMED   16919842
+REFERENCE   2  (bases 1 to 1011)
+  AUTHORS   Liu,X., Xiong,Y., Gao,G., Chen,M. and Chu,C.
+  TITLE     Isolation of rice WRKY genes by RT-PCR based on the predicted
+            sequences using bioinformatics method
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1011)
+  AUTHORS   Liu,X., Xiong,Y., Chen,M. and Chu,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2004) Institute of Genetics and Developmental
+            Biology, Chinese Academy of Sciences, Datun Road, Beijing, Beijing
+            100101, China
+FEATURES             Location/Qualifiers
+     source          1..1011
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Guang Lu Ai"
+                     /db_xref="taxon:39946"
+                     /chromosome="1"
+                     /tissue_type="three leaf stages of seedlings treated with
+                     salicylic acid"
+     gene            1..1011
+                     /gene="WRKY03"
+     CDS             1..1011
+                     /gene="WRKY03"
+                     /codon_start=1
+                     /product="transcription factor WRKY03"
+                     /protein_id="AAT84155.1"
+                     /db_xref="GI:50843954"
+                     /translation="MEHFNDWDLQAVVRSCSFPQSEPPRVGVGVPAAPGAGGAPVVVA
+                     PPARAPDGPDQMARASASALYDLEYLDLDHKPFLLPGSSSSSSSSRAVARARGEDDGK
+                     GRHEVMISFPAAAAASTSGAQPRSPSGRKPGIRTPRPKRRSSKKSQLKKVVYEVPVAD
+                     GGVSSDLWAWRKYGQKPIKGSPYPRGYYKCSSMKGCMARKMVERSPAKPGMLVVTYMA
+                     EHCHPVPTQLNALAGTTRHKSAPTGDDDKPTSPGPAAGRAAAGEGVVKCEDVDGNELS
+                     AMAADGGAEDTAAAVDDDGELWPEGMGLELDEFLGPMDDDVFEFDHVLEDDGVLGRRL
+                     SL"
+ORIGIN      
+        1 atggagcact tcaacgactg ggacctgcag gccgtcgtgc ggagctgcag cttcccgcaa
+       61 tcggagcctc ctcgcgtcgg cgtcggcgtc cccgcggcgc cgggagcggg cggggctccg
+      121 gtggtggtgg cgccgcccgc gcgcgcaccg gatggtccgg atcagatggc gcgggcgtcg
+      181 gcgtcggcgc tgtacgacct cgagtacctg gatttggatc ataagccgtt cttgctgccc
+      241 gggtcgtcgt cttcgtcgtc gtcgtcccga gcggtggcgc gggcgcgagg ggaggatgac
+      301 ggcaaaggca gacacgaggt gatgatctct ttccccgcgg cggcggcggc ctccacgtcc
+      361 ggtgcgcagc cgcggtcgcc gtccggtcgg aagccgggca tacgcacccc gcggcctaag
+      421 agaaggagca gcaagaagag ccagctgaag aaggtggtgt acgaggtgcc ggtggcggac
+      481 ggcggcgtct cctccgacct gtgggcgtgg cgcaagtacg gccaaaagcc catcaagggc
+      541 tcgccttatc cacggggata ctacaagtgc agcagcatga aggggtgcat ggccaggaag
+      601 atggtggagc gcagcccggc caagcccggg atgctcgtcg tcacctacat ggccgagcac
+      661 tgccaccccg tgccgaccca gctcaacgcg ctcgccggca ccacccgcca caagtccgcc
+      721 cctaccggcg acgacgacaa gccgacgtcg ccgggccctg cagccggcag agcggccgcc
+      781 ggcgagggag tggtcaagtg cgaggacgtc gacggcaacg agctgtcggc gatggccgcg
+      841 gatggcggcg cagaggacac ggcggcggcg gtggatgacg acggtgagtt gtggccggag
+      901 gggatggggc tggagctgga cgagttcttg ggtcccatgg atgacgacgt gttcgagttc
+      961 gaccatgtct tggaggacga cggcgtgctg gggcgacggc tctcgctata g
+//
+

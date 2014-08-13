@@ -1,0 +1,86 @@
+LOCUS       RICDNABF1               2027 bp    DNA     linear   PLN 05-SEP-2008
+DEFINITION  Oryza sativa Japonica Group gene for prolamin (seed storage
+            protein), complete cds, clone: PG5a.
+ACCESSION   D73383
+VERSION     D73383.1  GI:1019374
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Nakase,M., Yamada,T., Kira,T., Yamaguchi,J., Aoki,N., Nakamura,R.,
+            Matsuda,T. and Adachi,T.
+  TITLE     The same nuclear proteins bind to the 5'-flanking regions of genes
+            for the rice seed storage protein: 16 kDa albumin, 13 kDa prolamin
+            and type II glutelin
+  JOURNAL   Plant Mol. Biol. 32 (4), 621-630 (1996)
+   PUBMED   8980514
+REFERENCE   2  (bases 1 to 2027)
+  AUTHORS   Nakase,M., Adachi,T., Yamada,T., Kira,T., Aoki,N., Nakamura,R.,
+            Tanaka,K. and Matsuda,T.
+  TITLE     Characterization of DNA-binding factors for rice seed storage
+            protein genes
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2027)
+  AUTHORS   Nakase,M. and Matsuda,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-1995) Contact:Tsukasa Matsuda Nagoya University,
+            Graduate School of Bio-agricultural Sciences; Furo-cho, Chikusa-ku,
+            Nagoya, Aichi 464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..2027
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="PG5a"
+                     /tissue_type="endosperm"
+                     /dev_stage="immature"
+     CDS             880..1329
+                     /note="seed storage protein"
+                     /codon_start=1
+                     /product="prolamin"
+                     /protein_id="BAA11129.1"
+                     /db_xref="GI:1842176"
+                     /translation="MKIIFVFALLAIAACSASAQFDVLGQSYRQYQLQSPVLLQQQVL
+                     SPYNEFVRQQYGIAASPFLQSAAFQLRNNQVWQQLAGGAQSHYQDINIVQAIAQQLQL
+                     QQFGDLYFDRNLAQAQALLAFNVPSRYGIYPRYYGAPSTITTLGGVL"
+ORIGIN      
+        1 aagcttgcgc gcggaatacg gtggtggaga tgggttggga accctggatt ccaaacacag
+       61 cccaagtcta tccaaaatgt ttagacaaga aaatacgtaa caagttggtt tacagaaata
+      121 gcaattagat caatcctgca ctacaagtag agtaaagtgg tgatttctct taaatctctc
+      181 gaatggtgat ttaagaattc agtgcaaacc aaatccttgc tataatcaaa tgttcggtac
+      241 cccatcaacg gaacaataaa aagcgcctgg ctaccataat tttgtcattc ttcttcaatt
+      301 tgtaatttaa gatgcatgag gccacacgac cttaatgttc aacgtgtcat gcattagtga
+      361 aataatagct cacaaaacgc aacaaatata gctagataac ggttgcaatc cttaccaaac
+      421 taacgtataa agtgagcgat tagtcatatc attatctccc gcctgctaac catcgtgtac
+      481 accatccgat ccaaaaatga caacttctag ggatgaacct ggacaaggtt tagggtttag
+      541 ggatgaatct ggacaatgat tgttcaggtt catccctaga tgttgctttc tccttacggg
+      601 acggagggag tatatgtgat ggacacaaaa gttactttca tgatgaaagg aaaggggatt
+      661 tgttggggca ctaatagaac atctgtccaa atggcatgac tcacttatat cctaatagga
+      721 catccaagaa aaactaacac tctaaagcaa ccgatgagga attgaaagaa aatacgtgcc
+      781 accgcatcta taaatggaca agcgcaatgg aaaccctcct catcgttcac acagttcaag
+      841 cattatacag caaaatagaa agatctatgt cccagagcaa tgaagatcat tttcgtcttt
+      901 gctctccttg ctattgctgc atgcagcgcc tctgcgcagt ttgatgtttt aggtcaaagt
+      961 tataggcaat atcagctgca gtcgcctgtc ctgctacagc aacaggtgct tagcccatat
+     1021 aatgagttcg taaggcagca gtatggcata gcggcaagcc ccttcttgca atcagctgcg
+     1081 tttcaactga gaaacaacca agtctggcaa cagctcgctg gtggcgcaca atctcactat
+     1141 caggacatta acattgttca ggccatagcg cagcagctac aactccagca gtttggtgat
+     1201 ctctactttg atcggaatct ggctcaagct caagctctgt tggcttttaa cgtgccatct
+     1261 agatatggta tctaccctag gtactatggt gcacccagta ccattaccac ccttggcggt
+     1321 gtcttgtaat gagttttaac agtatagtgg ttcggaagat aaaaataagc tcagatatca
+     1381 tatatgtgac atgtgaaact ttgggtgata taaatagaaa aaaagttgtc tttcatattt
+     1441 aaataccatg cctctataag gatatatcct agcacgttgt cgtgactaat taccatcatc
+     1501 ggtactctac aattttactg tgtgcttaca ttcgatccga agctactttg ttttttaaga
+     1561 tagaaatgga gcgtataaag gatgtccgtc cttttattcc aataagaaca aacacaaagc
+     1621 acatatggaa aatactaaat ccactacaac aaaatcatag accatacaaa gcaggtaaag
+     1681 atgtagcaat ccacattgat tcttcatcca ctactacaac aggcgcatat gaaaggccgc
+     1741 atatgcatga tcattgtgaa tatgacatgc ccttgtcgag caaacgtgtc acttcatgca
+     1801 aatatgttat ttcaagcgac atcaatatat ggttacaaaa ttttaaacat tggtatatta
+     1861 atgactttca tatatgcata ttaatttcaa ttgaaagaca tcttgttgtc catcattcct
+     1921 aacaagaggt agtgtacaag gcattattta gttgagctct cgctcacttt gcatcacaga
+     1981 agcataacct agacataggt aattcattat agtatcaaaa actgcag
+//
+

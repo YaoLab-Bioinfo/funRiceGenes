@@ -1,0 +1,80 @@
+LOCUS       BT063209                1713 bp    mRNA    linear   PLN 21-FEB-2009
+DEFINITION  Zea mays full-length cDNA clone ZM_BFc0038K13 mRNA, complete cds.
+ACCESSION   BT063209
+VERSION     BT063209.1  GI:223947644
+KEYWORDS    FLI_CDNA.
+SOURCE      Zea mays
+  ORGANISM  Zea mays
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; PACMAD
+            clade; Panicoideae; Andropogoneae; Zea.
+REFERENCE   1  (bases 1 to 1713)
+  AUTHORS   Soderlund,C., Descour,A., Kudrna,D., Bomhoff,M., Boyd,L.,
+            Currie,J., Angelova,A., Collura,K., Wissotski,M., Ashley,E.,
+            Morrow,D., Fernandes,J., Walbot,V. and Yu,Y.
+  TITLE     Sequencing, mapping, and analysis of 27,455 maize full-length cDNAs
+  JOURNAL   PLoS Genet. 5 (11), E1000740 (2009)
+   PUBMED   19936069
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1713)
+  AUTHORS   Yu,Y., Currie,J., Lomeli,R., Angelova,A., Collura,K., Wissotski,M.,
+            Campos,D., Kudrna,D., Golser,W., Ashely,E., Haller,K., Descour,A.,
+            Fernandes,J., Soderlund,C. and Walbot,V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-FEB-2009) Plant Sciences, Arizona Genomics Institute,
+            1657 E. Helen Street, Thomas Keating Building, Tucson, AZ 85721,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..1713
+                     /organism="Zea mays"
+                     /mol_type="mRNA"
+                     /strain="B73"
+                     /db_xref="taxon:4577"
+                     /clone="ZM_BFc0038K13"
+     CDS             69..1688
+                     /codon_start=1
+                     /product="unknown"
+                     /protein_id="ACN27906.1"
+                     /db_xref="GI:223947645"
+                     /translation="MAPPAVAASAFPFRLFSAEARRNNKSGRGKRSAARPLKSSPPPR
+                     PPSSSSVIGGGVAATTFTRLPLRDAPESTEVTLDRFPTAPANPGAPALTLGSVQRLEN
+                     EEFDVGWRPNSVARIPLRDSSDGVELTIGQFEARAAGRKSTGGRGFTRQTVERLGDDG
+                     EGEELVVTSLDVFEVKNGRRDRGLVPEVLDDGDDVVVFDPDYGVDSDDEEEEFEMFPF
+                     DKSHHEEADAVPRAEIGEVEYGDENDDNDGDEVVVFYADYDEEEDSEEDGYEVENAEE
+                     GEGDVKEKGVPAVMRCFDTAKIFAKAGDGGNGVVAFRREKYVPYGGPSGGDGGRGGDV
+                     YVQVDGEMNSLLPFRKSVHFRAGRGAHGMGQQQAGAKGEDVVVKVPPGTVVRTSDGGV
+                     ELLELMKPGQRALLLPGGRGGRGNAAFKSGTNKVPRIAEKGEKGPEMWLELELKLVAD
+                     VGIVGAPNAGKSTLLSVISAAKPAIANYPFTTLLPNLGVVSLDFDATMVVADLPGLLE
+                     GAHRGYGLGHEFLRHSERCSVLVCSLFPSLL"
+ORIGIN      
+        1 ccgatgtccg ctgaaaaaaa tctgcgatct caacagagag acacgccggc agcaacagct
+       61 agccagcgat ggcgccgccc gccgtcgccg cgtcggcatt ccctttccgc ctcttctccg
+      121 cggaggcgcg ccggaacaat aagagcggcc gaggcaagcg gagcgccgcc aggccgctca
+      181 agtcctcgcc cccacctcgc cctccctcct cctcttccgt cataggcggc ggcgtcgcgg
+      241 ccaccacgtt cacgcggctc ccactccgcg atgcgccaga gtccaccgag gtcacgctcg
+      301 accgcttccc caccgccccg gccaacccgg gggcgcccgc tctcacgctc gggagtgtcc
+      361 aacggctgga gaacgaggag ttcgatgttg ggtggaggcc caactctgtc gcgcggatcc
+      421 ctctgcggga ctcgtcggac ggtgtggagc tcaccattgg ccagttcgag gcccgcgcgg
+      481 ccggcaggaa gagcactggc ggtcgcgggt ttacgcggca aacggtcgaa cgccttggcg
+      541 acgacggtga gggggaggag ctcgtagtca ccagcctcga tgtgttcgag gtcaaaaacg
+      601 gcaggagaga tcgtggtctt gttcccgaag tgctcgacga cggcgacgac gtcgtggtgt
+      661 tcgacccgga ctacggcgtc gacagcgacg acgaggagga ggagttcgag atgttcccgt
+      721 tcgacaaaag tcatcatgaa gaagctgatg ccgttccacg cgcggagatc ggtgaggtag
+      781 agtatggcga cgagaatgat gacaacgacg gtgacgaggt tgtagtgttc tacgcagact
+      841 acgacgagga ggaggactct gaggaagacg gctacgaggt tgagaacgcg gaggaagggg
+      901 aaggtgatgt gaaggagaag ggagtgccgg cagtgatgcg gtgtttcgac accgccaaga
+      961 tattcgccaa ggccggggac ggcgggaacg gcgtggttgc gttccgccgc gagaagtacg
+     1021 tgccgtacgg ggggccgtca ggcggcgacg gaggccgcgg gggcgacgtg tacgtgcagg
+     1081 tggacgggga gatgaactcg ctgctgccgt tccgcaagtc cgtgcacttc cgcgccggcc
+     1141 gtggtgcgca cggcatgggc cagcagcagg ccggggccaa gggcgaggac gtcgttgtga
+     1201 aggtgccgcc ggggacggtg gtgcggacct cagatggagg cgtggagctt cttgaactga
+     1261 tgaagcccgg gcagcgcgcg ctgctgctcc ccggtggccg cggcggccgg ggcaatgcgg
+     1321 cgttcaagtc cgggacgaat aaggtgccca ggatcgcaga gaagggggag aaaggcccag
+     1381 aaatgtggct agagttggag ctgaagttag tcgccgatgt agggattgta ggtgctccaa
+     1441 atgctgggaa gagcactctc ttgagcgtta ttagtgctgc caagccagct atagccaatt
+     1501 atccttttac cacattgcta ccgaaccttg gcgtggtctc attagatttt gatgctacaa
+     1561 tggtagttgc tgaccttcct ggcttactgg aaggcgctca tcgtggttat ggtttgggtc
+     1621 atgagttcct aaggcatagt gagcgatgct ctgtattggt atgttcactt ttcccttctt
+     1681 tactctaatc ttaatatatg agtcaaattc cat
+//
+

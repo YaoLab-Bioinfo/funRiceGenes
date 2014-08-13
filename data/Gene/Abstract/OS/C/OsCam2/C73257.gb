@@ -1,0 +1,44 @@
+LOCUS       C73257                   458 bp    mRNA    linear   EST 04-APR-2002
+DEFINITION  C73257 Rice panicle at flowering stage Oryza sativa Japonica Group
+            cDNA clone E3548_1A, mRNA sequence.
+ACCESSION   C73257
+VERSION     C73257.1  GI:2428794
+DBLINK      BioSample: LIBEST_000499
+KEYWORDS    EST.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 458)
+  AUTHORS   Sasaki,T. and Yamamoto,K.
+  TITLE     Rice cDNA from panicle at flowering stage
+  JOURNAL   Unpublished (1996)
+COMMENT     Contact: Takuji Sasaki
+            National Institute of Agrobiological Resources
+            Rice Genome Research Program, Kannondai 2-1-2, Tsukuba, Ibaraki
+            305-8602, Japan
+            Email: URL:http://rgp.dna.affrc.go.jp/
+            PROJECT ='RGP'.
+FEATURES             Location/Qualifiers
+     source          1..458
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="E3548_1A"
+                     /dev_stage="flowering stage"
+                     /clone_lib="LIBEST_000499 Rice panicle at flowering stage"
+                     /note="Organ: panicle; Rice cDNA from panicle at flowering
+                     stage"
+ORIGIN      
+        1 ctctcgcgga accttctcga agcttccaca cccccaacct cgcctccacc accaaccccc
+       61 catggcggac cagctcaccg acgagcagat cgccgagttc aaggaggcgt tcagctcttc
+      121 gacaaggacg gcgacggttg catcactact aaggagcttg gaaccgtgat gcggtccctt
+      181 ggtcagaacc caactgaggc ggagtgcagg acatgatcaa cgaggttgat gctgatggca
+      241 atgggaccat tganttccca gagttcctga acctgatggc gaagaagatg aaggataccg
+      301 actctnagga ggagctcaag gaggccttcc gtgtgttttg acaaggacca gaacggtttt
+      361 catctcggct gctgagctcc gccacgtcat gaccaacctt ggttagaagc tnaccgacga
+      421 ggaagtcgac gagatgatcc gtgaggttac gtcgattg
+//
+

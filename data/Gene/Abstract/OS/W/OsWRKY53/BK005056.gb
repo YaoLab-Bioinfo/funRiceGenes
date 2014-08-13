@@ -1,0 +1,86 @@
+LOCUS       BK005056                1871 bp    DNA     linear   PLN 17-MAR-2006
+DEFINITION  TPA_inf: Oryza sativa (indica cultivar-group) WRKY transcription
+            factor 53 (WRKY53) gene, complete cds.
+ACCESSION   BK005056
+VERSION     BK005056.1  GI:46394359
+KEYWORDS    Third Party Data; TPA; TPA:inferential.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1871)
+  AUTHORS   Zhang,Z.L., Xie,Z., Zou,X., Casaretto,J., Ho,T.H. and Shen,Q.J.
+  TITLE     A rice WRKY gene encodes a transcriptional repressor of the
+            gibberellin signaling pathway in aleurone cells
+  JOURNAL   Plant Physiol. 134 (4), 1500-1513 (2004)
+   PUBMED   15047897
+REFERENCE   2  (bases 1 to 1871)
+  AUTHORS   Zhang,Z.-L., Xie,Z., Zou,X., Casaretto,J., Ho,T.-h.D. and Shen,Q.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2004) Department of Biological Sciences,
+            University of Nevada, Las Vegas, 4505 Maryland Parkway, Las Vegas,
+            NV 89154, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1871              AAAA01005720.1     3978-5848
+FEATURES             Location/Qualifiers
+     source          1..1871
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39946"
+     gene            <1..>1871
+                     /gene="WRKY53"
+                     /note="OsWRKY53"
+     mRNA            join(<1..312,426..590,689..1149,1249..1425,1523..>1871)
+                     /gene="WRKY53"
+                     /product="WRKY transcription factor 53"
+     CDS             join(1..312,426..590,689..1149,1249..1425,1523..1871)
+                     /gene="WRKY53"
+                     /codon_start=1
+                     /product="WRKY transcription factor 53"
+                     /protein_id="DAA05118.1"
+                     /db_xref="GI:46394360"
+                     /translation="MASSTGGLDHGFTFTPPPFITSFTELLSGGGGDLLGAGGEERSP
+                     RGFSRGGARVGGGVPKFKSAQPPSLPLSPPPVSPSSYFAIPPGLSPTELLDSPVLLSS
+                     SHILASPTTGAIPAQRYDWKASADLIASQQDDSRGDFSFHTNSDAMAAQPASFPSFKE
+                     QEQQVVESSKNGGAGASSNKSGGGGNNKLEDGYNWRKYGQKQVKGSENPRSYYKCTYN
+                     GCSMKKKVERSLADGRITQIVYKGAHNHPKPLSTRRNASSCATAAACADDLAAPGAGA
+                     DQYSAATPENSSVTFGDDEADNASHRSEGDEPEAKRWKEDADNEGSSGGMGGGAGGKP
+                     VREPRLVVQTLSDIDILDDGFRWRKYGQKVVKGNPNPRSYYKCTTVGCPVRKHVERAS
+                     HDTRAVITTYEGKHNHDVPVGRGGGGGRAPAPAPPTSGAIRPSAVAAAQQGPYTLEML
+                     PNPAGLYGGYGAGAGGAAFPRTKDERRDDLFVESLLC"
+ORIGIN      
+        1 atggcgtcct cgacgggggg gttggaccac gggttcacgt tcacgccgcc gccgttcatc
+       61 acgtcgttca ccgagctgct gtcggggggc ggtggggacc tgctcggcgc cggcggtgag
+      121 gagcgctcgc cgagggggtt ctccagaggc ggagcgaggg tgggcggcgg ggtgcccaag
+      181 ttcaagtccg cgcagccgcc gagcctgccg ctctcgccgc cgccggtgtc gccgtcgtcc
+      241 tacttcgcca tcccgccggg gctcagcccc accgagctgc tcgactcccc cgtcctcctc
+      301 agctcctccc atgtgcgttc cgcgtgacac accttcatct tcttcttcta cctttagtgc
+      361 gcaattgctg tgtagtgtgg tgctgatgat gatccatggc gtttgtgcgt gtttgtgctt
+      421 ttcagatctt ggcgtccccg accaccggtg caatcccggc tcagaggtac gactggaagg
+      481 ccagcgccga tctcatcgct tctcagcaag atgacagccg cggcgacttc tccttccaca
+      541 ccaactccga cgccatggcc gcgcaaccgg cctctttccc ttccttcaag gtacgtacaa
+      601 atgcttcagc tcatctagct caacccaagc tgaataaact gttgacagtc tagctcacca
+      661 tggttcatgt acgcttgtgc tggagcagga gcaagagcag caagtggtcg agtcgagcaa
+      721 gaacggcggc gccggcgcgt cgagcaacaa gagcggcggc ggcgggaaca acaagctgga
+      781 ggacgggtac aactggagga agtacgggca gaagcaggtg aaggggagcg agaacccgag
+      841 gagctactac aagtgcacct acaacggctg ctccatgaag aagaaggtgg agcgctcgct
+      901 cgccgacggc cgcatcaccc agatcgtcta caagggcgca cacaaccacc ccaagccgct
+      961 ctccacccgc cgcaacgcct cctcctgcgc caccgccgcc gcctgcgccg acgacctcgc
+     1021 ggcgcccggc gcgggcgcgg accagtactc cgccgcgacg cccgagaact cctccgtcac
+     1081 gttcggcgac gacgaggccg acaacgcatc gcaccgcagc gagggcgacg agcccgaagc
+     1141 caagcgctgg taagcctcac atcatcactc aaatcagcaa tcgaagcgta atatctccat
+     1201 gcgtgtgcgt gtgttcttct tgggtctcat ggatgtcatg gttttcagga aggaggatgc
+     1261 tgacaacgag ggcagctccg gcggcatggg cggcggcgcc ggcggcaagc cggtgcgcga
+     1321 gccgaggctt gtggtgcaga cgctgagcga catcgacatc ctcgacgacg gcttccggtg
+     1381 gaggaagtac ggccagaagg tcgtcaaggg caaccccaac ccaaggtaat caatcaatca
+     1441 agctgatcaa aatccgtcga ttagtcgatt aatcatatct gttcttgcgt ctctaataat
+     1501 caaatctgtt cttgaatcgc aggagctact acaagtgcac gacggtgggc tgcccggtgc
+     1561 ggaagcacgt ggagcgggcg tcgcacgaca cgcgcgccgt gatcaccacc tacgagggca
+     1621 agcacaacca cgacgtcccg gtcggccgcg gcggcggcgg cggacgcgcc ccggcgccgg
+     1681 cgccgccgac gtcgggggcg atccggccgt cggccgtcgc cgccgcccag caggggccct
+     1741 acaccctcga gatgctcccc aaccccgccg gcctctacgg cggctacggc gccggcgccg
+     1801 gcggcgccgc gttcccgcgc accaaggacg agcggcggga cgacctgttc gtcgagtcgc
+     1861 tcctctgcta g
+//
+

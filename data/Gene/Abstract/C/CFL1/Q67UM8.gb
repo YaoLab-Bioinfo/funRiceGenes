@@ -1,0 +1,49 @@
+LOCUS       Q67UM8_ORYSA             333 aa            linear   PLN 31-OCT-2006
+DEFINITION  Hypothetical protein OSJNBb0071O21.22.
+ACCESSION   Q67UM8
+VERSION     Q67UM8  GI:75116034
+DBSOURCE    UniProtKB: locus Q67UM8_ORYSA, accession Q67UM8;
+            class: preliminary.
+            created: Oct 11, 2004.
+            sequence updated: Oct 11, 2004.
+            annotation updated: Oct 31, 2006.
+            xrefs: AP005497.4, BAD38141.1
+            xrefs (non-sequence databases): Gramene:Q67UM8, InterPro:IPR001202
+KEYWORDS    Hypothetical protein.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 333)
+  AUTHORS   Sasaki,T., Matsumoto,T. and Katayose,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-JUL-2002)
+  REMARK    NUCLEOTIDE SEQUENCE.
+FEATURES             Location/Qualifiers
+     source          1..333
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+     gene            1..333
+                     /gene="OSJNBb0071O21.22"
+     Protein         1..333
+                     /gene="OSJNBb0071O21.22"
+                     /product="Hypothetical protein OSJNBb0071O21.22"
+     Region          115..145
+                     /gene="OSJNBb0071O21.22"
+                     /region_name="WW"
+                     /note="Two conserved tryptophans domain; also known as the
+                     WWP or rsp5 domain; around 40 amino acids; functions as an
+                     interaction module in a diverse set of signalling
+                     proteins; binds specific proline-rich sequences but at low
+                     affinities compared to other...; cl00157"
+                     /db_xref="CDD:241647"
+ORIGIN      
+        1 maplrqqqqk qipfsssfss ssssssffff fffflavrlv lvgegegwgg gvvvvvvdlm
+       61 tapniemias slrncslngg ggggggrrrg rraaaaegsd dsegvtveln sevalpyhwe
+      121 qcldirtgqv yyinwedgtr ttidprsssa yspspasrsa ssssrrcsra rgrgggggaa
+      181 aaastttssg ytsvssvgav taaaaawrsh dssghgygyg ygygsygygy gydgrdgdde
+      241 esssssssss sssssasssr gsavsstlss fsptdesasg agsgyavgdn gahvlvaagc
+      301 racfmyfmvp ktadvcpkcg ssgllhlsrn gyv
+//
+

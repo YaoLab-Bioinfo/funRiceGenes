@@ -1,0 +1,60 @@
+LOCUS       AF050200                 872 bp    mRNA    linear   PLN 23-NOV-2005
+DEFINITION  Oryza sativa acireductone dioxygenase 1 (ARD1) mRNA, complete cds.
+ACCESSION   AF050200
+VERSION     AF050200.1  GI:2952337
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 872)
+  AUTHORS   Sauter,M., Lorbiecke,R., Ouyang,B., Pochapsky,T.C. and Rzewuski,G.
+  TITLE     The immediate-early ethylene response gene OsARD1 encodes an
+            acireductone dioxygenase involved in recycling of the ethylene
+            precursor S-adenosylmethionine
+  JOURNAL   Plant J. 44 (5), 718-729 (2005)
+   PUBMED   16297065
+REFERENCE   2  (bases 1 to 872)
+  AUTHORS   Lorbiecke,R. and Sauter,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-1998) Department of General Botany, AMP II,
+            University of Hamburg, Ohnhorststrasse 18, Hamburg 22609, Germany
+FEATURES             Location/Qualifiers
+     source          1..872
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..872
+                     /gene="ARD1"
+     CDS             69..668
+                     /gene="ARD1"
+                     /note="OsARD1; similar to the Arabidopsis thaliana product
+                     encoded by the sequence presented in GenBank Accession
+                     Number AC002505"
+                     /codon_start=1
+                     /product="acireductone dioxygenase 1"
+                     /protein_id="AAC05511.1"
+                     /db_xref="GI:2952338"
+                     /translation="MENEFQDGKTEVIEAWYMDDSEEDQRLPHHREPKEFIPVDKLTE
+                     LGVISWRLNPDNWENCENLKRIREARGYSYVDICDVCPEKLPNYETKIKSFFEEHLHT
+                     DEEIRYCLEGSGYFDVRDQNDQWIRIALKKGGMIVLPAGMYHRFTLDTDNYIKAMRLF
+                     VGDPVWTPYNRPHDHLPARKEFLAKLLKSEGENQAVEGF"
+ORIGIN      
+        1 agacgaacaa aaaacagaat ccatcgccat aatcgaaggt tcgctcttgc ttccaccccg
+       61 caatccacat ggagaacgaa ttccaggatg gtaagacgga ggtgatagaa gcatggtaca
+      121 tggatgatag cgaagaggac cagaggcttc ctcatcaccg cgaacccaaa gaattcattc
+      181 ctgttgataa gcttacagaa ctaggagtaa tcagctggcg cctaaatcct gataactggg
+      241 agaattgcga gaacctgaag agaatccgcg aagccagagg ttactcttat gtggacattt
+      301 gtgatgtgtg cccagagaag ctgccaaatt atgaaactaa gatcaagagt ttctttgaag
+      361 aacacctgca taccgatgaa gaaatacgct attgtcttga agggagtgga tactttgatg
+      421 tgagagacca aaatgatcag tggattcgta tagcactgaa gaaaggaggc atgattgttc
+      481 tgcctgcagg gatgtaccac cgctttacgt tggacaccga caactatatc aaggcaatgc
+      541 gactgtttgt tggcgatcct gtttggacac cctacaaccg tccccatgac catcttcctg
+      601 caagaaagga gtttttggct aaacttctca agtcagaagg tgaaaatcaa gcagttgaag
+      661 gcttctgagg gttttgttgg gctcctgcac tgcggttcta tattcaacct gaataagatg
+      721 tgctatagca atgtaaattt agcacagtgg ctatggtcgc cactcaccaa cttgaagtga
+      781 aagatttaat gatttttgtt aattcttatg tatcaatcgg catatagcat ttccgaaatg
+      841 tgttttcaat aaacaggagt catgaagctg aa
+//
+

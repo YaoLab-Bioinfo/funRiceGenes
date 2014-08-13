@@ -1,0 +1,77 @@
+LOCUS       AB476298                1461 bp    mRNA    linear   PLN 12-SEP-2009
+DEFINITION  Oryza sativa Japonica Group NYC3 mRNA for alpha/beta hydrolase-fold
+            family protein, complete cds.
+ACCESSION   AB476298
+VERSION     AB476298.1  GI:252971791
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Morita,R., Sato,Y., Masuda,Y., Nishimura,M. and Kusaba,M.
+  TITLE     Defect in non-yellow coloring 3, an alpha/beta hydrolase-fold
+            family protein, causes a stay-green phenotype during leaf
+            senescence in rice
+  JOURNAL   Plant J. (2009) In press
+   PUBMED   19453447
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1461)
+  AUTHORS   Kusaba,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2009) Contact:Makoto Kusaba Hiroshima University,
+            Faculty of Science; 1-4-3 Kagamiyama, Higashi-Hiroshima, Hiroshima
+            739-8526, Japan
+FEATURES             Location/Qualifiers
+     source          1..1461
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1461
+                     /gene="NYC3"
+     CDS             1..1461
+                     /gene="NYC3"
+                     /note="non-yellow coloring3"
+                     /codon_start=1
+                     /product="alpha/beta hydrolase-fold family protein"
+                     /protein_id="BAH84761.1"
+                     /db_xref="GI:252971792"
+                     /translation="MEVVSSSHSCLAFNRTPSSAWRFPGNGLGPGHAKLTRPRSAILC
+                     VRSGTASNPADSGKVHASHGFYVSDVDAALQGIPKKVGEIEKMIIPSLPEGPESSLIS
+                     TGFWEWKPKLSVYYEKSGIDNSKAPSVLFLPGFGVGTFHFEKQLKDLGRDYKVWTMDF
+                     LGQGMSLPCEDPAPKSTSGELDEDTYWGFGQELQPWAEELVYSIDLWRDQVQHFIEEV
+                     IGEPVYIVGNSLGGFVSLYLAASCPHLVKGVTLLNATPFWGFLPNPATSPRLSKIFPW
+                     AGTFPLPSFVRKLTETVWQKISDPRSIQGILKQVYADHSTNVDMVFSRIIETTQHPAA
+                     AASFASIMCAPKGQISFEEALSRCQRQGIPISLMYGREDPWVRPIWGIKVKQQVPESP
+                     YYEISPAGHCPHDEVPEVINYLLRGWLKNVESEGSVAVPFLEEPSYAENGVSRELEFV
+                     RGGSKKSVHVRLFGSKISLWSQLRSLLKSNTWVISR"
+ORIGIN      
+        1 atggaagtgg tttcttccag ccactcctgc ttggcattta accgaacacc tagcagtgct
+       61 tggaggtttc cggggaatgg tcttggtcca gggcatgcaa agctcactcg gccaagaagt
+      121 gcaattcttt gtgtgcggtc agggacagct tcgaatcctg ctgattctgg gaaagttcat
+      181 gcgagccatg ggttctatgt aagtgatgtc gatgcagctc tccaagggat cccgaagaaa
+      241 gtcggtgaga tcgagaagat gatcattccg agcttgccag aaggacctga aagctctcta
+      301 attagtactg gtttctggga atggaagccg aagctgagtg tatattatga aaagtctggc
+      361 atagacaata gcaaggcacc gtctgtgctc tttctaccag gttttggagt gggaacgttc
+      421 cattttgaga agcaattgaa ggatcttggc cgtgattaca aagtatggac aatggatttt
+      481 ctagggcagg gcatgtcgtt gccatgtgaa gatcctgctc ctaagagcac atcaggagag
+      541 ctagatgagg acacatattg gggttttgga caagaattac aaccatgggc ggaggagttg
+      601 gtgtattcga tagatttgtg gcgtgaccaa gttcagcatt ttattgaaga ggttattggt
+      661 gaaccagtat atattgtggg gaactctctg ggaggttttg tttctctata tcttgctgca
+      721 tcctgtccac accttgtaaa gggtgtcaca ttacttaatg caaccccatt ttggggattc
+      781 cttcccaacc ctgctacatc tcctcgcttg tcgaagattt ttccatgggc tgggacattt
+      841 ccacttccat cgtttgtgag gaaacttact gaaacagtgt ggcagaaaat aagtgatcca
+      901 agaagtatac agggcatact caagcaagta tatgctgacc actcaacgaa tgtggacatg
+      961 gtgttctcgc gtattataga gacaacacaa catccagcag ctgctgcatc atttgcatcc
+     1021 attatgtgtg ctccaaaggg acaaatatcc ttcgaagaag ctctatctag gtgccaaagg
+     1081 cagggtattc ccatatctct tatgtatggg agagaagatc cttgggttag acctatttgg
+     1141 ggtattaaag tgaaacagca ggtgccagaa tcaccgtatt acgaaatcag tcctgctggt
+     1201 cactgccctc atgatgaggt tcctgaggtt ataaactact tactcagagg atggctaaag
+     1261 aatgtcgaat ctgagggttc agttgcagtt ccatttcttg aagaacccag ctatgctgaa
+     1321 aatggtgtat caagggagct ggaatttgtt aggggaggat caaaaaaatc tgtccatgtg
+     1381 cgactctttg gttctaaaat ttccttatgg agccaacttc gttcgctttt gaagtccaac
+     1441 acatgggtaa tatctagata a
+//
+

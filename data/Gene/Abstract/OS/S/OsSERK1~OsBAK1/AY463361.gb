@@ -1,0 +1,102 @@
+LOCUS       AY463361                2351 bp    mRNA    linear   PLN 12-JUN-2008
+DEFINITION  Oryza sativa (indica cultivar-group) benzothiadiazole-induced
+            somatic embryogenesis receptor kinase 1 (BISERK1) mRNA, complete
+            cds.
+ACCESSION   AY463361
+VERSION     AY463361.1  GI:38679442
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2351)
+  AUTHORS   Song,D., Li,G., Song,F. and Zheng,Z.
+  TITLE     Molecular characterization and expression analysis of OsBISERK1, a
+            gene encoding a leucine-rich repeat receptor-like kinase, during
+            disease resistance responses in rice
+  JOURNAL   Mol. Biol. Rep. 35 (2), 275-283 (2008)
+   PUBMED   17520342
+REFERENCE   2  (bases 1 to 2351)
+  AUTHORS   Song,D., Song,F., Goodman,R.M. and Zheng,Z.
+  TITLE     OsBISERK1, a gene encoding leucine-rich repeat receptor-like
+            kinase, is differentially expressed in disease resistance responses
+            in rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2351)
+  AUTHORS   Song,D., Song,F., Goodman,R.M. and Zheng,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-NOV-2003) Department of Plant Protection, Zhejiang
+            University-Huajiachi Campus, 268 Kaixuan Road, Hangzhou, Zhejiang
+            310029, People's Republic of China
+FEATURES             Location/Qualifiers
+     source          1..2351
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Yuanfengzao"
+                     /db_xref="taxon:39946"
+     gene            1..2351
+                     /gene="BISERK1"
+     CDS             104..1978
+                     /gene="BISERK1"
+                     /note="OsBISERK1"
+                     /codon_start=1
+                     /product="benzothiadiazole-induced somatic embryogenesis
+                     receptor kinase 1"
+                     /protein_id="AAR26543.1"
+                     /db_xref="GI:38679443"
+                     /translation="MAAHRWAVWAVLLLRLLVPAARVLANMEGDALHSLRTNLVDPNN
+                     VLQSWDPTLVNPCTWFHVTCNNDNSVIRVDLGNAALSGTLVPQLGQLKNLQYLELYSN
+                     NISGTIPSELGNLTNLVSLDLYLNNFTGPIPDSLGNLLKLRFLRLNNNSLSGSIPKSL
+                     TAITALQVLDLSNNNLSGEVPYKHGFSLFTPISFANNPSLCGPGTTKPCPGAPPFSPP
+                     PPYNPPTPVQSPGSSSSTGAIAGGVAAGAALLFAIPAIGFAWYRRRKPQEHFFDVPAE
+                     EDPEVHLGQLKRFSLRELQVATDTFSNKNILGRGGFGKVYKGRLADGSLVAVKRLKEE
+                     RTPGGELQFQTEVEMISMAVHRNLLRLRGFCMTPTERLLVYPYMANGSVASRLRERPP
+                     SEPPLDWRTRRRIALGSARGLSYLHDHCDPKIIHRDVKAANILLDEDFEAVVGDFGLA
+                     KLMDYKDTHVTTAVRGTIGHIAPEYLSTGKSSEKTDVFGYGIMLLELITGQRAFDLAR
+                     LANDDDVMLLDWVKGLLKEKRLEMLVDPDLQSNYIDVEVESLIQVALLCTQGSPTERP
+                     KMAEVVRMLEGDGLAERWEEWQKIEVVRQEVELGPHRNSEWIVDSTDNLHAVELSGPR
+                     "
+ORIGIN      
+        1 aggaggagga ggaggaggag gaagagggtg gtgctgattt ggtgtggagg cggggaaatg
+       61 cgtgatgtgt gagatctagg gcgtggggag gcggatcgcg gcaatggcgg cgcatcggtg
+      121 ggcggtgtgg gcggtgctgc tgctgcggct gctcgtgccg gcggcgcggg tgctcgccaa
+      181 catggaaggt gatgcattgc atagcttgag gactaattta gttgatccta ataatgttct
+      241 acaaagttgg gacccaactc tggtcaatcc gtgcacttgg tttcatgtta cttgcaataa
+      301 cgacaacagt gttatcagag ttgatcttgg gaatgctgca ctatcaggca ctttggtccc
+      361 acaacttggg caactaaaaa acttgcaata cctggagctc tacagtaata acataagcgg
+      421 aacgatacct agtgaacttg gaaacctcac aaacttggtc agtttggatt tgtacttgaa
+      481 caacttcact ggtccaatac cagattcact tggaaaccta ttgaagctac gattcctgcg
+      541 tcttaacaat aacagccttt cgggttcaat tcctaaatca ctaactgcta tcactgccct
+      601 acaagttcta gatctttcaa acaacaattt gtctggagaa gttccataca aacatggctt
+      661 ttcattattc acccctatca gttttgccaa caacccttcc ttgtgtggtc ctgggaccac
+      721 aaaaccttgc cctggtgctc cccccttttc cccacctcct ccatataatc ctccaactcc
+      781 tgtgcagtca ccagggagtt catctagtac tggagcaatt gctggtggag tggctgctgg
+      841 agcagccttg ctatttgcta ttcctgctat tggttttgca tggtatcggc gcaggaaacc
+      901 ccaagagcat ttctttgatg tgcctgctga ggaggatcca gaggtccatc ttggccagct
+      961 taaaagattt tcactacgag aactacaagt tgcaacagat accttcagca ataaaaacat
+     1021 tctcggaaga ggtgggtttg gcaaggtcta taaaggaaga ttagcagatg gttctttagt
+     1081 agctgttaag agactaaagg aggagagaac acctggtggg gaactacagt ttcaaacaga
+     1141 agttgagatg attagcatgg ccgtacatag aaatctgctg cgtttacgag ggttctgtat
+     1201 gacacccaca gaaaggttgc ttgtgtatcc atacatggct aatggaagcg ttgcatcacg
+     1261 tcttagagaa cggccaccat cggaacctcc acttgattgg cgaacaagaa gaaggattgc
+     1321 gttgggttcc gccagggggc tgtcctattt acatgatcat tgtgacccaa agattatcca
+     1381 tcgtgatgtc aaagctgcaa atattttatt agatgaagac tttgaagctg tagtagggga
+     1441 ctttggtttg gccaaactaa tggattacaa ggatacccat gtaacaactg cagttcgtgg
+     1501 aacaattggg catattgcac cagaatatct ttcaacagga aaatcatctg agaaaactga
+     1561 tgtatttggt tatgggatta tgcttttgga gcttataaca ggacaacgtg cctttgacct
+     1621 tgctcgtcta gccaatgatg atgatgtcat gctactggac tgggtaaaag gattactcaa
+     1681 ggagaaaagg ctggagatgt tggttgatcc agatttacag agcaactaca ttgatgttga
+     1741 ggtagaatca ctaatccagg ttgctcttct ttgcacacaa ggctccccca cagaacgccc
+     1801 caagatggcg gaggttgtga ggatgcttga aggtgatggc cttgccgaga gatgggagga
+     1861 gtggcagaag atagaagtag tacggcagga ggtagagctt ggccctcatc ggaactcaga
+     1921 gtggattgtc gactcgacgg acaaccttca tgcggttgag ctatcagggc cgaggtgatg
+     1981 acagcgcact ggtagtttgc tgctaattct tgtccgtcgg aagagtgatt tttatcagcc
+     2041 atcctagtcg aatcgccatt tgttcatacc aaccaattgg cccaatgtag ccagctacaa
+     2101 ctatgttttg atgtatattg cttgatttgc tccttgatgt gccgccttgg atatcggtga
+     2161 cccgaaaaca gcaggagccc aaggaactat tgtcctgaag cttgcaagtt gcaacaagat
+     2221 cccagtatgt taaagctcac aaggtagcag ctaggagtga ggttgctgcg gctgtttgct
+     2281 ggacctgtga aaattgtact gactggtgac atctaactat tttgtaccaa atgtaaggaa
+     2341 aaaccatgga g
+//
+

@@ -1,0 +1,71 @@
+LOCUS       RICFERRA                1829 bp    DNA     linear   PLN 05-FEB-2008
+DEFINITION  Oryza sativa Japonica Group gene for ferredoxin, complete cds.
+ACCESSION   D30794
+VERSION     D30794.1  GI:505135
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Doyama,N., Kajiwara,H. and Ida,S.
+  TITLE     Cloning and expression of a ferredoxin gene in rice roots in
+            response to nitrate and ammonium
+  JOURNAL   Plant Sci. 137, 53-62 (1998)
+REFERENCE   2  (bases 1 to 1829)
+  AUTHORS   Doyama,N., Kajiwara,H. and Ida,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-1994) Contact:Naomi Doyama Kyoto University,
+            Research Institute for Food Science; Gokanosho, Uji, Kyoto 611,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1829
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     CAAT_signal     1018..1022
+     CDS             1128..1574
+                     /codon_start=1
+                     /product="ferredoxin"
+                     /protein_id="BAA06456.1"
+                     /db_xref="GI:505136"
+                     /translation="MATATAPRLCFPKPGAAIAPATKSPSFIGYAKQTLNMSGLRISN
+                     KFRVSATAVHKVKLIGPDGVEHEFEAPEDTYILEAAETAGVELPFSCRAGSCSTCAGK
+                     MSSGEVDQSEGSFLDENQMGEGYVLTCISYPKADCVIHTHKEEELY"
+     polyA_signal    1712..1717
+ORIGIN      
+        1 ggtacctgtg ggctgtggtc accggcgcgt gggtccctct gtcagatgtt ttccctttgg
+       61 gaacactggg cccatctgcc agtcccaata ccggcctccc gccctaccaa gggccgcgcc
+      121 gccgccgcgc ccgccgcacg cacaggccgc acagccagcg taaaccaatt agccaaacct
+      181 aaaaaaaaaa aagataataa aggagaaagt aatcaagtcg tcttggcagc aaaaagacct
+      241 tttggttctg tacggccttt cgcccacgcc gccagccaca cggcccaacc gcccaacgcg
+      301 aggtcgaggc gtgagccagc caagccggag ccggagccgg agccggagcc gcgcgagagc
+      361 agaacgagcc tcctatttaa tacggccctg cactgcagtg caccacccat ctcactcgac
+      421 tcggcttgac ccaacccaac ctacctcgcg atccccccct cctccgccgc cgtctcgtcg
+      481 agagagagag agagagaagg tacgcctcgg ttgatccgcc accttcttct tcttcttact
+      541 taccctccct tctgatcccc tgtttcccct ggtcatggcg gcgagatctc cgtgtaggag
+      601 tgagatcgcc gcctcctcct catggtgttt cctggtgcgg cgcgcgtgag agctcggccc
+      661 gagcccgagc cctctcgctt ttgccgtgcc ggatctgatt ctgtccgtgc tagtgttagt
+      721 gtcacgtttt ggtgtagaca gtagactcat gaaacgagga gaggcttttt tgtaggatgg
+      781 gtcaactttt aggaacttgt ccaaagttta acaactctca aggatgaact gggaatagtg
+      841 gcgctgttat acattaggag ttggtctgcg agaaatttgg atgggattag ttgcggatct
+      901 tccatcagct agtggagctt aaagatactg atgtgttgtc cgtactgaaa tgcacttctt
+      961 tgccttggca aaaccccagt ctcccccata aatttagttt tgtttgctta gctttaccaa
+     1021 atgccatcag catacatggt gtaaaatcat atacttttgt aacgaacgaa ttgtgtttat
+     1081 ttgcatttca actagtgctt tcttcctaat ttatcaggac tatcgagatg gcaactgcaa
+     1141 ctgctccgag attgtgcttt cctaaacccg gcgcggccat tgctccggcg accaagagcc
+     1201 cttccttcat tggttacgca aagcaaacat tgaacatgtc aggcctaagg atctccaaca
+     1261 agttcagggt gtccgcgaca gcggtgcaca aggtaaagct tataggcccg gacggtgtcg
+     1321 agcacgagtt tgaagcccct gaagatacct acattctcga ggccgctgaa actgccgggg
+     1381 tggagctgcc attctcatgc cgtgctggat catgctccac atgtgcgggt aagatgtcat
+     1441 cgggagaagt tgatcagtcg gaaggatcct tcctcgacga gaaccagatg ggcgagggat
+     1501 acgttctgac atgcatttcg taccctaagg cggattgcgt cattcacacc cacaaggagg
+     1561 aagaactcta ctaggtcgct ctttttatgc ttctgtgggc acatttgctg atttcaaagt
+     1621 ggactcgctg ttcagttagt tttcgctatc caaaaaatgg ccatatcttt gtattagtct
+     1681 tttgatggga ccgtgtcata tgagttgtga caataattgt cgtagtcctg ttcagcattt
+     1741 caaattgcgt ttgttcaatt cacagcaggt ccaacttcca acgatgacat gttatcagaa
+     1801 gttgtgtgta atggtattat tgtggatcc
+//
+

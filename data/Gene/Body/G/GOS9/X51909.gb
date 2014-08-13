@@ -1,0 +1,128 @@
+LOCUS       X51909                  3350 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  O. sativa (rice) root-specific GOS9 gene.
+ACCESSION   X51909 S76887
+VERSION     X51909.1  GI:20241
+KEYWORDS    GOS9 gene.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   de Pater,B.S. and Schilperoort,R.A.
+  TITLE     Structure and expression of a root-specific rice gene
+  JOURNAL   Plant Mol. Biol. 18 (1), 161-164 (1992)
+   PUBMED   1731971
+REFERENCE   2  (bases 1 to 3350)
+  AUTHORS   de Pater,B.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-1990) De Pater B.S., Center for Phytotechnology
+            RUL/TNO, Dept of Plant Mol. Biol., Nonensteeg 3, 2311 VJ Leiden,
+            The Netherlands
+COMMENT     On May 13, 2005 this sequence version replaced gi:243599.
+FEATURES             Location/Qualifiers
+     source          1..3350
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /clone="pGOS9"
+     intron          <1..1392
+                     /number=1
+     TATA_signal     1148..1153
+     gene            1177..2933
+                     /gene="GOS9"
+     mRNA            join(1177..1234,1393..1593,2301..2933)
+                     /gene="GOS9"
+                     /note="alternate"
+     exon            1177..1234
+                     /gene="GOS9"
+                     /note="alternate"
+                     /number=1
+     mRNA            join(1184..1234,1393..1593,2301..2933)
+                     /gene="GOS9"
+                     /note="alternate"
+     exon            1184..1234
+                     /gene="GOS9"
+                     /note="alternate"
+                     /number=1
+     CDS             join(1232..1234,1393..1593,2301..2516)
+                     /gene="GOS9"
+                     /codon_start=1
+                     /protein_id="CAA36189.1"
+                     /db_xref="GI:20242"
+                     /db_xref="InterPro:IPR001229"
+                     /db_xref="UniProtKB/Swiss-Prot:A2WMH2"
+                     /translation="MSTQLVKIGTWGGNGGGRVDLSVLPRSLKSVTIRSGAAIDAIAF
+                     TYIGTDGKEHLAGPWGGGGGNPTTITLGSQEFVKGISGTFTNVVTNLKIVTNVTTYNF
+                     GQGGGTAFSLPLQSGSVVGFFGRAGALVDSIGVYVHI"
+     exon            1393..1593
+                     /gene="GOS9"
+                     /number=2
+     intron          1594..2300
+                     /gene="GOS9"
+                     /number=2
+     exon            2301..2933
+                     /gene="GOS9"
+                     /number=3
+     polyA_signal    2908..2913
+                     /gene="GOS9"
+ORIGIN      
+        1 gagctcagtg gcattacaat tatgaaaagg gaaaattgca aaaaccatcc cataggtcac
+       61 ttgaaatttt acattccact ccataagtca tttgttgcaa atgtccaccc acccactcag
+      121 ttttcttgaa aaaccatatc agtaaacatt aaacacatac ttaaccaaat caacatgttt
+      181 tcataaagtg tgagctgtca atgtgatatt taccaaaatt aaatacttac agagtattat
+      241 tgatattttt ttagtgagat tccacaaata aaattgtcga tgagagctta aacattgtcg
+      301 ctttgagttt cgctatatgc caaaaaaaaa gttcaatcaa atatgaaaaa taagtccaat
+      361 aaagctcttg gacaagattg acttggctag cttagcctgt ggtaacccta catcagtgat
+      421 aacaaactga ttcggttaag cacatgcgta ttgggatgat ttttcaacaa aactaaatag
+      481 ggagtaagta tttgcaataa aataacttat ggagtggaat gtcaaatttc aagtgactta
+      541 cgggatggtc tttgcaattt tcccttatga aaatgttaac agagatattg tcggccccac
+      601 atgccagtga gacatattaa acatgctcaa agtgtgcatc tcgacactac agtcatatat
+      661 acagtatagg cacctagctg atcattagtt ttgatcacag actacgaatt taacgcagag
+      721 tggattaatt agccctcagt ttatgattag agtaaaggtt tggtagggga gcaggtaatg
+      781 gattgattgc agggttggga tttgacccag gataaacctc aggcaaacgg cagatgcttg
+      841 catcgatgaa gtacatcgtc agatatatat cgttaagatc agacattagt ccaaaatata
+      901 gcagataatc tgtctaaatg gacgtgatgg ccgtttttat gaacagatta agctagccac
+      961 aaaggaagat attaaggtca actatgtatc acaacagtaa aaaaggtttg tggaatgagg
+     1021 tgagaaaaat gttgccttct aaggaagaag ctagtaaacc ttcacaattc gcaagttgat
+     1081 aaaacaaaat tttgctttgt tgttttggat aagatttgtt atgtctgcat gcttatatat
+     1141 ccagcactat aaataggagg cgctcactgg ttgcaaccat agcagtacaa ctagtcacag
+     1201 atacatagta ggacagaggc tacaaattaa aatggttagc taattattaa gtagcactct
+     1261 tatacctttt ttctttaata ttttttttta ttttctgaaa tgctgcatgt tttaattgca
+     1321 tcgttaagat ttgcctctga acatgcacac tattgcatat gtgtcataat cattgatgtg
+     1381 ttttatttgc agagcacaca acttgttaag atcgggacat ggggtggaaa tggaggaggt
+     1441 cgtgtagacc tatctgtact cccaaggagc ttgaaaagcg tgacaatccg tagtggtgca
+     1501 gccattgatg ctattgcctt tacatacatt ggcacagatg ggaaggaaca tcttgcaggt
+     1561 ccttggggtg gtggcggtgg aaatccaact acggtacata taatataata atatattgtg
+     1621 tttttagttt cataaaaggc tctgttttca accatgaatc tggatttata gttaaaaata
+     1681 atctttcagg gacgaaggta gcagttaatt tgcattactg ggaaagaaaa tgtaaaccct
+     1741 atagctctac tctttcagtt gaacaacgat atggcctaaa aatgttttta actataattt
+     1801 tctgttatat tatacataat aaataaatat ttacttttgt ttatagtaat ttttaggact
+     1861 agtttctata tatattggtt aagcgacttc aaattaaact aaatattttt aaatattttt
+     1921 aaagttattg ataatgaaag ttataaaagt tggactgaac tttgttcaaa atattaagaa
+     1981 ttataaaact ggagaaagta tatgtgtaga tgcatgtcat atgtattgac cttaaacaac
+     2041 acgtagtcca gtagttagct agttagcaca gttaaaattg aatattatga ttgctgccca
+     2101 ttaatattct tcctgaatat aatgattgct gcccgttaat acatgttcct ttctctcttt
+     2161 tttttttctt atatatataa cattgcttag tgttaaaact aataagcatc atatataaag
+     2221 aaaataaggg agtgttattc aagttgattc actggtggaa atcaattaat gatgatattt
+     2281 ccgcacgtcc ttgcatacag attacacttg gatctcagga attcgtgaag ggaatctccg
+     2341 gaacttttac caacgtcgtg acaaacctta aaattgtcac caatgtcacc acttataatt
+     2401 ttggacaagg tggtggaact gcttttagcc tcccgctgca gagcggcagt gtggttggtt
+     2461 tcttcggacg cgcgggagca cttgtggact ctatcggagt ttatgtccac atatgatata
+     2521 tattatctac atatgaatat atccttggat atatggttgg atcagtgctc atgataaatt
+     2581 cacccctagg tctattcgtt tagtccctca acaagaagtt aagtgagatt tgtaggagaa
+     2641 taattcacat ttattgaggt gtggaattaa tcccctcaat tctctctaat ctctcttttg
+     2701 ggaatgaacc gaacaagacc taagggtgat atttctttca atcactatat aactatacat
+     2761 atatagtgtg catgtgtatg tgcttggact aggtccaagg gtttaccaca ctagtgcccc
+     2821 gttatacctc tgtcagtgtc gtatacattt atttgtgttg tattacattc gctatatatg
+     2881 tacgtggttt atatatgatt atatatgaat aaaagactta tgtgatgtat tgagcttaaa
+     2941 tgtgcgcaag cctattttta atgtacctaa attttgagaa gctgagttgc tactacaata
+     3001 agttgcttcg acgtacagga aacactatgg ttggatctta ttgtgggtga acccttgtgt
+     3061 caaatccacg gatatcatca acaacataag ggaaaaccac acacataaag ccacaaatac
+     3121 cggtaaaata tgtgtaaaag aagatttctt tgtagagaca tcactgaaag gggggaaatg
+     3181 ccttttgatt gaccgatgcg agagaatccc tcggacaacg gacgctcgta gaccctaccc
+     3241 atcttgcccg cttctccctc tcgctcattt ctctctactc tatcctcgtc accgtcatct
+     3301 aggatgtttc ccccattgtt ctcctctcta cccgctccct ctcctctccc
+//
+

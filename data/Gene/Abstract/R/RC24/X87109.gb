@@ -1,0 +1,104 @@
+LOCUS       X87109                  2048 bp    DNA     linear   PLN 18-APR-2005
+DEFINITION  O.sativa RC24 gene.
+ACCESSION   X87109
+VERSION     X87109.1  GI:807954
+KEYWORDS    antifungal protein; chitinase; RC24 gene.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Xu,Y., Zhu,Q., Panbangred,W., Shirasu,K. and Lamb,C.
+  TITLE     Regulation, expression and function of a new basic chitinase gene
+            in rice (Oryza sativa L.)
+  JOURNAL   Plant Mol. Biol. 30 (3), 387-401 (1996)
+   PUBMED   8605293
+REFERENCE   2  (bases 1 to 2048)
+  AUTHORS   Xu,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAY-1995) Y. Xu, Plant Biology Laboratory, The Salk
+            Institute, 10010 N. Torrey Pines Rd., Lo Jolla, CA 92037, USA
+FEATURES             Location/Qualifiers
+     source          1..2048
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /haplotype="2n=24"
+                     /tissue_type="leaf"
+                     /clone_lib="lambda Dash"
+                     /dev_stage="seedlings"
+     CAAT_signal     890..893
+     TATA_signal     968..974
+     mRNA            1000..>2025
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     gene            1057..2025
+                     /gene="RC24"
+     CDS             1057..2025
+                     /gene="RC24"
+                     /EC_number="3.2.1.14"
+                     /function="antifungal"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Class I"
+                     /codon_start=1
+                     /product="chitinase"
+                     /protein_id="CAA60590.1"
+                     /db_xref="GI:807955"
+                     /db_xref="GOA:Q42995"
+                     /db_xref="HSSP:1CNS"
+                     /db_xref="InterPro:IPR000726"
+                     /db_xref="InterPro:IPR001002"
+                     /db_xref="InterPro:IPR016283"
+                     /db_xref="InterPro:IPR018371"
+                     /db_xref="UniProtKB/TrEMBL:Q42995"
+                     /translation="MRALALVVVATAFAVVAVQPEQCGSQARGALCPNCLCCSQYGWC
+                     GSTSAYCGSGCQSQCSRQLRRRRPDRPSGGGGSGVASIVSRSLFDQMLLHRNDAACPA
+                     KNLYTYDAFVAAANAFPTFATTGDAATRKREVAAFLAQTSHETMGGWATAPDGPYSWG
+                     YCFKEENNGNVGSDYCVQSSQWPCRAGKKYYGRGPIQISYNYNYGPAGQAIGSNLLSN
+                     PDLASDATVSFKTAFWFWMTPQSPKPSCHAVMTGQWTPNGNDQAAGRVPGYGVVTNII
+                     NGGVECGHGADSRVADRIGFYKRYCDMLGVSYGANLDCYNQRPFNS"
+     sig_peptide     1057..1116
+                     /gene="RC24"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+ORIGIN      
+        1 aagcttcctt caagtcaaaa ttttgcttaa tcactaattt tatatgtttt aagatgggtt
+       61 attaatatat gatggtgtat atctattatc tattgtatat aatagcattg ttagatctac
+      121 ggtatttaga aaaaaaattt aggttggacc acccatatat taaatcctag atacgcctct
+      181 cggattagca cataattaat taagtagcta aaaagttaaa aaaagattaa tatgtatttt
+      241 aaataacttt ttatataata ttttgtaaaa gacataccgt ttagtatttt gaaaaacgtg
+      301 catggtaaaa actagaagta aaaattggaa actagcacta aaacagccta atagaatacg
+      361 tgagacttcc aattcagccg gctggcccac caacttataa agctagctga aaattaggca
+      421 tattttgtgg tcatgtggaa tttgtggatt agttttcatc tgctctggta agttgagtac
+      481 atcatatata gatatattca gaagtagcat cagcagcatt cagcatttgg caactgtatt
+      541 tgttgcagct tgttgcgtgc aacaaccggg ctaattgatt gcacacgaga agaagaagaa
+      601 gaaaaaggaa acgagaattc caagagatat acacatcgtc cggccgtata catagctagc
+      661 tgtctgtgat gcatgcatgg tcagctgtgg cgaatgcgac cggccgctag gtttgatcaa
+      721 tcgtcaaagc tcaccatgca tatgatgtag acttagtacg tacgttccat ggaaatggaa
+      781 agtctgagtg acttttctct cggtgtaact gaactcagat catctatccg atctgatcgg
+      841 agtacatatt tgaccaacac catatacatc catgaataat ttggatatac aatagtggag
+      901 tattgaagag ttactgttaa tcgtggcaag atgccaaaca ctgcacacac cagctagctt
+      961 ccctccttat ataaagccat ggcctcccac cgcttcttaa catcactgca actcagcagc
+     1021 aagcaagcta actccatttt gctttgcatt gccaccatga gagcgctcgc cctggtcgtg
+     1081 gtggccacgg cctttgcggt ggtggccgtg cagccggagc agtgcggcag ccaggcgcgc
+     1141 ggcgcgctct gccccaactg cctctgctgc agccagtacg gctggtgcgg atccacctcc
+     1201 gcctactgcg gctccggctg ccagagccag tgctcccggc agctgcggcg gcggcggccc
+     1261 gaccgcccct ccggcggtgg cggcagcggc gtcgcctcca tcgtgtcgcg ctcgctcttc
+     1321 gaccagatgc ttctccaccg caacgacgcg gcgtgcccgg ccaagaactt gtacacctac
+     1381 gacgccttcg tcgccgccgc caacgccttc ccgacgttcg ccacaaccgg cgacgccgcc
+     1441 acccgcaagc gcgaggtcgc cgcgttcctg gcgcagacgt cgcacgagac catgggcggg
+     1501 tgggcgacgg cgcccgatgg cccctactcg tggggctact gcttcaagga ggagaacaac
+     1561 ggcaacgttg ggtccgacta ctgtgtccag agctcgcagt ggccgtgccg cgccggcaag
+     1621 aagtactacg gccggggacc catccagatc tcctacaact acaactacgg cccggcgggg
+     1681 caggccatcg gctccaacct gctgagcaac ccggacctgg cgtcggacgc caccgtctcc
+     1741 ttcaagacgg cgttctggtt ctggatgacg ccgcagtcgc ccaagccgtc gtgccacgcg
+     1801 gtgatgacag ggcagtggac gcccaacggc aacgaccagg cggcggggcg cgtgccgggc
+     1861 tacggcgtgg tgaccaacat catcaacggc ggcgtggagt gcggccacgg cgcggacagc
+     1921 agagtcgccg accggattgg gttctacaag cgctactgcg acatgttggg cgtcagctac
+     1981 ggcgccaact tggactgcta caaccagagg cctttcaact cctaatagct cgttctagct
+     2041 tcaagctt
+//
+

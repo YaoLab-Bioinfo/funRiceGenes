@@ -1,0 +1,55 @@
+LOCUS       AB111915                 689 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsRPA14 mRNA for replication protein A
+            14kDa, complete cds.
+ACCESSION   AB111915
+VERSION     AB111915.1  GI:40714350
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ishibashi,T., Koga,A., Yamamoto,T., Uchiyama,Y., Mori,Y.,
+            Hashimoto,J., Kimura,S. and Sakaguchi,K.
+  TITLE     Two types of replication protein A in seed plants
+  JOURNAL   FEBS J. 272 (13), 3270-3281 (2005)
+   PUBMED   15978034
+REFERENCE   2  (bases 1 to 689)
+  AUTHORS   Ishibashi,T., Kimura,S., Uchiyama,Y., Hashimoto,J. and Sakaguchi,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2003) Contact:Toyotaka Ishibashi Tokyo University
+            of Science, Dept. of Applied Biological Science; 2641 Yamazaki,
+            Noda, Chiba 278-8510, Japan
+FEATURES             Location/Qualifiers
+     source          1..689
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..689
+                     /gene="OsRPA14"
+     CDS             6..326
+                     /gene="OsRPA14"
+                     /codon_start=1
+                     /product="replication protein A 14kDa"
+                     /protein_id="BAD06873.1"
+                     /db_xref="GI:40714351"
+                     /translation="MDTSGPAAFVNGEILKMFVGRRVRTVVQAQREEGGLLIGQSTDG
+                     HQLTIKGASGAPMSHYVEIIGIAEPNQAIRAEVCTDFGENFDPAPFNGLCKLANGQMK
+                     DLFL"
+ORIGIN      
+        1 cagatatgga tacatcagga cctgcagcat tcgtcaatgg agagattctg aagatgttcg
+       61 tcggccgaag agtgcgcacg gtggtccaag cccagcgcga ggaaggcggg ttgcttatcg
+      121 ggcagtccac cgatggtcat cagctaacca tcaaaggggc ctccggtgcc cctatgtcgc
+      181 actatgtgga gattattggg atcgctgaac ccaatcaggc catccgggct gaagtttgca
+      241 cagattttgg tgaaaacttc gatcctgcac cattcaatgg actgtgcaag cttgcgaatg
+      301 gccagatgaa ggatttgttc ctgtagaggt cggcatcaca tacaagacat tctgccaaca
+      361 aagcatgtct catgttcatg atttctctag ctttaagatc cgtccaactg tttttgtcag
+      421 tcatctcagt ataatcaagc tacttagggt cagtattggt gcttattaag acatattaac
+      481 cttaagctat gtgaggacaa gcgtgtgctt ttgttgctga agagcttgtg gtgtttgctc
+      541 cttctaagca aagcaaacca aagcgttgtg ctgcattgtt actgtcgctt gcatttggat
+      601 ccttgaaagc tgtgtttctt gttatgctct ccggtgcatc ttgatgaagt gaactagtat
+      661 gatgctttct gatgaaaaaa aaaaaaaaa
+//
+

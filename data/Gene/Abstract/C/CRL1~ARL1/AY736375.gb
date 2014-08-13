@@ -1,0 +1,63 @@
+LOCUS       AY736375                 780 bp    mRNA    linear   PLN 27-OCT-2009
+DEFINITION  Oryza sativa (japonica cultivar-group) adventitious rootless1
+            (ARL1) mRNA, complete cds.
+ACCESSION   AY736375
+VERSION     AY736375.1  GI:55275372
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 780)
+  AUTHORS   Liu,H., Wang,S., Yu,X., Yu,J., He,X., Zhang,S., Shou,H. and Wu,P.
+  TITLE     ARL1, a LOB-domain protein required for adventitious root formation
+            in rice
+  JOURNAL   Plant J. 43 (1), 47-56 (2005)
+   PUBMED   15960615
+REFERENCE   2  (bases 1 to 780)
+  AUTHORS   Wu,P. and Liu,H.
+  TITLE     ARL1, a gene controling adventitious root primordium formation in
+            rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 780)
+  AUTHORS   Wu,P. and Liu,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-AUG-2004) College of Life Science, Zhejiang
+            University, Kaixuan Road 268#, Hangzhou, Zhejaing Province 310029,
+            P.R. China
+FEATURES             Location/Qualifiers
+     source          1..780
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="japonica"
+                     /db_xref="taxon:39947"
+     gene            1..780
+                     /gene="ARL1"
+     CDS             1..780
+                     /gene="ARL1"
+                     /codon_start=1
+                     /product="adventitious rootless1"
+                     /protein_id="AAV49505.1"
+                     /db_xref="GI:55275373"
+                     /translation="MTGFGSPCGACKFLRRKCVRGCVFAPYFCHEQGAAHFAAIHKVF
+                     GASNVSKLLAHLPLADRPEAAVTISYEAQARLRDPIYGCVAHIFALQQQVMTLQAQLA
+                     SLKAAAAQGIHHQDVGATTKGGYMSAAATAADDQLGYGGYNQWCGSNGGGAPAASQPG
+                     AYSSNGGAGHGHDSITALLAAGSDYMQHSLYHAFEHSEGAGAVDDGHAAAAAFEAAAE
+                     SSSCGMAASFAADESVWRSSSSGYQDCEDLQSVAYAYLNRS"
+ORIGIN      
+        1 atgacgggat ttggatcgcc gtgcggcgcg tgcaagtttc tgcggcgcaa gtgcgtgcgc
+       61 gggtgcgtgt tcgcgccata cttctgccac gagcaagggg cggcgcactt cgccgccatc
+      121 cacaaggtgt tcggcgccag caacgtgtcc aagctgctcg cccacctgcc gctcgccgac
+      181 cgccccgagg ccgccgtcac tatctcctac gaggcgcagg cccgcctccg cgaccccatc
+      241 tatggctgcg tcgcccacat cttcgccctc cagcagcagg tgatgacgct gcaggcgcag
+      301 ctggcgtcgc tcaaggcggc ggcggcgcaa gggatacacc accaggacgt cggcgccacc
+      361 accaagggcg gctacatgag cgccgccgcc accgccgccg acgaccaatt agggtacggc
+      421 ggctacaacc agtggtgcgg cagcaatggg ggcggcgcgc cggcggcgtc gcagccgggc
+      481 gcgtatagca gcaatggcgg cgccggccac ggccacgact ccatcaccgc gctgctggcg
+      541 gccgggtcgg actacatgca gcactcgctg taccacgcgt tcgagcactc ggagggcgcc
+      601 ggcgccgtgg acgacgggca cgcggccgcc gcggccttcg aggcggcggc ggagtcgtcg
+      661 tcgtgcggca tggcggcgtc gttcgccgcc gacgagagcg tgtggaggtc gtcgtcgtcg
+      721 ggataccaag attgcgagga tctccagagc gtcgcctacg cttaccttaa ccgctcgtaa
+//
+

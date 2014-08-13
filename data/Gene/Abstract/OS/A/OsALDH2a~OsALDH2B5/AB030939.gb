@@ -1,0 +1,89 @@
+LOCUS       AB030939                1855 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for mitochondrial aldehyde
+            dehydrogenase ALDH2a, complete cds.
+ACCESSION   AB030939
+VERSION     AB030939.1  GI:8574428
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Li,Y., Nakazono,M., Tsutsumi,N. and Hirai,A.
+  TITLE     Molecular and cellular characterizations of a cDNA clone encoding a
+            novel isozyme of aldehyde dehydrogenase from rice
+  JOURNAL   Gene 249 (1-2), 67-74 (2000)
+   PUBMED   10831839
+REFERENCE   2
+  AUTHORS   Nakazono,M., Tsuji,H., Li,Y., Saisho,D., Arimura,S., Tsutsumi,N.
+            and Hirai,A.
+  TITLE     Expression of a gene encoding mitochondrial aldehyde dehydrogenase
+            in rice increases under submerged conditions
+  JOURNAL   Plant Physiol. 124 (2), 587-598 (2000)
+   PUBMED   11027709
+REFERENCE   3  (bases 1 to 1855)
+  AUTHORS   Nakazono,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-AUG-1999) Contact:Mikio Nakazono The University of
+            Tokyo, Laboratory of Plant Molecular Genetics, Grad.Sch.Agr.Life
+            Sci.; Yayoi 1-1-1, Bunkyo-ku, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1855
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="EST C10151"
+     gene            1..1855
+                     /gene="Aldh2a"
+     CDS             12..1673
+                     /gene="Aldh2a"
+                     /codon_start=1
+                     /product="mitochondrial aldehyde dehydrogenase ALDH2a"
+                     /protein_id="BAA96793.1"
+                     /db_xref="GI:8574429"
+                     /translation="MAARRAASSLLSRGLIARPSAASSTGDSAILGAGSARGFLPGSL
+                     HRFSAAPAAAATAAATEEPIQPPVDVKYTKLLINGNFVDAASGKTFATVDPRTGDVIA
+                     RVAEGDAEDVNRAVAAARRAFDEGPWPRMTAYERCRVLLRFADLIEQHADEIAALETW
+                     DGGKTLEQTTGTEVPMVARYMRYYGGWADKIHGLVVPADGPHHVQVLHEPIGVAGQII
+                     PWNFPLLMFAWKVGPALACGNAVVLKTAEQTPLSALFVASLLHEAGLPDGVLNVVSGF
+                     GPTAGAALSSHMGVDKLAFTGSTGTGKIVLELAARSNLKPVTLELGGKSPFIVMDDAD
+                     VDQAVELAHRALFFNQGQCCCAGSRTFVHERVYDEFVEKARARALQRVVGDPFRTGVE
+                     QGPQIDGEQFKKILQYVKSGVDSGATLVAGGDRAGSRGFYIQPTVFADVEDEMKIAQE
+                     EIFGPVQSILKFSTVEEVVRRANATPYGLAAGVFTQRLDAANTLARALRVGTVWVNTY
+                     DVFDAAVPFGGYKMSGVGREKGVYSLRNYLQTKAVVTPIKDAAWL"
+ORIGIN      
+        1 tgcagcttat catggcggca aggagggctg cttcctccct cctctctcgc ggcctcatcg
+       61 cgaggccttc tgctgcctcc tccactggcg actccgctat ccttggagca ggctcagcac
+      121 ggggcttctt gcctggatca cttcacagat tcagcgctgc accggccgcc gctgccaccg
+      181 ccgcagccac tgaggagccg atccagccgc cggtggacgt gaagtacacc aagctcctca
+      241 tcaatggcaa cttcgtcgat gcagcatctg ggaagacgtt cgcgacggtg gatccccgca
+      301 ccggcgatgt cattgcccgc gtggccgagg gcgacgcgga ggacgtcaac cgcgccgtcg
+      361 ccgccgcccg ccgggccttc gacgagggcc cgtggccgcg gatgaccgcc tacgagcggt
+      421 gcagggtgtt gctgcggttc gcggacctga tcgagcagca cgccgatgag atcgcggcgc
+      481 tggagacgtg ggacggcggg aagacgctgg agcagacgac ggggacggag gtgccgatgg
+      541 tggcgcggta catgcggtac tacggcgggt gggcggacaa gatccacggc ctcgtcgtgc
+      601 cggcggatgg gccacaccac gtgcaggtgc tacacgagcc catcggcgtg gccgggcaga
+      661 tcatcccctg gaacttcccg ctgctcatgt tcgcctggaa ggtcggcccg gcgctcgcct
+      721 gcggcaacgc cgtcgtgctc aagaccgccg agcagacgcc gctctccgcg ctcttcgtcg
+      781 ccagcctgct ccacgaggct ggcctccccg acggcgttct caacgtcgtc tccggctttg
+      841 gtccgaccgc cggcgccgct ctctccagcc acatgggtgt cgacaagctt gcattcaccg
+      901 gttcgacggg cacgggcaag atcgtgcttg agctggccgc aaggagcaac cttaagccgg
+      961 tgacgctgga gctcggaggc aaatcacctt tcatcgtcat ggatgacgcc gatgtcgacc
+     1021 aggccgtcga gcttgcgcac cgcgcgctct tcttcaacca ggggcaatgc tgctgcgcgg
+     1081 ggtcacgcac gttcgtgcac gagcgcgtct acgacgagtt cgtggagaag gccagggctc
+     1141 gcgctctgca gcgtgtggtc ggcgacccat tcaggacagg cgtcgagcag gggcctcaga
+     1201 tcgacggcga gcaattcaag aagatcttgc agtacgtcaa gtcgggcgtg gacagtggcg
+     1261 ccacactcgt ggccggcggc gacagggcgg gcagcagggg gttctacatc cagccaaccg
+     1321 tctttgcaga cgtcgaggac gaaatgaaga tcgcgcagga ggagatattc gggccggtgc
+     1381 agtccatcct caagttcagc acggtggagg aggtggtgcg gagggcgaac gcgacgccat
+     1441 acgggctggc ggcgggggtg ttcacccaga ggctggacgc ggcgaacacc ctggcgcggg
+     1501 cattgagggt cgggacggtg tgggtgaaca cctacgacgt gttcgacgcg gccgtcccgt
+     1561 tcggcggcta caagatgagc ggcgttggca gggagaaggg cgtctacagc ctccgcaact
+     1621 acctccagac caaggccgtc gtcacgccca tcaaggacgc cgcctggttg tagctgtagt
+     1681 aatcgatcct ttctctcctc catccccatc gccattgctg cgtgctatga ctgctatccc
+     1741 gtgctcttcc atatcagttg tcacttgtca gcgtgatgtc tctgaacaac gccagagatt
+     1801 gcgatgaata atggttaaat cgggcaatct tttgtacaaa aaaaaaaaaa aaaaa
+//
+

@@ -1,0 +1,71 @@
+LOCUS       AAX55226                 234 aa            linear   PLN 18-OCT-2005
+DEFINITION  undeveloped tapetum 1 [Oryza sativa Japonica Group].
+ACCESSION   AAX55226
+VERSION     AAX55226.1  GI:61742903
+DBSOURCE    accession AY953870.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 234)
+  AUTHORS   Jung,K.H., Han,M.J., Lee,Y.S., Kim,Y.W., Hwang,I., Kim,M.J.,
+            Kim,Y.K., Nahm,B.H. and An,G.
+  TITLE     Rice Undeveloped Tapetum1 is a major regulator of early tapetum
+            development
+  JOURNAL   Plant Cell 17 (10), 2705-2722 (2005)
+   PUBMED   16141453
+REFERENCE   2  (residues 1 to 234)
+  AUTHORS   Jung,K.-H., Han,M.-J., Kim,Y., Hwang,I. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAR-2005) Division of Molecular and Life Sciences,
+            Pohang University of Science and Technology, San 31, National
+            Research Laboratory of Plant Functional Genomics, Pohang, KyungBuk
+            790-784, Republic of Korea
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..234
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Dongjin"
+                     /db_xref="taxon:39947"
+                     /chromosome="7"
+                     /clone="BAC 57731"
+                     /tissue_type="anther"
+     Protein         1..234
+                     /product="undeveloped tapetum 1"
+                     /name="basic helix loop helix protein"
+     Region          60..114
+                     /region_name="HLH"
+                     /note="Helix-loop-helix domain, found in specific DNA-
+                     binding proteins that act as transcription factors; 60-100
+                     amino acids long. A DNA-binding basic region is followed
+                     by two alpha-helices separated by a variable loop region;
+                     HLH forms homo- and heterodimers; cd00083"
+                     /db_xref="CDD:238036"
+     Site            order(62..63,69..71,73,93,96)
+                     /site_type="DNA binding"
+                     /note="DNA binding region [nucleotide binding]"
+                     /db_xref="CDD:238036"
+     Site            70
+                     /site_type="other"
+                     /note="E-box/N-box specificity site"
+                     /db_xref="CDD:238036"
+     Site            order(76..77,80..81,83..84,97,100,104,106..107,111,
+                     113..114)
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238036"
+     CDS             1..234
+                     /gene="UDT1"
+                     /allele="udt1-1"
+                     /coded_by="join(AY953870.1:237..515,AY953870.1:740..910,
+                     AY953870.1:1431..1607,AY953870.1:1746..1823)"
+                     /note="major regulator of early tapetum development"
+ORIGIN      
+        1 mprrarargs gggggeevkv eddfvdsvln fggggggeed gddgeeeqqq qqaaaaamgk
+       61 efksknleae rrrrgrlngn ifalravvpk itkmskeatl sdaiehiknl qnevlelqrq
+      121 lgdspgeawe kqgsascses fvptenahyq gqvelislgs skynlkifwt kraglftkvl
+      181 ealcsykvqv lslntisfyg yaesfftiev kgeqdvvmve lrsllssive vpsi
+//
+

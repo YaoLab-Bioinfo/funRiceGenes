@@ -1,0 +1,78 @@
+LOCUS       AB028184                1751 bp    mRNA    linear   PLN 22-JAN-2000
+DEFINITION  Oryza sativa mRNA for OsNAC5 protein, complete cds.
+ACCESSION   AB028184
+VERSION     AB028184.1  GI:6730939
+KEYWORDS    OsNAC5; OsNAC5 protein.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kikuchi,K., Ueguchi-Tanaka,M., Yoshida,K.T., Nagato,Y.,
+            Matsusoka,M. and Hirano,H.Y.
+  TITLE     Molecular analysis of the NAC gene family in rice
+  JOURNAL   Mol. Gen. Genet. 262 (6), 1047-1051 (2000)
+   PUBMED   10660065
+REFERENCE   2  (bases 1 to 1751)
+  AUTHORS   Hirano,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAY-1999) Hiroyuki Hirano, Univ Tokyo, Graduate
+            School of Agricultural and Life Sciences; Yayoi 1-1-1, Bunkyo-ku,
+            Tokyo 113-8657, Japan (E-mail:ahirano@mail.ecc.u-tokyo.ac.jp,
+            Tel:+81-3-5841-5065, Fax:+81-3-5841-5063)
+FEATURES             Location/Qualifiers
+     source          1..1751
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1751
+                     /gene="OsNAC5"
+     CDS             106..1095
+                     /gene="OsNAC5"
+                     /codon_start=1
+                     /product="OsNAC5 protein"
+                     /protein_id="BAA89799.1"
+                     /db_xref="GI:6730940"
+                     /translation="MECGGALQLPPGFRFHPTDDELVMYYLCRKCGGLPLAAPVIAEV
+                     DLYKFNPWDLPERAMGGEKEWYFFSPRDRKYPNGQRPNRAAGTGYWKATGADKPVGSP
+                     RAVAIKKALVFYAGKPPKGVKTNWIMHEYRLADVDRSAAARKLSKSSHNALRLDDWVL
+                     CRIYNKKGVIERYDTVDAGEDVKPAAAAAAAKGGRIGGGGGAAAMKVELSDYGFYDQE
+                     PESEMLCFDRSGSADRDSMPRLHTDSSGSEHVLSPSPSPDDFPGGGDHDYAESQPSGG
+                     CGGWPGVDWAAVGDDGFVIDSSLFELPSPAAFSRAAGDGAAFGDMFTYLQKPF"
+     polyA_site      1731
+                     /gene="OsNAC5"
+                     /note="20 a nucleotides"
+ORIGIN      
+        1 cccctcgagg tcgacccacg cgtccgcttc cattagcgac taatccagcc ttcgttaagg
+       61 gtgattagaa tttgattaat ttcaaggcct cagatcggag attgaatgga gtgcggtggt
+      121 gcgctgcagc tgccgccggg gttcaggttc cacccgacgg acgacgagct ggtgatgtac
+      181 tacctgtgcc gcaagtgcgg cggcctcccc ctcgccgccc cggtgatcgc cgaggtggac
+      241 ctctacaagt tcaacccatg ggatctcccc gagagggcga tgggagggga gaaggagtgg
+      301 tacttcttct cgccgcggga ccggaagtac ccgaacgggc agcggccgaa cagggcggcg
+      361 gggacggggt actggaaggc gacgggggcg gacaagccgg tggggtcgcc gcgggcggtg
+      421 gcgatcaaga aggcgctcgt cttctacgcc gggaagccgc ccaagggcgt caagaccaac
+      481 tggatcatgc acgagtaccg cctcgccgac gtcgaccgct ccgccgccgc ccgcaagctc
+      541 tccaagtcct cccacaacgc cctcaggttg gatgattggg tgttgtgccg aatctacaac
+      601 aagaagggag tgatcgagag gtacgacacg gtggacgccg gcgaggacgt gaagccggcg
+      661 gcggcggcgg cggcggcgaa gggtggtcgc atcggcggcg gcggcggcgc ggcggcgatg
+      721 aaggtggagc tctccgacta tgggttctac gaccaggagc cggagtcgga gatgctgtgc
+      781 ttcgaccggt cggggtcggc ggaccgcgac tcgatgccgc ggctgcacac cgactccagc
+      841 gggtcggagc acgtgctgtc gccgtcgccg tcgccggacg acttccccgg cggcggcgac
+      901 cacgactacg ccgagagcca gcccagcggc ggatgcggcg ggtggcccgg cgtcgactgg
+      961 gccgccgtcg gcgacgatgg cttcgtcatc gacagctccc tcttcgagct gccctcgccg
+     1021 gcggcgttct cccgcgccgc cggcgacggc gccgccttcg gcgacatgtt cacgtacctg
+     1081 cagaagccgt tctaattaac ggaacgtgac gcctctgcaa acgctaatta gctcactaac
+     1141 cactgtcagg tcgatcgtgt aattctttta ccagtctagg gtacagccaa aaaaccaaaa
+     1201 attaaccgtg ctcgatcgat cgatcgatcc atggatcgat gatcgcctcc accggcagat
+     1261 caaaatcgaa gcaaaaaatc agggagaatt cttggtactt ccagtacctc tcgtcgacac
+     1321 cacgtgtcgg gttttctgca ccgcggatcc tcgctggccg catcgtaacg gcgagcgagg
+     1381 ttaaaaatag tggagaattc aagaacacat ccctgatttt tgtttctgcc ggatggggag
+     1441 taccgtgagc atggtagaaa tgactggtaa aattttcgtt gatgataggt agccagagtc
+     1501 gatgtaacca gtcgattttt tttttttttg gttttagttg acatgccttc ctgatagatt
+     1561 cagaacaaac aatagagaag agaggagaaa aaaacacaga ggagaaattc agagaccaaa
+     1621 gttcaaagtt ttggaatttt caggggcgcc agcagctgat ggtattgtca gtcgtgtcta
+     1681 ggttcgtaga ggaaattaaa atgtagaaga acgggtactt cagttcactt caaaaaaaaa
+     1741 aaaaaaaaaa a
+//
+

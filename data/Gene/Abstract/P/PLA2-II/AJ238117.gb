@@ -1,0 +1,78 @@
+LOCUS       AJ238117                 877 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for putative phospholipase A2, isoform II.
+ACCESSION   AJ238117
+VERSION     AJ238117.1  GI:4585707
+KEYWORDS    phospholipase a2; pla2-II gene.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Stahl,U., Lee,M., Sjoedahl,S., Acher,D., Cellini,F., Ek,B.,
+            Iannacone,R., MacKenzie,D.A., Semeraro,L., Tramontano,E. and
+            Stymne,S.
+  TITLE     Plant low-molecular-weight phospholipase A2S (PLA2s) are
+            structurally related to the animal secretory PLA2s and are present
+            as a family of isoforms in rice (Oryza sativa)
+  JOURNAL   Plant Mol. Biol. 41 (4), 481-490 (1999)
+   PUBMED   10608658
+REFERENCE   2  (bases 1 to 877)
+  AUTHORS   Stahl,U.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-APR-1999) Stahl U., Department of Plant Biology,
+            Swedish University of Agricultural Sciences, Box 7080, 75007
+            Uppsala, SWEDEN
+FEATURES             Location/Qualifiers
+     source          1..877
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="Green shoot"
+                     /dev_stage="8 days old green shoot"
+     gene            1..877
+                     /gene="pla2-II"
+     CDS             90..551
+                     /gene="pla2-II"
+                     /EC_number="3.1.1.4"
+                     /function="in lipid degradation by hydrolysing the sn-2
+                     acyl group of phospholipids."
+                     /codon_start=1
+                     /product="putative phospholipase A2"
+                     /protein_id="CAB40842.1"
+                     /db_xref="GI:4585708"
+                     /db_xref="GOA:Q9XG81"
+                     /db_xref="InterPro:IPR013090"
+                     /db_xref="InterPro:IPR016090"
+                     /db_xref="PDB:2WG7"
+                     /db_xref="PDB:2WG8"
+                     /db_xref="PDB:2WG9"
+                     /db_xref="UniProtKB/Swiss-Prot:Q9XG81"
+                     /translation="MRFFLKLAPRCSVLLLLLLVTASRGLNIGDLLGSTPAKDQGCSR
+                     TCESQFCTIAPLLRYGKYCGILYSGCPGERPCDALDACCMVHDHCVDTHNDDYLNTMC
+                     NENLLSCIDRVSGATFPGNKCNVGQTASVIRGVIETAVFAGKILHKRDDGQ"
+     sig_peptide     90..164
+                     /gene="pla2-II"
+     mat_peptide     165..548
+                     /gene="pla2-II"
+                     /product="putative phospholipase A2"
+                     /EC_number="3.1.1.4"
+ORIGIN      
+        1 cacctctcca cccgtttctt tctcggccca tccaacacgc gctcttgctt gaacgcgcaa
+       61 agagaaacac gacgggcgag gcgagcgaga tgaggttctt cctcaagctc gctcctcggt
+      121 gttccgtgct gcttctcctc ttgctggtga cggcgtcgcg ggggcttaac atcggcgacc
+      181 tgcttggcag cacgccggcg aaggaccagg gatgtagccg gacgtgcgaa tcccagtttt
+      241 gcacaattgc acctctgctg aggtacggca agtactgcgg gatcctctac agcgggtgcc
+      301 ccggcgagag gccatgcgac gcgctcgacg cctgctgcat ggtgcacgac cactgcgtcg
+      361 acacccacaa cgacgactac ctgaacacga tgtgcaacga gaacctgctg agctgcatcg
+      421 accgggtgag cggggcgacg ttcccgggga acaagtgcaa cgtcggccag acggcgtccg
+      481 tcatcagggg ggtcatcgag acggccgtgt tcgccggcaa gatcctccac aagcgcgacg
+      541 acggccaata gctagccacc acgtttcgca catacacacg ctgtacagtg aatcagtgat
+      601 agtacaaaga agcctagagg taataaaacc gcgcggcggc gtccaccggt ggccgtggcg
+      661 tggcggtgcg gcaaccagaa cgcggcatgc gcgcgcttgc tggcagctgg accacctgtg
+      721 gtttgtaggc gtaggcattg gacctcggtt gttggtgcgg caatggcgtt ggccactggc
+      781 gacggggagg agtaacatta tgctctgtta gtcaataaga cggaacatgt tacaaaaaaa
+      841 aaaaagaaat tattaaatgg aacatggttg gttattg
+//
+

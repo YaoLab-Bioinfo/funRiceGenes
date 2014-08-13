@@ -1,0 +1,68 @@
+LOCUS       RICRAG1                 1286 bp    DNA     linear   PLN 05-FEB-2008
+DEFINITION  Oryza sativa Japonica Group RAG1 gene for allergenic protein,
+            partial sequence.
+ACCESSION   D11433
+VERSION     D11433.1  GI:218198
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Adachi,T., Izumi,H., Yamada,T., Tanaka,K., Takeuchi,S., Nakamura,R.
+            and Matsuda,T.
+  TITLE     Gene structure and expression of rice seed allergenic proteins
+            belonging to the alpha-amylase/trypsin inhibitor family
+  JOURNAL   Plant Mol. Biol. 21 (2), 239-248 (1993)
+   PUBMED   7678765
+REFERENCE   2  (bases 1 to 1286)
+  AUTHORS   Adachi,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-1992) Contact:Takahiro Adachi Nagoya University,
+            Dept. of Food Science and Technology; Chikusa-ku, Nagoya, Aichi
+            464-01, Japan
+FEATURES             Location/Qualifiers
+     source          1..1286
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     TATA_signal     926..935
+     mRNA            975..>1286
+     gene            1001..>1286
+                     /gene="RAG1"
+     CDS             1001..>1286
+                     /gene="RAG1"
+                     /note="alpha-amylase/trypsin inhibitor family"
+                     /codon_start=1
+                     /product="allergenic protein"
+                     /protein_id="BAA01999.1"
+                     /db_xref="GI:218199"
+                     /translation="MASNKVVFSVLLLVVLSVLAAAMATMADHHQVYSPGEQCRPGIS
+                     YPTYSLPQCRTLVRRQCVGRGASAADEQVWQDCCRQLAAVDDGWCRCGALD"
+ORIGIN      
+        1 tcacgtcaag tgtagctggg atgtcctcat caaagatccc gcataatttt ttccctcaga
+       61 gtctttccca atgagtattg tttactttga aataactaac atcatcgata tgataaaccg
+      121 acattaagaa taaatacatt tatggaaaaa cattaagctc aatccccaag ctaacaatac
+      181 tcattttttc cttttgcaaa ttagcaaaca ttctttgaag acaaaggaaa ctttgttgat
+      241 cttacaaatt acatcaaggt gttattactt caagaccact tccgatatga cataacaaca
+      301 aaatcatgcc acgggtagct ataaacataa tttgctttga actatccttt tcgtcattaa
+      361 acaaattgga taaatataaa tatcaaaaga ttttgttacc catagtacta tatgtctgtt
+      421 gacggtgtgc atttcttttc ttacacggaa gaatgaaaat gagttcaaat aattaaagag
+      481 tgtggtccat atcaatccac tttaaaccaa ctttttgtca aaatatataa tgctcagatt
+      541 agccgtgaat aacaaaaaat atttcatgca aaaccacaag caaattgctc atgccagtca
+      601 tgcaaaaccc caagagcata ctaaccacgc atgaacagct aaaacaattt tgtggccgtt
+      661 cttcaaagtt gaatcacttt aattagtctt tctatagcca catatagcat ttattttctt
+      721 ccacgtaagg atcaaacaaa ttcaaataat taaagagtgt agtacatatc aatccacttt
+      781 aaccatctgt tgtccatatg atgccccaga ttaggcgtgt gaatcacaat agatgtttca
+      841 tacagaacca caagcaaatc cataaatagc tcatgaacag ccaaaaaatt tctatctgtt
+      901 cttgaatcac tttggtcttt atagctatat ataaaaccac ccagagacga agagcctagc
+      961 tatcacagtt aattaagatt tttcacaaac taagcaaaat atggcttcca acaaggtagt
+     1021 gttctcggta ttgctcctcg tcgttctctc cgtgctcgcg gcggcgatgg cgaccatggc
+     1081 ggaccaccac caagtctaca gccccggtga gcaatgtcgg ccaggaataa gctatccgac
+     1141 atactcactc ccgcaatgtc gaacattggt gaggcgccaa tgcgttggcc gtggcgccag
+     1201 cgccgcggac gagcaagtct ggcaagactg ctgccggcag ctcgccgccg tcgacgacgg
+     1261 ctggtgcagg tgcggggcgc tcgatc
+//
+

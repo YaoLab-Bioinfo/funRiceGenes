@@ -1,0 +1,100 @@
+LOCUS       EU889295                2494 bp    DNA     linear   PLN 28-AUG-2008
+DEFINITION  Oryza sativa Indica Group cultivar NJ11 S5 (S5) gene, complete cds.
+ACCESSION   EU889295
+VERSION     EU889295.1  GI:196212951
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2494)
+  AUTHORS   Chen,J., Ding,J., Ouyang,Y., Du,H., Yang,J., Cheng,K., Zhao,J.,
+            Qiu,S., Zhang,X., Yao,J., Liu,K., Wang,L., Xu,C., Li,X., Xue,Y.,
+            Xia,M., Ji,Q., Lu,J., Xu,M. and Zhang,Q.
+  TITLE     A triallelic system of S5 is a major regulator of the reproductive
+            barrier and compatibility of indica-japonica hybrids in rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (32), 11436-11441 (2008)
+   PUBMED   18678896
+REFERENCE   2  (bases 1 to 2494)
+  AUTHORS   Ouyang,Y., Chen,J., Ding,J. and Zhang,Q.
+  TITLE     A triallelic system of S5 is a major regulator of the reproductive
+            barrier and compatibility of indica-japonica hybrids in rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2494)
+  AUTHORS   Ouyang,Y., Chen,J., Ding,J. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUL-2008) National Key Laboratory of Crop Genetic
+            Improvement and National Centre of Plant Gene Research, Huazhong
+            Agricultural University, Wuhan, Hubei 430070, China
+FEATURES             Location/Qualifiers
+     source          1..2494
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="NJ11"
+                     /db_xref="taxon:39946"
+     gene            1..2494
+                     /gene="S5"
+     mRNA            join(1..275,691..2033,2202..2494)
+                     /gene="S5"
+                     /product="S5"
+     CDS             join(158..275,691..1991)
+                     /gene="S5"
+                     /codon_start=1
+                     /product="S5"
+                     /protein_id="ACG76112.1"
+                     /db_xref="GI:196212952"
+                     /translation="MVILEQPQLLLLLLLLVAAAAATGATAADDELECPSSIFDHAVN
+                     SQGAIQFPVFHKKHQCLRPWSVRATQASSTGASGAGKGGGLNNLQEEEITSSSSTKID
+                     VIEDSSINDFLFLMAVSLGKPPVVNLVAIDTGSTLSWVQCQPCAVHCHTQSAKAGPIF
+                     DPGRSYTSRRVRCSSVKCGELRYDLRLQQANCMEKEDSCTYSVTYGNGWAYSVGKMVT
+                     DTLRIGDSFMDLMFGCSMDVKYSEFEAGIFGFGSSSFSFFEQLAGYPDILSYKAFSYC
+                     LPTDETKPGYMILGRYDRAAMDGGYTPLFRSINRPTYSLTMEMLIANGQRLVTSSSEM
+                     IVDSGAQRTSLWPSTFALLDKTITQAMSSIGYHRTSRARQESYICYLSEHDYSGWNGT
+                     ITPFSNWSALPLLEIGFAGGAALALPPRNVFYNDPHRGLCMTFAQNPALRSQILGNRV
+                     TRSFGTTFDIQGKQFGFKYAAC"
+ORIGIN      
+        1 atcaacccat ttcctttcct acgtttgact gcctgcctgc ccctgagcaa gcaagaaaga
+       61 aagaaagaag ggattaaatt tgctcgctcc tacgaatcct gcccctgagt aacaatgact
+      121 gacttttaat ttgtttgcag ctagggtggg gatcgagatg gtgatcttgg agcagccaca
+      181 gctgctcctt cttcttcttc ttcttgtagc agctgcagct gcaaccggcg ccacagcagc
+      241 cgacgacgag ttggagtgtc cctcctccat cttcggtaag tagcaaagca cagtatgaca
+      301 ttcacgaatg catgtcatga tctatcactc cctttgtctt cgctacatta catactctgc
+      361 ctgtgtttac ctactgtacc cgtcttcaat tcaatttgct gttggctccc gcgctttccc
+      421 gaagccgcgt gtagtagtat cataaaagta ggagtagatc tttaatttgc ccggcgaaaa
+      481 ctgctcctag tggtagatct ttggctcgga tcggagaaga tattatagct gtactctgat
+      541 cgagagcatg catgcttgtt aatccgatcg agcgtattcc tctgagtttg ttatgctctg
+      601 atattgtaat tgtggctgga taattttcaa gaaaaaaaaa tcggttacat acatgcattt
+      661 gcactaatta actagattgt gcatcaacag atcacgctgt gaactctcaa ggcgccattc
+      721 agttccccgt gttccacaag aagcaccaat gcctccgccc atggtctgtc cgtgcaaccc
+      781 aggcatcctc gaccggagca tcaggagcag gaaaaggagg aggattgaac aatctacagg
+      841 aagaggagat cacttcatca agtagtacaa aaatcgacgt gatcgaagac agcagcatca
+      901 acgacttcct gttcctaatg gccgtcagtc tgggcaagcc accggttgtg aacctggtgg
+      961 cgatcgacac gggatccacc ctctcgtggg tgcaatgcca gccgtgcgcg gtgcactgcc
+     1021 acacgcagtc cgcgaaggcc ggcccgatat tcgatcccgg cagatcctac acatcccggc
+     1081 gagttcgctg ctcgtcggtc aagtgcggcg agctgaggta cgatctgcgg ctccagcaag
+     1141 ccaattgcat ggagaaggaa gacagctgca cgtacagcgt cacgtacggg aacgggtggg
+     1201 cgtacagcgt gggcaagatg gtgacagaca cgctgaggat tggggactcg tttatggatc
+     1261 tcatgttcgg gtgcagcatg gatgtcaagt acagcgaatt cgaggccggc atctttggtt
+     1321 tcggcagcag cagcttctct ttcttcgagc agctggcagg gtaccctgat attctgagtt
+     1381 acaaggcatt cagctactgc ttgcccactg acgagaccaa gcccggatac atgatcctgg
+     1441 gaagatacga ccgtgccgcc atggatgggg gttacactcc tctcttccgg tcaatcaaca
+     1501 ggccaaccta ctcactgacg atggagatgc ttatcgccaa cgggcagaga ttggtgacat
+     1561 cgtcttcgga gatgatcgtc gattccgggg cccagaggac gtccctgtgg ccttccactt
+     1621 ttgctctcct tgacaagacc atcacgcagg caatgtcgtc gattgggtat caccggacat
+     1681 caagagcgcg ccaagaatca tacatctgct acttatcgga gcacgactat tctggttgga
+     1741 acggcaccat cacgcccttc tccaactggt ccgccttgcc tctgctggag atcggcttcg
+     1801 ccggcggtgc tgcactcgct ttgccaccca gaaacgtctt ctacaacgat ccacaccgcg
+     1861 gtttgtgcat gacctttgct cagaatcctg ctctcaggtc tcagatactg gggaacaggg
+     1921 ttactcgatc cttcggaaca accttcgaca tccaggggaa acaattcggc ttcaaatatg
+     1981 ccgcttgctg atcgtcgatt attcctcatc ctatgatatc ttatagcttg cgggtacgta
+     2041 ccaagtatat atcaaactaa ttgcatacat gctctccctc cctctgtcca tgcatgtcct
+     2101 cgtttcattg caaatctgca tcgatcaatc cagttactga taattcctcc ttattaactt
+     2161 aggctgatcg atccattgct tctcgtgtgt atattatgca ggtcgattaa ttagctggtt
+     2221 tgcccaaata actgatcgga ttggagtctt ctcccgcgct acactacccc tagctgcgat
+     2281 cgtatcacaa gctagcggta cttgatttgg gacctaattc gttcaaaaaa acttggcagc
+     2341 ttaatttggg acctagtagc tagctgagcc actactagat gtttacgtac cagctatccg
+     2401 tcgtttgttt gtgtctcctg tgcttgtgct aaacctatct cttgaaccgt tcgtgccaac
+     2461 ttaattattt ggtcgtatgt cctaattgtt gatc
+//
+

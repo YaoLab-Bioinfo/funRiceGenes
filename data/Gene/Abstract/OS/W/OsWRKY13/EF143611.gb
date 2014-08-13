@@ -1,0 +1,102 @@
+LOCUS       EF143611                2946 bp    DNA     linear   PLN 12-JUN-2007
+DEFINITION  Oryza sativa (indica cultivar-group) defense-responsive protein
+            WRKY13 (WRKY13) gene, complete cds.
+ACCESSION   EF143611
+VERSION     EF143611.1  GI:132566304
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2946)
+  AUTHORS   Qiu,D., Xiao,J., Ding,X., Xiong,M., Cai,M., Cao,Y., Li,X., Xu,C.
+            and Wang,S.
+  TITLE     OsWRKY13 mediates rice disease resistance by regulating
+            defense-related genes in salicylate- and jasmonate-dependent
+            signaling
+  JOURNAL   Mol. Plant Microbe Interact. 20 (5), 492-499 (2007)
+   PUBMED   17506327
+REFERENCE   2  (bases 1 to 2946)
+  AUTHORS   Wang,S. and Qiu,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-NOV-2006) National Key Laboratory of Crop Genetic
+            Improvement, Huazhong Agricultural University, Wuhan 430070, China
+FEATURES             Location/Qualifiers
+     source          1..2946
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Minghua 63"
+                     /db_xref="taxon:39946"
+                     /chromosome="1"
+     gene            <1092..>2286
+                     /gene="WRKY13"
+     mRNA            join(<1092..1294,1390..1539,1689..>2286)
+                     /gene="WRKY13"
+                     /product="defense-responsive protein WRKY13"
+     CDS             join(1092..1294,1390..1539,1689..2286)
+                     /gene="WRKY13"
+                     /note="WRKY transcription factor"
+                     /codon_start=1
+                     /product="defense-responsive protein WRKY13"
+                     /protein_id="ABO34049.1"
+                     /db_xref="GI:132566305"
+                     /translation="MAAGEEVMDRSTSAEDGYCSAGTDSPRAESVDEQGAAEESSPRG
+                     GQKRELPSPSASPSSPLPPAAKRSRRSVEKRVVSVPIAECGDRPKGAGEGPPPSDSWA
+                     WRKYGQKPIKGSPYPRGYYRCSSSKGCPARKQVERSRADPTVLLVTYSFEHNHPWPQP
+                     KSSSCHASKSSPRSTAPKPEPAADGQQPEPAENESSASAELEVPEPEPEQESEPVVKQ
+                     EEEQKEEQKAVVEPAAVTTTVAPAPAVEEEDENFDFGWIDQYHPTWHRSYAPLLPPEE
+                     WERELQGDDALFAGLGELPECAVVFGRRRELGLAATAPCS"
+ORIGIN      
+        1 tcagngggtt tggccncctg ncgtgaaccc ccgtganatg ngattattcg tnaggtagat
+       61 catcgatcca agttttttca cgtgtccnct tgtagtaggg atcctccncg gttngatcga
+      121 gtccrrcgcc cmgacggatt gctamcaaac aatacataat cttctctttt tttgttgttg
+      181 agatatatat gatcacgtca cagggcggca ctggttctgg aggttcgtct gtgaattaaa
+      241 ccacgctaaa gtacagggta tccgtatagt attccttctc atgtacgatc tggtgtgtat
+      301 tgtgtttcca cggggatagc agcagaagca cggggatgat tggccagatc gggttaggga
+      361 gggggtcgcc atcgccgcct gcactagatt aatcgctcgc cccggcccag aacgtcgctc
+      421 tctccgtccg tccccggctc gccaccatct cctcctccaa gacgcaactt cgagagtgag
+      481 agagagagag aatcgagaga tccaatccag tttgcgcaac gagtggcatg gcatgcaacc
+      541 gatctagaac gtcaaataaa aacaacgcca tgcgtacata cacgttcatg tgccgcgcgc
+      601 cggtgtagcg cagcgtagag agagagagag agagagagta tggtagtctt cctacgctcg
+      661 gtcagtgaca gcgtcgcggc gcataaagaa aggcatccac tagcaggagc cagcatacgc
+      721 tgccgcatat acaaacacgc atgtagccaa ggcgaggaga gagagagaga gagagagaga
+      781 gagggagatc attgaaagct gcacccatcc gtttgttcgc caccatttcc atcccctcca
+      841 tcatgagctc caattagtcg cacaccgatc ccctcctctt cttccccccc ttctcctctc
+      901 tcctcttttt ttcctcatcc gtgcgcgata ctgcgcttag tttgtgggtg gggggagtga
+      961 tcatcaccaa agccacaaag ggggcgcgga gagatattat atattctttg ggaaagcgtt
+     1021 ggattagttt ttctcgcttt gggcttttta tccggagttg gagtgtgtgt gcgccgggag
+     1081 tggtggtggt gatggcggca ggagaggagg tgatggatcg gtcgacgtcg gccgaggacg
+     1141 ggtactgcag cgccggcacg gactcgccgc gggcggagtc cgtcgacgag caaggggccg
+     1201 ccgaggagtc gtcgccccgg ggagggcaga agcgggagct cccctcgccg tcggcttcgc
+     1261 cgtcgtcccc gctgccacct gccgcgaagc gcaggtacgg ataatattat ggctcggtct
+     1321 gcgattgatt aaagccctag gtaggattta gggatagagg attgattggt gtttggttgg
+     1381 tttgagcagc cggaggtcag tggagaagcg ggtggtgtcc gtgccgatcg cggagtgcgg
+     1441 cgaccggccg aagggcgccg gggaggggcc gccgccgtcg gactcgtggg cctggcgcaa
+     1501 gtacggccag aagcccatca agggctctcc ctacccaagg taattaggct ttatattcag
+     1561 tttggttgat attcttgagc ctgttgatta gttgccgtgc tgattaatca ctgcaattag
+     1621 atcagttaaa cggttgttga agtggcaaga tttaatttgg gtttgttgct tgtgtttatt
+     1681 atgctcaggg ggtactacag gtgcagtagc tccaaggggt gtccggcgag gaagcaggtg
+     1741 gagcgcagcc gcgccgaccc caccgtgctg ctcgtcacct actccttcga gcacaaccac
+     1801 ccgtggccgc agcccaagag cagcagctgc cacgcgagca agtcgtctcc ccggtcgacg
+     1861 gcgccaaagc ctgagccggc ggctgacgga cagcagcccg agccagcgga gaacgaatcg
+     1921 tcggcgtcgg cggagctgga ggtaccggag ccggagccgg agcaggaatc tgagccggtt
+     1981 gtgaagcagg aggaggagca gaaggaggaa cagaaggctg tggttgagcc ggcggcggtc
+     2041 acaaccacgg tggcgccggc gccggcggtc gaggaggagg atgagaactt cgacttcgga
+     2101 tggatcgacc agtaccaccc gacgtggcac cggtcgtacg cgccgctgct gccgccggag
+     2161 gagtgggagc gcgagctgca aggggacgac gcgctgttcg cggggctcgg cgagctcccg
+     2221 gagtgcgccg tcgtgttcgg ccgccggcgc gagctcggcc tggcggccac cgcgccgtgc
+     2281 tcctgatgat cacctcctct tttctttttc ctcccctttt acaatttccc tttttttttt
+     2341 tgcttttctt tagttctcct tggagtaatt tggattggag attagtacat agcttgggtg
+     2401 atcaatggga gtgagtggct taacttgttc aagagagcct cctattccca ctctccaaat
+     2461 tgcgtcgcgt gttcgtcatc caaagcccgt cgtgccgttt ccgaagtggt tggcgacgtg
+     2521 attccaacga caaaaaagca gcgaaaggtg ggcattttca ggcgtttttc ctcgccgtct
+     2581 gtgtcgaata gacgcgcaca tcgatcgctc caaggcccat cccgccgagt gagtgatgag
+     2641 tgagttaggt ttctccgcac gcacgcacgc acgtccccac cggctgcggc ttgcaagtgg
+     2701 gggcctctcg tctcgtccga tgcggaatcc aacggtaagc ggcactggca ttagccgggc
+     2761 aagcgttttc ggcgtggtag ttggaacttg gaaggatgcg cgcgcacgag gccacatgcc
+     2821 cgggtagtgt ggcgctgcca cggatccacc cgcgggacgc gtgccgcgcc ttcccgcctt
+     2881 gccggccacg gcccacggcc ggctgccgcc gccccggtcc gngggcgcta cgcctangcg
+     2941 cgagcg
+//
+

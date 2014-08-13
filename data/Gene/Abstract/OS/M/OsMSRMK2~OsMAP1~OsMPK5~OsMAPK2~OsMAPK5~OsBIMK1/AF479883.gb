@@ -1,0 +1,78 @@
+LOCUS       AF479883                1396 bp    mRNA    linear   PLN 04-MAR-2003
+DEFINITION  Oryza sativa MAP kinase MAPK5a (MAPK5) mRNA, complete cds,
+            alternatively spliced.
+ACCESSION   AF479883
+VERSION     AF479883.1  GI:19401851
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1396)
+  AUTHORS   Xiong,L. and Yang,Y.
+  TITLE     Disease resistance and abiotic stress tolerance in rice are
+            inversely modulated by an abscisic acid-inducible mitogen-activated
+            protein kinase
+  JOURNAL   Plant Cell 15 (3), 745-759 (2003)
+   PUBMED   12615946
+REFERENCE   2  (bases 1 to 1396)
+  AUTHORS   Xiong,L., Qi,M. and Yang,Y.
+  TITLE     Molecular cloning and characterization of a novel MAP kinase,
+            OsMAPK5, in rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1396)
+  AUTHORS   Xiong,L., Qi,M. and Yang,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-FEB-2002) Plant Pathology, University of Arkansas,
+            217 Plant Science Building, Fayetteville, AR 72701, USA
+FEATURES             Location/Qualifiers
+     source          1..1396
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1396
+                     /gene="MAPK5"
+                     /note="OsMAPK5"
+     CDS             78..1187
+                     /gene="MAPK5"
+                     /note="blast fungus and ABA-inducible; alternatively
+                     spliced"
+                     /codon_start=1
+                     /product="MAP kinase MAPK5a"
+                     /protein_id="AAL87689.1"
+                     /db_xref="GI:19401852"
+                     /translation="MDGAPVAEFRPTMTHGGRYLLYDIFGNKFEVTNKYQPPIMPIGR
+                     GAYGIVCSVMNFETREMVAIKKIANAFNNDMDAKRTLREIKLLRHLDHENIIGIRDVI
+                     PPPIPQAFNDVYIATELMDTDLHHIIRSNQELSEEHCQYFLYQILRGLKYIHSANVIH
+                     RDLKPSNLLLNANCDLKICDFGLARPSSESDMMTEYVVTRWYRAPELLLNSTDYSAAI
+                     DVWSVGCIFMELINRQPLFPGRDHMHQMRLITEVIGTPTDDELGFIRNEDARKYMRHL
+                     PQYPRRTFASMFPRVQPAALDLIERMLTFNPLQRITVEEALDHPYLERLHDIADEPIC
+                     LEPFSFDFEQKALNEDQMKQLIFNEAIEMNPNIRY"
+ORIGIN      
+        1 agagagtcag ataaggtcgt taattaggtt ggtcaattcg gctgcttgcg gcgagagaag
+       61 aggaggaggg attagggatg gacggggcgc cggtggcgga gttcaggccg acgatgacgc
+      121 acggcggccg gtacctgctc tacgacatct tcgggaacaa gttcgaggtg acgaacaagt
+      181 accagccgcc catcatgccc attggccgcg gcgcctacgg gatcgtctgc tccgtgatga
+      241 actttgagac gagggagatg gtggcgataa agaagatcgc caacgcgttc aacaacgaca
+      301 tggacgccaa gcgcacgctc cgggagatca agctcctcag gcacctcgac cacgagaaca
+      361 tcataggcat cagggatgtg atcccgccgc cgatccctca ggcgttcaac gacgtctaca
+      421 tcgccacgga gctcatggac accgacctcc atcacatcat ccgctccaac caagaactgt
+      481 cagaagagca ctgccagtat ttcctgtacc agatcctgcg ggggctcaag tacatccact
+      541 cggcgaacgt gatccaccgc gacctgaagc cgagcaacct gctgctgaac gccaactgcg
+      601 acctcaagat ctgcgacttc gggctggcgc ggccgtcgtc ggagagcgac atgatgacgg
+      661 agtacgtggt cacccggtgg taccgcgcgc cggagctgct gctcaactcc accgactact
+      721 ccgccgccat cgacgtctgg tccgtcggct gcatcttcat ggagctcatc aaccgccagc
+      781 cgctcttccc cggcagggac cacatgcacc agatgcgcct catcaccgag gtgatcggga
+      841 cgccgacgga cgacgagctg gggttcatac ggaacgagga cgcgaggaag tacatgaggc
+      901 acctgccgca gtacccgcgc cggacgttcg cgagcatgtt cccgcgggtg cagcccgccg
+      961 cgctcgacct catcgagagg atgctcacct tcaacccgct gcagagaatc acagttgagg
+     1021 aggcgctcga tcatccttac ctagagagat tgcacgacat cgccgatgag cccatctgcc
+     1081 tggagccctt ctccttcgac ttcgagcaga aggctctaaa cgaggaccaa atgaagcagc
+     1141 tgatcttcaa cgaagcgatc gagatgaacc caaacatccg gtactagatt gaatcaccat
+     1201 ggaaatgaga tcccgtctat acctgctttg tacatatgat caagattgag agccgggtag
+     1261 actgaacatt gcatttgttt gtttgttgat gttcgaaacc cacattctct gcaagttgtg
+     1321 gctgctttgt atgatatatg gtactatgtt cgaataaaag ggtttggaac tttggattaa
+     1381 aaaaaaaaaa aaaaaa
+//
+

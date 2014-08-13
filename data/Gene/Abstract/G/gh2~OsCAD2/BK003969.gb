@@ -1,0 +1,136 @@
+LOCUS       BK003969                4183 bp    DNA     linear   PLN 03-FEB-2006
+DEFINITION  TPA_exp: Oryza sativa (japonica cultivar-group) cinnamyl alcohol
+            dehydrogenase (CAD2) gene, complete cds.
+ACCESSION   BK003969
+VERSION     BK003969.1  GI:64519465
+KEYWORDS    Third Party Data; TPA; TPA:experimental.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 4183)
+  AUTHORS   Tobias,C.M. and Chow,E.K.
+  TITLE     Structure of the cinnamyl-alcohol dehydrogenase gene family in rice
+            and promoter activity of a member associated with lignification
+  JOURNAL   Planta 220 (5), 678-688 (2005)
+   PUBMED   15452707
+REFERENCE   2  (bases 1 to 4183)
+  AUTHORS   Tobias,C.M. and Chow,E.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-NOV-2003) Genomics and Gene Discovery Unit, U.S.
+            Department of Agriculture, Agricultural Research Service, Western
+            Regional Research Center, 800 Buchanan Street, Albany, CA 94710,
+            USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-4183              AP004046.1         94860-99042
+            125-348             AK105011.1         36-259
+            1174-1286           AK105011.1         260-372
+            1914-2142           AK105011.1         372-600
+            3185-3999           AK105011.1         601-1415
+FEATURES             Location/Qualifiers
+     source          1..4183
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+                     /clone="OJ1145_F01"
+     gene            84..3999
+                     /gene="CAD2"
+                     /note="syntenic with Zea mays bm1 gene"
+     TATA_signal     84..89
+                     /gene="CAD2"
+     mRNA            join(125..347,1173..1286,1915..2142,3185..3999)
+                     /gene="CAD2"
+                     /product="cinnamyl alcohol dehydrogenase"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     CDS             join(259..347,1173..1286,1915..2142,3185..3845)
+                     /gene="CAD2"
+                     /EC_number="1.1.1.195"
+                     /note="OsCAD2"
+                     /codon_start=1
+                     /product="cinnamyl alcohol dehydrogenase"
+                     /protein_id="DAA02237.1"
+                     /db_xref="GI:64519466"
+                     /translation="MGSLAAEKTVTGWAARDASGHLTPYNYTLRKTGPEDVVVKVLYC
+                     GICHTDIHQAKNHLGASKYPMVPGHEVVGEVVEVGPEVTKYSAGDVVGVGVIVGCCRE
+                     CHPCKANVEQYCNKRIWSYNDVYTDGRPTQGGFASAMVVDQKFVVKIPAGLAPEQAAP
+                     LLCAGLTVYSPLKHFGLMSPGLRGGVLGLGGVGHMGVKVAKSMGHHVTVISSSARKRG
+                     EAMDDLGADAYLVSSDAAAMAAAGDSLDYIIDTVPVHHPLEPYLALLKLDGKLILMGV
+                     INQPLSFISPMVMLGRKAITGSFIGSMAETEEVLNFCVDKGLTSQIEVVKMDYVNQAL
+                     ERLERNDVRYRFVVDVAGSNIDDADAPPA"
+ORIGIN      
+        1 tggcacgatc tccgaggcag ccagccttca ccaacccctc ttccccctct cagtcacgac
+       61 ccgtccaacg cgatgttttc ctttaattat atatactcgc tgcgggacgc accaccccct
+      121 ctccagaatt cagcgagaga gagcgaatca gccactgcac ttcttgttct tgttctcttc
+      181 ctcctcccga atccgatcca tccattggcc gccgccgccg ccgccgcctc gtgcgtcgcg
+      241 tgttcgtgtc cagagacgat gggcagcctc gccgccgaga agaccgtcac cgggtgggcc
+      301 gccagggacg cctccggcca cctcaccccc tacaactaca ccctcaggta tgatatgata
+      361 tgatcgatca ccctctcctt ctcgatcttg ttcttgcaag ttttgcttaa ggtcggtaga
+      421 aacggaggga ttaggtttta gtttctcttt tgtctcaatt ctgaaactct ggtacatgcg
+      481 ttctactaca gtttagttgt tcagatggtt cgtttctgaa tttctgaaaa ctgatggcgt
+      541 tccagtgctt tagttgttta gatgcccccg tgttttaatt tgtttgtgtt catgtcatct
+      601 gcctcgagta caactcagat tgtttctgcc tcttggccaa agtgtgaaga ggtgaagaga
+      661 gcaattggat ttcttttttc ttttttgggc tcctccattc gatccattcc acacttccca
+      721 cgtgagtttg actctatttt gtattcctgc tcctctccta gtataagtcc aacatgaaga
+      781 gtatagtggt gtagtactag tgtactacca aaactgcttc acctaccgcc aattggctat
+      841 tgcaatcatc gtcacgtctt ggttttgttg ggtgaaagga acagaatccc tgaatccgga
+      901 gcagttgtgg caaacagaca gaatgcatgg agttcttttt ggctagttgc ctggctccac
+      961 atatatatat tttcagaagc attctttata attttctaat atatatattt gctatgcaat
+     1021 tctcgtgcca tgcctcctta aagaaaagga ggattatata tatatcaata atttccttga
+     1081 gttgtcttct tgtagaatgg aataactgaa gaagcatctt atgcaacaga tcaactaatg
+     1141 ttcttttttt ttcctgtatg tggtggtacc aggaagactg ggcctgaaga tgtggtggtg
+     1201 aaggttttgt attgtggtat ctgccatact gacatccacc aggccaagaa ccaccttggt
+     1261 gcttccaagt accccatggt ccctgggtaa gattattcac agttatctag atggatcatg
+     1321 gctcatgtca atggagatct tctactagca attgatttga tggtgtattc tatagtagac
+     1381 tgaagataaa cttattaact gattgggata acaaacatat cagaaaagag taggcactag
+     1441 taactagcaa atctggtcag tgcttttttc agatttacaa aaggcataga tgcacatgca
+     1501 ccactatatc acactccttt ggaacagaaa gataagttag tgcatcgctt ttagcatttt
+     1561 tcttttttga tcaacacctt tcatgacagg tatagtacag attagatgca ccatcagttt
+     1621 cagagacacg tgtaaagaaa acctcagcga gaaccttccc tgatctgatg ggctttaaat
+     1681 aagcacacga tagatcccca acaccaggct gaaaaatgat gcctaattag tagtaattta
+     1741 gtactactac accatctgca tgtcgtacta agtatgcaac aataattggt tggattaatt
+     1801 agttggtgac caagaattcc tttttccagt acacttccat tgtcgtacca atattcagtc
+     1861 atgtgttgga ttttgtcggt gaccaagaaa attctctcct cttctcgtct gcagccatga
+     1921 ggtggtcggc gaggtggtgg aggtcgggcc ggaggtgacc aagtacagcg ccggcgacgt
+     1981 cgtcggcgtc ggcgtcatcg tcggctgctg ccgcgagtgc catccgtgca aggccaatgt
+     2041 ggagcagtac tgcaacaaga ggatttggtc ctacaacgac gtctacaccg acggccggcc
+     2101 aacccagggc ggcttcgcct ccgccatggt cgtcgaccag aagtgagtgc taaacacagc
+     2161 tttactccaa caagtaatca ccaaccaact gatcacgata tcattatcat attatcatat
+     2221 tgtcagtgtt ctaggtagag aaaactagac tggacttttc cgaacatcca aagtaaagtc
+     2281 cagtctgtta gaaaattttg tggagaaaat gtcatctgag actgaaagag atgtcgagaa
+     2341 gtcggtactg tgttgagtgt aaagtgagaa gtcaccaaag ttaggtataa agtgttgatt
+     2401 aactgataag tcctcaccta ccccggtcca ttagtccatt tgttgttgga agaattgctt
+     2461 cttgaacaga gcaaaagttg gattgttgca tagcgtcgtt gtagtcagtt ggtaaactag
+     2521 cagagacagt gaaatgttgg gctcattttg tttggtgcgc taccaaatca ttggtagcgt
+     2581 caaatcatgg tcaagatttg gcactaccaa tattttagta tagttggttt ataagagcaa
+     2641 gttcaatagt aaagttaact gccggctcca aaattcacca cattatttaa gagataacta
+     2701 aacaatggta gatacagtaa ttggctacac ccatgcttta accaaggcat cctgtcaggt
+     2761 gttggtaact tctgcatgtt caagttctaa ttttcgattg gttgtcccga gctgcagggg
+     2821 gccagagcgc ctaggcgctc gtgcttgagc cggtgactgg attgtcgtcc gctttgctct
+     2881 ctctgctttc cctctctcta tcatatatgt taaaatatta ggtaagcagg ctattagcct
+     2941 gctattgtac ctgctctaag agttgtatta cctttggtaa attttgacat cattacaaac
+     3001 atatacatgg tactatttaa agtgccaact atttgatagg gcaaattctg gcatcaaacc
+     3061 aaaacatccc gtgatttttg atccacctgc ctaatctgaa agttgtcacg tcttaaaaag
+     3121 attaaaatat ttggttagtg agatggtaag aaactagtaa aaaaagtaat gaatttgtgt
+     3181 gcaggtttgt ggtgaagatc ccggcggggc tagcgccgga gcaggcggcg ccgctgctgt
+     3241 gcgccgggct gacggtgtac agcccactga agcacttcgg gctgatgtcg ccaggtctcc
+     3301 gcggcggcgt cctggggctc ggcggcgtgg ggcacatggg cgtgaaggtg gccaagtcga
+     3361 tggggcacca cgtgacggtg atcagctcgt cggcgaggaa gcgcggcgag gccatggacg
+     3421 acctgggcgc cgacgcctac ctcgtcagct ccgacgcggc ggcgatggcg gccgccggcg
+     3481 actcgctgga ctacatcatc gacaccgtgc cggtgcacca cccgctggag ccgtacctgg
+     3541 cgctgctgaa gctggacggg aagctgatcc tgatgggggt gatcaaccag ccgctgagct
+     3601 tcatctcgcc catggtgatg ctcggccgga aggccatcac cggcagcttc atcgggagca
+     3661 tggccgagac ggaggaggtg ctcaacttct gcgtcgacaa ggggctcacc tcccagatcg
+     3721 aggtcgtcaa gatggactac gtcaaccagg ccctcgagcg cctcgagcgc aacgacgtcc
+     3781 gctaccgctt cgtcgtcgac gtcgccggca gcaacatcga cgacgccgac gcgccgcccg
+     3841 cctgatcgcc gccgtgcacc ctcatggcag catccgtatg atccgttctt gaacttgttt
+     3901 gtgtgagact ctgacgactt gtccatgtaa cgtccgtgtg cctttccggt ataaattcgg
+     3961 cctcgcaata tatggaccat tttgcatttc cgatcaaaat catgcttgcg tttcacttgc
+     4021 attgggctta agatcagtgg gctcatctgg ccaatttggg ccgggcctga actgtcgatg
+     4081 ggtgagaatt accgaggcct atgttgcctc ctgcagagac accagactac caaccatcac
+     4141 cggcaaaaac ggcctcaaca aacaagcatc tgctttcaag ctg
+//
+

@@ -1,0 +1,80 @@
+LOCUS       AY838899                2060 bp    mRNA    linear   PLN 21-DEC-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) 9-cis-epoxycarotenoid
+            dioxygenase 3 (NCED3) mRNA, complete cds.
+ACCESSION   AY838899
+VERSION     AY838899.1  GI:56681448
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2060)
+  AUTHORS   Dian,W.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-NOV-2004) Guangdong Key Lab of Biotechnology for
+            Plant Development, South China Normal University, Guangzhou,
+            Guangdong Province 510631, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..2060
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..2060
+                     /gene="NCED3"
+     CDS             171..1997
+                     /gene="NCED3"
+                     /note="OsNCED3"
+                     /codon_start=1
+                     /product="9-cis-epoxycarotenoid dioxygenase 3"
+                     /protein_id="AAW21319.1"
+                     /db_xref="GI:56681449"
+                     /translation="MATITTPGYAHIQRQHGRCSTTAGRRGASNSVRFSARAVSSVPH
+                     AAAASSAPAFLPVPFVPGADAPSPSGKSAIGVPKAPRKGEEGKRLNFFQRAAAMALDA
+                     FEEGFVANVLERPHGLPSTADPAVQIAGNFAPVGETPPARALPVSGRIPPFINGVYAR
+                     NGANPHFDPVAGHHLFDGDGMVHAVRIRNGAAESYACRFTETARLRQERAMGRPMFPK
+                     AIGELHGHSGIARLALFYARAACGLLDPSHGTGVANAGLIYFNGRLLAMSEDDLPYQV
+                     RVTADGDLETVGRYDFDGQLGCAMIAHPKLDPATGELHALSYDVIKKPYLKYFYFAPD
+                     GTKSADVEIPLDQPTMIHDFAITENYVVVPDHQVVFKLQEMLRGGSPVVLDKEKTSRF
+                     GVLPKHAADASEMVWVDVPDCFCFHLWNAWEEADTDEVVVIGSCMTPADSIFNESDDR
+                     LESVLTEIRLNTRTGESTRRAILPPSSQVNLEVGMVNRNLLGRKTRYAYLAVAEPWPK
+                     VSGFAKVDLATGELTKFEYGEGRFGGEPCFVPMDAAAATPRGEDDGYILSFVHDERAG
+                     TSELLVVNAADMRLEATVQLPSRVPYGFHGTFITGDELTTQA"
+ORIGIN      
+        1 atatacgctc actggctacc tcccctccca aaccatccaa accgacgakc tctcttcctc
+       61 tctctccagc tcggtctcac acacactctc tctctctcgg cagaaacaca ccacgatcgc
+      121 ggccaaaacc cacgcgattg tagctcagat tgttgtgcga tcgacgcgat atggcgacga
+      181 tcacgacgcc aggatatgct cacatacagc ggcagcacgg caggtgctcg acgacggcgg
+      241 gaaggcgtgg ggcgtccaat tcggtgagat tctccgcgcg cgcggttagc tccgtgccgc
+      301 acgcggcggc ggcgtcatcg gcgccggcgt tcctgccggt gccgttcgtg cctggggccg
+      361 acgcaccgtc gccgtcgggg aagagtgcca ttggcgtccc gaaggcgccg aggaaggggg
+      421 aggaggggaa gaggctcaac ttcttccagc gcgccgcggc gatggcgctc gacgcgttcg
+      481 aggaggggtt tgtggcgaat gtcctcgagc gcccgcacgg gctgccgagc acggccgacc
+      541 ccgcggtgca gatcgccggc aacttcgcgc cggtcggtga gacgccgccc gcgcgcgcgc
+      601 tgccggtgtc ggggcgcatc ccgcccttca tcaacggcgt ctacgcgcgc aacggcgcca
+      661 acccgcactt cgaccccgtc gccgggcacc acctgttcga cggcgatggc atggtgcacg
+      721 ccgtcaggat acgcaacggc gccgccgagt cgtacgcgtg ccggttcacg gagaccgcgc
+      781 ggctgcggca ggagcgcgcg atggggcggc ccatgttccc caaggccatt ggggagctcc
+      841 atggccactc cggcatcgcg cgccttgctc tgttctacgc gcgcgccgcc tgcggcctcc
+      901 tcgacccgtc acacggcacc ggcgtcgcca acgccggcct catctacttc aacggcaggc
+      961 tcctcgccat gtcggaggac gacctcccct accaggtgcg cgtcaccgcc gacggcgacc
+     1021 tcgagaccgt cggccgctac gacttcgacg ggcagctcgg ctgcgccatg atcgcgcacc
+     1081 ccaagctcga cccggccacc ggagagctcc acgcgctcag ctacgacgtg atcaagaagc
+     1141 cgtacctcaa gtacttctac ttcgcgcccg acggcaccaa gtcggccgac gtcgagatcc
+     1201 cgctcgacca gcccaccatg atccacgact tcgccatcac cgagaactac gtggtggtac
+     1261 ccgaccacca ggtggtgttc aagctccagg agatgctccg cggcggctcg cccgtggtgc
+     1321 tcgacaagga gaagacgtcg cggttcgggg tgctccccaa gcacgccgcg gacgcgtcgg
+     1381 agatggtgtg ggtggacgtc ccggactgct tctgcttcca cctctggaac gcgtgggagg
+     1441 aggcggacac cgacgaggtg gtggtgatcg gctcgtgcat gacccccgcc gactccatct
+     1501 tcaacgagtc cgacgaccgc ctcgagagcg tcctcaccga gatccgcctc aacacccgca
+     1561 ccggcgagtc gacgcggcgc gccatcctgc cgccgtcgag ccaggtcaac ctcgaggtgg
+     1621 gcatggtcaa ccgcaacctc ctcggccgca agacgcggta cgcctacctc gccgtggccg
+     1681 agccgtggcc caaggtgtcg ggcttcgcca aggtggacct cgccacgggt gagctcacca
+     1741 agttcgagta cggcgagggc cggttcggcg gcgagccctg cttcgtcccc atggacgccg
+     1801 ccgccgccac gccccgcggc gaggacgacg gctacatcct gtccttcgtc cacgacgagc
+     1861 gcgccgggac ctccgagctc ctcgtcgtca atgccgccga catgcgcctt gaggccaccg
+     1921 tgcagctgcc gtcccgcgtg ccgtacggct tccacggcac gttcatcacc ggcgacgagc
+     1981 tcaccaccca ggcctgatcc atcgatcgaa cacctccacg tttcttgggg gggggaggaa
+     2041 gtgaccagag ggagcctgac
+//
+

@@ -1,0 +1,78 @@
+LOCUS       AB245090                1060 bp    DNA     linear   PLN 17-JUL-2009
+DEFINITION  Oryza sativa Japonica Group FON2 gene for FLORAL ORGAN NUMBER2,
+            complete cds.
+ACCESSION   AB245090
+VERSION     AB245090.1  GI:119371432
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Suzaki,T., Toriba,T., Fujimoto,M., Tsutsumi,N., Kitano,H. and
+            Hirano,H.Y.
+  TITLE     Conservation and diversification of meristem maintenance mechanism
+            in Oryza sativa: Function of the FLORAL ORGAN NUMBER2 gene
+  JOURNAL   Plant Cell Physiol. 47 (12), 1591-1602 (2006)
+   PUBMED   17056620
+REFERENCE   2  (bases 1 to 1060)
+  AUTHORS   Suzaki,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-DEC-2005) Contact:Takuya Suzaki Department for Stem
+            Cell Biology, Institute of Zoology, Ruprecht-Karls-University
+            Heidelberg; Im Neuenheimer Feld 230, Heidelberg 69120, Germany
+FEATURES             Location/Qualifiers
+     source          1..1060
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <215..>858
+                     /gene="FON2"
+     CDS             join(215..296,435..500,638..858)
+                     /gene="FON2"
+                     /codon_start=1
+                     /product="FLORAL ORGAN NUMBER2"
+                     /protein_id="BAF41977.1"
+                     /db_xref="GI:119371433"
+                     /translation="MGRLFLCLVVAWCWVALLLVAPVHGRVGLPGEFSGDQRPVPATS
+                     FDLVTEPKTKQPRGVKGTRRPSWSSWSSTASRSSPPPGRGAPSAAAAAELRSVPAGPD
+                     PMHHHGSPRRPEHARSTGRP"
+     exon            <215..296
+                     /gene="FON2"
+                     /number=1
+     intron          297..434
+                     /gene="FON2"
+                     /number=1
+     exon            435..500
+                     /gene="FON2"
+                     /number=2
+     intron          501..637
+                     /gene="FON2"
+                     /note="Neither 5' nor 3' splice site follows GT-AG rule"
+                     /number=2
+     exon            638..>858
+                     /gene="FON2"
+                     /number=3
+ORIGIN      
+        1 gatttactca gcctcatctt cttcttcctc tacaaactcc tcatgagcta taagtatcct
+       61 cctacctgtg ctgtgtgtgt atcttccaca tctcaaagac acaacggttt ctttgagagg
+      121 ttgttatcct ctggtttttg tactgcggta atttgtaagt agagtacagt agctaagcta
+      181 cactactagt agtagttttg tgtgtttgct tgacatgggc cggctcttct tgtgtttggt
+      241 ggttgcatgg tgttgggttg ctctgctgct tgttgctccg gtgcatggac gtgttggtac
+      301 gtcgtaggag cttcagttct gagcctttcc ttttttctca cttgaatctc ttttctttct
+      361 ttttttttct tgtttttcat acatgcattt ggttaatgca ttgctgacat tttctttgga
+      421 ctgatcactt tcaggcttgc ccggtgagtt tagtggtgac cagaggccag tcccggcgac
+      481 atcttttgat ctcgtgacag aggtacatgt tttattttca cttcaatctc aattatttgc
+      541 acctctgttt accggatcga gttagatttt gtttcattag agaagtagtt tgcatgcatt
+      601 gctgacattt tgcttgtata acgtgtgcaa actggttagc cgaagacgaa gcagccgcgc
+      661 ggcgtgaagg gcacccgcag gccgtcgtgg tcttcttggt cgtcgacggc gtcgagatcg
+      721 tcgccgccgc cggggagagg ggcgccctcg gccgccgcgg cggcggagct ccggtcagtg
+      781 ccggccggcc cggacccgat gcaccaccac ggcagcccga ggcggccgga gcacgcgcgc
+      841 agcaccggcc ggccatgaca cccccgcgcg ccgccgcgtg tgcaatattg ctctggatga
+      901 ggcggcggcc ggcgagctag ccgccggcga acggacggac ggtgcaaatc aataagcccc
+      961 cacggcggcg ttttggtctc cccttctgcg tcatgctgct gctcctgcat agtggaagta
+     1021 gtagtacact ctattactag gagcactcct ctagctagcc
+//
+

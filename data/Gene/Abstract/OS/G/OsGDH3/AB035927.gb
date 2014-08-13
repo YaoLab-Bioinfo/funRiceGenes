@@ -1,0 +1,86 @@
+LOCUS       AB035927                1452 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group GDH3 mRNA for glutamate dehydrogenase
+            3, complete cds.
+ACCESSION   AB035927
+VERSION     AB035927.1  GI:81686705
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Abiko,T., Obara,M., Ushioda,A., Hayakawa,T., Hodges,M. and
+            Yamaya,T.
+  TITLE     Localization of NAD-isocitrate dehydrogenase and glutamate
+            dehydrogenase in rice roots: candidates for providing carbon
+            skeletons to NADH-glutamate synthase
+  JOURNAL   Plant Cell Physiol. 46 (10), 1724-1734 (2005)
+   PUBMED   16120687
+REFERENCE   2  (bases 1 to 1452)
+  AUTHORS   Hayakawa,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-DEC-1999) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultural Science, Dept. of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1452
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+                     /clone="pOSGDH3"
+                     /tissue_type="roots"
+     gene            1..1452
+                     /gene="GDH3"
+     5'UTR           1..142
+                     /gene="GDH3"
+     CDS             143..1378
+                     /gene="GDH3"
+                     /EC_number="1.4.1.2"
+                     /codon_start=1
+                     /product="glutamate dehydrogenase 3"
+                     /protein_id="BAE48297.1"
+                     /db_xref="GI:81686706"
+                     /translation="MNALAATSRNFRQAARLLGLDSKLQKSLLIPLREIKVECTIPKD
+                     DGTLATFVGFRVQHDNSRGPMKGGIRYHPEVDPDEVNALAQLMTWKTAVAAVPYGGAK
+                     GGIGCTPGELSRSELERLTRVFTQKIHDLIGINTDVPAPDMGTNAQTMAWILDEYSKF
+                     HGHSPAVVTGKPIDLGGSLGRDAATGRGVMYATEALLTEYSESISGSTFVIQGLGNVG
+                     SWAAKLIHQKGGKIVAVGDVTGAIRNKSGIDIPALLKHRSEGGSLEDFYGAEVMDAAE
+                     LLVHECDVLVPCALGGVLNRENAAEVKARFIIEGANHPTDTEADEILAKKGVIVLPDI
+                     YANSGGVVVSYFEWVQNIQGFMWDEEKVNRELQKYMKNAFQNIKDMCKSQNCNLRMGA
+                     FTLGVNRVAKATLLRGWEA"
+     3'UTR           1379..1452
+                     /gene="GDH3"
+     polyA_site      1452
+                     /gene="GDH3"
+ORIGIN      
+        1 tgccttcgga ttccagagat gaaaatcacg cctttggttc gccaaatttc cgtctcgtga
+       61 gcttctcgtc gttcttgtgc ttgttttccg tcgaatcctc gtgcaattct gtgagaaaaa
+      121 gagggcgatc tccggtgctg ccatgaacgc gctagccgcc accagccgca acttccggca
+      181 ggcggcgagg ctactcggcc tcgactccaa actccagaag agccttctga tccctctccg
+      241 cgagatcaag gttgaatgca ccatccccaa agacgatggc accttggcga cgtttgttgg
+      301 gttcagagtg cagcatgaca attcccgtgg cccgatgaaa ggcggcatca ggtatcaccc
+      361 tgaggttgac ccagatgaag tgaatgcact tgctcagctg atgacatgga agactgctgt
+      421 tgctgctgtg ccttatggtg gagcaaaggg aggcattggg tgcactcctg gtgaactgag
+      481 tagaagtgaa cttgagcgtt taacgcgcgt gtttacccag aaaattcatg acctcattgg
+      541 gatcaataca gatgttccag cccctgacat gggaacaaat gcacagacca tggcatggat
+      601 actagatgaa tactcaaagt tccatggcca ctccccagct gttgtcacgg gaaagccaat
+      661 tgatcttgga ggatccttag gaagagatgc tgcgactggc cgcggtgtta tgtatgctac
+      721 tgaggcttta ttgactgaat acagcgagtc aatttcagga tcaacctttg ttatccaggg
+      781 tttggggaat gttggttctt gggcagccaa gctcatccat cagaaaggtg gcaagatagt
+      841 tgcagttgga gatgtaacag gtgcaatcag aaataaatcc gggatagaca tacctgctct
+      901 cttgaagcac aggagcgagg gtggatcttt ggaggacttc tacggtgcag aagttatgga
+      961 cgctgcagag ctgcttgtgc atgaatgtga tgttctcgtc ccgtgcgcct tgggtggtgt
+     1021 tctcaacaga gaaaatgcag ctgaagtgaa ggccagattc ataattgagg gggctaatca
+     1081 tcccactgat acagaagctg atgagatact cgcaaagaag ggagtcattg tgctgccaga
+     1141 tatctatgca aattcaggcg gcgtggtcgt cagctatttt gagtgggttc agaacattca
+     1201 gggcttcatg tgggatgaag agaaggtgaa cagggagctc caaaagtaca tgaagaacgc
+     1261 ttttcagaac atcaaggaca tgtgcaaatc ccaaaactgc aaccttagga tgggggcatt
+     1321 cactttgggg gttaaccggg ttgcaaaggc tactctgttg aggggatggg aggcatgaga
+     1381 atctgttgag gaatcacctc aattttgtaa ttcaaaatct tcattcggta atatattggc
+     1441 acaatctggt ac
+//
+

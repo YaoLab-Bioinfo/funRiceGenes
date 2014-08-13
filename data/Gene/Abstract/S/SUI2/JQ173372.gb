@@ -1,0 +1,79 @@
+LOCUS       JQ173372                1755 bp    mRNA    linear   PLN 24-MAR-2012
+DEFINITION  Oryza sativa Japonica Group phosphatidylserine synthases (PSS2)
+            mRNA, complete cds; plastid.
+ACCESSION   JQ173372
+VERSION     JQ173372.1  GI:380704113
+KEYWORDS    .
+SOURCE      plastid Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1755)
+  AUTHORS   Yin,H., Gao,P. and Luo,D.
+  TITLE     Control of meristem activity during stem development through
+            phosphatidyl serine synthases in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1755)
+  AUTHORS   Yin,H., Gao,P. and Luo,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-NOV-2011) Institute of Plant Physiology & Ecology,
+            Shanghai institues for Biological Sciences, CAS, Fenglin Rd 300,
+            Shanghai, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..1755
+                     /organism="Oryza sativa Japonica Group"
+                     /organelle="plastid"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua 11"
+                     /db_xref="taxon:39947"
+     gene            1..1755
+                     /gene="PSS2"
+     CDS             243..1514
+                     /gene="PSS2"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phosphatidylserine synthases"
+                     /protein_id="AFD96992.1"
+                     /db_xref="GI:380704114"
+                     /translation="MEAKQRTRHRDGEERRLVAAADGGAEEYDPWTAWLYKPHTISVL
+                     LVGACLLIWASGALDPEGASYHSSATSIKRGVWAMIAVFLAYCTLQAPSTILIRPHPA
+                     VWRLVHGLAVVYLVALAFLLFQNRDDARQFMKHLYPDLGVELPERSYGADCRLYVPEN
+                     PKNKFINIYETLFDEFVVAHILGWWGKAVMIRNQLLLWVLSIGFELMELTFRHMLPNF
+                     NECWWDSIILDILICNWFGIWAGMHTVRYFDGKTYEWVGLSRQPSIMGKVKRSLSQFT
+                     PAQWDKDQWYPFMGPLRFVQVLFLCVVFMTVELNTFFLKFCLWIPPRNPLVVYRLILW
+                     WLIAIPTIREYNSYLQNSKPVKKVGAFCWLSLAICIVELLICMKFGHGLFHDPMPTWL
+                     IIFWSSVGVALVVFLLAWSWRNHLKYQRKRL"
+ORIGIN      
+        1 gtacccaacc cgcgtcgtca tcgtcgtctt cctacttcct cctcctcccc accccacgca
+       61 cgcgcgtgcg gcgccgatcg cggccgacgc cgagatttcc gcgtgcgcgt ggagataggg
+      121 cacacccgtt ctctctctcc ctctctcggg ctctgaagcg cttcgcttgg tttggcgtgt
+      181 tgtttggctg ccgcggcagt tttctcctgt cacatatcgc agagggttct ggaagtggga
+      241 acatggaggc gaagcagagg acgaggcatc gcgacggaga ggagaggagg ctcgtagcgg
+      301 cggcggatgg cggcgccgag gagtacgacc catggacggc gtggctctac aagccgcaca
+      361 ccatctcggt gctcctcgtc ggtgcttgcc ttctaatttg ggcaagtgga gcgcttgatc
+      421 cagagggtgc ttcttatcac agtagtgcga catctattaa gaggggtgtc tgggctatga
+      481 ttgcagtctt ccttgcttac tgcactctcc aagcaccttc aacgatactt attaggcccc
+      541 atcctgctgt ctggcgcctg gtgcacggac tggctgtcgt ttaccttgtc gctctagcct
+      601 ttcttctttt ccagaaccgc gatgatgctc gccagttcat gaaacacctt taccctgatc
+      661 ttggagttga attgccggag agatcttatg gagctgactg ccgtctgtat gttccggaaa
+      721 accctaaaaa caagttcata aatatttatg agacattatt tgacgaattt gtggttgccc
+      781 atattttggg ttggtggggt aaagccgtaa tgatacgaaa ccagcttctt ctttgggtcc
+      841 tctcgattgg tttcgagcta atggagctta cattcagaca tatgttgcca aactttaatg
+      901 agtgctggtg ggatagtatt attttggata tcttgatctg caactggttt ggtatatggg
+      961 cggggatgca cacagtccgt tactttgacg gtaaaacata tgagtgggtt ggactgagcc
+     1021 gacagccaag catcatgggc aaggtgaaaa gatcactgag ccagttcacc cctgcacaat
+     1081 gggacaagga tcaatggtac cctttcatgg ggccgttgcg gttcgttcaa gtgttgttcc
+     1141 tgtgcgttgt tttcatgaca gtggagctca acacattttt tcttaaattt tgcctctgga
+     1201 ttcctccaag gaatcctttg gttgtgtaca gattaatcct atggtggttg attgctattc
+     1261 caaccatccg tgagtacaac tcctacttgc aaaacagcaa accggtgaag aaggttgggg
+     1321 ctttttgctg gctctctcta gctatatgca ttgtagagct tcttatatgt atgaagtttg
+     1381 gacatgggct gtttcatgat cccatgccta cttggttgat catcttttgg agttcggtgg
+     1441 gggtagcact agtggttttc ttgcttgcat ggtcttggag gaatcacctg aaatatcaga
+     1501 gaaagcggct ataatggatt aatttttcgg aagattttcg actctggacc cccttcaaac
+     1561 ttgtttcttc ttcttgatag gatgtacata tgtgatgggt gatgatgtaa cttaaatgtg
+     1621 atgggtaatt atgtaacttt aaatcctagg ataaagcaat tttcagctac atttcacatt
+     1681 atgttttaca atagccaatt gttgcctcgc aagagggatg gctaatttca gattaataag
+     1741 tgaaatatta ccatg
+//
+

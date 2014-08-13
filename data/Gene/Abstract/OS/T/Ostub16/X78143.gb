@@ -1,0 +1,90 @@
+LOCUS       X78143                  1643 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  O.sativa (Arborio) Beta Tubulin mRNA, clone OSTB-16.
+ACCESSION   X78143
+VERSION     X78143.1  GI:460990
+KEYWORDS    beta tubulin.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1643)
+  AUTHORS   Breviario,D., Giani,S. and Meoni,C.
+  TITLE     Three rice cDNA clones encoding different beta-tubulin isotypes
+  JOURNAL   Plant Physiol. 108 (2), 823-824 (1995)
+   PUBMED   7610170
+REFERENCE   2  (bases 1 to 1643)
+  AUTHORS   Breviario,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-1994) D. Breviaro, Istituto Biosintesi Vegetali
+            CNR, Via Bassini n 15, 20133 Milan, ITALY
+FEATURES             Location/Qualifiers
+     source          1..1643
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Arborio"
+                     /db_xref="taxon:39947"
+                     /clone="OSTB-16"
+                     /tissue_type="rice coleoptiles"
+                     /clone_lib="lambda ZAPII"
+                     /dev_stage="3 day old seedlings"
+     gene            1..1643
+                     /gene="beta tubulin"
+     CDS             66..1409
+                     /gene="beta tubulin"
+                     /codon_start=1
+                     /product="beta tubulin"
+                     /protein_id="CAA55022.1"
+                     /db_xref="GI:460991"
+                     /db_xref="GOA:P45960"
+                     /db_xref="InterPro:IPR000217"
+                     /db_xref="InterPro:IPR002453"
+                     /db_xref="InterPro:IPR003008"
+                     /db_xref="InterPro:IPR008280"
+                     /db_xref="InterPro:IPR013838"
+                     /db_xref="InterPro:IPR017975"
+                     /db_xref="InterPro:IPR018316"
+                     /db_xref="InterPro:IPR023123"
+                     /db_xref="UniProtKB/Swiss-Prot:P45960"
+                     /translation="MREILHIQGGQCGNQIGAKFWEVVCDEHGIDPTGRYTGNSDLQL
+                     ERVNVYYNEASCGRFVPRAVLMDLEPGTMDSVRTGPYGQIFRPDNFVFGQSGAGNNWA
+                     KGHYTEGAELIDSVLDVVRKEAENCDCLQGFQVCHSLGGGTGSGMGTLLISKIREEYP
+                     DRMMLTFSVFPSPKVSDTVVEPYNATLSVHQLVENADECMLLDNEALYDICFRTLKLT
+                     TPSFGDLNHLISATMSGVTCCLRFPGQLNSDLRKLAVNLIPFPRLHFFMVGFAPLTSR
+                     GSQQYRALTVPELTQQMWDAKNMMCAADPRHGRYLTASAMFRGKMSTKEVDEQMINVQ
+                     NKNSSYFVEWIPNNVKSSVCDIPPRGLSMASTFIGNSTSIQEMFRRVSEQFTAMFRRK
+                     AFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQDATADEEGEYEDEEQQEADDM"
+     intron          459^460
+                     /gene="beta tubulin"
+                     /note="AJ242868"
+ORIGIN      
+        1 cctcgatctc tcgctcgctc gccgccgatc ggatcgcgtg gttggatcat cacaactctg
+       61 caaagatgag agagatcctg cacatccaag gcgggcaatg tggcaaccag atcggtgcca
+      121 aattctggga ggtggtgtgt gatgagcatg gcattgaccc taccgggcgg tacacaggca
+      181 actcagatct gcagttggag cgtgtcaatg tgtactacaa tgaggcctcc tgcggtcgct
+      241 ttgtgcctcg tgctgttctc atggaccttg agcctggtac tatggacagt gtccgcactg
+      301 gaccctatgg ccagatcttc cgccctgaca actttgtgtt cgggcaatct ggtgctggta
+      361 acaactgggc caagggacac tacactgagg gtgccgagct aattgattct gttttagatg
+      421 ttgtgaggaa ggaggctgag aactgtgact gcctgcaagg attccaagta tgccactctc
+      481 ttggtggtgg tactggatct ggtatgggta cacttttgat atcaaagatc agggaggagt
+      541 accctgaccg catgatgctg acattctcag ttttcccctc accaaaagta tctgatactg
+      601 tggttgagcc atacaatgct acactctcag tccatcagtt ggttgagaat gctgatgagt
+      661 gtatgcttct tgataatgag gctctctacg acatttgctt caggactctc aagctgacca
+      721 cacctagctt tggggatttg aaccatttga tttctgccac catgagtgga gtcacatgct
+      781 gcctaaggtt ccctggtcag ttgaactctg acctccgtaa gctggcagtg aaccttatcc
+      841 cctttccccg tctccacttc ttcatggtcg gattcgcccc gctgacatca cgtggctccc
+      901 agcagtaccg tgcccttact gttcctgagc tcacacagca gatgtgggat gccaagaaca
+      961 tgatgtgcgc tgctgatcct cgccatggcc gttacctcac cgcctctgcc atgttccgtg
+     1021 gaaagatgag caccaaggag gttgatgagc agatgatcaa tgtccagaac aagaactcat
+     1081 cctacttcgt cgagtggatc cccaacaatg tgaagtccag tgtctgtgac attccaccga
+     1141 gaggcctctc catggcatcg accttcattg gcaactcaac atccatccag gagatgttcc
+     1201 ggagggtgag cgagcagttc actgctatgt tcaggaggaa ggctttcttg cactggtaca
+     1261 ctggcgaagg catggacgag atggagttca ccgaggcaga gagcaacatg aacgaccttg
+     1321 tctctgagta ccagcagtac caggatgcca ccgccgatga ggagggcgag tacgaggacg
+     1381 aggagcagca ggaggctgac gacatgtaag gtggcttttg cttggtggtt ctagggcagg
+     1441 gttttgtgtg cttggtgttt ccgtcttaca ttatcaccgt attaccgcct cgtacgccac
+     1501 cgcccgcttc ctatgtcttc gctttgtttt ttcgtctgtg ctatgggaac ctttttgggt
+     1561 actgtattac ttgatgctgg tctgcgattg ttgatatttc ggatgaattt tacctttccg
+     1621 cgttaaaaaa aaaaaaaaaa aaa
+//
+

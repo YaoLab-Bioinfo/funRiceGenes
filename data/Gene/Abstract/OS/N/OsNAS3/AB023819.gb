@@ -1,0 +1,75 @@
+LOCUS       AB023819                1482 bp    mRNA    linear   PLN 14-FEB-2008
+DEFINITION  Oryza sativa Indica Group osnas3 mRNA for nicotianamine synthase 3,
+            complete cds.
+ACCESSION   AB023819
+VERSION     AB023819.1  GI:11176987
+KEYWORDS    osnas3; nicotianamine synthase 3.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Higuchi,K., Watanabe,S., Takahashi,M., Kawasaki,S., Nakanishi,H.,
+            Nishizawa,N.K. and Mori,S.
+  TITLE     Nicotianamine synthase gene expression differs in barley and rice
+            under Fe-deficient conditions
+  JOURNAL   Plant J. 25 (2), 159-167 (2001)
+   PUBMED   11169192
+REFERENCE   2  (bases 1 to 1482)
+  AUTHORS   Mori,S. and Higuchi,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-FEB-1999) Contact:Satoshi Mori The University of
+            Tokyo, Plant Molecular Physiology; Yayoi1-1, Bunkyo-ku, Tokyo
+            113-8657, Japan
+COMMENT     Sequence updated (13-Jul-1999).
+FEATURES             Location/Qualifiers
+     source          1..1482
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /tissue_type="root"
+     gene            1..1482
+                     /gene="osnas3"
+     CDS             71..1102
+                     /gene="osnas3"
+                     /codon_start=1
+                     /product="nicotianamine synthase 3"
+                     /protein_id="BAB17824.1"
+                     /db_xref="GI:11176988"
+                     /translation="MTVEVEAVTMAKEEQPEEEEVIEKLVEKITGLAAAIGKLPSLSP
+                     SPEVNALFTELVMTCIPPSSVDVEQLGAEAQDMRGRLIRLCADAEGHLEAHYSDVLAA
+                     HDNPLDHLALFPYFNNYIQLAQLEYALLARHLPAAPPPSRLAFLGSGPLPLSSLVLAA
+                     RHLPAASFHNYDICADANRRASRLVRADRDLSARMAFHTSDVAHVTTDLAAYDVVFLA
+                     ALVGMAAEEKARMVEHLGKHMAPGAALVVRTAHGARGFLYPVVDPEEIRRGGFDVLAV
+                     HHPEGEVINSVIIARNRPWPGPALEGGDAHAHGHGAVVSRPCQRCEMEARAHQKMEDM
+                     SAMEKLPSS"
+ORIGIN      
+        1 atcaagcaaa gcagctcgat cgagtgttcg actgatcacc agttggagct aatcgatcga
+       61 gagagagagt atgacggtgg aagtggaggc ggtgaccatg gcgaaggagg agcagccgga
+      121 ggaggaggag gtgatcgaga agttggttga gaagatcacc gggctggcgg cggccatcgg
+      181 caagctgccg tcgctgagcc cgtcgccgga ggtgaacgcg ctgttcacgg agctggtgat
+      241 gacctgcatc ccgcccagca gcgtggacgt ggagcagctg ggggcggagg cgcaggacat
+      301 gcgcggccgc ctcatccgcc tctgcgccga cgccgagggc cacctcgagg cgcactactc
+      361 cgacgtcctc gccgcccacg acaacccgct cgaccacctc gccctcttcc cctacttcaa
+      421 caactacatc cagctcgccc agctcgagta cgccctcctc gcccgccacc tccccgccgc
+      481 cccgccgccc tcccgcctcg ccttcctcgg ctccggcccg ctcccgctca gctccctcgt
+      541 cctcgccgcc cgccacctcc ccgccgcctc cttccacaac tacgacatct gcgccgacgc
+      601 caaccgccgc gccagccgcc tcgtccgcgc cgaccgcgac ctgtccgcgc gcatggcctt
+      661 ccacacctcc gacgtcgccc acgtcaccac cgacctcgcc gcctacgacg tcgtgttcct
+      721 ggcggcgctg gtgggtatgg ccgccgagga gaaggcgcgc atggtggagc acctcgggaa
+      781 gcacatggcg cccggcgccg ccctggtggt gcggacggcg cacggcgccc ggggattcct
+      841 gtaccccgtg gtggacccgg aggagatccg ccgcggcggc ttcgacgtgc tcgccgtgca
+      901 ccacccggag ggcgaggtga tcaactccgt catcatcgcg cgcaaccgcc cgtggccggg
+      961 gccggcgttg gagggaggag acgcgcacgc gcacggccat ggcgccgtgg tgagccgtcc
+     1021 atgccagcgc tgcgagatgg aggcgagggc gcaccagaag atggaggaca tgtccgccat
+     1081 ggagaagctg ccctcctcgt aggcaggcat cgatgactgc ttccatcgct tgctacctca
+     1141 ccagctcacc tgataaatca cctcagttac tatcgattaa tcatttacca tgcattaatt
+     1201 aagaagaaaa catatatacc ataattatct accagtaaaa caaatctaat agtagtattt
+     1261 aataatctcg ttggtaatta actgcagtca tgcatgaatg catgccatat tgcgtcgcta
+     1321 tctttttttc ccatgatgag actgatgaga gagagagaga atatatgtcg ctattgagtg
+     1381 ttactgcttg attactgtac tagtagctta ttacaatcaa ccattgtctc tgttgcgtat
+     1441 ttaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aa
+//
+

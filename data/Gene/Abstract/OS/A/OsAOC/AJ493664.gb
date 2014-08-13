@@ -1,0 +1,72 @@
+LOCUS       AJ493664                1171 bp    mRNA    linear   PLN 09-JUL-2002
+DEFINITION  Oryza sativa mRNA for allene oxide cyclase (aoc gene).
+ACCESSION   AJ493664
+VERSION     AJ493664.1  GI:21727905
+KEYWORDS    allene oxide cyclase; aoc gene.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Agrawal,G.K., Rakwal,R., Jwa,N.S., Tamogami,S., Agrawal,S.K. and
+            Iwahashi,H.
+  TITLE     Cloning of rice allene oxide cyclase (OsAOC)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1171)
+  AUTHORS   Agrawal,G.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUL-2002) Agrawal G.K., Biotechnology and
+            Biochemistry, Research Lab. for Agri. Biotech. and Biochem.
+            (RLABB), GPO 8207, Kathmandu, NEPAL
+COMMENT     mRNA.
+FEATURES             Location/Qualifiers
+     source          1..1171
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+                     /dev_stage="two week seedling"
+                     /country="Japan"
+     gene            1..1171
+                     /gene="aoc"
+     CDS             87..809
+                     /gene="aoc"
+                     /EC_number="5.3.99.6"
+                     /function="jasmonic acid biosynthesis"
+                     /codon_start=1
+                     /product="allene oxide cyclase"
+                     /protein_id="CAD38519.1"
+                     /db_xref="GI:21727906"
+                     /db_xref="GOA:Q8L6H4"
+                     /db_xref="InterPro:IPR009410"
+                     /db_xref="UniProtKB/TrEMBL:Q8L6H4"
+                     /translation="MAAAAPSRVSVRAAAPGQTGGFAKIRPQVVVAAAARSAGVSGRR
+                     ARSVRASLFSPKPATPKDARPAKVQEMFVYEINERDRESPAYLRLSAKQTENALGDLV
+                     PFTNKLYSGSLDKRLGISAGICILIQHVPERNGDRYEAIYSFYFGDYGHISVQGPYLT
+                     YEESYLAVTGGSGVFEGAYGQVKLNQIVFPFKIFYTFYLKGIPDLPRELLCTPVPPSP
+                     TVEPTPAAKATEPHACLNNFTN"
+ORIGIN      
+        1 aatcgcagag caaaagcatc gggaggagca agctactagt agtagtatag tagtactagt
+       61 caaagaaatc aacagcttga ttgaccatgg ccgccgccgc cccctcgcga gtctccgtca
+      121 gggccgcggc gcccgggcaa acggggggct tcgccaagat ccggccgcag gtggtggtgg
+      181 cagcggcggc gaggtcggcc ggggtgagcg gccgcagggc gaggagcgtt cgggcgtcgc
+      241 tgttctcgcc gaagccggcg acgcccaagg acgcgaggcc ggccaaggtg caggagatgt
+      301 tcgtgtacga gatcaacgag cgcgaccgcg agagccccgc ctacctccgc ctcagcgcca
+      361 agcagacgga gaacgccctc ggcgatctcg tccccttcac caacaagctg tacagcggaa
+      421 gcctggacaa gcggctgggg atctcggcgg ggatctgcat cctgatccag cacgtgccgg
+      481 agcgcaacgg cgaccgctac gaggccatct acagcttcta cttcggcgac tacggccaca
+      541 tctccgtgca gggcccgtac ctgacctacg aggagtccta cctcgccgtc accggcggct
+      601 ccggcgtctt cgaaggcgcc tacggccagg tcaagctcaa ccagatcgtc ttccccttca
+      661 agatcttcta caccttctac ctcaagggca tccccgacct gccgcgggag ctgctctgca
+      721 cgcccgtccc gccgtccccg accgtcgagc caacgccagc cgccaaggcc accgagcccc
+      781 acgcctgcct caacaacttc accaactagc tcaacccgcg ctgtacatca cttccaagtt
+      841 ccaattgcta ctgttactac tctgccaata attgatggag atgcagatcg agctgcctga
+      901 ttagtttagt gttaattgcg gcatgtgcgg tgtgtatcgt atcactgata aggaagagga
+      961 atcgaggaca agatatttgt ttcctccctg cgatgagccg atgaactgat ccgaacaaga
+     1021 agaggcttct tggtagtagg tggattggaa tatcgaaatg atatgattgt gatccgcaac
+     1081 tacaacgacc gccactacgg agagctcatg ctatttgttt gtttgttttt gtactagtgc
+     1141 tcaaatatat actccagctc atgtccatgt g
+//
+

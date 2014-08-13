@@ -1,0 +1,57 @@
+LOCUS       AA752973                 650 bp    mRNA    linear   EST 20-JAN-1998
+DEFINITION  97AS1449 Rice Immature Seed Lambda ZAPII cDNA Library Oryza sativa
+            Indica Group cDNA clone 97AS1449, mRNA sequence.
+ACCESSION   AA752973
+VERSION     AA752973.1  GI:2799984
+DBLINK      BioSample: LIBEST_001073
+KEYWORDS    EST.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 650)
+  AUTHORS   Nahm,B.H., Kim,J.K., Cheong,J.J., Kim,S.I., Hahn,T.R, Moon,E.P.,
+            Kim,W.T., Kim,W.Y., Yang,M.S., Park,R.D., Sohn,U.I., Kang,K.Y.,
+            Lee,M.C. and Eun,M.Y.
+  TITLE     Large-scale Sequencing Analysis of ESTs from Rice Immature Seed
+  JOURNAL   Unpublished (1998)
+COMMENT     Contact: Eun M.Y.
+            Department of Cytogenetics
+            National Inst. of Agri. Sci. and Tech, RDA
+            Suwon, Kyunggido, Korea
+            Tel: 82 331 290 0301
+            Fax: 82 331 290 0307
+            Email: myeun@sun20.asti.re.kr
+            Submitted by Baek Hie Nahm, Dept of Biological Science, Myongji
+            University, Yongin, Korea. 449-728 bhnahm@bioserver.myongji.ac.kr
+            Seq primer: M13 Reverse Primer.
+FEATURES             Location/Qualifiers
+     source          1..650
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Milyang 23"
+                     /db_xref="taxon:39946"
+                     /clone="97AS1449"
+                     /tissue_type="Immature Seed"
+                     /dev_stage="5 days after pollination"
+                     /lab_host="E. coli SOLR"
+                     /clone_lib="LIBEST_001073 Rice Immature Seed Lambda ZAPII
+                     cDNA Library"
+                     /note="Vector: pBluescript SK(+); Site_1: EcoRI; Site_2:
+                     XhoI; Directional cDNA library inserted into lambda ZAPII
+                     vector  at 5'end with EcoRI and 3' end with Xho I site."
+ORIGIN      
+        1 cttcggcngc ncgatgccgc tttannactg ccgaattcgg caccnngttt cctaatgtta
+       61 aggangacat atcaaaccta cagatgctgt tgtaaagttt tacnttctct atganaagtg
+      121 gcgcagggct gaggttccaa aatcagattc agttgtacag tacttcaaaa atatcactca
+      181 tgcaaatggt gttatcattc aaccttctgg gcttgaatgt tctctccatg cctctgttga
+      241 tgcattgaag ttcatgttat ggtgaagaaa caagggaaaa aataccgaac atgggtggac
+      301 agactatttg tctcacagtc tggttcagac agttggctgg tcagatttga cttgtgggan
+      361 gcagaangtg atgcgcggtt gtgctgtttg acaagtcttg cgctgaatgt aaagcctgaa
+      421 acccctgctg gcttcctgat aacacatgtt acacaaaaca tggctcaaag ggatactctt
+      481 cacgggatga ncagtcctcc aaagctttaa accctttttc acccctgtgc acacggaaat
+      541 gaaatttact tgatgaataa atgaaagaac tgctcgtctg aaaaatctca tttttcttat
+      601 ttaatgttaa tataaaatga tctgtctccg tgactccgtg ccgaagaata
+//
+

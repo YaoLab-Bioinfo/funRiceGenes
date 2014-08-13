@@ -1,0 +1,72 @@
+LOCUS       AJ270955                 921 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for putative phospholipid hydroperoxide
+            glutathione peroxidase (riPHGPX gene).
+ACCESSION   AJ270955
+VERSION     AJ270955.1  GI:11544695
+KEYWORDS    phospholipid hydroperoxide glutathione peroxidase; riPHGPX gene.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Li,W.J., Feng,H., Fan,J.H., Zhang,R.Q., Zhao,N.M. and Liu,J.Y.
+  TITLE     Molecular cloning and expression of a phospholipid hydroperoxide
+            glutathione peroxidase homolog in Oryza sativa
+  JOURNAL   Biochim. Biophys. Acta 1493 (1-2), 225-230 (2000)
+   PUBMED   10978528
+REFERENCE   2  (bases 1 to 921)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2000) Liu J., Department of Biological Sciences
+            and Biotechnology, Tsinghua University, Department of Biological
+            Sciences and Biotechnology, Tsinghua Univ., Beijing, 100084, CHINA
+FEATURES             Location/Qualifiers
+     source          1..921
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhongdan II"
+                     /db_xref="taxon:39947"
+                     /tissue_type="shoot"
+                     /dev_stage="seedling"
+                     /country="China"
+     gene            1..921
+                     /gene="riPHGPX"
+     CDS             71..580
+                     /gene="riPHGPX"
+                     /EC_number="1.11.1.9"
+                     /function="putative role in antioxidative systems"
+                     /codon_start=1
+                     /product="putative phospholipid hydroperoxide glutathione
+                     peroxidase"
+                     /protein_id="CAC17628.1"
+                     /db_xref="GI:11544696"
+                     /db_xref="GOA:Q9FEV2"
+                     /db_xref="HSSP:1GP1"
+                     /db_xref="InterPro:IPR000889"
+                     /db_xref="InterPro:IPR012335"
+                     /db_xref="InterPro:IPR012336"
+                     /db_xref="UniProtKB/TrEMBL:Q9FEV2"
+                     /translation="MGAAESVPETSIHEFTVKDCNGKEVSLEMYKGKVLIVVNVASKC
+                     GFTETNYTQLTELYQKHRDKDFEILAFPCNQFLRQEPGSDQQIKDFACTRFKAEYPVF
+                     QKVRVNGPDAAPLYKFLKASKPGLFGSRIKWNFTKFLIDKNGKVINRYSTATSPLSFE
+                     KDILKALED"
+ORIGIN      
+        1 gggagaggga tttcgatttt tttttctcca cggcgaaatc cgcgaggcgg aggaggagga
+       61 ggagggcgag atgggggcgg cggaatccgt gccggagacc tccatacacg aattcaccgt
+      121 caaggattgc aacggcaagg aggtgagcct ggagatgtac aaggggaagg tgctaatcgt
+      181 cgtcaacgtc gcctccaaat gtgggttcac ggagaccaac tacacgcagc tgacggagct
+      241 ctatcagaaa cacagggaca aagattttga gattctagca tttccctgca atcagttctt
+      301 gcgacaagag ccaggatctg accagcaaat aaaggatttt gcttgcacaa gatttaaagc
+      361 tgaatatccc gtttttcaga aggtgcgtgt aaatggtcct gatgctgcac cactttacaa
+      421 atttttgaaa gctagcaagc ctggcttgtt tggatctaga atcaagtgga actttaccaa
+      481 atttcttatt gataagaatg gcaaagtcat taacagatac tcgactgcga ccagtccctt
+      541 gtcttttgag aaagacatcc tgaaggcgct cgaggattag atctcgtacc ctcccccatc
+      601 cttcatttgc agaagtaggc aaagtatctg gttgtaatat ctagacctat gggatgctca
+      661 atagtgaatt tttgcaatat attccttctt ttgtgtagtg tatttgttgt ctttatatat
+      721 tattatattg taagtagagg ttggctggtt gggtaggcac tgttttgtct atactggttt
+      781 tatatggctt ggcttgaaaa tttgtttaga aacctaagac attattatca acgtgtaata
+      841 tcgacaagtt gaaattgtat gtagcgtaag gtttgtgttt gcactgtaaa aaaaaaaaaa
+      901 aaaaaaaaaa aaaaaaaaaa a
+//
+

@@ -1,0 +1,62 @@
+LOCUS       AY323479                 975 bp    mRNA    linear   PLN 26-JUL-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) putative wrky protein (WRKY)
+            mRNA, complete cds.
+ACCESSION   AY323479
+VERSION     AY323479.1  GI:33087062
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 975)
+  AUTHORS   Quanhong,Y., Rihe,P. and Aisheng,X.
+  TITLE     Rice wrky protein takes part in disease resistence through fungal
+            elicitor-responsive element
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 975)
+  AUTHORS   Quanhong,Y., Rihe,P. and Aisheng,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUN-2003) Bio-Tech Center, Shanghai Academy of
+            Agricultural Science, Beidi Road 2901, Shanghai, Shanghai
+            021-201106, China
+FEATURES             Location/Qualifiers
+     source          1..975
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..975
+                     /gene="WRKY"
+     CDS             43..837
+                     /gene="WRKY"
+                     /note="RWRKY; contains wrky domain; binds fungal
+                     elicitor-responsive element in PRms gene promoter"
+                     /codon_start=1
+                     /product="putative wrky protein"
+                     /protein_id="AAP92745.1"
+                     /db_xref="GI:33087063"
+                     /translation="MSEENRRLTEVIARLYGGQIPRLGLDGSASPPRPVSPLSGKKRS
+                     RESMETANSCDANSNRHQGGDADHAESFAADDGTCRRIKVSRVCRRIDPSDTSLVVKD
+                     GYQWRKYGQKVTRDNPSPRAYFRCAFAPSCPVKKKVQRSAEDSSLLVATYEGEHNHPH
+                     PSPRAGELRRRRGGPVASFRAPFPLNFLGPDHSRLDLHQERGTRCTWFKGGHPPPPPD
+                     LKKVCRKVASPDFRTALVEQMASALTSDPKFTGALAAAILHKLPEF"
+ORIGIN      
+        1 accaatgacg aggcgaagat cctcgaggcg aaggtcactc agatgagcga ggagaatcgg
+       61 cggctgaccg aggtgatcgc ccgcctgtac ggcggccaaa tcccgcggct cggcctcgac
+      121 ggctcggcct cgccgccgcg gccggtgtcg ccgttatcgg gcaagaagag gagcagggag
+      181 agcatggaga cggcgaattc ctgcgacgcc aacagcaaca ggcatcaggg cggcgacgcc
+      241 gaccacgccg agagcttcgc cgccgacgat ggcacctgcc ggaggatcaa ggtcagccgg
+      301 gtgtgcaggc ggatcgaccc gtcggacacc tccctggtgg tcaaggacgg gtaccaatgg
+      361 cggaagtacg ggcagaaggt gacgcgcgac aacccgtcgc cgagggccta cttccggtgc
+      421 gccttcgcgc catcgtgccc ggtgaagaag aaggtgcagc ggagcgcgga ggacagctcg
+      481 ctgctggtgg cgacgtacga gggcgagcac aaccacccgc acccgtctcc gcgcgccggc
+      541 gagctccggc ggcggcgggg ggggccggtg gcttcgttcc gtgctccatt tccattaaac
+      601 ttcctcgggc ccgaccattc acggttggac cttcaccaag aacggggaac ccggtgcacc
+      661 tggttcaagg gggggcatcc gccgccgccg ccggacctca agaaggtgtg ccggaaggtc
+      721 gcgtcgccgg acttccggac cgcgctggtg gagcagatgg ccagcgcgct caccagcgac
+      781 cccaagttca ccggcgcgct cgccgcggcg atcctccaca agctgcccga attctagctt
+      841 cctttacaat tctccaattc ttcttacagg aaaaaacata gaggcgcatt tcatagagat
+      901 tagagcttaa tctcccccca aatttgaaaa ttttatacag ggtaagaatt ccgaatgcca
+      961 aaaaaaaaaa aaaaa
+//
+

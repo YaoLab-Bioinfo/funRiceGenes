@@ -1,0 +1,67 @@
+LOCUS       AB103350                1238 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group GST mRNA for glutathione S-transferase,
+            complete cd.
+ACCESSION   AB103350
+VERSION     AB103350.1  GI:37693459
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Fukuda,A., Okada,Y., Suzui,N., Fujiwara,T., Yoneyama,T. and
+            Hayashi,H.
+  TITLE     Cloning and characterization of the gene for a phloem-specific
+            glutathione S-transferase from rice leaves
+  JOURNAL   Physiol. Plantarum (2003) In press
+REFERENCE   2  (bases 1 to 1238)
+  AUTHORS   Hayashi,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-FEB-2003) Contact:Hiroaki Hayashi University of
+            Tokyo, Department Applied Biological Chemistry; 1-1-1 Yayoi,
+            Bunkyo-ku, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1238
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1238
+                     /gene="GST"
+     CDS             88..924
+                     /gene="GST"
+                     /codon_start=1
+                     /product="glutathione S-transferase"
+                     /protein_id="BAC99049.1"
+                     /db_xref="GI:37693460"
+                     /translation="MPGAVKVFGSPSSAEVARVLACLFEKDVEFQLIRVDSFRGSKRM
+                     PQYLKLQPHGEALTFEDGNVTLVESRKIIRHIADKYKNQGNPDLIGMGALERSSIEQW
+                     LQTEAQSFDVPSADVVYSLAYLPAATTQPNKGAAAADGGRCEEEKNDDGGRDRQYSSQ
+                     RQGGAGAGGGRDGQMAAAHRQKVEEMKQLFEKSSKELSKVLDIYEQRLEEAEYLAGDK
+                     FTLADLSHLPNADRLAADPRTLRMLQSRRNVSRWWADVSGRESWKQVKSLNRPPSAEA
+                     PF"
+ORIGIN      
+        1 cacaactgtc aaatctcacc tgcagattaa tcagttaagc aacacttcga ttcctcgccg
+       61 ccgttgccgc cgccgccgac cggaaagatg ccgggagccg tgaaggtgtt cgggtcgccg
+      121 tcgtcggccg aggtggcccg cgtgctggct tgcctgttcg agaaggacgt cgagttccag
+      181 ctcatccgcg tcgactcctt tcgcgggtcc aaacgcatgc cccagtatct caaactccag
+      241 cctcacggcg aggctctcac cttcgaggac ggcaatgtga cgctcgtcga gtcgaggaag
+      301 atcataaggc acattgcgga caagtacaag aaccagggga acccggacct gatcgggatg
+      361 ggggcgttgg agaggtcgtc gatcgagcag tggctgcaga cggaggcgca gagcttcgac
+      421 gtgcccagcg ccgacgtggt ctacagcctc gcctacctgc cggcggcgac gacgcagcct
+      481 aacaagggcg ccgccgccgc cgacggtggc cgctgcgagg aggagaagaa cgacgacggc
+      541 ggccgtgacc ggcagtacag cagccagagg cagggcggcg ccggcgccgg aggaggaagg
+      601 gatggccaga tggcggcggc gcaccggcag aaggtggagg agatgaagca gctgttcgag
+      661 aagagcagca aggagctgag caaggtgctg gacatctacg agcagcggct ggaggaggcg
+      721 gagtacctcg ccggcgacaa gttcaccctc gccgaccttt cgcacctccc caacgccgac
+      781 cgcctcgccg ccgacccgcg cacgctccgg atgctgcagt cccgccgcaa cgtcagccgg
+      841 tggtgggccg acgtctccgg ccgcgagtcg tggaagcagg tcaagagcct caaccgcccg
+      901 ccctccgccg aggctccctt ctgatgatga ggtcagccac cgtgctcttc cggccgccgg
+      961 cggcggcggc ggcggccggc gagaggagga ggaggaggag aagggggtcg ctttgcttta
+     1021 tgattcgtgc tgcgtacaca ttttccaatg tcgtcgtcgt cgtcgtcaat aaccggacac
+     1081 gtacgttcgt gttcgcgcca tatatatcct gctgctgttg gtgaattccg agtggtcaca
+     1141 ttattatatt atataactgt cagtcttgta acaagttcaa taaaatgctt gcccctttgt
+     1201 cgtgaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaa
+//
+

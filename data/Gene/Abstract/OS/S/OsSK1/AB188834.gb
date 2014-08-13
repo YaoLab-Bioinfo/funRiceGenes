@@ -1,0 +1,64 @@
+LOCUS       AB188834                 927 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsSK1 mRNA for shikimate kinase 1,
+            complete cds.
+ACCESSION   AB188834
+VERSION     AB188834.1  GI:56805576
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kasai,K., Kanno,T., Akita,M., Ikejiri-Kanno,Y., Wakasa,K. and
+            Tozawa,Y.
+  TITLE     Identification of three shikimate kinase genes in rice:
+            characterization of their differential expression during panicle
+            development and of the enzymatic activities of the encoded proteins
+  JOURNAL   Planta 222 (3), 438-447 (2005)
+   PUBMED   15891897
+REFERENCE   2  (bases 1 to 927)
+  AUTHORS   Tozawa,Y. and Kasai,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-AUG-2004) Contact:Yuzuru Tozawa Ehime University,
+            Cell-Free Science and Technology Research Center; Bunkyo-cho 3,
+            Matsuyama, Ehime 790-8577, Japan
+FEATURES             Location/Qualifiers
+     source          1..927
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..927
+                     /gene="OsSK1"
+     CDS             1..927
+                     /gene="OsSK1"
+                     /codon_start=1
+                     /product="shikimate kinase 1"
+                     /protein_id="BAD83412.1"
+                     /db_xref="GI:56805577"
+                     /translation="MEAGVGLALQSRAAGFGGSDRRRSALYGGEGRARIGSLRVAEPA
+                     VAKAAVWARGSKPVAPLRAKKSSGGHETLHNSVDEALLLKRKSEEVLFYLNGRCIYLV
+                     GMMGSGKSTVGKIMSEVLGYSFFDSDKLVEQAVGMPSVAQIFKVHSEAFFRDNESSVL
+                     RDLSSMKRLVVATGGGAVIRPVNWKYMKKGLSVWLDVPLDALARRIAKVGTASRPLLD
+                     QPSGDPYTMAFSKLSMLAEQRGDAYANADVRVSLEEIASKQGHDDVSKLTPTDIAIES
+                     FHKIENFVIEHTVDNPVGDSQADSRAQRIQTL"
+ORIGIN      
+        1 atggaggcgg gcgtggggct ggcgctgcag tcgcgggcgg cggggttcgg cggctccgac
+       61 cgccgccgga gcgcgctcta cggcggcgag gggcgggcgc ggatcgggag cttgagggtc
+      121 gctgagccgg cggtggcgaa ggccgctgtg tgggctcgcg ggtccaagcc ggtcgccccg
+      181 ctccgtgcca agaaatcgtc cggaggtcat gaaacattgc ataactcggt tgatgaagcc
+      241 ctcttgctaa agagaaaatc agaagaagtt ctcttctatt tgaatggacg gtgtatttac
+      301 ctagttggaa tgatgggttc tggaaaaagt actgtgggaa agatcatgtc tgaagttttg
+      361 ggttattcgt tctttgatag tgataaattg gtcgaacaag ctgtgggcat gccttcagtc
+      421 gctcaaattt tcaaggttca tagtgaagcc ttctttaggg ataatgagag tagtgtcttg
+      481 agggatttgt cctcaatgaa gcgattagtt gttgctactg gaggtggtgc tgttatccga
+      541 ccagttaact ggaaatacat gaagaagggc ctatctgttt ggttggatgt gcccttggac
+      601 gctcttgcta ggcgtattgc taaagtgggg actgcctccc gtcctcttct agatcaacca
+      661 tctggtgatc catacacaat ggctttttct aaactcagca tgctcgcgga gcaaaggggc
+      721 gatgcttatg caaatgctga tgtgagggtt tctcttgaag agattgcatc taaacagggt
+      781 catgatgatg tatcgaagct aacaccaact gacattgcta ttgagtcgtt tcataagatc
+      841 gagaactttg tcattgaaca taccgttgac aatccggttg gtgactccca ggctgactca
+      901 cgtgctcaga ggatacagac cttgtag
+//
+

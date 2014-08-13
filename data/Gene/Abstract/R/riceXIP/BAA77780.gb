@@ -1,0 +1,52 @@
+LOCUS       BAA77780                 147 aa            linear   PLN 21-MAY-1999
+DEFINITION  class III chitinase homologue (OsChib3H-h), partial [Oryza sativa].
+ACCESSION   BAA77780
+VERSION     BAA77780.1  GI:4884524
+DBSOURCE    accession AB027427.1
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Nagasaki,H., Yamamoto,K., Shomura,A., Koga-ban,Y., Takasuga,A.,
+            Yano,M., Minobe,Y. and Sasaki,T.
+  TITLE     Rice class III chitinase homologues isolated by random cloning of
+            rice cDNAs
+  JOURNAL   DNA Res. 4 (6), 379-385 (1997)
+   PUBMED   9501993
+REFERENCE   2  (residues 1 to 147)
+  AUTHORS   Itoh,Y. and Sasaki,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAY-1999) Yoshifumi Itoh, National Food Research
+            Institute, Applied Microbiology; Kannondai 2-1-2, Tsukuba, Ibaraki
+            305-8642, Japan (E-mail:yosifumi@nfri.affrc.go.jp,
+            Tel:+81-298-38-8075, Fax:+81-298-38-7996)
+FEATURES             Location/Qualifiers
+     source          1..147
+                     /organism="Oryza sativa"
+                     /db_xref="taxon:4530"
+                     /clone="S2321"
+     Protein         1..147
+                     /product="class III chitinase homologue (OsChib3H-h)"
+     Region          30..>140
+                     /region_name="GH18_chitinase-like"
+                     /note="The GH18 (glycosyl hydrolase, family 18) type II
+                     chitinases hydrolyze chitin, an abundant polymer of
+                     beta-1,4-linked N-acetylglucosamine (GlcNAc) which is a
+                     major component of the cell wall of fungi and the
+                     exoskeleton of arthropods.  Chitinases have...; cl10447"
+                     /db_xref="CDD:263970"
+     Region          30..>126
+                     /region_name="Glyco_hydro_18"
+                     /note="Glycosyl hydrolases family 18; pfam00704"
+                     /db_xref="CDD:250070"
+     CDS             1..147
+                     /coded_by="AB027427.1:59..>500"
+ORIGIN      
+        1 mglvhallpf aaaaalllla apppataddp glavywgrhk eegslreacd tgryttviit
+       61 fynafghgry sldisghpla avgadikhcq srgitvllsi ggqggayslp tnasaadvad
+      121 nlwnaylggh ragvarpfgd daavelq
+//
+

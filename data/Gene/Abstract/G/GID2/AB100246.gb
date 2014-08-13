@@ -1,0 +1,57 @@
+LOCUS       AB100246                 639 bp    mRNA    linear   PLN 30-OCT-2008
+DEFINITION  Oryza sativa Japonica Group GID2 mRNA, complete cds.
+ACCESSION   AB100246
+VERSION     AB100246.1  GI:33411640
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sasaki,A., Itoh,H., Gomi,K., Ueguchi-Tanaka,M., Ishiyama,K.,
+            Kobayashi,M., Jeong,D., An,G., Kitano,H., Ashikari,M. and
+            Matsuoka,M.
+  TITLE     Accumulation of phosphorylated repressor for gibberellin signaling
+            in an F-box mutant
+  JOURNAL   Science 299 (5614), 1896-1898 (2003)
+   PUBMED   12649483
+REFERENCE   2  (bases 1 to 639)
+  AUTHORS   Matsuoka,M., Ashikari,M., Sasaki,A., Itoh,H., Gomi,K. and
+            Ueguchi-Tanaka,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JAN-2003) Contact:Makoto Matsuoka Nagoya University,
+            BioScience Center; Furocho, Chikusa, Nagoya, Aichi 464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..639
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Taichung 65"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+     gene            1..639
+                     /gene="GID2"
+     CDS             1..639
+                     /gene="GID2"
+                     /function="F-box protein"
+                     /codon_start=1
+                     /protein_id="BAC81428.1"
+                     /db_xref="GI:33411641"
+                     /translation="MKFRSDSSGGDEPRAPAAGDGGGGGDEPAKRQRTDPSSSSSQGE
+                     ASSSSQPPPQQQQEEQPPEDAGEGEQPRVPDLGEDLVFEVLRRAEARTLAAAACVSRG
+                     WRQLAEDERLWEAACVREWANLGFSERQLRAVVLSLGGFRRLHAVYIRPLQWRGAGVP
+                     RQQGRRQPPVRLGRDQVQLSLSLFSIGFFQNMPCPKKDKGNDSDKNGGGQCG"
+ORIGIN      
+        1 atgaagttcc gctctgattc gtcaggcggc gacgagcccc gcgctccggc tgccggcgac
+       61 ggcggcggcg gcggcgacga gccggccaag aggcagcgga ccgatccgtc ctccagttcg
+      121 agccagggcg aggcctcctc ttcctcgcag ccgccaccgc agcagcagca ggaggagcag
+      181 cctccggagg atgcgggaga gggcgagcag ccgagggttc cggatctcgg ggaggacctg
+      241 gtgttcgagg tgctgcggcg agcggaggcg cggacgctgg cggccgcggc gtgcgtgagc
+      301 agggggtggc ggcagctcgc ggaggacgag cggctctggg aggccgcgtg cgtgcgggag
+      361 tgggcgaacc tcggcttctc cgagcggcag ctccgggccg tggtgctctc cctcggtgga
+      421 ttccgccggc tccacgctgt ctacatccgc cccctgcagt ggcgtggcgc cggcgtgccc
+      481 aggcaacagg ggaggcggca gccgccggtg aggttgggcc gggaccaggt tcagctctcg
+      541 ctgtcactgt tctccattgg gttctttcag aatatgcctt gtcctaagaa agacaaggga
+      601 aatgacagtg ataagaatgg agggggccaa tgcgggtag
+//
+

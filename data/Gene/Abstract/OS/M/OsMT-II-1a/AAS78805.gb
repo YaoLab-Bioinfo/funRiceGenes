@@ -1,0 +1,41 @@
+LOCUS       AAS78805                  87 aa            linear   PLN 05-APR-2004
+DEFINITION  class II metallothionein-like protein [Oryza sativa Japonica
+            Group].
+ACCESSION   AAS78805
+VERSION     AAS78805.1  GI:45862033
+DBSOURCE    accession AY572960.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 87)
+  AUTHORS   Zhou,G. and Liu,J.
+  TITLE     Characterization and expression of a class II metallothionein-like
+            gene from rice
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 87)
+  AUTHORS   Zhou,G. and Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAR-2004) Department of Biological Sciences &
+            Biotechnology, Tsinghua University, Beijing 100084, China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..87
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+                     /chromosome="10"
+     Protein         1..87
+                     /product="class II metallothionein-like protein"
+     Region          2..77
+                     /region_name="Metallothio_PEC"
+                     /note="Plant PEC family metallothionein; pfam02068"
+                     /db_xref="CDD:251068"
+     CDS             1..87
+                     /coded_by="AY572960.1:14..277"
+ORIGIN      
+        1 mgcddkcgca vpcpggtgcr cassarssgg dhttcscgdh cgcnpcrcgr esqptgrenr
+       61 ragcscgdsc tcascgsttt tapaatt
+//
+

@@ -1,0 +1,57 @@
+LOCUS       DQ442992                 747 bp    mRNA    linear   PLN 23-JAN-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) phosphomannomutase mRNA,
+            complete cds.
+ACCESSION   DQ442992
+VERSION     DQ442992.1  GI:90762124
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 747)
+  AUTHORS   Qian,W., Yu,C., Qin,H., Liu,X., Zhang,A., Johansen,I.E. and Wang,D.
+  TITLE     Molecular and functional analysis of phosphomannomutase (PMM) from
+            higher plants and genetic evidence for the involvement of PMM in
+            ascorbic acid biosynthesis in Arabidopsis and Nicotiana benthamiana
+  JOURNAL   Plant J. 49 (3), 399-413 (2007)
+   PUBMED   17217471
+REFERENCE   2  (bases 1 to 747)
+  AUTHORS   Qian,W., Yu,C. and Wang,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAR-2006) The State Key Laboratory of Plant Cell and
+            Chromosome Engineering, Institute of Genetics and Developmental
+            Biology, CAS, Datun Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..747
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             1..747
+                     /EC_number="5.4.2.8"
+                     /note="OsPMM"
+                     /codon_start=1
+                     /product="phosphomannomutase"
+                     /protein_id="ABD97871.1"
+                     /db_xref="GI:90762125"
+                     /translation="MAARKNAGVLALFDVDGTLTAPRKVVTPEMLQFMKQLREHVTVG
+                     VVGGSDLVKISEQLGKSVTTDYDYCFSENGLVAHKNGELIGTQSLKSFLGDDQLKEFI
+                     NFTLHYIADLDIPIKRGTFIEFRSGMLNVSPIGRNCSQEERDEFEKYDKVHNIRPKMV
+                     SVLREKFAHLNLTFSIGGQISFDVFPQGWDKTYCLRYLEEFQEIHFFGDKTYKGGNDY
+                     EIFESDRTIGHTVTSPDDTAEQCRSLFMSK"
+ORIGIN      
+        1 atggcggcga ggaagaatgc cggtgtcctc gcgctcttcg acgtcgacgg caccctcacc
+       61 gcgccccgca aggtggtgac gccggagatg ctccagttca tgaagcagct gcgcgagcat
+      121 gtcactgtgg gcgtggttgg gggatctgat ctggtgaaga tttccgaaca actcggcaaa
+      181 tcagttacta ctgattacga ttactgcttc tctgaaaatg gcctggtcgc gcacaagaac
+      241 ggcgaactca ttggaactca aagtttgaaa tcgtttcttg gagatgatca gctaaaggaa
+      301 tttattaact tcacgcttca ttacattgct gacttggaca tcccaatcaa aaggggtaca
+      361 ttcatagagt tccgaagtgg aatgctgaat gtgtcgccca tagggagaaa ttgtagtcaa
+      421 gaagaacgtg atgagtttga aaagtatgat aaggtacata acattcggcc taaaatggtc
+      481 tcagtgcttc gtgaaaagtt cgcccacttg aacttgacat tttctattgg agggcagatt
+      541 agttttgatg tgttcccaca aggctgggac aaaacttact gcttgagata tcttgaggaa
+      601 tttcaagaaa tccatttctt tggggacaaa acctacaagg gaggcaatga ttatgagata
+      661 tttgagtctg accggacaat tggacataca gttaccagtc ctgatgatac agcagagcag
+      721 tgcagatctc tcttcatgtc gaagtga
+//
+

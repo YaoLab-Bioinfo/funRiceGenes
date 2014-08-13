@@ -1,0 +1,54 @@
+LOCUS       JF776156                 517 bp    mRNA    linear   PLN 14-FEB-2012
+DEFINITION  Oryza sativa Japonica Group cultivar Zhonghua 11 LEA5 mRNA,
+            complete cds.
+ACCESSION   JF776156
+VERSION     JF776156.1  GI:335999230
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 517)
+  AUTHORS   He,S., Tan,L., Hu,Z., Chen,G., Wang,G. and Hu,T.
+  TITLE     Molecular characterization and functional analysis by heterologous
+            expression in E. coli under diverse abiotic stresses for OsLEA5,
+            the atypical hydrophobic LEA protein from Oryza sativa L
+  JOURNAL   Mol. Genet. Genomics 287 (1), 39-54 (2012)
+   PUBMED   22127413
+REFERENCE   2  (bases 1 to 517)
+  AUTHORS   Hu,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-APR-2011) College of Bioengineering, Chongqing
+            University, No. 174 Shazhengjie, Shapingba, Chongqing, Chongqing
+            400044, People's Republic of China
+FEATURES             Location/Qualifiers
+     source          1..517
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua 11"
+                     /db_xref="taxon:39947"
+                     /PCR_primers="fwd_seq: gataatttcactccagcgtgc, rev_seq:
+                     cggagttggttgatgagatta"
+     CDS             29..484
+                     /note="OSLEA5; late embryogenesis abundant protein
+                     belonging to the atypical LEA group 5C"
+                     /codon_start=1
+                     /product="LEA5"
+                     /protein_id="AEH76905.1"
+                     /db_xref="GI:335999231"
+                     /translation="MSSLMDKAKGFVAEKIAHIPKPEASLDSLSFKGMSRECITVHSN
+                     VNVSNPYDHRLPICELTYTLKCAGNVVASGTMPDPGWIAASDTTKLEIPAKIPYDFLI
+                     SLVKDVGRDWDIDYQLDVGLTIDLPIVGNFTIPLSTSGEMKLPTLKDMF"
+ORIGIN      
+        1 gataatttca ctccagcgtg cgtcggccat gtcgagcttg atggacaagg cgaaagggtt
+       61 cgtggcggag aagatcgcgc acatcccaaa gccggaggcg tcgctggaca gcttgtcgtt
+      121 caaggggatg agccgcgagt gcatcaccgt gcacagcaac gtcaacgtct ccaaccccta
+      181 cgaccaccgc ctccccatct gcgagctcac ctacaccctc aagtgcgccg gcaacgttgt
+      241 ggcgtccggc acgatgcccg atccggggtg gatcgcggcg agcgacacga cgaagctgga
+      301 gataccggcc aagatcccct acgacttcct catctcgctg gtgaaggacg tgggccggga
+      361 ctgggacatc gactaccagc tcgacgtcgg cctcaccatc gacctcccca tcgtcggcaa
+      421 cttcaccatc ccgctctcca ccagcggcga gatgaagctc cccacactca aggacatgtt
+      481 ctaattatct tatctctaat ctcatcaacc aactccg
+//
+

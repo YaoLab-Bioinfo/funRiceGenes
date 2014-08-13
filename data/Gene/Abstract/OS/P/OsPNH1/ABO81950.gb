@@ -1,0 +1,57 @@
+LOCUS       ABO81950                 122 aa            linear   PLN 04-APR-2007
+DEFINITION  hypothetical protein MtrDRAFT_AC146909g9v2 [Medicago truncatula].
+ACCESSION   ABO81950
+VERSION     ABO81950.1  GI:140061938
+DBSOURCE    accession AC148757.3
+KEYWORDS    .
+SOURCE      Medicago truncatula (barrel medic)
+  ORGANISM  Medicago truncatula
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; core eudicotyledons;
+            rosids; eurosids I; Fabales; Fabaceae; Papilionoideae; Trifolieae;
+            Medicago.
+REFERENCE   1  (residues 1 to 122)
+  AUTHORS   Lin,S., Dixon,R., May,G., Sumner,L., Gonzales,B., Cook,D., Kim,D.
+            and Roe,B.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAR-2004) Department Of Chemistry And Biochemistry,
+            The University Of Oklahoma, 620 Parrington Oval, Room 208, Norman,
+            OK 73019, USA
+REFERENCE   2  (residues 1 to 122)
+  AUTHORS   Lin,S., Dixon,R., May,G., Sumner,L., Gonzales,B., Cook,D., Kim,D.
+            and Roe,B.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2005) Department Of Chemistry And Biochemistry,
+            The University Of Oklahoma, 620 Parrington Oval, Room 208, Norman,
+            OK 73019, USA
+REFERENCE   3  (residues 1 to 122)
+  AUTHORS   Lin,S., Dixon,R., May,G., Sumner,L., Gonzales,B., Cook,D., Kim,D.
+            and Roe,B.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAR-2006) Department Of Chemistry And Biochemistry,
+            The University Of Oklahoma, 620 Parrington Oval, Room 208, Norman,
+            OK 73019, USA
+REFERENCE   4  (residues 1 to 122)
+  CONSRTM   The International Medicago Genome Annotation Group
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-APR-2007) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..122
+                     /organism="Medicago truncatula"
+                     /db_xref="taxon:3880"
+                     /clone="mth2-57e16"
+                     /clone_lib="BAC library H2"
+     Protein         1..122
+                     /product="hypothetical protein"
+     CDS             1..122
+                     /locus_tag="MtrDRAFT_AC146909g9v2"
+                     /gene_synonym="AC146909_9.2"
+                     /coded_by="complement(AC148757.3:24466..24834)"
+ORIGIN      
+        1 marynnsyyf weyfsfpvhl clfmfilffv lafswyinye yvyedkfiqv killslvpll
+       61 lllvvhclss gesftlplpe eseslhragg spwgvalllv fllfmisyqs sfherwfpfa
+      121 tr
+//
+

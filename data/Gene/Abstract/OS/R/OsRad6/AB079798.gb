@@ -1,0 +1,58 @@
+LOCUS       AB079798                 764 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsRad6 mRNA for Rad6, complete cds.
+ACCESSION   AB079798
+VERSION     AB079798.1  GI:18844989
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yamamoto,T., Mori,Y., Ishibashi,T., Uchiyama,Y., Sakaguchi,N.,
+            Furukawa,T., Hashimoto,J., Kimura,S. and Sakaguchi,K.
+  TITLE     Characterization of Rad6 from a higher plant, rice (Oryza sativa
+            L.) and its interaction with Sgt1, a subunit of the SCF ubiquitin
+            ligase complex
+  JOURNAL   Biochem. Biophys. Res. Commun. 314 (2), 434-439 (2004)
+   PUBMED   14733924
+REFERENCE   2  (bases 1 to 764)
+  AUTHORS   Yamamoto,T., Shimanouchi,K., Ishibashi,T., Hashimoto,J., Kimura,S.
+            and Sakaguchi,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-FEB-2002) Contact:Kengo Sakaguchi Science University
+            of Tokyo, Dept. of Applied Biological Science; Yamazaki 2641, noda,
+            chiba 278-8510, Japan
+FEATURES             Location/Qualifiers
+     source          1..764
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..764
+                     /gene="OsRad6"
+     CDS             175..633
+                     /gene="OsRad6"
+                     /codon_start=1
+                     /product="Rad6"
+                     /protein_id="BAB85469.1"
+                     /db_xref="GI:18844990"
+                     /translation="MSTPARKRLMRDFKRLQQDPPAGISGAPHDNNIMLWNAVIFGPD
+                     DTPWDGGTFKLTLQFTEDYPNKPPVVRFVSRMFHPNIYADGSICLDILQNQWSPIYDV
+                     AAILTSIQSLLCDPNPNSPANSEAARLFSENKREYNRKVREIVEQSWTAD"
+ORIGIN      
+        1 gtcgacccac gcgtccggcc gaagcttctc tcctctctct caactccggc gagargagga
+       61 ggcggcggtg gggcgttcgt cgggagarag accagggccg gggggctagg gttcggccgt
+      121 tcagagaggc ggcggctgag gaggaggrgg aggaggagga gggggtgagg agagatgtcg
+      181 acgccggcga ggaagcggct gatgcgggac ttcaagcggc tgcagcagga cccgcccgcc
+      241 ggaatcagcg gcgcgccgca cgacaacaac atcatgctct ggaacgccgt catattcgga
+      301 ccggatgaca cgccgtggga tggaggcacg ttcaagctga cactacaatt tacagaagat
+      361 tatcccaaca aaccaccagt tgttcggttt gtctcaagga tgtttcaccc aaatatttat
+      421 gcagatggaa gtatctgctt ggatatccta caaaatcaat ggagccctat atatgatgtt
+      481 gctgcgatat tgacctctat ccagtccctg ctctgtgatc caaacccaaa ctcccctgca
+      541 aactccgaag cagccagact gttcagcgag aacaagcgcg agtacaaccg caaagtccgc
+      601 gagattgtgg agcagagctg gacggccgac taagccaagg acatgattga gttgcagttt
+      661 ctgcaacaag cttctcctaa agatatgcaa ttctggcttt cccggtctgt atcacctact
+      721 aaaaacataa aaaatcttca gttgttgtaa aaaaaaaaaa aaaa
+//
+

@@ -1,0 +1,71 @@
+LOCUS       BAA21098                 505 aa            linear   PLN 15-FEB-2008
+DEFINITION  betaine aldehyde dehydrogenase [Oryza sativa Japonica Group].
+ACCESSION   BAA21098
+VERSION     BAA21098.1  GI:2244604
+DBSOURCE    accession AB001348.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Nakamura,T., Yokota,S., Muramoto,Y., Tsutsui,K., Oguri,Y., Fukui,K.
+            and Takabe,T.
+  TITLE     Expression of a betaine aldehyde dehydrogenase gene in rice, a
+            glycinebetaine nonaccumulator, and possible localization of its
+            protein in peroxisomes
+  JOURNAL   Plant J. 11 (5), 1115-1120 (1997)
+   PUBMED   9193078
+REFERENCE   2  (residues 1 to 505)
+  AUTHORS   Nakamura,T., Yokota,S., Muramoto,Y., Tsutsui,K., Oguri,Y., Fukui,K.
+            and Takabe,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-FEB-1997) Contact:Tetsuko Takabe Nagoya University,
+            BioScience Center; Chikusa, Nagoya, Aichi 464-01, Japan
+FEATURES             Location/Qualifiers
+     source          1..505
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     Protein         1..505
+                     /product="betaine aldehyde dehydrogenase"
+     Region          29..489
+                     /region_name="ALDH_F10_BADH"
+                     /note="Arabidopsis betaine aldehyde dehydrogenase 1 and 2,
+                     ALDH family 10A8 and 10A9-like; cd07110"
+                     /db_xref="CDD:143428"
+     Site            order(160..164,172,187,189..190,238..241,244,247..248,
+                     262..264,296,395,397,423,461)
+                     /site_type="other"
+                     /note="NAD(P) binding site [chemical binding]"
+                     /db_xref="CDD:143428"
+     Site            order(164,262,293,296)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:143428"
+     Site            order(262,293,296)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:143428"
+     CDS             1..505
+                     /coded_by="join(AB001348.1:1..115,AB001348.1:229..371,
+                     AB001348.1:1112..1192,AB001348.1:1279..1427,
+                     AB001348.1:2048..2140,AB001348.1:2222..2345,
+                     AB001348.1:2467..2532,AB001348.1:2679..2745,
+                     AB001348.1:2917..2993,AB001348.1:3064..3177,
+                     AB001348.1:3490..3567,AB001348.1:3652..3803,
+                     AB001348.1:3880..3940,AB001348.1:4078..4184,
+                     AB001348.1:4338..4428)"
+ORIGIN      
+        1 maapsaiprr glfigggwre pslgrrlpvv npateatigd ipaataedve lavsaardaf
+       61 grdggrhwsr apgavrakyl kaiaakikdk ksylalletl dsgkpldeaa gdmedvaacf
+      121 eyyadlaeal dgkqrapisl pmenfesyvl kepigvvgli tpwnypllma twkvapalaa
+      181 gctavlkpse lasltclelg gicaeiglpp gvlniitglg teagaplash phvdkiaftg
+      241 stetgkrimi tasqmvkpvs lelggkspli vfddvdidka vewamfgcfa nagqvcsats
+      301 rlllhekiak rfldrlvawa ksikisdple egcrlgsvvs egqyqkimkf istarcegat
+      361 ilyggarpqh lkrgffiept iitnvstsmq iwreevfgpv icvkefrter eavelandth
+      421 yglagavisn dlercerisk aiqsgivwin csqpcfvqap wggnkrsgfg relgqwgldn
+      481 ylsvkqvtky csdepygwyr ppskl
+//
+

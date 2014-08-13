@@ -1,0 +1,65 @@
+LOCUS       AB425957                1020 bp    mRNA    linear   PLN 20-MAY-2009
+DEFINITION  Oryza sativa Japonica Group serr mRNA for serine racemase/serine
+            dehydratase, complete cds.
+ACCESSION   AB425957
+VERSION     AB425957.1  GI:237823402
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Gogami,Y., Ito,K., Kamitani,Y., Matsushima,Y. and Oikawa,T.
+  TITLE     Occurrence of D-serine in rice and characterization of rice serine
+            racemase
+  JOURNAL   Phytochemistry 70 (3), 380-387 (2009)
+   PUBMED   19249065
+REFERENCE   2  (bases 1 to 1020)
+  AUTHORS   Oikawa,T. and Gogami,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-FEB-2008) Contact:Tadao Oikawa Kansai University,
+            Faculty of Chemistry, Materials and Bioengineering; Yamate-Cho
+            3-3-35, Suita, Osaka 564-8680, Japan URL
+            :http://biomole.life-bio.kansai-u.ac.jp/
+FEATURES             Location/Qualifiers
+     source          1..1020
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1020
+                     /gene="serr"
+     CDS             1..1020
+                     /gene="serr"
+                     /codon_start=1
+                     /product="serine racemase/serine dehydratase"
+                     /protein_id="BAH59439.1"
+                     /db_xref="GI:237823403"
+                     /translation="MGSRGGSGGDGAESHGYAADIHSIREAQARIAPYVHKTPVLSST
+                     SIDAIVGKQLFFKCECFQKAGAFKIRGASNSIFALDDDEASKGVVTHSSGNHAAAVAL
+                     AAKLRGIPAYIVIPRNAPACKVDNVKRYGGHIIWSDVSIESRESVAKRVQEETGAILV
+                     HPFNNKNTISGQGTVSLELLEEVPEIDTIIVPISGGGLISGVALAAKAINPSIRILAA
+                     EPKGADDSAQSKAAGKIITLPSTNTIADGLRAFLGDLTWPVVRDLVDDIIVVDDNAIV
+                     DAMKMCYEMLKVAVEPSGAIGLAAALSDEFKQSSAWHESSKIGIIVSGGNVDLGVLWE
+                     SLYKR"
+ORIGIN      
+        1 atggggagca gaggtggaag tggcggcgat ggcgcagaaa gccatggcta tgccgcggac
+       61 atccactcca tcagggaggc gcaggctcgc atcgcaccat acgtgcacaa gacgcccgtt
+      121 ctgtcatcaa catcgatcga tgccatagtg gggaagcagc tgttcttcaa gtgcgagtgc
+      181 ttccagaagg caggggcgtt caagatccga ggcgcttcca attcgatatt tgcgcttgat
+      241 gatgatgagg catccaaggg cgttgtgacg catagcagtg ggaaccatgc tgctgcagtg
+      301 gctcttgctg caaagctacg cggaatacct gcttacattg tcattccaag aaatgcaccg
+      361 gcatgtaagg ttgacaatgt taagcggtac ggtggccata ttatctggag tgatgtctcc
+      421 attgaatcaa gagaatctgt tgctaaaaga gttcaggagg aaactggtgc tattcttgtt
+      481 cacccattca ataataaaaa cactatcagt ggtcaaggta cagtgtctct cgaacttttg
+      541 gaggaagtcc ctgaaattga cacaataatt gttccaatca gtggtggtgg tttaatttct
+      601 ggtgtggcac tggctgccaa ggccataaac ccttcaatac gtattctggc agcagaacca
+      661 aagggtgctg atgattctgc ccagtccaag gctgctggaa agatcataac attgccttca
+      721 accaacacca ttgctgatgg acttcgagct tttcttggtg acctgacatg gccggtggtg
+      781 cgcgacttgg tggatgatat cattgttgtg gatgacaatg ccattgtgga cgccatgaaa
+      841 atgtgctacg agatgctgaa ggtggctgtt gagccgagtg gagcaatagg cctcgcagcc
+      901 gccctctctg acgagtttaa gcaaagctct gcttggcatg agagcagtaa gatagggatc
+      961 attgtttctg gaggcaatgt tgacctcggt gtcctctggg agtctctcta taaacgttga
+//
+

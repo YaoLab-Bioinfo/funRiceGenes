@@ -1,0 +1,76 @@
+LOCUS       AB162137                1602 bp    DNA     linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group TDC gene for tryptophan decarboxylase,
+            complete cds.
+ACCESSION   AB162137
+VERSION     AB162137.1  GI:51090245
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ueno,M., Kihara,J., Honda,Y., Isota,J. and Arase,S.
+  TITLE     DNA fragmentation in Sekiguchi lesion mutants of rice infected with
+            Magnaporthe grisea
+  JOURNAL   J. Gen. Plant Pathol. 70, 321-328 (2004)
+REFERENCE   2  (bases 1 to 1602)
+  AUTHORS   Arase,S., Ueno,M. and Kihara,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2004) Contact:Sakae Arase Shimane University,
+            Faculty of Life and Enviromental Science; Nishikawatsu, Matsue,
+            Shimane 690-8504, Japan
+FEATURES             Location/Qualifiers
+     source          1..1602
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Sekiguchi-asahi"
+                     /db_xref="taxon:39947"
+     gene            1..1602
+                     /gene="TDC"
+     CDS             1..1602
+                     /gene="TDC"
+                     /codon_start=1
+                     /product="tryptophan decarboxylase"
+                     /protein_id="BAD35168.1"
+                     /db_xref="GI:51090246"
+                     /translation="MAPPSHCHTINGGAPRNGAIPEVETTTSTPAASDTALLLDADEF
+                     RRLGHQVVDFIADYYAGLGDYPVHPSVTPGFLRRQLPADAPSRPEPEAFAAALRDVRD
+                     LILPGVTHWQSPRHFAHFPASSSTVGALGEALAAGINVVPFTWAASPAATELEMVVVD
+                     WLGRALHLPESLLFAGGGGGTILGTSCEAVLCALVAARDRKLAEIGARRIGDLVVYCS
+                     DQTHFAFRKAARFAGIPREHCREIPTCRDDVFALSPTALHAAMQADVDAGLVPLFLCA
+                     TVGTTQTTAVDPVRELCAVAARHGGVWVHVNAAYAGSALVCPEFRDVIAGAEAVDSLS
+                     MNAHKWLLANNDCCAVWVAAPSALVAALGTEQEYILRDAAAEGHDVVDYKDWGTTLTR
+                     RFRALKVWLVLRCYGVEGLRSHVRSHVAMAAAFEAMVRGDARFEVVAPRRFALVCFRL
+                     RSPPERLGVGVGVGGEKAANELNRRLLEEVNAASSGPYMSSAMVGGVYMLRCAIGSTL
+                     TEERHVREAWKVVQERATSILRKRG"
+ORIGIN      
+        1 atggcaccac cctcgcactg ccacaccatc aatggcggtg ccccacggaa tggtgccatc
+       61 ccggaggtgg agacgacgac gtcgacgccg gcggcgtcag ataccgcgct actgctcgac
+      121 gctgacgagt tccggcggct cggccaccag gtcgtcgact tcatcgccga ctactacgcc
+      181 ggcctgggcg actaccccgt ccacccaagc gtcactcccg gcttcctgcg ccgacagctc
+      241 cccgccgacg cgccgtcccg cccggagccc gaggcgtttg cggcggcgct gcgggatgtc
+      301 cgcgacctca tcctgcctgg cgtgacgcac tggcagagcc ctcgccactt cgcgcacttc
+      361 ccggcgtcga gcagcaccgt cggcgccctc ggcgaggcgc tcgcggccgg catcaacgtc
+      421 gtgcctttca cgtgggcggc ctcgccggcc gccaccgagc tcgagatggt ggtcgtggac
+      481 tggctcggca gggcgctgca cctgccggag agccttctgt tcgccggcgg aggcggcggc
+      541 acgatcctgg gcacgtcgtg cgaggccgtc ctctgcgcgc tcgtcgccgc gagggaccgg
+      601 aagctggcgg agatcggcgc gaggaggatc ggcgacctcg tcgtctactg ctccgatcag
+      661 acccacttcg cgttccgcaa ggccgcgcgc ttcgccggga taccgcggga gcactgccgc
+      721 gagataccga cgtgccgcga cgacgtgttc gcgctctcgc cgaccgcgct gcatgccgcc
+      781 atgcaggccg acgtcgacgc cgggctggtc cccttgttcc tgtgcgccac ggtgggcacc
+      841 acccagacga ccgccgtgga ccccgtccgc gagctctgcg ccgtcgcggc gcgccacggc
+      901 ggcgtgtggg tgcacgtgaa cgcggcgtac gccgggtcgg cgctggtgtg cccggagttc
+      961 cgcgacgtga tcgccggcgc cgaggccgtc gactcgctca gcatgaacgc ccacaagtgg
+     1021 ctcctcgcca acaacgactg ctgcgcggtg tgggtggcgg cgccgtcggc gctggtggcg
+     1081 gcgctgggca cggagcagga gtacatcctc agggacgcgg cggcggaggg ccacgacgtc
+     1141 gtcgactaca aggactgggg caccacgctg acgcggcggt tccgcgcgct caaggtgtgg
+     1201 ctcgtgctcc gctgctacgg cgtggagggc ctccgctccc acgtccgctc ccacgtcgcc
+     1261 atggccgcgg cgttcgaggc catggtgagg ggcgacgcga ggttcgaggt ggtggcgccg
+     1321 aggcggttcg cgctggtgtg cttccgcctc cggtcgccgc cggagagact cggcgtcggc
+     1381 gtcggcgtcg gaggcgagaa ggcggcaaac gagctcaaca ggaggctcct ggaggaggtg
+     1441 aacgcggcga gctcggggcc gtacatgagc tccgccatgg tgggtggcgt gtacatgctc
+     1501 aggtgcgcca tcgggagcac gctcaccgag gagcgccatg tccgcgaagc gtggaaggtt
+     1561 gtccaggagc gggccacgtc aatccttcgt aaacgtggct aa
+//
+

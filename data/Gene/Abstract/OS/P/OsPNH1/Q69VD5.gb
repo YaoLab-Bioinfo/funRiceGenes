@@ -1,0 +1,282 @@
+LOCUS       PNH1_ORYSJ               979 aa            linear   PLN 11-DEC-2013
+DEFINITION  RecName: Full=Protein argonaute PNH1; AltName: Full=Protein PINHEAD
+            homolog 1; Short=OsPNH1.
+ACCESSION   Q69VD5
+VERSION     Q69VD5.1  GI:75119312
+DBSOURCE    UniProtKB: locus PNH1_ORYSJ, accession Q69VD5;
+            class: standard.
+            extra accessions:Q0DB71,Q8LP00
+            created: Jul 7, 2009.
+            sequence updated: Sep 13, 2004.
+            annotation updated: Dec 11, 2013.
+            xrefs: AB081950.1, BAB96813.1, AP004236.3, BAD33046.1, AP008212.2,
+            BAF19902.1
+            xrefs (non-sequence databases): ProteinModelPortal:Q69VD5,
+            PRIDE:Q69VD5, Gramene:Q69VD5, eggNOG:NOG279895,
+            HOGENOM:HOG000116043, ArrayExpress:Q69VD5, GO:0005737, GO:0003743,
+            GO:0031047, GO:0048366, GO:0019827, InterPro:IPR014811,
+            InterPro:IPR003100, InterPro:IPR003165, InterPro:IPR012337,
+            Pfam:PF08699, Pfam:PF02170, Pfam:PF02171, SMART:SM00949,
+            SMART:SM00950, SUPFAM:SSF101690, SUPFAM:SSF53098, PROSITE:PS50821,
+            PROSITE:PS50822
+KEYWORDS    Complete proteome; Cytoplasm; Developmental protein; Reference
+            proteome; RNA-mediated gene silencing.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 979)
+  AUTHORS   Nishimura,A., Ito,M., Kamiya,N., Sato,Y. and Matsuoka,M.
+  TITLE     OsPNH1 regulates leaf development and maintenance of the shoot
+            apical meristem in rice
+  JOURNAL   Plant J. 30 (2), 189-201 (2002)
+   PUBMED   12000455
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA], FUNCTION, SUBCELLULAR LOCATION,
+            DEVELOPMENTAL STAGE, AND DISRUPTION PHENOTYPE.;
+            STRAIN=cv. Taichung 65; TISSUE=Embryo
+REFERENCE   2  (residues 1 to 979)
+  CONSRTM   International Rice Genome Sequencing Project
+  TITLE     The map-based sequence of the rice genome
+  JOURNAL   Nature 436 (7052), 793-800 (2005)
+   PUBMED   16100779
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   3  (residues 1 to 979)
+  AUTHORS   Tanaka,T., Antonio,B.A., Kikuchi,S., Matsumoto,T., Nagamura,Y.,
+            Numa,H., Sakai,H., Wu,J., Itoh,T., Sasaki,T., Aono,R., Fujii,Y.,
+            Habara,T., Harada,E., Kanno,M., Kawahara,Y., Kawashima,H.,
+            Kubooka,H., Matsuya,A., Nakaoka,H., Saichi,N., Sanbonmatsu,R.,
+            Sato,Y., Shinso,Y., Suzuki,M., Takeda,J., Tanino,M., Todokoro,F.,
+            Yamaguchi,K., Yamamoto,N., Yamasaki,C., Imanishi,T., Okido,T.,
+            Tada,M., Ikeo,K., Tateno,Y., Gojobori,T., Lin,Y.C., Wei,F.J.,
+            Hsing,Y.I., Zhao,Q., Han,B., Kramer,M.R., McCombie,R.W.,
+            Lonsdale,D., O'Donovan,C.C., Whitfield,E.J., Apweiler,R.,
+            Koyanagi,K.O., Khurana,J.P., Raghuvanshi,S., Singh,N.K.,
+            Tyagi,A.K., Haberer,G., Fujisawa,M., Hosokawa,S., Ito,Y., Ikawa,H.,
+            Shibata,M., Yamamoto,M., Bruskiewich,R.M., Hoen,D.R., Bureau,T.E.,
+            Namiki,N., Ohyanagi,H., Sakai,Y., Nobushima,S., Sakata,K.,
+            Barrero,R.A., Sato,Y., Souvorov,A., Smith-White,B., Tatusova,T.,
+            An,S., An,G., OOta,S., Fuks,G., Fuks,G., Messing,J., Christie,K.R.,
+            Lieberherr,D., Kim,H., Zuccolo,A., Wing,R.A., Nobuta,K.,
+            Green,P.J., Lu,C., Meyers,B.C., Chaparro,C., Piegu,B., Panaud,O.
+            and Echeverria,M.
+  CONSRTM   Rice Annotation Project
+  TITLE     The Rice Annotation Project Database (RAP-DB): 2008 update
+  JOURNAL   Nucleic Acids Res. 36 (DATABASE ISSUE), D1028-D1033 (2008)
+   PUBMED   18089549
+  REMARK    GENOME REANNOTATION.;
+            STRAIN=cv. Nipponbare
+REFERENCE   4  (residues 1 to 979)
+  AUTHORS   Kapoor,M., Arora,R., Lama,T., Nijhawan,A., Khurana,J.P., Tyagi,A.K.
+            and Kapoor,S.
+  TITLE     Genome-wide identification, organization and phylogenetic analysis
+            of Dicer-like, Argonaute and RNA-dependent RNA Polymerase gene
+            families and their expression analysis during reproductive
+            development and stress in rice
+  JOURNAL   BMC Genomics 9, 451 (2008)
+   PUBMED   18826656
+  REMARK    GENE FAMILY, AND NOMENCLATURE.
+            Publication Status: Online-Only
+COMMENT     On or before Jul 7, 2009 this sequence version replaced
+            gi:122168054, gi:75157288.
+            [FUNCTION] Probably involved in the RNA silencing pathway. May bind
+            to short RNAs such as microRNAs (miRNAs) or short interfering RNAs
+            (siRNAs), and represses the translation of mRNAs which are
+            complementary to them (By similarity). Plays a role in the
+            maintenance of the indeterminate state of the stem cells in the
+            shoot apical meristem (SAM). Regulates leaf formation through
+            vascular development and may be involved in determining the central
+            domain of the leaf founder region.
+            [SUBCELLULAR LOCATION] Cytoplasm.
+            [DEVELOPMENTAL STAGE] Expressed in the center of the leaf primordia
+            at plastochron 1 (P1) stage. In the P2 leaf primordia, expressed in
+            the mid-vein and the future large veins. In P3 and P4, expressed in
+            the vascular regions and the future bundle sheath extension cells.
+            Expression in leaf primordia quickly disappears after P4 stage. In
+            the inflorescence meristem, expressed at the predicted site of the
+            next bract, and then in the vascular tissue of the developing
+            rachis-branch. In developing floral organs, expressed in the
+            adaxial side of the palea, lemma and stamen.
+            [DISRUPTION PHENOTYPE] Malformed leaves with an altered vascular
+            arrangement and abnormal internal structure. Aberrant SAM with
+            reduced OSH1 gene expression.
+            [SIMILARITY] Belongs to the argonaute family. Ago subfamily.
+            [SIMILARITY] Contains 1 PAZ domain.
+            [SIMILARITY] Contains 1 Piwi domain.
+            [SEQUENCE CAUTION] Sequence=BAF19902.1; Type=Erroneous gene model
+            prediction.
+FEATURES             Location/Qualifiers
+     source          1..979
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+     gene            1..979
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+     Protein         1..979
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /product="Protein argonaute PNH1"
+                     /note="Protein PINHEAD homolog 1; OsPNH1"
+                     /UniProtKB_evidence="Evidence at transcript level"
+     Region          1..979
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Protein argonaute PNH1. /FTId=PRO_0000378443."
+     Region          17..96
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Compositionally biased region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Gly-rich."
+     Region          127..979
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="PLN03202"
+                     /note="protein argonaute; Provisional"
+                     /db_xref="CDD:215631"
+     Region          279..331
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="DUF1785"
+                     /note="Domain of unknown function (DUF1785); pfam08699"
+                     /db_xref="CDD:254981"
+     Region          331..445
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="PAZ_argonaute_like"
+                     /note="PAZ domain, argonaute_like subfamily. Argonaute is
+                     part of the RNA-induced silencing complex (RISC), and is
+                     an endonuclease that plays a key role in the RNA
+                     interference pathway. The PAZ domain has been named after
+                     the proteins Piwi,Argonaut, and Zwille; cd02846"
+                     /db_xref="CDD:239212"
+     Region          332..446
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="PAZ."
+     Site            order(380,395,406,410,428,435,437)
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /site_type="other"
+                     /note="nucleic acid-binding interface [nucleotide
+                     binding]"
+                     /db_xref="CDD:239212"
+     Region          408
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="E -> Q (in Ref. 1; BAB96813)."
+     Region          480..481
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="TV -> S (in Ref. 1; BAB96813)."
+     Region          490..940
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Piwi_ago-like"
+                     /note="Piwi_ago-like: PIWI domain, Argonaute-like
+                     subfamily. Argonaute is the central component of the
+                     RNA-induced silencing complex (RISC) and related
+                     complexes. The PIWI domain is the C-terminal portion of
+                     Argonaute and consists of two subdomains, one of...;
+                     cd04657"
+                     /db_xref="CDD:240015"
+     Region          522
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="G -> V (in Ref. 1; BAB96813)."
+     Region          620..941
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Piwi."
+     Site            order(633,637,649..652,655,663,666,670,674)
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /site_type="other"
+                     /note="5' RNA guide strand anchoring site"
+                     /db_xref="CDD:240015"
+     Site            order(704,706,790,930)
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /site_type="active"
+                     /db_xref="CDD:240015"
+     Region          818
+                     /gene="PHN1"
+                     /locus_tag="Os06g0597400"
+                     /gene_synonym="LOC_Os06g39640"
+                     /gene_synonym="P0417D05.31"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N -> I (in Ref. 1; BAB96813)."
+ORIGIN      
+        1 mlevldmapp rhqpaagkag ggrghghghg hggggggpaa rkqplqssma qpkaetaaat
+       61 aavappeggk kcgggggrrr ggrgrggrag agpgpglaaa pavvvapaar avigppvask
+      121 glsfcrrpgf gtvgarcvvk anhflaelpd kdltqydvki tpevssrsvn raimselvrl
+      181 yhdsdlggrl paydgrknly tagtlpfdar efvvrltddd dgtgvpprer eyrvaikfaa
+      241 radlhhlrqf iagrqadapq ealqvldivl relanrryvs igrsfyspdi rkpqrlgdgl
+      301 qswcgfyqsi rptqmglsln idmsstafie plpviefvaq ilgkdvisrp lsdanrikik
+      361 kalrgvkvev thrgnvrrky risglttqpt helifpiddq mnmksvveyf kemygftiqh
+      421 phlpclqvgn qkkanylpme ackivegqry tkrlnekqit sllkvtcrrp reqemdilqt
+      481 vqqngyeqdp yakefginis ekltsvearv lpapwlkyhd tgkekeclpq vgqwnmvnkk
+      541 vingckvnhw acinfsrsvq ettargfcqe laqmcqisgm efnsepvipi ysarpdqvek
+      601 alkhvynmsl nklkgkelel llailpdnng slygdikric etdlglisqc cltkhvfkis
+      661 kqylanvslk invkmggrnt vlldaiswri plvsdiptii fgadvthpet gedsspsiaa
+      721 vvasqdwpev tkyaglvcaq ahrqeliqdl yktwhdpqrg tvtggmirel lisfrkatgq
+      781 kplriifyrd gvsegqfyqv llyeldairk acaslepnyq ppvtfvvvqk rhhtrlfann
+      841 hkdrsstdks gnilpgtvvd skichpsefd fylcshagiq gtsrpahyhv lwdennftad
+      901 emqtltnnlc ytyarctrsv svvppayyah laafrarfym epemsenqtt sksstgtngt
+      961 svkplpavke kvkrvmfyc
+//
+

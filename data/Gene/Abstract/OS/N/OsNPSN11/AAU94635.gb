@@ -1,0 +1,69 @@
+LOCUS       AAU94635                 261 aa            linear   PLN 25-FEB-2008
+DEFINITION  SNARE 11 [Oryza sativa Japonica Group].
+ACCESSION   AAU94635
+VERSION     AAU94635.1  GI:53829383
+DBSOURCE    accession AY740014.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 261)
+  AUTHORS   Bao,Y.M., Wang,J.F., Huang,J. and Zhang,H.S.
+  TITLE     Cloning and characterization of three genes encoding Qb-SNARE
+            proteins in rice
+  JOURNAL   Mol. Genet. Genomics 279 (3), 291-301 (2008)
+   PUBMED   18197419
+REFERENCE   2  (residues 1 to 261)
+  AUTHORS   Bao,Y.M. and Zhang,H.S.
+  TITLE     Molecular Cloning And Characterization of A Novel Plant SNAREs Gene
+            Family From Rice
+  JOURNAL   Unpublished
+REFERENCE   3  (residues 1 to 261)
+  AUTHORS   Bao,Y.M. and Zhang,H.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2004) Agro. Department, Rice Institution, Weigang
+            1, Nanjing Agro. Univ., Nanjing, Jiangsu 210095, P.R. China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..261
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Jiucaiqing"
+                     /db_xref="taxon:39947"
+                     /tissue_type="flowering spike"
+     Protein         1..261
+                     /product="SNARE 11"
+                     /name="t-SNARE"
+     Region          <14..220
+                     /region_name="COG5325"
+                     /note="t-SNARE complex subunit, syntaxin [Intracellular
+                     trafficking and secretion]"
+                     /db_xref="CDD:227635"
+     Region          144..203
+                     /region_name="t_SNARE"
+                     /note="Soluble NSF (N-ethylmaleimide-sensitive fusion
+                     protein)-Attachment protein (SNAP) REceptor domain; these
+                     alpha-helical motifs form twisted and parallel
+                     heterotetrameric helix bundles; the core complex contains
+                     one helix from a protein that is anchored in...; cd00193"
+                     /db_xref="CDD:238115"
+     Site            order(172,179,182)
+                     /site_type="other"
+                     /note="flanking leucine-zipper layers"
+                     /db_xref="CDD:238115"
+     Site            175
+                     /site_type="other"
+                     /note="zero layer"
+                     /db_xref="CDD:238115"
+     CDS             1..261
+                     /gene="NPSN11"
+                     /coded_by="AY740014.1:61..846"
+ORIGIN      
+        1 mdlesvnpel aeidgqigdi lralqngfqk ldkikdanrr srqleeltdk mrdckrlikd
+       61 fervvkdmag stdpetarml hdrkqsmike lnsyvalkkq yasenkrvdl fdgpsvedgf
+      121 geenvllasn mtnqqlmdqg nqlmdetdqa iarskqtvqe tinvgtetaa alksqteqms
+      181 rivneldsih fsikkasqmv keigrqvatd rcimallfli vagviaiivv kivnpqnkti
+      241 rdipglappv srrllsived i
+//
+

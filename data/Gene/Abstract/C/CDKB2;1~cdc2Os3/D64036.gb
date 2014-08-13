@@ -1,0 +1,80 @@
+LOCUS       RICSS22414              1167 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group SS224 mRNA for protein cdc2 kinase,
+            complete cds.
+ACCESSION   D64036 D17778
+VERSION     D64036.1  GI:1944503
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1167)
+  AUTHORS   Kidou,S., Umeda,M. and Uchimiya,H.
+  TITLE     Nucleotide sequence of rice (oryza sativa L.) cDNA homologous to
+            cdc2 gene
+  JOURNAL   DNA Seq. 5 (2), 125-129 (1994)
+   PUBMED   7703506
+REFERENCE   2  (bases 1 to 1167)
+  AUTHORS   Uchimiya,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-AUG-1995) Contact:Hirofumi Uchimiya Institute of
+            Molecular and Cellular Biosciences, The University of Tokyo; 1-1-1
+            Yayoi, Bunkyo-ku, Tokyo 113, Japan
+COMMENT     On Apr 18, 1997 this sequence version replaced gi:984041.
+FEATURES             Location/Qualifiers
+     source          1..1167
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /tissue_type="callus"
+                     /note="Oryza sativa L."
+     gene            1..1167
+                     /gene="SS224"
+     misc_difference 68..69
+                     /gene="SS224"
+                     /citation=[1]
+                     /replace="gaa"
+     CDS             69..977
+                     /gene="SS224"
+                     /codon_start=1
+                     /product="protein cdc2 kinase"
+                     /protein_id="BAA19553.1"
+                     /db_xref="GI:1944504"
+                     /translation="MDLYEKLEKVGEGTYGKVYKAREKATGRIVALKKTRLPEDDEGV
+                     PPTALREVSLLRMLSQDSHVVRLLDLKQGQNKEGQTILYLVFEYMDTDLKKFIRAHRQ
+                     NLQKIPVPTVKILMYQLCKGVAFCHGRGVLHRDLKPHNLLMDRKTMALKIADLGLSRS
+                     FTVPLKKYTHEILTLWYRAPEVLLGAAHYSTPVDIWSVGCIFAELATNQPLFAGDSEV
+                     QQLLHIFKLLGTPNEQVWPGVSKLPNWHEYPQWNPSKVSDLVHGLDADALDLLEKMLQ
+                     YEPSKRISAKKAMEHPYFNDVNKELY"
+     misc_difference 204
+                     /gene="SS224"
+                     /citation=[1]
+                     /replace="t"
+     misc_difference 1064
+                     /gene="SS224"
+                     /citation=[1]
+                     /replace="c"
+ORIGIN      
+        1 cggcgctcca ccaccaggcg gcggcggcgc cggtgacgac gacgacggac gggggcgagc
+       61 tgcgggcgat ggacctgtac gagaagctgg agaaggtcgg ggaggggacg tacgggaagg
+      121 tgtacaaggc gcgggagaag gcgacggggc ggatcgtggc gctgaagaag acgcggctgc
+      181 cggaggacga cgagggcgtg ccgccgacgg cgctcaggga ggtgtcgctg ctgcggatgc
+      241 tgtcgcagga ctcgcacgtg gtgcgcctgc tggacctcaa gcaggggcag aacaaggagg
+      301 gccagaccat cctctacctc gtcttcgagt acatggacac cgacctcaag aagttcatcc
+      361 gcgcccaccg ccagaatctc cagaagatcc ccgtgcccac cgtcaagatc ctgatgtacc
+      421 agctctgcaa gggcgttgct ttctgccatg gccgcggtgt gctgcaccgt gacctcaagc
+      481 cgcataacct gctcatggac cgcaagacca tggcgctcaa gatcgccgac ctcgggctca
+      541 gccgctcgtt cactgtccct ctcaagaagt acacccacga gatcctgacg ctgtggtaca
+      601 gggctcccga ggttcttctt ggcgcggcac actactccac tccggttgac atctggtctg
+      661 tgggctgcat ttttgctgag ttggccacta accaacctct tttcgctgga gattccgagg
+      721 ttcagcagct tctgcacatt ttcaagttgc tgggcacccc aaatgagcaa gtttggccag
+      781 gagtgagcaa gctacctaac tggcacgagt acccccagtg gaatccctcg aaagtgtctg
+      841 atcttgtcca tggtctcgac gctgatgctc ttgatcttct tgagaaaatg ctgcagtacg
+      901 agccgtcgaa gcggatctct gcgaagaagg ccatggagca tccctacttc aacgacgtga
+      961 acaaggagct ctactgaagg tcgattgatg atgttcacca ccaaggaaaa aaaaacgttg
+     1021 tgcgtcttcg tgactagcct gccctgaagc attgcttttg cttttagggg gaaaagtact
+     1081 gtttgtgtct gtttcctgga tgctgcttag tgtgcttaag aattcacttg tttgtgatgg
+     1141 taatgagtaa tgacttaaga attcgac
+//
+

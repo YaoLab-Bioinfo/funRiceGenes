@@ -1,0 +1,57 @@
+LOCUS       AY923984                 950 bp    mRNA    linear   PLN 08-NOV-2005
+DEFINITION  Oryza sativa (indica cultivar-group) NPR1-like 2 mRNA, partial cds.
+ACCESSION   AY923984
+VERSION     AY923984.1  GI:60308947
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 950)
+  AUTHORS   Chern,M., Fitzgerald,H.A., Canlas,P.E., Navarre,D.A. and
+            Ronald,P.C.
+  TITLE     Overexpression of a rice NPR1 homolog leads to constitutive
+            activation of defense response and hypersensitivity to light
+  JOURNAL   Mol. Plant Microbe Interact. 18 (6), 511-520 (2005)
+   PUBMED   15986920
+REFERENCE   2  (bases 1 to 950)
+  AUTHORS   Chern,M., Fitzgerald,H., Canlas,P. and Ronald,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-FEB-2005) Plant Pathology, UC Davis, One Shields
+            Ave., Davis, CA 95616, USA
+FEATURES             Location/Qualifiers
+     source          1..950
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IRBB21"
+                     /db_xref="taxon:39946"
+     CDS             <1..622
+                     /note="NH2"
+                     /codon_start=2
+                     /product="NPR1-like 2"
+                     /protein_id="AAX18701.1"
+                     /db_xref="GI:60308948"
+                     /translation="YNTKMEQGQESNKDRLCIDILDREMIRKPMAVEDSVTSPLLADD
+                     LHMKLLYLENRVAFARLFFPAEAKVAMQIAQADTTPEFGIVPAASTSGKLKEVDLNET
+                     PVTQNKRLRSRVDALMKTVELGRRYFPNCSQVLDKFLEDDLPDSPDALDLQNGTSDEQ
+                     NVKRMRFCELKEDVRKAFSKDRADNSMFSILSSSSSSSPPPKVAKK"
+ORIGIN      
+        1 ctacaataca aagatggagc aaggccaaga gtcaaacaaa gacaggttat gtattgatat
+       61 attagatagg gagatgataa ggaaacctat ggcagtggaa gattctgtca cctcgccttt
+      121 gttggctgac gatcttcaca tgaagcttct ctaccttgaa aacagagttg catttgcaag
+      181 attatttttt cctgcagaag caaaggttgc aatgcaaatt gcacaagcag acaccacacc
+      241 agaatttggc attgttcctg cagctagcac ttctggaaaa ttgaaggaag tcgatctgaa
+      301 cgagacacca gtaacacaaa acaaaaggct ccgttcaagg gtggatgcac tcatgaaaac
+      361 agttgagctg ggacgtcgct acttccctaa ctgctcgcag gtgctcgaca aatttctgga
+      421 ggatgatttg cccgatagtc ctgatgcact cgacctccaa aatggcactt ctgatgagca
+      481 aaatgttaaa aggatgcggt tctgtgagtt aaaggaggat gtgcgcaagg cattcagcaa
+      541 agacagagct gataatagca tgttttctat cttgtcatct tcatcgtcct cttcgccacc
+      601 tcccaaggtt gcaaagaaat gacagaagtt ttgtaacaaa tttccgctcg tgatgttact
+      661 gggacaagag atatcgatca atagacctgt atagtcttac agtggtataa caattagata
+      721 tcgaagcttc ttcgaatatt agaaagtgct gttctgggct gcactcagct ggtttatggg
+      781 acccatgcgg tgaaactggc aaaagaaaac cagctgatta gaggctccaa agtagtgtct
+      841 ctcgtgaata tgtttgtagc attctgtttt gttcaggatg gctgtaatga taaaatcttt
+      901 tcaatagata tatagctaat tgtctcgtaa aaaaaaaaaa aaaaaaaaaa
+//
+

@@ -1,0 +1,65 @@
+LOCUS       EF432576                1131 bp    mRNA    linear   PLN 10-SEP-2007
+DEFINITION  Oryza sativa (indica cultivar-group) chlorophyll synthase mRNA,
+            complete cds.
+ACCESSION   EF432576
+VERSION     EF432576.1  GI:129562651
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1131)
+  AUTHORS   Wu,Z., Zhang,X., He,B., Diao,L., Sheng,S., Wang,J., Guo,X., Su,N.,
+            Wang,L., Jiang,L., Wang,C., Zhai,H. and Wan,J.
+  TITLE     A chlorophyll-deficient rice mutant with impaired chlorophyllide
+            esterification in chlorophyll biosynthesis
+  JOURNAL   Plant Physiol. 145 (1), 29-40 (2007)
+   PUBMED   17535821
+REFERENCE   2  (bases 1 to 1131)
+  AUTHORS   Wan,J. and Wu,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2007) National Key Laboratory for Crop Genetics
+            and Germplasm Enhancement, Nanjing Agricultural University,
+            Weigang1, Nanjing, Jiangsu 210095, China
+FEATURES             Location/Qualifiers
+     source          1..1131
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+                     /chromosome="5"
+                     /map="5p23-p8"
+     CDS             1..1131
+                     /codon_start=1
+                     /product="chlorophyll synthase"
+                     /protein_id="ABO31092.1"
+                     /db_xref="GI:129562652"
+                     /translation="MATSHLLAAASSTAASSATFRPPLLSLRSPPPSSLRLNRRRHFQ
+                     VVRAAETDKETKANAPEKAPAGGSSFNQLLGIKGAKQENDIWKIRLQLTKPVTWPPLV
+                     WGVLCGAAASGNFHWTVEDVAKSIVCMIMSGPCLTGYTQTINDWYDRDIDAINEPYRP
+                     IPSGAISENEVITQIWALLLAGLGLGALLDVWAGHDFPIIFYLAVGGSLLSYIYSAPP
+                     LKLKQNGWIGNFALGASYIGLPWWAGQALFGTLTPDIVVLTSLYSIAGLGIAIVNDFK
+                     SVEGDRALGLQSLPVAFGMETAKWICVGAIDITQLSVAGYLFSSGKPYYALALLGLTI
+                     PQVVFQFQYFLKDPVKYDVKYQASAQPFFVLGLLVTALATSH"
+ORIGIN      
+        1 atggccacct cccacctcct cgccgccgcc tcctccaccg ccgcctcctc cgccaccttc
+       61 cgccctcccc tcctcagcct ccgctccccg ccgccctctt ctctccgcct caaccgcagg
+      121 cgccacttcc aggtggtccg cgcggccgag accgacaaag agacgaaggc caatgcgccc
+      181 gagaaagctc ccgcgggagg ctccagcttc aaccagctgc tcggcatcaa gggcgccaag
+      241 caagagaacg acatatggaa gattcgcctt caacttacta agccagtgac atggcctccg
+      301 cttgtatggg gagtgctttg tggagcagct gcctctggaa atttccactg gacagttgaa
+      361 gatgttgcaa aatctattgt ctgcatgata atgtctggtc catgtcttac aggatacaca
+      421 cagacaatta acgactggta tgatcgagat atagatgcga taaatgaacc ttaccgtcct
+      481 attccttcag gcgctatatc agaaaatgag gtcattactc aaatttgggc actgttgtta
+      541 gcagggcttg gcctgggtgc tctgttagat gtatgggcag gacatgattt tcctattatt
+      601 ttttatcttg ctgttggtgg gtccttgctt tcttacatat attcagctcc acctctgaag
+      661 ctcaagcaga atggatggat tggaaacttt gctcttggtg cgagctacat tggcttgccc
+      721 tggtgggctg gccaggcatt atttggaacc cttactcctg atattgttgt cctgacttct
+      781 ttgtatagca tagctgggct agggattgct attgtaaatg actttaagag tgttgaggga
+      841 gatagagctc tggggcttca gtcactcccg gttgcttttg gtatggaaac tgcaaagtgg
+      901 atatgtgtag gagcgattga cataactcaa ttatccgttg caggctacct tttcagttcc
+      961 ggcaagcctt attatgccct ggcactgcta ggactcacaa ttcctcaggt ggtctttcag
+     1021 ttccaatact tcctcaagga ccctgtgaag tatgacgtca aataccaggc aagcgcgcaa
+     1081 ccgttcttcg tcttgggcct tctggtgacc gcccttgcaa ccagccactg a
+//
+

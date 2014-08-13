@@ -1,0 +1,57 @@
+LOCUS       DQ408431                1083 bp    mRNA    linear   PLN 15-MAR-2006
+DEFINITION  Oryza sativa (indica cultivar-group) serine kinase mRNA, complete
+            cds.
+ACCESSION   DQ408431
+VERSION     DQ408431.1  GI:89355888
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1083)
+  AUTHORS   Gupta,B., Gupta,K. and Sengupta,D.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-FEB-2006) Department of Botany, Bose Institute, 93/1
+            A.P.C. Road, Kolkata, West Bengal 700009, India
+FEATURES             Location/Qualifiers
+     source          1..1083
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nonabokra"
+                     /db_xref="taxon:39946"
+     CDS             1..1083
+                     /note="activated by ABA, NaCl, and polyamine; OSPDK"
+                     /codon_start=1
+                     /product="serine kinase"
+                     /protein_id="ABD72268.1"
+                     /db_xref="GI:89355889"
+                     /translation="MEKYEAVRDIGSGNFGVARLMRNRETRELIAVKCIERGHRIDEN
+                     VYREIINHRSLRHPNIIRFKEVILTPTHLMIVMEFAAGGELFDRICDRGRFSEDEARY
+                     FVQQLICGVSYCHHMQICHRDLKLENVLLDGSPAPRLKICDFGYSKSSVLHSRPKSAV
+                     GTPAYIAPEVLSRREYDGKLADVWSCGVTLYVMLVGAYPFEDQDDPKNIRKTIQRIMS
+                     VQYKIPDYVHISAECKQLIARIFVNNPLRRITMKEIKSHPWFLKNLPRELTETAQAMY
+                     YRRDNSVPSFSDQTSEEIMKIVQEARTMPKSSRTGYWNDAGSDEEEKEEEERPGENEE
+                     EEEDEYDKRAKEVHASGELRMSSLRI"
+ORIGIN      
+        1 atggagaagt acgaggcggt gagggacatc gggtcgggga acttcggggt ggcgcggctg
+       61 atgcgcaacc gcgagacccg cgagctcatc gccgtcaagt gcatcgagcg cggccaccgg
+      121 atagatgaga atgtgtacag ggagatcatc aaccaccgct cgctgcgcca ccccaacatc
+      181 attcgcttca aggaggtgat actgacgcca acgcatctta tgattgtcat ggagttcgca
+      241 gcaggcgggg agctgttcga tcgaatctgt gatcgtggac ggttcagtga ggatgaggcc
+      301 aggtatttcg ttcagcagct gatctgtgga gtgagctact gccatcacat gcaaatatgc
+      361 catagagatt tgaagttgga gaatgttctc ttggatggca gcccagctcc acggcttaag
+      421 atatgtgatt ttggctactc caagtcatca gtattgcatt caagacccaa atcagcagtg
+      481 gggacgccag catatatcgc accagaggtg ctatcccgcc gtgagtatga tggaaagctt
+      541 gcagatgtat ggtcctgtgg tgtgactctt tacgtcatgc ttgtgggagc ctacccattt
+      601 gaagaccagg acgaccccaa gaacattcgc aaaaccattc agagaataat gtcagtgcaa
+      661 tataagatac cagattacgt ccacatatct gcagaatgca aacagcttat tgcccgcatt
+      721 tttgtcaaca atccattgag gagaatcacg atgaaggaaa taaagagcca cccgtggttc
+      781 ttgaagaacc tccccaggga gctcacggag actgcgcaag ccatgtacta caggagggac
+      841 aactccgtgc cttccttctc agaccagacc tcagaagaga tcatgaagat tgttcaagaa
+      901 gcaagaacca tgccgaaatc atccaggaca ggctactgga acgacgcggg ttcagacgag
+      961 gaggagaagg aagaagagga gaggccagga gagaacgagg aagaggagga agatgagtac
+     1021 gataagaggg ccaaagaggt ccatgcgagc ggggagctcc gcatgagctc actgcgcata
+     1081 tga
+//
+

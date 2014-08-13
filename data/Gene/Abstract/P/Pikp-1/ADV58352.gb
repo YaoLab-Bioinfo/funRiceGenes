@@ -1,0 +1,99 @@
+LOCUS       ADV58352                1142 aa            linear   PLN 18-MAR-2011
+DEFINITION  resistance protein Pikp-1 [Oryza sativa Japonica Group].
+ACCESSION   ADV58352
+VERSION     ADV58352.1  GI:319655783
+DBSOURCE    accession HM035360.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 1142)
+  AUTHORS   Yuan,B., Zhai,C., Wang,W., Zeng,X., Xu,X., Hu,H., Lin,F., Wang,L.
+            and Pan,Q.
+  TITLE     The Pik-p resistance to Magnaporthe oryzae in rice is mediated by a
+            pair of closely linked CC-NBS-LRR genes
+  JOURNAL   Theor. Appl. Genet. 122 (5), 1017-1028 (2011)
+   PUBMED   21153625
+REFERENCE   2  (residues 1 to 1142)
+  AUTHORS   Pan,Q., Yuan,B. and Wang,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2010) College of Resources and Environmental
+            Sciences, South China Agricultural University, Wushan, Guangzhou,
+            Guangdong 510652, China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..1142
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+                     /chromosome="11"
+                     /map="between RM224 and RM5766"
+     Protein         1..1142
+                     /product="resistance protein Pikp-1"
+                     /name="NBS-LRR protein"
+     Region          283..569
+                     /region_name="AAA"
+                     /note="The AAA+ (ATPases Associated with a wide variety of
+                     cellular Activities) superfamily represents an ancient
+                     group of ATPases belonging to the ASCE (for additional
+                     strand, catalytic E) division of the P-loop NTPase fold.
+                     The ASCE division also includes ABC; cl18944"
+                     /db_xref="CDD:267297"
+     Region          <683..831
+                     /region_name="LRR_RI"
+                     /note="Leucine-rich repeats (LRRs), ribonuclease inhibitor
+                     (RI)-like subfamily. LRRs are 20-29 residue sequence
+                     motifs present in many proteins that participate in
+                     protein-protein interactions and have different functions
+                     and cellular locations. LRRs correspond...; cd00116"
+                     /db_xref="CDD:238064"
+     Site            order(683,686,688,691,694,710,713,715,718,720,733,736,738,
+                     741,743,756,759,761,764,766,776,779,781,784,799,802,804,
+                     807,809,825,828,830)
+                     /site_type="other"
+                     /note="Leucine-rich repeats"
+                     /db_xref="CDD:238064"
+     Site            order(717,740,783,803,805,829)
+                     /site_type="other"
+                     /note="Substrate binding site [chemical binding]"
+                     /db_xref="CDD:238064"
+     Region          731..770
+                     /region_name="LRR_4"
+                     /note="Leucine Rich repeats (2 copies); pfam12799"
+                     /db_xref="CDD:257306"
+     Region          732..789
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          754..794
+                     /region_name="LRR_4"
+                     /note="Leucine Rich repeats (2 copies); pfam12799"
+                     /db_xref="CDD:257306"
+     CDS             1..1142
+                     /gene="Pikp-1"
+                     /coded_by="complement(join(HM035360.1:2646..4944,
+                     HM035360.1:7716..8281,HM035360.1:8432..8995))"
+ORIGIN      
+        1 meaaamavta atgalapvlv klaallddge cnllegsrsd aefirselea vhslltpnil
+       61 grmgdddaac kdgliaevre lsydlddavd dflelnfeqr rsaspfgelk arveehvsnr
+      121 fsdwklpaas lppssvhrra glpppdaelv gmdkrmeelt klleqgsnda srwrkrkphf
+      181 plrktglkqk ivikvamegn ncrskamalv astggvdsva lvgdlrdkie vvgygidpik
+      241 lisalrkkvg daellqvsqa nkdvkettpm lapvksicef hkvktvcilg lpgggkttva
+      301 relydalgth fpcrvfvsvs pssspspnlt ktladifaqa qlgvtdtlst syggsgtgra
+      361 lqqhlidnis afllnkkyli viddiwhwee wevirksipk ndlggriimt trlnsiaekc
+      421 htddndvfvy evgdldnnda lslswgiatk sgagnrigtg ednpcydivn mcygmplali
+      481 wlssalvgei eelggaevkk crdlrhiedg ildipslqpl aeslclgynh lplylrtlll
+      541 ycsayhwsnr iergrlvrrw iaegfvseek eaegyfgeli nrgwitqhgd nnsynyyeih
+      601 pvmlaflrck skeynfltcl glgsdtstsa ssprlirrls lqggypvdcl ssmsmdvsht
+      661 cslvvlgdva rpkgipfymf krlrvldled nkdiqdshlq giceqlslrv rylglkgtri
+      721 rklpqemrkl khleilyvgs triselpqei gelkhlrild vrntditelp lqirelqhlh
+      781 tldvrntpis elppqvgklq nlkimcvrst gvrelpkeig elnhlqtldv rntrvrelpw
+      841 qagqisqslr vlagdsgdgv rlpegvceal ingipgatra kcrevlsiai idrfgpplvg
+      901 ifkvpgshmr ipkmikdhfr vlscldirlc hkledddqkf laempnlqtl vlrfealprq
+      961 pitingtgfq mlesfrvdsr vpriafheda mpnlkllefk fyagpasnda igitnlkslq
+     1021 kvvfrcspwy ksdapgisat idvvkkeaee hpnrpitlli nagykeiste shgsseniag
+     1081 ssgidtepaq aqhdnlpavr ddykgkgill dgrcptcgra tkieeetqdr vadieiqtet
+     1141 ts
+//
+

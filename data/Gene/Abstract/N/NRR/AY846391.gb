@@ -1,0 +1,53 @@
+LOCUS       AY846391                 771 bp    mRNA    linear   PLN 18-AUG-2005
+DEFINITION  Oryza sativa (indica cultivar-group) NPR1 interactor mRNA, complete
+            cds.
+ACCESSION   AY846391
+VERSION     AY846391.1  GI:58618108
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 771)
+  AUTHORS   Chern,M., Canlas,P.E., Fitzgerald,H.A. and Ronald,P.C.
+  TITLE     Rice NRR, a negative regulator of disease resistance, interacts
+            with Arabidopsis NPR1 and rice NH1
+  JOURNAL   Plant J. 43 (5), 623-635 (2005)
+   PUBMED   16115061
+REFERENCE   2  (bases 1 to 771)
+  AUTHORS   Chern,M., Canlas,P., Fitzgerald,H. and Ronald,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-DEC-2004) Plant Pathology, University of California,
+            Davis, One Shields Ave., Davis, CA 95616, USA
+FEATURES             Location/Qualifiers
+     source          1..771
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IRBB21"
+                     /db_xref="taxon:39946"
+                     /chromosome="1"
+     CDS             71..466
+                     /codon_start=1
+                     /product="NPR1 interactor"
+                     /protein_id="AAW80625.1"
+                     /db_xref="GI:58618109"
+                     /translation="MDATTTDATTAKRKRPAASDIADDAPTTVDEVSDAEVEEFYAIL
+                     RRMRDATRRLGARPPPPRAPAWRPSFSWEDFADAPPKQAPPPPQQPADHERVAENATP
+                     PRRPAPGLDLNVEPPSDAPATPRSARAPA"
+ORIGIN      
+        1 ctatactaca aacacggcca cacgcaccca ccccccacca aacgtctatg ctgtgacgaa
+       61 caccaccacc atggacgcca ccaccacgga cgccaccacc gccaagcgca agcgcccagc
+      121 cgcctccgac atcgccgacg acgcccccac caccgtcgac gaggtctccg acgccgaggt
+      181 cgaggagttc tacgccatcc tccgccgcat gcgcgacgcc acccgacggc tcggcgcccg
+      241 ccctcccccg ccgcgcgcgc cggcgtggcg ccccagcttc tcctgggagg acttcgccga
+      301 cgcgccgccc aagcaggcgc cgccgccgcc gcagcagccc gccgaccacg agcgcgtcgc
+      361 cgagaacgcc accccgcccc ggcgcccggc gcccggcctc gacctgaacg tcgagccgcc
+      421 gtccgacgcg ccggccacgc cgcgctcggc gcgcgccccg gcataggcgc gcgccacgag
+      481 gaaacgcggc gcgtcgcgca tgcgggtgct cacggattac aactactttg ctagctagaa
+      541 gcagctagct gcagtgttgg attgatccat ccatggagct gccttgtcct ccttgtgtgt
+      601 gaacaggtga gacctggtta atcaatcgct cttgctggga agaaacaatc cattattggt
+      661 cccatcatgg agatgtacta tcatgtacca agacaaaatg acgggtttaa ttaattaccc
+      721 cctatattat tcgttctgta attcagtaaa aaaaaaaaaa aaaaaaaaaa a
+//
+

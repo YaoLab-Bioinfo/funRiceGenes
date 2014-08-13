@@ -1,0 +1,81 @@
+LOCUS       X85747                  1595 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  O.sativa mRNA for 1-aminocyclopropane-1-carboxylate oxidase.
+ACCESSION   X85747
+VERSION     X85747.1  GI:755772
+KEYWORDS    1-aminocyclopropane-1-carboxylate oxidase; ACO1 gene;
+            ethylene-forming enzyme.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Mekhedov,S.I. and Kende,H.
+  TITLE     Submergence enhances expression of a gene encoding
+            1-aminocyclopropane-1-carboxylate oxidase in deepwater rice
+  JOURNAL   Plant Cell Physiol. 37 (4), 531-537 (1996)
+   PUBMED   8759917
+REFERENCE   2  (bases 1 to 1595)
+  AUTHORS   Mekhedov,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-MAR-1995) S. Mekhedov, Michigan State University,
+            Department of Energy, Plant Research Laboratory, East Lansing, MI,
+            48824-1312, USA
+COMMENT     Sequence overlapping with that under the acc#D40064.
+FEATURES             Location/Qualifiers
+     source          1..1595
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pin Gaew 56"
+                     /db_xref="taxon:39946"
+                     /clone="pREFE9"
+                     /clone_lib="lambda ZAP II"
+     gene            1..1595
+                     /gene="ACO1"
+     CDS             423..1391
+                     /gene="ACO1"
+                     /function="ethylene-forming enzyme"
+                     /codon_start=1
+                     /product="1-aminocyclopropane-1-carboxylate oxidase (ACC
+                     oxidase)"
+                     /protein_id="CAA59749.1"
+                     /db_xref="GI:755773"
+                     /db_xref="GOA:A2Z1W9"
+                     /db_xref="InterPro:IPR005123"
+                     /db_xref="UniProtKB/Swiss-Prot:A2Z1W9"
+                     /translation="MAPTSTFPVINMELLAGEERPAAMEQLDDACENWGFFEILNHGI
+                     STELMDEVEKMTKDHYKRVREQRFLEFASKTLKEGCDDVNKAEKLDWESTFFVRHLPE
+                     SNIADIPDLDDDYRRLMKRFAAELETLAERLLDLLCENLGLEKGYLTKAFRGPAGAPT
+                     FGTKVSSYPPCPRPDLVKGLRAHTDRGGIILLFQDDSVGGLQLLKDGEWVDVPPMRHS
+                     IVVNLGDQLEVITNGRYKSVMHRVVAQTDGNRMSIASFYNPGSDGVISPAPALVKEEE
+                     AVVAYPKFVFEDYMKLYVRHKFEAKEPRFEAFKSMETETSNRIAIA"
+ORIGIN      
+        1 agaaactgtg atacatagtc aataactcaa tgtgtgcgtt aagtcaacta ataacacaca
+       61 tgactaccat gctacctcca ttttaccagc atctcgtatt agtgaagatc tggtgacaga
+      121 ttacatcaag caagagagat gaccatgtca gcaggcaata gcgcatcatc atactaggat
+      181 acgtgtattc catgttcaga atccaatcca ataatccgaa tagtgtacaa cccaaccaag
+      241 taatctcata caacctaacg ggatagtaaa cccaaccaat tacaccgtaa ctaaggtaat
+      301 gtgttaacaa gaacaatgca ctgagcactg gacgcgtcac attcacaaca gcatactata
+      361 gtcagatata gttgtgatta attagtgagt agagtgtgat acctggactt tgagagctag
+      421 aaatggcacc gacttcgacg ttcccggtca tcaacatgga gttgctcgcc ggggaggagc
+      481 gacctgcggc gatggagcag ctggatgatg cttgcgagaa ctggggattc ttcgagatcc
+      541 tgaaccacgg catctcgacg gagctgatgg acgaggtgga gaagatgacc aaggaccact
+      601 acaagcgtgt gcgcgagcag aggttcctcg agttcgcgag caagacgctc aaggaaggct
+      661 gcgacgacgt gaataaggcg gagaagctgg actgggagag caccttcttc gtccgccacc
+      721 tcccggagtc caacatcgcc gacatacccg acctcgacga cgactacagg cgcctcatga
+      781 agcgcttcgc ggcggagctg gagacgctgg cggagcggct actggacctg ctctgcgaga
+      841 acctcggcct cgagaagggc tacctcacca aggccttccg tggccccgcg ggcgcaccca
+      901 ccttcggcac caaggtcagc agctacccgc cgtgcccgcg ccccgacctc gtcaagggcc
+      961 tccgcgccca caccgaccgc ggcggcatca tcctgctctt ccaggacgac agcgtcggtg
+     1021 gcctccagct gctcaaggac ggcgagtggg tggacgtgcc gcccatgcgc cactccatcg
+     1081 tcgtcaacct cggcgaccag ctggaggtga tcaccaacgg caggtacaag agcgtgatgc
+     1141 accgggtggt ggcgcagacc gacggaaaca ggatgtccat cgcgtccttc tacaaccctg
+     1201 gcagcgacgg cgtcatctcc cctgcgccgg cgctggtgaa ggaggaggag gccgtcgtgg
+     1261 cgtaccccaa gttcgtgttc gaggactaca tgaagctgta cgtgcgccac aagttcgagg
+     1321 ccaaggagcc caggttcgag gcgttcaagt ccatggaaac cgagacctcc aaccgcatcg
+     1381 ccatcgctta gcaaccccgg cctcgctcgc tctgttctgt gtactgtgtg tgtgcatgaa
+     1441 ctgtggtttc gtcgtcgttt tgtgatactc ctacatagga ttcgtcagag tggttcgtac
+     1501 tgtactgaat aaaagagcat gcagctagcc aggtgtagcc gtgtaggtat gaatagatta
+     1561 ctactcgcga cgagctcgaa agtttgtacc gtgtc
+//
+

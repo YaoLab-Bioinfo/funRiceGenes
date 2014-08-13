@@ -1,0 +1,64 @@
+LOCUS       EU622934                 825 bp    mRNA    linear   PLN 08-SEP-2011
+DEFINITION  Oryza sativa Indica Group EATB (EATB) mRNA, complete cds.
+ACCESSION   EU622934
+VERSION     EU622934.1  GI:186477883
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 825)
+  AUTHORS   Qi,W., Sun,F., Wang,Q., Chen,M., Huang,Y., Feng,Y.Q., Luo,X. and
+            Yang,J.
+  TITLE     Rice Ethylene-Response AP2/ERF Factor OsEATB Restricts Internode
+            Elongation by Down-Regulating a Gibberellin Biosynthetic Gene
+  JOURNAL   Plant Physiol. 157 (1), 216-228 (2011)
+   PUBMED   21753115
+REFERENCE   2  (bases 1 to 825)
+  AUTHORS   Qi,W., Sun,F. and Yang,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2008) Genetics and Genetic Engineering, School of
+            Life Sciences, Fudan University, #220 Handan Road, Shanghai 200433,
+            China
+FEATURES             Location/Qualifiers
+     source          1..825
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+                     /chromosome="9"
+     gene            1..825
+                     /gene="EATB"
+                     /note="OsEATB"
+     CDS             1..825
+                     /gene="EATB"
+                     /note="ERF protein associated with tillering and branch;
+                     transcription factor; AP2 domain containing protein;
+                     transcription factor activity; DNA binding; ethylene
+                     mediated signaling pathway"
+                     /codon_start=1
+                     /product="EATB"
+                     /protein_id="ACC85686.1"
+                     /db_xref="GI:186477884"
+                     /translation="MTKKVIPAMAAARQDSCKTKLDERGGSHQAPSSARWISSEQEHS
+                     IIVAALRYVVSGCTTPPPEIVTVACGEACALCGIDGCLGCDFFGAEAAGNEEAVMATD
+                     YAAAAAAAAVAGGSGGKRVRRRRKKNVYRGVRHRPWGKWAAEIRDPRRAVRKWLGTFD
+                     TAEEAARAYDRAALEFRGARAKLNFPCSEPLPMPSQRNGNGGDAVTAATTTAEQMTPT
+                     LSPCSADAEETTTPVDWQMGADEAGSNQLWDGLQDLMKLDEADTWFPPFSGAASSF"
+ORIGIN      
+        1 atgaccaaga aggtgatacc ggccatggcg gcggcgaggc aggattcttg caagaccaag
+       61 cttgatgagc gtgggggtag tcatcaggct ccgagctccg cacggtggat ctcgtccgag
+      121 caggagcaca gcatcatcgt cgcggcgctg cggtacgtgg tgtccgggtg caccacgccg
+      181 ccgccggaga tcgtcacggt ggcgtgcggg gaggcgtgtg ctctgtgcgg catcgacggc
+      241 tgtctcgggt gcgacttctt tggggccgag gcggcgggga acgaggaggc ggtaatggcg
+      301 acggattatg ctgctgctgc tgctgcggcc gcggtggcag gaggatcagg cgggaagagg
+      361 gttaggcgga ggaggaagaa gaacgtgtac cgcggcgtgc ggcatcggcc gtgggggaag
+      421 tgggcagcgg agatacgcga cccgcgccgc gcggtgcgca agtggctcgg gacgttcgac
+      481 accgccgagg aggccgccag ggcgtacgac cgcgccgccc tcgagttccg cggcgcgcgc
+      541 gcgaagctca acttcccgtg ctccgagcct ttgcccatgc ccagccaaag aaacggcaat
+      601 ggcggcgatg ctgtcacggc ggcgacgaca acggcagagc agatgactcc gactctgtcg
+      661 ccgtgcagcg cggatgccga ggagacgacg acgccggtgg attggcagat gggcgcggac
+      721 gaagccggca gcaaccagct ctgggatggc ttgcaggacc tgatgaagct ggatgaagcg
+      781 gacacctggt tcccgccatt ttccggtgca gcgtctagtt tttga
+//
+

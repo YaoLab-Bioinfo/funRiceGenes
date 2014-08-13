@@ -1,0 +1,64 @@
+LOCUS       RICDNABF2                717 bp    DNA     linear   PLN 05-SEP-2008
+DEFINITION  Oryza sativa Japonica Group gene for prolamin (seed storage
+            protein), complete cds, clone: PG5b.
+ACCESSION   D73384
+VERSION     D73384.1  GI:1019375
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Nakase,M., Yamada,T., Kira,T., Yamaguchi,J., Aoki,N., Nakamura,R.,
+            Matsuda,T. and Adachi,T.
+  TITLE     The same nuclear proteins bind to the 5'-flanking regions of genes
+            for the rice seed storage protein: 16 kDa albumin, 13 kDa prolamin
+            and type II glutelin
+  JOURNAL   Plant Mol. Biol. 32 (4), 621-630 (1996)
+   PUBMED   8980514
+REFERENCE   2  (bases 1 to 717)
+  AUTHORS   Nakase,M., Adachi,T., Yamada,T., Kira,T., Aoki,N., Nakamura,R.,
+            Tanaka,K. and Matsuda,T.
+  TITLE     Characterization of DNA-binding factors for rice seed storage
+            protein genes
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 717)
+  AUTHORS   Nakase,M. and Matsuda,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-1995) Contact:Tsukasa Matsuda Nagoya University,
+            Graduate School of Bio-agricultural Sciences; Furo-cho, Chikusa-ku,
+            Nagoya, Aichi 464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..717
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="PG5b"
+                     /tissue_type="endosperm"
+                     /dev_stage="immature"
+     CDS             1..450
+                     /note="seed storage protein"
+                     /codon_start=1
+                     /product="prolamin"
+                     /protein_id="BAA11130.1"
+                     /db_xref="GI:1842177"
+                     /translation="MKIIFVFALLAIAACSASAQFDVLGQSYRQYQLQSPVLLQQHVL
+                     SPYNEFVRQQYGIAASPFLQSAAFQLRNNQVWQTRAGGQQSHYQDINIVQAIAQQLQL
+                     QQFGDLYFDRNLAQAQALLAFNVPSRYGIYPRYYGAPSTITTLGGVL"
+ORIGIN      
+        1 atgaagatca ttttcgtctt tgctctcctt gctattgctg catgcagcgc ctctgcgcag
+       61 tttgatgttt taggtcaaag ttataggcaa tatcagctgc agtcgcctgt cctgctacag
+      121 caacatgtgc ttagcccata taatgagttc gtaaggcagc agtatggcat agcggcaagc
+      181 cccttcttgc aatcagctgc gtttcaactg agaaacaacc aagtctggca aactcgcgct
+      241 ggtggccaac aatctcacta tcaggacatt aacattgttc aggccatagc gcagcagcta
+      301 caactccagc agtttggtga tctctacttt gatcggaatc tggctcaagc tcaagctctg
+      361 ttggctttta acgtgccatc tagatatggt atctacccta ggtactatgg tgcacccagt
+      421 accattacca cccttggcgg tgtcttgtaa tgagttttaa cagtatagtg gttcggaaga
+      481 taaaaataag ctcagatatc atcatatgtg gcatgtgaaa ctttgggtga tattaatagg
+      541 aaaaaagttg tctttcatat ttaaatacca tgcctctata gggatatatc ctagtacgtt
+      601 gtcgtgacta attaccatca tcggtactct acaattttac tgtgtgctta cattcgatcc
+      661 gaagctactt tgttttttaa gatagaaatg gagcgtataa aggatgtccg tcctttt
+//
+

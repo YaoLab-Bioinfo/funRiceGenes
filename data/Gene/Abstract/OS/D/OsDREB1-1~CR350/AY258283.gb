@@ -1,0 +1,62 @@
+LOCUS       AY258283                 737 bp    DNA     linear   PLN 30-JUN-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) CR350 transcription factor
+            gene, complete cds.
+ACCESSION   AY258283
+VERSION     AY258283.1  GI:32455221
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 737)
+  AUTHORS   Tian,X.H., Li,X.P., Zhou,H.L., Zhang,J.S., Gong,Z.Z. and Chen,S.Y.
+  TITLE     OsDREB4 genes in rice encode AP2-containing proteins that bind
+            specifically to the dehydration-responsive element
+  JOURNAL   J. Integr. Plant Biol. 47 (4), 467-476 (2005)
+REFERENCE   2  (bases 1 to 737)
+  AUTHORS   Tian,X., Liu,Q., Zhang,J. and Chen,S.
+  TITLE     Osdreb genes in rice, oryza sativa l., encode transcription
+            activators that function in stress-responsive gene expression
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 737)
+  AUTHORS   Tian,X., Liu,Q., Zhang,J. and Chen,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAR-2003) Plant Biotechnology Laboratory, Institute
+            of Genetics, Chinese Academy of Sciences, Andingmenwai Datun Road,
+            Beijing 100101, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..737
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Lansheng"
+                     /db_xref="taxon:39947"
+                     /clone="CR350"
+     mRNA            <25..>684
+                     /product="transcription factor"
+     CDS             25..684
+                     /codon_start=1
+                     /product="transcription factor"
+                     /protein_id="AAP83325.1"
+                     /db_xref="GI:32455222"
+                     /translation="MEWAYYGSGYSSSGTPSPVGGDGDEDSYMTVSSAPPKRRAGRTK
+                     FKETRHPVYKGVRSRNPGRWVCEVREPHGKQRIWLGTFETAEMAARAQDVAAMALRGR
+                     AACLNFADSPRRLRVPPLGAGHEEIRRAAVEAAELFRPAPGQHNAAAEAAAAVAAQAT
+                     AASAELFADFPCYPMDGLEFEMQGYLDMAQGMLIEPPPLAGQSTWAEEDYDCEVNLWS
+                     Y"
+ORIGIN      
+        1 cttgtcgagt gaactgatcc atcgatggag tgggcgtact acggcagtgg gtactcctcg
+       61 tcggggacgc cgtcgccggt gggcggcgac ggggacgagg actcgtacat gacggtgtcg
+      121 tcggcgccgc ccaagcggcg ggcggggagg accaagttca aggagacgag gcacccggtg
+      181 tacaagggcg tgcgcagcag gaaccccggg aggtgggtct gcgaggtgcg cgagccgcac
+      241 ggcaagcaga ggatctggct cggcaccttc gagaccgccg agatggcggc gcgcgcgcag
+      301 gacgtcgcgg cgatggcgct gcgcggccgc gccgcctgcc tcaacttcgc cgactcgccg
+      361 cgcaggctcc gcgtgccgcc gctgggggcc gggcacgagg agatacgccg cgccgcggtc
+      421 gaggccgccg agctgttccg cccggcgccc gggcagcaca atgcggctgc cgaggcggcg
+      481 gccgctgtcg ctgcgcaggc aaccgcggcg agcgcggagc tctttgccga cttcccttgc
+      541 tacccgatgg acggactgga attcgaaatg caggggtacc tcgacatggc acagggaatg
+      601 ctcatcgagc cgccgccatt ggcagggcaa tcgacgtggg ccgaggagga ctacgactgc
+      661 gaggtcaatc tatggagcta ctgatgatcg cccgtgcacc tgaaccgaac cagccctgat
+      721 gagcaggagg actcaat
+//
+

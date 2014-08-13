@@ -1,0 +1,131 @@
+LOCUS       EF140884                4379 bp    DNA     linear   PLN 04-FEB-2009
+DEFINITION  Oryza sativa (japonica cultivar-group) BC10 protein (BC10) gene,
+            complete cds.
+ACCESSION   EF140884
+VERSION     EF140884.1  GI:126038361
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 4379)
+  AUTHORS   Zhou,Y., Li,S., Qian,Q., Zeng,D., Zhang,M., Guo,L., Liu,X.,
+            Zhang,B., Deng,L., Liu,X., Luo,G., Wang,X. and Li,J.
+  TITLE     BC10, A DUF266-Containing and Golgi-Located Type II Membrane
+            Protein, Is Required for Cell Wall Biosynthesis in Rice (Oryza
+            sativa L.)
+  JOURNAL   Plant J. (2008) In press
+   PUBMED   18939965
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 4379)
+  AUTHORS   Li,J., Li,S. and Zhou,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2006) Institute of Genetics and Developmental
+            Biology, Chinese Academy of Sciences, Datun, Beijing 100101,
+            P.R.China
+FEATURES             Location/Qualifiers
+     source          1..4379
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="5"
+     gene            <1..>4379
+                     /gene="BC10"
+     mRNA            join(<1..321,444..560,677..777,1608..1679,1967..2048,
+                     2148..2228,3082..3126,3403..3468,3556..3705,4079..4207,
+                     4344..>4379)
+                     /gene="BC10"
+                     /product="BC10 protein"
+     CDS             join(1..321,444..560,677..777,1608..1679,1967..2048,
+                     2148..2228,3082..3126,3403..3468,3556..3705,4079..4207,
+                     4344..4379)
+                     /gene="BC10"
+                     /codon_start=1
+                     /product="BC10 protein"
+                     /protein_id="ABN72585.1"
+                     /db_xref="GI:126038362"
+                     /translation="MKPPRRWMYGRGGGKGKPAGLLLLGVFLCLSVVLLLLLHGSSPS
+                     LEGEGRKPEAVEAAGGGGEEEEVAVARAEVEEAPLPPGNARLAFLFIARNRLPLDLVW
+                     DAFFRGDKEGRFSIFVHSRPGFVLTRATTRSGFFYNRQVNNSVQVDWGEASMIEAERV
+                     LLAHALKDPLNERFVFVSDSCVPLYNFNYTYDYIMSSSTSFVDSFADTKAGRYNPRMD
+                     PIIPVENWRKGSQWAVLTRKHAEVVVEDEEVLPEFQKHCRRRPLPEFWRDWDRPIPAE
+                     AWKAHNCIPDEHYVQTLLAQHGLEEELTRRSVTHSAWDLSSSKDRERRGWHPVTYKIS
+                     DATPALVKSIKDIDNIYYETENRKEWCTSNGKPAPCFLFARKFTRAAGLKLLDLSLIA
+                     ANGASTM"
+ORIGIN      
+        1 atgaagccgc cgcggaggtg gatgtacggg cggggcggcg ggaaggggaa gccggcgggg
+       61 ctgctgctgc tgggggtgtt cctctgcttg tcggtggtgc tgctgctgct gctgcacggc
+      121 tcgtccccgt cgctggaggg cgaggggagg aagcctgagg cggtggaggc ggcgggggga
+      181 gggggagagg aggaggaggt ggcggtggcg cgggcggagg tggaggaggc gccgctgccg
+      241 ccggggaacg cgcggctcgc cttcctcttc atcgcccgca accgcctccc gctcgacctc
+      301 gtctgggacg ccttcttccg cgtaagcgcg cgcctcgccc ggatctcccc cttcctctcg
+      361 ctcttgctcg gatggctccc aatttcagcg aatgctggtt taatttgaat cctgattgca
+      421 ttgcgttttt tgggggtgag tagggtgaca aggaagggag attctccatc ttcgtgcact
+      481 cgcggccggg gttcgtgctc acccgcgcca ccacccgatc cggcttcttc tacaatcggc
+      541 aggtcaacaa cagcgtccag gttcgcgacc tcgtccccac ttccgttggc aatgtgatgt
+      601 gatccgtcgg tagcagcatc cgttgcagtc cacactgggt tcctgatgag ttgggcatgt
+      661 gtgatttgtc cttcaggtgg attgggggga ggcgagcatg atcgaggctg agcgtgttct
+      721 actcgcccac gcgctcaagg accccttaaa cgagcgcttc gtgttcgtct ccgacaggta
+      781 tggattatgg aattatgatg tgtgctagtg tgtatgcttg gataaagtat tactgacttt
+      841 agatactaag ttgattggca caaaattttg gcaatgccca aaaaatttag tcatgtgttc
+      901 tgtttatagc caaaaattaa gcactactaa attatttgtc ttggttgaat agcaaatgca
+      961 agtttagtag aagcaaatga atgcctagcc agtttttgcc agaaaatttg gcaatggcca
+     1021 gttcttgcca ttgccaaaaa aattggtaag gctatgaacc aaaacaagcc ctaactgcaa
+     1081 tctgtgttgg cttaatctct tgttcagcac aatgtgttgt ttctaggttc tgatcataat
+     1141 gaattaaggg aatgttcctg aacataatga tatgtcctta catttttata aatgtggact
+     1201 gttatctagt aaagattgtt tgtttttttt aatcatcgtt tggctaacta attttttttt
+     1261 ccaatatgca atgctcagat gataagtagt ttctgtccgc gattttaagc tcatgctaaa
+     1321 aatgtggtgc gatagcagtc ctcaatctta aattccatgg aaatgaatct tgtgttatac
+     1381 tgttagtctg tttctattaa gtttaacggg actccacatg aagctgtact gaatttacca
+     1441 gatgccttgg tgcaatttta ggtatcgttt acacggttgt ttttctgaca gctccaaatt
+     1501 tgaacttagt actacacatc tttttttata atcttacaaa gctcgttgtt gcaccatttt
+     1561 ggatcttaat tggattcatg cttactagga tcttctctct ctgccagctg tgtgccattg
+     1621 tacaacttca actacactta cgactacata atgtcttcgt caaccagttt tgttgacagg
+     1681 tataggcatc acaatttcgt gttgtgtttc ctgatgatgg ttaagactta agaatgaatt
+     1741 ctgagttcat gacaagtatc agctagtaac tatgaatgtt aaagaaaaga aagaaaaaaa
+     1801 atcatgttag cctttctcat tttccattat ctaagtattt ccatgtacct tgagcttcaa
+     1861 aatggttcct gtagcaaact gcagatttgc agcttaaagc acctttcatt tagcttgtat
+     1921 aatatcctgg gtattaacag catccaattg catatgctgg ggacagtttt gctgatacaa
+     1981 aagcgggtcg gtataatccc agaatggacc caattatccc agtggaaaat tggagaaaag
+     2041 gctcgcaggt acctttctgt ttctattgat gaaagatagg agaattttgc ttgaactgtg
+     2101 taacagttag ttttgatacc ttatcaccat tcatttgtgc catacagtgg gctgtgttaa
+     2161 caagaaaaca tgctgaagtt gtggttgaag atgaagaggt tttgccagaa ttccagaagc
+     2221 attgcagggt atgtgactca atatttatgc actctatgca gataaatttc agtattgtat
+     2281 aacatagttt actcatgatc ataactgacc agtgaacttt ttcaccttgt acctttcatc
+     2341 aaattaaaat caggataaca gaagttgaaa atttgaatat tatcaatatt tactttttta
+     2401 tgacagtttt ttgcattcgc aagtgaatgt gctctcaaga taatcaacat aggacacaaa
+     2461 gaaacttgta gatttatgta aactgccacg tatggtactg acattctgac aatgtttacg
+     2521 acaatgcatg atatcagtga tttattttat tttatttttt aaaccttttt aatttttatt
+     2581 tttaaaaata aatcattcga aaacttattt ccaagatcta aaccttttgg ccgtagttgg
+     2641 ttggcaaaac aacattgcca caccggtctg gctggcatgg cagcgttgtc ttgccacacc
+     2701 accgtggctg gcaggacaaa actgtcacgc ccgttgcggg tgacgtgtca gtgttgtttt
+     2761 gtcacaccag gcaggctagc ttggctaaaa ggttcagatt ttggaaatat tgtaaaattg
+     2821 tcatgcccat tgcgggtgac gtgtcagtgt tgttttgtca cgccaggtgg gctagcttgg
+     2881 ccaaaaggtt cagattttaa aattaaaaag gttaaaaaaa taaaataatt cgatactagt
+     2941 acctttgcca aatgaataga agatccaccg gatttttcta tatcatcaac ccaagttact
+     3001 taactcatgt ctctttccta tcaattagct tagagttgtc tattcttgtt cctattaaat
+     3061 gtaccttttt atttattgca gagaaggccc ttaccagagt tctggcggga ctgggatcgt
+     3121 cctattgtaa gtgaaagtct ccaataaaat actgaactgt cacttagctt gttgaacttg
+     3181 cttttatgtg tttatttttg aactgcagct ggcacattga gtataataat cacaactctt
+     3241 gtgctatttc ttgtactcca taaaaagctt aattaacaga attattatct atggcttcaa
+     3301 aatttaccac tgaactctat atctctatct aattgctcta ctgttccaga acaaagttta
+     3361 attagtaatt ctgtgagact aaatgctgct cattttatcc agcctgcgga ggcatggaag
+     3421 gcacataact gcataccaga tgagcactat gttcaaacat tgcttgcagt aagtcaacaa
+     3481 tcatttacag tatcccttgc agctgttcct cctcacaaag acatctgacc gttcaattat
+     3541 ttttatcgaa tgcagcaaca tggtcttgaa gaagagctta cacggaggtc agttacacac
+     3601 agtgcgtggg atctatcatc ttctaaagat cgtgaaaggc gtggatggca tcctgtaaca
+     3661 tacaaaatct cagatgctac tcctgcactt gtaaaatcca taaaggtata tgtttctttg
+     3721 caatggcaca ttttttgtta cctgaaagtg gtgattatat agtatgtaca tttaaaaagg
+     3781 aaattaagag aggctttact tttttttctt ttatttgaaa attctgtcat tattaaaata
+     3841 tttaagtaca aagcaacaac caaggtgaat gttggaacct ctgttgggta atggcagacg
+     3901 ctatcaattc atctgtttca aagctttaac aaatgtcagt ttggaaatgt gttgcgtctg
+     3961 ataaggaatg tcagcttttg tttgtcatgt atacagttct gccaaaacaa gctgcccgta
+     4021 cgaaatgcac atgacatttt ctaactattc actgagtacc tatttgttga atttttagga
+     4081 tattgataat atatattatg agactgaaaa tagaaaggag tggtgtacaa gtaatggaaa
+     4141 accagcacct tgcttccttt ttgcaaggaa gtttacacga gcagctggtc tgaagcttct
+     4201 tgatttagta agttcaggac ctttagcttt tcatttcata tcgtgatgca aacacaggca
+     4261 ttcctaaacc taatgtattg tctaacgaaa tcacattgtg atttgcttat agtttttgct
+     4321 ctctccaaat ttcccttttg cagtctttga tagcagcaaa tggcgcatct accatgtaa
+//
+

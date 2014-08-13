@@ -1,0 +1,86 @@
+LOCUS       AF323586                1960 bp    mRNA    linear   PLN 05-AUG-2010
+DEFINITION  Oryza sativa aldehyde dehydrogenase (ALDH) mRNA, complete cds.
+ACCESSION   AF323586
+VERSION     AF323586.1  GI:11995456
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1960)
+  AUTHORS   Wu,C.-X., Su,S.-C. and Peng,Y.-L.
+  TITLE     Molecular cloning and differential expression of an aldehyde
+            dehydrogenase gene in rice leaves in response to infection by blast
+            fungus
+  JOURNAL   Biologia 62 (5), 523-528 (2007)
+REFERENCE   2  (bases 1 to 1960)
+  AUTHORS   Peng,Y.-L., Wu,C.-X. and Su,S.-C.
+  TITLE     cDNA cloning and characterization of a rice aldehyde dehydrogenase
+            induced by incompatible blast fungus
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1960)
+  AUTHORS   Peng,Y.-L., Wu,C.-X. and Su,S.-C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2000) Department of Plant Pathology, China
+            Agricultural University, Yuan-ming-yuan West Road 2, Haidian
+            District, Beijing 100094, P.R.China
+FEATURES             Location/Qualifiers
+     source          1..1960
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1960
+                     /gene="ALDH"
+     CDS             103..1632
+                     /gene="ALDH"
+                     /codon_start=1
+                     /product="aldehyde dehydrogenase"
+                     /protein_id="AAG43027.1"
+                     /db_xref="GI:11995457"
+                     /translation="MGSFARKEHQFLAELGLAPRNPGSFACGAWGGSGPVVTSTNPTN
+                     NQVIAEVVEASAREYEEGMRACYDAAKTWMAIPAPKRGEIVRQIGDALRAKLHHLGRL
+                     VSLEMGKILPEGIGEVQEIIDMCDYAVGLSRQLNGSIIPSERPNHMMMEVWNPLGVVG
+                     VITAFNFPCAVLGWNACIALVCGNCVVWKGAPTTPLITIAMTKIVASVLERNNLPGSI
+                     FTAFCGGADIGQAISLDTRIPLVSFTGSTKVGLMVQQQVNARFGKCLLELSGNNAIIV
+                     MDDADIQLAVRSVLFAAVGTAGQRCTTCRRLLLHESIYRTFLDQLVEVYKQVRIGDPL
+                     ENGTLLGPLHTPASRDAFLKGIQTIRSQGGKILYGGSAIESEGNFVQPTIVEISPSAP
+                     VVREELFGPVLYVMKVQNLKEAVEINNSVPQGLSSSIFTKRPDIIFKWIGPHGSDCGI
+                     VNVNIPTNGAEIGGAFGGEKATGGGREAGSDSWKQYMRRATCTINYGSELPLAQGINF
+                     G"
+ORIGIN      
+        1 ctcccccacc ccaccccgat cccctccccg ccgtacgggc gcagaaggaa cccgtcttct
+       61 agaaggagga ggagggctac ctctctctct ctctcttctg ccatggggag cttcgcgagg
+      121 aaggagcacc agttcctcgc cgagcttggc ctcgcgccgc ggaaccccgg gtccttcgcc
+      181 tgcggcgcct ggggcggctc gggccccgtc gtcacgtcca ccaacccgac gaacaaccag
+      241 gtcatcgcgg aggtcgtgga ggcgtccgcg cgtgagtacg aggagggcat gcgcgcctgc
+      301 tacgatgccg ccaagacctg gatggcgatt ccagctccaa agcgaggaga aattgttagg
+      361 caaattggtg atgcattgag agcaaagctc catcacctgg gcaggcttgt gtcacttgag
+      421 atggggaaaa ttcttcctga agggattgga gaggttcagg aaatcattga catgtgtgat
+      481 tatgctgtgg gcctaagtcg ccagctaaat gggtccatca taccatctga acgcccgaat
+      541 catatgatga tggaggtgtg gaatcctctt ggagttgttg gtgttatcac agcattcaat
+      601 tttccttgtg ctgtgctggg ttggaatgcc tgcatagctt tggtatgtgg aaactgtgtt
+      661 gtctggaaag gtgctccaac tactccgttg atcactattg caatgactaa aatagttgcc
+      721 agtgtattgg agaggaacaa cttgccaggc tcaattttta cagcattctg tggtggtgct
+      781 gacattggcc aagcaatttc tcttgacaca aggataccct tggtttcatt cacaggaagc
+      841 acaaaggttg gtctaatggt tcagcagcaa gtgaatgcaa gatttggcaa atgccttctt
+      901 gaacttagtg ggaacaatgc cattattgta atggatgatg cagacattca gctagctgtc
+      961 cgttcagtgt tgtttgctgc tgttggaaca gcaggacaac gctgcactac atgtcgtagg
+     1021 ctgcttcttc acgaaagcat ataccgaaca tttcttgatc aacttgttga ggtttataaa
+     1081 caagtccgaa ttggggatcc tttggagaat ggtacgttac tggggccatt gcacactcct
+     1141 gcttcaagag acgccttctt gaaaggcatc caaaccatca gatctcaggg gggaaaaatt
+     1201 ctttatggag gatctgcaat tgaatctgag ggaaactttg ttcagccaac aattgtggaa
+     1261 atttcaccct ctgcaccggt tgtgagagaa gaactctttg gtcctgttct ttatgtgatg
+     1321 aaagttcaga atctgaagga agcagttgaa atcaacaatt ctgttcctca aggattgagc
+     1381 agttctatat ttacaaagag accagatatt attttcaagt ggattgggcc tcatggtagt
+     1441 gactgtggca ttgttaatgt aaatattccc acaaatggtg ctgaaattgg tggagctttt
+     1501 ggtggagaaa aagctactgg tggtggacga gaagcaggga gtgattcgtg gaagcagtac
+     1561 atgaggaggg ccacttgtac gatcaactat ggaagcgagc tgcctctagc acaaggaata
+     1621 aattttggct agttcggtgg tcaagatcgg ctgatgaaca tgttaagctt catcgacaga
+     1681 cttcaggaat ttctactggc gtcaactgaa aaccgaaact tcaacgcagc agcattgcta
+     1741 tgtgtgcata taataagaga tgagtccaat attaatgcat gtactgctct tgctatgatt
+     1801 agccgtcgga gttcgagtcc aataaacagg gaaaaattgc gtattccctg atcggttgat
+     1861 atgtaccaac atttctgatg taatctttag aacggtatcg gttgaaaact tgaaatgaac
+     1921 gaaaacgcgg taagaataca aaaaaaaaaa aaaaaaaaaa
+//
+

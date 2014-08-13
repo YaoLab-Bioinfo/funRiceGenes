@@ -1,0 +1,95 @@
+LOCUS       AY785894                 925 bp    mRNA    linear   PLN 31-OCT-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) cultivar Nipponbare
+            OsDREB1B.1 (DREB1B) mRNA, complete cds.
+ACCESSION   AY785894
+VERSION     AY785894.1  GI:60593384
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 925)
+  AUTHORS   Skinner,J.S., von Zitzewitz,J., Szucs,P., Marquez-Cedillo,L.,
+            Filichkin,T., Amundsen,K., Stockinger,E.J., Thomashow,M.F.,
+            Chen,T.H. and Hayes,P.M.
+  TITLE     Structural, functional, and phylogenetic characterization of a
+            large CBF gene family in barley
+  JOURNAL   Plant Mol. Biol. 59 (4), 533-551 (2005)
+   PUBMED   16244905
+REFERENCE   2  (bases 1 to 925)
+  AUTHORS   Skinner,J.S., Chen,T.H.H. and Hayes,P.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2004) Horticulture, Oregon State University, 4017
+            Ag. Life Sci. Bldg., Corvallis, OR 97331, USA
+FEATURES             Location/Qualifiers
+     source          1..925
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /note="derived from dbEST E40262 AU070067"
+     gene            1..925
+                     /gene="DREB1B"
+     5'UTR           1..15
+                     /gene="DREB1B"
+     CDS             16..672
+                     /gene="DREB1B"
+                     /note="AP2 domain CBF protein; putative CRT binding
+                     factor; monocot HvCBF4-subgroup member; similar to ESTs
+                     E04680 (GenBank Accession Number AU070093) and E41045
+                     (GenBank Accession Number AU070123)"
+                     /codon_start=1
+                     /product="OsDREB1B.1"
+                     /protein_id="AAX28958.1"
+                     /db_xref="GI:60593385"
+                     /translation="MEVEEAAYRTVWSEPPKRPAGRTKFRETRHPVYRGVRRRGGRPG
+                     AAGRWVCEVRVPGARGSRLWLGTFATAEAAARAHDAAALALRGRAACLNFADSAWRMP
+                     PVPASAALAGARGVRDAVAVAVEAFQRQSAAPSSPAETFANDGDEEEDNKDVLPVAAA
+                     EVFDAGAFELDDGFRFGGMDAGSYYASLAQGLLVEPPAAGAWWEDGELAGSDMPLWSY
+                     "
+     misc_difference 305
+                     /gene="DREB1B"
+                     /note="conflict with GenBank Accession Number AF300972
+                     (OsDREB1B); C verified in all three ESTs and from gDNA PCR
+                     product"
+                     /replace="t"
+     misc_difference 324
+                     /gene="DREB1B"
+                     /note="conflict with GenBank Accession Number AF300972
+                     (OsDREB1B); C verified in all three ESTs and from gDNA PCR
+                     product"
+                     /replace="g"
+     misc_difference 370
+                     /gene="DREB1B"
+                     /note="conflict with GenBank Accession Number AF300972
+                     (OsDREB1B); G verified in all three ESTs and from gDNA PCR
+                     product"
+                     /replace="c"
+     misc_difference 464
+                     /gene="DREB1B"
+                     /note="conflict with GenBank Accession Number AF300972
+                     (OsDREB1B); A verified in all three ESTs and from gDNA PCR
+                     product"
+                     /replace="c"
+     3'UTR           673..925
+                     /gene="DREB1B"
+ORIGIN      
+        1 cagagagagt catccatgga ggtggaggag gcggcgtaca ggacggtgtg gtcggagccg
+       61 ccgaagaggc cggcgggaag gaccaagttc agggagacga ggcacccggt gtaccgcggc
+      121 gtgcggcggc gcggggggcg gccgggcgcg gcggggaggt gggtgtgcga ggtgcgggtg
+      181 cccggggcgc gcggctccag gctgtggctc ggcacgttcg ccaccgccga ggcggcggcg
+      241 cgcgcgcacg acgccgccgc gctggcgctc cgcggcaggg ccgcctgcct caacttcgcc
+      301 gactccgcgt ggcggatgcc gcccgtcccc gcgtccgccg cgctcgccgg cgcgaggggg
+      361 gtcagggacg ccgtcgccgt ggccgtcgag gcgttccagc gccagtcggc cgcgccgtcg
+      421 tctccggcgg agaccttcgc caacgatggc gacgaagaag aagacaacaa ggacgtgttg
+      481 ccggtggcgg cggcggaggt gttcgacgcg ggggcgttcg agctcgacga cgggttcagg
+      541 ttcggcggga tggacgccgg gtcgtactac gcgagcttgg cgcaggggct gctcgtcgag
+      601 ccgccggccg ccggagcgtg gtgggaggac ggcgagctcg ccggctccga catgccgctc
+      661 tggagctact aatcaaaatc tcgcactgaa aagtgtggac aaattttgat tctccagaaa
+      721 ttgggggaaa aaagagaaca gagtattggt gaatttagaa cagagtaggc aatgagactg
+      781 aggatgaatg gcaatttttg taattttgga atgtgccaga tttctccctc cttttgtgat
+      841 tccatctgat tttgaatgtg cagtcaatga attcctgtaa atttacttct cctctccaaa
+      901 aaaaaaaaaa aaaaaaaaaa aaaaa
+//
+

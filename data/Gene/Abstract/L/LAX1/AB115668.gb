@@ -1,0 +1,64 @@
+LOCUS       AB115668                1080 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group LAX mRNA for transcription factor,
+            complete cds.
+ACCESSION   AB115668
+VERSION     AB115668.1  GI:33342171
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Komatsu,K., Maekawa,M., Ujiie,S., Satake,Y., Furutani,I.,
+            Okamoto,H., Shimamoto,K. and Kyozuka,J.
+  TITLE     LAX and SPA: major regulators of shoot branching in rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 100 (20), 11765-11770 (2003)
+   PUBMED   13130077
+REFERENCE   2  (bases 1 to 1080)
+  AUTHORS   Kyozuka,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUL-2003) Contact:Junko Kyozuka Tokyo University,
+            Graduate School of Agricultural and Life Sciences; Yayoi 1-1-1,
+            Bunkyo, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1080
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+     gene            1..1080
+                     /gene="LAX"
+     CDS             117..764
+                     /gene="LAX"
+                     /function="TF"
+                     /codon_start=1
+                     /product="transcription factor"
+                     /protein_id="BAC80247.1"
+                     /db_xref="GI:33342172"
+                     /translation="MHDPRGFPIHPQPYHLHPTAGGLGEGRMRGGGRRRPGAKLSTDP
+                     QSVAARERRHRISDRFRVLRSLVPGGSKMDTVSMLEQAIHYVKFLKAQVTLHQAALVQ
+                     HEEGCQHADVAAAFSAADADLALELNHRHGGAGDDDAGMTTLEMAPMQEAVGYGDGPA
+                     HQMMQQALDPAGQLMMGGAHQLPPLPCCVFVQETDPSCYSVCNVHGEESGAQGSY"
+ORIGIN      
+        1 tcaggggctg aaacaaaccc agcacatttg tgtttgtacg cgcagctagc tagccacgag
+       61 cgcggatcca tctcctagct agcgcaccat ctatggatcc ataccacgac taaaacatgc
+      121 atgacccacg cggcttcccc atccacccgc agccgtacca cctccacccc acggccggcg
+      181 gcctcggcga gggcaggatg cggggcggcg ggcggcggcg ccccggcgcc aagctctcca
+      241 ccgacccgca gagcgtggcg gcgcgggagc ggcggcaccg gatcagcgac cgcttccgcg
+      301 tgctccgcag cctcgtgccg ggcggcagca agatggacac ggtgtccatg ctggagcagg
+      361 ccatccacta cgtcaagttc ctcaaggcgc aggtcaccct gcaccaggcc gcgctcgtgc
+      421 agcacgagga gggctgccag cacgccgacg tcgccgcggc gttctccgcc gccgacgccg
+      481 atctggccct tgagctgaac catcgccacg gcggcgccgg cgatgatgac gccgggatga
+      541 cgacgctgga gatggcgccg atgcaagagg cggtgggcta cggcgacggc ccggctcatc
+      601 agatgatgca gcaagcgctc gatccagcgg ggcagctgat gatgggcggc gctcatcagc
+      661 tgcctccttt gccttgctgt gtcttcgtcc aggagactga cccctcgtgc tactcggtgt
+      721 gcaatgtcca cggtgaggag tctggtgcgc aaggatctta ttagctagct agtgagacag
+      781 tggcttgctt aggtagttaa tttccttaag tatgctcgaa tattggctct acccactagc
+      841 tgtctagctc tacttagctt acctaggtcg tcaaccaata tattaccggt tggtcatggt
+      901 cccttaaatt agctagactc ttgatttctg taagaatgca tatatgcatg catggggttc
+      961 tgttggagca atgcataaca gagctttgtt ttacatgcat gcgtgcatgc ttcctagata
+     1021 tcattctgaa atctgaactt gtttgctcga tcgcttaatt gctatctcac catttcggta
+//
+

@@ -1,0 +1,85 @@
+LOCUS       E07613                  2466 bp    RNA     linear   PAT 04-NOV-2005
+DEFINITION  DNA encoding a seed-specific protein kinase.
+ACCESSION   E07613
+VERSION     E07613.1  GI:2175748
+KEYWORDS    JP 1994153963-A/1.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2466)
+  AUTHORS   Shimada,H. and Kawasaki,T.
+  TITLE     RICE SEED SPECIFIC PROTEIN KINASE GENE
+  JOURNAL   Patent: JP 1994153963-A 1 03-JUN-1994;
+            MITSUI GIYOUSAI SHOKUBUTSU BIO KENKYUSHO:KK
+COMMENT     OS   Oryza sativa (rice)
+            PN   JP 1994153963-A/1
+            PD   03-JUN-1994
+            PF   24-JUN-1992 JP 1992188892
+            PI   SHIMADA HIROAKI, KAWASAKI TSUTOMU
+            PC   C12N15/54,A01H1/00;
+            CC   strandedness: Double;
+            CC   topology: Linear;
+            CC   Feature is identified by similarity;
+            CC   Feature is identified by ohter;
+            FH   Key             Location/Qualifiers
+            FH
+            FT   source          1..2466
+            FT                   /organism='Oryza sativa'
+            FT                   /clone='pSPX24'
+            FT                   /dev_stage='seed'
+            FT   5'UTR           1..559
+            FT   CDS             560..2279
+            FT                   /product='seed-specific protein kinase' FT
+            3'UTR           2280..2466.
+FEATURES             Location/Qualifiers
+     source          1..2466
+                     /organism="Oryza sativa"
+                     /mol_type="unassigned RNA"
+                     /db_xref="taxon:4530"
+ORIGIN      
+        1 tttttcctca aatcagaatc ttatatactt ttgtggaaaa aactgtcctt tacaactgat
+       61 aatgcaagca tgaattagtt aacctgccat gcttcacaat ttgatgcatg catgcctgca
+      121 atgtttatca tcaagaccct agcatctgaa atgtcagttg aacaacctgg agataatgtc
+      181 atctgctagc tcaatctgca gcattgcagt gtcctcacaa agagatccta ggtttcaacc
+      241 taattcgagt ctctgtcatc tgtttgcgtg gtagtaagca tttagcctcc aaggaagatc
+      301 cagaccaaga aattcatgtt tcagagcatt aatccttact ccctagtaat ccatctgtgc
+      361 cctcggattt catacccacc taatccttga tcactgctct ctcctccact ctctgcgctc
+      421 ccgtacccag atttcctgcg atgcttccgt gatttcttct gaccactatt atcacttaag
+      481 ctcccattca ggagaggatc gtcaataccg ctgattaccc tgctcaagga ttgttgtcag
+      541 gatatacatt tttgtgggaa tggggaattc ttgccaaaat ggaacctatg ggaacaatta
+      601 ccagaacagc aaccggtttc agaatgaccg ttttgcttct cggtacgttg atgggaatga
+      661 tactgaggat tgctactcgg gctcgtcaag ggccagctta gcgggtgctc tgcggcaagg
+      721 gctgaaccta aagtcccctg tccttggata caagactcca aatgtaaggg agctctatac
+      781 tcttggccgg gagcttggac agggacagtt cgggaaaaca tacctctgca ctgagattag
+      841 cacagggtgt caatatgcat gcaagactat cttaaagagt aatctccgat gtgtgtcaga
+      901 tatcgaggac gtgcgccgtg aaatccagat aatgcaccat ctttcgggcc agaagaatat
+      961 agtgacaatc aaggacacat atgaggatga gcaggccgtg cacatcgtca tggagctctg
+     1021 tgcaggtggt gagctcttca gcaagattca gaagcgaggt cattacagtg aacggaaggc
+     1081 tgcagagctt ataaaaatta tagttggcat catagaaaca tgccattcac atggagtgtt
+     1141 gcaccgggat ctcaagccag aaaatttcct cttactggac gcagacgatg aattctcggt
+     1201 taaagcaatt gactttggtc tatctgtgtt cttcagacca ggtcaggttt tcagagaggt
+     1261 agtgggaagt ccatattata ttgctccaga ggtattggag aagcgttatg gaccagaggc
+     1321 tgatatatgg actgctggag tgattctcta tgtattgctg actggtgttc ctccattttg
+     1381 ggcagataca caaagcggga tatatgaaaa agtactggat ggacgtattg attttaaatc
+     1441 aaaccggtgg cccaggatat ctgacagtgc aaaggatctt ataaaaaaga tgctctgccc
+     1501 ttatccatta gagcgtttga aagcccatga agtgctaaag catccatgga tatgtgataa
+     1561 tggagtggct actaatcgag ctctggatcc aagtgtactt cctcgtctca agcaattttc
+     1621 tgcaatgaat aggttaaaga aattgtctct ccagattatt gctgagcgtc tttcagaaga
+     1681 ggagattgtt gggttaagag aaatgttcaa ggctatggac accaaaaaca gaagtgtggt
+     1741 tacatttggt gagcttaagg gactgaaaag atacagctca gtgttcaagg atactgaaat
+     1801 taacgactta atggaagcag ctgatgacac cacctccacc atcaactggg aagagtttat
+     1861 tgctgcagca gtgtctctta ataaaataga acgtgagaaa cacttgatgg cagcctttac
+     1921 atactttgac aaagatggaa gtggttttat cacagttgac aagcttcaaa aggcttgcat
+     1981 ggaacgtaac atggaagata ctttccttga agagatgatt ctggaggttg atcaaaacaa
+     2041 tgatggtcaa atcgattatg ctgaatttgt cacaatgatg caaagcaaca actttggact
+     2101 tgggtggcaa acggtggaaa gcagcctgaa tgtagccctg agggaggcac cccaagtatc
+     2161 tgaactcctg tcgcctggca cccccaagaa ttcagtttgt tctcctgagc ctttcatctg
+     2221 tttatcacaa cacatagttg tggatttgag agaagagagc caagactaga tggtttatca
+     2281 gtaatcaccc tatagcagtg gtggaagaag actctcttag tacctaatag catataaatg
+     2341 tgtggtctaa agacatcgta tatgtatgaa cctcataagt tcgttcgttc gttcgtttgg
+     2401 ttggttggtt tgctaccctg ctatctaata ataatatcaa taatacccga agaacccctc
+     2461 ttggtt
+//
+

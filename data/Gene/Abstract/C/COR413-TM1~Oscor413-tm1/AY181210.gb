@@ -1,0 +1,68 @@
+LOCUS       AY181210                 918 bp    mRNA    linear   PLN 15-MAY-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) cold acclimation protein
+            COR413-TM1 mRNA, complete cds.
+ACCESSION   AY181210
+VERSION     AY181210.1  GI:27902676
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 918)
+  AUTHORS   Breton,G., Danyluk,J., Charron,J.B. and Sarhan,F.
+  TITLE     Expression profiling and bioinformatic analyses of a novel
+            stress-regulated multispanning transmembrane protein family from
+            cereals and Arabidopsis
+  JOURNAL   Plant Physiol. 132 (1), 64-74 (2003)
+   PUBMED   12746512
+REFERENCE   2  (bases 1 to 918)
+  AUTHORS   Breton,G. and Sarhan,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-NOV-2002) Sciences Biologiques, Universite du Quebec
+            a Montreal, C.P. 8888 Succ. Centre Ville, Montreal, Que H3C 3P8,
+            Canada
+FEATURES             Location/Qualifiers
+     source          1..918
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="E10543_1A"
+                     /tissue_type="panicle"
+                     /dev_stage="ripening stage"
+                     /note="clone provided by Dr. Sasaki from the NIAR
+                     (Japanese Rice Genome Research Program of the National
+                     Institute of Agrobiological Resources) and STAFF (Society
+                     of Techno-Innovation in Agriculture, Forestry and
+                     Fisheries)"
+     CDS             79..747
+                     /note="OsCOR413-TM1"
+                     /codon_start=1
+                     /product="cold acclimation protein COR413-TM1"
+                     /protein_id="AAO24631.1"
+                     /db_xref="GI:27902677"
+                     /translation="MSISLRLAVPTAAPPVLPPLRQSAVRAAGSPAAAALRTGALRGC
+                     ASLPLKPQPLLGAGQAASGRRGGAAVCHSSAHLSARTMQWVSAGATAVLLLAKGTAIH
+                     KSFLVPLFALLAPSSVISWIKSDYGQWTAFLALLVRLFFCIPGELELPLSTMLLVSVA
+                     PYQLMNLRGTQGGAALSLALAGYLAFQHFTRVGGLGKAFDQGSIIATLAIICITVIPL
+                     MMLF"
+ORIGIN      
+        1 ggagacaaaa acaccttcac aattcgcgaa agctcagctg cttctgcttc ttcttcttct
+       61 ttcggattcg agaagaggat gtccatctcg ctgcgcctcg cggtcccgac ggcggcgccg
+      121 cccgtgctgc cgccgctgcg gcagtctgcg gtgcgggcgg cgggctcccc cgccgccgcc
+      181 gctctgcgga cgggcgcgct caggggatgc gcctcgctgc cgctgaagcc gcagccgctg
+      241 ctgggggcgg gacaggcggc gagcggtcgc cggggtggcg ccgccgtgtg ccactcgtcg
+      301 gcgcacctga gcgcgcggac gatgcaatgg gtctccgccg gggccaccgc agtgctattg
+      361 cttgctaaag gcacagccat acacaaatct ttccttgtgc cactgtttgc tctgctagca
+      421 ccttccagtg taatctcatg gatcaagagt gactatggtc agtggactgc ttttcttgct
+      481 cttttggtgc gtttgttctt ctgcattcca ggtgagctgg agcttccatt gtcaactatg
+      541 ctgctcgtga gtgttgctcc ttaccagttg atgaatctga ggggaactca aggtggtgca
+      601 gcactgtctt tggcattggc tgggtacctc gcttttcagc acttcaccag ggttgggggt
+      661 ttagggaaag catttgatca gggatcaata attgcaacct tggccatcat ctgcatcaca
+      721 gttatcccct tgatgatgtt gttctgagtc agattaagct ggcaagccgt tgttcattgt
+      781 gggcattgca ggagctagta gggagtacag aaaaataata gctttgtaat gcaacaccct
+      841 gtcagacttt gtggccttga taaaagtaat aatttatgag atggctacag aaatgtttac
+      901 tgaaaaaaaa aaaaaaaa
+//
+

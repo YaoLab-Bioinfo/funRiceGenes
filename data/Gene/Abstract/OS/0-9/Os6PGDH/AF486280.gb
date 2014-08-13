@@ -1,0 +1,85 @@
+LOCUS       AF486280                1771 bp    mRNA    linear   PLN 29-DEC-2003
+DEFINITION  Oryza sativa cytosolic 6-phosphogluconate dehydrogenase mRNA,
+            complete cds.
+ACCESSION   AF486280
+VERSION     AF486280.2  GI:30313360
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1771)
+  AUTHORS   Huang,J., Zhang,H., Wang,J. and Yang,J.
+  TITLE     Molecular cloning and characterization of rice 6-phosphogluconate
+            dehydrogenase gene that is up-regulated by salt stress
+  JOURNAL   Mol. Biol. Rep. 30 (4), 223-227 (2003)
+   PUBMED   14672408
+REFERENCE   2  (bases 1 to 1771)
+  AUTHORS   Huang,J., Zhang,H. and Yang,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-FEB-2002) Rice, Rice Ins., Nanjing Agricultural
+            University, Weigang 1, Nanjing, Jiangsu 210095, China
+REFERENCE   3  (bases 1 to 1771)
+  AUTHORS   Huang,J., Zhang,H. and Yang,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-MAY-2003) Rice, Rice Ins., Nanjing Agricultural
+            University, Weigang 1, Nanjing, Jiangsu 210095, China
+  REMARK    Sequence update by submitter
+COMMENT     On May 1, 2003 this sequence version replaced gi:19569140.
+FEATURES             Location/Qualifiers
+     source          1..1771
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Jiu Caiqing"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+                     /dev_stage="seedling"
+     CDS             53..1495
+                     /note="6pgdh"
+                     /codon_start=1
+                     /product="cytosolic 6-phosphogluconate dehydrogenase"
+                     /protein_id="AAL92029.1"
+                     /db_xref="GI:19569141"
+                     /translation="MAVTRIGLAGLAVMGQNLALNIAEKGFPISVYNRTTSKVDETVQ
+                     RAKVEGNLPVYGFHDPASFVNSIQKPRVVIMLVKAGAPVDQTIATLAAHLEQGDCIID
+                     GGNEWYENTERREKAMEERGLLYLGMGVSGGEEGARNGPSLMPGGSFEAYKYIEDILL
+                     KVAAQVPDSGPCVTYIGKGGSGNFVKMVHNGIEYGDMQLISEAYDVLKSVGKLTNSEL
+                     QQVFSEWNKGELLSFLIEITADIFSIKDDQGSGHLVDKVLDKTGMKGTGKWTVQQAAE
+                     LSVAAPTIEASLDSRFLSGLKDERVEAAKVFQGDFSSNLPVDKAQLIEDVRQALYASK
+                     ICSYAQGMNIIKAKSMEKGWSLNLGELARIWKGGCIIRAIFLDRIKKAYDRNSDLANL
+                     LVDPEFAQEIMDRQAAWRRVVCLAINNGVSTPGMSASLAYFDSYRRDRLPANLVQAQR
+                     DYFGAHTYERVDMPGSFHTEWFKIARAAKM"
+ORIGIN      
+        1 cgcctttccg cgatttcgtc agttacccag atctcatctt acgcaggcag agatggctgt
+       61 cactagaatt ggtcttgctg gccttgcggt catggggcag aaccttgccc tcaacattgc
+      121 agagaaaggg ttccctatct ctgtctacaa caggacgact tctaaggttg atgagaccgt
+      181 tcagcgcgcc aaggtagaag gaaaccttcc tgtgtacggg ttccatgacc ctgcatcctt
+      241 tgtgaactcc attcagaagc cacgtgttgt catcatgctt gtcaaggctg gtgcaccagt
+      301 ggaccagacc attgcaactc ttgcagcaca cttggagcag ggtgactgta ttattgatgg
+      361 aggaaatgag tggtacgaga acactgagag gagggagaag gcaatggagg agcgtggcct
+      421 cctctatctt gggatgggtg tttccggagg agaggagggt gcccgcaatg gcccgtcctt
+      481 gatgcctggt ggctcattcg aggcgtacaa gtacattgaa gatattcttc tcaaggtggc
+      541 tgcccaggtt cctgatagtg gcccgtgcgt cacatacatt ggcaaaggtg gatctggaaa
+      601 ctttgtcaag atggttcaca acggaattga gtatggtgac atgcaactga tttctgaggc
+      661 atatgatgtt ctcaagtcag ttggtaagct cacaaacagt gagctgcagc aggtgttttc
+      721 tgagtggaac aagggtgagc tcctcagttt cctgattgag atcacagccg acatatttag
+      781 catcaaggat gaccagggtt caggccacct ggtcgacaag gtcctggaca agactgggat
+      841 gaagggaact gggaagtgga ctgtgcagca ggccgcagag ctttctgtgg ctgctcctac
+      901 aattgaggca tccttggatt ccaggttcct cagtgggttg aaggatgagc gtgttgaggc
+      961 tgccaaggtc ttccaaggtg acttctccag caacttgcca gtggacaagg cacagctgat
+     1021 tgaagacgtg aggcaggctc tttacgcctc gaagatctgc agctacgctc agggcatgaa
+     1081 catcatcaag gccaagagca tggagaaagg gtggagcctc aacctcggtg agctagcgag
+     1141 gatctggaag ggagggtgca tcatccgtgc catcttcctg gaccgcatca agaaggccta
+     1201 cgacaggaac tccgacctcg ccaacctgct cgtggaccct gagttcgctc aggagatcat
+     1261 ggacaggcaa gcggcatggc gcagggtggt ctgccttgcc atcaacaatg gcgtcagcac
+     1321 cccaggcatg tcggcgagtc tcgcgtactt cgactcctac cggagggaca ggctgcctgc
+     1381 caacctggtg caggcacaga gggactattt cggggctcac acctacgaga gggtcgacat
+     1441 gcccggctcc ttccacaccg agtggttcaa gatcgcgcgt gctgctaaga tgtgaaatgc
+     1501 ttcaaatttt cggtaatatt tggttgctgc ttgctgctga gtcgcttgta gggtgggagg
+     1561 aactgttgtt aaattttatg gtcaatgtgc tacgcttaat ttggataagg aggtccatag
+     1621 ctatctccat tcttttaatg taaggagcag cccagggtgg agagaacatg gatatttatc
+     1681 attggaacct ttgttgtgat ctttgtaagt ctatatatga ataaaagcat tttggcaatg
+     1741 cttgcttttt taaaaaaaaa aaaaaaaaaa a
+//
+

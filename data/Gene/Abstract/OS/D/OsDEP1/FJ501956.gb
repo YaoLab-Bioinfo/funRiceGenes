@@ -1,0 +1,142 @@
+LOCUS       FJ501956                4653 bp    DNA     linear   PLN 06-OCT-2009
+DEFINITION  Oryza sativa Indica Group keratin associated protein (PAY1) gene,
+            complete cds.
+ACCESSION   FJ501956
+VERSION     FJ501956.1  GI:219563179
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 4653)
+  AUTHORS   Zhou,Y., Zhu,J., Li,Z., Yi,C., Liu,J., Zhang,H., Tang,S., Gu,M. and
+            Liang,G.
+  TITLE     Deletion in a quantitative trait gene qPE9-1 associated with
+            panicle erectness improves plant architecture during rice
+            domestication
+  JOURNAL   Genetics 183 (1), 315-324 (2009)
+   PUBMED   19546322
+REFERENCE   2  (bases 1 to 4653)
+  AUTHORS   Zhou,Y., Zhu,J., Yi,C., Li,Z., Liu,J., Zhang,H., Tang,S., Gu,M. and
+            Liang,G.
+  TITLE     Genetic control of rice plant architecture and yield by a gene
+            associated with domestication
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 4653)
+  AUTHORS   Zhou,Y., Zhu,J., Yi,C., Li,Z., Liu,J., Zhang,H., Tang,S., Gu,M. and
+            Liang,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2008) Agricultural Department, Yangzhou
+            University, 12 East Wenhui Road, Yangzhou, Jiangsu 225009, China
+FEATURES             Location/Qualifiers
+     source          1..4653
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="R6547"
+                     /db_xref="taxon:39946"
+                     /chromosome="9"
+                     /map="between S919 and S927"
+     gene            <345..>4493
+                     /gene="PAY1"
+     mRNA            join(<345..473,1686..1744,2900..2944,3031..3075,
+                     3491..>4493)
+                     /gene="PAY1"
+                     /product="keratin associated protein"
+     CDS             join(345..473,1686..1744,2900..2944,3031..3075,3491..4493)
+                     /gene="PAY1"
+                     /note="involved in panicle length and erectness, grain
+                     length and weight, and architecture"
+                     /codon_start=1
+                     /product="keratin associated protein"
+                     /protein_id="ACL27948.1"
+                     /db_xref="GI:219563180"
+                     /translation="MGEEAVVMEAPRPKSPPRYPDLCGRRRMQLEVQILSREITFLKD
+                     ELHFLEGAQPVSRSGCIKEINEFVGTKHDPLIPTKRRRHRSCRLFRWIGSKLCICISC
+                     LCCCCKCSPKCKRPRCLNCSCSSCCDEPCCKPNCSACCAGSCCSPDCCSCCKPNCSCC
+                     KTPSCCKPNCSCSCPSCSSCCDTSCCKPSCTCFNIFSCFKSLYSCFKIPSCFKSQCNC
+                     SSPNCCTCTLPSCSCKGCACPSCGCNGCGCPSCGCNGCGCPSCGCNGCGLPSCGCNGC
+                     GSCSCAQCKPDCGSCSTNCCSCKPSCNGCCGEQCCRCADCFSCSCPRCSSCFNIFKCS
+                     CAGCCSSLCKCPCTTQCFSCQSSCCKRQPSCCKCQSSCCEGQPSCCEGHCCSLPKPSC
+                     PECSCGCVWSCKNCTEGCRCPRCRNPCCLSGCLC"
+ORIGIN      
+        1 cctctccatc tccgctgcta ttattgcccg cgcagacgca ggccaccatc cttcctctcg
+       61 ctcacgctcg ctgctatatg ggggtcctcc tcatcgcatc gcatcgcatc acctcgcacg
+      121 ggcgcgcgcg ccgtgccgtg ccgctagctc gatccgcctc gtacgccagc tcgctcgctc
+      181 gctcccccac cccgctgctg cacggctgcg cccgcgctgt cccctgtccc cccgctcgcc
+      241 gcggcgattt atacccacca cgccccctgc tgctgctata atgcccatga gtgaaggcgg
+      301 cgaggggtgg ttctgagttg gccgttggcg tgctgcgtgt ggagatgggg gaggaggcgg
+      361 tggtgatgga ggcgccgagg cccaagtcgc cgccgaggta cccggacctg tgcggccggc
+      421 ggcggatgca gctggaggtg cagatcctga gccgcgagat cacgttcctc aaggtgagcg
+      481 ccccgcggcg gcggcggctg cgtttttctc tataggtttc tctttcacac tcgctcgctc
+      541 gaaattctcg gggcccgagc tctacttgct tcgtcttcct ttgactttac cgattaattt
+      601 taaaaaaaag gagatccgat tcgccgcgca tttttcaaaa cccaagcggc cgagtacgga
+      661 gctacccgct actgcaagta ggatgctgtg aagtgtacag taatggcgtt gttaattgcg
+      721 gtagctagtg ctattctagt acttgtagta ctgtttctag gcggaggtga atcacggcgc
+      781 catcaatccg aggctggcga gacaagcttg gccctctttg ggcgtggcgc catggctgta
+      841 ctacctttgt cgttgtttgg ttgggctcct cgttggagaa aagaagagcg tgggcatgga
+      901 caactgacct gagtggcctt gtcagggaga gccatagcag tggacgtgtc tatctccgcc
+      961 attgcttcgt cgacactgga cgtgcagacg gcatggccat gagggctttg cacgatgggt
+     1021 ggtgccgtgt tggtgttatg ggctgccacc atggtttgag gcttttgatg ttgctagatt
+     1081 ttgtgtttaa cgagggaggg aagaatgtgt tgttcttgac actgtgctgt gcttttaagg
+     1141 agcagagatt tcagaagctc ttcagatatc agagaacttc tttgtagtag taatcaaatg
+     1201 cgctttagac atctttttat cgtttcttgc aaggtcagtc cctgctttgg tacccgatct
+     1261 cgcttttgtg caacatcaaa gttacactta cacagtaaag caggaatctt tatgggaccg
+     1321 ttcgtactgg tcaattactc caggctttga ttaatgggtt ttaagtttta accgcagatt
+     1381 tggtacaagt aacaaccttt atttactttt tatttctgca actgtgtctt ttaacatgaa
+     1441 agaatccagc tccattcaaa agtttagttt ttattttcca ttgtggtgca tggtcactca
+     1501 gcctgcagta ctgaattatc aaaattttct tttgtcattt ctctcatgtt aagtgcatag
+     1561 tctattttac ttcaacaggt agaaaaactt ttgtgggttt gtttctagct caaggaggaa
+     1621 attcatgggt ttgcatctag cacatgagag aacaatattg gtctaacaca aagctccttt
+     1681 tgtaggatga gcttcacttc cttgaaggag ctcagcccgt ttctcgttct ggatgcatta
+     1741 aagagtatgt actactgccc ttcatgcatt acagatattt tgtttttaag tttttagaaa
+     1801 tttgaagagc ttatgtcaag tatgaaatgt cagcttaatt ttattgctgt ccttatctaa
+     1861 tgtcttatgc tctgttttat aaaatttggt tgcattttct cccccaggga aaaatcttgt
+     1921 ataagtgtgt tatgtactta tgtgtataaa atcttgttgc acttgtatgt cacacttagg
+     1981 ccctgtttag atcctccaaa atggcagttt gccattttga agaacctttt gccattttgg
+     2041 atctaaacac tagtaacaaa acttggcaat ttggcatttg gcatttgcta gtctatagta
+     2101 gcaaattgtg ccaaaaagtg ctttggaacc actctctctt tctttctctc tctcacttta
+     2161 gtgctagaat ggtaaaagtt taggatgcat ctaaacacca actagtactt ttacaatact
+     2221 aaaacttttg ccaccaaaac ttttgccatt tgccatttgc tatttcaaat ggatctaaac
+     2281 agggccttag caaatcacca tatgttaaaa ttaccttggg atgaaaaaga aaaaggaaac
+     2341 cagcattgaa gtcttgtttg aaatgcatat gtacttgtac cattacagaa attcttaaaa
+     2401 ctgctgtctt gacagctact tatcaaacag ccccacctgc atcataacgt tcctagtggt
+     2461 gcctataact ctgcctcagt tattattttg tggcccactg gtccaacaat ttgaaaaaaa
+     2521 ttatattgaa ctaaatatat tgaacagtag tatgacgtcc tctttgcttg agttccatat
+     2581 tacagctcac agtcctgaga tttgtttcac cgattctttc catgcgatgt gcacatattc
+     2641 ttattcaatt taaaaaatga aagcagatta tttttaacaa gtaacctatc acgttagctt
+     2701 aacattgtat atttgtggtg gaattatgta atattccgat atcgcatttg aagttttgaa
+     2761 catgtgtgct caaattgagg gacacatgac tgtagtgaaa gcaaatataa atgtctgagc
+     2821 aatggactat actttgtatt cattactaca agttatgtcc ttttgcaggt tgctaatgtc
+     2881 ctcttacatt acttgtcagg ataaatgagt ttgttggtac aaaacatgac ccactaatac
+     2941 caacgtatgg cctctaaact ttcagttccc ccattttaag catgttcgct gtttatttac
+     3001 gagttttgac attgtttttt ccttttccag aaagagaagg aggcacagat cttgccgtct
+     3061 ttttcggtgg atcgggtatg ttttgatcca atatagtttg ctcgcaggtt ctgaggggca
+     3121 agaacattca aatatctata atgttttctg ttggattcaa cattcatcac tatttccctc
+     3181 gaaaaaaaag cattcgtcac tattggaatt gaaagtctga aagtgcctct agtccctttg
+     3241 tatgttaaaa gtcaataaac aagcagtagt tttctatatg ccacattaat attattgacg
+     3301 cattttaaaa agcaaactag tccagggatg taatcatctt tgttatctaa aactaaaaaa
+     3361 ggaaaaacta gtgctttttt acattaacat tgattttttt gcggctgaaa ttacatgtag
+     3421 aaactttggc ataataatct gtactactgc caaactgagc ttttacatgg tgaaaatatt
+     3481 ttccctgcag atcaaaattg tgtatctgca tttcatgtct ttgctgctgt tgcaagtgct
+     3541 cacccaagtg caaaagacca aggtgcctca attgttcttg cagctcatgc tgcgacgagc
+     3601 catgctgtaa gccaaactgc agtgcgtgct gcgctgggtc atgctgtagt ccagactgct
+     3661 gctcatgctg taaacctaac tgcagttgct gcaagacccc ttcttgctgc aaaccgaact
+     3721 gctcgtgctc ctgtccaagc tgcagctcat gctgcgatac atcgtgctgc aaaccgagct
+     3781 gcacctgctt caacatcttt tcatgcttca aatccctgta cagctgcttc aagatccctt
+     3841 catgcttcaa gtcccagtgc aactgctcta gccccaattg ctgcacttgc acccttccaa
+     3901 gctgtagctg caagggctgt gcctgtccaa gctgtggatg caacggctgt ggctgtccaa
+     3961 gctgcggatg caacggttgt ggctgtccaa gctgcggttg caacggctgt ggccttccaa
+     4021 gctgcggttg caacggctgc ggctcgtgct cttgcgccca atgcaaaccc gattgtggct
+     4081 cgtgctctac caattgctgt agctgcaagc caagctgcaa cggctgctgc ggcgagcagt
+     4141 gctgccgctg cgcggactgc ttctcctgct cgtgccctcg ttgctccagc tgcttcaaca
+     4201 tcttcaaatg ctcctgcgct ggctgctgct cgagcctgtg caagtgcccc tgcacgacgc
+     4261 agtgcttcag ctgccagtcg tcatgctgca agcggcagcc ttcgtgctgc aagtgccagt
+     4321 cgtcttgctg cgaggggcag ccttcctgct gcgagggaca ctgctgcagc ctcccgaaac
+     4381 cgtcgtgccc tgaatgttcc tgtgggtgtg tctggtcttg caagaattgt acagagggtt
+     4441 gtcgatgccc acggtgtcgt aacccatgct gtctcagtgg ttgcttatgt tgatctagat
+     4501 ccttttttgg ttgttgtttt tcttgtattt tttagttgtt aggcctttga ttaagttcga
+     4561 actttcataa atatatggtg tttatcctgt aaagaaatga tgatttcaag gatttttcat
+     4621 agctatgaga cgaggttgaa ccattgaagc gcc
+//
+

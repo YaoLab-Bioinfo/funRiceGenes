@@ -1,0 +1,171 @@
+LOCUS       OSU43961                5822 bp    DNA     linear   PLN 17-AUG-2006
+DEFINITION  Oryza sativa 3-hydroxy-3-methylglutaryl-CoA reductase gene,
+            promoter region and complete cds.
+ACCESSION   U43961
+VERSION     U43961.1  GI:4165327
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 5822)
+  AUTHORS   Ha,S.H., Lee,S.W., Kim,Y.M. and Hwang,Y.S.
+  TITLE     Molecular characterization of Hmg2 gene encoding a
+            3-hydroxy-methylglutaryl-CoA reductase in rice
+  JOURNAL   Mol. Cells 11 (3), 295-302 (2001)
+   PUBMED   11459218
+REFERENCE   2  (bases 1 to 5822)
+  AUTHORS   Sohn,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-DEC-1995) Seong-Han Sohn, National Agricultural
+            Science and Technology Institute, Biochemistry, Suwon, 441-707,
+            Republic of Korea
+COMMENT     On Jan 21, 1999 this sequence version replaced gi:1171363.
+FEATURES             Location/Qualifiers
+     source          1..5822
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /tissue_type="etiolated leaf"
+                     /dev_stage="seedling"
+     gene            1..5366
+                     /gene="HMGR"
+     promoter        1..1502
+                     /gene="HMGR"
+     mRNA            join(<1503..2461,2716..2897,3911..4257,5124..>5366)
+                     /gene="HMGR"
+                     /product="3-hydroxy-3-methylglutaryl=CoA reductase"
+     CDS             join(1503..2461,2716..2897,3911..4257,5124..5366)
+                     /gene="HMGR"
+                     /codon_start=1
+                     /product="3-hydroxy-3-methylglutaryl=CoA reductase"
+                     /protein_id="AAD08820.1"
+                     /db_xref="GI:1171364"
+                     /translation="MAVEGRRRVPLPLPPPTRRGKQQQQQGGERARRVQAGDALPLPI
+                     RHTNLIFSALFAASLAYLMRRWREKIRTSTPLHVVGLAEILAICGLVASLIYLLSFFG
+                     IAFVQSVVSNSDDEEEEEDFLIDSRAAGPVAAQATPPPAPAPCSLLGSACAAPKKMPE
+                     EDEEIVAEVVAGKIPSYVLETRLGDCRRAAGIRREAVRRTTGREIRGLPLDGFDYASI
+                     LGQCCELPVGYVQLPVGVAGPLVLDGERFYVPMATTEGCLVASTNRGCKAIAESGGAT
+                     SVVLQDGMTRAPVARFPSARRAAELKGFLENPANFDTLAMVFNRSSRFARLQRVKCAV
+                     AGRNLYMRFSCSTGDAMGMNMVSKGVQNVLDYLQDDFPDMDVISISGNFCSDKKSAAV
+                     NWIEGRGKSVVCEAVIKEEVVKKVLKTNVQSLVELNVIKNLAGSAVAGALGGFNAHAS
+                     NIVTAIFIATGQDPAQNVESSQCITMLEAVNDGKDLHISVTMPSIEVGTVGGGTQLAS
+                     QSACLDLLGVKGANRESPGSNARLLAAVVAGAVLAGELSLISAQAAGHLVQSHMKYNR
+                     SSKDMSKVAS"
+     exon            <1503..2461
+                     /gene="HMGR"
+     intron          2462..2715
+                     /gene="HMGR"
+     exon            2716..2897
+                     /gene="HMGR"
+     intron          2898..3910
+                     /gene="HMGR"
+     exon            3911..4257
+                     /gene="HMGR"
+     intron          4258..5123
+                     /gene="HMGR"
+     exon            5124..>5366
+                     /gene="HMGR"
+ORIGIN      
+        1 gagctctcgg ttgcctacct cactgcgacg tgtgcacagc aacaagacta cgtgggcagc
+       61 tgcagttcca gcaatggcac tagctagaag gagacaaaaa ggaaaaaaag aagaagaaga
+      121 agaacagaaa aatgaaactg ctgggagaaa aagggaaaag agaaacagac cacaaactgc
+      181 acaaaaacca tcaacccaac cgcaacccag agaagggatg gggaactgtg gtttcgtctg
+      241 cacgtcgtcg aaattttggt tgaaaatgtc tagttttgaa aagtttattt agctcttaat
+      301 gtttaaactt gggtatttaa ccaatactgt atatatgata atctgattct ctttagttaa
+      361 gtggagtgca atactccgtc tccttaggag attaaaagaa actgttaagc atgttttccg
+      421 accattttca gaggttatgc tacggtttat tttcagtttt gaccaattat tcaagcagca
+      481 gtatcatgat acataggcaa tgcatctagt ccatagggaa tttagttcgt tttgtagttg
+      541 aagtaatcaa atttgatgtt accaaatttc aatattttta cgagttgact aggattcaag
+      601 ccaattttta tccaaccaaa attgataatt tcaataatat cccatagaag tttccttttt
+      661 tacaaggttt tacatagagt acaaattcta cactacaaat gttttgccta tgaggtttga
+      721 aatttctcat caaattggtt cttattgatc aaacatagtt gataaaccat taaaaatgaa
+      781 cgatgacatt aaaattaaat tttaggtaaa atattatatt tgtattatta gtggtctata
+      841 aaagccatgg ctgaaaaatg atatactaca acaggaaaaa aataaaaacc aaatctgtaa
+      901 ttaggtttca acatttaaat tttggctaca atgataaacc aacaaacaag tatggaagta
+      961 ttaccaaaat gattactccc ttcatctagc attataccaa cttctatcta tgtatctaga
+     1021 taagttctta tctatatata ttccgcacgt tttaaaaaga acatctttta taatgaatct
+     1081 agacatataa atataccttt tataatgaat atgaacgtag actatattta aactcatatt
+     1141 taaaagtaat catttttttt gaaaggatag ggtatagcca aaattgttat gttttcgagt
+     1201 actaagtact actaactact agcaaagaag ttactagcca aaattgtttt attagaagtt
+     1261 gaaactaaaa gaaaaggaag acaacggagg ccagcagggg atgtgggccc cacatacgcc
+     1321 gctcgtggtg ggaccagact gtcatggacc cattccgaac ccggagacgc cattataaat
+     1381 cggctcgagt ccgaggcaag ccgaacccgg atctcatctc atctcggccg gtcttcgatc
+     1441 cccaaacccc cccgccccgc cggagtcccc cctgctccga cgagcctcgc cgcgccgcgc
+     1501 cgatggctgt ggagggccgc cgccgcgtgc cgctgccgct gccgccgccg acgaggcggg
+     1561 ggaagcagca gcagcagcag gggggggaga gggcgaggag ggtgcaggcc ggggacgcgc
+     1621 tcccgctgcc gatccggcac acgaacctca tcttctcggc gctgttcgcg gcgtcgctgg
+     1681 cctacctgat gcggcggtgg cgggagaaga tccgcacgtc gacgccgctc cacgtggtgg
+     1741 ggctcgccga gatcctcgcc atctgcggcc tcgtcgcctc gctcatctac ctcctcagct
+     1801 tcttcggcat cgcgttcgtg cagtccgtcg tctccaacag cgacgacgag gaggaggagg
+     1861 aggacttcct gatcgactcc cgcgccgcgg gccccgtcgc cgcgcaggct accccgccgc
+     1921 cggcgccggc gccgtgctcg ctgctgggga gcgcctgcgc cgccccgaag aaaatgccgg
+     1981 aggaggacga ggaaatcgtg gccgaggtcg tggcggggaa gatcccgtcg tacgtgctgg
+     2041 agaccaggct gggcgactgc cgccgcgccg ccgggatccg gcgcgaggcc gtgcggcgga
+     2101 ccacggggag ggagatcagg ggcctccccc tcgacggctt cgactacgcc tccatcctcg
+     2161 gccagtgctg cgagctcccc gtgggctacg tgcagctgcc ggtgggcgtc gccggcccgc
+     2221 tcgtgctcga cggcgagcgg ttctacgtcc cgatggccac caccgagggc tgcctcgtcg
+     2281 ccagcacgaa ccgcgggtgc aaggccatcg ccgagtccgg cggcgccacc agcgtcgtgc
+     2341 tccaggacgg gatgacgcgc gcccccgtcg cccgcttccc ctccgcgcgc cgcgccgccg
+     2401 agctcaaggg cttcttggag aacccggcca acttcgatac tcttgccatg gtcttcaata
+     2461 ggtataaacg acgcattcca ctttaatccc ctcttgtccc tttcactcta tgttgcacgc
+     2521 gcatagcaaa atgacatttt agacagtgtg gctcttgtgt tggacgacac gtctgttgca
+     2581 atcagtccac atcaagacat aaatttcatt caacctataa ttaattcccc gctattttgt
+     2641 ttacaagttt tgttttacaa atctaaggtt ggatggtaag ataatataag ctaatttgcg
+     2701 gaaatatatg agcagatcga gcagattcgc taggctgcag agagtgaagt gcgcggtggc
+     2761 cgggaggaac ctctacatgc ggttcagctg cagcacaggg gatgccatgg ggatgaacat
+     2821 ggtgtccaag ggcgtccaga acgtgctgga ctaccttcag gatgacttcc ctgacatgga
+     2881 tgtcatcagc atatcaggtt tttacttcaa tttttaagcc atgccatgaa ccagtatact
+     2941 tgctttactt ttgaagttta ttagtctgcg gtcgcacggc ggcttatact cttgtcagca
+     3001 tattgattga ctagttcttc ttccaatggt gcgtacgtat agacattaga tagcgttcaa
+     3061 acaactttaa tagacggtgg ctaactacgg aagcagaaca gtgaacataa caattggtgg
+     3121 attgcatagc tcatcgtaac caccgctgaa aagtttccca aaagcttaat ctatattgac
+     3181 aaagaagaga acttttcagc cagacagtca tgaactatct gggcaagata gatggttagg
+     3241 tctcaaattt aggcactctg cttgttttgc acaacaaaag tgaggggaat tggcgaaaat
+     3301 gatttgttga actgcaaaat ctttctttga tgtttgcgct tgatctaagc tgatgttgac
+     3361 cttgttctta ttaatggtgt ggtttttacc ttttcgctat attcctccac ctgtcagctg
+     3421 tcgatagttc tagtgctagt actttcaagc gatgacaaga tgccgataaa agatgtttga
+     3481 cgaagccaac acatccttca cttgcatact acatacactc aattttcaac ataacacaag
+     3541 caatattctt atcctgattt cttcctgcaa ggcttggctg ccatctgtaa agcactaaaa
+     3601 tttaaactga ttcttattgt gagagaatct ccagagatac tatgttagaa aatcctacga
+     3661 gtggtgtcct cctgctcttt ggaacctatt gagctcatca agtcatcata aagcagtact
+     3721 gttagttacc cccatgatca cctcctgata gcaagttagt agcttttagg tgatctgttg
+     3781 atgattagaa caggatatgc cgttagctat acaactgtat cttgtgtaca tcacaacata
+     3841 atagctttta aatctttcca tactttttca tgctttataa tttcctaaac ttatatcctc
+     3901 atacaaacag gtaacttctg ttctgacaaa aagtcagctg ctgtaaattg gattgaggga
+     3961 cgtggaaagt ctgtggtttg tgaggcagta atcaaagagg aagttgtgaa aaaggttctc
+     4021 aagaccaacg ttcagtcatt agtagaattg aacgtcatca agaaccttgc tggttcagct
+     4081 gttgctggag ctttgggtgg cttcaatgcc catgctagca acattgtaac agccatcttt
+     4141 attgccaccg gtcaggatcc tgcacagaat gtggaaagct cccagtgcat cacaatgttg
+     4201 gaagctgtaa atgatggcaa agatcttcat atctccgtta ctatgccatc aattgaggta
+     4261 ttatattgtc ctttaacctc agcttcttcg tatttttctt agattgcagg ctatagagtt
+     4321 tgtattgatt attgagtaat cttcacctag tactaattgt ttgtctcaca ctactgaaag
+     4381 gcagtgcttg cgctaagctt caccgttata ctagtatgtg attaggtgct aggcaggtcc
+     4441 tgttacaatc atagcgcctt ttggaacatg cattgtggtc cctgatcagt tgacacccat
+     4501 catctatgtc ttgtgtggaa agctagtgac tggtcaaaac aatttgatgt ccttcatgat
+     4561 ataggttatt attttgtttt ttttgcccag cagatgccct tttttagtat tatatttttg
+     4621 actccaccaa ggagcaagta tgtacatgaa attaaacttg accacaaatt taatcttgaa
+     4681 tttatatgga aaaaccacta tgcagaggta ggaagtacta tgtcagaatc aaatcatttg
+     4741 catgatgtgt ttagctagta catgttctgt cgaataaact ctttgtcttt aacgatgcta
+     4801 attcatcatt gttcttggac agttggtatc ataacctccg cgcttttttt taaaaaaaaa
+     4861 aaagaaacaa ggattccttt catatgctgt ccagtgtcca cttgctcact tgctcttgtt
+     4921 ataatcaaca aatgctagct agatcaacag ctctcgtgtg ttttattaat ggcttaatct
+     4981 tgtaattttg tgtttgcttt tgcttagaaa ggcatctact agcctgtagg gaacacctgg
+     5041 tggacattta tgcattagca tttatcttat gtttgccaat tatatataaa ttgatgaggt
+     5101 gttctgtgat aaccaaaatg caggtgggca cggttggtgg aggcacacag ctggcctcac
+     5161 agtctgcttg cttggaccta cttggcgtga agggcgcaaa cagggaatcc ccaggatcaa
+     5221 atgcgaggct cctggccgcc gttgtggctg gtgctgtcct tgctggggag ttgtccctca
+     5281 tctctgctca agctgcaggc catttggtcc agagccacat gaaatacaac agatccagca
+     5341 aagatatgtc caaggtcgcc tcttgagcgt atcatttgga tcattgccga ggaaatggac
+     5401 aaaaccccgt aatgttaact actgtctaat tgtcttcttg tacccgctgg agagagactg
+     5461 gaagtggaca cccaagagct tcacatgctg attccatgtg gcatgctcga ggtaaaaaaa
+     5521 aaaaaggaag aaaaaaaaga gacaaaccca tcaggctaac gggtgtctac tcagtagagt
+     5581 tgagtggcca tatttaccag gcggaggatg ccgttggtgg tgtatgtggc ctattcgttt
+     5641 attgatgttt attattgctc ttctacaaag tcgctaactc cggacgatgg gcattcttct
+     5701 atcactgggt tctgtgtcca aagcaagctt gcattacagt tcacaaccct tccttgggcg
+     5761 cgtcgtcggc agctgctgga tctttctgtc tgctggatct ttctgtcagt tactgcctcg
+     5821 ag
+//
+

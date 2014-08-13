@@ -1,0 +1,78 @@
+LOCUS       AB004864                1459 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group AOX1a mRNA for alternative oxidase,
+            complete cds.
+ACCESSION   AB004864
+VERSION     AB004864.1  GI:3218545
+KEYWORDS    AOX1a; alternative oxidase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ito,Y., Saisho,D., Nakazono,M., Tsutsumi,N. and Hirai,A.
+  TITLE     Transcript levels of tandem-arranged alternative oxidase genes in
+            rice are increased by low temperature
+  JOURNAL   Gene 203 (2), 121-129 (1997)
+   PUBMED   9426242
+REFERENCE   2  (bases 1 to 1459)
+  AUTHORS   Ito,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUN-1997) Contact:Yusuke Ito Faculty of Agriculture,
+            The University of Tokyo, Laboratory of Radiation Genetics; 1-1-1
+            Yayoi, Bunkyo-ku, Tokyo 113, Japan
+FEATURES             Location/Qualifiers
+     source          1..1459
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="c2339"
+                     /tissue_type="callus"
+                     /note="EST clone c2339 was provided by National Institute
+                     of Agrobiological Resources Rice Genome Research Program"
+     gene            1..1459
+                     /gene="AOX1a"
+     CDS             92..1090
+                     /gene="AOX1a"
+                     /codon_start=1
+                     /product="alternative oxidase"
+                     /protein_id="BAA28773.1"
+                     /db_xref="GI:3218546"
+                     /translation="MSSRMAGSAILRHVGGVRLFTASATSPAAAAAAAARPFLAGGEA
+                     VPGVWGLRLMSTSSVASTEAAAKAEAKKADAEKEVVVNSYWGIEQSKKLVREDGTEWK
+                     WSCFRPWETYTADTSIDLTKHHVPKTLLDKIAYWTVKSLRFPTDIFFQRRYGCRAMML
+                     ETVAAVPGMVGGMLLHLRSLRRFEQSGGWIRTLLEEAENERMHLMTFMEVANPKWYER
+                     ALVITVQGVFFNAYFLGYLLSPKFAHRVVGYLEEEAIHSYTEFLKDLEAGKIDNVPAP
+                     AIAIDYWRLPANATLKDVVTVVRADEAHHRDVNHFASDIHYQGMELKQTPAPIGYH"
+     polyA_site      1459
+                     /gene="AOX1a"
+                     /note="15 A nucleotides"
+ORIGIN      
+        1 catctcgtca acaaaaaggc gcctctaaga attcctccca aactttttgg tgttgtcaag
+       61 ccgtgcgttt cggggtacat caacggcggc gatgagctcc cggatggccg gatcggcgat
+      121 cctccgtcac gtcggcggcg tccgcctctt caccgcgtcg gcgacctctc cggcggcggc
+      181 ggcggcggcg gcggcgaggc cgttccttgc aggcggagaa gccgtccccg gggtgtgggg
+      241 gttgcggctg atgtccacgt cgtccgtggc gtcgacggag gcggcggcca aggcggaggc
+      301 caagaaggcg gacgcggaga aggaggtggt ggtcaacagc tactggggca tcgagcagtc
+      361 gaagaagctg gtgcgggagg acggcacgga gtggaagtgg tcttgcttta ggccatggga
+      421 gacctacacc gcggacactt cgatcgatct gacgaagcac cacgtgccca agacgctgct
+      481 cgacaagatc gcctactgga ccgtcaagtc gctgcgcttc cccactgata tcttcttcca
+      541 gaggaggtat ggctgccgcg cgatgatgct ggagacggtg gcggcggtgc cggggatggt
+      601 gggcggcatg ctgctccacc tccggtccct ccggcgcttc gagcagagcg gcggctggat
+      661 ccgcacgctg ctggaagagg ccgagaacga gcgcatgcac ctgatgacct tcatggaggt
+      721 ggcgaaccca aagtggtacg agcgcgccct cgtcatcacc gtccagggcg tcttcttcaa
+      781 cgcctacttc ctgggttacc tcctctcccc caagttcgcg caccgcgtcg tcggctacct
+      841 cgaggaggag gccatccact cgtacaccga gttcctcaag gacctcgagg ccggcaagat
+      901 cgacaacgtc cctgccccgg ccatcgccat cgactactgg cgcctccccg ccaacgccac
+      961 gctcaaggac gtcgtcaccg tcgtgcgcgc cgacgaggct caccaccgcg acgtcaatca
+     1021 cttcgcatcg gacatccatt accagggcat ggagctgaag cagacccctg cgccgatcgg
+     1081 atatcactga ggatgtttgt ctactgccga ggatttgcat cactaataat caaatcaaat
+     1141 gagtatactt cgtttttcag ggaaagcaaa tgagagctct ttagctgtat cggatttggt
+     1201 aattgctact agtaactact aagtactgaa aaataaggag tctccttgtt tgaagtacaa
+     1261 atctaggaga ttttttgaac caactctatc tgaattgggc ctgtttttcg tacgccgcac
+     1321 tgcttcatgt acatatattc catcccctat cttatgtgtg gcaagtgtct ttctaaattc
+     1381 ttggatgtaa tgacacctga atttctttcg ttgaactatt ggcagctgag ttatatatac
+     1441 tacataccat tcttttgtt
+//
+

@@ -1,0 +1,68 @@
+LOCUS       AF439449                1909 bp    DNA     linear   PLN 27-NOV-2001
+DEFINITION  Oryza sativa RNase S-like protein gene, complete cds.
+ACCESSION   AF439449
+VERSION     AF439449.1  GI:17105170
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1909)
+  AUTHORS   Wang,J., Wang,Y., Liu,L., Lin,H. and Liu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-OCT-2001) Biotechnology Research Center, Zhongshan
+            University, Xingang Xi, Guangzhou, Guangdong 510275, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..1909
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:4530"
+     mRNA            join(<15..128,844..1005,1089..1281,1395..>1684)
+                     /product="RNase S-like protein"
+     CDS             join(15..128,844..1005,1089..1281,1395..1684)
+                     /note="ribonuclease"
+                     /codon_start=1
+                     /product="RNase S-like protein"
+                     /protein_id="AAL35582.1"
+                     /db_xref="GI:17105171"
+                     /translation="MEQRKFLLCLILGLLATSGPAKTVNADSPFDFYYLILMWPGAYC
+                     TDSEYGCCVPKYGYPSEDFFVKSFMTFDSSENTAVVRCNSDNPFDINKLDSIENNLNH
+                     YWSNIKCPRTDGVNSWKSEWNSYGVCSGLKELDYFKAGLQLRKNADVLSALAEQGIKP
+                     DYQLYNTAFIKWAVNQKLGVTPGVQCRDGPFGKKQLYEIYLCVDKDAKSFIDCPVLPN
+                     LSCPAEVLFHPFHTWMLNTTSAANIVMPTETVLA"
+ORIGIN      
+        1 gcctagagag tactatggag cagaggaaat ttttgttgtg cctaattctt ggcttacttg
+       61 cgacttcagg acctgccaag accgtcaatg ctgactcgcc ctttgatttt tattatctca
+      121 tcctcatggt atgaactgcg aatcatcaaa tatttaactt cttgcaatga tacgcattaa
+      181 gtttagttat aaactatgac tacctttttc ttatttacac tttcttattc aaattaatga
+      241 aaaagattct atgtttgtaa ttcttattag tattacataa aacttctgtt caaggatatg
+      301 catgttgtac atgatgtact attggcatct aaccttatta ttcacgtgaa ttaagaattt
+      361 gtaaaattat gaaagtttcc tcagaacaag tatatcatct ttttttttac aaaatagaaa
+      421 tattaatatc acataaacag cctaaatgga caaattagct gtacgagatt ttgctactgt
+      481 cctgtgttct tgctaaaacg gaggtcaaag aatgaaagca cgacaaacga gcacatcaac
+      541 atatttgaac atgcacagca agcaggagct gcaagacaat atcgacaaaa tctactgtga
+      601 tatatatgac aaaagtctga tgaagtttca acaatgttga tttagagcat actcatatca
+      661 atagtacgta aaaccagtaa ggaaattcaa ctagaagata tatatctcat aggattcagg
+      721 actcagcccc aaacgagggg gaaaatttca aactgaaacg cagagcaaat ataaatgatc
+      781 tctagctcaa tagctcagca gtttccatgg tgagtataaa tcgattcgca ttcgtgcctg
+      841 cagtggcctg gagcatactg cactgacagc gagtatggtt gttgcgtgcc caagtatggt
+      901 tacccgtcag aagatttctt cgtcaagagc ttcatgacct ttgactcgtc agagaacaca
+      961 gctgttgtca ggtgcaactc cgacaatcct ttcgacatta acaaggttag cacacattaa
+     1021 tttacaagct agcagtctca tttaattagc ttcatgtctg taaatatata attacatgta
+     1081 tattgcagct agactcaatc gagaacaacc tgaaccacta ctggagcaac atcaagtgtc
+     1141 ctcgcaccga cggcgtgaac tcatggaaga gcgagtggaa cagctatggc gtctgctccg
+     1201 gcctcaagga gttggactac ttcaaggccg gtctccagct cagaaagaac gcagatgttc
+     1261 tctctgctct cgctgaacaa ggtacatgta caaatcatac cgacacacca tttagtagtt
+     1321 taaaaaacat acgcgctaat gaaaaccgag gtaaaatctg tgtctgaatg ctttttgggc
+     1381 cgatggatga ataggcatca agccggacta ccaactgtac aacacggcgt tcatcaagtg
+     1441 ggcagtgaac cagaagctgg gtgtgacacc aggagtgcag tgcagggacg ggccatttgg
+     1501 gaagaagcag ttgtacgaga tctacctctg cgtcgacaag gacgccaaga gcttcatcga
+     1561 ctgccctgtc ctgcccaacc tcagctgccc tgccgaggtg ctcttccatc cgttccacac
+     1621 ctggatgctc aacaccacat cggctgccaa catcgtgatg cccactgaaa ctgtgctggc
+     1681 ctaattaaga gcctttaatt tgctagctaa gctgccatga tctacttgat caacctgtcc
+     1741 taagagcatg tagcatatgc ttagcttgtt gctttgggtg aataatcgcg caacttttat
+     1801 acattgttgt gccctctgaa taatatgtgc agtactatat atgaagtatt gtaccgcata
+     1861 tgttatgtat tacatgtgca ggtcttgtgc acacctgtga ggtgaatgg
+//
+

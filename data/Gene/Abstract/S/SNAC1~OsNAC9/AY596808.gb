@@ -1,0 +1,69 @@
+LOCUS       AY596808                1264 bp    mRNA    linear   PLN 16-NOV-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) NAC transcription factor
+            (NAC) mRNA, complete cds.
+ACCESSION   AY596808
+VERSION     AY596808.1  GI:46849873
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1264)
+  AUTHORS   Lin,R., Zhao,W., Meng,X., Wang,M. and Peng,Y.
+  TITLE     Rice gene OsNAC19 encodes a novel NAC-domain transcription factor
+            and responds to infection by Magnaporthe grisea
+  JOURNAL   Plant Sci. 172 (1), 120-130 (2007)
+REFERENCE   2  (bases 1 to 1264)
+  AUTHORS   Lin,R.-M., Meng,X.-B., Zhao,W.-S., Wang,M. and Peng,Y.-L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-APR-2004) Plant Pathology, China Agricultural
+            University, West Road No. 2, Yuanmingyuan Haidian, Beijing 100094,
+            China
+FEATURES             Location/Qualifiers
+     source          1..1264
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Aichisatahi"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     gene            1..1264
+                     /gene="NAC"
+     CDS             60..1010
+                     /gene="NAC"
+                     /note="OsNAC"
+                     /codon_start=1
+                     /product="NAC transcription factor"
+                     /protein_id="AAT02360.1"
+                     /db_xref="GI:46849874"
+                     /translation="MGMGMRRERDAEAELNLPPGFRFHPTDDELVEHYLCRKAAGQRL
+                     PVPIIAEVDLYKFDPWDLPERALFGAREWYFFTPRDRKYPNGSRPNRAAGNGYWKATG
+                     ADKPVAPRGRTLGIKKALVFYAGKAPRGVKTDWIMHEYRLADAGRAAAGAKKGSLRLD
+                     DWVLCRLYNKKNEWEKMQQGKEVKEEASDMVTSQSHSHTHSWGETRTPESEIVDNDPF
+                     PELDSFPAFQPAPPPATAMMVPKKESMDDATAAAAAAATIPRNNSSLFVDLSYDDIQG
+                     MYSGLDMLPPGDDFYSSLFASPRVKGTTPRAGAGMGMVPF"
+ORIGIN      
+        1 cccacaacat tttcaaacaa cgcaaagcag tagcagcagc gagaagcaag caagaagcga
+       61 tggggatggg gatgaggagg gagagggacg cggaggcgga gctgaacctg ccgccggggt
+      121 tcaggttcca ccccacggac gacgagctgg tggagcacta cctgtgcagg aaggcggcgg
+      181 ggcagcgcct gccggtgccg atcatcgccg aggtggatct ctacaagttc gacccgtggg
+      241 atctgcccga gcgcgcgctg ttcggcgcca gggagtggta cttcttcacc ccgcgggatc
+      301 gcaagtatcc taatgggtca cgccccaacc gcgccgccgg caacgggtac tggaaggcca
+      361 ccggcgccga caagcccgtc gcgccgcggg ggcgcacgct tgggatcaag aaggcgctcg
+      421 tgttctacgc cggcaaggcg ccgcgagggg tcaagactga ttggatcatg catgagtacc
+      481 ggctcgccga tgctggccgc gccgccgcgg gcgccaagaa gggatctctc aggttggatg
+      541 attgggtgct gtgtcggctg tacaacaaga agaacgagtg ggagaagatg cagcagggga
+      601 aggaggtgaa ggaggaggcg tccgacatgg ttacgtcgca gtcgcactcg cacacccact
+      661 cgtggggcga gacgcgcacg ccggagtcgg agatcgtgga caacgacccc ttcccggagc
+      721 tggactcgtt cccggcgttc cagcctgcgc cgccgccggc gacggcgatg atggtgccca
+      781 agaaagaatc gatggacgac gccaccgcgg ccgccgccgc cgccgccacc atccccagga
+      841 acaacagcag cctgttcgtg gacctgagct acgacgatat ccagggcatg tacagcggcc
+      901 tcgacatgct gccgccgggc gacgacttct actcgtcgct cttcgcgtcg ccgcgggtga
+      961 aggggacgac gccacgcgcc ggcgccggca tgggcatggt cccgttctga ggtgacggcg
+     1021 acgcgatcga acaggtggtg atcgatgctg caacgtgtgt aaatatacag cgccggctgg
+     1081 gtcaagagat ggctcgggtg acgcgcgcgc ggcgtgtcct ggcgttggcg ccggggcatt
+     1141 ctttagtttt tcatcttttc atcatctcag atggtagata caaaacagtg tatgtatgta
+     1201 gctctgtttc tctctataga accccaacaa attttgttgt tgaaaaaaaa aaaaaaaaaa
+     1261 aaaa
+//
+

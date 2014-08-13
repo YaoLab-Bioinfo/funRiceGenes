@@ -1,0 +1,63 @@
+LOCUS       KC611140                 667 bp    DNA     linear   PLN 15-NOV-2013
+DEFINITION  Oryza sativa Japonica Group LTP1 (LTP1) gene, complete cds.
+ACCESSION   KC611140
+VERSION     KC611140.1  GI:522192003
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 667)
+  AUTHORS   Zhu,T., Xu,P.Z., Liu,J.P., Peng,S., Mo,X.C. and Gao,L.Z.
+  TITLE     Phylogenetic relationships and genome divergence among the AA-
+            genome species of the genus Oryza as revealed by 53 nuclear genes
+            and 16 intergenic regions
+  JOURNAL   Mol. Phylogenet. Evol. 70, 348-361 (2014)
+   PUBMED   24148990
+REFERENCE   2  (bases 1 to 667)
+  AUTHORS   Xu,P., Zhu,T., Liu,J., Peng,S., Mo,X. and Gao,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-FEB-2013) Plant Germplasm and Genomics Center,
+            Kunming Institute of Botany, Chinese Academy of Sciences, 132#
+            Lanhei Road, Kunming, Yunnan 650204, China
+FEATURES             Location/Qualifiers
+     source          1..667
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39947"
+                     /PCR_primers="fwd_seq: gcgagagcaatgggcaaatag, rev_seq:
+                     cagtcacaagcagtccctaaatc"
+     gene            38..667
+                     /gene="LTP1"
+     mRNA            38..667
+                     /gene="LTP1"
+                     /product="LTP1"
+     5'UTR           38..187
+                     /gene="LTP1"
+     CDS             188..604
+                     /gene="LTP1"
+                     /codon_start=1
+                     /product="LTP1"
+                     /protein_id="AGQ04561.1"
+                     /db_xref="GI:522192004"
+                     /translation="MAGKKVQVCALFLALNVLFTMQMGAVVQACEPYCPTPTPPVTPP
+                     PSPPSGGGNKCPIDALKLSVCANVLNLLKLKIGVPESEQCCPLLGGLVDLDAAVCLCT
+                     AIKANILGINLNIPVDLSLLLNYCHKTCPSDFTCPL"
+     3'UTR           605..667
+                     /gene="LTP1"
+ORIGIN      
+        1 ctggaactgg gctataaata ggagcgaaaa cacccccgag gaaatgcatc ccggccgatc
+       61 gagctagcaa atatcaaaaa gcagctccag cttcttctga tcgatcgatc gagctgagct
+      121 ataggcagta gctgctaatt aagctaatta attgctaagc agtagtagag ctagctaatt
+      181 aattaagatg gccggcaaga aggtgcaggt ttgtgcgctg ttccttgccc tcaatgtgct
+      241 cttcaccatg cagatgggtg cagtagtgca ggcatgcgag ccctactgcc ccacaccgac
+      301 gccgccggtg acgccgcctc cgtcgccgcc gtcgggtgga gggaataagt gcccgatcga
+      361 cgcgctgaag ctgagcgtgt gcgccaacgt gctcaacctg ctgaagctga agatcggcgt
+      421 gccggagagc gagcagtgct gcccgttgct gggtggcctc gtcgacctcg acgccgccgt
+      481 ctgcctctgc accgccatca aggccaacat cctcggcatc aatctcaaca tccccgtcga
+      541 tctctctctc cttctcaact actgccacaa gacctgcccc tccgacttca cctgccctct
+      601 ctaaattaat cgatcctccg atcccttaat taccatacca ttacaccatg catcaatatc
+      661 catatat
+//
+

@@ -1,0 +1,55 @@
+LOCUS       AY607690                 630 bp    mRNA    linear   PLN 19-JAN-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) low temperature-induced low
+            molecular weight integral membrane protein LTI6b mRNA, complete
+            cds.
+ACCESSION   AY607690
+VERSION     AY607690.1  GI:47717900
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 630)
+  AUTHORS   Morsy,M.R., Almutairi,A.M., Gibbons,J., Yun,S.J. and de Los
+            Reyes,B.G.
+  TITLE     The OsLti6 genes encoding low-molecular-weight membrane proteins
+            are differentially expressed in rice cultivars with contrasting
+            sensitivity to low temperature
+  JOURNAL   Gene 344, 171-180 (2005)
+   PUBMED   15656983
+REFERENCE   2  (bases 1 to 630)
+  AUTHORS   de los Reyes,B.G. and Morsy,M.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-APR-2004) Dept. of Biological Sciences, University of
+            Maine, 5735 Hitchner Hall, Orono, ME 04469, USA
+FEATURES             Location/Qualifiers
+     source          1..630
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="CT6748-8-CA-17"
+                     /db_xref="taxon:39947"
+                     /dev_stage="seedlings"
+     CDS             128..295
+                     /note="OsLti6b"
+                     /codon_start=1
+                     /product="low temperature-induced low molecular weight
+                     integral membrane protein LTI6b"
+                     /protein_id="AAT37942.1"
+                     /db_xref="GI:47717901"
+                     /translation="MAGTANCIDILIAIILPPLGVFLKFGCGHEFWICLLLTFLGYIP
+                     GIIYAIYAITK"
+ORIGIN      
+        1 cccactgcta ctttagtttg cagctatttt gcttcttctt tttcctgttc ttgttgctgt
+       61 tggtaatact gcgagagaaa ttaatcagta gagtgttcat ctactatcaa tttttgatcg
+      121 aggagagatg gcgggaacgg cgaactgcat cgacatcctc atcgccatca tcctcccgcc
+      181 cctcggcgtc ttcctcaagt tcggatgcgg gcatgagttc tggatctgcc tgttgctcac
+      241 cttcctcggc tacatccccg gcatcatcta cgccatctac gccatcacca agtaattcat
+      301 cattagttac tacatcatca accaaatcct caagggatgg gctccaaacc gcttcatcta
+      361 tcttctcgat tgccgtgtgc ttgttggaat ttggaaatga tatatgcatc caaaattcag
+      421 tcctgagtgc tccaattctt gtcatctagt cattttcaat gtccccccag tctcttcctc
+      481 taatgtttga tgatatgtag aatctcttgc tgttaatctg ttgctttcgt gtgaataagc
+      541 tcccctctta tgtatatcta tctatgactt gttttactag taaacttgat tattgagagg
+      601 ttgtaaaaaa aaaaaaaaat aaaaaaaaaa
+//
+

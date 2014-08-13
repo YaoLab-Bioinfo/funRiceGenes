@@ -1,0 +1,67 @@
+LOCUS       DQ298182                1323 bp    mRNA    linear   PLN 28-JUL-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) WRKY transcription factor 62
+            mRNA, complete cds.
+ACCESSION   DQ298182
+VERSION     DQ298182.1  GI:83320248
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1323)
+  AUTHORS   Ryu,H.S., Han,M., Lee,S.K., Cho,J.I., Ryoo,N., Heu,S., Lee,Y.H.,
+            Bhoo,S.H., Wang,G.L., Hahn,T.R. and Jeon,J.S.
+  TITLE     A comprehensive expression analysis of the WRKY gene superfamily in
+            rice plants during defense response
+  JOURNAL   Plant Cell Rep. 25 (8), 836-847 (2006)
+   PUBMED   16528562
+REFERENCE   2  (bases 1 to 1323)
+  AUTHORS   Ryu,H.-S. and Jeon,J.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-NOV-2005) Plant Metabolism Research Center, Kyung Hee
+            University, Seochun 1, Gihung, Yongin, Kyungi 449-701, Korea
+FEATURES             Location/Qualifiers
+     source          1..1323
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     CDS             336..1175
+                     /note="OsWRKY62"
+                     /codon_start=1
+                     /product="WRKY transcription factor 62"
+                     /protein_id="ABC02810.1"
+                     /db_xref="GI:83320249"
+                     /translation="MEENARLTRALDAILAGHHAHQRALLAPSLSPPPPSATARAPSV
+                     STSCAAREDAAPAVAAAAASTACPSRQQPPTAEPRPKVRTVRVRADAADATDANSMAE
+                     TVKDGYQWRKYGQKVTRDNPYPRAYFRCAFAPSCPVKKKLQRCAEDRSMLVATYEGEH
+                     NHALSTQTTEFVASGCTTSQHAGGSSSSPLPCSISINSSGRTITLDLTNQAGSGSIAS
+                     CGVEAAAVSGELVTVLSPELRRHLVEEVVQVLKNDAEFVEAVTNAVAARVVDQIPHIP
+                     VHL"
+ORIGIN      
+        1 gtacggcgcc actataagaa acgtgcccta ttgctgtcac gccgtacttc ctcccgccca
+       61 ccgggcagct agcttagctg ccgccatgga cgacgacggc gacggctcat cgtcaccgac
+      121 cgacgacagc gccgccgccg ggcttttgcc gctcttcagc cgatcgccgg tctgtccgtc
+      181 catcgatatg atcgatcgat ctttgcgtgt cgtcgtcaat ggctgatttg gattgttggt
+      241 tgttaattcg aacatgtgtg atgtgattgc gcgtgggtgt ggtggctggg gagtgtgtac
+      301 aggccgagga tcttgaggag aagctgaggc gggcgatgga ggagaacgcg cggctgacgc
+      361 gagcgctcga cgccattctg gccggtcacc acgcccacca gcgcgcgctc ttggcgccgt
+      421 cgctgtcgcc gccgccgcct tccgccacag caagggcgcc gagcgtgtcc accagctgcg
+      481 cggcgaggga ggacgccgca ccggcggtcg ccgccgccgc cgcgtcgacg gcatgtccgt
+      541 cgagacagca gccgccgacc gcggagccac ggcccaaggt caggacggtc cgcgtgcgcg
+      601 ccgacgccgc cgacgccacc gacgccaaca gcatggcgga gaccgtgaag gatgggtacc
+      661 aatggaggaa gtacgggcag aaggtgacgc gtgacaaccc ctaccctaga gcttacttcc
+      721 gctgcgcatt cgcgccgtct tgccccgtca agaagaagct ccaaagatgt gcggaggata
+      781 ggtcaatgct agtggcgacc tacgagggag aacacaacca tgccctgtcc acgcagacaa
+      841 ccgaattcgt cgccagcggc tgcactacga gccagcacgc cggggggtcg tcgtcgtcgc
+      901 cgctgccgtg ctccatctcc atcaactcgt cgggccgcac gatcacactc gacctgacga
+      961 accaagcagg gtccggatcg atcgcgagct gcggcgtcga ggcggccgcc gtctccggcg
+     1021 agctcgtcac ggtgctctcg ccggagttga ggaggcacct cgtggaggag gtggtgcaag
+     1081 tgctcaagaa cgacgccgag ttcgtggagg ccgtgaccaa cgccgtggcc gctagagttg
+     1141 tggatcaaat cccacacatt cctgttcatt tgtagttgtt ttttttttct ctttgagaac
+     1201 gttgatttgt agtttgtagg cagtatatat atcccaaaat gcttgcaagt atatgtacac
+     1261 atgtattcgc aaatgtgagt atatacctat gccgcttttg ctataaaaaa aaaaaaaaaa
+     1321 aaa
+//
+

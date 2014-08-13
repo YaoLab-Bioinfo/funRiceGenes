@@ -1,0 +1,55 @@
+LOCUS       AAQ54305                 284 aa            linear   PLN 23-AUG-2003
+DEFINITION  brown planthopper-induced resistance protein 1 [Oryza sativa Indica
+            Group].
+ACCESSION   AAQ54305
+VERSION     AAQ54305.1  GI:33771378
+DBSOURCE    accession AY346466.1
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 284)
+  AUTHORS   Wang,X. and He,G.
+  TITLE     Expression of a rice gene sharing similarity with IMPDH is induced
+            in response to a herbivore
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 284)
+  AUTHORS   Wang,X. and He,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2003) College of Life Sciences, Wuhan University,
+            Wuhan, Hubei 430072, China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..284
+                     /organism="Oryza sativa Indica Group"
+                     /db_xref="taxon:39946"
+                     /chromosome="2"
+                     /map="between RM213 and R208"
+     Protein         1..284
+                     /product="brown planthopper-induced resistance protein 1"
+                     /name="BPH resistant protein; Os-Bi1"
+     Region          178..>265
+                     /region_name="COG0517"
+                     /note="FOG: CBS domain [General function prediction only]"
+                     /db_xref="CDD:223591"
+     Region          184..268
+                     /region_name="CBS_pair"
+                     /note="The CBS domain, named after human CBS, is a small
+                     domain originally identified in cystathionine
+                     beta-synthase and is subsequently found in a wide range of
+                     different proteins. CBS domains usually occur in tandem
+                     repeats. They associate to form a so-called...; cd02205"
+                     /db_xref="CDD:239067"
+     CDS             1..284
+                     /gene="Bi1"
+                     /coded_by="AY346466.1:57..911"
+ORIGIN      
+        1 mrkptsnqpl cpktisshhq kkkekkekkk qqetqgkssl llfhgvfllq sfplslssss
+       61 slrlplaaip pqfgtrkkyr hsdtmacint fqscsvlkga kingtkiggg rgsptfrcra
+      121 stfmdgslrl eidenpeaii sgewpenfsl lsyddlrayl qsqeaaaqad nqrvallsea
+      181 msapvlvata eqtleevech fetvsglpvi daslrcvgvi vksdrarash gsktkiaevm
+      241 tspaitlpsd ktvmdaaalm lkkkdpqitn cksgqtsdry sypc
+//
+

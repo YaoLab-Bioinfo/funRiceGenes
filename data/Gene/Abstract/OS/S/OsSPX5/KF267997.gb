@@ -1,0 +1,70 @@
+LOCUS       KF267997                1090 bp    mRNA    linear   PLN 15-MAR-2014
+DEFINITION  Oryza sativa Japonica Group SPX domain-containing protein 5 (SPX5)
+            mRNA, complete cds.
+ACCESSION   KF267997
+VERSION     KF267997.1  GI:592744750
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1090)
+  AUTHORS   Shi,J., Hu,H., Zhang,K., Zhang,W., Yu,Y., Wu,Z. and Wu,P.
+  TITLE     The paralogous SPX3 and SPX5 genes redundantly modulate Pi
+            homeostasis in rice
+  JOURNAL   J. Exp. Bot. 65 (3), 859-870 (2014)
+   PUBMED   24368504
+REFERENCE   2  (bases 1 to 1090)
+  AUTHORS   Shi,J. and Wu,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUN-2013) College of Life Sciences, Zhejiang
+            University, 866 Yuhangtang Road, Hangzhou, Zhejiang 310058, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1090
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1090
+                     /gene="SPX5"
+     5'UTR           1..72
+                     /gene="SPX5"
+     CDS             73..816
+                     /gene="SPX5"
+                     /codon_start=1
+                     /product="SPX domain-containing protein 5"
+                     /protein_id="AHL42466.1"
+                     /db_xref="GI:592744751"
+                     /translation="MKFGKRLKRQIEESLPEWRDHFLNYKELKRRLNAVSSPDPAAEA
+                     RFLALLHAEVDKFNAFFLEQEEDFVIRQRELQERIQSSSSAAAEMEGRVRREVVDLHG
+                     EMVLLLNYSSINYTGLAKILKKYDKRTGGVLRLPVIAGVLRQPFYATDLLSSLVRDCE
+                     AIMDAVFPSLPSPSAAAAAAARAAAEQAIFRNTVAALLTMQEVRSGSSTYGHFSLPPM
+                     TPLPDSDWLIQSVQPPPPPPPSSPLIIPT"
+     3'UTR           817..1090
+                     /gene="SPX5"
+ORIGIN      
+        1 agattggata ttacagcagc ccaactccga ccaacttaat ttccaccggc cgtcgaggag
+       61 gaggaggcgg ccatgaagtt cgggaagcgg ctgaagaggc agatcgagga gagcctgccg
+      121 gagtggcgcg accatttcct caactacaag gagctcaagc gccgcctcaa cgccgtctcc
+      181 tcccccgacc ccgccgccga ggcccgcttc ctcgccctcc tccacgccga ggtcgacaag
+      241 ttcaacgcct tcttcctcga gcaggaggag gacttcgtca tcaggcagcg ggagctgcag
+      301 gagaggatcc agtcgtcgtc gtcggcggcg gcggagatgg aggggcgggt gcggagggag
+      361 gtggtggacc tgcacgggga gatggtgctg ctgctcaact acagcagcat caactacacg
+      421 gggctcgcca agatcctcaa gaagtacgac aagcgcaccg gcggcgtgct ccgcctcccc
+      481 gtcatcgccg gcgtcctccg ccagcccttc tacgccaccg acctcctctc cagcctcgtc
+      541 agggactgcg aggccatcat ggacgccgtc ttcccctccc tcccctcccc ctccgccgcc
+      601 gccgccgccg ccgcccgcgc cgccgccgag caggccatct tccgcaacac cgtcgccgcc
+      661 ctgctcacca tgcaggaggt ccgcagcggc agctccacct acggccactt ctccctcccg
+      721 ccgatgaccc cgctgcccga ctccgactgg ctcatccagt ccgtccagcc gccgccgccg
+      781 ccgccgccgt cgtcgccgct catcatcccc acgtagtcat ctcacggcaa atgccacata
+      841 ttgcgacgag ctgcaacatt gtcaaatttt ttttcttctt ttggcagcaa attgaaatcg
+      901 aaatcgaaaa gaacagacat gtaattacaa atctgtaatg ttgtctttct ctttttgttt
+      961 ttttggtgtg tgtttttatc atagtttctc taactaatag gagtagtaaa taatgtaacg
+     1021 aatgagatca ataccaatgg ttcttgatgg ccataactaa gaaatactag tattagtact
+     1081 agattgcaca
+//
+

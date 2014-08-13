@@ -1,0 +1,61 @@
+LOCUS       OSU31771                1168 bp    mRNA    linear   PLN 02-FEB-1996
+DEFINITION  Oryza sativa Ory s 1 mRNA, complete cds.
+ACCESSION   U31771
+VERSION     U31771.1  GI:1173556
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1168)
+  AUTHORS   Xu,H., Theerakulpisut,P., Goulding,N., Suphioglu,C., Singh,M.B. and
+            Bhalla,P.L.
+  TITLE     Cloning, expression and immunological characterization of Ory s 1,
+            the major allergen of rice pollen
+  JOURNAL   Gene 164 (2), 255-259 (1995)
+   PUBMED   7590339
+REFERENCE   2  (bases 1 to 1168)
+  AUTHORS   Xu,H.-L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-1995) Hui-Ling Xu, School of Botany, University
+            of Melbourne, Parkville, Victoria 3052, Australia
+FEATURES             Location/Qualifiers
+     source          1..1168
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             24..815
+                     /note="major allergen"
+                     /codon_start=1
+                     /product="Ory s 1"
+                     /protein_id="AAA86533.1"
+                     /db_xref="GI:1173557"
+                     /translation="MASSSLLLACVVVAAMVSPSPAGHPKVPPGPNITTSYGDKWLEA
+                     RPPGMVRPRVLAPKDNGGACGYKDVDKAPFLGMNSCGNDPIFKDGKGCGSCFEIKCSK
+                     PEACSDKPALIHVTDMNDEPIAAYHFDLSGLAMAKDGKDEELRKAGIIDTQFRRVKCK
+                     YPADTKITFHIEKASNPNYLALLVKYVAGDGDVVEVEIKEKGSEEWKALKESWGAIWR
+                     IDTPKPLKGPFSVRVTTEGARRSSAEDAIPDPGRRQRVQVNVQAK"
+ORIGIN      
+        1 ctcaataaca ttatattgca gcaatggcat cctcctccct tctactcgcc tgtgttgtgg
+       61 tggcggctat ggtgtcgccg tctcctgcgg gccacccgaa ggtgccaccg ggccccaaca
+      121 tcacgacaag ctacggcgac aagtggctgg aagcaaggcc acctggtatg gtgcgcccaa
+      181 gggtgctggc ccccaaggac aacggcggcg cgtgcgggta caaggatgtc gacaaggctc
+      241 ccttcctcgg catgaactcc tgcggcaacg accccatctt caaggacggc aagggctgcg
+      301 gctcatgctt cgagatcaag tgctccaagc cggaggcctg ctccgacaag cccgccctta
+      361 tccacgtcac cgacatgaac gacgagccca tcgctgccta ccactttgac ctctccggcc
+      421 ttgccatggc taaggatggc aaggacgaag agctccgtaa ggccggcatc atcgacacgc
+      481 agttccgccg cgtcaagtgc aagtatcctg ccgacaccaa gatcaccttc cacatcgaga
+      541 aggcctccaa ccccaactac cttgcgctgc tagtcaagta cgtcgctggt gatggtgacg
+      601 tcgtggaggt ggaaatcaag gagaagggct ccgaggagtg gaaggcgctc aaggagtcat
+      661 ggggtgccat ttggaggata gacaccccca agccgctcaa gggccccttc tccgtccgcg
+      721 tcaccaccga gggtgcgaga agatcatccg ccgaggacgc catccctgat cctggaaggc
+      781 gacagcgtgt acaagtcaac gtccaggcca agtgagcatt ttaagcaagg aagaaaccag
+      841 cgtacatacg atccggcgcc ggctgcctat atatatatat atatatatat atatatatat
+      901 atatattata tactatatat gtgttgctgc atgcttgcat gctgcacata tatatccaga
+      961 gaaatatttt ttaaacgaaa taatctataa atttctgagc taggattgtg gagcatatac
+     1021 acgccagcac tataatggcg tctgctctcc catcgaactg gcctgtgaca atggggtcat
+     1081 ttgtttttgc ccacaatatt ttctgctaaa ttcattctct gattttgcgt gagattatca
+     1141 tgagaagcag taaccatgtt gtgtatcc
+//
+

@@ -1,0 +1,67 @@
+LOCUS       AB232157                1181 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for transcription factor OsMADS58,
+            complete cds.
+ACCESSION   AB232157
+VERSION     AB232157.1  GI:83582644
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yamaguchi,T., Lee,D.Y., Miyao,A., Hirochika,H., An,G. and
+            Hirano,H.Y.
+  TITLE     Functional diversification of the two C-class MADS box genes
+            OSMADS3 and OSMADS58 in Oryza sativa
+  JOURNAL   Plant Cell 18 (1), 15-28 (2006)
+   PUBMED   16326928
+REFERENCE   2  (bases 1 to 1181)
+  AUTHORS   Yamaguchi,T., Lee,D., Miyao,A., Hirochika,H., An,G. and Hirano,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2005) Contact:Hiro-Yuki Hirano University of
+            Tokyo, Grad. Schl. Science; Hongo 7-3-1, Bunkyo-ku, Tokyo 113-8654,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1181
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..1181
+                     /gene="OsMADS58"
+     CDS             105..923
+                     /gene="OsMADS58"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="transcription factor OsMADS58"
+                     /protein_id="BAE54300.1"
+                     /db_xref="GI:83582645"
+                     /translation="MHIYKEQEAEPSTGLMMPEPAPVASPGSGGSGGSGSVGAEKIGS
+                     RGKIEIKRIENTTNRQVTFCKRRSGLLKKAYELSVLCDAEVALVVFSSRGRLYEYSNN
+                     SVKETIERYKKANSDTSNASTVAEINAQHYQQEAAKLKQQITNLQNSNRTLVGDNITT
+                     MNHRELKQLEGRLDKGLGKIRARKNELLCAEIEYMQRRETELQNDNMYLKSKVAESER
+                     GLQTVNMMGSASTSEYVQNMIHYDPRNFLQFNIMHQPQYYPEQEDRKAFMSDER"
+ORIGIN      
+        1 gactccatct catctcatcc ttccccaacc attctcttct ccttgaacac acccctctct
+       61 tcctcattat aatctcttct ttgattagag aggaattagc aaacatgcac atatacaaag
+      121 agcaggaggc tgaaccatcc actggcctga tgatgccaga gccagcacct gttgcttccc
+      181 ccggctccgg tggctcaggt ggctcaggct cggtgggagc tgagaagatt gggagcaggg
+      241 gaaagattga gatcaagcgc atcgagaaca cgacgaaccg tcaagtgacc ttctgcaagc
+      301 gccgcagcgg gctactcaag aaggcgtatg agctctccgt gctctgcgat gccgaggtcg
+      361 ccctcgtcgt cttctccagc cgtggccgcc tctacgagta ctccaacaac agcgtgaagg
+      421 aaactattga gaggtacaag aaagccaaca gtgacacctc caacgccagt acagttgcag
+      481 agatcaatgc ccagcactac cagcaggaag ctgctaagct gaagcaacag atcaccaacc
+      541 tgcagaactc caacaggacc ctagtaggtg ataatatcac caccatgaac cacagagaac
+      601 ttaagcagct ggaaggcaga ctggacaaag gcctaggaaa gattagagca cggaagaacg
+      661 aattgctgtg tgctgaaatt gagtatatgc agagaaggga aacggagctg cagaatgaca
+      721 acatgtactt aaagagcaaa gttgctgaga gtgaaagagg actgcaaaca gtgaacatga
+      781 tgggttcagc atctacgagc gagtacgtgc aaaatatgat ccattatgat ccaagaaact
+      841 tcctgcaatt caacatcatg catcagcctc agtattatcc tgaacaggag gaccgaaagg
+      901 cctttatgtc agatgaaaga taaatatgga tccgtatcat gcaactatct caatcatgca
+      961 tgtgccttct tcaaggagac tgatcagtta gatattacac tgtgtcagta gaacttttat
+     1021 gtgtgaactc ttgtatgcat gaataattaa ctttatccca taattcaggc ttggcactat
+     1081 caaggtgatg tacctaagta ttggttcaac ctgtgaaatt aaaatacttc atacccttcc
+     1141 tatgtttata tatgaaatat tggtgataat atcttgtgta t
+//
+

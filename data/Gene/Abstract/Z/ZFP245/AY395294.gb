@@ -1,0 +1,67 @@
+LOCUS       AY395294                 712 bp    mRNA    linear   PLN 30-SEP-2009
+DEFINITION  Oryza sativa (japonica cultivar-group) C2H2-type zinc finger
+            transcription factor (ZFP39) mRNA, complete cds.
+ACCESSION   AY395294
+VERSION     AY395294.1  GI:37623880
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 712)
+  AUTHORS   Huang,J., Wang,J.F., Wang,Q.H. and Zhang,H.S.
+  TITLE     Identification of a rice zinc finger protein whose expression is
+            transiently induced by drought, cold but not by salinity and
+            abscisic acid
+  JOURNAL   DNA Seq. 16 (2), 130-136 (2005)
+   PUBMED   16147864
+REFERENCE   2  (bases 1 to 712)
+  AUTHORS   Huang,J., Huang,F. and Zhang,H.-S.
+  TITLE     A novel zinc finger protein cDNA, OsZFP39, from rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 712)
+  AUTHORS   Huang,J., Huang,F. and Zhang,H.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-SEP-2003) School of Agronomy, Rice Research
+            Institute, Wei Gang 1, Nanjing Agricultural University, Nanjing,
+            Jiangsu 210095, China
+FEATURES             Location/Qualifiers
+     source          1..712
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Jiu Caiqing"
+                     /isolate="7"
+                     /db_xref="taxon:39947"
+                     /clone="Z39"
+                     /tissue_type="leaf; root; spike"
+     gene            1..712
+                     /gene="ZFP39"
+                     /note="OsZFP39"
+     CDS             18..698
+                     /gene="ZFP39"
+                     /note="QALGGH-conserved C2H2-type zinc finger protein"
+                     /codon_start=1
+                     /product="C2H2-type zinc finger transcription factor"
+                     /protein_id="AAQ95583.1"
+                     /db_xref="GI:37623881"
+                     /translation="MGLNEKPLVPPLSPTPVDFRAHQVFPSKHHDFDTSKSRNISGSV
+                     AIGSDSEEEYLATSLLMLAHGIRDETKDIRGMGDVKGVGVDTLELVKPSQRAYECSVC
+                     GKVYWCYQALGGHMTCHRNLFAQVVAGDELSSDRTMVVKGHKCSICRLEFPSGQALGG
+                     HMRVHYVGGVEGGSVKEKNVVKTKVTGALKLVLKDFDLNVPVVATMVGDEAESSHSEA
+                     KARMMTLP"
+ORIGIN      
+        1 gtcgatttca taccactatg gggctaaacg agaagccatt ggtgcctccg ttgtctccaa
+       61 cgccggtgga cttccgagcc catcaggtgt tcccatccaa gcaccacgat tttgacacta
+      121 gcaagagtcg taacatctct ggtagtgtcg ccatcggcag tgattctgag gaggagtact
+      181 tggcgacttc tctcttgatg ctcgcacatg gcattcggga cgagaccaag gacatccgag
+      241 ggatgggaga cgtaaaaggt gtgggtgttg acactttgga gctggtgaaa ccaagccaac
+      301 gggcttatga gtgctcggtg tgtggcaagg tgtactggtg ttaccaggcg ttgggtgggc
+      361 acatgacgtg ccaccgcaac ctatttgcac aagtggtggc cggtgatgag ttgtcctccg
+      421 ataggaccat ggtggttaag gggcacaagt gctctatctg tcgccttgag ttcccatctg
+      481 ggcaggcgct aggaggacac atgcgggtgc actatgtggg tggtgttgaa ggaggctctg
+      541 tcaaggagaa gaacgttgtg aagaccaagg ttacaggagc actgaagcta gtgttgaaag
+      601 actttgacct gaacgtgcct gttgtggcaa cgatggtggg agacgaggct gagagctcac
+      661 attcagaggc caaagcgcgg atgatgacac tcccctaacc agcgcaatac tt
+//
+

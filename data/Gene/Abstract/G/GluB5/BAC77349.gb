@@ -1,0 +1,51 @@
+LOCUS       BAC77349                 312 aa            linear   PLN 15-FEB-2008
+DEFINITION  glutelin, partial [Oryza sativa Japonica Group].
+ACCESSION   BAC77349
+VERSION     BAC77349.1  GI:31455453
+DBSOURCE    accession AB093593.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kusaba,M., Miyahara,K., Iida,S., Fukuoka,H., Takano,T., Sassa,H.,
+            Nishimura,M. and Nishio,T.
+  TITLE     Low glutelin content1: a dominant mutation that suppresses the
+            glutelin multigene family via RNA silencing in rice
+  JOURNAL   Plant Cell 15 (6), 1455-1467 (2003)
+   PUBMED   12782736
+REFERENCE   2  (residues 1 to 312)
+  AUTHORS   Kusaba,M. and Nishimura,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-2002) Contact:Makoto Kusaba National Institute of
+            Agrobiological Science, Institute of Radiation Breeding;
+            Ohmiya-machi, Naka-gun, Ibaraki 319-2293, Japan
+FEATURES             Location/Qualifiers
+     source          1..312
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="LGC-1"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+     Protein         1..>312
+                     /product="glutelin"
+     Region          50..207
+                     /region_name="Cupin_1"
+                     /note="Cupin; pfam00190"
+                     /db_xref="CDD:249667"
+     CDS             1..312
+                     /gene="GluB5"
+                     /coded_by="complement(join(AB093593.1:<3307..3653,
+                     AB093593.1:3761..4023,AB093593.1:4134..4461))"
+                     /note="This CDS is truncated becase of a deletion in
+                     Lgc1."
+ORIGIN      
+        1 matiafsrls iyfcvlllch gsmaqlfgpn vnpwhnprqg gfrecrfdrl qafeplrrvr
+       61 seagvteyfd ekneqfqctg tfvirrviep qgllvprysn tpgmvyiiqg rgsmgltfpg
+      121 cpatyqqqfq qflpegqsqs qkfrdehqki hqfrqgdiva lpagvahwfy negdapvval
+      181 yvfdlnnnan qleprqkefl lagnnnreqq mygrsieqhs gqnifsgfnn ellsealgvn
+      241 alvakrlqgq ndqrgeiirv knglkllrpa faqqqeqaqq qeqaqaqyqv qyseeqqpst
+      301 rcngldenfc ti
+//
+

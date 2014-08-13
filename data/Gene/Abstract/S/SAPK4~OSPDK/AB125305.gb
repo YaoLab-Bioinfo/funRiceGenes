@@ -1,0 +1,72 @@
+LOCUS       AB125305                1493 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group SAPK4 mRNA for serine/threonine protein
+            kinase SAPK4, complete cds.
+ACCESSION   AB125305
+VERSION     AB125305.1  GI:46917335
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kobayashi,Y., Yamamoto,S., Minami,H., Kagaya,Y. and Hattori,T.
+  TITLE     Differential activation of the rice sucrose nonfermenting1-related
+            protein kinase2 family by hyperosmotic stress and abscisic acid
+  JOURNAL   Plant Cell 16 (5), 1163-1177 (2004)
+   PUBMED   15084714
+REFERENCE   2  (bases 1 to 1493)
+  AUTHORS   Kobayashi,Y., Yamamoto,S., Minami,H., Kagaya,Y. and Hattori,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-OCT-2003) Contact:Tsukaho Hattori Nagoya University,
+            Biotechnology and Bioscience Center; Chikusa, Nagoya, Aichi
+            464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..1493
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1493
+                     /gene="SAPK4"
+     CDS             197..1279
+                     /gene="SAPK4"
+                     /codon_start=1
+                     /product="serine/threonine protein kinase SAPK4"
+                     /protein_id="BAD18000.1"
+                     /db_xref="GI:46917336"
+                     /translation="MEKYEAVRDIGSGNFGVARLMRNRETRELVAVKCIERGHRIDEN
+                     VYREIINHRSLRHPNIIRFKEVILTPTHLMIVMEFAAGGELFDRICDRGRFSEDEARY
+                     FFQQLICGVSYCHHMQICHRDLKLENVLLDGSPAPRLKICDFGYSKSSVLHSRPKSAV
+                     GTPAYIAPEVLSRREYDGKLADVWSCGVTLYVMLVGAYPFEDQDDPKNIRKTIQRIMS
+                     VQYKIPDYVHISAECKQLIARIFVNNPLRRITMKEIKSHPWFLKNLPRELTETAQAMY
+                     YRRDNSVPSFSDQTSEEIMKIVQEARTMPKSSRTGYWSDAGSDEEEKEEEERPEENEE
+                     EEEDEYDKRVKEVHASGELRMSSLRI"
+ORIGIN      
+        1 cgagaggcgc cgcgccacca tcaccaccca ccccgctcct cgcgccgccg acgcgccacc
+       61 cgccggcgac ggcgaggacc gcgccgccgg tgtcatcgtg ccgtgccgat ccctcccccg
+      121 gcggatccac gggctgagcc gatcccgtcc gtggagagga gaggaggagg ggagggggaa
+      181 ggggagaggg ggggagatgg agaagtacga ggcggtgagg gacatcgggt cggggaactt
+      241 cggggtggcg cggctgatgc gcaaccgcga gacccgcgag ctcgtcgccg tcaagtgcat
+      301 cgagcgcggc caccggatag atgagaatgt gtacagggag atcatcaacc accgctcgct
+      361 gcgccacccc aacatcattc gcttcaagga ggtgatactg acgccaacgc atcttatgat
+      421 tgtcatggag ttcgcagcag gcggggagct gttcgatcga atctgtgatc gtggacggtt
+      481 cagtgaggat gaggccaggt atttctttca gcagctgatc tgtggagtga gctactgcca
+      541 tcacatgcaa atatgccata gagatttgaa gttggagaat gttctcttgg atggcagccc
+      601 agctccacgg cttaagatat gtgattttgg ctactccaag tcatcagtat tgcattcaag
+      661 acccaaatca gcagtgggga cgccagcata tatcgcacca gaggtgctat cccgccgtga
+      721 gtatgatgga aagcttgcag atgtatggtc ctgtggtgtg actctttacg tcatgcttgt
+      781 gggagcctac ccatttgaag accaggacga ccccaagaac attcgcaaaa ccattcagag
+      841 aataatgtca gtgcaatata agataccaga ttacgtccac atatctgcag aatgcaaaca
+      901 gcttattgcc cgcatttttg tcaacaatcc attgaggaga atcacgatga aggaaataaa
+      961 gagccacccg tggttcttga agaacctccc cagggagctc acggagactg cgcaagccat
+     1021 gtactacagg agggacaact ccgtgccttc cttctcagac cagacctcag aagagatcat
+     1081 gaagattgtt caagaagcaa gaaccatgcc gaaatcatcc aggacaggct actggagcga
+     1141 cgcgggttca gacgaggagg agaaggaaga ggaagagagg ccagaagaga acgaggaaga
+     1201 ggaggaagat gagtacgata agagggtcaa agaggtccat gcgagcgggg agctccgtat
+     1261 gagctcactg cgcatatgaa aaagtttgtg tgcagctatt gtgtagataa tccggcttac
+     1321 tatggaactg cggtgtatgc aattttcgct gtaaatttgc ttctgtttgg cgtttcttcg
+     1381 tgtaacataa cttacttggg ggcgcttgga cttcaattgt ctgattatgt tttgtaagta
+     1441 cctacatatt aagcgtatgc tatgtacttg gtgaaaaaaa aaaaaaaaaa aaa
+//
+

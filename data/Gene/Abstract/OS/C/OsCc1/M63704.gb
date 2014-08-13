@@ -1,0 +1,96 @@
+LOCUS       RICCYTC                 2408 bp    DNA     linear   PLN 07-MAR-1995
+DEFINITION  Rice cytochrome c (OsCc-1) gene, complete cds.
+ACCESSION   M63704
+VERSION     M63704.1  GI:169785
+KEYWORDS    cytochrome c.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2408)
+  AUTHORS   Kemmerer,E.C., Lei,M. and Wu,R.
+  TITLE     Isolation and molecular evolutionary analysis of a cytochrome c
+            gene from Oryza sativa (rice)
+  JOURNAL   Mol. Biol. Evol. 8 (2), 212-226 (1991)
+   PUBMED   1646373
+COMMENT     Original source text: Rice (strain IR36) seedling DNA, clone
+            OsCc-1.
+FEATURES             Location/Qualifiers
+     source          1..2408
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /clone="OsCc-1"
+                     /dev_stage="seedling"
+     TATA_signal     202..205
+                     /gene="Cc-1"
+     RBS             248..271
+                     /gene="Cc-1"
+     gene            join(320..431,1249..1382,2131..2223)
+                     /gene="Cc-1"
+     CDS             join(320..431,1249..1382,2131..2223)
+                     /gene="Cc-1"
+                     /codon_start=1
+                     /product="cytochrome c"
+                     /protein_id="AAA63515.1"
+                     /db_xref="GI:169786"
+                     /translation="MASFSEAPPGNPKAGEKIFKTKCAQCHTVDKGAGHKQGPNLNGL
+                     FGRQSGTTPGYSYSTANKNMAVIWEENTLYDYLLNPKKYIPGTKMVFPGLKKPQERAD
+                     LISYLKEATS"
+     intron          432..1248
+                     /gene="Cc-1"
+                     /number=1
+     exon            1249..1382
+                     /gene="Cc-1"
+                     /number=2
+     intron          1383..2130
+                     /gene="Cc-1"
+                     /number=2
+     polyA_signal    2277..2282
+                     /gene="Cc-1"
+ORIGIN      
+        1 gtcacgaacg gaagccctac acgaatggcg ttggtgtcaa gcctcccaca cccacacccc
+       61 cccttgcctt tttctgcaag acgcggaaac cttctggaac cgcgtgattc cgcgcaacgc
+      121 ccctgccccc acgctccacc cgttcaataa ttctaggggt attatgctag tttcgccacc
+      181 tgcccttcgc ccgcgctggt gtatactagg gcacgcgctc ctcggaatcg ccacgagccc
+      241 acgagccaga aaaaaaagga aaaaaagaga gtcgtagttc gcctcttctt cctcctctcg
+      301 ttctgcggcg gcggcggaga tggcgtcgtt ctcggaggct cccccgggca accccaaggc
+      361 cggcgagaag atcttcaaga ccaagtgcgc ccagtgccac accgtcgaca agggcgccgg
+      421 ccacaagcaa ggtgagcccc actccctccc tagatctcgg aggagctaat ctgtagggct
+      481 tatcctttct ctgtgctgac tgcgggggga tggggatctg ggtgggggtt ctctacgatt
+      541 ctctgcttga tgtggagacg ggcagttgag atcggaactt gtaggtgata gatctgcctg
+      601 tatgcttcgt gttgcattga atggtgctta gatctgtggg attggtgatg ggatagtcgg
+      661 atttgtccat gtatttgata ctttcccggg ttgattgcca tggatttgcg ggatatggca
+      721 ttattaatcg atattcagtt aggcgcttcc gcctaacact ttaaaagggc tgtagctgta
+      781 atagttttag ctttgattag agcccttatt atagtctagc ttgtttcaga ttgcttgctg
+      841 ctactttgga ataagtagtg attgtatgtt gagtctgatg ggattgctgc tttagaatta
+      901 tttgctcaag gaaacgaatc cagcgtctgc ttatggattg ttgaataaaa cctctgttcc
+      961 atctgtttag gatgctggta taagcctaca tacgcttcct ggtacttagt agtaatatgt
+     1021 gacaagcacc aatctccata caaattgact actgtctttt tagcagttta tttttcctga
+     1081 ttcttgggtg attgtgtaag ttttcccatt gttatagatt gcattattat gtgtatgaac
+     1141 cattggatgt catcacaaga tctccatttt ctgtctatct gttctagctt acttagtgtt
+     1201 cggaggattg tgtggttgat gatgagatcc atgtttgtac tctttcaggt ccaaacttga
+     1261 atggtctgtt tggaaggcag tcaggtacca cccctggtta ttcctactct acggccaaca
+     1321 agaacatggc tgtgatctgg gaggagaaca cactttatga ctacctgctt aatcctaaga
+     1381 aggtatgatt aatgataacg ttggccacct gagttctata attttacttg tagcctgcta
+     1441 ttgtttcctt ccttttagcg tgcacagggt cggaactaaa tgttggggtt ttccagcctg
+     1501 ttgttatttt gtattcctgt tgcttgtgac actttagagt aatcttcatg ctatctagtt
+     1561 ttctgtattg gccgtccttt accatacaaa acttcaaaac tcttaaacat ggttagagag
+     1621 ctttgtaatt atctagtgaa actcaacgta cttgtgcatg tttcgcatcg ttattgttta
+     1681 gttcacttct gatgtacttt tttgggtttc tttaaatatt tttccacatg catgatttac
+     1741 tgtttttgag cagtctctac tagaatacaa ttcttattaa aatcaattga tgttcagagc
+     1801 gaataatctg aaataggctt aaggttagga gaacctgatt catgtgattc tgaccctagt
+     1861 atcaacatga ggctatgtat aatgagttct cattgtttgt tactatgatc actctggagt
+     1921 tcttattgct gattgttttt atatctagat gttttaaatt agtttcttgt tgcacgacga
+     1981 gccggctttg tattatttca gatgcacaca tttgtttaca ccaatggact cattctctgt
+     2041 attagagtgc cttgtttcac tatggcacgg tccagtttgg cgatttttgt tcaagacagc
+     2101 tggactgagt ctgtttttct cattatgcag tacatccctg gaaccaagat ggtcttccct
+     2161 gggttgaaga agccacagga gcgtgctgat cttatttcct acctgaagga agcaacctct
+     2221 taaaaggagt ggagctgtcg taacatgaga caatcggaca attcattcta cagttaaata
+     2281 aaaatattta gacatctggg tcgctctggt tttacagggt gcaatccacg agacaattat
+     2341 cttgttatat tttgttctta tggtttatgg gttccatatc ttagggtatt ttgatcacca
+     2401 gtcggagt
+//
+

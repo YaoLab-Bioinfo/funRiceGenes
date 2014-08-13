@@ -1,0 +1,67 @@
+LOCUS       AF464908                1236 bp    mRNA    linear   PLN 14-MAY-2002
+DEFINITION  Oryza sativa general transcription factor TFIIB (TFIIB) mRNA,
+            complete cds.
+ACCESSION   AF464908
+VERSION     AF464908.1  GI:18481631
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1236)
+  AUTHORS   Zhu,Q., Ordiz,M.I., Dabi,T., Beachy,R.N. and Lamb,C.
+  TITLE     Rice TATA Binding Protein Interacts Functionally with Transcription
+            Factor IIB and the RF2a bZIP Transcriptional Activator in an
+            Enhanced Plant in Vitro Transcription System
+  JOURNAL   Plant Cell 14 (4), 795-803 (2002)
+   PUBMED   11971135
+REFERENCE   2  (bases 1 to 1236)
+  AUTHORS   Zhu,Q. and Lamb,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JAN-2002) CR&D, DuPont Company, P.O. Box 80402,
+            Wilmington, DE 19880, USA
+FEATURES             Location/Qualifiers
+     source          1..1236
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1236
+                     /gene="TFIIB"
+     CDS             83..1021
+                     /gene="TFIIB"
+                     /note="OsTFIIIB"
+                     /codon_start=1
+                     /product="general transcription factor TFIIB"
+                     /protein_id="AAL73491.1"
+                     /db_xref="GI:18481632"
+                     /translation="MSDSFCPDCKKHTEVAFDHSAGDTVCTECGLVLEAHSVDETSEW
+                     RTFANESSDNDPVRVGGPTNPLLTDGGLSTVIAKPNGAQGEFLSSSLGRWQNRGSNPD
+                     RSLILAFRTIANMADRLGLVATIKDRANEIYKKVEDLKSIRGRNQDAILAACLYIACR
+                     QEDRPRTVKEICSVANGATKKEIGRAKEFIVKQLEVEMGQSMEMGTIHAGDFLRRFCS
+                     TLGMNNQAVKAAQEAVQRSEELDIRRSPISIAAAVIYMITQLSDDKKPLKDISLATGV
+                     AEGTIRNSYKDLYPYASRLIPNTYAKEEDLKNLCTP"
+ORIGIN      
+        1 tcctcctcca cccccaaata cgcctcgacg agcggcgcgc cggcgagggc aggaaaaaag
+       61 cggcggcggc ggcgggggcg aaatgagcga ctcgttctgc ccggactgca agaagcacac
+      121 ggaggtggcg ttcgaccact cggcggggga cacggtgtgc acggagtgcg gcctcgtcct
+      181 ggaggcgcac tccgtcgacg agacctccga gtggcggacg ttcgccaacg agtccagcga
+      241 caacgacccc gtccgtgtcg gcggcccgac caacccgctc ctcaccgacg gcggcctctc
+      301 caccgtcatc gccaagccca acggcgccca gggggagttc ctctcctcct ccctcggcag
+      361 gtggcagaac cgcggctcca accccgaccg ctccctcatc cttgccttcc gcaccatcgc
+      421 caacatggcc gacaggttag gtcttgtggc tacaatcaag gaccgagcca atgaaatata
+      481 taagaaggtg gaagatctca agtctatcag gggaagaaat caagatgcca tattagctgc
+      541 ctgtttgtat attgcttgta gacaagagga tcggcctaga actgtaaaag aaatatgttc
+      601 ggtcgctaat ggagcaacaa agaaagagat aggccgagca aaggaattta tcgtgaagca
+      661 actggaagtt gaaatgggtc aatctatgga gatgggaacc atccatgctg gagatttcct
+      721 gaggcgtttc tgttcaactc ttgggatgaa caatcaagct gttaaagcag cccaggaagc
+      781 agttcagcgt tcagaggaac ttgatataag gaggagtcct atttccattg cggctgctgt
+      841 catttacatg ataacccaac tctcagatga taagaagcct ctgaaagaca tatccttggc
+      901 tactggtgtg gcagaaggta ccatcagaaa ttcatacaag gatctgtatc cctatgcttc
+      961 aaggctcatc ccaaacacct atgccaagga ggaagacctg aagaatctgt gcacaccata
+     1021 ggaaattttt tcttttcttc tttgtcacat aacatggaaa ttagatttgc cagagaggag
+     1081 taatgttctc cttggatgtg agttttactg gcccatgtat cactgcacct aattttatgt
+     1141 gcatggacct gttagaacaa agttatttcg aatcgaatcg aagtaagtta tatgcaaagc
+     1201 ttatttagga atggcaaaat ttcatgccaa aaaaaa
+//
+

@@ -1,0 +1,66 @@
+LOCUS       BK005033                 886 bp    DNA     linear   PLN 17-MAR-2006
+DEFINITION  TPA_inf: Oryza sativa (japonica cultivar-group) WRKY transcription
+            factor 30 (WRKY30) gene, complete cds.
+ACCESSION   BK005033
+VERSION     BK005033.1  GI:46394313
+KEYWORDS    Third Party Data; TPA; TPA:inferential.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 886)
+  AUTHORS   Zhang,Z.L., Xie,Z., Zou,X., Casaretto,J., Ho,T.H. and Shen,Q.J.
+  TITLE     A rice WRKY gene encodes a transcriptional repressor of the
+            gibberellin signaling pathway in aleurone cells
+  JOURNAL   Plant Physiol. 134 (4), 1500-1513 (2004)
+   PUBMED   15047897
+REFERENCE   2  (bases 1 to 886)
+  AUTHORS   Zhang,Z.-L., Xie,Z., Zou,X., Casaretto,J., Ho,T.-h.D. and Shen,Q.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2004) Department of Biological Sciences,
+            University of Nevada, Las Vegas, 4505 Maryland Parkway, Las Vegas,
+            NV 89154, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-886               AP003873.2         11128-12013         c
+FEATURES             Location/Qualifiers
+     source          1..886
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <1..>886
+                     /gene="WRKY30"
+                     /note="OsWRKY30"
+     mRNA            join(<1..182,385..>886)
+                     /gene="WRKY30"
+                     /product="WRKY transcription factor 30"
+     CDS             join(1..182,385..886)
+                     /gene="WRKY30"
+                     /codon_start=1
+                     /product="WRKY transcription factor 30"
+                     /protein_id="DAA05095.1"
+                     /db_xref="GI:46394314"
+                     /translation="MDVYAATSTSTNAIDIGAVASRAIREPRVVVQTTSEVDILDDGY
+                     RWRKYGQKVVKGNPNPRSYYKCTHPGCSVRKHVERSSHDLKSVITTYEGKHNHEVPAA
+                     RNSGHPSSGSAAAPQATNGLLHRRPEPAQGGGGGSLAQFGYGSAGHRPAEQFGAAAAG
+                     FSFGMLPRSIATPAPSPAIAVPAMQGYPGLVLPRGEMKVNLLPQSGNAGAAASQQLMG
+                     RLPKQHPQM"
+ORIGIN      
+        1 atggatgttt atgccgctac tagcactagc accaacgcca tcgacatagg agctgtggcg
+       61 tcaagagcta tccgggagcc tcgcgttgtt gttcagacca caagtgaggt tgacatcctt
+      121 gatgatggtt accgttggcg caagtatggg cagaaagttg tcaaaggaaa cccaaatcca
+      181 aggtcaattc taatgccatt tttctctttt ggaacaaatt ctttgcagtt cctctaatcc
+      241 ttcactacaa aagtaaatgt ttagcttcac aatatgacac tgtcatcgaa ggaacatttc
+      301 tctgtccata tgtgtgcatc catagttggt acaaagaccg gaaattactc gcattatcta
+      361 aaaaactcca ttttgtattt gcaggagcta ctacaagtgc actcatccgg gttgctcggt
+      421 gcgcaagcat gtggagcgat catcgcatga tctgaaatcc gtcatcacga cgtatgaagg
+      481 aaagcacaac catgaagttc cagctgccag gaacagtggc cacccaagct caggctcagc
+      541 cgctgcacca caggctacca atggtcttct tcaccggaga cctgaaccgg cacaaggtgg
+      601 tggtggtggt agccttgctc agtttggcta tggctcagct ggtcacagac cagcagagca
+      661 gtttggtgca gcagcagctg gtttctcctt tggaatgctg cctcgtagca ttgcaactcc
+      721 ggcgccgtct ccggcgatcg ccgtgccggc gatgcagggg tacccagggc ttgtgctgcc
+      781 gagaggtgag atgaaggtga acttgctgcc acagtctggg aatgctggtg cagcagctag
+      841 ccagcagctg atgggcaggt tgccaaagca gcatcctcag atgtaa
+//
+

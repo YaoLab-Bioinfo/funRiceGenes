@@ -1,0 +1,69 @@
+LOCUS       AAA33885                 434 aa            linear   PLN 27-APR-1993
+DEFINITION  alpha-amylase (EC 3.2.1.1) [Oryza sativa].
+ACCESSION   AAA33885
+VERSION     AAA33885.1  GI:169753
+DBSOURCE    locus RICAAMYA accession M24286.1
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 434)
+  AUTHORS   O'Neill,S.D., Kumagai,M.H., Majumdar,A., Huang,N., Sutliff,T.D. and
+            Rodriguez,R.L.
+  TITLE     The alpha-amylase genes in Oryza sativa: characterization of cDNA
+            clones and mRNA expression during seed germination
+  JOURNAL   Mol. Gen. Genet. 221 (2), 235-244 (1990)
+   PUBMED   2370848
+COMMENT     Draft entry and computer-readable sequence for [1] kindly submitted
+            by M.H.Kumagai, 25-APR-1989.
+                          Author address: M.H.Kumagi
+                          UC Davis, Dept. of Genetics,
+                          Davis, Ca. 95616.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..434
+                     /organism="Oryza sativa"
+                     /db_xref="taxon:4530"
+     Protein         1..434
+                     /name="alpha-amylase (EC 3.2.1.1)"
+     Region          23..434
+                     /region_name="PLN00196"
+                     /note="alpha-amylase; Provisional"
+                     /db_xref="CDD:165762"
+     Region          33..383
+                     /region_name="AmyAc_arch_bac_plant_AmyA"
+                     /note="Alpha amylase catalytic domain found in archaeal,
+                     bacterial, and plant Alpha-amylases (also called
+                     1,4-alpha-D-glucan-4-glucanohydrolase); cd11314"
+                     /db_xref="CDD:200453"
+     Site            order(40,82,123,173,207,209..210,212,234,236,244,319..320)
+                     /site_type="active"
+                     /db_xref="CDD:200453"
+     Site            order(122,178)
+                     /site_type="other"
+                     /note="Ca binding site [ion binding]"
+                     /db_xref="CDD:200453"
+     Site            order(209,234,320)
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:200453"
+     Region          373..433
+                     /region_name="Alpha-amyl_C2"
+                     /note="Alpha-amylase C-terminal beta-sheet domain;
+                     smart00810"
+                     /db_xref="CDD:129046"
+     CDS             1..434
+                     /coded_by="M24286.1:34..1338"
+ORIGIN      
+        1 mqvlntmvnk hflslsvliv llglssnlta gqvlfqgfnw eswkenggwy nflmgkvddi
+       61 aaagithvwl pppshsvgeq gympgrlydl daskygneaq lkslieafhg kgvqviadiv
+      121 inhrtaehkd grgiyclfeg gtpdsrldwg phmicrddpy gdgtgnpdtg adfaaapdid
+      181 hlnkrvqrel igwldwlkmd igfdawrldf akgysadmak iyidatepsf avaeiwtsma
+      241 nggdgkpnyd qnahrqelvn wvdrvggans ngtafdfttk gilnvavege lwrlrgedgk
+      301 apgmigwwpa kattfvdnhd tgstqhlwpf psdkvmqgya yilthpgnpc ifydhffdwg
+      361 lkeeierlvs irnrqgihpa selrimeads dlylaeidgk vitkigpryd vehlipegfq
+      421 vvahgdgyai weki
+//
+

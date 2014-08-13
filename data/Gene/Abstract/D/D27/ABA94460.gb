@@ -1,0 +1,59 @@
+LOCUS       ABA94460                 236 aa            linear   PLN 05-MAY-2011
+DEFINITION  hypothetical protein LOC_Os11g37650 [Oryza sativa Japonica Group].
+ACCESSION   ABA94460
+VERSION     ABA94460.1  GI:77551663
+DBLINK      BioProject: PRJNA16949
+DBSOURCE    accession DP000010.2
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 236)
+  CONSRTM   Rice Chromosomes 11 and 12 Sequencing Consortia
+  TITLE     The sequence of rice chromosomes 11 and 12, rich in disease
+            resistance genes and recent gene duplications
+  JOURNAL   BMC Biol. 3, 20 (2005)
+   PUBMED   16188032
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 236)
+  AUTHORS   Buell,C.R., Wing,R.A., McCombie,W.A. and Ouyang,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-APR-2005) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+REFERENCE   3  (residues 1 to 236)
+  AUTHORS   Buell,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JAN-2006) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..236
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="11"
+     Protein         1..236
+                     /product="hypothetical protein"
+     Region          131..212
+                     /region_name="DUF4033"
+                     /note="Domain of unknown function (DUF4033); pfam13225"
+                     /db_xref="CDD:257583"
+     CDS             1..236
+                     /locus_tag="LOC_Os11g37650"
+                     /coded_by="join(DP000010.2:21715931..21716108,
+                     DP000010.2:21717665..21717804,
+                     DP000010.2:21718021..21718113,
+                     DP000010.2:21718474..21718535,
+                     DP000010.2:21719097..21719203,
+                     DP000010.2:21720560..21720649,
+                     DP000010.2:21720733..21720773)"
+                     /note="predicted by fgenesh"
+ORIGIN      
+        1 marpqeapas apakktetaa mmstvqteta aappatvyrd swfdklaigy lsrnlqeasg
+       61 lknekdgyes lidaalaisr ifsldkqsei vtqaleralp syiltmikvm mppsrfsrey
+      121 faafttiffp wlvgpcevme sevegrkekn vvyipkcrfl estncvgmct nlckipcqkf
+      181 iqdslgmkvy mspnfedmsc emifgqqppe ddpalkqpcf rtkcvakqnh gvncsi
+//
+

@@ -1,0 +1,69 @@
+LOCUS       AY302058                1343 bp    mRNA    linear   PLN 17-JUN-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) zinc transporter (ZIP1)
+            mRNA, complete cds.
+ACCESSION   AY302058
+VERSION     AY302058.1  GI:31872113
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1343)
+  AUTHORS   Ramesh,S., Shin,R., Eide,D.J. and Schachtman,D.P.
+  TITLE     Differential metal selectivity and gene expression of two zinc
+            transporters from rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1343)
+  AUTHORS   Schachtman,D.P. and Ramesh,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2003) Donald Danforth Plant Science Center, 975
+            N. Warson, St. Louis, MO 63132, USA
+FEATURES             Location/Qualifiers
+     source          1..1343
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1343
+                     /gene="ZIP1"
+                     /note="OsZIP1"
+     CDS             54..1112
+                     /gene="ZIP1"
+                     /codon_start=1
+                     /product="zinc transporter"
+                     /protein_id="AAP59425.1"
+                     /db_xref="GI:31872114"
+                     /translation="MARTMTMRVSSLLVAVVLLAALSFQACSGHGGINDGDGQVDAPA
+                     TPASSSGVRSKGLIAVKVWCLVILLVFTFAGGVSPYFYRWNESFLLLGTQFAAGVFLG
+                     TALMHFLADSTSTFKGLTTNQYPFSFMLTCVGFLLTMLSDLVIAAVARRSAAAGVSDN
+                     QVSEQQQRQQAEGAVMSRKEEEAAAVAHPAMLVRTSSFEDAVLLIVALCFHSVFEGIA
+                     IGVSASKSEAWRNLWTIGLHKIFAAVAMGIALLRMIPKRPFLMTVVYSLAFAVSSPVG
+                     VGIGIAIDATSQGRAADWTYAISMGLATGVFIYVAINHLIAKGYRPHHPTAADKPLFK
+                     FLAVLLGVAVMAVVMIWD"
+ORIGIN      
+        1 ctggcccaga agtcgatcga tcgatcgtga cggcgacggc gcgagccacg accatggcca
+       61 ggacgatgac gatgagggtt tcttcgctcc ttgtcgccgt ggtcctcctc gccgcgctct
+      121 cgttccaggc gtgcagcggc catggcggca tcaacgacgg cgacgggcag gtcgacgccc
+      181 cggcaacgcc tgcgtcgtcg tccggcgtgc ggtccaaggg gctgatcgcc gtgaaggtgt
+      241 ggtgcctggt gatcctgctg gtgttcacct tcgccggcgg cgtctccccc tacttctacc
+      301 ggtggaacga gagcttcctc ctcctcggca cccagttcgc cgccggcgtc ttcctcggca
+      361 ccgcgctgat gcacttcctc gccgactcca cctccacctt caagggcctc actaccaacc
+      421 agtacccgtt ctccttcatg ctcacctgcg tcggcttcct gctcaccatg ctcagcgacc
+      481 tcgtcatcgc cgccgtcgcg cggaggagcg ccgccgccgg cgttagcgac aaccaggtca
+      541 gtgagcagca gcagcggcag caagccgagg gggcggtgat gagccgcaag gaggaggagg
+      601 cggcggcggt ggcgcacccg gcgatgctgg tgaggacatc gtcgttcgag gacgccgtgc
+      661 tgctcatcgt cgcgctctgt ttccactccg tctttgaagg gatcgccatt ggtgtctcag
+      721 cgagcaagag cgaggcgtgg aggaacctgt ggacgatcgg gctgcacaag atattcgcgg
+      781 cggtggcgat gggaatcgcg ctgctccgga tgatccccaa gcgccccttc ctcatgaccg
+      841 tcgtctactc cctcgccttc gccgtctcca gccccgtcgg cgtcggcatc ggcatcgcca
+      901 tcgacgccac ctcccagggc cgcgccgccg actggaccta cgccatctcc atgggcctcg
+      961 ccaccggcgt cttcatctac gtcgccatca accacctcat cgccaagggc taccgccccc
+     1021 accaccccac cgccgccgac aagccgctct tcaagttcct cgccgtcctc ctcggcgtcg
+     1081 ccgtcatggc tgtcgtcatg atctgggact gatccatcca tcctagtatt acactgcttc
+     1141 atttcttcaa ttcctgcgcc catgtatgta tgcttaattt ggcttgttta attaactgta
+     1201 tgtacacatg ctgcatgcat gttcgatttc tatcacccca ttcattaatc gtggccgaaa
+     1261 cagttcatgt ccactaatga ttgctgtatc tatctacata tatcaaaccg tgaataaaag
+     1321 ttgttataaa aaaaaaaaaa aaa
+//
+

@@ -1,0 +1,60 @@
+LOCUS       RICRGP2                  823 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group rgp2 mRNA for GTP binding protein,
+            complete cds.
+ACCESSION   D13152
+VERSION     D13152.1  GI:218203
+KEYWORDS    ras-related protein; vesicular transport.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 823)
+  AUTHORS   Youssefian,S., Nakamura,M. and Sano,H.
+  TITLE     Molecular characterization of rgp2, a gene encoding a small
+            GTP-binding protein from rice
+  JOURNAL   Mol. Gen. Genet. 237 (1-2), 187-192 (1993)
+   PUBMED   8455556
+REFERENCE   2  (bases 1 to 823)
+  AUTHORS   Youssefian,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-1992) Contact:Shohab Youssefian Akita Prefectural
+            College of Agriculture, Biotechnology Institute; 2-2 Minami,
+            Ohgatamura, Minamiakita-gun, Akita 010-0444, Japan
+FEATURES             Location/Qualifiers
+     source          1..823
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Shiokari"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+                     /clone_lib="lamda gt10"
+     gene            1..823
+                     /gene="rgp2"
+     CDS             65..718
+                     /gene="rgp2"
+                     /codon_start=1
+                     /product="GTP binding protein"
+                     /protein_id="BAA02437.1"
+                     /db_xref="GI:218204"
+                     /translation="MGGRVDHEYSYLFKMVLIGDTGVGKSNILSRFTRNHFSLDSKST
+                     IGVEFATKSLQMEGKTIKAQIWDTAGQERYRAITSAYYRGAVGALLVYDITKRQSFDN
+                     VHRWLRELRDHADSSIVIMMVGNKSDLIHLRAVSEDEGKALAEKEGLFFLETSAMEAV
+                     NVEEAFQTIITEVYGIVNRKALAAKEAAAASRPLPSQGKTISIDSAAGNTKRACCSA"
+ORIGIN      
+        1 cctccgccac tccatcggca aggaggaaga tctcggaggc ggtgcccgga ggaggtgagg
+       61 cgagatgggc gggcgggtgg atcacgagta ctcgtacctg ttcaagatgg tgctgatcgg
+      121 cgacacgggc gtcggcaagt ctaatatcct ctcccgcttc acccgcaacc acttctccct
+      181 cgactccaag tccaccatcg gcgtcgagtt cgccaccaaa tccctgcaga tggagggcaa
+      241 aacaataaag gctcagatct gggacacagc aggacaggag agatatcgtg ccatcacaag
+      301 tgcttactac cgtggcgctg ttggggctct ccttgtttac gacatcacaa agaggcagag
+      361 cttcgacaat gtccacaggt ggcttcgtga gctccgcgac catgccgact cgagcattgt
+      421 tatcatgatg gtcggtaata agtctgattt gattcatcta agggctgtct ccgaggatga
+      481 aggtaaggca ttggctgaaa aggaggggct gttttttctt gagacatcag ctatggaggc
+      541 cgtgaatgtg gaggaagcct ttcagactat catcacagag gtctatggca ttgttaacag
+      601 gaaagcactg gccgccaaag aagcagctgc tgcttctcgt ccgctgcctt cccagggtaa
+      661 aactatcagc attgacagcg ctgcaggaaa cacaaagagg gcatgctgct ctgcttgata
+      721 tgtacaatgg agcgttcaac atcatattgt agagagccag gtgtgagatt cgcgggnaga
+      781 ctcggagcat agtgatctta aatggtttgg aggcaagtcc tac
+//
+

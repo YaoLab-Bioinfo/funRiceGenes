@@ -1,0 +1,45 @@
+LOCUS       AAB96681                 138 aa            linear   PLN 17-MAR-2000
+DEFINITION  abscisic acid- and stress-inducible protein [Oryza sativa].
+ACCESSION   AAB96681
+VERSION     AAB96681.1  GI:2773154
+DBSOURCE    accession AF039573.1
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 138)
+  AUTHORS   Vaidyanathan,R., Kuruvilla,S. and Thomas,G.
+  TITLE     Characterization and expression pattern of an abscisic acid and
+            osmotic stress responsive gene from rice
+  JOURNAL   Plant Sci. 140 (1), 25-36 (1999)
+REFERENCE   2  (residues 1 to 138)
+  AUTHORS   Vaidyanathan,R., Kuruvilla,S. and Thomas,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-DEC-1997) Center for Biotechnology, Spic Science
+            Foundation, 111, Mount Road, Guindy, Chennai, Tamil Nadu 600 032,
+            India
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..138
+                     /organism="Oryza sativa"
+                     /cultivar="Pokkali; Vytilla 1"
+                     /db_xref="taxon:4530"
+     Protein         1..138
+                     /product="abscisic acid- and stress-inducible protein"
+                     /name="similar to tomato ABA- stress- and ripening-related
+                     protein ASR"
+     Region          <78..128
+                     /region_name="ABA_WDS"
+                     /note="ABA/WDS induced protein; pfam02496"
+                     /db_xref="CDD:111399"
+     CDS             1..138
+                     /gene="Asr1"
+                     /coded_by="AF039573.1:71..487"
+ORIGIN      
+        1 maeekhhhhl fhhkkddepa tgvdsygegv ytsetvttev vaggqdeyer ykkeekqhkh
+       61 kqhlgeagal aagafalyek heakkdpena hrhkiteeia ataavgaggy afhehhekkk
+      121 dhksaeestg ekkhhlfg
+//
+

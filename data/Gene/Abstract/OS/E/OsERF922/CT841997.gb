@@ -1,0 +1,59 @@
+LOCUS       CT841997                 924 bp    mRNA    linear   PLN 30-OCT-2008
+DEFINITION  Oryza rufipogon (W1943) cDNA clone: ORW1943C104M14, full insert
+            sequence.
+ACCESSION   CT841997
+VERSION     CT841997.1  GI:157888206
+KEYWORDS    FL_cDNA.
+SOURCE      Oryza rufipogon
+  ORGANISM  Oryza rufipogon
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Lu,T., Yu,S., Fan,D., Mu,J., Shangguan,Y., Wang,Z., Minobe,Y.,
+            Lin,Z. and Han,B.
+  TITLE     Collection and comparative analysis of 1888 full-length cDNAs from
+            wild rice Oryza rufipogon Griff. W1943
+  JOURNAL   DNA Res. 15 (5), 285-295 (2008)
+   PUBMED   18687674
+REFERENCE   2
+  AUTHORS   Liu,X.H., Lu,T.T., Yu,S.L., Li,Y., Huang,T., Huang,Y.C., Zhang,L.,
+            Zhu,J.J., Zhao,Q., Liang,X.L., Mu,J., Fan,D.L., Yuan,Y., Zou,Y.Y.,
+            Shangguan,Y.Y., Feng,Q., Yu,Z., Guan,J.P., Yan,Z., Ying,K.,
+            Zhang,Y., Lv,Y.P. and Han,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAR-2006) Han Bin, National Center for Gene Research,
+            Chinese Academy of sciences, 500# Cao Bao Road, Shanghai 200233,
+            CHINA. E-mail enquiries: bhan@ncgr.ac.cn. Clone requests:
+            bhan@ncgr.ac.cn
+  REMARK    Oryza rufipogon (W1943) cDNA clone:ORW1943C104M14, full insert
+            sequence.
+COMMENT     This clone is a full-length cDNA clones from Oryza rufipogon
+            (W1943). Web site: http://www.ncgr.ac.cn/cDNA/
+            NCGR Rice Full-Length cDNA Project Team:.
+FEATURES             Location/Qualifiers
+     source          1..924
+                     /organism="Oryza rufipogon"
+                     /mol_type="mRNA"
+                     /cultivar="W1943"
+                     /db_xref="taxon:4529"
+                     /clone="ORW1943C104M14"
+ORIGIN      
+        1 ctcctacctg acacaccaca ctgcaaacca ctctctcggt ctctccatcc atccacctct
+       61 ctcgatcgtc tcatgagcta gcgcgccccg cgcgtacagc cccgcatgtc tctctccttg
+      121 gggtttagcg ccggcgccgg cgtcggtgcc gatcgcctcg ccgccgcgcc cgcgctccag
+      181 gccgccggtg ctctgccgcc acgcgtggac gtgtctctgt cgctggcgcg cgcggccaac
+      241 gggcagccgt cgtcgtacct cccgctcaac gagaacgact cgctggacat ggtcctcttc
+      301 gacgtcctcc gcgaggcctc cgcggtggcg gcgctgtcgt cgtcgtcgtc gtcgtcgccg
+      361 gagctgggcg cgcggacgac ggcgccggtg gtcgccggcc accccgccgg gcgcaagggt
+      421 ggcggcggcg gaggcggagg caggggagcg gcggcgaggg gcggcgccgc tggcgggcgg
+      481 cactaccgcg gtgtgaggcg gcggccgtgg gggaagtacg ccgcggagat ccgtgacccg
+      541 acgcggcacg gcgcgcggct gtggctcggc accttcggca cggccgagga ggccgccgcg
+      601 acgtacgacc gcgccgcgtt ccgcatgcgg ggcgccaagg cgctgctcaa cttcccgccg
+      661 gctgtcgccg gtgacggcgc ccgtcgcggc gccgccgcgg ccgcgaagca ggtcggcatg
+      721 agcgacggtg agtgcgtgat atgaaatgaa gatcagtttg acatgtacag cgcgtaggat
+      781 gaggatcaaa acccagggtt aatttgcagt aggcacttgg cctgagtgtt agtgtggtaa
+      841 tgttctgcct tattgatggt acagtggtac caagagcatg tcatgtagtt tgttactctg
+      901 tgcttagtgc tcacattttt tatg
+//
+

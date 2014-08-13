@@ -1,0 +1,71 @@
+LOCUS       NM_193168               1359 bp    mRNA    linear   PLN 09-NOV-2004
+DEFINITION  Oryza sativa (japonica cultivar-group), predicted mRNA.
+ACCESSION   NM_193168
+VERSION     NM_193168.1  GI:34913419
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa (japonica cultivar-group)
+  ORGANISM  Oryza sativa (japonica cultivar-group)
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1359)
+  CONSRTM   The NCBI Genome Assembly Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JUL-2004) National Center for Biotechnology
+            Information, National Institutes of Health, Bethesda 20894, United
+            States of America
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NT_079926).
+FEATURES             Location/Qualifiers
+     source          1..1359
+                     /organism="Oryza sativa (japonica cultivar-group)"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1359
+                     /gene="B1129H01.12"
+                     /db_xref="GeneID:3046311"
+     CDS             1..1359
+                     /gene="B1129H01.12"
+                     /note="contains ESTs C74043(E3023),C98735(E3023)"
+                     /codon_start=1
+                     /product="putative cinnamyl-alcohol dehydrogenase"
+                     /protein_id="NP_918057.1"
+                     /db_xref="GI:34913420"
+                     /db_xref="GeneID:3046311"
+                     /translation="MKEKDVMKIIPCKPGHINRMTRPKAPVVVCLVDYIHESPASALE
+                     KKHNFGRQVIKPLATCVGISFTVIMNNGLKRNKTIIQGEEAAAAAAAAVRDEIVESGT
+                     PPPSFASHEKEGRKMSSESEAAPGTGKLVCVTGASGYIASWLVRLLLARGYTVRATIR
+                     DTSDPKKTLHLRALDGANERLHLFEANLLEEGSFDAAVNGCDCVFHTASPFYHNVKDP
+                     KAELLDPAVKGTLNVLGSCKKASIRRVIVTSSMAAVAYNGKPRTPDVVVDETWFSVPE
+                     ICEKHQQWYVLSKTLAEEAAWKFSKDNGFEIVTVNPAMVIGPLLQPSLNTSAEAILKL
+                     INGSSSTYPNFSFGWINVKDVALAHILAYEVPSANGRYCMVERVAHYSELVQIIREMY
+                     PNIPLPDKCADDKPSVPIYQVSKEKIKSLGLELTPLHTSIKETIESLKEKGFVTFDSS
+                     NL"
+ORIGIN      
+        1 atgaaggaaa aagatgttat gaaaatcatc ccatgcaagc cagggcacat aaatagaatg
+       61 actcggccta aggctccggt agtcgtatgc cttgtggact atatccatga atcacctgct
+      121 tcagccctag aaaagaagca taattttgga agacaggtta ttaaaccact tgccacttgt
+      181 gttggaataa gtttcacggt gatcatgaat aatggtttga aaagaaacaa aacgataatc
+      241 caaggcgagg aggcggcggc ggcggcggcg gcggcggtgc gagacgagat cgtcgagtcc
+      301 ggcaccccac ccccgtcctt cgcttcacac gaaaaggaag ggaggaagat gagctccgag
+      361 tctgaggcgg cgcccgggac cgggaagctg gtgtgcgtca ccggcgcgtc ggggtacatc
+      421 gcgtcgtggc tcgtcaggct gctcctcgcc cgcggctaca cggtccgcgc caccatccgg
+      481 gacacctctg acccaaagaa aacactacac ctgcgtgccc tggatggagc caacgaaaga
+      541 ctccatttgt tcgaagcaaa tctgctggaa gagggctctt tcgatgctgc ggtcaatggt
+      601 tgtgattgtg ttttccatac ggcttctccc ttttaccaca atgttaaaga tcctaaggct
+      661 gagttacttg accctgcagt caaaggaacc cttaatgttc taggctcctg caagaaagct
+      721 tccattagaa gagttatcgt gacatcatcc atggctgctg ttgcctacaa tgggaaacca
+      781 agaactcctg atgtagttgt tgatgagaca tggttttcag ttccagagat ttgtgaaaag
+      841 catcagcaat ggtatgttct gtccaagacc ctagcagagg aggctgcttg gaagttttca
+      901 aaagataatg gatttgaaat agttacggtg aacccagcaa tggtcattgg tcccctgctg
+      961 cagccttcac tgaatactag tgctgaagca attctgaagc taatcaatgg atcatcctcg
+     1021 acatatccta atttcagctt tggctggata aacgttaagg atgttgccct ggcacatatc
+     1081 cttgcatatg aagttccttc agcaaatgga agatattgca tggttgaaag agttgcgcac
+     1141 tactcagagc tcgtccaaat cattcgtgag atgtatccca atattcctct gccagacaag
+     1201 tgtgcagatg acaagccatc agtgccaatc taccaggtat caaaggaaaa gataaaaagc
+     1261 ttgggcctgg aactgactcc cctgcacacg agcatcaagg agaccatcga gagcttgaaa
+     1321 gagaaaggat ttgttacttt tgattcaagc aacctgtaa
+//
+

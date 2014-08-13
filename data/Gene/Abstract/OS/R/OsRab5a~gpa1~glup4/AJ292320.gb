@@ -1,0 +1,70 @@
+LOCUS       AJ292320                 969 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for RAB5A protein.
+ACCESSION   AJ292320
+VERSION     AJ292320.1  GI:12057009
+KEYWORDS    rab5A gene; RAB5A protein.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Liu,X.B., Lin,H.X., Li,F.Q. and Liu,L.S.
+  TITLE     Molecular cloning and characterization of Osrab5A, a small
+            GTP-binding protein of Oryza sativa
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 969)
+  AUTHORS   Liu,L.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-DEC-2000) Liu L.S., Life Sciences, Biotechnology
+            Research Center, 135 West Xinggang Road, Guangzhou, Guangdong
+            510275, P.R.China
+FEATURES             Location/Qualifiers
+     source          1..969
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Cpslo17"
+                     /db_xref="taxon:39946"
+                     /tissue_type="panicle (shorter than 3 cm)"
+     gene            1..969
+                     /gene="rab5A"
+     CDS             178..789
+                     /gene="rab5A"
+                     /function="small GTP-binding protein, RAB family"
+                     /codon_start=1
+                     /product="RAB5A protein"
+                     /protein_id="CAC19792.1"
+                     /db_xref="GI:12057010"
+                     /db_xref="GOA:Q9FEV1"
+                     /db_xref="HSSP:1R2Q"
+                     /db_xref="InterPro:IPR001806"
+                     /db_xref="InterPro:IPR003579"
+                     /db_xref="InterPro:IPR005225"
+                     /db_xref="InterPro:IPR013753"
+                     /db_xref="InterPro:IPR015599"
+                     /db_xref="InterPro:IPR020851"
+                     /db_xref="UniProtKB/TrEMBL:Q9FEV1"
+                     /translation="MAANPGNKIRNAKLVLLGDVGTGKSSLVLRFVKGQFVEFQESTI
+                     GAAFFSQTLAVNDETVKFEIWDTAGQERYHSLAPMYYRGAAAAIVVYDITNAASFTRA
+                     KKWVQELQAQGNPNTIMALAGNKADMVEARQVPAEEAKTYAQENGLFFMETSAKTAIN
+                     VNDVFHEIAKRLLQGQQAQDTPAGMVLNQRPAERMVSSSSCCS"
+ORIGIN      
+        1 agagaagcaa acccaacaaa aagaaaaaga attttcaggt tttcttctcg ctttcaccgg
+       61 agaaggagaa ggagaggaag gtgttgatcg aatcctcctc caatcgcgcg cgattcgatc
+      121 cccgttgctg gctcgctcgc tccgccgatc cctcatccga tctgaatccc cgatctgatg
+      181 gcggccaacc ctggcaacaa gatccgcaac gccaagctgg ttcttcttgg agatgtgggc
+      241 acgggcaagt cgagcctcgt tctccggttt gtgaagggcc agtttgttga gttccaggag
+      301 tccaccatcg gcgcggcctt cttctcgcag accttggcgg ttaacgacga gacggtgaag
+      361 ttcgaaatct gggatactgc agggcaggag aggtatcata gcttggctcc gatgtactat
+      421 cgtggtgcgg ctgccgcaat agttgtctac gacatcacaa atgcggcctc tttcacacgt
+      481 gcaaaaaaat gggttcaaga acttcaagcg caaggaaacc caaacacgat aatggctctt
+      541 gctggtaaca aggctgatat ggtagaggcg aggcaggtgc cagcagaaga ggcaaagacc
+      601 tacgcacaag agaatggcct tttcttcatg gaaacatctg cgaaaacagc gatcaatgtg
+      661 aacgatgtgt tccacgagat cgcaaagaga ttgcttcaag gacagcaggc tcaagacaca
+      721 ccggctggaa tggttctcaa ccagagacca gctgagagga tggtgagcag ttcttcatgc
+      781 tgctcataat tctaagtgtg gagtagtgac tacaactaca taatgccatg gcctgaaatc
+      841 caggagaagt gtgtatgcat cagagatgca cacaaagctt gtaaagtggc tgctgccatc
+      901 ccagctgctg tttcttattt tgtcatgttc gttctgtaaa tgtgaatact agggtgtcgc
+      961 tgcagaaat
+//
+

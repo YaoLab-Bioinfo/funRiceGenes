@@ -1,0 +1,71 @@
+LOCUS       X57325                  1324 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  Rice lip19 mRNA for basic/leucine zipper protein.
+ACCESSION   X57325
+VERSION     X57325.1  GI:394735
+KEYWORDS    DNA-binding protein; leucine zipper protein.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Aguan,K., Sugawara,K., Suzuki,N. and Kusano,T.
+  TITLE     Low-temperature-dependent expression of a rice gene encoding a
+            protein with a leucine-zipper motif
+  JOURNAL   Mol. Gen. Genet. 240 (1), 1-8 (1993)
+   PUBMED   8341255
+REFERENCE   2  (bases 1 to 1323)
+  AUTHORS   Kusano,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JAN-1991) T. Kusano, Biotechnology Institute, Akita
+            Prefectural College of Agriculture, Ohgata Minami-Akita Gun, Akita
+            010 04, JAPAN
+FEATURES             Location/Qualifiers
+     source          1..1324
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /strain="Somewake"
+                     /db_xref="taxon:39947"
+                     /clone="lip19"
+     gene            1..1324
+                     /gene="lip19"
+     CDS             516..962
+                     /gene="lip19"
+                     /codon_start=1
+                     /product="basic/leucine zipper protein"
+                     /protein_id="CAA40596.1"
+                     /db_xref="GI:394736"
+                     /db_xref="GOA:Q08418"
+                     /db_xref="HSSP:1DGC"
+                     /db_xref="InterPro:IPR004827"
+                     /db_xref="InterPro:IPR011616"
+                     /db_xref="UniProtKB/TrEMBL:Q08418"
+                     /translation="MSSPSRRSSSPESNTSGGGGGADERKRKRMLSNRESARRSRARK
+                     QQRLEELIAEAARLQAENARVEAQIGAYAGELSKVDGENAVLRARHGELAGRLQALGS
+                     VLEILQVAGAPVDIPEIPDDPLLRPWQPPFAAQPIVATAMADAFQF"
+ORIGIN      
+        1 gcccccggag tcccctctgt ttcgcagata agtcctttgg ttcccatctt tttattacat
+       61 tcaggtcctc ctagtttctt ttcctttcga gtctactcct tgcattcttg cgaggaagcc
+      121 cctcgggttg gtcgaatttt agtttccact ccctctcctc gcggagtcgt tgctgttctt
+      181 gttcttggtc gaggttgagg ttggtggcgt agatccgatc tgaggaatgt ttacctatcc
+      241 tttcctctaa cgttcgccgt actccgatga agttgaacgt cgtccgccgc cgcgttccca
+      301 ctccttctcc gtcgccttcc tctactggtt ctacgtcttc tcatgaactc atcgccttcc
+      361 tcccaagaac accatctcca gcctctaatt gattagatct tgatttcttt ttcatcctcc
+      421 tactagtttc tttcttgtgt tctttggaat ttttttgatc tcttgaagag atccggttct
+      481 tggattaagt tttggacaag aaccgtactg tgaccatgtc gtcgccttcg cgccggagct
+      541 ccagcccgga gagcaacacc agcggcggcg gcggtggcgc cgacgagcgg aagaggaaga
+      601 ggatgctgtc gaacagggag tcggcgaggc gatccagggc gaggaagcag cagaggctgg
+      661 aggagctgat cgccgaggcg gcgcgcctcc aggccgagaa cgcgcgcgtc gaggcgcaga
+      721 tcggggccta cgcgggggag ctgagcaagg tcgacggcga gaacgcggtg ctccgcgccc
+      781 gccacggcga gctcgccggg cgcctccagg cgctcggcag cgtcctggag atcctccagg
+      841 tggccggcgc gcccgtcgac atcccggaga tccccgacga cccgctgctc cgcccatggc
+      901 agccgccgtt cgcggcccag cccatcgtcg ccaccgccat ggccgacgcc ttccagttct
+      961 gagccaccat ggagagctcg cacgccatgg ccattggcat caatggcatg gttgcagctg
+     1021 cattacaact agtagtacta gcctctgtgg ttgtgtctga tgatgcttat tatgtttaat
+     1081 tatggtttgc ttcatgttgt tttcattaat ctagaccatt aataagcaat gtgtgttgta
+     1141 atcttgtcta gtcttatgtg agatgtgttc atctccagtg ctccttgcta ataagggtgg
+     1201 aagagaacaa tccgatttga tgtaattctt ggagagcaca tgtgtgctgg tttgtgatgt
+     1261 gatgaactga tgattgtaat attttgacat tgaacctatg ctataatgtt tgcagcaatg
+     1321 aatc
+//
+

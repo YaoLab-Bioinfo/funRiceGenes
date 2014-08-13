@@ -1,0 +1,64 @@
+LOCUS       AY271619                1200 bp    mRNA    linear   PLN 07-NOV-2003
+DEFINITION  Oryza sativa (indica cultivar-group) tau class GST protein 4 mRNA,
+            complete cds.
+ACCESSION   AY271619
+VERSION     AY271619.1  GI:33304609
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1200)
+  AUTHORS   Moons,A.
+  TITLE     Osgstu3 and osgtu4, encoding tau class glutathione S-transferases,
+            are heavy metal- and hypoxic stress-induced and differentially salt
+            stress-responsive in rice roots
+  JOURNAL   FEBS Lett. 553 (3), 427-432 (2003)
+   PUBMED   14572664
+REFERENCE   2  (bases 1 to 1200)
+  AUTHORS   Moons,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2003) Biology, University of Ottawa, 30 Marie
+            Curie, Ottawa, ON K1N6N5, Canada
+FEATURES             Location/Qualifiers
+     source          1..1200
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pokkali"
+                     /db_xref="taxon:39946"
+                     /tissue_type="root"
+     CDS             82..801
+                     /note="OSGSTU4"
+                     /codon_start=1
+                     /product="tau class GST protein 4"
+                     /protein_id="AAQ02686.1"
+                     /db_xref="GI:33304610"
+                     /translation="MAGSGDELMLLGKWPSPFVTRVELALGLKGLSYEYVKQDLVNKS
+                     ELLLASNPVHKKIPVLIHNGKPVCESSIIVQYIDEAFPDAGASAALLPADPYERAVAR
+                     FWVAYVDDKFVPAWVATFRGKTEEEKAEGMKQLLAAVETLEGALKDCSKGKPFFGGDT
+                     VGIVDVALGGLISWVKATEVLAGSKIFDEEKAPLLAAWAQRFGELDVAEKVLPDVDGV
+                     VEFAKMRLAEAAAAAAAASKN"
+ORIGIN      
+        1 atccaagaag tacgcagcaa aacacaatcc aaaaacgtgt tcatccaatc attctctctt
+       61 ccgctctctc accccagcga gatggccgga tcaggagacg agctgatgct gctcggcaaa
+      121 tggccgagcc cattcgtcac cagggttgag ctcgcgctcg gcctcaaggg cctcagctac
+      181 gagtacgtca agcaggacct cgtcaacaag agcgagctcc tcctcgcctc caacccggtg
+      241 cacaagaaga tccccgtgct catccacaac ggcaagccgg tctgcgagtc gtcgatcatc
+      301 gtgcagtaca ttgacgaggc cttccccgac gccggcgcca gcgccgccct gctccccgcc
+      361 gacccctacg agcgcgccgt cgctcgcttc tgggtcgcct acgtcgacga caagttcgtt
+      421 ccggcatggg tggcgacttt cagaggcaag acggaggagg agaaggcgga ggggatgaag
+      481 caactgctcg cggcggtgga gacgctggag ggagccctga aggattgctc caaggggaag
+      541 cccttcttcg gcggcgacac agtcgggatc gtggacgtcg cgcttggtgg cctcatctcg
+      601 tgggtgaaag cgaccgaggt gctcgctggc tccaagatct tcgacgagga gaaggcccct
+      661 cttttggccg cgtgggcgca gcgcttcggc gagctcgacg tcgccgagaa ggtgttgccg
+      721 gatgtcgacg gggtggtcga gttcgctaag atgaggctgg cagaggcagc tgcggctgcc
+      781 gcggcggctt caaaaaacta agatggatat gtttggttat gtcgtggtaa ctcccattgt
+      841 ttgggagaaa ataatgtgct tgttggaaaa attatttggg agaaactaat gtgcttgttg
+      901 gaaaagaata gatttagttg atttagtgtt ttttctgtat cagtatcttg atttatgtct
+      961 gaataatgca aggaatattc aatgaagtca tgaagatgct tgtgtttatt cagtagttag
+     1021 gggatctttt tcttctgttg gtgtctatta gtttgtgttt gcttagcttt atttatacta
+     1081 tcgtgaactt tctatataag tttttttcta tgtgagtttt aaaataattg attataactt
+     1141 tttaagtaaa ggccggaatg ttttattcta ttattaaaaa aaaaaaaaaa aaaaaaaaaa
+//
+

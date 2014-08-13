@@ -1,0 +1,84 @@
+LOCUS       OSU09450                1687 bp    mRNA    linear   PLN 01-MAR-1996
+DEFINITION  Oryza sativa enolase mRNA, complete cds.
+ACCESSION   U09450
+VERSION     U09450.1  GI:780371
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (sites)
+  AUTHORS   Hsing,Y.-I.C., Tsao,C.W., Hsieh,J.-S., Chen,Z.-Y., Shu,T.-F. and
+            Chow,T.-Y.
+  TITLE     The electronic Plant Gene Register
+  JOURNAL   Plant Physiol. 109 (3), 1125-1127 (1995)
+   PUBMED   8552712
+REFERENCE   2  (bases 1 to 1687)
+  AUTHORS   Hsing,Y.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAY-1994) Yue-ie C. Hsing, Institute of Botany,
+            Academia Sinica, Yien-chu-yuan Rd, Taipei, Taiwan, 11529, ROC
+COMMENT     On Apr 26, 1995 this sequence version replaced gi:487806.
+FEATURES             Location/Qualifiers
+     source          1..1687
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /strain="Tainung 67"
+                     /db_xref="taxon:39947"
+                     /clone="OsEE1"
+                     /tissue_type="early embryo in seed"
+                     /clone_lib="Lambda ZAP II"
+                     /dev_stage="3 to 5 days after anthesis"
+     5'UTR           1..80
+     CDS             81..1421
+                     /EC_number="4.2.1.11"
+                     /function="rice early embryogenesis-specific gene in
+                     glycolysis"
+                     /note="2-phospho-D-glycerate hydrolase"
+                     /codon_start=1
+                     /product="enolase"
+                     /protein_id="AAC49173.1"
+                     /db_xref="GI:780372"
+                     /translation="MAATIVSVKARQIFDSRGNPTVEVDVCCSDGTFARAAVPSGAST
+                     GVYEALELRDGGSDYLGKGVSKAVDNVNSVIAPALIGKDPTSQAELDNFMVQQLDGTK
+                     NEWGWCKQKLGANAILAVSLAICKAGAIIKKIPLYQHIANLAGNKQLVLPVPAFNVIN
+                     GGSHAGNKLAMQEFMILPTGAASFKEAMKMGVEVYHNLKSVIKKKYGQDATNVGDEGG
+                     FAPNIQENKEGLELLKTAIEKAGYTGKVVIGMDVAASEFYNDKDKTYDLNFKEENNDG
+                     SQKISGDSLKNVYKSFVSEYPIVSIEDPFDQDDWEHYAKMTAEIGEQVQIVGDDLLVT
+                     NPTRVAKAIQEKSCNALLLKVNQIGSVTESIEAVKMSKRAGWGVMTSHRSGETEDTFI
+                     AELAVGLATGQIKTGAPCRSERLAKYNQLLRIEEELGAAAVYAGAKFRAPVEPY"
+     3'UTR           1422..1687
+     polyA_site      1552..1556
+ORIGIN      
+        1 ccactttatt agcaccaacc ccgtctcctt cctccattcc tccgccgcta gaaccttcta
+       61 gaagctctcc tcctcctccc atggcggcga cgatcgtgtc cgtcaaggcg cgccagatct
+      121 tcgacagcag gggcaacccc accgtcgagg tcgatgtgtg ctgctcagat ggaacctttg
+      181 caagggctgc agttcccagt ggtgcatcaa ctggtgtcta tgaagctctc gaattgaggg
+      241 acggtggatc tgattacttg ggaaagggtg tttccaaggc tgtcgacaat gtgaactcgg
+      301 ttattgcccc agctctgatt ggcaaggacc ctacgtcaca ggctgagctt gataacttca
+      361 tggttcagca gcttgatgga accaaaaatg agtgggggtg gtgcaagcag aagcttggtg
+      421 ctaatgcaat cctggctgtg tcactggcca tttgcaaagc tggagctatc atcaagaaga
+      481 ttcctctgta ccagcacatt gccaaccttg ctggaaacaa gcaactggtt ttgcccgtac
+      541 ctgcattcaa cgtcattaac ggtggatcac atgctggaaa caagcttgcc atgcaggagt
+      601 tcatgatcct tcctactggg gccgcttcat tcaaggaggc catgaagatg ggtgttgaag
+      661 tgtaccacaa cctgaagtct gttatcaaga agaagtatgg tcaggatgcc accaatgttg
+      721 gtgatgaagg tggttttgct cctaacattc aggaaaacaa ggagggtctt gagctcttga
+      781 agactgcaat tgaaaaggct ggatacactg gcaaggttgt cattggaatg gatgttgctg
+      841 cttcggaatt ctacaatgac aaggacaaaa cctatgacct taacttcaag gaggagaaca
+      901 atgatggttc acaaaagata tctggtgata gcctgaagaa tgtatacaag tcatttgtca
+      961 gtgaataccc cattgtctcg attgaggatc cgtttgacca ggatgactgg gaacactatg
+     1021 ctaagatgac cgctgaaatt ggagagcaag tgcagattgt cggtgatgac ctccttgtca
+     1081 ccaacccaac aagggtggca aaggcaatcc aggagaagtc atgcaatgct cttctgctga
+     1141 aggttaacca aattggatct gtcactgaga gtattgaggc cgtgaagatg tcaaagcgtg
+     1201 ctggctgggg tgtgatgacc agccacagga gtggtgagac tgaggatacc ttcattgctg
+     1261 aattggctgt tggtttggcc acgggtcaga tcaagactgg agcaccctgc cgatcagagc
+     1321 gccttgccaa atacaaccag cttcttagga ttgaggagga gcttggtgcg gctgctgtct
+     1381 acgctggtgc caagttccgc gcacccgtgg agccctacta aacttgatgg tgaatatcat
+     1441 gcggttcatg cccactgttg tgtgcatggg ttttgtgaag acaggatgct catttctatc
+     1501 cgtaattgac ttcccggtcg aactctagtt aaaaagctcg tagaatcgag aaataaatcc
+     1561 tccactgtat gagcggatat gtacccccaa acttgctcca attttggtga tgtgtagttc
+     1621 tgagcttgcg tgttctctga acctgttgga tctttaatac agagagtatg gcttttgtta
+     1681 ttatggc
+//
+

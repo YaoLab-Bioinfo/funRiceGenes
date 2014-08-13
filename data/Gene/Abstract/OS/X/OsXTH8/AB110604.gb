@@ -1,0 +1,70 @@
+LOCUS       AB110604                1280 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsXRT5 mRNA for xyloglucan
+            endotransglycosylase-related protein 5, complete cds.
+ACCESSION   AB110604
+VERSION     AB110604.1  GI:40645467
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Jan,A., Yang,G., Nakamura,H., Ichikawa,H., Kitano,H., Matsuoka,M.,
+            Matsumoto,H. and Komatsu,S.
+  TITLE     Characterization of a xyloglucan endotransglucosylase gene that is
+            up-regulated by gibberellin in rice
+  JOURNAL   Plant Physiol. 136 (3), 3670-3681 (2004)
+   PUBMED   15516498
+REFERENCE   2  (bases 1 to 1280)
+  AUTHORS   Komatsu,S., Yang,G. and Jan,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-MAY-2003) Contact:Setsuko Komatsu National Institute
+            of Agrobiological Sciences, Department of Molecular Genetics;
+            Kannondai 2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1280
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1280
+                     /gene="OsXRT5"
+     CDS             40..912
+                     /gene="OsXRT5"
+                     /codon_start=1
+                     /product="xyloglucan endotransglycosylase-related protein
+                     5"
+                     /protein_id="BAD06579.1"
+                     /db_xref="GI:40645468"
+                     /translation="MAKHLALSVAAAVAVSWLAASSAAAAGFYEKFDVVGAGDHVRVV
+                     SDDGKTQQVALTLDRSSGSGFTSKDTYLFGEFSVQMKLVGGNSAGTVTSFYLSSGEGD
+                     GHDEIDIEFMGNLSGNPYVMNTNVWANGDGKKEHQFYLWFDPTADFHTYKIIWNPQNI
+                     IFQVDDVPVRTFKKYDDLAYPQSKPMRLHATLWDGSYWATRHGDVKIDWSGAPFVVSY
+                     RGYSTNACVNNNPAGGWSSSWCPEGTSAWIHRELDGAELGTVAWAERNYMSYNYCADG
+                     WRFPQGFPAECYRK"
+ORIGIN      
+        1 atccaccacc caaagacaaa gcaagcaagt acagtagcca tggcgaagca tctcgcgctg
+       61 tccgtggccg ccgcggtggc cgtgtcgtgg ctggcggcgt cgtcggcggc ggcggcgggg
+      121 ttctacgaga agttcgacgt ggtgggcgcc ggcgaccacg tgagggtggt gagcgacgac
+      181 gggaagacgc agcaggtggc gctgacgctg gaccggagct ccgggtccgg gttcacctcc
+      241 aaggacacct acctgttcgg cgagttcagc gtccagatga agctcgtcgg cggcaactcc
+      301 gccggcaccg tcacctcctt ctacctctcc tccggcgagg gcgacggcca cgacgagatc
+      361 gacatcgagt tcatgggcaa cctcagcggc aacccctacg tcatgaacac caacgtctgg
+      421 gctaatggcg acggcaagaa ggagcaccag ttctacctct ggttcgaccc caccgccgac
+      481 ttccacacct acaagatcat ctggaatccc caaaacatca tattccaggt ggacgacgtg
+      541 ccggtgagga cgttcaagaa gtacgacgac ctggcgtacc cgcagagcaa gccgatgagg
+      601 ctgcacgcga cgctgtggga cggcagctac tgggcgacga ggcacggcga cgtcaagatc
+      661 gactggagcg gcgcgccgtt cgtggtgtcg taccgcgggt acagcaccaa cgcgtgcgtc
+      721 aacaacaatc ccgccggcgg gtggtcgtcg tcgtggtgcc ccgagggcac gtcggcgtgg
+      781 atccaccgcg agctcgacgg cgccgagctc ggcaccgtcg cgtgggccga gcgcaactac
+      841 atgtcctaca actactgcgc cgacggctgg cgcttccccc agggcttccc cgccgagtgc
+      901 taccgcaagt gattttgaac tcgatcgatt caaatcctcc tccattgatg agttcttggc
+      961 aatgatttgt aattgcttct tgttcttgtt ttcgtcttcg tcttcgtctt cttcttcttg
+     1021 atccatgtac attttgccat ccattcgttc tccatttgtt acagttacag agacaggttg
+     1081 atggtgaatt actattgccg ccaatttttt tcttcttctt gttactcgat ccaattatta
+     1141 ctactagagt tcatcttgca cagttgggcg gtgtgaaaaa ctgaaaaaga aaagggtgtc
+     1201 aaatttgttg ctgatgctga gcaagtgagc acatgcttat gctctcaggt atgaacaaaa
+     1261 aaaacagtaa aattatctgc
+//
+

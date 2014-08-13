@@ -1,0 +1,126 @@
+LOCUS       NP_922169               1039 aa            linear   PLN 09-NOV-2004
+DEFINITION  putative pre-mRNA splicing factor [Oryza sativa (japonica
+            cultivar-group)].
+ACCESSION   NP_922169
+VERSION     NP_922169.1  GI:37535734
+DBSOURCE    REFSEQ: accession NM_197187.1
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa (japonica cultivar-group)
+  ORGANISM  Oryza sativa (japonica cultivar-group)
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 1039)
+  CONSRTM   The Rice Chromosome 10 Sequencing Consortium
+  TITLE     In-depth view of structure, activity, and evolution of rice
+            chromosome 10
+  JOURNAL   Science 300 (5625), 1566-1569 (2003)
+   PUBMED   12791992
+REFERENCE   2  (residues 1 to 1039)
+  AUTHORS   Buell,C.R., Wing,R.A., McCombie,W.R., Messing,J. and Yuan,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAY-2003) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AAP54456.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1039
+                     /organism="Oryza sativa (japonica cultivar-group)"
+                     /db_xref="taxon:39947"
+     Protein         1..1039
+                     /product="putative pre-mRNA splicing factor"
+                     /calculated_mol_wt=114936
+     Region          115..279
+                     /region_name="PRP1_N"
+                     /note="PRP1 splicing factor, N-terminal; pfam06424"
+                     /db_xref="CDD:253721"
+     Region          369..>497
+                     /region_name="U3_assoc_6"
+                     /note="U3 small nucleolar RNA-associated protein 6;
+                     cl19513"
+                     /db_xref="CDD:267866"
+     Region          497..583
+                     /region_name="TPR"
+                     /note="Tetratricopeptide repeat domain; typically contains
+                     34 amino acids
+                     [WLF]-X(2)-[LIM]-[GAS]-X(2)-[YLF]-X(8)-[ASE]-X(3)-[FYL]-
+                     X(2)-[ASL]-X(4)-[PKE] is the consensus sequence; found in
+                     a variety of organisms including bacteria, cyanobacteria,
+                     yeast, fungi; cd00189"
+                     /db_xref="CDD:238112"
+     Site            order(498,510,514,517,532,540,544,547,562,574,578,581)
+                     /site_type="other"
+                     /note="TPR motif"
+                     /db_xref="CDD:238112"
+     Site            order(499..500,529..530,532,533,559..560,563..564,
+                     567..568)
+                     /site_type="binding"
+                     /note="binding surface"
+                     /db_xref="CDD:238112"
+     Region          <653..>743
+                     /region_name="U3_assoc_6"
+                     /note="U3 small nucleolar RNA-associated protein 6;
+                     cl19513"
+                     /db_xref="CDD:267866"
+     Region          734..832
+                     /region_name="TPR"
+                     /note="Tetratricopeptide repeat domain; typically contains
+                     34 amino acids
+                     [WLF]-X(2)-[LIM]-[GAS]-X(2)-[YLF]-X(8)-[ASE]-X(3)-[FYL]-
+                     X(2)-[ASL]-X(4)-[PKE] is the consensus sequence; found in
+                     a variety of organisms including bacteria, cyanobacteria,
+                     yeast, fungi; cd00189"
+                     /db_xref="CDD:238112"
+     Site            order(734..735,737..738,741..742,770..771,773..774,
+                     777..778,804..805,808..809,812..813)
+                     /site_type="binding"
+                     /note="binding surface"
+                     /db_xref="CDD:238112"
+     Site            order(740,752,756,759,773,785,789,792,807,819,823,826)
+                     /site_type="other"
+                     /note="TPR motif"
+                     /db_xref="CDD:238112"
+     Region          801..900
+                     /region_name="TPR"
+                     /note="Tetratricopeptide repeat domain; typically contains
+                     34 amino acids
+                     [WLF]-X(2)-[LIM]-[GAS]-X(2)-[YLF]-X(8)-[ASE]-X(3)-[FYL]-
+                     X(2)-[ASL]-X(4)-[PKE] is the consensus sequence; found in
+                     a variety of organisms including bacteria, cyanobacteria,
+                     yeast, fungi; cd00189"
+                     /db_xref="CDD:238112"
+     Site            order(801..802,804..805,808..809,838..839,841..842,
+                     845..846,872..873,876..877,880..881)
+                     /site_type="binding"
+                     /note="binding surface"
+                     /db_xref="CDD:238112"
+     Site            order(807,819,823,826,841,853,857,860,875,887,891,894)
+                     /site_type="other"
+                     /note="TPR motif"
+                     /db_xref="CDD:238112"
+     CDS             1..1039
+                     /locus_tag="OSJNBa0017E08.10"
+                     /coded_by="NM_197187.1:1..3120"
+                     /db_xref="GeneID:3054098"
+ORIGIN      
+        1 mvfvrapdgr thhvdldpst atladltasa srvcggvppe qlrlylahrr llpaepspll
+       61 sslrvsasss lllhlpllgg mtgptttpaa pppppppsaq pparparydf lnskpppnyv
+      121 aglgrgatgf ttrsdigpar aapdlpdrsa aaaaapavgr grgkppgddd gdddggdeek
+      181 gydenqkfde fegndaglfs nadyddddre adavwesidq rmdsrrkdrr earlkqeiek
+      241 yrasnpkite qfadlkrklv dlsaqewesi peigdyslrn kkkrfesfvp vpdtllekar
+      301 qeqehvtald pksraaggte tpwaqtpvtd ltavgegrgt vlslkldrls dsvsgltvvd
+      361 pkgyltdlks mkitsdaeis dikkarlllk svtqtnpkhp pgwiaaarle evagklqvar
+      421 qliqrgceec ptnedvwvea crlaspdeak aviargvkai pnsvklwlqa akletsdlnk
+      481 srvlrkgleh ipdsvrlwka vvelaneeda rlllhravec cplhvelwla larletydqa
+      541 kkvlnkarek lpkepaiwit aakleeangn tqsvikvier siktlqregl didreawlke
+      601 aeaaeragsv ltcqaivkst igigvdeedr krtwvadaee ckkrgsieta raiyahalsv
+      661 fvskksiwlk aaqlekshgt keslynllrk avtynpraev lwlmsakekw lagdvpaara
+      721 ilqeayaslp nseeiwlaaf klefennepe rarillskar erggtervwm ksaiverelg
+      781 nvdeerklle eglklfpsff klwlmlgqme drlghgskak evyenalkhc psciplwlsl
+      841 anleekingl sksravltma rkknpatpel wlaavraelr hgnkkeadal lakalqecpt
+      901 sgilwaaaie mvprpqrkak ssdaikrcdh dphviaavak lfwhdrkvdk arswlnravt
+      961 lapdigdfwa lyykfelqhg nadtqkdvlq rcvaaepkhg erwqaitkav enshlsieal
+     1021 lkkavlalgq eenpnaadp
+//
+

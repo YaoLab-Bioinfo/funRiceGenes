@@ -1,0 +1,72 @@
+LOCUS       RICG11A                 1593 bp    mRNA    linear   PLN 27-APR-1993
+DEFINITION  Rice (O.sativa) G11A protein, partial cds.
+ACCESSION   J04556
+VERSION     J04556.1  GI:169787
+KEYWORDS    G11A protein; protein kinase.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1593)
+  AUTHORS   Lawton,M.A., Yamamoto,R.T., Hanks,S.K. and Lamb,C.J.
+  TITLE     Molecular cloning of plant transcripts encoding protein kinase
+            homologs
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 86 (9), 3140-3144 (1989)
+   PUBMED   2541432
+COMMENT     Original source text: O.sativa L. (strain IR36) dark-grown
+            seedlings, cDNA to mRNA, clone G11A.
+            Draft entry and computer-readable sequence for [1] kindly submitted
+            by M.A.Lawton, 18-MAY-1989.
+FEATURES             Location/Qualifiers
+     source          1..1593
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             <1..>1593
+                     /note="G11A protein"
+                     /codon_start=1
+                     /protein_id="AAA33905.1"
+                     /db_xref="GI:169788"
+                     /translation="EVVQKEQKSTQHQNESIDLTGSNDPAEVKAEGNLVPKRLADEEK
+                     GVVEDGIANGSLKSSSALGKEHGIASASGSARLVGRSETGERGFSSSRCRPSTSSDVS
+                     DESACSSISSVTKPHKANDSRWEAIQMIRTRDGILGLSHFKLLKKLGCGDIGSVYLSE
+                     LSGTESYFAMKVMDKASLASRKKLLRAQTEKEILQCLDHPFLPTLYTHFETDKFSCLV
+                     MEFCPGGDLHTLRQRQRGKYFPEQAVKFYVAEILLAMEYLHMLGIIYRDLKPENVLVR
+                     EDGHIMLSDFDLSLRCAVSPTLIRSSNPDAEALRKNNQAYCVQPACVEPSCMIQPSCA
+                     TPTTCFGPRFFSKSKKDRKPKPEVVNQVSPWPELIAEPSDARSMSFVGTHEYLAPEII
+                     KGEGHGSAVDWWTFGIFLYELLFGKTPFKGSGNRATLFNVIGQPLRFPEYPVVSFSAR
+                     DLIRGLLVKEPQQRLGCKRGATEIKQHPFFEGVNWALIRCASPPEVPRPVEIERPPKQ
+                     PVSTSEPAAAPSDAAQKSSDSYL"
+     misc_feature    418..1449
+                     /note="protein kinase catalytic domain"
+ORIGIN      78 bp upstream of PstI site.
+        1 gaagtggtgc aaaaggagca gaaatcaact cagcatcaaa atgagtccat tgatcttacg
+       61 ggtagcaatg atcctgcaga agtaaaggct gagggtaacc tggttccaaa gcgtcttgca
+      121 gatgaggaaa agggtgttgt ggaggatgga attgcgaacg gaagcttgaa atcatcttca
+      181 gctttaggaa aggagcatgg tatagcaagt gcaagtggaa gtgccaggtt ggttgggaga
+      241 tctgagactg gagaaagagg tttcagtagc agcagatgca ggccaagcac aagcagtgat
+      301 gtcagtgatg aaagcgcttg cagcagcatt agtagcgtca ccaagcctca caaggcgaat
+      361 gattcacgat gggaggcaat ccagatgatc aggactaggg atggaatcct tggcctgagt
+      421 cattttaagc tattgaagaa gctaggttgt ggtgatatcg gcagtgtgta cctttcagaa
+      481 ctgagtggaa cagagagcta ttttgcgatg aaggttatgg acaaggcatc acttgcaagc
+      541 cgcaagaaat tgcttcgagc ccagactgag aaggaaatct tgcagtgcct ggatcatcct
+      601 tttcttccaa cgttatatac ccattttgag actgataagt tctcatgcct ggttatggag
+      661 ttttgccctg gtggagacct gcatactctt cgacaaaggc agcgtggcaa gtattttcca
+      721 gaacaagctg tcaaattcta tgtggcagaa atactccttg ctatggagta cttgcacatg
+      781 cttggtatca tatatcgtga tctgaagccg gaaaatgtcc ttgtccgtga ggatggacac
+      841 atcatgctat ctgactttga cctctccctg cgctgtgcag tgagcccaac actgatcaga
+      901 tcatctaacc ctgatgcaga agcacttcgg aagaacaacc aggcctattg tgttcaacct
+      961 gcttgtgtgg agccatcctg catgattcag ccatcgtgtg ccactcccac aacatgcttt
+     1021 ggtccccgat ttttctccaa gtcaaagaag gatcgaaaac caaagcctga agttgtcaat
+     1081 caggtcagcc catggcctga gctcatagcg gaacctagtg atgcacgctc aatgtcattt
+     1141 gttggtacac atgagtactt ggcccctgag attatcaaag gcgagggtca tggtagtgcc
+     1201 gttgactggt ggacctttgg catattcttg tatgagcttc tgtttggaaa aacacctttc
+     1261 aaagggtcag gaaaccgtgc aacactgttc aacgtcattg gccagccgct gcgcttccct
+     1321 gaatacccgg ttgtgagctt ctcggcaaga gatctaatta ggggcctgct cgtcaaggag
+     1381 ccccaacaaa gattgggttg taagcgtggt gccactgaga taaaacagca tccatttttt
+     1441 gagggtgtga actgggcatt gatacgctgc gcaagccctc cagaggttcc caggcctgtt
+     1501 gagattgaga ggcctccaaa gcaacctgtt tcaacatcgg agcctgctgc tgccccttct
+     1561 gatgctgccc agaaaagcag tgatagctat cta
+//
+

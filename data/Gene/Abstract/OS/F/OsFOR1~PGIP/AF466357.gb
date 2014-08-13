@@ -1,0 +1,74 @@
+LOCUS       AF466357                1392 bp    mRNA    linear   PLN 27-JAN-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) floral organ regulator 1
+            (FOR1) mRNA, complete cds.
+ACCESSION   AF466357
+VERSION     AF466357.1  GI:27497119
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1392)
+  AUTHORS   Jang,S., Lee,B., Kim,C., Kim,S.J., Yim,J., Han,J.J., Lee,S.,
+            Kim,S.R. and An,G.
+  TITLE     The OsFOR1 gene encodes a polygalacturonase-inhibiting protein
+            (PGIP) that regulates floral organ number in rice
+  JOURNAL   Plant Mol. Biol. 53 (3), 357-369 (2003)
+   PUBMED   14750524
+REFERENCE   2  (bases 1 to 1392)
+  AUTHORS   Jang,S., Lee,B. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JAN-2002) Department of Life Science, Pohang
+            University of Science and Technology, San 31 Hyojadong, Pohang,
+            Kyungbuk 790-784, Korea
+FEATURES             Location/Qualifiers
+     source          1..1392
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Dongjin"
+                     /db_xref="taxon:39947"
+                     /tissue_type="immature panicle"
+     gene            1..1392
+                     /gene="FOR1"
+                     /note="OsFOR1"
+     CDS             49..1047
+                     /gene="FOR1"
+                     /note="OsFOR1"
+                     /codon_start=1
+                     /product="floral organ regulator 1"
+                     /protein_id="AAO17320.1"
+                     /db_xref="GI:27497120"
+                     /translation="MASTASFMLAVLLAVAVAAAPARAVRCPPSDKQALMRVKQSLGN
+                     PATLSTWSLASADCCEWDHVRCDEAGRVNNVFIDGANDVRGQIPSAVAGLTALMSLSL
+                     FRLPGLSGPIPACLTALSNLQFLTISHTNVSGVIPDSLARIRSLDSVDLSHNSLTGPI
+                     PNSFSDLPNLRSLDLRSNKLTGCIPAGLVQGQFRSLILSYNQLTGPIPRDDAQDEINT
+                     VDLSHNRLTGDASFLFAAGRPIGKVDLSWNDLDFDLSKLVFPPELTYLDLSHNRIRGT
+                     VPRSLAALSTLQTLDLSYNRLCGPLPRLHGVIRHGCKPYEHNQCAGGAPLGGCHQS"
+ORIGIN      
+        1 cacactcaag ccagctccag ccacacgagc ctagttcagg tagatacaat ggcgtccacc
+       61 gcctctttca tgctcgccgt cttgctggcg gtggccgtcg cggcggcgcc ggcgagggcg
+      121 gtgcgatgcc cgccgagcga caagcaggcg ctgatgagag tgaagcagtc gctgggaaac
+      181 ccggcgacgc tgtcgacgtg gtccctggcg tcggcggact gctgcgagtg ggaccacgtc
+      241 cggtgcgacg aggccgggcg cgtgaacaac gtcttcatcg acggcgccaa cgacgtccgc
+      301 ggccagatcc cgtccgccgt ggcggggctg acggcgctca tgtcgctgtc gctgttccgc
+      361 ctcccgggcc tctccggccc catcccggcg tgcctcaccg cgctctccaa cctccagttc
+      421 ctcaccatct cccacaccaa cgtctccggc gtcatcccgg actcgctcgc gcggatccgc
+      481 agcctcgact ccgtcgacct ctcccacaac agcctgaccg gccccatccc gaactccttc
+      541 tccgacctcc cgaacctccg gtcgcttgac ctccgcagca acaagctgac gggttgcatc
+      601 ccggcggggc tcgtgcaggg gcagttcagg tcgctgatcc tctcctacaa ccagctcacc
+      661 ggcccgatcc cgcgcgacga cgcgcaggac gagatcaaca ccgtcgacct ctcgcacaac
+      721 cgcctcaccg gcgacgcctc cttcctcttc gccgccggcc ggcccatcgg caaggtggac
+      781 ctctcgtgga acgacctcga cttcgacctc agcaagctcg tcttcccgcc ggagctcacc
+      841 tacctggacc tcagccacaa ccgcatcagg ggcaccgtgc cacgctccct cgccgcgctc
+      901 tccacgctgc agacgctgga cctcagctac aaccgcctct gcggcccgct cccgaggctg
+      961 cacggcgtca tccgccacgg ctgcaagccg tacgagcaca accagtgcgc cggcggcgcc
+     1021 ccgctcggcg ggtgccacca atcgtgagca tccatccatc catcaccgcc ggcgagctga
+     1081 tgctgccacg taaggtggag cccggggtgc gtaacggtat acgtgtttgg tgttttttcg
+     1141 cgtacgggga cgtggccgtg tagtacacgg tacgacgggt gcagccgtgc agggtactgg
+     1201 gcgggtttac gttagtacaa attgtaacca aggtagagtg cctgcacgcg tgcgtggtcg
+     1261 actctccttc agattgtacg aaacgaggga gccgtgtgta cgtgtgcgta cgtgtaccgt
+     1321 gtatggagta cgatgatgat gatgatgatg caagtgtgtg tattgtgaat gtaaaaaaaa
+     1381 aaaaaaaaaa aa
+//
+

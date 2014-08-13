@@ -1,0 +1,72 @@
+LOCUS       AB028185                1423 bp    mRNA    linear   PLN 22-JAN-2000
+DEFINITION  Oryza sativa mRNA for OsNAC6 protein, complete cds.
+ACCESSION   AB028185
+VERSION     AB028185.1  GI:6730941
+KEYWORDS    OsNAC6; OsNAC6 protein.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kikuchi,K., Ueguchi-Tanaka,M., Yoshida,K.T., Nagato,Y.,
+            Matsusoka,M. and Hirano,H.Y.
+  TITLE     Molecular analysis of the NAC gene family in rice
+  JOURNAL   Mol. Gen. Genet. 262 (6), 1047-1051 (2000)
+   PUBMED   10660065
+REFERENCE   2  (bases 1 to 1423)
+  AUTHORS   Hirano,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAY-1999) Hiroyuki Hirano, Univ Tokyo, Graduate
+            School of Agricultural and Life Sciences; Yayoi 1-1-1, Bunkyo-ku,
+            Tokyo 113-8657, Japan (E-mail:ahirano@mail.ecc.u-tokyo.ac.jp,
+            Tel:+81-3-5841-5065, Fax:+81-3-5841-5063)
+FEATURES             Location/Qualifiers
+     source          1..1423
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1423
+                     /gene="OsNAC6"
+     CDS             112..1023
+                     /gene="OsNAC6"
+                     /codon_start=1
+                     /product="OsNAC6 protein"
+                     /protein_id="BAA89800.1"
+                     /db_xref="GI:6730942"
+                     /translation="MSGGQDLQLPPGFRFHPTDEELVMHYLCRRCAGLPIAVPIIAEI
+                     DLYKFDPWQLPRMALYGEKEWYFFSPRDRKYPNGSRPNRAAGSGYWKATGADKPVGSP
+                     KPVAIKKALVFYAGKAPKGEKTNWIMHEYRLADVDRSARKKNSLRLDDWVLCRIYNKK
+                     GGLEKPPAAAVAAAGMVSSGGGVQRKPMVGVNAAVSSPPEQKPVVAGPAFPDLAAYYD
+                     RPSDSMPRLHADSSCSEQVLSPEFACEVQSQPKISEWERTFATVGPINPAASILDPAG
+                     SGGLGGLGGGGSDPLLQDILMYWGKPF"
+     polyA_site      1389
+                     /gene="OsNAC6"
+                     /note="34 a nucleotides"
+ORIGIN      
+        1 tcgacccacg cgtccgctct tcccaacact agtaggataa agccacagag agagcagtag
+       61 tagtagcgag ctcgccggag aacggacgat caccggagaa gggggagaga gatgagcggc
+      121 ggtcaggacc tgcagctgcc gccggggttc cggttccacc cgacggacga ggagctggtg
+      181 atgcactacc tctgccgccg ctgcgccggc ctccccatcg ccgtccccat catcgccgag
+      241 atcgacctct acaagttcga tccatggcag cttccccgga tggcgctgta cggagagaag
+      301 gagtggtact tcttctcccc gcgagaccgc aagtacccga acgggtcgcg gccgaaccgc
+      361 gccgccgggt cggggtactg gaaggcgacc ggcgccgaca agccggtggg ctcgccgaag
+      421 ccggtggcga tcaagaaggc cctcgtcttc tacgccggca aggcgcccaa gggcgagaag
+      481 accaactgga tcatgcacga gtaccgcctc gccgacgtcg accgctccgc ccgcaagaag
+      541 aacagcctca ggttggatga ttgggtgctg tgccggattt acaacaagaa gggcgggctg
+      601 gagaagccgc cggccgcggc ggtggcggcg gcggggatgg tgagcagcgg cggcggcgtc
+      661 cagaggaagc cgatggtggg ggtgaacgcg gcggtgagct ccccgccgga gcagaagccg
+      721 gtggtggcgg ggccggcgtt cccggacctg gcggcgtact acgaccggcc gtcggactcg
+      781 atgccgcggc tgcacgccga ctcgagctgc tcggagcagg tgctgtcgcc ggagttcgcg
+      841 tgcgaggtgc agagccagcc caagatcagc gagtgggagc gcaccttcgc caccgtcggg
+      901 cccatcaacc ccgccgcctc catcctcgac cccgccggct ccggcggcct cggcggcctc
+      961 ggcggcggcg gcagcgaccc cctcctccag gacatcctca tgtactgggg caagccattc
+     1021 tagacgacca aaaaaaaaaa aaaacaaccg cattggcagc aatggtgtca ctgaacaccg
+     1081 tgcaggctag ctagcttcat ggccggtgaa ctttgactca ggcgagccgc cggagttgac
+     1141 tcaaagataa ttaaaagaag tgttttaagt ggattggatt ggattagaca gaggagatga
+     1201 ggactcgaga aaggcggcga tgagaccgtg gttgggggga ccctggcctg gactgaacga
+     1261 cgacgaggca gcagcagaaa gatggtgcaa ttgcatcggg tggcatgtca gtgtgtgtgt
+     1321 atagtggcat gtacatagta catggtgatt gattcggtat acagggggct agctttcctg
+     1381 tttctgttta aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaa
+//
+

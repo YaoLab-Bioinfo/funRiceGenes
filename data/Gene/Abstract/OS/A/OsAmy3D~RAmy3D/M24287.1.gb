@@ -1,0 +1,74 @@
+LOCUS       RICAAMYB                1682 bp    mRNA    linear   PLN 27-APR-1993
+DEFINITION  Rice alpha-amylase mRNA, complete cds, clone pOS137.
+ACCESSION   M24287
+VERSION     M24287.1  GI:169754
+KEYWORDS    1,4-alpha-D-glucan glucanohydrolase; alpha-amylase.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1682)
+  AUTHORS   O'Neill,S.D., Kumagai,M.H., Majumdar,A., Huang,N., Sutliff,T.D. and
+            Rodriguez,R.L.
+  TITLE     The alpha-amylase genes in Oryza sativa: characterization of cDNA
+            clones and mRNA expression during seed germination
+  JOURNAL   Mol. Gen. Genet. 221 (2), 235-244 (1990)
+   PUBMED   2370848
+COMMENT     Original source text: Rice (strain M202), cDNA to mRNA, clone
+            pOS137.
+            Draft entry and computer-readable sequence for [1] kindly submitted
+            by M.H.Kumagai, 25-APR-1989.
+                       Author address: M.H.Kumagi
+                       UC Davis, Dept. of Genetics,
+                       Davis, Ca. 95616.
+FEATURES             Location/Qualifiers
+     source          1..1682
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             78..1382
+                     /note="alpha-amylase (EC 3.2.1.1)"
+                     /codon_start=1
+                     /protein_id="AAA33886.1"
+                     /db_xref="GI:169755"
+                     /translation="MKNTSSLCLLLLVVLCSLTCNSGQAQVLFQGFNWESWKQQGGWY
+                     NMLKGQVDDIAKAGVTHVWLPPPSHSVARGYMPGRLYDLDASKYGTAAELKSLIAAFH
+                     GKGVQCVADVVINHRCAEKKDARGVYCVFEGGTRDRLDWGPGMICSDDTQYSDGTGHR
+                     DTGEGFGAAPDIDHLNPRVQRELTDWLNWLKSDVGFDGWRLDFAKGYSTDIAKMYVES
+                     CKPGFVVAEIWNSLSYNGDGKPAANQDQGRQELVNWVNAVGGPAMTFDFTTKGLLQAG
+                     VQGELWRLRDGNGKAPGMIGWLPEKAVTFVDNHDTGSTQKLWPFPSDKVMQGYAYILT
+                     HPGVPCIFYDHMFDWNLKQEITALAAIRERNGINAGSKLRIVVADADAYVAVVDEKVM
+                     VKIGTRYDVGNAVPSDFHQTVHGKDYSVWEKGSLRVPAGRHL"
+ORIGIN      
+        1 atccatcatc tacaagagat cgatcagtag tggttagcag caactcacta tcgaacacgg
+       61 tttcagctta cacagatatg aagaacacca gcagcttgtg tttgctgctc ctcgtggtgc
+      121 tctgcagctt gacctgtaac tcgggtcaag cacaggtcct cttccagggt ttcaactggg
+      181 agtcgtggaa gcagcagggt ggctggtaca acatgttgaa aggccaagtc gacgacatcg
+      241 ccaaggccgg ggtcacccac gtctggctgc cgccgccgtc gcactccgtg gcgcgagggt
+      301 acatgccggg gcgtctctac gacctggacg cgtccaagta cggcacggcg gcggagctca
+      361 agtcgctgat cgcggcgttc cacgggaagg gcgtccagtg cgtcgccgac gtcgtgatca
+      421 accaccggtg cgccgagaag aaggacgccc gcggcgtgta ctgcgtgttc gagggcggga
+      481 cgcgcgaccg cctcgactgg ggccccggca tgatctgcag cgacgacacg cagtactccg
+      541 acggcacggg ccaccgcgac accggcgagg ggttcggcgc ggcgcccgac atcgaccacc
+      601 tcaacccgcg cgtccagcgg gagctcaccg actggctcaa ctggctcaag tccgacgtcg
+      661 gcttcgacgg ctggcgcctc gacttcgcca agggatactc cacggacatc gctaagatgt
+      721 acgtcgagag ctgcaagccg ggcttcgtcg tcgccgagat atggaactcg ctgagctaca
+      781 acggcgacgg caagccggcg gccaaccagg accagggccg gcaggagctg gtgaactggg
+      841 tgaacgccgt cggcgggccg gcgatgacgt tcgacttcac caccaagggc ctcctgcagg
+      901 cgggcgtcca gggcgagctg tggcggctgc gcgacggcaa cggcaaggcg cccggcatga
+      961 tcgggtggct gccagagaag gccgtcacgt tcgtcgacaa ccacgacacc ggctcgacgc
+     1021 agaagctttg gccgttcccc tccgacaagg tcatgcaggg ctacgcctac atcctcaccc
+     1081 accccggagt cccctgcatc ttctacgacc acatgttcga ctggaacctg aagcaggaga
+     1141 taaccgcgct ggcggcgatc agggagagga acggcatcaa cgccgggagc aagctccgga
+     1201 tcgtcgtcgc cgacgccgac gcatacgtcg ccgtcgtcga cgagaaggtc atggtgaaga
+     1261 tcgggacgag gtacgacgtg ggcaacgcgg tgccgtcgga tttccatcag acggtgcacg
+     1321 gcaaggacta cagcgtctgg gagaaggggt ccctccgcgt cccggcgggg cggcacctat
+     1381 agcgggctca agccctaaac tgaacgggat agtcatgctc aaaccagttt ctacacggca
+     1441 agaatttact gattcttata ctttttcagt caattaaatt atggttttta tatatgtaat
+     1501 tttgtatccg attgtagcgt tcgaataagt aggcaggctc tctagcctct aggttaattg
+     1561 cgggcatatg tagcttgcca gttaattgtg tttgtatcac gcagtttgta accgttggtg
+     1621 catatatatg tcaggttcag gatgcagtaa aaaatcatac tgcaccgatc agtgagtttt
+     1681 ta
+//
+

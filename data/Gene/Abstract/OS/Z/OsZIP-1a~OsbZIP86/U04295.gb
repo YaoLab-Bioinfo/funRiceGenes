@@ -1,0 +1,94 @@
+LOCUS       OSU04295                1757 bp    mRNA    linear   PLN 06-DEC-1996
+DEFINITION  Oryza sativa Nipponbare bZIP DNA-binding factor (osZIP-1a) mRNA,
+            complete cds.
+ACCESSION   U04295
+VERSION     U04295.1  GI:435941
+KEYWORDS    DNA-binding factor, leucine zipper.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1757)
+  AUTHORS   Nantel,A. and Quatrano,R.S.
+  TITLE     Characterization of three rice basic/leucine zipper factors,
+            including two inhibitors of EmBP-1 DNA binding activity
+  JOURNAL   J. Biol. Chem. 271 (49), 31296-31305 (1996)
+   PUBMED   8940135
+REFERENCE   2  (bases 1 to 1757)
+  AUTHORS   Nantel,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-DEC-1993) Andre Nantel, Biology, University of North
+            Carolina, Coker Hall, Chapel Hill, NC 27599-3280, USA
+FEATURES             Location/Qualifiers
+     source          1..1757
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="pE4-1,pE4C1,pE4D2"
+                     /cell_line="Rice suspension cell culture"
+                     /clone_lib="Lambda ZAP cDNA library of ABA-treated cells"
+                     /dev_stage="embryonic"
+     gene            1..1757
+                     /gene="osZIP-1a"
+     CDS             234..1406
+                     /gene="osZIP-1a"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="DNA-binding factor of bZIP class"
+                     /protein_id="AAC49556.1"
+                     /db_xref="GI:435942"
+                     /translation="MGSSGADAPTKTSKASAPQEQQPPASSSTATPAVYPDWANFQGY
+                     PPIPPHGFFPSPVASSPQGHPYMWGAQPMIPPYGTPPPPYVMYPPGVYAHPSMPPGAH
+                     PFTPYAMASPNGNADPTGTTTTAAAAAAGETDGKSSEGKEKSPIKRSKGSLGSLNMIT
+                     GKNSTEHGKTSGASANGAISQSGESGSESSSEGSEANSQNDSHHKESGQEQDGEVRSS
+                     QNGVSRSPSQAKLNQTMAIMPMTSSGPVPAPTTNLNIGMDYWANTASSTPAIHGKATP
+                     TAAPGSMVPGEQWVQDERELKRQRRKQSNRESARRSRLRKQAECEELAQRAEVLKQEN
+                     TSLRDEVNRIRKEYDELLSKNSSLKEKLEDKQHKTDEAGVDNKLQHSGDDSQKKGN"
+     polyA_site      1528
+                     /gene="osZIP-1a"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     polyA_site      1723
+                     /gene="osZIP-1a"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     polyA_site      1757
+                     /gene="osZIP-1a"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+ORIGIN      
+        1 cctcgctgcc cctagcctag gcgtgcgcta ccagccagca caggtggtga tctcatcatc
+       61 ccccgcccgc ccgcgcgcgc gttcgcgctc ccccgccccc accaccccag atcccgaggc
+      121 cccgctccgc cgcccgcggg atcgcgggcc ccgacacaag attttgctta atgctacttt
+      181 atgcgtgtgt ggataatgga gtaatcactg ctctgtgtat ctgagctcac accatgggta
+      241 gcagtggcgc agacgcaccg actaagacaa gcaaggcatc tgcacctcag gagcaacagc
+      301 cacctgctag ttcaagcact gcaacaccgg ctgtttaccc agattgggcc aactttcagg
+      361 gatatcctcc aattccacca catggcttct ttccatcacc tgtggcgtca agcccacagg
+      421 gtcatcctta catgtgggga gctcagccta tgataccacc atatggaacc ccaccaccac
+      481 catatgtcat gtatcctcca ggagtatatg ctcacccatc tatgcctccg ggcgcacacc
+      541 catttactcc atatgccatg gcctctccaa atggcaatgc tgatcctact ggaactacaa
+      601 ctactgctgc tgctgctgct gctggtgaga cggatggcaa atcctctgaa ggaaaagaaa
+      661 aaagtcccat taaaagatct aaaggaagtt taggtagctt gaatatgatt acagggaaga
+      721 actctactga acatggtaaa acctctgggg catcagctaa tggagccatt tctcaaagtg
+      781 gggaaagtgg aagtgaaagt tctagtgaag gaagtgaagc aaattctcag aatgattcac
+      841 atcacaagga aagtggacaa gagcaagatg gagaggttcg aagttcccag aatggtgtat
+      901 cacgttcacc atcccaggca aagttgaatc aaactatggc aatcatgcca atgacatcaa
+      961 gtggtccagt acctgctcca actacaaact tgaacatagg aatggactac tgggccaaca
+     1021 cagctagctc cactccagca atacatggta aagcaacccc aactgcagct ccagggtcta
+     1081 tggttccagg agagcagtgg gtgcaggatg aacgggaact caaaaggcag agaagaaaac
+     1141 aatccaacag ggagtctgct cgcagatcta ggttgcgtaa gcaggctgaa tgtgaggagt
+     1201 tggctcaacg tgctgaagtt ttaaagcaag aaaatacttc acttagagat gaagtgaacc
+     1261 ggatcagaaa ggagtatgat gagcttctat caaagaatag ctcattaaag gaaaaacttg
+     1321 aggacaaaca acacaaaact gatgaggcag gagttgacaa taagctgcaa cattctggtg
+     1381 atgacagcca gaaaaaagga aactaattga gctatcgtgc aatgctcctg agcataaccc
+     1441 taactagatt attggcaggc gcaactgtag tatgtgtatt aacttcatac ttattgcagt
+     1501 taattgttac caggttgtga taatgttaat gccaactttg tgtggctggt tcctgtttca
+     1561 gatctgtctt ggcttatctt ttagaagtca agatatgact ggcaatgtag gttgtgaccc
+     1621 agttcactgt atctgttaga aatagtttat aaactcatgt ttacaaatct gtattgttga
+     1681 ctactattgt tatgtacacc tgaagatgaa ccagtatttt atatataaga tgcagtcagg
+     1741 ttgaacagtt ggtttta
+//
+

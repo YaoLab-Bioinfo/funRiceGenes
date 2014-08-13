@@ -1,0 +1,69 @@
+LOCUS       AB188248                1363 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group ORK1 mRNA for SERK family receptor-like
+            protein kinase, partial cds.
+ACCESSION   AB188248
+VERSION     AB188248.1  GI:57753894
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ito,Y., Takaya,K. and Kurata,N.
+  TITLE     Expression of SERK family receptor-like protein kinase genes in
+            rice
+  JOURNAL   Biochim. Biophys. Acta 1730 (3), 253-258 (2005)
+   PUBMED   16081169
+REFERENCE   2  (bases 1 to 1363)
+  AUTHORS   Ito,Y. and Kurata,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2004) Contact:Yukihiro Ito National Institute of
+            Genetics, Plant Genetics Laboratory; Yata 1111, Mishima, Shizuoka
+            411-8540, Japan
+FEATURES             Location/Qualifiers
+     source          1..1363
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <1..1363
+                     /gene="ORK1"
+     CDS             <1..924
+                     /gene="ORK1"
+                     /codon_start=1
+                     /product="SERK family receptor-like protein kinase"
+                     /protein_id="BAD86794.1"
+                     /db_xref="GI:57753895"
+                     /translation="GRLADGSLVAVKRLKEQRTPGGELQFQTEVEMISMALHRNLLRL
+                     RGFCMTPTERLLVYPYMANGSVASRLRERPPSEPPLDWQTRRRIAAGSARGLSYLHDH
+                     CNPKIIHRDVKAANILLDEDFEAVFGDFGLAKPMDYKDTHVTTAVHGTIGHIAPEYLS
+                     TGILSEKTDVFGYGIMLLELITGKRAFDLALLARGEGVMPLDWVKRLIKEEKLEKLID
+                     PDLQNKYIDAEVESLIQVALLCTQGSPLERPKMAAVVRMLDEGDGLAERWKEWQKIEI
+                     VQQDVELGLYQNGWTVDSTENLHAVELSGPR"
+ORIGIN      
+        1 ggaagactag cagatggttc tttagtagct gttaagagac taaaggagca gagaacacct
+       61 ggtggggaac tacagtttca aacagaagtt gagatgatta gcatggcttt acatagaaat
+      121 ctgttgcgtt tacgtgggtt ctgtatgaca cccacagaaa ggttgcttgt gtatccatac
+      181 atggctaatg gaagtgttgc ttcacgtctg agagaacgac caccatctga acctccactt
+      241 gattggcaaa caagaagaag gatcgcagca ggttctgcca gggggctgtc ctatttacat
+      301 gatcattgca acccaaagat catccatcgt gatgtcaaag cggcaaatat tttattagat
+      361 gaagactttg aagctgtatt tggagatttt ggtttggcca aaccaatgga ttacaaggat
+      421 acccatgtaa caactgcagt acatggaaca attggacata ttgcaccaga atatctttca
+      481 acaggaattc tctctgagaa aactgatgta tttggctatg gaatcatgct tttggagctt
+      541 attacaggaa aacgtgcctt tgatcttgct cttctagcca gaggtgaggg tgtcatgcca
+      601 ctggactggg tcaaacgatt aatcaaggag gaaaagctgg agaaattgat tgatccagat
+      661 ctacagaaca agtacattga tgctgaggta gaatcactaa tccaggtcgc gcttctttgc
+      721 acacaaggct cccctctgga acgccccaag atggctgcgg tggtgaggat gcttgatgaa
+      781 ggtgatggcc ttgctgaaag atggaaggag tggcagaaga tagaaatagt acagcaggac
+      841 gtggagcttg gcctgtatca gaatggttgg actgttgact caactgagaa cctccatgcg
+      901 gtcgagttat cagggccaag gtgatgaatg ctcaccggta actttctgct gattcttgta
+      961 catcggaaga gcaattcgta ctgatcaccc tagtcgaatc accatctgtt catatttgtt
+     1021 tgatgtataa tgctttttct tgctcgacgc acaaccatgg acattgccat attggtgcca
+     1081 cggaaacagc acaacccgag gaactagtgt cctgagtggt tgctgcaaca atgtcccagt
+     1141 atgttaaacc tacaatttag taggatggaa ctgggtatca tttttgcctc ctttgggaag
+     1201 gcttcagatg atgcaattgc ccatggtgta cttttatttg ggcatttcgt tatgtctgtg
+     1261 tttcctgtaa aggatatata cctagttctg aatcaaatgt accttctgca cagagatgta
+     1321 atctttggta aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaa
+//
+

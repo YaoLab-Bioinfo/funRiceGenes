@@ -1,0 +1,71 @@
+LOCUS       BK005017                1093 bp    DNA     linear   PLN 17-MAR-2006
+DEFINITION  TPA_inf: Oryza sativa (japonica cultivar-group) WRKY transcription
+            factor 14 (WRKY14) gene, complete cds.
+ACCESSION   BK005017
+VERSION     BK005017.1  GI:46394281
+KEYWORDS    Third Party Data; TPA; TPA:inferential.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1093)
+  AUTHORS   Zhang,Z.L., Xie,Z., Zou,X., Casaretto,J., Ho,T.H. and Shen,Q.J.
+  TITLE     A rice WRKY gene encodes a transcriptional repressor of the
+            gibberellin signaling pathway in aleurone cells
+  JOURNAL   Plant Physiol. 134 (4), 1500-1513 (2004)
+   PUBMED   15047897
+REFERENCE   2  (bases 1 to 1093)
+  AUTHORS   Zhang,Z.-L., Xie,Z., Zou,X., Casaretto,J., Ho,T.-h.D. and Shen,Q.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2004) Department of Biological Sciences,
+            University of Nevada, Las Vegas, 4505 Maryland Parkway, Las Vegas,
+            NV 89154, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1093              AP003142.2         102178-103270       c
+FEATURES             Location/Qualifiers
+     source          1..1093
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <1..>1093
+                     /gene="WRKY14"
+                     /note="OsWRKY14"
+     mRNA            join(<1..341,475..>1093)
+                     /gene="WRKY14"
+                     /product="WRKY transcription factor 14"
+     CDS             join(1..341,475..1093)
+                     /gene="WRKY14"
+                     /codon_start=1
+                     /product="WRKY transcription factor 14"
+                     /protein_id="DAA05079.1"
+                     /db_xref="GI:46394282"
+                     /translation="MDGEWSDGAAVSSPTMSGGGGREQMKGGEDVAAADCPGSPVSPS
+                     PAAAQRSAAGAAASPSGRSRRSAQKRVVTVPLADVTGPRPKGVGEGNTPTDSWAWRKY
+                     GQKPIKGSPFPRAYYRCSSSKGCPARKQVERSRNDPDTVIVTYSFEHNHSATVPRAQN
+                     RQAAPQKPKAQACSPPEPVVEVEPEETHQYGVTAGPATGGGGGAAAIEVRDEFRWLYD
+                     VVSVPATSTSPSDIDAADEMQLYDQPMFFGGAVVGTAALLPDEFGDVGGLGGEGLGEE
+                     EALFEGLGELPECAMVFRRRAGDGLEMGGGVKIEQPAESTAMT"
+ORIGIN      
+        1 atggacggcg agtggagcga cggggcggcg gtgtcgtcgc cgacgatgtc cggcggcggc
+       61 gggcgggagc agatgaaggg cggggaggac gtcgctgcgg cggattgccc ggggtcgccg
+      121 gtgtcaccgt caccggcagc tgctcagcgg tcggcggctg gggcggcggc gtcgcctagc
+      181 gggaggtcga ggcggtcggc gcagaagcgg gtggtgaccg tgccgctggc cgacgtgacc
+      241 gggccgcggc cgaagggcgt cggggagggc aacacgccga ccgactcgtg ggcgtggcgg
+      301 aagtacggcc agaagcccat caaaggctca ccctttccaa ggtaaaatac acaccacgac
+      361 acacgaatcg atgccatggc atcgaatatc gatcgagttc ttttgtaagt tttgccatga
+      421 attggagggg tttttgtgct gatctagcta ggcttggggc ttcgtgatga gcagggctta
+      481 ctaccggtgc agcagctcga aggggtgccc ggcgaggaag caggtggaga ggagccggaa
+      541 cgacccggac acggtgatcg tcacctactc cttcgagcac aaccactccg ccacggtgcc
+      601 cagggcgcag aaccggcagg cggcgccgca gaagcccaag gcgcaggcct gcagtccgcc
+      661 ggagccggtg gtggaagtgg aacccgagga aacgcaccag tacggcgtca ccgccgggcc
+      721 tgccaccggt ggcggcggcg gcgcggcggc catcgaggtg cgcgacgagt tccggtggct
+      781 ctacgacgtc gtgtccgtcc cagccacgtc gacctcgccc tccgacatcg acgcggccga
+      841 cgagatgcag ctgtacgatc agccgatgtt ctttggcggc gccgtcgtcg gcacggccgc
+      901 gctcctcccc gacgagttcg gcgacgtcgg cgggttaggc ggggaggggc tgggcgagga
+      961 ggaggcgttg ttcgaggggc tcggcgagct gccggagtgc gccatggtgt tccggcggcg
+     1021 cgccggcgac gggctggaga tgggaggagg ggttaagatc gagcagccgg cggagagcac
+     1081 ggccatgaca tga
+//
+

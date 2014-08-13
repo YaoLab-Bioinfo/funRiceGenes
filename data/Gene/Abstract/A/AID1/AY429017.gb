@@ -1,0 +1,78 @@
+LOCUS       AY429017                1630 bp    mRNA    linear   PLN 20-JUL-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) ANTHER INDEHISCENCE1 (AID1)
+            mRNA, complete cds.
+ACCESSION   AY429017
+VERSION     AY429017.1  GI:40388418
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1630)
+  AUTHORS   Zhu,Q.H., Ramm,K., Shivakkumar,R., Dennis,E.S. and Upadhyaya,N.M.
+  TITLE     The ANTHER INDEHISCENCE1 gene encoding a single MYB domain protein
+            is involved in anther development in rice
+  JOURNAL   Plant Physiol. 135 (3), 1514-1525 (2004)
+   PUBMED   15247409
+REFERENCE   2  (bases 1 to 1630)
+  AUTHORS   Zhu,Q.-H., Ramm,K., Shivakkumar,R., Dennis,E.S. and Upadhyaya,N.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2003) Rice Functional Genomics Group, Genomics
+            and Plant Development Program, CSIRO Plant Industry, Cnr. Barry
+            Drive and Clunies Ross Street, GPO Box 1600, Canberra, ACT 2601,
+            Australia
+FEATURES             Location/Qualifiers
+     source          1..1630
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="CC259/QHLig35-3; CC265/QHLig43-1"
+     gene            1..1630
+                     /gene="AID1"
+     CDS             1..1281
+                     /gene="AID1"
+                     /codon_start=1
+                     /product="ANTHER INDEHISCENCE1"
+                     /protein_id="AAR85480.1"
+                     /db_xref="GI:40388419"
+                     /translation="MPRLMPEDASLLLDHVVGDPSVPAAAANAALAALPFPSRPTPRL
+                     LRASLLRRLAADPVSAAALDSLQLLASLPSSPSPAAPAAAAAAAAHLAVAAYLAVSAP
+                     DFDAAAGALFGRPGGRARRAVEEGGAAALASDEADAVADQFEAAVGNSFSQTVLRGLW
+                     GDRAAAEERVRELLAVEWAAIGQSRLEMAAERIVGDGAIETWRAADEVTRAKYRLLAG
+                     EQRAREIEGKLGETIPQGNQISTPEVHKVMDALKSSCANLHSVVEDPLPAAKAAADEV
+                     LAARMDKAVDLNAGEVSNQPTACDIAGPSAPADNLDAPRKGTAASLMDWNPTARTFQW
+                     EDSPDPDGSRSPIHRPQLPSPRRTTFSPLQPADNKAKRRKARKWCALEEETLRKGVEQ
+                     YGNGNWKDILTNNPDVFIGRKAMDLKDKWRNMMR"
+ORIGIN      
+        1 atgccgcggc tgatgccgga ggacgcgtcc ctgctcctgg accacgtggt cggcgacccc
+       61 tccgtccccg ccgccgccgc caacgcggcg ctcgcggcgc tccccttccc gtcccgcccc
+      121 accccgcgcc tcctcagggc atccctcctc cgccgcctcg ccgccgaccc ggtctccgcc
+      181 gccgccctcg actcgctcca gctcctcgcc tccctcccct cctccccttc ccccgccgcc
+      241 cccgccgccg ccgccgccgc cgccgcccac ctcgccgtcg cggcctacct cgcagtctcc
+      301 gcgcccgact tcgacgccgc cgcgggggcc ctcttcgggc gccccggcgg ccgcgcgcgc
+      361 cgcgcggtcg aggagggtgg ggccgccgcg ctcgcctccg acgaggccga tgccgtggcc
+      421 gaccagttcg aggccgcggt ggggaattcg ttctcgcaga ccgtgctgag ggggctctgg
+      481 ggcgaccggg ccgcggcgga ggagcgggtg agggagctcc tcgccgtcga gtgggcggcg
+      541 attgggcagt cccggctgga gatggcggcg gagaggattg ttggggatgg cgccattgag
+      601 acatggaggg ccgcagatga ggtcacccga gccaagtatc gcttgctcgc tggggaacaa
+      661 agagcacgtg aaattgaggg caaacttgga gaaactatcc ctcaaggaaa tcaaatttcg
+      721 acaccagaag ttcataaggt gatggacgcc cttaaatcaa gctgtgctaa ccttcatagt
+      781 gtagtagagg acccacttcc agctgcaaag gcagcagcag atgaggtact ggctgcaagg
+      841 atggataaag cagtcgatct aaatgcggga gaagttagta atcagccaac ggcttgtgac
+      901 atcgctggtc caagtgctcc tgcggacaat ttggatgctc caaggaaagg cacagcagcc
+      961 agccttatgg attggaatcc aacagcaagg acgtttcagt gggaggactc acctgatcct
+     1021 gacggctcac gttcaccgat acatagaccg cagttgccta gcccaaggag aacaacattt
+     1081 tctcctctgc aaccggcaga taacaaagcg aagcgtagaa aggcaaggaa gtggtgcgcg
+     1141 ttagaagagg aaacattaag aaagggtgtc gaacagtatg gtaacggcaa ttggaaagat
+     1201 attttaacca acaatcctga tgtttttatt ggtcgaaaag cgatggactt gaaagataag
+     1261 tggagaaaca tgatgaggta gggatcaatg acaaggcacc agagagagtt ctctttcatt
+     1321 ctagctgaag aacctttaag aagccctagg gcatataatt ctggtggttc gatacgctga
+     1381 agcaccaagc ccttctactg ctgaagactg aggagcagtt gggtttgatg catttctttt
+     1441 tgtgctccac cgacatatcc ccagtagatt cgggcgagaa ttcgtcagat tagtaccaga
+     1501 tgcttacaag tcatggtttt aagctcccct tgtaatttgg aacagattct gaatttctgg
+     1561 tgctgtatgt attcattcag tgagaatctg tatccagctt ttgctggcaa aaaaaaaaaa
+     1621 aaaaaaaaaa
+//
+

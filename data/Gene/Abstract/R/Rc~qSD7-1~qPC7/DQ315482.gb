@@ -1,0 +1,60 @@
+LOCUS       DQ315482                 833 bp    mRNA    linear   PLN 06-FEB-2006
+DEFINITION  Oryza rufipogon brown pericarp and seed coat protein (Rc) mRNA,
+            partial cds.
+ACCESSION   DQ315482
+VERSION     DQ315482.1  GI:83728466
+KEYWORDS    .
+SOURCE      Oryza rufipogon
+  ORGANISM  Oryza rufipogon
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 833)
+  AUTHORS   Sweeney,M.T., Thomson,M.J., Pfeil,B.E. and McCouch,S.
+  TITLE     Caught red-handed: rc encodes a basic helix-loop-helix protein
+            conditioning red pericarp in rice
+  JOURNAL   Plant Cell 18 (2), 283-294 (2006)
+   PUBMED   16399804
+REFERENCE   2  (bases 1 to 833)
+  AUTHORS   Sweeney,M.T. and McCouch,S.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-2005) Plant Breeding and Genetics, Cornell
+            University, 253 Emerson Hall, Ithaca, NY 14853, USA
+FEATURES             Location/Qualifiers
+     source          1..833
+                     /organism="Oryza rufipogon"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4529"
+                     /chromosome="7"
+     gene            <1..>833
+                     /gene="Rc"
+     CDS             <1..>833
+                     /gene="Rc"
+                     /note="bHLH"
+                     /codon_start=1
+                     /product="brown pericarp and seed coat protein"
+                     /protein_id="ABC41923.1"
+                     /db_xref="GI:83728467"
+                     /translation="QHGIHMKPTLSQHSTSNPVTHCTHQHPIQVQMQLGITSQTKFDY
+                     SDELNADEENDDTEEEGMSGSDTNNTDTERNSGQLQLQMQDQLNMVSNDHQTMPNNAV
+                     SSELMQCEMSEVVRDGCSNNILEDEIQMLMDCQNSNCQLNLQGPDEPCHSWHFLCEEL
+                     QNDYQPATEDQVASPENTHYPKTLMTILHYNTLRQQEMNIKNYLPVSEKSSFSRWTTP
+                     EGSDDNKTMISPGTTQRMLKSILMIVPSSHCSYRGAETPESRGGKGASGTRKVGAIQG
+                     D"
+ORIGIN      
+        1 caacatggca tccacatgaa gcctaccctc tcacagcact caacatccaa cccagtcacc
+       61 cactgtactc atcagcatcc aatccaggtt cagatgcaac taggtatcac cagccaaaca
+      121 aagtttgatt attcagatga gctcaatgca gatgaggaga atgatgacac agaagaagag
+      181 ggcatgtcag gttcagacac taacaacact gacactgaaa ggaattcagg ccagctgcaa
+      241 cttcaaatgc aagaccaact gaacatggtg agcaatgacc accagacaat gccaaataat
+      301 gcagtttcca gtgagctaat gcagtgtgag atgtcagaag tggtaagaga tggctgctca
+      361 aataatattt tagaggatga aatccaaatg ctgatggatt gccaaaacag taattgtcag
+      421 ttaaatttgc aagggccaga tgagccttgt cactcttggc attttctctg cgaggagtta
+      481 caaaatgatt accagccagc tactgaagat caagtggcat cacctgaaaa tacccattac
+      541 ccaaaaacac tcatgacaat cctacattac aacacgctgc gacaacaaga gatgaacatc
+      601 aagaactact tgccagtttc agagaaatca tcattctcca gatggactac tcctgaagga
+      661 agtgatgaca acaagaccat gatcagtcca ggcaccacac agagaatgct caagagcatc
+      721 ctgatgattg ttcccagtag tcactgcagt tacaggggag cagaaacacc tgaatcaagg
+      781 ggcgggaaag gcgcaagtgg aacgcgaaaa gtcggtgcca tccaaggtga ttt
+//
+

@@ -1,0 +1,73 @@
+LOCUS       AB164463                1273 bp    mRNA    linear   PLN 14-FEB-2008
+DEFINITION  Oryza sativa Indica Group OsGGT mRNA for putative glycogenin
+            glucosyltransferase, complete cds.
+ACCESSION   AB164463
+VERSION     AB164463.1  GI:45126768
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Qi,Y., Kawano,N., Yamauchi,Y., Ling,J., Li,D. and Tanaka,K.
+  TITLE     Identification and cloning of a submergence-induced gene OsGGT
+            (glycogenin glucosyltransferase) from rice (Oryza sativa L.) by
+            suppression subtractive hybridization
+  JOURNAL   Planta 221 (3), 437-445 (2005)
+   PUBMED   15645304
+REFERENCE   2  (bases 1 to 1273)
+  AUTHORS   Qi,Y.H., Yamauchi,Y., Ling,J.Q., Kawano,N., Li,D.B. and Tanaka,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAR-2004) Contact:Kiyoshi Tanaka Laboratory of Plant
+            Biotechnology, Faculty of Agriculture,Tottori University; Koyama,
+            minami, 4-101, Tottori, Tottori 680-8553, Japan
+FEATURES             Location/Qualifiers
+     source          1..1273
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="FR13A"
+                     /db_xref="taxon:39946"
+                     /chromosome="10"
+                     /tissue_type="leaf"
+                     /country="Philippines:Makati"
+     gene            1..1273
+                     /gene="OsGGT"
+     CDS             17..1156
+                     /gene="OsGGT"
+                     /codon_start=1
+                     /product="putative glycogenin glucosyltransferase"
+                     /protein_id="BAD12229.1"
+                     /db_xref="GI:45126769"
+                     /translation="MRVVLVENMKNPYESNLGGINRRFKLTLNKLYAWTLVDYERVVM
+                     IDSDNIFLQKTDELFQCGQFCAVFINPCYFHTGLFVLQPSMDVFKGMLHDLEIGRANS
+                     DGADQGFLVGCYPDLLDRPMFHPPENGSKLNGTYRLPLGYQMDASYYYLKLHWHVPCG
+                     PNSVITFPSAPWFKPWYWWSWPILPLGLSWHKERWDDLGYAAEMPVILMEILMYAVII
+                     TITRLAKPGMTKLCYNRRPEKQNAMVQGLIKMSAIVAMLIAYAIPFFIIPRTVHPFMG
+                     WSMYLFGALALGVLVSNAFLLPLLAVLTPWLAIIGMFFVMAFPWYHGGIVRVLAIFGY
+                     AFCSAPFLWASLVRVMDSLQTMLEREPFFPRLGEPAQETEFSKLF"
+ORIGIN      
+        1 gagggaagag gatggcatga gagtggtgct ggtggagaat atgaagaatc cttatgagag
+       61 caaccttgga gggatcaaca ggaggtttaa gctgacgctg aacaagctct atgcgtggac
+      121 cctggttgac tatgagcgcg tcgtcatgat cgactccgat aacatcttcc ttcagaagac
+      181 cgatgagctc ttccagtgtg gacagttctg tgccgttttc atcaaccctt gctacttcca
+      241 cactggtctt ttcgtgctcc agccttctat ggatgtcttc aaaggcatgc ttcatgacct
+      301 agagattggc cgtgccaact ctgatggtgc tgaccaaggg tttcttgtcg gctgctaccc
+      361 agacttgctt gatagaccaa tgttccaccc tcctgagaat ggcagcaagc tcaacgggac
+      421 atatcgcctt cctcttggtt atcagatgga tgcatcctac tactatctca agttgcattg
+      481 gcatgtccct tgtgggccca acagcgttat cacattcccc agcgcccctt ggtttaaacc
+      541 ttggtattgg tggtcatggc caatcttgcc actgggcctt tcctggcaca aggaacggtg
+      601 ggatgatctt gggtatgccg ctgaaatgcc agtgatcctg atggagatat tgatgtacgc
+      661 agtcattata accattacca ggttggcaaa gcctgggatg acaaaactgt gctataaccg
+      721 gcggcccgag aagcaaaatg ccatggtgca ggggctgatc aagatgtctg caatcgtggc
+      781 catgctaatt gcatatgcca tcccgttctt tataatccca cgcacggttc acccattcat
+      841 gggctggtcc atgtacctgt ttggtgcatt ggcattggga gtgctcgtga gcaatgcctt
+      901 cttgcttcca ttgcttgctg tgctcacgcc ctggttagct attattggca tgttcttcgt
+      961 catggcattc ccgtggtacc atggtggtat cgtgagggtt ctggcaatct tcgggtacgc
+     1021 attttgttct gcgccgttct tgtgggcgtc tctggtgagg gtgatggact cgttgcagac
+     1081 tatgctcgag agggaaccgt tcttccctcg gcttggtgaa ccggcccagg aaaccgaatt
+     1141 cagcaagctg ttttgattca atttgtacag attcagatgc atcttcattt ggacagaatc
+     1201 acattctcta attcttgatt cattctgacg attttggctc aggcaaaaaa aaaaaaaaaa
+     1261 aaaaaaaaaa agt
+//
+

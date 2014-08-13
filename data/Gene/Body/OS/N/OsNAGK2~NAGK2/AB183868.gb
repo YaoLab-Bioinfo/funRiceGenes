@@ -1,0 +1,73 @@
+LOCUS       AB183868                1130 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsAGK2 mRNA for N-acetyl glutamate
+            kinase 2, complete cds.
+ACCESSION   AB183868
+VERSION     AB183868.1  GI:57999647
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sugiyama,K., Hayakawa,T., Kudo,T., Ito,T. and Yamaya,T.
+  TITLE     Interaction of N-acetylglutamate kinase with a PII-like protein in
+            rice
+  JOURNAL   Plant Cell Physiol. 45 (12), 1768-1778 (2004)
+   PUBMED   15653795
+REFERENCE   2  (bases 1 to 1130)
+  AUTHORS   Sugiyama,K., Hayakawa,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUL-2004) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultural Science, Department of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1130
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+                     /tissue_type="shoots"
+     gene            1..1130
+                     /gene="OsAGK2"
+     5'UTR           1..23
+                     /gene="OsAGK2"
+     CDS             24..899
+                     /gene="OsAGK2"
+                     /note="ArgB"
+                     /codon_start=1
+                     /product="N-acetyl glutamate kinase 2"
+                     /protein_id="BAD88532.1"
+                     /db_xref="GI:57999648"
+                     /translation="MMLTKPHPSSNLLLPTTTALPNPSPNPSRKTVVVKYGGAAMKSP
+                     ELQSSVIRDLVLLSCVGLRPVLVHGGGPEINSWLGRVGVEPQFRNGLRVTDALTMEVV
+                     EMVLVGKVNKQLVSLISVAGATAVGLCGKDARLLTARPSPDAAALGFVGEVTRVNPSV
+                     LHPIIESGHIPVIATVAADETGQAYNINADTAAGEIAAALGAEKLLLLTDVSGILADR
+                     NDPGSLVKEIDIAGVRQMVADGKVGGGMIPKVECCVRALAQGVHTASIIDGRVPHSLL
+                     LEILTDEGTGTMITG"
+     3'UTR           900..1130
+                     /gene="OsAGK2"
+ORIGIN      
+        1 cgtcgaacac ctagagcgca gccatgatgc tcaccaagcc ccacccttcg tccaacctcc
+       61 tcctccccac caccacagcg ctcccaaatc ctagcccaaa ccctagccgc aagacggtgg
+      121 tggtgaagta cggcggcgcg gcgatgaagt cgcccgagct gcagtcgtcg gtgatccgcg
+      181 acctggtcct cctctcctgc gtcggcctcc gccccgtgct cgtgcacggc gggggcccgg
+      241 agatcaactc gtggctgggg cgcgtcggcg tcgagccgca gttccggaac ggcctccgcg
+      301 tcacggacgc gctcaccatg gaggtcgtgg agatggtgct cgtcggcaag gtcaacaagc
+      361 agctcgtctc cctcatcagc gtcgccggcg ccaccgccgt cggcctctgc ggcaaggacg
+      421 cgcgcctcct caccgcgcgc ccttcccccg acgccgccgc actcggcttc gttggcgagg
+      481 tgacgcgcgt caacccgtcc gtcctccacc ccatcatcga gtccggccac atcccggtca
+      541 tcgcgaccgt ggccgccgac gagaccgggc aggcctacaa catcaacgcc gacaccgcgg
+      601 ccggcgagat cgccgccgcg ttgggcgcgg agaagctgct gctgctcacc gacgtgtccg
+      661 ggatactcgc cgaccgcaat gaccccggga gccttgtgaa ggagatcgac atcgccgggg
+      721 tgcggcagat ggtggccgac gggaaggtgg gcggtgggat gatccccaag gtggagtgct
+      781 gcgtccgcgc gctggcgcag ggcgtgcaca ccgcgagtat catcgacggc cgcgtcccgc
+      841 actcgctgct gctggagatc ctcaccgacg agggcaccgg caccatgatc actggctgaa
+      901 tttctgaatt tctgggcagg caataagcat ggttaattca attcttcgtt gtttttggca
+      961 tctttttttg ggggattggt tgttcgaact tggaattgat cttggaacca gatggttttg
+     1021 caccctttgg atgtaacaga aatgtgatct tgaatctcat tgctatgaga aacgtcgatg
+     1081 aaaagggaaa acagaattca attttgtgag tgcacaatca atcttggtgc
+//
+

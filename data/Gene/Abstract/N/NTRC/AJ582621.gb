@@ -1,0 +1,94 @@
+LOCUS       AJ582621                1684 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa Japonica Group mRNA for NADPH thioredoxin reductase
+            (NtrC gene).
+ACCESSION   AJ582621
+VERSION     AJ582621.1  GI:34576293
+KEYWORDS    NADPH thioredoxin reductase; NtrC gene.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Serrato,A.J., Perez-Ruiz,J.M., Spinola,M.C. and Cejudo,F.J.
+  TITLE     A novel NADPH thioredoxin reductase, localized in the chloroplast,
+            which deficiency causes hypersensitivity to abiotic stress in
+            Arabidopsis thaliana
+  JOURNAL   J. Biol. Chem. 279 (42), 43821-43827 (2004)
+   PUBMED   15292215
+REFERENCE   2  (bases 1 to 1684)
+  AUTHORS   Cejudo,F.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-SEP-2003) Cejudo F.J., Insto de Bioquimica Vegetal y
+            Fotosintes, Universidad de Sevilla-CSIC, Avda Americo Vespucio s/n,
+            41092, SPAIN
+FEATURES             Location/Qualifiers
+     source          1..1684
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+     gene            1..1684
+                     /gene="OsNtrC"
+     CDS             57..1523
+                     /gene="OsNtrC"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="NADPH thioredoxin reductase"
+                     /protein_id="CAE46765.1"
+                     /db_xref="GI:34576294"
+                     /db_xref="GOA:Q70G58"
+                     /db_xref="HSSP:1KEB"
+                     /db_xref="InterPro:IPR000103"
+                     /db_xref="InterPro:IPR001327"
+                     /db_xref="InterPro:IPR005982"
+                     /db_xref="InterPro:IPR008255"
+                     /db_xref="InterPro:IPR012335"
+                     /db_xref="InterPro:IPR012336"
+                     /db_xref="InterPro:IPR013027"
+                     /db_xref="InterPro:IPR013766"
+                     /db_xref="InterPro:IPR017936"
+                     /db_xref="UniProtKB/Swiss-Prot:Q70G58"
+                     /translation="MAVTRLAVAAALSAKALRASAAPAVDEEAPASPPPSDLGKGVEN
+                     LVIIGSGPAGYTAAIYAARANLKPVVFEGYQVGGVPGGQLMTTTEVENFPGFPDGVTG
+                     PDLMDKMRKQAERWGAELHQEDVEFVNVKSRPFVIRSSDREVKCHSVIIATGAAAKRL
+                     RLPREDEFWSRGISACAICDGASPLFKGQVLAVVGGGDTATEEAIYLTKYARHVHLLV
+                     RKDQLRASKAMQDRVLNNPNITVHFNTEAVDVVSNPKGQMSGIQLKRTDTGEESVLEV
+                     KGLFYGIGHTPNSQLLQGQIDLDDAGYILVEEGTAKTSVDGVFAAGDVQDHEWRQAVT
+                     AAGSGCVAALSVERYLVANDLLVEFHQPVREEKEKEITDRDVEMGFDISHTKHRGQYA
+                     LRKVYHESPRLVCVLYTSPTCGPCRTLKPILSKVIDEYNEHVHFVEIDIEEDPEIAEA
+                     AGIMGTPCVQFFKNKEMLRTVSGVKMKKEYREFIESNK"
+ORIGIN      
+        1 ccatcctctc cctctcctct actccacacc ctccgcttct ccactcctcc ctcgcgatgg
+       61 cggtcacgcg cctcgccgtg gccgccgccc tctcggccaa ggcgttgcgc gcgtcggctg
+      121 cccccgccgt cgacgaggag gcccccgcat ccccgcctcc atcagatctt ggcaagggag
+      181 tggagaactt ggtgatcata ggctctggcc cggcggggta cactgccgcg atttacgccg
+      241 ctcgggcgaa cctcaagccc gtcgtgttcg aaggctacca ggttggtggc gttcctggtg
+      301 ggcagctgat gaccaccacc gaggtggaga atttccctgg gtttccggat ggcgtcactg
+      361 ggcctgatct catggacaaa atgcggaagc aagcggagcg gtggggtgct gagcttcacc
+      421 aggaggatgt tgagtttgtg aatgtgaaga gcagaccgtt tgttattcgt agcagtgatc
+      481 gtgaggtgaa atgccatagt gtaatcattg ctactggtgc tgctgctaag cgccttcgat
+      541 tacctcgtga agatgaattt tggagtagag gtatcagtgc atgtgcaata tgtgatggag
+      601 catccccact atttaagggt caagttcttg cagttgttgg aggtggtgat acagctacag
+      661 aggaagctat atatttgacc aaatatgcac gtcacgttca tttacttgtt cgaaaggatc
+      721 agctacgagc atccaaagct atgcaggacc gagtactcaa caatcccaac ataacagtac
+      781 atttcaatac agaagctgtg gatgttgtca gcaatcccaa aggccagatg tctggtattc
+      841 aactgaagag aaccgacacg ggagaggaat cagttcttga ggtgaaaggt ctattctatg
+      901 gcataggaca cactccaaac agtcagttgt tacaaggtca aattgatctt gacgatgctg
+      961 gttatatttt ggttgaagaa ggcacagcaa aaacatcagt tgatggtgta tttgctgctg
+     1021 gtgatgtgca ggatcatgaa tggaggcaag ccgttactgc agctggatcc ggatgtgtag
+     1081 ccgctttgtc ggtggaaaga tacttagttg ccaacgacct tcttgttgaa tttcaccagc
+     1141 ctgttcgcga agaaaaggag aaggagatta cagatagaga tgtcgagatg ggctttgaca
+     1201 tttctcacac aaagcatagg ggacagtatg cactccgcaa agtatatcat gaaagtccaa
+     1261 ggcttgtctg tgttctatat acttctccaa catgtggtcc ttgcagaacc ttaaagccaa
+     1321 ttctaagcaa ggttatagat gagtacaacg aacacgttca ttttgtcgaa attgacatcg
+     1381 aggaggatcc tgaaatagca gaagctgcag gcatcatggg aacaccatgt gttcaatttt
+     1441 ttaaaaataa agaaatgctc aggactgtct ctggtgttaa aatgaagaag gaatataggg
+     1501 agtttatcga gtcaaacaaa tgagctgaac ccaacatacg attcaaattt taaagtgtaa
+     1561 tagtcttctt ttgcccatac tgactatttc tagctgccac cgtggtggcc aatttttggt
+     1621 caaaaatttt cagatgggcc gggtgtagtg cggttcaaga ggaaattagc cggtcgctcc
+     1681 tatt
+//
+

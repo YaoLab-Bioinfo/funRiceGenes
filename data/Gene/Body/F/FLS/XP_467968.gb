@@ -1,0 +1,55 @@
+LOCUS       XP_467968                331 aa            linear   PLN 09-NOV-2004
+DEFINITION  putative flavonol synthase [Oryza sativa (japonica
+            cultivar-group)].
+ACCESSION   XP_467968
+VERSION     XP_467968.1  GI:50913121
+DBSOURCE    REFSEQ: accession XM_467968.1
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa (japonica cultivar-group)
+  ORGANISM  Oryza sativa (japonica cultivar-group)
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 331)
+  CONSRTM   The NCBI Genome Assembly Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JUL-2004) National Center for Biotechnology
+            Information, National Institutes of Health, Bethesda 20894, United
+            States of America
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from BAD17324.
+FEATURES             Location/Qualifiers
+     source          1..331
+                     /organism="Oryza sativa (japonica cultivar-group)"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     Protein         1..331
+                     /product="putative flavonol synthase"
+                     /calculated_mol_wt=36688
+     Region          3..330
+                     /region_name="PLN02704"
+                     /note="flavonol synthase"
+                     /db_xref="CDD:166345"
+     Region          42..146
+                     /region_name="DIOX_N"
+                     /note="non-haem dioxygenase in morphine synthesis
+                     N-terminal; pfam14226"
+                     /db_xref="CDD:258418"
+     Region          198..292
+                     /region_name="2OG-FeII_Oxy"
+                     /note="2OG-Fe(II) oxygenase superfamily; pfam03171"
+                     /db_xref="CDD:251775"
+     CDS             1..331
+                     /gene="OJ1004_A11.27"
+                     /coded_by="XM_467968.1:89..1084"
+                     /note="contains full-length cDNA(s): AK072697"
+                     /db_xref="GeneID:3063622"
+ORIGIN      
+        1 maevqsvqal asslaalppe fvrseherpg attfrggdap eipvidmaap esaarvaeaa
+       61 aewglfqvvn hgvpaaavae lqrvgreffa lpqeekarya mdassgkmeg ygsklqkdle
+      121 gkkawadfff hnvappamvn hdiwpshpag yreaneeyck hmqrlarklf ehlstalgld
+      181 ggamweafgg delvflhkin fyppcpepel tlgvaphtdm stftvlvpnd vqglqvfkdg
+      241 hwydvkyvpd aliihigdqi eilsngryka vlhrttvdkd rtrmswpvfv epppehvvgp
+      301 hpqlvtdgsp akykakkfkd yrhckinklp m
+//
+

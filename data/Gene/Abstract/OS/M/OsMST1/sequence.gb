@@ -1,0 +1,75 @@
+LOCUS       AB052883                1557 bp    mRNA    linear   PLN 09-OCT-2009
+DEFINITION  Oryza sativa OsMST1 mRNA for monosaccharide transporter 1, complete
+            cds.
+ACCESSION   AB052883
+VERSION     AB052883.1  GI:11991109
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Toyofuku,K., Kasahara,M. and Yamaguchi,J.
+  TITLE     Characterization and expression of monosaccharide transporters
+            (osMSTs) in rice
+  JOURNAL   Plant Cell Physiol. 41 (8), 940-947 (2000)
+   PUBMED   11038054
+REFERENCE   2  (bases 1 to 1557)
+  AUTHORS   Ymaguchi,J. and Toyofuku,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-DEC-2000) Contact:Junji Ymaguchi BioScience Center,
+            Nagoya University; Furo-cho, Chikusa-ku, Nagoya, Aichi 464-8601,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1557
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1557
+                     /gene="OsMST1"
+     CDS             1..1557
+                     /gene="OsMST1"
+                     /codon_start=1
+                     /product="monosaccharide transporter 1"
+                     /protein_id="BAB19862.1"
+                     /db_xref="GI:11991110"
+                     /translation="MAGGVIVANDGDGSAVDHGGRLTFSVVITCLVAASGGLIFGYDV
+                     GISGGVSTMEPFLRRFFPGVVRRMAEARPGNEYCVYDSQALTAFTSSLYVAGLVASLV
+                     ASRVTRAMGRQAVMVMGGALFFAGGAVTGFAVNIAMLIVGRMLLGFGVGFTNQAAPLF
+                     LAEMAPTRWRGSLTAGFQFFLAVGVVIATVTNYFASRVPWGWRLSLGLAGAPAVVIFL
+                     GALFLTDTPSSLVMRGDTARARAALAPGARGWRRTWRRSWKGIVRAVEVARQGEDGAF
+                     RRMAARREYRPNLVFAVAMPMFFQLTGVIVISFFSPLVFRTVGFGSNAALMGNVILGA
+                     VNLVCLMLSTLVIDRYGRKVLFMVGGAIMIIAQVGVAWIMGAQVGKNGSEAMARPYAV
+                     AVVAFTCLHTAGFGWSWGPLGWVIPGEIFPVDIRSAGQAMNVSIGLGLTFVQTQSFLA
+                     MLCRFRYGTFAYYAAWVAVMTVFIAVFLPETKGVPLESMATVWARHWYWKRFAREQPK
+                     TSADEPTGTY"
+ORIGIN      
+        1 atggccggag gtgtcatcgt ggcgaacgac ggtgatggct ccgccgtgga ccacggcgga
+       61 cggctgacgt tctcggtggt catcacctgc ctcgtggcgg cctccggcgg cctcatcttc
+      121 ggctacgacg tcggcatctc aggcggcgtc tcgacgatgg agccgttcct gcggcggttc
+      181 ttccccggcg tggtgaggag gatggcggag gcgaggcccg ggaacgagta ctgcgtctac
+      241 gacagccagg cgctgacggc gttcacgtcg tcgctgtacg tcgccgggct ggtggcgtcg
+      301 ctcgtggcca gccgcgtcac cagggcgatg gggcggcagg ccgtcatggt catgggcggc
+      361 gcgctcttct tcgccggcgg cgccgtcacc ggcttcgccg tgaacatcgc catgctcatc
+      421 gtcggccgca tgctgctcgg cttcggcgtc ggcttcacca accaggcggc tcctctcttc
+      481 ctcgccgaga tggccccgac gcggtggcgc ggctcgctca cggccgggtt ccagttcttc
+      541 ctcgccgtcg gcgtcgtcat cgccaccgtc accaactact tcgcgtcgcg cgtcccctgg
+      601 gggtggcgcc tctccctcgg cctcgcgggg gcgcccgccg tcgtcatctt cctgggcgcg
+      661 ctcttcctca ccgacacgcc cagcagcctc gtcatgcgcg gcgacacggc ccgcgcgcgc
+      721 gccgcgctgg ctccgggtgc gcggggctgg cgccgaacgt ggaggcggag ctggaagggc
+      781 atcgtgcgcg ccgtggaggt ggcgcgccag ggggaggacg gcgcgttccg gcggatggcg
+      841 gcgaggcggg agtaccgccc taacctggtg ttcgccgtgg ccatgcccat gttcttccag
+      901 ctcacgggcg tcatcgtgat ctccttcttc tccccgctgg tgttccgcac cgtcgggttc
+      961 ggcagcaacg ccgcgctgat gggcaacgtc atcctcggcg ccgtcaacct cgtctgcctc
+     1021 atgctctcca ccctcgtcat cgaccgctac ggccgcaagg tgctcttcat ggtcggcggc
+     1081 gccatcatga tcatcgccca ggttggggtg gcgtggatca tgggggcgca ggtggggaag
+     1141 aacgggtcgg aggcgatggc gaggccgtac gcggtggcgg tggtggcgtt cacgtgcctg
+     1201 cacacggcgg ggttcgggtg gtcgtggggc ccgctggggt gggtgatccc cggcgagata
+     1261 ttcccggtgg acatccggtc ggcggggcag gcgatgaacg tgtccatcgg cctcggcctc
+     1321 accttcgtgc agacgcagtc gttcctcgcc atgctctgcc ggttcaggta cggcaccttc
+     1381 gcctactacg ccgcgtgggt cgccgtcatg accgtcttca tcgccgtctt cctgccggag
+     1441 accaagggcg tcccgctcga gtccatggcc accgtctggg cgcgacactg gtactggaag
+     1501 cggttcgcgc gggagcaacc aaagacgagc gccgacgaac cgaccgggac gtactga
+//
+

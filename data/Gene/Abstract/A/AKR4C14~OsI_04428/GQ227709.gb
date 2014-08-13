@@ -1,0 +1,57 @@
+LOCUS       GQ227709                 936 bp    mRNA    linear   PLN 06-JUL-2009
+DEFINITION  Oryza sativa Indica Group aldo-keto reductase (AKR2) mRNA, complete
+            cds.
+ACCESSION   GQ227709
+VERSION     GQ227709.1  GI:242531271
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 936)
+  AUTHORS   Tantitadapitak,C. and Kabinpong,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAY-2009) Biochemistry, Kasetsart University, 50
+            Pahonyothin Rd Bangken, Bangkok, Bangkok 10903, Thailand
+FEATURES             Location/Qualifiers
+     source          1..936
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+     gene            1..936
+                     /gene="AKR2"
+                     /locus_tag="OsI_04428"
+     CDS             1..936
+                     /gene="AKR2"
+                     /locus_tag="OsI_04428"
+                     /note="OsAKR2"
+                     /codon_start=1
+                     /product="aldo-keto reductase"
+                     /protein_id="ACS92968.1"
+                     /db_xref="GI:242531272"
+                     /translation="MAKHLVLNTGAKIPSVGLGTWQSDPGVVGNAVYAAVKAGYRHID
+                     CASAYNNEKEVGLALKKLFEEGVVKREDLFITSKLWCDHHAPEDVPEALDATLNDLQL
+                     EYLDLYLIHWPFRTKKGSSIGKPESYLPPDIPSTWAAMEKLYDSGKSRAIGVSNFSSK
+                     KLGDLLAAARVPPAVDQVECHPGWQQMKLHNFCQSTGIHLSAYSPLGSPGSTFMNGNV
+                     LKEPIIISIAEKLGKTPAQVALRWNIQMGHSVLPKSVSEERIKQNLDVYDWSIPEDLL
+                     AKFSEIKQVRLLRGNFIVNPQSVYKTHEELWDGEI"
+ORIGIN      
+        1 atggcgaagc acttagtgct caacaccggc gccaagatcc cctccgtggg cctcggcacc
+       61 tggcagtccg accccggcgt cgtcggcaac gccgtctacg ccgccgtcaa ggcggggtat
+      121 cggcacatcg attgcgccag tgcgtacaac aacgaaaagg aggtagggtt ggctctgaag
+      181 aagctatttg aagagggtgt ggtcaaacgc gaagatctgt ttatcacgtc taagctatgg
+      241 tgtgatcatc atgccccaga ggatgtgcct gaggcactag atgctacctt gaatgactta
+      301 cagcttgagt acctggatct ttacctcatt cattggccat tcagaaccaa gaagggatcc
+      361 agcattggca aacctgaaag ctacttacca cctgacatcc catctacctg ggcagcaatg
+      421 gagaagttat atgattctgg caaaagtcgt gccattggtg tgagtaactt ctcatcgaaa
+      481 aaattgggtg acctgcttgc tgcagcccgt gtacctccag ctgttgacca ggtggagtgc
+      541 catcctggtt ggcagcagat gaagctgcat aacttttgcc agtcaacggg cattcatctt
+      601 tctgcatact cgccgctagg ttcacctggt tcaacattta tgaacggcaa tgtccttaag
+      661 gaacccatca ttatctcgat tgcagagaag cttggcaaaa ctcctgcaca agtggcgctg
+      721 cgctggaaca ttcagatggg tcacagtgta ctcccaaaaa gtgtgagtga agaaaggata
+      781 aagcagaact tagatgttta tgactggtct attccagagg acttgcttgc taagttctcg
+      841 gagattaagc aggttaggct gctcaggggc aacttcattg tcaatccaca gagcgtttac
+      901 aagacccatg aggagctctg ggacggggaa atttag
+//
+

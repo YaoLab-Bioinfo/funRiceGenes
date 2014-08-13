@@ -1,0 +1,160 @@
+LOCUS       X67711                  4791 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  O.sativa hsp70 gene for heat shock protein 70.
+ACCESSION   X67711
+VERSION     X67711.2  GI:21664286
+KEYWORDS    heat shock protein 70; hsp70 gene.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Qun,W. and Rong-Xiang,F.
+  TITLE     Structure and expression of a rice hsp 70 cognate gene
+  JOURNAL   Sci. China, C, Life Sci. 39, 291-299 (1996)
+   PUBMED   8964022
+REFERENCE   2
+  AUTHORS   Qun,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-AUG-1992) W. Qun, Institute of Microbiology, Academia
+            Simica, Dept. of Virology, Beijing 100080, PROC
+  REMARK    revised by [3]  MAT
+REFERENCE   3
+  AUTHORS   Qun,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-1994) W. Qun, Institute of Microbiology, Academia
+            Simica, Dept. of Virology, Beijing 100080, PROC
+  REMARK    revised by [4]
+REFERENCE   4  (bases 1 to 4791)
+  AUTHORS   Qun,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUN-2002) W. Qun, Institute of Microbiology, Academia
+            Simica, Dept. of Virology, Beijing 100080, PROC
+COMMENT     On Jul 1, 2002 this sequence version replaced gi:736271.
+FEATURES             Location/Qualifiers
+     source          1..4791
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+     misc_feature    554..568
+                     /note="HSE"
+     TATA_signal     583..588
+     gene            <689..>4577
+                     /gene="hsp70"
+     CDS             join(689..902,2842..4574)
+                     /gene="hsp70"
+                     /codon_start=1
+                     /product="heat shock protein 70"
+                     /protein_id="CAA47948.2"
+                     /db_xref="GI:21664287"
+                     /db_xref="GOA:Q40693"
+                     /db_xref="HSSP:3HSC"
+                     /db_xref="InterPro:IPR001023"
+                     /db_xref="InterPro:IPR013126"
+                     /db_xref="InterPro:IPR018181"
+                     /db_xref="UniProtKB/TrEMBL:Q40693"
+                     /translation="MAGKGEGPAIGIDLGTTYSCVGVWQHDRVEIIANDQGNRTTPSY
+                     VGFTDSERLIGDAAKNQVAMNPINTVFAKRLIGRRFSDASVQSDIKLWPFKVIAGPGD
+                     KPMIVVQYKGEEKQFAAEEISSMVLIKMREIAEAYLGTTIKNAVVTVPAYFNDSQRQA
+                     TKDAGVIAGLNVMRIINEPTAAAIAYGLDKKATSVGEKNVLIFDLGGGTFDVSLLTIE
+                     EGIFEVKATAGDTHLGGEDFDNRMVNHFVQEFKRKNKKDITGNPRALRRLRTACERAK
+                     RTLSSTAQTTIEIDSLYEGIDFYSTITRARFEELNMDLFRKCMEPVEKCLRDAKMDKS
+                     SVHDVVLVGGSTRIPRVQQLLQDFFNGKELCKNINPDEAVAYGAAVQAAILSGEGNEK
+                     VQDLLLLDVTPLSLGLETAGGVMTVLIPRNTTIPTKKEQVFSTYSDNQPGVLIQVYEG
+                     ERTRTRDNNLLGKFELSGIPPAPRGVPQITVCFDIDANGILNVSAEDKTTGQKNKITI
+                     TNDKGRLSKEEIEKMVQGAEKYKSEDEEHKKKVESKNALENYAYNMRNTIKDEKIASK
+                     LPAADKKKIEDAIDQAIQWLDGNQLAEADEFDDKMKELEGICNPIIAKMYQGAGADMA
+                     GGMDEDDAPPAGGSGAGPKIEEVD"
+     exon            <689..902
+                     /gene="hsp70"
+                     /number=1
+     intron          903..2841
+                     /gene="hsp70"
+                     /number=1
+     exon            2842..>4577
+                     /gene="hsp70"
+                     /number=2
+ORIGIN      
+        1 gtgcctcctc ctccctccca actgcttgac gacgcgagcg cgcaggagct cctcctgctg
+       61 cggccacggc gtggtgctcg tctccgccgc ggcactctcg ccgaaaaaga acgaagagaa
+      121 gagagagaga ggaggaaccg aggaagagga ggagagggag gggagagatg acatggcatc
+      181 ctgatatgtg ggacccatgg gtcccacact gactcagctg ccacatagga taaaaccaga
+      241 atcaaaacca ttggagaatc tactgtgacc ggttttgatt agttaaggga cgtcgatatc
+      301 tggtttttca gttgaggtac gattttgtaa cttgatgaca agttgaggga cctttggtgt
+      361 actttttcct agccaaaagg cctcggccat gtagtaaggt gacggcccac ttgtgccgtc
+      421 ctcgaagacg gccgacagac caacattcat ttacagccca aaaattacga aaacctagct
+      481 gcatcgcatc ttcttctcct ttccccgagg gggagcaccg tccgatgaca tccaacggct
+      541 acggtcagca ccctcggaac cttcgagaac accctccccg ctataaattc ccgcctttcc
+      601 ggtagcatct attcttcctc tcccactctt cctcctctcc aaaccctagc cgccgccgcc
+      661 ggcgtactcg agagaaacat cagcatccat ggcgggcaag ggcgagggtc cggccatcgg
+      721 catcgacctt ggcacgacct actcgtgcgt gggcgtttgg cagcacgacc gcgtggagat
+      781 catcgccaac gaccagggca accgcaccac cccctcctac gtcggcttca ccgactccga
+      841 gaggctcatc ggagatgctg ccaagaacca ggtcgccatg aaccccatca acaccgtctt
+      901 cggtaactac ttattccctt ctcctcagtc ctctctcttt ctctctctcc ccccttagat
+      961 ctcatctcta aggtcttcgt cgtcgtcgta tgctagatct actcttgccc agctcgttca
+     1021 gatctgttag atttgtgtgg gatcgctcta attaattact accaacttag tagatctgga
+     1081 ctcttttgac ttgcagatct tgctccacta ctgttgcatt ttgaatctgt gttgatgtga
+     1141 tttaagttgt tggcagtgct ttttgcatac tatttgaatt tgtggatggt tagcagtcag
+     1201 tacactagga tttattactg gatctggaca gatatgctcg tttcaatcgg ctcgatttgc
+     1261 tatgttgata gctgacatgt tgtgcttgtc ctattgccct ggcgcaaatt tgatccatgc
+     1321 attcttttcg ttaaatgatt tgtcaagtag taatgcttgt ttgaaaatga tattattatt
+     1381 attattatta ttattattat tattataaat aaatatagcc tgaaacattc ttagtttcga
+     1441 ggagaagtga tgatgtctta tccataccac atgtctgcat ctcatatgat gattaatcta
+     1501 catcatgcac taccatctga tctcctctag ctcatacagc ttttaacaag ttaggcgata
+     1561 gatgtttgct acaaacagtc aactggattt gctttcttga aagaaaaaaa tgaaccgtgt
+     1621 agtttgcaac ctgtgatgta aattaaccca tttactgaac tacgttgatt atttcagtaa
+     1681 aatcaccatc tttcggctga ggttgcatgc ttagttatta tatttttacc aatgatgatt
+     1741 ttgttatata gccagatata ctgtactttc ttatgccatt tggtatctga ctcattgtct
+     1801 acttttgtga ctatgtgtct tgaaatatgg catataataa gggggaacgg atcttgcgac
+     1861 attgatggct cctgtatgag cctccaatta ctatatagcc gtttacatgt tcttatcatg
+     1921 ttacttttcc aaattagtgc tgcacatctt gtctgtttgc aagtttgggt tcattcatat
+     1981 tgctgtgggc attttaatac atcttcacta gcatactgta atgtaaattt cttgtacatt
+     2041 gctaaaattt tctgccttga ttgagtagac tctttgatga catctatctt accttatgca
+     2101 cttgattcgt atttctgtta caacattttg attatttgat gtagttcaca caagcatgac
+     2161 acatctcttt gaaaaaaaga tttcattttt taaagcaagc ctaatgcttt agggtgggag
+     2221 aagtgatgat acttaatcca taccacattt ctgcatctca gatgatgatc aatctacatc
+     2281 atgcactacc atctgatctc ccatcataca attttttatt ttgttttgtt ggattatata
+     2341 actttaacat ttgataaagt gccaacagat ttttatacac aatttgttat agatattacc
+     2401 atgacagctt gcagcctgtg atggcaaaag tacccattaa actgaattac actgattatt
+     2461 ccaaacaaat caccatcttt cgggcgaggt tggcttgctt gtttaaaatt atgaatgctt
+     2521 cttgcacaac catttaggac ttcggtagtt tgtaatggcc atttggtatc tgacacatgg
+     2581 tctgctcttg tgactattag tctcgaaata tggcataaaa caagggggaa cggatcttgc
+     2641 gacattggtg gttcctctat gatcctccaa ttactatata gccgtttaca atttgttaag
+     2701 ttaggagcat accttttgct ttgtcatcaa agtcttggtt cctttgtatt tctagttaag
+     2761 attcattttt cttcaggttt ggaaacataa actctgtata attttactgt agttgctgac
+     2821 attgagtctt ctctgcagat gccaagcgtc tcattggcag gaggtttagc gatgcttctg
+     2881 ttcagagtga cattaagctc tggcccttca aggtgattgc tggacctggt gacaagccta
+     2941 tgattgttgt ccagtacaag ggtgaggaga agcagtttgc tgccgaagag atctcctcca
+     3001 tggtcctcat caagatgcgt gagattgctg aggcctacct tggcaccacc atcaagaatg
+     3061 ccgttgtcac tgttcctgcc tacttcaatg actcccagag gcaggccacc aaggatgctg
+     3121 gagtgattgc tggtctcaat gtcatgcgca tcatcaacga gccaactgct gccgctattg
+     3181 cctatggtct tgacaagaag gccaccagcg ttggtgagaa gaatgtcctc atctttgacc
+     3241 ttggaggtgg tacctttgat gtttccctcc ttaccattga ggagggtatc tttgaggtca
+     3301 aggccacagc tggtgacacc catcttggtg gtgaagattt tgacaaccgc atggtcaacc
+     3361 actttgtgca agaattcaag aggaagaaca agaaggatat cactggcaac cccagggctc
+     3421 tcaggaggtt gaggacagct tgtgagaggg cgaagaggac cctgtcctcc actgcccaga
+     3481 ccaccattga gatcgattcc ttgtatgagg gcatcgattt ctactcaacc atcacccgtg
+     3541 ccaggtttga ggagctcaac atggatctct tcaggaagtg tatggagcct gtggagaagt
+     3601 gcctcaggga tgctaagatg gacaagagct ctgttcatga tgttgttctt gttggtggct
+     3661 ccactaggat cccgagggtg cagcagctcc tgcaggattt cttcaacggc aaggagcttt
+     3721 gcaagaacat caacccagat gaggctgttg cttatggtgc tgctgtccag gctgccatct
+     3781 tgagtggtga gggcaacgag aaggtccagg acctcctcct gttggatgtt acccctcttt
+     3841 ctctcggttt ggagactgct ggtggtgtca tgaccgtctt gatcccaagg aacaccacca
+     3901 ttcccaccaa gaaggagcag gtcttctcca cctactctga caaccagcct ggtgtgctca
+     3961 tccaggttta tgagggtgag aggaccagga cacgtgacaa caacctgctg ggcaagtttg
+     4021 agctctctgg aatccctcct gctcccaggg gtgttccaca gatcactgtt tgcttcgaca
+     4081 ttgatgccaa tggtatcctg aacgtgtctg ctgaggacaa gaccaccggg cagaagaaca
+     4141 agatcaccat caccaacgac aagggcaggc tcagcaagga ggagattgag aagatggtcc
+     4201 agggggccga gaagtacaag tcagaggatg aggagcacaa gaagaaggtg gagtccaaga
+     4261 acgcgctgga gaactacgcc tacaacatgc gcaacaccat caaggatgag aagatcgcct
+     4321 cgaagctccc ggcagcggac aagaagaaga tcgaggatgc catcgaccag gccatccagt
+     4381 ggctggacgg caaccagctc gctgaggctg atgagttcga tgacaagatg aaggagctgg
+     4441 agggcatctg caaccccatc atcgccaaga tgtaccaggg cgctggcgcg gacatggccg
+     4501 gcggcatgga cgaggacgat gctcccccgg ctggcggcag cggtgctggc cccaagatcg
+     4561 aggaggtcga ctaagcgcca aatttggtta aaaacttggg catgagttcg aaacctacag
+     4621 atttggggct gaactttggt taggtgatcc gcgcttcaag ttatcttatt gcattatcag
+     4681 tgtctcttta ttagttgtgt taaaaacttg gggattatgt ggtgctatgg taccttttgg
+     4741 tctgtttggg cagtctattt gaagaacttc gttgggagct ctattgatct c
+//
+

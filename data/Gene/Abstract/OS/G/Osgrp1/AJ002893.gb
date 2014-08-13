@@ -1,0 +1,63 @@
+LOCUS       AJ002893                 780 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for glycine-rich RNA-binding protein (OsGRP1).
+ACCESSION   AJ002893
+VERSION     AJ002893.1  GI:2624325
+KEYWORDS    glycine-rich protein; GRP1 gene; RNA-binding protein.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 780)
+  AUTHORS   Macknight,R., Lister,C. and Dean,C.
+  TITLE     Rice cDNA clones OsGRP1 and OsGRP2 (Accession Nos. AJ002893 and
+            AJ002894, respectively) define two classes of glycine-rich
+            RNA-binding proteins (PGR98-153)
+  JOURNAL   Plant Physiol. 117, 1527-1527 (1998)
+REFERENCE   2  (bases 1 to 780)
+  AUTHORS   Macknight,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUL-1997) Macknight R., Molecular Genetics, John
+            Innes Centre, Colney Lane, Norwich, Norfolk NR4 7UH, United Kingdom
+COMMENT     complete sequence of EST clone accession number D24035.
+FEATURES             Location/Qualifiers
+     source          1..780
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..780
+                     /gene="OsGRP1"
+     CDS             91..573
+                     /gene="OsGRP1"
+                     /note="glycine-rich RNA-binding protein 1"
+                     /codon_start=1
+                     /product="OsGRP1"
+                     /protein_id="CAA05728.1"
+                     /db_xref="GI:2624326"
+                     /db_xref="GOA:O24187"
+                     /db_xref="HSSP:1UAW"
+                     /db_xref="InterPro:IPR000504"
+                     /db_xref="InterPro:IPR012677"
+                     /db_xref="InterPro:IPR015465"
+                     /db_xref="UniProtKB/TrEMBL:O24187"
+                     /translation="MAAPDVEYRCFVGGLAWATDDRSLEAAFSTFGEILESKIINDRE
+                     TGRSRGFGFVTFSSEQAMRDAIEGMNGKELDGRNITVNEAQSRRSGGGGGGGYGQRGG
+                     GGGYGGGGGYGGGGGGGYASREGGYGGGGGYGGGRGGGGGYGGGYGRGGGNSDGNWRN
+                     "
+ORIGIN      
+        1 gcgtctttct cctccccctc ccggttcggt tcggttcggg tccggttcga tttcgttttt
+       61 ttttcttctt cgtggggttg gtgggaaagc atggcggcgc cggatgttga gtaccgctgc
+      121 ttcgtcggcg gcctcgcctg ggccaccgac gaccgctccc tcgaagccgc cttctccacc
+      181 ttcggcgaga tcctcgagtc caagatcatc aacgatcggg agacggggag gtcgcgcggg
+      241 ttcgggttcg tgacgttctc gagcgagcag gccatgcgcg acgccatcga ggggatgaac
+      301 ggcaaggagc tcgacggccg caacatcacc gtcaacgagg cccagtcgcg ccgctccgga
+      361 ggcggaggcg gaggcggcta cggccagcgc ggcggaggcg gaggctacgg tggcggcggc
+      421 ggctacggtg gtggcggcgg cggtggctac gccagccgtg aaggcggcta cggcggtggc
+      481 ggcggctacg gtggcggccg tggcggcggc ggcggctacg gcggtggcta cggccgcggc
+      541 ggcggcaact ccgacgggaa ctggaggaac tgagcggtgg gccctcatgg ccaagttatc
+      601 tatctatcta atcgagctac catcatcatc atccgatcgt tatcatcgtt agttttgtgt
+      661 ggaactacta tctagtttgt gttactgtgt ggttgcccat ctgtgttttt gatcgcaaga
+      721 agaaagctcg tctcgtgttt gctttgatca aatgaaatga atgaatgaat cttagtgtga
+//
+

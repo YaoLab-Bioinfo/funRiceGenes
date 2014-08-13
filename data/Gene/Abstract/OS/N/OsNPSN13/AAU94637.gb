@@ -1,0 +1,52 @@
+LOCUS       AAU94637                 266 aa            linear   PLN 25-FEB-2008
+DEFINITION  SNARE 13 [Oryza sativa Japonica Group].
+ACCESSION   AAU94637
+VERSION     AAU94637.1  GI:53829389
+DBSOURCE    accession AY740016.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 266)
+  AUTHORS   Bao,Y.M., Wang,J.F., Huang,J. and Zhang,H.S.
+  TITLE     Cloning and characterization of three genes encoding Qb-SNARE
+            proteins in rice
+  JOURNAL   Mol. Genet. Genomics 279 (3), 291-301 (2008)
+   PUBMED   18197419
+REFERENCE   2  (residues 1 to 266)
+  AUTHORS   Bao,Y.M. and Zhang,H.S.
+  TITLE     Molecular Cloning And Characterization of A Novel Plant SNAREs Gene
+            Family From Rice
+  JOURNAL   Unpublished
+REFERENCE   3  (residues 1 to 266)
+  AUTHORS   Bao,Y.M. and Zhang,H.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2004) Agro. Department, Rice Institution, Weigang
+            1, Nanjing Agro. Univ., Nanjing, Jiangsu 210095, P.R. China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..266
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Jiucaiqing"
+                     /db_xref="taxon:39947"
+                     /tissue_type="flowering spike"
+     Protein         1..266
+                     /product="SNARE 13"
+                     /name="t-SNARE"
+     Region          148..224
+                     /region_name="Sec20"
+                     /note="Sec20; pfam03908"
+                     /db_xref="CDD:112708"
+     CDS             1..266
+                     /gene="NPSN13"
+                     /coded_by="AY740016.1:106..906"
+ORIGIN      
+        1 masdvpmgpe leqvdgeiqd ifralqngfq kmdkikdsnr qskqledltg kmreckrlik
+       61 efdrilkede kknsadvnkq lndkkqlmik elnsyvtlrk tyqsslgnkr ielfdtgndq
+      121 vaedntvqma semsnqqlmd agrkqmdqtd qvierskkvv aqtvevgsqt aaalsqqteq
+      181 mkrignelds vhfslkkasq mvkeigrqva tdkcimaflf livcgviaii vvkivnphnk
+      241 nirdipglap paqnrkllsi esfgsl
+//
+

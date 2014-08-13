@@ -1,0 +1,57 @@
+LOCUS       DQ641916                1025 bp    mRNA    linear   PLN 25-JUN-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) myosin heavy chain 1 mRNA,
+            partial cds.
+ACCESSION   DQ641916
+VERSION     DQ641916.1  GI:109288131
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1025)
+  AUTHORS   Liang,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAY-2006) College of Life Sciences, Jianshe,
+            Xinxiang, Henan 453007, China
+FEATURES             Location/Qualifiers
+     source          1..1025
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+                     /tissue_type="pannicle"
+                     /country="China"
+     CDS             <1..609
+                     /note="Osmy1"
+                     /codon_start=1
+                     /product="myosin heavy chain 1"
+                     /protein_id="ABG29109.1"
+                     /db_xref="GI:109288132"
+                     /translation="AEDCEEVSCGIKAALAEKELEEEETKKMIEEESIDATAIDSGEK
+                     ENPEVAELKAKLMAKDMEVAILTADNAELKKQVGEAAEAAKKAEEEAAAKASLVEQDL
+                     KERAAREARMGEQLRASEAARETLEAEMRRLRVQTEQWRKAAEAAAAVIGGDAHFVGH
+                     NGNGWGSPATMPDDCDDEGFGGKRKGAGIRMLGDLWKKKGSK"
+     3'UTR           610..1025
+ORIGIN      
+        1 gccgaggact gcgaggaggt gagctgtggc ataaaggccg ctttggctga gaaggaactg
+       61 gaggaggaag agacaaagaa gatgatcgaa gaggagagca ttgacgcaac ggccattgac
+      121 tccggcgaga aggagaaccc ggaggtcgcg gaactaaagg ccaagctgat ggcgaaggac
+      181 atggaggtcg ccatactcac ggccgacaat gccgagctca agaagcaggt tggtgaagcc
+      241 gcggaggcgg ccaagaaagc tgaggaggag gcggcggcca aggcgtcctt ggtcgagcag
+      301 gacctgaagg agagagcggc gcgggaggcc cgcatgggcg agcagctgag ggcgtcggaa
+      361 gccgctcggg agacgctgga ggccgagatg cggcgcctgc gcgtgcagac cgagcaatgg
+      421 cgaaaggccg cggaggcggc cgccgcggtg attggcgggg atgcccactt cgtcggccac
+      481 aatggcaacg gctggggctc ccccgcgacg atgccggacg actgcgacga cgaggggttc
+      541 ggtggcaaga ggaagggagc cggtatccgg atgcttggcg acctgtggaa gaagaagggg
+      601 agcaagtgaa ggtgacatgg catggccaag gcttgtatcc gatcactgtt cacggtggtg
+      661 agctgcctca gctcgctggc tccagcaccc ataaacaact agcaccgtcg tttactgcat
+      721 tttggttcgg atttcactta tgtttgtatg atcatgagat gatgttcgtg agattaaact
+      781 atgtttgaag tgccggacag ccggagcatt acattgacta tggagcaacc cagatggttt
+      841 ggtgttttcc tgtaatgcta gagtgctgtt gatcctggat cgccctttgg gatttttgtc
+      901 atgaagacga actcgaggct gggatgatgc taaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+      961 aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     1021 aaaaa
+//
+

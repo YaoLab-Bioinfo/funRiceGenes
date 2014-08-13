@@ -1,0 +1,74 @@
+LOCUS       OSU33283                1480 bp    mRNA    linear   PLN 08-DEC-1995
+DEFINITION  Oryza sativa Ca2+ sensitive 3'(2'),5-diphosphonucleoside 3'(2')
+            phosphohydrolase mRNA, complete cds.
+ACCESSION   U33283
+VERSION     U33283.1  GI:1109671
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1480)
+  AUTHORS   Peng,Z. and Verma,D.P.
+  TITLE     A rice HAL2-like gene encodes a Ca(2+)-sensitive
+            3'(2'),5'-diphosphonucleoside 3'(2')-phosphohydrolase and
+            complements yeast met22 and Escherichia coli cysQ mutations
+  JOURNAL   J. Biol. Chem. 270 (49), 29105-29110 (1995)
+   PUBMED   7493934
+REFERENCE   2  (bases 1 to 1480)
+  AUTHORS   Peng,Z. and Verma,D.P.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-AUG-1995) Desh Pal Verma, Plant Biotechnology, Ohio
+            State University, 1060 Carmack Road, Columbus, OH 43210, USA
+FEATURES             Location/Qualifiers
+     source          1..1480
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /strain="Tallahamsa"
+                     /db_xref="taxon:4530"
+                     /note="complements yeast met22 and E. coli cisQ mutations"
+     CDS             160..1236
+                     /note="similar to yeast HAL2 product"
+                     /codon_start=1
+                     /product="3'(2'),5-diphosphonucleoside 3'(2')
+                     phosphohydrolase"
+                     /protein_id="AAC49121.1"
+                     /db_xref="GI:1109672"
+                     /translation="MSQAAGNPYAAELAAAKKAVTLAARLCQAVQKDILQSGVQSKAD
+                     QSPVTVADYGSQILVSLVLKMEAPASSSFSMVAEEDSEELRKEGAEEILENITELVNE
+                     TIVDDGTYSIYFSKEGILSAIDDGKSEGGPSGQHWVLDPIDGTKGFLRGDQYAIALAL
+                     LDEGKVVLGVLACPNLSLGSIGNLNGGSSGDQVGALFSATIGCGAEVESLQGSPAQNI
+                     SLCSIDNPVEASFFESYEGAHSLRDLTGSIAEKLGVQAPPVRIDSQAKYGALARGDGA
+                     IYLRFPHKGYREKIWDHAAGSIVVTEAGGLVTDASGNDLDFSKGRFLDLDTGIIATNK
+                     QLMPSLLKAVQDAIKEQNQAASPL"
+     polyA_site      1480
+                     /note="26 A nucleotides"
+ORIGIN      
+        1 gtggaattcc ggtcgcgccg tgcatctcgt acgtgacggg gaggggcggc ctcacccagg
+       61 gatgctgcaa cggcgtcaag gggctgaaca acgccgcccg caccaccgcc gaccgccagg
+      121 ccgcctgccg ctgccgcgag actccgcgcc agcgccacca tgtcgcaggc cgccgggaac
+      181 ccctacgccg ctgagctcgc cgccgccaag aaggccgtca ccctcgccgc ccgcctctgc
+      241 caggcggtgc aaaaggacat tctgcagtct ggtgttcagt ctaaggcgga tcaaagtccg
+      301 gtgacagttg ctgattatgg gtctcaaata ttggtaagcc ttgtcttgaa aatggaagca
+      361 ccagcttctt cttccttctc tatggtggct gaggaggact cggaagaatt gaggaaagaa
+      421 ggcgcggaag aaattttaga aaatatcacc gagctcgtaa acgaaactat cgtagatgat
+      481 ggtacataca gcatttactt ctctaaggaa ggtatcctct ctgcaattga cgacggcaag
+      541 tctgagggag gtccatctgg gcaacactgg gtgctagatc caattgatgg gactaaaggt
+      601 ttcttaaggg gagaccaata tgctattgcc ctggctctgc ttgatgaggg taaagttgtt
+      661 ttgggtgtat tggcttgtcc caacctttct ttgggatcaa taggcaacct taatggtggc
+      721 tcctcgggag atcaagttgg tgctctcttt tctgctacta ttggttgtgg agctgaagta
+      781 gagtctttac agggctctcc agcacaaaac attagtctct gctccatcga caatccagtc
+      841 gaagcttcat tctttgagtc ctacgaaggg gcacactcct tgcgtgattt aacaggctcc
+      901 attgcggaga aacttggtgt ccaagctcct ccagttagaa ttgatagcca agcaaaatac
+      961 ggtgccctag cccgaggtga cggtgccatt tacttgcgtt ttccacacaa aggttacaga
+     1021 gagaagatct gggatcatgc agctgggtca atcgtcgtga cagaagctgg aggtctggtg
+     1081 acagatgcat caggaaacga tttggatttc tccaaaggga gatttcttga tctcgacaca
+     1141 gggatcatcg cgacgaacaa gcagctgatg ccttcactcc tgaaggctgt gcaagatgcc
+     1201 atcaaggagc aaaaccaggc tgcttccccg ttgtagtagc tgtctcaatc cacaatccac
+     1261 aaatatcata atgtttccat ataataataa ttgcagtgct gcttccccat caacattact
+     1321 ttaaatgtgt gtacagcacc actttgttgt tgttgctgct gcaaattcag tatcttattg
+     1381 ttgcagcatt tctgcatcta attggtgggt gaactggcac cacatgaatg ttctttcatc
+     1441 tggattcaga agaaataatt aaattggcct gattctccct
+//
+

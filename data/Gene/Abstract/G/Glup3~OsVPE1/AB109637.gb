@@ -1,0 +1,79 @@
+LOCUS       AB109637                1494 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group Glup3 mRNA for vacuolar processing
+            enzyme, complete cds.
+ACCESSION   AB109637
+VERSION     AB109637.1  GI:30465960
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kumamaru,T., Uemura,U., Takemoto,Y., Ogawa,M. and Satoh,H.
+  TITLE     High-resolution mapping of glup3 gene accumulating high amount of
+            glutelin precursor
+  JOURNAL   Rice Genet. Newsl. 19, 62-63 (2002)
+REFERENCE   2  (bases 1 to 1494)
+  AUTHORS   Kumamaru,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAY-2003) Contact:Toshihiro Kumamaru Kyushu
+            University, Faculty of Agriculture, Laboratry of Plant Genetic
+            Resources; Higashi, Hakozaki 6-10-1, Fukuoka, Fukuoka 812-8581,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1494
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Kinmaze"
+                     /db_xref="taxon:39947"
+                     /chromosome="4"
+                     /clone_lib="lambda zap II rice endosperm cDNA"
+                     /country="Japan"
+     gene            1..1494
+                     /gene="Glup3"
+     CDS             1..1494
+                     /gene="Glup3"
+                     /note="asparagynyl endopeptidase, gluterlin precursor
+                     mutant 3"
+                     /codon_start=1
+                     /product="vacuolar processing enzyme"
+                     /protein_id="BAC76418.1"
+                     /db_xref="GI:30465961"
+                     /translation="MAARCWVWGFVVALLAVAAAADGEEEEGKWEPLIRMPTEEGDDA
+                     EAAAPAPAPAAADYGGTRWAVLVAGSSGYGNYRHQADVCHAYQILQKGGVKEENIVVF
+                     MYDDIAHNILNPRPGTIINHPKGGDVYAGVPKDYTGHQVTTENFFAVLLGNKTAVTGG
+                     SGKVIDSKPEDHIFIYYSDHGGPGVLGMPNLPYLYAGDFIKVLQKKHASNSYSKMVIY
+                     VEACESGSIFEGLMPENLNIYVTTASNAVENSWGTYCPGEEPSPPPEYITCLGDMYSV
+                     AWMEDSETHNLKKETIEDQYELVKKRTSNANKLNEGSHVMEYGDKTFKDEKLFLYQGF
+                     NPANGNITNELIWPVPKATVNQRDADLLFMWKRYEQLNGVSEDKLRALREIEDTIAHR
+                     KHLDSSIDFIGKLVFGFENGPLALEAARSSGQPLVDNWDCLKKMVRIFESQCGSLTQY
+                     GMKYMRAFANICNNGVSEAKMMEASINACGRYNSARWSPMTEGGHSA"
+ORIGIN      
+        1 atggctgcgc ggtgctgggt atggggcttc gtcgtcgcgc tcctggctgt ggcggcggcg
+       61 gcggatgggg aggaggagga ggggaagtgg gagccgctga ttcggatgcc gacggaggaa
+      121 ggggacgacg ctgaggctgc tgctcccgct cctgctcctg cggcggcgga ttacgggggg
+      181 acgaggtggg cggtgctcgt cgccggctcc tccggctacg ggaactaccg gcaccaggcc
+      241 gatgtgtgcc atgcgtacca gattctgcag aagggaggag tgaaggagga gaacattgtg
+      301 gtgtttatgt atgatgacat tgcccataac attctcaatc caaggcctgg gaccatcatc
+      361 aaccatccta aaggtggaga tgtttatgct ggtgttccaa aggactacac tggtcaccag
+      421 gtcaccactg agaacttctt tgctgttctc ttgggcaata aaaccgcagt tactggaggg
+      481 agtgggaagg ttatagacag caaaccagag gatcacatct tcatctatta ctcagatcat
+      541 gggggtcctg gagttcttgg tatgcctaac ctgccgtatc tttatgctgg tgattttatt
+      601 aaagtgttac aaaagaaaca tgcttccaac agctactcga aaatggttat atatgtcgaa
+      661 gcatgtgaaa gtggcagtat cttcgagggc ttaatgccag aaaatcttaa tatttatgtc
+      721 acaacagcat ccaatgcagt tgagaatagt tggggaacat actgccctgg ggaggaacca
+      781 tcacctcctc ctgaatatat tacatgtcta ggtgacatgt acagtgttgc ttggatggag
+      841 gacagtgaga ctcataatct aaagaaggaa actatcgagg atcagtatga gctggttaaa
+      901 aaaagaacat caaatgcaaa taagttaaat gagggctctc atgtcatgga atatggtgac
+      961 aagacattca aggatgagaa gctcttcctc tatcaaggtt ttaatcctgc aaatggcaac
+     1021 atcacaaatg aattgatttg gccagtacca aaggctacag tcaatcaaag agatgccgat
+     1081 cttcttttca tgtggaagag gtatgagcag ttgaatgggg tgtctgaaga caagctgagg
+     1141 gctcttaggg agatagaaga caccatagca cacaggaagc atcttgacag cagtatcgat
+     1201 ttcatcggga agcttgtgtt tggttttgaa aatgggcctt tagcccttga ggctgcaaga
+     1261 agctctggtc aaccattagt cgacaactgg gattgtttga agaagatggt gcgaattttt
+     1321 gaatctcaat gtggatcact cactcagtat ggcatgaaat acatgagagc atttgcaaac
+     1381 atatgcaaca acggtgtctc tgaggccaaa atgatggaag caagtatcaa cgcttgcggc
+     1441 cgttacaact cggcgagatg gagcccaatg actgaaggag gacacagtgc ttga
+//
+

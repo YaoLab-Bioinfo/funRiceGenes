@@ -1,0 +1,65 @@
+LOCUS       AF151693                1193 bp    mRNA    linear   PLN 29-NOV-1999
+DEFINITION  Oryza sativa transcription factor (MADS13) mRNA, complete cds.
+ACCESSION   AF151693
+VERSION     AF151693.1  GI:6470125
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1193)
+  AUTHORS   Lopez-Dee,Z.P., Wittich,P., Enrico Pe,M., Rigola,D., Del Buono,I.,
+            Gorla,M.S., Kater,M.M. and Colombo,L.
+  TITLE     OsMADS13, a novel rice MADS-box gene expressed during ovule
+            development
+  JOURNAL   Dev. Genet. 25 (3), 237-244 (1999)
+   PUBMED   10528264
+REFERENCE   2  (bases 1 to 1193)
+  AUTHORS   Colombo,L. and Kater,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAY-1999) Department of Genetics, University of
+            Milan, Celoria Street n 26, Milano 20133, Italy
+FEATURES             Location/Qualifiers
+     source          1..1193
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1193
+                     /gene="MADS13"
+                     /note="OsMADS13"
+     CDS             60..872
+                     /gene="MADS13"
+                     /note="MADS box protein"
+                     /codon_start=1
+                     /product="transcription factor"
+                     /protein_id="AAF13594.1"
+                     /db_xref="GI:6470126"
+                     /translation="MGRGRIEIKRIENTTSRQVTFCKRRNGLLKKAYELSVLCDAEVA
+                     LIVFSSRGRLYEYSNNNNVKATIDRYKKAHACGSTSGAPLIEVNAQQYYQQESAKLRH
+                     QIQMLQNTNKHLVGDNVSNLSLKELKQLESRLEKGIAKIRARKNELLASEINYMAKRE
+                     IELQNDNMDLRTKIAEEEQQLQQVTVARSAAMELQAAAAAQQQQQNPFAVAAAQLDMK
+                     CFFPLNLFEAAAQVQAVAAQRQQIIPTELNLGYHHHLAIPGATAADAPPPHF"
+ORIGIN      
+        1 gaagaagcta gtttcctgcg gccgacctct tgcttctcac tttttgagag caagaagaca
+       61 tggggagggg caggattgag atcaagagga tcgagaacac gacaagccgc caggtgacct
+      121 tctgcaagcg ccgcaacggg cttctcaaga aggcgtatga gctctccgtc ctctgcgatg
+      181 ccgaggtggc tctcatcgtc ttctccagcc gtggccgcct ctacgagtac tccaacaaca
+      241 acaatgtgaa ggctacaatt gacaggtaca agaaggcgca tgcttgtggc tcaacttctg
+      301 gtgcacctct catagaggtc aatgctcagc aatactacca gcaggagtct gccaaactgc
+      361 gccaccagat tcagatgctg caaaacacca acaagcacct ggttggcgat aatgtgagca
+      421 acctgtcact gaaggagctg aagcaacttg aaagccgcct ggagaaaggc attgcaaaga
+      481 tcagagccag gaagaatgaa ctgctggctt cagagatcaa ttacatggcc aaaagggaga
+      541 ttgagcttca gaacgacaac atggacctca gaaccaagat tgctgaggag gagcagcagc
+      601 tgcagcaggt gacggtggcc cggtcggccg ccatggagct gcaggctgcg gcggcggcgc
+      661 agcagcagca gcagaatccg ttcgcggtgg cggcggcgca gttggacatg aagtgcttct
+      721 tcccgttgaa cctgttcgag gcggcggcgc aggtgcaggc cgtggcggcg cagcgccagc
+      781 agatcatccc caccgagctc aacctcggct accaccacca cctcgccatt cccggcgcca
+      841 ccgccgccga cgcgccgcct cctcacttct gaacctcatg aacttcattt tgcaccggcc
+      901 tgctgccatg gatatgatga tcagctcatc ttctatatct tatgctgtta tgcagacaga
+      961 cactgatgtg gctatatata tagtatttgt gtgctgctgc attttgttaa tcccttataa
+     1021 attgctactt aattatctca tggagaattg gagagaccaa atgggcagag ctagctagtt
+     1081 agctgtgccc aattaagaag ctaaatctat cagaagtgtg tactgatgag tgatgagtat
+     1141 ttttcttcat ttgggatcaa attaaactaa gtaaaacata tatattgact aaa
+//
+

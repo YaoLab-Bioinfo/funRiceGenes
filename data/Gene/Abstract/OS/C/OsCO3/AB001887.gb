@@ -1,0 +1,70 @@
+LOCUS       AB001887                1361 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group cDNA for zinc finger protein, complete
+            cds, clone:S12569.
+ACCESSION   AB001887
+VERSION     AB001887.1  GI:3618317
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1361)
+  AUTHORS   Song,J., Yamamoto,K., Shomura,A., Itadani,H., Zhong,H.S., Yano,M.
+            and Sasaki,T.
+  TITLE     Isolation and mapping of a family of putative zinc-finger protein
+            cDNAs from rice
+  JOURNAL   DNA Res. 5 (2), 95-101 (1998)
+   PUBMED   9679197
+REFERENCE   2  (bases 1 to 1361)
+  AUTHORS   Sasaki,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAR-1997) Contact:Takuji Sasaki National Institute of
+            Agrobiological Resources, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1361
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="S12569"
+                     /tissue_type="shoot"
+     CDS             29..1036
+                     /codon_start=1
+                     /product="zinc finger protein"
+                     /protein_id="BAA33205.1"
+                     /db_xref="GI:3618318"
+                     /translation="MLKLEPEFPGLPQRCDSCRSAPCAFYCLADSAALCATCDADVHS
+                     VNPLARRHRRVPMGVVAAPGAGGAFVVRPAGGVNSSWPIREGRRCDYDDDDADAAGEE
+                     DEEATSWLLFDPLKDSSDQGLPPFGDALVADFLNLGGGAGEKEDASSSKDCSSSHGKS
+                     SEGSHEFAVPGEPVPERQGFGAVSMDITDYDASNFRRGYSFGASLGHSVSMSSLENMS
+                     TVPDCGVPDITTSYLRSSKSTIDLFTAAAGSPVAAHSIMSPPQFMGAIDREARVHRYR
+                     EKRKTRRFEKTIRYASRKAYAETRPRIKGRFAKRSDTDLEVDQYFSTTADSSCGVVPT
+                     F"
+ORIGIN      
+        1 attgacgtct tcgcacaggc acccagccat gctgaagttg gagccggagt tccccggcct
+       61 gccgcagcgg tgcgactcgt gccggtcggc gccgtgcgcg ttctattgcc tcgccgattc
+      121 ggcggcgctc tgtgccacgt gcgacgctga cgtgcactcc gtcaacccgc tggcacgccg
+      181 ccaccgccgc gtaccaatgg gcgtggtggc tgcccccggc gccgggggag ccttcgtcgt
+      241 ccgccctgca ggcggtgtca actcctcctg gccaatccga gagggcagga ggtgcgacta
+      301 cgacgatgac gacgccgacg ccgctgggga ggaagacgaa gaggcgacgt cgtggcttct
+      361 gttcgacccg ctcaaggact cctcggatca ggggctgccg ccgttcggcg acgcgctggt
+      421 ggccgacttc ctcaacctcg gcgggggcgc cggggagaag gaggacgcgt cgtcgagcaa
+      481 ggactgcagc agcagccacg ggaagagcag cgagggcagc cacgagttcg ccgtgcccgg
+      541 cgagcccgta ccggagcgcc agggcttcgg ggcggtgagt atggacatta ccgactacga
+      601 cgcctccaat ttcaggcgcg ggtacagctt tggcgcatcg ctcggccaca gcgtttcgat
+      661 gtcatcgctg gagaacatga gcacggtccc agactgcggt gtgccagaca tcaccacctc
+      721 ctacttgagg tcatccaaga gcaccatcga cctcttcacg gcagcagctg gctcccctgt
+      781 ggcggcgcac agcataatgt cgccaccgca gttcatgggc gccattgaca gggaggccag
+      841 ggtgcaccgg tacagggaga agaggaagac gaggcggttc gagaagacca tcaggtacgc
+      901 gtcgcggaag gcgtatgccg agacccggcc gaggatcaag ggacgcttcg ccaagcgcag
+      961 cgacaccgac cttgaggtcg accagtactt ctccaccacc gccgactcca gctgcggcgt
+     1021 cgtgcccacg ttctagcgag cagcttggcc gcacgcctgg aagacaatca aagaagctca
+     1081 ggaatgaata tattctccca ctgtatagta catcttggtt gcttagctat atatatatat
+     1141 atatatatat atatatatgt ataattcgcc gaatcgcctc taaatttgtg ggaggtatga
+     1201 ggcttcagct gtaggtatat atagatgcta gaaagatgct ccttgtaaaa ttgtgcagga
+     1261 gtaaatgtaa tcatgtagtc atccctcctt ctccaatcct ttacaataca tttctgtttt
+     1321 tttattcagc ttaaaaacta cgttttgttt tttctcccga t
+//
+

@@ -1,0 +1,72 @@
+LOCUS       AB731703                1257 bp    mRNA    linear   PLN 08-AUG-2012
+DEFINITION  Oryza sativa Japonica Group OsMGT1 mRNA for Mg transporter,
+            complete cds, cultivar: Nipponbare.
+ACCESSION   AB731703
+VERSION     AB731703.1  GI:399769837
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Chen,Z.C., Yamaji,N., Motoyama,R., Nagamura,Y. and Ma,J.F.
+  TITLE     Up-Regulation of a Magnesium Transporter Gene OsMGT1 Is Required
+            for Conferring Aluminum Tolerance in Rice
+  JOURNAL   Plant Physiol. 159 (4), 1624-1633 (2012)
+   PUBMED   22732245
+  REMARK    DOI:10.1104/pp.112.199778
+REFERENCE   2  (bases 1 to 1257)
+  AUTHORS   Ma,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUN-2012) Contact:Jian Feng Ma Okayama University,
+            Institute of Plant Science and Resources; Chuo 2-20-1, Kurashiki,
+            Okayama 710-0046, Japan
+FEATURES             Location/Qualifiers
+     source          1..1257
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+                     /map="Os01g0869200"
+     gene            1..1257
+                     /gene="OsMGT1"
+     CDS             1..1257
+                     /gene="OsMGT1"
+                     /codon_start=1
+                     /product="Mg transporter"
+                     /protein_id="BAM35942.1"
+                     /db_xref="GI:399769838"
+                     /translation="MERRAQPVSAAVAPVTGRRKGAAASRKWMVVPAVGEERRVEFGK
+                     HQIMKMTGLPGRDLRVLDPVLSYPSTILGRDRAIVVRLQGVKAIITATEVLVPDHDDV
+                     LLASFLLDLRSRLSLPDAAPSTNPAAADRGNGTEQGDQGSVPGLAISGAGNAKIPPFE
+                     FKVLEVCLEHACKDLESQTRSLEKEAYPALDKLGSKVSTLNLDHVRNLKSRMVDLSGR
+                     VQKIRDELEHLLDDDMDMSEMYLTRKLSFQGLSGSLSRADSHKYASVDHDDDREEEDH
+                     DDETESGRESSVYVKPDIEELEMLLEAYFVQIDGTLNTLYHIREYADDTEDYINIMLD
+                     EKQNQLLQMGVMLTTATVVVTAGIVVVSLFGMNIHIDLMKDPETPEMVRMSNMHFWET
+                     TFGTVAGCIAIYLLAIYAGRKSKILQ"
+ORIGIN      
+        1 atggagcgga gggcgcagcc ggtgtcggcg gcggtggcgc cggtgacggg gaggaggaag
+       61 ggtgcggcgg cgagccggaa gtggatggtg gtgccggcgg tgggggagga gcggagggtg
+      121 gagtttggga agcaccagat catgaagatg acggggctcc ccgggcgcga cctccgggtg
+      181 ctcgacccgg tcctctccta cccgtccacc atcctcggcc gcgaccgcgc catcgtcgtc
+      241 aggctccagg gcgtcaaggc catcatcacc gccaccgagg tgctcgtccc cgaccacgac
+      301 gacgtcctcc tcgcctcctt cctcctcgac ctccgctccc gcctctccct cccggatgcg
+      361 gcgcctagca cgaatccggc ggcggctgat cgcgggaacg ggacggagca gggcgatcag
+      421 gggagcgtgc caggtctggc gatcagcggt gctggcaacg ccaagatccc gccctttgag
+      481 ttcaaggtgc tcgaggtctg cctcgagcac gcatgcaaag acttggaatc tcagacacgc
+      541 tctctggaga aggaggcgta tccggccttg gacaagctgg gatcgaaggt tagcacgctg
+      601 aacctggatc acgtcaggaa tctgaagagc cgcatggttg atctctcagg gcgcgtgcag
+      661 aagattaggg atgagctgga gcacttgctg gatgacgaca tggacatgtc cgagatgtac
+      721 ctgacgagga agctgtcgtt ccaagggctc agcggatcgc tgagcagagc ggattcacac
+      781 aagtacgcat ctgttgatca tgacgacgat agggaggagg aagaccatga cgatgagaca
+      841 gagagtggcc gtgaaagttc tgtttatgtt aagcctgata tagaagagtt ggaaatgctt
+      901 ctggaagctt actttgtgca gatcgatgga acgctgaata ccctgtacca tatccgtgaa
+      961 tacgcggacg acacggagga ttacatcaac ataatgctgg acgagaagca gaaccagctg
+     1021 ctgcagatgg gcgtgatgct gacgacggcg acggtggtgg tcaccgcggg catcgtggtg
+     1081 gtgagcctgt tcggcatgaa catccacatc gacctgatga aagacccgga gacccccgag
+     1141 atggtgagga tgtccaacat gcacttttgg gagaccacct tcggcacggt cgccggctgc
+     1201 atcgccatat acctcctggc gatctacgct gggaggaaga gcaagatcct gcagtga
+//
+

@@ -1,0 +1,42 @@
+LOCUS       C28969                   399 bp    mRNA    linear   EST 04-APR-2002
+DEFINITION  C28969 Rice callus cDNA Oryza sativa Japonica Group cDNA clone
+            C63012_1A, mRNA sequence.
+ACCESSION   C28969
+VERSION     C28969.1  GI:2312814
+DBLINK      BioSample: LIBEST_000961
+KEYWORDS    EST.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 399)
+  AUTHORS   Yamamoto,K. and Sasaki,T.
+  TITLE     Rice cDNA from callus 1997
+  JOURNAL   Unpublished (1997)
+COMMENT     Contact: Takuji Sasaki
+            National Institute of Agrobiological Resources
+            Rice Genome Research Program, Kannondai 2-1-2, Tsukuba, Ibaraki
+            305-8602, Japan
+            Email: URL:http://rgp.dna.affrc.go.jp/
+            PROJECT ='RGP'.
+FEATURES             Location/Qualifiers
+     source          1..399
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="C63012_1A"
+                     /tissue_type="callus"
+                     /dev_stage="callus"
+                     /clone_lib="LIBEST_000961 Rice callus cDNA"
+ORIGIN      
+        1 ctcatacggc tggaggcgan tcnattggga agaaggtctc tgagaatatt ctgaacaaga
+       61 aggagctgga gttctacaaa tgggagggca atctgtccca gctgctgcag aatgtccgca
+      121 acaagcttaa cgaagtcgcc tctagctgga cccgggagag aaggaccatt gcctggatga
+      181 aacggagaag tcgttctcgt attctggaga tctcctccgt cacatattca cctaagctta
+      241 attgatcacg gtgtctgcta tctagtcttg ataaacgctg taaatactaa agttcacgtc
+      301 agtcagacag actgttactg gacactnggc agaggtcatt tacttactca accagttggc
+      361 cttgcctccc atcaaattgc caaattctaa taatttttt
+//
+

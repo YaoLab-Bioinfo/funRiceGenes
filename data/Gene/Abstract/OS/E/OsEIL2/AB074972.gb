@@ -1,0 +1,90 @@
+LOCUS       AB074972                1934 bp    mRNA    linear   PLN 25-NOV-2009
+DEFINITION  Oryza sativa Japonica Group OsEIL2 mRNA for
+            ethylene-insensitive-3-like protein, complete cds.
+ACCESSION   AB074972
+VERSION     AB074972.2  GI:84095192
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Hiraga,S., Sasaki,K., Hibi,T., Yoshida,H., Uchida,E., Kosugi,S.,
+            Kato,T., Mie,T., Ito,H., Katou,S., Seo,S., Matsui,H., Ohashi,Y. and
+            Mitsuhara,I.
+  TITLE     Involvement of two rice ETHYLENE INSENSITIVE3-LIKE genes in wound
+            signaling
+  JOURNAL   Mol. Genet. Genomics (2009) In press
+   PUBMED   19798512
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1934)
+  AUTHORS   Hiraga,S., Mie,T., Kato,T., Ito,H., Matsui,H., Kosugi,S. and
+            Ohashi,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2001) Contact:Susumu Hiraga National Agriculture
+            and Bio-oriented Research Organization, National Institute of Crop
+            Science; Kanondai 2-1-18, Tsukuba, Ibaraki 305-8518, Japan
+COMMENT     On Dec 29, 2005 this sequence version replaced gi:17221606.
+FEATURES             Location/Qualifiers
+     source          1..1934
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone_lib="lambda ZAP II rice leaf cDNA"
+     gene            1..1934
+                     /gene="OsEIL2"
+     CDS             88..1869
+                     /gene="OsEIL2"
+                     /codon_start=1
+                     /product="ethylene-insensitive-3-like protein"
+                     /protein_id="BAB78463.2"
+                     /db_xref="GI:84095193"
+                     /translation="MMGAAVTMVDRRMAFAAEADVDSKAAFGFFGGECFVGEGDLVNP
+                     APPPPQQQQVHEGGFAAEDESDGDDDDDDDDDVDDIEELERRMWRDRVRHKRLKELQQ
+                     SRAGRESRAGDAGGGGRQQRQSQEQARRKKMSRAQDGILKYMLKMMEVCNAQGFVYGI
+                     IPEKGKPVSGASDNLRSWWKEKVRFDRNGPAAIAKYQADNAVPGCDGDAGGAAPAGPH
+                     SLHELQDTTLGSLLSALMQHCDPPQRRFPLEKGVPPPWWPEGSEAWWPEAGVPKELGP
+                     PPYKKPHDLKKAWKVAVLTAVIKHMSPDVDKVRRLVRQSKCLQDKMTAKEIVTWLAVL
+                     KQEEDLYLKLHPGALPPPLSAASFNASVSGEYDVEGVDGDEAGNNNLQKAQNDATAFM
+                     DLTTTMDAALSNNKFLIMPLMKEEAIDVDFIQKRSEPELMLSSDSHARVYTCGNVQCP
+                     HSNYALGFLDRNERNAHQYACKHNAAAAAAESKPPPPHIFEPLGSFDFDLPVDGQRCL
+                     AGLMTMYDNDVAAATQMHHHHHQQQQANFFIRDDAPFGGDVAATAAAAPEFRFSSNFN
+                     VTGGGAVDYGGAMQQPPAKYAGSNWFY"
+ORIGIN      
+        1 gcatagagag agtcagagag aggtggatct atagatagct actgctctgc tgctgctatt
+       61 aagtcagtct gtgctacgat cgaggagatg atgggagcag cggtgaccat ggtggatcgg
+      121 cgcatggcgt tcgcggcgga ggccgacgtt gatagcaagg ccgcctttgg attcttcgga
+      181 ggcgagtgct tcgtcggcga gggcgacctg gtcaacccgg cgccgccgcc gccgcagcag
+      241 cagcaggtgc acgagggcgg attcgccgcc gaggacgaga gcgacggcga cgacgacgac
+      301 gacgacgacg acgacgtgga cgacatcgag gagctggagc gccgcatgtg gcgcgaccgc
+      361 gtccggcaca agcggctcaa ggagcttcag cagagccgcg ccgggaggga gagccgggcg
+      421 ggcgacgccg gcggcggagg caggcagcag cggcagtcgc aggagcaggc gcggcggaag
+      481 aagatgtcgc gggcgcagga cgggatcctc aagtacatgc tcaagatgat ggaggtgtgc
+      541 aacgcgcagg ggttcgtgta cggcatcatc ccggagaagg ggaagccggt gagcggcgcc
+      601 tccgacaacc tccgctcatg gtggaaggag aaggtccgct tcgaccgcaa tggcccggcc
+      661 gccatcgcca agtaccaggc cgacaacgcc gtgccggggt gcgacggcga cgccggcggc
+      721 gccgcgccgg cggggccgca ctccctgcac gagctgcagg acaccacgct gggatcgctg
+      781 ctctcggcgc tcatgcagca ctgcgacccg ccgcagcgcc gcttcccgct ggagaagggc
+      841 gtgccgccgc cgtggtggcc ggaggggagc gaggcgtggt ggcccgaggc cggcgtgccc
+      901 aaggagctcg gcccgccgcc gtacaagaag ccgcacgacc tcaagaaggc gtggaaggtc
+      961 gccgtgctca ccgccgtcat caagcacatg tcccccgacg tcgacaaggt ccgccgcctc
+     1021 gtgcgtcagt ccaagtgcct ccaggacaag atgaccgcca aggagatcgt cacctggctc
+     1081 gccgtcctca agcaggagga ggacctctat ctcaagctcc atcccggcgc cctccccccg
+     1141 ccgctctccg ccgcgtcctt caacgccagc gtctccggcg agtacgacgt cgaaggagtc
+     1201 gacggcgacg aggccgggaa caacaacctg cagaaggcgc agaacgacgc gaccgcgttc
+     1261 atggacctca ccaccaccat ggatgctgct ctgagcaaca acaagttcct gatcatgccg
+     1321 ctgatgaagg aagaggccat cgacgtcgac ttcatccaga agaggagcga gccggagctg
+     1381 atgctgagca gcgacagcca tgcccgcgtc tacacctgcg gcaacgtgca gtgcccgcac
+     1441 agcaactacg cgctcggctt cctcgaccgc aacgaacgca acgcccatca gtacgcctgc
+     1501 aagcacaacg ccgccgccgc cgccgccgag agcaagccgc cgccgccgca catcttcgag
+     1561 ccactcggca gcttcgactt cgacctcccc gtcgacggcc agagatgcct cgccgggctg
+     1621 atgaccatgt acgacaacga cgtcgccgcc gccacgcaga tgcaccacca ccaccatcag
+     1681 cagcagcagg ctaatttctt catccgcgac gacgcgccgt tcggaggcga cgtcgccgcc
+     1741 acggcggcgg cggcgccgga gttcaggttc agttcaaatt tcaacgtgac aggagggggc
+     1801 gccgtggact acggcggcgc catgcagcaa ccgccggcga agtacgccgg atccaactgg
+     1861 ttctactgaa acgaattcga atcgaatggg aaccaaaaga atcaccaccc ctagttcgat
+     1921 tcgatcagta gctt
+//
+

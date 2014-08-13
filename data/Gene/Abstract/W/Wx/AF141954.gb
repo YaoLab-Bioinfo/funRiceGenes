@@ -1,0 +1,191 @@
+LOCUS       AF141954                5356 bp    DNA     linear   PLN 30-MAY-2000
+DEFINITION  Oryza sativa cultivar Rexmont granule-bound starch synthase (Waxy)
+            gene, complete cds.
+ACCESSION   AF141954
+VERSION     AF141954.1  GI:8101496
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 5356)
+  AUTHORS   Larkin,P.D., McClung,A.M., Ayres,N.M. and Park,W.D.
+  TITLE     The Wx locus (Granule Bound Starch Synthase) is strongly associated
+            with pasting curve characteristics in rice (Oryza sativa L.)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 5356)
+  AUTHORS   Larkin,P.D., McClung,A.M., Ayres,N.M. and Park,W.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-APR-1999) Biochemistry, Texas A&M University, 302
+            Biochemistry & Biophysics, College Station, Texas A&M University
+            77843-2128, USA
+FEATURES             Location/Qualifiers
+     source          1..5356
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Rexmont"
+                     /db_xref="taxon:39947"
+                     /chromosome="VI"
+     gene            1..5016
+                     /gene="Waxy"
+     mRNA            join(1..125,1251..1626,1740..1820,1928..2026,2123..2212,
+                     2311..2374,2467..2567,2658..2767,2889..3132,3250..3426,
+                     3667..3858,3965..4051,4161..4289,4647..5016)
+                     /gene="Waxy"
+                     /product="granule-bound starch synthase"
+     exon            1..125
+                     /gene="Waxy"
+                     /number=1
+     exon            1251..1626
+                     /gene="Waxy"
+                     /number=2
+     CDS             join(1288..1626,1740..1820,1928..2026,2123..2212,
+                     2311..2374,2467..2567,2658..2767,2889..3132,3250..3426,
+                     3667..3858,3965..4051,4161..4289,4647..4763)
+                     /gene="Waxy"
+                     /EC_number="2.4.1.21"
+                     /codon_start=1
+                     /product="granule-bound starch synthase"
+                     /protein_id="AAF72561.1"
+                     /db_xref="GI:8101497"
+                     /translation="MSALTTSQLATSATGFGIADRSAPSSLLRHGFQGLKPRSPAGGD
+                     ATSLSVTTSARATPKQQRSVQRGSRRFPSVVVYATGAGMNVVFVGAEMAPWSKTGGLG
+                     DVLGGLPPAMAANGHRVMVISPRYDQYKDAWDTSVVAEIKVADRYERVRFFHCYKRGV
+                     DRVFIDHPSFLEKVWGKTGEKIYGPDTGVDYKDNQMRFSLLCQAALEAPRILNLNNNP
+                     YFKGTYGEDVVFVCNDWHTGPLASYLKNNYQPNGIYRNAKVAFCIHNISYQGRFAFED
+                     YPELNLSERFRSSFDFIDGYDTPVEGRKINWMKAGILEADRVLTVSPYYAEELISGIA
+                     RGCELDNIMRLTGITGIVNGMDVSEWDPSKDKYITAKYDATTAIEAKALNKEALQAEA
+                     GLPVDRKIPLIAFIGRLEEQKGSDVMAAAIPELMQEDVQIVLLGTGKKKFEKLLKSME
+                     EKYPGKVRAVVKFNAPLAHLIMAGADVLAVPSRFEPCGLIQLQGMRYGTPCACASTGG
+                     LVDTVIEGKTGFHMGRLSVDCKVVEPSDVKKVAATLKRAIKVVGTPAYEEMVRNCMNQ
+                     DLSWKGPAKNWENVLLGLGVAGSAPGIEGDEIAPLAKENVAAP"
+     exon            1740..1820
+                     /gene="Waxy"
+                     /number=3
+     exon            1928..2026
+                     /gene="Waxy"
+                     /number=4
+     exon            2123..2212
+                     /gene="Waxy"
+                     /number=5
+     exon            2311..2374
+                     /gene="Waxy"
+                     /number=6
+     exon            2467..2567
+                     /gene="Waxy"
+                     /number=7
+     exon            2658..2767
+                     /gene="Waxy"
+                     /number=8
+     exon            2889..3132
+                     /gene="Waxy"
+                     /number=9
+     exon            3250..3426
+                     /gene="Waxy"
+                     /number=10
+     exon            3667..3858
+                     /gene="Waxy"
+                     /number=11
+     exon            3965..4051
+                     /gene="Waxy"
+                     /number=12
+     exon            4161..4289
+                     /gene="Waxy"
+                     /number=13
+     exon            4647..5016
+                     /gene="Waxy"
+                     /number=14
+ORIGIN      
+        1 accattcctt cagttctttg tctatctcaa gacacaaata actgcagtct ctctctctct
+       61 ctctctctct gcttcacttc tctgcttgtg ttgttctgtt gttcatcagg aagaacatct
+      121 gcaaggtata catatatgtt tataattctt tgtttcccct cttattcaga tcgatcacat
+      181 gcatctttca ttgctcgttt ttccttacaa atagtctcat acatgctaat ttctgtaagg
+      241 tgttgggctg gaaattaatt aattaattaa ttaattgact tgccaagatc catatatatg
+      301 tcctgatatt aaatcttcgt tcgttatgtt tggttaggct gatcgatgtt attctagagt
+      361 ctagagaaac atacccaggg gttttccagc tagctccaca agatggtggg ctagctgact
+      421 agatttaagt ctcactcttt ctaattattt gatattagat cattttctaa tatttgcgtc
+      481 tttttttatt ctagagtcta gatcttgtgt tcaactctcg ttaaatcatg tctctcgcca
+      541 ctggagaaac agatcaggag ggtttatttt gggtataggt caaagctaag attgaaattc
+      601 acaaatagta aaatcagaat ccaaccaatt ttagtagccg agttggtcaa aggaaaatgt
+      661 atatagctag atttattgtt ttggcaaaaa aaaatctgaa tatgcaaaat acttgtatat
+      721 ctttgtatta agaagatgaa aataagtagc agaaaattaa aaaatggatt atatatcctg
+      781 ggctaaaaga attgttgatt tggcacaatt aaattcagtg tcaaggcttt gtgcaagaat
+      841 tcagtgtgaa ggaatagatt ctcttcaaaa caatttaatc attcatctga tctgctcaaa
+      901 gctctgtgca tctccgggtg caacggccag gatatttatt gtgcagtaaa aaaatgtcat
+      961 atcccctagc cacccaagaa actgctcctt aagtccttat aagcacatat ggcattgtaa
+     1021 tatatatgtt tgagttttag cgacaatttt tttaaaaact tttggtcctt tttatgaacg
+     1081 ttttaagttt cactgtcttt ttttttcgaa ttttaaatgt agcttcaaat tctaatcccc
+     1141 aatccaaatt gtaataaact tcaattctcc taattaacat cttaattcat ttatttgaaa
+     1201 accagttcaa attcttttag gctcaccaaa ccttaaacaa ttcaattcag tgcagagatc
+     1261 ttccacagca acagctagac aaccaccatg tcggctctca ccacgtccca gctcgccacc
+     1321 tcggccaccg gcttcggcat cgccgacagg tcggcgccgt cgtcgctgct ccgccacggg
+     1381 ttccagggcc tcaagccccg cagccccgcc ggcggcgacg cgacgtcgct cagcgtgacg
+     1441 accagcgcgc gcgcgacgcc caagcagcag cggtcggtgc agcgtggcag ccggaggttc
+     1501 ccctccgtcg tcgtgtacgc caccggcgcc ggcatgaacg tcgtgttcgt cggcgccgag
+     1561 atggccccct ggagcaagac cggcggcctc ggtgacgtcc tcggtggcct cccccctgcc
+     1621 atggctgtaa gcacacacaa acttcgatcg ctcgtcgtcg ctgaccgtcg tcgtcttcaa
+     1681 ctgttcttga tcatcgcatt ggatggatgt gtaatgttgt gttcttgtgt tctttgcagg
+     1741 cgaatggcca cagggtcatg gtgatctctc ctcggtacga ccagtacaag gacgcttggg
+     1801 ataccagcgt tgtggctgag gtaggagcat atgcgtgatc agatcatcac aagatcgatt
+     1861 agctttagat gatttgttac atttcgcaag attttaaccc aagtttttgt ggtgcaattc
+     1921 attgcagatc aaggttgcag acaggtacga gagggtgagg tttttccatt gctacaagcg
+     1981 tggagtcgac cgtgtgttca tcgaccatcc gtcattcctg gagaaggtgg agtcatcatt
+     2041 agtttacctt ttttgttttt actgaattat taacagtgca tttagcagtt ggactgagct
+     2101 tagcttccac tggtgatttc aggtttgggg aaagaccggt gagaagatct acggacctga
+     2161 cactggagtt gattacaaag acaaccagat gcgtttcagc cttctttgcc aggtcagtga
+     2221 ttacttctat ctgatgatgg ttggaagcat cacgagttta ccatagtatg tatggattca
+     2281 taactaattc gtgtattgat gctactgcag gcagcactcg aggctcctag gatcctaaac
+     2341 ctcaacaaca acccatactt caaaggaact tatggtgagt tataattgat ctcaagatct
+     2401 tataactttc ttcgaaggaa tccatgatga tcagactaat tccttccggt ttgttactga
+     2461 caacaggtga ggatgttgtg ttcgtctgca acgactggca cactggccca ctggcgagct
+     2521 acctgaagaa caactaccag cccaatggca tctacaggaa tgcaaaggtc tatgcttgtt
+     2581 cttgccatac caactcaaat ctgcatgcac actgcattct gttcagaaac tgactgtctg
+     2641 aatctttttc actgcaggtt gctttctgca tccacaacat ctcctaccag ggccgtttcg
+     2701 ctttcgagga ttaccctgag ctgaacctct ccgagaggtt caggtcatcc ttcgatttca
+     2761 tcgacgggta tgagtaagat tctaagagta acttactgtc aattcgccat atatcgattc
+     2821 aatccaagat ccttttgagc tgacaaccct gcactactgt ccatcgttca aatccggtta
+     2881 aatttcaggt atgacacgcc ggtggagggc aggaagatca actggatgaa ggccggaatc
+     2941 ctggaagccg acagggtgct caccgtgagc ccgtactacg ccgaggagct catctccggc
+     3001 atcgccaggg gatgcgagct cgacaacatc atgcggctca ccggcatcac cggcatcgtc
+     3061 aacggcatgg acgtcagcga gtgggatccc agcaaggaca agtacatcac cgccaagtac
+     3121 gacgcaacca cggtaagaac gaatgcattc ttcacaagat atgcaatctg aattttcttt
+     3181 gaaaaagaaa ttatcatctg tcacttcttg attgattctg acaaggcaag aatgagtgac
+     3241 aaatttcagg caatcgaggc gaaggcgctg aacaaggagg cgttgcaggc ggaggcgggt
+     3301 cttccggtcg acaggaaaat cccactgatc gcgttcatcg gcaggctgga ggaacagaag
+     3361 ggctctgacg tcatggccgc cgccatcccg gagctcatgc aggaggacgt ccagatcgtt
+     3421 cttctggtat aatataatac actacaagac acacttgcac gatatgccaa aaattcagaa
+     3481 caaattcagt ggcaaaaaaa aaactcaaat attagggaag aacctaatat caaataatta
+     3541 gaaggggtga ggctttgaac ccaggtcatc tagcccacca ccttgtagag ctagccggaa
+     3601 gagctctgag catttctcga ttcagtggca aatgatgtgt ataattttga tccgtgtgtg
+     3661 tttcagggta ctggaaagaa gaagttcgag aagctgctca agagcatgga ggagaagtat
+     3721 ccgggcaagg tgagggccgt ggtgaagttc aacgcgccgc ttgctcatct catcatggcc
+     3781 ggagccgacg tgctcgccgt ccccagccgc ttcgagccct gtggactcat ccagctgcag
+     3841 gggatgagat acggaacggt atacaatttc catctatcaa ttcgattgtt cgatttcatc
+     3901 tttgtgcaat gcaatgcaat tgcaaatgca aatgcatgat gattttcctt gttgatttct
+     3961 ccagccctgt gcttgcgcgt ccaccggtgg gctcgtggac acggtcatcg aaggcaagac
+     4021 tggtttccac atgggccgtc tcagcgtcga cgtaagccta tacatttaca taacaatcag
+     4081 atatgacaca ttctaatacc gataagtcag tacactacta cacatttaca tggttgctgg
+     4141 ttatatggtt tttttggcag tgcaaggtgg tggagccaag cgacgtgaag aaggtggcgg
+     4201 ccaccctgaa gcgcgccatc aaggtcgtcg gcacgccggc gtacgaggag atggtcagga
+     4261 actgcatgaa ccaggacctc tcctggaagg tataaattac gaaacaaatt taacccaaac
+     4321 atatactata tactccctcc gcttctaaat attcaacgcc gttgtctttt taaaatatgt
+     4381 ttgaccgttc gtcttattaa aaaaattaaa taattataaa ttattttcct atcatttgat
+     4441 tcattgttaa atatacttat atgtatacat atagttttac atatttcata aaagtttttg
+     4501 aacaagacga acggtcaaac atgtgctaaa aagttaacgg tgtcgaatat tcagaaacgg
+     4561 agggagtata aacgtcttgt tcagaagttc agagattcac ctgtctgatg ctgatgatga
+     4621 ttaattgttt gcaacatgga tttcaggggc ctgcgaagaa ctgggagaat gtgctcctgg
+     4681 gcctgggcgt cgccggcagc gcgccgggga tcgaaggcga cgagatcgcg ccgctcgcca
+     4741 aggagaacgt ggctgctcct tgaagagcct gagatctaca tatggagtga ttaattaata
+     4801 tagcagtata tggatgagag acgaatgaac cagtggtttg tttgttgtag tgaatttgta
+     4861 gctatagcca attatatagg ctaataagtt tgatgttgta ctcttctggg tgtgcttaag
+     4921 tatcttatcg gaccctgaat ttatgtgtgt ggcttattgc caataatatt aagtaataaa
+     4981 gggtttatta tattattata tatgttatat tatactcccc ctgttccata ttatgccatg
+     5041 ccatttttgt tttatgccaa gtcaaacttt ttatatttaa ccaaatttat aaaaataaat
+     5101 atagcaacat ttgtaatact gaactatttt tttgttagac agactgtcaa aacttaaatt
+     5161 ataggtacta tatttgtctc aaaatataat aacttttagt tatgtatctg ggtatgtgtc
+     5221 tgtctatatg tctagttaaa agttgttttg tgtaaaaaaa tgttattata ttttttttat
+     5281 aaatttattt aagtttgaag gagcagtagt ttgactcagg ataagaagta aaataattta
+     5341 taatatactc tctcgt
+//
+

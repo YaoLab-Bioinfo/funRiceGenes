@@ -1,0 +1,94 @@
+LOCUS       AY953870                2051 bp    DNA     linear   PLN 18-OCT-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) undeveloped tapetum 1 (UDT1)
+            gene, udt1-1 allele, complete cds.
+ACCESSION   AY953870
+VERSION     AY953870.1  GI:61742902
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2051)
+  AUTHORS   Jung,K.H., Han,M.J., Lee,Y.S., Kim,Y.W., Hwang,I., Kim,M.J.,
+            Kim,Y.K., Nahm,B.H. and An,G.
+  TITLE     Rice Undeveloped Tapetum1 is a major regulator of early tapetum
+            development
+  JOURNAL   Plant Cell 17 (10), 2705-2722 (2005)
+   PUBMED   16141453
+REFERENCE   2  (bases 1 to 2051)
+  AUTHORS   Jung,K.-H., Han,M.-J., Kim,Y., Hwang,I. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAR-2005) Division of Molecular and Life Sciences,
+            Pohang University of Science and Technology, San 31, National
+            Research Laboratory of Plant Functional Genomics, Pohang, KyungBuk
+            790-784, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..2051
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Dongjin"
+                     /db_xref="taxon:39947"
+                     /chromosome="7"
+                     /clone="BAC 57731"
+                     /tissue_type="anther"
+     gene            <1..>2051
+                     /gene="UDT1"
+                     /allele="udt1-1"
+                     /note="udt1-2"
+     mRNA            join(<1..515,740..910,1431..1607,1746..>2051)
+                     /gene="UDT1"
+                     /allele="udt1-1"
+                     /product="undeveloped tapetum 1"
+     CDS             join(237..515,740..910,1431..1607,1746..1823)
+                     /gene="UDT1"
+                     /allele="udt1-1"
+                     /note="basic helix loop helix protein; major regulator of
+                     early tapetum development"
+                     /codon_start=1
+                     /product="undeveloped tapetum 1"
+                     /protein_id="AAX55226.1"
+                     /db_xref="GI:61742903"
+                     /translation="MPRRARARGSGGGGGEEVKVEDDFVDSVLNFGGGGGGEEDGDDG
+                     EEEQQQQQAAAAAMGKEFKSKNLEAERRRRGRLNGNIFALRAVVPKITKMSKEATLSD
+                     AIEHIKNLQNEVLELQRQLGDSPGEAWEKQGSASCSESFVPTENAHYQGQVELISLGS
+                     SKYNLKIFWTKRAGLFTKVLEALCSYKVQVLSLNTISFYGYAESFFTIEVKGEQDVVM
+                     VELRSLLSSIVEVPSI"
+ORIGIN      
+        1 atctcgcctc ctctcctctc cccttgcgtt cagccccttc cttgcattgc tttctccatg
+       61 agattcctcc tcctcctcca tccttataag ccacccgcaa ccgcaacccc gggaaggaac
+      121 aggaaggaag caagtgccat cgagtgtggt tgagagagtt tgagacttga ggctgcgctg
+      181 cgctgaacct gtcgttcggt gggaggcaag aagaaggtgg tggtggtggt gcagcaatgc
+      241 cgcggcgcgc gagggcgagg ggcagcggcg gcggcggcgg ggaggaggtg aaggtggagg
+      301 atgacttcgt cgactcggtc ctgaatttcg gtggaggtgg tgggggagag gaggacggcg
+      361 acgacgggga ggaggagcag cagcagcagc aggcggcggc ggcggcgatg gggaaggagt
+      421 tcaagtccaa gaacctggag gccgagcggc ggaggagggg gaggctcaac ggcaacatct
+      481 tcgcgctcag ggcggtcgtg cccaagatca ccaaggcaaa tgcattcttg agcttcctcc
+      541 ccacttttac tgaccaccac cagctgattc ttgcactgat catacaaact tcgcataatc
+      601 agatatgaac ctgtttatac ttacctaacc ctctctcgat tctctggaaa tcgtgattgc
+      661 ttcaccgggg aaaggatttc ttgattccgg tttgtcattc ctgacatgtt ctgatggttg
+      721 gttttctctg ctgttgcaga tgagcaagga ggccaccttg tcggacgcga tcgaacacat
+      781 caagaatctc cagaacgagg ttcttgagct gcagcgccag ctcggcgact cacccggtga
+      841 ggcttgggag aagcaaggca gcgcgtcctg ctctgaatcc ttcgtcccca ctgagaacgc
+      901 ccattatcag gtagcagccg ctgttctcaa gtagtctatg ttttccatca aagttcacac
+      961 ttcagagagt agtggtctgt actctttaga accccactgt gcgtccctgg gactaattct
+     1021 gaacaatcaa tgctgcaatc tggaaaatat gatcactcaa cttcatacaa ctttaggccc
+     1081 agattgtttc acaattcgat tacatgaagt cgcagtctcg cagacaattg gcagatattt
+     1141 gaagctcctt aacctttttc gcttaataga caataaacac acctgaagaa gggtgaaaaa
+     1201 tctaatcctt atttggttta gtagactaat gtccaacttc attgatccac agttagacta
+     1261 gccatggact tttgtgagaa tttttcaact tacattcaga cagagcttga tctcagaaat
+     1321 gacttaacat gaacacaaaa aatattggat acaaattcat ctatttttcg tgacaaaatt
+     1381 tacctctgat atctgattcc tcagtctctc aacaatctac atttacacag ggtcaggtgg
+     1441 aattgatctc tcttgggtca agcaagtata acctgaagat cttctggacc aagagggcag
+     1501 gcctcttcac caaggtgctg gaagcactct gcagctacaa agtgcaagtg ctcagcctga
+     1561 acaccatatc cttctacggc tacgcagaga gtttcttcac catcgaggta aactaaatat
+     1621 ggccaaaatt ttcctgctac gacacaagat tgcattgcat gtagatttcg ctgaactttt
+     1681 taacccattc ttgtgagttt tagtcttctg ataagttggc cactcactcc tgtctccatc
+     1741 tgcaggtgaa gggtgagcag gatgttgtga tggtggagct gaggagcctt ctctccagca
+     1801 ttgtggaggt tccaagcatc tgagacactc ctgactacaa taaactcaca tgacttatgt
+     1861 taagagagca catatgtttc tctggaagaa ataattccag tagcagttct ctttgtaggg
+     1921 agaatacagt ggtacatgtt tgactgaatg actgatgaca tagaaggggg aaaaaaggac
+     1981 taaattttgt gttgaaattg agcacagtgg cataatgaac tcgcaacatg tgaaagtttc
+     2041 tgttcttttc a
+//
+

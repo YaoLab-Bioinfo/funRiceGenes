@@ -1,0 +1,80 @@
+LOCUS       AB062606                1700 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group UGP mRNA for UDP-glucose
+            pyrophosphorylase, complete cds.
+ACCESSION   AB062606
+VERSION     AB062606.1  GI:15823774
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Abe,T., Niiyama,H. and Sasahara,T.
+  TITLE     Cloning of cDNA for UDP-glucose pyrophosphorylase from rice
+            endosperm
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1700)
+  AUTHORS   Abe,T., Niiyama,H. and Sasahara,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAY-2001) Contact:Toshinori Abe Yamagata University,
+            Dept. of Bioresource Engineering, Faculty of Agriculture;
+            Wakaba-machi 1-23, Tsuruoka, Yamagata 997-8555, Japan
+FEATURES             Location/Qualifiers
+     source          1..1700
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+                     /tissue_type="immature endosperm"
+                     /clone_lib="Lambda ZAP II rice endosperm cDNA"
+                     /country="Japan"
+     gene            1..1700
+                     /gene="UGP"
+     CDS             68..1477
+                     /gene="UGP"
+                     /codon_start=1
+                     /product="UDP-glucose pyrophosphorylase"
+                     /protein_id="BAB69069.1"
+                     /db_xref="GI:15823775"
+                     /translation="MAVTADVKLEGLRAATDKLDQISENEKSGFISLVSRYLSGEAEQ
+                     IEWSKIQTPTDEVVVPYDTLSAAPEDLNETKKLLDKLVVLKLNGGLGTTMGCTGPKSV
+                     IEVRNGFTFLDLIVIQIESLNKKYGCNVPLLLMNSFNTHDDTQKIVEKYSNSNIEIHT
+                     FNQSQYPRIVTEDFLPLPSKGKTGKDGWYPPGHGDVFPSLNNSGKLDTLLAQGKEYVF
+                     VANSDNLGAIVDIKILNHLIHNQNEYCMEVTPKTLADVKGGTLISYEGRVQLLEIAQV
+                     PDEHVNEFKSIEKFKIFNTNNLWVNLKAIKRLVEAEALKMEIIPNPKEVDGVKVLQLE
+                     TAAGAAIRFFEKAIGINVPRSRFLPVKATSDLLLVQSDLYTLVDGFVIRNPARTNPSN
+                     PSIELGPEFKKVANFLARFKSIPSIVELDTLKVSGDVWFGSGVTLKGKVTITAKSGKL
+                     EIPDGAVLENKDINGPEDL"
+ORIGIN      
+        1 ctctcctctc atctgacata tctcctcccg tcctttcgaa gcctctcgaa tcgcatcgcc
+       61 gagccggatg gcggtcaccg ccgacgtgaa gctcgagggc ctccgcgccg ccaccgacaa
+      121 gctcgaccag atcagcgaga acgagaagtc cgggttcatc agcctcgttt cgcgctacct
+      181 cagcggcgag gcggagcaga tcgagtggag taagatccag accccgaccg acgaggtggt
+      241 ggttccctac gacacgctct cggctgctcc cgaagatctc aacgagacga agaagctgct
+      301 cgacaaactc gtcgtgctca agctcaatgg aggcctcggg acgaccatgg gctgcactgg
+      361 tcccaagtct gtcattgaag tccgcaatgg ctttacgttt ctagacctta ttgtgattca
+      421 aattgagtcc ctgaacaaga agtatggatg caatgtccct ttgcttctaa tgaactcatt
+      481 caacactcat gatgacacac agaagattgt tgagaagtac tccaactcca acattgaaat
+      541 tcacactttc aaccagagcc aatatcctcg cattgttact gaagacttct tgccacttcc
+      601 aagcaagggg aagactggca aggatggctg gtatccccca ggccatggtg atgtgttccc
+      661 ctccttgaat aacagtggaa aacttgatac cttgttggca cagggcaagg agtatgtctt
+      721 tgtcgcgaac tcggacaact tgggtgctat tgttgacatc aagatcttaa accacctgat
+      781 ccataaccag aacgagtact gtatggaggt tactcctaaa acattggctg atgttaaagg
+      841 tggtaccctc atctcttacg aagggagagt tcagctgttg gagattgctc aagtccctga
+      901 tgagcatgtg aatgaattca agtcaattga gaagttcaag atcttcaata ccaacaacct
+      961 gtgggtgaac ttgaaggcca tcaagaggct ggtagaagct gaagcactta agatggaaat
+     1021 cattcctaac cctaaggaag ttgatggtgt gaaagttctg caactcgaaa ctgcagctgg
+     1081 agcagccatt cggttctttg aaaaagcaat tggcattaat gttccccgct cgagatttct
+     1141 gccagtcaag gctacatctg atttgttgct tgtacagtct gatttgtaca ccttggtcga
+     1201 tggctttgtc atccgcaacc cagccagaac aaacccatca aacccttcga ttgagcttgg
+     1261 acctgagttc aagaaggttg ccaatttcct ggcccggttt aagtcaatcc ccagcattgt
+     1321 cgagcttgac accttgaagg tctctggtga tgtctggttc ggctctggag ttacactcaa
+     1381 gggtaaggtg accatcaccg ccaagtcagg gaagttggag atcccagatg gagccgtgct
+     1441 tgagaacaag gacatcaacg gtccggagga tctttgaggc tgctcacgga aaccttccag
+     1501 atatatttag ctgagcgttt tgtaattgtc gtgtgcattc ggcagccagg gctcgatgat
+     1561 cccattacag aataattgta atcatcttgg cacatccgta cttctgtttt ttggtgtgcc
+     1621 aagggcgttg tatttcattt acttaaatga tctcgtaata ccatagtttt gcatgcactg
+     1681 taaaaaaaaa aaaaaaaaaa
+//
+

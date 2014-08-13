@@ -1,0 +1,79 @@
+LOCUS       AB053472                1768 bp    mRNA    linear   PLN 13-MAR-2001
+DEFINITION  Oryza sativa mRNA for RISBZ1, complete cds.
+ACCESSION   AB053472
+VERSION     AB053472.1  GI:13365769
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Onodera,Y., Suzuki,A., Wu,C.Y., Washida,H. and Takaiwa,F.
+  TITLE     A rice functional transcriptional activator, RISBZ1, responsible
+            for endosperm-specific expression of storage protein genes through
+            GCN4 motif
+  JOURNAL   J. Biol. Chem. 276 (17), 14139-14152 (2001)
+   PUBMED   11133985
+REFERENCE   2  (bases 1 to 1768)
+  AUTHORS   Onodera,Y., Suzuki,A., Wu,C., Washida,H. and Takaiwa,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JAN-2001) Fumio Takaiwa, National Institute of
+            Agrobiological Resources, Department of Biotechnology; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+            (E-mail:takaiwa@ss.abr.affrc.go.jp, Tel:81-298-38-8373,
+            Fax:81-298-38-8397)
+FEATURES             Location/Qualifiers
+     source          1..1768
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1768
+                     /gene="RISBZ1"
+     CDS             203..1513
+                     /gene="RISBZ1"
+                     /codon_start=1
+                     /product="RISBZ1"
+                     /protein_id="BAB39173.1"
+                     /db_xref="GI:13365770"
+                     /translation="MEHVFAVDEIPDPLWAPPPPVQPAAAAGVDDVGAVSGGGLLERC
+                     PSGWNLERFLEELDGVPAPAASPDGAAIYPSPMPAAAAEAAARWSRGYGDREAVGVMP
+                     MPAAALPAAPASAAMDPVEYNAMLKRKLDEDLATVAMWRASGAIHSESPLGNKTSLSI
+                     VGSILSSQKCIEGNGILVQTKLSPGPNGGSGPYVNQNTDAHAKQATSGSSREPSPSED
+                     DDMEGDAEAMGNMILDEEDKVKKRKESNRESARRSRSRKAARLKDLEEQVSLLRVENS
+                     SLLRRLADANQKYSAAAIDNRVLMADIEALRAKVRMAEESVKMVTGARQLHQAIPDMQ
+                     SPLNVNSDASVPIQNNNPMNYFSNANNAGVNSFMHQVSPAFQIVDSVEKIDPTDPVQL
+                     QQQQMASLQHLQNRACGGGASSNEYTAWGSSLMDANELVNMELQ"
+ORIGIN      
+        1 aaaaaaccca tgggttgcgt agccgtagct ttcccaccat ttccttctct ccgaagcctc
+       61 ctcctctccg cttcctcccg cgaaaccaaa ttccaaagca tttgatcgaa tttctcccaa
+      121 acttttccag cgttttcaat ttcgccccga tttcggttcg aaaacccctc gcgaattcat
+      181 ttcaaactcg tccgagagcg caatggagca cgtgttcgcc gtcgacgaga tccccgaccc
+      241 gctgtgggct ccgccgccgc cggtgcagcc ggcggcggcc gccggagtag atgacgtcgg
+      301 cgcggtgagc ggcggcgggt tgctggagcg gtgcccgtcg gggtggaacc tcgagaggtt
+      361 tctggaggag ctcgacggcg tccctgcacc ggcggcgagc ccggacggcg cggcgattta
+      421 ccctagcccg atgccggcgg cggcggcgga ggcggcggcg cgctggagta ggggctacgg
+      481 cgatcgtgag gcggtggggg tgatgcccat gcccgcggcc gcgcttccgg cggcgccggc
+      541 gagcgcggcg atggaccccg tggagtacaa cgcgatgctg aagcggaagc tggacgagga
+      601 cctcgccacc gtcgccatgt ggagggcctc tggtgcaata cattctgaga gtcctctagg
+      661 caataaaaca tcactgagta tagttggttc catcctgagt tcacagaagt gcattgaagg
+      721 taacgggata ctagtgcaga ccaagttaag tcctggccca aatggaggat caggcccata
+      781 tgtaaatcaa aatacagatg ctcatgccaa gcaagctacg agtggttcct caagggagcc
+      841 atcaccatca gaggatgatg atatggaagg agatgcagag gcaatgggaa atatgatcct
+      901 tgatgaagaa gataaagtga agaaaaggaa ggaatccaac cgggagtcag ctagacgctc
+      961 aagaagcaga aaggcagctc gcctaaaaga cctggaggag caggtatcac tattaagggt
+     1021 tgaaaactct tctctgttga ggcgtcttgc tgatgcaaat cagaagtaca gtgctgctgc
+     1081 tattgacaat agggtactaa tggcagacat tgaagcccta agagcaaagg tgaggatggc
+     1141 agaggagagt gtgaagatgg ttacaggggc tagacaactt caccaggcca ttcctgacat
+     1201 gcaatctccc ctcaatgtca actctgatgc ttctgtgccg atccagaaca acaacccaat
+     1261 gaactacttc tccaacgcta acaatgccgg tgttaacagc ttcatgcacc aggtttctcc
+     1321 agcgttccag attgtggatt ctgtcgagaa gattgaccca acagatccag tgcagctgca
+     1381 gcagcaacag atggcgagct tgcagcatct tcagaataga gcttgtggtg gcggcgcaag
+     1441 ttcgaatgaa tatacagcat ggggatcgtc tctgatggat gcaaatgagc ttgtcaacat
+     1501 ggagcttcag tagtaggagc atatcctaac aacatgatga gagcatttgg aggtgcaaat
+     1561 ttgcaacctg caaatgctgt tttgtagtag tagttgttgt cgctgttttt gtctgaaact
+     1621 gtagtttcta tggattttgg acttgctgag gaacatctgc ggctgttgtt gtttcaaatt
+     1681 gagaaaatga gggacaatgg gacatggtgg tctcccttaa tatagcgaaa aatggttgga
+     1741 ataaaaaaaa aaaaaaaaaa aaaaaaaa
+//
+

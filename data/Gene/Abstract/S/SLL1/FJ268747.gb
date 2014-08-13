@@ -1,0 +1,149 @@
+LOCUS       FJ268747                5455 bp    DNA     linear   PLN 29-OCT-2008
+DEFINITION  Oryza sativa Japonica Group rolled leaf 9 (RL9) gene, complete cds.
+ACCESSION   FJ268747
+VERSION     FJ268747.1  GI:209967497
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 5455)
+  AUTHORS   Yan,S., Yan,C.J., Zeng,X.H., Yang,Y.C., Fang,Y.W., Tian,C.Y.,
+            Sun,Y.W., Cheng,Z.K. and Gu,M.H.
+  TITLE     ROLLED LEAF 9, encoding a GARP protein, regulates the leaf abaxial
+            cell fate in rice
+  JOURNAL   Plant Mol. Biol. 68 (3), 239-250 (2008)
+   PUBMED   18594992
+REFERENCE   2  (bases 1 to 5455)
+  AUTHORS   Yan,S., Yan,C.J., Zeng,X.H., Yang,Y.C., Fang,Y.W., Tian,C.Y.,
+            Sun,Y.W., Cheng,Z.K. and Gu,M.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-SEP-2008) The Key Laboratory of Plant Functional
+            Genomics, Ministry of Education of China, Jiangsu Key Laboratory of
+            Crop Genetics and Physiology, Agricultural College of Yangzhou
+            University, 12 East Wenhui Road, Yangzhou, Jiangsu 225009, China
+FEATURES             Location/Qualifiers
+     source          1..5455
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="9"
+     gene            <1..>5455
+                     /gene="RL9"
+     mRNA            join(<1..580,682..758,1348..1393,1533..1776,5132..5204,
+                     5342..>5455)
+                     /gene="RL9"
+                     /product="rolled leaf 9"
+     CDS             join(1..580,682..758,1348..1393,1533..1776,5132..5204,
+                     5342..5455)
+                     /gene="RL9"
+                     /note="similar to maize KANADI1; regulates leaf abaxial
+                     cell fate; nuclear-localized protein; member of the GARP
+                     family of putative transcription factors"
+                     /codon_start=1
+                     /product="rolled leaf 9"
+                     /protein_id="ACJ02361.1"
+                     /db_xref="GI:209967498"
+                     /translation="MAPMMLQPLDAGGGASAPPPPIRGIPIYNGPGGFPFLQPSPTAG
+                     DVGHHHHHHPKMGFYSSYHHPSTWPSTSPSPLAAPPGAASSPLDPTAAFLSSPHHRML
+                     SAASGRLNGMLSVSDTLRSYGVPGAAAPGVIGGAHHHHHHLHGGQPFVGALASRFMPK
+                     LPAKRSMRAPRMRWTSTLHARFVHAVELLGGHERATPKSVLELMDVKDLTLAHVKSHL
+                     QMYRTVKSTDKPAASSGPADGGSGDEEFAGGGQAASGGGDSMCLRGGGGGGVAAAAFA
+                     EHGRSASEGAASSVGGGGGGDMDQSSAGNTSTTRWSNSSRDPWLSSNSCNMDAHRSVG
+                     LSSPIENLEPCRSSSSQVSNHELSSPSLEFTLGRPDWHGADHD"
+ORIGIN      
+        1 atggcgccga tgatgctgca gccgctcgac gccggcggcg gcgcgtcggc gccgccgccg
+       61 ccgatccgcg ggatacctat ctacaacggc cccggcgggt tcccgttcct gcagccgtcg
+      121 cccaccgccg gcgacgtcgg ccaccaccac caccaccacc ccaagatggg attctacagc
+      181 tcgtaccacc acccatccac gtggccctcc acgtcgccgt ccccgctcgc ggcgccgccg
+      241 ggcgccgcgt cgtcgccgct cgaccccacg gcggcgttcc tctcctcccc ccaccaccgg
+      301 atgctgtccg ccgcctcggg gaggctcaac ggcatgctct ccgtctccga caccctccgc
+      361 agctacggcg tccccggcgc cgccgccccc ggcgtcatcg gcggcgcgca ccaccaccac
+      421 caccacctcc acggcggcca gccgttcgtc ggcgccctcg cgtcccgctt catgcccaag
+      481 ctccccgcca agcgcagcat gcgcgcgccg cgcatgcgct ggacgagcac cctccacgcc
+      541 cgcttcgtcc acgccgtcga gctcctcggc ggccacgaga gtacgccccc gccatcatcg
+      601 tcgtcgtcct cctcctcctt ctcaccacca tcatcaacga gctcgatcaa tctgatgaga
+      661 atccaatctt gttcttggca ggggcgacgc ccaagtcggt gctggagctc atggacgtca
+      721 aggatctgac gctagcgcat gtcaagagcc acctccaggt atcccgccat tgccgaccaa
+      781 ttctcacagc tcgatcgatc gatcaaacac cactcaccac tgcaccatct ctctctttct
+      841 ctctctcgat ttcgattcca ttcagcttct gttcttgatc atcttgtttg ggtgagacaa
+      901 agatgccaat gcagtaactc ctgagttagt gaagaaactg ccattcttgg gagcagagag
+      961 agagagtgtg tgtgtgacat gtttggggat gtgtgtgcaa gagagaagag agagagagag
+     1021 gggaaaaaag ttgccatcat tacacaataa tgcattgcat ctgcatctgt gctactagct
+     1081 ccttccttag ctctagtcat actagcgtat atgtgcacgg cccaaagcac tctcacacac
+     1141 aaacacaaga gagagagaga gagagagaag aagaagatga gagatgagag agagtaggac
+     1201 atattttgtg tgtgtttctt tgctgcttgt cttttgcaat ggcttcaacc tcctggtttc
+     1261 attttgatct cacaaaaaat gtgtgtgtgt gtgtaaatat atatattgat cttctttttg
+     1321 ttggactttt gtgttttatt actgcagatg tatcgcaccg tgaagagcac tgacaagcct
+     1381 gcagcctctt caggtgattt tttttaccat ggcagctact agtagtagta gtagtagcta
+     1441 atttagctaa gctccatttt gcttttcttt ttttttggcg ttgtgcattg cgttttacat
+     1501 tacattgttg ctatggtttt tttgacgtgt agggccggcg gacggcggct ccggcgacga
+     1561 ggagttcgcc ggcggcgggc aggcggcgtc gggcggcggc gacagcatgt gcctgagggg
+     1621 tggcggcggc ggcggggtgg ccgcggcggc gttcgcggag cacggccggt cggcgtcgga
+     1681 gggcgccgcc agctcggtcg gcggcggcgg cggcggcgac atggaccagt cgtcggccgg
+     1741 caacaccagc accaccaggt ggagcaactc ctcaaggtac acacatggca gagttgcatt
+     1801 tcaagtcttt cagattaatt atatatctac attgttatgc catctttaat taattaaaaa
+     1861 tgaaattaat caatcagaat gtcatgagat gatgatgatg atgataataa tactaggata
+     1921 ggaagaggat gatatgatgg atgggtgtgc tatgtgtgtt tttaagtgtg ttttagctta
+     1981 gaaccaaagg caacaccaac aaactttggc atgcattgat gatgtatcta aatatgagtt
+     2041 agtgacatgc aaaattaacc tgccaagtac aacctctatt tattaattcc caaaaaaatc
+     2101 tcatggagga gaagggagag agagagatag tagtaatgtg tggtgatgca tggctaaaaa
+     2161 agcttagcaa aagaatgttt tgggggcaca cacacacaca cctggagagg gagttgccta
+     2221 tgtttaggtg gccaatgttg ttatgtcaca caaaagacca aaaagtcaca caccccatgg
+     2281 cttggcctcc tcctcccccc ttgacctgtg cagttagcta ggcttcttct cttctctccc
+     2341 tctgtgtttg gtttttgtgg agctaaaaac attttaaaaa tcttgcaaac attgtgtgta
+     2401 aaaataggtt cttgggctct gcccattgtc ctctagcttc tctcaaatct ctctctctct
+     2461 ctctctctct ctctctctct ttctcaaacc tagggagggg agggttactc aggcagggct
+     2521 ccattatcat ttcttatcaa tgcatggctc tgattccagg gggatggggc tttgacctga
+     2581 catgccctat tgcctaggaa tatgtaacca aggacttgct gcattcttgg ttctttctcc
+     2641 ctctctcacc agtctcttca atgccctttt cttccacctc ttgggcaatt attagcatgg
+     2701 atggagctca ccttttcact ctaccctcta gctgtgatta aatcattgac taatcctaat
+     2761 tcataaatat aagggattca actatgtaac tagatgtact agatcctagt attactagtg
+     2821 tgttttgatt ctgttaggag gagtgattag cgtttgtcgt aagtactagt attaaactat
+     2881 aggggattag tgtagatcat ttttttaaaa attagtgagt gtgcttgggc agattttact
+     2941 ccagccattg gcgtgaaaac tttgatcttt gggcagcttg gaagcaagta cagttcaacc
+     3001 tgtccttggc tgcattcgct gctttttctt tctcaggact cactgcaact ttcttgccat
+     3061 ccccaacacc tccctttcgg tcgtgtttga tcagttgcat tgctggtttc ttcgccgctt
+     3121 taatttctcc atctttcttc tgttccttat tggctaagta aaaaatcatt ctcagcaatc
+     3181 aagttttgaa attcaaatta gcttcaggtt ttatctatct aataattctc tgactagttc
+     3241 tctttctttc aagacctgtt cttgttcaga actcttatgc agttgagagt tcagttgttc
+     3301 atggaagtaa tggcaatgcc tggtctagtc tttgagcagt atcctcctta tgctcttgat
+     3361 tttccttcac tttagccgtt tcagtcaaac tttggggaca aattaaagtc agctggtcaa
+     3421 gtgcatacat accacgtcat attttttaga tgaatccatt gtagtattaa atactagtga
+     3481 caaaaaaata taactaaatg gcattaaatt gcaaccttct tccccaaaat aattgggcac
+     3541 aactaccttg cttgcatatg ctttatagta ctcctactta ttacttcctt gaatccatga
+     3601 ggattccagg aatttggtca ggtcaaatgt ccaggaggaa ttaggctatc tttttttatc
+     3661 ttcttctttt tcttctaggt agtaggatcg ttgtgcacat ataaacaaaa caaaatagaa
+     3721 atttaagagg aaaccctccc aaaaaaaata cgactatcaa ttatgagtga ttttacagtt
+     3781 cttgaggagg tacaatgata cattttctat tttaaaattc agtaactttg atactatgag
+     3841 gtacagaaat ttgcacaaaa aaaatttggt acctctcaag tacttaaaat atcttatcaa
+     3901 ttatatttca gcaatgttgt cgttgctcga gttgtgcaaa aacatttctg atgaacaagt
+     3961 ggagatgtat gcatatttag agagggaaac acatgcattt tttaatatac attctcatga
+     4021 caaattttgg tgttctcgtc tcattttagt ctagcttaga ttaatggcat ccatatattg
+     4081 gtgaactgaa acagattgta tatgtccagt cttgaacaaa cttcattata caatgcataa
+     4141 tcagaaaaga tacagacata tattggcaga tcacataaag tggtgtatct atgattgggt
+     4201 ggtattttgg acatacaaag tctactggtc cctcatttgt taacagcata catttgttcc
+     4261 tatcaagaca aaagcacttt acaacagttt ggtagtaagt tggtgttatg tgcgtgtcta
+     4321 tttagataga gtggtagtaa aggaaggaca ctttttcttg atataccaaa atcacacata
+     4381 aaaaagaagt gtcattttca tgatcaacat gtggggtatg aacaaaaatg ttctcccccc
+     4441 tccaaccaac attgaagtca tcacacataa aaagcaaaaa catttaacaa taatacatgc
+     4501 agacacatgt gcatgcatgt gtggatcacg caaggacata ctaattcaat taggtattca
+     4561 caattaatta gtgcaggaaa tgacatgtaa ttacaattat atatgcacaa cgatccttgt
+     4621 gtatttgtgt gacccattgt agtagcattt gattcctttc ttgtgccttt ctctacattg
+     4681 aattcgatct ttgccaacag cggcttgctg atgagctcct gtgccattgc actgctgagc
+     4741 tgcaccaaac agggacatct tttaagagct tgttgcctgg aaatgatcca tgtaaccaac
+     4801 tgttcaggaa gagcacactg tttgctgctc actttagcta aagcaaaact gtgtgcatta
+     4861 tgcaatgcat atgcatcctt ccatctaccc ctgtgtcctt tgccccccaa actgtgtaac
+     4921 tacagtttac catgcacata catacaatgc acatctaccc aattgtagca ttgttgcaag
+     4981 gcctacttca gaattcagtt agtccccaat tgatccaact gcacacatat acatttacat
+     5041 atacatatac acaaacatac cagcttggag aaaaggttgt aacaactttg ctaaatgtga
+     5101 gatgtgtaat gtgtgttctt cctcttttca gggacccatg gctgtcgtcc aattcttgca
+     5161 acatggacgc ccatcgctcc gtaggattgt cttctcctat tgaggtatat atccttacat
+     5221 tgttcaaagc ttctttcgat tcctagctaa ctgcatatcc atgcagaaat tcattagctc
+     5281 gcattcattc tgaacatgat gtctgaaact ctgaattttt tttcgtttgt gcgtgtttca
+     5341 gaacttggaa ccgtgcagat cgagcagctc gcaggtgtcc aaccatgagc tgagtagccc
+     5401 tagtctcgag ttcactctag ggaggcctga ctggcacggt gcagatcatg attag
+//
+

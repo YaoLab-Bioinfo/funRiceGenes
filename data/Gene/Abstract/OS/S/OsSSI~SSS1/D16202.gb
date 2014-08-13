@@ -1,0 +1,99 @@
+LOCUS       RICSSS                  2533 bp    mRNA    linear   PLN 11-JAN-2003
+DEFINITION  Oryza sativa mRNA for soluble starch synthase, complete cds.
+ACCESSION   D16202
+VERSION     D16202.1  GI:450484
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2533)
+  AUTHORS   Baba,T., Nishihara,M., Mizuno,K., Kawasaki,T., Shimada,H.,
+            Kobayashi,E., Ohnishi,S., Tanaka,K. and Arai,Y.
+  TITLE     Identification, cDNA cloning, and gene expression of soluble starch
+            synthase in rice (Oryza sativa L.) immature seeds
+  JOURNAL   Plant Physiol. 103 (2), 565-573 (1993)
+   PUBMED   7518089
+REFERENCE   2  (bases 1 to 2533)
+  AUTHORS   Baba,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAY-1993) Tadashi Baba, University of Tsukuba,
+            Institute of Applied Biochemistry; Tennohdai 1-1-1, Tsukuba Science
+            City, Ibaraki 305, Japan (Tel:81-298-53-6632, Fax:81-298-53-6632)
+FEATURES             Location/Qualifiers
+     source          1..2533
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /dev_stage="immature seed"
+                     /note="clones RS[1, 2, 3 and 4]"
+     5'UTR           1..113
+     CDS             114..1994
+                     /codon_start=1
+                     /product="soluble starch synthase precursor"
+                     /protein_id="BAA03739.1"
+                     /db_xref="GI:450485"
+                     /translation="MATAAGMGIGAACLVAPQVRPGRRLRLQRVRRRCVAELSRDGGS
+                     AHGPLAPAPLVKQPVLPTFLVPTSTPPAPTQSPAPAPTPPPLPDSGVGEIEPDLEGLT
+                     EDSIDKTIFVASEQESEIMDVKEQAQAKVTRSVVFVTGEASPYAKSGGLGDVCGSLPI
+                     ALALRGHRVMVVMPRYMNGALNKNFANAFYTEKHIKIPCFGGEHEVTFFHEYRDSVDW
+                     VFVDHPSYHRPGNLYGDNFGAFGDNQFRYTLLCYAACEAPLILELGGYIYGQKCMFVV
+                     NDWHASLVPVLLAAKYRPYGVYRDARSVLVIHNLAHQGVEPASTYPDLGLPPEWYGAL
+                     EWVFPEWARRHALDKGEAVNFLKGAVVTADRIVTVSQGYSWEVTTAEGGQGLNELLSS
+                     RKSVLNGIVNGIDINDWNPSTDKFLPYHYSVDDLSGKAKCKAELQKELGLPIRPDVPL
+                     IGFIGRLDYQKGIDLIKLAIPDLMRDNIQFVMLGSGDPGFEGWMRSTESGYRDKFRGW
+                     VGFSVPVSHRITAGCDILLMPSRFEPCGLNQLYAMQYGTVPVVHGTGGLRDTVENFNP
+                     FAEKGEQGTGWAFSPLTIEKNAVGIADGNFDIQGTQVLLGGSNEARHVKRLYMGPCRL
+                     TV"
+     transit_peptide 114..452
+     mat_peptide     453..1991
+                     /product="soluble starch synthase"
+     3'UTR           1995..2533
+     polyA_signal    2487..2492
+ORIGIN      
+        1 cgcgactcag cccactcctc tctctccacc accaccacca ccaccaccac cgcccgccaa
+       61 gcgcggcccg cccgacacag cagcagcagg atcggcggag aggagggggg atcatggcga
+      121 cggcggcggg gatggggatc ggggcggcgt gcctggtggc gccgcaggtg aggccgggga
+      181 ggaggttgcg gctccagcgg gtgcggaggc ggtgcgtggc ggagctgagc agggacggtg
+      241 ggtcggcgca cggcccgctg gcaccggcgc cgctggtgaa gcagccggtc ctgccgacct
+      301 tcctcgtgcc gacgtcgacg ccacccgcgc ccacgcagtc gccggcgccg gcgccgaccc
+      361 cgccgccgtt gccggactcc ggcgtggggg agatcgagcc cgatctagaa ggtctcacag
+      421 aagattccat cgacaaaaca atttttgtgg ctagtgagca ggagtctgag atcatggatg
+      481 tgaaggagca agctcaagct aaagtaacac gcagcgttgt ctttgtaacc ggtgaagctt
+      541 ctccttatgc aaagtcaggt ggactaggag atgtttgtgg ttcactgcca attgctcttg
+      601 ctcttcgtgg tcatcgtgtg atggttgtaa tgccgagata catgaacggg gccttgaaca
+      661 aaaattttgc aaacgcattt tacactgaga agcacattaa gattccatgc tttggcggag
+      721 aacatgaagt tacttttttt cacgagtata gggattctgt tgattgggtg tttgttgatc
+      781 atccctcata tcatagacct ggaaatttgt atggagataa ttttggtgct tttggcgata
+      841 atcagttcag atacacactc ctgtgctatg cggcgtgtga agccccatta attcttgaac
+      901 tgggaggata tatctatgga cagaaatgca tgtttgttgt gaatgattgg catgccagtc
+      961 ttgtgccagt ccttcttgct gcaaaatata gaccatatgg tgtttacagg gatgcccgca
+     1021 gtgttcttgt catacataat ctagcacatc agggtgtgga gcctgccagt acatatcctg
+     1081 acctgggatt gccacctgaa tggtatggag cattagaatg ggtgtttcca gagtgggcaa
+     1141 ggcggcatgc ccttgacaag ggtgaggcag tcaatttttt aaaaggcgca gttgtgacag
+     1201 cagatcgaat tgtgactgtc agccaggggt attcatggga ggtcacaact gctgaaggtg
+     1261 ggcaaggcct caatgagctc ttaagctccc ggaagagtgt attgaatgga attgtaaatg
+     1321 gaattgacat taatgattgg aacccatcca cagacaagtt tctcccttat cattattctg
+     1381 ttgatgacct gtccggaaag gccaagtgta aagctgaatt gcagaaggag ctgggtttac
+     1441 ctataaggcc cgatgtgcct ctgattggct ttattggaag attggactat caaaaaggca
+     1501 ttgatctaat taaacttgcc attccagatc tcatgcggga caatattcaa ttcgtcatgc
+     1561 ttggatctgg tgacccaggt tttgaaggat ggatgagatc cacagaatca gggtacaggg
+     1621 ataaatttcg tggatgggtt ggatttagtg ttccagtttc ccaccgaata actgcaggtt
+     1681 gcgatatatt gttgatgcca tccagattcg aaccttgtgg cctcaatcag ctatatgcta
+     1741 tgcaatatgg tacagtgcct gttgttcatg gaactggagg cctcagagat acagtggaga
+     1801 attttaaccc gtttgctgag aaaggagagc agggtacagg gtgggcattc tcgccactaa
+     1861 ccattgaaaa aaatgctgtg ggcattgcgg atggcaattt cgacatacag ggaacacaag
+     1921 tcctcttggg agggtctaat gaagcgaggc atgtcaagcg actttacatg ggaccatgcc
+     1981 gcctcacagt atgaacagat cttcgaatgg gccttcatgg atcaaccata tgtcatgtaa
+     2041 atggatttga aggaagcagc gaatttctcc gaggaccctc aatcttcctg tctttcatga
+     2101 gcggaatgaa aactttgtac actacatgga aagggaacca gttatgcaaa gttgcaaacg
+     2161 atcactcaag gttacccttg taggcctgct acttggccaa tatggttcca gtgaccatat
+     2221 gcagagtcag gttcagatga atggcacttg tgagtagtga agaataagat gaggatgctt
+     2281 gaagcggttt cacatgtggc tgataccacg caagcaacct ctcaatgcat cgaaatgtga
+     2341 gtcttggaat caataggatt tagctcccat caattacagt tgtacccttt tttgcttaat
+     2401 actttgtcgc ctgtgctgtt cttatatttg tgtgaagata aattttagtc cattaggtaa
+     2461 ctgtattgtt gagtcttaag gtgaagacta aatagtgttt ggaagctgta gctactgcga
+     2521 tgtcaagtgt caa
+//
+

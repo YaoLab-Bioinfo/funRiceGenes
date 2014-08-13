@@ -1,0 +1,200 @@
+LOCUS       RICSODCC                4253 bp    DNA     linear   PLN 30-SEP-2008
+DEFINITION  Oryza sativa Japonica Group cytosolic copper/zinc-superoxide
+            dismutase (SodCc1) gene, complete cds.
+ACCESSION   L19435
+VERSION     L19435.1  GI:685241
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1111 to 4031)
+  AUTHORS   Sakamoto,A., Ohsuga,H. and Tanaka,K.
+  TITLE     Nucleotide sequences of two cDNA clones encoding different
+            Cu/Zn-superoxide dismutases expressed in developing rice seed
+            (Oryza sativa L.)
+  JOURNAL   Plant Mol. Biol. 19 (2), 323-327 (1992)
+   PUBMED   1623183
+REFERENCE   2  (bases 1 to 2340)
+  AUTHORS   Sakamoto,A., Okumura,T., Kaminaka,H., Sumi,K. and Tanaka,K.
+  TITLE     Structure and differential response to abscisic acid of two
+            promoters for the cytosolic copper/zinc-superoxide dismutase genes,
+            SodCc1 and SodCc2, in rice protoplasts
+  JOURNAL   FEBS Lett. 358 (1), 62-66 (1995)
+   PUBMED   7821431
+REFERENCE   3  (bases 1111 to 4253)
+  AUTHORS   Sakamoto,A., Okumura,T., Kaminaka,H. and Tanaka,K.
+  TITLE     Molecular cloning of the gene (SodCc1) that encodes a cytosolic
+            copper/zinc-superoxide dismutase from rice (Oryza sativa L.)
+  JOURNAL   Plant Physiol. 107 (2), 651-652 (1995)
+   PUBMED   7724677
+REFERENCE   4  (bases 1804 to 2745)
+  AUTHORS   Sakamoto,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-1993) Atsushi Sakamoto, Department of Regulation
+            Biology, National Institute for Basic Biology, Okazaki 444, Japan
+REFERENCE   5  (bases 1 to 4253)
+  AUTHORS   Sakamoto,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUL-1994) Atsushi Sakamoto, Department of Regulation
+            Biology, National Institute for Basic Biology, Okazaki 444, Japan
+COMMENT     On Mar 1, 1995 this sequence version replaced gi:310318.
+FEATURES             Location/Qualifiers
+     source          1..4253
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="gSOD27"
+     repeat_region   320..336
+     repeat_region   349..365
+     gene            1002..4032
+                     /gene="SodCc1"
+     CAAT_signal     1002..1005
+                     /gene="SodCc1"
+     mRNA            join(1082..1167,2244..2331,2424..2525,2650..2745,
+                     2897..2928,3077..3152,3614..3667,3781..4032)
+                     /gene="SodCc1"
+                     /product="cytosolic copper/zinc-superoxide dismutase"
+     exon            1082..1167
+                     /gene="SodCc1"
+                     /note="non-coding exon"
+                     /number=1
+     intron          1168..2243
+                     /gene="SodCc1"
+                     /number=1
+     exon            2244..2331
+                     /gene="SodCc1"
+                     /number=2
+     CDS             join(2256..2331,2424..2525,2650..2745,2897..2928,
+                     3077..3152,3614..3667,3781..3803)
+                     /gene="SodCc1"
+                     /EC_number="1.15.1.1"
+                     /function="disproportionation of the superoxide anion
+                     radical into molecular oxygen and hydrogen peroxide"
+                     /note="Amino Acids 1-152"
+                     /citation=[1]
+                     /citation=[3]
+                     /codon_start=1
+                     /product="cytosolic copper/zinc-superoxide dismutase"
+                     /protein_id="AAC14464.1"
+                     /db_xref="GI:685242"
+                     /translation="MVKAVVVLGSSEIVKGTIHFVQEGDGPTTVTGSVSGLKPGLHGF
+                     HIHALGDTTNGCMSTGPHYNPAGKEHGAPEDETRHAGDLGNVTAGEDGVANIHVVDSQ
+                     IPLTGPNSIIGRAVVVHADPDDLGKGGHELSKTTGNAGGRVACGIIGLQG"
+     intron          2332..2423
+                     /gene="SodCc1"
+                     /number=2
+     exon            2424..2525
+                     /gene="SodCc1"
+                     /number=3
+     intron          2526..2649
+                     /gene="SodCc1"
+                     /number=3
+     exon            2650..2745
+                     /gene="SodCc1"
+                     /number=4
+     intron          2746..2896
+                     /gene="SodCc1"
+                     /number=4
+     exon            2897..2928
+                     /gene="SodCc1"
+                     /number=5
+     intron          2929..3076
+                     /gene="SodCc1"
+                     /number=5
+     exon            3077..3152
+                     /gene="SodCc1"
+                     /number=6
+     intron          3153..3613
+                     /gene="SodCc1"
+                     /number=6
+     exon            3614..3667
+                     /gene="SodCc1"
+                     /number=7
+     intron          3668..3780
+                     /gene="SodCc1"
+                     /number=7
+     exon            3781..4032
+                     /gene="SodCc1"
+                     /number=8
+     polyA_site      4032
+                     /gene="SodCc1"
+                     /note="poly(A) site of the cognate cDNA (RSODA; accession
+                     number D00999)"
+                     /citation=[1]
+ORIGIN      
+        1 gagctcatca gagatgttta tgtgtcggtc cttatataaa tctatcatag atgagttctt
+       61 acatgtggct agtcatttcc ttgagcttca ttacaacggg atttagttta actcgtgtca
+      121 gagacaaatt tttttggtcc atcgtagata gaccgtcata gatggattgg tctggcgcaa
+      181 tgaattgtgt tgcttgatct ggatctattg gtcaattaaa atgaagtgct cccagctgag
+      241 tttaattctt cgggtgtggt cggtgagtat gccagatatc cctttcacac acactgcttg
+      301 cagcagcatt agtgtcaaca aaacgtggtt ggaaatccgt caaaaaaaaa aacgtggttg
+      361 gaaattgccg gtcctttcag aatcggtgta cacacaagac gatggtactc gctcgggaga
+      421 gtaataacgt aagagggtta gatggcagta ttacggccat attcagtaga gcataaattg
+      481 taaattcaac gatgaagatt attatacgag tagtatttga agcctaatct tcaagctcat
+      541 ctatcgaaaa ttattgccgt gcttctaaaa atgaaatttc ttccccgaaa aaaatattct
+      601 taaaacactt tattctacca tattatttat agtactactc tccctccgac aaacattaga
+      661 tgtccaaaaa catcaaaaaa gtcttttcat cagaggttat ttttcagtat taacatttaa
+      721 atcgttaaga atacacaaca ccgtcgtttc tcttattcgg gaaaaaagcg aaacaacata
+      781 tttacaaacg aaaaataatt tataaataaa acttttatat atgtgttttt agcgatctaa
+      841 atgcaaagat gaaaaaaaaa cttcgatgaa aaaaatctta aaataaacta taatttaaga
+      901 ttgaaaattt caaaatttgg ttgtgataaa catgagcgaa aagatgagac cccaaatttt
+      961 ttttaattaa attattatta taataaataa acgagggccc ccaatgttgg ctggtggctg
+     1021 caactgcaag ctgccagttt gactacaaat accaccgcac accgctggag ggaggggaac
+     1081 cttccagaag ctccagattc caaaccagca ggagtcgcct cgcctcctcc ttcatcctcc
+     1141 tcgtcgtcgc cgcgggggtc gcctgaggta ggaatcccaa caaccccccc cccccccccc
+     1201 cacccaagca agcttctagg gttttcgtga cttgtttcct ccggtttcgt gggaggcggt
+     1261 gggtctccct ccctccctgc gtgtggatct cagatggatc ggtgtttcct tgttggtctt
+     1321 gctgcttcgc ggggatttgg ggcttcgggc gggctggggg tggggggggg gattgttgtg
+     1381 gatgttgatt gatcgatcgg tgttgttggt tcggggcgat tggttggttg gtggggagga
+     1441 acggctcgtc tcgtgtgttt gaatccatat gcaagttcaa gtgatgcgag agtgttttga
+     1501 tgcgtggacc tgctgcttcc tttttttttt ttccttttga gcgatgattc gtgctgctgc
+     1561 ggagggatac ggatttgtta gttgccgatt actagtaata atcattggaa ttgtgtactg
+     1621 ggctctggct gctcatgatg cgatgggctt tgtgatatgt tcatgattag atttagacat
+     1681 gttttttctg caagtgtgga gttgattgca gagtgtcctt ccctgatatg tcgggggatt
+     1741 gggtggatgt agagaattgt agatttggga gttattggac tagccaacag acagtttcct
+     1801 cgtgaattcg atcccttcat gcagaaatga atggagggat aggatgaaat ggggtgagaa
+     1861 gaatggatag ctaagattga aacttaccct ttagatgggt gggaaatcat atcccaaacc
+     1921 gattttctag ggataattcc tctatactag acgtgtgttt tgtttgtatc tagtatgttt
+     1981 gcagtgggca gtggcatttg ttctatgatg cctttggttt acatgctttg gaaaaaacaa
+     2041 tagatcattg ggccatattg ttatcttttt ctgactagta gtaaatgatg cgtctgtgtt
+     2101 gcttctgctt taacatcttt tcaatcttca ctaggataat ttcatagttc aatatgttct
+     2161 ttgggaactt ggttgggttt taggacctct agaggctact tctgccactt gctaagtaac
+     2221 tgttttgtgg aatttgttta cagatcacat taacaatggt gaaggctgtt gttgtgcttg
+     2281 gtagcagtga gattgttaag ggcactatcc actttgtcca agagggagat ggtatgccat
+     2341 cagtcatcac cattttcatg attgtcttga attgaatttt agtccttgaa tcgttgagat
+     2401 ttactggcat gtttgattct taggtcccac cactgtgact ggaagtgtct ctggcctcaa
+     2461 gcctggtctc catgggttcc atattcatgc acttggtgac accaccaatg gttgcatgtc
+     2521 aactggtaat tattattgtt attacatata tattggcttc tcgcctgcct agatgtacca
+     2581 tcaggattga tacaggctat catcatctgt tgaattgatt acttatgatg cacttgtttc
+     2641 ataatgtagg gccacactac aatcctgccg gaaaggagca tggagcacca gaagatgaga
+     2701 cccgccatgc tggtgatctt ggaaatgtca ccgctggaga agatggtttg ttctttttcc
+     2761 ctttattccg aatttttatt tgttccatac ctgttaatga tttaacataa ccatattagt
+     2821 tgtggtcttg tagtccttaa ctcattgtca atttgtagta ataattgttg ctgagagttt
+     2881 atttctctgc tgtcaggtgt tgctaatatc catgttgttg acagtcaggt aagtaaacat
+     2941 tcagaaaaag aacattctcc gtcatttgat ttatggaacc aataccacac atccccttat
+     3001 tattctgctg ttaccttgtc ttttccttct ttctttttcc tgtgtgttaa catggataac
+     3061 catttatctg tgtcagattc cacttactgg accaaattca atcattggca gagccgtcgt
+     3121 tgtgcatgcc gatcctgatg atcttggaaa gggtaatatt acagacaact gtttgtgctc
+     3181 atttattttg tctgtgtgct tgtgtgctcc ttttcttctc ttttgctaag gaagatctca
+     3241 ctactgttgg gtctatgatg acaacaatca ctttctattg aatggattgc ataaacatgc
+     3301 tgagttagta gtcagaaatg tgtagggtcc ttttgtttta tcataccaag ttgcacacga
+     3361 ctgtgttgta ggcattttta cctttggggg taaaggatat ctgaacttta catggaaaat
+     3421 ttgaataagt tgttctgcta tgccaggcac tatttgactt gaatctccta tctgtgcact
+     3481 tcaccataaa ctatttgact tgaatctcct atctgtgcac ttcaccataa acctatctgt
+     3541 gccaattctc attgcagtga gccagttatc agtgcagctt aaataacatt cattggtttt
+     3601 ggtgctcttt taggtgggca cgagctgagc aagaccaccg gaaacgctgg tggccgtgtt
+     3661 gcttgcggta agttcagagg ccgtacaatc cagcccacct gaaaatcagc ttcgtgtcac
+     3721 atattgatcg actcaccact tcatctcctt ttctctaatt ctttcccaat tttacttcag
+     3781 ggatcatcgg acttcaaggc tgaaacctgg aggtgtgaac tcaccttcca tctcccagca
+     3841 ccagaagcct gaaactctac gagctcttag ccgtttcgtc tttacctgag tggctactct
+     3901 agattctaca ataagcacct gatctctgcg catggttttt ggtgtaccat tctgtcgccc
+     3961 gcatcgttgg cgcccaatga actatgtgtt ttgtgttaaa ccttaagctg aagggtacca
+     4021 tttgtagact cgatgttgct ctcttcctcg gaatgtcgtt acatctgttc gctcgtttcg
+     4081 tccgtacttt tgcgattggt cattgttcgc tcgtttcatc cctctgcttt tgcgagtaaa
+     4141 cggaacgcaa gtaagattgg caatcagtcc ccgagtccaa ttgtgtttcg cttatgctta
+     4201 taagtcaaaa attaaaattt aaaatttaat ttggagttga ttttgtagtt ttc
+//
+

@@ -1,0 +1,89 @@
+LOCUS       AB164646                2025 bp    mRNA    linear   PLN 14-MAR-2009
+DEFINITION  Oryza sativa Japonica Group OsYSL2 mRNA for metal-nicotianamine
+            transporter, complete cds.
+ACCESSION   AB164646
+VERSION     AB164646.1  GI:60543007
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Koike,S., Inoue,H., Mizuno,D., Takahashi,M., Nakanishi,H., Mori,S.
+            and Nishizawa,N.K.
+  TITLE     OsYSL2 is a rice metal-nicotianamine transporter that is regulated
+            by iron and expressed in the phloem
+  JOURNAL   Plant J. 39 (3), 415-424 (2004)
+   PUBMED   15255870
+REFERENCE   2  (bases 1 to 2025)
+  AUTHORS   Nishizawa,N.K. and Koike,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAR-2004) Contact:Naoko Kishi Nishizawa Graduate
+            School of Agricultural and Life Science, University of Tokyo,
+            Laboratory of Plant Biotechnology; 1-1-1, Yayoi, Bunkyo-ku, Tokyo
+            113-8657, Japan URL
+            :http://cherry.ga.a.u-tokyo.ac.jp/lab/nisizawa_lab/ index_eg.html
+FEATURES             Location/Qualifiers
+     source          1..2025
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..2025
+                     /gene="OsYSL2"
+     CDS             1..2025
+                     /gene="OsYSL2"
+                     /codon_start=1
+                     /product="metal-nicotianamine transporter"
+                     /protein_id="BAD90812.1"
+                     /db_xref="GI:60543008"
+                     /translation="MEAAAPEIERCDAGDVESDHDGAAAAAERVPPWREQVTARGMVA
+                     ALLIGFVYTVIIMKLALTTGIIPTLNVSAALLAFLALRGWTRAPALLLPGGGAASSSS
+                     WRRPFTRQENTVVQTCAVACYTMGFGGGFGSSLLALNRKTYELAGVSTPGNSPGSYKE
+                     PGVGWMTGFLFAISFVGLLNLLPLRKALIIDYKLTYPSGTATAVLINGFHTPQGENSA
+                     KKQVRGFLNCFGISLLWSFFQWFYTGGESCGFLQFPTFGLKAWKQTFYFDFSLTYVGA
+                     GMICSHLVNLSALFGAILSWGIMWPLISIQKGKWYPGNVPESSMTSLFGYKSFMCVAL
+                     IMGDGLYHFIKVTGITAKSLHERSNRRHAKKATDEDTFVIADMQRDEFFNKDYIPNWL
+                     AYAGYALLSIVAVIAIPIMFQQVKWYYVVVAFVLAPVLGFSNAYGTGLTDMNMSYNYG
+                     KIALFIFAAWGGRDNGVIAGLVGCGIVKQLVQVSADLMHDFKTGHLTLTSPRSMLVGQ
+                     AIGTAMGCIIAPLTFLLFYKAFDIGNPDGYWKAPYALIFRNMAILGVEGFSALPKHCL
+                     ELSAGFFAFSVLINLMRDFLPRKYRDYVPLPTAMAVPFLVGANFAIDMCVGSLIVFAW
+                     HKINSKESALLVPAVASGFICGDGIWMFPSSLLSLAKVKPPICMKFTPGS"
+ORIGIN      
+        1 atggaagccg ccgctcccga gatagagagg tgcgacgccg gcgacgtgga gtcggaccac
+       61 gacggcgccg ccgccgccgc cgagcgcgtg ccgccgtggc gcgagcaggt gacggcgcgg
+      121 ggcatggtgg cggcgctgct catcggattc gtctacaccg tcatcatcat gaagctggcg
+      181 ctcaccacgg ggataatccc cacgctcaac gtctccgccg cgctcctcgc cttcctcgcg
+      241 ctccgcggct ggacgcgcgc gcccgccctc ctcctccccg gcggcggcgc cgcctcctcc
+      301 tcctcctggc gccgcccctt cacccgccag gagaacaccg ttgtccagac ctgcgccgtc
+      361 gcctgctaca ccatgggatt cggcggtggg ttcgggtcgt cgctgctggc tctgaacagg
+      421 aagacgtacg agttggccgg ggtgagcacg ccgggcaact cgccggggag ctacaaggag
+      481 cccggggtcg ggtggatgac cggattcctg tttgcgatta gcttcgttgg gctccttaac
+      541 ttgcttccac tcagaaaggc tttgatcata gattataagt taacctatcc aagtgggact
+      601 gcaactgctg ttcttataaa cggattccat acccctcaag gagaaaatag tgcaaagaag
+      661 caagtccgcg gatttctgaa ttgctttggg atcagcctct tatggagctt cttccagtgg
+      721 ttctacactg gtggagagag ttgtgggttt cttcaattcc ctacctttgg tctaaaggct
+      781 tggaaacaaa cgttctattt tgatttcagc ctcacatatg ttggtgcggg aatgatctgc
+      841 tcacaccttg taaacctctc cgcgctcttt ggcgcaatac tttcttgggg gataatgtgg
+      901 ccactgatca gcatacaaaa gggtaagtgg tatcctggaa atgttcctga aagcagcatg
+      961 acaagcttgt ttggttacaa gtccttcatg tgtgtagctt tgatcatggg ggatggcctt
+     1021 taccacttca taaaagtaac aggtatcact gctaagagcc tgcatgaacg atccaatcgt
+     1081 agacatgcta agaaagcgac agatgaggat acatttgtaa ttgctgatat gcagcgtgac
+     1141 gagttcttca acaaagacta tattccaaac tggctagcgt atgctggata tgccttactg
+     1201 agcattgttg cggtaattgc gatacccata atgttccaac aggtgaagtg gtactatgtt
+     1261 gttgtagcct ttgtgcttgc tcctgtgctg ggattctcca atgcctatgg aactgggcta
+     1321 actgacatga acatgagcta caactatggc aagattgctc tcttcatctt tgcagcttgg
+     1381 ggagggaggg acaacggtgt cattgctggt cttgttggtt gtggaatagt gaagcagcta
+     1441 gtacaagtct ctgctgattt gatgcacgac tttaagactg gtcatctgac attaacatca
+     1501 ccaagatcca tgcttgttgg gcaggccatt ggtacagcca tgggctgcat aatcgctcca
+     1561 ctgactttct tgctcttcta caaagcattt gatattggga accctgatgg atactggaag
+     1621 gctccatatg ccctgatatt tcgaaacatg gccattcttg gcgtcgaggg cttttctgca
+     1681 ctaccaaagc attgtcttga gctgtctgct ggcttctttg cattttctgt gctcatcaac
+     1741 cttatgaggg acttcttgcc acgcaaatac agggattatg tgcccctgcc gacggcaatg
+     1801 gctgtgccat tccttgttgg tgcaaatttt gctattgaca tgtgtgtggg aagcctgata
+     1861 gtctttgcct ggcacaagat caacagcaag gagtctgcgt tgctagtgcc agcggttgcg
+     1921 tctggtttta tttgtggaga tggtatatgg atgttccctt cttccctgct ttcccttgct
+     1981 aaggttaagc caccaatctg catgaagttc actcccggaa gctag
+//
+

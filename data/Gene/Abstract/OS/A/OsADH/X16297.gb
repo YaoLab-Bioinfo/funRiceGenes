@@ -1,0 +1,83 @@
+LOCUS       X16297                  1575 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  O. sativa mRNA for alcohol dehydrogenase 2.
+ACCESSION   X16297
+VERSION     X16297.1  GI:20168
+KEYWORDS    ADH2 gene; alcohol dehydrogenase 2.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1575)
+  AUTHORS   Xie,Y. and Wu,R.
+  TITLE     Rice alcohol dehydrogenase genes: anaerobic induction, organ
+            specific expression and characterization of cDNA clones
+  JOURNAL   Plant Mol. Biol. 13 (1), 53-68 (1989)
+   PUBMED   2562760
+FEATURES             Location/Qualifiers
+     source          1..1575
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /strain="IR26"
+                     /db_xref="taxon:39946"
+                     /clone="pRCA2"
+                     /clone_lib="cDNA in lambda gt11"
+                     /dev_stage="seedlings"
+     gene            <1..>1575
+                     /gene="ADH2"
+     mRNA            <1..>1575
+                     /gene="ADH2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     CDS             102..1229
+                     /gene="ADH2"
+                     /codon_start=1
+                     /product="alcohol dehydrogenase 2"
+                     /protein_id="CAA34364.1"
+                     /db_xref="GI:20169"
+                     /db_xref="GOA:Q4R1E8"
+                     /db_xref="HSSP:1M6H"
+                     /db_xref="InterPro:IPR002085"
+                     /db_xref="InterPro:IPR002328"
+                     /db_xref="InterPro:IPR011032"
+                     /db_xref="InterPro:IPR013149"
+                     /db_xref="InterPro:IPR013154"
+                     /db_xref="InterPro:IPR016040"
+                     /db_xref="UniProtKB/Swiss-Prot:Q4R1E8"
+                     /translation="MATGKVIKCKAAVAWEAGEALSIEEVEVAPPQRMEVRVKILYTA
+                     LCHTDVYFWEAKGQTPVFPRILGHEAGGIVESVGEGVTELAAGDHVLPVFTGECKECD
+                     HCKSEESNMCDLLRINVDRGVMIGDGKSRFTIKGKPIFHFVGTSTFSEYTVIHVGCLA
+                     KINPEAPLDKVCILSCGFSSRFGATVNVAKPKKGQTVAIFGLGAVGLAAMEGARLSGA
+                     SRIIGVDLNPAKFEQAKKFGCTDFVNPKDHSKPVQVLIEMTNGGLDRAVECTGNINAM
+                     ISCFECVHDGWGVAVLVGVKDDVFKTHPMNFLNEKTLKGTLIFGNYKPRTDLPNVVEL
+                     YMKKELELEKFITSVPFSEINTAFDLMLKGESLRCVMSMYE"
+ORIGIN      
+        1 gaattccaag caacgaactg cgagtgattc aagaaaaaag aaaacctgag ctttcgatct
+       61 ctacggagtg gtttcttgtt ctttgaaaaa gagggggatt aatggcgaca gggaaggtga
+      121 tcaagtgcaa agcggcggtg gcatgggagg ccggggaagc gctgtcgatc gaggaggtgg
+      181 aggttgcgcc gccgcagcgc atggaggtcc gcgtcaagat cctctacacc gccctctgcc
+      241 acaccgacgt ctacttctgg gaggccaagg ggcaaacacc tgttttccct aggatcttgg
+      301 gccatgaagc tggaggcatt gtggagagtg tgggagaggg tgtgaccgaa ctcgccgcgg
+      361 gcgaccatgt cctcccggtg ttcaccggcg agtgcaagga gtgtgatcac tgcaaatcgg
+      421 aggagagcaa catgtgtgac ctcctcagga tcaacgtcga ccgcggcgtc atgatcggcg
+      481 acggcaagtc ccgattcacc atcaagggga agcccatctt ccactttgtt ggcacttcca
+      541 ccttcagcga gtacaccgtc atccatgtcg gctgcctcgc gaagatcaac ccggaggcgc
+      601 ctctcgacaa ggtctgcatt ctcagctgcg gtttctcgtc caggtttggt gcgacagtga
+      661 atgtcgcgaa accgaaaaag ggccagaccg tagctatttt cggtcttgga gctgtaggtc
+      721 ttgctgctat ggaaggtgcc aggctgtctg gagcatcgag gatcattggt gtggacctga
+      781 accctgcgaa attcgaacaa gctaagaagt ttggctgcac tgacttcgta aaccccaagg
+      841 accacagcaa gccagtgcag gtgctgattg agatgaccaa cggtggactc gacagggccg
+      901 ttgaatgcac gggcaacatc aacgccatga tatcctgctt cgaatgtgtc catgatggat
+      961 ggggcgttgc ggtgctggtc ggcgtgaagg atgatgtgtt caagacccac ccgatgaact
+     1021 tcctcaacga gaagacgctg aaggggacgt tgatcttcgg taactacaag ccgcgcaccg
+     1081 acctgcccaa cgtcgtcgag ctgtacatga agaaggagct ggagctggag aagttcatca
+     1141 cgagcgtgcc gttctcggag atcaacacgg cgttcgatct catgctcaag ggggagagtc
+     1201 tccgctgcgt catgagtatg tatgagtaga gatgatgatg atctatctct ctctctctct
+     1261 ctctgcagtt tcagtgcata caagaaacca aaaatgaaag caaaaaatgg atgagaagtt
+     1321 tgaggttttc catttaagtt taataatggt cgtgagacag ggcttgtgtg gagtcagctc
+     1381 tgtttactcc ctcctttcat ggcttgatct tgtttattgt cagcattgtg gcttagcaga
+     1441 ttttcaccag ttttaccctg taaattagta ccattctgat caatcgtaat aaactactag
+     1501 cagtgtgagg tactattgct ggaactgaat tgattgtgca gtaaagaggt gaatagcagc
+     1561 cagtatgaag gtttt
+//
+

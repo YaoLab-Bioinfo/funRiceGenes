@@ -1,0 +1,88 @@
+LOCUS       X14246                  1649 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  Oryza sativa shoot GS2 mRNA for chloroplastic glutamine synthetase
+            (EC 6.3.1.2) (clone lambda-GS31).
+ACCESSION   X14246
+VERSION     X14246.1  GI:20369
+KEYWORDS    glutamate-ammonia ligase.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1649)
+  AUTHORS   Sakamoto,A., Ogawa,M., Masumura,T., Shibata,D., Takeba,G.,
+            Tanaka,K. and Fujii,S.
+  TITLE     Three cDNA sequences coding for glutamine synthetase polypeptides
+            in Oryza sativa L
+  JOURNAL   Plant Mol. Biol. 13 (5), 611-614 (1989)
+   PUBMED   2577497
+REFERENCE   2  (bases 1 to 1649)
+  AUTHORS   Sakamoto,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JAN-1989) Sakamoto A., Lab of Biochemistry, Faculty
+            of Agriculture, Kyoto Prefectural University, Shimogamo, Kyoto 606,
+            Japan
+COMMENT     See X14244-X14246 for other glutamine synthetase sequences.
+FEATURES             Location/Qualifiers
+     source          1..1649
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone_lib="shoot cDNA"
+                     /dev_stage="seedling(2 weeks)"
+     CDS             64..1350
+                     /note="unnamed protein product; precursor chloroplastic
+                     glutamine synthetase (AA -46 to 382)"
+                     /codon_start=1
+                     /protein_id="CAA32462.1"
+                     /db_xref="GI:20370"
+                     /db_xref="GOA:P14655"
+                     /db_xref="InterPro:IPR008146"
+                     /db_xref="InterPro:IPR008147"
+                     /db_xref="InterPro:IPR014746"
+                     /db_xref="UniProtKB/Swiss-Prot:P14655"
+                     /translation="MAQAVVPAMQCQVGAVRARPAAAAAAAGGRVWGVRRTGRGTSGF
+                     RVMAVSTETTGVVTRMEQLLNMDTTPFTDKIIAEYIWVGGTGIDLRSKSRTISKPVED
+                     PSELPKWNYDGSSTGQAPGEDSEVILYPQAIFKDPFRGGNNILVMCDTYTPAGEPIPT
+                     NKRNRAAQVFSDPKVVSQVPWFGIEQEYTLLQRDVNWPLGWPVGGYPGPQGPYYCAVG
+                     SDKSFGRDISDAHYKACLYAGINISGTNGEVMPGQWEYQVGPSVGIEAGDHIWISRYI
+                     LERITEQAGVVLTLDPKPIQGDWNGAGCHTNYSTKSMREDGGFEVIKKAILNLSLRHD
+                     LHISAYGEGNERRLTGLHETASIDNFSWGVANRGCSIRVGRDTEAKGKGYLEDRRPAS
+                     NMDPYVVTALLAETTILWEPTLEAEVLAAKKLALKV"
+     transit_peptide 64..201
+                     /note="transit peptide (AA -46 to -1)"
+     mat_peptide     202..1347
+                     /product="mature glutamine synthetase (AA 1-382)"
+     polyA_site      1649
+                     /note="polyA site"
+ORIGIN      
+        1 cctcctcctc ctcgtcgctg cattccggtt gagtgagttg gtgattatct gtagggggtg
+       61 aaaatggcgc aggcggtggt gccggcgatg cagtgccagg tcggggccgt gcgggcgagg
+      121 ccggcggcgg ctgcggcggc ggcggggggg agggtgtggg gagtcaggag gaccgggcgc
+      181 ggcacgtcgg ggttcagggt gatggccgtg agcacggaga ccaccggggt ggtgacgcgg
+      241 atggagcagc tgctcaacat ggacaccacc cccttcaccg acaagatcat cgccgagtac
+      301 atctgggttg gaggaactgg aattgacctc agaagcaaat caaggacaat atcaaaacca
+      361 gtggaggacc cctcggagct accaaaatgg aactacgatg gatcaagcac agggcaagct
+      421 ccaggagaag atagtgaagt catcttatac ccacaggcta tattcaagga cccatttcga
+      481 ggtggcaaca acatattggt tatgtgtgat acctacacac cagctgggga acccatccct
+      541 actaacaaac gtaacagggc tgcacaagta ttcagtgatc caaaggttgt cagccaagtg
+      601 ccatggtttg gaatagaaca ggagtacact ttgctccaga gagacgtaaa ctggcctctt
+      661 ggctggcccg ttggaggcta ccctgggccc cagggtccat actactgcgc tgtaggatcg
+      721 gacaaatcgt ttggccgtga catatcagat gctcactaca aggcatgtct ttatgctgga
+      781 attaacatta gtggaacaaa tggagaggtc atgcctggtc agtgggagta ccaggttgga
+      841 cctagtgtcg gtattgaagc tggagaccac atatggattt caagatatat tcttgagaga
+      901 ataacggagc aggctggtgt agtgcttacc cttgacccca aaccaattca gggagactgg
+      961 aatggagctg ggtgccacac aaactacagc accaagagta tgcgtgaaga tggaggattt
+     1021 gaggtgatca agaaggcaat cctaaaccta tcacttcgcc atgacttgca tataagtgca
+     1081 tatggtgaag gaaatgaaag gaggttgaca ggtttacacg agacagctag cattgacaat
+     1141 ttctcatggg gtgtggcaaa ccgtggatgc tctattcggg tggggcgaga caccgaggcg
+     1201 aagggaaaag gctacttgga agaccgtcgc ccggcatcaa acatggaccc gtacgtcgtg
+     1261 acagcgctat tggctgaaac cacaattctt tgggagccaa ccctcgaagc ggaggttctt
+     1321 gctgctaaga agttggccct gaaggtatga agaacttgga cgatgaatcg gggcaaataa
+     1381 atcccagcaa aatttgtttg ctgcccacca gtcttgatct tgtatttctt ctgtctgggg
+     1441 attggtctgt acaaatctgc agtttctaga aaaccacgcc accttccatt cgccagttaa
+     1501 cattttggtt gaacaccaca cttgatctgg gtctgtattt tgagtccatt tgtgagtgac
+     1561 agaacggatg atgaaacaca tcagggacac ttttaagttt cttcagtcct gcgtccttcc
+     1621 ctcgaaataa aaatgtttcc ttgtttttt
+//
+

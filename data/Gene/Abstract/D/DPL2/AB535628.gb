@@ -1,0 +1,60 @@
+LOCUS       AB535628                 881 bp    mRNA    linear   PLN 25-NOV-2010
+DEFINITION  Oryza sativa Indica Group DPL2 mRNA for hypothetical protein,
+            complete cds, cultivar: Kasalath.
+ACCESSION   AB535628
+VERSION     AB535628.1  GI:311692176
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Mizuta,Y., Harushima,Y. and Kurata,N.
+  TITLE     From the Cover: Rice pollen hybrid incompatibility caused by
+            reciprocal gene loss of duplicated genes
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 107 (47), 20417-20422 (2010)
+   PUBMED   21048083
+REFERENCE   2  (bases 1 to 881)
+  AUTHORS   Mizuta,Y., Harushima,Y. and Kurata,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2009) Contact:Yoko Mizuta National Institute of
+            Genetics, Plant Genetics; Yata 1111, Mishima, Shizuoka 411-8540,
+            Japan URL :http://www.nig.ac.jp/labs/PlantGen/japanese/home-j.html
+FEATURES             Location/Qualifiers
+     source          1..881
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Kasalath"
+                     /db_xref="taxon:39946"
+                     /chromosome="6"
+     gene            1..881
+                     /gene="DPL2"
+     CDS             255..542
+                     /gene="DPL2"
+                     /experiment="5' and 3' rapid amplification of cDNA ends
+                     (RACE) experiments"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="BAJ25698.1"
+                     /db_xref="GI:311692177"
+                     /translation="MGSEDTKDMLKNVDWKTVGGGSVTTDPSQPVVKKRLPKKIRQVP
+                     ECYFLPRRSLPSALAIYGAVCAAGVGAGMLLEVWINKKIKEDSAIVWEMGK"
+ORIGIN      
+        1 gtctccccgc cgccgccgtc gcccagcgcc gcgcctcccc gcccgccgtt gccggcgaca
+       61 agcccccgca gggagcgggc tacctggagt ccaagctgca gcctcgccct cccgctccgt
+      121 gcgccgggca gcagcaagcg ccgccccaag ccctagcctc gccgcctgcc aggtgcctga
+      181 agccccctcg gcccgtgctc cccttcctgt ctgcttgtcg gattcaccga ttgtagcccg
+      241 caggcatttt caggatgggc agtgaggaca caaaagatat gctgaagaat gtggactgga
+      301 aaacagttgg tggtggttca gtgactactg acccaagcca accagttgtt aaaaagcgtc
+      361 tcccaaagaa aattagacaa gttcctgaat gctattttct gcctcggcga tctttgcctt
+      421 ctgcattggc aatctatggc gctgtgtgtg ctgctggagt tggcgcaggg atgctgcttg
+      481 aggtttggat aaacaaaaag atcaaagagg acagtgccat tgtctgggaa atgggcaaat
+      541 gatttgattg ctacctctga agagttctcc ttgctcttgt gttcagctgc taaagctgca
+      601 tctcagaaat aatcctagct atattgattc agattatctt ttgattccca gacaaagtaa
+      661 aactatcctt tctaatgtac ggcactgcct tatatctaca ttcctgattt cattttgaat
+      721 gctagcatta cagtatggtg taacaggcag tatcagaaat aacggtgttc cagaacgagc
+      781 catttctgtt tgacattatc agtagtccgt catacgaatt aattgattgt gtggacagta
+      841 gtgattacat gctgtgatgg aaatataaaa aaaatcatta g
+//
+

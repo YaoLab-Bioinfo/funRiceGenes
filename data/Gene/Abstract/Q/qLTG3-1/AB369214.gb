@@ -1,0 +1,79 @@
+LOCUS       AB369214                1781 bp    DNA     linear   PLN 12-SEP-2008
+DEFINITION  Oryza sativa Japonica Group qLTG-3-1 gene, complete cds, cultivar:
+            Italica Livorno.
+ACCESSION   AB369214
+VERSION     AB369214.1  GI:193788020
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Fujino,K., Sekiguchi,H., Matsuda,Y., Sugimoto,K., Ono,K. and
+            Yano,M.
+  TITLE     Molecular identification of a major quantitative trait locus,
+            qLTG3-1, controlling low-temperature germinability in rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (34), 12623-12628 (2008)
+   PUBMED   18719107
+REFERENCE   2  (bases 1 to 1781)
+  AUTHORS   Sekiguchi,H. and Fujino,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-NOV-2007) Contact:Hirosi Sekiguchi HOKUREN Federation
+            of Agricultural Cooperatives, Crop Genomic Research Section
+            Agricultural Research Institute; Kita 15, Higashi 5, Naganuma,
+            Hokkaido 069-1317, Japan
+FEATURES             Location/Qualifiers
+     source          1..1781
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Italica Livorno"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+                     /note="synonym: Oryza sativa (japonica cultivar-group)"
+     gene            931..1485
+                     /gene="qLTG-3-1"
+     CDS             931..1485
+                     /gene="qLTG-3-1"
+                     /note="Os03g0103300 in the Rice Annotation Project
+                     Database (RAP-DB)"
+                     /codon_start=1
+                     /protein_id="BAG50511.1"
+                     /db_xref="GI:193788021"
+                     /translation="MATKAGVIATLLALNLLFFTFSDACGCQCGSCPSPGGGGGGGGG
+                     GGGGGGGRGGGGGSGGGSGGGGGSGGGGSGGGGSGGGGSGGGGGGGSGGGGGGGRCPI
+                     DTLKLGVCANVLNGLINVQLGTPPRQPCCSLIQGLADLEAAVCLCTALRANILGINLN
+                     LPINLSLLVNYCGRSVPSGFQCSN"
+ORIGIN      
+        1 atcgatgaac tttttcggtt aattagacga tgagaaatga ttttatgtga agttaattaa
+       61 ttaattaacc tctaacattt aactaatgca ggtaatatat tatcttatag ttaattagac
+      121 gctagaaaat ggtttaagat tgatcgaaac caatattaat taatgaggtc tatttataaa
+      181 attaattcag ttgcaatata tacacgctca tttagctagt ctccaaaata tatcgaaata
+      241 aatatcgatt ggcccttgcc tcccgcaggt atattattgc atattccctc cgtcccaaaa
+      301 aaataaaccc tgggttttca cgtccaatat ttgactgttt gtcttatgtg aaattttttt
+      361 tataattagt atttttattg ttgttagatg atagaacatg attaatattt tatgcgcgac
+      421 ttgtctttta attttttttt catatttttt ttaaataaga cggacggtca aacgttggac
+      481 acggaaatca agggtttgtc tttttttttt ggggacgaag ggtgtatata tatatatata
+      541 tatatatgct cgctagcaga gtacttggcc tccaactcaa tcgtccttgc ggccagctaa
+      601 gctaccaaaa gcccactagc tagtagcact atactccaat gaattaatgt actccaggcc
+      661 agctagctag ctaggtcact agtagtagtt acgctgtagt gatgtgagct gcacctaaga
+      721 tgaaatccta gttaaaatcc gattagttaa ttagttagtt aagtgatgtg gtagctggtt
+      781 aagtaattga aggtactccg atcctattat aaatatgagt gcaccccttg gtccatagat
+      841 gtatctgaat acactggcta gcaagcaaag ctaggtagag gccaggccat agatcgagat
+      901 cgatctgcag gtgcagtgcg gtgggtgggc atggcgacga aagctggggt gatcgccacg
+      961 ctcctggccc tgaacctcct cttcttcacc ttctccgacg cgtgcggctg ccagtgcggc
+     1021 tcatgcccta gtcccggcgg aggaggcggt ggcggtggcg gtggcggtgg cggtggtgga
+     1081 gggcgtggag gtggtggcgg gagcggcgga ggttcaggtg gaggcggcgg ttcaggtgga
+     1141 ggaggaagcg gcggcggagg ttcaggcggt ggaggaagcg gaggcggcgg aggaggagga
+     1201 agcggcggcg gcgggggagg aggaagatgc ccgatcgaca cgctgaagct gggggtgtgc
+     1261 gcgaacgtgc tgaatgggct gataaacgtg cagctgggga cgccgccgcg gcagccgtgt
+     1321 tgcagcctca tccagggcct cgccgacctt gaggccgccg tgtgcctctg caccgccctc
+     1381 cgcgccaaca tccttggcat caacctcaac ctccccatca acctcagcct cctcgtcaac
+     1441 tactgcggcc gctccgtccc ctccggcttc cagtgcagca actaatatag ctgctgctcc
+     1501 attctacttc actgcttgct acacacaaga acgtacgaag aacgaccacc aggccacgta
+     1561 caactatata tctatctatg tctaatttgt tccttgttca aatcatcata tgtatctgcg
+     1621 tgccttaatt tcctccttca tcccgtaaat taatgagata tatatgcatg catatgattc
+     1681 agttccacga cgtaattaaa gcatgcttca ttcgtctact tgtatatgtg tatctgcata
+     1741 attgattaat taatttgtac tcgatggatc tcatcgtata t
+//
+

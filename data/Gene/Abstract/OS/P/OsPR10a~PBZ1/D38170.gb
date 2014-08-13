@@ -1,0 +1,62 @@
+LOCUS       D38170                   833 bp    mRNA    linear   PLN 27-DEC-2006
+DEFINITION  Oryza sativa mRNA for probenazole-inducible protein PBZ1, complete
+            cds.
+ACCESSION   D38170
+VERSION     D38170.1  GI:1215811
+KEYWORDS    probenazole-inducible protein PBZ1.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Midoh,N. and Iwata,M.
+  TITLE     Cloning and characterization of a probenazole-inducible gene for an
+            intracellular pathogenesis-related protein in rice
+  JOURNAL   Plant Cell Physiol. 37 (1), 9-18 (1996)
+   PUBMED   8720923
+REFERENCE   2  (bases 1 to 833)
+  AUTHORS   Midoh,N.
+  TITLE     Rice mRNA for probenazole-inducible protein PBZ1, complete cds
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 833)
+  AUTHORS   Midoh,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-1994) Naoki Midoh, Meiji Seika Kaisha, Ltd.,
+            Agri-Vet Research Laboratory; 760 Morooka-Cho, Kohoku-Ku, Yokohama,
+            Kanagawa 222, Japan (Tel:045-545-3161, Fax:045-545-3193)
+FEATURES             Location/Qualifiers
+     source          1..833
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /strain="Jikkoku"
+                     /db_xref="taxon:39947"
+                     /note="Common name: Rice"
+     CDS             83..559
+                     /note="Induced by the treatment of probenazole or the
+                     inoculation of rice blast fungus."
+                     /codon_start=1
+                     /product="probenazole-inducible protein PBZ1"
+                     /protein_id="BAA07369.1"
+                     /db_xref="GI:1215812"
+                     /translation="MAPACVSDEHAVAVSAERLWKAFMDASTLPKACAGLVDDIAVEG
+                     NGGPGTIYTMKLNPAAGVGSTYKTRVAVCDAASHVLKSDVLEAESKVGKLKSHSTETK
+                     LEATGDGSCVAKLKVEYELEDGSSLSPEKEKDIVDGYYGMLKMIEDYLVAHPAEYA"
+     polyA_signal    764..769
+ORIGIN      
+        1 cagctctagc tagctacagg catcagtggt cagtagagtg atcagttgca actagctagc
+       61 tagttagatt atatcttcag tgatggctcc ggcctgcgtc tccgacgagc acgccgtcgc
+      121 ggtgtcggcg gagcggctgt ggaaggcgtt catggacgcg tccactttgc ccaaggcctg
+      181 cgccggcttg gtcgacgaca ttgcggtcga ggggaacggt ggtccgggca ccatctacac
+      241 catgaagctt aaccctgccg cgggtgtggg aagcacatac aagacccggg tggcggtgtg
+      301 cgacgccgca agtcatgtcc taaagtcgga tgtgctcgag gcagaaagca aggtggggaa
+      361 gctcaagtca cactcgacgg agacgaagct tgaggccacc ggcgatggct cctgtgtggc
+      421 caagctcaag gtggagtacg agctcgagga cggcagctca ctgtcgccgg agaaggagaa
+      481 ggacatcgtg gatggctact atggcatgct caagatgatc gaggactacc tcgtcgctca
+      541 ccctgccgaa tacgcctaag atgaagagga atactgcctc tatccagtat atcccaccta
+      601 gagtgagtga taattaaata atgagagccg cagaaatgtc caaattctcg tggcgtttga
+      661 gtccgtgaga gtaatttcgt gctttaagtt tgtggttgtg tttatgtgcc tttctatggt
+      721 cgtattcagt gttaaagtta tcattttgct tcatcaatgg gtgaataaag agaggcaagt
+      781 ctgaatgtgt tctgctatgg tttggaggtt aatatggaag attgaaaatc aaa
+//
+

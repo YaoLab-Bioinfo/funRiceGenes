@@ -1,0 +1,61 @@
+LOCUS       AF429948                1135 bp    mRNA    linear   PLN 03-JAN-2003
+DEFINITION  Oryza sativa putative fructokinase I mRNA, complete cds.
+ACCESSION   AF429948
+VERSION     AF429948.1  GI:16566706
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1135)
+  AUTHORS   Jiang,H., Dian,W., Liu,F. and Wu,P.
+  TITLE     Isolation and characterization of two fructokinase cDNA clones from
+            rice
+  JOURNAL   Phytochemistry 62 (1), 47-52 (2003)
+   PUBMED   12475618
+REFERENCE   2  (bases 1 to 1135)
+  AUTHORS   Wu,P., Jiang,H.W. and Dian,W.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-2001) Institute of Plant Science, College of Life
+            Sciences, Zhejiang University, Kaixuan Road 268, Hangzhou, Zhejiang
+            Province 310029, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..1135
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             62..1033
+                     /note="similar to carbohydrate kinase family pfkB"
+                     /codon_start=1
+                     /product="putative fructokinase I"
+                     /protein_id="AAL26574.1"
+                     /db_xref="GI:16566707"
+                     /translation="MAGRSELVVSFGEMLIDFVPTVAGVSLAEAPAFVKAPGGAPANV
+                     AIAVARLGGGAAFVGKLGDDEFGRMLAAILRDNGVDDGGVVFDAGARTALAFVTLRAD
+                     GEREFMFYRNPSADMLLTHAELNVELIKRAAVFHYGSISLIAEPCRSAHLRAMEIAKE
+                     AGALLSYDPNLREALWPSREEARTKILSIWDQADIVKVSEVELEFLTGIDSVEDDVVM
+                     KLWRPTMKLLLVTLGDQGCKYYARDFRGAVPSYKVQQVDTTGAGDAFVGALLRRIVQD
+                     PSSLQDQKKLEEAIKFANACGAITATKKGAIPSLPTEVEVLKLMESA"
+ORIGIN      
+        1 tctttcatcg cctcttgtgt tcgcgcgcgc gagcagggtg gttgttgttg gtgggggtgc
+       61 aatggcgggg aggagcgagc tggtggtgag cttcggggag atgctgatag acttcgtgcc
+      121 gacggtggcg ggggtgtcgc tggcggaggc gccggcgttc gtcaaggcgc cagggggggc
+      181 gccggcgaac gtggccatcg cggtggcgcg gctcggcggc ggggccgcgt tcgtcggcaa
+      241 gctgggggac gacgagttcg ggcggatgct cgcggccatc ctccgcgaca acggcgtcga
+      301 cgacggcggg gtcgtgttcg acgccggggc gcgcaccgcg ctcgccttcg tcaccctccg
+      361 cgccgacggg gagcgcgagt tcatgttcta ccgcaacccc agcgccgaca tgctcctcac
+      421 ccacgccgag ctcaacgtcg agctcatcaa gagggctgcc gtcttccatt atggatcaat
+      481 aagcttgata gctgagccct gccggtcagc acatttgcgt gccatggaga ttgcgaaaga
+      541 agctggtgcg ctgctatctt atgacccgaa tctcagggag gcattgtggc cctcccgtga
+      601 ggaggctcgc accaagatct tgagcatctg ggaccaggca gacattgtca aggtcagcga
+      661 ggtcgagctt gagttcttga ccggcattga ctcagtagag gatgatgttg tcatgaagct
+      721 atggcgccct accatgaagc tcctccttgt gactcttgga gatcaaggat gcaagtacta
+      781 tgccagggat ttccgcggag ctgtcccatc ctacaaagta cagcaagttg atacaacagg
+      841 tgcaggtgat gcgtttgttg gtgctctgct gcgaagaatt gtccaggatc catcatcgtt
+      901 gcaagatcag aagaagcttg aggaagcgat taaatttgcc aatgcgtgcg gagcaatcac
+      961 cgccacaaag aaaggggcaa tcccatcact gcccaccgaa gttgaggtct tgaagttgat
+     1021 ggagagtgct tagatcgatc agtagcatta tggtcactag cttcagcttc cgcaaattgt
+     1081 attgtatgct gatctggatc aggagcaggg gggtactcca agatgcctgc ctttt
+//
+

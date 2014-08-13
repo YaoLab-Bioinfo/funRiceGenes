@@ -1,0 +1,85 @@
+LOCUS       FJ527826                1770 bp    DNA     linear   PLN 10-SEP-2009
+DEFINITION  Oryza sativa Japonica Group cultivar Dongjin pentatricopeptide
+            repeat protein (OGR1) gene, complete cds.
+ACCESSION   FJ527826
+VERSION     FJ527826.1  GI:220061994
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1770)
+  AUTHORS   Kim,S.R., Yang,J.I., Moon,S., Ryu,C.H., An,K., Kim,K.M., Yim,J. and
+            An,G.
+  TITLE     Rice OGR1 encodes a pentatricopeptide repeat-DYW protein and is
+            essential for RNA editing in mitochondria
+  JOURNAL   Plant J. 59 (5), 738-749 (2009)
+   PUBMED   19453459
+REFERENCE   2  (bases 1 to 1770)
+  AUTHORS   Kim,S.-R., Yang,J.-I. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-2008) Division of Molecular and Life Sciences,
+            POSTECH, San31, Hyoja-Dong, Nam-Gu, Pohang, Kyungbuk 790-784,
+            Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..1770
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Dongjin"
+                     /db_xref="taxon:39947"
+     gene            <1..>1770
+                     /gene="OGR1"
+     mRNA            <1..>1770
+                     /gene="OGR1"
+                     /product="pentatricopeptide repeat protein"
+     CDS             1..1770
+                     /gene="OGR1"
+                     /codon_start=1
+                     /product="pentatricopeptide repeat protein"
+                     /protein_id="ACL79585.1"
+                     /db_xref="GI:220061995"
+                     /translation="MSVSAAAAARHLESLLPRLASLRHYLQFHARLLTSGHLGAHPGL
+                     RARFLDRLALSPHPAALPHALLLLRSLPTPATNDLNAALRGLAASPHPARSLLLLAGR
+                     LLPALLPRPDALSLSFALKASARCSDAHTTVQLHALVLRLGVAADVRLLTTLLDSYAK
+                     CGDLASARKVFDEMTVRDVATWNSLLAGLAQGTEPNLALALFHRLANSFQELPSREEP
+                     NEVTIVAVLSACAQIGLLKDGMYVHEFAKKFGLDRNVRVCNSLIDMYSKCGSLSRALD
+                     VFHSIKPEDRTLVSYNAAIQAHSMHGHGGDALRLFDEMPTRIEPDGVTYLAVLCGCNH
+                     SGLVDDGLRVFNSMRVAPNMKHYGTIVDLLGRAGRLTEAYDTVISMPFPADIVLWQTL
+                     LGAAKMHGVVELAELAANKLAELGSNVDGDYVLLSNVYASKARWMDVGRVRDTMRSND
+                     VRKVPGFSYTEIDGVMHKFINGDKEHPRWQEIYRALEDIVSRISELGYEPETSNVLHD
+                     IGEEEKQYALCYHSEKLAIAFGLIATPPGETLRVIKNLRICGDCHVVAKLISKAYGRV
+                     IVIRDRARFHRFEDGQCSCRDYW"
+ORIGIN      
+        1 atgtcggtgt cggcggcggc ggcggcgcgg catctggaat ccctcctccc gcgcctggcc
+       61 tccctccgcc actacctgca gttccacgcg cgcctcctca cctcgggcca cctcggcgcc
+      121 cacccgggcc tccgcgcccg cttcctcgac cgcctcgcgc tctcgccgca ccccgccgcg
+      181 ctcccccacg cgctgctcct cctccgctcc ctccctaccc cggccaccaa cgacctcaac
+      241 gccgcgctca gggggctcgc cgcctcgccg cacccggccc gctcgctcct cctcctcgcg
+      301 ggccgcctcc tccccgccct gctccctcgc cccgacgcgc tctcgctctc cttcgcgctc
+      361 aaggcgtccg cccgctgctc cgacgcgcac accacggtgc agctccacgc gctcgtcctc
+      421 cgcctcggcg tcgccgccga cgtccggctg ctaaccacgc tgcttgactc gtacgccaag
+      481 tgtggagatc tcgcgtccgc gcggaaggtg tttgatgaaa tgaccgtgcg ggacgtggcc
+      541 acatggaact cgctgctggc ggggctagcg caaggcacgg agcctaacct tgctctcgcg
+      601 ctgttccaca ggctggctaa cagcttccag gagttgccgt cgagggagga acccaatgag
+      661 gtgactattg ttgcggtgct ttccgcgtgt gcgcagattg gcttgttaaa agatgggatg
+      721 tatgtgcacg agtttgctaa aaaatttgga ctggatcgca atgttcgggt ctgcaattca
+      781 ctaattgaca tgtactccaa gtgtggctcg ctgtcaaggg ccctggatgt gttccattcc
+      841 atcaagccag aagaccggac gcttgtgtcc tacaatgctg caattcaggc acattccatg
+      901 catgggcatg ggggtgatgc actgagattg tttgatgaaa tgcccacacg cattgagcca
+      961 gatggagtga cttaccttgc tgtgttgtgc gggtgcaacc attctggcct tgtggatgat
+     1021 gggctcaggg tattcaactc gatgcgagtt gctccaaata tgaagcacta tggaacaatt
+     1081 gtggaccttc ttggccgtgc aggccgtctc actgaggcat atgacaccgt catttctatg
+     1141 ccatttccag ctgatattgt cctttggcag acattgttgg gtgcagccaa gatgcatggg
+     1201 gttgttgagc ttgcggagtt ggctgccaat aaacttgctg agcttggttc taatgtcgat
+     1261 ggtgactatg tgctcctatc gaatgtttat gcatccaagg ctcggtggat ggatgttggt
+     1321 cgagtacgtg ataccatgcg aagcaacgat gtgcgaaaag ttcctggctt cagctacaca
+     1381 gaaatagatg gagtaatgca taagtttatt aatggtgaca aagagcaccc gaggtggcaa
+     1441 gagatataca gagcactgga ggacattgta tcaagaatta gtgagctagg atatgagcca
+     1501 gagacaagca atgtactgca tgacattggg gaggaggaaa aacagtatgc attatgttat
+     1561 catagtgaga agctggccat tgcatttggg ttgattgcaa caccacctgg ggagactctt
+     1621 cgggtgatca aaaatctccg aatatgtggg gactgtcatg tggtggcaaa gctcatctct
+     1681 aaagcttatg gtcgtgttat tgtcattcgg gacagggcga gattccatcg atttgaagat
+     1741 gggcagtgtt cctgcaggga ttactggtaa
+//
+

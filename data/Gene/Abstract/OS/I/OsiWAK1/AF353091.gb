@@ -1,0 +1,109 @@
+LOCUS       AF353091                2386 bp    mRNA    linear   PLN 01-JUL-2008
+DEFINITION  Oryza sativa protein kinase (WAK130) mRNA, complete cds.
+ACCESSION   AF353091
+VERSION     AF353091.4  GI:58042847
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2386)
+  AUTHORS   Vydehi,K., Mushtaq,A. and Gupta,A.K.
+  TITLE     Production of a novel protein kinase during in vitro regeneration
+            of calli of Oryza sativa
+  JOURNAL   Unpublished
+  REMARK    Unpublished
+REFERENCE   2  (bases 1 to 2386)
+  AUTHORS   Mushtaq,A. and Gutpa,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-FEB-2001) Dept. of Plant Biotechnology, School of
+            Biotechnology, Madurai Kamaraj University, Madurai, Tamilnadu
+            625021, India
+REFERENCE   3  (bases 1 to 2386)
+  AUTHORS   Mushtaq,A. and Gutpa,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUL-2002) Dept. of Plant Biotechnology, School of
+            Biotechnology, Madurai Kamaraj University, Madurai, Tamilnadu
+            625021, India
+  REMARK    Sequence update by submitter
+REFERENCE   4  (bases 1 to 2386)
+  AUTHORS   Mushtaq,A. and Gutpa,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JAN-2005) Dept. of Plant Biotechnology, School of
+            Biotechnology, Madurai Kamaraj University, Madurai, Tamilnadu
+            625021, India
+  REMARK    Sequence update by submitter
+COMMENT     On Jan 24, 2005 this sequence version replaced gi:56961687.
+FEATURES             Location/Qualifiers
+     source          1..2386
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="calli"
+     gene            1..2386
+                     /gene="WAK130"
+                     /note="OsWAK130"
+     CDS             1..2157
+                     /gene="WAK130"
+                     /note="expressed during in vitro regeneration"
+                     /codon_start=1
+                     /product="protein kinase"
+                     /protein_id="AAL83452.4"
+                     /db_xref="GI:58042848"
+                     /translation="MAKNVMRLAILAMAQLVLLWPATTAGQRAGCPSKCGDVDIPSPF
+                     GVGDDCAWPGPDNFTVTCNHSFSPPRPYYLNIEIMNISVAAGEMRVYSPVVSQCYNSS
+                     NTTDSDRFELLQLNVTDTPFLVAPERNEFTAIGCATLGWLQGRDDGNYLTGCISTCAS
+                     LETATDDGEPCTGLGCCHVPSIPPNLGILNISLGRSIGNRPAWTESPCSYAFMAEQGW
+                     YSFSRQDFSHAGSKSFVESDGGRSVPTVLDWAIRRNGLCSSATGAPACVSAHSYCVNA
+                     TNGEGYLCNCSAGYSGSPYVTGGCININECELWREGPAMYPCYSGSRCYDTEGGYKCK
+                     CRFPHRGDGTGKGCKPIIPLRIVATLATVCAMVALLGLAWFIRCEHKAWEQRGFFESN
+                     GGQLLKDMGVTTFTQEQLDTITNKKRTKIGKGTFGEVYKGLHDDQEVAVKYSTAKSSI
+                     RRGKYEFVKEMAFRKSISSNGDGTLGQKASVNEIIVQSQMQHDNVVRLIGCCMETEVP
+                     MLVFEFIPNGSLETVLHGPDLRALSLPERLGIAIGSAAALAYMHSLGLQSIIHGDVKP
+                     ANILLGKDLVPKVSDFGSSKLGLATKEVCADKNYIDPVCMKTNIVTQKSDVYSFGIVL
+                     IELITRKKAKYDGRNVQSDFVNCHTDNNARREMYDQDMLHTDAHSLQPDQCIECLDTM
+                     AAIAVRCLKDDVDERPTMAEVLEELKQLRASNELMV"
+ORIGIN      
+        1 atggccaaga acgtaatgcg cctcgcaata ctggccatgg cacagctagt gctgctgtgg
+       61 cctgctacta cggctgggca gcgggcgggg tgcccgagca agtgcggcga cgtcgacatc
+      121 ccctcccctt tcggcgtcgg cgacgactgc gcatggccgg gtccagataa cttcaccgtc
+      181 acatgcaacc atagcttcag ccctcccaga ccctactact tgaacataga gatcatgaac
+      241 atctcggtgg cggcggggga gatgcgcgtc tactctcccg tggtctccca gtgctacaac
+      301 tcatccaaca ccacggactc tgacagattc gagttgttgc agctcaacgt caccgacacg
+      361 ccgttcctgg tcgctccgga gagaaacgag ttcacggcca tcggctgtgc cacgttggga
+      421 tggctgcagg gcagagacga tgggaactac ttgaccggct gcatctcgac gtgcgcgagc
+      481 ttggagacag ccaccgacga cggtgagccg tgcacggggc tgggttgctg ccatgtgcct
+      541 tccatcccgc ccaaccttgg catcttaaat atttccttgg gcagaagcat cggcaaccgg
+      601 cctgcttgga cagagagccc gtgtagctac gccttcatgg ccgagcaagg ctggtacagt
+      661 ttcagccggc aagatttcag tcatgccggc agcaagagct ttgtcgagag tgatggagga
+      721 agaagtgtcc caacagtgct tgactgggcc atcaggagaa atggattgtg ctcatcagca
+      781 acaggggctc ctgcctgtgt cagcgcccac agctactgtg taaacgctac caacggcgag
+      841 gggtacctct gcaactgttc cgcagggtac tccggcagtc cgtatgtcac cggcggatgc
+      901 ataaatatta atgagtgcga gctttggaga gaagggcctg ccatgtatcc ctgttacagt
+      961 ggtagcagat gctatgacac agagggtggt tacaagtgca aatgccgatt tccccataga
+     1021 ggagacggta ctggcaaggg atgcaagccc ataattccct tacgtatagt cgccacacta
+     1081 gcaacggtat gcgccatggt tgctcttttg ggccttgcgt ggttcattcg ttgtgagcac
+     1141 aaggcatggg agcagagggg gttcttcgaa agtaacggtg gccaactact gaaggatatg
+     1201 ggcgttacca ccttcacgca ggagcagctt gacacgataa caaacaagaa gagaaccaag
+     1261 atcgggaagg gcaccttcgg tgaggtctat aagggactcc acgatgacca ggaggtcgcc
+     1321 gtcaaatact ccaccgcgaa gagcagtatt agacgaggca aatacgagtt cgtgaaagag
+     1381 atggccttta gaaaatccat cagttccaat ggtgatggta cgctcgggca aaaagcgtcc
+     1441 gtgaatgaga tcattgtcca gtcacagatg cagcacgaca acgtggtccg tctcatcggg
+     1501 tgctgcatgg agacggaggt ccccatgctg gtcttcgagt ttatccccaa tgggagcctc
+     1561 gagaccgtgc ttcatggacc tgacctacgg gctctctcgc tgccagaacg cctcggcatt
+     1621 gccatcggct ccgcggctgc tcttgcctac atgcattctc ttggtctcca aagcattatt
+     1681 catggagatg tcaagccagc caacatcctt cttggtaagg atctcgtgcc taaggtctct
+     1741 gactttgggt cctccaagtt aggccttgca accaaggaag tatgtgccga caagaactac
+     1801 atcgatcctg tgtgcatgaa aactaacatt gtcacacaga aaagcgatgt ttacagcttt
+     1861 gggatcgtcc tcatagaact cattactcgg aaaaaggcca agtatgacgg gagaaacgtt
+     1921 cagtcagatt ttgtcaactg tcacacggac aacaatgcaa ggagggagat gtatgaccag
+     1981 gacatgctgc atactgatgc ccacagcctt cagcctgatc agtgcattga atgcctcgac
+     2041 acgatggcgg ccatcgcagt ccggtgtctc aaagatgacg tggatgagag gcccaccatg
+     2101 gcagaggtgc tggaggagct taagcagttg agagcaagca acgaactgat ggtgtagaag
+     2161 atgaaccaag cctggtctcc tcagactcgg ttggtagtcc atcgatatat ggattcgtcc
+     2221 ttcttgctat tgttttctcc gtcgatctcg cagatgtgac gtttgttgct tccgccgggt
+     2281 tgtcctgtta tgcttgtaga gctgcagcat tgtgctattg tcgtttagtt tcctcttgta
+     2341 acaagtatcg ataacgattc ttttagtttc tggtaaaaaa aaaaaa
+//
+

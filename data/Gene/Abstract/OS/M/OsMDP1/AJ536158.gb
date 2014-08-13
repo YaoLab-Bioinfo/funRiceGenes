@@ -1,0 +1,67 @@
+LOCUS       AJ536158                1045 bp    mRNA    linear   PLN 03-AUG-2006
+DEFINITION  Oryza sativa Japonica Group mRNA for MADS Domain containing
+            Protein.
+ACCESSION   AJ536158
+VERSION     AJ536158.1  GI:57283092
+KEYWORDS    MADS Domain containing Protein; mdp gene.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Duan,K., Li,L., Hu,P., Xu,S.P., Xu,Z.H. and Xue,H.W.
+  TITLE     A brassinolide-suppressed rice MADS-box transcription factor,
+            OsMDP1, has a negative regulatory role in BR signaling
+  JOURNAL   Plant J. 47 (4), 519-531 (2006)
+   PUBMED   16827922
+REFERENCE   2  (bases 1 to 1045)
+  AUTHORS   Duan,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JAN-2003) Duan K., National Lab of Plant Molecular
+            Genetics, Shanghai Institute of Plant Physiology, No 300, Fenglin
+            Road, 200032, Shanghai, CHINA
+FEATURES             Location/Qualifiers
+     source          1..1045
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..1045
+                     /gene="mdp"
+     CDS             1..747
+                     /gene="mdp"
+                     /function="possibly involved in development"
+                     /codon_start=1
+                     /product="MADS Domain containing Protein"
+                     /protein_id="CAD60176.1"
+                     /db_xref="GI:57283093"
+                     /db_xref="GOA:Q5K4R0"
+                     /db_xref="InterPro:IPR002100"
+                     /db_xref="InterPro:IPR002487"
+                     /db_xref="UniProtKB/Swiss-Prot:Q5K4R0"
+                     /translation="MAGGGGGGGRGEGEGRAATGKRERIAIRRIDNLAARQVTFSKRR
+                     RGLFKKAEELSILCDAEVGLVVFSATGKLFQFASTSMEQIIDRYNSHSKTLQRAEPSQ
+                     LDLQGEDSSTCARLKEELAETSLRLRQMRGEELHRLNVEQLQELEKSLESGLGSVLKT
+                     KSKKILDEIDGLERKRMQLIEENLRLKEQVSRMSRMEEMQPGPDSEIVYEEGQSSESV
+                     TNASYPRPPPDNDYSSDTSLRLGLSLFSSK"
+ORIGIN      
+        1 atggctggcg gcggcggtgg cgggggaagg ggggaggggg aggggagggc ggccacgggg
+       61 aagagggaga ggatagcaat acggaggatc gacaacctgg cggcgaggca ggtgaccttc
+      121 tcgaagcgga ggagggggct gttcaagaag gccgaggagc tctccatcct ctgcgacgcc
+      181 gaggtcgggc tcgtcgtctt ctccgccacc ggcaagctct tccaattcgc cagcaccagc
+      241 atggaacaga ttattgaccg gtacaactcg cattccaaga cacttcagag agcagaacct
+      301 tctcaactcg acttacaagg ggaggacagc agtacttgtg ccagactaaa ggaggagctt
+      361 gcagaaacta gccttaggct gaggcagatg agaggagagg agctgcacag gctgaatgtg
+      421 gaacagctgc aggagctaga gaagagcctc gagtccggtc taggctctgt tctcaagacc
+      481 aagagcaaga aaattctgga tgagatcgat ggactggaac gaaagaggat gcaattgata
+      541 gaggagaatt taaggctgaa ggagcaagtg tccaggatgt caagaatgga ggagatgcag
+      601 cctgggcctg attcagaaat cgtgtacgag gaagggcagt cgtctgaatc tgtcaccaat
+      661 gcttcttacc cgcgacctcc acccgacaac gactacagct ctgatacatc tctcaggctc
+      721 gggttgtcac tcttcagctc caagtgatgg ctggaaacta aaactgagag gaaacagctg
+      781 gatggcatgc ctgcatcgcc aaatgatcag tgcatgcact gcaagactgc aacaaataac
+      841 acagttttag attgccagat gatgatgtgt gtgtgctgag agtcactggc tattatcgta
+      901 cacataataa caatagaacg aacaagttct tctgttcttg gatgttacct gaattctact
+      961 cccatacatg ttgtcaatgg ctctgtaatc gagtgtctgc aattccagct gaaagcaacc
+     1021 gattacaggg aaaaaaaaaa aaaaa
+//
+

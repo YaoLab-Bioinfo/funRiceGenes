@@ -1,0 +1,45 @@
+LOCUS       AU163470                 606 bp    mRNA    linear   EST 03-APR-2002
+DEFINITION  AU163470 Rice cDNA from young root Oryza sativa Japonica Group cDNA
+            clone R10477, mRNA sequence.
+ACCESSION   AU163470
+VERSION     AU163470.1  GI:11118282
+DBLINK      BioSample: LIBEST_001839
+KEYWORDS    EST.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 606)
+  AUTHORS   Sasaki,T. and Yamamoto,K.
+  TITLE     Rice cDNA from young root (2000)
+  JOURNAL   Unpublished (2000)
+COMMENT     Contact: Takuji Sasaki
+            National Institute of Agrobiological Resources
+            Rice Genome Research Program, Kannondai 2-1-2, Tsukuba, Ibaraki
+            305-8602, Japan
+            Email: URL:http://rgp.dna.affrc.go.jp/
+            PROJECT ='RGP'.
+FEATURES             Location/Qualifiers
+     source          1..606
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="R10477"
+                     /tissue_type="young root"
+                     /clone_lib="LIBEST_001839 Rice cDNA from young root"
+ORIGIN      
+        1 cgagcaggtt atcctgctgc ttgctggtgc tcgcggcggc ggccatggcg gcgacggcgc
+       61 agaactcggc gcaggacttc gtggacccgc acaacgcggc gagggccgac gtcggggtgg
+      121 ggccggtgag ctgggacgac acggtggcgg cgtacgcgga gagctacgcg gncgcacggc
+      181 agggcgactg caagctggag cactcggact ccggcgggaa gtacggcgag aacatcttct
+      241 ggggctccgc cggcggcgac tggacggcgg cgagcgccgt gtcggcgtgg gtgtcggaga
+      301 agcagtggta cgaccacggc agcaacagct gcttcggcgc cggagggnga gctcgtgcgg
+      361 gncactacac gcaggtggtg tggcgcgact cgacggcgat cggctgcgcc cgcgtcgtct
+      421 gcgacggcga cctnggcgtc ttcatcacct gcaantactc gccgccgggc aacttcgtcg
+      481 gccaatctcc ctagtgatta attaattaat tatattatca cactncacta attaatcata
+      541 tcgtatgcta tgctacgtgt tntatgcatg tantggaaat ttaagtgntc atattggtaa
+      601 tatcgg
+//
+

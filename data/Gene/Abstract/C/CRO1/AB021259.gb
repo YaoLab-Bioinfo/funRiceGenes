@@ -1,0 +1,72 @@
+LOCUS       AB021259                1558 bp    mRNA    linear   PLN 28-MAR-2000
+DEFINITION  Oryza sativa mRNA for calcium-binding protein, complete cds.
+ACCESSION   AB021259
+VERSION     AB021259.1  GI:6682832
+KEYWORDS    calcium-binding protein.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Li,Z. and Komatsu,S.
+  TITLE     Molecular cloning and characterization of calreticulin, a
+            calcium-binding protein involved in the regeneration of rice
+            cultured suspension cells
+  JOURNAL   Eur. J. Biochem. 267 (3), 737-745 (2000)
+   PUBMED   10651810
+REFERENCE   2  (bases 1 to 1558)
+  AUTHORS   Komatsu,S. and Li,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-DEC-1998) Setsuko Komatsu, National Institute
+            Agrobiological Resources, Department of Molecular Biology;
+            Kannondai 2-1-2, Tsukuba 305-8602, Japan
+            (E-mail:skomatsu@abr.affrc.go.jp, Tel:81-298-38-7490,
+            Fax:81-298-38-7032)
+FEATURES             Location/Qualifiers
+     source          1..1558
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             31..1305
+                     /codon_start=1
+                     /product="calcium-binding protein"
+                     /protein_id="BAA88900.1"
+                     /db_xref="GI:6682833"
+                     /translation="MAIRARSSSYAAAAVALALALASVAAVAGEVFFQEKFEDGWESR
+                     WVKSEWKKDENMAGEWNHTSGKWNGDPEDKGIQTSEDYRFYAISAEYPEFSNKDKTLV
+                     LQFSVKHEQKLDCGGGYVKLLGGDVDQKKFGGDTPYSIMFGPDICGYSTKKVHTIFTK
+                     NDKNHLIKKDVPCETDQLSHVYTLIIHPDATYSILIDNVEKQSGSIYEHWDILPPKQI
+                     KDPEAKKPEDWDDKEYIPDPEDKKPEGYDDIPKEIPDPDAKKPEAGADEEDGEWTAPT
+                     IRNPEYKGPWKQKKIKNPNYQGKWKPPMIATPDFQDDPYIYAFDSLKSIGIELWQVKS
+                     GTLFDNILITDDAALAKTFAEETWAKHKDAEKAAFDEAEKKKEEEEAAKAGEDDDDLD
+                     DEDAEDEDKADEKADSDAEDGKDSDDEKHDEL"
+ORIGIN      
+        1 gatcggaagc ttctagaagt ttcgtgggcg atggcgatcc gcgcgaggtc ctcctcctac
+       61 gccgccgcgg cggtcgcgct ggcgctcgcg ctggcgtccg tcgccgctgt cgccggcgag
+      121 gtcttcttcc aggagaagtt cgaagatgga tgggaaagtc ggtgggtcaa gtcagaatgg
+      181 aagaaggatg agaacatggc tggtgaatgg aaccacacat ctgggaagtg gaatggagat
+      241 cctgaggaca aaggtatcca aacctctgag gactacaggt tctacgctat ttcagcggag
+      301 tacccagaat tcagcaacaa ggataaaacc ctggtgctgc agttctctgt aaagcatgag
+      361 caaaagcttg actgtggtgg tggatatgtc aagttgcttg gtggtgatgt tgaccagaag
+      421 aaatttggtg gggacacacc gtacagcatt atgtttggac cagacatctg tgggtacagc
+      481 accaagaagg tccatactat ctttactaag aatgacaaga accatttgat caagaaggat
+      541 gtcccctgcg agactgatca gctgtcccat gtgtacactt tgatcatcca tcctgatgct
+      601 acatacagca tacttattga caatgttgag aagcaatctg gcagcatcta cgagcactgg
+      661 gatattctgc ctccgaagca aatcaaggac ccagaagcta agaagccaga ggactgggat
+      721 gacaaggagt acattcctga ccctgaggac aagaagcctg agggatacga tgatattccc
+      781 aaggaaatcc ctgaccctga tgctaagaag cctgaggctg gggctgatga ggaagatggt
+      841 gagtggactg caccaaccat ccgtaaccct gagtacaagg gaccatggaa gcaaaagaaa
+      901 atcaagaacc ctaactacca gggcaaatgg aagccgccga tgatcgccac cccagacttc
+      961 caagatgatc cttacatcta cgcctttgac agcctgaagt ccattggaat tgagttgtgg
+     1021 caggtcaaat cagggactct gtttgacaac attctgatta ctgacgatgc tgctttggcc
+     1081 aagacattcg cagaggagac atgggccaag cacaaggatg ctgagaaggc tgcttttgac
+     1141 gaggcagaga aaaagaagga agaggaggaa gctgccaagg ccggtgagga cgatgatgat
+     1201 ttggatgacg aggatgctga ggatgaggac aaggccgatg agaaggctga ctctgatgca
+     1261 gaggatggca aggattctga tgatgagaag catgatgagc tctaagatgg tgaggatgaa
+     1321 gaatggaggc cgccttcgcg acgatgccag gatttgctag ttctcccatt gttatgaagt
+     1381 tccctttttc gtgatcagaa acttgacaag aaagtactct gtagatgagc attgctgagg
+     1441 aactttaatt tggtctttgt agcgtctctc tgtagtgtca tttttcccac cacaagaaaa
+     1501 agaactgata acttattgaa caagagaaaa aaaaaaaaaa aaactcnacg gggggccc
+//
+

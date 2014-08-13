@@ -1,0 +1,84 @@
+LOCUS       DQ148410                1665 bp    mRNA    linear   PLN 03-NOV-2005
+DEFINITION  Oryza sativa (indica cultivar-group) sodium transporter (SKC1)
+            mRNA, complete cds.
+ACCESSION   DQ148410
+VERSION     DQ148410.1  GI:73486799
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1665)
+  AUTHORS   Ren,Z.H., Gao,J.P., Li,L.G., Cai,X.L., Huang,W., Chao,D.Y.,
+            Zhu,M.Z., Wang,Z.Y., Luan,S. and Lin,H.X.
+  TITLE     A rice quantitative trait locus for salt tolerance encodes a sodium
+            transporter
+  JOURNAL   Nat. Genet. 37 (10), 1141-1146 (2005)
+   PUBMED   16155566
+REFERENCE   2  (bases 1 to 1665)
+  AUTHORS   Lin,H.-X., Ren,Z.-H., Gao,J.-P., Huang,W. and Chao,D.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUL-2005) National Key Laboratory of Plant Molecular
+            Genetics, Shanghai Institute of Plant Physiology and Ecology,
+            Shanghai Institute for Biological Sciences, The Chinese Academy of
+            Sciences, 300 Fenglin Road, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..1665
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nona Bokra"
+                     /db_xref="taxon:39946"
+                     /chromosome="1"
+     gene            1..1665
+                     /gene="SKC1"
+                     /gene_synonym="HKT8"
+                     /note="OsHKT8"
+     CDS             1..1665
+                     /gene="SKC1"
+                     /gene_synonym="HKT8"
+                     /codon_start=1
+                     /product="sodium transporter"
+                     /protein_id="AAZ76552.1"
+                     /db_xref="GI:73486800"
+                     /translation="MSSLDATTPRYDEFKRIYHLFLFHAHPFWLQLLYFLFISLLGFL
+                     MLKALPMKTSMVPRPMDLDLIFTSVSATTVSSMVAVEMESFSNSQLLLITLLMLLGGE
+                     VFTSILGLYFTNAKYSSKMIATLPDDDDHGGSGKPPPATTSPSSTLVELELAPPMDVV
+                     VVNPTTTATTHDEVELGLGRRNKHGCTCTTTHTSSSSSASKTTTTRLLMFVVMGYHAV
+                     VHVAGYTAIVVYLSAVGGAGAVVAGKGISAHTFAIFTVVSTFANCGFVPTNEGMVSFR
+                     SFPGLLLLVMPHVLLGNTLFPVFLRLAIAALERVTGWPELGELLIRRRRGGGEGYDHL
+                     LPSSRTRFLALTVAVLVVAQLALFCAMEWGSDGLRGLTAGQKLVGALFMAVNSRHSGE
+                     MVVDLSTVSSAVVVLYVVMMYLPPYTTFVPVQDKHQQTGAQSGQEGSSSSSIWQKLLM
+                     SPLSCLAIFIVVICITERRQIADDPINYSVLNIVVEVISAYGNVGFSTGYSCARQVRP
+                     DGSCRDLWVGFSGKWSKQGKLTLMAVMFYGRLKKFSLHGGQAWKIE"
+ORIGIN      
+        1 atgagttctc tggatgccac tactcctaga tatgacgagt ttaaaaggat ctaccacctt
+       61 ttccttttcc atgcacaccc attctggctc caactgctgt acttcctctt catctccctc
+      121 ttgggtttct tgatgctgaa agctctgccg atgaagacca gcatggtgcc gaggcccatg
+      181 gacttggacc tgatcttcac gtcggtgtcg gcgacgacgg tgtcgagcat ggtcgccgtc
+      241 gagatggagt ccttctccaa ctcccagctc ctcctcatca ccctcctcat gctgcttggt
+      301 ggtgaggtct tcaccagcat ccttggcctc tacttcacca acgccaagta ctcctccaag
+      361 atgatagcaa ccttacctga tgatgacgac catggtggca gtggcaaacc accaccagca
+      421 acgacgtcac cttcgtctac cctagtggag ctcgagctcg ctcctcccat ggacgtcgtc
+      481 gtcgtcaacc ctaccaccac tgcgacgacg cacgacgagg tagagctagg gttaggacgt
+      541 cggaacaagc acggctgcac ctgcactact actcacacgt cgtcgtcatc atcggcatcg
+      601 aagacgacga cgacgaggct actgatgttc gtggtgatgg ggtaccacgc ggtggtgcac
+      661 gtcgccgggt acacggccat cgtcgtgtac ctcagcgccg tcggcggcgc gggggcggtg
+      721 gtcgccggga aggggatcag cgcgcacacg ttcgccatct tcaccgtcgt ctcgacgttc
+      781 gccaactgcg ggttcgtgcc gacgaacgaa gggatggtgt cgttcaggtc gttcccgggg
+      841 ctcctcctcc tcgtcatgcc gcacgtcctc ctcgggaaca cgctcttccc ggtcttcctc
+      901 aggctggcca tcgccgcgct cgagagggtc accgggtggc cggagctcgg cgagctcctg
+      961 atccggcggc ggaggggcgg cggcgagggc tacgaccacc tgttgccgag ctcgcgcacg
+     1021 cggttcctgg ccctcaccgt ggccgtgctc gtggtggcgc agctggcgct cttctgcgcc
+     1081 atggagtggg gctccgacgg gctgcggggg ctcaccgccg gccagaagct cgtcggcgcg
+     1141 ctcttcatgg cagtcaactc gaggcactcc ggtgagatgg tggtcgacct ctccaccgtg
+     1201 tcgtcggccg tcgtcgtgct ctacgtggtg atgatgtacc tgccacctta caccactttc
+     1261 gtacctgtcc aagacaaaca ccagcaaacg ggagcacagt ccggccagga gggcagcagc
+     1321 agcagcagca tatggcagaa gctgctcatg tcgccgctct cgtgcctagc catcttcatc
+     1381 gtcgtcatct gcatcacgga gcggcggcaa atcgccgacg accccatcaa ctacagcgtc
+     1441 ctcaacatcg tcgtcgaggt tatcagtgcg tatggcaatg tggggttcag cacggggtac
+     1501 agctgcgcga ggcaggtgag gcccgacggc agctgcagag acctgtgggt tggcttctca
+     1561 gggaagtgga gcaaacaagg gaagctcact ctcatggccg tcatgttcta cggcaggctc
+     1621 aagaagttca gcctgcacgg tggtcaggca tggaagatag aataa
+//
+

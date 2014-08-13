@@ -1,0 +1,287 @@
+LOCUS       AB009592                7446 bp    DNA     linear   PLN 15-MAY-2009
+DEFINITION  Oryza sativa Japonica Group RGRC2 gene for cytosolic glutathione
+            reductase, complete cds.
+ACCESSION   AB009592
+VERSION     AB009592.1  GI:4153882
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kaminaka,H., Morita,S., Nakajima,M., Masumura,T. and Tanaka,K.
+  TITLE     Gene cloning and expression of cytosolic glutathione reductase in
+            rice (Oryza sativa L.)
+  JOURNAL   Plant Cell Physiol. 39 (12), 1269-1280 (1998)
+   PUBMED   10050312
+REFERENCE   2  (bases 1 to 7446)
+  AUTHORS   Kaminaka,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-1997) Contact:Hironori Kaminaka National
+            Institute of Agrobiological Resources, Department of Plant
+            Physiology, Laboratory of Developmental Biology; Kannondai 2-1-2,
+            Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..7446
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="gGR-1"
+                     /clone_lib="lambda-EMBL 3"
+     TATA_signal     1323..1328
+     prim_transcript <1497..7446
+     exon            <1497..1612
+                     /number=1
+     intron          1613..1816
+                     /number=1
+     exon            1817..1983
+                     /number=2
+     gene            join(1843..1983,2086..2150,2304..2373,2707..2778,
+                     2876..3079,4001..4074,4173..4256,4789..4876,4970..5051,
+                     5384..5457,5680..5787,5889..5953,6523..6636,6853..6952,
+                     7049..7102,7181..7276)
+                     /gene="RGRC2"
+     CDS             join(1843..1983,2086..2150,2304..2373,2707..2778,
+                     2876..3079,4001..4074,4173..4256,4789..4876,4970..5051,
+                     5384..5457,5680..5787,5889..5953,6523..6636,6853..6952,
+                     7049..7102,7181..7276)
+                     /gene="RGRC2"
+                     /EC_number="1.8.1.7"
+                     /function="conversion of oxidized glutathione to reduced
+                     glutathione"
+                     /note="Amino Acids 1-496"
+                     /codon_start=1
+                     /product="cytosolic glutathione reductase"
+                     /protein_id="BAA37092.1"
+                     /db_xref="GI:4153883"
+                     /translation="MARKMLKDEEVEVAVTDGGSYDYDLFVIGAGSGGVRGSRTSASF
+                     GAKVAICELPFHPISSDWQGGHGGTCVIRGCVPKKILVYGSSFRGEFEDAKNFGWEIN
+                     GDINFNWKRLLENKTQEIVRLNGVYQRILGNSGVTMIEGAGSLVDAHTVEVTKPDGSK
+                     QRYTAKHILIATGSRAQRVNIPGKELAITSDEALSLEELPKRAVILGGGYIAVEFASI
+                     WKGMGAHVDLFYRKELPLRGFDDEMRTVVASNLEGRGIRLHPGTNLSELSKTADGIKV
+                     VTDKGEEIIADVVLFATGRTPNSQRLNLEAAGVEVDNIGAIKVDDYSRTSVPNIWAVG
+                     DVTNRINLTPVALMEATCFSKTVFGGQPTKPDYRDVPCAVFSIPPLSVVGLSEQQALE
+                     EAKSDVLVYTSSFNPMKNSISKRQEKTVMKLVVDSETDKVLGASMCGPDAPEIIQGMA
+                     VALKCGATKATFDSTVGIHPSAAEEFVTMRTLTRRVSPSSKPKTNL"
+     intron          1984..2085
+                     /gene="RGRC2"
+                     /number=2
+     exon            2086..2150
+                     /gene="RGRC2"
+                     /number=3
+     intron          2151..2303
+                     /gene="RGRC2"
+                     /number=3
+     exon            2304..2373
+                     /gene="RGRC2"
+                     /number=4
+     intron          2374..2706
+                     /gene="RGRC2"
+                     /number=4
+     exon            2707..2778
+                     /gene="RGRC2"
+                     /number=5
+     intron          2779..2875
+                     /gene="RGRC2"
+                     /number=5
+     exon            2876..3079
+                     /gene="RGRC2"
+                     /number=6
+     intron          3080..4000
+                     /gene="RGRC2"
+                     /number=6
+     exon            4001..4074
+                     /gene="RGRC2"
+                     /number=7
+     intron          4075..4172
+                     /gene="RGRC2"
+                     /number=7
+     exon            4173..4256
+                     /gene="RGRC2"
+                     /number=8
+     intron          4257..4788
+                     /gene="RGRC2"
+                     /number=8
+     exon            4789..4876
+                     /gene="RGRC2"
+                     /number=9
+     intron          4877..4969
+                     /gene="RGRC2"
+                     /number=9
+     exon            4970..5051
+                     /gene="RGRC2"
+                     /number=10
+     intron          5052..5383
+                     /gene="RGRC2"
+                     /number=10
+     exon            5384..5457
+                     /gene="RGRC2"
+                     /number=11
+     intron          5458..5679
+                     /gene="RGRC2"
+                     /number=11
+     exon            5680..5787
+                     /gene="RGRC2"
+                     /number=12
+     intron          5788..5888
+                     /gene="RGRC2"
+                     /number=12
+     exon            5889..5953
+                     /gene="RGRC2"
+                     /number=13
+     intron          5954..6522
+                     /gene="RGRC2"
+                     /number=12
+     exon            6523..6636
+                     /gene="RGRC2"
+                     /number=14
+     intron          6637..6852
+                     /gene="RGRC2"
+                     /number=14
+     exon            6853..6952
+                     /gene="RGRC2"
+                     /number=15
+     intron          6953..7048
+                     /gene="RGRC2"
+                     /number=15
+     exon            7049..7102
+                     /gene="RGRC2"
+                     /number=16
+     intron          7103..7180
+                     /gene="RGRC2"
+                     /number=16
+     exon            7181..7446
+                     /number=17
+     polyA_site      7423
+                     /note="poly(A) site of the cognate cDNA (RGRC2; accession
+                     number D85751)"
+ORIGIN      
+        1 catattgtcc attgggctta cccacctcac tccgtacttt ggtaacagaa aaatataaaa
+       61 taaatgataa cggctgttaa aaaaaatcag agtcattgtg catttggtta attgataacg
+      121 gctgttaaaa aaatgatata ggccaagaga ataactccgt actttggtaa cagaaaaata
+      181 taaaataaat gataacggct gttaaaaaaa atgatatagg ccaagagaaa aaagaaattg
+      241 gggtgagaga ggctcgaact ctcgacctca ggataactca aatagctatg agacctacgc
+      301 gctagccaac tgcgccacca ccccttgtgt taggattggc aataacaaga aaataaaatt
+      361 gataataaaa aacacaaaag gatgaagggg gctcaactgc atgacttcgt cgacagagtt
+      421 taattgttgt cacctctctg aaagaccgga aagggacaga cagagcttgg ttctttgatt
+      481 gttttaaaag gttcagttaa attctttaat gttatctgtt gtcttccatg tgtaaagaaa
+      541 ggttactggc ttacttccgt tttatcggtg tatttcacat gtacagaaag ttcacaagaa
+      601 ctaaacagta tacgtggcct tctttggctc ttgacagttc gaaaatcgaa agctacttat
+      661 ccaaagatgt cgacttctgc taagctccat cttgctcgcc acgcgcgtcc acgttccacg
+      721 tttgaaggca tttctgtccc gtccagattc atcgaatgca agttcgcatc tggaaacaaa
+      781 cacacggcac gaacatggct tttacaccac agaccgaatc actgaaagtc tccttttgct
+      841 tttctgaaat ggaatctgct gcagtagaag ctatcccgat taactgaaca tgaaacaaag
+      901 ccaatctctg gtagaacaaa ccctgcattc tccctgttgt aatcaacatg tacaagtgcc
+      961 aagataaaaa ctgagcacct aatttatttt ttttggtaat aataagttct ttacagtatt
+     1021 ccgtaatttg gagtagctgt taagttccat ctcgtcagca gctgcctgca gaattttagg
+     1081 agcactgcat ccacagtgga tccccgaatt gtcacggctg atgtaagcat attatggtca
+     1141 gatgattctt tttttataaa aagaacttag tcagatgatt taacttaaca ttttttaaaa
+     1201 attaactaac taattaatgg tctattaggt aaagttttaa ctcctaaatt tagcttcaga
+     1261 agttaggttt ggagtaaagt tgtgaagcag tccaaatcca gttctacttc tccagtttat
+     1321 tttataaaag cgtctcattc aactgtactt tgaaactgaa actgtttgac taagctttag
+     1381 tctaaaaaaa actaaatctc aagctggagt tgtatcaaat aagctctaag cacctgcgtg
+     1441 cgtgccaacg tggccgtgta aaagccgcct cagatgctgc caggacatgg cggcgtagga
+     1501 actccaacga ccacgtatcc acaaaccaaa gccccccttt aaaatccgac acaagaaaca
+     1561 gatccaacca attcgctcgc ttaagccgcc ggcaaatcaa cccaacccca aggtacggtg
+     1621 ctcacttctc tctcttctcc tttccttttt ttttggttgt ttttagcggt ggattttggg
+     1681 ctccacgcgc gtcgcggggc ggcaatcgcg tctcatcaag tgattcctcg cgctaaagtt
+     1741 catcggattt ggattgcaag ttgttgtcaa tctcaggagg ggctctgttt ctctctgttg
+     1801 tgcgtgtgcg cgttagggtt tttcgtgtgg tgttgaggat ccatggctag gaagatgctc
+     1861 aaggacgagg aggtggaggt ggccgtcacc gacggcggga gctacgacta cgacctgttc
+     1921 gtgatcggcg ccgggagcgg cggcgtccgg ggctctcgca cctccgcgtc cttcggggct
+     1981 aaggtttgac ttttctcctc tcccccgctc cccatttttg cgaggaaacg tgttggattt
+     2041 ttattttttt tcgtgtgatt tgattcggtg tgtggcgcgg ttcaggttgc gatttgcgag
+     2101 ctcccgttcc atcccatcag ctcggattgg caaggagggc atggtgggac gtaagcatct
+     2161 gccgattact tgtctgcgtt tacatttctg tcgttgaatg cttgattatg atttaaacca
+     2221 actctcctca tcccctgggt gagaatgtga gatgttgctg catcctaaaa cccgcatgct
+     2281 cattattgta catgttgtgc taggtgtgtg atacgtggtt gtgtgcctaa aaagatactg
+     2341 gtgtatggtt catctttccg cggagaattt gaggtaactg atcttactaa cttatggagc
+     2401 caactattac ttgtttgaaa aacaagttgg aagcattgtg tttaggttca atgtgctgtg
+     2461 gcttgctgaa ttatgttcct ttactcaatt tttgcaaaat ttgctaagcc ttacagcctc
+     2521 catccttgat caacagttca tcattctgcg tactgacttg aaatccaata acctatccat
+     2581 ttgagagctt gttatcatct ttttatacaa actatttcat ttagcttgct tgcatctttg
+     2641 tgagtacatg tactgaagtg tcattctggg gtgcttattg gaattgctac tgttgtatga
+     2701 ttgcaggatg caaagaattt tgggtgggaa atcaatgggg acattaactt caactggaaa
+     2761 aggctgctgg aaaataaggt cagagccgca accttggttg ggagaacgtt cctgcattat
+     2821 tatttgctcg ttataaatgc ttacaaccca atattgtaaa aaccgttctc tgcagactca
+     2881 agaaattgtt agactaaatg gagtatacca gaggattctt ggcaattctg gtgtgacaat
+     2941 gattgaaggg gcaggcagtt tggttgatgc tcatacagtt gaagtcacaa agccagatgg
+     3001 ttcaaagcaa agatatacag caaagcacat attgatagca actggtagcc gagctcaacg
+     3061 tgtcaacatt cctgggaagg taacaaaatt ctctgccagc ctttgcaaac ttgtttctta
+     3121 tgtctggcaa gtagttaata gcattgttac ttgtttgaca acttctttat attccccaac
+     3181 ttttgtgcct gaaacctttg gattgacctc gtgatgctga tttccatgcc atcttctgta
+     3241 tttgttgtga tactgttgca catcaataat tatttgtgat agccagtttg atatggctga
+     3301 acttttaggg ttaatcccct ttagatattt cttattactt gacccaaaat acaatactcc
+     3361 ctctattcca taatataagg cacaactact ttttaaagct gttccataat ataaggcata
+     3421 catgcatgca tgccattaac taacacatat tctccactaa aatattatta tttaaattct
+     3481 ccactatcaa gatctctaat tttattgggt gcatgtatta catttattag attaatctaa
+     3541 actatgaggt gattgaaggt ggttgtgcct tatattttgg aatggaggga gtactaggct
+     3601 acctttatat actgaggtgc ctctagataa gggaaacgga tacaaactat taacctgata
+     3661 ctactaggac tcttataaca aaactatgaa actctgataa ggagcttatt aggactttcc
+     3721 aactgctgaa gcacttgcca aatctgactt atctctatta cgccgccgct gatatactat
+     3781 accataacgt ccagccatga cacagttggt gtggatttga cattacaaga cttcctttga
+     3841 gccagttcaa gagggacaaa gcattatctt taatccaaca aattatactt agccatatat
+     3901 atgtgctggt tacatcactg attttctttt ccctttagtt tttttttaaa tgtcctttgg
+     3961 tgtattattt tggctgacac tgataagaac ccgcttgcag gagttagcta ttacttcaga
+     4021 tgaggcctta agtttggagg agctaccaaa acgtgctgta atccttggtg gcgggtatgt
+     4081 ctacactcta gggtgcattt atgtactata tattgttatg tcattccaac tatctcagac
+     4141 ttgcatttgt tcatgtggtg gctatattgc agatatattg ctgttgaatt tgcttctata
+     4201 tggaaaggga tgggtgcgca cgtagacttg ttttatcgaa aagagcttcc tctaaggtat
+     4261 ttattataat ctgttatctg cactgtgacc tccagatatt taaaattgta caccaaaaca
+     4321 atttactgct cagtatcaga aaaaagaaca tcaatgtagc ttctgtagtt gcagttttta
+     4381 tgtcataatg tggctagagt tgatagcatg gttttctagt ctaactgaag cttttggtct
+     4441 tgttttcagg gctcagtcat gtgccacttt agttactgtc ctattttgac aatcttaatt
+     4501 ttttgccaac cctggtggtt aatactactt gatcttctcg ttttgtacat tgatgcaatt
+     4561 tattttctga acattttttt tgcaatatca tcaacctaca atgaaaacat ggatgatgaa
+     4621 actagttatc agataaaacg atgcgattgc gaacctggac catgctatct gaacaactga
+     4681 ataatgatta tggagaaaga atgccaatgt catttttatt agccaaaatt tcaagctatt
+     4741 gattacggtt ctatccacca tgattaatgg cgaattgact aattgcagag gtttcgatga
+     4801 tgagatgagg acggttgttg caagtaacct tgagggaagg ggaatcagat tacatccagg
+     4861 gacaaatcta tctgaggtga gttaagctga catcctaaag tgcattttga ttcccatgtg
+     4921 ttctgttttc acgataggtt ttgatctgtt tcttttttat gtaaaccagt tgagtaaaac
+     4981 agccgatggc ataaaagttg tcactgacaa aggagaggag atcattgcag atgttgttct
+     5041 gtttgctaca ggtatttagg atagttcaat gctgaaagtt atgttctctg tcactttaat
+     5101 aatttctttg aatacatctc tcttgatgac tgttctgtgc tggatgaaaa aaatcatgta
+     5161 tcttctgata tttcacatgg tcaagcacca tatgcatgtt tgaaattgat caatgtcatc
+     5221 ctcacaacat ttttttttat ctcttgttgt tgggaattga gatgctcaat atgagacatt
+     5281 ctacttttca cactatattt ggaatgtggc atttatcctg attttctttt ctttgaagga
+     5341 aactttaata ttgttgctat gcctggtatt taattgcgtg caggtcgcac accaaactcc
+     5401 cagaggttga acttggaagc tgctggtgtt gaagttgata atattggagc tataaaggtt
+     5461 gattttcttg ccttattaat tgaaccctta cctgttaggc tgttagcttg ctgaagacat
+     5521 atttgttcat ctgaaattta cttctcgtat ttccttggag aaaacttacg cgtgaaccta
+     5581 tgtgagacca tcttaggcat ttaattggcc attatctttg tatgatattc tttgagacta
+     5641 caagtaattt gtgttgttta ttcaatgttc tatttttagg ttgatgatta ttctcgtaca
+     5701 tcagtcccaa atatatgggc tgtgggtgat gtaacgaacc ggataaattt aacacctgtt
+     5761 gcactgatgg aggctacctg cttttctgta agtgactaca gtgactcata atccccttgt
+     5821 aaattgggtg tgttcaaatt tctttgtttc tgtgtaacca gcaactttac tttaatcttt
+     5881 aattgcagaa aactgtgttt ggtggccagc caactaaacc tgattacaga gatgtacctt
+     5941 gtgctgtttt ctcgtaagcc aataaacctt gattgttctc tgttatctcc agtttttgtt
+     6001 tttaactgaa acaagtagca tctacaagat ggccacatat atacttcaca actctttgct
+     6061 tttgacactt tcggtgaggc acactgtggt ttggttttct tgtctgcact tcgaatgttt
+     6121 atttgcttag atcttagcag tgaaagagag tagcatgacg tgatataggg taacttttct
+     6181 attcttccag gtttgactga gcagcatgaa acttgtgtgc ggttgttatg ctggatgttt
+     6241 cttaattcta attgatgcct atgtagttta gggtacatta ggaagtaagc aacaattaaa
+     6301 ttctacatta acaaaacatg gactagaatc tagatagaaa aaaaattagt catttcaata
+     6361 gacaagatct aaggatcctt cactagtgat ttttgctttt gccagtgctt ctaccaatct
+     6421 attattcagt gcatttatgg ctgctgctgc tttctttaga ttatctgctt ttccacaatc
+     6481 atcgtgtcac tcataacatg gtttcttttt ttgttgaatt agcatcccac cactatcagt
+     6541 agtgggcttg agtgaacagc aggctttgga ggaagccaag agcgatgttc ttgtttacac
+     6601 ttccagcttc aacccaatga agaacagcat atccaagtaa gtatcatgtt tattgcaaga
+     6661 tcatctgtta cgtcatagtt acacctgact cctgagtgct ttatcacttg aaaggttctg
+     6721 ggttatttca ttattttcac ttgtcatggt ctcatggacc ataaacattc tagtaatgga
+     6781 gcctatcagt gtcgtcattc tttatatttc ctgttctggg tgaagtttcc tgactcggct
+     6841 cacttttttt agacggcagg agaagaccgt catgaaactg gtggttgatt cagagactga
+     6901 taaagtactt ggtgcatcaa tgtgtggacc agatgcacca gagattatcc aggtaagcaa
+     6961 agtttgtgtg tttatttcac acacaaaaaa atcgtggcat tttccagtct tcactagtat
+     7021 tttgcacctg actttccacc aattgcaggg tatggctgta gcgctgaagt gtggagccac
+     7081 caaggcgacc tttgacagca ctgtacgtgg acacaacaat aaaccagttg ttaatatcat
+     7141 ttggcactcg agtttctaat attatccatt ggctttgcag gttggtattc acccgtctgc
+     7201 tgctgaagag tttgtgacaa tgcggacctt gaccaggcgc gtgagcccat catccaagcc
+     7261 aaagacaaac ttgtaggcaa gatgagtaat tttggataaa gaaacatata tacccgtttt
+     7321 gatttatatt ttgtggcaaa gtgtactctg gtttgcatct ggtaatttca cgttagggat
+     7381 tctacctgga acggtaaaaa ggagacaatg tatacttgat tgaaataagg tttctgcata
+     7441 tcagcc
+//
+

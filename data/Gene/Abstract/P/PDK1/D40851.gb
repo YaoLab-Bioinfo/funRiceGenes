@@ -1,0 +1,40 @@
+LOCUS       D40851                   323 bp    mRNA    linear   EST 03-APR-2002
+DEFINITION  RICS3027A Rice shoot Oryza sativa Japonica Group cDNA, mRNA
+            sequence.
+ACCESSION   D40851
+VERSION     D40851.1  GI:570002
+DBLINK      BioSample: LIBEST_000193
+KEYWORDS    EST.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 323)
+  AUTHORS   Sasaki,T., Miyao,A. and Yamamoto,K.
+  TITLE     Rice cDNA from callus 1995
+  JOURNAL   Unpublished (1995)
+COMMENT     Contact: Takuji Sasaki
+            National Institute of Agrobiological Resources
+            Rice Genome Research Program, Kannondai 2-1-2, Tsukuba, Ibaraki
+            305-8602, Japan
+            Email: URL:http://rgp.dna.affrc.go.jp/
+            PROJECT ='RGP'.
+FEATURES             Location/Qualifiers
+     source          1..323
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /dev_stage="Etiolated shoot (8 days old)"
+                     /clone_lib="LIBEST_000193 Rice shoot"
+                     /note="Etiolated shoot (8 days old)"
+ORIGIN      
+        1 cccggtttta tgctgctgaa attgttgata ttctggagta tttgcatagt ttaggcctaa
+       61 ttcatcggga tgttaagcca gaaaatttac tgcttacttc tgatgggcac atcaagattg
+      121 ccgattttgg tagtgtgaag cctacaaagg acaccccgat caaagtcctt ccaaattcca
+      181 ctaacgagag ggcctgtaca tttgttggga cagctgcata tgtaccacct gaggtcctga
+      241 actctgcccc accaaccttt ggaaatgact tatgggcatt ggggtgtact ctatatcaat
+      301 tgctttctgg ctcttcacca ttt
+//
+

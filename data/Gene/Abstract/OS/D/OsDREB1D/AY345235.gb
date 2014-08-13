@@ -1,0 +1,55 @@
+LOCUS       AY345235                 888 bp    mRNA    linear   PLN 19-AUG-2003
+DEFINITION  Oryza sativa transcription factor RCBF4 mRNA, complete cds.
+ACCESSION   AY345235
+VERSION     AY345235.1  GI:33637701
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 888)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Isolation of rice DREBs, transcription factors involved in
+            dehydration- and cold-inducible gene expression
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 888)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2003) Bio-Tech Center, Shanghai Academy of
+            Agricultural Science, Beidi Road 2901, Shanghai 021-201106, China
+FEATURES             Location/Qualifiers
+     source          1..888
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /note="isolated by yeast one-hybrid system"
+     CDS             78..839
+                     /note="dehydration and cold-relative protein"
+                     /codon_start=1
+                     /product="transcription factor RCBF4"
+                     /protein_id="AAQ23985.1"
+                     /db_xref="GI:33637702"
+                     /translation="MEKNTAASGQLMTSSAEATPSSPKRPAGRTKFQETRHLVFRGVR
+                     WRGCAGRWVCKVRVPGSRGDRFWIGTSDTAEETARTHDAAMLALCGASASLNFADSAW
+                     LLHVPRAPVVSGLRPPAARCATRCLQGHRRVPAPGRGSTATATATSGDAASTAPPSAP
+                     VLSAKQCEFIFLSSLDCWMLMSKLISSSRAKGSLCLRKNPISFCMVTNSYTALLLEYI
+                     ILQMNSMIVLIHELSKYQVFLLLTMITHHLFQWRR"
+ORIGIN      
+        1 gaggtacgca cggatgccct cgcccccgtc gtcgccgccg ccaacactaa ccaactgctt
+       61 gagacgtcgc acacgtcatg gagaagaaca ccgccgccag cgggcaattg atgacctcct
+      121 ccgcggaggc gacgccgtcg tcgccgaagc ggccggcggg gcgaaccaag ttccaggaga
+      181 cgaggcacct agtgttccgt ggggtgcgat ggcgtgggtg cgcggggcgg tgggtgtgca
+      241 aggtgcgtgt cccgggcagc cgcggtgacc gtttctggat aggcacgtct gacaccgccg
+      301 aggagaccgc gcgcacgcac gacgccgcca tgctcgcctt gtgcggggcc tccgccagcc
+      361 tcaacttcgc cgactctgcc tggctgctcc acgtcccgcg cgcccccgtc gtctccggac
+      421 tccggccacc agctgcccga tgtgcaacgc gctgcctgca aggccatcgc cgagttccag
+      481 cgccgggccg ggggagcacc gccactgcca ctgccacctc cggcgatgct gcatcgaccg
+      541 ctcctccgtc ggcacccgtt ctgtcagcca aacaatgcga attcatcttt ctttcttcac
+      601 tagattgttg gatgttaatg tcaaagctta tcagcagtag cagagcaaaa ggatcgttgt
+      661 gcctgcgaaa aaatcccatt tcattttgca tggttacaaa ttcttacact gctcttttgc
+      721 tcgaatacat tatattgcag atgaattcaa tgatcgtttt aatccacgaa ttatcaaaat
+      781 atcaagtctt tctgctacta accatgataa cacaccacct ttttcaatgg aggaggtagg
+      841 cgcggacgcc ctcgccatca tcgtcgatgt cgccactgat gacgaggt
+//
+

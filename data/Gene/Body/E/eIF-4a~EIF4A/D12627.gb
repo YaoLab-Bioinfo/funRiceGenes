@@ -1,0 +1,73 @@
+LOCUS       RICEIF4A                1549 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for eukaryotic initiation factor
+            4A, complete cds.
+ACCESSION   D12627
+VERSION     D12627.1  GI:303843
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1549)
+  AUTHORS   Nishi,R., Kidou,S., Uchimiya,H. and Kato,A.
+  TITLE     Isolation and characterization of a rice cDNA which encodes the
+            eukaryotic initiation factor 4A
+  JOURNAL   Biochim. Biophys. Acta 1174 (3), 293-294 (1993)
+   PUBMED   8373808
+REFERENCE   2  (bases 1 to 1549)
+  AUTHORS   Nishi,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUL-1992) Contact:Ritsuko Nishi Hokkaido University,
+            Department of Botany, Faculty of Science; Kita-ku Kita 17, Nishi
+            8chome, Sapporo, Hokkaido 060, Japan
+FEATURES             Location/Qualifiers
+     source          1..1549
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Yamahousi"
+                     /db_xref="taxon:39947"
+                     /clone="S105"
+                     /tissue_type="Callus"
+     CDS             12..1253
+                     /codon_start=1
+                     /product="eukaryotic initiation factor 4A"
+                     /protein_id="BAA02152.1"
+                     /db_xref="GI:303844"
+                     /translation="MAGMAPEGSQFDAKHYDSKMQELLNQGETEEFFTSYDEVHESFD
+                     DMGLQENLLRGIYAYGFEKPSAIQQRGIVPFCKGLDVIQQAQSGTGKTATFCSGILQQ
+                     LDYAVVECQALVLAPTRELAQQIEKVMRALGDYLGVKVHACVGGTSVREDQRILASGV
+                     HVVVGTPGRVFDMLRRQSLRPDYIKMFVLDEADEMLSRGFKDQIYDIFQLLPSKIQVG
+                     VFSATMPPEALEITRKFMNKPVRILVKRDELTLEGIKQFYVNVEKEEWKLDTLCDLYE
+                     TLAITQSVIFVNTRKVDWLTDKMRGRDHTVSATHGDMDQNTRDIIMREFRSGSSRVLI
+                     TTDLLARGIDVQQVSLVINYDLPTQPENYLHRIGRSGRFGRKGVAINFVTRDDERMLF
+                     DIQRFYNVVIEELPANVADLL"
+ORIGIN      
+        1 atgcgtcagt catggcggga atggcaccag agggatccca gtttgatgct aagcactatg
+       61 attctaaaat gcaggagctt ctgaaccaag gtgaaaccga ggagttcttc acatcttatg
+      121 atgaagttca tgagagtttt gatgacatgg gtctccaaga gaaccttctc agaggcatct
+      181 atgcctatgg tttcgagaag ccttcagcca ttcagcaaag gggtattgtc cctttctgca
+      241 agggtcttga tgtgattcag caagctcagt caggaacagg aaagactgcc accttctgtt
+      301 ctggaatttt gcagcaactt gactatgctg tggttgagtg ccaggccttg gtccttgctc
+      361 ctactcgtga gcttgcacag caaattgaga aagtcatgcg cgcacttggt gactatctgg
+      421 gtgtgaaggt tcatgcttgt gttggaggta cttctgttcg tgaggaccaa aggattcttg
+      481 caagtggagt gcatgttgtt gttggaacac ctggtcgtgt gtttgacatg ctgcgtaggc
+      541 agtccctccg tcctgattac atcaagatgt ttgtccttga tgaagctgat gaaatgcttt
+      601 ctcgtggttt caaggatcag atttatgata tcttccagct cctcccgtca aagatccaag
+      661 ttggtgtgtt ctctgctaca atgccccctg aggcccttga gatcacccgt aaattcatga
+      721 acaagcctgt gcggatcctt gtgaagaggg atgagctcac tcttgagggt atcaaacagt
+      781 tttatgtcaa tgtggagaag gaagaatgga agcttgacac actctgtgac ctgtatgaga
+      841 cactggccat cacgcagagt gtcatctttg tgaacacgcg caaggtggac tggctcactg
+      901 ataagatgag gggcagggat cacacagttt ctgctaccca tggtgacatg gaccagaaca
+      961 ctagggacat catcatgagg gagttccgat ctggttcttc ccgtgtgctc attaccacgg
+     1021 accttcttgc ccgtggtatt gatgtccagc aggtgtccct tgtcatcaac tatgatctgc
+     1081 cgacccaacc tgagaactac ctgcatcgca ttggtcgtag tggtcgtttt ggtaggaaag
+     1141 gtgttgccat taactttgtg acccgtgacg atgagaggat gctgtttgac atccagaggt
+     1201 tctacaatgt ggtgattgag gagctgccgg ccaacgtcgc tgaccttctg tgatcaagtt
+     1261 cagaagagtt atgttaaggg gcctgataag gattgttttt gtctgaagta tcactgtctt
+     1321 atctgggggg ggggggagtg ataaaggtgg gggttctgtt ttaaaagtca ctgtggtcgt
+     1381 agacaatttc caaattttta tgccatgtta tgggaatttt tgtagttgct aggctgtgct
+     1441 atgtgctggt gaggagggag gagtctttta cttttattat atctattgtt aaaactatgt
+     1501 atgaccgaat gatgttattt atttgtgtca tggttgacta tttgcccat
+//
+

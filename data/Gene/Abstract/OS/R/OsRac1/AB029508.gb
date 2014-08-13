@@ -1,0 +1,63 @@
+LOCUS       AB029508                 996 bp    mRNA    linear   PLN 18-SEP-1999
+DEFINITION  Oryza sativa mRNA for small GTP-binding protein OsRac1, complete
+            cds.
+ACCESSION   AB029508
+VERSION     AB029508.1  GI:5902925
+KEYWORDS    small GTP-binding protein OsRac1.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kawasaki,T., Henmi,K., Ono,E., Hatakeyama,S., Iwano,M., Satoh,H.
+            and Shimamoto,K.
+  TITLE     The small GTP-binding protein rac is a regulator of cell death in
+            plants
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 96 (19), 10922-10926 (1999)
+   PUBMED   10485927
+REFERENCE   2  (bases 1 to 996)
+  AUTHORS   Kawasaki,T. and Shimamoto,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUL-1999) Tsutomu Kawasaki, Nara Institute of Science
+            and Technology, Laboratory of Plant Molecular Genetics; Takayama
+            8916-5, Ikoma, Nara 630-0101, Japan
+            (E-mail:kawasaki@bs.aist-nara.ac.jp, Tel:+81-743-72-5501,
+            Fax:+81-743-72-5502)
+FEATURES             Location/Qualifiers
+     source          1..996
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..996
+                     /gene="OsRac1"
+     CDS             81..725
+                     /gene="OsRac1"
+                     /codon_start=1
+                     /product="small GTP-binding protein OsRac1"
+                     /protein_id="BAA84492.1"
+                     /db_xref="GI:5902926"
+                     /translation="MSSAAAATRFIKCVTVGDGAVGKTCMLICYTCNKFPTDYIPTVF
+                     DNFSANVSVDGSVVNLGLWDTAGQEDYSRLRPLSYRGADVFILSFSLISRASYENVQK
+                     KWMPELRRFAPGVPVVLVGTKLDLREDRAYLADHPASSIITTEQGEELRKLIGAVAYI
+                     ECSSKTQRNIKAVFDTAIKVVLQPPRHKDVTRKKLQSSSNRPVRRYFCGSACFA"
+ORIGIN      
+        1 gtgagagtga acaagagata agctaagcta gtacagcaac cagcaagaac aaagaagagt
+       61 ggccggagtg ggcgggggag atgagctcgg cggcggcggc gacgaggttc atcaagtgcg
+      121 tcaccgtggg ggacggcgcg gtggggaaga cgtgcatgct catctgctac acctgcaaca
+      181 agttccccac cgattacatc cccaccgtgt tcgacaactt cagcgccaat gtctccgtgg
+      241 acgggagcgt cgtcaacctc ggcctctggg acactgcagg tcaggaggat tacagcaggt
+      301 tgaggcctct gagctacagg ggagccgatg tgttcatcct gtccttctcc ctgataagca
+      361 gggcgagcta tgagaatgtt cagaagaagt ggatgccaga gcttcgccgg tttgcgcctg
+      421 gtgttcctgt agttcttgtt ggaaccaagt tggatctccg tgaagatagg gcctatcttg
+      481 ctgatcatcc agcttcttcc ataataacaa cggagcaggg agaagaactg aggaagctaa
+      541 taggagcggt cgcctacatc gaatgcagct ccaagacaca gagaaacatt aaagctgttt
+      601 tcgacactgc catcaaagtg gtgcttcaac ctccaagaca taaggatgta accagaaaga
+      661 aactccaatc aagctccaat cggccagtaa ggcggtactt ttgcggaagc gcttgtttcg
+      721 cgtagtcaat aaccaagaag aaaaaaatgt ggtttttgtt ccatcaccat gatgttcaga
+      781 tggccccatg gatctactca gaatgggata gaagatcatg gttgaatcaa cattgcttgc
+      841 agctaggagg aaacttctag ttctcttttt ttctgcagtg gagctccttt tgtttctcct
+      901 ttctcttttt tttcttatgt cgtaaaagct ccagaaagtt ttacccttgg taataagatg
+      961 tgctcttctg gatggctaaa aaaaaaaaaa aaaaaa
+//
+

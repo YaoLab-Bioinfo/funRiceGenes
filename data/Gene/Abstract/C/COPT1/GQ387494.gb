@@ -1,0 +1,54 @@
+LOCUS       GQ387494                 640 bp    mRNA    linear   PLN 15-NOV-2010
+DEFINITION  Oryza sativa Japonica Group copper transport protein COPT1 mRNA,
+            complete cds.
+ACCESSION   GQ387494
+VERSION     GQ387494.1  GI:310892586
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 640)
+  AUTHORS   Yuan,M., Chu,Z., Li,X., Xu,C. and Wang,S.
+  TITLE     The Bacterial Pathogen Xanthomonas oryzae Overcomes Rice Defenses
+            by Regulating Host Copper Redistribution
+  JOURNAL   Plant Cell 22 (9), 3164-3176 (2010)
+   PUBMED   20852017
+REFERENCE   2  (bases 1 to 640)
+  AUTHORS   Wang,S. and Yuan,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUL-2009) National Key Laboratory of Crop Genetic
+            Improvement, Huazhong Agricultural University, Wuhan, Hubei 430070,
+            China
+FEATURES             Location/Qualifiers
+     source          1..640
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua 11"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+     CDS             49..534
+                     /note="OsCOPT1"
+                     /codon_start=1
+                     /product="copper transport protein COPT1"
+                     /protein_id="ADP37431.1"
+                     /db_xref="GI:310892587"
+                     /translation="MDMGGHDMGGMSPPAAGAAAQGGMGAMKSMRYTHLTFFWGKNSE
+                     VLFTMWPGTRGGMYALAPIFVFALAVIVEFLGSRRADACLAALARRAPAAGGLARAAV
+                     HTVRVGVAYLLMLALMSFNGGVFLVAVAGHAAGFLAFRAGLCGGPAQVEEDRKNDPAC
+                     C"
+ORIGIN      
+        1 gccggcagag agcaagcaga tcaattgcca aatatctcgc tatcagctat ggacatggga
+       61 gggcacgaca tgggcggcat gtccccgccg gcggccgggg cggcggcgca gggcggcatg
+      121 ggcgccatga agtcgatgag gtacacgcac ttgaccttct tctggggcaa gaactcggag
+      181 gtgctcttca ccatgtggcc cggcacgagg gggggcatgt acgcgctggc gcccatcttc
+      241 gtcttcgcgc tggccgtcat cgtcgagttc ctcggcagcc gcagggcgga cgcctgcctc
+      301 gccgcactgg cgcggcgcgc cccggcggcg ggcgggctcg cgcgcgcggc cgtgcacacg
+      361 gtgcgcgtcg gcgtggcgta cctgctcatg ctcgcgctca tgtcgttcaa cggcggggtg
+      421 ttcctcgtgg ccgtcgccgg ccacgccgcg gggttcctgg cgttccgcgc cggcctgtgc
+      481 ggcggccccg cgcaggtgga ggaggaccgc aagaacgacc cggcctgctg ctagtagccg
+      541 cctcgtcgac gttggtgtgt actgtgagcg atcgattcgg ttcggtggac gttggtttga
+      601 tgcttgcatg tgtttgtgta attgtgtata atgttcgcgg
+//
+

@@ -1,0 +1,152 @@
+LOCUS       AY196754                5113 bp    DNA     linear   PLN 22-APR-2009
+DEFINITION  Oryza sativa (japonica cultivar-group) pi-ta protein (Pi-ta) gene,
+            complete cds.
+ACCESSION   AY196754
+VERSION     AY196754.1  GI:28629808
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 5113)
+  AUTHORS   Jia,Y., Wang,Z., Fjellstrom,R.G., Moldenhauer,K.A., Azam,M.A.,
+            Correll,J., Lee,F.N., Xia,Y. and Rutger,J.N.
+  TITLE     Rice Pi-ta gene Confers Resistance to the Major Pathotypes of the
+            Rice Blast Fungus in the United States
+  JOURNAL   Phytopathology 94 (3), 296-301 (2004)
+   PUBMED   18943978
+REFERENCE   2  (bases 1 to 5113)
+  AUTHORS   Jia,Y., Bryan,G.T., Farrall,L. and Valent,B.
+  TITLE     Natural variation of the Pi-ta rice blast resistance locus
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 5113)
+  AUTHORS   Jia,Y., Bryan,G.T., Farrall,L. and Valent,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-DEC-2002) Plant Pathology, Kansas State University,
+            4106 Throckmorton Plant Science Building, Manhattan, KS 66506, USA
+FEATURES             Location/Qualifiers
+     source          1..5113
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Tsuyake"
+                     /db_xref="taxon:39947"
+                     /chromosome="12"
+     gene            <647..>4898
+                     /gene="Pi-ta"
+     mRNA            join(<647..1590,3056..>4898)
+                     /gene="Pi-ta"
+                     /product="pi-ta protein"
+     CDS             join(647..1590,3056..4898)
+                     /gene="Pi-ta"
+                     /note="putative cytoplasmic receptor"
+                     /codon_start=1
+                     /product="pi-ta protein"
+                     /protein_id="AAO45178.1"
+                     /db_xref="GI:28629809"
+                     /translation="MAPAVSASQGVIMRSLTSKLDSLLLQPPEPPPPAQPSSLRKGER
+                     KKILLLRGDLRHLLDDYYLLVEPPSDTAPPPDSTAACWAKEVRELSYDVDDFLDELTT
+                     QLLHHRGGGDGSSTAGAKKMISSMIARLRGELNRRRWIADEVTLFSARVKEAIRRQES
+                     YHLGRRTSSSRPREEVDDDDREDSAGNERRRFLSLTFGMDDAAVHGQLVGRDISMQKL
+                     VRWLADGEPKLKVASIVGSGGVGKTTLATEFYRLHGRRLDAPFDCRAFVRTPRKPDMT
+                     KILTDMLSQLRPQHQHQSSDVWEVDRLLETIRTHLQDKRYFIIIEDLWASSMWDIVSR
+                     GLPDNNSCSRILITTEIEPVALACCGYNSEHIIKIDPLGDDVSSQLFFSGVVGQGNEF
+                     PGHLTEVSHDMIKKCGGLPLAITITARHFKSQLLDGMQQWNHIQKSLTTSNLKKNPTL
+                     QGMRQVLNLIYNNLPHCLKACLLYLSIYKEDYIIRKANLVRQWMAEGFINSIENKVME
+                     EVAGNYFDELVGRGLVQPVDVNCKNEVLSCVVHHMVLNFIRCKSIEENFSITLDHSQT
+                     TVRHADKVRRLSLHFSNAHDTTPLAGLRLSQVRSMAFFGQVKCMPSIADYRLLRVLIL
+                     CFWADQEKTSYDLTSIFELLQLRYLKITGNITVKLPEKIQGLQHLQTLEADARATAVL
+                     LDIVHTQCLLHLRLVLLDLLPHCHRYIFTSIPKWTGKLNNLRILNIAVMQISQDDLDT
+                     LKGLGSLTALSLLVRTAPAQRIVAANEGFGSLKYFMFVCTAPCMTFVEGAMPSVQRLN
+                     LRFNANEFKQYDSKETGLEHLVALAEISARIGGTDDDESNKTEVESALRTAIRKHPTP
+                     STLMVDIQWVDWIFGAEGRDLDEDLAQQDDHGYGFFILFPGYNLQGLLSFFLSLPWLL
+                     SLPSMHLQPDLMIV"
+ORIGIN      
+        1 aattatatag ttaccatcgt acaacgttac tctcaagcga gaaccaagtc gtcatagttc
+       61 caaagtagga aaagttattc cattaattag ctactcggtc catgcaaaga tcgtaagcat
+      121 atttatttta tcatcgagac caagaaaaaa aattaactca ttcgatttgt actcccatgt
+      181 aacaaacttt ttcatatgca tgcaaaaggg ttggagaatg catggcagct caagtttcgg
+      241 tcaacaattt aatcatacac agtaaaacga aaagagactc tcttcattta aggctcggat
+      301 gcatggagac tatatgaata agctcatctc atttggaaaa aaataatcaa aacaatgaaa
+      361 tatgcttaat acatttggat ttggatggag tatctcccta tgacgaaaga gacgagggat
+      421 tgcctacttc tttccacatc aacctttgaa ggctatggca gagctacatt tgcagcgcag
+      481 cctctctgca tgatttctta ctagatagga ttaagtttca agagttaatt tcttgtactc
+      541 ttgggcgatc catgctgtca aatcagcaac taacgaggca taatctcgat cactagctct
+      601 gatctgatct tcagctagcg ccggcgagct gcagaggtct ccatccatgg cgccggcggt
+      661 cagtgcatcg cagggtgtca tcatgcggtc cctgacgagc aagctcgact cgctgctgct
+      721 gcagccgccg gagccgccgc cgcctgcgca accgtcgtcg ctgcggaagg gggagaggaa
+      781 gaagatcctc ctcctcagag gcgatctccg acacctgcta gatgactact acctcctcgt
+      841 ggagccgccg tcagacaccg cgccaccgcc agactcgacg gcggcgtgct gggctaagga
+      901 ggttcgcgag ctctcctacg acgtcgacga cttcctcgac gagctaacga cccagctcct
+      961 ccaccaccgc ggcggcggcg atggcagtag cactgctggt gccaagaaga tgatcagcag
+     1021 catgatcgcc cggcttcgag gggagcttaa ccggcggcgg tggatcgccg acgaggtcac
+     1081 cctgttcagc gcccgcgtga aggaggccat tcgccgccag gagagctacc atcttggcag
+     1141 gcgcacctcg agctcgaggc cgagagaaga agtcgacgac gacgatcgcg aggactccgc
+     1201 cggcaacgaa cgccgccggt ttctgtcgct gacgttcggg atggacgacg ctgctgtgca
+     1261 cggccagctc gttggtaggg atatttcgat gcaaaagctc gtccggtggc tggccgacgg
+     1321 cgagccgaag ctcaaggtgg cttccattgt tggatccgga ggtgttggca agacgacgct
+     1381 ggccacagaa ttctatcgtc tgcatggccg gcggttggat gcgccgttcg actgccgggc
+     1441 tttcgtgcgg acgccccgga agcctgacat gacgaagatc ctcaccgaca tgctgtcaca
+     1501 gctgcggcca caacatcagc atcagtcttc ggatgtttgg gaggttgatc gactccttga
+     1561 aactatccgg acgcatttgc aagataaaag gtaattcatg tctacatcta tctctagtat
+     1621 ttttttcatg aatttacaaa ctattttctc aaatttcccc ttttttatcc ttcatatagt
+     1681 aattaagtta gtaactatac atatgaattt aatttactcg acaatgccaa taatatttta
+     1741 aattactttt atagtgcccc tctattatta aatacaattc gatcgagcca tgaatcatac
+     1801 tggtaatcta aacaattatt atacccacct cattctacta acagcaattg agttgttaat
+     1861 ataaatagat atggtctatt gcatgaaaaa ataaaggtaa agtgtttaca ttatttctac
+     1921 tactagtagc agaactacaa agttgtttgt atttttaatt attaaatgta aatgaaagta
+     1981 catgtttcat acccttgtta tttttttagg cgactaaact actagtacat tatttctact
+     2041 actagtagaa caactacaaa gttgtttgta tttttaatta ctaaatgtaa atgaaagtac
+     2101 atgcttcata cccttgttat aatattttag actaaactac cacaatggca tgttaactta
+     2161 tagcagtaag ttgtaattta ttttcttttc attttctcag ttgttacaag aacttttttt
+     2221 tacttaataa aaaatagtcg taagggcctc ccttgttcgg tcaaaaaaga attagactaa
+     2281 actcaatcgt atttgtacat aaacaaaatt taaaatataa ctaaaacgaa acagtgataa
+     2341 aaatggtgca atttaactgc tgcctcttgt tttaatgtct gacaatgttg attttgtata
+     2401 tatgtttggc catttatttt attcaaattt tttacaaata tgaaaaatat aatatgtgct
+     2461 taaattactt ttaatgataa aataaattta aaaaaatgat aattatattt ttaataagat
+     2521 ggatgatcta acatatatat gtccaaaagt ttgacatcaa acattaaaaa caagagagag
+     2581 tatttgctta ggagtacgtg tctttttcca tgtctaagaa caggtacaat agcaggttat
+     2641 aagctagcta taaacatatt ttaaagagat ataggaagag agagaagagc agcagcctac
+     2701 agatctgtag ccagctgcag cacggactct aagacgtaat gtgtgtatga caggtaggac
+     2761 caagtattaa tagtatagta agcaactatt gtatgaattg gctatttggc tctagatgat
+     2821 ttggagctag tagtcggcta tactattaaa cttgctctta gatatgtggt taaatttaat
+     2881 ttctgaaatt tacaagatat agaacatgtc ttcaccatgt ttgcaaagtt gataaaatga
+     2941 aattgcactc aactttttaa attcagcatg ctatcccacg tatagctttt taaatatgat
+     3001 ttattttttc gtacattaga agtttaatgt ttacgaagta ctaaatgttc tgcaggtact
+     3061 tcatcataat tgaagattta tgggcttcat caatgtggga tattgttagc cgtggtttgc
+     3121 ctgataataa tagttgcagt agaatactaa taacaacaga aattgaacct gtagctttgg
+     3181 catgctgtgg atataactca gagcacatta ttaagattga tccactgggt gatgatgtct
+     3241 caagtcaatt gtttttcagt ggagttgttg gccaaggaaa tgaatttcct ggacatctta
+     3301 ctgaagtttc tcatgacatg ataaaaaaat gtggtggctt gccactagca ataactataa
+     3361 cagccagaca ttttaaaagc cagctgttag atggaatgca gcaatggaat cacatacaaa
+     3421 aatcattgac tacttccaat ttgaagaaaa atcctacttt gcaggggatg aggcaagtac
+     3481 tcaaccttat ttacaataat cttcctcatt gtttgaaagc atgtctgtta taccttagca
+     3541 tctacaaaga ggactacata attaggaagg ccaacttggt gaggcaatgg atggctgaag
+     3601 gtttcatcaa ttccatagaa aataaagtca tggaagaagt tgcagggaac tattttgatg
+     3661 aacttgttgg taggggcctg gtccaaccag tagatgttaa ctgcaaaaat gaggtattgt
+     3721 catgtgtagt gcaccacatg gtattaaatt tcatcaggtg taagtcaata gaggagaatt
+     3781 tcagcattac attggatcat tctcagacga cagtaagaca tgctgacaag gttcgccgac
+     3841 tctcgcttca cttcagcaat gcacatgata caacaccact agcaggtttg agactctcac
+     3901 aagttcgatc gatggcattt ttcggacaag tcaagtgtat gccttccatt gcagattata
+     3961 ggcttcttcg agttctgatt ctttgttttt gggctgatca agagaaaaca agctatgacc
+     4021 tcacaagcat ttttgaactg ttacaactga gatatctgaa gataacaggt aatatcacag
+     4081 ttaaacttcc agagaagatc caaggactac aacacttgca gacactggaa gcagatgcaa
+     4141 gagcaactgc tgtcctattg gatattgttc atacacagtg tttgttgcac cttcgtcttg
+     4201 tactacttga tctgctccct cactgtcaca ggtacatctt caccagcatc cccaaatgga
+     4261 ctggaaagct caacaatctc cgcattttaa acattgcagt catgcaaatt tcccaggatg
+     4321 accttgacac tctcaaagga ctgggatctc tcactgctct ttcgctgctt gttcgaacag
+     4381 cgcctgcgca aagaatcgtc gctgcgaatg aggggttcgg gtctctcaag tacttcatgt
+     4441 ttgtctgtac agcaccatgc atgacttttg tggaaggagc aatgccgagt gtgcaaagat
+     4501 taaatctaag gttcaatgcc aacgagttca agcagtatga ctctaaggag acagggttgg
+     4561 aacacttggt cgcccttgca gagatctctg caagaattgg gggcactgat gatgatgaat
+     4621 caaacaaaac tgaagtggag tctgccttga ggactgcaat tcgcaagcat ccgacgccga
+     4681 gcactcttat ggttgatata caatgggtgg attggatctt tggtgctgaa gggagagact
+     4741 tggatgaaga tttggcacaa caagatgatc acgggtatgg atttttcatt ctattcccag
+     4801 gttacaactt acaaggatta ttgagcttct ttctttctct gccgtggctt ctatctttac
+     4861 cttctatgca tcttcaacct gacttgatga ttgtttgaaa ccaattttaa tggaagttaa
+     4921 atgttattgt tgtgaccctg aatcaggttt tgtatgctac cggaatcctc ttcacgtctt
+     4981 cagagtagag gtaattttgt ttcttgtcat tttacagtta cagttcatct acttaaggaa
+     5041 ttaatgggag gtcctatatt ttctcgggta cctagaaggt gtggttccta gtcttacctc
+     5101 cttaagaacc gta
+//
+

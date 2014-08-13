@@ -1,0 +1,116 @@
+LOCUS       AB604622                2991 bp    mRNA    linear   PLN 14-JUN-2011
+DEFINITION  Oryza sativa Japonica Group Os11gRGA4 mRNA for NBS-LRR type
+            protein, complete cds, cultivar: Sasanishiki, Aichi-asahi.
+ACCESSION   AB604622
+VERSION     AB604622.1  GI:336088138
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Okuyama,Y., Kanzaki,H., Abe,A., Yoshida,K., Tamiru,M., Saitoh,H.,
+            Fujibe,T., Matsumura,H., Shenton,M., Galam,D., Undan,J., Ito,A.,
+            Sone,T. and Terauchi,R.
+  TITLE     A multi-faceted genomics approach allows a rapid isolation of rice
+            Pia-blast resistance gene consisting of two adjacent NBS-LRR
+            protein loci
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2991)
+  AUTHORS   Okuyama,Y., Kanzaki,H., Yoshida,K. and Terauchi,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-DEC-2010) Contact:Yudai Okuyama National Museum of
+            Nature and Science, Department of Botany; Amakubo 4-1-1, Tsukuba,
+            Ibaraki 305-0005, Japan
+FEATURES             Location/Qualifiers
+     source          1..2991
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki, Aichi-asahi"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+                     /note="Identical sequences are seen in multiple cultivar"
+     gene            1..2991
+                     /gene="Os11gRGA4"
+                     /gene_synonym="Pia"
+                     /gene_synonym="SasRGA4"
+     CDS             1..2991
+                     /gene="Os11gRGA4"
+                     /gene_synonym="Pia"
+                     /gene_synonym="SasRGA4"
+                     /codon_start=1
+                     /product="NBS-LRR type protein"
+                     /protein_id="BAK39922.1"
+                     /db_xref="GI:336088139"
+                     /translation="MEAALLSGFIKAILPRLFSLVDDKHKLHKGVKGDIDFLIKELRM
+                     IVGAIDDDLSLDHPAAAAVQTLCMEDLRELAHGIEDCIDGVLYRAARDQQQSPVRRAV
+                     QAPKKLQRNLQLAQQLQRLKRMAAEANQRKQRYTAAAPGQHGQVYSSAAAQVDEPWPS
+                     CSSASDPRIHEADLVGVDADREELLEQLAERQPEQLKVIAIVGFCGLGKTALAAEAYN
+                     RETGGGRFERHAWVCAGHRSAREVLGELLRRLDADGRSFHGDSDAGQLCVDIRQQLEK
+                     NRYFIVIDDIQTEDQWKSIKSAFPTDKDIGSRIVVTTTIQSVANACCSANGYLHKMSR
+                     LDKNCSKQLLSKKACPERYSHYKQPDSAAILKKCDGQPLALVTIGEFLQANGWPTGPN
+                     CEDLCNRLHYHLENDKTLERMWRVLVRNYTSLPGHALKACLLYFGMFPSDHPIRRKSL
+                     LRRWLAEGFVEPLSSSSNIDSTAAFNVLMDRNIIEPINVSNNDKVKTCQTYGMMREFI
+                     SHMSISQNFVTFFCDDKFVPKYVRRLSLHGDTVVNGDNFNGIDLSLVRSLAVFGEAGT
+                     TVLDFSKYQLLRVLDLEKCDDLKDDHLKEICNLVLLKYLSLGGNISKLPKDIAKLKDL
+                     EALDVRRSKVKIMPVEVFGLPCLIHLLGKFKLSDKVKQKTEVQEFLLKGKSNLQTLAG
+                     FASNGSEGFLHLMRYMNKLRKLKIWCTSSAGSTDWTDLREAIQQFILDEKEANIGTRS
+                     LSLHFSGCSEDAINSLKEPCYLSSLKLHGNFPQLPQFVTSLRGLKELCLSSTKFTTGL
+                     LEALSNLSYLQYLKLVADELEKFIIKVQGFPRLLRLCIVLQYPTFPVIEEGALPFLVT
+                     LQLLCKDLHGLSDIQIECFKHLQEVTLHSGVTPATRQEWVKAAKEHPNRPKVLLLKSV
+                     DTAESEHTDVDSVMEAVKSETTEYSIAPEGPEQVNNKMQLDHGLESSSVLNKQNNFAD
+                     QSSSKDQLHYSFNNMGLSDVSCCE"
+ORIGIN      
+        1 atggaggccg cgcttttgag cggattcatc aaggccatcc tgccgaggct cttctccctc
+       61 gtcgacgata agcataagct ccacaagggc gtcaagggcg acatcgattt cctcatcaag
+      121 gagctccgca tgatcgtcgg cgccatcgac gacgacctct ccctcgacca ccccgccgcc
+      181 gccgccgtac agacgctatg catggaggac ctacgcgagc tcgcccacgg catcgaggac
+      241 tgcatcgacg gcgtcctgta ccgcgccgcc agggaccagc agcagtcacc ggtccgccgc
+      301 gccgtccagg cccccaagaa gctccagaga aacctgcagc ttgcccagca gctgcagcgg
+      361 ctgaagagga tggcggcgga ggcgaaccag cggaagcaga ggtacacggc ggcggcgccc
+      421 ggtcaacacg gtcaggtcta ctcatcggct gcggcgcagg tggatgagcc atggccgtcg
+      481 tgctcatctg cctcagatcc gcgcatccac gaggcggacc tggtcggcgt cgacgcggac
+      541 cgggaggagc tcctggagca gctggcggag cggcagccgg agcagctcaa ggtgatcgcc
+      601 atcgtcgggt tctgcgggct ggggaagacc gccctcgccg cggaggcgta caaccgagag
+      661 accggcggcg ggagattcga gaggcacgcg tgggtttgcg ccgggcaccg gagtgcacgg
+      721 gaggtgctcg gcgaattgct ccgcaggctt gacgccgacg gccgttcttt ccatggggac
+      781 tccgatgctg gtcagctgtg tgtagatatc agacagcagt tggagaagaa caggtacttc
+      841 attgttatcg atgacattca aacagaagat cagtggaaaa gcatcaaatc ggcttttccg
+      901 actgataagg atattggcag cagaatagtg gtcacgacga ccatccagtc agtagctaat
+      961 gcctgctgtt ctgcgaatgg gtatttgcac aaaatgagca ggcttgataa gaactgctca
+     1021 aagcaattgt tgtccaagaa agcttgccca gagaggtatt cacattacaa gcagccagat
+     1081 tcagcagcaa ttttgaagaa atgtgatggc cagccacttg ctcttgttac cataggtgaa
+     1141 ttcctgcaag ctaatggctg gccaacgggg cctaactgtg aagatctctg caaccggcta
+     1201 cattatcacc tagagaatga taaaacactt gaaaggatgt ggcgagtgct ggtccgcaac
+     1261 tacaccagtc tacctggcca tgctctcaag gcctgcttac tatattttgg catgttccca
+     1321 tctgatcatc caatcaggag gaaaagtctg ctgaggcgat ggttggccga gggatttgta
+     1381 gaaccactgt cttcatcgag taacatagat tccacggctg ctttcaatgt gctaatggac
+     1441 cggaacatca ttgagcccat caatgtaagc aataatgata aagtcaagac atgccaaacg
+     1501 tacggtatga tgcgtgaatt catatcgcat atgtcaatct ctcagaactt tgtcaccttt
+     1561 ttctgtgatg acaagttcgt gcccaaatat gttcgtcggc tttctctcca tggtgacact
+     1621 gttgtgaatg gtgataactt caacggtatt gatttatcac ttgtacggtc tctggcagtc
+     1681 tttggggagg caggtacaac cgtattagac ttcagcaagt atcaattgct gcgagtttta
+     1741 gatcttgaaa aatgtgatga tttgaaggat gatcatctca aagaaatatg caatctggtg
+     1801 cttctgaaat atctgagcct tgggggtaat atctccaaac ttccaaagga tattgccaaa
+     1861 ttgaaagatt tggaggcact cgatgtaagg agatcgaaag taaagataat gccggtagaa
+     1921 gtcttcgggt tgccatgcct aattcatctg cttggaaaat ttaagctctc agataaagtc
+     1981 aagcagaaga ctgaagtgca agagtttctc ttgaaaggaa aaagcaactt gcagacgcta
+     2041 gcaggatttg ctagcaacgg aagcgaaggg tttctgcatc ttatgaggta catgaataag
+     2101 ttgagaaagt tgaagatttg gtgtacgtcg tctgcaggta gcaccgattg gactgatctt
+     2161 agggaggcca ttcaacagtt cattctggat gaaaaggaag caaatattgg tacccgttct
+     2221 ttatcgcttc atttcagtgg atgctctgaa gatgcgataa attccttaaa agaaccctgc
+     2281 tacctcagct cgttgaaatt acatggcaac ttcccccaat tgcctcagtt tgttacatca
+     2341 cttcgtggtc tcaaggagct ttgcctttca tctactaaat ttacaacagg ccttcttgaa
+     2401 gccttgagta atttgagcta cttgcagtat ctcaaactgg ttgccgatga acttgagaag
+     2461 ttcatcataa aagttcaggg gttccccagg ctgctacgcc tttgtattgt gctacaatat
+     2521 ccaacattcc cagtaattga agaaggagct ctgccatttc ttgtcacact tcagctgcta
+     2581 tgcaaagatc tacatggcct ttctgacatc caaattgaat gttttaaaca tcttcaggag
+     2641 gtaactcttc attctggagt cactccagct acaagacagg aatgggtaaa ggctgctaag
+     2701 gagcatccga ataggccaaa agtattgctt ctcaaatctg ttgatacagc agaaagtgaa
+     2761 catacagacg ttgatagtgt aatggaggca gtcaaaagtg agactacaga atattctatt
+     2821 gcaccagagg gaccagaaca agtgaacaac aaaatgcaac ttgaccatgg attggaatcc
+     2881 tcttctgtgc tgaacaaaca aaacaacttt gcagaccaat caagctcaaa agatcaactg
+     2941 cattattctt tcaacaatat ggggctttca gatgtctcct gctgtgagtg a
+//
+

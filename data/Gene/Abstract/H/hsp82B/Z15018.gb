@@ -1,0 +1,66 @@
+LOCUS       Z15018                   704 bp    DNA     linear   PLN 28-JUL-1995
+DEFINITION  O.sativa hsp82 gene for heat shock protein 82.
+ACCESSION   Z15018
+VERSION     Z15018.1  GI:20257
+KEYWORDS    heat shock protein 82; hsp82 gene.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 704)
+  AUTHORS   Van Breusegem,F., Dekeyser,R., Garcia,A.B., Claes,B., Gielen,J.,
+            Van Montagu,M. and Caplan,A.B.
+  TITLE     Heat-inducible rice hsp82 and hsp70 are not always co-regulated
+  JOURNAL   Planta 193 (1), 57-66 (1994)
+   PUBMED   7764623
+REFERENCE   2  (bases 1 to 704)
+  AUTHORS   Van Breusegem,F., De Keyser,R., Gielen,J., Van Montagu,M. and
+            Caplan,A.
+  TITLE     Characterisation of Hsp82 genes in Oryza sativa
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 704)
+  AUTHORS   Van Breusegem,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-AUG-1992) Van Breusegem F., Universiteit Gent, Labo
+            voor genetika, Ledeganckstraat 35, Gent, Belgium, 9000
+FEATURES             Location/Qualifiers
+     source          1..704
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /strain="Taichung Native One"
+                     /cultivar="Taichung Native 1"
+                     /db_xref="taxon:4530"
+                     /clone="hsp82/2"
+                     /clone_lib="Charon 35 library"
+     gene            <1..265
+                     /gene="hsp82"
+     CDS             <1..265
+                     /gene="hsp82"
+                     /function="heat shock protein"
+                     /codon_start=2
+                     /product="heat shock protein hsp82"
+                     /protein_id="CAA78738.1"
+                     /db_xref="GI:829283"
+                     /db_xref="GOA:Q40694"
+                     /db_xref="InterPro:IPR001404"
+                     /db_xref="InterPro:IPR020576"
+                     /db_xref="UniProtKB/TrEMBL:Q40694"
+                     /translation="NSIMDELRKRADADKNDKSVKDLVMLLFETALLTSGFSLEDPNT
+                     FGTRIHRMLKLGLSIDEDESAEADADMPPLEDDAGESKMEEVD"
+     3'UTR           266..704
+ORIGIN      
+        1 gaattccatc atggacgagc tccgcaagcg tgccgatgct gacaagaacg acaagtctgt
+       61 gaaggacctg gtgatgctgc tcttcgagac tgccctcctg acctccggct tcagccttga
+      121 ggaccccaac accttcggca ccaggatcca ccggatgctc aagctcggcc tgagcatcga
+      181 cgaggacgag tctgctgagg ctgacgccga catgccgccg ctggaggacg acgccggcga
+      241 gagcaagatg gaggaggtcg actaagcgcc atggttgtca ttcggccccc atctcctgga
+      301 gccctagttc tctatagctt atctgactct gtgctcttcg ccatttttgc tatgctggat
+      361 gtatcggtat tgccgtatct tagcgcctga acatttcgtg gtatttgctc aaacagttac
+      421 gttttaaatt taaatatgct agttaattaa tccagaatct gtattttctt attctgcatt
+      481 agccctttta tagtaactct ttgttctgca ttatctccac tttgttctta gcttgaatgg
+      541 gccttttttt tttctctgtt gcccccatct ctttacatcg tagtagtaca tctatctttg
+      601 atacaatttt tttgatatgc tattttgaac tgagcttctt gttgacactg gattactttt
+      661 gattggcact gaatagcttg tcgtacactg ctcatgtctt ctcg
+//
+

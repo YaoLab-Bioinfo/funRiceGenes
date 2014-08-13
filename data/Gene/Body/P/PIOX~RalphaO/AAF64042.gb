@@ -1,0 +1,75 @@
+LOCUS       AF229813_1               618 aa            linear   PLN 19-MAR-2007
+DEFINITION  fatty acid alpha-oxidase [Oryza sativa].
+ACCESSION   AAF64042
+VERSION     AAF64042.2  GI:133761837
+DBSOURCE    accession AF229813.2
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 618)
+  AUTHORS   Matsui,K., Koeduka,T., Akakabe,Y. and Kajiwara,T.
+  TITLE     Fatty acid alpha-oxidases in rice plants
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 618)
+  AUTHORS   Matsui,K., Koeduka,T., Akakabe,Y. and Kajiwara,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JAN-2000) Department of Biological Chemistry, Faculty
+            of Agriculture, Yamaguchi University, Yoshida 1677-1, Yamaguchi
+            753-8515, Japan
+REFERENCE   3  (residues 1 to 618)
+  AUTHORS   Matsui,K., Koeduka,T., Akakabe,Y. and Kajiwara,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-MAR-2007) Department of Biological Chemistry, Faculty
+            of Agriculture, Yamaguchi University, Yoshida 1677-1, Yamaguchi
+            753-8515, Japan
+  REMARK    Sequence update by submitter
+COMMENT     On Mar 19, 2007 this sequence version replaced gi:7576892.
+            Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..618
+                     /organism="Oryza sativa"
+                     /db_xref="taxon:4530"
+     Protein         1..618
+                     /product="fatty acid alpha-oxidase"
+                     /note="pathogen inducible oxygenase; PIOX"
+     Region          84..611
+                     /region_name="An_peroxidase"
+                     /note="Animal haem peroxidase; pfam03098"
+                     /db_xref="CDD:251728"
+     Region          85..615
+                     /region_name="PIOX_like"
+                     /note="Animal heme oxidases similar to plant
+                     pathogen-inducible oxygenases; cd09818"
+                     /db_xref="CDD:188650"
+     Site            order(261..262,376,379..382,385,416,472,475,479)
+                     /site_type="other"
+                     /note="putative heme binding site [chemical binding]"
+                     /db_xref="CDD:188650"
+     Site            order(311,379,558..559)
+                     /site_type="active"
+                     /note="putative active site [active]"
+                     /db_xref="CDD:188650"
+     Site            order(312,315..316,320,375,379,381,544,548,552..553,
+                     556..557,560)
+                     /site_type="other"
+                     /note="putative substrate binding site [chemical binding]"
+                     /db_xref="CDD:188650"
+     CDS             1..618
+                     /coded_by="AF229813.2:1..1857"
+ORIGIN      
+        1 mgsglfkprv hpdlrdvfsk msffdkigfl fihafdkrnl whkvpvpigl lylntrrtll
+       61 ekynllavgr sshgalfdpk eflyrtedgk yndphnaeag sqntffgrnm epvdqqdelm
+      121 spdpfvvatk llarreykdt gkqfnilaaa wiqfmvhdwm dhmedtgqig itapkevane
+      181 cplksfkfhp tkelptnsdg ikighynirt awwdgsavyg nneeraeklr tyvdgklvig
+      241 ddglllhken gvalsgdirn swagvsilqa lfvkehnavc daikeehpnl sdeelyryak
+      301 lvtsaviakv htidwtvell ktktmraamr anwygllgkk ikdtfghigg pilgglvglk
+      361 kpnnhgvpys lteeftsvyr mhslipstlk lrdptgqpda nnsppcledi digemiglkg
+      421 eeqlskigfe kqalsmgyqa cgalelwnyp sffrnlipqn ldgtnrsdri dlaalevyrd
+      481 rersvpryne frrrlflipi kswedltsdk daietiraiy gddvekldll vglmaekkik
+      541 gfaisetafn ifilmasrrl eadrfftsnf neetytkkgm qwvktteglr dvinrhypei
+      601 takwmksssa fsvwdady
+//
+

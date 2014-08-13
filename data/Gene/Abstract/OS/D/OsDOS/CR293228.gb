@@ -1,0 +1,53 @@
+LOCUS       CR293228                 895 bp    mRNA    linear   EST 10-JAN-2011
+DEFINITION  CR293228 Oryza sativa library (Han B) Oryza sativa cDNA clone
+            y712d12p5, mRNA sequence.
+ACCESSION   CR293228
+VERSION     CR293228.1  GI:44679794
+DBLINK      BioSample: LIBEST_015105
+KEYWORDS    EST.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 895)
+  AUTHORS   Han,B., Feng,Q., Huang,Y.C., Ying,K., Li,Y., Guan,J.P., Zhu,J.J.,
+            Zhao,Q., Hu,X., Liu,Y.L., Mu,J., Yu,Z., Chen,L., Fan,D.L.,
+            Weng,Q.J., Zhang,L., Lu,Y.Q., Yu,S.L., Liu,X.H., Lu,T.T.,
+            Zhang,Y.J., Lu,Y., Li,C., Li,T., Zhang,Y., Hu,H., Jia,P.X.,
+            Zhang,L., Lan,L.F., Chen,W., Wu,S.A. and Xue,Y.B.
+  TITLE     Rice cDNA EST clone
+  JOURNAL   Unpublished (2003)
+COMMENT     Contact: Han Bin
+            National Center for Gene Research
+            Chinese Academy of Sciences
+            500# Cao Bao Road, Shanghai 200233, China
+            Email: bhan@ncgr.ac.cn
+            Clone requests: bhan@ncgr.ac.cn
+             This is rice cdna est clone
+            Web site: http://www.ncgr.ac.cn.
+FEATURES             Location/Qualifiers
+     source          1..895
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone="y712d12p5"
+                     /clone_lib="LIBEST_015105 Oryza sativa library (Han B)"
+ORIGIN      
+        1 cgcatcgtgt gtaccgggaa ttcggcatat ggccgggggg ctcatcggga cgaggagccg
+       61 gtccagaggg tggagtcgga agagccctcc gggagaaggt gttcgagcga ctgagccggg
+      121 atggtgccat ctccggcgac gccacagcct tcgccaccgc tggtgttgac ctcgacgttg
+      181 attgggtgtc cgacctcatc aactgaggct tccaagtcgc tattggaagc cccttttgtg
+      241 agcatcaagg atgatggcat ggaggaggag aaggtggcgg taagaagaaa atgatggcac
+      301 gacaaaaaaa tccttcattt tcttttgtga tttcaagtca agtttctatc tcccatgtga
+      361 atattcatgg ttggtggaga ggaggcaagt atggaaagat gggtggattt gttttggggt
+      421 tttgaggtag tagcaaaatt acccacaaaa aaattaggtg aaaaaaaaaa gaggagtaga
+      481 aatggaggtg attcagtgtc tcctgtgtgc atagggtgtg tggaggtgaa ggaagcacgg
+      541 aaggaagaag atcatggcgg aagaagatgg ccggatttcg gacgccgtcg cggtggcgga
+      601 cctggctaat ttaaggaatc cgggggggta atcctcggtc atcgattgtg gctcatccct
+      661 agctgttcaa atatcgacga ttcataagac ccccctttgt gatccctatc gtgaggtacc
+      721 gggtggtaga acccagggat ttgactgcgc accagaccat ggggcactac atgggggatg
+      781 cccagtagtg tacgtggtga gccatgtgac aagagatgac aatagggggg cttactgttc
+      841 tcaacactgt gttcatcgca cgtgcgtgat gtagaggaga aaagaaaann nnttn
+//
+

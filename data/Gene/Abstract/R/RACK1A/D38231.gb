@@ -1,0 +1,73 @@
+LOCUS       RICGPBSLP               1285 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group RWD mRNA for q group of receptor for
+            activated C-kinase, complete cds.
+ACCESSION   D38231
+VERSION     D38231.1  GI:540534
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1285)
+  AUTHORS   Iwasaki,Y., Komano,M., Ishikawa,A., Sasaki,T. and Asahi,T.
+  TITLE     Molecular cloning and characterization of cDNA for a rice protein
+            that contains seven repetitive segments of the Trp-Asp
+            forty-amino-acid repeat (WD-40 repeat)
+  JOURNAL   Plant Cell Physiol. 36 (3), 505-510 (1995)
+   PUBMED   7757340
+REFERENCE   2  (bases 1 to 1285)
+  AUTHORS   Iwasaki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-SEP-1994) Contact:Yukimoto Iwasaki Fukui Prefectual
+            University, Bioscience; Kenjyojima 4-1-1, Matuoka, Fukui 910-11,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1285
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="RWD"
+                     /tissue_type="greening leaf"
+     gene            1..1285
+                     /gene="RWD"
+     CDS             27..1031
+                     /gene="RWD"
+                     /note="WD 40 repeat"
+                     /codon_start=1
+                     /product="q group of receptor for activated C-kinase"
+                     /protein_id="BAA07404.1"
+                     /db_xref="GI:540535"
+                     /translation="MAGAQESLVLAGVMHGHNDVVTAIATPIDNSPFIVSSSRDKSLL
+                     VWDLTNPVQNVGEGAGASEYGVPFRRLTGHSHFVQDVVLSSDGQFALSGSWDGELRLW
+                     DLSTGVTTRRFVGHDKDVLSVAFSVDNRQIVSASRDRTIKLWNTLGECKYTIGGDLGG
+                     GEGHNGWVSCVRFSPNTFQPTIVSGSWDRTVKVWNLTNCKLRCNLEGHGGYVNAVAVS
+                     PDGSLCASGGKDGVTLLWDLAEGKRLYSLDAGSIIHSLCFSPNRYWLCAATQDSIKIW
+                     DLESKHIVQDLKPEIPVSKNQMLYCTSLNWSADGSTLYAGYTDGTIRIYKISGFSYAG
+                     "
+ORIGIN      
+        1 cctcgccgca cgcaccacca ccaaccatgg ccggcgcgca ggagtctctg gtgttggccg
+       61 gcgtgatgca cggccacaac gacgtggtga cggccatcgc gacccccatc gacaactcgc
+      121 cgttcatcgt ctcctcctcc cgcgacaagt cgctgctggt gtgggacctc accaaccccg
+      181 tccagaacgt cggcgagggc gccggcgcct ccgagtacgg cgtgcccttc cgccgcctca
+      241 ccggccactc ccacttcgtc caggacgtcg tcctcagctc cgacggccag ttcgcgctct
+      301 ctggctcctg ggacggcgag ctccgcctct gggacctctc caccggggtc accacccgcc
+      361 gcttcgtcgg ccacgacaaa gacgtcctct ccgtcgcctt ctccgtcgac aaccgccaga
+      421 tcgtctccgc ctcccgcgac cgcaccatca agctgtggaa caccctcggc gagtgcaagt
+      481 acaccatcgg cggcgacctc ggcggcggcg agggccacaa cgggtgggtc tcctgcgtcc
+      541 gcttctcccc caacaccttc cagccaacca tcgtctctgg ctcctgggac cgcaccgtca
+      601 aggtgtggaa cctcacgaac tgcaagctgc gctgcaacct cgagggccat ggcggctacg
+      661 tcaacgctgt cgcggtcagc cccgacggtt ctctgtgcgc gtccggtggc aaagatggcg
+      721 ttaccctgct gtgggacttg gctgagggca agaggctgta ctcgcttgac gcgggttcca
+      781 tcattcactc gctctgcttc tcgcccaacc gctactggct ctgcgcggcg acccaggact
+      841 ctatcaagat ctgggatctt gagtcaaagc acattgtgca ggaccttaag cccgagatcc
+      901 ctgtctccaa gaaccagatg ctctactgca caagcttgaa ctggagcgca gatggaagca
+      961 ccctctatgc tggttacaca gatggaacca tcaggatcta caagatctca ggtttcagct
+     1021 acgccggcta gagatgggga gtgttgtttt agttatcgcg ttctggtaaa cgactgtggt
+     1081 atcaccctag tgttcttttt ggctgtttga aaggcattaa tctgcctgag tacttctgct
+     1141 taatttaccc atctatgtag tagctccagt actgagctca tggatactgt ggaataggga
+     1201 tctgttttgc accatgtttt gttttgactt ccttttcaat atattgtctg atgaaccatg
+     1261 cgatccatgg tgcttctctc ttttt
+//
+

@@ -1,0 +1,69 @@
+LOCUS       JQ173373                1335 bp    mRNA    linear   PLN 24-MAR-2012
+DEFINITION  Oryza sativa Japonica Group phosphatidylserine synthases (PSS3)
+            mRNA, complete cds.
+ACCESSION   JQ173373
+VERSION     JQ173373.1  GI:380704115
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1335)
+  AUTHORS   Yin,H., Gao,P. and Luo,D.
+  TITLE     Control of meristem activity during stem development through
+            phosphatidyl serine synthases in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1335)
+  AUTHORS   Yin,H., Gao,P. and Luo,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-NOV-2011) Institute of Plant Physiology & Ecology,
+            Shanghai institues for Biological Sciences, CAS, Fenglin Rd 300,
+            Shanghai, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..1335
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua 11"
+                     /db_xref="taxon:39947"
+     gene            1..1335
+                     /gene="PSS3"
+     CDS             90..1133
+                     /gene="PSS3"
+                     /codon_start=1
+                     /product="phosphatidylserine synthases"
+                     /protein_id="AFD96993.1"
+                     /db_xref="GI:380704116"
+                     /translation="MEYGSSNDQRMQDMEIWPSDGGGVEEYDPWTAWLYKPHTVSVLL
+                     AGACLLIWASGVLHPEITSSHDKVIPIKRGVWAMIAVFLAYCTLQAPSTILIRPHPAV
+                     WRLVHGMAVVYLVALTFLLFQKRDDARQFMKHLHPGLGVELPERSYGSDCRMYVPENP
+                     TNRFINIQETLFDEFVIAHVLGWWGKAVMIRNQLLLWVLSVGFELMELTFRHMLPNFN
+                     ECWWDSIILDIMICNWFGVFGRGCTQSVTLMAKHTNGLDWVKRSLCQFTPAKWDKDQW
+                     HPFMEPRRFIQVFCLCVGFMTVELNTFFLKFCLWIPPRNPLKTSEEGGSFLLAFVSYM
+                     HGRAAYMHEVWTR"
+ORIGIN      
+        1 agcagagacc gccgtcgctt ccacagcatt cggctcccat ccatcaccgt agacgagtaa
+       61 tcaactccat tgatgccagc ggtgaggtga tggaatatgg atctagtaac gatcagagga
+      121 tgcaggacat ggaaatatgg ccgtcggacg gcggcggcgt ggaggaatac gacccgtgga
+      181 cggcttggct ttacaagcca cacacggtct cggttctcct tgccggcgca tgcctcctga
+      241 tctgggcaag tggggtcctt catccagaga ttacaagctc tcatgataag gtcataccta
+      301 ttaaaagggg tgtctgggct atgatcgcag ttttcctagc atactgcact ctccaagcac
+      361 cttcaacgat acttattagg cctcatcctg ctgtgtggcg tttggtgcat ggcatggctg
+      421 ttgtgtacct tgttgctcta acttttcttc ttttccagaa acgtgatgat gccaggcagt
+      481 ttatgaagca ccttcaccct ggtctcggag ttgaactacc agagagatca tatggttctg
+      541 actgccgtat gtatgttcca gaaaacccta ccaacagatt tattaatatt caagagacat
+      601 tgtttgatga atttgttatt gcccatgtct tgggttggtg gggtaaggca gtaatgatac
+      661 ggaaccaact tctcctatgg gtcttgtcag ttggttttga gctcatggag cttacattta
+      721 ggcacatgct gccaaatttt aacgagtgtt ggtgggacag tattatattg gatatcatga
+      781 tatgtaattg gtttggtgta tttgggcggg gatgcacaca gtccgttact ttgatggcaa
+      841 aacatacgaa tgggttggac tgggtaaaaa ggtcattatg tcagttcaca cccgctaaat
+      901 gggataagga tcaatggcat cctttcatgg agccaaggag attcatccaa gtgttctgtc
+      961 tctgcgtcgg tttcatgaca gtggaactta acaccttctt cctgaaattt tgtctctgga
+     1021 ttcctcccag gaaccccttg aaaaccagtg aagaaggtgg gagctttttg ttggctttcg
+     1081 ttagctatat gcatggtaga gctgcttata tgcatgaagt ttggacacgg tgagttattt
+     1141 tatagtatgt agcatattct tggcaaatta acaagggcat acagtttatg tcgatacatg
+     1201 cttggtcagt ctttgtgcta acatgaatca acataaccag gtttgtttca agatccaatg
+     1261 cctacttggt tgattactct ttggatttgt gtggggattt ctcttgcgct tttcttgctg
+     1321 gaatggtcac gaagg
+//
+

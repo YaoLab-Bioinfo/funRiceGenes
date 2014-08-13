@@ -1,0 +1,69 @@
+LOCUS       RICYK704                1220 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group YK704 mRNA for acidic ribosomal protein
+            P0, complete cds.
+ACCESSION   D21130
+VERSION     D21130.1  GI:415316
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1220)
+  AUTHORS   Hihara,Y., Umeda,M., Hara,C., Toriyama,K. and Uchimiya,H.
+  TITLE     Nucleotide sequence of a rice acidic ribosomal phosphoprotein P0
+            cDNA
+  JOURNAL   Plant Physiol. 105 (2), 753-754 (1994)
+   PUBMED   8066137
+REFERENCE   2  (bases 1 to 1220)
+  AUTHORS   Hihara,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-OCT-1993) Contact:Yukako Hihara Saitama University,
+            Department of Biochemistry and Molecular Biology, Faculty of
+            Science; 255 Shimo-Okubo, Sakura-ku, Saitama, Saitama 338-8570,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1220
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Hayayuki"
+                     /db_xref="taxon:39947"
+                     /tissue_type="anther"
+     gene            1..1220
+                     /gene="YK704"
+     CDS             112..1071
+                     /gene="YK704"
+                     /codon_start=1
+                     /product="acidic ribosomal protein P0"
+                     /protein_id="BAA04668.1"
+                     /db_xref="GI:455401"
+                     /translation="MAIKRTKAEKKVAYDKKLCQLLDEYTKVLIAVADNVGSNQLQEI
+                     RKGLRGDSIVLMGKNTLIRRCIKVHADNTGNKEFLELMPLLVGNVGLIFTKGDLKEVR
+                     EEVAKYKVGAPARVGLVAPVDVVVPPGNTGLDPSQTSFFQVLNIPTKINKGTVEIITP
+                     VELIKKGDKVGSSESALLAKLGIRPFSYGLVITNVYDSGSVFSPEVLDLTEDDLMEKF
+                     ASGVSMVASVSLAISYPTIAAAPHMFLNGYKNVLAVAVETEYSYPHADKIKEYLKDPS
+                     KFAVAAPVAADSGAAAPSAAKEEEKKEEPEEESDGDLGMSLFD"
+ORIGIN      
+        1 gccgcgcaag ccgtccgcct tgctcctcct cgccgagagc ttggtcctcg ccgtctcctc
+       61 tccccacgcg cagatctaag cctagggtta gggtttgtgt agctcgcagc gatggcgatc
+      121 aagaggacca aggcggagaa gaaggtggcg tacgacaaga agctctgcca gcttctcgac
+      181 gagtacacca aggtgctcat cgccgtcgcc gacaacgtcg ggtccaacca gctgcaggag
+      241 atccgcaagg gcctcagggg cgactccatc gtcctcatgg ggaagaacac cctcatccgc
+      301 cgctgcatca aggtgcacgc cgacaacacc ggcaacaagg agttcctcga gctcatgccc
+      361 ctcctcgtcg gaaacgttgg cctcatcttc accaagggtg acctcaagga ggtccgcgag
+      421 gaggttgcca agtacaaggt tggagctcct gctcgtgttg gtcttgttgc tcctgttgat
+      481 gtggtggttc cccctggcaa cactggtctg gatccatccc agacctcttt cttccaggtg
+      541 cttaacatcc ccaccaagat taacaagggt actgtggaaa ttatcacccc tgtggagctc
+      601 attaagaagg gtgacaaggt gggctcctcc gagtctgctc tgcttgccaa gcttggtatc
+      661 cgccccttct catatgggct ggttattacc aatgtctatg acagtgggtc agtcttcagc
+      721 cctgaggtgc ttgacctcac tgaggatgac ctgatggaga agtttgcttc tggtgtttct
+      781 atggttgcct cagtctccct ggcaatctcg tacccaacta ttgctgctgc accacacatg
+      841 ttcctcaatg ggtacaagaa tgtgcttgct gttgctgtgg agaccgaata ctcgtaccca
+      901 catgctgata agatcaagga gtatttgaaa gaccccagca agttcgctgt tgctgcccca
+      961 gttgccgccg acagtggtgc tgctgctcca tcggctgcca aggaggaaga gaagaaggaa
+     1021 gagcccgagg aggagtccga tggtgacctg ggcatgagcc tcttcgacta agcctcttgc
+     1081 catatcgctg caaagttgaa agttttgttt caagttctga acatcgaagt ttgtttttaa
+     1141 tctttagcat attaattttc tactagacaa gaatgtatcc aacaatggta tcgttaatta
+     1201 tgcattttgg ttgtgcccgt
+//
+

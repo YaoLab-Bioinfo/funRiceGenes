@@ -1,0 +1,141 @@
+LOCUS       AY652590                4760 bp    DNA     linear   PLN 04-OCT-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) cell death-related protein
+            SPL11 (Spl11) gene, complete cds.
+ACCESSION   AY652590
+VERSION     AY652590.1  GI:51038702
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 4760)
+  AUTHORS   Zeng,L.R., Qu,S., Bordeos,A., Yang,C., Baraoidan,M., Yan,H.,
+            Xie,Q., Nahm,B.H., Leung,H. and Wang,G.L.
+  TITLE     Spotted leaf11, a negative regulator of plant cell death and
+            defense, encodes a U-box/armadillo repeat protein endowed with E3
+            ubiquitin ligase activity
+  JOURNAL   Plant Cell 16 (10), 2795-2808 (2004)
+   PUBMED   15377756
+REFERENCE   2  (bases 1 to 4760)
+  AUTHORS   Zeng,L.-R., Qu,S., Bordeos,A., Yang,C., Baraoidan,M., Yan,H.,
+            Xie,Q., Nahm,B.-H., Leung,H. and Wang,G.-L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUN-2004) Plant Pathology, Ohio State University,
+            2021 Coffey Road, Columbus, OH 43210, USA
+FEATURES             Location/Qualifiers
+     source          1..4760
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="12"
+     gene            <1..>4760
+                     /gene="Spl11"
+     mRNA            join(<1..336,2823..2939,3034..3468,3564..>4760)
+                     /gene="Spl11"
+                     /product="cell death-related protein SPL11"
+     CDS             join(1..336,2823..2939,3034..3468,3564..4760)
+                     /gene="Spl11"
+                     /note="U-box & ARM repeat protein; lesion mimic protein;
+                     cell death and defense related"
+                     /codon_start=1
+                     /product="cell death-related protein SPL11"
+                     /protein_id="AAT94161.1"
+                     /db_xref="GI:51038703"
+                     /translation="MAGDRAEEEEGEAPPPEARAAAAVERVAAAVEAVAAGAGAGAGE
+                     YRNAYRRQLLALSRRIRLLGPFVEELRERRRGEGEGEEEERALAPLADALEAALALLR
+                     LGREGSRISLVLERDSVMKKFQGVILQLEQALCDIPYNELDISDEVREQVELVHAQLK
+                     RAKERIDMPDDEFYNDLLSVYDKNYDPSAELAILGRLSEKLHLMTITDLTQESLALHE
+                     MVASGGGQDPGEHIERMSMLLKKIKDFVQTQNPDMGPPMASRVLDSNGDSRPITIPDE
+                     FRCPISLELMKDPVIVSTGQTYERACIEKWIASGHHTCPTTQQKMSTSALTPNYVLRS
+                     LISQWCETNGMEPPKRSTQPNKPTPACSSSERANIDALLSKLCSPDTEEQRSAAAELR
+                     LLAKRNANNRICIAEAGAIPLLLSLLSSSDLRTQEHAVTALLNLSIHEDNKASIISSG
+                     AVPSIVHVLKNGSMEARENAAATLFSLSVIDEYKVTIGGMGAIPALVVLLGEGSQRGK
+                     KDAAAALFNLCIYQGNKGRAIRAGLVPLIMGLVTNPTGALMDEAMAILSILSSHPEGK
+                     AAIGAAEPVPVLVEMIGSGTPRNRENAAAVMLHLCSGEHHLVHLARAQECGIMVPLRE
+                     LALNGTDRGKRKAVQLLERMSRFLVQQQEEQESQSQASAQVPPQATPEQVPENDIPEQ
+                     LDSPASQYPMVV"
+ORIGIN      
+        1 atggccggcg accgagcgga ggaggaggag ggggaggcgc cgcctccgga ggcgcgtgcc
+       61 gcggcggcgg tggagagggt ggcggcggcg gtggaggccg tggcggcggg ggcgggggcg
+      121 ggggcggggg agtaccggaa cgcgtacagg cggcagctgc tcgcgctgtc gcggcggatt
+      181 cggctgctgg ggcccttcgt ggaggagctc cgggagcgga ggcgggggga gggggagggg
+      241 gaggaggagg agcgggcgct ggcgccgctc gccgacgcgc tcgaggcggc gctcgcgctg
+      301 ctccggctcg gccgcgaggg gagcaggatc tccttggtat gtgcgcgcgt gtgggtttct
+      361 tgattttgtt cgattcgtgg tcctggctgc ctttttggga ggaactatta ttattattat
+      421 ggattggtga tttgatatta tgacctgttc ttaggtaaaa ataaagtgca gctttagtta
+      481 ttaagtttat tattgacttt agtctcctaa aaaaaattaa gattcttgga tgcaaaaata
+      541 tgattctgat tcgtctactg tgtatccgtg cttaattttt gcttttataa atcgtgtgga
+      601 ctaatattaa tatatattga tgtgcagttg tttgaaacac aaaacaaatt gtaggggtcg
+      661 tgattgttaa gtgagttttc ttttgtttta gcataggggc tttaggatga tttagttgct
+      721 gttgcttatt aatcgcaaaa aagagagaga gaaaggtttc cataatttta ttctgcagct
+      781 gtgttgtatt tgttcagcta gatttcttgt tgagctgaga ttgcttcttg ttcaatgcga
+      841 ccaatatatg ttcttctttt gtggtgcaat tttggtaggg tccataagtt gtggtctttg
+      901 ggggcgtctg taacttggtt atttcagatc aaactccttg ctattttttt ttgtggatct
+      961 actgcgaaac ttgtcatctg taaatgatcc atgcattctc atttctcagg gcatccatga
+     1021 gtttgtcata gatttgctgt agaataaatg cttggacgga ttcctccatc ggtttcttta
+     1081 cttgttgaaa cattcaagaa tctacttgcc cttgccctac atccttcatg gttgtactcc
+     1141 acatgttatt ccccatggta aaagcacggt ttgttgtgtg gattagttgg gagaggcaac
+     1201 ggatagacat atgatcatgt ctttctccat ggtaaaagca agatttgttg tggattagtt
+     1261 gggacaacca tatgatcatg tctttcactt tcttgtgtgt tgtttgtagt ggatattgtc
+     1321 tatagctttg aattgttctt ttgaggagag gtatgatctt ccagtcctga gcaattcaac
+     1381 tgctcctttt ggatcataaa tttcacctct tgaatcatta tctagccagt ttttctgcct
+     1441 accagtatgg tacatcaaat ctgaccgatt ggagtactat gttcttttgt caagtataac
+     1501 tgtattatta tctgtatggt atatctaatc ataacagaca ttttcatttt tctattttca
+     1561 ctgggacaaa gaacttgtac taattgtttg ctttactttg gtcaaatctg gttgactgta
+     1621 tctgttgtaa ctatcaaggc ctcaaaccct tcatcgagtc cgtgttatca atgggatgct
+     1681 ttatgagtgc tatgacataa tattggtaat caatagtctt tgaacattat tttatatctt
+     1741 gatcgctcat acaacaatga tgactatctt gatcgctcat gcactatttt tccggattaa
+     1801 gaactaactt ctggctgggt agttgttgaa attgttcagg agttgaatag gccacgtgct
+     1861 ttgtcagaaa attaaatagc agcaagtaaa aggttttctg gaagctttca tgtttaaatt
+     1921 ctttttataa actagcaaat gaaatggtct gaagaagcat attttcattt tggaagtgca
+     1981 atattgctta gtagagagta atcaaattgg gttctatacc taccacttaa tgctcgctga
+     2041 gtacattgac ccaaaaatat tatttctgag cacaataggt ttcattaaac ttttatactg
+     2101 aaatacaata agttgccgca accagagcag atcaacaaaa tttgtcatta gagaacttca
+     2161 gatgatcgac atcataacta tattgtttgt aggctcaaac attaaggtcc ccaccagtgg
+     2221 atttctgcac ccgttgaaag tgtttttctt ttttggcctg ttggaatgcc catgtacctg
+     2281 atgataggac tacctctatg actcaccgac tatatctttt acggctgtgc atagggaagg
+     2341 gatgaaccta caagttagaa atatggtagt cattgtctag ttttctttat gtgactatca
+     2401 aactcatgta ttgattcaac gttttccttc ttcaactcca ttttgatgtt attgaaagtg
+     2461 cttgctcatt ttattcccaa gctcagaagc aagggatttt cttgattata ttggtgtagt
+     2521 ttaaatttca ggttggtttt cttgctcttt gcttcagtac ttgaaccaca ggcctctgac
+     2581 tgtccatcct gtagcttgta atgtttttat atggtgctct taatgttggt gttactctat
+     2641 ctcttttttc ccctgcttta cctgtattct tattgacctt tgattaccat tttgttctta
+     2701 ttataaatca ttttttataa acatgctttt cgaaacacta attgctgtgg atttgtttct
+     2761 gtacaaccac ttgtttagct aaggagcctt ttctttcttt cttttcccat tctggtttgc
+     2821 aggttcttga gagggacagc gtaatgaaaa agtttcaggg agtaattttg cagctggaac
+     2881 aagctctgtg cgacattccg tacaatgaat tggatatatc agatgaagtt agagagcagg
+     2941 taacgatgac agcacactga aaagaattcc tcttgctatt atcattaagc acttaaatcc
+     3001 agcattggag ataattatcc aaatcctgtc caggttgagt tagtgcacgc acagctcaaa
+     3061 agagcaaaag aacggattga tatgcctgac gatgaattct acaatgatct actatctgta
+     3121 tatgacaaga actatgaccc aagtgcagaa ctggctattc ttggaagatt gtcagaaaag
+     3181 ctacacttga tgacaatcac cgatctcacg caagaatcac tcgccttaca tgagatggtc
+     3241 gcatccggcg gtggtcagga cccaggagaa cacattgaga gaatgtcaat gctactgaag
+     3301 aagattaagg attttgtgca aacacagaac cctgacatgg ggcctcctat ggcttccagg
+     3361 gtattggatt caaatgggga ttcaaggcct ataaccattc ctgacgagtt ccgatgtcca
+     3421 atttctcttg agctgatgaa ggatcctgtt atagtgtcta cagggcaggt agcaatctct
+     3481 acctctttat ttttaagacc caaagcacaa tgcaactaaa atagttattt tagtataaac
+     3541 attttttatt tgttaatttg tagacatatg agcgggcatg cattgagaaa tggatagcat
+     3601 caggccatca tacctgccca accacgcaac agaagatgtc aacctcagca ttgacgccaa
+     3661 actatgtcct tagaagtctc atttcccagt ggtgtgaaac caatgggatg gagccaccaa
+     3721 agcgctcaac ccagcctaac aagcctacgc ctgcatgctc ttcgagtgaa cgtgctaaca
+     3781 tcgatgctct gctatctaag ttatgctctc cagacactga ggagcagaga tcagctgctg
+     3841 cagagcttcg cctccttgca aagcggaatg caaacaaccg gatttgcatt gctgaggcag
+     3901 gtgccattcc cttgctattg agtctgctgt cctcatctga cctacggact caagaacatg
+     3961 cagttactgc ccttctgaac ctctccatac atgaggacaa taaggcaagc atcatatcat
+     4021 ctggtgctgt cccaagcata gtccatgttc tgaagaatgg cagcatggag gcacgggaga
+     4081 atgctgcggc cacacttttt agtctctcag tgattgatga atataaagtg acaattggag
+     4141 ggatgggggc tatccctgcg cttgtagtgc tgttaggcga gggtagccag cgggggaaga
+     4201 aggatgcagc agcagctctc ttcaacttgt gtatatacca agggaacaag ggacgagcga
+     4261 ttcgagctgg ccttgtgcca ctcatcatgg ggctggtgac caaccccaca ggagcgctca
+     4321 tggatgaggc tatggcaata ctctccatac tatccagcca ccctgagggc aaggcagcga
+     4381 ttggggcggc agagcctgtc cctgtgcttg tggagatgat cggaagcgga accccgagaa
+     4441 atcgagagaa tgctgcggct gtcatgctac atctgtgcag tggagagcac catcttgtgc
+     4501 atttagctcg tgcgcaggag tgcgggatca tggtcccgtt gcgggagctg gctttgaacg
+     4561 gcaccgatag ggggaagagg aaggctgtgc agctgctcga gcggatgagc agattcctag
+     4621 tccagcaaca agaggaacag gagtcccagt cgcaagcctc cgcgcaggtc cctcctcagg
+     4681 ccacccctga gcaggtcccg gaaaatgaca tccctgaaca attggacagc ccagcgtctc
+     4741 aataccctat ggttgtatga
+//
+

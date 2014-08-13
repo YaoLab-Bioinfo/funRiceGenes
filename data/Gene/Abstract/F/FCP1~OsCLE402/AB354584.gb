@@ -1,0 +1,62 @@
+LOCUS       AB354584                 930 bp    DNA     linear   PLN 17-JUL-2009
+DEFINITION  Oryza sativa Japonica Group FCP1 gene for FON2-like CLE protein 1,
+            complete cds.
+ACCESSION   AB354584
+VERSION     AB354584.1  GI:196259760
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Suzaki,T., Yoshida,A. and Hirano,H.Y.
+  TITLE     Functional diversification of CLAVATA3-related CLE proteins in
+            meristem maintenance in rice
+  JOURNAL   Plant Cell 20 (8), 2049-2058 (2008)
+   PUBMED   18676878
+REFERENCE   2  (bases 1 to 930)
+  AUTHORS   Suzaki,T. and Hirano,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-AUG-2007) Contact:Takuya Suzaki Department for Stem
+            Cell Biology, Institute of Zoology, Ruprecht-Karls-University
+            Heidelberg; Im Neuenheimer Feld 230, Heidelberg 69120, Germany
+FEATURES             Location/Qualifiers
+     source          1..930
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            201..726
+                     /gene="FCP1"
+     CDS             join(201..345,411..494,596..726)
+                     /gene="FCP1"
+                     /codon_start=1
+                     /product="FON2-like CLE protein 1"
+                     /protein_id="BAG68680.1"
+                     /db_xref="GI:196259761"
+                     /translation="MAHPHCAVKPCCCFCCCCLLVAAVLAVAVFLAMSPPAAAAAAAS
+                     SSQPAAAAALQRAETTATMYTAKELREKQDVTKGAEEDVTTTTTTTGFGAESEREVPT
+                     GPDPIHHHGRGPRRQSP"
+     intron          495..595
+                     /gene="FCP1"
+                     /note="Neither 5' nor 3' splice site follows GT-AG rule"
+ORIGIN      
+        1 cgcgagaccg tacggcgtga ggcacctgcg ctgcactgca gtactgcacc tccccccccc
+       61 ccccccctgc gaaggttgga aggagcagaa aaggaaagaa aagcctcttc tactactagt
+      121 cttcttcacc tttttttcct gtgcgtcttc ccgttgctgc gcgtacacga ttgaggcgcg
+      181 ggcgcgcggc tagactctgg atggctcatc ctcattgtgc cgtcaagccg tgctgctgct
+      241 tctgctgctg ctgcctcctc gtcgccgccg tgctcgccgt cgccgtcttt ctggccatgt
+      301 cgccgcccgc cgccgccgcc gccgccgcat cgtcgtcaca accaggtagg ttcaaaaagt
+      361 gcggggtctt ttcttgtaac gtgagttctt gacgacgcgg ctttttgtag cggcggcggc
+      421 ggcattgcaa cgggccgaga cgacggcgac catgtacacc gcgaaggagt tgcgggagaa
+      481 gcaggacgtg accaaggtcg gtctgagctc aaaaaaaggt ggctcttttc atggctttct
+      541 tgccctgttc gatcgatctc atggtggtgt agggtttctt gatttggggg gttgcagggc
+      601 gcggaggagg acgtgaccac gacgacgacg acgacggggt tcggcgcgga gtcggagagg
+      661 gaggtgccca ccgggccgga cccgatccac caccacggcc gggggcccag gcggcagtca
+      721 ccgtgagtgc gaatcccccg tcgccgtcgc cgggttaacg aatcgggcgt gaacccagaa
+      781 tcccatgaga cgcgatggtc tatgaaagaa agattgtgct cttcaattcg ttttgctgaa
+      841 tctgtgatgc acttggggat tttattcaga ttcatttctt gctgtaggga acacagtagt
+      901 atgtctgaag aactaggcag ctagcttacc
+//
+

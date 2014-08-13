@@ -1,0 +1,142 @@
+LOCUS       AB060730                3819 bp    DNA     linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group genes for RPP17-1, RPP17-2, complete
+            cds.
+ACCESSION   AB060730
+VERSION     AB060730.1  GI:21998840
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Asano,T., Kusano,H., Okuda,T., Kubo,N., Shimada,H. and Kadowaki,K.
+  TITLE     Rpp16 and Rpp17, from a common origin, have different protein
+            characteristics but both genes are predominantly expressed in rice
+            phloem tissues
+  JOURNAL   Plant Cell Physiol. 43 (6), 668-674 (2002)
+   PUBMED   12091721
+REFERENCE   2  (bases 1 to 3819)
+  AUTHORS   Kadowaki,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-APR-2001) Contact:Koh-ichi Kadowaki National
+            Institute of Agrobiological Sciences; Kannondai2-1-2, Tsukuba,
+            Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..3819
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     exon            2267..2460
+     gene            join(2382..2616,2735..2873,3171..3312,3437..3490)
+                     /gene="Rpp17-1"
+     gene            join(2382..2616,2735..2873,3171..3312,3437..3490)
+                     /gene="Rpp17-2"
+     CDS             join(2382..2460,2551..2616,2735..2873,3171..3312,
+                     3437..3490)
+                     /gene="Rpp17-1"
+                     /codon_start=1
+                     /product="RPP17-1"
+                     /protein_id="BAC06445.1"
+                     /db_xref="GI:21998841"
+                     /translation="MAGSGVLEVHLVDAKGLTGNDFLGEIGKIDPYVVVQYRSQERKS
+                     SVARDQGKNPSWNEVFKFQINSTAATGQHKLFLRLMDHDTFSRDDFLGEATINVTDLI
+                     SLGMEHGTWEMSESKHRVVLADKTYHGEIRVSLTFTASAKAQDHAEQVGGWAHSFRQ"
+     CDS             join(2382..2451,2551..2616,2735..2873,3171..3312,
+                     3437..3490)
+                     /gene="Rpp17-2"
+                     /codon_start=1
+                     /product="RPP17-2"
+                     /protein_id="BAC06446.1"
+                     /db_xref="GI:21998842"
+                     /translation="MAGSGVLEVHLVDAKGLTGNDFLGKIDPYVVVQYRSQERKSSVA
+                     RDQGKNPSWNEVFKFQINSTAATGQHKLFLRLMDHDTFSRDDFLGEATINVTDLISLG
+                     MEHGTWEMSESKHRVVLADKTYHGEIRVSLTFTASAKAQDHAEQVGGWAHSFRQ"
+     intron          2452..2550
+                     /gene="Rpp17-2"
+                     /note="alternative splicing"
+     intron          2461..2550
+                     /gene="Rpp17-1"
+                     /note="alternative splicing"
+     exon            2551..2616
+                     /gene="Rpp17-1"
+     intron          2617..2734
+                     /gene="Rpp17-1"
+     exon            2735..2873
+                     /gene="Rpp17-1"
+     intron          2874..3170
+                     /gene="Rpp17-1"
+     exon            3171..3312
+                     /gene="Rpp17-1"
+     intron          3313..3436
+                     /gene="Rpp17-1"
+     exon            3437..3716
+     polyA_site      3717
+ORIGIN      
+        1 tgggtccggc cttggaggac gggcgagttg ccggcggcag ccggcaggcc ggcagcggcg
+       61 tagggtgtaa cgccggctcg ttcctacttc ctccgtttca caatgtaagt cattctagca
+      121 tttctcacat atatattgat gttaatatat atatagattc attaacatca taatgctaga
+      181 atgacttata ttgtgaaacg gagggagtag aaggcaacat gtcaagaagg caggaaggca
+      241 atcgagggcg gcgcggagga catcgctgag gcagaggcgc agaagagcac gccgtccggg
+      301 gatgctcgtc ggtgaggtca ggggctcagg gcggccatca ttggcagcga tccaagcagg
+      361 gtccttttta caaaatgtca gggcctattc gaaaatgtgt tgggcacgga tgcgtcaaac
+      421 gtgggtggtc cctggccgtt ggatccctgt caacgccggc tcacccttcg tcctcgccgt
+      481 tgcaggggac gaccgacgac ggtgatcgca tggatgtcgg tgccgggagc tcatcagcaa
+      541 cgaggtcgtg cgcgagataa tcctcgctag gatttcccgt cgctgagcgt gagaagcatc
+      601 gtggactaat ccgcaggtgc agggcgagca aaaccaataa gaattttctt tctagttgtc
+      661 ctcgattaag ccaaattagg aaccaatctt ctcgtcacgc tacagagttc aactaattca
+      721 ccttgaaaag ttgatggtca caaactcact agatcttctg ctcacaaact cactaggtat
+      781 tgctgtccaa ttaattcagt tgctctatgt tttcggcaat tagaatttcg gaatctatgc
+      841 tagatttgtc gagctcagtt cctcaggatc ttgacatgtg aattctctgt ctgctttcat
+      901 ttttctctgt ctgaggattt caacttttgg attactgcga cactgatcca tgctttgttc
+      961 tttaattagt tatgtgttgc gcgagctatc gacttcaaaa taatatgctt tttttttgtg
+     1021 atcgactgat cgccatatac ctgtacgtaa tgtgagacga aaccactatt caattttgca
+     1081 gctgacgttg tgatgttgat gcctgatggt gctctactgc tctgtttcct gcgttcccga
+     1141 aaaatactgc tctgttaatc tgtttccagc gtaaattaaa acaaacggcc aatgataatc
+     1201 gtttttaatt ttttggccga gtcatcacag actcacagta tgtcaacaac tgatgtcagt
+     1261 acacccgttc tttgttatta tgacacatca ctgtcatgaa aaccacctga taggttaaca
+     1321 atcagaacca agcagtttct gattctgaga cccattcttc agaaatctgg aaattctacc
+     1381 gatatctatc tgcctgacta tctctatctc gatctcgtcc aggattgttc ttgcgaacta
+     1441 atggttgtac gcaaattcgt ctccctactg cagtctcagt ccaagtttcc tctttgatga
+     1501 ttcttcgaac ttatcgcgta gattgggact cgcgcattta gccgaggaaa cacgcttagc
+     1561 agcaagactc gatcagctcc gatcctcacg ttgaagcgat gaaaaaaaat cacctcgaat
+     1621 tcgatccagg cggcgagacg tgaccaaatc acgtacaagt cgtcgtcgaa cagacctggt
+     1681 tgtttaaact actaattcta aactgcagag ggtcagagag aaagatcgta cgaaacttgt
+     1741 actgctaatc atgcaataag catgtgttaa tgccaggacg attcactggg gaaggaatca
+     1801 caccgtgggc atgctgttga ctagcggaat aataccactg atttaagtag ggtcatatat
+     1861 tgatatatag cataactgct aactgccagt tgctagtgcc tcttcggctc ttccagctgg
+     1921 gagtcgaaac aaacaaaaga gccgtcgtta agcacgtcca agtaattaaa ttagtacgta
+     1981 gtagtaatcc ctaagctaaa aatatggcca gttgtagctg acagctagga gtaagagatg
+     2041 ggcaagtaga gagtatagag aggaaggaga gaggaagcaa tatgggagaa cagtagtgaa
+     2101 gcctcgaacc ggctcggttc agtccaactc aaccacgtag aaacgtgcgg gtttacacgg
+     2161 tggcgaccgc ttcaaatgtg cgggagcttt gactggtccc cagccagctc gcctataaac
+     2221 gcgcgcacgc tcgagccagc taccacggca tctgcttgag ttggagcaac acaccaagaa
+     2281 ggccagagag attcagagaa ctacaccgag aaggcgagat tgtttgcgtg gttggtaatt
+     2341 tggccggcct tgatcgatcg agcggagaag agaagagaaa gatggcgggg agcggtgtcc
+     2401 tggaggtgca tctcgtcgac gccaagggcc tcaccggcaa cgacttccta ggtgagatag
+     2461 gtgcgtccta cctcgatccg cggccgagcg ccgttagaag aagacgaggc cgatcgagct
+     2521 cgatctcatc cgcgttcttg tcctgtgcag gcaagataga cccgtacgtg gtggtgcagt
+     2581 accggagcca ggagcgcaag agcagcgtcg ccagaggtca gctaatactg ctccgtgcag
+     2641 attactgcaa acttcttggt ttttcgtttc agaattcgga ttattgttag acgaggcatt
+     2701 gacgaacgtt ctgggctctg acctgaaaat gcagatcaag ggaagaaccc gagctggaac
+     2761 gaggtgttca agttccagat caactccacg gcggcgaccg ggcagcacaa gctctttctg
+     2821 cggctcatgg accacgacac cttctcacgg gacgacttcc tcggcgaagc aacgtgagtg
+     2881 ccattatatg ctctcaccaa aacaaaaagc caacaaccat ggcagctagc ttagtcatag
+     2941 caaacgctaa acactaaagt aattttccag ttcttaaagg agatattaag gaggtaccaa
+     3001 atttacacta aaatttttgg aatttctcga ggactataaa atttctctga acactactat
+     3061 aatctcaacg tgctgaccac atagttaggc aaatgaaaac aagcagaaaa ctttatatac
+     3121 cttttgaaca tcctgcacaa atctgaatct tgatttttgt tgtaatgcag gatcaacgtg
+     3181 actgacctga tcagcttagg catggagcac ggcacatggg agatgagcga atccaagcac
+     3241 cgggtcgtcc tcgcggacaa aacataccac ggcgagatca gagtcagcct cacgttcacg
+     3301 gcttctgcaa aggtaaacaa atcaccagac gcacgactga attattgatt attcatgtta
+     3361 cgccccgttg acctccattg gtctctcctg attggctggg atctgaatgt gattcgatgt
+     3421 tgatgtccaa tgacaggctc aagaccacgc agaacaggtt ggaggatggg cgcacagctt
+     3481 tcgtcagtag aaagattgtg aacttcaagt ctataatcag ttggggcctg tgggaggttt
+     3541 agataagtat actatagtac tagcaaggta ggattttgtg agtaacaacg gcatctaatg
+     3601 cccaagattg atgtggttcg aagtgtatgt atgctgcctt ttttttttct atactagatg
+     3661 tatattcaga acattgtaga gtcatgaacc tgttaatgga tgtgaattat gatactactt
+     3721 caacctcttt ttcgcctttg tgtagcgata catacggtca gactttacca tctctaacct
+     3781 ccaatatatt aattagaatg tatgtataat tcaagtgtg
+//
+

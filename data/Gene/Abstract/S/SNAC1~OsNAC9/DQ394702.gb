@@ -1,0 +1,71 @@
+LOCUS       DQ394702                1290 bp    mRNA    linear   PLN 01-SEP-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) stress-induced transcription
+            factor NAC1 (snac1) mRNA, complete cds.
+ACCESSION   DQ394702
+VERSION     DQ394702.1  GI:88770830
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1290)
+  AUTHORS   Hu,H., Dai,M., Yao,J., Xiao,B., Li,X., Zhang,Q. and Xiong,L.
+  TITLE     Overexpressing a NAM, ATAF, and CUC (NAC) transcription factor
+            enhances drought resistance and salt tolerance in rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 103 (35), 12987-12992 (2006)
+   PUBMED   16924117
+REFERENCE   2  (bases 1 to 1290)
+  AUTHORS   Hu,H., Zhang,Q. and Xiong,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-FEB-2006) Colleage of Life Science and Technology,
+            Huazhong Agricultural University, Shi-zi Shan Street, Wuhan, Hubei
+            430070, China
+FEATURES             Location/Qualifiers
+     source          1..1290
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IRAT109"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+                     /note="authority: Oryza sativa L."
+     gene            1..1290
+                     /gene="snac1"
+     CDS             83..1027
+                     /gene="snac1"
+                     /note="SNAC1"
+                     /codon_start=1
+                     /product="stress-induced transcription factor NAC1"
+                     /protein_id="ABD52007.1"
+                     /db_xref="GI:88770831"
+                     /translation="MGMRRERDAEAELNLPPGFRFHPTDDELVEHYLCRKAAGQRLPV
+                     PIIAEVDLYKFDPWDLPERALFGAREWYFFTPRDRKYPNGSRPNRAAGNGYWKATGAD
+                     KPVAPRGRTLGIKKALVFYAGKAPRGVKTDWIMHEYRLADAGRAAAGAKKGSLRLDDW
+                     VLCRLYNKKNEWEKMQQGKEVKEEASDMVTSQSHSHTHSWGETRTPESEIVDNDPFPE
+                     LDSFPAFQPAPPPATAMMVPKKESMDDATAAAAAAATIPRNNSSLFVDLSYDDIQGMY
+                     SGLDMLPPGDDFYSSLFASPRVKGTTPRAGAGMGMVPF"
+ORIGIN      
+        1 ttgattcgag aaatccctca caacccacaa cattttcaaa caacgcaaag cagtagcagc
+       61 agcgagaagc aagcaagaag cgatggggat gaggagggag agggacgcgg aggcggagct
+      121 gaacctgccg ccggggttca ggttccaccc cacggacgac gagctggtgg agcactacct
+      181 gtgcaggaag gcggcggggc agcgcctgcc ggtgccgatc atcgccgagg tggatctcta
+      241 caagttcgac ccgtgggatc tgcccgagcg cgcgctgttc ggcgccaggg agtggtactt
+      301 cttcaccccg cgggatcgca agtatcccaa tgggtcacgc cccaaccgcg ccgccggcaa
+      361 cgggtactgg aaggccaccg gcgccgacaa gcccgtcgcg ccgcgtgggc gcacgcttgg
+      421 gatcaagaag gcgctcgtgt tctacgccgg caaggcgccg cgaggggtca agactgattg
+      481 gatcatgcat gagtaccggc tcgccgatgc tggccgcgcc gccgcgggcg ccaagaaggg
+      541 atctctcagg ttggatgatt gggtgctgtg tcggctgtac aacaagaaga acgagtggga
+      601 gaagatgcag caggggaagg aggtgaagga ggaggcgtcc gacatggtta cgtcgcagtc
+      661 gcactcgcac acccactcgt ggggcgagac gcgcacgccg gagtcggaga tcgtggacaa
+      721 cgaccccttc ccggagctgg actcgttccc ggcgttccag cctgcgccgc cgccggcgac
+      781 ggcgatgatg gtgcccaaga aagaatcgat ggacgacgcc accgcggccg ccgccgccgc
+      841 cgccaccatc cccaggaaca acagcagcct gttcgtggac ctgagctacg acgatatcca
+      901 gggcatgtac agcggcctcg acatgctgcc gccgggcgac gacttctact cgtcgctctt
+      961 cgcgtcgccg cgggtgaagg ggacgacgcc acgcgccggc gccggcatgg gcatggtccc
+     1021 gttctgaggt gacggcgacg cgatcgaaca ggtggtgatc gatgctgcaa cgtgtgtaaa
+     1081 tatacagcgc cggctgggtc aagagatggc tcgggtgacg cgcgcgcggc gtgtcctggc
+     1141 gttggcgccg gggcattctt tagtttttca tcttttcatc atctcagatg gtagatacaa
+     1201 aacagtgtat gtatgtagct ctgtttctct ctatagaacc ccaacaaatt ttgttgttga
+     1261 tgttgtttat cttcatatgc tttgatcttg
+//
+

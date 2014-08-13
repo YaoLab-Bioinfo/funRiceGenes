@@ -1,0 +1,94 @@
+LOCUS       Y07766                  2036 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  O.sativa mRNA for S-adenosylmethionine decarboxylase.
+ACCESSION   Y07766
+VERSION     Y07766.2  GI:6646847
+KEYWORDS    S-adenosylmethionine decarboxylase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Franceschetti,M., Hanfrey,C., Scaramagli,S., Torrigiani,P.,
+            Bagni,N., Burtin,D. and Michael,A.J.
+  TITLE     Characterization of monocot and dicot plant S-adenosyl-l-methionine
+            decarboxylase gene families including identification in the mRNA of
+            a highly conserved pair of upstream overlapping open reading frames
+  JOURNAL   Biochem. J. 353 (PT 2), 403-409 (2001)
+   PUBMED   11139406
+REFERENCE   2
+  AUTHORS   Michael,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-1996) A.J. Michael, Institute of Food Research,
+            Norwich Research Park, Colney, Norwich NR4 7UA, UK
+  REMARK    Revised by author
+REFERENCE   3  (bases 1 to 2036)
+  AUTHORS   Michael,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-DEC-1999) A.J. Michael, Institute of Food Research,
+            Norwich Research Park, Colney, Norwich NR4 7UA, UK
+COMMENT     On Dec 29, 1999 this sequence version replaced gi:1532047.
+            Related sequence: D40055.
+FEATURES             Location/Qualifiers
+     source          1..2036
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     CDS             540..1736
+                     /EC_number="4.1.1.50"
+                     /codon_start=1
+                     /product="S-adenosylmethionine decarboxylase"
+                     /protein_id="CAA69074.2"
+                     /db_xref="GI:6646848"
+                     /db_xref="GOA:Q0JC10"
+                     /db_xref="InterPro:IPR001985"
+                     /db_xref="InterPro:IPR016067"
+                     /db_xref="InterPro:IPR018166"
+                     /db_xref="InterPro:IPR018167"
+                     /db_xref="UniProtKB/Swiss-Prot:Q0JC10"
+                     /translation="MGVLSAADPPPVSAIGFEGYEKRLEITFSEAPVFADPDGRGLRA
+                     LSRAQIDSVLDLARCTIVSELSNKDFDSYVLSESSLFIYSDKIVIKTCGTTKLLLTIP
+                     RILELAEGLSMPLAAVKYSRGMFIFPSAQPAPHRSFSEEVAVLNRYFGHLKSGGNAYV
+                     IGDPAKPGQKWHIYYATQHPEQPMVTLEMCMTGLDKEKASVFFKTSADGHTSCAKEMT
+                     KLSGISDIIPEMEICDFDFEPCGYSMNAIHGSAFSTIHVTPEDGFSYASYEVVGFDAS
+                     TLAYGDLVKRVLRCFGPSEFSVAVTIFGGHGHAGTWAKELNADAYKCNNMVEQELPCG
+                     GLLIYQSFDATEDVPVAVGSPKSVLHCFEAENMVNPAPVKEGKLGNLLPWGEDALEEN
+                     DGVFDE"
+ORIGIN      
+        1 cgcgtccgcg ccgccgccgc cgttttcttg gagaggagaa atccgtaggc tcagaggatt
+       61 tttggtagtc ttgtttcgtg atattcgtga agaggggggg agctaagggg ggattcgtaa
+      121 gatcagaatt ggatcacgcg ggggcgcgct cgggatcggg ggttccaaac acagcttctt
+      181 cgttgaattt aagtggatgt actaatggag tcaaagggtg gcaaaaagaa gtctagcagt
+      241 agtcgttcct tgatgtatga agctcccctt ggctacagca ttgaggacgt tcgacctgcc
+      301 ggaggcgtga agaagttcca gtctgctgct tactccaact gcgcgaagaa gccatcctga
+      361 tagccctttc ggcttctcca tcctagtagt ttaggatttc ttgcaattcc attttggcac
+      421 ttttcttctg acctatttct ctggctgctg cttcctgata atcgaccagt tctctagtct
+      481 tgctccctgc actcctccct cctccatctc cggcacagtg ttctgaccaa cctgctccaa
+      541 tgggtgtctt gtctgctgct gaccctcccc cagtctcagc aattgggttt gagggctatg
+      601 agaagcgcct tgagatcact ttctctgagg cacctgtctt tgctgaccct gatggtcggg
+      661 gtttgcgcgc cctctccagg gcccagattg actctgttct ggatcttgca cggtgcacca
+      721 ttgtgtccga gctgtccaac aaggactttg actcctatgt cctctctgag tccagcctgt
+      781 ttatctattc tgataagatt gtgattaaga cctgtgggac tacaaagctc ctgctcacaa
+      841 ttccaaggat tcttgagctt gctgaagggc tttctatgcc acttgctgct gtgaagtact
+      901 cccgcgggat gttcatcttc cccagtgcac agcctgctcc ccacaggagc ttctctgagg
+      961 aagttgctgt cctcaaccgc tactttggcc atctgaaatc tggtggtaat gcttatgtga
+     1021 ttggagatcc agcaaagcct ggccagaagt ggcatatcta ctatgctact cagcacccgg
+     1081 agcaacctat ggttaccctt gaaatgtgca tgaccggact ggacaaggag aaagcttcag
+     1141 tctttttcaa gacttctgct gatggtcaca catcatgtgc taaggaaatg acaaaactct
+     1201 cgggcatctc tgacattatc ccagagatgg agatctgtga ctttgacttc gaaccctgcg
+     1261 gctactccat gaatgcaatc catggctcag cgttttctac cattcatgtg acccctgagg
+     1321 atggcttcag ctacgccagt tatgaggtcg tgggcttcga cgcctctact cttgcttatg
+     1381 gcgacctggt gaagagggtc ctcaggtgct ttggcccttc ggagttctct gttgctgtta
+     1441 ccatctttgg tgggcatggt catgctggaa catgggcaaa ggagctcaat gctgatgctt
+     1501 acaaatgcaa caacatggta gagcaggagc tgccctgtgg tggcctcctc atctaccaga
+     1561 gcttcgacgc tactgaagac gtacctgttg ctgttgggtc gcccaaatct gttctgcact
+     1621 gcttcgaggc tgagaatatg gtgaaccctg ctcctgttaa ggaaggtaaa ctgggcaatc
+     1681 ttctcccctg gggagaggat gcgttggagg agaatgatgg agtgtttgat gagtaagatg
+     1741 ggacttctgg tgacgattcg ctgcttagtt ttcattccgt ggcattttta tctgttgagg
+     1801 ttgtcgtttg gttattctgt gaagcagcca gccaggctat tagtattttc gcttgtaagc
+     1861 atgtgttctg atcttgggac gtatgcttgg tctaaataat aatggtgaac taaaagctct
+     1921 aggtggtcag ctgcgtctgc cacaatgagc atgcgtcggg agaaatgttg tcaaaacata
+     1981 tgaataagta tttgcgggaa atttcctttg ccttctgcta aaaaaaaaaa aaaaaa
+//
+

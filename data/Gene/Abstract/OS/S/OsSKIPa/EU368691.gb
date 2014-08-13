@@ -1,0 +1,74 @@
+LOCUS       EU368691                1699 bp    mRNA    linear   PLN 12-FEB-2009
+DEFINITION  Oryza sativa Indica Group SKIP interacting protein 1 (SIP1) mRNA,
+            complete cds.
+ACCESSION   EU368691
+VERSION     EU368691.1  GI:169730519
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1699)
+  AUTHORS   Hou,X., Xie,K. and Xiong,L.
+  TITLE     Ortholog of Human Ski-Interacting Protein in Rice Positively
+            Modulates Cell Viability and Stress Tolerance
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1699)
+  AUTHORS   Hou,X., Xie,K. and Xiong,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-DEC-2007) Huazhong Agricultural University, National
+            Laboratory of Crop Genetic Improvement, Wuhan, Hubei 430070, China
+FEATURES             Location/Qualifiers
+     source          1..1699
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /chromosome="1"
+     gene            1..1699
+                     /gene="SIP1"
+     CDS             261..1334
+                     /gene="SIP1"
+                     /codon_start=1
+                     /product="SKIP interacting protein 1"
+                     /protein_id="ACA64826.1"
+                     /db_xref="GI:169730520"
+                     /translation="MQKQHAADSAALVAAMGEVHRLRVQLAAAARADRKQDVVEAMAT
+                     IDELRVKLKASEEAEAQARALHEECKQQLETSRATIDSLLTDGSKLMDSFSLVVKELE
+                     ESRAKVKALEEEIAETSAAKAGERCNCSASASASEVAELRSELESTEARFQEERILST
+                     VETQCAYELMDQIKMESDSRHGKLAAALESTKSEVIFLKASLFDKDSELRRALDANEK
+                     LQSETRTDNELKEQLQGALLENGQLKRELQQHTSEKKASAKATDAADAAAEAAKKGEM
+                     EAELRRLRVQAEQWRKAAETAMALLTVGKGGNGKVVDRSESLEGGGGGGGKYAGLWDE
+                     LDDDAAARKNGNVLRRISGMWKK"
+ORIGIN      
+        1 cggagctaga gtcccagctc tcgcagctgc aagacgagct caagaaagcc aaggagcagc
+       61 tgctctccac cgagcactcc aagcggcacg ccctgcagga ggccgaggac gccagggcgc
+      121 aggcggcggc ggcgtccgcg caggtcaggg actccgaggc gcagctcgcc gagctctcct
+      181 ccgccgagga gagccgcctc ctcgagcttc gccggctgtc ccaggagcgc gaccgctcgt
+      241 ggcagtcgga gctcgaggcc atgcagaagc agcacgccgc cgactcggcc gcgctcgtcg
+      301 cggccatggg cgaggtgcac cgcctccgcg tgcagctggc cgcggcggcg cgcgccgacc
+      361 gcaagcagga cgtggtggag gcgatggcca ccatcgacga gctcagggtg aagctcaagg
+      421 cgagcgagga ggccgaggcg caggcgcgcg ccttgcacga ggagtgcaag cagcagctgg
+      481 agacgagccg tgccaccatc gactcgctgc tcacggacgg ctccaagctc atggactcct
+      541 tcagcctcgt ggtcaaggag ctcgaggagt cacgagccaa ggtgaaggca ctcgaggagg
+      601 agatcgcgga gacgtcggcg gcaaaggccg gcgagcgttg caactgctcg gcgtcggcgt
+      661 cggcatcgga ggtcgctgag ctgaggtcgg aattggagtc cacggaggcc aggttccaag
+      721 aagagcgcat cctgagcaca gtggagacgc agtgcgccta cgagctcatg gaccagataa
+      781 aaatggagtc cgactcgcgg cacggcaagc tcgccgcggc gctcgagagc accaagtccg
+      841 aggtcatctt cctcaaggcg agcctcttcg acaaggactc cgagctgcgg cgcgccctgg
+      901 acgcgaacga gaagctccaa tccgagacga gaacggacaa cgagctgaag gagcagctgc
+      961 agggcgcgct cctggagaac gggcagctga agcgcgagct gcagcagcac acctccgaga
+     1021 agaaggcctc ggcgaaggcg acggacgccg ccgacgcggc ggcggaggcg gcgaagaagg
+     1081 gggagatgga ggccgagctg aggcgtctgc gggtgcaggc cgagcagtgg aggaaggccg
+     1141 ccgagaccgc catggcgctg ctcacggtgg gcaagggcgg caacgggaag gtggtggacc
+     1201 ggagcgagtc gcttgaagga ggcggcggcg gcggcggcaa gtacgccggc ctgtgggacg
+     1261 agctcgacga cgacgcggcg gccaggaaga acggcaacgt gctcaggcgg atcagcggca
+     1321 tgtggaagaa atgaggctga tcagaatcaa actgcgcgcg ctatgcgcta gggaatttgc
+     1381 tcatcttttc ccgtgttgta gtaaattctt tttgccggtt gctttggtac aaaaggaaaa
+     1441 aggagaaaaa cataggagtg tgcttgtact ggttgggggt aaacgtgctc atagctgtat
+     1501 catacgtggt atatgaaggg ttaattcatc cgggcgtgac agattggatt aggctttttg
+     1561 ttagttttcg tcagttctga ttctctcaga ttcaccgatg agagctgttt gtatgtaacc
+     1621 ttttgttctt caatcggcgt gattcaaaca tttcggccca tttctcagtc ctgggccctt
+     1681 ttctgtcttg ggccagccc
+//
+

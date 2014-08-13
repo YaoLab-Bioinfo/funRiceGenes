@@ -1,0 +1,67 @@
+LOCUS       OSU34597                 928 bp    mRNA    linear   PLN 13-JAN-1997
+DEFINITION  Oryza sativa cap-binding protein p26 mRNA, complete cds.
+ACCESSION   U34597
+VERSION     U34597.1  GI:1002914
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 928)
+  AUTHORS   Aliyeva,E., Metz,A.M. and Browning,K.S.
+  TITLE     Sequences of two expressed sequence tags (EST) from rice encoding
+            different cap-binding proteins
+  JOURNAL   Gene 180 (1-2), 221-223 (1996)
+   PUBMED   8973371
+REFERENCE   2  (bases 12 to 421)
+  AUTHORS   Minobe,Y. and Sasaki,T.
+  TITLE     Rice cDNA from root
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 928)
+  AUTHORS   Aliyeva,E., Metz,A.M. and Browning,K.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-1995) Karen S. Browning, Chemistry and
+            Biochemistry, University of Texas at Austin, Austin, TX 78712, USA
+FEATURES             Location/Qualifiers
+     source          1..928
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="seedling root"
+                     /note="complete sequence of rice EST RICR0465A, GenBank
+                     Accession Number D23868"
+     CDS             58..741
+                     /note="eIF-4E, similar to wheat cap-binding protein, p26,
+                     Swiss-Prot Accession Number P29557; cap-binding protein"
+                     /codon_start=1
+                     /product="p26"
+                     /protein_id="AAB40348.1"
+                     /db_xref="GI:1002915"
+                     /translation="MAEEHETRPPSAGRPPSSGRGRADDADEREEGEIADDDSGHAPP
+                     QANPAAPHPLEHAWTFWFDNPQGKSKQATWGSSIRPIHTFSTVEDFWSLYNNIHHPSK
+                     LVVGADFHCFKNKIEPKWEDPICANGGKWTFSCGRGKSDTMWLHTLLAMIGEQFDYGD
+                     EICGAVVSVRGKQERIAIWTKNAANEAAQISIGKQWKEFLDYKDSIGFIVHDDAKKMD
+                     KGLKNRYTV"
+     polyA_site      928
+                     /note="14 A nucleotides"
+ORIGIN      
+        1 ccacgcgtcc gagctaatta aggcgcaaca cagaaaccct caccgccgcc cgcatccatg
+       61 gcggaggagc acgagacgag gccgccgtcc gccggaagac caccgtcgtc cggccgcggc
+      121 agggccgacg acgctgacga gagggaggag ggggagatcg ccgacgacga ctccggccac
+      181 gcgccgccgc aggccaaccc cgccgcgccg cacccgctcg agcacgcctg gaccttctgg
+      241 ttcgacaacc cgcagggaaa gtccaagcag gcaacctggg gaagctccat ccgccccatc
+      301 cacaccttct ccaccgtcga ggacttctgg agcctttata acaatatcca tcacccaagc
+      361 aagttggttg tgggagctga cttccattgc tttaagaata aaatcgagcc aaaatgggaa
+      421 gatcctatct gtgctaatgg aggtaaatgg accttcagct gtggcagagg aaagtccgac
+      481 acaatgtggt tgcatacttt attggcaatg attggcgaac aattcgatta tggggatgaa
+      541 atttgtggag cagttgttag tgtgcgtggc aagcaggaaa gaatagctat ctggactaaa
+      601 aatgctgcca atgaagctgc tcagataagc attgggaagc agtggaaaga atttctggat
+      661 tacaaggact cgattgggtt cattgttcat gacgatgcaa aaaagatgga caaaggtctc
+      721 aagaaccgct acacagtttg atctgagcac tcctgtccag atatccaaga gagtagtata
+      781 tccacatgta ggatgggttt tcttcgatgc tttagtgttt gtcattcgct tgtagcgagc
+      841 gcttgaaggc tataatattg ccgtgaactg tttaaacttg aaacgtaata taatgacgta
+      901 tcagaggtgt ctctgtactc tataaatc
+//
+

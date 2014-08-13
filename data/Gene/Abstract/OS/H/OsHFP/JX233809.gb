@@ -1,0 +1,109 @@
+LOCUS       JX233809                2939 bp    DNA     linear   PLN 26-SEP-2012
+DEFINITION  Oryza sativa cultivar IR-64 hemopexin fold protein (HFP) gene,
+            promoter region and complete cds.
+ACCESSION   JX233809
+VERSION     JX233809.1  GI:402485664
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2939)
+  AUTHORS   Chattopadhyay,T., Bhattacharyya,S., Das,A.K. and Maiti,M.K.
+  TITLE     A structurally novel hemopexin fold protein of rice plays role in
+            chlorophyll degradation
+  JOURNAL   Biochem. Biophys. Res. Commun. 420 (4), 862-868 (2012)
+   PUBMED   22465006
+REFERENCE   2  (bases 1 to 2939)
+  AUTHORS   Chattopadhyay,T., Roy,S. and Maiti,M.K.
+  TITLE     Spatio-temporal regulation of the OsHFP gene promoter establishes
+            the involvement of this protein in rice anther development
+  JOURNAL   Biochem. Biophys. Res. Commun. 426 (2), 280-285 (2012)
+   PUBMED   22943852
+REFERENCE   3  (bases 1 to 2939)
+  AUTHORS   Chattopadhyay,T. and Maiti,M.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUN-2012) Dept. of Biotechnology, Indian Institute of
+            Technology Kharagpur, Indian Institute of Technology, Kharagpur,
+            West Bengal 721302, India
+FEATURES             Location/Qualifiers
+     source          1..2939
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR-64"
+                     /db_xref="taxon:4530"
+                     /note="group: Indica"
+     gene            1..>2939
+                     /gene="HFP"
+                     /note="OsHFP"
+     misc_feature    1..2051
+                     /gene="HFP"
+                     /note="contains promoter and 5' UTR"
+     mRNA            <2052..>2939
+                     /gene="HFP"
+                     /product="hemopexin fold protein"
+     CDS             2052..2939
+                     /gene="HFP"
+                     /codon_start=1
+                     /product="hemopexin fold protein"
+                     /protein_id="AFQ60534.1"
+                     /db_xref="GI:402485665"
+                     /translation="MDENNQRKKLVIQDVPERQLSPDDADDEVNEYYTEGVTDVDNYI
+                     DSAFRSTRKNKAYIFIREENVVMNYGPATRDDKIISGLRYIGNTLQSLVGTAFAEHGI
+                     DAAFACHDNHGFLCARSEAMIFSANLCARINFAPRTTRDRIIQGPKTISQMFPFFKGT
+                     SFEKGIDAAFESTVTGEAYLFKGAEFALINYSRPILIEIRPIVDVFKCFRDCYLFATD
+                     IGAALASHVSKDVYLFKENDYLLFHLTPGETNHYIIGGPKEIVPRNWPSLKGILPRKN
+                     KALDIYESLQPNPVRDQDD"
+ORIGIN      
+        1 gttattgcga agtgagcgca cctcaactgg ttagatttct tgtggtggaa cttgcccacc
+       61 cgggttcaag tcctagattt gatatgggtg ttggtattta cgactaatta ttctttcagt
+      121 ggtaggtgac gtatccatcc acagcgagac gacgtggtaa ctccttcaat cctaaaatgt
+      181 gtcagctcag tctttcggag gtactaaagg ggtagggtgc gtagacgctg tgtttctaag
+      241 agatttccaa tattattgat tatttctgtt ttagttttat agctaagaga gagggaagga
+      301 acgccaaaat ctatttattt tttttcttaa aaatgtatgg attagtgaac aatagctagt
+      361 ccgtagaata tatatctgat ccaaagtaat gaattttttt aatgatatag ttaacttggt
+      421 tctttagttt taaattttat aataaataat ctaatttatc tcctacttag gctacattcg
+      481 atctcattgg ttgagcttat gtagggcaca caaaacgata taggccatta acgttttatt
+      541 aattaattaa gtattaaata ttacaaacat gaaaatagtt ttttttttaa aaatgtatag
+      601 aatgtatttg tacaacacgc gcagattagt agtttaaatg aggcataatt tttagacaat
+      661 atattattta tttctgtttt tgacaatatg tcctgagtaa tttattactc attatttcat
+      721 cttgaacgat caagatacgt ttatttgata ttttatatta tattatagat ctacttttgg
+      781 ctgtgcaagt ttttaaagta atatattttt cttatactac caccttcact aaatatgacg
+      841 ttggtctaca aaggaagtac aaagagcgtt cttttctttt ttaattcaga gaagtacgta
+      901 cgtacgtata cagttttttt tttgctgtat aaaaaaatac agagaagtgc aaatccacgt
+      961 ttaaaaaaag caatgtttct tttttaattc ccagtagtac gtacgtatac agtttgtttt
+     1021 ttttgctgta tattatttct tcttttctcg gccgtggttg ttaatccata cgtacgtatg
+     1081 ccttctcagc tttttctagt caattttttt atggaaagta ttgctcggta aattagaagg
+     1141 ggtagattac tatttataac agatctaatc caatggtgta aactaatggg tccaccaact
+     1201 taaatgaaaa tcgatggcta tatttttttc ttttttctta gaatttctaa gtttttttct
+     1261 attttattat tgcgccatgt ggcagcttga gagccttttt agagcaccat gtggcggtat
+     1321 gagagcgttt gtaggaagtt taatggactt ttagtatata atagataata gatagaagat
+     1381 agatagatag atagattttg cttacatata catcttatgt ggcgcgcgtt aaaatgatag
+     1441 tatgaattaa tatgaatggt tttagtgaat tgttatgaag aatgacaaca actaagcatt
+     1501 catttattaa gcaacaacat taaagcaaat tataatatta tatttcaaca atgaagaatg
+     1561 ccagcgcagg tgcgcgggtt atcttcctag ttattacaaa gattgcaggt caagtgactg
+     1621 cgaattacaa aatcacgttg aaacaaaaaa aaaaacttag actaccagcc taaagacgga
+     1681 gataaaacac ccaggccatc tatgtatagt tgtcgagaat ttgcatagcc gttgtttatc
+     1741 ccaacttctt acaaagttgt atgtggttct tgtcttcgtc atactaggaa atagaatctc
+     1801 caaaaacagc aaccggtcat tataccaatc caattttgct ctgatgctcc atatgcaatc
+     1861 atattgcctg aacctgtttt cttgaggata tcttaccggc tgtcatttgt aacaagtaag
+     1921 catacatctc ctgctgcaga aaatatacaa gacggagacg ggtgaatacc attctgtaca
+     1981 gaaacaggaa tttcaatcct caatcgcatc catcgaggag gctcagaatc cagagcccag
+     2041 tgtgccatta catggatgaa aacaatcaga ggaagaaact agtaattcag gacgtcccag
+     2101 agcggcagtt gtcaccggac gatgcagatg atgaggtgaa tgagtattat acagagggag
+     2161 tcactgatgt tgacaattac atcgactcag catttcgctc tacacggaag aacaaggcct
+     2221 atattttcat cagggaagag aatgttgtca tgaactacgg ccctgcaacg agagatgaca
+     2281 aaataatcag cggcctaagg tacataggca atactctaca atcccttgtg ggcactgctt
+     2341 tcgcggagca cgggatagat gccgcttttg cgtgccatga caaccatggt tttctctgtg
+     2401 ctcgaagtga agccatgatc ttctctgcaa atctttgcgc aaggataaac tttgcaccgc
+     2461 ggacaactag ggatcggatt atacaaggtc ctaaaaccat tagccaaatg tttcccttct
+     2521 tcaaagggac cagctttgag aaggggatag acgctgcatt tgaatccact gtgaccgggg
+     2581 aagcctacct gttcaaaggc gcagagtttg ctctcatcaa ctattccagg ccaatcctca
+     2641 ttgagatacg acccattgtg gatgtgttca agtgcttccg cgactgctac ttgtttgcaa
+     2701 cagatattgg agctgccctt gcctcgcatg tgtcgaaaga cgtttacctt ttcaaggaaa
+     2761 acgactatct tttgtttcac ttgacccctg gggaaaccaa ccactatatc attggaggac
+     2821 ctaaggagat tgttcctaga aactggccct cattgaaggg catcctgccc cggaagaaca
+     2881 aggcactaga catttacgag tctctccaac caaaccctgt gcgcgaccag gatgactag
+//
+

@@ -1,0 +1,90 @@
+LOCUS       AF056027                2358 bp    mRNA    linear   PLN 03-AUG-1998
+DEFINITION  Oryza sativa auxin transport protein REH1 (REH1) mRNA, complete
+            cds.
+ACCESSION   AF056027
+VERSION     AF056027.1  GI:3377508
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2358)
+  AUTHORS   Luschnig,C., Gaxiola,R.A., Grisafi,P. and Fink,G.R.
+  TITLE     EIR1, a root-specific protein involved in auxin transport, is
+            required for gravitropism in Arabidopsis thaliana
+  JOURNAL   Genes Dev. 12 (14), 2175-2187 (1998)
+   PUBMED   9679062
+REFERENCE   2  (bases 1 to 2358)
+  AUTHORS   Luschnig,C., Grisafi,P. and Fink,G.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAR-1998) Whitehead Institute for Biomedical
+            Research, Nine Cambridge Center, Cambridge, MA 02142, USA
+FEATURES             Location/Qualifiers
+     source          1..2358
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..2358
+                     /gene="REH1"
+     CDS             152..1939
+                     /gene="REH1"
+                     /note="potential membrane protein"
+                     /codon_start=1
+                     /product="auxin transport protein REH1"
+                     /protein_id="AAC39514.1"
+                     /db_xref="GI:3377509"
+                     /translation="MITAADFYHVMTAMVPLYVAMILAYGSVKWWRIFTPDQCSGINR
+                     FVALFAVPLLSFHFISTNNPYTMNLRFIAADTLQKLMVLAMLTAWSHLSRRGSLEWTI
+                     TLFSLSTLPNTLVMGIPLLKGMYGEFSGSLMVQIVVLQCIIWYTLMLFMFEYRGARML
+                     ITEQFPDTAANIASIVVDPDVVSLDGRRDAIETETEVKEDGRIHVTVRRSNASRSDIY
+                     SRRSMGFSSTTPRPSNLTNAEIYSLQSSRNPTPRGSSFNHTDFYSMVGRSSNFGAADA
+                     FGVRTGATPRPSNYEDDASKPKYPLPASNAAPMAGHYPAPNPAVSSAPKGAKKAATNG
+                     QAKGEDLHMFVWSSSASPVSDVFGGGAPDYNDAAAVKSPRKMDGAKDREDYVERDDFS
+                     FGNRGVMDRDAEAGDEKAAAAAGADPSKAMAAPTAMPPTSVMTRLILIMVWRKLIRNP
+                     NTYSSLIGLIWSLVCFRWNFEMPAIVLKSISILSDAGLGMAMFSLGLFMALQPHIIAC
+                     GNKVATYAMAVRFLAGPAVMAAASFAVGLRGTLLHVAIVQAALPQGIVPFVFAKEYSV
+                     HPSILSTAVIFGMLIALPITLVYYILLGL"
+ORIGIN      
+        1 ccacgcgtcc gcacacccaa tcaaatgctc ctcctccgcc gcctcctctc gctgagctga
+       61 gctgagctgt gaaatagtgc caccgagtga gcgctgagct gagctcgaag caagagagga
+      121 agaggaggag gagggaagag ggggggcgaa gatgattacg gcggcggact tctaccacgt
+      181 gatgacggcg atggtgccgt tgtacgtggc gatgatactg gcgtacgggt cggtgaagtg
+      241 gtggcgcatc ttcacgccgg accagtgctc cgggatcaac cgcttcgtgg cgctcttcgc
+      301 cgtgccgctg ctgtcgttcc acttcatctc caccaacaac ccgtacacga tgaacctccg
+      361 gttcatcgcc gccgacacgc tgcagaagct gatggtgctg gccatgctca cggcgtggag
+      421 ccacctcagc cgccggggga gcctcgagtg gaccatcacg ctcttctccc tctccacgct
+      481 gcccaacacg ctcgtcatgg ggatcccttt gctcaagggc atgtacgggg agttctccgg
+      541 cagcctcatg gtgcagatcg tcgtgctgca gtgcatcatc tggtacacgc tcatgctctt
+      601 catgttcgag taccgcggcg cccggatgct catcaccgag cagttcccgg acaccgccgc
+      661 caacatcgcc tccatcgtcg tcgacccgga cgtcgtgtcg ctggacggca ggagggacgc
+      721 catcgagacg gagacggagg tgaaggagga cggcaggata cacgtcaccg tgcgccgctc
+      781 caacgcgtct cgctcggaca tctactcccg ccgctccatg ggcttctcca gcaccacgcc
+      841 gcggccgagc aacctcacca acgccgagat ctactcgctg cagtcgtcgc ggaacccgac
+      901 gccgaggggt tcaagcttca accacaccga cttctactcc atggtgggcc gcagctccaa
+      961 cttcggcgcg gccgacgcgt tcggcgtccg caccggcgcc acgccgcgcc cgtccaacta
+     1021 cgaggacgac gcgtccaagc ccaagtaccc gctcccggcg tcgaatgcgg cgcccatggc
+     1081 gggccactac ccggcgccga acccggccgt gtcgtcggcg cccaagggcg ccaagaaggc
+     1141 ggccacgaac gggcaggcca agggcgagga cctccacatg ttcgtctgga gctccagcgc
+     1201 gtcgcccgtg tccgacgtct tcggcggcgg cgcgccagac tacaacgacg ccgcggcagt
+     1261 caagtccccc cgcaaaatgg atggagcgaa ggacagggag gactacgtgg agcgggacga
+     1321 tttcagcttc gggaacaggg gcgtcatgga cagggacgcg gaggcagggg acgagaaggc
+     1381 ggcggcggcg gcgggcgccg accccagcaa ggccatggcg gcgccgacgg cgatgccgcc
+     1441 gacgagcgtg atgacccgcc tcatcctgat catggtgtgg cgcaagctca tccgcaaccc
+     1501 gaacacctac tccagcctca tcggcctcat ctggtccctc gtctgcttca ggtggaactt
+     1561 cgagatgccg gccatcgtcc tgaaatccat ctcgatcctg tcggacgcgg ggctcggcat
+     1621 ggccatgttc agtctcggtc tgttcatggc gctgcagccg cacatcatcg cgtgcgggaa
+     1681 caaggtggcg acgtacgcca tggcggtgcg gttcctggcc gggccggccg tgatggcggc
+     1741 ggcgtccttc gccgtcggac tccgtggcac gctcctgcac gtcgccattg tccaggcagc
+     1801 tctgccccag ggcattgtcc ccttcgtctt cgccaaggag tacagcgtgc accctagcat
+     1861 tctcagcaca gctgtcatct ttggcatgct catcgccttg cctatcaccc tcgtctacta
+     1921 catcttgctt gggctgtaat cgagttgcat gcatgtaaat tcctgctcct gacaaccagc
+     1981 catgttaaga agaggggaga agaagacaga gctggtacac tgtttgcaaa gtcaggactc
+     2041 tttgattttt cttttctttt ctgtatttct tgaagtagaa tttgggagga gggggattgg
+     2101 aagggagtca aacgagtcaa ggggaggaca ggatggtagc tagcttagct aggacaatgg
+     2161 tgagtcacaa aagagcacca aaagcaagta caagtacaaa gcttgggggg acacaggatc
+     2221 cagttcaggt cacagaaacg gttcggtttt gggaggggat tgtgggagtt ttggttggct
+     2281 gcgctgcgct gacccttgta aaacggacgc cgattctgac aagagatcga ccttgtttta
+     2341 aaaaaaaaaa aaaaaaaa
+//
+

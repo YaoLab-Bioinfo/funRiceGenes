@@ -1,0 +1,106 @@
+LOCUS       AAM49811                1553 aa            linear   PLN 02-JUN-2005
+DEFINITION  putative soluble starch synthase III-2 [Oryza sativa Indica Group].
+ACCESSION   AAM49811
+VERSION     AAM49811.1  GI:21429218
+DBSOURCE    accession AY100469.1
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 1553)
+  AUTHORS   Dian,W., Jiang,H. and Wu,P.
+  TITLE     Evolution and expression analysis of starch synthase III and IV in
+            rice
+  JOURNAL   J. Exp. Bot. 56 (412), 623-632 (2005)
+   PUBMED   15642712
+REFERENCE   2  (residues 1 to 1553)
+  AUTHORS   Wu,P., Dian,W.M. and Jiang,H.W.
+  TITLE     Rice putative soluble starch synthase III-2 gene
+  JOURNAL   Unpublished
+REFERENCE   3  (residues 1 to 1553)
+  AUTHORS   Wu,P., Dian,W.M. and Jiang,H.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-APR-2002) Institute of Plant Science, College of Life
+            Sciences, Zhejiang University, Kaixuan Road 268#, Hangzhou,
+            Zhejiang Province 310029, P. R. China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..1553
+                     /organism="Oryza sativa Indica Group"
+                     /db_xref="taxon:39946"
+     Protein         1..1553
+                     /product="putative soluble starch synthase III-2"
+     Region          670..755
+                     /region_name="CBM_25"
+                     /note="Carbohydrate binding domain (family 25); pfam03423"
+                     /db_xref="CDD:251943"
+     Region          845..936
+                     /region_name="CBM_25"
+                     /note="Carbohydrate binding domain (family 25); pfam03423"
+                     /db_xref="CDD:251943"
+     Region          1007..1095
+                     /region_name="CBM_25"
+                     /note="Carbohydrate binding domain (family 25); pfam03423"
+                     /db_xref="CDD:251943"
+     Region          1106..1550
+                     /region_name="glgA"
+                     /note="glycogen synthase; Provisional; PRK00654"
+                     /db_xref="CDD:234809"
+     Region          1106..1549
+                     /region_name="GT1_Glycogen_synthase_DULL1_like"
+                     /note="This family is most closely related to the GT1
+                     family of glycosyltransferases. Glycogen synthase
+                     catalyzes the formation and elongation of the
+                     alpha-1,4-glucose backbone using ADP-glucose, the second
+                     and key step of glycogen biosynthesis. This family...;
+                     cd03791"
+                     /db_xref="CDD:99965"
+     Site            order(1119,1122,1362..1364,1423..1424,1429,1446,1451)
+                     /site_type="other"
+                     /note="ADP-binding pocket [chemical binding]"
+                     /db_xref="CDD:99965"
+     Site            order(1290,1466,1471..1472,1474,1506)
+                     /site_type="other"
+                     /note="homodimer interface [polypeptide binding]"
+                     /db_xref="CDD:99965"
+     CDS             1..1553
+                     /coded_by="join(AY100469.1:145..2839,
+                     AY100469.1:3023..3237,AY100469.1:3771..4041,
+                     AY100469.1:4633..4808,AY100469.1:4934..5041,
+                     AY100469.1:5469..5578,AY100469.1:6943..7045,
+                     AY100469.1:7310..7480,AY100469.1:7604..7732,
+                     AY100469.1:7974..8156,AY100469.1:8264..8395,
+                     AY100469.1:8475..8586,AY100469.1:8755..8878,
+                     AY100469.1:9107..9239)"
+                     /note="similar to maize dull1 gene"
+ORIGIN      
+        1 mdslalhsvt mgkvdainaa gaegdkfevd lsalasnnsm ieavnvmdea kaiedtlevd
+       61 lsgnatssst ygevkfevds lgntsstvmy gpadgayepr sdevtfkvds senasnnvmy
+      121 gradvvdesw adegifevdf ftnassgaey gkvdvvdeak tddftseids lekdsnnkmh
+      181 gkahmvdeaw dgeaifevdl fgnassipiy gevnvldear addgkfevdl lgntssnsth
+      241 eevdvvdeaq tgeatfevdl lgnalssaiy kevpvmggaq ddevdvdfsi nasiteteke
+      301 adavdearve detfdmdlvg kqisidsmnd dvveegtkhh rypmlssafi evktihetpv
+      361 slkpelmsvv mdqeqdkpis svyqqegsif nlhaenqstv dfhereqmai tfdkqkesva
+      421 klskedqqta glpeqnmsfd gvhrksqsii glpfqhqsiv sspekyrsiv gfhgqnqsii
+      481 sshkqdksiv gvpkkiqsiv gstkhddsiv gfrkqdrsiv svpeqkqsiv gfhkqdlsiv
+      541 avseqnlsiv aipresqskq isivrrhdpl hlkevetkdr dgiskksggd ddlphmlfee
+      601 elsqvedear aiaykkqhev dvisltpdiq espqdnidpq elrrmlqela dqncsmgnkl
+      661 fvfpeavkan stidvylnrn lsalanepdv hikgafnswr wrpfterlhk selsgdwwsc
+      721 klhipkeayr ldfvffngrl vydnndsndf vlqvestmde dsfeeflvee kkrelervat
+      781 eeaerrrhae eqqrmgeqra aeqaareqak keielkknkl qnllssarth vdnlwhieps
+      841 tyrqgdtvrl yynrnsrplm hsteiwmhgg cnswtdglsi verlvecdde ngdwwyanvh
+      901 ipekafvldw vfadgppgna rnydnngrqd fhailpnamt neeywveeen ciytrllhei
+      961 rereeaikik vekrakmkse mkektmrmfl lsqkhivyte pleihagttv dvlynpsntv
+     1021 lngkpevwfr wsfnrwmhps gvlppkkmvk tedgchlkat vsvpsdaymm dfvfseseeg
+     1081 giydnrngtd yhipvsgsna keppihivhi avemapiakv ggladvvtsl sraiqelghh
+     1141 vevilpkynf mnqsnvknlh vrqsfslggt eikvwfglve dlsvyflepq ngmfgggwvy
+     1201 ggndagrfgl fcqsalefll qsgssphiih chdwssapva wlykehyaes rlatariift
+     1261 ihnlefgahf igkamtycdk attvshtysk evaghgaiap hrgkfygiln gidpdiwdpy
+     1321 tdnfipmhyt senvvegkna akralqqrfg lqqtdvpivg iitrltaqkg ihlikhalhr
+     1381 tlerngqvvl lgsapdpriq sdfcrladsl hgenhgrvrl cltydeplsh liyagsdfil
+     1441 vpsifepcgl tqlvamrygs ipivrktggl ydtvfdvdhd kdrarvlgle pngfsfdgad
+     1501 cngvdyalnr aisswfearg wfhslckrvm eqdwswnrpa ldyielyhsa hkf
+//
+

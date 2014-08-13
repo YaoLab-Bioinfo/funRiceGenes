@@ -1,0 +1,97 @@
+LOCUS       AB126932                2323 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsCPS mRNA for ent-copalyldiphosphate
+            synthase, partial cds.
+ACCESSION   AB126932
+VERSION     AB126932.2  GI:83017352
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Otomo,K., Kenmoku,H., Oikawa,H., Konig,W.A., Toshima,H.,
+            Mitsuhashi,W., Yamane,H., Sassa,T. and Toyomasu,T.
+  TITLE     Biological functions of ent- and syn-copalyl diphosphate synthases
+            in rice: key enzymes for the branch point of gibberellin and
+            phytoalexin biosynthesis
+  JOURNAL   Plant J. 39 (6), 886-893 (2004)
+   PUBMED   15341631
+REFERENCE   2  (bases 1 to 2323)
+  AUTHORS   Toyomasu,T., Otomo,K., Kanno,Y., Mitsuhashi,W. and Sassa,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2003) Contact:Tomonobu Toyomasu Yamagata
+            University, Faculty of Agriculture; Wakaba-cho 1-23, Tsuruoka-city,
+            Yamagata 997-8555, Japan
+COMMENT     On Dec 1, 2005 this sequence version replaced gi:51889419.
+FEATURES             Location/Qualifiers
+     source          1..2323
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /country="Japan"
+     gene            <1..2323
+                     /gene="OsCPS"
+     CDS             <1..2323
+                     /gene="OsCPS"
+                     /codon_start=2
+                     /product="ent-copalyldiphosphate synthase"
+                     /protein_id="BAD42449.2"
+                     /db_xref="GI:83017353"
+                     /translation="QANIIEHETPRITKWPNESRDLDDHQQNNEADEEADDELQPLVE
+                     QVRSMLSSMEDGAITASAYDTAWVALVPRLDGEGGTQFPAAVRWIVGSQLADGSWGDE
+                     ALFSAYDRVINTLACVVALTRWSLHHDQCKQGLQFLNLNLWRLAEEEPDTMPIGFEIA
+                     FPSLVEAARGLGIDFPYDHPALKGIYANRELKLKRIPKDMMHIVPTSILHSLEGMPGL
+                     DWQRLLKLQCSDGSFLFSPSATAYALMQTGDKKCFAYIDRIIKKFDGGVPNVYPVDLF
+                     EHIWVVDRLERLGISRYFQREIEQNMDYVNRHWTEDGICWARNSNVKEVDDTAMAFRL
+                     LRLHGYNVSPSVFKNFEKDGEFFCFVGQSTQAVTGMYNLNRASQISFPGEDILQRARN
+                     FSYEFLREREAQGTLHDKWIISKDLPGEVQYTLDFPWYASLPRVEARTYIGQYGGNDD
+                     VWIGKTLYRMPIVNNATYLELAKQDFNRCQALHQHELQGLQKWFIENGLEAFGMTPED
+                     VLRAYFLAAACIFEPNRASERLAWARVSVLANTISRHFYSDMSSMKRMERFMWSSLYE
+                     ENGNVLGLEGYAKDGILARTLCQLIDLLSQETPPVREGQKCIHNLIRCAWIEWMMQQI
+                     NMKDGRYDKGRVMHPGSCTVHNKETCLLIAQIVEICAGRIEEAASMINNTEGSWFIQL
+                     ASSICDSLHAKMLLSQDTKKNETTINQIDKEIELGMQELAQYLLPRVDDRRINNKTKQ
+                     TFLSIVKSCYYAANCSPHMLDQHISEVIFEQVI"
+ORIGIN      
+        1 gcaagccaac atcatcgaac atgagacccc ccggatcacg aaatggccca atgaatcacg
+       61 cgacctcgac gatcaccaac aaaacaacga ggctgatgag gaggcagatg atgagctgca
+      121 gccactggtc gagcaggtga ggtcgatgct gtcgtccatg gaggacggcg cgatcaccgc
+      181 gtcggcgtac gacacggcgt gggtggcgct ggtgccgcgg ctggacggcg agggcggcac
+      241 gcagttcccg gccgccgtgc ggtggatcgt cggcagccag ctcgccgacg ggtcgtgggg
+      301 cgacgaggcg ctcttctccg cctacgaccg cgtcatcaac accctcgcct gcgtcgtcgc
+      361 cctcaccaga tggtccctcc accatgacca gtgcaagcaa gggcttcagt ttctgaatct
+      421 gaacttgtgg aggttagcag aggaggagcc ggatacgatg ccgattgggt ttgagattgc
+      481 attcccttct cttgtggagg cagctagggg tttgggtatt gatttcccat atgatcaccc
+      541 tgctctcaag ggcatttatg caaacagaga actcaagctt aagaggattc caaaggacat
+      601 gatgcatata gtcccaactt caattctgca tagccttgaa gggatgcctg ggctggattg
+      661 gcagaggctt ctgaagctcc aatgcagtga tggatccttc ttgttctccc cttcagctac
+      721 tgcttatgct ctcatgcaga ccggtgacaa gaaatgcttc gcgtacatcg acaggatcat
+      781 taagaaattc gacggtggcg ttccgaacgt ttacccggtc gatctttttg agcacatatg
+      841 ggttgtcgat cggttggagc gtcttgggat atcgcggtac ttccaacgag agattgaaca
+      901 gaacatggac tatgtcaaca ggcactggac tgaagatggg atttgctggg ctaggaactc
+      961 caatgtaaaa gaagtggatg acaccgctat ggctttccgt ctactacgcc tccatggata
+     1021 caatgtatca ccaagtgtgt tcaagaattt tgagaaggat ggggagttct tctgttttgt
+     1081 ggggcaatca actcaagcag tcactgggat gtataacctg aacagagcat ctcagataag
+     1141 ttttccagga gaagacattt tgcagcgtgc aaggaatttc tcatatgagt tccttagaga
+     1201 aagagaagcc caggggacac ttcatgataa atggatcatc tccaaggacc taccaggaga
+     1261 ggtacaatac acactagatt ttccttggta tgcgagcttg ccacgcgtcg aggcaagaac
+     1321 atacataggt caatatggtg gaaatgatga cgtctggatt ggaaagacac tctacaggat
+     1381 gccaattgtg aataacgcta catatctcga gttggcgaaa caggatttca accgttgtca
+     1441 agctctacat cagcatgagt tgcagggtct acaaaagtgg ttcattgaga atggcctgga
+     1501 agcttttggg atgacacctg aagatgtttt gagagcttat tttttggctg ccgcgtgcat
+     1561 tttcgaacca aaccgtgcct ctgagcgact tgcatgggct agagtgtcag tgctggccaa
+     1621 cactatttct aggcattttt acagcgatat gtcaagcatg aaaaggatgg agcgtttcat
+     1681 gtggagcagc ctctatgaag aaaatggcaa tgttttgggg ctagaaggat atgcaaaaga
+     1741 tggaatcctt gcgaggacac tttgtcaact tatagatttg ttgtctcaag agacaccgcc
+     1801 agttcgagaa ggtcaaaagt gtattcataa tctcataaga tgtgcttgga ttgaatggat
+     1861 gatgcaacaa atcaatatga aggatggcag atatgacaaa ggcagagtta tgcatccagg
+     1921 gtcatgcact gttcataata aagaaacatg tttacttatt gctcaaattg ttgaaatttg
+     1981 tgctggacga attgaggagg cagcatctat gataaataac accgaaggtt cttggtttat
+     2041 tcaacttgct tcctctattt gcgattctct tcatgccaag atgttacttt cacaggatac
+     2101 caagaaaaat gagacaacaa taaatcaaat tgacaaggaa attgagttgg gtatgcaaga
+     2161 acttgctcaa tatcttcttc caagagttga tgatagaaga attaacaaca aaaccaagca
+     2221 gaccttcttg agcattgtga aaagctgtta ctatgctgcc aattgctcac cacatatgct
+     2281 tgaccaacac atttctgaag tgatttttga gcaagttatt tga
+//
+

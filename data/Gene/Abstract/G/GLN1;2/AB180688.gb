@@ -1,0 +1,89 @@
+LOCUS       AB180688                2005 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsGS1;2 mRNA for cytosolic glutamine
+            synthetase 1;2, complete cds.
+ACCESSION   AB180688
+VERSION     AB180688.1  GI:56541420
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ishiyama,K., Inoue,E., Tabuchi,M., Yamaya,T. and Takahashi,H.
+  TITLE     Biochemical background and compartmentalized functions of cytosolic
+            glutamine synthetase for active ammonium assimilation in rice roots
+  JOURNAL   Plant Cell Physiol. 45 (11), 1640-1647 (2004)
+   PUBMED   15574840
+REFERENCE   2  (bases 1 to 2005)
+  AUTHORS   Tabuchi,M., Hayakawa,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAY-2004) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultural Science, Dept. of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..2005
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:39947"
+                     /tissue_type="roots"
+     gene            1..2005
+                     /gene="OsGS1;2"
+     5'UTR           1..656
+                     /gene="OsGS1;2"
+     CDS             657..1730
+                     /gene="OsGS1;2"
+                     /EC_number="6.3.1.2"
+                     /codon_start=1
+                     /product="cytosolic glutamine synthetase 1;2"
+                     /protein_id="BAD77931.1"
+                     /db_xref="GI:56541421"
+                     /translation="MANLTDLVNLNLSDCSDKIIAEYIWVGGSGIDLRSKARTVKGPI
+                     TDVSQLPKWNYDGSSTGQAPGEDSEVILYPQAIFKDPFRRGDNILVMCDCYTPQGEPI
+                     PTNKRHSAAKIFSHPDVVAEVPWYGIEQEYTLLQKDVNWPLGWPVGGFPGPQGPYYCA
+                     AGAEKAFGRDIVDAHYKACIYAGINISGINGEVMPGQWEFQVGPSVGIAAADQVWVAR
+                     YILERVTEVAGVVLSLDPKPIPGDWNGAGAHTNFSTKSMREPGGYEVIKKAIDKLALR
+                     HKEHIAAYGEGNERRLTGRHETADINTFKWGVANRGASIRVGRDTEKEGKGYFEDRRP
+                     ASNMDPYVVTGMIAETTLLWKQN"
+     3'UTR           1731..2005
+                     /gene="OsGS1;2"
+ORIGIN      
+        1 tggaaaactg acccactata ttttgctcct ccttttagtt gtaaacatcc ttctggaaat
+       61 acatatgtgc acaagcacag tgctcacata attcatgagt tggacaccag atgaaaaaaa
+      121 accccaagaa aataataagt ggagtaaact tccatccaac ttaagttacc acggtccacg
+      181 gttaattcct attgactacg aacaaattgt tttactatgt taaccatgtt tttttagaca
+      241 atagtgtcaa attatcatat tacgtatgaa tttatgatta cacctcttct ttctccctga
+      301 aaatactgca gcatcctctc gatttgagat gattacttca gtttcttgcc acaccagagg
+      361 taatccattc ccttgatttt tgttaaaaga taaagataat atagacgcta tctttttaaa
+      421 cggccaatat cattattaat caaataactg aaaaaaaaat gtctctgaat gatacttgcc
+      481 cctacttcgc tatccacagt tgcgatttgc gacttgcaag cacaccgtag ctaacttctc
+      541 tccttctggg tataaatatc cctctcctct ccctgtttct cctcatccct gcttcctctt
+      601 ctacacctca ttttccgctt gcatcttgct cattcagatc tcttctgctt tgagcaatgg
+      661 ccaacctcac cgacctcgtt aacctcaacc tcagcgactg cagcgacaag atcatcgccg
+      721 agtacatctg ggttggagga tcgggcatag acctcaggag caaagcgagg actgtgaaag
+      781 gccccatcac cgatgtgagc cagctgccga agtggaacta cgacggctcc agcaccgggc
+      841 aggctcccgg cgaggacagc gaagtgatcc tctaccctca agccattttc aaggacccgt
+      901 tcaggagggg cgacaacatc cttgtgatgt gcgactgcta cacgccacaa ggtgagccaa
+      961 tccccactaa caagaggcac agtgccgcca agatcttcag ccaccctgat gttgttgctg
+     1021 aggtgccatg gtacggtatt gagcaggagt acacactcct tcaaaaggat gtgaactggc
+     1081 cccttggctg gccagttggt ggcttccctg gcccacaggg accatactac tgcgctgccg
+     1141 gtgccgaaaa ggcgttcggc cgcgacatcg tggacgccca ctacaaggcc tgcatctacg
+     1201 ccgggatcaa catcagtggc atcaacgggg aagtcatgcc cggccagtgg gagttccaag
+     1261 ttggcccgtc agttggcatc gccgctgctg accaagtgtg ggttgcccgc tacatcctcg
+     1321 agagggtcac agaggtggcc ggagtcgtgc tctcccttga cccgaagccg atcccgggtg
+     1381 actggaatgg cgctggtgcc cacaccaact tcagcaccaa gtcgatgagg gagccgggag
+     1441 gctacgaggt gatcaagaag gcgatcgaca agctcgcgct gaggcacaag gagcacatcg
+     1501 ccgcctacgg cgagggcaac gagcgccgcc tcaccggccg ccacgagacc gccgacatca
+     1561 acaccttcaa atggggcgtg gcgaaccgcg gcgcgtccat ccgcgtgggg cgcgacacgg
+     1621 agaaggaggg caaggggtac ttcgaggaca ggaggccggc gtccaacatg gacccatacg
+     1681 tcgtcaccgg catgatcgcc gagaccacgc tgctgtggaa gcagaactaa gccgtccggc
+     1741 gggcctctcc cgtgcatttc tgcgcccaaa aaaaacaaaa aaaagaaacg tacgcgtgcg
+     1801 tgcatcagcc gtgatgtgtc aacgttggat ttcggtctcg gtctatcctt ggcgtcgaca
+     1861 aggccctttg aattttatta ctagtctgtc ctgttcaccg agtgtcattt tgtgtactct
+     1921 gaataataat gctttgtaaa acggatttgc tttttccgta gggacggatg ttcttgattt
+     1981 tcctatatcg tgatttatat atatg
+//
+

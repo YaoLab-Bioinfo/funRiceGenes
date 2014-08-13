@@ -1,0 +1,86 @@
+LOCUS       DQ395328                1707 bp    mRNA    linear   PLN 14-JUN-2007
+DEFINITION  Oryza sativa (indica cultivar-group) UDP-glucose pyrophosphorylase
+            (UGP) mRNA, complete cds.
+ACCESSION   DQ395328
+VERSION     DQ395328.1  GI:88866515
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1707)
+  AUTHORS   Chen,R., Zhao,X., Shao,Z., Zhu,L. and He,G.
+  TITLE     Multiple isoforms of UDP-glucose pyrophosphorylase in rice
+  JOURNAL   Physiol. Plantarum 129 (4), 725-736 (2007)
+REFERENCE   2  (bases 1 to 1707)
+  AUTHORS   Chen,R., Zhao,X., Shao,Z., Wei,Z., Wang,Y., Zhu,L., Zhao,J.,
+            Sun,M., He,R. and He,G.
+  TITLE     Rice UDP-glucose pyrophosphorylase1 is essential for pollen callose
+            deposition and its cosuppression results in a new type of
+            thermosensitive genic male sterility
+  JOURNAL   Plant Cell 19 (3), 847-861 (2007)
+   PUBMED   17400897
+REFERENCE   3  (bases 1 to 1707)
+  AUTHORS   He,G., Chen,R., Zhao,X., Shao,Z., Zhu,L. and He,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2006) College of Life Sciences, Key Laboratory of
+            Ministry of Education for Plant Developmental Biology, Wuhan
+            University, Wuhan, Hubei 430072, China
+FEATURES             Location/Qualifiers
+     source          1..1707
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+                     /chromosome="9"
+     gene            1..1707
+                     /gene="UGP"
+                     /note="OsUGP"
+     CDS             80..1489
+                     /gene="UGP"
+                     /EC_number="2.7.7.9"
+                     /codon_start=1
+                     /product="UDP-glucose pyrophosphorylase"
+                     /protein_id="ABD57308.1"
+                     /db_xref="GI:88866516"
+                     /translation="MAVAADVKLEGLRAATDKLDQISENEKSGFISLVSRYLSGEAEQ
+                     IEWSKIQTPTDEVVVPYDTLSAAPEDLNETKKLLDKLVVLKLNGGLGTTMGCTGPKSV
+                     IEVRNGFTFLDLIVIQIESLNKKYGCNVPLLLMNSFNTHDDTQKIVEKYSNSNIEIHT
+                     FNQSQYPRIVTEDFLPLPSKGKTGKDGWYPPGHGDVFPSLNNSGKLDTLLAQGKEYVF
+                     VANSDNLGAIVDIKILNHLIHNQNEYCMEVTPKTLADVKGGTLISYEGRVQLLEIAQV
+                     PDEHVNEFKSIEKFKIFNTNNLWVNLKAIKRLVEAEALKMEIIPNPKEVDGVKVLQLE
+                     TAAGAAIRFFEKAIGINVPRSRFLPVKATSDLLLVQSDLYTLVDGFVIRNPARTNPSN
+                     PSIELGPEFKKVANFLARFKSIPSIVELDTLKVSGDVWFGSGVTLKGKVTITAKSGKL
+                     EIPDGAVLENKDINGPEDL"
+ORIGIN      
+        1 ggcacgaggc tcctctcctc tcatctgaca tatctcctcc cgtcctttcg aagcctctcg
+       61 aatcgcatcg ccgagccgga tggcggtcgc cgccgacgtg aagctcgagg gcctccgcgc
+      121 cgccaccgac aagctcgacc agatcagcga gaacgagaag tccgggttca tcagcctcgt
+      181 ttcgcgctac ctcagcggcg aggcggagca gatcgagtgg agtaagatcc agaccccgac
+      241 cgacgaggtg gtggttccct acgacacgct ctcggctgct cccgaagatc tcaacgagac
+      301 gaagaagctg ctcgacaaac tcgtcgtgct caagctcaat ggaggcctcg ggacgaccat
+      361 gggctgcact ggtcccaagt ctgtcattga agtccgcaat ggctttacgt ttctagacct
+      421 tattgtgatt caaattgagt ccctgaacaa gaagtatgga tgcaatgtcc ctttgcttct
+      481 aatgaactca ttcaacactc atgatgacac acagaagatt gttgagaagt actccaactc
+      541 caacattgaa attcacactt tcaaccagag ccaatatcct cgcattgtta ctgaagactt
+      601 cttgccactt ccaagcaagg ggaagactgg caaggatggc tggtatcccc caggccatgg
+      661 tgatgtgttc ccctccttga ataacagtgg aaaacttgat accttgttgg cacagggcaa
+      721 ggagtatgtc tttgtcgcga actcggacaa cttgggtgct attgttgaca tcaagatctt
+      781 aaaccacctg atccataacc agaacgagta ctgtatggag gttactccta aaacattggc
+      841 tgatgttaaa ggtggtaccc tcatctctta cgaagggaga gttcagctgt tggagattgc
+      901 tcaagtccct gatgagcatg tgaatgaatt caagtcaatt gagaagttca agatcttcaa
+      961 taccaacaac ctgtgggtaa acttgaaggc catcaagagg ctggtagaag ctgaagcact
+     1021 taagatggaa atcattccta accctaagga agttgatggt gtgaaagttc tgcaactcga
+     1081 aactgcagct ggagcagcca ttcggttctt tgaaaaagca attggcatta atgttccccg
+     1141 ctcgagattt ctgccagtca aggctacatc tgatttgttg cttgtacagt ctgatttgta
+     1201 caccttggtc gatggctttg tcatccgcaa cccagccaga acaaacccat caaacccttc
+     1261 gattgagctt ggacctgagt tcaagaaggt tgccaatttc ctggcccggt ttaagtcaat
+     1321 ccccagcatt gtcgagcttg acaccttgaa ggtctctggt gatgtctggt tcggctctgg
+     1381 agttacactc aagggtaagg tgaccatcac cgccaagtca gggaagttgg agatcccaga
+     1441 tggagccgtg cttgagaaca aggacatcaa cggtccggag gatctttgag gctgctcacg
+     1501 gaaaccttcc agatatattt agctgagcgt tttgtaattg tcgtgtgcat tcggcagcca
+     1561 gggctcgatg atcccattac agaataattg taatcatctt ggcacatccg tacttctgtt
+     1621 ttttggtgtg ccaagggcgt tgtatttcat ttacttaaat gatctcgtaa taccatagtt
+     1681 ttgcatgcac aaaaaaaaaa aaaaaaa
+//
+

@@ -1,0 +1,64 @@
+LOCUS       XP_471492                483 aa            linear   PLN 09-NOV-2004
+DEFINITION  OSJNBb0067G11.13 [Oryza sativa (japonica cultivar-group)].
+ACCESSION   XP_471492
+VERSION     XP_471492.1  GI:50922263
+DBSOURCE    REFSEQ: accession XM_471492.1
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa (japonica cultivar-group)
+  ORGANISM  Oryza sativa (japonica cultivar-group)
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 483)
+  CONSRTM   The NCBI Genome Assembly Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JUL-2004) National Center for Biotechnology
+            Information, National Institutes of Health, Bethesda 20894, United
+            States of America
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from CAD39890.
+FEATURES             Location/Qualifiers
+     source          1..483
+                     /organism="Oryza sativa (japonica cultivar-group)"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     Protein         1..483
+                     /name="OSJNBb0067G11.13"
+                     /calculated_mol_wt=53765
+     Region          45..252
+                     /region_name="SIRT7"
+                     /note="SIRT7: Eukaryotic and prokaryotic group (class4)
+                     which includes human sirtuin SIRT6, SIRT7, and several
+                     bacterial homologs; and are members of the SIR2 family of
+                     proteins, silent information regulator 2 (Sir2) enzymes
+                     which catalyze NAD+-dependent...; cd01410"
+                     /db_xref="CDD:238701"
+     Site            order(54,56..57,64..65,96,114..115,117,134,209,214,
+                     236..237,252)
+                     /site_type="other"
+                     /note="NAD+ binding site [chemical binding]"
+                     /db_xref="CDD:238701"
+     Site            order(116,134,181,183..187,213..215)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238701"
+     Site            order(142,145,167,172)
+                     /site_type="other"
+                     /note="Zn binding site [ion binding]"
+                     /db_xref="CDD:238701"
+     CDS             1..483
+                     /gene="OSJNBb0067G11.13"
+                     /coded_by="XM_471492.1:1..1452"
+                     /db_xref="GeneID:3034298"
+ORIGIN      
+        1 mslgyaekls yredvgnvgm peifdspell hkkieelavm vreskhlvvf tgagistssg
+       61 ipdfrgpkgv wtlqrsgkgv pgaslpfhra vptlthmalv elektgrlkf visqnvdslh
+      121 lrsglprekl aelhgnsfke icpsckkeyl rdfeietigl kdtprrcsdk ncgarlkdtv
+      181 ldwedalppe emdaakeqcq kadlvlclgt slqitpacnm pllslknggr vaivnlqatp
+      241 kdkkaslvih glvdkviagv mymmnlripp yirtdfvqis lrnsvkkkcv rwtlrvtsih
+      301 glraplpflr svevsfperp dmkpvvlkeq pfslqretsm nrpfvmlltf nfsdgcgcss
+      361 ssiewpvdfl kqkdsfvrdr slvlqelqha aehrsragqh aileregvpr aetsihalvt
+      421 nivrydteds kaavpmatwm nsngslskrh mdaigcnpas skkqklvatr hrrkglnpat
+      481 qkv
+//
+

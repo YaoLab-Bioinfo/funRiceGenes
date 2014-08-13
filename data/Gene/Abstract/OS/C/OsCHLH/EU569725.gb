@@ -1,0 +1,70 @@
+LOCUS       EU569725                1291 bp    mRNA    linear   PLN 11-APR-2008
+DEFINITION  Oryza sativa Indica Group cultivar Zhu 1S Mg-chelatase H subunit
+            (CHLH) mRNA, partial cds.
+ACCESSION   EU569725
+VERSION     EU569725.1  GI:171850748
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1291)
+  AUTHORS   Zhao,X.Z., Xiao,L.T., Hu,H., Huang,Z.G. and Wang,R.Z.
+  TITLE     Super hybrid rice parental lines Zhu 1S for the H subunit of
+            Mg-chelatase
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1291)
+  AUTHORS   Zhao,X.Z., Xiao,L.T., Hu,H., Huang,Z.G. and Wang,R.Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2008) Hunan Provincial Key Laboratory of
+            Phytohormones and Growth Development, Hunan Agricultural
+            University, Changsha, Hunan 410128, China
+FEATURES             Location/Qualifiers
+     source          1..1291
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhu 1S"
+                     /db_xref="taxon:39946"
+                     /collection_date="Mar-2008"
+     gene            <1..>1291
+                     /gene="CHLH"
+     CDS             <1..>1291
+                     /gene="CHLH"
+                     /codon_start=1
+                     /product="Mg-chelatase H subunit"
+                     /protein_id="ACB55486.1"
+                     /db_xref="GI:171850749"
+                     /translation="MEIESRLLPCGLHVIGEPPSAIEAVATLVNIASLDRPEDEIYSL
+                     PNILAQTVGRNIEDVYRGSDKGILADVELLRQITEASRGAITAFVERTTNNKGQVVDV
+                     TNKLSTMLGFGLSEPWVQHLSKTKFIRADREKLRTLFTFLGECLKLIVADNELGSLKL
+                     ALEGSYVEPGPGGDPIRNPKVLPTGKNIHALDPQAIPTTAALKSAKIVVDRLLERQKV
+                     DNGGKYPETIALVLWGTDNIKTYGESLAQVLWMIGVRPVADTFGRVNRVEPVSLEELG
+                     RPRIDVVVNCSGVFRDLFINQMNLLDRAVKMVAELDEPEEINYVRKHAQEQARELGVS
+                     LREAATRVFSNASGSYSSNVNLAVENASWTDEKQLQDMYLSRKSFAFDCDAPGAGMRE
+                     QRKTFELALATADATFQNLDSSEISLTDVSHYFDSDPT"
+ORIGIN      
+        1 atggaaatag aatcacgcct cctaccatgc ggtctgcatg tgataggtga gccaccaagt
+       61 gccatcgagg ctgtggccac cttggtgaac atagcttccc ttgatcgccc agaggatgaa
+      121 atatactcac tgcctaacat acttgctcag acagtgggca ggaacattga agatgtgtac
+      181 agaggaagtg acaagggaat actggcggat gttgaactgt tgaggcagat aacagaagct
+      241 tcacgtggtg ccatcactgc ctttgttgag aggactacaa acaacaaagg gcaagttgtt
+      301 gatgttacaa acaaacttag taccatgctt ggttttggtt tatcagaacc atgggtacaa
+      361 cacttgtcca agaccaagtt catcagagca gacagagaga aattgagaac cttgtttact
+      421 ttcttgggag aatgcttgaa gctaattgtg gcagataatg agctgggaag cttgaaactt
+      481 gccctcgagg gaagctatgt tgaacctggc cctggtggtg atccaatccg taacccgaag
+      541 gttctcccga cagggaagaa catccatgct cttgaccctc aggcaatccc aactacagct
+      601 gccttgaaga gcgccaaaat tgttgtagac cgtctgctgg agcggcaaaa ggttgacaat
+      661 ggtggcaagt atcctgagac aattgcactt gtcttgtggg gcaccgataa catcaagacc
+      721 tatggtgagt cattggccca ggtgctgtgg atgattggtg tgcgcccggt tgctgacacc
+      781 tttggccgtg tcaaccgtgt ggaacctgtc agccttgagg agcttggacg tcccaggatt
+      841 gacgttgttg tcaactgctc gggtgtcttc agagatcttt tcatcaacca gatgaatcta
+      901 ctggaccggg cagtgaagat ggttgccgaa ctggatgagc cagaagagat aaactacgtg
+      961 cgtaagcatg cacaagagca ggcacgggaa cttggcgttt cattaagaga ggcggcaaca
+     1021 agggtgttct caaatgcatc aggctcttac tcatcgaatg tgaacttggc agtggagaat
+     1081 gcatcatgga ctgatgagaa gcagctccag gacatgtacc tgagtcgcaa gtcttttgca
+     1141 tttgattgtg atgctccagg ggcaggcatg cgagagcaac gcaagacatt tgagcttgct
+     1201 ctagcaacag cagatgccac attccagaac ctagactcat cagagatttc actaacagat
+     1261 gtgagccact actttgactc agacccgaca a
+//
+

@@ -1,0 +1,67 @@
+LOCUS       AY341849                1458 bp    mRNA    linear   PLN 13-AUG-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) WRKY8 mRNA, complete cds.
+ACCESSION   AY341849
+VERSION     AY341849.1  GI:33519185
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1458)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Isolation of rice WRKY protein through W-box bait vector by
+            modified yeast one-hybrid system method
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1458)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUL-2003) Bio-tech Center, Shanghai Academy of
+            Agricultural Science, Beidi Road 2901, Shanghai, Shanghai
+            021-201106, China
+FEATURES             Location/Qualifiers
+     source          1..1458
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             131..1204
+                     /note="transcription factor"
+                     /codon_start=1
+                     /product="WRKY8"
+                     /protein_id="AAQ20908.1"
+                     /db_xref="GI:33519186"
+                     /translation="MAPQVQGGGGYSQPQSQRRSSDDGYNWRKYGQKQVKGSENPRSY
+                     YKCTFPNCPTKKKVERSLDGQITEIVYKGTHNHAKPQNTRRNSGSSAAQVLQSGGDMS
+                     EHSFGGMSGTAATPENSSASFGDDEIRVGSPRAGNGGGDEFDDDEPDSKRWRKDGDGE
+                     GISMAGNRTVREPRVVVQTMSDIDILDDGYRWRKYGQKVVKGNPNPRSYYKCTTAGCP
+                     VRKHVERASHDLRAVITTYEGKHNHDVPAARGSAALYRPAPPAAAATSSHPYLPNQPP
+                     PMSYQPTGPQPYALRPDGFGGQGPFGGVVGGSSFGGFSGFDDARGSYMSQHQQQQRQN
+                     DAMHASRAKEEPGDDMFFQNSLY"
+ORIGIN      
+        1 gggggacgag gcatacagaa gtcagcagca gcagcagcca tggggctacc agcagcagcc
+       61 tgcaggcatg gacgcgggtg ccaacgcggc gagcttcggt gcggcgccgt tccaggcgac
+      121 ctcgtcggag atggcgccac aggtgcaggg tggcggcggg tacagccagc cgcagtcgca
+      181 gaggcggtcg tcggacgacg gctacaactg gcgcaagtac gggcagaagc aggtgaaggg
+      241 gagcgagaac ccccgcagct actacaagtg caccttcccg aactgcccga ccaagaagaa
+      301 ggtggagcgg tcgctcgacg gccagatcac cgagatcgtg tacaagggca cgcacaacca
+      361 cgccaagccg cagaacacgc gcaggaactc cggctcgtcg gcggcgcagg tcctgcagag
+      421 cggcggcgac atgtcggagc attccttcgg gggcatgtcc ggcacagcgg cgacgcccga
+      481 gaactcgtcg gcgtcgttcg gtgacgacga gatcagagtt ggctcccctc gggccgggaa
+      541 cggcggcggc gacgagttcg acgacgacga gccggattcc aagagatgga ggaaagacgg
+      601 tgacggcgag gggatctcca tggctggcaa ccggacggtg cgggaaccga gggtggtcgt
+      661 ccaaaccatg agcgacatcg acatcctcga cgacggctac cgctggagaa agtacggcca
+      721 gaaggtggtg aagggcaacc cgaacccaag gagctactac aagtgcacca cggccggttg
+      781 ccccgtgcgg aagcacgtgg agcgcgcgtc ccacgacctg cgcgccgtga tcaccaccta
+      841 cgaggggaaa cacaaccacg acgtgcccgc cgcgcggggg agcgccgcgc tctaccgccc
+      901 cgcgccgccg gcggcggccg ccaccagcag ccacccgtac ctgccgaacc agccgccgcc
+      961 catgtcctac cagcccacgg ggccacagcc gtacgcgctg aggcccgacg ggttcggcgg
+     1021 ccagggaccg ttcggcggcg tggtcggcgg gagcagcttc ggcggcttct ccgggttcga
+     1081 cgacgccagg ggctcgtaca tgagccagca ccagcagcag cagaggcaga acgacgcgat
+     1141 gcacgcctcg agagccaagg aagagcccgg agacgacatg ttcttccaga actcgctcta
+     1201 ctgactgaaa gaatcgtcgt cgtaggaatc tcaaagacat gacacgacgg aaattgtagt
+     1261 ttaggggggt tttgtacttg tacgtaccta ggatatactg tagtctttga tacatttgtt
+     1321 tatttgtttg gagggcccag gaatgcagat ggctgcagaa aagggtaccg tcccttaaca
+     1381 ctggagatgg gaggaaagga tgtactcctg taggatacac agcaaatttt gctctgtaat
+     1441 ttttttcaca tagaaaaa
+//
+

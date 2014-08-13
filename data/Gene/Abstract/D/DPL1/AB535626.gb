@@ -1,0 +1,57 @@
+LOCUS       AB535626                 712 bp    mRNA    linear   PLN 25-NOV-2010
+DEFINITION  Oryza sativa Japonica Group DPL1 mRNA for hypothetical protein,
+            complete cds, cultivar: Nipponbare.
+ACCESSION   AB535626
+VERSION     AB535626.1  GI:311692172
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Mizuta,Y., Harushima,Y. and Kurata,N.
+  TITLE     From the Cover: Rice pollen hybrid incompatibility caused by
+            reciprocal gene loss of duplicated genes
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 107 (47), 20417-20422 (2010)
+   PUBMED   21048083
+REFERENCE   2  (bases 1 to 712)
+  AUTHORS   Mizuta,Y., Harushima,Y. and Kurata,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2009) Contact:Yoko Mizuta National Institute of
+            Genetics, Plant Genetics; Yata 1111, Mishima, Shizuoka 411-8540,
+            Japan URL :http://www.nig.ac.jp/labs/PlantGen/japanese/home-j.html
+FEATURES             Location/Qualifiers
+     source          1..712
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+     gene            1..712
+                     /gene="DPL1"
+     CDS             94..378
+                     /gene="DPL1"
+                     /experiment="5' and 3' rapid amplification of cDNA ends
+                     (RACE) experiments"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="BAJ25696.1"
+                     /db_xref="GI:311692173"
+                     /translation="MGSEDTKDMLKNVDWKTVGGSVSTDPSQPVVKKRLPKKIRQVPE
+                     CYFLPRRSLPSALAIYGAACAAGVGAGMLLEVWINKKIKEDSAIVWEMGK"
+ORIGIN      
+        1 agcgagaaaa aaacgcaaca acgctggcga ccttcctgac gacgccgacg agctcgacct
+       61 ccccgacggt gaggcgatcc aggcgttttc aggatgggca gtgaggacac aaaagatatg
+      121 ctgaagaatg tggactggaa aacagttggt ggttcggtga gcaccgaccc aagccaacca
+      181 gttgttaaaa agcgtctccc gaagaaaatc agacaagttc ctgaatgcta ttttctgcct
+      241 cggcgatctt tgccttctgc attggcaatc tatggcgctg cgtgtgctgc tggagttggc
+      301 gcagggatgc tgcttgaggt ttggataaac aaaaagatca aagaggacag tgccattgtc
+      361 tgggaaatgg gcaaatgatt tgattgctac ctctgaagag ttctccttgc tcgtgttcag
+      421 ctgctaaagc tgcatctcag aaataatctt agctatattg gttctgatta tcttttgatt
+      481 cccagacaaa gtaaaactat cctttctaat gtatgacact gccttacatc tacatttctg
+      541 gtttcatttt gaatgctagc ataacagtat ggtgtaacag gaaatatcag aaataacggt
+      601 gttacggaat gagccatttc tgtttggcat tatcagttgt acgaattaat tgattgtgtg
+      661 gacagtggta gttacatgct ctgatggaaa tatcaaaaat catttggcct ac
+//
+

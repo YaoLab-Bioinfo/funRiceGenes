@@ -1,0 +1,68 @@
+LOCUS       OSU46758                1293 bp    mRNA    linear   PLN 24-JUL-1998
+DEFINITION  Oryza sativa potassium channel beta subunit protein (KOB1) mRNA,
+            complete cds.
+ACCESSION   U46758
+VERSION     U46758.1  GI:1197586
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1293)
+  AUTHORS   Fang,Z., Kamasani,U. and Berkowitz,G.A.
+  TITLE     Molecular cloning and expression characterization of a rice K+
+            channel beta subunit
+  JOURNAL   Plant Mol. Biol. 37 (4), 597-606 (1998)
+   PUBMED   9687064
+REFERENCE   2  (bases 1 to 1293)
+  AUTHORS   Fang,Z. and Berkowitz,G.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JAN-1996) Zhiwei Fang, Plant Science, Cook College,
+            Rutgers University, 239 Foran Hall, New Brunswick, NJ 08903, USA
+FEATURES             Location/Qualifiers
+     source          1..1293
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="seedling root"
+     gene            1..1293
+                     /gene="KOB1"
+     CDS             64..1044
+                     /gene="KOB1"
+                     /codon_start=1
+                     /product="potassium channel beta subunit protein"
+                     /protein_id="AAC50046.1"
+                     /db_xref="GI:1197587"
+                     /translation="MQYKNLGRSGLRVSQLSYGAWVTFGNQLDVKEAKALLQACRDAG
+                     VNFFDNAEVYANGRAEEIMGQAMRDLGWRRSDVVSPPSSSWECRAQRQGPLPEAHRRG
+                     PPRLAQGPRHGLRDVVYCHRPDATTPVEETVRAMNWVIDTAWLLLGHLRVVAQQITEA
+                     WSVANRLDLVGPIVEQPEYNLFSRHKVESEFLPLYSTYGLGLTTWSPLASGVLTGKYA
+                     KGNIPADSRFALENYKNLANRSLVDDTLRKVNGLKPIASELGVSLAQLAIAWCASNPN
+                     VSSVITGATKENQIVENMKALDVIPLLTPEVVDKIEAVVQSKPKRTESYR"
+ORIGIN      
+        1 aaaccaacct caccgtcgac gaggaagaag gcggcggcgg cggcggaggc gaaggcggcg
+       61 aagatgcagt acaagaacct ggggaggtcg gggctgcggg tgagccagct gtcgtacggg
+      121 gcgtgggtta cgttcggcaa ccagctggac gtgaaggagg cgaaggcgct gctccaggcg
+      181 tgccgcgacg ccggcgtgaa cttcttcgac aacgccgagg tgtacgcgaa cgggcgcgcc
+      241 gaggagatca tggggcaggc gatgcgggac ctcgggtggc gccgctccga cgtcgtgtct
+      301 ccaccaagct cttcttggga gtgcagggcc caacgacaag ggcctctccc ggaagcacat
+      361 cgtcgagggc ctccgcggct cgctcaaggc cctcgacatg gactacgtga cgtcgtctac
+      421 tgccaccgcc ccgacgccac cacccccgtg gaggagaccg tgcgcgccat gaactgggtc
+      481 atcgacacgg catggcttct actggggcac ctccgagtgg tcgcccagca gatcaccgag
+      541 gcgtggagcg tcgccaaccg cctcgacctc gtcggaccca tcgtcgaaca gcctgagtac
+      601 aacctcttct cgcgccacaa ggtggaatct gagttcttac ctctttacag cacgtatggc
+      661 ctgggtttga ctacatggag ccctctagct tcgggagttc tcactggaaa gtatgccaaa
+      721 ggaaatatac ctgctgatag taggtttgcc ctagaaaatt acaagaacct ggccaacaga
+      781 tctctggttg acgacacact gagaaaggtg aatgggctaa aaccaattgc ttctgagctt
+      841 ggtgtttcgt tagcccaact tgctatcgcg tggtgcgcat cgaacccaaa cgtctcatct
+      901 gtgatcactg gagccacaaa agaaaaccag attgttgaaa acatgaaggc cctcgatgtc
+      961 attccgctgc taaccccaga agtcgtcgac aagatcgaag cggtggtcca aagcaagccg
+     1021 aagcgcaccg agtcatacag atgaagcggt acagggggtg tgcagagtgt gctccaggga
+     1081 tttcaggatt taccggtggg attcttttag acgatattat tatcttccat tgtcttatgt
+     1141 ttggaagctg ctttatgtgc ccgcgtttgt gtagttggga aatggtgtcc agtggtactc
+     1201 tgctctatat acattttgtc atgtggacca ctcagttgtt gctgtcggtg atatatacct
+     1261 tggtcttttc cgtgtgcaaa aaaaaaaaaa aaa
+//
+

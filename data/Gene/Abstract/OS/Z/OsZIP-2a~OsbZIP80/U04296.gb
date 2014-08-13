@@ -1,0 +1,53 @@
+LOCUS       OSU04296                 375 bp    mRNA    linear   PLN 06-DEC-1996
+DEFINITION  Oryza sativa Nipponbare bZIP DNA-binding factor (osZIP-2a) mRNA,
+            partial cds.
+ACCESSION   U04296
+VERSION     U04296.1  GI:435943
+KEYWORDS    DNA-binding factor, leucine zipper.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 375)
+  AUTHORS   Nantel,A. and Quatrano,R.S.
+  TITLE     Characterization of three rice basic/leucine zipper factors,
+            including two inhibitors of EmBP-1 DNA binding activity
+  JOURNAL   J. Biol. Chem. 271 (49), 31296-31305 (1996)
+   PUBMED   8940135
+REFERENCE   2  (bases 1 to 375)
+  AUTHORS   Nantel,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-DEC-1993) Andre Nantel, Biology, University of North
+            Carolina, Coker Hall, Chapel Hill, NC 27599-3280, USA
+FEATURES             Location/Qualifiers
+     source          1..375
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="pE3-1"
+                     /cell_line="Rice suspension cell culture"
+                     /clone_lib="Lambda ZAP cDNA library of ABA-treated cells"
+                     /dev_stage="embryonic"
+     gene            1..375
+                     /gene="osZIP-2a"
+     CDS             3..>375
+                     /gene="osZIP-2a"
+                     /codon_start=1
+                     /product="DNA-binding factor of bZIP class"
+                     /protein_id="AAC49557.1"
+                     /db_xref="GI:435944"
+                     /translation="MASTRLSLELGKVGIQSSPPCSSSSSAGHPAMQPAAAATAAPGY
+                     GPRPRHMLTEAEKEAKRLRRVLANRESARKTILRRQAIRDELARKVADLSSQNETMKK
+                     EKDVVMQEYLSLKETNKQLKEQ"
+ORIGIN      
+        1 agatggcgag cacgaggctg agcctcgagc tggggaaggt cggaatccag tcgtcgccgc
+       61 catgctccag cagctcaagc gccggccacc ccgcgatgca gcccgccgcc gcggccacgg
+      121 cggcgccggg ctacggcccc aggccacgcc acatgctcac cgaggccgag aaggaggcga
+      181 agcgtctccg gcgagtgctc gccaaccggg aatccgcccg gaaaaccatc ctccgccgcc
+      241 aggcgatccg agatgaattg gcaagaaaag ttgcagattt gtcgtcgcag aacgagacca
+      301 tgaaaaagga gaaggacgtg gtgatgcagg agtatctctc actgaaggag acaaacaagc
+      361 agctgaaaga acagg
+//
+

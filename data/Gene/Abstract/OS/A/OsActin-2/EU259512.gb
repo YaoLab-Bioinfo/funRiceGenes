@@ -1,0 +1,53 @@
+LOCUS       EU259512                1008 bp    DNA     linear   SYN 28-APR-2009
+DEFINITION  Expression vector pOsAct2-1 modified actin 2 promoter region.
+ACCESSION   EU259512
+VERSION     EU259512.1  GI:169160454
+KEYWORDS    .
+SOURCE      Expression vector pOsAct2-1
+  ORGANISM  Expression vector pOsAct2-1
+            other sequences; artificial sequences; vectors.
+REFERENCE   1  (bases 1 to 1008)
+  AUTHORS   He,C., Lin,Z., McElroy,D. and Wu,R.
+  TITLE     Identification of a rice actin2 gene regulatory region for
+            high-level expression of transgenes in monocots
+  JOURNAL   Plant Biotechnol. J. 7 (3), 227-239 (2009)
+   PUBMED   19215594
+REFERENCE   2  (bases 1 to 1008)
+  AUTHORS   He,C., Lin,Z. and Wu,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-NOV-2007) Molecular Biology and Genetics, Cornell
+            University, 317 Biotech. Bldg., Ithaca, NY 14853, USA
+FEATURES             Location/Qualifiers
+     source          1..1008
+                     /organism="Expression vector pOsAct2-1"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:507491"
+     promoter        1..1008
+                     /note="modified Oryza sativa actin 2 promoter"
+     CAAT_signal     159..162
+     CAAT_signal     346..349
+     TATA_signal     760..766
+     5'UTR           794..851
+                     /note="derived from Oryza sativa actin 2"
+     misc_feature    852..1000
+                     /note="corresponds to Oryza sativa actin 2 intron 1"
+ORIGIN      
+        1 ggatcctcca tgcctacatc aactaatttg attccttgag tttacgttta gtgatatgtc
+       61 tatttttaga gcttgttggg gcttcggcct cagctctagc cagccaaaca tgttctacca
+      121 agtaccctat gttggcatga tatagtgatg cattataaca ataaatgagc gagggattgc
+      181 tggctgaaaa agctatacta gctgcatttg gttatagtta accgaactat taattgcgtg
+      241 tacaacaaaa taaaaaaaat gcatgttgca cattctttca ttaacattat gttttggtag
+      301 tgtgaattag aaatttgatt gacagtagat cgacaaacat agtttcaata tgcttaagtt
+      361 agttatgact ttaacatatc agtctccttg atattttcgt tttagattcg tctctctact
+      421 agtgtgtatg tccaccttcc atagcagtga gggttccatt ccatccctgt aaaaaaaaat
+      481 caaccactac tatttatttc taaaagcaaa atgataaaat atcatttttt taatagaata
+      541 agaaagtatt gggtacatag tgatgtgcac gtaggagtaa acataaaaaa ggcagatttt
+      601 ctaggttggc ccaggtgtgc agtgcagcaa attattccgc gttggcacgg ccgcagcgca
+      661 gagacagcct caagctctca actttccagt gaggccggcg cctctttaca tctcattccc
+      721 ccaatttccc accaccatcg ccattgccac cacctctcct atatctcgcc ctccccctcc
+      781 tccctcccac gccattcgcc tccttcttgc tgcagccgcc atccccggtt cggttctctc
+      841 ctcttcttta ggtgagcaac tgcctctcca tgtccaggcc ctcccggcag ggaagactcg
+      901 tgtttttgta ggatgaatgt ttagttcaag ttacattttt ctgtattaat ctatagtctt
+      961 tgtaaacact gttttgaatg atttattttg tgttatgcag atcagtta
+//
+

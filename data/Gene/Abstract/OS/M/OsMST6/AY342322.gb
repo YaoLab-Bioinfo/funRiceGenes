@@ -1,0 +1,83 @@
+LOCUS       AY342322                1590 bp    mRNA    linear   PLN 05-AUG-2008
+DEFINITION  Oryza sativa (japonica cultivar-group) monosaccharide transporter 6
+            (MST6) mRNA, complete cds.
+ACCESSION   AY342322
+VERSION     AY342322.1  GI:33694267
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1590)
+  AUTHORS   Wang,Y., Xiao,Y., Zhang,Y., Chai,C., Wei,G., Wei,X., Xu,H.,
+            Wang,M., Ouwerkerk,P.B. and Zhu,Z.
+  TITLE     Molecular cloning, functional characterization and expression
+            analysis of a novel monosaccharide transporter gene OsMST6 from
+            rice (Oryza sativa L.)
+  JOURNAL   Planta 228 (4), 525-535 (2008)
+   PUBMED   18506478
+REFERENCE   2  (bases 1 to 1590)
+  AUTHORS   Wang,Y.-Q. and Zhu,Z.
+  TITLE     Characterization of two rice monosaccharide transporter genes
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1590)
+  AUTHORS   Wang,Y.-Q. and Zhu,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2003) Institute of Genetics and Developmental
+            Biology, Datun Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..1590
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..1590
+                     /gene="MST6"
+                     /note="OsMST6"
+     CDS             1..1590
+                     /gene="MST6"
+                     /note="hexose transporter"
+                     /codon_start=1
+                     /product="monosaccharide transporter 6"
+                     /protein_id="AAQ24872.1"
+                     /db_xref="GI:33694268"
+                     /translation="MAGGVVVNNGGGKDYPGKLTMFVLFACIVAATGGLIFGYDIGIS
+                     GGVTSMNPFLIKFFPSVYRKEQAAEKNQSNQYCKFDSPLLTMFTSSLYLAALVASFFA
+                     STVTRVAGRKWSMFGGGVTFLVGAALNGAAKNVLMLILGRVLLGVGVGFANQSVPLYL
+                     SEMAPARLRGMLNIGFQLMITIGILCANLINYGTAKIKGGWGWRVSLALAAVPAAIIA
+                     VGALFLPDTPNSLIDRGHTDAAKRMLRRVRGTDDIEEEYNDLVAASEESKLVAHPWRN
+                     ILQRRYRPQLTMAIAIPLFQQLTGINVIMFYAPVLFKTLGFADDASLMSAVITGLVNV
+                     FATFVSIVTVDRLGRRKLFLQGGTQMLACQIVVGGLIGAEFGFSGVADIPKAYAAFVV
+                     LFICAYVAGFAWSWGPLGWLVPSEIFPLEIRSAGQSINVSVNMLFTFIIAQAFLPMLC
+                     RFKFILFFFGAWVVIMTLFVAFFLPETKNVPIEEMVLVWKSHWYWGRFIRDEDVHVGA
+                     DVEMPAAGNRNGKVDPAKLAN"
+ORIGIN      
+        1 atggccggcg gcgtggtggt gaacaacgga ggggggaagg actaccccgg gaagctcacc
+       61 atgttcgtcc tcttcgcctg catcgtcgca gccaccggcg gcctcatctt cggatatgac
+      121 atcggcatct ccgggggtgt gacgtcgatg aacccgttcc tgatcaagtt cttcccgtcg
+      181 gtgtaccgga aggagcaggc ggcggagaag aaccagagca accagtactg caagttcgac
+      241 agcccgctgc tgaccatgtt cacctcgtcg ctctacctcg ccgcgctcgt cgcctccttc
+      301 ttcgcgtcca ccgtcacccg cgtcgcgggg cgcaagtggt ccatgttcgg cggcggcgtc
+      361 accttcctcg tcggcgccgc gctcaacggc gccgccaaga acgtgctcat gctcatcctc
+      421 ggccgcgtcc tcctcggtgt cggcgtcggc ttcgccaacc agtctgtgcc gctgtacctg
+      481 tcggagatgg cgccggcgag gctgcgcggg atgctcaaca tcgggttcca gctgatgatc
+      541 accattggca tcctgtgcgc caacctgatc aactacggga ctgccaagat caagggcggg
+      601 tgggggtggc gcgtgagcct ggcgctggcg gcggtgccgg cggcgatcat cgccgtgggc
+      661 gcgctcttcc tccctgacac gcccaactcc ctcatcgacc gcggccacac cgacgccgcc
+      721 aagcgcatgc tccggcgcgt gcgcggcacc gacgacatcg aggaggagta caacgacctg
+      781 gtggccgcca gcgaggagtc caagctcgtg gcgcacccgt ggcggaacat cctccagcgc
+      841 cggtacaggc cgcagctgac catggccatc gccatcccgc tgttccagca gctgacgggg
+      901 atcaacgtca tcatgttcta cgcgccggtg ctgttcaaga cgctgggatt cgccgacgac
+      961 gcgtccctca tgtccgccgt gatcaccggc ctcgtgaacg tcttcgccac cttcgtgtcc
+     1021 atcgtgaccg tcgaccgcct cggccgccgg aagctgttcc tccagggcgg gacgcagatg
+     1081 ctggcgtgcc agatcgtcgt cggaggcctc atcggcgccg agttcgggtt ctccggcgtg
+     1141 gccgacatcc ccaaggcata cgcggcgttc gtggtgctct tcatctgcgc ctacgtcgcc
+     1201 gggttcgcgt ggtcgtgggg gcccctgggc tggctcgtcc ccagcgagat cttcccgctg
+     1261 gagatcaggt cggcggggca gagcatcaac gtgtcggtga acatgctctt caccttcatc
+     1321 atcgcgcagg cgttcctccc catgctctgc cgcttcaagt tcatcctctt cttcttcggc
+     1381 gcgtgggtgg tgatcatgac gctgttcgtc gccttcttcc tgccggagac caagaacgtg
+     1441 cccatcgagg agatggtgct cgtctggaag tcgcactggt actggggcag gttcatccgc
+     1501 gacgaggacg tgcacgtcgg cgccgatgtc gagatgcccg ccgccggcaa ccgcaacggc
+     1561 aaggtcgacc cggccaagct cgccaactga
+//
+

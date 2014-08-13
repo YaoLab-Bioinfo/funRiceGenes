@@ -1,0 +1,92 @@
+LOCUS       AB190923                2019 bp    mRNA    linear   PLN 14-MAR-2009
+DEFINITION  Oryza sativa Japonica Group osysl15 mRNA for
+            iron(III)-deoxymugineic acid transporter, complete cds.
+ACCESSION   AB190923
+VERSION     AB190923.1  GI:90265692
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Inoue,H., Kobayashi,T., Nozoye,T., Takahashi,M., Kakei,Y.,
+            Suzuki,K., Nakazono,M., Nakanishi,H., Mori,S. and Nishizawa,N.K.
+  TITLE     Rice OsYSL15 is an iron-regulated iron(III)-deoxymugineic acid
+            transporter expressed in the roots and is essential for iron uptake
+            in early growth of the seedlings
+  JOURNAL   J. Biol. Chem. 284 (6), 3470-3479 (2009)
+   PUBMED   19049971
+REFERENCE   2  (bases 1 to 2019)
+  AUTHORS   Nishizawa,N.K. and Koike,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-2004) Contact:Naoko Kishi Nishizawa Graduate
+            School of Agricultural and Life Science, University of Tokyo,
+            Laboratory of Plant Biotechnology; 1-1-1, Yayoi, Bunkyo-ku, Tokyo
+            113-8657, Japan URL
+            :http://cherry.ga.a.u-tokyo.ac.jp/lab/nisizawa_lab/ index_eg.html
+FEATURES             Location/Qualifiers
+     source          1..2019
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..2019
+                     /gene="osysl15"
+     CDS             1..2019
+                     /gene="osysl15"
+                     /note="Oryza sativa iron-phytosiderophore transporter
+                     protein YS1-like (YSL)"
+                     /codon_start=1
+                     /product="iron(III)-deoxymugineic acid transporter"
+                     /protein_id="BAE91893.1"
+                     /db_xref="GI:90265693"
+                     /translation="MEHADADRTRVAPEIGSLHDEDAEADPARAREMERLQPWREQVT
+                     ARGVVAAALIGFVFSVIVMKIALTTGLVPTLNISAALLAFLALRGWTRALERLGFSPR
+                     PFTRQENTVVQTCAVACYTIAFGGGFGSTLLGLNKRTYELAGNSPGNVPGSYKEPGIG
+                     WMVGLLLAISFAGNLSLIPLRKALVVDYKLTYPSGTATAVLINGFHTAQGDKNAKLQL
+                     HGFLKYFGLSLFWSFFQWFYTGGNACGFVQFPTFGLKAWKQSFFFDFSLTYVGAGMIC
+                     SHLVNLSTLLGAVISWGIMWPLISKHKGDWYPANIPESSMTSLYGYKSFLCIALIMGD
+                     GLYHFVKVTGVTAKSLHNRFNRKSVSNTASEEGDMVSLDDLQRDEVFKRGTVPSWMAY
+                     SGYFLLSIIAVITIPIMFRQVKWYYVIIAYALGPVLGFANSYGAGLTDINMGYNYGKI
+                     ALFVFAAWAGKDNGVIAGLVVGTLVKQLVLVSADLMHDLKTGHLTLTSPRSMLVGELI
+                     GTGIGCFIAPLTFMLFYRAFDIGNPDGYWKAPYALIYRNMAILGIEGISALPKHCLSL
+                     SVGFFAFAVLTNVARDALPARYKKLVPLPTAMAVPFLVGASFAIDMCVGSLVLFAWNK
+                     MNKKEAAFMVPAVASGLMCGDGIWTFPSSILALAKIKPPICMKFTPGS"
+ORIGIN      
+        1 atggagcacg ccgacgcgga ccgcacgcgg gtggcgcccg agatcgggag cctgcacgac
+       61 gaggacgcgg aggcggaccc ggcgcgggcg cgggagatgg agcggctgca gccgtggcgg
+      121 gagcaggtga cggcgcgcgg ggtggtggcg gcggcgctga tcgggttcgt gttcagcgtc
+      181 atcgtgatga agatcgcgct caccacgggg ctggtgccca cgctcaacat ctccgccgcg
+      241 ctgctcgcct tcctcgcgct ccgcggctgg acgcgcgcgc tggagcgcct cggcttctcg
+      301 ccgcggccct tcacgcggca ggagaacacc gtcgtccaga cctgcgccgt cgcctgctac
+      361 accatagcct tcggcggtgg gttcggatcg acattgctgg gcctgaacaa gaggacgtac
+      421 gagctggccg ggaactcacc aggcaatgtg ccagggagct ataaggagcc tgggattggc
+      481 tggatggtag ggctcctcct ggctattagc ttcgcgggta acctcagctt gattccccta
+      541 agaaaggctt tggtcgtaga ctacaaatta acttatccaa gtggaactgc aacagctgtt
+      601 cttatcaacg ggttccacac agcccaagga gataagaatg caaaattgca actccatggg
+      661 tttctaaaat attttgggct tagcttattt tggagcttct tccaatggtt ctacacggga
+      721 ggcaatgcct gtggatttgt tcagttccct acttttggtc tgaaagcctg gaaacaatca
+      781 ttcttctttg attttagcct cacatatgtt ggtgcgggga tgatttgctc acaccttgtg
+      841 aacctctcta ccctccttgg tgcggtcatt tcatggggaa taatgtggcc acttatcagc
+      901 aaacataagg gggactggta ccctgcaaac atacctgaaa gcagcatgac aagtttgtat
+      961 ggttacaagt cgtttttatg cattgctctg attatggggg atggcctgta ccattttgtt
+     1021 aaagttaccg gtgtcactgc taagagttta cataatagat ttaaccgaaa aagcgttagc
+     1081 aacacagcat cagaggaggg tgatatggtt tcattagatg atctacaacg tgatgaggta
+     1141 ttcaagaggg gtactgtccc ttcttggatg gcatacagtg gttacttctt gctaagcatc
+     1201 attgcggtaa tcaccatacc gataatgttt cgacaagtga agtggtacta cgtgatcata
+     1261 gcctacgcgc tcggcccggt gctaggattc gccaattcct acggagcagg gctcacggac
+     1321 atcaacatgg ggtacaacta cggcaagatc gctctcttcg tctttgcagc ttgggctggc
+     1381 aaggacaatg gcgtcatagc cggccttgtg gttggcaccc tggtgaagca gctggtgctc
+     1441 gtctctgccg atctgatgca cgatctcaag acgggacatc tcaccttgac atcgccgagg
+     1501 tccatgctcg tgggagagct catcgggaca ggcattggct gcttcatcgc gccactgacg
+     1561 ttcatgctgt tctacagggc gtttgacatc gggaaccccg atggctactg gaaggcgcca
+     1621 tacgcgctga tctaccgcaa catggcgatc ctcgggatcg agggcatctc ggcgctgccc
+     1681 aagcactgcc tctcgctctc cgtcgggttc ttcgcgttcg ccgtgctcac gaacgtggcg
+     1741 agggacgccc tgccggcgag gtacaagaag ctcgtgccgc tgccgacggc gatggccgtg
+     1801 ccgttcctcg taggggcgag cttcgccatc gacatgtgcg tcgggagcct ggtgctgttt
+     1861 gcttggaaca agatgaacaa gaaggaggct gccttcatgg tgcctgctgt tgcgtctggg
+     1921 ctcatgtgtg gcgatggcat ttggaccttc ccttcttcta tccttgctct cgctaagatt
+     1981 aagccaccga tctgcatgaa gtttacgcct ggaagctaa
+//
+

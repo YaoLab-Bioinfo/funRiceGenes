@@ -1,0 +1,61 @@
+LOCUS       EU443151                 792 bp    mRNA    linear   PLN 10-SEP-2009
+DEFINITION  Oryza sativa Japonica Group stamenless 1 mRNA, complete cds.
+ACCESSION   EU443151
+VERSION     EU443151.1  GI:169135754
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 792)
+  AUTHORS   Xiao,H., Tang,J., Li,Y., Wang,W., Li,X., Jin,L., Xie,R., Luo,H.,
+            Zhao,X., Meng,Z., He,G. and Zhu,L.
+  TITLE     STAMENLESS 1, encoding a single C2H2 zinc finger protein, regulates
+            floral organ identity in rice
+  JOURNAL   Plant J. 59 (5), 789-801 (2009)
+   PUBMED   19453444
+REFERENCE   2  (bases 1 to 792)
+  AUTHORS   Xiao,H., Tang,J., Wang,W., Li,X., Jin,L. and Zhu,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-FEB-2008) The State Key Lab of Plant Genomics,
+            Institute of Genetics and Developmental Biology, Chinese Academy of
+            Sciences, Datun Road, Chaoyang District, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..792
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Jingxi 17"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+                     /map="between S13774 and R753"
+     CDS             1..792
+                     /note="transcription factor; SL1; loss-of-function
+                     mutation of stamenless results in massive carpels;
+                     C2H2-type zinc finger protein"
+                     /codon_start=1
+                     /product="stamenless 1"
+                     /protein_id="ACA48519.1"
+                     /db_xref="GI:169135755"
+                     /translation="MNSSRRQEGSPLDLNNLPDEFGKQTVESSTTTAASSAEASRVTK
+                     KKSNGGKDEAGKVYECRFCSLKFCKSQALGGHMNRHRQERETETLNRARQLVFGNDSL
+                     AAVGAQLNFRDVNMGGGGAAAPPPTMQMGGGGFRGGGVGGDPCIPLRPVQPRLSPPQP
+                     PPYHHYLYTTTAPPSALHPMSYPATYPAPPRHQQPAAVGDYVIGHAVSAGDALVAPPP
+                     PPHRASFSCFGAPLAAPPANVQPDNGNCNCSFGCGHSNRNVNAAS"
+ORIGIN      
+        1 atgaactcat caaggagaca agaagggagc cccctggacc tgaacaacct gccggatgag
+       61 ttcggcaagc aaacggtgga gagctcaacg accaccgccg catccagcgc cgaagcatcc
+      121 agggttacta agaagaagag taatggaggg aaggatgaag ctggcaaggt gtacgagtgt
+      181 aggttctgct ccctcaagtt ctgcaaatct caagcgctgg gtggccacat gaatcgccac
+      241 cgccaagaga gggagaccga aaccctcaac cgcgccaggc agctcgtctt cggcaacgac
+      301 agcctcgccg ccgtcggcgc acagctcaat ttcagggatg tgaacatggg aggaggcggc
+      361 gccgctgctc ctccaccgac gatgcagatg ggaggaggag gcttccgggg aggcggtgtc
+      421 ggcggcgacc cgtgcatccc gctccggccg gtgcagccac ggctgtcgcc gccgcagccg
+      481 ccgccgtacc accactacct ctacacgacg acggcgccgc cgtccgcctt gcacccgatg
+      541 agctacccgg cgacgtaccc ggccccgccg cgccaccagc agccggcggc ggtcggcgac
+      601 tacgtcatcg gccacgccgt ctccgccggc gacgcgctgg tggccccgcc gccgccgccg
+      661 caccgcgcca gcttctcctg cttcggggcg ccgctcgccg cgccgccggc gaacgtgcag
+      721 cccgacaacg gcaactgcaa ctgcagcttc gggtgcggcc acagcaacag gaacgtgaac
+      781 gccgcctcct ga
+//
+

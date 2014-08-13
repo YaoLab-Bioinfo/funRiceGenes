@@ -1,0 +1,214 @@
+LOCUS       NTRA_ORYSJ               368 aa            linear   PLN 14-MAY-2014
+DEFINITION  RecName: Full=Thioredoxin reductase NTRA; AltName:
+            Full=NADPH-dependent thioredoxin reductase A; Short=OsNTRA.
+ACCESSION   Q69PS6
+VERSION     Q69PS6.2  GI:298351827
+DBSOURCE    UniProtKB: locus NTRA_ORYSJ, accession Q69PS6;
+            class: standard.
+            extra accessions:Q0DCH8
+            created: Jun 15, 2010.
+            sequence updated: Jun 15, 2010.
+            annotation updated: May 14, 2014.
+            xrefs: AP005477.3, BAD33510.1, AP008212.2, BAF19445.1,
+            NP_001057531.1
+            xrefs (non-sequence databases): UniGene:Os.9453,
+            ProteinModelPortal:Q69PS6, STRING:39947.LOC_Os06g22140.1,
+            GeneID:4340912, KEGG:osa:4340912, Gramene:Q69PS6, eggNOG:COG0492,
+            KO:K00384, OMA:PKTDLFK, GO:0005737, GO:0050660, GO:0004791,
+            GO:0019430, InterPro:IPR013027, InterPro:IPR008255,
+            InterPro:IPR023753, InterPro:IPR001327, InterPro:IPR000103,
+            InterPro:IPR005982, Pfam:PF00070, Pfam:PF07992, PRINTS:PR00368,
+            PRINTS:PR00469, TIGRFAMs:TIGR01292, PROSITE:PS00573
+KEYWORDS    Complete proteome; Disulfide bond; Electron transport; FAD;
+            Flavoprotein; NADP; Oxidoreductase; Redox-active center; Reference
+            proteome; Transport.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 368)
+  CONSRTM   International Rice Genome Sequencing Project
+  TITLE     The map-based sequence of the rice genome
+  JOURNAL   Nature 436 (7052), 793-800 (2005)
+   PUBMED   16100779
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   2  (residues 1 to 368)
+  AUTHORS   Tanaka,T., Antonio,B.A., Kikuchi,S., Matsumoto,T., Nagamura,Y.,
+            Numa,H., Sakai,H., Wu,J., Itoh,T., Sasaki,T., Aono,R., Fujii,Y.,
+            Habara,T., Harada,E., Kanno,M., Kawahara,Y., Kawashima,H.,
+            Kubooka,H., Matsuya,A., Nakaoka,H., Saichi,N., Sanbonmatsu,R.,
+            Sato,Y., Shinso,Y., Suzuki,M., Takeda,J., Tanino,M., Todokoro,F.,
+            Yamaguchi,K., Yamamoto,N., Yamasaki,C., Imanishi,T., Okido,T.,
+            Tada,M., Ikeo,K., Tateno,Y., Gojobori,T., Lin,Y.C., Wei,F.J.,
+            Hsing,Y.I., Zhao,Q., Han,B., Kramer,M.R., McCombie,R.W.,
+            Lonsdale,D., O'Donovan,C.C., Whitfield,E.J., Apweiler,R.,
+            Koyanagi,K.O., Khurana,J.P., Raghuvanshi,S., Singh,N.K.,
+            Tyagi,A.K., Haberer,G., Fujisawa,M., Hosokawa,S., Ito,Y., Ikawa,H.,
+            Shibata,M., Yamamoto,M., Bruskiewich,R.M., Hoen,D.R., Bureau,T.E.,
+            Namiki,N., Ohyanagi,H., Sakai,Y., Nobushima,S., Sakata,K.,
+            Barrero,R.A., Sato,Y., Souvorov,A., Smith-White,B., Tatusova,T.,
+            An,S., An,G., OOta,S., Fuks,G., Fuks,G., Messing,J., Christie,K.R.,
+            Lieberherr,D., Kim,H., Zuccolo,A., Wing,R.A., Nobuta,K.,
+            Green,P.J., Lu,C., Meyers,B.C., Chaparro,C., Piegu,B., Panaud,O.
+            and Echeverria,M.
+  CONSRTM   Rice Annotation Project
+  TITLE     The Rice Annotation Project Database (RAP-DB): 2008 update
+  JOURNAL   Nucleic Acids Res. 36 (DATABASE ISSUE), D1028-D1033 (2008)
+   PUBMED   18089549
+  REMARK    GENOME REANNOTATION.;
+            STRAIN=cv. Nipponbare
+COMMENT     On or before Jun 15, 2010 this sequence version replaced
+            gi:122168296, gi:75118534.
+            [FUNCTION] Possesses thioredoxin-disulfide reductase activity (By
+            similarity).
+            [CATALYTIC ACTIVITY] Thioredoxin + NADP(+) = thioredoxin disulfide
+            + NADPH.
+            [COFACTOR] Binds 1 FAD per subunit (By similarity).
+            [SUBUNIT] Homodimer (By similarity).
+            [MISCELLANEOUS] The active site is a redox-active disulfide bond
+            (By similarity).
+            [SIMILARITY] Belongs to the class-II pyridine nucleotide-disulfide
+            oxidoreductase family.
+            [SEQUENCE CAUTION] Sequence=BAD33510.1; Type=Erroneous initiation;
+            Note=Translation N-terminally extended; Sequence=BAF19445.1;
+            Type=Erroneous gene model prediction.
+FEATURES             Location/Qualifiers
+     source          1..368
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+     gene            1..368
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+     Protein         1..368
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /product="Thioredoxin reductase NTRA"
+                     /EC_number="1.8.1.9"
+                     /note="NADPH-dependent thioredoxin reductase A; OsNTRA"
+                     /UniProtKB_evidence="Inferred from homology"
+     Region          1..368
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Thioredoxin reductase NTRA. /FTId=PRO_0000394857."
+     Region          50..357
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /region_name="TRX_reduct"
+                     /note="thioredoxin-disulfide reductase; TIGR01292"
+                     /db_xref="CDD:233345"
+     Site            55..58
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="np-binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            76..77
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="np-binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            84..89
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="np-binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            98
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            131
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD; via amide nitrogen and carbonyl oxygen (By
+                     similarity)."
+     Bond            bond(182,185)
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /bond_type="disulfide"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Redox-active (By similarity)."
+     Site            185
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Region          197..262
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /region_name="Pyr_redox"
+                     /note="Pyridine nucleotide-disulphide oxidoreductase;
+                     pfam00070"
+                     /db_xref="CDD:249559"
+     Site            206
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="other"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Important for activity (By similarity)."
+     Site            225
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="other"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Important for activity (By similarity)."
+     Site            330
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            337..339
+                     /locus_tag="Os06g0327300"
+                     /gene_synonym="LOC_Os06g22140"
+                     /gene_synonym="OSJNBb0039F24.13"
+                     /site_type="np-binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+ORIGIN      
+        1 mrlcsklaal lrrsrqfapa aaaasgsata aaasangmee aaagplrarv ciigsgpaah
+       61 taavyaarae lkpvlfegfl andiaaggql ttttdvenfp gfpdgilgad lmdrcraqsv
+      121 rfgtriltet vtavdlssrp frvasgdtvv hadavvvatg avarrlhfag sdafwnrgis
+      181 acavcdgaap ifrnkpiavv gggdsameea nfltkygsrv yiihrrnafr askimqaral
+      241 snpkiqvvwd sevveaygga dggplagvkv knvvsgevsd lqvaglffai ghepatkflg
+      301 gqleldsdgy vvtkpgstht svkgvfaagd vqdkkyrqai taagsgcmaa ldaehylqei
+      361 gaqedktd
+//
+

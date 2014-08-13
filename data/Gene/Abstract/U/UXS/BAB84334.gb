@@ -1,0 +1,77 @@
+LOCUS       BAB84334                 350 aa            linear   PLN 15-FEB-2008
+DEFINITION  UDP-glucuronic acid decarboxylase [Oryza sativa Japonica Group].
+ACCESSION   BAB84334
+VERSION     BAB84334.1  GI:18447934
+DBSOURCE    accession AB079064.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Suzuki,K., Suzuki,Y. and Kitamura,S.
+  TITLE     Cloning and expression of a UDP-glucuronic acid decarboxylase gene
+            in rice
+  JOURNAL   J. Exp. Bot. 54 (389), 1997-1999 (2003)
+   PUBMED   12815035
+REFERENCE   2  (residues 1 to 350)
+  AUTHORS   Suzuki,K. and Kitamura,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2002) Contact:Shinichi Kitamura Osaka Prefecture
+            University, Graduate School of Agriculture and Biological Sciences;
+            Gakuen-cho 1-1, Sakai, Osaka 599-8531, Japan URL
+            :http://www.biochem.osakafu-u.ac.jp/MAIN-E.html
+FEATURES             Location/Qualifiers
+     source          1..350
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="immature seed"
+                     /country="Japan: Kyoto, Shimogamo"
+     Protein         1..350
+                     /product="UDP-glucuronic acid decarboxylase"
+     Region          36..343
+                     /region_name="WcaG"
+                     /note="Nucleoside-diphosphate-sugar epimerases [Cell
+                     envelope biogenesis, outer membrane / Carbohydrate
+                     transport and metabolism]; COG0451"
+                     /db_xref="CDD:223528"
+     Region          36..339
+                     /region_name="UGD_SDR_e"
+                     /note="UDP-glucuronate decarboxylase (UGD) and related
+                     proteins, extended (e) SDRs; cd05230"
+                     /db_xref="CDD:187541"
+     Site            order(41,43..46,66..71,90..92,106..110,125,147..149,178,
+                     182,205..208,219)
+                     /site_type="other"
+                     /note="NAD binding site [chemical binding]"
+                     /db_xref="CDD:187541"
+     Site            order(95..96,131..132,135..136,138..139,192)
+                     /site_type="other"
+                     /note="putative substrate binding site 2 [chemical
+                     binding]"
+                     /db_xref="CDD:187541"
+     Site            order(112,175,207,218..220,223..224,235..237,242,244,278,
+                     304,308)
+                     /site_type="other"
+                     /note="putative substrate binding site 1 [chemical
+                     binding]"
+                     /db_xref="CDD:187541"
+     Site            order(126,149,178,182)
+                     /site_type="active"
+                     /db_xref="CDD:187541"
+     CDS             1..350
+                     /gene="UXS-3"
+                     /coded_by="AB079064.1:1..1053"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+ORIGIN      
+        1 maqkeangss ngehttrppp tpsplrfskf fqanlrilvt ggagfigshl vdklmenekh
+       61 evivadnfft gskdnlkkwi ghprfelirh dvtqpllvev dqiyhlacpa spifykhnpv
+      121 ktiktnvigt lnmlglakrv garilltsts evygdplehp qteaywgnvn pigvrscyde
+      181 gkrvaetlmf dyhrqhgiei riarifntyg prmniddgrv vsnfiaqavr gepltvqkpg
+      241 tqtrsfcyva dmvngliklm ngdntgpinl gnpgeftmle laenvkelin pevtvtmten
+      301 tpddprqrkp ditkakevlg wepkivlrdg lvlmeddfre rlqvpkknqa
+//
+

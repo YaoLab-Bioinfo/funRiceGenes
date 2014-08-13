@@ -1,0 +1,83 @@
+LOCUS       AB004660                2090 bp    mRNA    linear   PLN 30-JUN-1998
+DEFINITION  Oryza sativa mRNA for NLS receptor, complete cds.
+ACCESSION   AB004660
+VERSION     AB004660.1  GI:3273242
+KEYWORDS    NLS receptor.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Shoji,K., Iwasaki,T., Matsuki,R., Miyao,M. and Yamamoto,N.
+  TITLE     Cloning of a cDNA encoding an importin-alpha and down-regulation of
+            the gene by light in rice leaves
+  JOURNAL   Gene 212 (2), 279-286 (1998)
+   PUBMED   9678973
+REFERENCE   2  (bases 1 to 2090)
+  AUTHORS   Yamamoto,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-1997) Naoki Yamamoto, National Institute of
+            Agrobiological Resources, Department of Plant Physiology; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+            (E-mail:naoyam@abr.affrc.go.jp, Tel:+81-298-38-7074,
+            Fax:+81-298-38-7073)
+FEATURES             Location/Qualifiers
+     source          1..2090
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="callus, leaf"
+     CDS             106..1686
+                     /codon_start=1
+                     /product="NLS receptor"
+                     /protein_id="BAA31165.1"
+                     /db_xref="GI:3273243"
+                     /translation="MSLRPSERVEVRRNRYKVAVDAEEGRRRREDNMVEIRKSRREES
+                     LLKKRREGLQAQAPVPASAATGVDKKLESLPAMIGGVYSDDNNLQLEATTQFRKLLSI
+                     ERSPPIEEVIQSGVVPRFVQFLTREDFPQLQFEAAWALTNIASGTSENTKVVIDHGAV
+                     PIFVKLLGSSSDDVREQAVWALGNVAGDSPKCRDLVLANGALLPLLAQLNEHTKLSML
+                     RNATWTLSNFCRGKPQPSFEQTRPALPALARLIHSNDEEVLTDACWALSYLSDGTNDK
+                     IQAVIEAGVCPRLVELLLHPSPSVLIPALRTVGNIVTGDDAQTQCIIDHQALPCLLSL
+                     LTQNLKKSIKKEACWTISNITAGNKDQIQAVINAGIIGPLVNLLQTAEFDIKKEAAWA
+                     ISNATSGGSHDQIKYLVSEGCIKPLCDLLICPDIRIVTVCLEGLENILKVGETDKTLA
+                     AGDVNVFSQMIDEAEGLEKIENLQSHDNNEIYEKAVKILEAYWMDEEDDTMGATTVAA
+                     PQGATFDFGQGGGAAQFK"
+ORIGIN      
+        1 tcctcctccg ccccgacgcc tcgctagggt ttttgcctct ccctccgccg ccgccgctgc
+       61 cgcgaggaga ggaggggggg agagcaccca gccggcgagc cagccatgtc gctgcgcccg
+      121 agcgagcggg tggaggtgcg gcggaaccgc tacaaggtgg cggtggacgc cgaggagggg
+      181 aggcggcggc gcgaggacaa catggtggag atccgcaaga gccgccgcga ggagagcctc
+      241 ctcaagaagc gccgcgaggg gctccaggcc caggcccccg tccccgcctc cgccgcaacc
+      301 ggcgtcgata agaagctcga aagccttcct gctatgattg gtggagttta ttcggacgat
+      361 aacaaccttc agcttgaggc cacaacacag ttccgcaagt tgctttctat agagaggagc
+      421 cctccaattg aagaggttat tcaatcaggc gttgttccta gattcgtgca gtttcttacc
+      481 agagaggatt tcccccagct acagttcgaa gctgcgtggg cacttacaaa cattgcatct
+      541 ggcacttcgg agaatacaaa ggttgtcatt gatcatgggg ctgtaccaat atttgtgaag
+      601 cttcttggtt cttctagtga tgatgttcgt gagcaggctg tatgggcatt gggcaatgtt
+      661 gctggtgatt cccctaagtg ccgtgacctt gttcttgcca atggtgcatt gctgcctctg
+      721 ctagcacagt tgaatgagca cactaaactc tctatgctaa ggaatgcaac ttggacttta
+      781 tcgaacttct gcagaggaaa accacagcca tcatttgaac agactaggcc tgctcttcca
+      841 gcactggcac ggcttattca ctccaatgat gaggaagttc tcactgatgc gtgctgggct
+      901 ctttcatatt tatctgatgg cactaatgac aagatccaag ccgtgattga agctggtgtt
+      961 tgcccccgtc ttgtggagct tctcctccat ccatcacctt cagtgcttat acccgcacta
+     1021 cgaactgttg gaaatattgt aactggagat gacgcgcaaa ctcagtgcat cattgatcat
+     1081 caagccctcc cttgcctcct aagtctgttg acacaaaatc tcaagaaaag catcaagaaa
+     1141 gaggcttgct ggactatttc aaatattact gctggtaaca aagatcagat acaggctgtc
+     1201 ataaatgctg gcattattgg tcctctggtg aatctgctcc aaacggcaga gttcgatatc
+     1261 aagaaggaag ctgcatgggc catctcaaat gctacttcag gcggtagcca tgatcaaatc
+     1321 aagtatctgg tgagcgaggg ctgcatcaag ccattgtgtg atcttcttat ttgcccagat
+     1381 ataagaatcg ttacagtttg tttggagggt ctcgagaaca ttcttaaagt aggagaaacc
+     1441 gacaagacct tggctgcagg tgatgtgaat gtcttttccc agatgattga tgaagcggaa
+     1501 ggtttggaaa agattgagaa cttgcagagc catgataaca atgagatcta tgaaaaagct
+     1561 gtgaagattc ttgaggccta ctggatggat gaggaggatg atacaatggg agctaccacg
+     1621 gtagctgctc cccaaggtgc tacttttgac tttggccaag gcggtggtgc tgctcaattc
+     1681 aaataaatac agatttgacc agaggtggta aattgtggcc actgtgcggg gtactgaatt
+     1741 gttctggtgg ttcaataagc taaaggtttc aagggggcca gtgttacatt atttccctac
+     1801 tggtcacgga tatcatatca ctacgtctgt aacagggatt aaagctttga agtctgcgtt
+     1861 tttcatcagg ctactactat gtagtgtttg catcttttag tatggtgtgc aacattttgc
+     1921 tacttgtata gcctgagtcg aagcttctgc aaagccgtca caacacattc ctgaacccgt
+     1981 ctggttttga gtttcgtcag gagtgtgctg agttgcagtt tgtccggaca tgtaaaccat
+     2041 tatgcctttt aaattatata ttgctagggt ttgttcggtt ctaaaaaaaa
+//
+

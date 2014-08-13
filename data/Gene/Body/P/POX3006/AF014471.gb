@@ -1,0 +1,53 @@
+LOCUS       AF014471                 313 bp    DNA     linear   PLN 27-SEP-1997
+DEFINITION  Oryza sativa peroxidase (POX3006) gene, partial cds.
+ACCESSION   AF014471
+VERSION     AF014471.1  GI:2429293
+KEYWORDS    defense response gene; bacterial blight.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 313)
+  AUTHORS   Chittoor,J.M., Leach,J.E. and White,F.F.
+  TITLE     Differential induction of a peroxidase gene family during infection
+            of rice by Xanthomonas oryzae pv. oryzae
+  JOURNAL   Mol. Plant Microbe Interact. 10 (7), 861-871 (1997)
+   PUBMED   9304860
+REFERENCE   2  (bases 1 to 313)
+  AUTHORS   Chittoor,J.M., Leach,J.E. and White,F.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-1997) Plant Pathology, Kansas State University,
+            Throckmorton Hall, Manhattan, KS 66506, USA
+FEATURES             Location/Qualifiers
+     source          1..313
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /strain="IRBB10"
+                     /db_xref="taxon:39946"
+                     /note="PCR amplified from rice genomic DNA using primers
+                     corresponding to PO-C1, a previously characterized
+                     pathogen-inducible rice peroxidase protein"
+     gene            <1..>313
+                     /gene="POX3006"
+     mRNA            <1..>313
+                     /gene="POX3006"
+                     /product="peroxidase"
+     CDS             <1..>313
+                     /gene="POX3006"
+                     /codon_start=1
+                     /product="peroxidase"
+                     /protein_id="AAC49822.1"
+                     /db_xref="GI:2429294"
+                     /translation="IGQAQCSTFRGRIYNETNIDSAFATQRQANCPRTSGDMNLAPLD
+                     TTTANAFDNAYYTNLLSNKGLLHSDQVLFNNGSTDNTVRNFASNAAAFSSAFATAMVK
+                     RG"
+ORIGIN      
+        1 atcggccagg cgcagtgctc aaccttcagg ggcaggatct acaacgagac caacatcgac
+       61 tcggccttcg cgacgcaacg ccaggccaac tgcccacgga catccggcga catgaacctg
+      121 gcgccgctgg acacgacgac ggcgaacgcg ttcgacaacg cctactacac caacctgctg
+      181 tcgaacaagg gcctcctgca ctcggaccag gtgctcttca acaacggcag cacggacaac
+      241 acggtgagga acttcgcgtc caacgcggcg gcgttcagca gcgccttcgc gacggccatg
+      301 gtgaagaggg gaa
+//
+

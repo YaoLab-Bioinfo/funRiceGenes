@@ -1,0 +1,63 @@
+LOCUS       GU552783                 975 bp    mRNA    linear   PLN 25-OCT-2010
+DEFINITION  Oryza sativa Japonica Group putative expressed bZIP transcription
+            factor mRNA, complete cds.
+ACCESSION   GU552783
+VERSION     GU552783.1  GI:301087392
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 975)
+  AUTHORS   Hossain,M.A., Cho,J.I., Han,M., Ahn,C.H., Jeon,J.S., An,G. and
+            Park,P.B.
+  TITLE     The ABRE-binding bZIP transcription factor OsABF2 is a positive
+            regulator of abiotic stress and ABA signaling in rice
+  JOURNAL   J. Plant Physiol. 167 (17), 1512-1520 (2010)
+   PUBMED   20576316
+REFERENCE   2  (bases 1 to 975)
+  AUTHORS   Hossain,M., Cho,J.-I., Jeon,J.-S., An,G. and Park,P.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2010) Dept. of Bioscience & Biotechnology, The
+            University of Suwon, San 2-2 Wauri, Bongdam-up, Hwaseong-si,
+            Gyeonggi-do 445-743, Korea
+FEATURES             Location/Qualifiers
+     source          1..975
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /chromosome="6"
+                     /PCR_primers="fwd_seq: aagcttatggagttgccggcggatggg,
+                     rev_seq: gaattctcagcatggaccagtcagtgt"
+     CDS             1..975
+                     /codon_start=1
+                     /product="putative expressed bZIP transcription factor"
+                     /protein_id="ADK60888.1"
+                     /db_xref="GI:301087393"
+                     /translation="MELPADGSALARQGSIYSLTFDEFQSALGSAEKDFGSMNMDELL
+                     RNIWTAEESQAIAPAAAAASAAAVVGDAQQQQQPIQRQGSLTLPRTLSQKTVDEVWRD
+                     IMGLGGSDDEDPAAAAAAAAPAQRQPTLGEMTLEEFLVRAGVVREDMGQTIVLPPQAQ
+                     ALFPGSNVVAPAMQLANGMLPGVVGVAPGAAAAMTVAAPATPVVLNGLGKVEGGDLSS
+                     LSPVPYPFDTALRVRKGPTVEKVVERRQRRMIKNRESAARSRARKQAYIMELEAEVAK
+                     LKEQKAELQKKQVEMIQKQNDEVMERITQQLGPKAKRFCLRRTLTGPC"
+ORIGIN      
+        1 atggagttgc cggcggatgg gagcgcgctg gcgaggcagg ggtcgatcta ctcgctgacg
+       61 ttcgacgagt tccagagcgc gctgggaagc gccgagaagg atttcgggtc gatgaacatg
+      121 gatgagctgc tgcgcaacat ctggacggcg gaggagtcgc aggccatagc gccggcggcg
+      181 gcggctgctt cggcggcggc ggtggttggg gacgcgcagc agcagcagca gccgatccag
+      241 aggcaggggt cgctgacgct gccacgcacg ctgagccaga agacggtgga cgaggtgtgg
+      301 cgcgacatca tgggcttggg cggcagcgac gacgaagacc ccgcggcggc ggcggctgcg
+      361 gcggcgcccg cgcagcggca gccgacgctg ggggagatga cgctggagga gttcctggtg
+      421 cgggccggcg tcgtgcggga ggacatgggg cagaccatcg tgctgccgcc gcaggcgcag
+      481 gcgttgttcc ccgggagcaa tgtggtcgcc ccggccatgc agctcgccaa cgggatgctg
+      541 cctggtgtcg tcggcgtcgc ccccggcgcc gccgccgcga tgacggtggc ggcgccggcc
+      601 acgccggtgg tgctgaacgg gctggggaag gtggagggcg gggatctctc gtcgctctcg
+      661 ccggtgcctt acccattcga caccgcgctc agggtgagga agggccctac cgtcgagaag
+      721 gtggtggaga ggcggcagag gcggatgatc aagaacaggg agtccgctgc taggtctcgc
+      781 gcgcggaagc aggcttatat aatggagttg gaagctgagg tggcaaaact gaaggaacag
+      841 aaggctgaat tgcagaaaaa gcaggtggaa atgatacaga agcaaaatga tgaggtcatg
+      901 gagagaatca ctcagcaact tggaccaaag gcaaagagat tttgcctccg acgaacactg
+      961 actggtccat gctga
+//
+

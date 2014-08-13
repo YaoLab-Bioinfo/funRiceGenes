@@ -1,0 +1,72 @@
+LOCUS       AF536960                1668 bp    mRNA    linear   PLN 09-OCT-2002
+DEFINITION  Oryza sativa (japonica cultivar-group) high affinity phosphate
+            transporter 11 mRNA, complete cds.
+ACCESSION   AF536960
+VERSION     AF536960.1  GI:23600434
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1668)
+  AUTHORS   Paszkowski,U., Kroken,S., Roux,C. and Briggs,S.P.
+  TITLE     Rice phosphate transporters include an evolutionarily divergent
+            gene specifically activated in arbuscular mycorrhizal symbiosis
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1668)
+  AUTHORS   Paszkowski,U. and Briggs,S.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-AUG-2002) Torrey Mesa Research Institute, 3115
+            Merryfield Row, San Diego, CA 92121, USA
+FEATURES             Location/Qualifiers
+     source          1..1668
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             1..1668
+                     /codon_start=1
+                     /product="high affinity phosphate transporter 11"
+                     /protein_id="AAN39041.1"
+                     /db_xref="GI:23600435"
+                     /translation="MADADGGSNLAVLDALDSARTQMYHMKAIVIAGMGFFTDAYDLF
+                     CISTVSKLLGRLYYQPDGSTDSKPGALSKTANNMVIGVALVGTLMGQLVFGYFGDKLG
+                     RKRVYGVTLILMAACAIGSGLSFGSSRKAVIGTLCFFRFWLGFGIGGDYPLSATIMSE
+                     YSNKKTRGAFIAAVFAMQGVGIIFAGLVSMIVSSIFLTYNKAPSYKGNHDLSRQMPAA
+                     DYVWRIVLMIGAFPALATFYWRMKMPETARYTAIIDGNAKQAANDMQKVLSIEIEAEQ
+                     EKLAKFNAANNYPLLSMEFARRHGLHLIGTTTTWFLLDIAFYSQNLTQKDIFPAMGLI
+                     SGAAEVNALTEMFQISKASFLVALLGTFPGYWVTVALIDKMGRYMIQLIGFFMMSMFM
+                     LAMGILYDYLKTHHFLFGLLYALTFFFANFGPNSTTFVLPAELFPTRVRSTCHAISAA
+                     AGKAGAIVAAFGIQKLTYNSQVKSIKKALIILSITNMLGFFFTFLVPETMGRSLEEIS
+                     GEDGNTGAGGGGAPAAANAGVGVSASDVSRDEKFPASSTEWQTSMHA"
+ORIGIN      
+        1 atggcggacg cggacggggg ctcgaacctg gcggtgctgg acgcgctgga ctcggcgcgc
+       61 acgcagatgt accacatgaa ggcgatcgtg atcgccggca tgggcttctt caccgacgcc
+      121 tacgacctgt tctgcatctc cacggtgtcc aagctgctcg gccgtctcta ctaccagccc
+      181 gatggctcga cggacagtaa gccaggcgct ctgtccaaga ccgccaacaa catggtcatc
+      241 ggcgtcgcgc tcgtcggcac gctcatgggc cagcttgtct tcggctactt cggcgacaag
+      301 ctcggccgga agcgcgtcta cggcgtcacc ctcatcctga tggccgcctg cgccatcggc
+      361 tccggcctgt cgttcggcag ctcgcgcaag gcagtcatcg gcacgctgtg cttcttccgc
+      421 ttctggctcg gcttcggcat cggcggggac tacccgctgt cggccaccat catgtccgag
+      481 tactcaaaca agaagacgcg cggcgcgttc atcgccgcgg tgttcgccat gcagggcgtc
+      541 ggcatcatct tcgcggggct cgtgtccatg atcgtctcta gcatcttcct cacctacaac
+      601 aaggcgccgt cgtacaaggg gaaccatgac ctctcgaggc agatgcccgc ggctgactac
+      661 gtgtggcgca tcgtcctgat gatcggcgcg ttcccggcgt tggcgacctt ctactggcgg
+      721 atgaagatgc cggagacggc gaggtacacg gcgatcatcg atggcaacgc gaagcaggcg
+      781 gcgaacgaca tgcagaaggt gctgtcgatc gagatagagg ccgagcagga gaagctggcc
+      841 aagttcaacg cggccaacaa ctacccgctc ctgtcgatgg agttcgcccg gcgccacggc
+      901 ctgcacctca tcggcacgac gaccacgtgg ttcctccttg acatcgcctt ctacagccag
+      961 aacctgaccc agaaggacat cttcccggct atgggcctga tcagcggcgc tgccgaagtc
+     1021 aacgctctca cggagatgtt ccagatatcc aaggcctcgt tcctcgtcgc tctcctcggc
+     1081 accttccccg gctactgggt caccgtcgct ctcatcgaca agatgggcag gtacatgatc
+     1141 cagctgatcg gtttcttcat gatgtccatg ttcatgctgg cgatgggcat cctgtacgac
+     1201 tacctcaaaa cccatcactt cctgttcggg ctcctgtacg cgctcacttt cttcttcgcc
+     1261 aacttcgggc cgaacagcac caccttcgtg ctgccggccg agctgttccc gacgcgcgtg
+     1321 cgctccacct gccacgccat cagtgccgcg gcgggcaagg cnggcgccat cgtcgcggcc
+     1381 ttcggcattc agaagctcac gtacaactct caagtcaaaa gcatcaagaa ggcgctcatc
+     1441 atcctctcca tcaccaacat gctcggcttc ttcttcacgt tcctcgtccc ggagaccatg
+     1501 ggtcggtcgc tcgaggagat ctccggcgag gacggcaaca ccggcgccgg tggcggcggc
+     1561 gcccctgccg ctgccaatgc cggcgttggc gtgagcgctt cggatgtgag cagggacgag
+     1621 aagttccctg cttcaagcac cgaatggcag acatccatgc acgcatga
+//
+

@@ -1,0 +1,71 @@
+LOCUS       AB288039                1397 bp    DNA     linear   PLN 23-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsHAP3H gene for HAP3 subunit of HAP
+            complex, complete cds.
+ACCESSION   AB288039
+VERSION     AB288039.1  GI:148921415
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Thirumurugan,T., Ito,Y., Kubo,T., Serizawa,A. and Kurata,N.
+  TITLE     Identification, characterization and interaction of HAP family
+            genes in rice
+  JOURNAL   Mol. Genet. Genomics 279 (3), 279-289 (2008)
+   PUBMED   18193457
+REFERENCE   2  (bases 1 to 1397)
+  AUTHORS   Ito,Y. and Kurata,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-DEC-2006) Contact:Yukihiro Ito Tohoku University,
+            Laboratory of Environmental Biotechnology, Graduate School of
+            Agricultural Science; 1-1 Tsutsumidori-Amamiyamachi, Aoba-ku,
+            Sendai, Miyagi 981-8555, Japan
+FEATURES             Location/Qualifiers
+     source          1..1397
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            116..1009
+                     /gene="OsHAP3H"
+     CDS             116..1009
+                     /gene="OsHAP3H"
+                     /codon_start=1
+                     /product="HAP3 subunit of HAP complex"
+                     /protein_id="BAF64447.1"
+                     /db_xref="GI:148921416"
+                     /translation="MKSRKSYGHLLSPVGSPPLDNESGEAAAAAAAGGGGCGSSAGYV
+                     VYGGGGGGDSPAKEQDRFLPIANVSRIMKRSLPANAKISKESKETVQECVSEFISFVT
+                     GEASDKCQREKRKTINGDDLLWAMTTLGFEAYVGPLKSYLNRYREAEGEKADVLGGAG
+                     GAAAARHGEGGCCGGGGGGADGVVIDGHYPLAGGLSHSHHGHQQQDGGGDVGLMMGGG
+                     DAGVGYNAGAGSTTTAFYAPAATAASGNKAYCGGDGSRVMEFEGIGGEEESGGGGGGG
+                     ERGFAGHLHGVQWFRLKRNTN"
+ORIGIN      
+        1 ggagagcatc accactccat cctcaactcc cataacctcc cccttctctc tctctctaac
+       61 tacacactct ctctctagct agctagctag ctatagctag tgttgttagc ttcacatgaa
+      121 gagtaggaag agctatgggc acttgctgag cccggtgggc agcccgccgt tggacaacga
+      181 gtccggcgag gcggcggcgg cggctgcggc tggcggcggc ggctgcggga gcagcgccgg
+      241 gtatgtcgtc tacggcggcg gcggcggtgg ggactcgccg gcgaaggagc aggacaggtt
+      301 cctgccgatc gcgaacgtga gccgcatcat gaagcggtcg ctgccggcga acgccaagat
+      361 ctccaaggag tcgaaggaga cggtgcagga gtgcgtgtcg gagttcatca gcttcgttac
+      421 aggcgaggcc tccgacaagt gccagcgcga gaagcggaag accatcaacg gcgacgacct
+      481 cctctgggcc atgaccacgc tggggttcga ggcctacgtc ggcccgctca agtcctacct
+      541 caaccgctac cgcgaggccg agggcgagaa ggccgacgtg ctcggcggcg ccggcggcgc
+      601 cgccgcggcg cgccacggcg agggcggttg ctgcggcggc ggcggcggcg gcgccgatgg
+      661 cgtcgtcatc gacgggcatt acccgctcgc cggcggcctg tcacactcac accatggtca
+      721 tcagcagcag gacggcggcg gcgacgtcgg gctcatgatg ggcggcggcg acgccggcgt
+      781 cgggtacaac gccggggccg ggtcgacgac gacggcgttc tacgcgccgg cggcgacggc
+      841 ggcgtcaggg aacaaggcgt actgcggcgg cgacgggtcg agggtgatgg agttcgaggg
+      901 catcggcggc gaggaggaga gcggaggcgg cggcggcggc ggcgagaggg ggttcgccgg
+      961 ccacctccat ggcgtgcaat ggtttagact aaagaggaat actaattagc tagctaggca
+     1021 cacgcgtagt tttattatta cttaattacc gcgttaatta attgttgatg ctgatgctgt
+     1081 ttaaaattga ttctcctttt gcatgaaatg tttgatggta tggtttaaaa ttgaagaaaa
+     1141 atagtccttg aaatttctgt aggagttcgg ttgtgatcca aatccaatca gatatgtgta
+     1201 gtttggccca tggcggctca cgctcatctg ggcttggcac attggggaaa acatatattt
+     1261 aaacatatac tttttgaagt gtgaatcaaa taatctattt caatagtatg ataaataagc
+     1321 taaaaagaac atgtggctaa caacattcgc acggtaattt ttcgtttcaa ttagacggaa
+     1381 gacttctagt cacctgt
+//
+

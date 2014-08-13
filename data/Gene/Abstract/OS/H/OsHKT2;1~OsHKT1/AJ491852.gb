@@ -1,0 +1,119 @@
+LOCUS       AJ491852                2880 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  Oryza sativa Japonica Group partial hkt1 gene for putative sodium
+            transporter, exons 1-3.
+ACCESSION   AJ491852
+VERSION     AJ491852.1  GI:21912435
+KEYWORDS    hkt1 gene; sodium transporter.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Garciadeblas,B., Senn,M.E., Banuelos,M.A. and Rodriguez-Navarro,A.
+  TITLE     Sodium transport and HKT transporters: the rice model
+  JOURNAL   Plant J. 34 (6), 788-801 (2003)
+   PUBMED   12795699
+REFERENCE   2  (bases 1 to 2880)
+  AUTHORS   Rodriguez-Navarro,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JUN-2002) Rodriguez-Navarro A., Biotecnologia,
+            E.T.S.I. Agronomos UPM, Ciudad Universitaria s/n, Madrid E-28040,
+            SPAIN
+COMMENT     This sequence was downloaded from Monsanto's rice genome database.
+            Monsanto has granted permission to deposit this sequence in EMBL as
+            part of the publication process.
+FEATURES             Location/Qualifiers
+     source          1..2880
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <458..>2455
+                     /gene="hkt1"
+     CDS             join(458..1624,1738..1958,2251..2455)
+                     /gene="hkt1"
+                     /codon_start=1
+                     /product="putative sodium transporter"
+                     /protein_id="CAD37196.1"
+                     /db_xref="GI:21912436"
+                     /db_xref="GOA:Q0D9S3"
+                     /db_xref="InterPro:IPR003445"
+                     /db_xref="InterPro:IPR004773"
+                     /db_xref="UniProtKB/Swiss-Prot:Q0D9S3"
+                     /translation="MTSIYHDFIHNKLQSFGRIGRYFVNFVVLAHRFIALHIHPFWIQ
+                     LSYFLLISILGSVLLMFLKPTNPEFRPGYIDMLFLSTSALTLSSLITIEMEVLSSSQI
+                     VVITLLMLLGGEVFVSFLGLMLRLNHKHNPEFSGDKVSSVPIELDTINSASTVISCEE
+                     LQLEAAIPEVPSSTIKDLKRSKRLRWFLGFVVFSYFVVIHVAGFLLVLWYISRVSSAK
+                     APLKKKGINIALFSFSVTVSSFANVGLVPTNENMAIFSKNPGLLLLFIGQILAGNTLY
+                     PLFLRLLIWFLGKVTKLRELKLMIKNPEELQYDYLLPKLPTAFLASTVIGLMASLVTL
+                     FGAVDWNSSVFDGLSSYQKIINALFMAVNARHSGENSIDCSLIAPAVLVLFIILMYLP
+                     PSTTFALSNGDEKTANKKAKRKLGLVVQNLAFSQLACISVFVIVAFITERSRLRNDPL
+                     NFSALNMIFEIISAYGNVGLSTGYSCSRLQKLHPGSICQDKPYSLSGWWSDEGKLLLV
+                     FVMLYGRLKAFTKGTGEYWRLW"
+     exon            <458..1624
+                     /gene="hkt1"
+                     /number=1
+     intron          1625..1737
+                     /gene="hkt1"
+                     /number=1
+     exon            1738..1958
+                     /gene="hkt1"
+                     /number=2
+     intron          1959..2250
+                     /gene="hkt1"
+                     /number=2
+     exon            2251..>2455
+                     /gene="hkt1"
+                     /number=3
+ORIGIN      
+        1 cgctgagcag gtaatcatta gaacagttag aacttttaaa aagacaaata atgctgctga
+       61 aaatattcca cgaagaataa tctcatccgg ccaggttcca agcagccaga acttacttat
+      121 gcagaagcta gtcatccatg ggtagtatca gtgtttacac ttctgagaat ccgtatagta
+      181 attcttctca gagtgtgggt gtttctcgag ctatgcatct gataaggaag cattgcatct
+      241 atcaccagga aaaccaaata attgagctac agattagtta taccggtctt actgtccaat
+      301 aattgatttt tttaatggaa tcatagtctc acagatacca ccaaagccaa tactcctcca
+      361 ttgcctgcat ataaataaca caaaagcaga ccggtcttgg caaaggacac tcactttgct
+      421 ttctcatact cgttggctcg ttgctccttt gcatcaaatg acgagcattt accatgattt
+      481 cattcataac aagctgcaga gcttcggaag gatcggtaga tattttgtta attttgttgt
+      541 tctagcccat agattcattg ccttgcatat tcacccattc tggattcagt tgtcctactt
+      601 ccttctcatt agcatcctag gttcagttct attgatgttc ctgaagccaa ccaacccaga
+      661 attcagacca ggttacattg acatgctgtt cttgtcaacc tctgctctga cactttccag
+      721 cctcatcacc atcgaaatgg aggttctctc aagctcacaa attgtggtta ttacactgct
+      781 gatgcttctc gggggtgaag tctttgtttc tttcctaggc ctcatgctta gactgaacca
+      841 taagcacaac ccagagtttt caggggacaa ggtcagttca gttcctatcg agcttgatac
+      901 aatcaactcg gcaagcactg tgataagttg tgaagagctg cagctggaag cagcaattcc
+      961 tgaagttcca tcttccacca ttaaggattt gaagaggagc aagcgcctga ggtggttctt
+     1021 aggatttgta gtcttcagct attttgttgt gatccatgtc gctggctttc tgctggttct
+     1081 ctggtacata agtcgtgtct catctgcaaa agctccactg aagaagaaag ggatcaacat
+     1141 tgcactcttc tcattctcgg tcacagtctc ctcgtttgcg aatgtggggc tcgtgccgac
+     1201 gaatgagaac atggcaatct tctccaagaa cccgggcctc ctcctcctgt tcatcggcca
+     1261 gattcttgca ggcaatacac tttaccctct cttcctaagg ctattgatat ggttcctggg
+     1321 gaaggtgacc aagttgagag aactgaagct catgatcaag aaccctgagg agctacagta
+     1381 tgattatttg cttcctaagt tgccaacggc gtttctggca tcaactgtca ttggccttat
+     1441 ggcttccttg gtcacattgt tcggtgctgt cgactggaat tcttcagtct ttgatggact
+     1501 cagctcttac cagaagatta tcaatgcatt gttcatggca gtgaacgcaa ggcactcggg
+     1561 ggagaactcc atcgactgct cactcatcgc ccctgctgtt ctagtactgt tcatcatctt
+     1621 aatgttagtt catgacacct catctattta tgtttcatgt catccaacta atactgttag
+     1681 cttcagcctt caggtgatga catatttgtc tgaaacttta ctttcttggt tttcaggtac
+     1741 ttaccaccat cgacaacatt tgcactgtcc aatggagatg aaaaaactgc aaataagaaa
+     1801 gcgaaaagaa aattaggttt agtggtgcag aacttggcat tttcacagct tgcctgcatc
+     1861 tcagtctttg tgatagttgc attcatcact gagaggagtc gtctcagaaa tgatccactc
+     1921 aacttctctg ctctgaacat gatatttgaa atcatcaggt gtgttcctct ctcttgatta
+     1981 tgcaatcaaa attctcgtat caatctgcta agttacactg ggcatcaagc caatgatatt
+     2041 gtaggcaaaa taaaaacaac gaaacacgat aaaataataa acttcattag caaagcaagc
+     2101 caagtagtaa gatccacatc tgacacctca gaatctttca gaagacaaga aaactaaccc
+     2161 aaacatagat tgttctcaac aagataacta ttttgtacta ttctgtcttt ctaaaagagt
+     2221 atgcctgttc tttctttttt ttttttgcag tgcatatggg aatgtagggc tatccactgg
+     2281 ttacagctgt tcgaggttgc agaaactgca cccggggagc atctgccagg acaagccgta
+     2341 cagcttgtcc ggatggtgga gtgatgaagg aaagttgctg ctagtctttg tgatgctcta
+     2401 tggaaggctc aaggccttca caaaaggtac aggtgaatat tggaggctat ggtaaaagct
+     2461 gaagcctgaa caaaagcact tgcaaaggca agtgcatcaa gtgcagtata tgtaactatt
+     2521 tagagttctg cctgaaagtt caggtttcta attgggccat agtgtataaa aatacaccca
+     2581 atattattcc tcttaataca gtggtgcgca atcctttagc gtattcccga aaaaaagaac
+     2641 acccaatatg ttgcaattgc aatatagaac tgttgttctc caaccaaggc cgagtttagt
+     2701 tctaaaattt ttcttcaaac ttcaaatttt tttatcgcat taaaactttt ctatacatac
+     2761 agactttcaa cttttccgtc acatcgttcc aatttcaacc aaacttctaa ttttgacgtg
+     2821 aactaaacac accccaagtc tttttttttg tacttgtatt aagccagtcg ccatcaaatt
+//
+

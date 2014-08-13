@@ -1,0 +1,57 @@
+LOCUS       AB734097                 618 bp    mRNA    linear   PLN 19-JUL-2012
+DEFINITION  Oryza sativa Japonica Group OsSAP mRNA for senescence associated
+            protein, complete cds, cultivar: ilmi, clone: R12H780.
+ACCESSION   AB734097
+VERSION     AB734097.1  GI:396080275
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Mohammad,U. and Kim,K.
+  TITLE     Identification of Rice Gene Under Drought Stress as a Suppressor
+            BAX-Induced Cell Death by Yeast Functional Screening
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 618)
+  AUTHORS   Mohammad,U., Kim,K.A. and Kim,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUL-2012) Contact:Ubaidillah Mohammad Kyungpook
+            National University, School of Applied Bioscience; Daehak-ro, Daegu
+            702-701, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..618
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="ilmi"
+                     /db_xref="taxon:39947"
+                     /clone="R12H780"
+                     /tissue_type="leaf"
+                     /dev_stage="vegetative stage 4 weeks old"
+                     /note="under drought stress condition"
+     gene            1..618
+                     /gene="OsSAP"
+     CDS             289..573
+                     /gene="OsSAP"
+                     /note="apoptotic suppresor"
+                     /codon_start=1
+                     /product="senescence associated protein"
+                     /protein_id="BAM33974.1"
+                     /db_xref="GI:396080276"
+                     /translation="MNAWLPQASYPCGNFSNPSAFKLQRSKGSIGHAFTVLILTGNQN
+                     QPRNIPLVHGVGAKAPLQRLNWAPLTKSRKFLEPRAQSMIWLTLSPILRL"
+ORIGIN      
+        1 caggaagttc aaaggtttaa cctatttggg aatccccgaa tctttgctta ttttcamctc
+       61 cccaaaccat ttcgtcgctg gcaacgccct tccccttctc ggggacccta ggtatccacc
+      121 catttactat cgcggcccgg ccacaattag ggtaaaacta acctgtccca caacggtcta
+      181 atcccagctc acgttcccta ttggtgggtg aacaatccaa cctttgggaa attcggcttc
+      241 ccaaggatgg aaaaacccaa cttcaaagga tcaaaaacca acgtcgctat gaacgcttgg
+      301 ctgccacaag ccagttatcc ctgtggtaat ttttcgaacc cctctgcctt caaactccaa
+      361 aggtcaaagg gatcgatagg ccacgctttc acggttctta ttcttactgg aaatcagaac
+      421 caacccagaa atatcccatt ggtccatggg gtgggggcaa aggcacctct acagagatta
+      481 aactgggctc ctctgaccaa atcaaggaaa tttctggaac ccagggccca gtcaatgatc
+      541 tggctaactt tgtcacctat cttaagattg tgacaagtgc taataataca tacaaggctg
+      601 gattcccaaa tggaaagg
+//
+

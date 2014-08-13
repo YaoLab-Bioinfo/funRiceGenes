@@ -1,0 +1,50 @@
+LOCUS       AY878693                 435 bp    mRNA    linear   PLN 07-FEB-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) subitilisin-chymotrypsin
+            inhibitor (Sci1) mRNA, complete cds.
+ACCESSION   AY878693
+VERSION     AY878693.1  GI:58396944
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 435)
+  AUTHORS   Zhao,W. and Peng,Y.
+  TITLE     Subitilisin-chymotrypsin inhibitor-like genes from rice are
+            involved in rice response to Magnaporthe grisea infections
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 435)
+  AUTHORS   Zhao,W. and Peng,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JAN-2005) Department of Plant Pathology, China
+            Agriculture University, Yuanmingyuan West Road, No. 2, Beijing
+            100094, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..435
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+     gene            1..435
+                     /gene="Sci1"
+     CDS             53..250
+                     /gene="Sci1"
+                     /note="OsSCI1"
+                     /codon_start=1
+                     /product="subitilisin-chymotrypsin inhibitor"
+                     /protein_id="AAW72833.1"
+                     /db_xref="GI:58396945"
+                     /translation="MSSSAKTSWPEVVGLSIEEAKKVILKDKPDADIVVLPFGTAVPE
+                     DFRFNRVRIFVDTVAETPRVG"
+ORIGIN      
+        1 gccatcagct tctttcatca ccaactcgat cagaccgcag agacgaggga agatgagctc
+       61 gtcggcgaag acgtcgtggc cggaggtggt tgggctgagc atagaggagg ccaagaaggt
+      121 gattctcaag gacaagcccg acgccgacat cgtcgtgctg ccattcggca cggcggtgcc
+      181 agaggatttt cgcttcaacc gtgtccgaat cttcgtcgac accgtcgccg agacgcctcg
+      241 tgtgggctag ctagcagaat atatatagct ttaaattaaa attaataatg gttagtagcg
+      301 atgctgctgt gccccgaccg tatcctttct ctaaaattga tatcatatat atgtattata
+      361 tgtgtgtaaa tcatcaatcc tgggatgaaa aagatgaatc agctgtcagg accaaaaaaa
+      421 aaaaaaaaaa aaaaa
+//
+

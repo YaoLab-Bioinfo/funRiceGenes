@@ -1,0 +1,78 @@
+LOCUS       AB207252                1590 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsF5HL mRNA for ferulate-5-hydroxylase,
+            complete cds.
+ACCESSION   AB207252
+VERSION     AB207252.1  GI:119952163
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kim,J.H., Yang,D.H., Kim,J.S., Baek,M.H., Park,Y.M., Wi,S.G.,
+            Cho,J.Y. and Chung,B.Y.
+  TITLE     Cloning, characterization, and expression of two cDNA clones for a
+            rice ferulate-5-hydroxylase gene, a cytochrome P450-dependent
+            monooxygenase
+  JOURNAL   J. Plant Biol. 49, 200-204 (2006)
+REFERENCE   2  (bases 1 to 1590)
+  AUTHORS   Yang,D.H., Chung,B.Y. and Kim,J.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAR-2005) Contact:Dh Yang Korea Atomic Energy
+            Research Institute, Radiation Application Research; 150, Yusong-Gu
+            Daejeon 305-353, Korea
+FEATURES             Location/Qualifiers
+     source          1..1590
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Ilpumbyeo"
+                     /db_xref="taxon:39947"
+     gene            1..1590
+                     /gene="OsF5HL"
+     CDS             1..1590
+                     /gene="OsF5HL"
+                     /codon_start=1
+                     /product="ferulate-5-hydroxylase"
+                     /protein_id="BAF43422.1"
+                     /db_xref="GI:119952164"
+                     /translation="MGMGTPSGPSPIFLGKLLWPGEVTITLRWIGHRVKNGWKFRVTA
+                     YGPFKHEYYSQDAYFVTASLISIAFFLWYASRLRRTAILLPPGPPGLPVLGNLLSVHQ
+                     FTHRGLAKLSKIHGGFFHLRVGQPNVFVVSSPETVREIIHENDSVFSHCPVTAAMVYV
+                     SYDLADMAFAHYGPFWRQMRKLCVLKLFSPRRDVSWRVVRGEVDALVRSVAELRRVAG
+                     SVGDLVFKFATNVTFRAAFGAQSREDEKVFVDIILELSEIFMAFNMGDYIPCLGWLDL
+                     NGIGKRMAAARHALDVFIDRIIDEHLAKLRNGDVSASDMVDDMIAYLVDAPGGRHKRA
+                     DGVELGDLHLTRDNIKGLIMARNDIMFGGTKTVASTVEWALSELLRNPDELKRAQDEL
+                     AGVVGLRRRVNQDDLDNLPHLRCVTKEAMCRDEALWGTDAAAFRPSRFADESARVEFK
+                     GGDFQYLPFGSGRRSCPGMQLGMFAVELGLAELLHCFDWSLPAGTEPLELDMDDVFGL
+                     TAPKAERLCAVPSPRLSCPLL"
+ORIGIN      
+        1 atgggtatgg ggacgccgag cgggccgagc ccgatatttc ttggaaaatt actatggcct
+       61 ggtgaagtca caattacttt acgatggata ggccataggg tcaaaaatgg atggaaattt
+      121 agagttacgg cctacgggcc attcaagcac gaatactaca gtcaagatgc ctacttcgtc
+      181 accgcttcat tgatcagcat cgccttcttc ctctggtacg ccagccgact ccgtcgaaca
+      241 gccatcctcc tcccgcccgg gcctcccggc ttgcccgtcc tcggcaacct gctgtccgtg
+      301 catcagttca cccaccgcgg cctcgccaag ctctccaaga tccacggcgg cttcttccac
+      361 ctccgcgttg gccagccgaa cgtgttcgtg gtgtcatcgc cggagacggt gagggagatc
+      421 atacacgaga acgacagcgt cttctcgcac tgtccggtca cggccgccat ggtgtacgtc
+      481 tcctacgacc tggccgacat ggcgttcgcg cactacggcc cgttctggcg ccagatgcgc
+      541 aagctctgcg tgctcaagct cttcagcccc cggcgcgacg tctcgtggcg cgtcgtgcgc
+      601 ggcgaggtgg acgccctcgt caggtccgtt gccgagctgc gccgagtcgc gggcagtgtc
+      661 ggtgatctgg tattcaagtt cgccaccaac gtgaccttcc gggcggcgtt cggtgcacag
+      721 agccgggagg acgagaaggt gttcgtcgac atcatcctcg agctctcgga gatcttcatg
+      781 gcgttcaaca tgggagacta catcccttgc ctcgggtggc tcgatctcaa cggcatcggt
+      841 aagaggatgg cggcggcgag gcacgcgctg gacgttttca tcgaccggat catcgacgag
+      901 cacctggcca agttgaggaa cggcgacgtg tcggcgtccg acatggtgga cgacatgatc
+      961 gcgtacctcg tcgacgctcc cggcggacga cacaagagag ccgacggcgt cgaactcggt
+     1021 gacctccacc tgaccagaga caacatcaag gggctaatca tggcacgtaa cgacatcatg
+     1081 ttcggcggca cgaagacagt ggcgtccacg gtggagtggg cgctgtcgga gctcctgcgc
+     1141 aacccagacg aactgaagcg cgcgcaggac gagctagccg gcgtggttgg cctccgccgc
+     1201 agggtcaacc aggacgacct cgacaacctc ccccacctca ggtgcgtcac caaggaggcc
+     1261 atgtgccgcg acgaggcgct gtgggggacc gacgcggcgg cgttccggcc gtcgcggttc
+     1321 gccgacgaga gcgcgcgcgt ggagttcaag ggtggggact tccagtacct gccgttcggg
+     1381 tccgggcggc ggtcgtgccc ggggatgcag ctggggatgt tcgccgtgga gctcggcctc
+     1441 gcggagctcc tgcactgctt cgactggtcg ctgccagctg ggacggagcc gctcgagctc
+     1501 gacatggacg acgtgttcgg gctcaccgcg cccaaggctg agcggctgtg cgccgtgcca
+     1561 tcgccgcggc tgtcctgccc gttgctctga
+//
+

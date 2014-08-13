@@ -1,0 +1,76 @@
+LOCUS       AB088391                1674 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsFEN-1b mRNA for flap endonuclease-1b,
+            complete cds.
+ACCESSION   AB088391
+VERSION     AB088391.1  GI:37496994
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kimura,S., Furukawa,T., Kasai,N., Mori,Y., Kitamoto,H.K.,
+            Sugawara,F., Hashimoto,J. and Sakaguchi,K.
+  TITLE     Functional characterization of two flap endonuclease-1 homologues
+            in rice
+  JOURNAL   Gene 314, 63-71 (2003)
+   PUBMED   14527718
+REFERENCE   2  (bases 1 to 1674)
+  AUTHORS   Kimura,S., Furukawa,T., Hashimoto,J. and Sakaguchi,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JUL-2002) Contact:Seisuke Kimura Tokyo University of
+            Science, Dept. of Applied Biological Science; 2641, Noda, Chiba
+            278-8510, Japan
+FEATURES             Location/Qualifiers
+     source          1..1674
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..1674
+                     /gene="OsFEN-1b"
+     CDS             34..1272
+                     /gene="OsFEN-1b"
+                     /codon_start=1
+                     /product="flap endonuclease-1b"
+                     /protein_id="BAC98428.1"
+                     /db_xref="GI:37496995"
+                     /translation="MGIKGLTKLLAEHAPGAAVRRRVEDYRGRVVAIDASLSIYQFLI
+                     VVGRKGTEVLTNEAGEVTSHLQGMLNRTVRILEAGIKPVFVFDGEPPDMKKKELAKRS
+                     LKRDGSSEDLNRAIEVGDEDLIEKFSKRTVKVTKKHNEDCKRLLSLMGVPVVQAPGEA
+                     EAQCAALCENHKVFAIASEDMDSLTFGARRFLRHLTDLSFKRSPVTEFEVSKVLEELG
+                     LTMDQFIDLCILSGCDYCENIRGIGGQRALKLIRQHGYIEEVVQNLSQTRYSVPEDWP
+                     YQEVRALFKEPNVCTDIPDFLWTPPDEEGLINFLAAENNFSPDRVVKSVEKIKAANDK
+                     FSLGRGKLLAPVANLTGSTSTAGKEPKCILGGPGQVMKARSPLQVCKSSSLNFIHDNS
+                     KAFMLGRRSGFLRISTYASI"
+ORIGIN      
+        1 gcttggtcat ctccgccgcc gccggccgtc gccatgggca tcaagggttt gacgaagctg
+       61 ctggcggagc acgcgccggg ggcggcggtg aggaggcggg tggaggatta ccgcggccgc
+      121 gtcgtcgcca tagacgccag cctcagcatc taccagttcc tcattgtggt aggaaggaaa
+      181 ggaacagaag ttctgaccaa tgaggctggt gaagtcacaa gtcatctgca gggcatgttg
+      241 aaccgaactg ttaggattct agaagcagga ataaaacctg tttttgtgtt tgatggtgag
+      301 ccacctgaca tgaagaaaaa ggaactggca aaaaggtctt tgaagagaga tggttcttcc
+      361 gaagatctaa atagagctat tgaggttgga gatgaggatt taattgaaaa atttagcaaa
+      421 aggactgtaa aggtcacaaa aaagcacaat gaagactgta agaggctgtt aagcttgatg
+      481 ggtgtccctg tagttcaggc accaggggag gcagaagcac agtgcgcagc actctgtgaa
+      541 aatcacaagg tctttgctat agcttcggag gatatggact ctctaacttt tggtgctaga
+      601 aggtttcttc gccatttaac cgacctgagt tttaagagat ctcctgtaac agaattcgaa
+      661 gtgtcaaagg ttttggagga acttggactc acaatggatc agttcattga tttgtgtatc
+      721 cttagtggct gtgactactg cgagaatatt agaggtattg ggggacagag agctttgaaa
+      781 cttattcgtc agcatggtta tatagaagaa gtagtgcaaa atcttagcca gacaaggtat
+      841 agtgtcccag aagactggcc ttaccaggaa gttcgggcat tgtttaagga acctaacgtt
+      901 tgtacagata ttccagactt cctgtggacc ccaccagatg aggagggcct tataaacttt
+      961 ttggcagccg aaaataattt cagtcctgat cgagtagtaa agtctgtaga aaagataaag
+     1021 gctgctaatg ataaattttc ccttgggcga gggaagcttt tggcaccagt agcgaactta
+     1081 acaggatcta catcaactgc agggaaggaa cccaaatgta tcctgggtgg tccagggcaa
+     1141 gtcatgaagg ctaggtcacc tctacaagtg tgcaagagct caagcttgaa cttcatacat
+     1201 gacaattcaa aagcgttcat gctgggcagg cgatcaggat ttctcagaat atctacatat
+     1261 gcttccatct gaatctggag ctgctctatt tccatgagtt ggttggctga agctttgact
+     1321 gacaccatct acagcttcat gaagaattag tgatttcttg aaatgcgttg agcctatgct
+     1381 attattgtag ttcagccttt tgccttgtaa aatcaagttg aatgcttgag ctttctcaca
+     1441 tttagcactg gttctcgctt gagtgttgaa cggtgaccat gaagaatttg atcacctttt
+     1501 ggctataatc tgaaattttg tcaaggtgcc agaacgagca ggaaactggt tgaggctgct
+     1561 taactttcct ggtgtcttct ctaggatgtg catgtacccc tctccatcac atacttgaat
+     1621 tgtgatagcc ttagcatgat ctgtattaat cttaaaaaaa aaaaaaaaaa aaaa
+//
+

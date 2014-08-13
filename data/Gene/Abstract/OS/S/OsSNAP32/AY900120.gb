@@ -1,0 +1,68 @@
+LOCUS       AY900120                1014 bp    mRNA    linear   PLN 12-JUN-2008
+DEFINITION  Oryza sativa (japonica cultivar-group) SNAP1 (SNAP1) mRNA, complete
+            cds.
+ACCESSION   AY900120
+VERSION     AY900120.1  GI:58825793
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1014)
+  AUTHORS   Bao,Y.M., Wang,J.F., Huang,J. and Zhang,H.S.
+  TITLE     Molecular cloning and characterization of a novel SNAP25-type
+            protein gene OsSNAP32 in rice (Oryza sativa L.)
+  JOURNAL   Mol. Biol. Rep. 35 (2), 145-152 (2008)
+   PUBMED   17380428
+REFERENCE   2  (bases 1 to 1014)
+  AUTHORS   Gu,Z., Bao,Y. and Zhang,H.
+  TITLE     Molecular Cloning and Characterization of a Novel Plant t-SNARE
+            Gene OsSNAP1 from Rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1014)
+  AUTHORS   Gu,Z., Bao,Y. and Zhang,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JAN-2005) Agro. Department, Nanjing Agro. Univ.,
+            Weigang1#, Nanjing, Jiangsu 210095, China
+FEATURES             Location/Qualifiers
+     source          1..1014
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     gene            1..1014
+                     /gene="SNAP1"
+                     /note="OsSNAP1"
+     CDS             3..854
+                     /gene="SNAP1"
+                     /note="t-SNARE"
+                     /codon_start=1
+                     /product="SNAP1"
+                     /protein_id="AAW82752.1"
+                     /db_xref="GI:58825794"
+                     /translation="MSGRRSFFASKKPSRSSNPFDSDSDDGGREQRPARASSVPPPAD
+                     QRGSLFGGGDGFSASSAAARSRYRNDFRDTGGVEAQSVQELEGYAAYKAEETTQRVQG
+                     CVRIAEEMRDTASKSLVTIHQQGQQITRTHMTTLDIDQDLSRSEKLLGDLGGIFSKKW
+                     KPKKNGEIRGPMLTRDDSSIRKGSHLEQRHKLGLSDHPPQSNARQFHSEPTSALQKVE
+                     MEKAKQDDGLSDLSNILTELKGMAVDMGTEIDRQTKALGDSEKDYDELNFRIKGANTR
+                     ARRLLGK"
+ORIGIN      
+        1 agatgagcgg gaggagatcg ttcttcgcat ccaagaagcc gtcgcggagc agcaacccct
+       61 tcgactccga ctccgacgat ggcgggaggg agcagagacc ggcgagggcc tcctccgtgc
+      121 ctcctccggc cgaccagcgg ggctccctct tcggcggcgg ggatggcttc tccgcctcgt
+      181 cggcggcggc gaggagccgg tacaggaacg acttccgcga caccggcggc gtggaggccc
+      241 agtcggtgca ggagctggag ggctacgcgg cgtacaaggc ggaggagacc actcagcggg
+      301 tgcagggctg cgtccgcatc gccgaggaga tgagggatac cgcgtccaag agcctcgtca
+      361 ccatacacca gcagggccag cagatcacgc gcacgcacat gacgaccctc gacatcgacc
+      421 aggatctctc caggagcgag aagctgctgg gtgatcttgg gggtatattt tccaaaaagt
+      481 ggaagccaaa aaagaatgga gaaatcaggg ggcctatgct aactagagat gattcctcca
+      541 ttcggaaggg cagccatttg gaacaaaggc acaaactggg actatcggat cacccacctc
+      601 aatcgaatgc acgccaattc cattccgagc caacttcagc cctccagaaa gtggagatgg
+      661 agaaggcaaa gcaggatgat ggcctatctg atctaagtaa catattgacc gagctgaaag
+      721 gcatggcggt tgacatgggc actgagattg acagacaaac aaaggctttg ggagattcag
+      781 agaaggacta cgacgaactg aacttcagga tcaagggagc aaacactcgg gcacgccgtc
+      841 tgcttggaaa ataaactgca gaatataatc tcatcacagg acaggagtcc ttccatccct
+      901 tttaccctta gtcttgtgga ggataattaa ttgttttgtg ggccattggt tctgatgatt
+      961 ctgtgcatca gattttgatc agtacggtga atggttggtc ctggatatgt cagg
+//
+

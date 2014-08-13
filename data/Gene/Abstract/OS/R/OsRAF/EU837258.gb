@@ -1,0 +1,62 @@
+LOCUS       EU837258                1203 bp    mRNA    linear   PLN 29-JUL-2008
+DEFINITION  Oryza sativa Japonica Group clone KCS050F04 AP2 domain containing
+            protein mRNA, complete cds.
+ACCESSION   EU837258
+VERSION     EU837258.1  GI:194396116
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1203)
+  AUTHORS   Yoon,U.H., Lee,G.S., Lee,J.S., Hahn,J.H., Kim,C.K., Yang,H.W.,
+            Choi,E.Y., Lee,J.H., Suh,S.C. and Kim,Y.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2008) Cell and Genetics, National Institute of
+            Agricultural Biotechnology, 224 Suinro Gwonseon-gu, Suwon 441-707,
+            Korea
+FEATURES             Location/Qualifiers
+     source          1..1203
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Ilpum byeo"
+                     /db_xref="taxon:39947"
+                     /clone="KCS050F04"
+                     /dev_stage="seed"
+     CDS             91..1095
+                     /codon_start=1
+                     /product="AP2 domain containing protein"
+                     /protein_id="ACF60476.1"
+                     /db_xref="GI:194396117"
+                     /translation="MCGGAILAEFIPAPSRAAAATKRVTASHLWPAGSKNAARGKSKS
+                     KRQQRSFADVDDFEAAFEQFDDDSDFDDAEEEDEGHFVFASKSRVVAGHDGRAAARAA
+                     SKKKRGRHFRGIRQRPWGKWAAEIRDPHKGTRVWLGTFNTPEEAARAYDVEARRLRGS
+                     KAKVNFPATPAAARPRRGNTRATAVPPPATAPAAAPPRGLKREFSPPAETALPFFTNG
+                     FVDLTTAAAPPPAMMMTSSFTDSVATSESGGSPAKKARSDDVDSSEGSVGGGSDTLGF
+                     TDELEFDPFMLFQLPYSDGYESIDSLFAAGDANSANTDMNAGVNLWSFDDFPIDGALF
+                     "
+ORIGIN      
+        1 aggcattcgc aacacacact tgaagaaaaa aaacacgacg aacacgttaa aaaaaggtcg
+       61 aagagaagtg ggagacccaa accgcgaaca atgtgtggag gcgccatcct cgccgagttc
+      121 atcccggcgc cgtcgcgcgc cgcggcggcg accaagcggg tgaccgccag ccacctgtgg
+      181 ccggccggct ccaagaacgc cgcccgcggc aagagcaaga gcaagaggca gcagaggagc
+      241 ttcgccgacg tcgacgactt cgaggccgcc ttcgagcagt tcgacgatga ctccgacttc
+      301 gacgacgcgg aggaagaaga cgaaggacac ttcgtgttcg cgtccaaatc tcgtgtcgtc
+      361 gccgggcacg acgggcgcgc ggcggcgagg gcggcgagca agaagaagcg ggggcggcac
+      421 ttccgaggca tccggcagcg gccatggggg aagtgggcgg cggagatccg cgacccgcac
+      481 aagggcacgc gcgtctggct cggcacgttc aacaccccgg aggaggccgc acgcgcctac
+      541 gacgtcgagg cgcgccgcct ccgcggcagc aaggccaagg tcaacttccc cgccacgccc
+      601 gccgccgcgc gcccacgccg cggcaacacg agagccaccg ccgtgccacc gccggcgaca
+      661 gcacccgccg ccgccccgcc gcgcggactg aagcgagaat tctcgccgcc tgctgagacc
+      721 gcgctacctt tcttcaccaa cggcttcgtc gacctgacga ccgccgcggc gccgccaccg
+      781 gccatgatga tgacgagctc cttcaccgac agcgtcgcca cgtcggagtc cggcgggagc
+      841 cccgccaaga aggcgaggtc cgacgacgtc gactcgtccg agggcagcgt cggcggcggc
+      901 agcgacacgc tgggtttcac cgacgagctg gagttcgacc cgttcatgct gttccagctc
+      961 ccctactccg acggctacga gtccatcgac agcctcttcg ccgccggcga cgccaacagc
+     1021 gcgaacaccg acatgaacgc cggcgtcaac ctgtggagct tcgacgactt cccaatcgac
+     1081 ggcgcccttt tctgatgtac tcctccattg atgcagtttg tgcactcaat tgtaagcatc
+     1141 tgaattcact tccattttaa tggattcagt taaaaactta acaaaaaaaa aaaaaaaaaa
+     1201 aaa
+//
+

@@ -1,0 +1,79 @@
+LOCUS       AF005492                1777 bp    mRNA    linear   PLN 07-OCT-1997
+DEFINITION  Oryza sativa bZIP transcriptional activator RF2a (rf2a) mRNA,
+            complete cds.
+ACCESSION   AF005492
+VERSION     AF005492.1  GI:2253277
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1777)
+  AUTHORS   Yin,Y., Zhu,Q., Dai,S., Lamb,C. and Beachy,R.N.
+  TITLE     RF2a, a bZIP transcriptional activator of the phloem-specific rice
+            tungro bacilliform virus promoter, functions in vascular
+            development
+  JOURNAL   EMBO J. 16 (17), 5247-5259 (1997)
+   PUBMED   9311985
+REFERENCE   2  (bases 1 to 1777)
+  AUTHORS   Yin,Y. and Beachy,R.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAY-1997) Department of Cell Biology, The Scripp
+            Research Institute, 10550 N. Torrey Pines Rd, La Jolla, CA 92037,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..1777
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /strain="TP301"
+                     /db_xref="taxon:4530"
+     gene            1..1777
+                     /gene="rf2a"
+     CDS             365..1471
+                     /gene="rf2a"
+                     /function="bZIP transcriptional activator"
+                     /codon_start=1
+                     /product="RF2a"
+                     /protein_id="AAC49832.1"
+                     /db_xref="GI:2253278"
+                     /translation="MNREKSPIPGDGGDGLPPQATRRAGPPAAAAAAEYDISRMPDFP
+                     TRNPGHRRAHSEILSLPEDLDLCAAGGGDGPSLSDENDEELFSMFLDVEKLNSTCGAS
+                     SEAEAESSSAAAHGARPKHQHSLSMDESMSIKAEELVGASPGTEGMSSAEAKKAVSAV
+                     KLAELALVDPKRAKRIWANRQSAARSKERKMRYIAELERKVQTLQTEATTLSAQLALL
+                     QRDTSGLTTENSELKLRLQTMEQQVHLQDALNDTLKSEVQRLKVATGQMANGGGMMMN
+                     FGGMPHQFGGNQQMFQNNQAMQSMLAAHQLQQLQLHPQAQQQQVLHPQHQQQQPLHPL
+                     QAQQLQQAARDLKMKSPMGGQSQWGDGKSGSSGN"
+ORIGIN      
+        1 ccgggcaggt ttttactgtc cccatgcaga caatgccaaa gggataaaca gagttaaaat
+       61 tggtgaaaat tcactcgaat ccaaatgtaa acaacccatt tttctcctgt tccaatccca
+      121 tccattccat tccattcctt ctccctgtgc tcggattcct gttcttgcag ctgatcccta
+      181 gatcttcctc tttgcccgag aattttccgc ccaattcccc actccgattc ctcttctttc
+      241 gcccaaattt tggctcaaca tttcgcagcg caatctcgag ctgaatcttg gggggtaaag
+      301 ctttgcttct tggaatcttg gtgcggtttt tgggggagat ttgcgagcgt ttggagccga
+      361 gaagatgaac agggagaaat ccccgatccc gggagacggc ggcgacgggt tgccgccgca
+      421 ggccacccgc cgggcgggcc ctccggcggc ggcggcggcg gcggagtacg acatcagccg
+      481 catgccggat ttcccgacga ggaaccccgg ccacaggcgc gcccactccg agatcctgag
+      541 cctccccgag gacctcgacc tgtgcgcggc cggcggcggc gacgggccgt cgctgtcgga
+      601 cgagaacgac gaggagctct tctccatgtt cctcgacgtg gagaagctga acagcacgtg
+      661 cggggcgtcg tcggaggcgg aggcggagtc gtcgtccgcc gccgcccatg gagcgaggcc
+      721 gaagcaccag cacagcctgt ccatggatga gtcgatgtcg atcaaggctg aggagctcgt
+      781 cggggcgtcg cccgggacgg aggggatgtc gtcggcggag gccaagaagg ccgtgtccgc
+      841 ggtcaagctc gccgagcttg ctctcgtcga tcccaagagg gcgaaaagga tttgggctaa
+      901 cagacaatct gcggcaagat caaaggaaag gaaaatgcga tatattgctg aacttgagcg
+      961 caaggtgcaa accctgcaaa cagaagcaac aacactgtca gcccagttgg cactgctaca
+     1021 gagagatacc agtgggctaa ctactgagaa tagtgaactg aagctacgtc tgcagaccat
+     1081 ggagcagcaa gtccacttgc aagatgcttt gaatgacacc ctgaagtctg aggttcagcg
+     1141 gcttaaggtt gcaaccggtc aaatggcgaa tggtggaggg atgatgatga acttcggtgg
+     1201 catgccacac caattcggag gcaaccagca gatgttccag aacaaccagg ccatgcaatc
+     1261 tatgctggca gcacaccagc tgcaacagct ccagcttcat cctcaggctc agcagcagca
+     1321 ggtgctgcac cctcagcatc agcagcagca gccattgcac cctctacaag cgcagcagct
+     1381 ccagcaggcg gcacgagacc tcaagatgaa atcgccgatg ggcggccaga gccagtgggg
+     1441 agatggcaag tcaggaagca gcggcaactg atgcgtcatt tacaaattta caaaaaaatt
+     1501 cgccaaagtt tcggtgtaag gttgtggttt aacaaccatg gagatggtct gtttcattga
+     1561 gatgatgatg atgtgcaaga gtagttatca tcatcatcat cggtaggttc aggttggctt
+     1621 cagcttcagt caaacagttg ggtggatgtt cagttggaga gtttatctgt agctggttca
+     1681 gtaaggaaat ggtcgaataa tcaagaattc caggttaaaa tctttcgttt ctttggtaag
+     1741 gtagcacatc accaagatgt actgttgtag tgttgtc
+//
+

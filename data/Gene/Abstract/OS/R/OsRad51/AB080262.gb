@@ -1,0 +1,70 @@
+LOCUS       AB080262                1389 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsRad51A1 mRNA for Rad51, complete cds.
+ACCESSION   AB080262
+VERSION     AB080262.1  GI:18874070
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Shimizu,T., Mimida,N., Nakamura,S., Kawasaki,S., Nakashima,M.,
+            Osakabe,K., Toki,S. and Ichikawa,H.
+  TITLE     Homologous recombination related gene, Rad51 in rice
+  JOURNAL   Published Only in Database (2002)
+REFERENCE   2  (bases 1 to 1389)
+  AUTHORS   Shimizu,T., Mimida,N., Nakamura,S., Kawasaki,S., Nakashima,M.,
+            Osakabe,K., Toki,S. and Ichikawa,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-FEB-2002) Contact:Hiroaki Ichikawa National Institute
+            of Agrobiological Sciences, Department of Plant Biotechnology;
+            Kannondai2-1-2, Tukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1389
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1389
+                     /gene="OsRad51A1"
+     CDS             94..1113
+                     /gene="OsRad51A1"
+                     /codon_start=1
+                     /product="Rad51"
+                     /protein_id="BAB85491.1"
+                     /db_xref="GI:18874071"
+                     /translation="MSTSAAAAAAAEQQQEEGEHGPFPIEQLQASGIAALDVKKLKDS
+                     GLYTVESVAYTPRKDLLQIKGISEAKVDKIVEAASKLVPLGFTSASQLHAQRLEIIQV
+                     TTGSRELDKILDGGIETGSITEIYGEFRSGKTQLCHTLCVTCQLPLDQGGGEGKALYI
+                     DAEGTFRPQRLLQIADRFGLNGADVLENVAYARAYNTDHQSRLLLEAASMMIETRFAL
+                     MIVDSATALYRTDFSGRGELSARQMHMAKFLRSLQKLADEFGVAVVITNQVVAQVDGS
+                     AMFAGPQIKPIGGNIMAHASTTRLALRKGRGEERICKVISSPCLAEAEARFQIASEGV
+                     ADVKD"
+ORIGIN      
+        1 ggtggttgcc gccttcaatt ccattcgaac gaaacgagga gaagagagag gagagaggag
+       61 agagaggggt ttgtgtggct gcgagtgggc cccatgtcga cgtcggcggc ggcggcggcg
+      121 gcggcggagc agcagcagga ggagggggag cacgggccgt tccccatcga gcagctgcag
+      181 gcatctggaa ttgctgctct ggatgtgaaa aagctcaagg attctggtct gtacacagtg
+      241 gagtctgtgg cctatactcc aaggaaagac cttttgcaaa tcaaaggaat tagtgaagcc
+      301 aaagttgaca agatagttga agcagcatcg aagctagtcc cattgggatt tacaagtgcg
+      361 agccaacttc atgcacaaag gctggagatt attcaagtta caactggatc tagagagctt
+      421 gataagattt tggatggggg gatagaaact ggctctatca cagagattta tggtgaattc
+      481 cgatcaggga agactcagct gtgccacacg ctgtgtgtca catgtcagct tccattggac
+      541 caaggtggtg gtgaagggaa ggctttgtac attgatgcag agggaacatt cagaccacaa
+      601 aggctgctcc agatagctga caggttcggg ttgaatggtg ctgatgtatt agagaacgtg
+      661 gcttatgcca gagcttataa tactgatcat caatcaagac ttctgctgga ggcagcttcc
+      721 atgatgatag agactaggtt tgctctcatg attgtagaca gcgcgacagc tttgtacaga
+      781 actgatttct caggtcgagg ggagctctca gcgaggcaaa tgcacatggc taagtttctg
+      841 aggagccttc agaaattagc agatgagttt ggagtggctg tggttatcac taatcaagta
+      901 gtggcacaag tggatggttc tgccatgttt gctgggccgc agatcaaacc catcggtgga
+      961 aacatcatgg ctcatgcttc cacaacaagg cttgctcttc gcaagggaag aggggaagag
+     1021 cgaatatgta aagtgataag ctctccatgc ttggctgaag ccgaagcaag gtttcagata
+     1081 gcatctgaag gcgttgcaga tgtcaaggat tgagacaatc tctgctcagt gctaagcgct
+     1141 aactggcaac agcttcccag ttcccacatg tgttgctctc ctgctgattg cgctaccacc
+     1201 cctgaagggt tcaactgatg tgatgctcct gttctgaatc cgacaaccac ttattgtcga
+     1261 gtggaggtgc acatctgtgt cactgttgta gtgttgtagt ataaaacgtt gtctgccctg
+     1321 caaggctgca atgcatgtaa tgtgacattg gtttacagat attgaatgaa ttgaagtaag
+     1381 ttttctgcc
+//
+

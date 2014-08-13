@@ -1,0 +1,82 @@
+LOCUS       AF016897                1770 bp    mRNA    linear   PLN 03-JUL-2001
+DEFINITION  Oryza sativa GDP dissociation inhibitor protein OsGDI2 (OsGDI2)
+            mRNA, complete cds.
+ACCESSION   AF016897
+VERSION     AF016897.1  GI:2384759
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1770)
+  AUTHORS   Kim,W.Y., Kim,C.Y., Cheong,N.E., Choi,Y.O., Lee,K.O., Lee,S.H.,
+            Park,J.B., Nakano,A., Bahk,J.D., Cho,M.J. and Lee,S.Y.
+  TITLE     Characterization of two fungal-elicitor-induced rice cDNAs encoding
+            functional homologues of the rab-specific GDP-dissociation
+            inhibitor
+  JOURNAL   Planta 210 (1), 143-149 (1999)
+   PUBMED   10592042
+REFERENCE   2  (bases 1 to 1770)
+  AUTHORS   Kim,C.Y., Cheon,S.Y., Jeong,S.Y., Cheong,Y.H., Choe,M.S., Park,H.C.
+            and Cho,M.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-1997) Biochemistry, PMBBRC, 900 Gajwa-dong,
+            Chinju, Kyeongnam 660-701, Korea
+FEATURES             Location/Qualifiers
+     source          1..1770
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /note="rice suspension cultured cells treated with fungal
+                     elicitor"
+     gene            1..1770
+                     /gene="OsGDI2"
+     CDS             101..1438
+                     /gene="OsGDI2"
+                     /note="GDP dissociation inhibitor2"
+                     /codon_start=1
+                     /product="GDP dissociation inhibitor protein OsGDI2"
+                     /protein_id="AAB69871.1"
+                     /db_xref="GI:2384760"
+                     /translation="MDEEYDLIVLGTGLKECILSGLLSVDGLKVLHMDRNDYYGGDST
+                     SLNLNQLWKRFRGEDKPPAHLGSSKDYNVDMVPKFMMANGTLVRTLIHTDVTKYLSFK
+                     AVDGSYVFSKGKIHKVPATDMEALKSPLMGLFEKRRARNFFIYVQDYNEADPKTHQGL
+                     DLTTMTTRELIAKYGLSDDTVDFIGHALALHKDDRYLNEPAIDTVKRMKVYAESLAPF
+                     QGGSPSIYPLYGLGELPQGHARLSAVYGGTYILNKPDCKVEFDMEGKVCGVTSEGETA
+                     KCKKVVCDPSYLPNKVRKDRKVARAIAIMSHPIASTNDSHSVQIILPQKQLGRKSDMY
+                     VFCCSYTHNVAPKGKFIAFVSTEAETDNPQSELKPGIDLLGQVDELFFDIYDRYEPVN
+                     EPSLDNCFVSTSYDATTHFETTVTDVLNMYTLITGKAVDLSVDLSAASAAEEY"
+ORIGIN      
+        1 ctcatctcac catcccatcc acgcttctcg actcccagac gacgctgctg ctgcctttcg
+       61 tcaacccccc acttctcctt ccccgccgcc gctcgccgcc atggatgagg agtacgactt
+      121 gatcgtgctg gggacgggcc tcaaggagtg catcctcagc ggcctcctct ccgtcgacgg
+      181 cctcaaggtc ttgcacatgg ataggaatga ctactatgga ggagattcca cctcgctcaa
+      241 ccttaaccag ctgtggaaga ggtttagagg ggaagacaaa cccccggctc atctgggctc
+      301 aagcaaagat tacaatgtag atatggtccc aaagtttatg atggcaaatg ggacactggt
+      361 taggaccctc attcacactg atgtgacaaa gtatttgtca ttcaaagctg tcgatggaag
+      421 ctatgtcttc agcaaaggga agattcacaa ggtacctgct actgacatgg aggctctgaa
+      481 gtcccctttg atgggtcttt ttgagaagcg cagagcaagg aacttcttca tttacgtcca
+      541 agattacaat gaagctgatc caaaaacaca tcaagggttg gatcttacta caatgacaac
+      601 tagagaactg atagcaaaat atggtttaag tgacgatacc gtggatttca tcggtcatgc
+      661 acttgctctt cataaagatg atcgctacct taatgaacca gcaattgata ctgtaaaaag
+      721 gatgaaagta tatgcagagt cccttgcacc ttttcaagga ggctcacctt ctatctatcc
+      781 actctatggg ttgggtgagc tgccacaggg ccatgctcgt ttaagtgctg tttatggtgg
+      841 cacttacata ttaaataagc cggactgcaa ggttgaattt gatatggaag ggaaagtctg
+      901 tggcgttact tcagaaggtg aaactgcaaa atgcaagaaa gtggtttgtg atccttcata
+      961 cttacctaac aaggttagga aggataggaa agttgcacga gcaattgcta taatgagcca
+     1021 cccaattgca agcacaaatg actctcactc agtccagatt attttgccac agaaacaact
+     1081 tggacgcaag tcagacatgt atgtcttctg ttgctcatac acacacaatg tcgctccaaa
+     1141 ggggaagttt attgcatttg tatctacaga agcggaaact gacaatccac agtccgagct
+     1201 aaagcctgga attgatctac ttggtcaagt agatgagcta ttttttgata tctatgatag
+     1261 atacgaacct gtgaatgaac catctcttga taattgtttt gtctcaacta gctatgatgc
+     1321 caccacacat tttgagacaa cggtgacaga tgttcttaac atgtatacat tgatcaccgg
+     1381 aaaggctgtt gatctcagtg ttgatttgag tgctgccagt gccgctgaag aatattagat
+     1441 ttcacaacca aagctcaatc atttcacaaa gatatgcttt ttcttggtgg gtaccgcagg
+     1501 acagatcgta acgagtgact ggtatagtta ttcaaactcc acgttatacc gagtgttctg
+     1561 gccaatatgg cttgttgcta gcagtaatat gcacaactgt tggccaagat gactgaaatg
+     1621 atggtggttt aatttgatac ttcagtaatg caatggtgta aacagtgtac acactacaca
+     1681 atgacggtcg ggcgttttgt gactgatgta tcataactgc tggataattt tgcatgtcta
+     1741 cttctgcaaa aaaaaaaaaa aaaaaaaaaa
+//
+

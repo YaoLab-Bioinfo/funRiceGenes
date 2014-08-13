@@ -1,0 +1,66 @@
+LOCUS       AF047444                1050 bp    mRNA    linear   PLN 27-JAN-1999
+DEFINITION  Oryza sativa ribulose-5-phosphate-3-epimerase (RPE) mRNA, complete
+            cds.
+ACCESSION   AF047444
+VERSION     AF047444.1  GI:4105560
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1050)
+  AUTHORS   Favery,B., Lecomte,P., Gil,N., Bechtold,N., Bouchez,D., Dalmasso,A.
+            and Abad,P.
+  TITLE     RPE, a plant gene involved in early developmental steps of nematode
+            feeding cells
+  JOURNAL   EMBO J. 17 (23), 6799-6811 (1998)
+   PUBMED   9843485
+REFERENCE   2  (bases 1 to 1050)
+  AUTHORS   Favery,B., Lecomte,P., Gil,N., Bechtold,N., Bouchez,D., Dalmasso,A.
+            and Abad,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-FEB-1998) LBI, INRA, 123 Bd Francis Meilland, Antibes
+            06600, France
+FEATURES             Location/Qualifiers
+     source          1..1050
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1050
+                     /gene="RPE"
+     CDS             94..918
+                     /gene="RPE"
+                     /EC_number="5.1.3.1"
+                     /function="converts D-ribulose 5-phosphate into D-xylulose
+                     5-phosphate"
+                     /codon_start=1
+                     /product="ribulose-5-phosphate-3-epimerase"
+                     /protein_id="AAD09955.1"
+                     /db_xref="GI:4105561"
+                     /translation="MASPSSSSSLCSTFASPRAASLGRRLAFSSPRKAFRVRASSRVD
+                     KFSKNDIIVSPSILSANFSKLGEQVKAVEVAGCDWIHVDVMDGRFVPNITIGPLVVDA
+                     LRPVTDLPLDVHLMIVEPEQRVPDFIKAGADIVSVHCEQSSTIHLHRTVNQIKSLGAK
+                     AGVVLNPATPLTAIDYVLDVVDLVLIMSVNPGFGGQSFIESQVKKIAELRKYVAEKGV
+                     NPWIEVDGGVGPKNAYKVIEAGANAIVAGSAVFGAPDYAEAIKGIKTSKRPVAVPA"
+ORIGIN      
+        1 gcgacgcctc ctagccgcca ccgcttcacc aaatcaaaag ctctcgctgc tcctcgagag
+       61 ggagttggtg gagagagaaa gagagagaga gagatggcgt cgccgtcgtc gtcgtcgtcg
+      121 ctgtgctcga ccttcgcctc gccgcgcgcc gcctccctcg gccgccgcct cgccttctcc
+      181 tcgcccagga aagcattccg agtgagggca tcatccaggg ttgacaagtt ctcgaagaat
+      241 gacatcatcg tgtccccttc cattctttct gcaaactttt ccaagcttgg cgagcaggta
+      301 aaagctgtgg aggtggcagg atgtgactgg attcatgttg atgtcatgga tggacgtttt
+      361 gtgccaaata tcacaatcgg acctttggtt gttgatgctc tgcggccagt cactgatctt
+      421 ccgttggatg tgcatctgat gattgtggaa cctgagcaac gagttccaga ttttatcaag
+      481 gcaggtgctg atattgttag cgttcactgt gagcaatcgt caaccatcca tctacaccga
+      541 acagtcaatc agatcaaaag tcttggagca aaggctggag ttgttttgaa tcctgcaacc
+      601 cctctcactg cgatagatta tgtacttgat gttgttgatc tagtattgat tatgtcggtg
+      661 aatcctgggt ttggtgggca gagctttatt gaaagccaag tgaagaagat tgcagagttg
+      721 agaaagtatg tggcagagaa gggagtaaac ccttggattg aggttgatgg tggagttggt
+      781 cccaaaaacg cctacaaggt cattgaagct ggggccaacg ccattgttgc tggttcagcc
+      841 gttttcgggg ctccagacta tgcagaagct atcaagggaa tcaagaccag caaaagacct
+      901 gtggctgtac cagcatgagg atcctaaagt agtatgctgt gtacgtngtt ttggtttacc
+      961 agtaccgcgg tttgtacaga tatgtgccaa gctgtacggt atatttgggg aattnaagga
+     1021 agaggaaacg tngagggcgc cctttttaaa
+//
+

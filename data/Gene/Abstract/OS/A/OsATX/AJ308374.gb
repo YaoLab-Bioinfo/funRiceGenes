@@ -1,0 +1,56 @@
+LOCUS       AJ308374                 480 bp    mRNA    linear   PLN 06-MAY-2003
+DEFINITION  Oryza sativa mRNA for ATX protein.
+ACCESSION   AJ308374
+VERSION     AJ308374.1  GI:18250911
+KEYWORDS    atx gene; ATX protein.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Agrawal,G.K., Rakwal,R., Jwa,N.S. and Agrawal,V.P.
+  TITLE     Characterization of a novel rice gene OsATX and modulation of its
+            expression by components of the stress signalling pathways
+  JOURNAL   Physiol Plant 116 (1), 87-95 (2002)
+   PUBMED   12207666
+REFERENCE   2  (bases 1 to 480)
+  AUTHORS   Agrawal,G.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JAN-2001) Agrawal G.K., Biotechnology and
+            Biochemistry, Research Lab. for Agri. Biotech. and Biochem.
+            (RLABB), GPO 8207, Kathmandu, NEPAL
+FEATURES             Location/Qualifiers
+     source          1..480
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="leaf"
+                     /dev_stage="seedling"
+                     /country="Japan"
+     gene            1..480
+                     /gene="atx"
+     CDS             55..264
+                     /gene="atx"
+                     /function="defense/stress response"
+                     /codon_start=1
+                     /product="ATX protein"
+                     /protein_id="CAC83657.1"
+                     /db_xref="GI:18250912"
+                     /db_xref="GOA:Q7FNW1"
+                     /db_xref="InterPro:IPR006121"
+                     /db_xref="UniProtKB/TrEMBL:Q7FNW1"
+                     /translation="MAVVELKVGMHCDRCIKAIKKAIKTIDDMESYQLETEINKVTVT
+                     GNVTPDEVVKALQKIGKTATNWGED"
+ORIGIN      
+        1 aggaattcgg cacgagtaaa cctgtgagag tcaatctctc tctactttcc aaacatggct
+       61 gtggtggagt tgaaggttgg gatgcactgc gacaggtgca tcaaggcgat caagaaggca
+      121 ataaaaacga tcgatgatat ggagagttat cagctagaga cagagataaa caaggtcacc
+      181 gtgacaggaa atgttacccc agatgaagtc gtcaaggctc tgcagaagat tgggaagacg
+      241 gcaactaact ggggtgaaga ctgaagtgtt catctttagc tagtagtata tatcagctga
+      301 tgacttgatg tccttagtcc ttagtccttt ctatggttac tttgagctgt ttatactgca
+      361 gatatacagt agtactaagg aacataaagt gggtaaactc ggcattgctt actctccctc
+      421 agtagttgat taatgcaatg gattatgcgt tgccctgttg gattaaaaaa aaaaaaaaaa
+//
+

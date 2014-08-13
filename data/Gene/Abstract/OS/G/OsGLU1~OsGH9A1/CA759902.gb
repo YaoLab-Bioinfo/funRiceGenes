@@ -1,0 +1,55 @@
+LOCUS       CA759902                 688 bp    mRNA    linear   EST 27-NOV-2002
+DEFINITION  BR060009B10B06.ab1 IRRI clones Oryza sativa Indica Group cDNA clone
+            BR060009B10B06.ab1 similar to endo-1,4-beta-glucanase Cel1 [Hordeum
+            vulgare subsp, mRNA sequence.
+ACCESSION   CA759902
+VERSION     CA759902.1  GI:25803941
+DBLINK      BioSample: LIBEST_012215
+KEYWORDS    EST.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 688)
+  AUTHORS   Bennett,J., Arumugam,K., Lafitte,R., Wen,J. and Bruskiewich,R.
+  TITLE     Rice Microarray
+  JOURNAL   Unpublished (2002)
+COMMENT     Contact: Mark Fredricksen
+            Department of Plant Biology
+            University of Illinois
+            1201 W. Gregory Dr., Urbana, IL 61801, USA
+            Tel: 2172655473
+            Email: bohnertlab@life.uiuc.edu
+            International Rice Information System (IRIS;
+            http://www.iris.irri.org).
+FEATURES             Location/Qualifiers
+     source          1..688
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR64"
+                     /db_xref="taxon:39946"
+                     /clone="BR060009B10B06.ab1"
+                     /tissue_type="Panicles"
+                     /dev_stage="Flowering"
+                     /clone_lib="LIBEST_012215 IRRI clones"
+                     /note="Vector: pBluescript II SK+; Water stress was
+                     applied by not watering for 4 consecutive days. Panicles
+                     were collected from control (well watered) and stressed
+                     plants at 2 days before heading, heading, 50% flowering
+                     and 4 days after 50% flowering."
+ORIGIN      
+        1 tttttttttt tttttttttt ttttaactcc cacaaatcca cgaggaaaga tagtattaat
+       61 tactaggttc ataccaaaat agcaatagtg ttacataaca tggggattat acaagtatac
+      121 aacaatggga gaaacaaaga taaaaacctg acgccttctt ttctgttagg tttcccccag
+      181 catctccgga acaagggaga aaaacactaa tctaaataag ccgtatacaa aatgaatcaa
+      241 aatcagatag tggcagccaa tcatggtttc catggtgccg gaggcggtgg gggcgaaggg
+      301 aacatcggcg gcacggcaga aaacatagtg ttcttatcca cgccatggcc ttcacctgac
+      361 aatgctacta atgctgcaac tagaccggca ttgccagcta gagttgcttc cgtgtagttg
+      421 taattcttgc gaacatcctt gaagccgtcg tggcgatcag ggccagctac catcgctccg
+      481 acaataatgt tagggttttg gtttcttggt ttctctccac ttccaacctc ctttgcaacc
+      541 gtagtggaca ccattctttg ggatcgaggc accccgataa tgaacacgtt tagggtaacg
+      601 gtttccgtaa ccaaccacat agctcatctt caaaggattt tttcctaaga tgtattcgat
+      661 ttgagttctt gcaaaattgc gcagagtt
+//
+

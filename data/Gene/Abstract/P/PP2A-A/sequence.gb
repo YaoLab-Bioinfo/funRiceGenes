@@ -1,0 +1,95 @@
+LOCUS       AJ243828                2225 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for protein phosphatase 2A regulatory A subunit
+            (RPA1 gene).
+ACCESSION   AJ243828
+VERSION     AJ243828.1  GI:5679683
+KEYWORDS    protein phosphatase 2A; rpA1 gene.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yu,S., Lei,H., Chang,W., Soll,D. and Hong,G.
+  TITLE     Protein phosphatase 2A: identification in Oryza sativa of the gene
+            encoding the regulatory A subunit
+  JOURNAL   Plant Mol. Biol. 45 (1), 107-112 (2001)
+   PUBMED   11247601
+REFERENCE   2  (bases 1 to 2225)
+  AUTHORS   Yu,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JUL-1999) Yu S., Chinese Academy of Sciences,
+            National Center for Gene Research, 500 Caobao Road, Shanghai,
+            200233, CHINA
+FEATURES             Location/Qualifiers
+     source          1..2225
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..2225
+                     /gene="RPA1"
+     CDS             167..1930
+                     /gene="RPA1"
+                     /codon_start=1
+                     /product="phosphatase 2A regulatory A subunit"
+                     /protein_id="CAB51803.1"
+                     /db_xref="GI:5679684"
+                     /db_xref="GOA:Q9S7C5"
+                     /db_xref="HSSP:1B3U"
+                     /db_xref="InterPro:IPR000357"
+                     /db_xref="InterPro:IPR011989"
+                     /db_xref="InterPro:IPR016024"
+                     /db_xref="InterPro:IPR021133"
+                     /db_xref="UniProtKB/TrEMBL:Q9S7C5"
+                     /translation="MASMDEPLYPIAILIDELKNEDIQLRLNSIRRLSTIARALGEER
+                     TRKELIPFLSENNDDEDEVLLAMAEELGVFIPYVGGVEHAHVLLPPLETLCTVEETCV
+                     RDKAVESLCRIGAQMKESDIVDWFVPVVKRLAAGEWFTARVSSCGLFHIAYPSAPDQL
+                     KAELRTIYGQLCQDDMPMVRRAAASNLGKFAATVEQNYLKTEVMSIFDDLTQDDQDSV
+                     RLLAVEGCAALGKLLEPQDCVAHILPVIVNFSQDKSWRVRYMVANQLYELCEAVGPEH
+                     SREQLVPAYVRLLRDNEAEVRIAAAGKVTKFCRILSPQLAIQHILPCVKELSSDSSQH
+                     VRSALASVIMGMAPVLGKEATIEQLLPIFLSLLKDEFPDVRLNIISKLDQVNQVIGID
+                     LLSQSLLPAIVELAEDRHWRVRLAIIEYIPLLASQLGVGFFDDKLGALCMQWLEDKVF
+                     SIRDAAANNLKRLAEEFGPEWAMQHIIPQVLEKINNPHYLYRMTILQAISLLAPVMGA
+                     EITCQQLLPVVINSSKDRVPNIKFNVAKVLQALIPILDQSVVEKNVKPCLVELSEDPD
+                     VDVRYYANQALQACDQIMMSS"
+ORIGIN      
+        1 tcgtgccgct ccccgctccc tttcctccta aacttcagcg gcgacacccc tcgcgagccg
+       61 ctcctcctca tcctcctccg ccgccgccgc cgcgtcccct cggtgccccc ctctccgccg
+      121 gccgccgatc cggccccgcg agttgtagga atccttgata aggctgatgg cttcgatgga
+      181 tgagcctctt tatcccatcg ctatactgat agatgagctc aaaaacgaag atattcaatt
+      241 gcgtctgaac tccattagga ggctctccac aattgcacga gcacttggag aagaaagaac
+      301 ccggaaggag ttaattcctt ttctcagtga aaataatgac gatgaagatg aggtgcttct
+      361 tgctatggct gaagaattgg gcgtgttcat tccttacgtt gggggtgtag aacatgctca
+      421 tgttttgcta ccaccattgg agacattgtg tacagtggag gaaacctgtg tccgagacaa
+      481 ggcagttgaa tctctgtgcc gtattggagc acagatgaag gaaagtgaca ttgtagactg
+      541 gttcgttcca gtagtaaaga ggctagcagc tggtgagtgg tttacagctc gagtatcgtc
+      601 ttgtggactt ttccatatag catatccaag tgctcctgat caattgaagg cagaattgag
+      661 gaccatttat ggtcagctat gccaagatga catgcctatg gtccgaaggg cagctgcatc
+      721 aaatctcgga aagtttgcag ccacagttga acagaactat ctaaagacag aagtcatgtc
+      781 gatatttgat gatctaaccc aagatgatca agattccgta cgcttgttgg cagttgaagg
+      841 ctgtgctgct cttgggaaat tgttggaacc acaagattgt gtagcacata tccttccagt
+      901 tattgtcaat ttctcccagg acaaatcatg gcgagttcgt tatatggttg ccaatcaatt
+      961 gtatgagctc tgcgaggcag ttggtcctga acattctagg gagcagttgg tgccggcata
+     1021 tgttcgtctc cttcgtgaca atgaggctga agtgcggata gcggctgcag ggaaagttac
+     1081 taagttctgt aggattttaa gtcctcagct tgcaattcag catattcttc cttgtgtcaa
+     1141 ggaattgtca tcagattcat ctcagcatgt tcgttcagct ttggcttcag ttattatggg
+     1201 aatggccccg gtcttgggaa aggaggctac aatcgaacaa cttcttccta ttttcctttc
+     1261 tttgctcaag gatgaatttc ctgatgttcg gctcaatata atcagcaagc tcgatcaagt
+     1321 taatcaggtt attggaattg atttgctgtc acaatcactg ttaccggcga tcgtagaact
+     1381 tgcagaggat aggcactgga gggttcggct tgcaataatt gagtacattc ctttattggc
+     1441 tagtcaatta ggcgttggat ttttcgatga caagctgggg gcactttgca tgcaatggtt
+     1501 ggaagataag gtcttctcaa tcagagatgc tgctgcaaac aacttgaagc gcctagctga
+     1561 ggagtttggt ccagaatggg cgatgcagca tataatccct caggtgctgg agaagataaa
+     1621 caacccgcat tatctctacc gcatgaccat cctgcaagct atttcattgc tggcccctgt
+     1681 catgggtgcc gaaatcactt gtcaacagct gctccctgtt gtgattaatt cctcaaagga
+     1741 cagagtgcca aacatcaaat tcaatgttgc gaaggttctg caggcactta taccgatcct
+     1801 tgatcaatct gttgtggaga agaacgtgaa accatgcctc gttgaactca gtgaggaccc
+     1861 tgatgtggat gtaagatact atgcaaacca ggcccttcag gcatgcgatc aaatcatgat
+     1921 gtcaagctaa ctgtcttcct gtccagtatt tagaacttga ttctcttagt ccaaattttg
+     1981 gaatatttgt aatttgcact ttagtttgaa gagttccttt ctagccccag taacagacca
+     2041 aacacttccc atgatgataa tgtatggctc cgacccctcg ttctctgtgt ttgatgttga
+     2101 tgatgttgta attgagcaag atcggacaca ttattatgtt tgtttacatg gtagttttgg
+     2161 gccttggttt caaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa agctcgtgcc
+     2221 gaatt
+//
+

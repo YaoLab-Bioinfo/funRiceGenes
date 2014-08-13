@@ -1,0 +1,79 @@
+LOCUS       AJ250311                1457 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for MAPK2 protein (mapk2 gene).
+ACCESSION   AJ250311
+VERSION     AJ250311.1  GI:10862875
+KEYWORDS    mapk2 gene; MAPK2 protein.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Huang,H.J., Dai,Y.H., Huang,D.D. and Kuo,T.T.
+  TITLE     Molecular Cloning of a Low Temperature-Inducible MAP Kinase from
+            Rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1457)
+  AUTHORS   Huang,H.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-1999) Huang H.J., Department of Biology,
+            Cheng-Kung University, 1, University Rd., Tainan 701, TAIWAN
+FEATURES             Location/Qualifiers
+     source          1..1457
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1457
+                     /gene="mapk2"
+     CDS             108..1217
+                     /gene="mapk2"
+                     /function="protein kinase"
+                     /codon_start=1
+                     /product="MAPK2 protein"
+                     /protein_id="CAC13967.1"
+                     /db_xref="GI:10862876"
+                     /db_xref="GOA:Q10N20"
+                     /db_xref="InterPro:IPR000719"
+                     /db_xref="InterPro:IPR002290"
+                     /db_xref="InterPro:IPR003527"
+                     /db_xref="InterPro:IPR008271"
+                     /db_xref="InterPro:IPR008351"
+                     /db_xref="InterPro:IPR011009"
+                     /db_xref="InterPro:IPR017441"
+                     /db_xref="InterPro:IPR017442"
+                     /db_xref="UniProtKB/Swiss-Prot:Q10N20"
+                     /translation="MDGAPVAEFRPTMTHGGRYLLYDIFGNKFEVTNKYQPPIMPIGR
+                     GGYGIVCSVMNFETREMVAIKKIANAFNNDMDAKRTLREIKLLRLLDHENIIGIRDVI
+                     PPPIPQAFNDVYIATELMDTDLHHIIRSNQELSEEHCQYFLYQILRGLKYIHSANVIH
+                     RDLKPSNLLLNANCDLKICDFGLARPSSESDMMTEYVVTRWYRAPELLLNSTDYSAAI
+                     DVWSVGCIFMELINRQPLFPGRDHMHQMRLITEVIGTPTDDELGFIRNEDARKYMRHL
+                     PQYPRRTFASMFPRVQPAALDLIERMLTFNPLQRITVEEALDHPYLERLHDIADEPIC
+                     LEPFSFDFEQKALNEDQMKQLIFNEAIEMNPNIRY"
+ORIGIN      
+        1 ggtcgaccca cgcgtccgct gcgaatcgag agagagtcag ataaggtcgt taattaggtt
+       61 tgtcaattcg gctgcttgcg gcgagagaag aggaggaggg attagggatg gacggggcgc
+      121 cggtggcgga gttcaggccg acgatgacgc acggcggccg gtacctgctc tacgacatct
+      181 tcgggaacaa gttcgaggtg acgaacaagt accagccgcc catcatgccc attggccgcg
+      241 gcggctacgg gatcgtctgc tccgtgatga actttgagac gagggagatg gtggcgataa
+      301 agaagatcgc caacgcgttc aacaacgaca tggacgccaa gcgcacgctc cgggagatca
+      361 agctcctcag gctcctcgac cacgagaaca tcataggcat cagggatgtg atcccgccgc
+      421 cgatccctca ggcgttcaac gacgtctaca tcgccacgga gctcatggac accgacctcc
+      481 atcacatcat ccgctccaat caagaactgt cagaagagca ctgccagtat ttcctgtacc
+      541 agatcctgcg ggggctcaag tacatccact cggcgaacgt gatccaccgc gacctgaagc
+      601 cgagcaacct gctgctgaac gccaactgcg acctcaagat ctgcgacttc gggctggcgc
+      661 ggccgtcgtc ggagagcgac atgatgacgg agtacgtggt cacccggtgg taccgcgcgc
+      721 cggagctgct gctcaactcc accgactact ccgccgccat cgacgtctgg tccgtcggct
+      781 gcatcttcat ggagctcatc aaccgccagc cgctcttccc cggcagggac cacatgcacc
+      841 agatgcgcct catcaccgag gtgatcggga cgccgacgga cgacgagctg gggttcatac
+      901 ggaacgagga cgcgaggaag tacatgaggc acctgccgca gtacccgcgc cggacgttcg
+      961 cgagcatgtt cccgcgggtg cagcccgccg cgctcgacct catcgagagg atgctcacct
+     1021 tcaacccgct gcagagaatc acagttgagg aggcgctcga tcatccttac ctagagagat
+     1081 tgcacgacat cgccgatgag cccatctgcc tggagccctt ctccttcgac ttcgagcaga
+     1141 aggctctaaa cgaggaccaa atgaagcagc tgatcttcaa cgaagcgatc gagatgaacc
+     1201 caaacatccg gtactagatt gaatccccat ggaaatgaga tcccgtctaa acctgctttg
+     1261 gacatatgat caagattgag agccgggtag actgaacatt gcatttgttt gtttgttgat
+     1321 gttcgaaacc ctcattctct gcaagttgtg gctgctttgt atgatatatg gtactatgtt
+     1381 cgaataaaag ggtttggaac tttggaatat gaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     1441 aaaaaaaaaa aaaaaaa
+//
+

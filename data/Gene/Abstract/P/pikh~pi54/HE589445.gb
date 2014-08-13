@@ -1,0 +1,70 @@
+LOCUS       HE589445                1448 bp    DNA     linear   PLN 11-OCT-2012
+DEFINITION  Oryza rhizomatis pi54 gene for NBS-LRR.
+ACCESSION   HE589445
+VERSION     HE589445.1  GI:408767108
+KEYWORDS    .
+SOURCE      Oryza rhizomatis
+  ORGANISM  Oryza rhizomatis
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Das,A., Rai,A., Singh,N.K. and Sharma,T.R.
+  TITLE     Sequence of blast resistance gene Pi54 isolated from wild and
+            cultivated species of rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1448)
+  AUTHORS   Das,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-SEP-2011) Das A., Division of Crop Improvement,
+            Indian Institute of Pulses Research, Kalyanpur, Uttar Pradesh
+            208024, INDIA
+FEATURES             Location/Qualifiers
+     source          1..1448
+                     /organism="Oryza rhizomatis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:65491"
+     gene            45..1127
+                     /gene="pi54"
+     CDS             45..1127
+                     /gene="pi54"
+                     /function="disease resistance"
+                     /codon_start=1
+                     /product="NBS-LRR"
+                     /protein_id="CCD33072.1"
+                     /db_xref="GI:408767109"
+                     /translation="MYIGSSAMSELQSLPDLNRLSLVNLEKVLDTEDARIAKLQEKEK
+                     LELLMLRWNVDTTDNIRMDHGVPENLQPNQCLKTLEIVAYEGYTFPSWMTRTEPYLTS
+                     LVEIRLVNMRACEKALPPLGLLPCLKIAEISGVDNISFIDDNFYGHNGTFPSLEKLIL
+                     SYMTSLEVWEQSSRMNLFPRLAELVIIQCPKLRALHMELPSVENLISWMNNKMLYSSK
+                     EGLRGVEKSLENLSISFCEELHASSDCEGLQALGGLKKLEICGCHELSCLPQGLQHLS
+                     SLTSLKIDNCNKLEILPEWLENLPYLQIMCLSGCPILHSIPEGLTCIDVIVEHCPSLE
+                     NQVYHQCTVHGNHFCYFHFELFWKQV"
+ORIGIN      
+        1 cagttgcaga aacagatcaa cagtctgaca ttgcactact accaatgtac attggtagta
+       61 gtgcaatgtc agagctgcag tcactgccag atctcaatag actatctcta gtaaaccttg
+      121 aaaaggtttt ggacactgaa gatgcaagaa tagcaaaact tcaagagaaa gaaaaactcg
+      181 agttattgat gttgaggtgg aatgtggata ccaccgataa cattagaatg gatcatggag
+      241 tacctgaaaa cctccaacct aatcagtgcc tgaaaacttt ggagatcgtt gcatatgaag
+      301 ggtatacatt tccatcttgg atgacaagaa ccgagccata tctcacatct ctggttgaga
+      361 taagactagt taatatgaga gcatgtgaaa aggcattacc tccacttggg ctactaccat
+      421 gtctgaagat tgcagagata agtggagttg ataatatcag ttttattgat gataatttct
+      481 atggtcacaa cggcacattc ccttcactgg agaagctgat tctctcatac atgactagcc
+      541 ttgaagtctg ggaacagtca tctaggatga atttgtttcc tcgtcttgcc gaacttgtca
+      601 tcattcagtg cccaaaattg agagcactgc atatggagct tccgtcagtt gaaaatttga
+      661 tctcgtggat gaataacaag atgttgtaca gctcaaagga aggtctgaga ggtgtggaga
+      721 agagcctcga aaatctttca atttctttct gtgaagagtt gcatgcttct tcagactgtg
+      781 agggtctaca ggctcttggt ggcctcaaaa agttggagat atgtggttgt catgaattat
+      841 catgcctccc acagggtttg cagcatcttt cctctcttac aagcttgaaa attgataact
+      901 gcaacaaatt ggagattttg ccagaatggt tggagaacct accttatcta cagattatgt
+      961 gtttgtctgg ctgtccaatt ctgcactcca ttcctgaagg cctgacatgt atcgatgtaa
+     1021 ttgttgaaca ttgccccagt ttagaaaacc aggtatatca tcagtgtact gttcatggaa
+     1081 atcatttctg ttattttcat tttgagctat tttggaagca agtgtgaact aggttaaatt
+     1141 gaacaaacag tcggttatac tttctagttt tttttctcat gtttagcatt acaaatataa
+     1201 atatctatag ctgaatcgac attatatttt tctgatctta agctaacaat gaacttgttt
+     1261 ctttcatgat gtaatgtttt ttacttatgt agtagaaaca tgtgtggagc taagctgaac
+     1321 aagggcaaaa gaatcatcat cgaggaagat tagtttttta ctggttccgt gttaggggac
+     1381 atcatgaaca tttgtcaaga caaaataggt gaccggtagg agagaactga ggtcaatctg
+     1441 tgatctgt
+//
+

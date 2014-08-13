@@ -1,0 +1,97 @@
+LOCUS       AB015615                2288 bp    mRNA    linear   PLN 06-JUL-2001
+DEFINITION  Oryza sativa mRNA for isoamylase, partial cds.
+ACCESSION   AB015615
+VERSION     AB015615.1  GI:3252793
+KEYWORDS    isoamylase.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Fujita,N., Kubo,A., Francisco,P.B. Jr., Nakakita,M., Harada,K.,
+            Minaka,N. and Nakamura,Y.
+  TITLE     Purification, characterization, and cDNA structure of isoamylase
+            from developing endosperm of rice
+  JOURNAL   Planta 208 (2), 283-293 (1999)
+   PUBMED   10333591
+REFERENCE   2  (bases 1 to 2288)
+  AUTHORS   Nakamura,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUN-1998) Yasunori Nakamura, National Institute of
+            Agrobiological Resources, Department of Plant Physiology; 2-1-2
+            Kannondai, Tsukuba, Ibaraki 305-8602, Japan
+            (E-mail:nakayn@abr.affrc.go.jp, Tel:81-298-38-8382,
+            Fax:81-298-38-8347)
+FEATURES             Location/Qualifiers
+     source          1..2288
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /cultivar="Fujihikari"
+                     /db_xref="taxon:4530"
+                     /chromosome="8"
+                     /map="determined"
+                     /tissue_type="endosperm"
+                     /clone_lib="lambda gt11"
+                     /dev_stage="early- to mid-milking stage"
+                     /tissue_lib="endosperm"
+     CDS             <1..2202
+                     /codon_start=1
+                     /product="isoamylase"
+                     /protein_id="BAA29041.1"
+                     /db_xref="GI:3252794"
+                     /translation="VEAVVMPERYALGGACRVLAGMPAPLGATALDGGVNFAVYSAGA
+                     SAASLCLFTPDDLEADEVTEEVPLDPLFNRTGNVWHVFIEGELHNMLYGYRFDGMFAP
+                     HCGQYFDVSNVVVDPYAKAVISRGEYGVPGPGGDCWPQMAGMIPLPYSTFDWQGDLPL
+                     RYPQKDLVIYEMHLRGFTKHSSSNVEHPGTYIGAISKLDYLKELGVNCVELMPCHEFN
+                     ELEYFSCSSKMNFWGYSTINFFSPMIRYSSGGIRNCGRDAINEFKTFVREAHKRGIEV
+                     IMDVVFNHTAEGNEKGPILSFRGIDNSTYYMLAPKGEFYNYSGCGNTFNCNHPVVREF
+                     IVDCLRYWVTEMHVDGFRFDLASIMTRGCSLWDPVNVYGSPVEGDMTTTGTPLATPPL
+                     IDMISNDPILGDVKLIAEAWDAGGLYQVGQFPHWKIWSEWNGKYRDIVRQFIKGTDGF
+                     AGGFAECLCGSPHLYQAGGRKPWHSINFVCAHDGFTLADLVTYNKKYNSSNGEDNRDG
+                     ENHNLSWNCGEEGEFAGLSVKRLRKRQMRNFFVSLMVSQGVPMFYMGDEYGHTKGGNN
+                     NTYCHDHYVNYFRWDKKEESSDLQRFCSLMTKFRKQCESLGLADFPTAQRLHWHGHQP
+                     GKPDWSETSRFVAFSTKDETKGEIYVAFNASHLPAVVGLPERPGYRWEPLVDTGKPAP
+                     YDFLTDDLPDRVTPSTCSLISSTPISTPCSATPPSSLNCSLMIERTKYSIV"
+ORIGIN      
+        1 gtggaggcgg tggtgatgcc ggagaggtac gcgctgggtg gcgcgtgcag ggtgctcgcc
+       61 ggaatgcccg cgccgctcgg ggccaccgcg ctcgacggcg gggtcaattt cgccgtctac
+      121 tccgccggcg catccgccgc gtcgctctgc ctcttcaccc ccgacgatct cgaggcggat
+      181 gaggtgactg aggaggttcc gcttgatcct ctgttcaatc ggacggggaa tgtgtggcac
+      241 gtcttcatcg aaggcgagct gcacaacatg ctgtacgggt acaggttcga tggtatgttc
+      301 gcccctcact gcggccagta cttcgatgtc tccaatgtcg tggtggatcc ttatgccaag
+      361 gcagtgataa gccgaggaga gtatggtgtc cccggtcctg gtggcgattg ctggcctcaa
+      421 atggctggca tgatccctct tccgtacagt acgtttgatt ggcaaggtga cctacctctg
+      481 agatatcctc agaaggatct tgtaatctat gagatgcatt tacgtgggtt tacaaagcac
+      541 agttcaagca atgtagaaca tccagggact tacattgggg ctatatcaaa gcttgactat
+      601 ctgaaggagc ttggagttaa ctgtgtagag ttgatgccct gccatgaatt caatgagctg
+      661 gagtacttca gctgctcttc caagatgaac ttctggggat actccacgat aaactttttt
+      721 tcaccaatga taagatattc atcaggtggg ataagaaact gtggccgtga tgccataaat
+      781 gaattcaaaa cttttgttag agaggctcac aaacggggaa ttgaggtgat catggatgtt
+      841 gtcttcaatc atacagccga gggtaatgag aaaggaccaa tattatcatt tagggggata
+      901 gataatagca catactatat gcttgcccct aagggagagt tttacaatta ttctggttgt
+      961 gggaatacct tcaactgtaa tcatcctgtg gtccgtgaat ttattgtaga ttgtttaaga
+     1021 tactgggtga cagaaatgca tgttgatggt tttcgttttg atcttgcatc cataatgacc
+     1081 agaggatgca gtctttggga tccagttaat gtgtatggaa gtccagtaga aggtgacatg
+     1141 actacgacag ggacacctct tgctactcca ccacttattg acatgatcag caatgatcca
+     1201 attcttggag atgtcaagct cattgctgaa gcatgggatg cgggaggcct ctatcaagta
+     1261 ggtcaatttc ctcactggaa aatttggtca gaatggaatg gaaagtaccg ggacattgtt
+     1321 cgtcaattca ttaaaggcac agatggattt gctggtggtt tcgctgaatg tttgtgtgga
+     1381 agtccacatc tataccaggc aggggggagg aaaccttggc acagtatcaa ctttgtgtgt
+     1441 gcgcatgatg gatttacgct ggctgatttg gtgacatata acaagaagta caactcttca
+     1501 aatggtgagg ataatagaga tggagaaaat cataacctca gctggaactg tggggaggaa
+     1561 ggagaatttg caggtttgtc ggtcaaaaga ttgaggaaga ggcaaatgcg caatttcttt
+     1621 gtttctctca tggtttctca aggtgttccg atgttctaca tgggcgatga atatggccat
+     1681 acaaaaggag gcaacaacaa cacatactgc catgaccatt atgtcaatta tttccgctgg
+     1741 gacaagaaag aagaatcctc tgacttgcaa cggttctgct ctcttatgac caaattccgc
+     1801 aaacaatgcg agtcccttgg cctcgcagac ttcccaacag ctcaacggtt gcattggcat
+     1861 ggccatcagc ctgggaaacc tgactggtct gagacaagcc gtttcgtggc cttctccacg
+     1921 aaagatgaaa cgaaaggcga gatctacgtg gccttcaacg ccagccattt gccggcggtt
+     1981 gttggactcc cagagcgccc aggctaccgc tgggagccgc tggtggacac aggcaagcca
+     2041 gcgccttatg acttcctcac cgacgacctg cctgatcgtg tcacgccgtc cacctgttct
+     2101 ctcatttcct caactccaat ctctacccca tgctcagcta ctcctccatc atccttgaat
+     2161 tgcagcctga tgattgaaag aacaaagtat agcatagtat agcagagtaa aaaacatatg
+     2221 tttatagccc tttttgcgta tatgttgaag ttgtgcggtc cttcaatttt gaaaaaaaaa
+     2281 aaaaaaaa
+//
+

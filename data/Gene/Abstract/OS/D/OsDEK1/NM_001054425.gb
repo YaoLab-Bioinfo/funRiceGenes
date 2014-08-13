@@ -1,0 +1,337 @@
+LOCUS       NM_001054425            7170 bp    mRNA    linear   PLN 08-JUN-2010
+DEFINITION  Oryza sativa Japonica Group Os02g0709400 (Os02g0709400) mRNA,
+            complete cds.
+ACCESSION   NM_001054425
+VERSION     NM_001054425.1  GI:115448220
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Tanaka,T., Antonio,B.A., Kikuchi,S., Matsumoto,T., Nagamura,Y.,
+            Numa,H., Sakai,H., Wu,J., Itoh,T., Sasaki,T., Aono,R., Fujii,Y.,
+            Habara,T., Harada,E., Kanno,M., Kawahara,Y., Kawashima,H.,
+            Kubooka,H., Matsuya,A., Nakaoka,H., Saichi,N., Sanbonmatsu,R.,
+            Sato,Y., Shinso,Y., Suzuki,M., Takeda,J., Tanino,M., Todokoro,F.,
+            Yamaguchi,K., Yamamoto,N., Yamasaki,C., Imanishi,T., Okido,T.,
+            Tada,M., Ikeo,K., Tateno,Y., Gojobori,T., Lin,Y.C., Wei,F.J.,
+            Hsing,Y.I., Zhao,Q., Han,B., Kramer,M.R., McCombie,R.W.,
+            Lonsdale,D., O'Donovan,C.C., Whitfield,E.J., Apweiler,R.,
+            Koyanagi,K.O., Khurana,J.P., Raghuvanshi,S., Singh,N.K.,
+            Tyagi,A.K., Haberer,G., Fujisawa,M., Hosokawa,S., Ito,Y., Ikawa,H.,
+            Shibata,M., Yamamoto,M., Bruskiewich,R.M., Hoen,D.R., Bureau,T.E.,
+            Namiki,N., Ohyanagi,H., Sakai,Y., Nobushima,S., Sakata,K.,
+            Barrero,R.A., Sato,Y., Souvorov,A., Smith-White,B., Tatusova,T.,
+            An,S., An,G., OOta,S., Fuks,G., Fuks,G., Messing,J., Christie,K.R.,
+            Lieberherr,D., Kim,H., Zuccolo,A., Wing,R.A., Nobuta,K.,
+            Green,P.J., Lu,C., Meyers,B.C., Chaparro,C., Piegu,B., Panaud,O.
+            and Echeverria,M.
+  CONSRTM   Rice Annotation Project
+  TITLE     The Rice Annotation Project Database (RAP-DB): 2008 update
+  JOURNAL   Nucleic Acids Res. 36 (DATABASE ISSUE), D1028-D1033 (2008)
+   PUBMED   18089549
+REFERENCE   2
+  AUTHORS   Itoh,T., Tanaka,T., Barrero,R.A., Yamasaki,C., Fujii,Y.,
+            Hilton,P.B., Antonio,B.A., Aono,H., Apweiler,R., Bruskiewich,R.,
+            Bureau,T., Burr,F., Costa de Oliveira,A., Fuks,G., Habara,T.,
+            Haberer,G., Han,B., Harada,E., Hiraki,A.T., Hirochika,H., Hoen,D.,
+            Hokari,H., Hosokawa,S., Hsing,Y.I., Ikawa,H., Ikeo,K., Imanishi,T.,
+            Ito,Y., Jaiswal,P., Kanno,M., Kawahara,Y., Kawamura,T.,
+            Kawashima,H., Khurana,J.P., Kikuchi,S., Komatsu,S., Koyanagi,K.O.,
+            Kubooka,H., Lieberherr,D., Lin,Y.C., Lonsdale,D., Matsumoto,T.,
+            Matsuya,A., McCombie,W.R., Messing,J., Miyao,A., Mulder,N.,
+            Nagamura,Y., Nam,J., Namiki,N., Numa,H., Nurimoto,S., O'Donovan,C.,
+            Ohyanagi,H., Okido,T., Oota,S., Osato,N., Palmer,L.E., Quetier,F.,
+            Raghuvanshi,S., Saichi,N., Sakai,H., Sakai,Y., Sakata,K.,
+            Sakurai,T., Sato,F., Sato,Y., Schoof,H., Seki,M., Shibata,M.,
+            Shimizu,Y., Shinozaki,K., Shinso,Y., Singh,N.K., Smith-White,B.,
+            Takeda,J., Tanino,M., Tatusova,T., Thongjuea,S., Todokoro,F.,
+            Tsugane,M., Tyagi,A.K., Vanavichit,A., Wang,A., Wing,R.A.,
+            Yamaguchi,K., Yamamoto,M., Yamamoto,N., Yu,Y., Zhang,H., Zhao,Q.,
+            Higo,K., Burr,B., Gojobori,T. and Sasaki,T.
+  CONSRTM   Rice Annotation Project
+  TITLE     Curated genome annotation of Oryza sativa ssp. japonica and
+            comparative genome analysis with Arabidopsis thaliana
+  JOURNAL   Genome Res. 17 (2), 175-183 (2007)
+   PUBMED   17210932
+REFERENCE   3
+  AUTHORS   Ohyanagi,H., Tanaka,T., Sakai,H., Shigemoto,Y., Yamaguchi,K.,
+            Habara,T., Fujii,Y., Antonio,B.A., Nagamura,Y., Imanishi,T.,
+            Ikeo,K., Itoh,T., Gojobori,T. and Sasaki,T.
+  TITLE     The Rice Annotation Project Database (RAP-DB): hub for Oryza sativa
+            ssp. japonica genome information
+  JOURNAL   Nucleic Acids Res. 34 (DATABASE ISSUE), D741-D744 (2006)
+   PUBMED   16381971
+REFERENCE   4
+  AUTHORS   Matsumoto,T., Wu,J., Kanamori,H., Katayose,Y., Fujisawa,M.,
+            Namiki,N., Mizuno,H., Yamamoto,K., Antonio,B.A., Baba,T.,
+            Sakata,K., Nagamura,Y., Aoki,H., Arikawa,K., Arita,K., Bito,T.,
+            Chiden,Y., Fujitsuka,N., Fukunaka,R., Hamada,M., Harada,C.,
+            Hayashi,A., Hijishita,S., Honda,M., Hosokawa,S., Ichikawa,Y.,
+            Idonuma,A., Iijima,M., Ikeda,M., Ikeno,M., Ito,K., Ito,S., Ito,T.,
+            Ito,Y., Ito,Y., Iwabuchi,A., Kamiya,K., Karasawa,W., Kurita,K.,
+            Katagiri,S., Kikuta,A., Kobayashi,H., Kobayashi,N., Machita,K.,
+            Maehara,T., Masukawa,M., Mizubayashi,T., Mukai,Y., Nagasaki,H.,
+            Nagata,Y., Naito,S., Nakashima,M., Nakama,Y., Nakamichi,Y.,
+            Nakamura,M., Meguro,A., Negishi,M., Ohta,I., Ohta,T., Okamoto,M.,
+            Ono,N., Saji,S., Sakaguchi,M., Sakai,K., Shibata,M., Shimokawa,T.,
+            Song,J., Takazaki,Y., Terasawa,K., Tsugane,M., Tsuji,K., Ueda,S.,
+            Waki,K., Yamagata,H., Yamamoto,M., Yamamoto,S., Yamane,H.,
+            Yoshiki,S., Yoshihara,R., Yukawa,K., Zhong,H., Yano,M., Yuan,Q.,
+            Ouyang,S., Liu,J., Jones,K.M., Gansberger,K., Moffat,K., Hill,J.,
+            Bera,J., Fadrosh,D., Jin,S., Johri,S., Kim,M., Overton,L.,
+            Reardon,M., Tsitrin,T., Vuong,H., Weaver,B., Ciecko,A., Tallon,L.,
+            Jackson,J., Pai,G., Aken,S.V., Utterback,T., Reidmuller,S.,
+            Feldblyum,T., Hsiao,J., Zismann,V., Iobst,S., de Vazeille,A.R.,
+            Buell,C.R., Ying,K., Li,Y., Lu,T., Huang,Y., Zhao,Q., Feng,Q.,
+            Zhang,L., Zhu,J., Weng,Q., Mu,J., Lu,Y., Fan,D., Liu,Y., Guan,J.,
+            Zhang,Y., Yu,S., Liu,X., Zhang,Y., Hong,G., Han,B., Choisne,N.,
+            Demange,N., Orjeda,G., Samain,S., Cattolico,L., Pelletier,E.,
+            Couloux,A., Segurens,B., Wincker,P., D'Hont,A., Scarpelli,C.,
+            Weissenbach,J., Salanoubat,M., Quetier,F., Yu,Y., Kim,H.R.,
+            Rambo,T., Currie,J., Collura,K., Luo,M., Yang,T., Ammiraju,J.S.S.,
+            Engler,F., Soderlund,C., Wing,R.A., Palmer,L.E., de la Bastide,M.,
+            Spiegel,L., Nascimento,L., Zutavern,T., O'Shaughnessy,A., Dike,S.,
+            Dedhia,N., Preston,R., Balija,V., McCombie,W.R., Chow,T., Chen,H.,
+            Chung,M., Chen,C., Shaw,J., Wu,H., Hsiao,K., Chao,Y., Chu,M.,
+            Cheng,C., Hour,A., Lee,P., Lin,S., Lin,Y., Liou,J., Liu,S.,
+            Hsing,Y., Raghuvanshi,S., Mohanty,A., Bharti,A.K., Gaur,A.,
+            Gupta,V., Kumar,D., Ravi,V., Vij,S., Kapur,A., Khurana,P.,
+            Khurana,P., Khurana,J.P., Tyagi,A.K., Gaikwad,K., Singh,A.,
+            Dalal,V., Srivastava,S., Dixit,A., Pal,A.K., Ghazi,I.A., Yadav,M.,
+            Pandit,A., Bhargava,A., Sureshbabu,K., Batra,K., Sharma,T.R.,
+            Mohapatra,T., Singh,N.K., Messing,J., Nelson,A.B., Fuks,G.,
+            Kavchok,S., Keizer,G., Linton,E., Llaca,V., Song,R., Tanyolac,B.,
+            Young,S., Ho-Il,K., Hahn,J.H., Sangsakoo,G., Vanavichit,A., de
+            Mattos,Luiz.A.T., Zimmer,P.D., Malone,G., Dellagostin,O., de
+            Oliveira,A.C., Bevan,M., Bancroft,I., Minx,P., Cordum,H.,
+            Wilson,R., Cheng,Z., Jin,W., Jiang,J., Leong,S.A., Iwama,H.,
+            Gojobori,T., Itoh,T., Niimura,Y., Fujii,Y., Habara,T., Sakai,H.,
+            Sato,Y., Wilson,G., Kumar,K., McCouch,S., Juretic,N., Hoen,D.,
+            Wright,S., Bruskiewich,R., Bureau,T., Miyao,A., Hirochika,H.,
+            Nishikawa,T., Kadowaki,K., Sugiura,M., Burr,B. and Sasaki,T.
+  CONSRTM   International Rice Genome Sequencing Project
+  TITLE     The map-based sequence of the rice genome
+  JOURNAL   Nature 436 (7052), 793-800 (2005)
+   PUBMED   16100779
+REFERENCE   5
+  CONSRTM   IRGSP(International Rice Genome Sequencing Project)
+  TITLE     Oryza sativa nipponbare(GA3) genomic DNA, chromosome 2
+  JOURNAL   Unpublished
+REFERENCE   6
+  CONSRTM   The Rice Annotation Project (RAP)
+  TITLE     The Second Rice Annotation Project Meeting (RAP2)
+  JOURNAL   Unpublished
+REFERENCE   7  (bases 1 to 7170)
+  AUTHORS   Sasaki,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-OCT-2004) Contact:Takuji Sasaki National Institute of
+            Agrobiological Sciences, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan URL
+            :http://rgp.dna.affrc.go.jp/
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NC_008395).
+            The IRGSP pseudomolecules (Build 4.0).
+            The orientation of the sequence is the short arm to the long arm of
+            the chromosome.
+            National Institute of Agrobiological Sciences, Rice Genome Research
+            Program; Ibaraki 305-8602, Japan,
+            URL:http://rgp.dna.affrc.go.jp/, Tel:81-29-838-7441
+            Fax:81-29-838-7468
+            and
+            John Innes Centre, Norwich Research Park Colney Norwich NR4 7UH UK,
+            URL:http://www.jic.bbsrc.ac.uk/, Tel:+44(0)1603 450000
+            FAX:+44(0)1603 450045
+            
+            The position of gaps in this pseudomolecule with unknown size is
+            assigned 100 Ns based on the guideline set by DDBJ/EMBL/GenBank.
+            
+            This sequence entry was annotated by the Rice Annotation Project.
+            http://rapdb.lab.nig.ac.jp/
+FEATURES             Location/Qualifiers
+     source          1..7170
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+     gene            1..7170
+                     /gene="Os02g0709400"
+                     /db_xref="GeneID:4330484"
+     CDS             56..6544
+                     /gene="Os02g0709400"
+                     /note="Dek1-calpain-like protein;
+                     contains InterPro domain(s): IPR001300, IPR013320,
+                     IPR000169;
+                     has GO asignment(s): GO:0004197, GO:0004198, GO:0005622,
+                     GO:0006508;
+                     supported by AY062272"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="NP_001047890.1"
+                     /db_xref="GI:115448221"
+                     /db_xref="GeneID:4330484"
+                     /translation="MEEEEHRGVVLVCSICGFLFAVLGPLSFWILWAVNWRPWRLYSW
+                     IYARKWPAYVQGPQLSTLCSFFTLFAWLVVVSPITVLLVWGGILIALLERNIIGLAVI
+                     MVGVALLLSFYSIMLWWRTQWQSSKAVAYLLLLAVGLLCAYEFCAVYVTTGASASELN
+                     SPSGFFFGVSAISLAINMLFISKILFNGSGFDVDEYVRRLYKFAYSDCVEVAPVSCSP
+                     DPPDPSELYMTKSSRVLHLGLLYLCSLMVLVVYSILYGLTSKEARWLGALTSVAVVIL
+                     DWNLGLCSFRFELLKSRMIALFVAGTSRVFLICFGVHYWYLGHCISYAFVASVLLAAA
+                     VSCWLSISNPSVARIDALRSTVIKLREGFRRKGQTSSSNSSDGCGSSVKRSSGSVEAG
+                     PHGNATDSMYRSNSQSDCVNWNNVPFDRSNSCQEGQSSDKNIDSGRASLAHRSNSCLS
+                     AVAVQDPETAVVSADRHGDPTASLVVCSSSGLESQGCESSGSATASGNQQLLDLNLAA
+                     IFQDRLNDPRITSMLKRNGGLGDVELANLLQDKGLDPNFSYMMKDKVMDPRILALLQR
+                     SSLDADREHQDDVDVTGTDSDRLDTTIANQISLSEELRRSGLENWLNLSRLMFHQVAG
+                     SPIRAFVVFTLIFIIETVTVAVHRPKPIKVINATHEQFEFGFSILLLSPVVCSIMAFI
+                     WSLCAEEMTMTSKPRKYGFIAWLLSTCVGLLLSFLSKSSVILGLSLTVPLMVACLSFA
+                     IPIWMRNGYRFWIPGGELDSRENIRQAPGKKERALFAISITVFTASVIGLGAIVSAKP
+                     LDALGYKGWDADKKSFYSPYATSMYLGWALSSTIAVLATGVIPIVAWFATYRFSPSSA
+                     ICVGLFATVLVSFCGVSYWGVVNSRQDGVPLKADFLAALLPLLCIPAVFSLFTGMYKW
+                     KDDDWKISRGVYLFVGMGVLLLLGAISAVIVTIRPWTVGVACLLVILFLVFAIGVIHY
+                     WTSNNFYLTRTQMLLVCSLAFLLALAAFLMGLFQEKPFVGASIGYFSFLFLLTGRALT
+                     VLLSPPIVVYSPRVLPVYVYDAHADSAKNVSYAFLILYGIALATEVWGVIASLILNPP
+                     FIGAAISAITLVIAFSFAVSRPCLTLKMLEDAVHFLSKDTVVQAMSRSANKTRNAISG
+                     TYSAPQRSASSAALLVGDPAITLDRAGNFVLPRADVMKLRDRLRNEEITAGSFFCGVK
+                     NCLMIGSPVDVDYRRNMCAHARILALEEAIDTEWVYMWDKFGGYLLLLLGLTAKAEQI
+                     QDEVRLRLFLDSIGLSDLSAKEIKKWMPEDRRHFELIQESYIREKEMEEEVLMQRREE
+                     EGKGRERRKALLEREERKWKELEISLLSSIPNAGSRDAAAMAAAVRAVGGDSALEDSF
+                     ARDRVSSIARHIRKAQLARRAEQTGIPDTVCILDDEPRSTGRHCGEIDLCLCESKKVS
+                     FSIAVMVQPVSGPVCLFGTEFQKKVCWEILVAGSEQGMEAGQVGLRLVTKGERMTTVA
+                     KEWNIGASSIADGRWHLVTVTIDADLGEATSFIDGVYDGYQNALPLPRNNGIWEPGTD
+                     IWVGARPPTDLDAFGRSDSEGSDSKMQIMDAFLWGRCLTEDEVAMLHTAICSAEYGLF
+                     DLAAEDAWHGSYSARVDDWESEEANFELYDQEDVEWDGQYSSGRKRHARDSVAIDIDS
+                     FARRPRKPRFETREEVNQRMLSVERAVREALIAKGERNFTDQEFPPDDRSLFVDPMNP
+                     SLKLQVVSEWMRPSDIAKEVSISSQPCLFSGSVNSSDVCQGRLGDCWFLSAVAVLTEM
+                     ARISEVIITPEYNEEGIYTVRFCIQGEWVAVVVDDWIPCESPGKPAFATSRKQNELWV
+                     SILEKAYAKLHGSYEALEGGLVQDALVDLTGGAGEEIDMRSPQAQIDLASGRLWSQLL
+                     HFKQEGFLLGAGSPSGSDAHISSSGIVQGHAYSILQVREVDGHKLVQIRNPWANEVEW
+                     NGPWSDSSQEWTERMKHKLKHVPQSKNGVFWMSWQDFQIHFRSIYVCRVYPPEMRYSV
+                     HGQWRGYSAGGCQDYDSWHQNPQYRLRVTGRDALYPVHVFITLTQGVGFSRKTNGFRN
+                     YQSSHDSSMFYIGMRILKTRGCRAAYNIYMHESVGGTDYVNSREISCELVLEPYPKGY
+                     TIVPTTIHPGEEAPFVLSVFTKAPIKLEAV"
+ORIGIN      
+        1 gtttgagcct gtatacatga tatcagcttc cagaaggtga ttgcagaggg ggaggatgga
+       61 agaggaggaa caccgcgggg ttgttcttgt ttgcagcatc tgcggtttcc tcttcgctgt
+      121 ccttggccct ctcagctttt ggatcctatg ggctgtgaac tggaggccgt ggaggctata
+      181 tagttggata tatgcaagga aatggccagc atatgtgcaa ggacctcaac taagcacact
+      241 gtgcagcttt ttcactcttt ttgcatggct tgtcgtcgtt tctccaataa cagttttgtt
+      301 agtatgggga ggcatcctta ttgctctttt ggaaaggaac ataattgggc tagctgttat
+      361 aatggtcggt gttgctttgc ttctgtcatt ctactctata atgttgtggt ggagaacgca
+      421 atggcaaagc tccaaggctg ttgcttatct tctactcctg gcagtcggtc tactgtgcgc
+      481 ttatgagttt tgtgctgttt atgttacaac cggtgctagt gcttctgagc tcaattcccc
+      541 atctggcttc ttctttgggg tatctgcaat ttcattggcc ataaatatgc tttttataag
+      601 taaaatactg ttcaatggaa gtggattcga tgttgatgag tatgtccgaa ggttgtacaa
+      661 atttgcatat tctgattgtg ttgaagtggc ccctgtttca tgctcgcctg acccaccaga
+      721 tcctagtgag ttatacatga caaaatccag cagggtcttg catctagggc ttctttacct
+      781 ttgctcattg atggttcttg ttgtctattc catcttatat ggtctgacat caaaagaagc
+      841 acgctggctg ggtgctttaa cttcagttgc agtagtgatt ctcgactgga atttgggcct
+      901 gtgttcattt aggtttgagc ttcttaaaag tcggatgata gcgctatttg tagctggaac
+      961 atcaagggtt ttccttatat gctttggggt gcactactgg taccttggac attgcatcag
+     1021 ttatgctttt gtagcatctg tgcttttagc tgcagctgtc tcttgctggc tttctatttc
+     1081 aaacccctca gttgcaagga tagatgcatt aagaagcaca gtgataaaac tccgagaagg
+     1141 ttttcgaagg aaggggcaaa ctagttcttc aaactcatca gatggctgtg gatctagtgt
+     1201 gaagcgtagt agtggcagtg ttgaagctgg tcctcatggc aatgctactg attctatgta
+     1261 cagaagcaac tcacaaagcg attgtgtcaa ttggaacaat gttccttttg atcgatcgaa
+     1321 tagttgtcaa gaaggacaga gctctgacaa gaacatagat agtggacgtg ccagtttagc
+     1381 ccatcgcagt aattcgtgcc tttctgctgt agctgtacaa gaccctgaaa ctgctgtagt
+     1441 ttcagcggac aggcatgggg acccaactgc ttcactcgtt gtttgctcta gtagtggttt
+     1501 ggaaagtcaa ggctgcgagt ctagtggatc agctactgcc tcgggtaatc agcagctatt
+     1561 ggatttgaac ttggctgcaa tttttcagga cagactgaat gatccaagaa tcacatctat
+     1621 gctaaaaagg aatggtggac taggagatgt agaattggct aatcttcttc aggataaagg
+     1681 ccttgatcca aatttttcct atatgatgaa agacaaggtt atggacccac gaattttagc
+     1741 tttgctgcag agaagcagct tagatgcaga cagagagcat caagatgatg tagatgtcac
+     1801 tggtactgat tcagataggt tagatacaac tattgcaaac cagatctcgc tatcagagga
+     1861 acttaggaga agtgggctag aaaattggct aaatctttca aggctgatgt ttcatcaagt
+     1921 agcaggttca ccaatacgtg cttttgttgt ttttacccta atattcatca tagaaacagt
+     1981 tactgtggct gtccatcgac cgaagcccat caaggttata aatgcaactc atgaacagtt
+     2041 tgagtttggt ttctcgatac tgcttctatc accagttgtc tgctccatta tggcattcat
+     2101 ttggtccctg tgtgcagaag agatgacgat gacatccaaa cctcggaagt atggcttcat
+     2161 cgcatggttg ctgagtactt gtgttggtct acttctgtct ttcttgagca agtcatcagt
+     2221 tattttgggt ttgtcactca cggtcccact tatggtggct tgtctctcat ttgctattcc
+     2281 catatggatg cgtaacggtt accgtttctg gattccggga ggggagcttg atagccgtga
+     2341 aaatatccgc caagctccag gaaagaaaga gcgcgctctg tttgccatca gcataactgt
+     2401 tttcactgca tcagtaattg gccttggtgc aatagtatca gcaaaacctc tagatgcatt
+     2461 gggctacaag ggatgggatg ctgataaaaa gagtttctat tctccctatg caacatcgat
+     2521 gtatcttgga tgggcattat catcaacgat tgctgtactt gccactgggg tgatacctat
+     2581 tgtcgcttgg tttgctactt atcgattttc accttcatca gctatatgtg ttggcctttt
+     2641 tgcaactgtc cttgtatcct tttgtggtgt gtcctactgg ggagtggtaa attcacgaca
+     2701 ggatggagtt cctctgaagg ctgatttcct ggcagcttta cttccattac tttgcattcc
+     2761 tgctgtgttc tcgttgttta ctgggatgta taaatggaag gatgatgatt ggaagatttc
+     2821 ccgtggagtt tacctatttg ttggcatggg agtgctgtta ttgcttggtg caatatctgc
+     2881 agtaattgtt acaattagac cttggactgt tggagttgca tgcctccttg tcatcttgtt
+     2941 ccttgtattt gctattggtg tcattcacta ctggacatct aacaatttct atttaacaag
+     3001 gacacaaatg ttacttgttt gctcccttgc ttttctcctt gccttggctg ctttcctgat
+     3061 gggcttattt caggagaaac ctttcgttgg ggcatctata ggttatttct cgtttctatt
+     3121 tcttctcaca ggaagagcat tgactgtcct tctatcacca ccaattgtcg tgtattcacc
+     3181 gagggtatta cctgtttatg tttatgatgc ccatgcagac tctgctaaaa atgttagtta
+     3241 tgccttcctt atcttgtatg ggattgcatt ggctactgaa gtttggggtg tcattgccag
+     3301 tctaatattg aatccaccat ttattggggc tgctatttct gctatcactc ttgtaattgc
+     3361 cttcagtttt gctgtttctc gaccatgcct gactctcaag atgctggagg acgctgttca
+     3421 ctttctcagt aaggatacag ttgtacaagc aatgtcacgt tctgctaaca aaacgagaaa
+     3481 tgctatttct gggacttact cggcgcctca gagatccgca agttctgctg ctcttttggt
+     3541 tggagatcct gctattacgt tggacagggc tgggaatttt gtgcttccta gggctgatgt
+     3601 catgaagctg agagatcgtt taagaaatga agaaattacg gcaggatcgt tcttttgtgg
+     3661 agtgaagaat tgtttaatga ttggatcccc tgtagatgta gattatcgga ggaatatgtg
+     3721 tgcccatgca cgtattttgg ctttggaaga agcaattgat actgaatggg tttacatgtg
+     3781 ggacaagttt ggtggttatt tacttcttct gcttggcttg actgccaaag ctgagcaaat
+     3841 acaggatgaa gttcgtctta gactttttct ggacagcata ggtctttctg acttaagtgc
+     3901 caaagaaatc aagaaatgga tgcctgaaga tcgaagacat tttgaactta ttcaagaaag
+     3961 ctacataagg gaaaaagaaa tggaagagga ggtcttgatg caaaggcgcg aggaagaagg
+     4021 gaagggaagg gaaaggagga aggcattgtt ggagagagag gaacgaaaat ggaaggagct
+     4081 tgaaatatca ctgctatctt ctattcctaa tgctggaagc agggatgctg cagccatggc
+     4141 agcagctgtc agagctgtgg gtggtgattc tgctctggaa gattcttttg caagggacag
+     4201 ggtctcgtca atagctcgtc acataagaaa ggcacaattg gctcggcgag cagagcagac
+     4261 tggcattcca gacactgttt gcatacttga tgatgaacca aggagtactg ggcgtcattg
+     4321 tggagagatt gatttgtgtc tttgtgaaag taaaaaagtt agcttctcca ttgcagtaat
+     4381 ggtgcagccg gtgtcaggtc cagtctgtct ttttggaaca gaattccaga aaaaagtgtg
+     4441 ctgggaaatc ttggtggcag ggtcagaaca gggaatggaa gctggccaag ttggtcttcg
+     4501 attggtgact aagggtgaaa ggatgacaac cgttgcaaaa gagtggaata ttggtgcatc
+     4561 aagtattgct gatggcaggt ggcatcttgt cactgtgact atagatgctg atctaggtga
+     4621 agcaacttct ttcatagacg gagtctacga tggatatcag aatgcgttgc cattgcctag
+     4681 aaataatggc atctgggaac ctgggacaga tatttgggtt ggtgctaggc cacccacgga
+     4741 cttagatgcc tttggtaggt cagacagcga gggatcagac tcaaagatgc agatcatgga
+     4801 tgcttttcta tggggaagat gtctgactga agatgaggtt gctatgttgc atacagccat
+     4861 ctgttctgct gaatatggcc tttttgatct tgctgctgag gatgcttggc atggaagtta
+     4921 ttctgcaagg gtggatgact gggaaagtga agaagcaaat tttgaactat atgatcaaga
+     4981 ggacgttgaa tgggatggac agtactccag tggtaggaaa cgtcatgcgc gtgattctgt
+     5041 agctattgac attgactcct ttgctagaag accaaggaaa ccaagatttg agacacgaga
+     5101 ggaagtcaat cagcgcatgc tttctgtcga aagggctgtt agagaggctc ttattgcgaa
+     5161 gggagagaga aattttactg atcaagagtt ccctccggat gatcgatctc tgtttgtaga
+     5221 tccgatgaac ccatctctaa aattgcaggt tgtctctgag tggatgaggc cttctgatat
+     5281 tgcgaaggag gtatctatca gttcacaacc gtgcttattt tctggttctg tgaattcgtc
+     5341 agatgtgtgt cagggtcggt tgggcgactg ttggttcttg agcgctgttg cagttttgac
+     5401 agagatggcc cgtatatctg aagttataat cactcctgag tataatgaag aagggattta
+     5461 cactgtcaga ttctgtatcc agggtgaatg ggtggcagtg gtggttgatg attggatccc
+     5521 ctgtgagtct ccggggaaac cggcatttgc tactagtaga aagcaaaatg agctgtgggt
+     5581 atccattctt gaaaaagctt atgcaaagct tcatggctct tatgaggcat tggagggtgg
+     5641 gcttgtgcaa gatgctctag tggatctcac aggaggagct ggtgaagaga ttgacatgcg
+     5701 gagcccccaa gcgcagattg atcttgctag tggaagattg tggtctcagt tgttgcattt
+     5761 taaacaagag ggctttcttc ttggtgctgg aagtccttct ggctcggatg ctcatatttc
+     5821 atcaagtggc attgttcagg gacatgctta ctcaattttg caggtaagag aagttgatgg
+     5881 ccataagctc gtgcaaatta gaaatccgtg ggcaaatgaa gttgaatgga atggtccgtg
+     5941 gtcagactca tcacaagagt ggactgagcg aatgaagcac aaacttaagc atgttccaca
+     6001 gtcaaagaat ggggtattct ggatgtcttg gcaagatttt cagatccact ttcggtcaat
+     6061 atatgtctgt cgtgtttatc cacccgagat gcgttactct gtccatggcc aatggcgtgg
+     6121 ttatagtgca ggtggttgcc aagattatga ctcatggcat caaaatcctc agtaccggct
+     6181 tagagtaaca ggacgggatg cactgtatcc tgtacatgta tttattaccc ttacgcaggg
+     6241 tgttggtttt tctagaaaga caaatggttt ccggaactat caatctagcc atgactcttc
+     6301 tatgttttac attggaatga ggatactcaa gacacggggc tgccgtgctg cttacaatat
+     6361 ctacatgcat gaatcagtgg gtggaacaga ttatgttaac tcaagggaga tatcatgtga
+     6421 attagtgttg gagccttatc caaaaggata cacaattgtg cccacaacca tccatcctgg
+     6481 agaggaagca ccttttgttt tatcagtttt tacaaaagca ccaatcaagc tagaagctgt
+     6541 ttaatgcaag attcatacta gatgtgttcg ctgctggtag ctgtgccttg ctgttgctgg
+     6601 cccaggctcc tttggggttc aagtgatgca gattccagct gtgggttcaa gaggatcaga
+     6661 taatggtgtt tgctgcagca atatgccggt acctgggaga tatgaagcag cagctctgct
+     6721 cttgaacctg aacattctgg gcttcatcag acgctacatg caaccgcata agcttgattg
+     6781 cttcctaacg tgacaggaaa ggcaatcttt ctgtcagcag gcatggtgtt gatacatcag
+     6841 aatcatttga tcgccgtgca tgactctgga tgttttctag tcgatgcttg tagatagtgg
+     6901 tggcaactaa catttagacc tggtagcccc atcccgtgta taggtatccc atgtcaccgt
+     6961 gtacatacta tagaattaga tgagttaacc ttgtggtgtc gtttcctgtt agcgaaatag
+     7021 agctcttgtg cagctgggaa ataccatttt agcatgctgc agttttgctg atcaaggcga
+     7081 gcagtcgtcg gccatagcgt tttcattgat tgcctgtatg taatcgaaat ctgatctcat
+     7141 tcaatggaag ctattttttg gtaccctttg
+//
+

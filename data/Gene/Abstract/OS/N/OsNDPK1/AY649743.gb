@@ -1,0 +1,52 @@
+LOCUS       AY649743                 683 bp    mRNA    linear   PLN 14-JUL-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) nucleoside diphosphate
+            kinase 1 mRNA, complete cds.
+ACCESSION   AY649743
+VERSION     AY649743.1  GI:50096950
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 683)
+  AUTHORS   Cho,S.M., Kim,K.S., Kim,Y.C., Eun,M.Y. and Cho,B.H.
+  TITLE     Enhanced expression of the gene encoding a nucleotide diphosphate
+            kinase 1 (OsNDPK1) in rice plants upon infection with Xanthomonas
+            oryzae and Burkholderia glumae
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 683)
+  AUTHORS   Cho,S.M., Kim,K.S., Kim,Y.C., Eun,M.Y. and Cho,B.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2004) Applied Plant Science Division, Chonnam
+            National Univisity, Youngbong Dong 300, Bukgu, Gwangju 500-757,
+            Korea
+FEATURES             Location/Qualifiers
+     source          1..683
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             1..450
+                     /note="OsNDPK1"
+                     /codon_start=1
+                     /product="nucleoside diphosphate kinase 1"
+                     /protein_id="AAT70416.1"
+                     /db_xref="GI:50096951"
+                     /translation="MEQSFIMIKPDGVQRGLIGDIISRFEKKGFFLRGMKFMNVERSF
+                     AQQHYADLSDKPFFPGLVEYIISGPVVAMVWEGKDVVATGRRIIGATRPWEAAPGTIR
+                     ADYAVEVGRNVIHGSDSVDNGKKEIALWFPEGLAEWRSNLHPWIYES"
+ORIGIN      
+        1 atggagcagt ccttcatcat gatcaagcct gacggcgtcc agagaggcct gattggagac
+       61 atcatcagca ggttcgagaa gaaaggattc ttcctgaggg ggatgaagtt catgaatgtg
+      121 gagaggtcct ttgcacagca gcactatgcc gacctttccg acaagccctt cttccctggg
+      181 ttggtggagt acatcatctc tggccccgtc gttgcgatgg tttgggaagg gaaggatgtt
+      241 gttgccactg gccgcaggat cattggggcc accaggccct gggaggcagc ccccggcacc
+      301 atccgtgctg actatgccgt ggaagttggc aggaatgtca tccatgggag cgactccgtg
+      361 gacaacggga agaaggagat cgctctctgg ttccctgaag gtttagctga gtggaggagc
+      421 aaccttcacc cttggatcta tgagtcttag agcttcgcgc ctataatcga tcacctcttg
+      481 gtggctagtt ctcgttaaat atttgagttt tgtttcagag ttgtcatctg gctgcctcct
+      541 gagtcaccat tataattctg ctgtgataca atcacagtta tatgttgcct gaacttatat
+      601 ggctttttaa gtttctggat tggatgtgat gggaaaataa tactagcagt cagtttttgc
+      661 ttataaaaaa aaaaaaaaaa aaa
+//
+

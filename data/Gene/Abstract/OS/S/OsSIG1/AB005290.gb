@@ -1,0 +1,88 @@
+LOCUS       AB005290                2026 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for plastid RNA polymerase sigma
+            factor, complete cds.
+ACCESSION   AB005290
+VERSION     AB005290.1  GI:2780745
+KEYWORDS    plastid RNA polymerase sigma factor.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Tozawa,Y., Tanaka,K., Takahashi,H. and Wakasa,K.
+  TITLE     Nuclear encoding of a plastid sigma factor in rice and its tissue-
+            and light-dependent expression
+  JOURNAL   Nucleic Acids Res. 26 (2), 415-419 (1998)
+   PUBMED   9421493
+REFERENCE   2  (bases 1 to 2026)
+  AUTHORS   Tozawa,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JUN-1997) Contact:Yuzuru Tozawa National Agriculture
+            Research Center, Department of Crop Breeding; 3-1-1 Kannondai,
+            Tsukuba, Ibaraki 305-8666, Japan
+FEATURES             Location/Qualifiers
+     source          1..2026
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..2026
+                     /gene="rsigA"
+     CDS             175..1734
+                     /gene="rsigA"
+                     /note="putative"
+                     /codon_start=1
+                     /product="plastid RNA polymerase sigma factor"
+                     /protein_id="BAA24364.1"
+                     /db_xref="GI:2780746"
+                     /translation="MTATPAVIGLSAGNRLLSASFGPTDLMPDKVSLGVGGGGGGGGG
+                     GGGGDAMSFAAAPATPKLTAVAAHRLKLSPHGRAQVMRALRHHSSAAAALAPPPPPPP
+                     PPTPSPASRAAHAHDLESSLEAIVLLQRSMLEKQWELPFDDDNHAMAIGLAEDDDDTS
+                     KATVVVARSSVSARQRRMSGRRRGRTKNGAAHFAVSPELIQSRNRIYLRGTVSKELLT
+                     HKQVVHLSHKIKDGIWLQQQRSKLKEKLGNEPSYKQLAHSLKISPPELRSRMHESFLA
+                     REMLTMSNLRLVISIAQKYDNLGVELADLIQGGLIGLLRGIEKFDASRGFRISTYVYW
+                     WIRQGVSRALAENSKTFRLPTYLHERLIAIRGAKYELEDQGIAPTIENIAGSLNISEK
+                     KVLNATEAVNKVLSLDQQAFPSLNGLPGETLHSYIEDQNVANDPWHGFEEWYLKEEVN
+                     KLLNSTLNERERDIIRLYHGIGKQCHTWEDISRQFGLSRERVRQVGLIAMEKLKHAAR
+                     RKNLEALLEDY"
+     polyA_site      2026
+                     /gene="rsigA"
+                     /note="12 A nucleotides"
+ORIGIN      
+        1 cagcgcgccg aggagagtgg gtgtccgtgt ggcctactac ttgcttcctc ggcgcgcgcg
+       61 ggtgttgttg cctcgcatcc tccaccacca ctagtgcagc caagtgcgtg cgtgtgtgtg
+      121 tgtgcggaca ccgttgctgc cgccgccggc cgccgcgcgc agggtggtga caagatgacg
+      181 gcgacgccag cggtgatcgg gctgagcgcg gggaacaggc tgctgagcgc gtcgttcggg
+      241 ccgaccgacc tgatgccgga caaggtcagc ctcggcgtcg gcggaggcgg gggaggagga
+      301 ggaggtggtg gaggtgggga cgcgatgtcg ttcgccgccg cgcccgcgac gccgaagctc
+      361 accgcggtcg ccgcgcacag gctcaagctc tccccgcatg gccgcgcgca ggtcatgcgc
+      421 gcgctcaggc accactcctc cgcggcggcc gcgctcgcgc ccccgccccc gcccccgccc
+      481 ccgccgacgc cgtcgcccgc ctcgcgcgcc gcccacgccc atgacctcga gtcctccctc
+      541 gaggccatcg tgctgctgca gaggtccatg ctcgagaagc agtgggagct ccccttcgac
+      601 gacgacaacc acgccatggc catcggcttg gccgaggatg acgacgacac cagcaaggcc
+      661 accgtcgtcg tggcgcggtc cagtgtctcg gcgcggcaga ggaggatgag cgggcggcgg
+      721 cgggggagga ccaagaacgg cgcggcgcac ttcgccgtca gccccgagct gatccagagc
+      781 aggaacagga tctacctcag gggcaccgtc agcaaggagc tcctcacgca caagcaggtc
+      841 gtccacctct cccacaagat caaggatggc atctggctgc agcagcaaag atcaaagctg
+      901 aaagagaagc tgggaaatga gccctcatac aaacagctgg cgcattcgct gaagatatca
+      961 ccgcccgagc tacggtcaag gatgcacgag tcgtttcttg caagggagat gctaacaatg
+     1021 agcaacctcc gtttggtcat ttccattgcc cagaagtatg ataaccttgg tgttgagttg
+     1081 gctgacctca ttcagggtgg tctgataggg ttactccgtg ggatcgaaaa atttgatgca
+     1141 tccaggggct ttagaatttc cacttatgta tactggtgga tacgccaggg tgtttcaaga
+     1201 gcattagctg aaaactcaaa aacattcagg cttccaactt atctgcacga gcggctgatt
+     1261 gcgattcgtg gtgcaaagta tgagttggaa gatcaaggaa ttgctccaac aatagaaaac
+     1321 atagcagggt cactcaacat atcagaaaag aaagtactca atgctacaga ggctgtgaac
+     1381 aaggttcttt cgttggatca acaagcattt ccatccttaa acggcttacc tggagagaca
+     1441 ctgcacagtt acatagagga tcaaaatgtc gcaaatgatc catggcatgg atttgaggag
+     1501 tggtatctca aggaagaagt caacaagctt ttaaactcaa ctctcaacga gcgtgagagg
+     1561 gacattatcc ggttatatca tggcatagga aaacaatgcc atacatggga ggatattagc
+     1621 agacaattcg ggttgtcgag ggagagggtg aggcaagtag gactcatcgc aatggagaag
+     1681 ctgaagcatg ctgcgaggag gaaaaatttg gaggcattgc ttgaggatta ttgagttgag
+     1741 gggctttttg tttgagtcag atccacaaac acagcggttg tatatactca gaaaacatag
+     1801 ggtacatcct tcaaaaggcg tactgccact cacatgaaag taattatacg tgtacatttt
+     1861 gtgacattag gagatgcatg atcaaaatct ctatgcctgt gttatgacca aggcaatcag
+     1921 gaaacagaga gatgatgttt tccttcaagg tttacaatta ttctgtaata tatatgtaag
+     1981 tatgatttag cttgatcaat agagcaacac ttaaaagttc tgagcc
+//
+

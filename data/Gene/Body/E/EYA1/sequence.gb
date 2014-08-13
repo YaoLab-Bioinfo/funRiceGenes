@@ -1,0 +1,67 @@
+LOCUS       AB028887                1260 bp    mRNA    linear   PLN 07-OCT-1999
+DEFINITION  Oryza sativa OSEya1 mRNA for OSEYA1, complete cds.
+ACCESSION   AB028887
+VERSION     AB028887.1  GI:6015431
+KEYWORDS    OSEYA1.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Takeda,Y., Hatano,S., Sentoku,N. and Matsuoka,M.
+  TITLE     Homologs of animal eyes absent (eya) genes are found in higher
+            plants
+  JOURNAL   Mol. Gen. Genet. 262 (1), 131-138 (1999)
+   PUBMED   10503544
+REFERENCE   2  (bases 1 to 1260)
+  AUTHORS   Takeda,Y., Sentoku,N., Matsuoka,M. and Hatano,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUN-1999) Naoki Sentoku, Nagoya University,
+            BioScience Center; Chikusa-ku, Furo-cho, Nagoya, Aichi 468-8601,
+            Japan (E-mail:i961704d@mbox.media.nagoya-u.ac.jp,
+            Tel:81-52-789-5225, Fax:81-52-789-5226)
+FEATURES             Location/Qualifiers
+     source          1..1260
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1260
+                     /gene="OSEya1"
+     CDS             89..925
+                     /gene="OSEya1"
+                     /note="animalEyes absent (Eya)"
+                     /codon_start=1
+                     /product="OSEYA1"
+                     /protein_id="BAA85161.1"
+                     /db_xref="GI:6015432"
+                     /translation="MDGVVAASADATRDEIKIMNVYIWDMDETLILLKSLLDGSYAGA
+                     FDGLKDHDKSVDIGKRWENLILELCDEHFFYEEIENYNEPFLSAVKEYDDGKDLTTYD
+                     FEADCFSSPYDDLNKRKLAYRHRAIGEKYTKGLEKILDHHMIKVWNDLYSATDKYTDG
+                     WLSSAHKLLEEAMGKSTAESTSQHSSINCIVTSGSLIPSLAKCLLYRLDDVVAFENVY
+                     SSWEVGKLQCFKWIKERYDGPNVRFCAIGDGHEECTAAQIMKWPFVKIEFHPDAPHRF
+                     PG"
+ORIGIN      
+        1 ctgccctcct cccctgcgcg acctcctcgc tcgctcgccc gcccgcccga cctccgtctc
+       61 cggttcgcgt ccaattttga ggagtgaaat ggatggggtt gtcgccgctt cggctgatgc
+      121 caccagggac gagattaaga ttatgaatgt gtacatatgg gacatggatg aaaccctcat
+      181 tctgctcaag tcgctgctgg atggctcgta tgctggtgcc tttgatggcc tcaaggacca
+      241 tgataagagt gttgatatag ggaagaggtg ggagaatctc attctggaac tctgtgacga
+      301 gcatttcttc tatgaggaga ttgagaatta caatgaaccc tttctcagtg ctgtcaaaga
+      361 atatgatgat gggaaagact tgacaacata tgattttgaa gctgactgct ttagttcgcc
+      421 ttatgatgat ctgaataaaa ggaagcttgc ttacaggcac cgtgctattg gagagaagta
+      481 tacaaagggt ttggaaaaaa ttctggacca ccacatgatc aaagtctgga atgatctgta
+      541 tagcgcgacc gacaaataca ccgatggttg gctttcttca gctcataagt tgttggaaga
+      601 agcaatgggt aaatcaacag ctgagtccac tagccaacat tcaagcatca attgcatagt
+      661 tacatcaggg tccctgattc caagtcttgc caaatgtttg ctctatcgtc tggatgatgt
+      721 ggttgcattc gagaatgttt acagctcctg ggaagtcggg aaactgcagt gcttcaaatg
+      781 gatcaaggag cgctatgatg gcccaaacgt ccgtttctgt gcaatcggag acggacacga
+      841 agaatgcacc gctgcgcaga taatgaagtg gccatttgtc aagatcgagt tccaccctga
+      901 tgcccctcat aggttccctg gctgaacctt ccaaccattc atcgcatcat ggataccgtt
+      961 tatgattcat cgagcaacga tggttaacca acatcctgtt ggtcctcctg tttacctcag
+     1021 tcctccgatg ccggcatttg ccaattgccg tggagacctt gttaaaggaa attgtaagca
+     1081 gagagatgcg atgggaaggc atattgctga ccctctgcct ggagaattag gaggctggtg
+     1141 tgtgataaat aaagcgtccg actagttccg gcatgtgttt ctagaaagat tctgtgctgt
+     1201 tcgtgttgcc attttactct gaccaggcaa atcgttcgtc tgttggttgt tgtaaaaaaa
+//
+

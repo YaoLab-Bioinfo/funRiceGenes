@@ -1,0 +1,76 @@
+LOCUS       AB475007                1384 bp    mRNA    linear   PLN 08-JAN-2010
+DEFINITION  Oryza sativa Japonica Group DN1 mRNA for DENSE PANICLE 1, complete
+            cds.
+ACCESSION   AB475007
+VERSION     AB475007.1  GI:283483668
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Taguchi-Shiobara,F., Kawagoe,Y., Kato,H., Onodera,H., Tagiri,A.,
+            Hara,N., Miyao,A., Hirochika,H., Kitano,H., Yano,M. and Toki,S.
+  TITLE     Loss of the extracellular domain of a rice putative receptor, DENSE
+            PANICLE 1, causes semi-dwarfness and increased number of spikelets
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1384)
+  AUTHORS   Taguchi-Shiobara,F., Yano,M. and Toki,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2009) Contact:Fumio Taguchi-Shiobara National
+            Institute of Agrobiological Sciences, QTL Genomics Research Center;
+            2-1-2 Kannondai, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1384
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="9"
+                     /tissue_type="shoot apical meristem"
+     gene            1..1384
+                     /gene="DN1"
+     CDS             1..1281
+                     /gene="DN1"
+                     /codon_start=1
+                     /product="DENSE PANICLE 1"
+                     /protein_id="BAI66277.1"
+                     /db_xref="GI:283483669"
+                     /translation="MGEEAVVMEAPRPKSPPRYPDLCGRRRMQLEVQILSREITFLKD
+                     ELHFLEGAQPVSRSGCIKEINEFVGTKHDPLIPTKRRRHRSCRLFRWIGSKLCICISC
+                     LCYCCKCSPKCKRPRCLNCSCSSCCDEPCCKPNCSACCAGSCCSPDCCSCCKPNCSCC
+                     KTPSCCKPNCSCSCPSCSSCCDTSCCKPSCTCFNIFSCFKSLYSCFKIPSCFKSQCNC
+                     SSPNCCTCTLPSCSCKGCACPSCGCNGCGCPSCGCNGCGCPSCGCNGCGLPSCGCNGC
+                     GSCSCAQCKPDCGSCSTNCCSCKPSCNGCCGEQCCRCADCFSCSCPRCSSCFNIFKCS
+                     CAGCCSSLCKCPCTTQCFSCQSSCCKRQPSCCKCQSSCCEGQPSCCEGHCCSLPKPSC
+                     PECSCGCVWSCKNCTEGCRCPRCRNPCCLSGCLC"
+     3'UTR           1282..1384
+                     /gene="DN1"
+ORIGIN      
+        1 atgggggagg aggcggtggt gatggaggcg ccgaggccca agtcgccgcc gaggtacccg
+       61 gacctgtgcg gccggcggcg gatgcagctg gaggtgcaga tcctgagccg cgagatcacg
+      121 ttcctcaagg atgagcttca cttccttgaa ggagctcagc ccgtttctcg ttctggatgc
+      181 attaaagaga taaatgagtt tgttggtaca aaacatgacc cactaatacc aacaaagaga
+      241 aggaggcaca gatcttgccg tctttttcgg tggatcggat caaaattgtg tatctgcatt
+      301 tcatgtcttt gctactgttg caagtgctca cccaagtgca aaagaccaag gtgcctcaat
+      361 tgttcttgca gctcatgctg cgacgagcca tgctgtaagc caaactgcag tgcgtgctgc
+      421 gctgggtcat gctgtagtcc agactgctgc tcatgctgta aacctaactg cagttgctgc
+      481 aagacccctt cttgctgcaa accgaactgc tcgtgctcct gtccaagctg cagctcatgc
+      541 tgcgatacat cgtgctgcaa accgagctgc acctgcttca acatcttttc atgcttcaaa
+      601 tccctgtaca gctgcttcaa gatcccttca tgcttcaagt cccagtgcaa ctgctctagc
+      661 cccaattgct gcacttgcac ccttccaagc tgtagctgca agggctgtgc ctgtccaagc
+      721 tgtggatgca acggctgtgg ctgtccaagc tgcggatgca acggttgtgg ctgtccaagc
+      781 tgcggttgca acggctgtgg ccttccaagc tgcggttgca acggctgcgg ctcgtgctct
+      841 tgcgcccaat gcaaacccga ttgtggctcg tgctctacca attgctgtag ctgcaagcca
+      901 agctgcaacg gctgctgcgg cgagcagtgc tgccgctgcg cggactgctt ctcctgctcg
+      961 tgccctcgtt gctccagctg cttcaacatc ttcaaatgct cctgcgctgg ctgctgctcg
+     1021 agcctgtgca agtgcccctg cacgacgcag tgcttcagct gccagtcgtc atgctgcaag
+     1081 cggcagcctt cgtgctgcaa gtgccagtcg tcttgctgcg aggggcagcc ttcctgctgc
+     1141 gagggacact gctgcagcct cccgaaaccg tcgtgccctg aatgttcctg tgggtgtgtc
+     1201 tggtcttgca agaattgtac agagggttgt cgatgcccac ggtgtcgtaa cccatgctgt
+     1261 ctcagtggtt gcttatgttg atctagatcc ttttttggtt gttgtttttc ttgtattttt
+     1321 tagttgttag gcctttgatt aagttcgaac tttcataaat atatggtgtt tatcctgtaa
+     1381 agaa
+//
+

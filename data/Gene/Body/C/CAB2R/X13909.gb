@@ -1,0 +1,85 @@
+LOCUS       X13909                  1442 bp    DNA     linear   PLN 03-APR-1995
+DEFINITION  Rice cab2R gene for light harvesting chlorophyll a/b-binding
+            protein.
+ACCESSION   X13909
+VERSION     X13909.1  GI:20181
+KEYWORDS    cab2R gene; chlorophyll a/b-binding protein; light harvesting
+            complex.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 325 to 1436)
+  AUTHORS   Luan,S. and Bogorad,L.
+  TITLE     Nucleotide sequences of two genes encoding the light harvesting
+            chlorophyll a/b binding protein of rice
+  JOURNAL   Nucleic Acids Res. 17 (6), 2357-2358 (1989)
+   PUBMED   2649869
+REFERENCE   2  (bases 1 to 1442)
+  AUTHORS   Luan,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-1989) Luan S, Harvard University, 16 Divinity
+            Avenue, Cambridge, MA 02138, USA
+REFERENCE   3  (bases 1 to 1442)
+  AUTHORS   Luan,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-NOV-1989)
+COMMENT     See also entry# PSCAB80 (K02067) and TACAB (M10144).
+FEATURES             Location/Qualifiers
+     source          1..1442
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:4530"
+                     /clone_lib="lambda 2001"
+     promoter        337..342
+                     /note="CAAT-box"
+     promoter        393..400
+                     /note="TATA-box"
+     CDS             495..1286
+                     /codon_start=1
+                     /product="chlorophyll a/b-binding preprotein (AA -28 to
+                     235)"
+                     /protein_id="CAA32109.1"
+                     /db_xref="GI:20182"
+                     /db_xref="GOA:P12331"
+                     /db_xref="InterPro:IPR001344"
+                     /db_xref="InterPro:IPR022796"
+                     /db_xref="UniProtKB/Swiss-Prot:P12331"
+                     /translation="MAAATMALSSPALAGKAAAKVFGEGRITMRKSAAKPKPAASSGS
+                     PWYGADRVLYLGPLSGREPPSYLTGEFPGDYGWDTAGLSADPETFAKNRELEVIHSRW
+                     AMLGGLGCVFPELLARNGVKFGEAVWFKAGSQIFSEGGLDYLGNPSLIHAQSILAIWA
+                     VQVVLMGAVEGYRIAGGPLGEVVDPLYPGGAFDPLGLADDPEAFAELKVKEIKNGRLA
+                     MFSMFGFFVQAIVTGKGPLENLADHLADPVNNNAWAYATNFVPGK"
+     sig_peptide     495..578
+                     /note="signal peptide (AA -28 to -1)"
+     mat_peptide     579..1283
+                     /product="chlorophyll a/b-binding proten (AA 1 - 235)"
+ORIGIN      
+        1 aacttttttg aaataaaaga gcaacaaaga aaataaaaac gctctctcgt aagtaactcg
+       61 tgaagatcca tcgagagcca ctcgtttgaa tcgtcgacac aaaagaacac ttcacttcat
+      121 tgattgcttt tcgtcaatta gcagcacagc acagtactct ccaatctgct aaaccaaaac
+      181 caatctcatc catccatacc cttcttgaca ccaagtggca actcctgatt ggacgcgcct
+      241 atcctacatg gcaccccaag attctctcga taggctacag gggccacacc gacctccacg
+      301 tcatcgtcca cgtcaccctc atcccggccc atccagccaa tcccgaccca gcaaaaatgt
+      361 tcccaagtgg ccaccagatc cgcctctcca cgtattaata cgccaaggtg ttcgtcgcca
+      421 tgacacagca cgcacacaca ccccagcagc agcagcagca gcagctgagc ttgaagctgc
+      481 tgagcgaggt agacatggcc gccgccacca tggccctctc gtccccggcg ctggccggca
+      541 aggccgccgc gaaggtgttc ggcgaggggc gcatcaccat gcgcaagtcg gcggcgaagc
+      601 ccaagcccgc cgcgtcgtcg gggagcccgt ggtacggcgc cgaccgcgtg ctctacctcg
+      661 gcccgctctc cggccgcgag ccgccgagct acctgaccgg cgagttcccc ggcgactacg
+      721 ggtgggacac cgcggggctc tccgccgacc cggagacgtt cgccaagaac cgggagctgg
+      781 aggtgatcca ctccaggtgg gcgatgctcg gcgggctggg ctgcgtgttc ccggagctcc
+      841 tcgcccgcaa cggcgtcaag ttcggggagg cggtgtggtt caaggcgggg tcgcagatct
+      901 tcagcgaggg cgggctcgac tacctcggca acccgagcct gatccacgcg cagagcatcc
+      961 tcgccatctg ggcggtgcag gtggtgctca tgggcgccgt cgaggggtac cggattgccg
+     1021 gcgggccgct cggcgaggtc gtcgacccgc tctacccggg cggcgccttc gacccgctcg
+     1081 gcctcgccga tgacccggag gccttcgcgg agctcaaggt gaaggagatc aagaacggcc
+     1141 gcctcgccat gttctccatg ttcggcttct tcgtccaggc catcgtcacc ggcaagggcc
+     1201 ccctcgagaa cctcgccgac cacctcgccg accccgtcaa caacaacgcc tgggcctacg
+     1261 ccaccaactt cgtccccggc aagtgagcgc cgccgccgcc gtgctgccat ggcgacgcat
+     1321 cgccttcagc taagctagct aggttgacga cgctgcgcgt ctctgcagga gagtgtgcgt
+     1381 gtgtgtacgc ggtgcagtag atgtacgggg gatctgcgcc acgtcatcta catgccccct
+     1441 ag
+//
+

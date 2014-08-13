@@ -1,0 +1,104 @@
+LOCUS       AB038510                2231 bp    mRNA    linear   PLN 28-NOV-2006
+DEFINITION  Oryza sativa OsCel9A mRNA for endo-beta-1,4-D-glucanase, complete
+            cds.
+ACCESSION   AB038510
+VERSION     AB038510.1  GI:118421053
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yoshida,K. and Komae,K.
+  TITLE     A Rice Family 9 Glycoside Hydrolase Isozyme with Broad Substrate
+            Specificity for Hemicelluloses in Type II Cell Walls
+  JOURNAL   Plant Cell Physiol. 47 (11), 1541-1554 (2006)
+   PUBMED   17056618
+REFERENCE   2
+  AUTHORS   Yoshida,K., Imaizumi,N., Kaneko,S., Kawagoe,Y., Tagiri,A.,
+            Tanaka,H., Nishitani,K. and Komae,K.
+  TITLE     Carbohydrate-Binding Module of a Rice Endo-{beta}-1,4-glycanase,
+            OsCel9A, Expressed in Auxin-Induced Lateral Root Primordia, is
+            Post-Translationally Truncated
+  JOURNAL   Plant Cell Physiol. 47 (11), 1555-1571 (2006)
+   PUBMED   17056619
+REFERENCE   3  (bases 1 to 2231)
+  AUTHORS   Yoshida,K., Imaizumi,N. and Komae,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-FEB-2000) Koki Yoshida, Taisei Co., Biotechnology
+            Research Center; Akanehama 3-6-2, Narashino, Chiba 275, Japan
+            (E-mail:kouki.yoshida@sakura.taisei.co.jp, Tel:81-090-9689-9744,
+            Fax:81-474-53-3910)
+FEATURES             Location/Qualifiers
+     source          1..2231
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /cultivar="Sasanishiki"
+                     /db_xref="taxon:4530"
+                     /tissue_type="Primary root explant"
+                     /clone_lib="Root Lamda ZAPII cDNA library"
+                     /note="24 hours after the treatment with 13.5 uM 2,4-D;
+                     vector:pBluescript SK(-)"
+     gene            1..2231
+                     /gene="OsCel9A"
+     CDS             50..1972
+                     /gene="OsCel9A"
+                     /EC_number="3.2.1.4"
+                     /codon_start=1
+                     /product="endo-beta-1,4-D-glucanase"
+                     /protein_id="BAF37260.1"
+                     /db_xref="GI:118421054"
+                     /translation="MARGGGAAGVSMAHHLGIALVVLVFAAMAQVARGGGGGHDYGMA
+                     LSKSILYFEAQRSGVLPGSQRIAWRANSGLADGKANGVDLVGGYYDAGDNVKFGLPMA
+                     FTVTMMAWSVIEYGEEMAAAGELGHAVEAIKWGTDYFAKAHPEPNVLYAEVGDGDSDH
+                     NCWQRPEDMTTSRQAYRLDPQNPGSDLAGETAAAMAAASLVFRSSNPGYADQLLQHSK
+                     QLFDFADKYRGRYDNSITVARNYYGSFSGYGDELLWASAWLYQASDDRRYLDYLANNA
+                     DALGGTGWSINQFGWDVKYPGVQILAAKFLLQGKAGEHAGVLQGYRRKADFFACSCLG
+                     KDAADNVGRTPGGMLYHQRWNNIQFVTSASFLLAVYSDHLAGGAVRCSGGGGAVAGAA
+                     ELLAFAKSQVDYILGSNPRGTSYMVGYGAVYPRQAHHRGSSIASIRASPSFVSCREGY
+                     ASWYGRRGGNPNLLDGAVVGGPDEHDDFADERNNYEQTEAATYNNAPLMGILARLAAG
+                     HGARARGRLGQSLQHGIAANHTSLPHGANHQHASPVEIEQKATASWEKDGRTYHRYAV
+                     TVSNRSPAGGKTVEELHIGIGKLYGPVWGLEKAARYGYVLPSWTPSLPAGESAAFVYV
+                     HAAPPADVWVTGYKLV"
+ORIGIN      
+        1 agatcatcca tcacctgcag catttgcctt ctctggttgg tgttcagcca tggctagggg
+       61 aggaggagca gctggtgtgt ccatggctca tcacctcggc attgccttgg tggtgcttgt
+      121 ctttgccgcc atggcgcagg tggcgcgcgg cggcggcggc ggccatgact atggcatggc
+      181 gctgagcaag agcatcctct acttcgaggc gcagcgctcc ggcgtgctcc cgggtagcca
+      241 gaggatcgca tggagggcca actccggcct cgccgacggc aaggccaacg gcgtggatct
+      301 tgttggtggg tactacgacg ccggcgacaa cgtcaagttc gggctgccga tggcgttcac
+      361 ggtgaccatg atggcgtgga gcgtcatcga gtacggcgag gagatggcgg cggccggcga
+      421 gctcggccac gccgtggagg ccatcaagtg gggcaccgac tacttcgcca aggcgcaccc
+      481 ggagcccaac gtgctctacg ctgaggtcgg cgatggtgac tccgaccaca actgctggca
+      541 gcggccggag gacatgacga caagccgtca ggcgtaccgc cttgatcctc agaatcccgg
+      601 ctctgacctc gccggagaaa ccgccgcggc catggcggct gcgtcactcg tcttccgtag
+      661 ctccaacccg ggctacgcag accaactcct gcaacactct aaacagctgt ttgatttcgc
+      721 cgacaagtac cggggaaggt acgacaacag catcaccgtc gcgaggaact attacgggtc
+      781 attcagcgga tacggggatg agctactgtg ggcgtcggcg tggctatacc aagcgagcga
+      841 cgaccgccgc tacctcgact acttggccaa caacgcggat gcgctaggcg ggacgggctg
+      901 gtccatcaac cagtttgggt gggacgtcaa gtaccccgga gttcaaatcc tagctgcaaa
+      961 gtttctcctc caaggcaaag ccggcgagca cgccggcgtc ctgcagggat accggcggaa
+     1021 ggcggacttc ttcgcgtgct cgtgcctcgg gaaggacgcc gccgacaacg tcgggaggac
+     1081 gcccggcgga atgctgtacc accagaggtg gaacaacatc cagttcgtca ccagcgcgtc
+     1141 gttcctcctc gccgtctact ccgaccacct cgccggcggc gccgtgaggt gctcgggcgg
+     1201 cggcggggcg gtggccgggg cggcggagct cctggcgttc gccaagtcgc aggtggacta
+     1261 catcctgggg agcaacccga gggggacgag ctacatggtc ggctatggcg ccgtctaccc
+     1321 gcggcaggcg caccaccgcg gctcgtccat cgcctccatc agggccagcc cgtcgttcgt
+     1381 gagctgcagg gaggggtacg cgagctggta cgggcggcgg ggcggcaacc ccaacctgct
+     1441 cgacggcgcc gtcgtcggcg gccccgacga gcacgacgac ttcgccgacg agaggaacaa
+     1501 ctacgagcag acggaggcgg ccacctacaa caacgccccg ctcatgggca tcctcgcccg
+     1561 tctcgccgcc ggccatggcg cccgcgcccg cggccggctt ggccagtcac ttcaacacgg
+     1621 aatcgctgca aatcacactt cactgcctca tggtgccaat caccagcatg cgtcgccggt
+     1681 ggagatcgag cagaaggcga cggcgtcgtg ggagaaggac gggaggacgt accaccggta
+     1741 cgcggtgacg gtgagcaaca ggtcgccggc gggcggcaag acggtggagg agctccacat
+     1801 cggcatcggc aagctgtacg gcccggtgtg ggggctcgag aaggcggcga ggtacggcta
+     1861 cgtgctcccg agctggaccc cgtcgctgcc cgccggcgag agcgccgcct tcgtctacgt
+     1921 ccacgccgcg ccgccggccg acgtctgggt caccggctac aagctcgtct gaaatcaatc
+     1981 aaacgtgcaa cgaaccatta attagttcct actaaaattt acatttacaa gttcgtgtgt
+     2041 gcacgtttca ccagtttgtg tgcgtgtgtg agattgttaa ttaggtttac atgtcgagag
+     2101 gtaacatgga gtgatgtggc cagttacaat ataatctcgg ccatcctcca tgtcctgatc
+     2161 catgtccatg taagatgcaa ggtgtatggc tagtgtttgg aataatatgg gttatcaatg
+     2221 tatcaaaaaa a
+//
+

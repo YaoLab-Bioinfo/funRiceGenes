@@ -1,0 +1,65 @@
+LOCUS       AB023288                1169 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for TRAB1, complete cds.
+ACCESSION   AB023288
+VERSION     AB023288.1  GI:5821254
+KEYWORDS    TRAB1.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Hobo,T., Kowyama,Y. and Hattori,T.
+  TITLE     A bZIP factor, TRAB1, interacts with VP1 and mediates abscisic
+            acid-induced transcription
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 96 (26), 15348-15353 (1999)
+   PUBMED   10611387
+REFERENCE   2  (bases 1 to 1169)
+  AUTHORS   Hobo,T., Hattori,T. and Kowyama,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-FEB-1999) Contact:Tsukaho Hattori Mie University,
+            Center for Molecular Bilogy and Genetics; 1515 Kamihama-cho, Tsu,
+            Mie 514-8507, Japan
+FEATURES             Location/Qualifiers
+     source          1..1169
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1169
+                     /gene="TRAB1"
+     CDS             14..970
+                     /gene="TRAB1"
+                     /codon_start=1
+                     /product="TRAB1"
+                     /protein_id="BAA83740.1"
+                     /db_xref="GI:5821255"
+                     /translation="MNMDELLRSIWTAEESQAMASASAAAAAAEGGLHKQGSLTLPRT
+                     LSVKTVDEVWRDLQREASPGAAAADGGGGGGEHHQPRRQPTLGEMTLEEFLVRAGVVR
+                     ENTAAAAAMVAAAAAPPVAPRSIPAVNNSSIFFGNYGGVNDAAAAAAGAMGFSPVGIG
+                     DPTMGNRLMSGVAGIGGGAITVAPVDTSVGQMDSAGKGDGDLSSPMAPVPYPFEGVIR
+                     GRRSGGNVEKVVERRQRRMIKNRESAARSRARKQAYTMELEAEVQKLKEQNMELQKKQ
+                     EEIMEMQKNFFPEMQKNQVLEAVNNPYGQKKRCLRRTLTGPW"
+ORIGIN      
+        1 ggatttcggg tcgatgaaca tggacgagct gctgcggagc atctggacgg cggaggagag
+       61 ccaagcgatg gcgtcggcgt ctgcggcggc ggcggcggcg gaggggggcc tgcacaagca
+      121 ggggtcgctc accctgccgc gcactctcag cgtcaagacg gtggacgaag tgtggcggga
+      181 cttacaacga gaggcgtcgc cgggggcggc tgctgctgac ggcggcggcg gcggcgggga
+      241 gcaccatcag cccaggcggc agccgacgct cggggagatg acgctggagg agttcctggt
+      301 cagggccggg gtcgtcagag agaataccgc tgcggcggct gctatggtag ctgcggccgc
+      361 cgctccgccg gtggctccgc ggtcgattcc ggctgtcaac aacagctcca tcttcttcgg
+      421 gaactacgga ggcgtcaatg atgctgctgc tgccgctgct ggtgcgatgg gtttctcacc
+      481 ggtggggatt ggggatccga ccatggggaa taggctgatg tccggagtgg cagggattgg
+      541 gggtggtgcg atcactgttg ctccggtgga tacatcagtt ggacaaatgg attcagcggg
+      601 caagggggat ggggacctgt catcaccgat ggcgccggtg ccgtacccct ttgagggggt
+      661 gataaggggg aggaggagcg gtggtaacgt ggagaaggtg gtggagcggc ggcagaggag
+      721 gatgatcaag aacagggagt cagcagctag atctcgtgcc cggaagcagg cttacacaat
+      781 ggagttggaa gctgaagttc agaaactcaa ggaacagaac atggaattgc agaagaaaca
+      841 ggaggaaatt atggaaatgc agaaaaattt cttcccagaa atgcagaaaa atcaggtatt
+      901 agaggcggtc aacaatcctt acggacaaaa gaagcgttgc ctaagaagaa cattgacagg
+      961 tccctggtaa aatttgagtt attgataacc ggagcttgac aagacacacc atattttaac
+     1021 cttaaggttc ttgtacatat tgtcaggatt tcaaaactca tctctctgtt gtaaattgat
+     1081 gatcaacaga gtcgagtgta ctagtgctta acttgccctg tcaccttcaa cttacagttc
+     1141 tgcaagtctt ctatcgtgct cttatgtcc
+//
+

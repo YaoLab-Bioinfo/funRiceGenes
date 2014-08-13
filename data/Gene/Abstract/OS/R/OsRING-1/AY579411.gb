@@ -1,0 +1,75 @@
+LOCUS       AY579411                1670 bp    mRNA    linear   PLN 05-JUL-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) RING/C3HC4/PHD zinc
+            finger-like protein mRNA, complete cds.
+ACCESSION   AY579411
+VERSION     AY579411.1  GI:46392556
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1670)
+  AUTHORS   Meng,X.B., Zhao,W.S., Lin,R.M., Wang,M. and Peng,Y.L.
+  TITLE     Molecular cloning and characterization of a rice blast-inducible
+            RING-H2 type zinc finger gene
+  JOURNAL   DNA Seq. 17 (1), 41-48 (2006)
+   PUBMED   16753816
+REFERENCE   2  (bases 1 to 1670)
+  AUTHORS   Meng,X.-B., Lin,R.-M., Wang,M., Zhao,W.-S. and Peng,Y.-L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2004) Plant Pathology, China Agricultural
+            University, West Road No. 2 of Yuanmingyuan Haidian, Beijing,
+            Beijing 100094, China
+FEATURES             Location/Qualifiers
+     source          1..1670
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+                     /clone="PAC P0471A11"
+     CDS             39..1352
+                     /note="OsZinc"
+                     /codon_start=1
+                     /product="RING/C3HC4/PHD zinc finger-like protein"
+                     /protein_id="AAS91046.1"
+                     /db_xref="GI:46392557"
+                     /translation="MPSCRARMHAHQHQHALLAALLACALAASSSTAGAQPAGQQGYA
+                     YGDVSGQQVHVSTTMIVLLAAVVGVFLFIAISTIYLRHCTGYDPATEGGGVGGSRSMI
+                     LPANSFVSRRQRRPRGLDSSVVRMFPTMKYAEAKALRVGKVAGAALECAVCLSEFEDD
+                     EMLRFLPKCSHAFHPDCIGQWLASHVTCPVCRRNLDPNKDTTEEVIIPAAAAADPNST
+                     SSEIVVIRQEDGAHPAAVVIDVVTEEDDEERRKEELELQAIGTQLRAMRSRSGLRPKT
+                     SAAKLPRSHSTGHSLAVRLDGDLERYTLRLPEHVHREMVAAGEQSVRRGRRLGEGVGM
+                     GARCSPRFSRSGRWSSFLSNSLSGKLSFLSPSSRRTPDSTQVEVSSSSSSSVTKVKGK
+                     RVAAVDVADDGSAHGTAQYPGCTVASSAAAAAVDVEKAATRQVRT"
+ORIGIN      
+        1 gccctcgcct cccgccgccg accacgcgcg ctatctgcat gccaagttgc cgagctagga
+       61 tgcacgcgca ccagcaccag cacgcgctgc tcgcggcgct cctcgcgtgc gcgctcgcgg
+      121 cgtcgtcgtc gacggccgga gcgcagccgg cggggcagca ggggtatgcc tacggcgacg
+      181 tgtccgggca gcaggtgcac gtcagcacga cgatgatcgt gctgctggcc gccgtcgtcg
+      241 gggttttcct gttcatcgcg atctccacca tctacctccg ccactgcacc ggttacgacc
+      301 ccgcgacgga gggcggcggc gtcggcggga gccgttccat gatcctccct gccaacagct
+      361 tcgtctcgag gcggcagcgg cggccgcgcg ggctcgactc gtcggtggtc cggatgttcc
+      421 ccaccatgaa gtacgccgag gcgaaggcgc tgcgggtggg gaaggtcgcc ggcgccgcgc
+      481 tggagtgcgc ggtgtgcctc agcgagttcg aggacgacga gatgctcagg ttcctgccca
+      541 agtgcagcca cgccttccac ccggactgca tcggccagtg gctcgccagc cacgtgacct
+      601 gccccgtctg ccgccgcaat ctcgacccta acaaggacac caccgaagag gtgatcatcc
+      661 cggccgccgc cgccgccgat ccgaacagca cctccagtga aatagttgtg atacggcaag
+      721 aagacggggc gcacccagca gccgtggtga tcgacgtggt caccgaggag gacgacgagg
+      781 agcggaggaa ggaggagcta gagcttcagg cgataggcac ccagctccgc gcgatgcggt
+      841 cacggtcggg gctgcggcca aagacgtcgg cggcgaagct tccccggtcg cactccactg
+      901 gccactccct cgccgtccgg ctcgacggcg acctagagcg gtacacgctg cggctgccgg
+      961 agcacgtaca cagggagatg gtcgcggcgg gggagcagag cgtgcgccgc gggaggagac
+     1021 tcggggaagg ggtcggcatg ggcgctcggt gcagcccccg gttttcgcgg tcgggcagat
+     1081 ggtcatcttt tctctcaaat tctttgtcag gaaagctgtc tttcctctcc ccgtcgtcga
+     1141 ggagaacgcc ggatagcacc caggtggaag tgtcatcatc ctcgtcgtcg tcggtgacga
+     1201 aggtgaaagg gaagcgcgtg gccgccgtcg atgttgccga cgacggttct gctcatggga
+     1261 ctgcacagta ccctggttgc actgtggcca gctcggcggc ggcggcggct gtggacgtgg
+     1321 agaaggcagc taccaggcaa gttcgaacat agaaaacgaa cagaagtttt gagtgagaaa
+     1381 cttgaacagt tgaacttgac gtcatgcatt ttcccacatg aaagaaagaa atggtctttt
+     1441 tttgtcggtg ggactgtatt ctgtactctg tactaggtat attatcaacg ccgatatgcc
+     1501 caaatattat gggagcacct attgatcaat caggtgactg cagaatagca aaggcgaaat
+     1561 aatatacata ctaggttgaa gaaacttaga tgcttttttt tttttggaac tagaaactta
+     1621 ggctgtgttt gagggagagg ggattgagaa gattggaaag atacgtaaaa
+//
+

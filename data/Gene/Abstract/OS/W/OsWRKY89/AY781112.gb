@@ -1,0 +1,58 @@
+LOCUS       AY781112                 817 bp    mRNA    linear   PLN 06-NOV-2004
+DEFINITION  Oryza sativa (indica cultivar-group) WRKY DNA-binding protein
+            (WRKY89) mRNA, complete cds.
+ACCESSION   AY781112
+VERSION     AY781112.1  GI:55139439
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 817)
+  AUTHORS   Wang,H.-H. and Guo,Z.-J.
+  TITLE     Isolation of rice WRKY DNA binding protein, OsWRKY89
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 817)
+  AUTHORS   Guo,Z.-J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2004) Department of Plant Pathology, China
+            Agricultural University, Yuanmenyuan-Xilu 2, Beijing 100094,
+            People's Republic of China
+FEATURES             Location/Qualifiers
+     source          1..817
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR 72"
+                     /db_xref="taxon:39946"
+     gene            1..817
+                     /gene="WRKY89"
+                     /note="OsWRKY89"
+     CDS             26..817
+                     /gene="WRKY89"
+                     /codon_start=1
+                     /product="WRKY DNA-binding protein"
+                     /protein_id="AAV41384.1"
+                     /db_xref="GI:55139440"
+                     /translation="MIEHQKALMVELRGMAMPLLPSDNEQAKLALQLLGDILSCSDKA
+                     ISMLELGGDTKKLTNLVGGKRKGDKHSMDNHNLEEEAKESVSKRRKNAEHTGSTVAQA
+                     PHNDGHQWRKYGQKWISRAKHSRSYYRCANSKVQGCPATKTVQQMDSSGNGTSKLFNV
+                     DYYDQHTCRGDGIADPYVVDTAHHSMEPINQNECNSPTLEHEAHEVQDERFENLCMVQ
+                     NMPEYLIDFELERAFEFIVNSPLGSEHWTFDDSIRCEHSPICIWG"
+ORIGIN      
+        1 tagtgactgt caagtagtga tcaacatgat agagcaccaa aaggctctca tggtggagct
+       61 gcgtggcatg gccatgccat tacttccgag cgacaatgaa caagccaagc ttgctcttca
+      121 actcttggga gatatattga gttgctcaga taaggctatc tccatgctag aacttggtgg
+      181 agacactaaa aagctgacca atcttgttgg aggtaagaga aaaggtgaca agcatagcat
+      241 ggacaaccac aacttggagg aggaagctaa agaaagtgtt agcaagagaa gaaagaatgc
+      301 agaacacaca ggttcaactg tggctcaagc acctcacaat gatggacatc aatggaggaa
+      361 gtatggtcag aaatggatct ctagagcaaa acattccagg agctactata ggtgtgccaa
+      421 tagtaaagtg caaggctgtc ctgctacaaa gacagtgcaa caaatggatt ccagtggaaa
+      481 tggaacatca aagttgttca acgttgacta ctatgaccaa cacacatgca ggggagatgg
+      541 catagccgat ccatatgttg tcgacacagc ccatcacagt atggaaccta tcaatcaaaa
+      601 cgaatgcaat agccctacac ttgaacacga agcccatgaa gttcaagatg aaagatttga
+      661 aaacttgtgt atggtacaaa atatgccaga gtatttgata gattttgaat tggagagagc
+      721 cttcgagttt attgtgaact caccattggg ttctgagcat tggacgttcg atgattcaat
+      781 aagatgtgag cacagtccaa tatgcatatg gggatga
+//
+

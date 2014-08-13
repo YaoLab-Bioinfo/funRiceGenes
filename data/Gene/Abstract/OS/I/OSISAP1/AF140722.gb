@@ -1,0 +1,65 @@
+LOCUS       AF140722                 844 bp    mRNA    linear   PLN 20-APR-2004
+DEFINITION  Oryza sativa (indica cultivar-group) multiple stress-responsive
+            zinc-finger protein mRNA, complete cds.
+ACCESSION   AF140722
+VERSION     AF140722.2  GI:33414598
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 844)
+  AUTHORS   Mukhopadhyay,A., Vij,S. and Tyagi,A.K.
+  TITLE     Overexpression of a zinc-finger protein gene from rice confers
+            tolerance to cold, dehydration, and salt stress in transgenic
+            tobacco
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (16), 6309-6314 (2004)
+   PUBMED   15079051
+REFERENCE   2  (bases 1 to 844)
+  AUTHORS   Mukhopadhyay,A. and Tyagi,A.K.
+  TITLE     Isolation and characterization of a novel multiple
+            stress-responsive zinc protein gene (OSISAP1) from rice (Oryza
+            sativa subsp. indica var. Pusa Basmati 1)
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 844)
+  AUTHORS   Mukhopadhyay,A. and Tyagi,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-APR-1999) Department of Plant Molecular Biology,
+            University of Delhi, South Campus, Benito Juarez Road, New Delhi
+            110021, India
+COMMENT     On Aug 4, 2003 this sequence version replaced gi:8307827.
+FEATURES             Location/Qualifiers
+     source          1..844
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Pusa Basmati 1"
+                     /db_xref="taxon:39946"
+     CDS             110..604
+                     /note="OSPR"
+                     /codon_start=1
+                     /product="multiple stress-responsive zinc-finger protein"
+                     /protein_id="AAF74344.1"
+                     /db_xref="GI:8307828"
+                     /translation="MAQRDKKDQEPTELRAPEITLCANSCGFPGNPATQNLCQNCFLA
+                     ATASTSSPSSLSSPVLDKQPPRPAAPLVEPQAPLPPPVEEMASALATAPAPVAKTSAV
+                     NRCSRCRKRVGLTGFRCRCGHLFCGEHRYSDRHGCSYDYKSAARDAIARDNPVVRAAK
+                     IVRF"
+ORIGIN      
+        1 gatctctcct gcaatcctca tcacacagca aacccaaacc gcgagcggaa tcctcagcct
+       61 gctgagagag cctgagacca agagggggat tcttttttgg ttattgacga tggcgcagcg
+      121 cgacaagaag gatcaggagc cgacggagct cagggcgccg gagatcacgc tgtgcgccaa
+      181 cagctgcgga ttcccgggca acccggccac gcagaacctc tgccagaact gcttcttggc
+      241 ggccacggcg tccacctcgt cgccgtcttc tttgtcgtca ccggtgctcg acaagcagcc
+      301 gccgaggccg gcggcgccgc tggttgagcc tcaggctcct ctcccaccgc ctgtggagga
+      361 gatggcctcc gcgctcgcga cggcgccggc gccggtcgcc aagacgtcgg cggtgaaccg
+      421 gtgctccagg tgccggaagc gtgtcggcct caccgggttc cggtgccggt gcggccacct
+      481 gttctgcggc gagcaccggt actccgaccg ccacggctgc agctacgact acaagtcggc
+      541 ggcaagggac gccatcgcca gggacaaccc ggtggtgcgc gcggccaaga tcgttaggtt
+      601 ctgagaggca aacaaaatta aaaaaaaaat ctactgtttt agcaagaaat ggagaaaaaa
+      661 attgggaatt gaaggtgtgg atgttattat tatgctgttc tcttctcgca attgtttttc
+      721 cctttttatt ctttttaatt gcaaacggga ggataagtgg tggaaaagga atagtgtaac
+      781 aataatggtg atgtgaggtg gttgagggaa aaagaatcga agaacaaaaa aaaaaaaaaa
+      841 aaaa
+//
+

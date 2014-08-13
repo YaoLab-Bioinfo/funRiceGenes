@@ -1,0 +1,71 @@
+LOCUS       RICGPAS                 1461 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for G protein alpha subunit,
+            complete cds.
+ACCESSION   D38232
+VERSION     D38232.1  GI:540532
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1461)
+  AUTHORS   Ishikawa,A., Tsubouchi,H., Iwasaki,Y. and Asahi,T.
+  TITLE     Molecular cloning and characterization of a cDNA for the alpha
+            subunit of a G protein from rice
+  JOURNAL   Plant Cell Physiol. 36 (2), 353-359 (1995)
+   PUBMED   7767602
+REFERENCE   2  (bases 1 to 1461)
+  AUTHORS   Iwasaki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-SEP-1994) Contact:Yukimoto Iwasaki Fukui Prefectual
+            University, Bioscience; Kenjyojima 4-1-1, Matuoka, Fukui 910-11,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1461
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="RGA1"
+                     /tissue_type="greening leaf"
+     CDS             91..1233
+                     /codon_start=1
+                     /product="G protein alpha subunit"
+                     /protein_id="BAA07405.1"
+                     /db_xref="GI:540533"
+                     /translation="MGSSCSRSHSLSEAETTKNAKSADIDRRILQETKAEQHIHKLLL
+                     LGAGESGKSTIFKQIKLLFQTGFDEAELRSYTSVIHANVYQTIKILYEGAKELSQVES
+                     DSSKYVISPDNQEIGEKLSDIDGRLDYPLLNKELVLDVKRLWQDPAIQETYLRGSILQ
+                     LPDCAQYFMENLDRLAEAGYVPTKEDVLYARVRTNGVVQIQFSPVGENKRGGEVYRLY
+                     DVGGQRNERRKWIHLFEGVNAVIFCAAISEYDQMLFEDETKNRMMETKELFDWVLKQR
+                     CFEKTSFILFLNKFDIFEKKIQKVPLSVCEWFKDYQPIAPGKQEVEHAYEFVKKKFEE
+                     LYFQSSKPDRVDRVFKIYRTTALDQKLVKKTFKLIDESMRRSREGT"
+ORIGIN      
+        1 gacgtcaacg tgcttcctgg aaagagagag gctcaggcat gagagcatac ctctaaaata
+       61 atgtccgtgc ttacctgtgt gcttgataac atgggctcat cctgtagcag atctcattct
+      121 ttaagtgagg ctgaaacaac caaaaatgca aaatctgcag acattgacag gcgaattttg
+      181 caagagacaa aagcagagca acacatccac aagctcttac ttcttggtgc gggagaatca
+      241 gggaagtcta cgatatttaa acagattaag ctccttttcc aaactggctt tgatgaggca
+      301 gaacttagga gctacacatc agttatccat gcaaacgtct atcagacaat taaaatacta
+      361 tatgaaggag caaaagaact ctcacaagtg gaatcagatt cctcaaagta tgttatatcc
+      421 ccagataacc aggaaattgg agaaaaacta tcagatattg atggcaggtt ggattatcca
+      481 ctgctgaaca aagaacttgt actcgatgta aaaaggttat ggcaagaccc agccattcag
+      541 gaaacttact tacgtggaag tattctgcaa cttcctgatt gtgcacaata cttcatggaa
+      601 aatttggatc gattagctga agcaggttat gtgccaacaa aggaggatgt gctttatgca
+      661 agagtacgga caaatggtgt tgtacaaata caatttagtc ctgttggaga aaacaaaaga
+      721 ggtggagagg tatataggtt gtatgatgta ggaggccaga ggaatgagag gagaaagtgg
+      781 attcatcttt ttgaaggtgt taatgcggta atcttttgtg ctgccattag cgaatatgat
+      841 cagatgctat ttgaagatga gacaaaaaac agaatgatgg agaccaagga actctttgac
+      901 tgggttttaa agcaaagatg ttttgagaaa acatcattca ttctgtttct caacaaattt
+      961 gatatattcg agaagaaaat acaaaaggtt cctttaagtg tgtgcgagtg gtttaaagac
+     1021 taccagccta ttgcacctgg gaaacaggag gttgaacatg catatgagtt tgtcaagaag
+     1081 aagtttgaag agctctactt ccagagcagc aagcctgacc gtgtggaccg cgtcttcaaa
+     1141 atctacagaa ctacggccct agaccagaaa cttgtaaaga agacattcaa gttgattgat
+     1201 gagagcatga gacgctccag ggaaggaact tgattcagag ctaagactag gttgtaagtc
+     1261 acacagggaa ggtaattagg acggcgagag gaacaaagtt tcacactgtc acagctttat
+     1321 ctgttgtaat tcttttacac gtggaccatt gattgatctt ttggttctta ctgtgggctg
+     1381 ttcaggtctg taccctattt tttgttctct agttagccat tgtgcaaatt ttccttgaat
+     1441 cagattctct acctgttgtc t
+//
+

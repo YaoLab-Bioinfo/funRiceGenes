@@ -1,0 +1,45 @@
+LOCUS       BAD67542                  93 aa            linear   PLN 15-FEB-2008
+DEFINITION  Gibberellin stimulated transcript related protein 1 [Oryza sativa
+            Japonica Group].
+ACCESSION   BAD67542
+VERSION     BAD67542.1  GI:55167448
+DBSOURCE    accession AB192574.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Furukawa,T., Sakaguchi,N. and Shimada,H.
+  TITLE     Two OsGASR genes, rice GAST homologue genes that are abundant in
+            proliferating tissues, show different expression patterns in
+            developing panicles
+  JOURNAL   Genes Genet. Syst. 81 (3), 171-180 (2006)
+   PUBMED   16905871
+REFERENCE   2  (residues 1 to 93)
+  AUTHORS   Furukawa,T. and Shimada,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2004) Contact:Tomoyuki Furukawa Tokyo University
+            of Science, Tissue Engineering Research Center; Yamazaki 2641,
+            Noda, Chiba 2788510, Japan
+FEATURES             Location/Qualifiers
+     source          1..93
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     Protein         1..93
+                     /product="Gibberellin stimulated transcript related
+                     protein 1"
+     Region          31..93
+                     /region_name="GASA"
+                     /note="Gibberellin regulated protein; pfam02704"
+                     /db_xref="CDD:251485"
+     CDS             1..93
+                     /gene="GASR1"
+                     /coded_by="AB192574.1:54..335"
+ORIGIN      
+        1 mklnttttla lllllllass slqvsmagsd fcdgkckvrc skasrhddcl kycgvccasc
+       61 ncvpsgtagn kdecpcyrdm ttghgarkrp kcp
+//
+

@@ -1,0 +1,88 @@
+LOCUS       AB211399                2156 bp    mRNA    linear   PLN 22-FEB-2008
+DEFINITION  Oryza sativa Japonica Group gid1 mRNA for gibberellin insensitive
+            dwarf1, complete cds.
+ACCESSION   AB211399
+VERSION     AB211399.1  GI:76573432
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ueguchi-Tanaka,M., Ashikari,M., Nakajima,M., Itoh,H., Katoh,E.,
+            Kobayashi,M., Chow,T., Hsing,Y.C., Kitano,H., Yamaguchi,I. and
+            Matsuoka,M.
+  TITLE     GIBBERELLIN INSENSITIVE DWARF1 encodes a soluble receptor for
+            gibberellin
+  JOURNAL   Nature 437 (7059), 693-698 (2005)
+   PUBMED   16193045
+REFERENCE   2  (bases 1 to 2156)
+  AUTHORS   Ueguchi-Tanaka,M., Ashikari,M., Nakajima,M., Itoh,H., Katoh,E.,
+            Kobayashi,M., Chow,T., Hsing,Y., Kitano,H., Yamaguchi,I. and
+            Matsuoka,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-2005) Contact:Miyako Ueguchi-Tanaka Nagoya
+            University, Bioscience and Biotechnology Center; Chikusaku Frocho,
+            Nagoya, Aichi 464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..2156
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Taichung 65"
+                     /db_xref="taxon:39947"
+     gene            1..2156
+                     /gene="gid1"
+     CDS             423..1487
+                     /gene="gid1"
+                     /function="gibberellin receptor"
+                     /codon_start=1
+                     /product="gibberellin insensitive dwarf1"
+                     /protein_id="BAE45340.1"
+                     /db_xref="GI:76573433"
+                     /translation="MAGSDEVNRNECKTVVPLHTWVLISNFKLSYNILRRADGTFERD
+                     LGEYLDRRVPANARPLEGVSSFDHIIDQSVGLEVRIYRAAAEGDAEEGAAAVTRPILE
+                     FLTDAPAAEPFPVIIFFHGGSFVHSSASSTIYDSLCRRFVKLSKGVVVSVNYRRAPEH
+                     RYPCAYDDGWTALKWVMSQPFMRSGGDAQARVFLSGDSSGGNIAHHVAVRAADEGVKV
+                     CGNILLNAMFGGTERTESERRLDGKYFVTLQDRDWYWKAYLPEDADRDHPACNPFGPN
+                     GRRLGGLPFAKSLIIVSGLDLTCDRQLAYADALREDGHHVKVVQCENATVGFYLLPNT
+                     VHYHEVMEEISDFLNANLYY"
+ORIGIN      
+        1 tctccctgtt cgttgccttc tccgtgccga acaccacagc gcgcgcgcgg gggggcgggt
+       61 tcggctctct cgcgagctct gctctctgtc cctctctctc tctcgccgcc tcctgcctcg
+      121 cacactcgag attggtgggg tggatttggg ggaggaggag gtggggtggg gtggggtggt
+      181 tgctgaggag gaggtggtgg tgagagatcg ggcggcgggt tgccgccgga ggaggtagag
+      241 ggatcctcgg gggagggcgg ttcttgggtc gggggacccc cccatggcgt gaggagaggg
+      301 tgccctccgg gagatcttgc ggggcgggtg tgtggtgttg ctagctgagg ctgttgggtg
+      361 ggtacccccg agcggccggg gaatctcctc ccttctcgag cgaccgcccg cgtcgctccg
+      421 ccatggccgg cagcgacgag gtcaaccgca acgagtgcaa gacggtggtg ccgctccaca
+      481 catgggtgct catctccaac ttcaagctgt cgtacaacat tctgcggcgg gcggacggga
+      541 cgttcgagcg ggacctcggg gagtacctgg acaggagggt gccggcgaac gcgcggccgc
+      601 tggagggggt gtcgtcgttc gaccacatca tcgaccagtc ggtggggctg gaggtgcgca
+      661 tctaccgggc ggcggcggag ggtgacgcgg aggagggggc ggcggcggtg acgcggccca
+      721 tccttgagtt cctgacggac gcgccagcgg cggagccgtt cccggtgatc atattcttcc
+      781 acggcggcag cttcgtgcac tcgtcggcca gctcgaccat ctacgacagt ctgtgccgcc
+      841 ggttcgtgaa gctgagcaag ggcgtcgtgg tgtccgtcaa ctaccggcgc gcgccggagc
+      901 accgctaccc gtgcgcgtac gacgacgggt ggaccgcgct caagtgggtc atgtcgcagc
+      961 cgttcatgcg cagcggcggc gacgcgcagg cccgcgtgtt cctctccggc gacagctccg
+     1021 gcggcaacat cgcccaccac gtcgccgtcc gcgccgccga cgagggcgtc aaggtctgcg
+     1081 gcaacatcct gctcaacgcc atgttcggcg gcaccgagcg cacggagtcg gagcggcggc
+     1141 tcgacggcaa gtacttcgtg acgctccagg acagggactg gtactggaag gcgtacctgc
+     1201 cggaggacgc cgaccgggac catccggcgt gcaacccgtt cggcccgaac ggccggcggc
+     1261 tcgggggcct ccccttcgcc aagagcctca tcatcgtgtc gggcctggac ctcacctgcg
+     1321 accggcagct cgcctacgcc gacgccctcc gggaggacgg ccaccacgtc aaggttgtcc
+     1381 aatgcgagaa cgccacggtg gggttctacc tgttgcccaa caccgtccac taccacgagg
+     1441 tcatggagga gatctccgac ttcctcaacg ctaacctcta ctactagtac atatacagcc
+     1501 cctctccctc tcccccctcg ctgatcgtcg tctccaacac aaatactcct tatagggaag
+     1561 atggtaattc agcttgactt tgttatagta cctactacta ctactactac tacctcctat
+     1621 actactgctg ctgcttggga tcgcaatgcc gtcgtctgct cttgtgtggc gaaggagaag
+     1681 ctagctccat gctgtctgat cagctctaat caaatggtga ctcggttgcg tcgaggaaga
+     1741 agaagaaagt cgtccgtcgt cgtcgtcctt gttccactaa tcatcgttca tccttttctt
+     1801 tttttgtggt ttggatcgtt ctttgatcca tgttttccat gttttgcctg gggtcagtgt
+     1861 agtcaagaca agttgagggt agttccatgt ctgtcatgca tgcctccatt agtactacta
+     1921 ctgttgtgac tttggttgat ggagagaaga agcatgtttt tttttctttt aatctcgcat
+     1981 tccatccatc ttctccatgt actccaaaga gaggaaagtt gctatctaac gttatgtgta
+     2041 cagtgatcga tcaacaagga gatttgagga ggcatgcccc ttttgttgct gttgatgttc
+     2101 tagttttatc ttctttcttg ttaacaggat tggatggtgc tctcttgctc actctc
+//
+

@@ -1,0 +1,81 @@
+LOCUS       AY256847                1594 bp    mRNA    linear   PLN 04-MAY-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) CIPK-like protein (CK1)
+            mRNA, complete cds.
+ACCESSION   AY256847
+VERSION     AY256847.1  GI:32442210
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1594)
+  AUTHORS   Kim,K.N., Lee,J.S., Han,H., Choi,S.A., Go,S.J. and Yoon,I.S.
+  TITLE     Isolation and characterization of a novel rice Ca2+-regulated
+            protein kinase gene involved in responses to diverse signals
+            including cold, light, cytokinins, sugars and salts
+  JOURNAL   Plant Mol. Biol. 52 (6), 1191-1202 (2003)
+   PUBMED   14682618
+REFERENCE   2  (bases 1 to 1594)
+  AUTHORS   Lee,J.-S. and Yoon,I.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAR-2003) Bioinformatics Division, National Institute
+            of Agricultural Biotechnology, 225, Seodun-Dong, Suwon 441-707,
+            Korea
+FEATURES             Location/Qualifiers
+     source          1..1594
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Ilpoom"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+                     /tissue_type="leaf"
+                     /dev_stage="3 week-old seedling"
+     gene            1..1594
+                     /gene="CK1"
+                     /note="OsCK1"
+     CDS             122..1471
+                     /gene="CK1"
+                     /note="protein kinase"
+                     /codon_start=1
+                     /product="CIPK-like protein"
+                     /protein_id="AAP82174.1"
+                     /db_xref="GI:32442211"
+                     /translation="MYRAKRAALSPKVKRRVGKYELGRTIGEGTFAKVRFAKNTENDE
+                     PVAIKILDKEKVQKHRLVEQIRREICTMKLVKHPNVVRLFEVMGSKARIFIVLEYVTG
+                     GELFEIIATNGRLKEEEARKYFQQLINAVDYCHSRGVYHRDLKLENLLLDASGNLKVS
+                     DFGLSALTEQVKADGLLHTTCGTPNYVAPEVIEDRGYDGAAADIWSCGVILYVLLAGF
+                     LPFEDDNIIALYKKISEAQFTCPSWFSTGAKKLITRILDPNPTTRITISQILEDPWFK
+                     KGYKPPVFDEKYETSFDDVDAAFGDSEDRHVKEETEDQPTSMNAFELISLNQALNLDN
+                     LFEAKKEYKRETRFTSQCPPKEIITKIEEAAKPLGFDIQKKNYKMRMENLKAGRKGNL
+                     NVATEVFQVAPSLHVVELKKAKGDTLEFQKFYRTLSTQLKDVVWKCDGEVEGNGAAA"
+ORIGIN      
+        1 cgaggtttcc tcctgttctt gagagaactg aatctgctgt ccagctgctg ctccggctgg
+       61 tctctgagtt gaaggtactt gaataacttg aaggttccta ggaaccttca tttgttggaa
+      121 gatgtatagg gctaagaggg ctgcattatc tccaaaggtg aagcgccgtg tagggaagta
+      181 tgagctcggg cgcaccattg gagaaggaac ctttgcaaag gtccggtttg cgaagaacac
+      241 tgaaaatgac gaaccagttg ctatcaaaat ccttgacaag gagaaggttc agaagcacag
+      301 attggttgaa cagattaggc gtgaaatttg tactatgaag ttagtaaagc atcctaatgt
+      361 tgttcggctg ttcgaggtca tgggaagtaa agcaagaatt ttcattgttc tggaatatgt
+      421 tactggagga gagctctttg aaatcattgc aactaatgga aggttgaagg aggaggaagc
+      481 acgaaaatac tttcaacaac ttatcaatgc agttgactac tgccacagta ggggtgtgta
+      541 ccacagagac ttgaagttag aaaatttgct gcttgatgct tctggaaacc tgaaagtatc
+      601 tgactttggt ttgagtgctt taaccgagca agtgaaggct gacggtttgc tgcacacgac
+      661 atgtggaact cctaattatg ttgctccaga ggtgattgag gacagaggct atgatggggc
+      721 agctgcagat atctggtctt gtggggtaat cctttatgtt ctgcttgctg ggtttttacc
+      781 atttgaggat gacaacatca ttgctcttta taaaaagatc tctgaagctc agtttacctg
+      841 tccctcttgg ttttctactg gagctaagaa gctgatcacc agaattctgg atcccaaccc
+      901 tacaactagg atcaccattt ctcaaatact ggaagatcct tggttcaaaa agggttacaa
+      961 accgcctgta tttgacgaga aatatgaaac tagttttgac gatgtcgatg ctgcttttgg
+     1021 agactccgaa gaccggcatg tcaaagaaga aactgaagat cagcctacct ctatgaacgc
+     1081 gtttgaactc atttcactga atcaggcact gaatctggac aatttgttcg aggcaaaaaa
+     1141 ggagtataaa agagagacaa gattcacatc acaatgtcct ccaaaagaaa ttatcaccaa
+     1201 gattgaagaa gctgcaaagc cacttggatt tgatattcaa aagaaaaatt acaagatgcg
+     1261 catggagaac ctgaaagcag gtagaaaagg caatctcaat gttgcaactg aggttttcca
+     1321 agtagctcca tccttacatg tggttgagct caagaaggca aagggggaca ctctggagtt
+     1381 ccaaaagttc tacagaaccc tgtcgaccca gctcaaggac gtggtctgga agtgcgacgg
+     1441 cgaggtcgaa ggcaacggcg ccgcggcgtg aacgtggttt ttgccatggc tttcggggca
+     1501 ccggttcttc gtgtacatag ctgctctgcc atcatcaatg gggtgttcgc cgtagagtag
+     1561 ctttttgtaa caagagaaaa aaaaaaaaaa aaaa
+//
+

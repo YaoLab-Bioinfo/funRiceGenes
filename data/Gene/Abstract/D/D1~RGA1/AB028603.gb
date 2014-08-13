@@ -1,0 +1,58 @@
+LOCUS       AB028603                 900 bp    DNA     linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group d1 gene for alpha-subunit of
+            GTP-binding protein, dwarf mutant, partial sequence.
+ACCESSION   AB028603
+VERSION     AB028603.1  GI:5822827
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ashikari,M., Wu,J., Yano,M., Sasaki,T. and Yoshimura,A.
+  TITLE     Rice gibberellin-insensitive dwarf mutant gene Dwarf 1 encodes the
+            alpha-subunit of GTP-binding protein
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 96 (18), 10284-10289 (1999)
+   PUBMED   10468600
+REFERENCE   2  (bases 1 to 900)
+  AUTHORS   Ashikari,M., Sasaki,T., Yoshimura,A. and Yano,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUN-1999) Contact:Motoyuki Ashikari Kyushu
+            University, Faculty of Agriculture; Hakozaki, 6-10-1, Fukuoka,
+            Fukuoka 802-8581, Japan
+FEATURES             Location/Qualifiers
+     source          1..900
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /strain="HO541"
+                     /db_xref="taxon:39947"
+                     /note="TA vector"
+     gene            1..900
+                     /gene="d1"
+     misc_feature    1..900
+                     /gene="d1"
+                     /note="alpha-subunit of GTP-binding protein"
+                     /phenotype="dwarf mutant"
+     variation       500..505
+                     /gene="d1"
+                     /note="There is the 833 bp of deletion region for AB028602
+                     (wild type) in this region."
+ORIGIN      
+        1 ggaagaagat tgctagttgg cttgtgggtt ccacgtgggc cctgcactga ctcagccacc
+       61 acgtcaacaa aaccggaaag caatactacc ttgggattaa aagtggaccg ttttgcaaga
+      121 ttaggggttc agggccgttt aaaactcaac gacaagataa gggaccttag atgaactttt
+      181 ttgggagatg aggcgcctgt gcatatgacc cataggcagg cgacaacgcg gcagcagagc
+      241 gctgcacgac ctccgcctcc ccaatccgtc ccgtctcctc gcccgccgcc ctcgactccc
+      301 gtctcctcgc ctgccgctgg cgccgatctc catcctgcta gcagaggtgg cgccggcgtc
+      361 ctcctgctcc cgccgcattc gcatcctaat ccatcccatc cggcctcggc ctcgaatttc
+      421 gtctcctcgc ccgccgcttg cgccgatccc catcctgcga gcagaggtgg cgcccggcgt
+      481 cctccttctt ccaccgcatc gtcggaaaca tatggaacgc atttccctca aaacgcaaaa
+      541 accggggccc cgagccctcg acaccaaccc cgtcagatgt gaagccgacg gcccaaatgg
+      601 aggccagcgg tgccaatgcg taggccacgc gtgcctctgc gcaaatctta tctcccggga
+      661 ggttcgctcc acttccctcc ccgagtcact caaaccatcc aatcccccca ccttcccttt
+      721 ccttgccccc attccccacc gtcgcaagga aaaatattat taataaacaa tgatgttgat
+      781 gtattattat taaacaatga tattgatgta tttctaaata ttttcacgta ttatttatta
+      841 agtgtcagtg attgaaatgg atcctggtcg gaaatgaatc ctggtcggaa aatggttact
+//
+

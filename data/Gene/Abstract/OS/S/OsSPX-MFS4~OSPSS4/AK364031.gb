@@ -1,0 +1,107 @@
+LOCUS       AK364031                2603 bp    mRNA    linear   PLN 20-MAY-2011
+DEFINITION  Hordeum vulgare subsp. vulgare mRNA for predicted protein, complete
+            cds, clone: NIASHv2021A01.
+ACCESSION   AK364031
+VERSION     AK364031.1  GI:326502341
+KEYWORDS    FLI_CDNA; CAP trapper.
+SOURCE      Hordeum vulgare subsp. vulgare (domesticated barley)
+  ORGANISM  Hordeum vulgare subsp. vulgare
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Pooideae; Triticeae; Hordeum.
+REFERENCE   1
+  AUTHORS   Matsumoto,T., Tanaka,T., Sakai,H., Amano,N., Kanamori,H.,
+            Kurita,K., Kikuta,A., Kamiya,K., Yamamoto,M., Ikawa,H., Fujii,N.,
+            Hori,K., Itoh,T. and Sato,K.
+  TITLE     Comprehensive Sequence Analysis of 24,783 Barley Full-Length cDNAs
+            Derived from 12 Clone Libraries
+  JOURNAL   Plant Physiol. 156 (1), 20-28 (2011)
+   PUBMED   21415278
+REFERENCE   2  (bases 1 to 2603)
+  AUTHORS   Matsumoto,T., Kanamori,H. and Tanaka,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2010) Contact:Takashi Matsumoto National
+            Institute of Agrobiological Sciences, Division of Genome and
+            Biodiversity Research; Kannondai 2-1-2, Tsukuba, Ibaraki 305-8602,
+            Japan
+COMMENT     This clone was obtained at our laboratory
+            Please visit our web site
+            URL: http://barleyflc.dna.affrc.go.jp/hvdb/index.html.
+FEATURES             Location/Qualifiers
+     source          1..2603
+                     /organism="Hordeum vulgare subsp. vulgare"
+                     /mol_type="mRNA"
+                     /cultivar="Haruna Nijo"
+                     /sub_species="vulugare"
+                     /db_xref="taxon:112509"
+                     /clone="NIASHv2021A01"
+                     /tissue_type="shoot and root"
+                     /clone_lib="Normalized and subtracted barley full-length
+                     cDNA library from seedling shoot and root in salt
+                     treatment or abscission"
+                     /dev_stage="seedling"
+     CDS             273..2366
+                     /codon_start=1
+                     /product="predicted protein"
+                     /protein_id="BAJ95234.1"
+                     /db_xref="GI:326502342"
+                     /translation="MVNFGKVLVSDQLEEWKEYYINYKMMKKKVKQYVQQTQSGGRNH
+                     EQVLKEFSRMLDEQIEKVVLFLLKQQGHLASRIEKLGQQRAILTEHCDISQVSQVREA
+                     YRQVGLDLVKLLRFVDMNATGIRKILKKFDKRFGYRFTDYYVSTRANHPYSQLQPIFK
+                     QVGIVAVAGALTRNLASLQDHQGSFISIYDHPSITLKDPVIEQINNSVQKLTNSTTFL
+                     KFLGQHALIVPEDVQTSSEDLVDDQSYHFMSLMLNLVNTFLYMVNTYIIVPTADDYSV
+                     SLGAAATVCGVIIGSMAVAQVFSSVYFSAWSNKSYFRPLVFSSIMLFSGNLLYALAYD
+                     LNSLTVLIVGRLLCGLGSARAVNRRYISDCVPLKIRLKASAGFVSASALGMACGPALA
+                     GLLQTEFKIYEVTFNQNTLPGWIMCFAWVANLVWLWISFKEPDHFAQENALSTQSSES
+                     GHGRSDNLESGLAQPLLTEAKERRNENAEDNGDNEEGRKESHKPATSIAAAYRLLTPS
+                     VKVQLLIYFMLKFAMEILLSESSVVTTFYFNWSTSTVAIFLAVLGLTVLPVNVIVGSY
+                     ITNLFQDRQILVASEIMVLIGIASSFHFSSSYCVAQYVVSALITFVFAEVLEGVNLSL
+                     LSRVMSSRLSRGTYNGGLLSTEAGTLARVAADMTITAAGYLGQSQLLNATLLPSLVIC
+                     VASIAATFGTYNTLY"
+ORIGIN      
+        1 ggtagccgac cacacaagat acagccgaac ccagccattg cattcgcgca tactggtacg
+       61 catacgcacg ccattaccat tgcgccgcgc tcttccgaaa tcccggcctc ctcatcccct
+      121 tcccggtgcc tcccgttcgc aagggatcac tgtaggcgcg atcggttcgt tgatggtcat
+      181 ctaaattcag gagattgctt cgccgaacaa gggaagggag gagccgccga agaacacgcg
+      241 gccgcgtttc aggtaggtag cgaaacgcca agatggttaa ttttgggaag gtactggtgt
+      301 cggatcaatt ggaggagtgg aaagaatact atattaatta caaaatgatg aagaaaaagg
+      361 taaaacagta tgttcagcag actcaaagtg gtggaagaaa tcatgaacag gttcttaaag
+      421 agttctcgag gatgcttgat gagcagattg aaaaggttgt gctctttcta ctgaaacagc
+      481 aaggtcatct tgctagcagg atcgagaaat tgggacaaca gcgtgccata cttacagaac
+      541 attgcgatat atcacaagtt tctcaagtgc gagaggctta taggcaagtt ggacttgatc
+      601 ttgtgaagct ccttagattt gttgatatga atgctactgg catccggaag attcttaaga
+      661 agttcgataa gcgcttcggc tatcgattta cagattatta tgtctcaact cgtgcaaatc
+      721 atccttattc tcagcttcaa ccgatcttca agcaagtggg tatcgtagct gttgctggtg
+      781 ctttgacgcg taaccttgca tctctgcaag atcaccaggg aagctttata tccatctatg
+      841 atcatccatc aatcaccctg aaggaccctg tcatcgaaca aataaataat tcagtacaga
+      901 aactcacgaa cagcacaacc ttcctgaaat tcctaggaca gcacgcactg attgttccag
+      961 aagacgtgca aactagctca gaggatcttg tcgatgacca gagctaccat ttcatgtcgc
+     1021 tgatgctcaa cctagtgaac acattcctct acatggtgaa cacatacatc attgtgccta
+     1081 ctgcagatga ctattcggtg agccttggtg ctgcggcgac tgtttgcggt gtgattatcg
+     1141 ggtcgatggc agttgcccaa gtgttctctt cagtttattt tagtgcctgg tccaacaagt
+     1201 cgtactttag acccctcgta ttcagcagca tcatgctgtt ttccgggaat ctgctgtacg
+     1261 cgttggcgta tgatctgaat tccttaactg ttctcatagt tggccggctg ctctgcgggt
+     1321 tgggttctgc cagagccgtg aaccgtcggt atatcagcga ctgtgtgcct ctcaaaatcc
+     1381 ggctgaaagc ctccgcagga ttcgtcagtg ctagtgcact tggaatggca tgcggtcctg
+     1441 cgctggctgg cttgctgcag actgaattca agatctatga agtaactttt aatcagaaca
+     1501 ccttgccagg gtggatcatg tgctttgctt gggttgcgaa tttggtttgg ctatggattt
+     1561 cattcaaaga gccagatcac tttgctcaag agaatgctct cagcacacag tcatctgaat
+     1621 ctggccatgg acgaagtgat aatttggaga gcggtttagc acagcctttg ctcacagagg
+     1681 caaaggagag gcggaatgaa aacgcagagg ataacggcga caatgaagaa ggccgtaaag
+     1741 agagtcataa accagcaaca tcgattgctg cagcatacag attgctcacg ccatccgtga
+     1801 aggttcagtt attgatctac ttcatgctca agtttgcaat ggagattcta ctctccgaat
+     1861 ctagtgtcgt cactacgttc tattttaact ggtccacgag caccgtggcc atctttctag
+     1921 ctgttctcgg gctgacggtt cttccggtta atgtcattgt tggaagctat atcaccaacc
+     1981 tgtttcagga caggcaaatc ttggtggcgt ctgagatcat ggtcctgatc ggcatcgcct
+     2041 cgagcttcca cttcagctcc agctactgcg tcgcacagta cgtcgtgtcg gccctcatca
+     2101 cgtttgtatt cgccgaggtt cttgaagggg tcaacctgtc cctcctctcc cgggtgatgt
+     2161 cgtcgaggct ctcccggggc acctacaacg gcgggctcct ctcgacggag gccgggacgc
+     2221 tggcccgcgt cgccgcggac atgacgatca ccgccgcggg gtacctgggg cagagccagc
+     2281 tcctgaacgc caccctgctc ccgtccctgg tcatctgcgt agcctccatc gccgcgacgt
+     2341 tcggcactta caacaccctg tactgacaaa cggcgcccca cgatgcactt gaagctaagc
+     2401 atggaccaat atgcgcggcg aggccaagct gctagtcgaa gctttgtggc gtcgctgtaa
+     2461 atgttaggcc ctcgctgcca gtgcgaggtg ctgcgtttgt ggtgtaccgt gtatggaagc
+     2521 ttgtggtatc aaactagcaa atgttgtagc agacacacgg ttctaataaa gccgtactga
+     2581 tccatccaat gcttttttag aac
+//
+

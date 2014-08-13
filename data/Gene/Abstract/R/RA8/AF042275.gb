@@ -1,0 +1,92 @@
+LOCUS       AF042275                2757 bp    DNA     linear   PLN 23-MAR-1999
+DEFINITION  Oryza sativa anther-specific protein gene, complete cds.
+ACCESSION   AF042275
+VERSION     AF042275.1  GI:4091009
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2757)
+  AUTHORS   Jeon,J.S., Chung,Y.Y., Lee,S., Yi,G.H., Oh,B.G. and An,G.
+  TITLE     Isolation and characterization of an anther-specific gene, RA8,
+            from rice (Oryza sativa L.)
+  JOURNAL   Plant Mol. Biol. 39 (1), 35-44 (1999)
+   PUBMED   10080707
+REFERENCE   2  (bases 1 to 2757)
+  AUTHORS   Jeon,J.-S., Chung,Y.-Y., Lee,S. and An,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JAN-1998) Life Science, Pohang University of Science
+            and Technology, Pohang 790-784, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..2757
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:4530"
+                     /clone="RA8"
+     TATA_signal     899..905
+     mRNA            join(951..1042,1177..1309,1904..2666)
+                     /product="anther-specific protein"
+     5'UTR           951..1000
+     CDS             join(1001..1042,1177..1309,1904..2523)
+                     /note="RA8"
+                     /codon_start=1
+                     /product="anther-specific protein"
+                     /protein_id="AAC99621.1"
+                     /db_xref="GI:4091010"
+                     /translation="MASLVAIAIAMALMVVQPGRQMTAFAARTSPAAAAEAFWRAAMP
+                     GAPMPDAIVELLHHEHGVASAGGKANGGGDGPPPPMNFNYDDYRALPRSDAPSPDALN
+                     RVAAVQNADENGVSSPPPPPPTVFFLEDAVRVGESLPLPRPAADATAAGAAAARPLPP
+                     LRLYTVRSVRAIEGSSFVVCRGETTAGAGVYGCRHAATGPARAYAVDAAGGGGGDAVI
+                     AAVVCHADTSRWDPDHAAFRLLGVRPGGAAVCRAVADAHILPTNKD"
+     polyA_signal    2662..2666
+ORIGIN      
+        1 cacgtagttc aattacagtt cttttcctct cgttttcagg caagaagtcc tgggaggttt
+       61 ccgctctttg cagggggttg tgcgagcggc cacaggagcg tgtttattca gaattcggag
+      121 atccgccgtc gtttctttcc tgaaatctgc aagtcccagc agcagcagca gcagagcaag
+      181 agcaatggcg tgcagggagt ttgatacttt gatgcactag ctagctacta ggcgttcgtt
+      241 ccatgtcgct ctcacgccgt gcgaatgtgc catgatcctg catgcatcat cgccaagatt
+      301 atattcctca cattttttct tcctatcgct cctagtcgtc tgtttgggag cttaaaatta
+      361 tgaaaagcag ctgctgagaa gctagctggt gagaatctga agaatttgag ttctacgttc
+      421 attctccaga ttctacaatt acagattctt ataatttagg taaaaagctg gactgtttgg
+      481 gagcttctgt cagccggaga ttctgtgaga agctgcagct gctagaagct tccccaaaca
+      541 gacccctagt tgtactctag ctgatcgatt cactctattt tatatacacc ttgctctcta
+      601 gcttatcaaa cgtagccaag acttgaattt taaagcttaa attgattttg atgttctttt
+      661 catcgtaatt cacttaccga ccttagtcgg catttgaatt tttaaaaata atttttagag
+      721 ctgattttga tttttttttc agcggaattt attttcacgt atgtaaaagt tttacctata
+      781 aattattaat tttcagcgga gtaagcatta gtgttatggg ttataatcat ctggtatgct
+      841 taaatctctt tacttggact tagttgggac aattcgtaat gcattctcgt gccatctcta
+      901 taatacggcc tgctagcttt cgtcttgtat ctgcacacaa gaactagctg gcaaagtcct
+      961 caaggcgaac cgcctccatc ttctccttcc agctcctccc atggcgtccc tcgtcgccat
+     1021 cgccatcgcc atggctctca tggtgcagag atatccagca tgctgaaatt aacttgacgc
+     1081 atatcatctc atcatcactt gcatttcaac ttctggattg tgcagacatg tttagctgat
+     1141 cagtaaacgt tgccgtgttg aattggtcct tatcaggtgg ttcaacctgg ccggcagatg
+     1201 actgcctttg ctgctcggac gtcgccggcg gcggcggcgg aggcgttctg gcgcgccgcc
+     1261 atgcccggcg ctcccatgcc ggacgccatc gtcgagctcc tccaccatgg tgaatccgtg
+     1321 aacttaattg tgtacactac tttaaatgat actagtatta gtgatggtca ctactagaaa
+     1381 acaagttttt gcaggcagct agtaaatatt tcgccggtag gctaaggcct gcgaaagtcg
+     1441 ttgatttttg caggcggagc tctatccgct tgcgcagacg gcatccttgt atcacccact
+     1501 tgcaaaaagt ttttgggggc aaaaaagaaa aagattaaaa aaaaagcaat ttccactaca
+     1561 tgcaaagcat cctattcaaa tcaaatcaga ttcattcaac aagaaacaca tcgaacagca
+     1621 gctacaatca gatgcactag aataaacact ataagctgac atgtaagatc ctcacatata
+     1681 tgaatgcttt tgctgttata tatctatttt ttttaacgac ggttatatat ctaattaact
+     1741 aactatacta taaacttatc ttttgttttt tgcttttatc ttttataata tccgttgcaa
+     1801 cgcacgaatc tttagctact gatcataaaa tgaacagaaa taagagatta tgtttttata
+     1861 cgtggagcct ctcttacatg cgtagctgca tgcgtgcatg cagagcacgg cgttgctagc
+     1921 gccggcggca aggccaacgg cggcggcgac ggtccaccgc cgccgatgaa cttcaactac
+     1981 gacgactaca gggccctgcc tcggagcgac gccccttccc cggatgcatt gaaccgcgtc
+     2041 gccgccgtac agaacgccga cgagaacggc gtgtcctcgc cgccgccgcc gccgccgacg
+     2101 gtgttcttcc tcgaggacgc cgtgcgcgtc ggcgagagcc tgcccctacc gcgaccggcg
+     2161 gccgacgcaa ccgccgccgg cgcagcggcg gccaggccgt tgccgccgct gcggctgtac
+     2221 accgtccggt cggtgagggc aatcgagggg tccagcttcg tcgtgtgccg cggcgagacc
+     2281 acggcgggcg ccggcgtgta cgggtgccgc catgccgcca ccggcccggc gagggcgtac
+     2341 gcggtggacg cggccggcgg cggcggcggg gacgcggtga tcgccgccgt cgtgtgccac
+     2401 gccgacacgt cccgctggga cccggaccac gccgcgttcc ggctgctcgg cgtcaggccc
+     2461 ggcggcgccg ccgtctgccg cgccgtcgcc gacgcgcaca tcctcccgac gaacaaggat
+     2521 tgagtacttc tcgccatgat cgaggactcc tcgatcgatt agtgctcgat cgatcttaat
+     2581 cttattgcca tgcataatta gtgtgttaat tacgtgctta attgtatgtg tgaagtgtgc
+     2641 attagtcaca gtttgtaatg taataatgtt tcgcttgttc gactgtatga tctcgatttg
+     2701 ggtgatatat acgttgataa aataaaggaa aaagtttgtg ttggttcata tgcacga
+//
+

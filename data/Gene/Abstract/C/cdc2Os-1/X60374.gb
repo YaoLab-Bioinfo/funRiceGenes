@@ -1,0 +1,75 @@
+LOCUS       X60374                  1115 bp    mRNA    linear   PLN 18-APR-2005
+DEFINITION  O.sativa Rcdc2-1 gene for p34-cdc2 protein kinase.
+ACCESSION   X60374
+VERSION     X60374.1  GI:20342
+KEYWORDS    p34(cdc2) protein; protein kinase; serine/threonine protein kinase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1115)
+  AUTHORS   Hashimoto,J., Hirabayashi,T., Hayano,Y., Hata,S., Ohashi,Y.,
+            Suzuka,I., Utsugi,T., Toh-e,A. and Kikuchi,Y.
+  TITLE     Isolation and characterization of cDNA clones encoding cdc2
+            homologues from Oryza sativa: a functional homologue and cognate
+            variants
+  JOURNAL   Mol. Gen. Genet. 233 (1-2), 10-16 (1992)
+   PUBMED   1376401
+REFERENCE   2  (bases 1 to 1115)
+  AUTHORS   Hashimoto,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-1991) J. Hashimoto, National Inst of Agrobiol
+            Res, Tsukuba, Ibaraki 305, JAPAN
+COMMENT     See also X60375.
+FEATURES             Location/Qualifiers
+     source          1..1115
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /haplotype="diploid"
+                     /dev_stage="cultured cell"
+     gene            1..1115
+                     /gene="Rcdc2-1"
+     CDS             134..1018
+                     /gene="Rcdc2-1"
+                     /codon_start=1
+                     /protein_id="CAA42922.1"
+                     /db_xref="GI:20343"
+                     /db_xref="GOA:P29618"
+                     /db_xref="InterPro:IPR000719"
+                     /db_xref="InterPro:IPR002290"
+                     /db_xref="InterPro:IPR008271"
+                     /db_xref="InterPro:IPR011009"
+                     /db_xref="InterPro:IPR017441"
+                     /db_xref="InterPro:IPR017442"
+                     /db_xref="UniProtKB/Swiss-Prot:P29618"
+                     /translation="MEQYEKEEKIGEGTYGVVYRARDKVTNETIALKKIRLEQEDEGV
+                     PSTAIREISLLKEMHHGNIVRLHDVIHSEKRIYLVFEYLDLDLKKFMDSCPEFAKNPT
+                     LIKSYLYQILRGVAYCHSHRVLHRDLKPQNLLIDRRTNALKLADFGLARAFGIPVRTF
+                     THEVVTLWYRAPEILLGSRQYSTPVDMWSVGCIFAEMVNQKPLFPGDSEIDELFKIFR
+                     VLGTPNEQSWPGVSSLPDYKSAFPKWQAQDLATIVPTLDPAGLDLLSKMLRYEPNKRI
+                     TARQALEHEYFKDLEMVQ"
+ORIGIN      
+        1 acctctcctc cgattaatcc cctcccctcc tcttcctccc acttctgcgc ctgctcttcc
+       61 tcccctcgcc gaccctacct actcgcgccg ccgccgtcgc attgggcggc aaacggaggg
+      121 ggggttaacc ctgatggagc agtacgagaa ggaggagaag attggggagg gcacgtacgg
+      181 ggtggtgtac agggcgcggg acaaggtcac caacgagacg atcgcgctca agaagatccg
+      241 gcttgagcag gaggatgagg gcgtcccctc caccgcaatc cgcgagatct cgctcctcaa
+      301 ggagatgcat cacggcaaca tcgtcaggtt acacgatgtt atccacagtg agaagcgcat
+      361 atatcttgtc tttgagtatc tggatctgga cctaaagaag ttcatggact cttgtccaga
+      421 gtttgcgaaa aaccccactt taattaagtc atatctctat cagatactcc gcggcgttgc
+      481 ttactgtcat tctcatagag ttcttcatcg agatttgaaa cctcagaatt tattgataga
+      541 tcggcgtact aatgcactga agcttgcaga ctttggttta gccagggcat ttggaattcc
+      601 tgtccgcacg tttactcacg aggttgtaac cttgtggtat agagctccag agatccttct
+      661 tggatcaagg cagtattcta caccagttga tatgtggtca gttggttgta tctttgcaga
+      721 aatggtgaac cagaaaccac tgttccctgg tgattctgag attgatgaat tatttaagat
+      781 attcagggta ctaggaactc caaatgaaca aagttggcca ggagttagct cattacctga
+      841 ctacaagtct gctttcccca agtggcaagc acaggatctt gcaactattg tccctactct
+      901 tgaccctgct ggtttggacc ttctctctaa aatgcttcgg tacgagccaa acaaaaggat
+      961 cacagctaga caggctcttg agcatgaata cttcaaggac cttgagatgg tacaatgacc
+     1021 ctgctatggc tttacattgg attggcatat gtatgggctg ggctcctcat ttcattcctt
+     1081 ctgtgaacgc tgtgcccttc gtttgggcat ttttg
+//
+

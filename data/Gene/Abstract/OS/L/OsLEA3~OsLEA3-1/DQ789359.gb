@@ -1,0 +1,58 @@
+LOCUS       DQ789359                 976 bp    mRNA    linear   PLN 29-JUL-2006
+DEFINITION  Oryza sativa (indica cultivar-group) late embryogenesis abundant
+            protein (LEA3) mRNA, LEA3-1 allele, complete cds.
+ACCESSION   DQ789359
+VERSION     DQ789359.1  GI:110630405
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 976)
+  AUTHORS   Xiao,B., Xiong,L. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUN-2006) National Center of Gene Research, Huazhong
+            Agricultural University, Shizishan, Wuhan, Hubei 430070, China
+FEATURES             Location/Qualifiers
+     source          1..976
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Minghui 63"
+                     /db_xref="taxon:39946"
+                     /chromosome="5"
+     gene            1..976
+                     /gene="LEA3"
+                     /allele="1"
+                     /note="OsLEA3"
+     CDS             95..697
+                     /gene="LEA3"
+                     /allele="1"
+                     /codon_start=1
+                     /product="late embryogenesis abundant protein"
+                     /protein_id="ABG80549.1"
+                     /db_xref="GI:110630406"
+                     /translation="MASHQDQASYRAGETKAHTEEKAGQVMGASKDKASEAKDRASEA
+                     AGHAAGKGQDTKEATKEKAQAAKERASETAQAAKDKTSSTSQAARDKAAESKDQTGGF
+                     LGEKTEQAKQKAAETAGAAKQKTAETAQYTKDSAIAGKDKTGSVLQQASEQVKSTVVG
+                     AKDAVMSTLGMTEDEAGTDDGANKDTSATAAATETTARDH"
+ORIGIN      
+        1 gcaaatctga tcgatcaaga taatcgagca aaatccatca gagttctaac attcgcgcgt
+       61 gaatttcgag gttaattttt gaagcttagg atcaatggct tcccaccagg accaggctag
+      121 ctaccgcgcc ggcgagacca aggcccacac cgaggagaag gcggggcagg tgatgggggc
+      181 gagcaaggac aaggcgagcg aggcgaagga cagggcgtcg gaggcggcgg ggcacgccgc
+      241 cggcaagggg caggatacca aggaggcgac gaaggagaag gcgcaggcgg cgaaggagag
+      301 ggcgtcggag acggcgcagg cggcgaagga caagacctcc agcacgtcgc aggcggcgag
+      361 ggacaaagcc gccgagagca aggaccagac cggcggcttc ctcggcgaga agaccgagca
+      421 ggccaagcag aaggccgccg agaccgctgg cgccgccaag cagaagaccg ccgagacggc
+      481 gcagtacacc aaggactctg ccatcgccgg caaggacaag accggcagcg tcctccaaca
+      541 ggcgagtgag caggtgaaga gcacggtggt cggcgccaag gacgcggtga tgagcacgct
+      601 ggggatgacc gaagacgagg ccggcaccga cgacggcgcc aacaaggaca cctctgccac
+      661 cgccgccgcc acggagacga cggcgaggga tcactagacg ccgtgaatga tttccctttg
+      721 ggtctattta tgtatgtttt cacttcaaat tcggtgcaag tttgaatttg tttttgtgtc
+      781 gttttgagtc tgtatcgatg ctgtatgaag tggtggtcgt cgcaggggag gatttctgac
+      841 gggtgtgggt gatgtgtact gatgatgttc agttgttttc gtcagagttt ctcgtctgtg
+      901 ttctgtttat tatggcgtaa caataataaa agtttgggcc taaagcccgc atttgtggtt
+      961 taaaaaaaaa aaaaaa
+//
+

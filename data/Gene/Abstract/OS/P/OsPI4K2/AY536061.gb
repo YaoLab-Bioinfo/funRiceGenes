@@ -1,0 +1,76 @@
+LOCUS       AY536061                1200 bp    mRNA    linear   PLN 26-MAY-2006
+DEFINITION  Oryza sativa (indica cultivar-group) phosphatidylinositol 4-kinase
+            (PI4K2) mRNA, partial cds.
+ACCESSION   AY536061
+VERSION     AY536061.1  GI:46883142
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1200)
+  AUTHORS   Lou,Y., Ma,H., Lin,W.H., Chu,Z.Q., Mueller-Roeber,B., Xu,Z.H. and
+            Xue,H.W.
+  TITLE     The highly charged region of plant beta-type phosphatidylinositol
+            4-kinase is involved in membrane targeting and phospholipid binding
+  JOURNAL   Plant Mol. Biol. 60 (5), 729-746 (2006)
+   PUBMED   16649109
+REFERENCE   2  (bases 1 to 1200)
+  AUTHORS   Ma,H., Chu,Z. and Xue,H.
+  TITLE     Functional characterization of the PPC (plant PI4Ks charged)
+            region: plasma membrane targeting and binding with multiple
+            phospholipid molecules
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1200)
+  AUTHORS   Ma,H., Chu,Z. and Xue,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JAN-2004) Plant Molecular Physiology and Signal
+            Transduction, Shanghai Institute of Plant Physiology and Ecology,
+            300 Fenglin Road, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..1200
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+     gene            <1..>1200
+                     /gene="PI4K2"
+                     /note="OsPI4K2"
+     CDS             <1..>1200
+                     /gene="PI4K2"
+                     /note="lipid kinase; charged region; PPC domain"
+                     /codon_start=1
+                     /product="phosphatidylinositol 4-kinase"
+                     /protein_id="AAT06023.1"
+                     /db_xref="GI:46883143"
+                     /translation="ASNAAAAEDVGGSGVKQPATPSSEDNKLLKRLSIGPKVRDAASF
+                     FRRSVEKDDEQDKEGFFKRLLRDSKDKEEEDGDKEGFFKRLLSKEKENEEEEGDRDGF
+                     LRRLLRDSKDEDMELTPSSEGLLKRLFRDKEDRQGDDEEKEGFFRRIFKDKNEERRES
+                     LHGRHGDEERVGKSLEDDDKEGFFRKIFKDKNEERKDGGHSKQQDDKEKTAGNIEDDK
+                     RDGFFRQLFKEKNEEKKEGTTPNKKEEDDKGHRTMDDENFFRRLFKDKNEEKKGAAHD
+                     RNDDDKCEEGDKENFFRKLFKDKHEERRSDGLDKHDDDGKGTSGIDDEENSEFLSFRR
+                     LFRVHPEDAKSGHIESCQPNGISEGSPGSESFFKRLFRDRDRSLEDSELFGSKLLKEA
+                     RHQFPEVV"
+ORIGIN      
+        1 gcgagcaatg cagctgctgc agaggatgtt gggggcagtg gagtgaagca gccagcgaca
+       61 ccctcgtcag aggataacaa gctactcaag agactaagca ttggacctaa ggtgcgtgat
+      121 gcagcatcgt tctttaggcg atccgtggag aaggatgatg agcaggacaa ggaagggttc
+      181 tttaaaaggc tgcttagaga cagcaaggac aaggaggaag aggatggtga taaggaagga
+      241 tttttcaaga ggctgcttag taaggagaaa gagaacgagg aggaagaagg agatagagat
+      301 ggtttcctcc gcaggttgct tagggacagc aaggacgagg acatggaatt gacaccaagc
+      361 tcagagggtt tattgaagcg actgttccgt gataaggaag ataggcaggg tgatgatgaa
+      421 gaaaaggaag gctttttccg caggatattt aaggataaga atgaggagag gagagagagc
+      481 ctgcatggaa ggcatgggga tgaggaaaga gtgggcaaga gcttagagga tgatgataaa
+      541 gaagggttct tccgcaaaat tttcaaagat aaaaatgagg agaggaaaga cggagggcat
+      601 agtaagcaac aagatgataa ggaaaagact gctgggaaca tcgaagatga caagagggat
+      661 ggttttttcc ggcaactttt caaggagaaa aacgaagaga aaaaggaagg caccacacca
+      721 aacaagaaag aggaggacga caaaggacac aggaccatgg atgatgaaaa tttctttcgt
+      781 aggcttttca aggataagaa tgaagagaaa aagggagctg ctcatgacag gaatgatgat
+      841 gataagtgtg aggaaggtga taaggaaaat ttcttccgca aattgtttaa agacaagcat
+      901 gaggagagga gaagcgatgg gctggataaa catgatgatg atggtaaggg gactagtggt
+      961 attgatgacg aggaaaattc agagtttttg tcgttccgca ggttgtttag agtgcaccct
+     1021 gaagatgcta agagtgggca tattgaaagt tgtcagccta acggtatttc tgagggtagc
+     1081 ccaggatcag agagcttttt caagcgacta ttccgagaca gagatcgctc acttgaagac
+     1141 tctgagcttt ttggttcaaa gttattgaaa gaggcaagac atcagttccc tgaagttgtt
+//
+

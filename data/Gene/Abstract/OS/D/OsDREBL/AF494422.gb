@@ -1,0 +1,52 @@
+LOCUS       AF494422                 717 bp    mRNA    linear   PLN 09-OCT-2003
+DEFINITION  Oryza sativa (japonica cultivar-group) apetala2 domain-containing
+            CBF1-like protein mRNA, complete cds.
+ACCESSION   AF494422
+VERSION     AF494422.1  GI:33321847
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 717)
+  AUTHORS   Chen,J. and Chen,S.
+  TITLE     Isolation and characterization of a DREB1-like gene in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 717)
+  AUTHORS   Chen,J. and Chen,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2002) Plant Biotechnology Laboratory, Institute
+            of Genetics, Chinese Academy of Sciences, Andingmenwai Datun Road,
+            Beijing 100101, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..717
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             1..717
+                     /note="transcription factor"
+                     /codon_start=1
+                     /product="apetala2 domain-containing CBF1-like protein"
+                     /protein_id="AAQ06658.1"
+                     /db_xref="GI:33321848"
+                     /translation="MCGIKQEMSGESSGSPCSSASAERQHQTVWTAPPKRPAGRTKFR
+                     ETRHPVFRGVRRRGNAGRWVCEVRVPGRRGCRLWLGTFDTAEGAARAHDAAMLAINAG
+                     GGGGGGACCLNFADSAWLLAVPRSYRTLADVRHAVAEAVEDFFRRRLADDALSATSSS
+                     STTPSTPRTDDEEESAATDGDESSSPASDLAFELDVLSDMGWDLYYASLAQGMLMEPP
+                     SAALGDDGDAILADVPLWSY"
+ORIGIN      
+        1 atgtgcggga tcaagcagga gatgagcggc gagtcgtcgg ggtcgccgtg cagctcggcg
+       61 tcggcggagc ggcagcacca gacggtgtgg acggcgccgc cgaagaggcc ggcggggcgg
+      121 accaagttca gggagacgag gcacccggtg ttccgcggcg tgcggcggag gggcaatgcc
+      181 gggaggtggg tgtgcgaggt acgggtgccc gggcggcgcg gctgcaggct ctggctcggc
+      241 acgttcgaca ccgccgaggg cgcggcgcgc gcgcacgacg ccgccatgct cgccatcaac
+      301 gccggcggcg gcggcggcgg gggagcatgc tgcctcaact tcgccgactc cgcgtggctc
+      361 ctcgccgtgc cgcgctccta ccgcaccctc gccgacgtcc gccacgccgt cgccgaggcc
+      421 gtcgaggact tcttccggcg ccgcctcgcc gacgacgcgc tgtccgccac gtcgtcgtcc
+      481 tcgacgacgc cgtccacccc acgcaccgac gacgaggagg agtccgccgc caccgacggc
+      541 gacgagtcct cctccccggc cagcgacctg gcgttcgaac tggacgtcct gagtgacatg
+      601 ggctgggacc tgtactacgc gagcttggcg caggggatgc tcatggagcc accatcggcg
+      661 gcgctcggcg acgacggtga cgccatcctc gccgacgtcc cactctggag ctactag
+//
+

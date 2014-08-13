@@ -1,0 +1,46 @@
+LOCUS       AU075786                 493 bp    mRNA    linear   EST 03-APR-2002
+DEFINITION  AU075786 Rice cDNA from immature leaf including apical meristem
+            (under short day condition) Oryza sativa Japonica Group cDNA clone
+            E60054_2Z, mRNA sequence.
+ACCESSION   AU075786
+VERSION     AU075786.1  GI:5456475
+DBLINK      BioSample: LIBEST_001924
+KEYWORDS    EST.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 493)
+  AUTHORS   Sasaki,T. and Yamamoto,K.
+  TITLE     Rice cDNA from immature leaf including apical meristem
+  JOURNAL   Unpublished (1997)
+COMMENT     Contact: Takuji Sasaki
+            National Institute of Agrobiological Resources
+            Rice Genome Research Program, Kannondai 2-1-2, Tsukuba, Ibaraki
+            305-8602, Japan
+            Email: URL:http://rgp.dna.affrc.go.jp/
+            PROJECT ='RGP'.
+FEATURES             Location/Qualifiers
+     source          1..493
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="E60054_2Z"
+                     /dev_stage="immature leaf including apical meristem (under
+                     short day condition)"
+                     /clone_lib="LIBEST_001924 Rice cDNA from immature leaf
+                     including apical meristem (under short day condition)"
+ORIGIN      
+        1 ccgccgagat cgaggcgttc ttcgcggcgg ccgaggaggc tgaggccaag cnttcgccgc
+       61 caagtacaac ttcgacgtcg ttcgcggcgt gcccctcgac gccggtcggt tcgagtggac
+      121 tccggtggtc agcagccgaa gctgaagcga gcgtgcagat taagcggaag ctagaaaggn
+      181 nggtancagg ggggcgccgt gtagaaaggg aaggcgagct agagagagga gaagaagaag
+      241 aagaaaagat gctcatccaa agggaataaa ctggaaaagt gggagactac aaaaaaagaa
+      301 gcattatagc ctaacaacca ccgattcgac tcttttttct ttcacatttt ctttgcattt
+      361 ttactcttac tgtgtactag aaagtagtag cagtagtaaa ctagtaattc gtcccagtat
+      421 ttatcagagg tttatctcga taggaataga tatattatcc nctaaaaaaa aaaaaaaaaa
+      481 aaaaaaaaaa aaa
+//
+

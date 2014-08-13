@@ -1,0 +1,59 @@
+LOCUS       CT831358                 868 bp    mRNA    linear   PLN 08-APR-2008
+DEFINITION  Oryza sativa (indica cultivar-group) cDNA clone:OSIGCSN071D21, full
+            insert sequence.
+ACCESSION   CT831358
+VERSION     CT831358.1  GI:116631176
+KEYWORDS    FL_cDNA.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Liu,X., Lu,T., Yu,S., Li,Y., Huang,Y., Huang,T., Zhang,L., Zhu,J.,
+            Zhao,Q., Fan,D., Mu,J., Shangguan,Y., Feng,Q., Guan,J., Ying,K.,
+            Zhang,Y., Lin,Z., Sun,Z., Qian,Q., Lu,Y. and Han,B.
+  TITLE     A collection of 10,096 indica rice full-length cDNAs reveals highly
+            expressed sequence divergence between Oryza sativa indica and
+            japonica subspecies
+  JOURNAL   Plant Mol. Biol. 65 (4), 403-415 (2007)
+   PUBMED   17522955
+REFERENCE   2
+  AUTHORS   Liu,X.H., Lu,T.T., Yu,S.L., Li,Y., Huang,T., Huang,Y.C., Zhang,L.,
+            Zhu,J.J., Zhao,Q., Liang,X.L., Mu,J., Fan,D.L., Yuan,Y., Zou,Y.Y.,
+            Shangguan,Y.Y., Feng,Q., Yu,Z., Guan,J.P., Yan,Z., Ying,K.,
+            Zhang,Y., Lv,Y.P. and Han,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2006) Han Bin, National Center for Gene Research,
+            Chinese Academy of sciences, 500# Cao Bao Road, Shanghai 200233,
+            CHINA. E-mail enquiries: bhan.ac.cn. Clone requests: bhan.ac.cn
+  REMARK    Oryza sativa (indica cultivar-group) cDNA clone:OSIGCSN071D21, full
+            insert sequence.
+COMMENT     This clone is one of the 10000 full-length cDNA clones from indica
+            rice. Web site: http://www.ncgr.ac.cn/cDNA/
+            NCGR Rice Full-Length cDNA Project Team:.
+FEATURES             Location/Qualifiers
+     source          1..868
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Guang Lu Ai 4"
+                     /db_xref="taxon:39946"
+                     /clone="OSIGCSN071D21"
+ORIGIN      
+        1 caccacccag caagaagacc ccgagcaatt ctacccgctc ggagctcctc ccctttcatc
+       61 gtctccaatc accatcatct gcacgtctca ccgaccctac gcaacagcaa gtgggttacc
+      121 tctcgatcgg gatgagccgc agcaacaaga agagctctag gggcatcgac ctgaagctga
+      181 acctctcgct gccggcgaga ggggactcgt cgtccaggag ggcgatggcc gccgacgagg
+      241 agtcgtcgcc gagctcgtgc ctgtcgtcgg agaacgagca cggcctgcag tggtccaaca
+      301 gcccggaggc gacgtccatg gtgctcgccg cttgccctcg ctgcttcatc tacgtcatgc
+      361 tcccgcagga tgatccgcgg tgcccgcagt gcaagagccc cgtgatcctt gacttcctgc
+      421 agcaggacaa cggcaacaac aacgccaaca gcaatagcag caggaagacc aggagagggt
+      481 gaagttaaaa aaaagggggg gcaattctcc gtttggcaga agatcaacat caatcaagaa
+      541 aaagaaaagc gtctatatga agtcctaggt ccagtaattc tcttttgttt tgcctattcc
+      601 cccagtgtaa ccatgatata ttccttacta aaattgtgag actagcatga aaatccatgt
+      661 gctggtggca taattttgat acatcatgga tacactgggg actatatcca tccccctctc
+      721 ctggcttcct tctttagtgg ttctaaatga agaagttttg cttagacata ggaccagact
+      781 tctcatcttt gttttgtttt tgtttccttt ccgagatgaa aagaaaacat ttaccctgga
+      841 aatgttgaga tgattattgt tctgaacc
+//
+

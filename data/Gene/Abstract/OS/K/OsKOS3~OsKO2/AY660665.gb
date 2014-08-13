@@ -1,0 +1,77 @@
+LOCUS       AY660665                1534 bp    mRNA    linear   PLN 12-DEC-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) isolate KO3 ent-kaurene
+            oxidase mRNA, complete cds.
+ACCESSION   AY660665
+VERSION     AY660665.1  GI:50727138
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1534)
+  AUTHORS   Zhu,S., Gao,F., Cao,X., Chen,M., Ye,G., Wei,C. and Li,Y.
+  TITLE     The rice dwarf virus P2 protein interacts with ent-kaurene oxidases
+            in vivo, leading to reduced biosynthesis of gibberellins and rice
+            dwarf symptoms
+  JOURNAL   Plant Physiol. 139 (4), 1935-1945 (2005)
+   PUBMED   16299167
+REFERENCE   2  (bases 1 to 1534)
+  AUTHORS   Zhu,S., Li,S., Zhong,Y., Li,C., Cao,X., Wei,C. and Li,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUN-2004) Life Science, Peking University, 5# Road
+            The Summer Palace, Beijing 100871, China
+FEATURES             Location/Qualifiers
+     source          1..1534
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Xiushui 11"
+                     /isolate="KO3"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+                     /dev_stage="seedling"
+     CDS             17..1534
+                     /function="involved in the three step oxidation of
+                     ent-kaurene to ent-kaurenoic acid"
+                     /codon_start=1
+                     /product="ent-kaurene oxidase"
+                     /protein_id="AAT81230.1"
+                     /db_xref="GI:50727139"
+                     /translation="MEAFVPGGAGVAAAAVGGFVAAAALAERAGVIAPRKRPNAPPAV
+                     PGLPIIGNLHQLKEKKPHQTFAKWAEIYGPIYTIRTGASSVVVLNSTEVAKEAMVAKF
+                     SSISTRKLSKALTVLTRDKSMVATSDYCDFHKMVKRYVMSSMLGTSAQKQFRDIRDMM
+                     IHNMLSTFHKLVKDDPHAPLIFRDVFKDELFRLSMIQSLGEDVSSVYVDEFGRDISRE
+                     EIYNATVTDMMMCAIEVDWRDFFPYLSWVPNKSFETRVFTTETRRTAVMRALIKQQKE
+                     RIVRGEAKTCYLDFLLAENTLTDEQLMMLVWEALIEAADTTLVTTEWAMYELAKNPDK
+                     QERLYQEIREVCGDETVTEEHLPRLPYLNAVFHETLRRHSPVPLIPPRFVHEDTKLAG
+                     YDVPAGTEMVINLYGCNMNRKEWESPEEWVPERFAGGRLEVADMYKTMAFGAGRRACA
+                     GSLQATHIACAAVARFVQEFGWRLREGDEEKVDTVQLTAYKLHPLHVHLTRRGRM"
+ORIGIN      
+        1 gcacagcgtg tgatccatgg aggcgttcgt gccgggcggc gcgggggtgg cggcggcggc
+       61 ggtcggaggg ttcgtcgccg cggccgcgct agccgagagg gccggcgtga tcgcgccaag
+      121 gaaacgcccc aacgcgcccc cagctgttcc tggtttaccc attatcggaa atctgcatca
+      181 actgaaagaa aagaagcctc atcagacctt tgcaaaatgg gctgaaattt acgggccaat
+      241 ctacactata agaaccgggg cttcttctgt agttgtgctc aattcaactg aagtagccaa
+      301 ggaggcgatg gttgcaaaat tctcatccat atctacccga aagctatcca aagcactgac
+      361 agtgcttact cgtgataaat ccatggttgc taccagcgac tattgtgatt tccacaaaat
+      421 ggtgaagcgt tatgtcatgt caagcatgtt gggtacttct gcacagaaac aatttcgtga
+      481 cataagagat atgatgatcc ataacatgtt aagcactttt cataaactgg tgaaagatga
+      541 cccacatgct cctctgatat tcagagatgt tttcaaggat gagctattcc ggttgtccat
+      601 gatccagagc ttaggagagg atgtgagttc agtctatgtg gatgaatttg ggagggacat
+      661 ttcgagggaa gaaatctaca atgctactgt gaccgacatg atgatgtgcg caattgaggt
+      721 cgactggaga gatttcttcc cctacctcag ctgggttcca aacaagagct tcgaaacaag
+      781 agtgtttact acagaaacta gacgaactgc ggtgatgcgc gccttgatca agcagcagaa
+      841 ggaaaggatt gtgcgtggag aggcaaagac atgctatctg gacttcttgc tggcagagaa
+      901 cacactgaca gatgagcaac tgatgatgct agtgtgggag gcactcatag aggctgcaga
+      961 tactaccttg gtcaccacag aatgggccat gtatgagctt gccaagaacc ctgacaaaca
+     1021 ggaacggctt taccaagaga tccgggaggt gtgcggcgac gagacggtca ccgaggagca
+     1081 cctcccacgg ctgccgtacc tcaacgccgt cttccacgag acgctgcgcc gccactcccc
+     1141 tgtcccgctc atacctccga ggttcgtcca cgaggacacc aagctcgctg gctacgacgt
+     1201 ccccgccggc accgagatgg tgatcaacct gtacgggtgc aacatgaaca ggaaggagtg
+     1261 ggagtcgccg gaggagtggg tgccggagag gttcgccggc gggaggctcg aggtggcgga
+     1321 catgtacaag acgatggcgt tcggcgccgg gaggagggcc tgcgcgggga gcctgcaggc
+     1381 gactcacatc gcgtgcgccg ccgtcgcgcg cttcgtgcag gagttcgggt ggaggctgag
+     1441 ggagggtgac gaggagaagg tggacaccgt gcagctcacc gcctacaagc tccacccgct
+     1501 tcatgtccac ctcacgcgca gaggaaggat gtga
+//
+

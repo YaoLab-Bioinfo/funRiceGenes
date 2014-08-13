@@ -1,0 +1,69 @@
+LOCUS       AB012855                1300 bp    mRNA    linear   PLN 18-AUG-2007
+DEFINITION  Oryza sativa mRNA for chitinase, complete cds.
+ACCESSION   AB012855
+VERSION     AB012855.1  GI:3061268
+KEYWORDS    chitinase.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Takakura,Y., Ito,T., Saito,H., Inoue,T., Komari,T. and Kuwata,S.
+  TITLE     Flower-predominant expression of a gene encoding a novel class I
+            chitinase in rice (Oryza sativa L.)
+  JOURNAL   Plant Mol. Biol. 42 (6), 883-897 (2000)
+   PUBMED   10890535
+REFERENCE   2  (bases 1 to 1300)
+  AUTHORS   Takakura,Y., Inoue,T., Saito,H. and Ito,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-1998) Yoshimitsu Takakura, Japan Tobacco Inc.,
+            Plant Breeding and Genetics Research Laboratory; 700 Higashibara,
+            Toyoda-cho Iwata-gun, Shizuoka 438, Japan
+            (E-mail:Yoshimitsu.Takakura@pbgrl.jti.co.jp, Tel:0538-32-7116,
+            Fax:0538-32-8700)
+FEATURES             Location/Qualifiers
+     source          1..1300
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /strain="IR24"
+                     /db_xref="taxon:39946"
+                     /tissue_type="pistil"
+                     /dev_stage="heading stage"
+     CDS             114..1100
+                     /EC_number="3.2.1.14"
+                     /codon_start=1
+                     /product="chitinase"
+                     /protein_id="BAA25638.1"
+                     /db_xref="GI:3061269"
+                     /translation="MKALALAVLALAYAAATARAEQCGRQAGGARCPNRLCCSRWGWC
+                     GLTDDYCKGGCQSQCRVSRDGGDDDVAAVLLTAPGGGRAGVASVVTSDQFERMLPHRD
+                     DAACPARGFYAYRAFVAAAGAFPAFAATGDADTRKREVAAFLAQTSHATSGGPYSWGY
+                     CYKEVKGATSDFCVPNARWPCAPGKAYHARGPMQIAYNYNYGAAGEAIGADLLGNPEL
+                     VATDPTVAFKTALWLWMTARSPSQPSPHAVVTGQWTPTPADSAAGRAPGYGLTTNILT
+                     GGLQCAGGNGGADRVAFYKRYCDVLGVGYGPNLDCFGQAPFDGDIMSASAAK"
+ORIGIN      
+        1 atcactcacc agctacgtac actcaaccaa cacaccactg aaaagcaaga ttttgttgaa
+       61 gaaataagca tcttgccatg atcgcagcaa gggctgcaaa cctgcaggtg gccatgaagg
+      121 ccctggcgct ggccgtgctg gccctcgcct acgccgcggc gacggcgcgc gccgagcagt
+      181 gcggcaggca ggccggcggc gccaggtgcc ccaacaggct ctgctgcagc aggtgggggt
+      241 ggtgcggcct caccgacgac tactgcaagg gcggctgcca gagccagtgc cgcgtctccc
+      301 gcgacggcgg cgacgacgac gtcgccgcgg tgctgctcac ggcgccgggc ggcggccgcg
+      361 ccggcgtggc gtccgtcgtg acgtcggacc agttcgagcg catgctgccc caccgcgacg
+      421 acgcggcgtg ccccgcccgc gggttctacg cctaccgcgc cttcgtcgcc gcggccggcg
+      481 cgttcccggc cttcgccgcc acgggcgacg ccgacacccg caagcgtgag gtcgccgcgt
+      541 tcctggccca gacttcccac gcgacctctg gtgggcccta ctcgtggggc tactgctaca
+      601 aggaggtgaa gggcgcgacg tcagacttct gcgtgccgaa cgcgcgctgg ccgtgcgcgc
+      661 ccggcaaggc gtaccacgcc cgcggaccca tgcaaatcgc atacaactac aactatgggg
+      721 cggccggcga ggcgatcggc gcggacctgc tgggcaaccc ggagctggtg gcaacggacc
+      781 cgacggtggc gttcaagacg gcgctgtggc tgtggatgac cgcgcggtcg ccgagccagc
+      841 cgtcgccgca cgccgtcgtc acggggcagt ggactccgac tcccgcggac agcgcggccg
+      901 gccgcgcgcc aggctacggg ctcaccacga acatcctcac cggcgggctc cagtgcgccg
+      961 gcggcaacgg cggcgccgac cgggtcgcgt tctacaagcg ctactgcgac gtgctcggcg
+     1021 tcggctacgg gcccaacctg gactgcttcg gccaggcgcc gttcgacggc gacatcatgt
+     1081 cggcgtctgc ggcgaagtag acgtgtgcgc cgccgtgccg gccccgatcg atcgaataaa
+     1141 attgcgtgtg agtacgcact tcgcacggtc gctctgcagc cagagtgagt gagtttgctt
+     1201 tatgtatttt tcggtttcgg gcgaggaatt cttcatggat ctgtgaaagc ccatatgtat
+     1261 gcatggtcat ggcatgaata aagtagtact gatcttctcg
+//
+

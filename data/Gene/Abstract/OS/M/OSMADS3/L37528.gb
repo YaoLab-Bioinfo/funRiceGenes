@@ -1,0 +1,73 @@
+LOCUS       RICOSMAB3A              1361 bp    mRNA    linear   PLN 16-MAY-1996
+DEFINITION  Oryza sativa MADS-box protein (MADS3) mRNA, complete cds.
+ACCESSION   L37528
+VERSION     L37528.1  GI:886404
+KEYWORDS    MADS box protein.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1361)
+  AUTHORS   Kang,H.G., Noh,Y.S., Chung,Y.Y., Costa,M.A., An,K. and An,G.
+  TITLE     Phenotypic alterations of petal and sepal by ectopic expression of
+            a rice MADS box gene in tobacco
+  JOURNAL   Plant Mol. Biol. 29 (1), 1-10 (1995)
+   PUBMED   7579155
+COMMENT     Original source text: Oryza sativa immature flower cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..1361
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="flower"
+                     /dev_stage="immature"
+     gene            1..1361
+                     /gene="MADS3"
+     5'UTR           1..234
+                     /gene="MADS3"
+                     /note="putative"
+     CDS             235..945
+                     /gene="MADS3"
+                     /function="control floral organ identity"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="MADS box protein"
+                     /protein_id="AAA99964.1"
+                     /db_xref="GI:886405"
+                     /translation="MGRGKIEIKRIENTTNRQVTFCKRRNGLLKKAYELSVLCDAEVA
+                     LIVFSSRGRLYEYANNSVKSTVERYKKANSDTSNSGTVAEVNAQHYQQESSKLRQQIS
+                     SLQNANSRTIVGDSINTMSLRDLKQVENRLEKGIAKIRARKNELLYAEVEYMQKREVE
+                     LQNDNMYLRSKVVENERGQQPLNMMGAASTSEYDHMVNNPYDSRNFLQVNIMQQPQHY
+                     AHQLQPTTLQLGQQPAFN"
+     3'UTR           946..1361
+                     /gene="MADS3"
+     polyA_site      1361
+                     /gene="MADS3"
+ORIGIN      
+        1 tctttaatac ctctcctcct cctgttgctg cttctgcctc tctcacatct tctttctttc
+       61 cttctctgga tctcttccat cttcagaaga gagagcacta gttagcatac ccatccatga
+      121 tgaacatgat gaccgatctg agctgcgggc catcgtcgat gacggagctg accgcggcag
+      181 gcgccggctg ggtcaggatc gtcggcggcg gtggcggcgg ggagcagcga gaagatgggg
+      241 agggggaaga tcgagataaa gcggatcgag aacacgacga accggcaggt gaccttctgc
+      301 aagcgccgca atggcctcct gaagaaggcg tacgagctgt ccgtcctctg cgacgccgag
+      361 gttgccctca tcgtcttctc cagccgcggg cgcctctacg agtacgccaa caacagtgtg
+      421 aaatccaccg ttgagaggta caagaaggca aacagtgaca cctccaactc tggcacagtt
+      481 gcagaagtca atgcccagca ctaccagcag gagtcctcca aactgcgcca acaaatcagt
+      541 agcttacaga acgcaaacag taggaccata gtgggggatt ctatcaacac catgagcctc
+      601 agggacctta aacaggtaga gaacaggctg gagaaaggca tagctaagat aagggctaga
+      661 aagaatgagc tgttatatgc tgaagttgag tacatgcaga aaagggaagt tgagctgcag
+      721 aatgacaaca tgtacctgag gagcaaggtt gttgagaatg agaggggaca gcagccactg
+      781 aacatgatgg gggcagcatc aacaagtgaa tacgatcata tggttaataa cccatatgat
+      841 tccaggaact ttcttcaagt gaacatcatg cagcagcctc agcattacgc ccatcagctg
+      901 cagccaacta cccttcaact cgggcagcag ccggccttca attagttttg gtgtagacac
+      961 cgtacgtaca cacatgaaat ctgaaggcgt cgatacccgc ggctacgtaa cagcgtgatc
+     1021 aacctgaaga aatcgatgca gtaattctat gtgttcgtca gatcatcata accagtattg
+     1081 tcattaggcg ttgtgaaaaa aaaatgtgtc agcatgcatt gcaagctagc gtttgtggct
+     1141 gctcatcagc tgcatgcgta attgcgtacg tgcacaaatt aaacagacct tgctaccatt
+     1201 gtgccatatt gtgtgtgttg tatgatatat atatatatat atatatatat atatatatat
+     1261 atatatatat aaacagcacg tttgtgctct gattcgtgta actgatcagc agatcaaact
+     1321 ctaccactgc cgatatatat gtgaggacca tggattgatg c
+//
+

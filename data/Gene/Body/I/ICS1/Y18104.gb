@@ -1,0 +1,70 @@
+LOCUS       Y18104                  1093 bp    mRNA    linear   PLN 27-MAR-2000
+DEFINITION  Oryza sativa mRNA for voltage-dependent anion channel.
+ACCESSION   Y18104
+VERSION     Y18104.1  GI:7339528
+KEYWORDS    VDAC1 gene; voltage-dependent anion channel.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Roosens,N., Al Bitar,F., Jacobs,M. and Homble,F.
+  TITLE     Characterization of a cDNA encoding a rice mitochondrial
+            voltage-dependent anion channel and its gene expression studied
+            upon plant development and osmotic stress
+  JOURNAL   Biochim. Biophys. Acta 1463 (2), 470-476 (2000)
+   PUBMED   10675523
+REFERENCE   2  (bases 1 to 1093)
+  AUTHORS   Roosens,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-SEP-1998) N. Roosens, VUB Plantengenetica,
+            Paardenstraat, 65, 1640 Sint Genesius Rode, BELGIUM
+COMMENT     Related sequence D23596.
+FEATURES             Location/Qualifiers
+     source          1..1093
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="leaf"
+                     /note="salt stress conditions"
+     gene            1..1093
+                     /gene="VDAC1"
+     CDS             27..851
+                     /gene="VDAC1"
+                     /codon_start=1
+                     /product="voltage-dependent anion channel"
+                     /protein_id="CAB82853.1"
+                     /db_xref="GI:7339529"
+                     /db_xref="GOA:Q6K548"
+                     /db_xref="InterPro:IPR001925"
+                     /db_xref="UniProtKB/Swiss-Prot:Q6K548"
+                     /translation="MVGPGLYPEIGKKARDLLYRDYQTDHKFTLTTYTSNGVAITATS
+                     TKKADLIFGEIQSQIKNKNITVDVKANSDSNVVTTVTVDELTPGLKSILSFAVPDQRS
+                     GKFELQYSHDYAGVSASIGLTASPVVNLSSVFGTKALAVGADVSLDTATGNLTKYNAG
+                     LSFSNDDLIASLNLNNKGDSLTASYYHIVNHSATAVGAELTHSFSSNENSLTFGTQHT
+                     LDPLTVVKARFNNSGKASALLQHEWRPKSVWTISAEVDTKAIDKSSKVGIAVALKP"
+     polyA_site      1066
+                     /gene="VDAC1"
+ORIGIN      
+        1 cgccgcatcg cgtcgtcgac gaggagatgg tggggccagg cctgtacccg gagatcggca
+       61 agaaggccag ggatctgctg tacagggact accagaccga ccacaagttc accctcacca
+      121 cctacaccag caatggcgtc gcaatcactg ctaccagtac aaagaaggct gatctgattt
+      181 ttggtgagat ccaatcacag ataaagaaca agaacatcac tgtagatgtg aaagcaaact
+      241 cagactcaaa tgttgttact actgtaaccg ttgatgagct aacaccagga ttgaagtcca
+      301 tcttgagctt tgctgttccg gatcaaagat ctggaaagtt tgagcttcaa tactcgcatg
+      361 attatgctgg tgttagtgca agtattggtt tgactgccag tcctgtagtc aatctctcca
+      421 gtgtttttgg aaccaaggct cttgctgttg gtgctgatgt ctcacttgat accgccacgg
+      481 ggaacttgac caaatataat gctggattga gcttcagtaa tgatgatctt atcgcgtcat
+      541 tgaacctgaa caacaaggga gatagtctca ctgcatctta ttaccacatt gtgaaccatt
+      601 cggccacagc tgttggagct gagctgaccc acagcttctc gagcaacgag aactccctca
+      661 ccttcggtac ccagcacact ctcgacccgc ttaccgtcgt gaaggcccgc ttcaacaatt
+      721 ccggcaaggc cagcgcgctg ctccagcacg agtggaggcc aaagtctgtg tggaccatct
+      781 cagcagaagt tgacaccaag gccattgaca agagctcaaa ggtcggcatt gcggtggccc
+      841 tcaagccttg atttttctca gggtgtactt acatttcaaa gatgaaattg agatgagttg
+      901 aaaaacatct tggcgcatgc gcatcttttg gttgttgcag tctattagat tccaagaact
+      961 gccatgttta atttgaggat tttttttttc tgttatcggt gttagcactt gttcaatgag
+     1021 caacccttgc accccaataa ttcaagctcg gcaaaattat gaactaaaaa aaaaaaaaaa
+     1081 aaaaaaaaaa aaa
+//
+

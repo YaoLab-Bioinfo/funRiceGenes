@@ -1,0 +1,72 @@
+LOCUS       OSU83671                1535 bp    DNA     linear   PLN 19-NOV-1998
+DEFINITION  Oryza sativa low molecular mass heat shock protein Oshsp17.7
+            (OSHSP17.7) gene, complete cds.
+ACCESSION   U83671
+VERSION     U83671.1  GI:1815663
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1535)
+  AUTHORS   Guan,J.C., Chang,F.C., Tseng,T.S., Chang,P.F.L., Yeh,K.W.,
+            Chen,Y.M. and Lin,C.Y.
+  TITLE     The electronic Plant Gene Register
+  JOURNAL   Plant Physiol. 118 (3), 1101-1103 (1998)
+   PUBMED   9890811
+  REMARK    Erratum:[Plant Physiol 1999 Feb;119(2):807]
+REFERENCE   2  (bases 1 to 1535)
+  AUTHORS   Guan,J.C. and Lin,C.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JAN-1997) Botany, National Taiwan University,
+            Roosevelt Road Section 4, Number 1, Taipei 10664, Republic of China
+FEATURES             Location/Qualifiers
+     source          1..1535
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /strain="Tainong 67"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+                     /map="between UCH129 and RZ16"
+     gene            622..1101
+                     /gene="OSHSP17.7"
+     CDS             622..1101
+                     /gene="OSHSP17.7"
+                     /note="class I LMMHSP"
+                     /codon_start=1
+                     /product="low molecular mass heat shock protein Oshsp17.7"
+                     /protein_id="AAC78394.1"
+                     /db_xref="GI:1815664"
+                     /translation="MSLIRRGNAFDPFSLDLWDPVDGFPFGSGGSSSSSGSLFPRANS
+                     DAAAFAGARIDWKETPEVHVFKADVPGLKKEEVKVEVDDGNILQISGERSREQEEKSD
+                     KWHRVERSSGKFLRRFRLPENTKPEQIKASMENGVLTVTVPKEEPKKPDVKSIQISG"
+ORIGIN      
+        1 accagaatcg aagtttagta gtaagataat aaggtaagga tgtggacgat gtttggttta
+       61 acacattact aaattgtgta gtagctagag tagaaagttc ccgaattact aaaatatggt
+      121 tgcattggta atagtatgtt tagtatgctg ccttgttaaa ttttgatatt accaaaattt
+      181 aaaaggtctt cgttttaaat atttttttaa aaatagaaat aggaacaaat ctaactatag
+      241 ttcacaatag atacatggca atttctatat taacatggca gaaggaaatc ggcaattgta
+      301 aatctgtaac cagagtccca tgccgtttgg atccacaggg ccaaaagttc tggaaggtac
+      361 tcgatgattc gcccaggcgg ccaggctcca aatcaggtgt tttccagtgc attcttgaac
+      421 tgacgagaat tatcaggatc ccacctctca acgccgccca cagcccgtat aaatccggcc
+      481 tcccctccct ctgcggccca gacaaagatc gaaagcaact cgcaaatcgc gatcccttgt
+      541 gctcacatcc caagcttccc aagcacacac tgttttagtg ttcacaaaca cagccttcct
+      601 tctcgcccaa atccgtcaac catgtcgctg atccgccgcg gcaacgcgtt cgaccccttc
+      661 tccctcgacc tctgggatcc cgtcgacggc ttccccttcg gctccggcgg cagcagcagc
+      721 agcagcggca gcctcttccc tcgggccaac tccgacgcgg cggccttcgc cggcgcgcgc
+      781 atcgactgga aggagacgcc cgaggtgcac gtgttcaagg cggacgtgcc ggggctgaag
+      841 aaggaggagg tcaaggtgga ggtggacgac ggcaacatcc tgcagatcag cggcgagcgc
+      901 agcagggagc aggaggagaa gtcggacaag tggcaccgcg tggagcgcag cagcggcaag
+      961 ttcctccgca ggttccgcct ccccgagaac accaagccgg agcagatcaa ggcgtccatg
+     1021 gagaatggcg tgctcaccgt caccgtgccc aaggaagagc ccaagaagcc cgacgtcaag
+     1081 tccatccaga tctccggcta gagccccgtt tgtttattct gctgcttctc ctcaatgctg
+     1141 caattgatct cctcctttgg tactttgctt gtgtcgtgag gacacagtcc aaaatgtgtg
+     1201 tgatatgatc atgtgtttat gaatgtgtgg tctcctccaa gggtcccaaa tgtgtttgtc
+     1261 tcctatgcgt ttatgtacgg gaaataaact ttaagcttga ttaatgtacc aatgtttgag
+     1321 tttttcttga gccttttgga atggaaactg ggagtggcca gttcggttct acaacattgg
+     1381 ttgttctggt agctcggttg atttagaagg atcagttctg attattatcc agcataacta
+     1441 atatacgctg aatctctccc attttcttct tataagagac gtaatagcag aatccgaatc
+     1501 gaccgtcaca atactatgcc ggtgaattag caaaa
+//
+

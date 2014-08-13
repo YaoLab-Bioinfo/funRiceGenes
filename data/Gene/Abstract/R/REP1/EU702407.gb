@@ -1,0 +1,88 @@
+LOCUS       EU702407                1376 bp    mRNA    linear   PLN 10-JAN-2009
+DEFINITION  Oryza sativa Japonica Group putative TCP transcription factor (DP1)
+            mRNA, complete cds.
+ACCESSION   EU702407
+VERSION     EU702407.1  GI:197318124
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1376)
+  AUTHORS   Yuan,Z., Gao,S., Xue,D.W., Luo,D., Li,L.T., Ding,S.Y., Yao,X.,
+            Wilson,Z.A., Qian,Q. and Zhang,D.B.
+  TITLE     RETARDED PALEA1 controls palea development and floral zygomorphy in
+            rice
+  JOURNAL   Plant Physiol. 149 (1), 235-244 (2009)
+   PUBMED   18952859
+REFERENCE   2  (bases 1 to 1376)
+  AUTHORS   Yuan,Z. and Zhang,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAY-2008) School of Life Science and Technology,
+            Shanghai Jiaotong University, 800 Dongchuan Road, Shanghai,
+            Shanghai 200240, P. R. China
+FEATURES             Location/Qualifiers
+     source          1..1376
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="9"
+                     /map="between CH910 and CH911"
+                     /PCR_primers="fwd_name: (GENERACER(TM) 5' PRIMER, fwd_seq:
+                     cagtacgaccacttcttctccg, rev_name: (GENERACER(TM) 3'
+                     PRIMER, rev_seq: ggtggtcgtagggtttggag"
+                     /PCR_primers="fwd_name: OSDP-5' RACE-S2, fwd_seq:
+                     ttcaactccgagacgctgg, rev_name: OSDP-5' RACE-A1, rev_seq:
+                     cgctacgtaacggcatgacagtg"
+                     /PCR_primers="fwd_name: OSDP-5' RACE-S1, fwd_seq:
+                     cgactggagcacgaggacactga, rev_name: OSDP-5' RACE-A2,
+                     rev_seq: atgctgctgctgctgctgc"
+                     /PCR_primers="fwd_name: GENERACER(TM) 5' NESTED PRIMER),
+                     fwd_seq: ggacactgacatggactgaaggagta, rev_name:
+                     GENERACER(TM) 3' NESTED PRIMER), rev_seq:
+                     gctgtcaacgatacgctacgtaacg"
+     gene            1..1376
+                     /gene="DP1"
+     5'UTR           1..448
+                     /gene="DP1"
+     CDS             449..1177
+                     /gene="DP1"
+                     /note="control of rice flower zygomorphy"
+                     /codon_start=1
+                     /product="putative TCP transcription factor"
+                     /protein_id="ACH67490.1"
+                     /db_xref="GI:197318125"
+                     /translation="MQQQLDQQQQQQQHQYDHFFSGHGQFNSETLEAVLCRPPRGAAA
+                     DPAVPAAAAAAAVLTAARNGGGGHGRARKRPFRTDRHSKIRTAQGVRDRRMRLSLDVA
+                     RDFFALQDRLGFDKASKTVDWLLTQSKPAIDRLAADPSSSSHRAAGDTRMSSAERGGD
+                     HHMVAVGAAGSGKGDADKARGPRGGRSAPMELGCELGRLVPAPVLGEYYYELAEMMSN
+                     NTGGEGDDDGDYDDDGDFLDGMQY"
+     3'UTR           1178..1376
+                     /gene="DP1"
+ORIGIN      
+        1 actcatcttt cagcttcctg tgctgcttag ctcctttcct ttcccctttc ctctccaacc
+       61 ttttctttcc cctctcctta agcttcgatg cacacatcac catcttgatc gatctcatca
+      121 tcacctgatc actagctagt agtgctagta gctatagttc tcatgtgaag agaggaagaa
+      181 cagaggagga gatcgagagg aagaagaaga agaagaagaa gaagaagaag aagaagaaga
+      241 agaagaagaa gaagaagata gtggctgtgg ctgcaagcct gcaacagtag tactagaact
+      301 atagatctca ctcccagtag gaagctatag tacacaaagt gagtgcaaag tagtgataca
+      361 caaaatgttg ccttactttc ctaaccttca ccatttctgc atctcccaag aagcccagcc
+      421 gccaccgcct ccaaacccta cgaccaccat gcagcagcag ctggatcagc agcagcagca
+      481 gcagcagcat cagtacgacc acttcttctc cggccacggc cagttcaact ccgagacgct
+      541 ggaggccgtg ctctgcaggc cgccgcgcgg cgccgccgcg gatcctgctg ttccggcggc
+      601 ggcggcggcg gcggctgttc tgacggcggc aagaaacggt ggcggcggcc atggcagggc
+      661 gaggaagcgg ccgttcagga cggaccggca cagcaagatc cggacggcgc agggggtgcg
+      721 cgaccgccgg atgcggctgt cgctcgacgt cgcgcgcgac ttcttcgcgc tgcaggaccg
+      781 cctcggcttc gacaaggcca gcaagacggt ggactggctg ctcacccagt ccaagccggc
+      841 catcgaccgc ctcgccgccg acccctcctc ctcctcccac cgcgccgccg gcgacacccg
+      901 catgtcgtcg gccgagcgcg gcggcgatca ccacatggtc gcggtcggcg ccgccggatc
+      961 agggaaagga gacgcggaca aggcgagggg ccccagaggt ggtagatcgg cgcccatgga
+     1021 gctcggctgc gagctcggcc gcctcgtgcc ggcgccggtg ctcggcgagt actactacga
+     1081 gctcgccgag atgatgagca acaacaccgg aggagaagga gacgacgacg gcgactacga
+     1141 cgacgacggc gatttcttgg acggtatgca atattagctt cagctagctt agcttgcttg
+     1201 cttgcatggt ttctcctcta gctagtagca gcttaattag ctagcttata agcagcttga
+     1261 ttgattgatt aggtcttgat ctgctactct gcccagcatt tcagcgcttc tagttgttaa
+     1321 ttaatttgca tgtgtactta gtactatgtc gactaatctt atggtttcat gcagct
+//
+

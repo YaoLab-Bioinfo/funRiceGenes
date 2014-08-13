@@ -1,0 +1,44 @@
+LOCUS       AY327105                 416 bp    mRNA    linear   PLN 23-JUL-2003
+DEFINITION  Oryza sativa (indica cultivar-group) apoptosis-related protein
+            mRNA, complete cds.
+ACCESSION   AY327105
+VERSION     AY327105.1  GI:32966258
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 416)
+  AUTHORS   Wei,C. and Mi,L.-P.
+  TITLE     Oryza sativa apoptosis-related protein mRNA
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 416)
+  AUTHORS   Wei,C. and Mi,L.-P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2003) Genetics and Genetic Engineering, Fudan
+            University, #220 HanDan Road, Shanghai 200433, China
+FEATURES             Location/Qualifiers
+     source          1..416
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="indica"
+                     /db_xref="taxon:39946"
+     CDS             23..409
+                     /codon_start=1
+                     /product="apoptosis-related protein"
+                     /protein_id="AAP92158.1"
+                     /db_xref="GI:32966259"
+                     /translation="MADPELEAIRQRRMQELMAQRGAANPQNTGQQKAQEDAKQEAEE
+                     RRQMMLAQILSSEARERLSRIALVKPDKARGVEDVLLRAAQSGGISEKVSEERLISLL
+                     EQINTHTSKQTKVTIQRRRSVLGDDD"
+ORIGIN      
+        1 ggccgcggga attcgattga agatggctga cccagagttg gaagctatca ggcagaggag
+       61 aatgcaagag ctaatggcac agcgtggtgc ggcaaatccg caaaacactg ggcaacaaaa
+      121 ggctcaagaa gatgcaaagc aggaagctga ggaacggcgg cagatgatgc ttgctcagat
+      181 tttatcttct gaagctagag aaaggctctc ccgcatagct ttggtcaaac ctgataaagc
+      241 aagaggggtg gaggatgttc ttctgagagc tgctcagtcc ggtggaatat ctgaaaaggt
+      301 gtctgaagaa aggcttatct cacttctgga gcaaatcaat acccacacta gcaaacagac
+      361 gaaagttacg attcagaggc gccggagcgt ccttggcgac gatgactagc tgcatg
+//
+

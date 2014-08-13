@@ -1,0 +1,76 @@
+LOCUS       DQ072592                1531 bp    mRNA    linear   PLN 14-JAN-2008
+DEFINITION  Oryza sativa Indica Group SUT2M (SUT2M) mRNA, complete cds.
+ACCESSION   DQ072592
+VERSION     DQ072592.1  GI:67937441
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1531)
+  AUTHORS   Sun,A.J., Xu,H.L., Gong,W.K., Zhai,H.L., Meng,K., Wang,Y.Q.,
+            Wei,X.L., Xiao,G.F. and Zhu,Z.
+  TITLE     Cloning and expression analysis of rice sucrose transporter genes
+            OsSUT2M and OsSUT5Z
+  JOURNAL   J Integr Plant Biol 50 (1), 62-75 (2008)
+   PUBMED   18666953
+REFERENCE   2  (bases 1 to 1531)
+  AUTHORS   Sun,A. and Zhu,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-2005) Genetic and Development Institute, CAS,
+            Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..1531
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39946"
+                     /dev_stage="green seedling"
+     gene            1..1531
+                     /gene="SUT2M"
+                     /note="OsSUT2M"
+     CDS             22..1527
+                     /gene="SUT2M"
+                     /note="sucrose transporter"
+                     /codon_start=1
+                     /product="SUT2M"
+                     /protein_id="AAY83288.1"
+                     /db_xref="GI:67937442"
+                     /translation="MPRRPSGGGGGAGPAAAAVRKVPLRKLLRAASVACGVQFGWALQ
+                     LSLLTPYVQELGIPHAFASLVWLCGPLSGLLVQPLVGHLSDRIAPAASPLGRRRPFIA
+                     AGAASIAAAVLTVGFSADLGRIFGDSITPGSTRLGAIIVYLVGFWLLDVGNNATQGPC
+                     RAFLADLTENDPRRTRIANAYFSLFMALGNILGYATGAYSGWYKIFPFTVTPSCSISC
+                     ANLKSAFLLDIIILVVTTCITVASVQEPQSLGSDEADHPSTEQEAFLWELFGSFRYFT
+                     LPVWMVLIVTALTWIGWFPFILFDTDWMGREIYRGSPDDPSITQSYHDGVRMGSFGLM
+                     LNSVLLGFTSIVLEKLCRKWGAGLVWGVSNILMALCFVAMLVITYVAKNMDYPPSGVP
+                     PTGIVIASLVVFTILGAPLAITYSIPYAMAASRVENLGLGQGLAMGILNLAIVIPQVI
+                     VSLGSGPWDQLFGGGNAPAFAVAAAASFIGGLVAILGLPRARIASRRRGHR"
+ORIGIN      
+        1 ggaggcaaac acgagaagaa gatgccgcgg cggcctagcg gcggcggcgg cggcgctggt
+       61 cccgcggcgg ccgcggtgcg caaggtcccc ctgcggaagc ttctgcgtgc ggcgtcggtg
+      121 gcgtgcggcg tgcagttcgg gtgggcgctg cagctctccc tgctgacccc ctacgtccag
+      181 gagctcggca tcccgcacgc cttcgccagc ctcgtctggc tctgcggccc cctctccggc
+      241 ctcctcgtcc agcccctcgt cggccacctc tccgaccgca tcgcccccgc cgcctccccc
+      301 ctcggccgcc gccgcccctt catcgccgcc ggcgccgctt ccatcgctgc cgcagtcctc
+      361 accgtcggat tctccgccga cctcggccga atcttcggcg attccatcac cccgggctcc
+      421 acccgcctcg gcgccatcat cgtctacctc gtcggcttct ggctcctcga cgtcggcaac
+      481 aacgctacac agggaccctg cagggccttc ctcgccgacc tcaccgagaa tgacccaagg
+      541 aggactcgga tagctaatgc ttacttctca ttgttcatgg ccctgggaaa catacttgga
+      601 tatgccactg gagcatacag tggctggtac aagatattcc cgttcaccgt tactccatca
+      661 tgtagcatca gctgtgccaa cctcaagtct gcctttctac ttgatattat cattttggtg
+      721 gtcactacat gcatcactgt agcatcagtg caagagcctc aatccttagg aagtgatgaa
+      781 gcagatcacc ctagcacaga acaggaagct ttcctctggg aactttttgg atcattccgg
+      841 tactttacat taccggtttg gatggttttg attgttactg ccctcacatg gattggatgg
+      901 tttccattta tcctctttga taccgattgg atgggtcgag agatctatcg tggaagtcca
+      961 gatgatccaa gtataactca gagctatcat gatggtgtga gaatgggttc ttttggtctg
+     1021 atgctgaact cggtccttct tggattcact tctattgtac tagagaagtt atgtcggaag
+     1081 tggggagctg gactggtgtg gggtgtctcc aatatcctaa tggcgttgtg ctttgtggca
+     1141 atgcttgtaa taacatatgt ggcaaagaat atggattatc cacctagtgg agtaccacca
+     1201 accggcattg tcattgcttc cctggtagtt tttacaattt taggagcgcc cctggcgatc
+     1261 acgtacagta taccatatgc aatggctgct agtcgggttg aaaatctggg acttggccaa
+     1321 ggtctagcaa tgggcattct taatttggct attgtcatac cacaggttat tgtgtcactg
+     1381 ggtagcgggc cctgggacca actgtttggt ggtggcaatg caccagcctt tgcagtggct
+     1441 gctgctgcat cttttatcgg tgggctggtg gctattctgg gccttccacg agcccgcatt
+     1501 gcatcaagga ggagaggtca ccgataagaa t
+//
+

@@ -1,0 +1,64 @@
+LOCUS       RICLHCP2                 989 bp    mRNA    linear   PLN 14-DEC-2007
+DEFINITION  Oryza sativa Japonica Group mRNA for type II light-harvesting
+            chlorophyll a/b-binding protein, complete cds.
+ACCESSION   D00642
+VERSION     D00642.1  GI:218173
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 989)
+  AUTHORS   Matsuoka,M.
+  TITLE     Classification and characterization of cDNA that encodes the
+            light-harvesting chlorophyll a/b binding protein of photosystem II
+            from rice
+  JOURNAL   Plant Cell Physiol. 31, 519-526 (1990)
+COMMENT     These data kindly submitted in computer readable form by: Makoto
+            Matsuoka
+            National Institute of Agrobiological Resources
+            Tsukuba Science City
+            Ibaraki 305
+            Japan.
+FEATURES             Location/Qualifiers
+     source          1..989
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /note="synonym: Oryza sativa (japonica cultivar-group)"
+     CDS             33..824
+                     /note="type II LHCPII"
+                     /codon_start=1
+                     /product="type II light-harvesting chlorophyll a/b-binding
+                     protein"
+                     /protein_id="BAA00537.1"
+                     /db_xref="GI:218174"
+                     /translation="MAASALHQTTSFLGTAPRRDDVVRRVGDSGGRITMRRTVKSAPQ
+                     SIWYGPDRPKYLGPFSEQTPSYLTGEFPGDYGWDTAGLSADPETFARNRELELIHSRW
+                     AMLGALGCVFPEILSKNGVKFGEAVWFKAGAQIFSEGGLDYLGNPNLVHAQSILAIWA
+                     VQVVLMGFVEGYRVGGGPLGEGLDKVYPGGAFDPLGLADDPDTFAELKVKELKNGRLA
+                     MFSMFGFFVQAIVTGKGPIENLFDHVTDPVANNAWSYATNFVPGK"
+     mat_peptide     135..821
+                     /product="unnamed"
+ORIGIN      
+        1 ccttccgccg ccgcatcgcc ctcgttagaa cgatggccgc gtcggcgctg caccagacca
+       61 ccagcttcct cggcaccgcc cctcgccggg atgacgtcgt ccgccgcgtc ggcgactccg
+      121 gtggccgcat caccatgcgc cgcaccgtca agagcgcgcc ccagagcatc tggtatggac
+      181 ctgaccgtcc caagtacctg ggcccgttct cggagcagac gccatcgtac ctgaccggag
+      241 agttcccggg agactacggg tgggacacgg cggggctatc ggccgacccg gagacgttcg
+      301 cgaggaacag ggagctggag ttgatccact cgcggtgggc gatgctgggg gcgctgggct
+      361 gcgtcttccc ggagatcctg tccaagaacg gggtgaagtt cggggaggcg gtgtggttca
+      421 aggccggcgc gcagatcttc tccgaggggg ggctcgacta cctggggaac cccaacctgg
+      481 tgcacgcgca gagcatcctc gccatctggg cggtccaggt ggtgctcatg ggattcgtcg
+      541 agggctaccg cgtcggcggc ggcccgctcg gcgagggcct cgacaaggtg tacccaggcg
+      601 gcgccttcga cccgctcggc ctcgccgacg accctgacac cttcgccgag ctcaaggtga
+      661 aggagctcaa gaacggccgc ctcgccatgt tctccatgtt cggattcttc gtccaggcca
+      721 tcgtcaccgg caagggcccc atcgagaacc tcttcgacca cgtcaccgac cccgtcgcca
+      781 acaacgcctg gtcatacgcc accaacttcg tccccggcaa gtgaagtgag cacaacgaca
+      841 cgatcgagat ggtgccaacc aacgtaccat gtgtacactt gtagtagcca cgcaccgacc
+      901 ctgcagttgc agttgcagca gtgcatgtat gtatgtacct taattgtgtg tgtgtgtgtg
+      961 aatcgatcga ggagatttct agcttaatt
+//
+

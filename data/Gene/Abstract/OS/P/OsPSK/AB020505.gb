@@ -1,0 +1,75 @@
+LOCUS       AB020505                 708 bp    mRNA    linear   PLN 18-APR-2000
+DEFINITION  Oryza sativa mRNA for phytosulfokine-alpha precursor, complete cds.
+ACCESSION   AB020505
+VERSION     AB020505.1  GI:6361343
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Yang,H., Matsubayashi,Y., Nakamura,K. and Sakagami,Y.
+  TITLE     Oryza sativa PSK gene encodes a precursor of phytosulfokine-alpha,
+            a sulfated peptide growth factor found in plants
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 96 (23), 13560-13565 (1999)
+   PUBMED   10557360
+REFERENCE   2  (bases 1 to 708)
+  AUTHORS   Yang,H., Matsubayashi,Y. and Sakagami,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-1998) Heping Yang, Nagoya University, Graduate
+            School of Bioagricultural Sciences; Chikusa, Nagoya, Aichi
+            464-8601, Japan (E-mail:hyang@agr.nagoya-u.ac.jp,
+            Tel:81-52-789-5552(ex.5552), Fax:81-52-789-4118)
+FEATURES             Location/Qualifiers
+     source          1..708
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="C5924"
+                     /db_xref="taxon:39946"
+                     /clone_lib="Lambda ZAP II"
+                     /note="Oc culture cells"
+     repeat_region   63..94
+                     /rpt_unit_seq="ga"
+     gene            102..371
+                     /gene="OsPSK"
+     CDS             102..371
+                     /gene="OsPSK"
+                     /function="mitogenic peptide"
+                     /standard_name="preprophytosulfokine"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="phytosulfokine-alpha precursor"
+                     /protein_id="BAA86654.1"
+                     /db_xref="GI:6361344"
+                     /translation="MVNPGRTARALCLLCLALLLLGQDTHSRKLLLQEKHSHGVGNGT
+                     TTTQEPSRENGGSTGSNNNGQLQFDSAKWEEFHTDYIYTQDVKNP"
+     sig_peptide     102..167
+                     /gene="OsPSK"
+     gene            339..353
+                     /gene="PSK-alpha"
+     misc_feature    339..353
+                     /gene="PSK-alpha"
+     gene            339..350
+                     /gene="PSK-beta"
+     misc_feature    339..350
+                     /gene="PSK-beta"
+     polyA_signal    479..485
+     polyA_site      708
+                     /note="17 a nucleotides"
+ORIGIN      
+        1 gaagaagcag cagcaaaaaa gttgatcagt taattagcaa gtgtgttctt ctttcttttg
+       61 gtgagagaga gagagagaga gagagagaga gagatctcag aatggtgaat ccaggaagaa
+      121 cagctagggc actctgcctc ctatgccttg ctctcctcct gctaggtcaa gatacccatt
+      181 ccaggaagct cctgttgcag gagaagcaca gccatggcgt cggcaacggc acaaccacca
+      241 cccaggaacc aagcagagag aatggaggaa gtacaggttc caataacaat gggcagctgc
+      301 agtttgattc agccaaatgg gaagaattcc acacggatta tatctacacc caagatgtca
+      361 aaaacccata atggctgttc atttatgatt tgaactagta ctagtagctt ataccttctg
+      421 cgcgtctttt gttcgtttgg agaggggatt ttcttgggat ttagcatatg aactaattaa
+      481 attaaatccc aggcaaatcc cactcagccc attttgtgca gaagttgtca gtgtgcactg
+      541 tataattatt tagtcataca caactactcc tggtaactac tcctatcttc gatgaatttt
+      601 ctggttttgc cagacgtgac aatagtccag tagcatgcag taccctctca gaatccctgt
+      661 aatttttagc aaaaaaaaaa ggaagaaaag aaaagaagct tccctact
+//
+

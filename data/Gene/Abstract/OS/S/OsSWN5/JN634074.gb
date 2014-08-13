@@ -1,0 +1,64 @@
+LOCUS       JN634074                1107 bp    mRNA    linear   PLN 14-OCT-2011
+DEFINITION  Oryza sativa Japonica Group secondary wall NAC transcription factor
+            5 mRNA, complete cds.
+ACCESSION   JN634074
+VERSION     JN634074.1  GI:346991175
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1107)
+  AUTHORS   Zhong,R., Lee,C., McCarthy,R.L., Reeves,C.K., Jones,E.G. and
+            Ye,Z.H.
+  TITLE     Transcriptional Activation of Secondary Wall Biosynthesis by Rice
+            and Maize NAC and MYB Transcription Factors
+  JOURNAL   Plant Cell Physiol. 52 (10), 1856-1871 (2011)
+   PUBMED   21908441
+REFERENCE   2  (bases 1 to 1107)
+  AUTHORS   Zhong,R. and Ye,Z.-H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2011) Department of Plant Biology, University of
+            Georgia, 2502 Miller Plant Sciences, Athens, GA 30602, USA
+FEATURES             Location/Qualifiers
+     source          1..1107
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="japonica"
+                     /db_xref="taxon:39947"
+     CDS             7..1107
+                     /note="OsSWN5"
+                     /codon_start=1
+                     /product="secondary wall NAC transcription factor 5"
+                     /protein_id="AEO53050.1"
+                     /db_xref="GI:346991176"
+                     /translation="MESCVPPGFRFHPTDEELVGYYLRKKVASQKIDLDVIRDIDLYR
+                     IEPWDLQEHCGIGYDEQSEWYFFSYKDRKYPTGTRTNRATMAGFWKATGRDKAVHDKS
+                     RLIGMRKTLVFYKGRAPNGQKTDWIMHEYRLETDENAPPQEEGWVVCRAFKKRTAYPA
+                     RSMVETWDYSLHERNIMSAAAAAAFADPSAAYAQMRRQHRSGRFKQEAELDGAATALL
+                     HYSSHLAELPQLESPSAAAAPLQPNPSQLATAGEDDDCKGDNGGRRAKKARAAGDKVA
+                     TTTDWRALDKFVASQLSPGECGSMEATAEAAAAAVAGVSSPLDHGDDDMAALLFLNSD
+                     ERDEVDRWTGLLGSGAGASGVDGDLGICVFDK"
+ORIGIN      
+        1 gacgccatgg aatcatgcgt ccctcctggg ttcaggttcc accccaccga cgaggagctc
+       61 gtcggctact acctccgcaa gaaggtcgcc tcccagaaga tcgacctcga cgtcatccgc
+      121 gacatcgatc tctaccgcat cgaaccctgg gatctccaag aacattgtgg gatcgggtac
+      181 gatgagcaaa gcgagtggta cttcttcagc tacaaggaca ggaagtaccc gacggggacg
+      241 aggacgaaca gggcgacaat ggcggggttc tggaaggcga cggggaggga caaggcggtg
+      301 cacgacaaga gcaggctcat cggcatgagg aagacactcg tcttctataa gggcagggcg
+      361 cctaatggcc agaagaccga ctggatcatg cacgagtacc gcctcgagac cgacgagaac
+      421 gcgccgccac aggaagaagg atgggtggtg tgccgagcat tcaagaagag gacggcgtat
+      481 ccggcgagga gcatggtgga gacgtgggac tactccttgc acgagcgcaa catcatgagc
+      541 gccgcggcgg cggcggcgtt cgccgatccg agcgcggcgt acgcgcagat gaggcggcag
+      601 cacaggagcg ggcggttcaa gcaggaggcg gagctggacg gcgccgccac agccctcctc
+      661 cactactcca gccacctcgc cgagctgccg cagctcgaga gcccctccgc ggctgcggcg
+      721 ccgctccagc ccaacccgag ccagctggcc accgccggcg aggacgacga ctgcaagggc
+      781 gataatggcg gtaggagggc caagaaagcc cgcgccgccg gcgacaaggt ggcgacgacc
+      841 acggactgga gagcgctcga caagttcgtc gcgtcgcagc ttagccccgg ggagtgtggc
+      901 agcatggagg caacggcgga agccgcggcg gcggcagtcg ccggtgtgag ctcgccgctg
+      961 gaccacggcg atgacgacat ggcagcattg ctgtttctca acagcgacga gagagacgag
+     1021 gtcgacaggt ggacggggtt gctcggctcc ggcgccggcg cgagcggcgt cgacggcgac
+     1081 ctcggaatct gtgtgtttga caaatga
+//
+

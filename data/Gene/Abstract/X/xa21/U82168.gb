@@ -1,0 +1,53 @@
+LOCUS       U82168                  1065 bp    DNA     linear   GSS 02-MAR-2010
+DEFINITION  U82168 Oryza sativa IR36 Oryza sativa Indica Group genomic, genomic
+            survey sequence.
+ACCESSION   U82168
+VERSION     U82168.1  GI:2586099
+DBLINK      BioSample: LIBGSS_001270
+KEYWORDS    GSS.
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1065)
+  AUTHORS   Song,W.Y., Wang,G.L., Chen,L.L., Kim,H.S., Pi,L.Y., Holsten,T.,
+            Gardner,J., Wang,B., Zhai,W.X., Zhu,L.H., Fauquet,C. and Ronald,P.
+  TITLE     A receptor kinase-like protein encoded by the rice disease
+            resistance gene, Xa21
+  JOURNAL   Science 270 (5243), 1804-1806 (1995)
+   PUBMED   8525370
+COMMENT     Contact: Song W-Y
+            Plant Pathology
+            UC-Davis
+            Davis, CA 95616, USA
+            Class: unknown.
+FEATURES             Location/Qualifiers
+     source          1..1065
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IR36"
+                     /db_xref="taxon:39946"
+                     /map="RG103"
+                     /clone_lib="LIBGSS_001270 Oryza sativa IR36"
+ORIGIN      
+        1 ctgcagccct tcggaggcta gcgtcccttg atccggagat actcccctaa caccttctta
+       61 ttcaaccaag ctaggaccaa tgaccatgac ccttttggat atcaagatga ccacaggttt
+      121 agatatcctc ttaatcagcc aaccgttttc cagtcagaaa atcaagtgtg ccaacaagtt
+      181 gcggaccaag aatgttggtg gttggtcagg ctacatcact ttttcttata tctgtctaag
+      241 tccatgagct aaaccaaaaa catctctcgc tcttgctgtc ttagcttgca ccgatattct
+      301 ctgcatctcg gcacgatgat atcactccca ttactgctct tcgtcctctt cttctctgcg
+      361 ctgctgctct tcccttcgag cagtgacgac gacggtggtg gtgatgctgc cggcgacgaa
+      421 ctcgcgctgc tctctttcaa gtcatccctg ctataccagg ggggccagtc gctggcatct
+      481 tggaacacgt ccggccatgg ccagcactgc acatgggtgg gtgtcgtgtg cggccgccgg
+      541 cacccacaca gggtggtgaa gctgcggctg cgctcctcca acctggccgg gatcatctcg
+      601 ccgtcgctgg gcaacctatc cttcctcagg acgctgcaac tcagcgacaa ccacctgtcc
+      661 ggcaagatac cccaggagct cagccgtctc agcaggctcc agcaactggt actgaatttc
+      721 aacagcctat cgggtgagat tccagctgct ttgggcaatc taaccagtct ctcggttctt
+      781 gagctgacta acaatacact gtccggagca atcccttcat ctctgggcaa actcacaggt
+      841 ctcactgatc ttgcactggc tgaaaatacg ctgtctggtt ccatcccatc atctttcggc
+      901 caattgcgca gattatcttt ccttagctta gcctttaaca atttaagtgg agcgatccca
+      961 gatcctattt ggaacatctc ctctctcacc atattcgaag tcatatccaa caagctaagt
+     1021 ggtacactgc ctacaaatgc attcagtaat cttcctagtc tgcag
+//
+

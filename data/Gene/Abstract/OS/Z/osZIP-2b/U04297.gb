@@ -1,0 +1,73 @@
+LOCUS       OSU04297                1080 bp    mRNA    linear   PLN 06-DEC-1996
+DEFINITION  Oryza sativa Nipponbare bZIP DNA-binding factor (osZIP-2b) mRNA,
+            complete cds.
+ACCESSION   U04297
+VERSION     U04297.1  GI:435945
+KEYWORDS    DNA-binding factor, leucine zipper.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1080)
+  AUTHORS   Nantel,A. and Quatrano,R.S.
+  TITLE     Characterization of three rice basic/leucine zipper factors,
+            including two inhibitors of EmBP-1 DNA binding activity
+  JOURNAL   J. Biol. Chem. 271 (49), 31296-31305 (1996)
+   PUBMED   8940135
+REFERENCE   2  (bases 1 to 1080)
+  AUTHORS   Nantel,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-DEC-1993) Andre Nantel, Biology, University of North
+            Carolina, Coker Hall, Chapel Hill, NC 27599-3280, USA
+FEATURES             Location/Qualifiers
+     source          1..1080
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="pE3A2,pE3A4"
+                     /cell_line="Rice suspension cell culture"
+                     /clone_lib="Lambda ZAP cDNA library of ABA-treated cells"
+                     /dev_stage="embryonic"
+     gene            1..1080
+                     /gene="osZIP-2b"
+     CDS             47..634
+                     /gene="osZIP-2b"
+                     /codon_start=1
+                     /product="DNA-binding factor of bZIP class"
+                     /protein_id="AAC49558.1"
+                     /db_xref="GI:435946"
+                     /translation="MSDDHSGGGGEQRQCRRGFAVDVVELGAALALADMAGAAVKPAM
+                     QLQLQPTAAQEEDEEMATTRLSLQLGNNVGSIIQSSSCSSSGSSAGLPAPPAAAAAPA
+                     TAYGTKPLHMLTEEEKEAKRLRRVLANRESARQTILRRQAIRDELARKVADLSTQNES
+                     MKKERETVMQEYLSLKETNKQLKEQAQHHLSLSLF"
+     polyA_site      856
+                     /gene="osZIP-2b"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     polyA_site      1080
+                     /gene="osZIP-2b"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+ORIGIN      
+        1 cggcgagcag ccagatgcca agatcctccc cgcggctact cctcccatgt cggacgacca
+       61 cagcggcggc ggaggcgagc agcggcaatg ccggcgaggg ttcgcggtgg acgtggtgga
+      121 gctcggtgcg gccctggctc tggccgacat ggccggcgcc gccgtcaaac cggccatgca
+      181 gctgcagctg cagccgaccg ccgctcagga ggaggacgag gagatggcga ccacgaggct
+      241 gagccttcag ctcggcaaca acgtcggcag catcatccag tcctcctcct gctccagcag
+      301 cggctccagc gccggcctcc ccgcgccacc cgccgccgcc gccgcgccgg ccaccgccta
+      361 cggcaccaag cccctccaca tgctcaccga ggaggagaag gaggcgaagc ggctgcggcg
+      421 agtgctcgcc aaccgggaat ccgcacgcca aaccatactc cgccgtcagg ctattagaga
+      481 tgaactggca agaaaggtcg cagatctgtc aacacagaat gagagcatga agaaggagag
+      541 ggagacagtg atgcaggagt acctctcact gaaggagaca aacaagcagc tcaaagaaca
+      601 ggcacagcat catctttcgc tttccttgtt ctaattaatc tcttagtagt ataatcttct
+      661 tcttttttgt tctcttttac tacaaaatta ttattactcc taccattctg aggccaaaga
+      721 gagcccaaga gaatctactc tactctactc taccatgttc ccaaatccaa acctccagtt
+      781 actttaatcc ctaatccctt ttctctttta cttgtactac aaattaagct aagtaccatt
+      841 ctgagttaag gccaaattaa agagaatcta ctagcatgtt cctccatttg ccacatgact
+      901 gcactttact gctgctactg gtcctagtag tggtcaaatc aatttggcca ttgctgtacg
+      961 gctgtagcta gctgctggcg aattgggaac tgaaaatgtt tttattggat gctctggcac
+     1021 ttgtgtagtg ctgtgtatgt gccacactga catctgtaat ggatataacc attttttcta
+//
+

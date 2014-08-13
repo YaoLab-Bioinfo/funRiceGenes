@@ -1,0 +1,60 @@
+LOCUS       BAC77348                 500 aa            linear   PLN 15-FEB-2008
+DEFINITION  glutelin [Oryza sativa Japonica Group].
+ACCESSION   BAC77348
+VERSION     BAC77348.1  GI:31455452
+DBSOURCE    accession AB093593.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kusaba,M., Miyahara,K., Iida,S., Fukuoka,H., Takano,T., Sassa,H.,
+            Nishimura,M. and Nishio,T.
+  TITLE     Low glutelin content1: a dominant mutation that suppresses the
+            glutelin multigene family via RNA silencing in rice
+  JOURNAL   Plant Cell 15 (6), 1455-1467 (2003)
+   PUBMED   12782736
+REFERENCE   2  (residues 1 to 500)
+  AUTHORS   Kusaba,M. and Nishimura,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-2002) Contact:Makoto Kusaba National Institute of
+            Agrobiological Science, Institute of Radiation Breeding;
+            Ohmiya-machi, Naka-gun, Ibaraki 319-2293, Japan
+FEATURES             Location/Qualifiers
+     source          1..500
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="LGC-1"
+                     /db_xref="taxon:39947"
+                     /chromosome="2"
+     Protein         1..500
+                     /product="glutelin"
+     Region          2..495
+                     /region_name="PLN00212"
+                     /note="glutelin; Provisional"
+                     /db_xref="CDD:215106"
+     Region          50..207
+                     /region_name="Cupin_1"
+                     /note="Cupin; pfam00190"
+                     /db_xref="CDD:249667"
+     Region          325..465
+                     /region_name="Cupin_1"
+                     /note="Cupin; smart00835"
+                     /db_xref="CDD:214845"
+     CDS             1..500
+                     /gene="GluB4"
+                     /coded_by="join(AB093593.1:473..800,AB093593.1:911..1173,
+                     AB093593.1:1281..1766,AB093593.1:1883..2308)"
+ORIGIN      
+        1 matiafsrls iyfcvlllch gsmaqlfgpn vnpwhnprqg gfrecrfdrl qafeplrrvr
+       61 seagvteyfd ekneqfqctg tfvirrviep qgllvprysn tpgmvyiiqg rgsmgltfpg
+      121 cpatyqqqfq qflpegqsqs qkfrdehqki hqfrqgdiva lpagvahwfy negdapvval
+      181 yvfdlnnnan qleprqkefl lagnnnreqq mygrsieqhs gqnifsgfnn ellsealgvn
+      241 alvakrlqgq ndqrgeiirv knglkllrpa faqqqeqaqq qeqaqaqyqv qyseeqqpst
+      301 rcngldenfc tikarlnien pshadtynpr agritrlnsq kfpilnlvql satrvnlyqn
+      361 ailspfwnvn ahslvyivqg harvqvvsnl gktvfngvlr pgqlliipqh yvvlkkaehe
+      421 gcqyisfktn ansmvshlag knsiframpv dvianayris reqarslknn rgeelgaftp
+      481 ryqqqtypgf sneseneale
+//
+

@@ -1,0 +1,61 @@
+LOCUS       AF049889                1299 bp    mRNA    linear   PLN 12-MAR-1998
+DEFINITION  Oryza sativa 1-aminocyclopropane-1-carboxylate oxidase (ACO2) mRNA,
+            complete cds.
+ACCESSION   AF049889
+VERSION     AF049889.1  GI:2952327
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1299)
+  AUTHORS   Chae,H.S., Kim,W.T. and Kang,B.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-FEB-1998) Biology, Yonsei University, Seoul 120-749,
+            Korea
+FEATURES             Location/Qualifiers
+     source          1..1299
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1299
+                     /gene="ACO2"
+     CDS             62..1027
+                     /gene="ACO2"
+                     /note="ACC oxidase"
+                     /codon_start=1
+                     /product="1-aminocyclopropane-1-carboxylate oxidase"
+                     /protein_id="AAC05507.1"
+                     /db_xref="GI:2952328"
+                     /translation="MASVASFPVINMENLETEERGARMEVIRDACENWGFFEMLNHGI
+                     AHELMDEVERVSKAHYANCREEKFKEFARRMLEAGEKGADVKGIDWESTFFVRHRPVS
+                     NLADLPDVDDHYRQVMKQFASEIEKLSERVLDLLCENLGLEKGYLKKAFAGSNGPTFG
+                     TKVSSYPPCPRPDLVDGLRAHTDAGGIILLFQDDQVSGLQLLKDGEWVDVPPMRHAIV
+                     ANIGDQLEVITNGRYKSVMHRVLTRPDGNRMSIASFYNPGADAVIFPAPALAGADAAA
+                     AAYPRFVFEDYMNLYVRHKFEAKEPRFEAMKSAAEVVHAAPIATA"
+ORIGIN      
+        1 cagacgcact cacacactca gcttaagcga gcgagcgagt gaacgagaga gagagacaga
+       61 gatggcgagt gttgcctcct tcccggtgat caacatggag aacctggaga ccgaggagag
+      121 gggcgcacga atggaggtca tccgcgacgc ctgcgagaac tggggcttct tcgagatgct
+      181 gaaccatggc atcgcgcacg agctgatgga cgaggtggag cgggtgagca aggcgcacta
+      241 cgccaactgc cgggaggaga agttcaagga gttcgcgcgg cggatgctgg aggccggcga
+      301 gaagggcgcc gacgtgaagg gcatcgactg ggagagcacc ttcttcgtcc gccaccgccc
+      361 cgtctccaac ctcgccgacc tccccgacgt cgacgaccac tacaggcagg tgatgaagca
+      421 atttgcgtcg gagatcgaga agctctcgga gagggtgctg gacctgctgt gcgagaatct
+      481 gggcctggag aagggttacc tgaagaaggc cttcgccggg tcgaacggcc caacgttcgg
+      541 caccaaggtg agcagctacc cgccgtgccc gcgccccgat ctcgtcgacg gcctccgcgc
+      601 ccacaccgac gccggtggca tcatcctgct gttccaggac gaccaggtga gcggcctcca
+      661 gctgctcaag gacggggagt gggtggacgt gccgcccatg cgccacgcca tcgtcgccaa
+      721 catcggcgac cagctggagg tgatcaccaa cggcaggtac aagagcgtca tgcaccgcgt
+      781 cctcacgcgc cccgacggca accgcatgtc catcgcctcc ttctacaacc ccggcgccga
+      841 cgccgtcatc ttcccggcgc ccgcgctcgc cggcgccgac gcggcggcgg ccgcctaccc
+      901 gaggttcgtg ttcgaggact acatgaacct gtacgtgcgc cacaagttcg aggccaagga
+      961 gccacgcttc gaggccatga agtccgccgc cgaggtcgtc cacgcggcgc ccatcgccac
+     1021 cgcttgataa ggatcagact tcactagcta cggctgcgcg tgccatgatc cagatatatg
+     1081 ggatgtgtac ggtagtgtac gtggtgctgt acatgccgtc ccgtgttttt ctgcgtaatg
+     1141 tttttacgta ctagactact actagtgtgt gtacgtaacc tggggatgta agtatcgcgt
+     1201 caagtactca agtgtgtgta acgggcgctc taatcgtatt gttctgtgct tcaatggcta
+     1261 ccacgttaga tgggccttgt gctaatgttg ttttatgct
+//
+

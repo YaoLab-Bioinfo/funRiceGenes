@@ -1,0 +1,84 @@
+LOCUS       D85317                  1289 bp    mRNA    linear   PLN 19-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for farnesyl pyrophosphate
+            synthase, complete cds.
+ACCESSION   D85317
+VERSION     D85317.1  GI:2073374
+KEYWORDS    farnesyl pyrophosphate synthase; dimethylallyltransferase;
+            geranyltranstransferase.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sanmiya,K., Iwasaki,T., Matsuoka,M., Miyao,M. and Yamamoto,N.
+  TITLE     Cloning of a cDNA that encodes farnesyl diphosphate synthase and
+            the blue-light-induced expression of the corresponding gene in the
+            leaves of rice plants
+  JOURNAL   Biochim. Biophys. Acta 1350 (3), 240-246 (1997)
+   PUBMED   9061016
+REFERENCE   2  (bases 1 to 1289)
+  AUTHORS   Sanmiya,K., Iwasaki,T., Matsuoka,M., Miyao,M. and Yamamoto,N.
+  TITLE     Cloning of cDNA encoding farnesyl pyrophosphate synthase and blue
+            light -induced expression in the leaves of rice plants
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1289)
+  AUTHORS   Yamamoto,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-APR-1996) Contact:Naoki Yamamoto National Institute
+            of Agrobiological Resources, Laboratory of Photosynthesis;
+            Kannondai 2-1-2, Tsukuba, Ibaraki 305, Japan
+COMMENT     Sequence updated (24-Aug-1996) by: Naoki Yamamoto.
+FEATURES             Location/Qualifiers
+     source          1..1289
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="No. 80"
+                     /tissue_type="leaf"
+                     /clone_lib="3 hr L cDNA library"
+                     /dev_stage="14-day-old etiolated seedling"
+     CDS             42..1103
+                     /EC_number="2.5.1.1"
+                     /EC_number="2.5.1.10"
+                     /note="dimethylallyltransferase;
+                     geranyltranstransferase"
+                     /codon_start=1
+                     /product="farnesyl pyrophosphate synthase"
+                     /protein_id="BAA19856.1"
+                     /db_xref="GI:2073375"
+                     /translation="MAAAVVANGASGDSSKAAFAEIYSRLKEEMLEDPAFEFTDESLQ
+                     WIDRMLDYNVLGGKCNRGISVIDSFKMLKGTDVLNKEETFLACTLGWCIEWLQAYFLV
+                     LDDIMDNSQTRRGQPCWFRVPQVGLIAVNDGIILRNHISRILQRHFKGKLYYVDLIDL
+                     FNEVEFKTASGQLLDLITTHEGEKDLTKYNLTVHRRIVQYKTAYYSFYLPVACALLLS
+                     GENLDNFGDVKNILVEMGTYFQVQDDYLDCYGDPEFIGKIGTDIEDYKCSWLVVQALE
+                     RADENQKHILFENYGKPDPECVAKVKDLYKELNLEAVFHEYERESYNKLIADIEAHPN
+                     KAVQNVLKSFLHKIYKRQK"
+     polyA_site      1289
+                     /note="76 a nucleotides"
+ORIGIN      
+        1 ccctcgcatc gcacgtgagg cagtcgaggg atagcggcgc aatggcggcg gcggtggtgg
+       61 cgaacggcgc gagcggcgac tcctccaagg ccgcgttcgc ggagatatac agcaggctca
+      121 aggaggagat gctcgaggac ccggccttcg agttcaccga cgagtcgctc cagtggatcg
+      181 accgcatgct ggattacaat gtgctcggag gaaagtgcaa ccgcgggatc tctgtcattg
+      241 atagtttcaa gatgttgaag ggcactgatg ttctgaataa ggaggagaca tttcttgcct
+      301 gcacccttgg ttggtgcatt gaatggcttc aagcttattt tcttgtgctt gatgatatta
+      361 tggacaactc tcaaacacga cgtggccagc cttgctggtt tagggtgcct caggttgggc
+      421 tcattgctgt aaatgatggt attatccttc gcaaccatat ttcacgaatt cttcaacgcc
+      481 attttaaagg aaagctgtat tatgttgatc tcattgattt gttcaatgag gttgagttta
+      541 agactgcttc aggtcaattg ttggatctta ttactactca tgagggagaa aaggatctca
+      601 caaagtacaa cttgacagtt caccgccgca ttgttcagta caagacagct tactactcat
+      661 tctatcttcc ggttgcatgt gctttgctgc tatctggtga gaatttggat aacttcggtg
+      721 atgttaagaa cattcttgtg gaaatgggga catacttcca agttcaggat gattatctag
+      781 attgttatgg tgatcctgag tttattggca agattggaac ggacattgaa gactacaagt
+      841 gctcatggtt agttgtgcaa gctctcgagc gtgctgacga gaaccaaaag cacattctat
+      901 ttgaaaatta tgggaagcca gatcctgaat gtgttgcaaa agtgaaggat ctgtataaag
+      961 aacttaatct ggaggccgta tttcatgaat acgagaggga gagttacaat aagctgattg
+     1021 ccgacatcga agcacatccg aacaaagcag ttcagaatgt attgaaatcc ttcctgcaca
+     1081 agatctacaa gaggcagaag tagagctaag ctcatggaga agctgtttca tgtttgcttg
+     1141 gtaactagag tcgtggggac aaataactgg taactagaat catggggact gttccctgat
+     1201 gttgtgtgta ttatggttat gttcgtaccg tgtagtacag cgtgctactc cgtaaaataa
+     1261 tgaagcatgg tgctatttat gcgtgcgtg
+//
+

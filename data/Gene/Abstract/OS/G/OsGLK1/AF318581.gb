@@ -1,0 +1,83 @@
+LOCUS       AF318581                1965 bp    mRNA    linear   PLN 08-MAY-2001
+DEFINITION  Oryza sativa putative transcription factor OsGLK1 (Glk1) mRNA,
+            complete cds.
+ACCESSION   AF318581
+VERSION     AF318581.1  GI:13940497
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1965)
+  AUTHORS   Rossini,L., Cribb,L., Martin,D.J. and Langdale,J.A.
+  TITLE     The maize golden2 gene defines a novel class of transcriptional
+            regulators in plants
+  JOURNAL   Plant Cell 13 (5), 1231-1244 (2001)
+   PUBMED   11340194
+REFERENCE   2  (bases 1 to 1965)
+  AUTHORS   Rossini,L., Cribb,L. and Langdale,J.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-NOV-2000) Plant Sciences, University of Oxford, South
+            Parks Road, Oxford OX1 3RB, UK
+FEATURES             Location/Qualifiers
+     source          1..1965
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR36 inbred line"
+                     /db_xref="taxon:39946"
+                     /chromosome="3"
+                     /tissue_type="leaf"
+     gene            1..1965
+                     /gene="Glk1"
+     CDS             215..1582
+                     /gene="Glk1"
+                     /codon_start=1
+                     /product="putative transcription factor OsGLK1"
+                     /protein_id="AAK50393.1"
+                     /db_xref="GI:13940498"
+                     /translation="MLAVSPAMCPDIEDRAAVAGDAGMEVVGMSSDDMDQFDFSVDDI
+                     DFGDFFLRLEDGDVLPDLEVDPAEIFTDFEAIATSGGEGVQDQEVPTVELLAPADDVG
+                     VLDPCGDVVVGKENAAFAGAGEEKGGCNQDDDAGEANADDGAAAVEAKSSSPSSSTSS
+                     SQEAESRHKSSSKSSHGKKKAKVDWTPELHRRFVQAVEQLGIDKAVPSRILEIMGIDS
+                     LTRHNIASHLQKYRSHRKHMIAREAEAASWTQRRQIYAAGGGAVAKRPESNAWTVPTI
+                     GFPPPPPPPPSPAPMQHFARPLHVWGHPTMDPSRVPVWPPRHLVPRGPAPPWVPPPPP
+                     SDPAFWHHPYMRGPAHVPTQGTPCMAMPMPAARFPAPPVPGVVPCPMYRPLTPPALTS
+                     KNQQDAQLQLQVQPSSESIDAAIGDVLSKPWLPLPLGLKPPSVDSVMGELQRQGVANV
+                     PPACG"
+ORIGIN      
+        1 gcacctagtc accaccgcac caaccgcgcg cgaccggccc cccgtcagtc gcaagctgag
+       61 cctgagcgag caactgatgc cgctagctat agctgctgcc tgcagcacgc agcgcccgta
+      121 acctaacgta tcatttactt ccattgcact gcacatcctg tgagttagtt gtctgagtga
+      181 gagctggacg tgctgcaccg agctcctggc cgagatgctt gccgtgtcgc cggcgatgtg
+      241 ccccgacatt gaggaccgcg ccgcggtggc cggcgatgct ggcatggagg tcgtcgggat
+      301 gtcgtcggac gacatggatc agttcgactt ctccgtcgat gacatagact tcggggactt
+      361 cttcctgagg ctggaggacg gtgatgtgct cccggacctc gaggtcgacc cggccgagat
+      421 cttcaccgac ttcgaggcaa tcgcgacgag tggaggcgaa ggtgtgcagg accaggaggt
+      481 gcccaccgtc gagctcttgg cgcctgcgga cgacgtcggt gtgctggatc cgtgcggcga
+      541 tgtcgtcgtc gggaaggaga acgcggcgtt tgccggggct ggagaggaga agggagggtg
+      601 taaccaggac gatgatgcgg gggaagcgaa tgccgacgat ggagccgcgg cggttgaggc
+      661 caagtcttcg tcgccgtcat cgtcgacgtc gtcgtcgcag gaggctgaga gccggcacaa
+      721 gtcatccagc aagagctccc atgggaagaa gaaagcgaag gtggactgga cgcctgagct
+      781 tcaccggagg ttcgtgcagg cggtggagca gctcggcatc gacaaggccg tgccgtcgag
+      841 gatacttgag atcatgggga tcgactcgct cacccggcac aacatagcca gccatcttca
+      901 gaagtaccgg tcacacagaa aacacatgat tgcgagagag gcggaggcag cgagttggac
+      961 ccaacggcgg cagatttacg ccgccggtgg aggtgctgtt gcgaagaggc cggagtccaa
+     1021 cgcgtggacc gtgccaacca ttggcttccc tcctcctccg ccaccaccac catcaccggc
+     1081 tccgatgcaa cattttgctc gcccgttgca tgtttggggc cacccgacga tggacccgtc
+     1141 ccgagttcca gtgtggccac cgcggcacct cgttccccgt ggcccggcgc caccatgggt
+     1201 tccaccgccg ccgccgtcgg accctgcttt ctggcaccac ccttacatga gggggccagc
+     1261 acatgtgcca actcaaggga caccttgcat ggcgatgccc atgccagctg cgagatttcc
+     1321 tgctccaccg gtgccaggag ttgtcccgtg tccaatgtat aggccattga ctccaccagc
+     1381 actgacgagc aagaatcagc aggacgcaca gcttcaactc caggttcaac catcaagcga
+     1441 gagcatcgac gcagctatcg gtgatgtttt atcgaaaccg tggttgcctt tgcctcttgg
+     1501 actgaagcca ccttcagtgg acagtgtgat gggcgagctg cagaggcaag gcgtagcaaa
+     1561 tgttcctcca gcgtgtggat gatatttgca tgatagattg atggttccgt tactgactga
+     1621 ttgcatatct ggtcagttca ccaaaaaatg ggaaaattcg ccgacatgtc cttttatttt
+     1681 tcttttggcc ctagcgtttc ttggacattt cgtttaattt ttaacttgtg cagagttcga
+     1741 aagacatctt tgtttcgact ccgggagaaa ttaacctgcg tattgtaaat gtaaaatgta
+     1801 tttgccgtga gttctcagca gctaagaata aattaaataa tggtcctccg agtagggttt
+     1861 acttgatttt gcgtgttggt gttggttcaa acgctctaat atctaaattc cgcattgtac
+     1921 tattttcaca aaggaaagta gcccccgcaa ttgcacaggc ttctt
+//
+

@@ -1,0 +1,80 @@
+LOCUS       EF061888                1589 bp    mRNA    linear   PLN 06-NOV-2008
+DEFINITION  Oryza sativa (japonica cultivar-group) development related ERF
+            protein (DRE) mRNA, complete cds.
+ACCESSION   EF061888
+VERSION     EF061888.1  GI:117501524
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1589)
+  AUTHORS   Hu,Y., Zhao,L., Chong,K. and Wang,T.
+  TITLE     Overexpression of OsERF1, a novel rice ERF gene, up-regulates
+            ethylene-responsive genes expression besides affects growth and
+            development in Arabidopsis
+  JOURNAL   J. Plant Physiol. 165 (16), 1717-1725 (2008)
+   PUBMED   18313797
+REFERENCE   2  (bases 1 to 1589)
+  AUTHORS   Hu,Y.-B. and Wang,T.
+  TITLE     OsDRE, a rice ERF gene, is fatal in homozygotes and pleiotropic in
+            heterozygotes when expressed in Arabidopsis
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1589)
+  AUTHORS   Hu,Y.-B. and Wang,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-OCT-2006) Developmental Center, Institute of Botany,
+            CAS, Nanxincun 20#, Xiangshan, Beijing 100093, China
+FEATURES             Location/Qualifiers
+     source          1..1589
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua 10"
+                     /db_xref="taxon:39947"
+                     /chromosome="4"
+     gene            1..1589
+                     /gene="DRE"
+     CDS             86..1042
+                     /gene="DRE"
+                     /note="OsDRE; transcription factor"
+                     /codon_start=1
+                     /product="development related ERF protein"
+                     /protein_id="ABK34954.1"
+                     /db_xref="GI:117501525"
+                     /translation="MTARSMLRNHPEASVLDTIRQHLLEEPRGGGGGEAAEASFGSLV
+                     ADMWSDSLPFRDDDADDMVVFGAMRDAFSCGWLPDGVFAEVKPEPLLSPDSSSYDGSS
+                     CCFGFADVSEPVTPSDAASGAAEAAAAAAAATAEHGKEEEAAAAVARGKHYRGVRQRP
+                     WGKFAAEIRDPAKNGARVWLGTFDTAEDAALAYDRAAYRMRGSRALLNFPLRIGSEIA
+                     AAAAAAAAAAAGDKRPSPEPATSESSFSSSSSCTTTTTSSSTSSSGSPKRRKRGEAAA
+                     ASMSMPLVPPPSQLNWPVQAWYPAAAPVEQVAITPRVEQLVI"
+ORIGIN      
+        1 accattcaac tcgaacacac cacacactga agtgtgtaac caagtttgag acagaggcga
+       61 ggtcgggtca gcaaggaaga cggcgatgac ggcgcgaagc atgttgcgga accacccgga
+      121 ggcgtcggtg ctcgacacca tccggcagca cctgctggag gagccgcgcg gcggcggcgg
+      181 tggcgaggcg gcggaggcga gcttcgggag cctggtggcc gacatgtgga gcgactcgct
+      241 gccgttccgc gacgacgacg ccgacgacat ggtggtgttc ggcgcgatgc gggacgcgtt
+      301 ctcgtgcggg tggctgcccg acggcgtgtt cgcggaggtg aagccggagc ccctgctctc
+      361 gccggactcg tcgtcgtacg acgggtcctc ttgctgcttc ggcttcgcgg acgtgtcgga
+      421 gccggtgacg ccgagcgacg cggcgtcggg ggcggcagaa gcggcggccg cggcggcggc
+      481 ggcgacggcg gagcacggga aggaggagga ggccgcggct gcggtggcga gggggaagca
+      541 ctacaggggg gtgaggcagc ggccgtgggg caagttcgcg gcggagatcc gggaccccgc
+      601 caagaacggc gcgcgcgtgt ggctcggcac gttcgacacc gccgaggacg ccgccctggc
+      661 gtacgaccgc gccgcctacc gcatgcgtgg ctcccgcgcg ctcctcaact tcccgctccg
+      721 catcggctcg gagatcgcag ccgccgccgc cgccgcagcg gcagcggcag ccggcgacaa
+      781 gcggccgtcg ccggagccgg cgacctcgga gtcgtccttc tcctcctcat cctcctgcac
+      841 caccaccacc acctcctcct caacctcctc ctccggctcc ccgaaacgga gaaagagagg
+      901 cgaggccgcg gccgcgtcca tgtccatgcc cctggtgccc ccgccttccc agctgaactg
+      961 gccggtgcag gcatggtacc ccgccgccgc accggtcgag caggtggcga tcaccccgcg
+     1021 cgtggagcag ctcgtcatct aaagcgcgcg acgcacagtg aagcaagcaa accaagccag
+     1081 caatggtcga cgtcatatca ccttgacgcc ccaacggatt gaccagcgag cacgagccag
+     1141 ccattgcttt gcacggcgcg agacggcaaa gggatcaggc gatggaaccc cgtgagcgcg
+     1201 acggcgcaag cgagcagcat ccccgcgaaa gctccaccgg atgcaaaatt gcaaacgcga
+     1261 taagctcgcg ggtgcaactg gtgaaattgg gtggtgcaat cgtgtgtggg cgagctctag
+     1321 cagatagtag cgtggtggtg gtggtggtat tgttgtcccg gcgcaactcg cccaagtggg
+     1381 ggggtgagga ggatactctg tgtctactag cgtgttcttg tcagggaatg cacggtgtcg
+     1441 tcaagtgtgc aaatcctaag ggtcataatt cgcgtcattg tcactagtgg atcacccgag
+     1501 tgagtttgtg agggtttcag tgaaaaaaaa aaactgtaca aacgatgtct tgtggtgtgg
+     1561 agaagcagca gagatgaaga acaatcaat
+//
+

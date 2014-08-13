@@ -1,0 +1,297 @@
+LOCUS       NTRB_ORYSJ               331 aa            linear   PLN 14-MAY-2014
+DEFINITION  RecName: Full=Thioredoxin reductase NTRB; AltName:
+            Full=NADPH-dependent thioredoxin reductase B; Short=OsNTRB.
+ACCESSION   Q6ZFU6
+VERSION     Q6ZFU6.1  GI:75135599
+DBSOURCE    UniProtKB: locus NTRB_ORYSJ, accession Q6ZFU6;
+            class: standard.
+            created: Jun 15, 2010.
+            sequence updated: Jul 5, 2004.
+            annotation updated: May 14, 2014.
+            xrefs: AP004165.3, BAD07786.1, AP008208.2, BAF09825.1, CM000139.1,
+            EEE57677.1, AK071251.1, BAG92394.1, NP_001047911.1
+            xrefs (non-sequence databases): UniGene:Os.100321,
+            ProteinModelPortal:Q6ZFU6, EnsemblPlants:OS02T0713400-01,
+            EnsemblPlants:OS02T0713400-01, EnsemblPlants:OS02G0713400,
+            GeneID:4330505, KEGG:osa:4330505, Gramene:Q6ZFU6, eggNOG:COG0492,
+            KO:K00384, OMA:EEMFNAK, GO:0005737, GO:0050660, GO:0004791,
+            GO:0019430, InterPro:IPR013027, InterPro:IPR008255,
+            InterPro:IPR023753, InterPro:IPR001327, InterPro:IPR000103,
+            InterPro:IPR005982, Pfam:PF00070, Pfam:PF07992, PRINTS:PR00368,
+            PRINTS:PR00469, TIGRFAMs:TIGR01292, PROSITE:PS00573
+KEYWORDS    Complete proteome; Disulfide bond; Electron transport; FAD;
+            Flavoprotein; NADP; Oxidoreductase; Redox-active center; Reference
+            proteome; Transport.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 331)
+  CONSRTM   International Rice Genome Sequencing Project
+  TITLE     The map-based sequence of the rice genome
+  JOURNAL   Nature 436 (7052), 793-800 (2005)
+   PUBMED   16100779
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   2  (residues 1 to 331)
+  AUTHORS   Tanaka,T., Antonio,B.A., Kikuchi,S., Matsumoto,T., Nagamura,Y.,
+            Numa,H., Sakai,H., Wu,J., Itoh,T., Sasaki,T., Aono,R., Fujii,Y.,
+            Habara,T., Harada,E., Kanno,M., Kawahara,Y., Kawashima,H.,
+            Kubooka,H., Matsuya,A., Nakaoka,H., Saichi,N., Sanbonmatsu,R.,
+            Sato,Y., Shinso,Y., Suzuki,M., Takeda,J., Tanino,M., Todokoro,F.,
+            Yamaguchi,K., Yamamoto,N., Yamasaki,C., Imanishi,T., Okido,T.,
+            Tada,M., Ikeo,K., Tateno,Y., Gojobori,T., Lin,Y.C., Wei,F.J.,
+            Hsing,Y.I., Zhao,Q., Han,B., Kramer,M.R., McCombie,R.W.,
+            Lonsdale,D., O'Donovan,C.C., Whitfield,E.J., Apweiler,R.,
+            Koyanagi,K.O., Khurana,J.P., Raghuvanshi,S., Singh,N.K.,
+            Tyagi,A.K., Haberer,G., Fujisawa,M., Hosokawa,S., Ito,Y., Ikawa,H.,
+            Shibata,M., Yamamoto,M., Bruskiewich,R.M., Hoen,D.R., Bureau,T.E.,
+            Namiki,N., Ohyanagi,H., Sakai,Y., Nobushima,S., Sakata,K.,
+            Barrero,R.A., Sato,Y., Souvorov,A., Smith-White,B., Tatusova,T.,
+            An,S., An,G., OOta,S., Fuks,G., Fuks,G., Messing,J., Christie,K.R.,
+            Lieberherr,D., Kim,H., Zuccolo,A., Wing,R.A., Nobuta,K.,
+            Green,P.J., Lu,C., Meyers,B.C., Chaparro,C., Piegu,B., Panaud,O.
+            and Echeverria,M.
+  CONSRTM   Rice Annotation Project
+  TITLE     The Rice Annotation Project Database (RAP-DB): 2008 update
+  JOURNAL   Nucleic Acids Res. 36 (DATABASE ISSUE), D1028-D1033 (2008)
+   PUBMED   18089549
+  REMARK    GENOME REANNOTATION.;
+            STRAIN=cv. Nipponbare
+REFERENCE   3  (residues 1 to 331)
+  AUTHORS   Yu,J., Wang,J., Lin,W., Li,S., Li,H., Zhou,J., Ni,P., Dong,W.,
+            Hu,S., Zeng,C., Zhang,J., Zhang,Y., Li,R., Xu,Z., Li,S., Li,X.,
+            Zheng,H., Cong,L., Lin,L., Yin,J., Geng,J., Li,G., Shi,J., Liu,J.,
+            Lv,H., Li,J., Wang,J., Deng,Y., Ran,L., Shi,X., Wang,X., Wu,Q.,
+            Li,C., Ren,X., Wang,J., Wang,X., Li,D., Liu,D., Zhang,X., Ji,Z.,
+            Zhao,W., Sun,Y., Zhang,Z., Bao,J., Han,Y., Dong,L., Ji,J., Chen,P.,
+            Wu,S., Liu,J., Xiao,Y., Bu,D., Tan,J., Yang,L., Ye,C., Zhang,J.,
+            Xu,J., Zhou,Y., Yu,Y., Zhang,B., Zhuang,S., Wei,H., Liu,B., Lei,M.,
+            Yu,H., Li,Y., Xu,H., Wei,S., He,X., Fang,L., Zhang,Z., Zhang,Y.,
+            Huang,X., Su,Z., Tong,W., Li,J., Tong,Z., Li,S., Ye,J., Wang,L.,
+            Fang,L., Lei,T., Chen,C., Chen,H., Xu,Z., Li,H., Huang,H.,
+            Zhang,F., Xu,H., Li,N., Zhao,C., Li,S., Dong,L., Huang,Y., Li,L.,
+            Xi,Y., Qi,Q., Li,W., Zhang,B., Hu,W., Zhang,Y., Tian,X., Jiao,Y.,
+            Liang,X., Jin,J., Gao,L., Zheng,W., Hao,B., Liu,S., Wang,W.,
+            Yuan,L., Cao,M., McDermott,J., Samudrala,R., Wang,J., Wong,G.K. and
+            Yang,H.
+  TITLE     The Genomes of Oryza sativa: a history of duplications
+  JOURNAL   PLoS Biol. 3 (2), E38 (2005)
+   PUBMED   15685292
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;
+            STRAIN=cv. Nipponbare
+REFERENCE   4  (residues 1 to 331)
+  AUTHORS   Kikuchi,S., Satoh,K., Nagata,T., Kawagashira,N., Doi,K.,
+            Kishimoto,N., Yazaki,J., Ishikawa,M., Yamada,H., Ooka,H., Hotta,I.,
+            Kojima,K., Namiki,T., Ohneda,E., Yahagi,W., Suzuki,K., Li,C.J.,
+            Ohtsuki,K., Shishiki,T., Otomo,Y., Murakami,K., Iida,Y., Sugano,S.,
+            Fujimura,T., Suzuki,Y., Tsunoda,Y., Kurosaki,T., Kodama,T.,
+            Masuda,H., Kobayashi,M., Xie,Q., Lu,M., Narikawa,R., Sugiyama,A.,
+            Mizuno,K., Yokomizo,S., Niikura,J., Ikeda,R., Ishibiki,J.,
+            Kawamata,M., Yoshimura,A., Miura,J., Kusumegi,T., Oka,M., Ryu,R.,
+            Ueda,M., Matsubara,K., Kawai,J., Carninci,P., Adachi,J., Aizawa,K.,
+            Arakawa,T., Fukuda,S., Hara,A., Hashizume,W., Hayatsu,N.,
+            Imotani,K., Ishii,Y., Itoh,M., Kagawa,I., Kondo,S., Konno,H.,
+            Miyazaki,A., Osato,N., Ota,Y., Saito,R., Sasaki,D., Sato,K.,
+            Shibata,K., Shinagawa,A., Shiraki,T., Yoshino,M., Hayashizaki,Y.
+            and Yasunishi,A.
+  CONSRTM   Rice Full-Length cDNA Consortium; National Institute of
+            Agrobiological Sciences Rice Full-Length cDNA Project Team;
+            Foundation of Advancement of International Science Genome
+            Sequencing & Analysis Group; RIKEN
+  TITLE     Collection, mapping, and annotation of over 28,000 cDNA clones from
+            japonica rice
+  JOURNAL   Science 301 (5631), 376-379 (2003)
+   PUBMED   12869764
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA].;
+            STRAIN=cv. Nipponbare
+            Erratum:[Science. 2003 Sep;301(5641):1849]
+COMMENT     [FUNCTION] Possesses thioredoxin-disulfide reductase activity (By
+            similarity).
+            [CATALYTIC ACTIVITY] Thioredoxin + NADP(+) = thioredoxin disulfide
+            + NADPH.
+            [COFACTOR] Binds 1 FAD per subunit (By similarity).
+            [SUBUNIT] Homodimer (By similarity).
+            [MISCELLANEOUS] The active site is a redox-active disulfide bond
+            (By similarity).
+            [SIMILARITY] Belongs to the class-II pyridine nucleotide-disulfide
+            oxidoreductase family.
+FEATURES             Location/Qualifiers
+     source          1..331
+                     /organism="Oryza sativa Japonica Group"
+                     /db_xref="taxon:39947"
+     gene            1..331
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+     Protein         1..331
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /product="Thioredoxin reductase NTRB"
+                     /EC_number="1.8.1.9"
+                     /note="NADPH-dependent thioredoxin reductase B; OsNTRB"
+                     /UniProtKB_evidence="Evidence at transcript level"
+     Region          1..331
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Thioredoxin reductase NTRB. /FTId=PRO_0000394858."
+     Region          13..320
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /region_name="TRX_reduct"
+                     /note="thioredoxin-disulfide reductase; TIGR01292"
+                     /db_xref="CDD:233345"
+     Region          13..>80
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /region_name="NAD_binding_8"
+                     /note="NAD(P)-binding Rossmann-like domain; cl19134"
+                     /db_xref="CDD:267487"
+     Site            18..21
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="np-binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            39..40
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="np-binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            47..52
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="np-binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            61
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            94
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD; via amide nitrogen and carbonyl oxygen (By
+                     similarity)."
+     Bond            bond(145,148)
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /bond_type="disulfide"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Redox-active (By similarity)."
+     Site            148
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Region          160..218
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /region_name="Pyr_redox"
+                     /note="Pyridine nucleotide-disulphide oxidoreductase;
+                     pfam00070"
+                     /db_xref="CDD:249559"
+     Site            169
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="other"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Important for activity (By similarity)."
+     Site            188
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="other"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="Important for activity (By similarity)."
+     Site            293
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+     Site            300..302
+                     /gene="NTRB"
+                     /locus_tag="Os02g0713400"
+                     /gene_synonym="LOC_Os02g48290"
+                     /gene_synonym="OJ1479_B12.9"
+                     /gene_synonym="OsJ_08126"
+                     /site_type="np-binding"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="FAD (By similarity)."
+ORIGIN      
+        1 megsagaplr trvciigsgp sahtaaiyaa raelkpvlfe gwlandiaag gqlttttdve
+       61 nfpgfpegil ggelmdrcra qslrfgtsii setvtavdfs arpfrvasds ttvladavvv
+      121 atgavarrlh fagsdaywnr gisacavcdg aapifrnkpi avigggdsam eesnfltkyg
+      181 shvyiihrrn tfraskimqa ralsnpkiqv fwdsevveay ggegggplag vkvknlvtgk
+      241 isdlqvsglf faighepatk flggqlelda dgyvatkpgs thtsvkgvfa agdvqdkkyr
+      301 qaitaagsgc maaldaehyl qevgaqegka d
+//
+

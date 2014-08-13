@@ -1,0 +1,58 @@
+LOCUS       BAE48302                 203 aa            linear   PLN 15-FEB-2008
+DEFINITION  OsWOX3 protein [Oryza sativa Japonica Group].
+ACCESSION   BAE48302
+VERSION     BAE48302.1  GI:81686872
+DBSOURCE    accession AB218893.1
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Nagasaki,H., Matsuoka,M. and Sato,Y.
+  TITLE     Members of TALE and WUS subfamilies of homeodomain proteins with
+            potentially important functions in development form dimers within
+            each subfamily in rice
+  JOURNAL   Genes Genet. Syst. 80 (4), 261-267 (2005)
+   PUBMED   16284419
+REFERENCE   2  (residues 1 to 203)
+  AUTHORS   Nagasaki,H., Matsuoka,M. and Sato,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2005) Contact:Yutaka Sato Nagoya University,
+            Graduate School of Bioagricultural Sciences; Furo-cho. Chikusa,
+            Nagoya, Aichi 464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..203
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Taichung 65"
+                     /db_xref="taxon:39947"
+                     /tissue_type="inflorescence"
+                     /country="Japan"
+     Protein         1..203
+                     /product="OsWOX3 protein"
+     Region          5..60
+                     /region_name="homeodomain"
+                     /note="Homeodomain;  DNA binding domains involved in the
+                     transcriptional regulation of key eukaryotic developmental
+                     processes; may bind to DNA as monomers or as homo- and/or
+                     heterodimers, in a sequence-specific manner; cd00086"
+                     /db_xref="CDD:238039"
+     Site            order(5..9,11,29,35,52,54..55,58..59)
+                     /site_type="DNA binding"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238039"
+     Site            order(7,10,55,58..59)
+                     /site_type="other"
+                     /note="specific DNA base contacts [nucleotide binding]"
+                     /db_xref="CDD:238039"
+     CDS             1..203
+                     /gene="OsWOX3"
+                     /coded_by="AB218893.1:1..612"
+ORIGIN      
+        1 mpqtpstrwc ptpeqlmile emyrsgvrtp naaeiqqita hlayygrieg knvfywfqnh
+       61 karerqrlrr rlcarhqqqp sppsstvppa ptaaaagavv qvhpavmqlh hhhhhhhpya
+      121 aaaaaqshhl qqqqqqqaew paavdycsta sasasataad maippccrpl ktlelfptks
+      181 tsgglkedcc ssskssscst stn
+//
+

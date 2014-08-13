@@ -1,0 +1,103 @@
+LOCUS       BAD72512                 420 aa            linear   PLN 16-FEB-2008
+DEFINITION  bHLH transcription factor PTF1-like [Oryza sativa Japonica Group].
+ACCESSION   BAD72512
+VERSION     BAD72512.1  GI:55773907
+DBSOURCE    accession AP005919.3
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sasaki,T., Matsumoto,T. and Katayose,Y.
+  TITLE     Oryza sativa nipponbare(GA3) genomic DNA, chromosome 6, PAC
+            clone:P0554A06
+  JOURNAL   Published Only in Database (2002)
+REFERENCE   2  (residues 1 to 420)
+  AUTHORS   Sasaki,T., Matsumoto,T. and Katayose,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-NOV-2002) Contact:Takuji Sasaki National Institute of
+            Agrobiological Sciences, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan URL
+            :http://rgp.dna.affrc.go.jp/
+COMMENT     Genes were predicted from the integrated results of the following:
+            GENSCAN (http://CCR-081.mit.edu/GENSCAN.html), FGENESH
+            (http://www.softberry.com/), GeneMark.hmm
+            (http://opal.biology.gatech.edu/GeneMark/), GlimmerM
+            (http://www.tigr.org/tdb/glimmerm/glmr_form.html), RiceHMM
+            (http://rgp.dna.affrc.go.jp/RiceHMM/), SplicePredictor
+            (http://bioinformatics.iastate.edu/cgi-bin/sp.cgi), sim4
+            (http://globin.cse.psu.edu/html/docs/sim4.html), gap2
+            (http://www.tigr.org/software/glimmerm/), BLASTN and BLASTX. The
+            genomic sequence was searched against NCBI NonRedundant Protein
+            database, nr (ftp://ncbi.nlm.nih.gov/blast/db) and the cDNA
+            sequence database at RGP or DDBJ. Protein homologies of the coding
+            regions were searched against NCBI NonRedundant Protein database
+            with BLASTP. ESTs represent the identified cDNA sequences using
+            BLASTN with the corresponding DDBJ accession no. and RGP clone ID.
+            Full-length cDNAs represent the identified cDNA sequences using
+            BLASTN with the corresponding DDBJ accession no.
+            A gene with identity or significant homology to a protein is
+            classified based on the protein name to indicate the homology level
+            such as same name, 'putative-' and '-like protein'.  A gene without
+            significant homology to any protein but with full-length cDNA or
+            EST homology (covering almost the entire length of partial
+            sequence) is classified as an 'unknown' protein. A gene predicted
+            by two or more gene prediction programs is classified as a
+            'hypothetical' protein according to IRGSP standard. A gene
+            predicted by a single gene prediction program is also classified as
+            a probable 'hypothetical' protein and is included as a
+            miscellaneous feature of the sequence.
+            The orientation of the sequence is from SP6 to T7 of the PAC clone.
+            This sequence of P0554A06 clone has an overlap with OSJNBb0036B04
+            clone (DDBJ: AP007226) at 5' end and an overlap with P0568D10
+            (DDBJ: AP003489) at 3' end. Detailed information on overlap and
+            assembly quality together with annotation of this entry is
+            available at http://rgp.dna.affrc.go.jp/GenomeSeq.html.
+FEATURES             Location/Qualifiers
+     source          1..420
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+                     /clone="P0554A06"
+     Protein         1..420
+                     /product="bHLH transcription factor PTF1-like"
+     Region          208..264
+                     /region_name="HLH"
+                     /note="Helix-loop-helix domain, found in specific DNA-
+                     binding proteins that act as transcription factors; 60-100
+                     amino acids long. A DNA-binding basic region is followed
+                     by two alpha-helices separated by a variable loop region;
+                     HLH forms homo- and heterodimers; cd00083"
+                     /db_xref="CDD:238036"
+     Site            order(211..212,218..220,222,242,245)
+                     /site_type="DNA binding"
+                     /note="DNA binding region [nucleotide binding]"
+                     /db_xref="CDD:238036"
+     Site            219
+                     /site_type="other"
+                     /note="E-box/N-box specificity site"
+                     /db_xref="CDD:238036"
+     Site            order(225..226,229..230,232..233,246,249,253,255..256,260,
+                     262..263)
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238036"
+     CDS             1..420
+                     /gene="P0554A06.9"
+                     /coded_by="complement(join(AP005919.3:48245..48646,
+                     AP005919.3:48748..48816,AP005919.3:48902..48967,
+                     AP005919.3:49227..49292,AP005919.3:49618..49776,
+                     AP005919.3:49863..49940,AP005919.3:50032..50454))"
+ORIGIN      
+        1 mqpssrdtva ggggegtqdd ffdqmlstlp sawadlgggg ggaagkspwe vdpaaaaaas
+       61 qvfdesalla srlrhhqigg agggggekpv mlqlselhrq agggeedgsg afsplplftd
+      121 rtnvppreem eggfkspnaa aggehalfng fgvhggsgga gqppfgqggs msgqsfggpa
+      181 asggtapvts sggggtappr qqrvrarrgq atdphsiaer lrreriaerm kslqelvpna
+      241 nktdkasmld eiidyvkflq lqvkvlsmsr lggaagmapl vasmssegns ngssnggggk
+      301 askggtggeg gggggggggg gtgggmrvte qqvakmmeed mgtamqylqg kglclmpisl
+      361 asaissatss asllsrpsir hagappqtml daagptspaa msngddprha kadggaggtq
+//
+

@@ -1,0 +1,63 @@
+LOCUS       D88620                  1014 bp    mRNA    linear   PLN 11-NOV-1997
+DEFINITION  Oryza sativa mRNA for OSMYB4, complete cds.
+ACCESSION   D88620
+VERSION     D88620.1  GI:2605622
+KEYWORDS    Osmyb4.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Suzuki,A., Suzuki,T., Tanabe,F., Toki,S., Washida,H., Wu,C.Y. and
+            Takaiwa,F.
+  TITLE     Cloning and expression of five myb-related genes from rice seed
+  JOURNAL   Gene 198 (1-2), 393-398 (1997)
+   PUBMED   9370307
+REFERENCE   2  (bases 1 to 1014)
+  AUTHORS   Suzuki,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-1996) Akihiro Suzuki, National Institute of
+            Agrobiological Resources, Department of Biotechnology; Kannondai
+            2-1-2, Tsukuba City 305, Japan (E-mail:hnskhrk@abr.affrc.go.jp,
+            Tel:+81-298-38-8450, Fax:+81-298-38-8397)
+FEATURES             Location/Qualifiers
+     source          1..1014
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="seed"
+     gene            1..1014
+                     /gene="Osmyb4"
+     CDS             55..882
+                     /gene="Osmyb4"
+                     /function="transfactor"
+                     /codon_start=1
+                     /product="OSMYB4"
+                     /protein_id="BAA23340.1"
+                     /db_xref="GI:2605623"
+                     /translation="MKRKRPAALRGGEEAAAAALKRGPWTPEEDEVLARFVAREGCDR
+                     WRTLPRRAGLLRCGKSCRLRWMNYLRPDIKRCPIADDEEDLILRLHRLLGNRWSLIAG
+                     RLPGRTDNEIKNYWNSHLSKKLIAQGIDPRTHKPLTAAADHSNAAAAVAATSYKKAVP
+                     AKPPRTASSPAAGIECSDDRARPADGGGDFAAMVSAADAEGFEGGFGDQFCAEDAVHG
+                     GFDMGSASAMVGDDDFSSFLDSLINDEQLGDLFVVEGNDHEHGNGEIGHGDVMESKQ"
+ORIGIN      
+        1 tctgcgagga ggccaagcta gtcgcgcgca aattaatcgc cgatcgatcc tacgatgaag
+       61 cggaagcggc cggcggcgct gcgcggcggg gaggaggcgg cggcggcggc gctgaagcgt
+      121 gggccgtgga cgcccgagga ggacgaggtg ctggcgcggt tcgtggcgcg ggaggggtgc
+      181 gaccggtggc gcacgctgcc gcggcgcgcg ggcctgctgc gctgcggcaa gagctgccgc
+      241 ctccggtgga tgaactacct ccgccccgac atcaagcgct gccccatcgc cgacgacgag
+      301 gaggacctca tcctccgcct ccaccgcctc ctcggcaacc ggtggtcgct gatcgccggg
+      361 aggttgccgg ggcgcacgga caacgagatc aagaactact ggaactcgca tctcagcaag
+      421 aagctcatcg cgcagggcat cgacccgcgg acgcacaagc cgctgacggc cgccgccgat
+      481 cactccaacg ccgccgctgc cgtcgccgcc acttcttaca agaaggcggt gccggccaag
+      541 ccgccgagga cggcatcctc gccggccgct ggcattgagt gcagcgacga tcgtgcccga
+      601 ccggccgacg gtggcggtga cttcgcagcg atggtgagcg ccgccgatgc cgagggattc
+      661 gaaggaggat ttggcgatca gttctgtgcc gaggatgcag ttcatggtgg cttcgacatg
+      721 ggttccgctt ccgccatggt gggtgacgac gacttctcct cgtttcttga ttctctgatc
+      781 aacgacgagc agttaggcga tctcttcgtc gtcgagggca acgatcacga gcatggcaat
+      841 ggtgagattg gtcatggaga cgtcatggaa tccaaacagt aatctttcgg gagattgatc
+      901 agggaataag ttgaccatga gaaaacatgt aagaacagct tgtctgctga gtcatgaccg
+      961 gtgatgtgta tgtgatggaa gaaaacgtat gtacgactta atgcttgcac ctat
+//
+

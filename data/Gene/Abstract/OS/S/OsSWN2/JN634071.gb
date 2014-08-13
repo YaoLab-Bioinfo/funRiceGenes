@@ -1,0 +1,69 @@
+LOCUS       JN634071                1368 bp    mRNA    linear   PLN 14-OCT-2011
+DEFINITION  Oryza sativa Japonica Group secondary wall NAC transcription factor
+            2 mRNA, complete cds.
+ACCESSION   JN634071
+VERSION     JN634071.1  GI:346991169
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1368)
+  AUTHORS   Zhong,R., Lee,C., McCarthy,R.L., Reeves,C.K., Jones,E.G. and
+            Ye,Z.H.
+  TITLE     Transcriptional Activation of Secondary Wall Biosynthesis by Rice
+            and Maize NAC and MYB Transcription Factors
+  JOURNAL   Plant Cell Physiol. 52 (10), 1856-1871 (2011)
+   PUBMED   21908441
+REFERENCE   2  (bases 1 to 1368)
+  AUTHORS   Zhong,R. and Ye,Z.-H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2011) Department of Plant Biology, University of
+            Georgia, 2502 Miller Plant Sciences, Athens, GA 30602, USA
+FEATURES             Location/Qualifiers
+     source          1..1368
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="japonica"
+                     /db_xref="taxon:39947"
+     CDS             36..1238
+                     /note="OsSWN2"
+                     /codon_start=1
+                     /product="secondary wall NAC transcription factor 2"
+                     /protein_id="AEO53047.1"
+                     /db_xref="GI:346991170"
+                     /translation="MSISVNGQSCVPPGFRFHPTEEELLNYYLRKKVASEQIDLDVIR
+                     DVDLNKLEPWDIQERCKIGSGPQNDWYFFSHKDKKYPTGTRTNRATAAGFWKATGRDK
+                     AIYNAVHRIGMRKTLVFYKGRAPHGQKSDWIMHEYRLDDPATDTAAATPTVTSAAAAA
+                     AAMAAAADGGQEDGWVVCRVFKKKHHHKEAGGGGGKHGGDGSAGAKAAHAYSSSDDAL
+                     DQILQYMGRSCKQEHELPSPQASGGGGAGAGSRPASRYLRPIDTVLGGHGFMKLPPLE
+                     SPSAATALSSTPSTGGDAASSAAAAAADHLLLHHHHRTDWAMMDRLVASHLNGANSDA
+                     PDDQLCFDAADDDGLAYYSAAATRLLGGANAGTDDDLWSFARSAAPPPPPPPPSSATP
+                     ERLSHVAL"
+ORIGIN      
+        1 aggtagcaag aaggagaaga agaagaagat catcaatgag catctcggtg aacgggcagt
+       61 cgtgcgtgcc gccggggttc cggttccacc cgacggagga ggagctgctc aactactacc
+      121 tccgcaagaa ggtcgcctcc gagcagatcg acctcgacgt catccgcgac gtcgacctca
+      181 acaagctcga gccatgggac atccaagaga ggtgtaagat tgggtcaggg ccgcagaacg
+      241 actggtactt cttcagccac aaggacaaga agtacccgac ggggacgagg acgaacaggg
+      301 cgacggcggc cgggttctgg aaggccaccg gccgcgacaa ggccatctac aacgccgtcc
+      361 accgcattgg catgcgcaag acgctcgtct tctacaaggg ccgcgccccc cacggccaga
+      421 agtccgactg gatcatgcac gagtaccgcc tcgacgaccc cgccaccgac accgccgccg
+      481 ccacacccac ggttacttct gctgctgctg cggcggcggc gatggcggcg gcggcggacg
+      541 gcgggcagga ggatggctgg gtggtgtgca gggtgttcaa gaagaagcac caccacaagg
+      601 aggccggcgg cggcggcggc aagcacggcg gcgacggcag cgccggcgcc aaggcggcgc
+      661 acgcttactc ctccagcgac gacgcgctcg accagatcct gcagtacatg ggcaggtcgt
+      721 gcaagcagga gcacgagctc ccctcgccgc aggccagcgg cggcggcggc gccggcgcag
+      781 ggagcaggcc ggcgtcgagg tacctccggc caatcgacac cgtgctcggc ggccatggct
+      841 tcatgaagct gccgccgctc gagagcccgt cggccgccac ggcgctctcc tccactccga
+      901 gcaccggcgg cgacgcggcc tcctcggccg ccgccgccgc cgccgaccac ctgctgctcc
+      961 accaccacca ccgcacggac tgggccatga tggaccgcct cgtcgcgtcg cacctcaacg
+     1021 gcgccaactc cgacgcgccc gacgaccagc tctgcttcga cgccgccgac gacgacggcc
+     1081 tcgcctacta ctccgccgcc gccacgaggc tgctcggcgg tgccaacgcc ggcaccgacg
+     1141 acgacctgtg gagcttcgcg cggtcggctg cgccgccacc gccgccgccg ccgccgtcgt
+     1201 cggccacgcc agagcgtctc agccacgtgg cactgtaaca catgattcgt agctgtacgt
+     1261 acacgtacac gtatacgtac acgtcaggct acgtacgctc gagctgccac cctagctgct
+     1321 agtacagtaa ttacagagac aagacaagta agaagaaaat tgtaagtg
+//
+

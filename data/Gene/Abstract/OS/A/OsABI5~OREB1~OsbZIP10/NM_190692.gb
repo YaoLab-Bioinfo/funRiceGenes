@@ -1,0 +1,66 @@
+LOCUS       NM_190692               1167 bp    mRNA    linear   PLN 09-NOV-2004
+DEFINITION  Oryza sativa (japonica cultivar-group), predicted mRNA.
+ACCESSION   NM_190692
+VERSION     NM_190692.1  GI:34908467
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa (japonica cultivar-group)
+  ORGANISM  Oryza sativa (japonica cultivar-group)
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1167)
+  CONSRTM   The NCBI Genome Assembly Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JUL-2004) National Center for Biotechnology
+            Information, National Institutes of Health, Bethesda 20894, United
+            States of America
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NT_079927).
+FEATURES             Location/Qualifiers
+     source          1..1167
+                     /organism="Oryza sativa (japonica cultivar-group)"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1167
+                     /gene="P0489B03.8"
+                     /db_xref="GeneID:3049661"
+     CDS             1..1167
+                     /gene="P0489B03.8"
+                     /note="contains ESTs AU063505(C62329),AU093081(C62329)"
+                     /codon_start=1
+                     /product="putative abscisic acid insensitive 5"
+                     /protein_id="NP_915581.1"
+                     /db_xref="GI:34908468"
+                     /db_xref="GeneID:3049661"
+                     /translation="MASEMSKNVKVTDDQEVTSQERDQSGGTKVGGEEEIAPLARQSS
+                     ILSLTLEELQNSLCEPGRNFGSMNMDEFVANIWNAEEFQATTGGCKGAMEEAKVVDSG
+                     SGSGDAGGSGLCRQGSFSLPLPLCQKTVEEVWTEINQAPAHTSAPASALQPHAGSGGV
+                     AANDRQVTLGEMTLEDFLVKAGVVRGSFTGQAAMGSGMVNGPVNPMQQGQGGPMMFPV
+                     GPVNAMYPVMGDGMGYPGGYNGMAIVPPPPPAQGAMVVVSPGSSDGMSAMTHADMMNC
+                     IGNGMMIENGTRKRPHREDGCAEKTVERRQRRMIKNRESAARSRARKQAYTVELEAEL
+                     NYLKQENARLKEAEKTVLLTKKQMLVEKMMEQSKEKMNANRGGSQLRRSGSCMW"
+ORIGIN      
+        1 atggcatcgg agatgagcaa gaacgtgaag gtcaccgatg atcaagaggt tacatcacag
+       61 gagcgtgacc aaagtggtgg tacaaaagta ggtggggagg aggaaattgc tccactggcg
+      121 cggcagtcgt caatcctctc cctcaccttg gaagagctac aaaactcctt gtgtgagcca
+      181 ggacgcaact ttggttccat gaacatggac gagtttgtgg ctaacatatg gaatgctgaa
+      241 gaattccagg ctaccaccgg aggttgcaag ggtgccatgg aggaagccaa ggtggtagac
+      301 agtggaagcg gaagcggtga tgcaggagga agcggtttat gtcggcaggg atcattttcc
+      361 ttgccgctac cgctgtgcca gaagacggtg gaggaggtgt ggactgagat caaccaagcc
+      421 cctgcacaca cctccgctcc ggcctccgcg ctccagccac atgccgggag cggtggtgtt
+      481 gcagctaacg accgacaggt aacactaggt gagatgacac ttgaggattt cttggtaaag
+      541 gccggggtgg tccgagggtc ctttaccggg caagcggcca tgggatctgg catggtcaac
+      601 gggccggtga accccatgca gcagggccaa ggcggtccta tgatgttccc agtaggaccg
+      661 gtaaacgcca tgtatccggt gatgggtgat ggcatggggt accccggtgg gtacaacggg
+      721 atggcgattg tgccaccgcc acctcccgcc caaggtgcca tggttgtcgt gagtcctgga
+      781 tcatcagatg ggatgagtgc catgacacat gctgatatga tgaattgtat tgggaatggg
+      841 atgatgattg agaatggaac aagaaagcgt ccccacagag aggatggctg cgccgagaag
+      901 acggtggagc gccgccaacg gcgcatgatc aagaaccgtg agtcagctgc acggtcccgt
+      961 gctagaaagc aggcttatac ggtggagctc gaagctgaac tgaactatct caagcaggag
+     1021 aacgctcgtc tcaaagaggc agagaagacg gttctactga caaagaagca aatgctggtt
+     1081 gagaaaatga tggagcagtc caaggagaag atgaatgcaa ataggggtgg cagccagctg
+     1141 cgccgcagcg gcagctgcat gtggtga
+//
+

@@ -1,0 +1,58 @@
+LOCUS       JQ317784                1236 bp    RNA     linear   PLN 22-FEB-2012
+DEFINITION  Oryza sativa Japonica Group cultivar Nongken 58 long-day specific
+            male fertility-associated RNA, complete sequence.
+ACCESSION   JQ317784
+VERSION     JQ317784.1  GI:376320122
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1236)
+  AUTHORS   Ding,J., Lu,Q., Ouyang,Y., Mao,H., Zhang,P., Yao,J., Xu,C., Li,X.,
+            Xiao,J. and Zhang,Q.
+  TITLE     A long noncoding RNA regulates photoperiod-sensitive male
+            sterility, an essential component of hybrid rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 109 (7), 2654-2659 (2012)
+   PUBMED   22308482
+REFERENCE   2  (bases 1 to 1236)
+  AUTHORS   Ding,J., Lu,Q., Ouyang,Y., Mao,H., Zhang,P., Yao,J., Xu,C., Li,X.,
+            Xiao,J. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-DEC-2011) National Key Laboratory of Crop Genetic
+            Improvement, Huazhong Agricultural University, Hongshan, Wuhan,
+            Hubei 430070, China
+FEATURES             Location/Qualifiers
+     source          1..1236
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="transcribed RNA"
+                     /cultivar="Nongken 58"
+                     /db_xref="taxon:39947"
+     ncRNA           1..1236
+                     /ncRNA_class="other"
+                     /product="long-day specific male fertility-associated RNA"
+ORIGIN      
+        1 gatggcacga acattgagtt tctaattgtt ctatttgtat cagaagctac aacatgtaaa
+       61 gttgagttac attgtttgtc ttcaaagtaa aagagacaga aaactgcccc aaatcccccc
+      121 caagtccttt gtttcttcct ttgctctgaa ttttgtcgga acagctacag agtgcgccca
+      181 aagtgttcgt ccatggttct tcccaacaaa actaattcta atgaataaat aatcttttat
+      241 tttgcaaaat ataatttaag aactgctgct ccaaatttca taatagggaa aagagtaaaa
+      301 aaattcatga catttagagg cccagcacta gcctaggaat ttgcttccca tatatcttgt
+      361 ccagtgctca tgccatgttg aaatactttt catttttctt tcatcaaatt gcatgcttca
+      421 ccagcacgtc catattgaat gccatctaaa cactaaaaat acatcccaca aatcctttag
+      481 catttttaac ccgaaaactt gctaccacaa gctttcccag gatgcacata ctgaatctct
+      541 ctatgttgac gttttttttt tggcaaacaa aaactcaact aacaatttga gtataatttg
+      601 tggacaacat aaatgctact caatggacat atgaaagaaa agcagagaca tagatgagca
+      661 acatgagaac ttcagcttga gatatacata ccaactagag attcagttgc tactgcttta
+      721 caagactatt tcatagcacc tacatatagg agtgggaggc atggtgaagc aaagaagtgc
+      781 attgtttgtc taccatccat caagagtaaa atttttatca acacgcagtt cagatactct
+      841 agatgcagta taacttctcg ggtctatcta taacggagcc gccgcttcaa ttttcctatt
+      901 gcctaaccaa tggagcaaac aatgtatagt gtctagatgg ctttggaaag caatccaaga
+      961 acatcagtgg tagcttgctc ctagtccaga aggaaaatgt gtcgcttgac gaggtaccac
+     1021 tgaatcttca ccagctatcg tgaatgggat gatctgagtt ggatgtgcaa ccaagacttc
+     1081 gccacaaaaa tgggaaatag tcataccaag atgaagcaag ctaagatgca tatattacca
+     1141 attatatatg tatcccaatt tacaaatcaa ttagcattac tgtgcgatgt tagagaaata
+     1201 tttcagatga ttttcctact cagaaagaac ctggta
+//
+

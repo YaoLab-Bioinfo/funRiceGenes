@@ -1,0 +1,71 @@
+LOCUS       AY026039                1500 bp    mRNA    linear   PLN 14-FEB-2001
+DEFINITION  Oryza sativa subsp. indica pyruvate dehydrogenase kinase 1 mRNA,
+            complete cds.
+ACCESSION   AY026039
+VERSION     AY026039.1  GI:12829951
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1500)
+  AUTHORS   Yau,C.P., Zhuang,C.X., Yip,W.K. and Zee,S.Y.
+  TITLE     Molecular characterization of a cDNA encoding putative pyruvate
+            dehydrogenase kinase in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1500)
+  AUTHORS   Yau,C.P., Zhuang,C.X., Yip,W.K. and Zee,S.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-DEC-2000) Department of Botany, The University of
+            Hong Kong, Room 7S/06, Kadoorie Biological Science Building, Hong
+            Kong, Hong Kong
+FEATURES             Location/Qualifiers
+     source          1..1500
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR36"
+                     /sub_species="indica"
+                     /db_xref="taxon:39946"
+                     /dev_stage="first and second meiosis"
+     CDS             55..1146
+                     /note="OS-PDK1"
+                     /codon_start=1
+                     /product="pyruvate dehydrogenase kinase 1"
+                     /protein_id="AAK01947.1"
+                     /db_xref="GI:12829952"
+                     /translation="MASEPVARAVAEEVGRWGSMKQTGVSLRYMMEFGSRPTERNLLL
+                     SAQFLQKELPIRIARRALELESLPFGLSRKPAILKVRDWYLDSFRDIRYFPEVRNRND
+                     ELAFTQMIKMIKVRHNNVVPTMALGVQQLKNEQYRTRKIPTAFDEIHEFLDRFYMSRI
+                     GIRMLIGQHVALHDPDPEPGVIGLINTELSPIQVAQAASEDARSICLREYGSAPEIDI
+                     YGDPTFTFPYVSSHLHLMLFELVKNSLRAVQERYMNSDKDVPPVRIIVADGAEDVTIK
+                     VSDEGGGIPRSGLPRIFTYLYSTAKNPPDMDCPSEGVTMAGYGYGLPISRLYARYFGG
+                     DLQIISMEGYGTDAYLHLSRLGDSEEPLP"
+ORIGIN      
+        1 ccaaatctcg ccgccggtga aggaggtaga agtggaggtg gaggtggggg gaggatggcg
+       61 tcggagccgg tggcgagggc ggtggcggag gaggtgggga ggtgggggag catgaagcag
+      121 acgggggtga gcctgcgcta catgatggag ttcgggtcgc gccccacgga gcggaacctg
+      181 ctgctctccg cgcagttcct gcagaaggag ctcccaatcc ggatcgcgcg ccgcgcgctc
+      241 gagctcgagt ccctcccctt cggcctctcc cgcaagcccg ccatcctcaa ggtgcgggat
+      301 tggtacttgg actctttccg cgacatcaga tactttccag aagtgaggaa taggaacgac
+      361 gagctcgctt ttacgcagat gatcaagatg atcaaagtac gccacaataa tgtggttcca
+      421 acaatggcac tgggagttca acagctcaag aacgagcagt atcgcacaag gaagatcccc
+      481 actgcatttg acgagatcca cgagtttctt gacagattct acatgtcaag gattgggatc
+      541 cgcatgctta tagggcagca tgtggctttg catgatcctg acccagagcc tggcgtcata
+      601 ggcctcatta atacagaatt gtcccctata caggtggctc aagctgccag tgaagatgcc
+      661 cgttctattt gtttgaggga atatggatca gctcctgaga ttgacatcta tggagaccca
+      721 acttttacat ttccatatgt ttcatcacat ctacatctca tgctatttga attggtgaag
+      781 aactccttgc gtgcagtaca ggaacgatat atgaattccg ataaagatgt tcctccagtt
+      841 agaattatcg ttgctgatgg ggcagaggat gtaactatca aggttagtga tgaaggtggt
+      901 ggaataccaa ggagcggcct tccaagaatt ttcacatatc tatatagcac tgcaaagaat
+      961 ccacctgata tggattgccc tagtgaagga gtaactatgg ctggatatgg ctatggtctt
+     1021 ccaatcagtc gcctgtatgc tcgatatttt ggtggtgacc tgcaaatcat ctctatggaa
+     1081 ggatacggca ccgatgctta cctgcacttg tcacggttgg gagattcgga ggagcccttg
+     1141 ccttgaaggc ttccctgtcc tgataccatc tctgtaatta attaggttgc tcttgtctct
+     1201 tgtaattcct gggctggttt ggaatattgt tttcaagtgc cagccaccta tagctgttaa
+     1261 ccttctacag tagttgccac ggtttcatca cttcagcttt gcagcagcat gagcacaagt
+     1321 ctcctctctc tctttctctc tctctctact ctgccttgta gcgaaatgta gaattcttct
+     1381 gccacgcaca tggcattgtt catacttctc gtacttgttg agcttcatgg cttggtgcag
+     1441 attgtacttt gatagttatc agtagtaagc taacttcatc aaaaaaaaaa aaaaaaaaaa
+//
+

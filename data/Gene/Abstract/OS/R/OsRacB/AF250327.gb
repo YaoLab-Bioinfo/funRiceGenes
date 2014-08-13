@@ -1,0 +1,71 @@
+LOCUS       AF250327                1124 bp    mRNA    linear   PLN 02-JUN-2003
+DEFINITION  Oryza sativa small GTP-binding protein RACBP (RACB) mRNA, complete
+            cds.
+ACCESSION   AF250327
+VERSION     AF250327.2  GI:31324465
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1124)
+  AUTHORS   Mi,Z., Luo,M. and Wu,N.
+  TITLE     Molecular cloning of Rac gene from Rice (Oryza Sativa. L. japonica)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1124)
+  AUTHORS   Mi,Z., Zhao,S., Li,S., Huang,M. and Wu,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAR-2000) Plant Developmental Molecular Biology Lab,
+            Institute of Developmental Biology, Chinese Academy of Sciences,
+            Zhongguancun South Street, Haidian District, Beijing 100080, P.R.
+            China
+REFERENCE   3  (bases 1 to 1124)
+  AUTHORS   Mi,Z., Luo,M. and Wu,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JAN-2002) The Laboratory of Plant Developmental
+            Molecular Biology, Institute of Developmental Biology, Chinese
+            Academy of Sciences, No.3, Nanyitiao Street, Zhongguancun, Haidian
+            district, Beijing, Beijing 2707, P. R. China
+  REMARK    Nucleotide sequence updated by submitter
+COMMENT     On Jun 2, 2003 this sequence version replaced gi:9651979.
+FEATURES             Location/Qualifiers
+     source          1..1124
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1124
+                     /gene="RACB"
+     CDS             158..751
+                     /gene="RACB"
+                     /note="osRACBP; member of RAC family"
+                     /codon_start=1
+                     /product="small GTP-binding protein RACBP"
+                     /protein_id="AAF91343.1"
+                     /db_xref="GI:9651980"
+                     /translation="MSASRFIKCVTVGDGAVGKTCMLISYTSNTFPTDYVPTVFDNFS
+                     ANVVVDGNTVNLGLWDTAGQEDYNRLRPLSYRGADVFLLAFSLISKASYENVSKKWIP
+                     ELKHYAPGVPIILVGTKLDLRDDKQFFVDHPGAVPITTAQGEELRKQIGAPYYIECSS
+                     KTQLNVKGVFDAAIKVVLQPPKAKKKKKAQRGACSIL"
+ORIGIN      
+        1 ccttgctttg ctcctccttc aaccttcttc tttcttggag tttcttgaga gagagagaga
+       61 gagagagaga gagagagaga gagagagaga ggggggggag cggtcgcagg aggaggagga
+      121 cggcggcgtc tgctgcgacc gacggggagc ggcgaggatg agcgcgtcca ggttcataaa
+      181 gtgcgtcacc gtcggggacg gcgccgtcgg caagacctgc atgctcatct cctacacctc
+      241 caacaccttc cccactgatt atgttccgac ggtgtttgac aacttcagtg ccaacgtcgt
+      301 ggttgatggt aacaccgtca acctcgggct atgggacact gcaggtcagg aggattacaa
+      361 cagactgaga ccactgagtt atcgtggagc tgatgttttc cttctggcct tctcgctaat
+      421 cagcaaggcc agctatgaga atgtttcaaa gaagtggata cctgagctga agcattatgc
+      481 acctggtgtt cctatcatcc ttgtgggaac aaagcttgat cttcgagatg acaagcagtt
+      541 ttttgtggac catcctggtg ctgttcctat caccactgct cagggagagg aactaagaaa
+      601 gcaaataggc gccccatact acatcgaatg cagctcaaag acccaactaa acgtcaaggg
+      661 cgttttcgat gcggcaataa aggtggtgct gcagccaccc aaggcgaaga agaagaaaaa
+      721 ggcgcaaagg ggggcgtgct ccattttgtg atctaatcat cagtagacga cgaagaagaa
+      781 gaacgatgaa gttgccaggc tttattattg ttgcgtcttg cttcagcgaa acagcattca
+      841 tggtccgggg atcctagttt actggcagct gcagcaaggc ctctttgtcg aggcaatgag
+      901 cgatccgttt gtttcatttt ctcctttctg ccttgtgatt atctcgtgtg actgacaagt
+      961 cgtggcaatt aggtaacttt cctagatggt atttcctgtg tttgagaaaa aaaattcttg
+     1021 ttatccctgt ttcataagta gacatgatgt aatcgcactc agtttattct tttccttctt
+     1081 atttcacttc aatggaaaat tatgtttccc ttcaaaaaaa aaaa
+//
+

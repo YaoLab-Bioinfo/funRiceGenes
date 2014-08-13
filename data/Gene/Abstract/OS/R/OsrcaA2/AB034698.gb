@@ -1,0 +1,77 @@
+LOCUS       AB034698                1623 bp    mRNA    linear   PLN 04-JUL-2000
+DEFINITION  Oryza sativa OsrcaA1 mRNA for RuBisCO activase large isoform
+            precursor, complete cds.
+ACCESSION   AB034698
+VERSION     AB034698.1  GI:8918358
+KEYWORDS    OsrcaA1; RuBisCO activase large isoform precursor.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Komatsu,S. and Zhang,Z.
+  TITLE     OsrcaA1
+  JOURNAL   Published Only in Database (2000)
+REFERENCE   2  (bases 1 to 1623)
+  AUTHORS   Komatsu,S. and Zhang,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-NOV-1999) Setsuko Komatsu, National Institute
+            Agrobiological Resources, Department of Molecular Biology;
+            Kannondai 2-1-2, Tsukuba 305-8602, Japan
+            (E-mail:skomatsu@abr.affrc.go.jp, Tel:81-298-38-7490,
+            Fax:81-298-38-7032)
+FEATURES             Location/Qualifiers
+     source          1..1623
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1623
+                     /gene="OsrcaA1"
+     CDS             62..1462
+                     /gene="OsrcaA1"
+                     /codon_start=1
+                     /product="RuBisCO activase large isoform precursor"
+                     /protein_id="BAA97583.1"
+                     /db_xref="GI:8918359"
+                     /translation="MAAAFSSTVGAPASTPTNFLGKKLKKQVTSAVNYHGKSSNINRF
+                     KVMAKELDEGKQTDQDRWKGLAYDISDDQQDITRGKGFVDSLFQAPTGDGTHEAVLSS
+                     YEYLSQGLRTYDFDNTMGGFYIAPAFMDKLVVHISKNFMTLPNIKVPLILGIWGGKGQ
+                     GKSFQCELVFAKMGINPIMMSAGELESGNAGEPAKLIRQRYREAADIIKKGKMCCLFI
+                     NDLDAGAGRMGGTTQYTVNNQMVNATLMNIADNPTNVQLPGMYNKEDNPRVPIIVTGN
+                     DFSTLYAPLIRDGRMEKFYWAPTRDDRVGVCKGIFRTDNVPDEDIVKIVDSFPGQSID
+                     FFGALRARVYDDEVRKWVSDTGVENIGKRLVNSREGPPEFEQPKMTIEKLMEYGYMLV
+                     KEQENVKRVQLAEQYLSEAALGDANSDAMKTGSFYGQGAQQAGNLPVPEGCTDPVAKN
+                     FDPTARSDDGSCLYTF"
+ORIGIN      
+        1 ggcacgagcg gccggccatc atcagtgatc ctctacaatc atcgactttc agcaaattaa
+       61 gatggctgct gccttctcct ccaccgttgg agctccggcg tccactccga ccaacttcct
+      121 ggggaagaag ctgaagaagc aggtgacatc ggcggtgaac taccatggca agagctccaa
+      181 catcaacagg ttcaaggtga tggccaagga gctggacgag ggcaagcaga ccgaccagga
+      241 caggtggaag ggtctcgcct acgacatctc cgatgaccag caggacatca ccagggggaa
+      301 gggtttcgtc gactcccttt tccaggctcc cacgggtgat ggcacccacg aggccgtcct
+      361 cagctcctac gagtacctca gccagggtct cagaacgtac gacttcgaca acaccatggg
+      421 aggcttctac atcgcccctg ctttcatgga caagctcgtc gtccacatct ccaagaactt
+      481 catgaccctc cccaacatca aggtcccact catcctgggt atctggggag gcaagggtca
+      541 gggaaaatcc ttccagtgtg agctcgtctt cgccaagatg gggatcaacc ccatcatgat
+      601 gagcgccgga gagctggaga gcggcaacgc cggagagccg gcgaagctga tcaggcagcg
+      661 gtaccgtgag gcggcagaca tcatcaagaa ggggaagatg tgctgcctct tcatcaacga
+      721 tctggacgcg ggtgcaggtc gcatgggagg caccacccag tacacggtga acaaccagat
+      781 ggtgaacgcc accctgatga acatcgccga caacccaacc aacgtgcagc tccccgggat
+      841 gtacaacaag gaggacaacc cccgtgtccc catcatcgtc accggcaacg acttctccac
+      901 gctgtacgcg ccgctcatcc gtgacgggcg tatggagaag ttctactggg ctcccacccg
+      961 cgacgaccgt gtcggcgtct gcaagggtat cttccgcacc gacaacgtcc ccgacgagga
+     1021 catcgtcaag atcgtcgaca gcttcccagg ccaatccatc gatttcttcg gcgctcttcg
+     1081 tgcccgtgtt tacgacgacg aggtgcgcaa gtgggtgtcg gacacgggtg tggagaacat
+     1141 tggcaagagg ctggtgaact cgagggaggg cccaccggag ttcgagcagc ccaagatgac
+     1201 gatcgaaaag ctcatggagt acggatacat gcttgtgaag gagcaggaga acgtcaagcg
+     1261 tgtgcagctg gctgagcagt acttgagcga ggctgctctt ggtgacgcta actccgacgc
+     1321 catgaagact ggttccttct acgggcaagg agcacagcaa gcaggtaacc tgcctgtgcc
+     1381 ggaaggttgc accgaccctg ttgccaagaa cttcgaccca acggcgagga gcgacgacgg
+     1441 cagctgcctt tacacctttt aagcaggccg gcttgacgct tgctattaat tatttctcct
+     1501 ttttatgttt tctctttgtt ctgtgtatca gatcgcgccc aagccatagc tgggcatgac
+     1561 aagtttttgt taataataat ataatataaa gatatgggct aaaaaaaaaa aaaaaaaaaa
+     1621 aaa
+//
+

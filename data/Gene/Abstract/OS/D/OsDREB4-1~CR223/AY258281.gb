@@ -1,0 +1,63 @@
+LOCUS       AY258281                 795 bp    DNA     linear   PLN 30-JUN-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) CR223 putative AP2
+            domain-containing protein gene, complete cds.
+ACCESSION   AY258281
+VERSION     AY258281.1  GI:32455217
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 795)
+  AUTHORS   Tian,X.H., Li,X.P., Zhou,H.L., Zhang,J.S., Gong,Z.Z. and Chen,S.Y.
+  TITLE     OsDREB4 genes in rice encode AP2-containing proteins that bind
+            specifically to the dehydration-responsive element
+  JOURNAL   J. Integr. Plant Biol. 47 (4), 467-476 (2005)
+REFERENCE   2  (bases 1 to 795)
+  AUTHORS   Tian,X., Liu,Q., Zhang,J. and Chen,S.
+  TITLE     Osdreb genes in rice, oryza sativa l., encode transcription
+            activators that function in stress-responsive gene expression
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 795)
+  AUTHORS   Tian,X., Liu,Q., Zhang,J. and Chen,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-MAR-2003) Plant Biotechnology Laboratory, Institute
+            of Genetics, Chinese Academy of Sciences, Andingmenwai Datun Road,
+            Beijing 100101, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..795
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Lansheng"
+                     /db_xref="taxon:39947"
+                     /clone="CR223"
+     mRNA            <52..>795
+                     /product="putative AP2 domain-containing protein"
+     CDS             52..795
+                     /codon_start=1
+                     /product="putative AP2 domain-containing protein"
+                     /protein_id="AAP83323.1"
+                     /db_xref="GI:32455218"
+                     /translation="MPELEVCSPASSGGASPPESPVEGRRGGGGGEKRGRSGDGGRHP
+                     SYRGVRMRAWGKWVSEIREPRKKSRIWLGTFPTPEMAARAHDAAALVVKGPAAVLNFP
+                     DMAASLPRPASASPRDVQAAAARAAAMEPPQPPPSSLTVQADSAAAAFLTPKNGGVSG
+                     AGAADDELEAIVELPRLDELDAAELVFGAAFQDTAAEHPWCDPVWIDGGYAAAAAAAA
+                     AAAAHDDLFGLDADHHGWAQSVGALLWNL"
+ORIGIN      
+        1 ccattgctac ctcaagctcc agctcgagct cgaggctttg ctttggccgc aatgccggag
+       61 ctggaggtgt gtagccctgc gtcgtcgggt ggggcgtcgc cgccggagtc gccggtggag
+      121 gggaggaggg gaggaggagg aggggagaag agggggagat caggggatgg cgggaggcac
+      181 ccgtcgtacc gcggcgtgcg gatgcgggcg tgggggaagt gggtgtcgga gatcagggag
+      241 ccccggaaga agtcgcgcat ctggctcggc acgttcccga cgccggagat ggccgcgcgc
+      301 gcccacgacg ccgccgcact cgtcgtcaag ggccccgccg ccgtcctcaa cttcccggac
+      361 atggccgcct cgctcccgcg cccggcctcc gcctccccgc gcgacgtcca ggccgccgcc
+      421 gcccgcgccg ccgccatgga gcccccccag ccgccgccgt cgtcgctcac cgtgcaggcc
+      481 gactccgccg ccgccgcatt cctgacgccc aagaacggcg gtgtcagcgg cgccggcgcg
+      541 gcggacgacg agctcgaggc gatcgtcgag ctgccgcggc tcgacgagct ggacgccgcc
+      601 gagctcgtgt tcggcgccgc gttccaggac acggcggcgg aacacccgtg gtgcgacccc
+      661 gtctggatcg acggcggcta cgcagcggcc gccgcggcgg cggcggcggc cgcggcgcac
+      721 gacgacctgt tcggcctcga cgccgaccac catggatggg cccagtcggt tggtgccctc
+      781 ttatggaacc tgtga
+//
+

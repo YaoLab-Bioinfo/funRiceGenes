@@ -1,0 +1,85 @@
+LOCUS       FJ009578                1960 bp    mRNA    linear   PLN 14-SEP-2008
+DEFINITION  Oryza sativa Japonica Group cultivar Zhonghua 11 Cys2/His2-type
+            zinc finger transcription factor (RID1) mRNA, complete cds.
+ACCESSION   FJ009578
+VERSION     FJ009578.1  GI:200096392
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1960)
+  AUTHORS   Wu,C., You,C., Li,C., Long,T., Chen,G., Byrne,M.E. and Zhang,Q.
+  TITLE     RID1, encoding a Cys2/His2-type zinc finger transcription factor,
+            acts as a master switch from vegetative to floral development in
+            rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (35), 12915-12920 (2008)
+   PUBMED   18725639
+REFERENCE   2  (bases 1 to 1960)
+  AUTHORS   Wu,C., You,C., Li,C., Long,T., Chen,G., Byrne,M.E. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2008) National Key Laboratory of Crop Genetic
+            Improvement, Huazhong Agricultural University, No.1 Shizishan
+            Street, Wuhan, Hubei 430070, China
+FEATURES             Location/Qualifiers
+     source          1..1960
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Zhonghua 11"
+                     /db_xref="taxon:39947"
+                     /chromosome="10"
+     gene            1..1960
+                     /gene="RID1"
+     CDS             280..1707
+                     /gene="RID1"
+                     /note="rice indeterminate 1"
+                     /codon_start=1
+                     /product="Cys2/His2-type zinc finger transcription factor"
+                     /protein_id="ACH87394.1"
+                     /db_xref="GI:200096393"
+                     /translation="MLLSDLSSDQEATGSNSHGGGGGDRMVVGSHGAAHVVLSNLFLP
+                     PAAAAAATMLLPAAPVMVRPAAMAAAQEPRAKKKRSLPGNPDPEAEVIALSPRALVAT
+                     NRFVCEVCNKGFQRDQNLQLHRRGHNLPWKLRHRAAAVSAVTTAAPAPRKRVYVCPEP
+                     TCVHHDPARALGDLTGIKKHFSRKHGEKRWRCERCGKRYAVHSDWKAHVKNCGTREYR
+                     CDCGILFSRKDSLLTHRAFCDALAEESARLLAAANNSSSITTTTCNNSNISSNNNNNN
+                     INSISNSNNLLITSSSSSPPLFLPFSTTPAENPNPNQLLFLQQHQAAHHQLLLPQFQQ
+                     PPSSPPAYFDHLAFGGGGGVITGSSCNDDNSSIAGDVMVAAGGDSVSFGLTSEGSVTM
+                     HAGDVGRRRLTRDFLGVDHDAGEVDELELDELPADLSTTAAACQGCNFAAATTAACCA
+                     TDFTTGSRQYLGRLPPVNETWSHNF"
+ORIGIN      
+        1 gcacggctgc atggcgtagc tagctttctt cctggcccag atcgagcgag cgcgatatga
+       61 ttgcatcatc gatcgagctc agctcagctc atctcacctc gcctcgcctt cttattctgg
+      121 ctcatctgca agctgcagct gcagcaactg caacctgcag aaggcgaggc gccctgacgc
+      181 cttttcccgc gatctgatct tgcctcccac ccttctcctc ccacttcttc tcatccaccc
+      241 actgtagcct cgagaccaca cgtagagttt tagctagcca tgttgctgtc tgatctctcg
+      301 tctgatcagg aggccactgg gtccaactcc catggaggag gaggaggaga tcgtatggtg
+      361 gtgggtagcc atggcgccgc ccatgtcgtg ctcagcaatt tgtttctgcc accggcggcg
+      421 gcggcggcgg cgacgatgct gctgcctgct gctccggtga tggtgcggcc ggcggcgatg
+      481 gcggcggcgc aggagccgag agccaagaag aagaggagcc tccccggcaa cccagacccg
+      541 gaggcggagg tgatcgcgct gtcgccgcgg gcgctggtgg cgacgaaccg cttcgtctgc
+      601 gaggtctgca acaaggggtt ccagcgcgac cagaacctgc agctccaccg ccgcggccac
+      661 aacctcccct ggaagctccg ccaccgcgcc gccgctgtct ccgccgtgac gacagcggcg
+      721 ccggcgccga ggaagagggt gtacgtgtgc ccggagccga cgtgcgtgca ccacgacccg
+      781 gctcgggcgc tgggcgacct gaccgggatc aagaagcact tctcgcggaa gcacggggag
+      841 aagcggtggc ggtgcgagcg gtgcgggaag aggtacgccg tgcactccga ctggaaggcg
+      901 cacgtcaaga actgcggcac ccgcgagtac cgctgcgact gcggcatcct cttctccagg
+      961 aaggacagcc tgctgacaca cagggccttc tgcgatgccc tagctgaaga gagtgcaagg
+     1021 cttcttgctg ctgcaaacaa cagcagcagc atcactacta ccacctgcaa caacagcaac
+     1081 atcagcagca acaacaacaa caacaacatt aacagcatta gcaatagcaa taatcttctg
+     1141 atcaccagca gcagcagctc accaccactg ttcctgccat tctccaccac tcctgctgaa
+     1201 aaccctaacc ctaatcagct cctgttcctg caacaacacc aagcagctca ccaccagctg
+     1261 cttcttcctc agttccagca gccaccctcc tcgccgccgg cctacttcga tcacctcgca
+     1321 ttcggcggcg gcggcggcgt catcaccggc agcagctgca acgacgacaa tagctcgatc
+     1381 gccggcgatg tcatggtggc tgcaggtggt gacagtgtca gcttcgggct tacctcggaa
+     1441 ggctccgtga ccatgcacgc cggcgacgtc ggacggcgcc ggctcactag ggacttcctc
+     1501 ggcgtcgatc acgacgccgg cgaggtcgac gagctcgagc ttgatgagct gccggctgat
+     1561 ctgtccacca ccgccgccgc ctgccagggt tgcaacttcg ccgccgccac caccgccgcc
+     1621 tgctgcgcca ccgacttcac caccggcagc aggcagtacc tcggccggct gccgccggtg
+     1681 aacgagacgt ggagccacaa cttctaagct agccatgaag atcaagccat aatgcaaatt
+     1741 accaaactct taaaaagcag aaaatcgaaa ctagtgccaa tgccacatcg atcgcatgtg
+     1801 tcatcgatcc tccatgttgt tgatttcttg atcttgattt ttaaaatttc gtcttaattt
+     1861 cacttaggtg ttattctaac ttttgcgact ctggatgcca agaagcttca tccatgcaat
+     1921 ggatgaaccg atcaaattta tgttaattgt tttttgtgca
+//
+

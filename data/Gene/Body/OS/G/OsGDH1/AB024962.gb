@@ -1,0 +1,97 @@
+LOCUS       AB024962                1550 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group GDH1 mRNA for glutamate dehydrogenase
+            1, complete cds.
+ACCESSION   AB024962
+VERSION     AB024962.1  GI:81686699
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sasaki,T., Song,J., Koga-Ban,Y., Matsui,E., Fang,F., Higo,H.,
+            Nagasaki,H., Hori,M., Miya,M., Murayama-Kayano,E., Takiguchi,T.,
+            Takasuga,A., Niki,T., Ishimaru,K., Ikeda,H., Yamamoto,Y., Mukai,Y.,
+            Ohta,I., Miyadera,N., Havukkala,I. and Minobe,Y.
+  TITLE     Toward cataloguing all rice genes: large-scale sequencing of
+            randomly chosen rice cDNAs from a callus cDNA library
+  JOURNAL   Plant J. 6 (4), 615-624 (1994)
+   PUBMED   7987417
+REFERENCE   2
+  AUTHORS   Abiko,T., Obara,M., Ushioda,A., Hayakawa,T., Hodges,M. and
+            Yamaya,T.
+  TITLE     Localization of NAD-isocitrate dehydrogenase and glutamate
+            dehydrogenase in rice roots: candidates for providing carbon
+            skeletons to NADH-glutamate synthase
+  JOURNAL   Plant Cell Physiol. 46 (10), 1724-1734 (2005)
+   PUBMED   16120687
+REFERENCE   3  (bases 1 to 1550)
+  AUTHORS   Hayakawa,T., Morosawa,T. and Yamaya,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-1999) Contact:Toshihiko Hayakawa Tohoku
+            University, Graduate School of Agricultural Science, Dept. of
+            Applied Plant Science, Lab. of Plant Cell Biochemistry;
+            Tsutsumidori-Amamiyamachi 1-1, Aoba-ku, Sendai, Miyagi 981-8555,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1550
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="C12377"
+                     /tissue_type="callus"
+     gene            1..1550
+                     /gene="GDH1"
+     5'UTR           1..13
+                     /gene="GDH1"
+     CDS             14..1249
+                     /gene="GDH1"
+                     /EC_number="1.4.1.2"
+                     /codon_start=1
+                     /product="glutamate dehydrogenase 1"
+                     /protein_id="BAE48296.1"
+                     /db_xref="GI:81686700"
+                     /translation="MNALAATSRNFKQAAKLLGLDSKLEKSLLIPFREIKVECTIPKD
+                     DGTLASYVGFRVQHDNARGPMKGGIRYHHEVDPDEVNALAQLMTWKTAVANIPYGGAK
+                     GGIGCSPGDLSISELERLTRVFTQKIHDLIGIHTDVPAPDMGTNSQTMAWILDEYSKF
+                     HGYSPAVVTGKPVDLGGSLGRDAATGRGVLFATEALLAEHGKGIAGQRFVIQGFGNVG
+                     SWAAQLISEAGGKVIAISDVTGAVKNSNGLDIAKLMKHSSENRGIKGFDGGDAIDPRS
+                     LLTEECDVLIPAALGGVINKDNANEIKAKYIIEAANHPTDPEADEILSKKGVLILPDI
+                     LANSGGVTVSYFEWVQNIQGFMWDEEKVNNELKTYMTRGFRDVKEMCRSHHCDLRMGA
+                     FTLGVNRVARATVLRGWEA"
+     3'UTR           1250..1550
+                     /gene="GDH1"
+     polyA_site      1550
+                     /gene="GDH1"
+                     /note="25 nucleotides"
+ORIGIN      
+        1 cggacgcgtg gggatgaatg cgttggcagc gacgagcagg aacttcaagc aggcggccaa
+       61 gctgctgggc ctggactcca agctggagaa gagcttgctc atcccgttca gggagatcaa
+      121 ggttgaatgc acaattccga aagatgatgg gactttagca tcttatgttg ggtttagggt
+      181 ccaacacgac aatgctaggg gacctatgaa gggtggaatc agataccacc atgaggttga
+      241 tcctgatgag gtcaatgcgt tggcacaact aatgacatgg aagacggccg tggctaatat
+      301 tccatatgga ggagctaaag gtggaatagg atgcagccct ggagatctca gcatctccga
+      361 gctagagcga cttacccgtg ttttcaccca gaaaatccac gacttgattg gcattcatac
+      421 agatgttcca gctccagata tgggaaccaa ctctcagaca atggcgtgga tacttgacga
+      481 atactcaaag tttcatggtt attcacctgc tgtggtgact ggaaaacctg ttgaccttgg
+      541 aggatcactt ggaagagatg cagctactgg aaggggagtt ctgtttgcta ctgaagcctt
+      601 gcttgcagag catggcaagg gcattgctgg ccagcgtttt gtaatacagg gatttggtaa
+      661 tgttggatcc tgggctgctc agctgatcag tgaagctggt ggcaaggtga ttgccatcag
+      721 tgatgtcact ggagctgtca agaacagcaa tgggcttgac attgcaaagc taatgaagca
+      781 ctcatcagag aaccgcggga tcaagggttt cgacggaggc gatgcaatcg acccacgctc
+      841 actgcttact gaagaatgtg atgtcctcat cccggcagca cttggtggag ttataaacaa
+      901 ggacaacgca aatgagatca aagcaaagta catcattgag gctgcaaacc accccacaga
+      961 ccctgaggca gatgagatcc tgtccaagaa aggcgttctc attcttccag acatcctcgc
+     1021 gaactccggt ggtgtcacag tgagctactt cgagtgggtt cagaacattc agggtttcat
+     1081 gtgggacgag gagaaggtga acaatgagct gaagacctac atgacccgtg ggttcaggga
+     1141 tgtgaaggag atgtgcagga gccaccactg cgacctccgc atgggcgcct tcaccctcgg
+     1201 tgtcaaccgt gtcgctcgcg ccaccgttct cagaggatgg gaagcatgat ctcgtcagtc
+     1261 atctgatcat ctccctgttg tacttcatgc actgaatttc tttcggtttt tcgctttggt
+     1321 taatccgtca accgggattg gagaagatag attcaataac caaccccacg atgagtcgat
+     1381 gagtgtgctg cctttctcag agattagttg ggggaagaaa cagtagtaat ctgctgggta
+     1441 gtgatgaatt gcctgaattt atcatcttgc agaatggcac tgcaggattt cttgtactct
+     1501 gtggctgaaa ttcttgctgg tttgcaagca gtaatctgaa tttggtttct
+//
+

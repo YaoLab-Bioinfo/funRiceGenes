@@ -1,0 +1,94 @@
+LOCUS       X65064                  2200 bp    DNA     linear   PLN 15-APR-1993
+DEFINITION  O.sativa RP6 gene for prolamin.
+ACCESSION   X65064
+VERSION     X65064.1  GI:296128
+KEYWORDS    prolamin; seed storage protein.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2200)
+  AUTHORS   Wen,T.N., Shyur,L.F., Su,J.C. and Chen,C.S.
+  TITLE     Nucleotide sequence of a rice (Oryza sativa) prolamin storage
+            protein gene, RP6
+  JOURNAL   Plant Physiol. 101 (3), 1115-1116 (1993)
+   PUBMED   8310050
+REFERENCE   2  (bases 1 to 2200)
+  AUTHORS   Chen,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAR-1992) C. Chen, Institute of Botany, Academia
+            Sinica, Nankang, Taipei, Taiwan 11529, TAIWAN
+FEATURES             Location/Qualifiers
+     source          1..2200
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /strain="Tainung 67"
+                     /db_xref="taxon:39947"
+                     /clone="RP6"
+                     /tissue_type="seedling"
+                     /clone_lib="rice EMBL genomic library"
+                     /dev_stage="seedling"
+     CAAT_signal     505..509
+     TATA_signal     583..587
+     gene            673..1143
+                     /gene="RP6"
+     CDS             673..1143
+                     /gene="RP6"
+                     /codon_start=1
+                     /product="prolamin"
+                     /protein_id="CAA46197.1"
+                     /db_xref="GI:296129"
+                     /db_xref="GOA:P17048"
+                     /db_xref="InterPro:IPR001954"
+                     /db_xref="InterPro:IPR003612"
+                     /db_xref="InterPro:IPR013771"
+                     /db_xref="InterPro:IPR016140"
+                     /db_xref="UniProtKB/Swiss-Prot:P17048"
+                     /translation="MKIIFVFALLAIVACNASARFDPLSQSYRQYQLQSHLLLQQQVL
+                     SPCSEFVRQQYSIVATPFWQPATFQLINNQVMQQQCCQQLRLVAQQSHYQAISIVQAI
+                     VQQLQLQQFSGVYFDQTQAQAQTLLTFNLPSICGIYPNYYSAPRSIATVGGVWY"
+     sig_peptide     673..729
+                     /gene="RP6"
+     polyA_signal    1175..1180
+     polyA_signal    1231..1236
+ORIGIN      
+        1 aattccttct acatcggctt aggtgtagca acacgacttt attattatta ttattattat
+       61 tattattatt ttacaaaaat ataaaataga tcagtccctc accacaagta gagcaagttg
+      121 gtgagttatt gtaaagttct acaaagctaa tttaaaagtt attgcattaa cttatttcat
+      181 attacaaaca agagtgtcaa tggaacaatg aaaaccatat gacatactat aattttgttt
+      241 ttattattga aattatataa ttcaaagaga ataaatccac atagccgtaa agttctacat
+      301 gtggtgcatt accaaaatat atatagctta caaaacatga caagcttagt ttgaaaaatt
+      361 gcaatcctta tcacattgac acataaagtg agtgatgagt cataatatta tttttcttgc
+      421 tacccatcat gtatatatga tagccacaaa gttactttga tgatgatatc aaagaacatt
+      481 tttaggtgca cctaacagaa tatccaaata atatgactca cttagatcat aatagagcat
+      541 caagtaaaac taacactcta aagcaaccga tgggaaagca tctataaata gacaagcaca
+      601 atgaaaatcc tcatcatcct tcaccacaat tcaaatatta tagttgaagc atagtagtag
+      661 aatccaacaa caatgaagat cattttcgta tttgctctcc ttgctattgt tgcatgcaat
+      721 gcctctgcgc ggtttgatcc tcttagtcaa agttataggc aatatcaact acagtcgcat
+      781 ctcctactac agcaacaagt gctcagccca tgcagtgagt tcgtaaggca acagtatagc
+      841 atagtggcaa cccccttctg gcaaccagct acgtttcaat tgataaacaa ccaagtcatg
+      901 cagcagcagt gttgccaaca gctcaggctg gtagcacaac aatctcacta ccaggccatt
+      961 agtattgttc aagcgattgt gcaacagcta caactgcagc aatttagtgg tgtctacttt
+     1021 gatcagactc aagctcaagc ccaaactctg ttgaccttca acttgccatc catatgtggt
+     1081 atctacccta actactatag tgctcccagg agcattgcca ctgttggtgg tgtctggtac
+     1141 tgaattgtaa caatataata gttcgtatgt taaaaataaa gtcatacatc atcatgtgtg
+     1201 actgttgaaa cttagggtca tataaatcta aataaaatca tcttacctat ttaaatagca
+     1261 ttcctctatg aggataaatc ctattacatt atcgtagcta attaccatca cagggacttt
+     1321 acaattttac tatatgcatg catttgatcc taagctgctt tggctattag atataaatga
+     1381 agtgcattaa gcaagttcaa cctttcattc ccaataggaa cgaacttgaa gcacagatgt
+     1441 caattactat acccctaaca attgatacac tatagcagcg gttgtagccg cagctggagg
+     1501 attcgctgtc gagcagacca tatacctgaa tttaaaccat gtcaaatatc cgtaatgaat
+     1561 aacaaataat tttatattgt gcatatccaa tgaataatca aacatttgcc tttcgactgt
+     1621 aatgcttgca tggcctgcta ttgtattgct ctggaaacac atctttaaca gatgttgtat
+     1681 tatcacatac attacattgg aggagaagga tttaagtgat catatataga acagaggata
+     1741 tgatgtttta gaaaaaagaa gattaataat gtcaagaata ctttgtgaaa cagtgcatga
+     1801 tgcaggcaca tcacttgata cattaaaagc gctgtaaaaa atttatgctg gggaactaat
+     1861 gcactactac tagcctcact aatatcatca gttcgcggta tgtaacaagc taacattcta
+     1921 cactgcacca ccccatccat tcttgctttt ttctatagaa cacaagaagg aacatcagta
+     1981 actggatgca tgtgtgcacc gccagctgcc acagtgttgg tcattatctc tttcttcaag
+     2041 gatttcttcc catcaactct gcttgacaca agcaggacaa aaatgtagct ttggttaagt
+     2101 caaggggagt cagtccagct atagatgaac cagcgccctt attattgtga ttactgccct
+     2161 agctcacaca ccggaaatgg actcaaatct taaaaggcag
+//
+

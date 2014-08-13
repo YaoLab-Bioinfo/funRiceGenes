@@ -1,0 +1,79 @@
+LOCUS       AB096071                1503 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for plastid sigma factor SIG5,
+            complete cds.
+ACCESSION   AB096071
+VERSION     AB096071.1  GI:30698517
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Tsunoyama,Y., Ishizaki,Y., Morikawa,K., Kobori,M., Nakahira,Y.,
+            Takeba,G., Toyoshima,Y. and Shiina,T.
+  TITLE     Blue light-induced transcription of plastid-encoded psbD gene is
+            mediated by a nuclear-encoded transcription initiation factor,
+            AtSig5
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (9), 3304-3309 (2004)
+   PUBMED   14976253
+REFERENCE   2  (bases 1 to 1503)
+  AUTHORS   Tsunoyama,Y. and Yasuda,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-NOV-2002) Contact:Yuichi Tsunoyama Kyoto University,
+            Radioisotope research center; Kitashirakawa-oiwake-cho, Sakyo-ku,
+            Kyoto 6068502, Japan
+FEATURES             Location/Qualifiers
+     source          1..1503
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /tissue_type="seedlings"
+     gene            1..1503
+                     /gene="sig5"
+     CDS             1..1503
+                     /gene="sig5"
+                     /note="putative"
+                     /codon_start=1
+                     /product="plastid sigma factor SIG5"
+                     /protein_id="BAC76607.1"
+                     /db_xref="GI:30698518"
+                     /translation="MASTVTTPSRPVSAGCHRRSPRRSAPVVLSLGGGPRRRTPSSTS
+                     CSALASPAKQGTAKLPPPQPTASRTAAADAERERERTDYNEVAAALESIYKLSPAVVE
+                     EKDADEEDEKSKQTKRKRKGRVGRSRNATVTVRSSRRRRRGQRMDLGKRVEMRRREEE
+                     EGGGGAGKVEDEERGFEEMLLREHAVSTDMGSLDWKRMKIPPVLTSAQSIRLFRIMQP
+                     MKAIMEMKENLENEVQSEPNDAQLAEAMNMSVLQMRRHLEVGRAARNKLIKHNLRLVL
+                     YTINKYYPDMSNDERFDDICQAGANGLITAIDRFEPKRGFRISTYALFWIRHSIVRAI
+                     TLSNFTRFPFAMESERQEIHRAREELAFELGRAPTEEEVMKKVGLSPARYRDVVRMTR
+                     PTYSLHARNRVTQEELINEVTDDDAIGVDTSSHNTLLRLAIDDLLDSLKPKESVVIRQ
+                     RFGLDGRGKRTLSEIAGNLNISREMVRKYELKALMKLKHPTRVEYLRRYM"
+ORIGIN      
+        1 atggcgtcca ctgtgacgac gccgagccgg ccggtatccg ccgggtgcca ccggcgctcg
+       61 ccgcggcggt cagcgcccgt cgtgctctcc ctcggcggcg ggccgcggcg gcgcacgccg
+      121 tcgtccacca gctgctcggc gctcgcgtcg ccggcgaagc agggcacggc caagctccct
+      181 ccgccgcagc cgacggcgtc gaggaccgcg gcggccgacg cggagcggga gcgggagcgg
+      241 acggactaca acgaggtggc cgccgcgctg gagagcatct acaagctgag ccccgccgtg
+      301 gtcgaggaga aggacgccga cgaggaggac gagaagagca aacagaccaa gcggaagaga
+      361 aaaggcagag tggggaggag ccggaacgcg acggtgacgg tgaggagcag ccggaggagg
+      421 aggcggggac agaggatgga cctggggaag agggtggaga tgaggaggag ggaggaagaa
+      481 gagggcggcg gcggcgccgg caaggtggaa gacgaggagc gggggttcga ggagatgctg
+      541 ctccgggagc acgccgtgtc caccgacatg ggcagcctcg actggaagcg gatgaagatc
+      601 cctcccgtgc tcacctccgc ccagagcatc cgcctcttca ggatcatgca gcccatgaag
+      661 gcgatcatgg aaatgaagga gaacctggag aacgaagtgc agagcgagcc aaacgacgca
+      721 cagctcgccg aggccatgaa catgtccgtt cttcagatga ggcgccatct cgaggtcggc
+      781 cgagctgcca ggaacaagct catcaagcat aatctccggc tggtgctgta cacgatcaac
+      841 aagtactacc cggacatgtc caacgacgag aggttcgacg acatctgcca ggcgggcgcc
+      901 aacggcttga tcacggcgat cgaccggttc gagcccaagc gcggcttccg catctccacc
+      961 tacgccctct tctggatccg ccactccatc gtccgcgcca tcaccctctc caacttcacc
+     1021 cgcttcccct tcgccatgga atccgagagg caggagatcc acagggctcg ggaggagctg
+     1081 gcgttcgagc tggggagggc gccgacggag gaggaggtga tgaagaaggt ggggctgtct
+     1141 ccggcgaggt accgcgacgt ggtgcggatg acgaggccca cctactccct ccacgcgcgt
+     1201 aacagggtca cccaggagga gctcatcaac gaggtcaccg acgacgacgc catcggcgtc
+     1261 gacaccagca gccacaacac cctcctccgc ctcgccatcg acgacctcct ggattcgctg
+     1321 aagcccaagg agagcgtggt gatccggcag aggttcgggc tggacgggag ggggaagcgg
+     1381 acgctgagcg agatcgccgg aaacctcaac atctcgaggg agatggtgcg caagtacgag
+     1441 ctcaaggcgc tcatgaagct caagcacccc acgcgagtgg aatacctgcg cagatacatg
+     1501 tga
+//
+

@@ -1,0 +1,74 @@
+LOCUS       AY344489                1403 bp    mRNA    linear   PLN 18-DEC-2009
+DEFINITION  Oryza sativa (japonica cultivar-group) heat shock factor RHSF7
+            mRNA, complete cds.
+ACCESSION   AY344489
+VERSION     AY344489.1  GI:33591107
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1403)
+  AUTHORS   Liu,J.G., Qin,Q.L., Zhang,Z., Peng,R.H., Xiong,A.S., Chen,J.M. and
+            Yao,Q.H.
+  TITLE     OsHSF7 gene in rice, Oryza sativa L., encodes a transcription
+            factor that functions as a high temperature receptive and
+            responsive factor
+  JOURNAL   BMB Rep 42 (1), 16-21 (2009)
+   PUBMED   19192388
+REFERENCE   2  (bases 1 to 1403)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Isolation Rice Heat Shock Factor by Modified Yeast One-Hybrid
+            System Method
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1403)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUL-2003) Bio-Tech Center, Shanghai Academy of
+            Agricultural Science, Beidi Road 2901, Shanghai 021-201106, China
+FEATURES             Location/Qualifiers
+     source          1..1403
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             77..1216
+                     /note="transcription factor"
+                     /codon_start=1
+                     /product="heat shock factor RHSF7"
+                     /protein_id="AAQ23061.1"
+                     /db_xref="GI:33591108"
+                     /translation="MEKMMPGMVKEEWPPSSPEEGEAPRPMEGLHEVGPPPFLTKTFD
+                     LVADPATDGVVSWGRAGSSFVVWDPHVFAAVFLPRFFKHNNFSSFVRQLNTYFLVRTN
+                     YLNKRSHFYSLRFQGFRKIDPDRWEFANDGFLRGQRHLLKMIKRRRPLSYLPGSQQAL
+                     GTCLEVGQFGLDEEIDRLKRDKNILLAEVVKLRHKQQSTKANMRAMEERLQHAEQKQV
+                     QMMGFLARAMQNPDFFHQLIHQQDKMKGLEDTFSKKRTRSIDIVPFLNPGEVSQGDQL
+                     ESTLLFDPRPFAELNDEPAKSELENLALNIQGLGKGKQDVNRTRNQPRNQASNETELT
+                     DDFWEELLNEGARDDAGIPGMERRRPRYVDALAQKLGYLSNSSQK"
+ORIGIN      
+        1 gcgccactct cgctgactcg ctcgctgcca agctcgccgg attctttctt ggattggagc
+       61 agattggggg gtgacgatgg agaagatgat gccggggatg gtgaaggagg agtggccgcc
+      121 gagctcgccg gaggaggggg aggcgccgag gcccatggag gggctgcacg aggtcgggcc
+      181 gccgccgttc ctgaccaaga cgttcgacct ggtggccgac ccggccaccg acggcgtcgt
+      241 ctcgtggggc cgcgcgggca gcagcttcgt cgtctgggac ccccacgtct tcgccgccgt
+      301 cttcctccca cgcttcttca agcacaacaa tttctccagc ttcgtccgcc agctcaacac
+      361 ctacttcttg gtccggacga attacctgaa caagcgatca catttctaca gtttgagatt
+      421 tcagggtttc agaaagattg atcctgacag atgggaattc gcgaatgatg gtttcctgag
+      481 aggccagagg catcttctaa agatgattaa gaggaggaga ccattgtctt atctccctgg
+      541 atctcagcag gcacttggca cctgccttga ggttggtcag ttcggattag atgaagagat
+      601 cgacaggcta aagcgtgaca agaacatctt actcgcggag gttgtgaaac taaggcacaa
+      661 gcagcaaagc acgaaagcca atatgcgagc catggaagag aggctgcaac atgcggagca
+      721 gaagcaggtc cagatgatgg gtttcttggc aagagcaatg cagaaccctg acttctttca
+      781 ccagttgatt caccagcagg ataaaatgaa ggggctcgag gacacattct cgaagaagag
+      841 gacgaggtcg atagacatag tgccatttct caaccccggg gaggtcagcc agggcgatca
+      901 actcgagtcg acattgctgt ttgatccaag gccatttgct gaactgaatg atgagcctgc
+      961 aaagtctgaa ctggagaatt tagcactgaa catccagggt cttgggaagg gcaagcagga
+     1021 tgtcaacagg actcgaaatc agccacgaaa tcaggctagc aacgaaaccg agttaaccga
+     1081 cgacttctgg gaggagcttc tgaatgaagg agcaagagat gatgctggga ttccagggat
+     1141 ggagcgaaga agacctagat atgtcgatgc attagcgcag aagctgggtt atctaagcaa
+     1201 tagtagccaa aagtagatca agtggctccg atttgtccaa ccatttttgt gatagctctt
+     1261 attgtatatc ggtgtaattg tattatagtg atagttttat agcgataggt ccaatttata
+     1321 ttgcggatcc ggcgtgctct gtatatatgt ctggtgatgt aaagttgagc catcattctt
+     1381 aatggtatat atattgacaa ttt
+//
+

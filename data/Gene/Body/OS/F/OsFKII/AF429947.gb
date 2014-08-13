@@ -1,0 +1,63 @@
+LOCUS       AF429947                1164 bp    mRNA    linear   PLN 03-JAN-2003
+DEFINITION  Oryza sativa putative fructokinase II mRNA, complete cds.
+ACCESSION   AF429947
+VERSION     AF429947.1  GI:16566703
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1164)
+  AUTHORS   Jiang,H., Dian,W., Liu,F. and Wu,P.
+  TITLE     Isolation and characterization of two fructokinase cDNA clones from
+            rice
+  JOURNAL   Phytochemistry 62 (1), 47-52 (2003)
+   PUBMED   12475618
+REFERENCE   2  (bases 1 to 1164)
+  AUTHORS   Wu,P., Jiang,H.W. and Dian,W.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-2001) Institute of Plant Science, College of Life
+            Sciences, Zhejiang University, Kaixuan Road 268, Hangzhou, Zhejiang
+            Province 310029, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..1164
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             47..1057
+                     /note="similar to carbohydrate kinase family pfkB"
+                     /codon_start=1
+                     /product="putative fructokinase II"
+                     /protein_id="AAL26573.1"
+                     /db_xref="GI:16566704"
+                     /translation="MAPLGDGAAAAAAAEPNLVVSFGEMLIDFVPDVAGVSLAESGGF
+                     VKAPGGAPANVACAISKLGGSSAFVGKFGDDEFGHMLVDILKKNGVNAEGCLFDEHAR
+                     TALAFVTLKSNGEREFMFYRNPSADMLLTEAELNLDLIRRAKIFHYGSISLITEPCRS
+                     AHVAAMRAAKSAGILCSYDPNVRLPLWPSEDAARAGILSIWKEADFIKVSDDEVAFLT
+                     QGDANDEKNVLSLWFDGLKLLIVTDGEKGCRYFTKDFKGSVPGFSVNTVDTTGAGDAF
+                     VGSLLVNVAKDDSIFHNEEKLREALKFSNACGAICTTKKGAIPALPTVAVAQELISKA
+                     AN"
+ORIGIN      
+        1 gtttcgttct cgctgttgat ttgttcgtga gatttgaatt ctagcaatgg ctcctctcgg
+       61 tgacggagcg gcggcggcgg cggcggcgga gcccaacctg gtggtgtcgt tcggggagat
+      121 gctgatcgac ttcgtccccg acgtcgccgg cgtctcgctg gccgagtccg gcggcttcgt
+      181 caaggctccc ggcggcgccc ccgccaacgt cgcctgcgcc atctccaagc tcggtggctc
+      241 ctccgccttc gtcggcaagt ttggtgatga tgagttcggg cacatgctgg tggacatcct
+      301 gaagaagaac ggggtgaacg cggaggggtg cctgttcgac gagcacgcgc gcacggcgct
+      361 ggcgttcgtg accttgaaaa gcaacggcga gcgcgagttc atgttctacc ggaacccgag
+      421 cgccgacatg ctcctgacgg aggcggagct caacctggac ctgatccggc gcgccaagat
+      481 cttccactac ggctccatct ccctcatcac cgagccgtgc cgctccgccc acgtcgccgc
+      541 catgcgcgcc gccaagtcgg ccggcatcct ctgctcctac gaccccaacg tccgcctccc
+      601 gctctggccg tccgaggacg ccgcccgcgc cggcatcctc tccatctgga aggaggccga
+      661 cttcatcaag gtgagcgacg acgaggtcgc cttcctcacc cagggcgacg ccaacgacga
+      721 gaagaacgtg ctctcgctct ggttcgacgg cctcaagctc ctcatcgtca ccgacggcga
+      781 gaagggatgc aggtacttca ccaaggactt caagggctcc gtccccggct tctccgtcaa
+      841 caccgtcgac accaccggcg ccggcgacgc cttcgtcggc tccctcctcg tcaacgtcgc
+      901 caaggacgac tccatcttcc acaacgagga gaagctgagg gaggcgctca agttctcgaa
+      961 cgcgtgcgga gccatctgca ccaccaagaa gggtgccatc ccggcgctgc ccaccgtcgc
+     1021 cgtcgcgcag gagctcatca gcaaggcagc caactagagc tcctcggttt cgtcgtcgat
+     1081 cgccgccatt gggggcctcg gaattttagg gtcgatttaa tttagttgct gcttcgtttt
+     1141 agacaaggaa gaggaggggc ttgg
+//
+

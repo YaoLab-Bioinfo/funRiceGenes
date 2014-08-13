@@ -1,0 +1,50 @@
+LOCUS       AB455109                 396 bp    mRNA    linear   PLN 17-OCT-2009
+DEFINITION  Oryza sativa Japonica Group FOS1 mRNA for FON2 SPARE1, complete
+            cds, cultivar: Nipponbare.
+ACCESSION   AB455109
+VERSION     AB455109.1  GI:261490182
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Suzaki,T., Ohneda,M., Toriba,T., Yoshida,A. and Hirano,H.Y.
+  TITLE     FON2 SPARE1 Redundantly Regulates Floral Meristem Maintenance with
+            FLORAL ORGAN NUMBER2 in Rice
+  JOURNAL   PLoS Genet. 5 (10), E1000693 (2009)
+   PUBMED   19834537
+REFERENCE   2  (bases 1 to 396)
+  AUTHORS   Suzaki,T. and Hirano,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-AUG-2008) Contact:Takuya Suzaki Department for Stem
+            Cell Biology, Institute of Zoology, Ruprecht-Karls-University
+            Heidelberg; Im Neuenheimer Feld 230, Heidelberg 69120, Germany
+FEATURES             Location/Qualifiers
+     source          1..396
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..396
+                     /gene="FOS1"
+     CDS             1..396
+                     /gene="FOS1"
+                     /codon_start=1
+                     /product="FON2 SPARE1"
+                     /protein_id="BAI45201.1"
+                     /db_xref="GI:261490183"
+                     /translation="MSRRLGAAAAVLLLWLAVLTFALHGYYGGRLGSARRRNILLQHP
+                     ALALHLPTRKMLLAVASFDDASSPSSLTTTDRHHHHHRHHGHHHHRGHDRWNRKGVPP
+                     TAAGPGEEVDPRFGVQKRLVPTGPNPLHH"
+ORIGIN      
+        1 atgagccggc gactcggcgc cgcggccgcc gtcctcctcc tgtggctcgc cgtgctcacc
+       61 ttcgccttgc acggctacta cggcggccgc ctcggctccg cgaggcggcg gaatatcctc
+      121 ctccaacacc cggcgctagc gctccatctc cccaccagga agatgctcct cgccgtggcg
+      181 agcttcgacg acgcctcctc gccgtcgtcg ttgacgacca ccgatcgtca tcatcaccat
+      241 cacaggcatc atggccacca ccatcatcgc ggccatgatc ggtggaacag gaagggtgtc
+      301 ccgccgacgg cagctgggcc gggcgaggag gtcgacccgc ggttcggcgt gcagaagagg
+      361 ctggtcccga cgggccccaa ccccctgcac cattga
+//
+

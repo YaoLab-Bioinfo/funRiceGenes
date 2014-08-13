@@ -1,0 +1,71 @@
+LOCUS       AAV48542                 377 aa            linear   PLN 27-MAR-2009
+DEFINITION  beta-cyanoalanine synthase [Oryza sativa Indica Group].
+ACCESSION   AAV48542
+VERSION     AAV48542.1  GI:55233175
+DBSOURCE    accession AY720933.1
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 377)
+  AUTHORS   Lai,K.W., Yau,C.P., Tse,Y.C., Jiang,L. and Yip,W.K.
+  TITLE     Heterologous expression analyses of rice OsCAS in Arabidopsis and
+            in yeast provide evidence for its roles in cyanide detoxification
+            rather than in cysteine synthesis in vivo
+  JOURNAL   J. Exp. Bot. 60 (3), 993-1008 (2009)
+   PUBMED   19181864
+REFERENCE   2  (residues 1 to 377)
+  AUTHORS   Yu,M., Cheung,Y.W. and Yip,W.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2004) Botany, The University of Hong Kong, Rm
+            7S/06, Kadoorie Biological Science Building, Pokfulam Road, Hong
+            Kong, China
+FEATURES             Location/Qualifiers
+     source          1..377
+                     /organism="Oryza sativa Indica Group"
+                     /db_xref="taxon:39946"
+                     /chromosome="4"
+     Protein         1..377
+                     /product="beta-cyanoalanine synthase"
+     Region          58..375
+                     /region_name="PLN02565"
+                     /note="cysteine synthase"
+                     /db_xref="CDD:166206"
+     Region          67..357
+                     /region_name="CBS_like"
+                     /note="CBS_like: This subgroup includes Cystathionine
+                     beta-synthase (CBS) and Cysteine synthase. CBS is a unique
+                     heme-containing enzyme that catalyzes a pyridoxal
+                     5'-phosphate (PLP)-dependent condensation of serine and
+                     homocysteine to give cystathionine; cd01561"
+                     /db_xref="CDD:107204"
+     Site            order(71..73,86,92,94,137,140,156..157,160..161,164..165,
+                     220..221,312..314,316..318,343,353,356)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:107204"
+     Site            order(99,130,278,322,349..350)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:107204"
+     Site            99
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:107204"
+     CDS             1..377
+                     /gene="CAS"
+                     /coded_by="AY720933.1:57..1190"
+                     /note="OS-CAS"
+ORIGIN      
+        1 meralmslmr rrsllqsggr appamaaaag gspffstlqq aaaadpvqsp gilpglkird
+       61 sasqligrtp mvylnkvteg cgariaakle flqpsfsvkd rpaismleda ekkglitpgk
+      121 ttlieptsgn mgiglafmaa lkgyeliltm psytslerrv tmrafgaklv ltdptkgmgg
+      181 tvrkaaelye nhpsafmlqq fenpanvkvh yettgpeiwe dtlgqvdifv mgigsggtvt
+      241 gvgkylkekn pnakiygvep aeanvlnggk pgphlitgng vgfkpeilnm dimekvlevk
+      301 gedavkmare lalkegllvg issgantvaa lelakkpenk gklivtvlps lgerylssal
+      361 feelraeaea mqpvpvd
+//
+

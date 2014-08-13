@@ -1,0 +1,103 @@
+LOCUS       JX308938                2637 bp    DNA     linear   PLN 25-APR-2013
+DEFINITION  Zea mays cultivar W22 EMP5 (Emp5) gene, complete cds.
+ACCESSION   JX308938
+VERSION     JX308938.1  GI:409032179
+KEYWORDS    .
+SOURCE      Zea mays
+  ORGANISM  Zea mays
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; PACMAD
+            clade; Panicoideae; Andropogoneae; Zea.
+REFERENCE   1  (bases 1 to 2637)
+  AUTHORS   Liu,Y.J., Xiu,Z.H., Meeley,R. and Tan,B.C.
+  TITLE     Empty Pericarp5 Encodes a Pentatricopeptide Repeat Protein That Is
+            Required for Mitochondrial RNA Editing and Seed Development in
+            Maize
+  JOURNAL   Plant Cell 25 (3), 868-883 (2013)
+   PUBMED   23463776
+REFERENCE   2  (bases 1 to 2637)
+  AUTHORS   Liu,Y.-J., Meeley,R. and Tan,B.-C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUL-2012) School of Life Science, The Chinese
+            University of Hong Kong, LG90, Science Center South Block, Shatin,
+            Hong Kong, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..2637
+                     /organism="Zea mays"
+                     /mol_type="genomic DNA"
+                     /cultivar="W22"
+                     /db_xref="taxon:4577"
+                     /note="insertional mutagenesis"
+     gene            <201..>2637
+                     /gene="Emp5"
+     mRNA            join(<201..1819,1920..>2637)
+                     /gene="Emp5"
+                     /product="EMP5"
+     CDS             join(201..1819,1920..2631)
+                     /gene="Emp5"
+                     /note="pentatricopeptide repeat (PPR) protein"
+                     /codon_start=1
+                     /product="EMP5"
+                     /protein_id="AFV08644.1"
+                     /db_xref="GI:409032180"
+                     /translation="MEAFYLHLLRSCAALPHVAAVHAHLARAHPNASLFLRNCLLASY
+                     CRLGVGAPLHAARLLDEMPRRNAVSYNLVIVAYSRAGLPALSLATFARARAWARVVDR
+                     FTYAAALAACSRALDVRTGKAVHAMVVLGGLGNGLFLSNSVASMYARCGEMGEARRVF
+                     DAAEERDDVSWNALLSGYVRAGAREETLEVFSLMCRHGLGWNSFALGSIIKCCASSSS
+                     YAAAGDVGGGRIAEAVHGCVVKAGLDADLFLASAMIDMYAKRGALTNAVALFKSVPDP
+                     NVIVLNAMIAGFCREEAADVAREALGLYSELQSRGMQPSEFSFSSILRACNLAGEFGF
+                     GKQIHGQVLKHSFQGDVYIGSALIDLYSGSGCMEDGYRCFRSLPKQDVVIWTSVISGC
+                     VQNELFEEALRLFQESVRCGLRPDVFAMSSVMNACASLAVARTGEQIQCLAVKSGFNR
+                     FTAMGNSFIHMCARSGDVDAATRRFQEMESRDVVSWSAVISSHAHHGCARDALCVFNE
+                     MLDAKVAPPNEITFLSILTACSHGGLVDEGLRYYGIMNDEYGLSPTIKHCTCVVDLLG
+                     RAGRLADAEAFIRDSAFHDDAVVWRSLLASCRIHGDMERGQLVADKIMDLEPTSSASY
+                     VILYNMYLDAGELSSASKTRDLMKERGVKKEPGLSWIELSSGVHSFVAGDKSHPESKA
+                     IYRKVAEMVSKVAGISSREQDLAGCHSEKLAVAFGMIHLPQSAPIRVMKNLRVCRDCH
+                     STMELISKSERREIILRDAIRFHRFRDGSCSCGGYW"
+ORIGIN      
+        1 agggtctccc gccccgcctc tcccctggcg ataccccgcc gcctctcgct tgtccccgtt
+       61 cttgagcaat catctgcctc cctttgttcc cgcacaatcc ctagttggga ggggggccat
+      121 ggggcggctg cggccagatg gccagtaacg tgcaaagatg agcagtagat tactatcggt
+      181 ctgctccatc gccggcgtcc atggaggcct tctacctcca ccttctccgc tcctgcgcgg
+      241 cgctaccgca cgtcgcggca gtgcacgccc accttgcgcg cgcgcaccca aacgcctctc
+      301 tcttcctccg caactgcctc ctggcctcct actgccgcct cggggttggg gccccactcc
+      361 acgccgcccg cctgctcgac gaaatgcccc gccgcaacgc cgtctcctac aacctcgtca
+      421 tcgtcgccta ttcccgcgcg ggactcccgg ccctctccct ggcgacgttc gcgcgcgcgc
+      481 gggcgtgggc cagggtggtc gaccggttca cgtacgccgc ggcgctcgcc gcgtgctctc
+      541 gggcgctcga cgtgaggacg gggaaggccg tgcacgccat ggtcgtcctg ggaggtctcg
+      601 gcaacgggtt gttcctgtcc aactcggtcg ccagcatgta cgccaggtgc ggcgagatgg
+      661 gcgaggccag gcgcgtgttt gatgcagccg aggagcgtga cgacgtctcg tggaacgcgc
+      721 tgctctccgg gtacgtccgt gccggtgcac gtgaggagac gctggaggtg ttctctctga
+      781 tgtgccggca tggtctgggg tggaactcgt tcgcgcttgg gagcatcatc aagtgctgtg
+      841 cctcctcctc ttcttatgct gctgctggtg atgtcggagg agggcgcatc gctgaggcgg
+      901 ttcatgggtg cgtggtgaag gctggactgg acgccgacct gttcctcgcg agcgcaatga
+      961 tcgacatgta cgctaagaga ggcgccttga ccaacgcggt tgctcttttc aagtcagtgc
+     1021 cagacccgaa tgtgattgtt ttaaatgcga tgattgcagg attctgtcgt gaggaagcag
+     1081 ccgacgtcgc tagagaagct ttgggcctgt attcagagct gcagagccga gggatgcagc
+     1141 cttctgagtt ctcattctca agtatcctgc gtgcatgtaa cctggccggt gaatttggat
+     1201 tcgggaaaca gatacatggc caagtgctca agcacagctt ccaaggcgat gtctatatcg
+     1261 ggagcgcact cattgacttg tactctggct ctggttgcat ggaggacgga tacaggtgtt
+     1321 tcagatccct gcctaagcag gacgtcgtca tctggacgtc agtgatttca gggtgcgttc
+     1381 agaacgagct ttttgaggag gcactgaggc tgttccaaga atcagtacgc tgtggactga
+     1441 gacctgatgt tttcgcgatg tcgagcgtga tgaacgcatg tgccagttta gctgttgcaa
+     1501 ggaccggtga gcagatccag tgccttgctg taaagtctgg ctttaaccgc ttcaccgcca
+     1561 tggggaattc cttcatacac atgtgtgcta ggtcagggga tgttgatgct gccacccgga
+     1621 ggtttcagga gatggaatcg cgtgatgttg tctcttggtc cgcggtgata tcaagccacg
+     1681 cgcaccatgg ctgtgcaagg gatgctttat gcgttttcaa tgaaatgctg gatgcgaagg
+     1741 tggcaccgcc taacgagatc acttttctca gcatccttac tgcatgtagt catggaggat
+     1801 tggttgatga gggactcagg taagactaga atttcatttc atcatctcag agcattcgat
+     1861 caattttcca gtgcaacttt ctatatattc atacattctc ctttgatgat cttatgcagg
+     1921 tattatggaa ttatgaatga tgaatatgga ttgagcccaa ccataaagca ttgcacctgt
+     1981 gttgttgatc ttcttggacg agccgggagg ttagccgatg ctgaggcttt cataagggat
+     2041 tcagcattcc atgacgatgc tgtggtctgg cggtctttgc tggcctcgtg tcgtatccac
+     2101 ggagacatgg agagaggcca acttgtggcg gacaagataa tggatctgga gcccacttcc
+     2161 tcagcatcct acgtaattct ctacaacatg tatctggatg ctggcgagct gtcctcggct
+     2221 tcaaagactc gagatctgat gaaagagcga ggcgtgaaga aagagcctgg tcttagttgg
+     2281 atcgagctga gctctggagt tcactctttt gttgccggtg acaagtccca tccagagagc
+     2341 aaagcaatat acagaaaagt ggcagagatg gtttccaagg tggcgggcat ctctagcagg
+     2401 gagcaggatt tggcgggttg ccacagcgaa aaactagctg tggcatttgg aatgatccat
+     2461 ttgccgcaat cagctccgat ccgagtgatg aagaacctga gagtttgccg tgactgccac
+     2521 tcgaccatgg agctgatatc caagagtgag aggagagaga taatcttgcg agacgcgatt
+     2581 cgcttccatc gcttcagaga cggttcctgt tcctgtggcg gttactggtg atgatga
+//
+

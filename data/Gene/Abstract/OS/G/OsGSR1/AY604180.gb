@@ -1,0 +1,66 @@
+LOCUS       AY604180                 881 bp    DNA     linear   PLN 04-FEB-2009
+DEFINITION  Oryza sativa (japonica cultivar-group) gibberellin-stimulated
+            protein (Gsr1) gene, complete cds.
+ACCESSION   AY604180
+VERSION     AY604180.1  GI:48375075
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 881)
+  AUTHORS   Wang,L., Wang,Z., Xu,Y., Joo,S.H., Kim,S.K., Xue,Z., Xu,Z., Wang,Z.
+            and Chong,K.
+  TITLE     OsGSR1 is involved in crosstalk between gibberellins and
+            brassinosteroids in rice
+  JOURNAL   Plant J. 57 (3), 498-510 (2009)
+   PUBMED   18980660
+REFERENCE   2  (bases 1 to 881)
+  AUTHORS   Wang,Z., Chong,K., Xu,Z.H., Lan,L.F. and Xue,Y.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-APR-2004) Research Center for Molecular &
+            Developmental Biology, Key Laboratory of Photosynthesis and
+            Environmental Molecular Physiology, Institute of Botany, The
+            Chinese Academy of Sciences, Xiangshan Nan xin cun #20, Haidian
+            District, Beijing 100093, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..881
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+     gene            86..765
+                     /gene="Gsr1"
+     mRNA            join(86..181,286..765)
+                     /gene="Gsr1"
+                     /product="gibberellin-stimulated protein"
+     CDS             join(110..181,286..546)
+                     /gene="Gsr1"
+                     /note="GSR1; similar to GASA protein family in
+                     Arabidopsis"
+                     /codon_start=1
+                     /product="gibberellin-stimulated protein"
+                     /protein_id="AAT42201.1"
+                     /db_xref="GI:48375076"
+                     /translation="MASSTKIPFLLLAVLLLLSIAFPSEVMAGGRGRGGGGGGGVAGG
+                     GNLRPWECSPKCAGRCSNTQYKKACLTFCNKCCAKCLCVPPGTYGNKGACPCYNNWKT
+                     KEGGPKCP"
+ORIGIN      
+        1 ttactcctcc acggctccac accaatctcg ccgtcctccc ctcctcctcc tcctctatat
+       61 aaacaccacc ctaagtccct aacccaccca aacaccaccg cacccaccaa tggcgtcctc
+      121 caccaagatc cccttcctcc tcctcgccgt cctcctcctc ctttccatcg ccttcccatc
+      181 ggtaacctca caatctctct aacctctcct tcaacctgat tactatatat cttgaatctt
+      241 gggttaatct tgacgttctt gttcgttctt gtttctcgcg tgcaggaggt gatggcagga
+      301 gggcgcgggc gcggcggcgg cggcggcgga ggggtggccg gcggcgggaa cctgaggccg
+      361 tgggagtgct cgcccaagtg cgcggggagg tgctccaaca cgcagtacaa gaaggcgtgc
+      421 ctgacgttct gcaacaagtg ctgcgccaag tgcctgtgcg tgccgcccgg cacctacggc
+      481 aacaagggcg cctgcccctg ctacaacaac tggaagacca aggaaggcgg ccccaagtgc
+      541 ccctaagatg catgcctttt tttctttctt cttttttttt tgttttttta ccgtatgatt
+      601 aatacctcct actagttcta ctacattggt gtgtcactgc ctcactgaca ctggtttagc
+      661 tcatggatcc ggttgattag ttaattggtg gtgggtttta ttgctagatc tgggcttata
+      721 agtattagtt tatcctgttc tagtaaggtt gttggttggg ggaatgtgtg cgagagagga
+      781 gagtgaggat tcgtcaaagc tggtcaaaaa cttggatccc ctctccctgt agtgattgat
+      841 tgatttgcta ctactggagt gtgctttgcc ggaatcattt g
+//
+

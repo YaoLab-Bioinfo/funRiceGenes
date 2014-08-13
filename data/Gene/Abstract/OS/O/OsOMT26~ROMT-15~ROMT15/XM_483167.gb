@@ -1,0 +1,64 @@
+LOCUS       XM_483167                996 bp    mRNA    linear   PLN 09-NOV-2004
+DEFINITION  Oryza sativa (japonica cultivar-group), mRNA.
+ACCESSION   XM_483167
+VERSION     XM_483167.1  GI:50947278
+KEYWORDS    RefSeq.
+SOURCE      Oryza sativa (japonica cultivar-group)
+  ORGANISM  Oryza sativa (japonica cultivar-group)
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 996)
+  CONSRTM   The NCBI Genome Assembly Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JUL-2004) National Center for Biotechnology
+            Information, National Institutes of Health, Bethesda 20894, United
+            States of America
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NT_107239).
+FEATURES             Location/Qualifiers
+     source          1..996
+                     /organism="Oryza sativa (japonica cultivar-group)"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..996
+                     /gene="P0026F07.24"
+                     /db_xref="GeneID:3073831"
+     CDS             71..829
+                     /gene="P0026F07.24"
+                     /note="contains EST(s):
+                     AU090607(S11670),D46783(S11670),AU030740(E60171),AU030739
+                     (E60171);
+                     contains full-length cDNA(s): AK104801,AK071482,AK104326"
+                     /codon_start=1
+                     /product="putative caffeoyl-CoA O-methyltransferase 1"
+                     /protein_id="XP_483167.1"
+                     /db_xref="GI:50947279"
+                     /db_xref="GeneID:3073831"
+                     /translation="MTTGNGDAPVIKNAHSDIDSTNKTLLKSDALYKYVLDTTVLPRE
+                     PECMRDLRLITDKHQWGFMQSSADEAQLLGMLLKMAGAKRTIEVGVFTGYSLLATALA
+                     LPEDGKVVAIDPDRESYEIGRPFLEKAGVAHKVDFREGKGLEKLDELLAEEAAAGREA
+                     AFDFAFVDADKPNYVKYHEQLLQLVRVGGHIVYDNTLWAGTVALPPDTPLSDLDRRFS
+                     VAIRDLNSRLAADPRIDVCQLAIADGITICRRLV"
+ORIGIN      
+        1 aaccaatcga ctcgcaccac caccagcagc tcaagcagca acagctcaaa cggaggaaga
+       61 tctcatcgcc atgacgaccg gcaatggcga cgcaccggtg atcaagaacg cccacagcga
+      121 catcgacagc accaacaaga cgctgctcaa gagcgacgcc ctgtacaagt atgtcctgga
+      181 cacgacggtg ctgccacggg agccggagtg catgcgcgat ctgcgcctca tcacggacaa
+      241 gcaccagtgg gggttcatgc agtcgtcggc ggatgaggcg cagctgctgg ggatgctgct
+      301 gaagatggcc ggagcgaaga ggacaatcga ggtgggtgtc ttcaccggct actcgctgct
+      361 ggcgacggcg ctggcgctgc cggaggacgg gaaggtggtg gcgatcgacc cggacaggga
+      421 gagctacgag atcgggcggc cgttcttgga gaaggccggg gtggcgcaca aggtggactt
+      481 ccgcgagggg aaggggctgg agaagctgga cgagctgctc gccgaggagg cggcggcggg
+      541 gcgcgaggcg gcgttcgact tcgcgttcgt ggacgcggac aagcccaact acgtcaagta
+      601 ccacgagcag ctgctgcagc tggtgcgcgt cggcgggcac atcgtgtacg acaacacgct
+      661 gtgggccggc acggtggcgc tgccgccgga cacgccgctg tcggacctgg accggaggtt
+      721 ctccgtcgcc atcagggacc tcaactccag gctcgccgcc gacccgcgca tcgacgtctg
+      781 ccagctcgcc atcgccgacg gcatcaccat ctgccgccgc ctcgtgtgag gtcgagaccg
+      841 agaccttacc ggccgatcca tccatcgctc tcgcgtgatt aattaacgtg tgttgctgta
+      901 ctcttctact gctacaacta tactattact tccttaattg ccgcttaaat tttcctatac
+      961 gtgtttcaat caatgagatt attatattct tcgagc
+//
+

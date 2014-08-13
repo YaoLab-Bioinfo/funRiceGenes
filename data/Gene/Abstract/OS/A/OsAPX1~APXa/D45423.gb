@@ -1,0 +1,67 @@
+LOCUS       D45423                   983 bp    mRNA    linear   PLN 27-DEC-2006
+DEFINITION  Oryza sativa mRNA for ascorbate peroxidase, complete cds.
+ACCESSION   D45423
+VERSION     D45423.1  GI:1321660
+KEYWORDS    ascorbate peroxidase.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Morita,S., Kaminaka,H., Yokoi,H., Masumura,T. and Tanaka,K.
+  TITLE     Cloning and characterization of cytosolic ascorbate peroxidase cDNA
+            from rice (PGR97-012)
+  JOURNAL   Plant Physiol. 113, 306 (1997)
+REFERENCE   2  (bases 1 to 983)
+  AUTHORS   Morita,S., Kaminaka,H., Yokoi,H., Masumura,T. and Tanaka,K.
+  TITLE     Cloning and characterization of a rice ascorbate peroxidase cDNA
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 983)
+  AUTHORS   Morita,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-FEB-1995) Shigeto Morita, Kyoto Prefectural
+            University, Department of Biochem., Facul. Agricul.; Shimogamo,
+            Sakyo-ku, Kyoto, Kyoto 606, Japan (E-mail:s_morita@kpu.ac.jp,
+            Tel:075-701-5144, Fax:075-701-5144)
+COMMENT     On May 16, 1996 this sequence version replaced gi:662297.
+FEATURES             Location/Qualifiers
+     source          1..983
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone="APXa"
+                     /note="Common name: Rice"
+     CDS             40..792
+                     /EC_number="1.11.1.11"
+                     /codon_start=1
+                     /product="ascorbate peroxidase"
+                     /protein_id="BAA08264.1"
+                     /db_xref="GI:1321661"
+                     /translation="MAKNYPVVSAEYQEAVEKARQKLRALIAEKSCAPLMLRLAWHSA
+                     GTFDVSSKTGGPFGTMKTPAELSHAANAGLDIAVRMLEPIKEEIPTISYADFYQLAGV
+                     VAVEVSGGPAVPFHPGREDKPAPPPEGRLPDATKGSDHLRQVFGAQMGLSDQDIVALS
+                     GGHTLGRCHKERSGFEGPWTRNPLQFDNSYFTELLSGDKEGLLQLPSDKALLSDPAFR
+                     PLVEKYAADEKAFFEDYKEAHLKLSELGFADA"
+     polyA_signal    900..905
+     polyA_site      983
+ORIGIN      
+        1 tctcctcctc ctcctcgatt cggagctcca cccgcagcca tggctaagaa ctaccccgtc
+       61 gtgagcgccg agtaccagga ggccgtcgag aaggccaggc agaagctgcg cgccctcatc
+      121 gccgagaaga gctgcgcccc tctcatgctc cgcctcgcgt ggcactcggc ggggacgttc
+      181 gacgtgtcgt cgaagaccgg gggcccgttc gggacgatga agaccccggc ggagctgtcg
+      241 cacgccgcca acgcggggct ggacatcgcg gtgcggatgc tcgagcccat caaggaggag
+      301 atacccacca tctcctacgc cgatttctac cagcttgccg gagttgtggc cgtcgaggtg
+      361 tccggtggac ctgccgtccc cttccaccca ggaagggagg acaaacctgc acccccacct
+      421 gagggccgtc ttcctgatgc taccaagggt tctgaccacc taaggcaggt cttcggtgcg
+      481 cagatgggct tgagtgatca ggacattgtt gccctctctg gcggtcacac cctgggaagg
+      541 tgccacaagg aaagatctgg ttttgaggga ccttggacaa gaaaccctct gcagtttgac
+      601 aactcttact tcacggagct tctgagtggt gacaaggagg gccttcttca gcttcctagt
+      661 gacaaagccc tgctgagtga ccctgccttc cgcccactcg tcgagaaata tgctgcagat
+      721 gagaaggctt tctttgaaga ctacaaggag gcccacctca agctctccga actggggttc
+      781 gctgatgctt aagaggtttc tagtctacta ctgctagtac attgcccgtg gtactcttgt
+      841 tttgcatcta ggctagggcc agtgtgaacc agcagactac cactgtgagt cgcctctgta
+      901 ataaaatttg ttcggcctat ggcatcctca gtacgttgtc aatgtctcgg tgggctgtta
+      961 tgctcaactg caatgctgca tcc
+//
+

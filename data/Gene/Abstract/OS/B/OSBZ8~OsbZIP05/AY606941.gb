@@ -1,0 +1,65 @@
+LOCUS       AY606941                1083 bp    mRNA    linear   PLN 28-SEP-2006
+DEFINITION  Oryza sativa (indica cultivar-group) salt-stress inducible bZIP
+            protein mRNA, complete cds.
+ACCESSION   AY606941
+VERSION     AY606941.1  GI:49345142
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1083)
+  AUTHORS   Mukherjee,K., Choudhury,A.R., Gupta,B., Gupta,S. and Sengupta,D.N.
+  TITLE     An ABRE-binding factor, OSBZ8, is highly expressed in salt tolerant
+            cultivars than in salt sensitive cultivars of indica rice
+  JOURNAL   BMC Plant Biol. 6, 18 (2006)
+   PUBMED   16939657
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1083)
+  AUTHORS   Gupta,B., Mukherjee,K. and Sengupta,D.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-APR-2004) Botany, Bose Institute, 93/1 A.P.C. Road,
+            Kolkata, WB 700009, India
+FEATURES             Location/Qualifiers
+     source          1..1083
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nonabokra"
+                     /db_xref="taxon:39946"
+                     /tissue_type="root"
+     CDS             1..1083
+                     /note="similar to OSBZ8"
+                     /codon_start=1
+                     /product="salt-stress inducible bZIP protein"
+                     /protein_id="AAT64973.1"
+                     /db_xref="GI:49345143"
+                     /translation="MGNDEAVVTQKMGKAPSPPKDHPALSPYLDWSNMQAYYGPGILP
+                     PTFFSPGIAAGHTPPPFIWGPQPLVPSAFGKPYAAIYPPGGAFSHPFMPLMVSPLSME
+                     PAKSVNSKDNCSNKKMKEIDGAAMSTGSGNSEKTSGDCSLEGFSDGNNQKASGTPKKR
+                     SIDDRPKSGVETGGALTPNDRPSEQAALPNLCIPVTAIKPDVSTASDFRVIATPVTEV
+                     PTKDDKESKRERRKQSNRESARRSRLRKQAETEELARKVELLTAENTSLRREISRLTE
+                     SSKKLRLENSALMEKLTETGPDEAQEVPPVKTKAQQARGVENFLSMIDKTGTPRSSGH
+                     MDHAIATPKLRQLLGSGLATDAVAAR"
+ORIGIN      
+        1 atgggaaatg acgaagctgt agttactcag aagatgggga aagcaccatc gccccctaag
+       61 gatcatccag cccttagtcc ataccttgat tggtcaaata tgcaggcata ttacggccca
+      121 gggatcttgc caccaacatt ttttagccct ggaatagccg ctggtcatac ccctcctcca
+      181 tttatctggg gtcctcagcc tctggtgcca tccgcttttg ggaagccata tgccgcaatt
+      241 tatcctcctg gtggagcttt ttcacatccg ttcatgcccc taatggtgag cccattgagc
+      301 atggagccag caaagtctgt caacagcaag gataactgtt caaataagaa aatgaaggaa
+      361 attgatggtg cggctatgtc aactggcagt ggcaacagtg aaaaaacaag tggagattgc
+      421 agcttagaag gattcagtga tggaaacaac cagaaggcaa gtggaactcc caagaaaagg
+      481 agcatagatg ataggcctaa atcaggcgtg gaaactggtg gagctttaac acctaatgat
+      541 agacctagcg aacaagcagc tttgccaaat ctatgcattc cggttacagc aatcaaacca
+      601 gacgtgagca ctgctagtga cttcagagtt attgccaccc cagtaactga agtgccaact
+      661 aaggatgata aggaatcgaa gcgcgagaga aggaagcaat caaacaggga gtctgctcgg
+      721 aggtcaaggt tgaggaagca ggccgagact gaggaactgg ctagaaaagt tgagctattg
+      781 actgcggaga acacatccct tagacgtgaa ataagcaggc taacggaaag ctccaagaaa
+      841 cttagattag agaattctgc tctaatggag aaactaacgg aaaccgggcc tgatgaagca
+      901 caagaagtgc ctccagtcaa aacaaaagca cagcaagctc gaggcgtcga aaatttcctg
+      961 tcaatgatag acaagactgg cacgccgaga agcagcgggc acatggatca tgccattgcc
+     1021 acgcccaagc ttcgtcaact cctgggctct ggtctggcga ctgatgctgt agccgcaagg
+     1081 taa
+//
+

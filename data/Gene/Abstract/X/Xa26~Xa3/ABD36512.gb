@@ -1,0 +1,114 @@
+LOCUS       ABD36512                1103 aa            linear   PLN 09-MAR-2006
+DEFINITION  bacterial blight resistance protein XA26 [Oryza sativa Indica
+            Group].
+ACCESSION   ABD36512
+VERSION     ABD36512.1  GI:87280654
+DBSOURCE    accession DQ355952.1
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (residues 1 to 1103)
+  AUTHORS   Sun,X., Cao,Y. and Wang,S.
+  TITLE     Point mutations with positive selection were a major force during
+            the evolution of a receptor-kinase resistance gene family of rice
+  JOURNAL   Plant Physiol. 140 (3), 998-1008 (2006)
+   PUBMED   16461382
+REFERENCE   2  (residues 1 to 1103)
+  AUTHORS   Wang,S. and Sun,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JAN-2006) National Key Laboratory of Crop Genetic
+            Improvement, Huazhong Agricultural University, Wuhan 430070, China
+FEATURES             Location/Qualifiers
+     source          1..1103
+                     /organism="Oryza sativa Indica Group"
+                     /cultivar="Minghui 63"
+                     /db_xref="taxon:39946"
+                     /chromosome="11"
+                     /map="between R1506 and Y6855RA"
+                     /clone="3H8"
+     Protein         1..1103
+                     /product="bacterial blight resistance protein XA26"
+                     /name="member of receptor kinase-resistance Xa26 gene
+                     family"
+     Region          39..79
+                     /region_name="LRRNT_2"
+                     /note="Leucine rich repeat N-terminal domain; pfam08263"
+                     /db_xref="CDD:254692"
+     Region          42..1083
+                     /region_name="PLN00113"
+                     /note="leucine-rich repeat receptor-like protein kinase;
+                     Provisional"
+                     /db_xref="CDD:215061"
+     Region          406..704
+                     /region_name="LRR_RI"
+                     /note="Leucine-rich repeats (LRRs), ribonuclease inhibitor
+                     (RI)-like subfamily. LRRs are 20-29 residue sequence
+                     motifs present in many proteins that participate in
+                     protein-protein interactions and have different functions
+                     and cellular locations. LRRs correspond...; cd00116"
+                     /db_xref="CDD:238064"
+     Site            order(406,408,411,413,427,430,432,435,437,453,456,458,461,
+                     478,481,483,486,488,502,505,507,510,512,526,529,531,534,
+                     536,550,553,555,558,560,574,577,579,582,584,622,625,627,
+                     630,651,670,673,675,678,680,694,697,699,702,704)
+                     /site_type="other"
+                     /note="Leucine-rich repeats"
+                     /db_xref="CDD:238064"
+     Site            order(433..434,485,533,557,629,674,676,698)
+                     /site_type="other"
+                     /note="Substrate binding site [chemical binding]"
+                     /db_xref="CDD:238064"
+     Region          451..512
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          814..1001
+                     /region_name="PKc"
+                     /note="Catalytic domain of Protein Kinases; cd00180"
+                     /db_xref="CDD:173623"
+     Site            order(814..818,822,834,836,865,881..884,888,890,932,934,
+                     936..937,939,950,953,971..974)
+                     /site_type="active"
+                     /db_xref="CDD:173623"
+     Site            order(814..818,822,834,836,865,881..884,888,932,934,
+                     936..937,939,950)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:173623"
+     Site            order(818,888,890,932,934,936,953,971..974)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:173623"
+     Site            order(949..955,971..974)
+                     /site_type="other"
+                     /note="activation loop (A-loop)"
+                     /db_xref="CDD:173623"
+     CDS             1..1103
+                     /gene="Xa26"
+                     /coded_by="join(DQ355952.1:21725..24659,
+                     DQ355952.1:24765..25141)"
+ORIGIN      
+        1 malvrlpvwi fvaalliass stvpcasslg piasksnssd tdlaallafk aqlsdpnnil
+       61 agnwttgtpf crwvgvscss hrrrrqrvta lelpnvplqg elsshlgnis flfilnltnt
+      121 gltgsvpnki grlrrlelld lghnamsggi paaignltrl qllnlqfnql ygpipaelqg
+      181 lhslgsmnlr hnyltgsipd dlfnntpllt ylnvgnnsls glipgcigsl pilqhlnfqa
+      241 nnltgavppa ifnmsklsti slisngltgp ipgntsfslp vlrwfaiskn nffgqiplgl
+      301 aacpylqvia mpynlfegvl ppwlgrltnl daislggnnf dagpiptels nltmltvldl
+      361 ttcnltgnip adighlgqls wlhlamnqlt gpipaslgnl sslailllkg nlldgslpst
+      421 vdsmnsltav dvtennlhgd lnflstvsnc rklstlqmdl nyitgilpdy vgnlssqlkw
+      481 ftlsnnkltg tlpatisnlt alevidlshn qlrnaipesi mtienlqwld lsgnslsgfi
+      541 psntallrni vklflesnei sgsipkdmrn ltnlehllls dnkltstipp slfhldkivr
+      601 ldlsrnflsg alpvdvgylk qitimdlsdn hfsgripysi gqlqmlthln lsangfydsv
+      661 pdsfgnltgl qtldishnsi sgtipnylan fttlvslnls fnklhgqipe ggvfanitlq
+      721 ylegnsglcg aarlgfppcq ttspnrnngh mlkyllptii ivvgivaccl yvvirkkanh
+      781 qntsagkadl ishqllsyhe llratddfsd dsmlgfgsfg kvfrgrlsng mvvaikvihq
+      841 hlehamrsfd tecrvlrmar hrnlikilnt csnldfralv lqympkgsle allhseqgkq
+      901 lgflerldim ldvsmameyl hhehyevvlh cdlkpsnvlf dddmtahvad fgiarlllgd
+      961 dnsmisasmp gtvgymapey gtlgkasrks dvfsygimll evftakrptd amfvgelnir
+     1021 qwvqqafpae lvhvvdcqll qdgssssssn mhdflvpvfe lgllcsadsp eqrmamsdvv
+     1081 ltlnkirkdy vklmattvsv vqq
+//
+

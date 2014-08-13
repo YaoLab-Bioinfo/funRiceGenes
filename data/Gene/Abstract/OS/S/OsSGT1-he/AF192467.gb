@@ -1,0 +1,69 @@
+LOCUS       AF192467                1222 bp    mRNA    linear   PLN 16-DEC-1999
+DEFINITION  Oryza sativa Sgt1 (Sgt1) mRNA, complete cds.
+ACCESSION   AF192467
+VERSION     AF192467.1  GI:6581057
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1222)
+  AUTHORS   Shirasu,K., Lahaye,T., Tan,M.W., Zhou,F., Azevedo,C. and
+            Schulze-Lefert,P.
+  TITLE     A novel class of eukaryotic zinc-binding proteins is required for
+            disease resistance signaling in barley and development in C.
+            elegans
+  JOURNAL   Cell 99 (4), 355-366 (1999)
+   PUBMED   10571178
+REFERENCE   2  (bases 1 to 1222)
+  AUTHORS   Shirasu,K. and Schulze-Lefert,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-OCT-1999) The Sainsbury Laboratory, John Innes
+            Center, Colney Lane, Norwich NR4 7UH, United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..1222
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /note="corresponds to MAFF DNA Bank EST clone C62803"
+     gene            1..1222
+                     /gene="Sgt1"
+     CDS             54..1157
+                     /gene="Sgt1"
+                     /note="similar to yeast Sgt1"
+                     /codon_start=1
+                     /product="Sgt1"
+                     /protein_id="AAF18438.1"
+                     /db_xref="GI:6581058"
+                     /translation="MATAAASDLESKAKAAFVDDDFELAAELYTQAIEASPATAELYA
+                     DRAQAHIKLGNYTEAVADANKAIELDPSMHKAYLRKGAACIRLEEYQTAKAALELGYS
+                     FASGDSRFTRLMKECDERIAEELTEVPVKKAEDGAAAPSVASFVEEKDDAANMDNTPP
+                     MVEVKPKYRHDFYNSATEVVLTIFAKGVPAENVVVDFGEQMLSVSIEVPGEEPYHFQP
+                     RLFSKIIPEKSRYQVLSTKVEIRLAKAEQITWTSLDYDKKPKAVPQKIIPPAESAQRP
+                     SYPSSKSKKDWDKLEAEVKKEEKEEKLEGDAALNKFFRDIYSDADEDMRRAMMKSFVE
+                     SNGTVLSTNWKDVGSKKVEGSPPDGMELKKWEY"
+ORIGIN      
+        1 cccccacccg catcccccgg cctcctcacc gcagccgcaa aagccaagcc gccatggcaa
+       61 ccgccgccgc gtcggatctg gagagcaagg ccaaggcggc cttcgtcgac gacgacttcg
+      121 agctcgccgc cgagctctac acgcaggcaa tcgaggccag ccccgccacc gccgagctct
+      181 acgccgaccg cgcccaggcc catatcaagc taggcaacta cactgaggct gtagctgatg
+      241 ctaacaaggc cattgaactt gacccatcaa tgcacaaggc ttatcttcgt aaaggcgctg
+      301 catgtatacg actggaggag tatcaaactg caaaagcagc tcttgaattg ggttactcgt
+      361 tcgcatctgg tgactcaagg tttactcgcc taatgaagga gtgtgatgag cgcattgctg
+      421 aggagcttac tgaagtccct gttaagaagg ctgaagatgg agcagctgcc ccctctgttg
+      481 cttcttttgt tgaggaaaag gatgatgctg caaacatgga taatacacca ccaatggtag
+      541 aagtgaagcc aaaatacagg cacgacttct acaacagtgc tacagaagtt gtattgacaa
+      601 tttttgcaaa gggtgttcct gctgagaatg ttgttgttga ttttggtgaa caaatgttaa
+      661 gtgtgtcgat tgaagtccct ggagaggagc cgtaccattt tcagcctcgt ctgttttcta
+      721 agatcatccc tgagaaaagc agataccaag tgctatccac gaaggttgaa ataagactgg
+      781 ctaaagctga acagattaca tggacctcac ttgattatga taaaaaacca aaggctgttc
+      841 cacaaaagat aatccctcca gctgaatcgg cccagaggcc atcatatcct tcctcaaaat
+      901 ccaagaaaga ctgggataaa ctggaagctg aagttaaaaa ggaggagaag gaggagaagc
+      961 ttgaaggcga tgctgcattg aacaaatttt tccgtgacat ctacagtgat gctgatgaag
+     1021 acatgcgacg agcaatgatg aaatcttttg ttgaatctaa cggtactgtt ctgtcgacca
+     1081 attggaaaga tgttggctcg aagaaggtag agggaagccc acctgatggg atggagctta
+     1141 agaaatggga gtactaagat ctcggntcgt gccatgctgt aaattcgnta tcggcctgag
+     1201 tcatcacttg gctggagaat tc
+//
+

@@ -1,0 +1,77 @@
+LOCUS       AY972084                1620 bp    mRNA    linear   PLN 16-MAR-2007
+DEFINITION  Oryza sativa (japonica cultivar-group) sphingosine-1-phosphate
+            lyase (SPL) mRNA, complete cds.
+ACCESSION   AY972084
+VERSION     AY972084.1  GI:62632702
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1620)
+  AUTHORS   Niu,Y., Chen,K., Wang,J., Liu,X., Qin,H., Zhang,A. and Wang,D.
+  TITLE     Molecular and Functional Characterization of
+            Sphingosine-1-Phosphate Lyase Homolog from Higher Plants
+  JOURNAL   J. Integr. Plant Biol. 49 (3), 323-335 (2007)
+REFERENCE   2  (bases 1 to 1620)
+  AUTHORS   Niu,Y., Wang,J., Liu,K. and Wang,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-MAR-2005) Group 708, Institute of Genetics and
+            Developmental Biology, Chinese Academy of Sciences, Datun Road,
+            Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..1620
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1620
+                     /gene="SPL"
+                     /note="OsSPL"
+     CDS             1..1620
+                     /gene="SPL"
+                     /codon_start=1
+                     /product="sphingosine-1-phosphate lyase"
+                     /protein_id="AAX89367.1"
+                     /db_xref="GI:62632703"
+                     /translation="MELAMDFALRLRDAANHHLSRYEPLVLLAAPLLALLAARTLHAA
+                     AAAVADRGLRTVLLALAMTAIKLLPGVSAYINAEKRKVVDQLQSGGTSTKSTLRTELP
+                     TVGLSNQVINDLETLKARDVNWQGKCSGTVYIAGSESEGHFALINKAYSMFSHTNPLH
+                     QDVFKSVAQLEAEVVAMTAALLGIKEKSSGGQICGNMTSGGTESILLAVKTSRDYMRT
+                     KKGITKPEMIIAESAHSAYDKAAQYFNIKVRRVPVNKEFLADVKGFKRCINGNTIMMV
+                     GSAPGFPHGLIDPIEELGELASRYDICLHVDLCLGGFVLPFARKLGYPIPPFDFCVKG
+                     VTSISTDVHKYGLAPKGTSIVLYKNHEIRKHQFVAVTEWTGGLYVSPTIAGSRPGGLI
+                     AGAWAAMTSLGLNGYMENTGHIMEVSKKIQRGIEDIPGLFVIGKPDMTVVAFGSDSVD
+                     IFEVNDIMSSKGWHLNALQRPNSLHICVTLQHTVIYEEFLKDLKDSVDTVKANPGPIS
+                     GGRAPIYGAAGKMPDRGMVRELLVEFMDASC"
+ORIGIN      
+        1 atggagctcg ccatggattt tgcgctccgc ctccgcgacg ccgccaacca ccacctctcc
+       61 cgctacgagc ctctcgtgct cctcgccgcg cccctcctcg ccctcctcgc tgcccgcacc
+      121 ctccacgccg ccgctgccgc cgtcgccgac cgcggtctcc gcaccgtcct cctcgctcta
+      181 gccatgacag ccatcaagtt gcttccggga gttagcgcct acatcaacgc tgagaagagg
+      241 aaggttgttg accagctgca gtcaggtggc acgtccacaa aaagtactct gcggaccgag
+      301 ttgccaactg ttgggctttc caaccaagtg ataaacgatc tcgaaacact gaaagctaga
+      361 gatgtaaact ggcagggaaa atgctctggc acagtttata ttgctgggag tgaatccgaa
+      421 ggtcattttg cattgataaa caaggcttac tctatgtttt cacacaccaa cccacttcac
+      481 caggacgtat tcaagagtgt ggcacaatta gaggctgaag tagttgcaat gacagctgct
+      541 ttgcttggca tcaaagaaaa atcatccggt ggacagattt gtggtaatat gacatcgggc
+      601 ggaactgaaa gcatattatt agcagtaaaa acatcacgcg actatatgcg aacaaagaag
+      661 ggcattacaa agcctgaaat gataattgcc gaatcagcac attctgcata cgataaagct
+      721 gctcaatatt tcaatattaa agtgcggcgt gtgccagtga acaaagagtt tcttgcagat
+      781 gtgaaaggat tcaaaaggtg tataaacgga aatacgataa tgatggtggg gtctgcacca
+      841 ggatttcctc atggtttaat tgatcctatt gaggaacttg gggagttggc ttcacgatat
+      901 gacatttgct tgcatgttga tctctgcctt ggtggatttg tattgccttt cgctcgtaag
+      961 cttgggtacc ctattcctcc attcgacttc tgtgtcaagg gagttacatc aatctcaact
+     1021 gatgttcata agtatggatt agccccaaaa gggacaagca ttgtcctata taaaaatcat
+     1081 gaaattagaa agcatcaatt tgttgctgtt actgaatgga ctggtgggct ctatgtttca
+     1141 cctactattg ctggaagtag gcctggtggg ttgatagcgg gagcttgggc tgctatgacg
+     1201 tctcttggac tgaacggtta tatggaaaat acaggtcata tcatggaagt gtcgaagaaa
+     1261 atacaaagag ggattgaaga tatcccaggg ttgtttgtga ttggaaagcc agacatgact
+     1321 gtcgtggcat ttggctcaga ttcggttgat atatttgagg tgaacgacat aatgtcatca
+     1381 aaaggctggc accttaatgc tctgcagaga cccaacagtt tacacatttg tgtgacactg
+     1441 cagcacacgg tcatatatga ggaattcctg aaggatctga aagattcagt ggacactgta
+     1501 aaagcaaatc cagggcctat tagcgggggg cgagctccga tttacggagc tgctggcaag
+     1561 atgccggaca gaggcatggt cagggagctg ctggtggagt tcatggacgc gtcttgctga
+//
+

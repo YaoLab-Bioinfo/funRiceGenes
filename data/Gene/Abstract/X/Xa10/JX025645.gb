@@ -1,0 +1,74 @@
+LOCUS       JX025645                1032 bp    DNA     linear   PLN 03-APR-2014
+DEFINITION  Oryza sativa Indica Group cultivar IRBB10A XA10 (Xa10) gene,
+            complete cds.
+ACCESSION   JX025645
+VERSION     JX025645.1  GI:448280729
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1032)
+  AUTHORS   Tian,D., Wang,J., Zeng,X., Gu,K., Qiu,C., Yang,X., Zhou,Z., Goh,M.,
+            Luo,Y., Murata-Hori,M., White,F.F. and Yin,Z.
+  TITLE     The Rice TAL Effector-Dependent Resistance Protein XA10 Triggers
+            Cell Death and Calcium Depletion in the Endoplasmic Reticulum
+  JOURNAL   Plant Cell 26 (1), 497-515 (2014)
+   PUBMED   24488961
+REFERENCE   2  (bases 1 to 1032)
+  AUTHORS   Tian,D., Wang,J., Gu,K., Zeng,X., Qiu,C., Yang,X., Zhou,Z., Goh,M.,
+            Zhao,J., Luo,Y., Murata-Hori,M., White,F.F. and Yin,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAY-2012) Molecular Plant Pathology, Temasek Life
+            Sciences Laboratory, 1 Research Link 117640, Singapore
+FEATURES             Location/Qualifiers
+     source          1..1032
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="IRBB10A"
+                     /db_xref="taxon:39946"
+                     /chromosome="11"
+     gene            1..1032
+                     /gene="Xa10"
+     promoter        1..220
+                     /gene="Xa10"
+     mRNA            join(221..670,920..1032)
+                     /gene="Xa10"
+                     /product="XA10"
+     5'UTR           221..273
+                     /gene="Xa10"
+     CDS             274..654
+                     /gene="Xa10"
+                     /codon_start=1
+                     /product="XA10"
+                     /protein_id="AGE45112.1"
+                     /db_xref="GI:448280730"
+                     /translation="MQLMLTFCTGPLLFAVLLLMVYLKQLAAAACVDVLIIYLCRFLL
+                     LRGIIFSGDGKLRFRVKVAIGFLYISLSAILFYLSAAVMALPPWGAVAMWGMALVATE
+                     LGYSFLCPYSCRCIGEDDEEISPV"
+     3'UTR           join(655..670,920..1032)
+                     /gene="Xa10"
+     repeat_region   order(684..764,854..933)
+                     /rpt_type=inverted
+ORIGIN      
+        1 caccaaaagg tccaacacca aaaacttatt gatgtcgcaa tcacttcaat tacttattga
+       61 tgtcgcaatc acgttcactc ctcttatata tacatcaatt acttattctc ttatatatac
+      121 atcaattact tattgatgtc gcaatcacgt tcactcctct tatatataca cacgttcact
+      181 cctcttatat atacagccag aaagcacttc attcttcatt agcacagccg aaactcgcga
+      241 gagatcctcc tccctcctct ttcattcttc gagatgcagc tgatgctcac attctgcacg
+      301 ggccccctcc tgtttgccgt cctcctactg atggtatacc tcaagcaact cgccgccgcg
+      361 gcctgcgtcg acgtgctcat catctacctc tgccgcttcc tcctcctccg cggcatcatc
+      421 ttctccggcg acggcaagct acgattccgc gtcaaggtag cgatcgggtt cctctacatc
+      481 tccctctcgg ccatactctt ctacctctct gccgctgtca tggcgttgcc gccgtggggt
+      541 gcggtggcca tgtggggaat ggcgctcgtc gccactgagc ttggctactc cttcttatgc
+      601 ccgtatagct gccgctgcat tggtgaagac gacgaggaga tttcccccgt ctgaggccca
+      661 tatatatcac gatggataaa catattacat actccctccg tttcaaaatg tttgacacca
+      721 ttgacttttc agcacatgtt tgaccgttcg tttcattcaa aaaaaattgt gaaatatgta
+      781 aaactatatg tgtacatgga aatatattta acaatgaatc aaatgatatg aaaagaataa
+      841 ataattactt aaattttttg aataagacga atggtgaaac acgtactaaa aagtcaatgg
+      901 tgtcaaacat tttgaaacgg agggagtatt aattggtttg ttagtttgtg ttcattcata
+      961 tatagctgtt gtatttttac ggttaataaa gagaaaccgg cgagcgccta gcagccggct
+     1021 agtttagtca aa
+//
+

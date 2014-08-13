@@ -1,0 +1,69 @@
+LOCUS       EU286800                1028 bp    mRNA    linear   PLN 04-JUN-2008
+DEFINITION  Oryza sativa Indica Group cultivar Minghui 63 GHD7 (Ghd7) mRNA,
+            complete cds.
+ACCESSION   EU286800
+VERSION     EU286800.1  GI:168188196
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1028)
+  AUTHORS   Xue,W., Xing,Y., Weng,X., Zhao,Y., Tang,W., Wang,L., Zhou,H.,
+            Yu,S., Xu,C., Li,X. and Zhang,Q.
+  TITLE     Natural variation in Ghd7 is an important regulator of heading date
+            and yield potential in rice
+  JOURNAL   Nat. Genet. 40 (6), 761-767 (2008)
+   PUBMED   18454147
+REFERENCE   2  (bases 1 to 1028)
+  AUTHORS   Xue,W., Xing,Y., Weng,X. and Zhang,Q.
+  TITLE     A major QTL for productivity and adaptability of rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1028)
+  AUTHORS   Xue,W., Xing,Y., Weng,X. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-NOV-2007) National Key Laboratory of Crop Genetic
+            Improvement, National Center of Plant Gene Research (Wuhan),
+            Huazhong Agricultural University, Wuhan, Hubei 430070, China
+FEATURES             Location/Qualifiers
+     source          1..1028
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Minghui 63"
+                     /db_xref="taxon:39946"
+     gene            1..1028
+                     /gene="Ghd7"
+                     /note="CCT"
+     CDS             211..984
+                     /gene="Ghd7"
+                     /codon_start=1
+                     /product="GHD7"
+                     /protein_id="ACA14488.1"
+                     /db_xref="GI:168188197"
+                     /translation="MSMGPAAGEGCGLCGADGGGCCSRHRHDDDGFPFVFPPSACQGI
+                     GAPAPPVHEFQFFGNDGGGDDGESVAWLFDDYPPPSPVAAAAGMHHRQPPYDGVVAPP
+                     SLFRRNTGAGGLTFDVSLGGRPDLDAGLGLGGGSGRHAEAAASATIMSYCGSTFTDAA
+                     SSMPKEMVAAMADVGESLNPNTVVGAMVEREAKLMRYKEKRKKRCYEKQIRYASRKAY
+                     AEMRPRVRGRFAKEADQEAVAPPSTYVDPSRLELGQWFR"
+ORIGIN      
+        1 caacttgccc tgtcttcttc ttcttcttct tcttgtacct atattattac aagtcatcga
+       61 tctcgctgat cgatcagtga tcacaagcat ttcacaaccc tagctagctg agctgatcga
+      121 gctcaagtga cctcacctgc tatagctaac ttactagcta gctctagcta gttgttgttt
+      181 gtagctcgat cgagtttgat ttatccgttc atgtcgatgg gaccagcagc cggagaagga
+      241 tgtggcctgt gcggcgccga cggtggcggc tgttgctccc gccatcgcca cgatgatgat
+      301 ggattcccct tcgtcttccc gccgagtgcg tgccagggga tcggcgcccc ggcgccaccg
+      361 gtgcacgagt tccagttctt cggcaacgac ggcggcggcg acgacggcga gagcgtggcc
+      421 tggctgttcg atgactaccc gccgccgtcg cccgttgctg ccgccgccgg gatgcatcat
+      481 cggcagccgc cgtacgacgg cgtcgtggcg ccgccgtcgc tgttcaggag gaacaccggc
+      541 gccggcgggc tcacgttcga cgtctccctc ggcggacggc ccgacctgga cgccgggctc
+      601 ggcctcggcg gcggcagcgg ccggcacgcc gaggccgcgg ccagcgccac catcatgtca
+      661 tattgtggga gcacgttcac tgacgcagcg agctcgatgc ccaaggagat ggtggccgcc
+      721 atggccgatg ttggggagag cttgaaccca aacacggtgg ttggcgcaat ggtggagagg
+      781 gaggccaagc tgatgaggta caaggagaag aggaagaaga ggtgctacga gaagcaaatc
+      841 cggtacgcgt ccagaaaagc ctatgccgag atgaggcccc gagtgagagg tcgcttcgcc
+      901 aaagaagctg atcaggaagc tgtcgcaccg ccatccacct atgtcgatcc tagtaggctt
+      961 gagcttggac aatggttcag atagataatt acagtgcgta tataccacta actaaaaaaa
+     1021 aaaaaaaa
+//
+

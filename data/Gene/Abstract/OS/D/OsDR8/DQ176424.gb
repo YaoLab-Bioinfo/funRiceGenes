@@ -1,0 +1,90 @@
+LOCUS       DQ176424                1980 bp    DNA     linear   PLN 12-MAR-2006
+DEFINITION  Oryza sativa (indica cultivar-group) pathogen-induced
+            defense-responsive protein 8 (DR8) gene, complete cds.
+ACCESSION   DQ176424
+VERSION     DQ176424.1  GI:73918052
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1980)
+  AUTHORS   Wang,G., Ding,X., Yuan,M., Qiu,D., Li,X., Xu,C. and Wang,S.
+  TITLE     Dual function of rice OsDR8 gene in disease resistance and thiamine
+            accumulation
+  JOURNAL   Plant Mol. Biol. 60 (3), 437-449 (2006)
+   PUBMED   16514565
+REFERENCE   2  (bases 1 to 1980)
+  AUTHORS   Wang,S. and Wang,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2005) National Key Laboratory of Crop Genetic
+            Improvement, Huazhong Agricultural University, Wuhan 430070, China
+FEATURES             Location/Qualifiers
+     source          1..1980
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Minghui 63"
+                     /db_xref="taxon:39946"
+                     /chromosome="7"
+                     /clone="D55S"
+     gene            268..1817
+                     /gene="DR8"
+                     /note="OsDR8"
+     mRNA            join(268..1501,1580..1817)
+                     /gene="DR8"
+                     /product="pathogen-induced defense-responsive protein 8"
+     5'UTR           268..616
+                     /gene="DR8"
+     CDS             join(617..1501,1580..1753)
+                     /gene="DR8"
+                     /note="thiamine biosynthetic enzyme-like protein"
+                     /codon_start=1
+                     /product="pathogen-induced defense-responsive protein 8"
+                     /protein_id="AAZ93636.1"
+                     /db_xref="GI:73918053"
+                     /translation="MATTASSLLKTSFAGVRLPAAARNPTVSVAPRTGGAICNSISSS
+                     SSTPPYDLNAIRFSPIKESIVSREMTRRYMTDMITYADTDVVVVGAGSAGLSCAYELS
+                     KDPSVSVAVIEQSVSPGGGAWLGGQLFSAMVVRKPAHLFLDELGVAYDEQEDYVVIKH
+                     AALFTSTVMSRLLARPNVKLFNAVAVEDLIVKKGRVGRVVTNLGACVNDHDTQPGMDP
+                     NVMEFKVVVSSCGHDGPFGATGVKRLQDIGMIDAVPGMRALDMNTAEDEIVRLTREVV
+                     PGMIVTGMEVAEIDGAPRMGPTFGAMMISGQKAAHLALKALGRPNAIDGTIKKAAAAA
+                     AHPELILASKDDGEIVDA"
+     3'UTR           1754..1817
+                     /gene="DR8"
+ORIGIN      
+        1 gggctccacc actagtaccc ctcactacag gtagccataa aaaaaatcga tcaccaaaac
+       61 ccattattag gttgtgtact gatacagaaa gttgggaacc aatctcccag cacagaaaac
+      121 ggtacggttc attagcgcgt gattaattaa atatttacta ttttttaaaa aaaatagatc
+      181 aatatgattt ttaagcaact ttcgtataaa tactttttca aaaaaacaca ccgttttcta
+      241 gtttgaaaag cgtacacgcg tgaaatgagg gagaaaggtt ggaaacgtgg gattgcaaac
+      301 acagcattag tcgtcacggt acccagcaaa aaatcactga acacagcacc actgttcccg
+      361 tgagtccgta acttagcagc acttgtcccg ttctcctgaa gacagtccaa aaaccctcac
+      421 taaaccttcc caaaatatct cctccaatca atccgaaacc cagaggccca tactgctgac
+      481 acgtggacgg cactcccaga tatttgcgct ctcctcttct tcttataccc ccgccaaccc
+      541 acgctctatc cactcacaca cacactcctc atcccagagc aagaagctca gctcctcctc
+      601 ctctcgcatg gcagccatgg ccaccaccgc gtccagcctc ctcaagacct ccttcgccgg
+      661 cgtgcgcctc cccgccgccg cccgcaaccc caccgtctcc gtcgcgccgc gcaccggagg
+      721 cgccatctgc aactccatct cgtcgtcgtc gtccactccc ccctacgacc tcaacgccat
+      781 caggttcagc cccatcaagg agtccatcgt gtcccgcgag atgacccggc ggtacatgac
+      841 cgacatgatc acctacgccg acaccgacgt cgtcgtcgtc ggcgccggct ccgcggggct
+      901 ctcctgcgcg tacgagctct ccaaggaccc ctccgtcagc gtcgccgtca tcgagcagtc
+      961 ggtgtccccc ggcggcggcg cgtggctcgg cgggcagctg ttctccgcca tggtggtgcg
+     1021 caagccggcg cacctgttcc tcgacgagct cggcgtcgcg tacgacgagc aggaggacta
+     1081 cgtcgtcatc aagcacgccg cgctcttcac ctccaccgtc atgagccgcc tcctggcgcg
+     1141 ccccaacgtg aagctgttca acgccgtcgc cgtcgaggac ctcatcgtca agaagggccg
+     1201 ggtcggccgg gtggtcacca acttgggcgc ttgtgtcaat gaccacgaca cgcagccggg
+     1261 catggaccca aacgtgatgg agttcaaggt ggtggtgagc tcctgcggcc acgacgggcc
+     1321 gttcggcgcc acgggcgtca agcggctgca ggacatcggc atgatcgacg ccgtgcccgg
+     1381 catgcgcgcc ctcgacatga acaccgccga ggacgagatc gtccgcctca cccgcgaggt
+     1441 cgtccccggc atgatcgtca ccggcatgga ggtcgccgag atcgacggcg ccccgagaat
+     1501 ggtacgcacc aaaaaaacat caaactcttc accataatct ctcccccgtt cttggatttg
+     1561 aacaaattcg ttgttgcagg gcccgacgtt cggagccatg atgatctccg gccagaaggc
+     1621 ggcgcacctg gcgctgaagg cgctcggccg gccgaacgcc atcgacggca cgatcaagaa
+     1681 ggcggcggcg gcggcggcgc acccggagct gatcctggcg tcgaaggacg acggcgagat
+     1741 cgtggacgcc tgagcaaata aaacagggta aaaaaaaatc ccccaaacgt ggtggtgaca
+     1801 cggaggggtt ggggaccaaa aaaaaatgtg gactttcccc tgtgtttttt tttcgggatt
+     1861 tgctttgatc cccttgtttg ttttagcttt ggaggttgat aagggttttg ttaaaaacaa
+     1921 ttcccctccc accgggtgtg tgtggtttgc ttgcctaatg agggcaaaaa aacttccatg
+//
+

@@ -1,0 +1,73 @@
+LOCUS       EF417892                1397 bp    mRNA    linear   PLN 06-FEB-2008
+DEFINITION  Oryza sativa Japonica Group putative carotenoid isomerase ZEBRA2
+            mRNA, partial cds.
+ACCESSION   EF417892
+VERSION     EF417892.1  GI:126920006
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1397)
+  AUTHORS   Chai,C.-L., Qian,Q., Fang,J., Huang,Z.-J., Cheng,Z.-K. and
+            Chu,C.-C.
+  TITLE     ZEBRA2, a putative carotenoid isomerase in rice, is indispensable
+            for photoprotection
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1397)
+  AUTHORS   Chai,C.-L., Qian,Q., Fang,J., Huang,Z.-J., Cheng,Z.-K. and
+            Chu,C.-C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2007) State Key Laboratory of Plant Genomics and
+            National Centre for Plant Gene Research, Institute of Genetics and
+            Developmental Biology, Chinese Academy of Sciences, Datun Road,
+            Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..1397
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+                     /chromosome="11"
+                     /map="between SSR markers RM5349 and RM4601"
+     CDS             <1..1397
+                     /codon_start=3
+                     /product="putative carotenoid isomerase ZEBRA2"
+                     /protein_id="ABO27804.1"
+                     /db_xref="GI:126920007"
+                     /translation="VMFGFSDKGNLNLITQALEAVGHKMEVIPDPSTVHFHLPGDLSV
+                     LVHREYDDFVTELVNKFPHEKEGILKFYGTCWKIFNSLNSLELKSLEEPLYLFGQFFQ
+                     KPLECLTLAYYLPQNAGDIARKFIKDQQLLSFIDAECFIVSTVNALQTPMINASMVLC
+                     DRHFGGINYPVGGVGGIAMSLADGLVDKGSEIRYKANVTNVILENGKAVGVRLSNGKE
+                     FFAKTVISNATRWDTFGKLLKVEELPEEEKNFQKNYVKAPSFLSIHMGVKASVLPADT
+                     DCHHFVLEDDWANLEKPYGSIFLSIPTVLDPSLAPEGHHILHIFTTAGIEDWEGLSRK
+                     DYEKKKELVATEIIKRLEKKLFPGLQDSIVLKEVGSPKTHRRFLARNDGTYGPMPRGK
+                     PKGLLAMPFNTTSIDGLYCVGDSCFPGQGVIAVAFSGIMCAHRVAADIGLEQRSPVLD
+                     AGLLGLLRWLRTLA"
+ORIGIN      
+        1 ccgtcatgtt cggcttctcc gacaagggga acttgaattt gattacacaa gcactagaag
+       61 cagttgggca taagatggaa gttataccgg atccttctac ggttcatttc cacctacctg
+      121 gtgacctctc agttcttgtg catagagagt atgatgactt cgtcacggag ctggttaata
+      181 aatttcctca tgaaaaggaa ggaatcctga aattctatgg cacatgttgg aagatcttca
+      241 attcattaaa ttctttggag ctgaagtccc ttgaggagcc tctatatctt tttgggcaat
+      301 tttttcaaaa gcctctggaa tgtttgacgc tagcttatta tctgccacag aatgctgggg
+      361 atattgctcg caagttcata aaagatcagc agttactctc cttcatagat gctgagtgct
+      421 ttattgtgag cacagtcaat gccttgcaaa cacccatgat taatgcaagc atggtcttgt
+      481 gcgataggca cttcggggga attaactatc cagttggtgg tgttggtggt attgctatgt
+      541 ccttggcaga tgggcttgtt gacaaaggca gtgaaatacg ctacaaggct aatgtgacca
+      601 atgtaatttt agaaaatggc aaagctgttg gagtcaggtt atcaaatggg aaggagttct
+      661 ttgctaaaac agtgatatcg aatgctacca gatgggatac atttggtaaa ctcttgaaag
+      721 ttgaagagct tccagaagag gagaaaaact tccaaaagaa ttatgttaaa gcaccatcat
+      781 tcctttccat tcatatgggt gtcaaagcct cagttttgcc tgctgatact gattgccacc
+      841 attttgtact tgaggatgac tgggctaatt tggagaagcc ttatggaagc atatttttaa
+      901 gtatccctac agtgcttgac ccatccttgg ctcccgaagg acaccatata cttcatattt
+      961 ttacaactgc agggatagag gattgggaag gtctgtccag gaaggattat gagaagaaaa
+     1021 aggagcttgt ggcgacagag ataataaaga ggcttgaaaa aaagctgttc cctggtcttc
+     1081 aggattcaat agtcctcaag gaggtaggct caccaaaaac acaccgaaga tttcttgcgc
+     1141 gaaatgatgg tacatatgga cccatgccac ggggtaaacc aaagggattg ctagcaatgc
+     1201 ctttcaatac tacttcaata gatggcttgt actgtgttgg cgacagctgt tttcctgggc
+     1261 aaggtgtaat tgctgtggca ttttcaggga tcatgtgtgc tcatcgagtt gcagctgata
+     1321 ttggactgga acaaagatct cctgtactag atgcgggtct tcttgggctc ctcagatggt
+     1381 tgagaacgct tgcttag
+//
+

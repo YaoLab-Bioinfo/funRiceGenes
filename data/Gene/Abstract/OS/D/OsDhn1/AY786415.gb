@@ -1,0 +1,64 @@
+LOCUS       AY786415                1117 bp    mRNA    linear   PLN 08-NOV-2004
+DEFINITION  Oryza sativa (japonica cultivar-group) SK3-type dehydrin 1 (Dhn1)
+            mRNA, complete cds.
+ACCESSION   AY786415
+VERSION     AY786415.1  GI:55274277
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1117)
+  AUTHORS   Lee,S.-C., Lee,M.-Y., Kim,S.-J., Jun,S.-H., An,G. and Kim,S.-R.
+  TITLE     Characterization of a stress-inducible dehydrin gene, OsDhn1, from
+            rice (Oryza sativa L.)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1117)
+  AUTHORS   Lee,S.-C., Lee,M.-Y., Kim,S.-J., Jun,S.-H., An,G. and Kim,S.-R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2004) Dept. of Life Science, Sogang University, 1
+            Shinso-dong, Mapo-gu, Seoul 121-742, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..1117
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Dongjin"
+                     /db_xref="taxon:39947"
+     gene            1..1117
+                     /gene="Dhn1"
+     CDS             99..971
+                     /gene="Dhn1"
+                     /note="OsDhn1"
+                     /codon_start=1
+                     /product="SK3-type dehydrin 1"
+                     /protein_id="AAV49032.1"
+                     /db_xref="GI:55274278"
+                     /translation="MEDERNTESHQGGEAAEQVEVKDRGLFDNLLGRKKDDQPEEKKH
+                     EEELVTGMEKVSVEEPKKEEHHAEGEKKESLLSKLHRSSSSSSSSSDEEEEVIDDNGE
+                     VVKRKKKKGLKEKIKEKLPGHKDHAGEHAPPPAATGFPAPAPPASVVTAAPTPAPAPV
+                     VTHGDHHHDTAVPVEKIEGDHAKTEATLPRAPEEEKKGFLDKIKEKLPGGHKKPEDAT
+                     AVPPPAASPAAPATTPAPAHPPPATEEVSSPDGKEKKGILGKIMEKLPGYHKGSGEED
+                     KTAAAATGEHKSSA"
+ORIGIN      
+        1 gtcacagctc aaacaagtca agagcgaata gttcttgctg atctgttgtt tgattacttt
+       61 agttctcgag aggctttagc tgaatccatc gatcgatcat ggaggatgag aggaacacgg
+      121 agagccacca gggtggcgag gctgcagagc aggtggaggt gaaggacagg ggcctcttcg
+      181 acaacctcct tggcaggaag aaggacgatc agccggagga gaagaagcat gaggaggagc
+      241 ttgtcaccgg catggagaag gtctccgtgg aagagccaaa gaaggaggag caccacgccg
+      301 agggcgagaa gaaggagagc ctcctctcca agctgcaccg atccagctcc agctccagct
+      361 cgtcgagtga tgaggaagag gaggtgatcg atgacaacgg cgaggtggtc aagaggaaga
+      421 agaagaaggg gctcaaggag aagatcaagg agaagctgcc cggccacaag gaccatgccg
+      481 gtgagcatgc tcctccgccc gcggcgacgg gcttccccgc gccggctccg cctgcatccg
+      541 tggtgacggc cgcgcccacg ccagctcctg ctcccgtggt gactcacggc gatcaccacc
+      601 acgacaccgc cgtccccgtg gagaagatcg agggtgatca cgccaagacg gaggcgaccc
+      661 tgccacgtgc acccgaggag gagaagaagg gcttcctcga caagatcaag gagaagctgc
+      721 ccggcggcca caagaagccg gaagacgcaa ctgctgtgcc gccgccggcc gcctcaccgg
+      781 ctgctcctgc cactactccg gcgccagcac acccaccgcc ggctacagag gaagtgagca
+      841 gcccggatgg gaaggagaag aagggtatac tgggcaagat catggagaaa ctgcccggtt
+      901 accacaaggg ctccggcgag gaagacaaga ccgccgccgc cgccaccggc gagcacaaga
+      961 gcagcgctta attggggcgt gtgtgagacc aggccatggt tggaatttgg aagtgtttgg
+     1021 cgtgtgttag tttggtgctt tttctgcact gcagctttgt taagttcgtg tcaagattgg
+     1081 tcaaggcctg gtcagcgaaa aaaaaaaaaa aaaaaaa
+//
+

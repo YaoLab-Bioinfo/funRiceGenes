@@ -1,0 +1,59 @@
+LOCUS       FJ155665                 896 bp    mRNA    linear   PLN 30-OCT-2008
+DEFINITION  Oryza rufipogon zinc-finger nuclear transcription factor PROG1
+            mRNA, complete cds.
+ACCESSION   FJ155665
+VERSION     FJ155665.1  GI:198385575
+KEYWORDS    .
+SOURCE      Oryza rufipogon
+  ORGANISM  Oryza rufipogon
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 896)
+  AUTHORS   Jin,J., Huang,W., Gao,J.P., Yang,J., Shi,M., Zhu,M.Z., Luo,D. and
+            Lin,H.X.
+  TITLE     Genetic control of rice plant architecture under domestication
+  JOURNAL   Nat. Genet. 40 (11), 1365-1369 (2008)
+   PUBMED   18820696
+REFERENCE   2  (bases 1 to 896)
+  AUTHORS   Lin,H.-X., Jin,J., Huang,W., Gao,J.-P., Yang,J., Shi,M., Zhu,M.-Z.
+            and Luo,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-AUG-2008) National Key Laboratory of Plant Molecular
+            Genetics, Shanghai Institute of Plant Physiology and Ecology,
+            Shanghai Institutes for Biological Sciences, Chinese Academy of
+            Sciences, 300 Fenglin Road, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..896
+                     /organism="Oryza rufipogon"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4529"
+                     /chromosome="7"
+                     /country="China: Hainan"
+     CDS             111..614
+                     /codon_start=1
+                     /product="zinc-finger nuclear transcription factor PROG1"
+                     /protein_id="ACH86119.1"
+                     /db_xref="GI:198385576"
+                     /translation="MDPSSASWPAPASPPVELSLSLPAAAARNRDEAAPTAIVDGKQV
+                     RLFPCLFCAKTFRKSQALGGHQNAHRKERVAGGSWNPNVYGDGGGSASMPIASHGVTA
+                     AGSSTAADGRWCGGAASDDDTTAAPMPSLGSGSAALGAGAGFASTERGSTGGGVAGEE
+                     LVLELGL"
+ORIGIN      
+        1 aaaagtctat atgaggaata acggggaagc acctgatcta gcaatccaaa ataaactcgg
+       61 attcggaaat aactagcttt tcccaatata gcttgtccca ttttcctttc atggatccct
+      121 catcggcttc ttggccggct ccggcttctc cgccggtgga gctgtccctg tccctgccgg
+      181 cggcggcggc gaggaaccgc gacgaggcag cgccgacggc gatcgtcgac ggcaagcaag
+      241 tgaggctgtt cccgtgcctc ttctgcgcca agacgttccg caagtcgcag gcgctcggcg
+      301 gccaccagaa cgcgcaccgg aaggagcgcg tcgccggcgg cagctggaac cccaacgtct
+      361 acggcgacgg cggcggatca gcgtccatgc ccatcgcctc ccatggcgtc acggcggcgg
+      421 ggagtagtac ggcagccgac ggccggtggt gcggcggcgc tgccagcgac gacgacacaa
+      481 cggcggcgcc catgccttcc ctcggctcag gctcggcggc gctcggcgcc ggcgccggtt
+      541 tcgcttcgac cgaaaggggc tctaccggcg gcggcgtcgc cggcgaggag cttgtcctcg
+      601 agctcggcct ctagatcatc tctgtagcta gcgtctacta ctacttcgcc atatgcacgc
+      661 aataatccat ctctatctcc acgatcacca tgatcggatg atccgcacta gtacgtctta
+      721 ttactcgatc gatctctcgt ttgcgcctcc aattaattgc aagctgcgaa tcatgattca
+      781 tggatgataa gtaatatcca ctacactgta tgttaatgtt tccagtactg tttgttagta
+      841 atttgtgttt gtgacttgtg gcacagttga attgttatat ggtttaaaat tttccc
+//
+

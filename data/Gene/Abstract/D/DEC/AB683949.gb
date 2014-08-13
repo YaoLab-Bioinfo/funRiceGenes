@@ -1,0 +1,76 @@
+LOCUS       AB683949                1458 bp    mRNA    linear   PLN 14-DEC-2012
+DEFINITION  Oryza sativa Japonica Group DEC mRNA for DECUSSATE protein,
+            complete cds.
+ACCESSION   AB683949
+VERSION     AB683949.1  GI:358000999
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Itoh,J., Hibara,K., Kojima,M., Sakakibara,H. and Nagato,Y.
+  TITLE     Rice DECUSSATE controls phyllotaxy by affecting the cytokinin
+            signaling pathway
+  JOURNAL   Plant J. 72, 869-881 (2012)
+  REMARK    DOI:10.1111/j.1365-313X.2012.05123.x
+REFERENCE   2  (bases 1 to 1458)
+  AUTHORS   Itoh,J. and Hibara,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-NOV-2011) Contact:Jun-ichi Itoh University of Tokyo,
+            Graduate School of Agricultural and Life Sciences; Yayoi 1-1-1,
+            Bunkyo-ku, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1458
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Taichung 65"
+                     /db_xref="taxon:39947"
+                     /chromosome="12"
+     gene            1..1458
+                     /gene="DEC"
+                     /gene_synonym="DECUSSATE"
+     CDS             130..1386
+                     /gene="DEC"
+                     /gene_synonym="DECUSSATE"
+                     /codon_start=1
+                     /product="DECUSSATE protein"
+                     /protein_id="BAL15171.1"
+                     /db_xref="GI:358001000"
+                     /translation="MDAAANSTPTSSASTVAQNQLHQRQIFLMQQAQAQAQAQGQGHT
+                     PTLQQLSQQAMSFFPSNIDAHLPLPGPDSTPTSSASTVAQNQLHQCQIFLMQQAQAQA
+                     QAQGQGYTPTPQQLSQQAMSFFPSNIDAHLPLPGPIRFQQPLPQQPPPPQQQIHSWGP
+                     SLLQSWASLQQQQAAVAAVARVQSPEVEMALQDVMQVCNPDIKTPFQSIEDAVNRLLP
+                     YHVVADYEAEEDDRILDSDTTGQIPSRLQQWDHNILVKIAEFTTTFEKQVLAYNIMTK
+                     KRAIGEFRSEERLMLEQALLMEEKQAMMGLRAEIESREKAGREAAEAKMRMAMAEQAR
+                     AEAQAHSEMIGHGPLRAHAAASQGEDGPSHEMMQEQGEDGWGNAQRDDEDPSEDFLND
+                     ENEPENGNSDMQEDWRRSGELDLNSR"
+ORIGIN      
+        1 tggcaagttt aggactggtg tatcctttcc aaaaaagttt aggactggtt taacaaattt
+       61 tgcccgaaac aaaagcccca ccatttcccc cagatcttct cctctagcca atccacctcc
+      121 gcccccacca tggacgccgc cgcgaactcc accccgacct cctcggcatc caccgtggcg
+      181 cagaaccagc tgcaccagcg ccagatcttc ctcatgcagc aggcccaggc ccaggcgcag
+      241 gcgcaggggc aagggcacac accgacgctg cagcagctgt cgcagcaggc catgtccttc
+      301 ttcccctcca acatcgatgc ccacctgccc ctgcctggcc cggactccac cccgacctcc
+      361 tcggcatcca ccgtggctca gaaccagctg caccagtgcc agatcttcct catgcagcag
+      421 gcccaggcgc aggcgcaggc gcaggggcaa gggtacacac cgacgccgca gcagctgtcg
+      481 cagcaggcca tgtccttctt cccctccaac atcgatgccc acctgcccct gcctggcccg
+      541 atccgcttcc agcaacccct gccccagcag ccaccaccgc cgcagcagca gatccactcc
+      601 tggggcccgt cgctgttgca gtcgtgggcg tccctccagc agcagcaggc ggcagtggca
+      661 gccgtggcaa gggtgcagag ccctgaggtt gagatggctc tgcaggacgt gatgcaggtg
+      721 tgcaaccccg acatcaagac acccttccag tccatcgagg atgccgtgaa caggctacta
+      781 ccctaccatg tggttgctga ctatgaggct gaagaagatg acagaatcct tgacagtgat
+      841 acaactggac agattccttc gcgcctgcag caatgggatc ataacattct ggtcaaaatt
+      901 gctgagttca caactacttt tgagaaacaa gttttggcgt acaatataat gaccaagaaa
+      961 agagccatcg gcgagttcag atcagaggag cggctcatgc tggagcaggc tttgttaatg
+     1021 gaggaaaagc aagctatgat ggggctaaga gcagagatag aatcaaggga gaaagcaggt
+     1081 cgtgaggctg ctgaagctaa gatgcgtatg gcaatggctg aacaagctcg agcggaggcc
+     1141 caagcgcact cggagatgat aggtcatggc cctttgaggg cccatgctgc agcgtcccaa
+     1201 ggcgaagatg gccctagtca tgagatgatg caagagcaag gtgaagatgg atggggaaat
+     1261 gctcaaaggg acgatgaaga tccatctgaa gatttcctta atgatgaaaa tgaacctgag
+     1321 aatgggaact ctgatatgca agaggactgg cgcagatcag gagaactcga tctgaactct
+     1381 aggtaagatt ggtgagctgg ctgagattgt gggggaaaaa taagaaccat gaaagtaggt
+     1441 gaaggcatgc gttacatc
+//
+

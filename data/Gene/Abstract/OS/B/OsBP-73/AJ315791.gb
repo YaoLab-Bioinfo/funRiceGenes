@@ -1,0 +1,90 @@
+LOCUS       AJ315791                1624 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for SAP-like protein (BP-73 gene).
+ACCESSION   AJ315791
+VERSION     AJ315791.1  GI:21727821
+KEYWORDS    BP-73 gene; SAP-like protein.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Chen,J.
+  JOURNAL   Thesis (2002) Department of Biological Sciences, University of
+            Cambridge, Cambridge, United Kingdom
+REFERENCE   2
+  AUTHORS   Chen,J., Tang,W.H., Hong,M.M. and Wang,Z.Y.
+  TITLE     OsBP-73, a rice gene, encodes a novel DNA-binding protein with a
+            SAP-like domain and its genetic interference by double-stranded RNA
+            inhibits rice growth
+  JOURNAL   Plant Mol. Biol. 52 (3), 579-590 (2003)
+   PUBMED   12956528
+REFERENCE   3  (bases 1 to 1624)
+  AUTHORS   Chen,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUL-2001) Chen J., Key Lab. of Plant Molecular
+            Genetics, Shanghai Institute of Plant Physiology, 300 Fenglin Road,
+            Shanghai 200032, CHINA
+FEATURES             Location/Qualifiers
+     source          1..1624
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     gene            1..1624
+                     /gene="BP-73"
+     5'UTR           1..1624
+                     /gene="BP-73"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     CDS             205..1332
+                     /gene="BP-73"
+                     /function="putative role in the regulation of rice wx gene
+                     expression"
+                     /codon_start=1
+                     /product="SAP-like protein"
+                     /protein_id="CAC86223.1"
+                     /db_xref="GI:21727822"
+                     /db_xref="GOA:Q8L4E7"
+                     /db_xref="InterPro:IPR001757"
+                     /db_xref="InterPro:IPR011112"
+                     /db_xref="UniProtKB/Swiss-Prot:Q8L4E7"
+                     /translation="MLLPPHPGRTLPAYHGDNRFLLGACFLSKLPMLRPMKLSLVCSA
+                     NPNNHRSRSSDITRHQKGGSARRKSKPYQEKDDSENIDEFDTDIMSSKNGPPISLTSN
+                     SRPQATSVPGEREKEIVELFKRVQAQLRARGKGKEEKKPEQAKAQGERGSVDSLLNLL
+                     RKHSVDQRRKSGDEKEQSVDQTKRSNESGNKQNSSIFIKNDTQEEQKKPHPAAFKRPA
+                     SNFRRRSPVPNVKFQPVTNVDAERVINNINDAVQEAKPTLENKAATDEPDSVSTFEPN
+                     SVIEPENLSLDDLDHISDDEPDASDTDEPSGEYDEPSLQIPSVPIIDESHDTTLKSSL
+                     GGPDLSTLKVTELRELAKSRGIKGYSKMKKNDLVELLSNMA"
+     3'UTR           1332..1624
+                     /gene="BP-73"
+ORIGIN      
+        1 ttttttcaga tttgcaccgt tttggagggg gataggatat gcagattgag agtgcttggc
+       61 gaaattacta aattaccctc gccgtttttg acgtattgtt ttcgtgagtt atccgttagt
+      121 tcgcccgccg ccgccgccgc cgccgatccc catccatccc gcgaggcgcg agcgagcagg
+      181 gcgccgtcgg cgccgtcgtt cgtcatgctg cttccgccgc atccaggcag aacattacca
+      241 gcctatcatg gagacaacag atttcttctt ggagcttgtt tcctgagtaa actgcctatg
+      301 ctgcgcccaa tgaagttgtc tttggtatgc agtgctaatc ccaacaacca taggtcaaga
+      361 agttcggata tcacacgcca tcagaagggt ggatcagctc ggaggaaaag taagccttac
+      421 caggagaaag atgactctga gaatattgat gaattcgata ctgatattat gtcctccaaa
+      481 aatggaccac ccatctcttt gacaagcaat tcccgtcctc aagcaacatc agtcccaggg
+      541 gaaagagaga aggagatagt agagttgttt aaaagggttc aagcacaatt gcgagcaagg
+      601 gggaaaggga aggaggagaa gaagcctgaa caagcaaaag cacagggtga gaggggcagt
+      661 gttgactccc ttctaaatct gcttaggaag cactcagtgg accaacgaag gaagagcggt
+      721 gatgagaaag aacagagtgt tgaccaaaca aagagaagca atgaatctgg aaataaacaa
+      781 aattcaagca tcttcataaa gaatgacact caggaagaac agaaaaagcc acatcctgca
+      841 gccttcaaaa ggccagcttc aaattttagg cgaagatccc ctgttcctaa tgtaaagttc
+      901 cagcctgtta ccaatgttga tgccgaacga gtcatcaata acatcaatga tgccgtacaa
+      961 gaggctaagc caactttgga aaataaggct gctacagatg aaccagactc ggtttctaca
+     1021 ttcgaaccta attctgtaat agaaccagaa aacctatctt tggatgacct tgatcatatt
+     1081 tcagatgatg aacctgatgc ttctgatact gatgaaccca gtggagaata tgatgagcca
+     1141 tctttgcaaa tcccaagtgt tccaattatt gatgaatctc atgatacgac tctgaaatct
+     1201 tccttaggag gtcctgattt aagcactttg aaggtcacag aactaagaga acttgcgaaa
+     1261 tctcgaggaa tcaaaggata ttccaagatg aagaagaatg acctggttga actgctgagc
+     1321 aacatggctt gatccatcag cagccctgtc aacttggctc tgttttgtcc cttgttagtc
+     1381 acattgtctt gggcatatgc actatcttgc cattcctatc ttatctagat gaagttcttt
+     1441 taggtagaaa actgtaaatg agcaaggtaa acaatgttct gttctggttt tatcgttgcc
+     1501 ctttctgtta cctagcctct agttaccatt gtttttgcgt aaatccttca tcagaattga
+     1561 accctggatt ggccataaga ctggcaacga ttcgacgtca tgctgataaa aaaaaaaaaa
+     1621 aaaa
+//
+

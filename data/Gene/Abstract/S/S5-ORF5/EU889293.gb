@@ -1,0 +1,97 @@
+LOCUS       EU889293                2361 bp    DNA     linear   PLN 28-AUG-2008
+DEFINITION  Oryza sativa Japonica Group cultivar 2428 S5 (S5) gene, complete
+            cds.
+ACCESSION   EU889293
+VERSION     EU889293.1  GI:196212947
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2361)
+  AUTHORS   Chen,J., Ding,J., Ouyang,Y., Du,H., Yang,J., Cheng,K., Zhao,J.,
+            Qiu,S., Zhang,X., Yao,J., Liu,K., Wang,L., Xu,C., Li,X., Xue,Y.,
+            Xia,M., Ji,Q., Lu,J., Xu,M. and Zhang,Q.
+  TITLE     A triallelic system of S5 is a major regulator of the reproductive
+            barrier and compatibility of indica-japonica hybrids in rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (32), 11436-11441 (2008)
+   PUBMED   18678896
+REFERENCE   2  (bases 1 to 2361)
+  AUTHORS   Ouyang,Y., Chen,J., Ding,J. and Zhang,Q.
+  TITLE     A triallelic system of S5 is a major regulator of the reproductive
+            barrier and compatibility of indica-japonica hybrids in rice
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2361)
+  AUTHORS   Ouyang,Y., Chen,J., Ding,J. and Zhang,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUL-2008) National Key Laboratory of Crop Genetic
+            Improvement and National Centre of Plant Gene Research, Huazhong
+            Agricultural University, Wuhan, Hubei 430070, China
+FEATURES             Location/Qualifiers
+     source          1..2361
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="2428"
+                     /db_xref="taxon:39947"
+     gene            1..2361
+                     /gene="S5"
+     mRNA            join(1..139,555..1899,2068..2361)
+                     /gene="S5"
+                     /product="S5"
+     CDS             782..1855
+                     /gene="S5"
+                     /codon_start=1
+                     /product="S5"
+                     /protein_id="ACG76110.1"
+                     /db_xref="GI:196212948"
+                     /translation="MAVSLGKPPVVNLVAIDTGSTLSWVQCQPCAVHCHTQSAKAGPI
+                     FDPGRSYTSRRVRCSSVKCGELRYDLRLQQANCMEKEDSCTYSVTYGNGWAYSVGKMV
+                     TDTLRIGDSFMDLMFGCSMDVKYSEFEAGIFGFGSSSFSFFEQLAGYPDILSYKAFSY
+                     CLPTDETKPGYMILGRYDRAAMDGGYTPLFRSINRPTYSLTMEMLIANGQRLVTSSSE
+                     MIVDSGAQRTSLWPSTFALLDKTITQAMSSIGYHRTSRARQESYICYLSEHDYSGWNG
+                     TITPFSNWSALPLLEIGFAGGAALALPPRNVFYNDPHRGLCMTFAQNPALRSQILGNR
+                     VTRSFGTTFDIQGKQFGFKYAAC"
+ORIGIN      
+        1 atcaacccat ttcctttcct acgtttgact gcctgcctgc ccctgagcaa gcaagaaaga
+       61 aagaaagaag ggattaaatt tgcttaatcc ggcgccacag cagccgacga cgagttggag
+      121 tgtccctcct ccatcttcgg taagtagcaa agcacagtat gacattcacg aatgcatgtc
+      181 atgatctatc actccctttg tcttcgctac attacatact ctgcctgtgt ttacctactg
+      241 tacccgtctt caattcaatt tgctgttggc tcccgcgctt tcccgaagcc gcgtgtagta
+      301 gtatcataaa agtaggagta gatctttaat ttgcccggcg aaaactgctc ctagtggtag
+      361 atctttggct cggatcggag aagatattat agctgtactc tgatcgagag catgcatgct
+      421 tgttaatccg atcgagcgta ttcctctgag tttgttatgc tctgatattg taattgtggc
+      481 tggataattt tcaagaaaaa aaaatcggtt acatacatgc atttgcacta attaactaga
+      541 ttgtgcatca acagatcacg ctgtgaactc tcaaggcgcc attcagttcc ccgtgttcca
+      601 caagaagcac caatgcctcc gcccatggtc tgtccgtgca acccaggcat cctcgaccgg
+      661 agcatcagga gcaggaaaag gaggaggatt gaacaatcta caggaagagg agatcacttc
+      721 atcaagtagt acaaaaatcg acgtgatcga agacagcagc atcaacgact tcctgttcct
+      781 aatggccgtc agtctgggca agccaccggt tgtgaacctg gtggcgatcg acacgggatc
+      841 caccctctcg tgggtgcaat gccagccgtg cgcggtgcac tgccacacgc agtccgcgaa
+      901 ggccggcccg atattcgatc ccggcagatc ctacacatcc cggcgagttc gctgctcgtc
+      961 ggtcaagtgc ggcgagctga ggtacgatct gcggctccag caagccaatt gcatggagaa
+     1021 ggaagacagc tgcacgtaca gcgtcacgta cgggaacggg tgggcgtaca gcgtgggcaa
+     1081 gatggtgaca gacacgctga ggattgggga ctcgtttatg gatctcatgt tcgggtgcag
+     1141 catggatgtc aagtacagcg aattcgaggc cggcatcttt ggtttcggca gcagcagctt
+     1201 ctctttcttc gagcagctgg cagggtaccc tgatattctg agttacaagg cattcagcta
+     1261 ctgcttgccc actgacgaga ccaagcccgg atacatgatc ctgggaagat acgaccgtgc
+     1321 cgccatggat gggggttaca ctcctctctt ccggtcaatc aacaggccaa cctactcact
+     1381 gacgatggag atgcttatcg ccaacgggca gagattggtg acatcgtctt cggagatgat
+     1441 cgtcgattcc ggggcccaga ggacgtccct gtggccttcc acttttgctc tccttgacaa
+     1501 gaccatcacg caggcaatgt cgtcgattgg gtatcaccgg acatcaagag cgcgccaaga
+     1561 atcatacatc tgctacttat cggagcacga ctattctggt tggaacggca ccatcacgcc
+     1621 cttctccaac tggtccgcct tgcctctgct ggagatcggc ttcgccggcg gtgctgcact
+     1681 cgctttgcca cccagaaacg tcttctacaa cgatccacac cgcggtttgt gcatgacctt
+     1741 tgctcagaat cctgctctca ggtctcagat actggggaac agggttactc gatccttcgg
+     1801 aacaaccttc gacatccagg ggaaacaatt cggcttcaaa tatgccgctt gctgatcgtc
+     1861 gattattcct catcctatga tatatcttat agcttgcggg tacgtaccaa gtatatatca
+     1921 aactaattgc atacatgctc tccctccctc tgtccatgca tgtcctcgtt tcattgcaaa
+     1981 tctgcatcga tcaatccagt tactgataat tcctccttat taacttaggc tgatcgatcc
+     2041 attgcttctc gtgtgtatat tatgcaggtc gattaattag ctggtttgcc caaataactg
+     2101 atcggattgg agtcttctcc cgcgctacac tacccctagc tgcgatcgta tcacaagcta
+     2161 gcggtacttg atttgggacc taattcgttc aaaaaaaact tggcagctta atttgggacc
+     2221 tagtagctag ctgagccact actagatgtt tacgtaccag ctatccgtcg tttgtttgtg
+     2281 tctcctgtgc ttgtgctaaa cctatctctt gaaccgttcg tgccaactta attatttggt
+     2341 cgtatgtcct aattgttgat c
+//
+

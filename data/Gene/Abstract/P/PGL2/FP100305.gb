@@ -1,0 +1,56 @@
+LOCUS       FP100305                 879 bp    mRNA    linear   PLN 22-JUN-2010
+DEFINITION  Phyllostachys edulis cDNA clone: bphyst024b19, full insert
+            sequence.
+ACCESSION   FP100305
+VERSION     FP100305.1  GI:242389073
+KEYWORDS    FLI_CDNA.
+SOURCE      Phyllostachys edulis
+  ORGANISM  Phyllostachys edulis
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Bambusoideae; Arundinarieae; Phyllostachys.
+REFERENCE   1
+  AUTHORS   Peng,Z., Lu,T., Li,L., Liu,X., Gao,Z., Hu,T., Yang,X., Feng,Q.,
+            Guan,J., Weng,Q., Fan,D., Zhu,C., Lu,Y., Han,B. and Jiang,Z.
+  TITLE     Genome-wide characterization of the biggest grass, bamboo, based on
+            10,608 putative full-length cDNA sequences
+  JOURNAL   BMC Plant Biol. 10, 116 (2010)
+   PUBMED   20565830
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 879)
+  AUTHORS   ZeHui,J. and Bin,H.
+  CONSRTM   Bamboo Full-Length cDNA Project Team
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-NOV-2008) Jiang ZeHui, Chinese Academy of Forestry,
+            Wanshou Shan, Beijing 100091, CHINA. E-mail enquiries:
+            jiangzehui@forestry.ac.cn. Clone requests: lilb@forestry.ac.cn. Han
+            Bin, National Center for Gene Research, Chinese Academy of
+            sciences, 500# Cao Bao Road, Shanghai 200233, CHINA. E-mail
+            enquiries: bhan@ncgr.ac.cn. Clone requests: bhan@ncgr.ac.cn
+COMMENT     This clone is a full-length cDNA clones from Phyllostachys edulis
+            Web site: http://www.forestry.ac.cn/cDNA/
+FEATURES             Location/Qualifiers
+     source          1..879
+                     /organism="Phyllostachys edulis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:38705"
+                     /clone="bphyst024b19"
+                     /clone_lib="shoot"
+ORIGIN      
+        1 acacacttcc ccagccattg cagaactagc tagctagcgc ccttgttgac cagttgagcc
+       61 gaactagcca gctgccggtg tgtacaaacg tacacttctc aagaccatac ccagcgtagc
+      121 ctctcttagc aagctgcagc gctagctcat cccggccggc gacgaggagg acgacgatgt
+      181 cgaaccgaag gtcgtcgcgt ggctccatct cagaggagga gatcaacgag ctcatctcca
+      241 agctccagtc tctgctcccc aactctcgcc gccgtggctc cagccaggcc tcgacgacga
+      301 agctgctgaa ggagacgtgc aactacatca agagccttca ccgggaggtg gacgacctca
+      361 gcgaccggct gtcggacctc atggccacca tggaccacaa cagcccgggc gccgagatca
+      421 tccgcagcat cctccgctcc tgatcagcta gctacagcgc cggcacgccg gccggcgatc
+      481 accgcctcac cacgccaatt aagcggcgcc atcctccggc cacgagagct tagttagggt
+      541 atatatctac atatatatgt atctctctct ctctcttatc tctgcctaga tctcatcgtc
+      601 tagctcgcaa aatgtactag ttacgcgtat ctctaagctt cactcggtac gtagggcgtt
+      661 agcgcaaggg cttagcactg ctttaactcg cctcatctcc tctgctcctt catgtgctct
+      721 cggagctcct ctcgtcttcc ttcttttgtt gtccccttcc tctcttcgat ctgtaaattt
+      781 agttggtggc ttggatcgag ttgtgtcctc tacagacaac cgaccgacca ctactaccta
+      841 gagcaaatta atatcaccat ggtgtactgc tccagcttc
+//
+

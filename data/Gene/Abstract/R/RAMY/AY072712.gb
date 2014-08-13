@@ -1,0 +1,61 @@
+LOCUS       AY072712                 785 bp    mRNA    linear   PLN 14-JUL-2004
+DEFINITION  Oryza sativa Ramy1 (ramy1) mRNA, complete cds.
+ACCESSION   AY072712
+VERSION     AY072712.1  GI:19347606
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 785)
+  AUTHORS   Peng,R., Yao,Q., Xiong,A., Fan,H., Li,X., Peng,Y., Cheng,Z.M. and
+            Li,Y.
+  TITLE     A new rice zinc-finger protein binds to the O2S box of the
+            alpha-amylase gene promoter
+  JOURNAL   Eur. J. Biochem. 271 (14), 2949-2955 (2004)
+   PUBMED   15233790
+REFERENCE   2  (bases 1 to 785)
+  AUTHORS   Peng,R., Yao,Q., Xiong,A., Li,X. and Fan,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JAN-2002) Bio-tech, Shanghai Academy of Agriculture
+            Science, Beidi Road 2901, Shanghai 201106, China
+FEATURES             Location/Qualifiers
+     source          1..785
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /note="isolated by yeast one-hybrid system using
+                     cis-element encoded by GenBank Accession Number AY035208
+                     as bait"
+     gene            1..785
+                     /gene="ramy1"
+     CDS             86..742
+                     /gene="ramy1"
+                     /note="an abscisic acid-responsive protein"
+                     /codon_start=1
+                     /product="Ramy1"
+                     /protein_id="AAL86015.1"
+                     /db_xref="GI:19347607"
+                     /translation="MALALSTSAAAAAAAAARALAARVTTTRGYAASAASSAMRRRAA
+                     AAVEGKGAAGMTQAKDGSSSSAAREVSWVPDPVTGHYRPSNFAGGRRRRPPRRPPRPQ
+                     LRPRVMRATSSSDRGRRHPSIYICSASTTHHLSTAPRRTPLRLRVHLNDDDDASSPGG
+                     GSAGGGGGIPTVSLLRVGWMLCSCAGSSCTSHVTASRASLYYYCFCLLTFTVSPRTRV
+                     "
+ORIGIN      
+        1 gcacaagccc aagtcgcgtc gcaccgaagc agagtagaga aggagaggag cggagcgcca
+       61 tcagcccgtc cgatcgagtg atccgatggc tctcgctctc tccacctctg ctgctgctgc
+      121 cgctgccgcc gcggcgcggg cgctcgcggc gagggtgacg acgacgaggg gttacgccgc
+      181 gtcggcggcg tcgtcggcga tgaggcggcg ggcggcggcg gcggtggaag ggaagggcgc
+      241 tgcggggatg acgcaggcga aggacgggtc gtcgtcgtcg gcggcgaggg aggtgtcgtg
+      301 ggtgcccgac cccgtgacgg gccactaccg gccctccaac ttcgccggcg gccgacgccg
+      361 ccgacctccg cgccgcccac ctcgcccgca gctacgcccg cgcgtgatgc gcgcgacctc
+      421 gtcgtccgac cgaggacgac gccatccatc catatatatc tgctccgcgt caactactca
+      481 tcacctatcg accgcgccgc gccgcacgcc gctccgcctc cgcgtgcacc tgaacgacga
+      541 cgacgacgca tcatcgccgg gcggcggatc ggccggcggc ggcggcggca tccctaccgt
+      601 ttccttgctg cgtgtgggct ggatgctctg ctcgtgtgct ggttcttcgt gcacctctca
+      661 tgtaacagcg agcagggcct cactctacta ctactgtttt tgtttgttaa ctttcacggt
+      721 ttcaccacgt acccgagtgt gatggtttta atggaacaag taataaatca gtttaattac
+      781 ctgtc
+//
+

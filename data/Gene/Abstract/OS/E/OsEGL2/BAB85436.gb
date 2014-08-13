@@ -1,0 +1,98 @@
+LOCUS       BAB85436                 321 aa            linear   PLN 16-FEB-2008
+DEFINITION  putative glucanase [Oryza sativa Japonica Group].
+ACCESSION   BAB85436
+VERSION     BAB85436.1  GI:18844968
+DBSOURCE    accession AP004031.3
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Sasaki,T., Matsumoto,T., Yamamoto,K., Sakata,K., Baba,T.,
+            Katayose,Y., Wu,J., Niimura,Y., Cheng,Z., Nagamura,Y.,
+            Antonio,B.A., Kanamori,H., Hosokawa,S., Masukawa,M., Arikawa,K.,
+            Chiden,Y., Hayashi,M., Okamoto,M., Ando,T., Aoki,H., Arita,K.,
+            Hamada,M., Harada,C., Hijishita,S., Honda,M., Ichikawa,Y.,
+            Idonuma,A., Iijima,M., Ikeda,M., Ikeno,M., Ito,S., Ito,T., Ito,Y.,
+            Ito,Y., Iwabuchi,A., Kamiya,K., Karasawa,W., Katagiri,S.,
+            Kikuta,A., Kobayashi,N., Kono,I., Machita,K., Maehara,T.,
+            Mizuno,H., Mizubayashi,T., Mukai,Y., Nagasaki,H., Nakashima,M.,
+            Nakama,Y., Nakamichi,Y., Nakamura,M., Namiki,N., Negishi,M.,
+            Ohta,I., Ono,N., Saji,S., Sakai,K., Shibata,M., Shimokawa,T.,
+            Shomura,A., Song,J., Takazaki,Y., Terasawa,K., Tsuji,K., Waki,K.,
+            Yamagata,H., Yamane,H., Yoshiki,S., Yoshihara,R., Yukawa,K.,
+            Zhong,H., Iwama,H., Endo,T., Ito,H., Hahn,J.H., Kim,H.I., Eun,M.Y.,
+            Yano,M., Jiang,J. and Gojobori,T.
+  TITLE     The genome sequence and structure of rice chromosome 1
+  JOURNAL   Nature 420 (6913), 312-316 (2002)
+   PUBMED   12447438
+REFERENCE   2  (residues 1 to 321)
+  AUTHORS   Sasaki,T., Matsumoto,T. and Yamamoto,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2001) Contact:Takuji Sasaki National Institute of
+            Agrobiological Sciences, Rice Genome Research Program; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan URL
+            :http://rgp.dna.affrc.go.jp/
+COMMENT     Genes were predicted from the integrated results of the following:
+            GENSCAN (http://CCR-081.mit.edu/GENSCAN.html), FGENESH
+            (http://www.softberry.com/), GeneMark.hmm
+            (http://opal.biology.gatech.edu/GeneMark/), GlimmerM
+            (http://www.tigr.org/tdb/glimmerm/glmr_form.html), RiceHMM
+            (http://rgp.dna.affrc.go.jp/RiceHMM/), SplicePredictor
+            (http://bioinformatics.iastate.edu/cgi-bin/sp.cgi), sim4
+            (http://globin.cse.psu.edu/html/docs/sim4.html), gap2
+            (http://www.tigr.org/software/glimmerm/), BLASTN and BLASTX. The
+            genomic sequence was searched against NCBI NonRedundant Protein
+            database, nr (ftp://ncbi.nlm.nih.gov/blast/db) and the cDNA
+            sequence database at RGP or DDBJ. Protein homologies of the coding
+            regions were searched against NCBI NonRedundant Protein database
+            with BLASTP. ESTs represent the identified cDNA sequences using
+            BLASTN with the corresponding DDBJ accession no. and RGP clone ID.
+            Full-length cDNAs represent the identified cDNA sequences using
+            BLASTN with the corresponding DDBJ accession no.
+            A gene with identity or significant homology to a protein is
+            classified based on the protein name to indicate the homology level
+            such as same name, 'putative-' and '-like protein'.  A gene without
+            significant homology to any protein but with full-length cDNA or
+            EST homology (covering almost the entire length of partial
+            sequence) is classified as an 'unknown' protein. A gene predicted
+            by two or more gene prediction programs is classified as a
+            'hypothetical' protein according to IRGSP standard. A gene
+            predicted by a single gene prediction program is also classified as
+            a probable 'hypothetical' protein and is included as a
+            miscellaneous feature of the sequence.
+            The orientation of the sequence is from SP6 to T7 of the PAC clone.
+            This sequence of P0432C03 clone has an overlap with B1150F11 (DDBJ:
+            AP003412) clone at 5' end and with P0614D08 (DDBJ: AP004073) at 3'
+            end. Detailed information on overlap and assembly quality together
+            with annotation of this entry is available at
+            http://rgp.dna.affrc.go.jp/GenomeSeq.html.
+FEATURES             Location/Qualifiers
+     source          1..321
+                     /organism="Oryza sativa Japonica Group"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="1"
+                     /clone="P0432C03"
+     Protein         1..321
+                     /product="putative glucanase"
+     Region          10..317
+                     /region_name="Glyco_hydro_17"
+                     /note="Glycosyl hydrolases family 17; pfam00332"
+                     /db_xref="CDD:249777"
+     CDS             1..321
+                     /gene="P0432C03.32"
+                     /coded_by="complement(AP004031.3:81976..82941)"
+                     /note="contains EST(s): AU162234(E12092);
+                     contains full-length cDNA(s): AK063126"
+ORIGIN      
+        1 mesetgtaav gvcwgmsgdn lppaskvtem lrengftvvr lyapdsaala alggtgirvv
+       61 vgapnydlpa lahggtaaaa awireniqay ptvlfrfvvv gnevagadtq llvpamenvh
+      121 aalaaaglgh ikvttsisqa tigvhippsa geftdeakpf msyvipfler thapllanly
+      181 pyfiysynpg gmdisfalft asgavvqdge ygyqnqfdat vdalytavak lggenvrvvv
+      241 setgwptagg vgasvenamt fnqnlvrhvr ngtprhpgkk tetyvfamfn enlkeagveq
+      301 nwglfypstd rvypisfhar i
+//
+

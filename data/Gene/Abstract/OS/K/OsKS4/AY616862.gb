@@ -1,0 +1,98 @@
+LOCUS       AY616862                2523 bp    mRNA    linear   PLN 30-AUG-2004
+DEFINITION  Oryza sativa (indica cultivar-group) syn-pimara-7,15-diene synthase
+            mRNA, complete cds.
+ACCESSION   AY616862
+VERSION     AY616862.1  GI:51537818
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 2523)
+  AUTHORS   Wilderman,P.R., Xu,M., Jin,Y., Coates,R.M. and Peters,R.J.
+  TITLE     Identification of syn-pimara-7,15-diene synthase reveals functional
+            clustering of terpene synthases involved in rice
+            phytoalexin/allelochemical biosynthesis
+  JOURNAL   Plant Physiol. 135 (4), 2098-2105 (2004)
+   PUBMED   15299118
+REFERENCE   2  (bases 1 to 2523)
+  AUTHORS   Xu,M. and Peters,R.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2004) Biochemistry, Biophysics, & Molecular
+            Biology, Iowa State University, Ames, IA 50011, USA
+FEATURES             Location/Qualifiers
+     source          1..2523
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="IR24"
+                     /db_xref="taxon:39946"
+                     /chromosome="4"
+                     /map="14.3 cM"
+     CDS             1..2523
+                     /note="OsDTS2"
+                     /codon_start=1
+                     /product="syn-pimara-7,15-diene synthase"
+                     /protein_id="AAU05906.1"
+                     /db_xref="GI:51537819"
+                     /translation="MASPMEAVARSSLVLAPRRRRALGLLPAAAAPFVLDCRRRHNGG
+                     MRRPHVSFACSAELDTGRRQLPSTGTRAVMSSCPGYVEGRMVGENTSQINMGREARIR
+                     RHLENPEFLPSSYDIAWVAMVPLPGTDHLQAPCFPECVEWILQNQHSNGSWGVNEFDS
+                     SASKDILLSTLACIIALEKWNVGSEQIRRGLHFIAKNFSIVIDDQIAAPIGFNLTFPA
+                     MVNLAIKMGLEFPASEISIDQILHLRDMELKRLSGEESLGKEAYFAYIAEGLEESMVD
+                     WSEVMKFQGKNGSLFNSPAATAAALVHRYDDKALGYLYSVVNKFGGEVPTVYPLNIFS
+                     QLSMVDTLVNIGISRHFSSDIKRILDKTYILWSQRDEEVMLDLPTCAMAFRLLRMNGY
+                     GVSSDDLSHVAEASTFHNSVEGYLDDTKSLLELYKASKVSLSENEPILEKMGCWSGSL
+                     LKEKLCSDDIRGTPILGEVEYALKFPFYATLEPLDHKWNIENFDARAYQKIKTKNMPC
+                     HVNEDLLALAAEDFSFCQSTYQNEIQHLESWEKENKLDQLEFTRKNLINSYLSAAATI
+                     SPYELSDARIACAKSIALTLVADDFFDVGSSKEEQENLISLVEKWDQYHKVEFYSENV
+                     KAVFFALYSTVNQLGAMASAVQNRDVTKYNVESWLDYLRSLATDAEWQRSKYVPTMEE
+                     YMKNSIVTFALGPTILIALYFMGQNLWEDIVKNAEYDELFRLMNTCGRLQNDIQSFER
+                     ECKDGKLNSVSLLVLDSKDVMSVEEAKEAINESISSCRRELLRLVVREDGVIPKSCKE
+                     MFWNLYKTSHVFYSQADGFSSPKEMMGAMNGVIFEPLKTRGN"
+ORIGIN      
+        1 atggcgagtc ctatggaagc tgtagcccgt tccagcctcg tgctcgcacc tcgccggcgg
+       61 cgagccctcg gcctcctccc ggcggcggcc gccccattcg tgctagattg tcgccggcgg
+      121 cataacggag gaatgcgtcg tcctcatgtc agcttcgcct gctcggccga gctcgacacc
+      181 ggtcgccggc agcttccttc cacggggact cgagcggtga tgtcgtcctg tcccggatat
+      241 gttgagggga ggatggtagg agaaaataca agtcagataa acatgggacg ggaggctaga
+      301 atacgtaggc acttggagaa cccggagttc ttaccatctt catatgacat agcatgggtg
+      361 gctatggtgc cattgccggg cactgatcat cttcaagctc catgcttccc tgaatgtgtg
+      421 gaatggatac tacaaaacca acacagtaat gggtcgtggg gtgtcaatga atttgactca
+      481 tcagccagca aggatattct cctatccact ttggcatgta ttattgcact tgagaaatgg
+      541 aatgtcggtt cggagcaaat aaggagagga ttacatttta tcgcaaagaa tttctccatt
+      601 gttattgatg accagattgc tgcacctata ggcttcaacc tcacattccc tgctatggtt
+      661 aaccttgcca ttaagatggg tttggaattt cctgccagtg aaattagtat tgatcagatt
+      721 cttcacctcc gtgatatgga attgaaaaga ctgtctggtg aggaatcttt ggggaaagag
+      781 gcatatttcg cctatattgc tgaaggtcta gaagaaagca tggtggattg gagtgaagtt
+      841 atgaagttcc aggggaagaa tggatcattg ttcaactccc cggctgcaac tgctgctgca
+      901 ttagtccaca gatacgatga taaagccctg ggatacctat attctgttgt caataaattt
+      961 ggaggtgaag taccaaccgt gtatccgcta aatatatttt ctcagctttc aatggtggat
+     1021 actctcgtca atattggaat atctcggcac ttttctagtg atataaagcg cattttggat
+     1081 aagacataca ttttatggtc acagagagat gaggaagtaa tgctggattt accaacatgc
+     1141 gcaatggcat ttcgcctttt gcgtatgaac ggatatggtg tttcctcaga tgacttgtcc
+     1201 catgttgctg aagcctcaac tttccataac tcagttgaag gatacttaga tgatacaaaa
+     1261 tccttattag aattgtacaa agcttcaaaa gtcagtttat cagaaaatga gccaatccta
+     1321 gagaaaatgg gttgctggtc aggtagctta ttgaaagaaa aattgtgctc cgatgacatc
+     1381 cgaggaacac caatccttgg agaggtagaa tatgctctca aatttccatt ttatgccacg
+     1441 ctggaacctc tagaccacaa gtggaacatt gaaaattttg atgccagggc ttatcagaag
+     1501 ataaagacca aaaacatgcc gtgccatgtc aatgaagatc tcttggcttt ggctgctgaa
+     1561 gatttcagct tttgtcagtc aacttaccaa aatgaaatcc agcaccttga aagttgggag
+     1621 aaagaaaata agctggacca gctcgaattt acgcggaaga atctaataaa cagctatctc
+     1681 tctgctgctg ccaccataag cccttatgaa ttgtctgatg ctcgcattgc gtgtgcaaaa
+     1741 tctattgcgc tcacacttgt tgccgatgac ttttttgatg tcggaagttc caaagaagaa
+     1801 caagaaaatc tcatatcctt agtcgagaag tgggatcagt atcataaagt tgagttctac
+     1861 tctgagaatg taaaagcagt atttttcgct ctatattcta cggttaacca gcttggagca
+     1921 atggcttccg cagtacagaa ccgcgacgtt acaaaataca atgttgaatc gtggttggat
+     1981 tatttgaggt ctttagcgac agatgcagaa tggcaacgga gcaaatatgt gccaacaatg
+     2041 gaggaataca tgaaaaattc aattgtgaca ttcgcattgg gaccaactat actcatagca
+     2101 ctgtatttca tgggacaaaa tctctgggag gacatcgtga aaaatgcaga gtatgatgag
+     2161 ttgtttagac taatgaacac atgtggtcgt ctccagaatg atattcaaag ctttgagagg
+     2221 gaatgcaagg atggcaaact gaacagtgtg tcactgcttg ttcttgacag caaagatgtc
+     2281 atgtcagtag aagaggctaa agaggcgata aacgagtcta tatcatcatg tagaagagag
+     2341 ttgctacggt tggttgttag agaagacggt gtcattccta aatcatgcaa ggagatgttc
+     2401 tggaatcttt acaagacaag ccatgtgttc tactctcagg ccgatggatt ttcctcgccg
+     2461 aaggaaatga tgggtgctat gaatggagta atctttgagc cactgaaaac tagaggcaac
+     2521 tag
+//
+

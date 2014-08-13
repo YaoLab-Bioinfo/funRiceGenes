@@ -1,0 +1,58 @@
+LOCUS       AY282740                 727 bp    mRNA    linear   PLN 30-JUL-2008
+DEFINITION  Oryza sativa Japonica Group putative A20/AN1-type zinc finger
+            protein ZFP177 mRNA, complete cds.
+ACCESSION   AY282740
+VERSION     AY282740.1  GI:30908920
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 727)
+  AUTHORS   Huang,J., Wang,M.M., Jiang,Y., Bao,Y.M., Huang,X., Sun,H., Xu,D.Q.,
+            Lan,H.X. and Zhang,H.S.
+  TITLE     Expression analysis of rice A20/AN1-type zinc finger genes and
+            characterization of ZFP177 that contributes to temperature stress
+            tolerance
+  JOURNAL   Gene 420 (2), 135-144 (2008)
+   PUBMED   18588956
+REFERENCE   2  (bases 1 to 727)
+  AUTHORS   Huang,J. and Zhang,H.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-APR-2003) Agronomy, Rice Research Institute, WeiGang
+            1, Nanjing Agricultural University, Nanjing, Jiang Su 210095, China
+FEATURES             Location/Qualifiers
+     source          1..727
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Jiu Caiqing"
+                     /db_xref="taxon:39947"
+                     /clone="Z33"
+                     /tissue_type="root"
+     CDS             6..491
+                     /codon_start=1
+                     /product="putative A20/AN1-type zinc finger protein
+                     ZFP177"
+                     /protein_id="AAP37480.1"
+                     /db_xref="GI:30908921"
+                     /translation="MAQESWKNESEETVHTPEAPILCVNNCGFFGSSMTNNMCSKCYR
+                     DFVKVTTMAAPVVEKKAFTPASSSKTPLEPAKPDEVPAAAVEDKQAAQEPPKPPSNRC
+                     LSCRKKVGLTGFQCRCGGTFCSTHRYTEAHDCTFDYKKAGRDQIAKQNPVVIAEKINK
+                     I"
+ORIGIN      
+        1 tagcaatggc acaagaaagc tggaaaaatg agtctgagga gactgtccac acaccggagg
+       61 ccccaatatt gtgtgtaaac aactgtggct tcttcggcag tagcatgacg aacaatatgt
+      121 gttcgaagtg ctacagggac tttgtgaagg tcacgacaat ggctgcccca gtagtggaga
+      181 agaaggcatt tacgccagca tcgtcttcga agacaccatt ggagccagca aagccagatg
+      241 aagttcctgc cgcagctgta gaggataagc aagcggcaca ggagcctcca aagccaccca
+      301 gcaaccgatg cctgtcatgc cgtaagaagg ttggtctgac tggcttccag tgccgatgcg
+      361 gaggtacctt ctgctcaaca caccgttata ccgaagctca cgactgcacc ttcgactaca
+      421 agaaggccgg ccgggatcag attgccaagc agaatcctgt tgtgatagcc gagaagatca
+      481 acaagatctg attgaaggtt atggaagggc catttaatct ctattcatgg tggcaaccga
+      541 gtcttcaagt ttacttcagc cagtaggttc cttcaggtct gggttagtgt gctaggagtc
+      601 ccaattgtgt ctatccttcc tccttatcat ggtttcattc tctggcaatt aaggaataat
+      661 aatgtaaata tatattatat tcttaactat atttccatct tattgcttaa aaaaaaaaaa
+      721 aaaaaaa
+//
+

@@ -1,0 +1,198 @@
+LOCUS       AJ427979                5051 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  Oryza sativa HAK10 gene for putative potasium transporter, exons
+            1-9.
+ACCESSION   AJ427979
+VERSION     AJ427979.1  GI:18250703
+KEYWORDS    HAK10 gene; potasium transporter.
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Banuelos,M.A., Garciadeblas,B., Cubero,B. and Rodriguez-Navarro,A.
+  TITLE     Inventory and functional characterization of the HAK potassium
+            transporters of rice
+  JOURNAL   Plant Physiol. 130 (2), 784-795 (2002)
+   PUBMED   12376644
+REFERENCE   2  (bases 1 to 5051)
+  AUTHORS   Rodriguez-Navarro,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JAN-2002) Rodriguez-Navarro A., Biotecnologia,
+            E.T.S.I.Agronomos UPM, Ciudad Universitaria s/n, Madrid E-28040,
+            SPAIN
+COMMENT     This sequence was downloaded from Monsanto's rice genome database.
+            Monsanto has granted permission to deposit this sequence in EMBL as
+            part of the publication process.
+FEATURES             Location/Qualifiers
+     source          1..5051
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            <203..>4555
+                     /gene="HAK10"
+     CDS             join(203..256,450..1017,1109..1162,2164..2424,2509..2561,
+                     2675..2798,2897..3151,3280..3686,3800..4555)
+                     /gene="HAK10"
+                     /codon_start=1
+                     /product="putative potasium transporter"
+                     /protein_id="CAD21000.1"
+                     /db_xref="GI:18250704"
+                     /db_xref="GOA:Q67VS5"
+                     /db_xref="InterPro:IPR003855"
+                     /db_xref="UniProtKB/Swiss-Prot:Q67VS5"
+                     /translation="MKSPSPVDPESPSSPDCKGGSSSKRRRLPWRMTMSLAYQSLGVV
+                     YGDLSTSPLYVYKPAFAEDIQHSETNEEILGVLSFVFWTLTLVPLLKYVCVVLRADDN
+                     GEGGTFALYSLLCRHARAALLPPGGGGGGGEPGDKDQFLDAGADKKAAANGNALALSG
+                     RAGGGGAAAGVRRLLERHKVLQRVLLVLALVGTCMVIGDGVLTPAISVFSAVSGLELS
+                     MEKHQHKYVEVPIACFVLVCLFCLQHYGTHRVGFLFAPIVITWLLCISMIGVYNIVHW
+                     EPNVYRALSPYYMYKFLKKTQRGGWMSLGGILLCITGSEAMFADLGHFNQLSIQIAFT
+                     CMVYPSLILAYMGQAAYLCKHHIIESDYRIGFYVSVPEKIRWPVLAIAILAAVVGSQA
+                     VITGTFSMIKQCTALGCFPRVKIVHTSDKVHGQIYIPEINWILMILCLAITIGFRDTK
+                     HLGNASGLAVITVMLVTTCLMSLVIVLCWHKSIFLAFGFIIFFGTIEALYFSASLIKF
+                     REGAWVPIVLAFIFMAIMCIWHYGTIKKYEFDLQNKVSINWLLGLSPNLGIVRVRGIG
+                     LIHTELDSGIPAIFSHFVTNLPAFHQVLIFLCIKNVPIPHVSPEERFLVGRIGPKEYR
+                     IYRCIVRYGYHDVHKDDQEFEKELVCSVAEFIRSGAAAAADAAASFKPKNVCGGGAEE
+                     SEKEEEERMSVIPSGSIRMMEEDGGAGAPSSEDTVGGSGSGSGRGSSRGGGGAREIMS
+                     PSPSPPPVVVAPRKRVRFVLPAASPRPDAGVREELQELMDAREAGMAFILGHSYVKAK
+                     SGSSFFRRLVINFCYDFLRRNSRGPNYAVTIPHASTLEVGMIYYV"
+     exon            <203..256
+                     /gene="HAK10"
+                     /number=1
+     intron          257..449
+                     /gene="HAK10"
+                     /number=1
+     exon            450..1017
+                     /gene="HAK10"
+                     /number=2
+     intron          1018..1108
+                     /gene="HAK10"
+                     /number=2
+     exon            1109..1162
+                     /gene="HAK10"
+                     /number=3
+     intron          1163..2163
+                     /gene="HAK10"
+                     /number=3
+     exon            2164..2424
+                     /gene="HAK10"
+                     /number=4
+     intron          2425..2508
+                     /gene="HAK10"
+                     /number=4
+     exon            2509..2561
+                     /gene="HAK10"
+                     /number=5
+     intron          2562..2674
+                     /gene="HAK10"
+                     /number=5
+     exon            2675..2798
+                     /gene="HAK10"
+                     /number=6
+     intron          2799..2896
+                     /gene="HAK10"
+                     /number=6
+     exon            2897..3151
+                     /gene="HAK10"
+                     /number=7
+     intron          3152..3279
+                     /gene="HAK10"
+                     /number=7
+     exon            3280..3686
+                     /gene="HAK10"
+                     /number=8
+     intron          3687..3799
+                     /gene="HAK10"
+                     /number=8
+     exon            3800..>4555
+                     /gene="HAK10"
+                     /number=9
+ORIGIN      
+        1 cctcttaaaa acctcaataa ctccaaattt tcccaccgcc taataatccc cattaccgtc
+       61 tcctctgaat cgttggattt gataccccca gggattcaga gagagagaga gagagagaga
+      121 gccaagaaac cctgtagctg ctgtaggacg agtaggagta ggagtggttt tgcttcctct
+      181 gttcttgtgt tgggattgag gaatgaagag cccgtctccc gtggatcctg agtcgccgag
+      241 ttctcccgat tgcaaggtat gggttgggtg gtggaggtcg tgtcatgttt gatggttaat
+      301 ggtctaatct tgtcgggttt gcgagggttg tggtggtcgt gattgattga ttgatcatgg
+      361 tgttgttgaa tcttggtgcg atcttggatt ctttgctaat gtgtgtgtgc gcgtgtgatt
+      421 tgatttgggt gggtggatgg atggagcagg gagggagcag cagcaagagg aggcggctgc
+      481 catggcggat gacgatgagc ctggcgtacc agagcctcgg ggtggtgtac ggcgacctga
+      541 gcacgtcgcc gctgtacgtg tacaagccgg cgttcgcgga ggacatccag cactcggaga
+      601 ccaacgagga gatcctcggc gtgctctcct tcgtcttctg gacgctcacc ctcgtgccgc
+      661 tcctcaagta cgtctgcgtc gtcctccgcg ccgacgacaa cggcgagggc ggcaccttcg
+      721 ccctctactc cctcctctgc cgccacgccc gcgccgcgct cctcccgcct ggcggcggcg
+      781 gcggcggcgg cgagccgggc gacaaggacc agttcttgga cgcgggcgcc gacaagaaag
+      841 ccgcggcgaa cggcaatgcg ctggcgctga gcgggcgcgc cggcggaggc ggcgccgccg
+      901 ccggcgtgag gaggctgctg gagcggcaca aggtgctgca gcgcgtgctc ctcgtgctgg
+      961 cgctggtggg cacgtgcatg gtcatcggcg acggcgtgct cacgccggcc atctccggtg
+     1021 cgtgcgcgcc cccgcttgat ttgctggctt gtttgtgttc ttgggttgtc gtgtgctgat
+     1081 tttcagatgg cgtgttctgt ttttgcagtg ttctcggcgg tatccgggct ggaattgtcc
+     1141 atggaaaagc atcagcacaa atgtaaggat ctgaacaccc aaccatgcct ttgtcccttc
+     1201 cattgtttct gtcttttgat atgattgtag atttgtcttc ctcatcttgt taactactgt
+     1261 ttcctggatc atcatgttct gagttttttt agataattca gggtccacct caaactcaaa
+     1321 agggtgcagt ttcttgtttt tttagttgaa aaaagtgtgc agtttcagtc atactagtgc
+     1381 accacaattc gagtaaattt tacctgtaag atgcacgcaa gagatggatt ctgtgcaatt
+     1441 tggtgttcgt aaaaccagga attatgttaa ctgatgaagt ctgaacagtt tgcttcaatg
+     1501 ggattgatac ttttggaagt ttccgtgcga gcttatcggc tcagatatca gatgatcaat
+     1561 tgcgtgccaa attcatttag gaaggtcttt gacagggaat gaccatgagc aacgcagcgt
+     1621 tgtcgcatgg acaccaacaa tcaactccgt actgttgtta gtcaatgtat gcctaacagt
+     1681 tgttgctata atgctattag cctacgaact ggagaagatt aatactctta tctagtagca
+     1741 ttgatgacta caataaatgg aactacccta ctcaagcagt tgtgattctt gtgaagaact
+     1801 gtagtgggaa acagaaagaa aagatttgag cgattcctaa ataagccggt catcatctaa
+     1861 attactgtat ctgttcagtt catattctct tgggctttgg cagaggatag agttcactct
+     1921 gggcagaaat atggtcagct agtggtaata aggttcggaa attctggaaa atggaagcta
+     1981 cacatgctga aagtaataaa ataagtgctg aattctgaag tgcggagtaa agaaactcta
+     2041 ttttgacttt taatcattta agcatgtgct tttattctga ttcttgtttt gctaatatgt
+     2101 tttgtttctt ttttaaccca ttactaactg tgcaaagttt tttttactga tttgaatctg
+     2161 cagatgtgga ggttcctatt gcttgttttg tactggtttg cctgttttgt ctgcaacact
+     2221 atggtacaca ccgggtgggg ttcctttttg caccaattgt gattacatgg cttctatgta
+     2281 taagcatgat tggtgtttac aatatcgtgc attgggagcc caatgtctat cgagcgttat
+     2341 ctccatatta tatgtacaag tttttgaaga agacgcagag aggaggttgg atgtcactgg
+     2401 gaggaatatt gttatgtatc actggtacta tgatcaacaa ccattttcta ccatatgcca
+     2461 atgatctctg aagtgtacaa ctttactaac ttgagtgttg tttttcaggt tctgaagcaa
+     2521 tgtttgcaga tctggggcat tttaatcagc tgtcgataca ggtgatgaaa tagagtgcaa
+     2581 tctcaatgtt ttgttttact tggtttcatc atagtagcaa tatgcggaca tgcggtcaat
+     2641 agttttgtct ctgataagca tttcctgatt gcagattgct tttacttgca tggtttaccc
+     2701 atccttgatc cttgcataca tggggcaagc tgcttatctg tgtaagcatc acatcattga
+     2761 aagtgactac aggatcgggt tctatgtgtc tgtgcctggc aagtcatgtt ctccagatct
+     2821 ttcatcaaca gcgaaatcga tattatatca ttctcctagt actgtttatt aatatttaaa
+     2881 agttttccat cctcagagaa aattaggtgg ccagttctgg caattgccat tcttgcagca
+     2941 gttgtcggga gccaagctgt tatcactggc acattctcaa tgatcaagca gtgcaccgct
+     3001 ctcggctgct ttcctcgggt gaagatagtt cacacatctg acaaagtaca cgggcaaatt
+     3061 tacatccctg agatcaattg gatcctgatg atactgtgct tagctattac cattggtttc
+     3121 agagacacaa aacacctggg caatgcgtca ggtatgtacc acttgtttta gtttttgaca
+     3181 tatcaaacca cctgattatt ccatgttcga attacctatg catactgaag ctaatgagta
+     3241 aggaatttgt ctgatatgca atagttgtcc tttgaacagg attggcggtt ataaccgtta
+     3301 tgctggtcac gacatgtctg atgtccctgg tgatagttct gtgttggcac aagagcatct
+     3361 tcctcgcatt cggcttcatc atcttcttcg gcaccattga ggcactctac ttctcagcat
+     3421 cactcatcaa gttcagagaa ggagcctggg tcccaattgt gctggccttc atcttcatgg
+     3481 cgataatgtg catctggcac tatggcacca tcaagaagta tgagttcgat ctccagaaca
+     3541 aggtctccat caactggctc cttggcctca gccccaacct cggcattgtc cgagtccgcg
+     3601 gcatcggcct catccacacc gagctcgact ctgggatccc ggcaatcttc tcgcatttcg
+     3661 tcaccaacct acctgcattt catcaagtaa tcttgctcat cagccatcat tcctcgcctt
+     3721 ctgaagttgt tgtcattgtt cagaaattca gaattttggt tacagtgctc atcatcttct
+     3781 tcttcttgat gatgatcagg tgctcatctt cctctgcatc aagaacgtcc cgataccgca
+     3841 tgtctcgccg gaggagaggt tcctcgtcgg aagaattggc cccaaggagt acagaatcta
+     3901 ccggtgcatt gtcaggtacg gctaccacga cgtgcacaag gacgatcagg agttcgagaa
+     3961 ggagctcgtc tgcagcgtcg cggagttcat ccgctccggc gccgccgccg cggccgacgc
+     4021 cgcggcctct ttcaagccca agaacgtctg cggcggcggc gcggaggagt cggagaaaga
+     4081 ggaggaggag cggatgtccg tcatcccctc cggcagcatt cggatgatgg aggaggacgg
+     4141 cggcgcgggg gcgccgtcgt cggaggacac cgtcggcggc agcggcagcg gcagcggcag
+     4201 aggcagctcg cgcggcggcg gcggcgcaag ggagatcatg tcgccgtcgc cgtcgccgcc
+     4261 gccggtggtg gtggcgccga ggaagagggt gcggttcgtg ctgccggcgg cgagcccgcg
+     4321 gccggacgcc ggcgtgcggg aggagctgca ggagctgatg gacgcgcgcg aggccggcat
+     4381 ggcgttcatc ctcggccact cctacgtcaa ggccaagagc ggctccagct tcttccggcg
+     4441 gctggtcatc aacttctgct acgacttcct ccgccgcaac agccgcggcc ccaactacgc
+     4501 cgtcaccatc cctcacgcct ccaccctcga ggtcggcatg atttactatg tctaatacaa
+     4561 aaaaaaaatc aaaccaccat agatagatag aagaacaaga agagagacaa aacaggagac
+     4621 gaatcgaaac aaaaatgaag tttcgcttgt atatcctcga tcttgtaatt gacccgagag
+     4681 tttttgttgt aaatgtagta gcctgatttc tcctaggtct cggatttcat cttgtataca
+     4741 ctactaatct gagcggcgca gagatgcgac gccattagag cgagctcgaa ttcggataga
+     4801 agagagttgg gcagctggat catgggctcc gttggcttgg cgcgaatgct gaggtcgctg
+     4861 tgcgtcgccg gcgatctcgc tagggcggtg ggtctcctgt ggcggagtac ggtgtgcccc
+     4921 ggtgagggga cctacgcgct tctgctgcag gaatgcgtga accggcggga cgcgaggatg
+     4981 gggaagagga tccacgcgcg catggtgtcg gtggggtttg gcggcggcgt ctacatcgtc
+     5041 accaagctgc t
+//
+

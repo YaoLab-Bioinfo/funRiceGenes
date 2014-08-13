@@ -1,0 +1,71 @@
+LOCUS       AB070226                1395 bp    mRNA    linear   PLN 03-OCT-2008
+DEFINITION  Oryza sativa OsIRT1 mRNA for iron regulated metal transporter,
+            complete cds.
+ACCESSION   AB070226
+VERSION     AB070226.1  GI:18700308
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Bughio,N., Yamaguchi,H., Nishizawa,N.K., Nakanishi,H. and Mori,S.
+  TITLE     Cloning an iron-regulated metal transporter from rice
+  JOURNAL   J. Exp. Bot. 53 (374), 1677-1682 (2002)
+   PUBMED   12096107
+REFERENCE   2  (bases 1 to 1395)
+  AUTHORS   Mori,S. and Yamaguchi,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2001) Contact:Satoshi Mori Tokyo University, Lab.
+            Plant Molecular Physiology, Dep. Applied Biological Chemistry;
+            Yayoi 1-1, Bunkyo-ku, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1395
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /tissue_type="root"
+                     /dev_stage="young"
+     gene            1..1395
+                     /gene="OsIRT1"
+     CDS             30..1154
+                     /gene="OsIRT1"
+                     /codon_start=1
+                     /product="iron regulated metal transporter"
+                     /protein_id="BAB85123.1"
+                     /db_xref="GI:18700309"
+                     /translation="MATPRTLVPILPPVAALLLLLVAASSIPILAAAQPADACGGAPD
+                     QAAADGACHDVPRALRLKLIAIPTILVSSVVGVCLPLLSRSVPALRPDGGLFAVVKAF
+                     ASGVILATGYMHVLPDAFNNLTSPCLPRKPWSEFPFAAFVAMLAAVSTLMADSLMLTY
+                     YNRSKPRPSSGGDVAAVADHGESPDQGHRHGHGHGHGHGMAVAKPDDVEATQVQLRRN
+                     RVVVQVLEIGIVVHSVVIGLGMGASQNVCTIRPLVAAMCFHQMFEGMGLGGCILQAEY
+                     GRRMRSVLVFFFSTTTPFGIALGLALTRVYRDNSPTALIVVGLLNAASAGLLHYMALV
+                     ELLAADFMGPKLQGNVRLQLAAFLAVLLGAGGMSVMAKWA"
+ORIGIN      
+        1 gcaaaatcta gtgtggtgta cgaacgaaaa tggcgacgcc gcggacactg gtgcccattc
+       61 tgccgcccgt cgccgcgctc ctcctcctcc tcgtcgccgc ctcctccatc cccatcctcg
+      121 ccgccgcgca gccggcggac gcgtgcggcg gcgcaccgga tcaggcggcg gcggacggcg
+      181 cgtgccacga cgtgccgagg gcgctgcggc tgaagctgat cgccatcccg accatcctcg
+      241 tgtcgagcgt cgtcggcgtg tgcctgccgc tcctctcccg ctccgtgccg gcgctccgcc
+      301 ccgacggcgg cctcttcgcc gtcgtcaagg cgttcgcgtc gggcgtcatc ctcgccacgg
+      361 gctacatgca cgtgctcccg gacgccttca acaacctcac ctcgccgtgc ctgcccagga
+      421 agccgtggtc ggagttcccg ttcgcggcgt tcgtcgccat gctcgccgcc gtgtccacgc
+      481 tcatggccga ctcgctcatg ctcacctact acaaccgcag caagccccgg ccgtctagcg
+      541 gcggcgacgt cgccgccgtc gccgaccacg gcgagagccc cgaccagggc caccggcacg
+      601 gacacggaca cggccatggg catggcatgg cggtggccaa gcccgacgac gtcgaggcca
+      661 ctcaggtgca gctgcgccgg aaccgcgtcg tcgttcaggt cctcgagata ggcatcgtgg
+      721 tgcactcggt ggtgatcggc ctcggcatgg gggcgtcgca gaacgtgtgc accatccggc
+      781 cgctggtggc ggcgatgtgc ttccaccaga tgttcgaggg gatgggcctc ggcggctgca
+      841 tcctgcaggc ggagtacggc cgccggatga ggtcggtgct cgtcttcttc ttctccacca
+      901 cgacgccgtt cggcatcgcc ctcggcctcg ccctgaccag ggtgtacagg gacaacagcc
+      961 cgacggcgct catcgtcgtc ggcctcctca acgccgcctc cgcggggctg ctccactaca
+     1021 tggcgctggt ggagctcctc gccgccgact tcatggggcc caagctgcag ggcaacgtcc
+     1081 gcctccagct cgccgccttc ctcgccgtcc tcctcggcgc cggcggcatg tccgtcatgg
+     1141 ccaagtgggc gtgagctgac gatgcatcac actctgcggc atcatgcaat tcgctgcatt
+     1201 gttagattga gcttggtcag actcgatcat cagctgcaga catgttgtac agtgactgtg
+     1261 acttctccat gttgtactgt aattcaggtt ttcagtgttg tagcgtggtt gttcaggttt
+     1321 tgttcttcgt gactgatgat gtacttcaat acgagcatct acatattttc atgattatta
+     1381 aaaaaaaaaa aaaaa
+//
+

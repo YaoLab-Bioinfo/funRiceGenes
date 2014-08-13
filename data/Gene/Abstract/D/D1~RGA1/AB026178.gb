@@ -1,0 +1,62 @@
+LOCUS       AB026178                1197 bp    mRNA    linear   PLN 10-JUL-1999
+DEFINITION  Oryza sativa mRNA for G protein alpha subunit, dwarf mutant ID-1
+            sequence.
+ACCESSION   AB026178
+VERSION     AB026178.1  GI:5441238
+KEYWORDS    G protein alpha subunit.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Fujisawa,Y., Kato,T., Ohki,S., Ishikawa,A., Kitano,H., Sasaki,T.,
+            Asahi,T. and Iwasaki,Y.
+  TITLE     Suppression of the heterotrimeric G protein causes abnormal
+            morphology, including dwarfism, in rice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 96 (13), 7575-7580 (1999)
+   PUBMED   10377457
+REFERENCE   2  (bases 1 to 1197)
+  AUTHORS   Iwasaki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-APR-1999) Yukimoto Iwasaki, Fukui Prefectural
+            University, Department of Bioscience; Matsuoka-cho, Kenjyoujima,
+            4-1-1, Yoshida-gun, Fukui 910-1195, Japan
+            (E-mail:iwasaki@fpu.ac.jp, Tel:81-776-61-6000(ex.3514),
+            Fax:81-776-61-6015)
+FEATURES             Location/Qualifiers
+     source          1..1197
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+     CDS             1..1141
+                     /note="dwarf mutant allele: ID-1"
+                     /pseudo
+                     /codon_start=1
+                     /product="G protein alpha subunit"
+     variation       912^913
+                     /note="2-bp deletion"
+                     /replace="tg"
+ORIGIN      
+        1 atgggctcat cctgtagcag atctcattct ttaagtgagg ctgaaacaac caaaaatgca
+       61 aaatctgcag acattgacag gcgaattttg caagagacaa aagcagagca acacatccac
+      121 aagctcttac ttcttggtgc gggagaatca gggaagtcta cgatatttaa acagattaag
+      181 ctccttttcc aaactggctt tgatgaggca gaacttagga gctacacatc agttatccat
+      241 gcaaacgtct atcagacaat taaaatacta tatgaaggag caaaagaact ctcacaagtg
+      301 gaatcagatt cctcaaagta tgttatatcc ccagataacc aggaaattgg agaaaaacta
+      361 tcagatattg atggcaggtt ggattatcca ctgctgaaca aagaacttgt actcgatgta
+      421 aaaaggttat ggcaagaccc agccattcag gaaacttact tacgtggaag tattctgcaa
+      481 cttcctgatt gtgcacaata cttcatggaa aatttggatc gattagctga agcaggttat
+      541 gtgccaacaa aggaggatgt gctttatgca agagtacgga caaatggtgt tgtacaaata
+      601 caatttagtc ctgttggaga aaacaaaaga ggtggagagg tatataggtt gtatgatgta
+      661 ggaggccaga ggaatgagag gagaaagtgg attcatcttt ttgaaggtgt taatgcggta
+      721 atcttttgtg ctgccattag cgaatatgat cagatgctat ttgaagatga gacaaaaaac
+      781 agaatgatgg agaccaagga actctttgac tgggttttaa agcaaagatg ttttgagaaa
+      841 acatcattca ttctgtttct caacaaattt gatatattcg agaagaaaat acaaaaggtt
+      901 cctttaagtg tgcgagtggt ttaaagacta ccagcctatt gcacctggga aacaggaggt
+      961 tgaacatgca tatgagtttg tcaagaagaa gtttgaagag ctctacttcc agagcagcaa
+     1021 gcctgaccgt gtggaccgcg tcttcaaaat ctacagaact acggccctag accagaaact
+     1081 tgtaaagaag acattcaagt tgattgatga gagcatgaga cgctccaggg aaggaacttg
+     1141 attcagagct aagactaggt tgtaagtcac acagggaagg taattaggac ggcgaga
+//
+

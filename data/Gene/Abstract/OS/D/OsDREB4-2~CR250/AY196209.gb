@@ -1,0 +1,67 @@
+LOCUS       AY196209                 930 bp    DNA     linear   PLN 30-JUN-2005
+DEFINITION  Oryza sativa (japonica cultivar-group) transcription factor DREB
+            (DREB) gene, complete cds.
+ACCESSION   AY196209
+VERSION     AY196209.1  GI:37781183
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 930)
+  AUTHORS   Tian,X.H., Li,X.P., Zhou,H.L., Zhang,J.S., Gong,Z.Z. and Chen,S.Y.
+  TITLE     OsDREB4 genes in rice encode AP2-containing proteins that bind
+            specifically to the dehydration-responsive element
+  JOURNAL   J. Integr. Plant Biol. 47 (4), 467-476 (2005)
+REFERENCE   2  (bases 1 to 930)
+  AUTHORS   Li,X., Liu,Q., Chen,S. and Zhang,J.
+  TITLE     Isolation and characterization of a dreb from oryza sativa
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 930)
+  AUTHORS   Li,X., Liu,Q., Chen,S. and Zhang,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-DEC-2002) Botany, The Chinese Agricultural
+            University, Beijing 100094, P.R. China
+FEATURES             Location/Qualifiers
+     source          1..930
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="zhonghua9"
+                     /db_xref="taxon:39947"
+     gene            <74..>928
+                     /gene="DREB"
+     mRNA            <74..>928
+                     /gene="DREB"
+                     /product="transcription factor DREB"
+     CDS             74..928
+                     /gene="DREB"
+                     /codon_start=1
+                     /product="transcription factor DREB"
+                     /protein_id="AAO39764.1"
+                     /db_xref="GI:37781184"
+                     /translation="MEADASHTPTTSSSVSVSFSSSSLSTSSSTSSLVDNGAQDRPKS
+                     SKPKHAAKKRKRAAAEEPANAAHGAGEDTSSCSTDDNAAASGKAQAGGGGGGVDSSST
+                     CTAASAPRSGFKHPSYRGVRRRSWGKWVSEIREPRKKSRIWLGTFPTAEMAARAHDVA
+                     ALAIKGRNAHLNFPDSAHELPRPESTSPADIQAAAAKAAAEVRCEEESSPSSSPTAEQ
+                     PEEEAACPDTVHADGGQDNALFDLPDLLLDLRDGLWWSPVWPAALAAEEYDGGDAVVL
+                     NEPLLWAE"
+ORIGIN      
+        1 tcactcgccg cagaccgcac ttccatcgat ctctctcctc gccacgggcc acggccttct
+       61 cctaacggga gccatggaag cagacgcgag ccatacaccc accacctcct cctccgtctc
+      121 cgtctccttc tcctcctcgt cgctgtccac ttcctcctcc acctcctccc tcgtcgacaa
+      181 tggcgcgcaa gaccggccca agagctccaa gcccaaacac gccgccaaga agcgcaagag
+      241 agcggccgcg gaggaacctg ccaatgccgc ccacggcgca ggggaggata ccagcagctg
+      301 cagcaccgac gacaacgcgg cggcgagcgg caaggcgcag gcgggcggcg gcggcggcgg
+      361 cgtcgacagc agcagcacct gcaccgccgc ctcggcgccg aggagcggct tcaagcaccc
+      421 gtcgtaccgc ggcgtgcgcc gccggagctg ggggaagtgg gtgtcggaga tccgggagcc
+      481 ccgcaagaag tcgcgcatct ggctgggtac cttccccacc gcggagatgg cggcgcgcgc
+      541 ccacgacgtg gccgcgctcg ccatcaaggg ccggaacgcg cacctcaact tcccggacag
+      601 cgcccacgag ctgccccgcc cggagtccac ctccccggca gacatccagg ccgccgccgc
+      661 caaggctgcc gccgaggtgc ggtgcgagga ggagtcgtcg ccgtcgtcgt cgcccaccgc
+      721 cgagcaaccc gaggaggaag ccgcctgccc tgacacggtg cacgccgacg gcggccagga
+      781 caatgctctc ttcgacctac ccgaccttct tctcgaccta cgggacgggc tctggtggtc
+      841 gccggtgtgg ccggcggcac tggcggccga ggagtacgac ggcggcgacg ccgtcgtgct
+      901 caatgagcca ctcttgtggg ccgagtagcc
+//
+

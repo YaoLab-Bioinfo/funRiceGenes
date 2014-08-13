@@ -1,0 +1,76 @@
+LOCUS       AB255025                1515 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group NYC1 mRNA for short-chain
+            dehydrogenase/reductase NYC1, complete cds.
+ACCESSION   AB255025
+VERSION     AB255025.1  GI:134254412
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kusaba,M., Ito,H., Morita,R., Iida,S., Sato,Y., Fujimoto,M.,
+            Kawasaki,S., Tanaka,R., Hirochika,H., Nishimura,M. and Tanaka,A.
+  TITLE     Rice NON-YELLOW COLORING1 is involved in light-harvesting complex
+            II and grana degradation during leaf senescence
+  JOURNAL   Plant Cell 19 (4), 1362-1375 (2007)
+   PUBMED   17416733
+REFERENCE   2  (bases 1 to 1515)
+  AUTHORS   Kusaba,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2006) Contact:Makoto Kusaba University of Tokyo,
+            Graduate School of Agricultural and Life Sciences; Yayoi 1-1-1,
+            Bunkyo-ku, Tokyo 113-8657, Japan
+FEATURES             Location/Qualifiers
+     source          1..1515
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+     gene            1..1515
+                     /gene="NYC1"
+     CDS             1..1515
+                     /gene="NYC1"
+                     /codon_start=1
+                     /product="short-chain dehydrogenase/reductase NYC1"
+                     /protein_id="BAF49740.1"
+                     /db_xref="GI:134254413"
+                     /translation="MAAAAVVHLSVHGRLRRSPELHARPYHRPSLLRCRAFKQEADNG
+                     GEEASSSPPPPTTAEARRRRKGPLYKLKAAIQGLAGSRSAAAEAYGGEYQRAVEKAEE
+                     IFFSVATQVGRYVITMMSSGVVLGVGFQLSGGDSQMNTLIWYSWLGGVIIGTMIGANS
+                     VLEEHCKAGPRNVVITGSTRGLGKALAREFLLSGDRVVIASRSPESVLQTINELEENI
+                     QEGLSVAKKKQREILLHAKVVGTSCDVCKPEDVKKLVNFAKDELGSIDIWINNAGTNK
+                     GFRPLVNFSDEDISQIVSTNLVGSLLCTREAMNVMQHQQKGGHVFNMDGAGSGGSSTP
+                     LTAVYGSTKCGLRQFQASLLKESRRSKVGVHTASPGMVLTDLLLSGSSLRNKQMFNLI
+                     CELPETVARTLVPRMRVVKGSGKAINYLTPPRILLALVTAWVRRGRWFDEEGRAVYAA
+                     EADRIRNWAESRARFSFTDAMEMYTENTWVSVFSLSVVCAFIILSSSGGPLPGT"
+ORIGIN      
+        1 atggccgccg ccgcggtggt ccacctctcc gtgcacggcc gcctccgccg ctcgccggag
+       61 ctccacgccc ggccatacca ccgcccgtcg ctgctccggt gccgcgcgtt caagcaggag
+      121 gccgataacg gcggggagga ggcttcgtcg tcgccgccgc cgccgacgac ggccgaggcg
+      181 cggaggcgca ggaagggccc gctgtacaag ctgaaggcgg cgattcaggg gctcgccggg
+      241 tcgcggtcgg cggccgcgga ggcgtacggg ggcgagtacc agcgcgccgt cgagaaggcc
+      301 gaggagatct tcttctcggt tgctacgcaa gtaggccgat atgttatcac tatgatgagc
+      361 agcggtgttg tacttggagt tggatttcag ttatcaggcg gagacagcca aatgaataca
+      421 ctaatttggt atagttggct cgggggagta attattggca cgatgatagg tgcaaacagt
+      481 gtcctagagg aacactgcaa agctggacct cgcaatgttg tcataactgg aagcacaaga
+      541 ggattaggga aagcacttgc tcgggagttc cttctttctg gagatcgtgt tgtaattgct
+      601 tcacgcagcc ctgaatcagt ccttcagacc atcaacgagc ttgaagagaa catacaggag
+      661 ggcttgtcag ttgcgaaaaa gaaacagaga gaaattttgc tacatgccaa ggttgttggt
+      721 acatcatgtg atgtttgtaa accagaagat gtgaaaaagt tggtgaactt tgccaaggat
+      781 gagcttggat caattgatat ttggataaat aacgctggca caaacaaagg ttttaggcca
+      841 ctggtaaact tttcagatga agatatttct cagattgtct caacaaacct agttggctct
+      901 ttactgtgca ccagagaagc catgaatgtc atgcaacacc aacaaaaggg aggtcacgta
+      961 tttaacatgg atggagcagg ttctggagga tcaagtacac cattaacagc tgtttatggt
+     1021 tcaactaagt gtggccttag acagtttcaa gcatcacttc tgaaggaaag cagaagatca
+     1081 aaagttggtg tacacactgc ttctcctgga atggtcctta cggacctcct tttgagcggt
+     1141 tcttctctga gaaataaaca gatgttcaat ttaatatgtg agcttccaga aacagttgca
+     1201 aggacattgg ttccgaggat gcgagttgtg aaaggaagtg gaaaggcgat aaactacttg
+     1261 acaccaccaa ggatcttgct tgccttggtt actgcatggg ttcgccgagg ccgatggttt
+     1321 gatgaagagg gaagagcagt atatgcagca gaggctgata gaatccgtaa ttgggctgaa
+     1381 agtcgagcac gcttctcttt cacagatgcc atggagatgt acacagaaaa cacatgggtt
+     1441 tctgtgttct cgctctctgt cgtctgcgca ttcataattc tttccagctc aggtggacct
+     1501 cttccaggca catga
+//
+

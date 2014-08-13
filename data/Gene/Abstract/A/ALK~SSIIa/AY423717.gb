@@ -1,0 +1,138 @@
+LOCUS       AY423717                4422 bp    DNA     linear   PLN 18-DEC-2003
+DEFINITION  Oryza sativa (indica cultivar-group) soluble starch synthase II
+            (ALK) gene, complete cds.
+ACCESSION   AY423717
+VERSION     AY423717.1  GI:37694737
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 4422)
+  AUTHORS   Gao,Z., Zeng,D., Cui,X., Zhou,Y., Yan,M., Huang,D., Li,J. and
+            Qian,Q.
+  TITLE     Map-based cloning of the ALK gene, which controls the
+            gelatinization temperature of rice
+  JOURNAL   Sci. China, C, Life Sci. 46 (6), 661-668 (2003)
+   PUBMED   18758723
+REFERENCE   2  (bases 1 to 4422)
+  AUTHORS   Gao,Z., Zeng,D., Zhou,Y. and Qian,Q.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-SEP-2003) State Key Laboratory for Rice Biology,
+            China National Rice Research Institute, Tiyuchang Road, Hangzhou,
+            Zhejiang 310006, China
+FEATURES             Location/Qualifiers
+     source          1..4422
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Shuangke Zao"
+                     /db_xref="taxon:39946"
+                     /chromosome="6"
+                     /map="between RM50 and RM527"
+     gene            <1..>4422
+                     /gene="ALK"
+     mRNA            join(<1..330,460..1111,1232..1296,1987..2064,2147..2257,
+                     2363..2407,2824..2997,3466..>4422)
+                     /gene="ALK"
+                     /product="soluble starch synthase II"
+     CDS             join(1..330,460..1111,1232..1296,1987..2064,2147..2257,
+                     2363..2407,2824..2997,3466..4422)
+                     /gene="ALK"
+                     /note="glycosyl-transferase"
+                     /codon_start=1
+                     /product="soluble starch synthase II"
+                     /protein_id="AAQ99280.1"
+                     /db_xref="GI:37694738"
+                     /translation="MSSAVVASSTTFLVALASSASRGGPRRGRVVGVAAPPALLYDGR
+                     AGRLALRAPPPPRPRPRRRDAGVVRRADDGENEAAVERAGEDDEEEEEFSSGAWQPPR
+                     SRRGGVGKVLKRRGTVPPVGRYGSGGDAARVRGAAAPAPAPTQDAASSKNGALLSGRD
+                     DDTPASRNGSVVTGADKPAAATPPVTITKLPAPDSPVILPSVDKPQPEFVIPDATAPA
+                     PPPPGSNPRSSAPLPKPDNSEFAEDKSAKVVESAPKPKATRSSPIPAVEEETWDFKKY
+                     FDLNEPDAAEDGDDDDDWADSDASDSEIDQDDDSGPLAGENVMNVIVVAAECGLGDVA
+                     GALPKALARRGHRVMVVVPRYGDYAEAQDVGIRKYYKAAGQDLEVKYFHAFIDGVDFV
+                     FIDAPLFRHRQDDIYGGNRQEIMKRMILFCKAAVEVPWHVPCGGVPYGDGNLVFLAND
+                     WHTALLPVYLKAYYRDNGMMQYTRSVLVIHNIAYQGRGPVDEFPYMELPEHYLDHFKL
+                     YDPVGGEHANIFGAGLKMADRVVTVSPGYLWELKTTEGGWGLHDIIRENDWKMNGIVN
+                     GIDYREWNPEVDVHLQSDGYANYTVASLDSGKPRCKAALQRELGLEVRDDVPLIGFIG
+                     RLDGQKGVDIIGDAMPWIAGQDVQLVLLGSGRRDLEVMLQRFEAQHNSKVRGWVGFSV
+                     KMAHRITAGADVLVMPSRFEPCGLNQLYAMAYGTVPVVHAVGGLRDTVSAFDPFEDTG
+                     LGWTFDRAEPHKLIEALGHCLETYRKYKESWRGLQVRGMSQDLSWDHAAELYEEVLVK
+                     AKYQW"
+ORIGIN      
+        1 atgtcgtcgg ccgtcgtcgc gtcatccacc acgttcctcg tcgcgctcgc ctcttcggcg
+       61 tcacggggag ggcccaggag ggggagggtg gtgggcgtgg ccgcgccgcc ggccctgctt
+      121 tacgacggcc gcgccggaag gctagcccta cgggcgccgc ctccgccccg gcctcggcct
+      181 cggcgtcggg atgcgggcgt ggtgcgccgc gcggatgatg gggagaacga ggcggcggtg
+      241 gagcgggcgg gtgaggacga cgaggaggag gaggagttct cttcgggcgc gtggcagccg
+      301 ccccgctcgc gtcgcggcgg cgtcggcaag gtgggttggt ggtgtcgatc ggggcgccga
+      361 gatcgtcgtg ctcgagaggt gttctctgct ttgattcgct ttgatgtttt cgtttgaaac
+      421 cgacgcgtgt gcttgcgcgt gcgcgcgctg tgtttgtagg tcttgaagcg gaggggcacc
+      481 gtcccgcccg tcggccggta cggctccggc ggtgacgcgg cgagagtgcg cggggcggcc
+      541 gcgccggcgc cggcgccgac acaggacgcc gcctcaagta agaacggagc gcttctcagc
+      601 ggccgcgacg acgacacacc tgcctcacgg aacggatcgg tcgttaccgg cgccgacaag
+      661 cctgccgccg ccacgccgcc ggtgaccata acgaagctcc cagcgccgga ctcccccgtg
+      721 atccttccat ccgtagacaa gccgcagccg gagttcgtca tcccagacgc gacggcgccg
+      781 gcgccgccac cgcccggttc aaatcccagg tcgtccgctc ctctccccaa gcctgacaat
+      841 tcggaatttg cagaggataa gagcgcaaaa gttgttgaga gtgctccgaa gccaaaggcg
+      901 actagatctt cccctattcc tgcggtagaa gaggagacgt gggatttcaa gaaatatttt
+      961 gatctgaacg aaccggacgc cgcggaggat ggcgatgacg atgatgactg ggctgattca
+     1021 gatgcgtcag attctgagat cgaccaggat gacgattcgg gccctttggc tggggagaat
+     1081 gtcatgaacg tgatcgtggt ggctgctgaa tgttctccct ggtgcaaaac aggcatgtac
+     1141 acgatatata cttctttttt ctcttttttg ttcttctgat cttgtaaatt tgcttcagtt
+     1201 actgatatga acaagtgttg catttgcaca ggtgggcttg gagatgttgc aggtgcttta
+     1261 cccaaagctt tggcgaggag aggacatcgt gttatggtat tactcctttt ttctctcctt
+     1321 catggttgga tgtttcttcc attcttacag atttgatcat ttaattaacg tatattttca
+     1381 gatatataaa tttggatcaa atgtaaagca gattagttct cttatgttct tttgtttaca
+     1441 taatcatgat ggcaaattaa aaaggctact ccagctgtta gattcaaaat acaaaagtaa
+     1501 tattgataaa tttgcaaatc tgtacttgaa agctaaattg cttactattg ttacagaaat
+     1561 gttcatttct aacatgctgt tgaaaatata tacactatgg cgtagccgct tagatcatca
+     1621 cgtggccatg gaaactagtg ccaaaagtag ttctcttagt tacactagtt acatacctgt
+     1681 acatgataac ggatcaggcc catacaatta gggatagatt aggagaccgt taacgaacta
+     1741 ggcccttata attagggagc gacggtagtt acttttcgca tatggacacg ctgcacgcgt
+     1801 tgggaggagg ggatggaagg aagacaactt cgcttttaag atagtagaga aatgtagcaa
+     1861 ttttttttta gcaattttag ttatggtaat aatataaacc acaacgtatt cagaaatcgg
+     1921 aaacggggac tctcggtgac ttcctgatat aaactgataa ctggcaaatg catctttcaa
+     1981 tcttaggttg tggtaccaag gtacggtgat tacgcggaag cccaggatgt aggaatcagg
+     2041 aaatactaca aggctgctgg acaggtgtgt gtcaacaatg caatccaaga agactggcat
+     2101 aggagacgca aattccttag taattggttt ttattttggc ctgcaggatc tggaagtgaa
+     2161 atatttccat gcatttatcg atggagttga ttttgtgttc attgacgctc ctctcttccg
+     2221 tcaccgtcag gatgacatct atggggggaa cagacaggtg aagcttctat ctgtttggta
+     2281 ttacattgca ttagtaaaac ttaagttgca tctcctaggc gtactgattt gaaaatgctt
+     2341 acccattccc attttcattc aggaaatcat gaagcgcatg attctgtttt gtaaggctgc
+     2401 tgttgaggta ttttctccaa ctccattatc aatcattaat ttggttttag gaatgagatg
+     2461 tatttgtttg gtttgaggaa tggtcaaaag cacaaatcat tttttctgtt gataaataga
+     2521 agaagtgtat taacttttgg actgaagcac acaataagta ggagaaatga ggtcgcagta
+     2581 gatgatttga atttgatccc tcaaacaaac agcccgtaaa tgtttctgca agatttcaca
+     2641 gagattcata ttctttttta ttttaaatat attacacatt atcgccaaat acacggatga
+     2701 actccttcga tacctctagc agcatttcaa cctgctacag ttcgtaatat gcaatgctct
+     2761 tgccaatgtt gtcatatgtt tccctacaaa gggctatatt ttctgtttct gtacaatcgg
+     2821 caggttcctt ggcacgttcc atgcggtggt gtgccctatg gggatggcaa cttggtgttc
+     2881 cttgcaaacg attggcacac tgcactcctg cctgtttatc tgaaggcata ttacagagac
+     2941 aatggcatga tgcagtacac tcgctctgtc cttgtgatac ataatatcgc ttaccaggtt
+     3001 ttgtttttct ctcctcccta atgaatcatc tttattctat ttgtatgcat ctcctgctgt
+     3061 ttgttagaga aattagttga gtgcacaaat tgtgggtcat ggtaattatt gagcagggac
+     3121 acgataaact cttcttcagt ctattactac ttttagttca gcactttctt cgtttcatat
+     3181 tataatttat aagtcgtttt ttttccaatc aaacatcttt acgtttgatt aaatttatag
+     3241 aaaaatttaa cagcatctat aacatcaaat tagtttaatt aaatataatg tttaatgtaa
+     3301 tttgattata tgtttgtttt gtattggaaa tgttattata tttttctata aactaattaa
+     3361 atttaaaact gtttaactta aaaaaatatc aaaacaattt acaatatgaa acgtgccggg
+     3421 gagtactttt tttgtgatgc taaatggttc gtgtaatgtt tgtagggccg tggcccagta
+     3481 gatgaattcc cctacatgga attgccggag cactacctgg atcacttcaa gctgtacgac
+     3541 cccgtcggcg gcgagcacgc caacatcttc ggcgcgggcc tgaagatggc ggaccgggtg
+     3601 gtgaccgtga gccccggcta cctctgggag ctgaagacga cggagggcgg ctggggcctc
+     3661 cacgacatca tacgggagaa cgactggaag atgaacggca tcgtgaacgg catcgactac
+     3721 cgggagtgga acccggaggt ggacgtgcac ctgcagtccg acggctacgc caactacacc
+     3781 gtggcctcgc tggactccgg caagccgcgg tgcaaggcgg cgctgcagcg cgagctgggg
+     3841 ctggaggtgc gcgacgacgt gccgctgatc gggttcatcg ggcggctcga cgggcagaaa
+     3901 ggggtggaca tcatcggcga cgcgatgccg tggatcgccg ggcaggacgt gcagctggtg
+     3961 ctgctgggct ccggccgccg cgacctggag gtgatgctgc agcggttcga ggcgcagcac
+     4021 aacagcaagg tgcgcgggtg ggtggggttc tcggtgaaga tggcgcaccg gatcacggcg
+     4081 ggcgccgacg tgctggtcat gccgtcgcgg ttcgagccgt gcggcctcaa ccagctctac
+     4141 gccatggcgt acggcaccgt ccccgtcgtg cacgccgtcg gcgggctgag ggacaccgtg
+     4201 tcggcgttcg acccgttcga ggacaccggc ctcgggtgga cgttcgaccg cgccgagccg
+     4261 cacaagctca tcgaggcgct cggccactgc ctcgagacgt accgcaagta caaggagagc
+     4321 tggagggggc tccaggtgcg cggcatgtcg caggacctca gctgggacca cgccgccgag
+     4381 ctctacgagg aggtccttgt caaggccaag taccaatggt ga
+//
+

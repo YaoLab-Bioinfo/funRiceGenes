@@ -1,0 +1,91 @@
+LOCUS       AB601973                2103 bp    mRNA    linear   PLN 23-AUG-2012
+DEFINITION  Oryza sativa Japonica Group OsMCA1 mRNA for mid1-complementing
+            activity 1, complete cds.
+ACCESSION   AB601973
+VERSION     AB601973.1  GI:313150905
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Kurusu,T., Nishikawa,D., Yamazaki,Y., Gotoh,M., Nakano,M.,
+            Hamada,H., Yamanaka,T., Iida,K., Nakagawa,Y., Saji,H.,
+            Shinozaki,K., Iida,H. and Kuchitsu,K.
+  TITLE     Plasma membrane protein OsMCA1 is involved in regulation of
+            hypo-osmotic shock-induced Ca2+ influx and modulates generation of
+            reactive oxygen species in cultured rice cells
+  JOURNAL   BMC Plant Biol. 12, 11 (2012)
+   PUBMED   22264357
+  REMARK    DOI:10.1186/1471-2229-12-11
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2103)
+  AUTHORS   Kurusu,T., Sakurai,Y. and Kuchitsu,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-NOV-2010) Contact:Kazuyuki Kuchitsu Tokyo University
+            of Science, Department of Applied Biological Science; 2641
+            Yamazaki, Noda, Chiba 278-8510, Japan
+FEATURES             Location/Qualifiers
+     source          1..2103
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="3"
+     gene            1..2103
+                     /gene="OsMCA1"
+     CDS             624..1880
+                     /gene="OsMCA1"
+                     /note="MCA1"
+                     /codon_start=1
+                     /product="mid1-complementing activity 1"
+                     /protein_id="BAJ40168.1"
+                     /db_xref="GI:313150906"
+                     /translation="MASWENLGDVATVVQLTGLDAVRLISMIVKAASTARLHKRNCRR
+                     FAQHLKLIGGLLEQLRVSELKKYPETREPLEQLEDALRRAYLLVHSCQDRSYLYLLAM
+                     GWNIVYQFRKAQNEIDNYLRLVPLITLVDNARVRERMEYIERDQCEYSFDDEDKEVQD
+                     ALLNPDPSTNPTVVLKKTLSCSYPNLPFNEALRKESEKLQVELQRSQSNMDMGQCEVI
+                     QHLLGVTKTVASSIPEKCATPKVSEKADSNHTKVSEDSAKTYHDDSPKKQKDACTAPR
+                     SSPPSSYGHDLVSSRGSYSDEWHADLLGCCSEPSLCLRTFFFPCGTFSKIASIAKNRP
+                     MSSSEACNDIMAYSLILSCCCYTCCVRRKLRQKLNIAGGCIDDFLSHLMCCCCALVQE
+                     WREVEIRGAYGERTKISPPSFQYMEH"
+ORIGIN      
+        1 gtccacccga cgctcagcaa ctggagcaag cacgggcaac gagtcgcagt aaaacagcag
+       61 tgcggactcg gagacagtac ggggaaaacg cacatcgagc ggtggagagt ggagtggagt
+      121 cgaatgcagc gcgagtgagt ccaaaacgac tcgtctcgta acaccgaagc gaccgagagc
+      181 gcctactgcc gcctactgcg cctgcgctgc cgccgcgcaa gcccaagcgc aacgcatccg
+      241 cctctgcctc atcctctcct ccacttgctg gtcgctgcca ttgcctgcgc ctccactcca
+      301 cttctcgcgg ctcgagaggc tgacggcggg gcgcctcgaa tttcgccctc tccgacgagc
+      361 ggaggcggag gagggagccc aggaagagga tgcgaaagca gtgaagagag gaggagaaga
+      421 ggggggaacg gaaatctcag ctgctgcgtc agtctcgcag atctgctccg ttgagctgct
+      481 gtttcacgga atcaccatgg gtggaaatca tcgccatggg tggtaggatt ggttgggtgt
+      541 cgccgatctt ctcgcttcac gccaactaat cgagtgaatt gtgggaagaa gaagaagaag
+      601 aagaagccga gtagacgacg gcaatggcgt cgtgggagaa cctcggggat gtggcgaccg
+      661 tcgtgcagct gacggggctc gacgcggtgc ggctcatctc catgatcgtg aaggcggcgt
+      721 cgacggcgcg gctgcacaag cgcaactgcc gccggttcgc gcagcatctg aagctcatcg
+      781 gcggcctgct ggagcagctg cgggtgtcgg agctcaagaa gtacccggag acgcgggagc
+      841 cgctggagca gctcgaggac gcgctccgcc gcgcctacct gctcgtccac tcctgccagg
+      901 accgctccta cctctacctc ctcgccatgg gctggaacat cgtgtaccag ttccgcaagg
+      961 cgcagaacga gatcgacaac tacctccgcc tcgtcccgct catcaccctc gtcgacaacg
+     1021 cccgcgtcag ggagcggatg gaatacattg aaagggatca atgtgaatat tcttttgatg
+     1081 atgaagacaa ggaggttcaa gatgctctgt taaaccctga tccaagtaca aatcctacgg
+     1141 tagtgctcaa gaagactctg tcatgctctt atccaaactt gccatttaac gaagcgcttc
+     1201 gaaaggaaag tgagaagctc caagtagaac ttcaaagatc acaaagcaac atggatatgg
+     1261 gccaatgtga ggttattcaa cacctcctag gagtgactaa aactgtggca agttcgattc
+     1321 cagagaaatg tgccactcct aaggtttctg aaaaagctga ctctaatcac acaaaagtca
+     1381 gtgaagatag tgcaaaaaca tatcatgatg actctccaaa gaagcaaaag gatgcctgca
+     1441 ctgcaccacg aagttctccg ccatcttctt atggccatga tctggtctca agcagaggat
+     1501 catacagcga cgagtggcat gcagatttgc ttggttgctg ttcagagcca tctttgtgtt
+     1561 tgagaacatt ctttttcccc tgtggaacat tctcaaagat tgcttcaatt gcgaagaaca
+     1621 ggcccatgtc atcgtcggaa gcatgcaatg atattatggc atattccctg atattatcct
+     1681 gctgttgtta cacttgctgt gtgaggagaa agcttcgtca aaagctaaat attgcgggag
+     1741 gttgcattga tgatttccta tcacatttga tgtgttgttg ctgtgcgctt gttcaagaat
+     1801 ggcgggaagt tgagattcgt ggagcttatg gagagaggac taagattagc ccaccctcat
+     1861 ttcagtacat ggaacactaa gcagcgatgc aaggcttgag cttctgtgaa gataatgacc
+     1921 taaaggctag agcaacccgg tatcgtacta caatagtaat gatgacacag ctacaacatt
+     1981 gttgtattta tgcttaccct gcattgtttg tgttggtact ctgtttatag taacatcagt
+     2041 tggtgttggg cacagtatgt tgtatgtagt actttgtaag aaaaaacaca agttacatgc
+     2101 cct
+//
+

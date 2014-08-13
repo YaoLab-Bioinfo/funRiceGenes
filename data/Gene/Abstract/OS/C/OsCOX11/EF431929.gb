@@ -1,0 +1,51 @@
+LOCUS       EF431929                 780 bp    mRNA    linear   PLN 01-AUG-2008
+DEFINITION  Oryza sativa (japonica cultivar-group) avirulence
+            protein-interacting protein mRNA, complete cds.
+ACCESSION   EF431929
+VERSION     EF431929.1  GI:149211384
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 780)
+  AUTHORS   Seyran,E.
+  TITLE     Who will guard the guards?
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 780)
+  AUTHORS   Seyran,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2007) Plant Pathology, University of Arkansas,
+            217 Plant Science Bldg PLPA, Fayetteville, AR 72701, USA
+FEATURES             Location/Qualifiers
+     source          1..780
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:39947"
+     CDS             1..780
+                     /codon_start=1
+                     /product="avirulence protein-interacting protein"
+                     /protein_id="ABR21990.1"
+                     /db_xref="GI:149211385"
+                     /translation="MPPPPPPSLARLHQRLSLSLLRGRSPPAAADAFLRRGLASSASS
+                     SSSAAAAAAVAAAAAGREKSSRRTLAYLLGVAAAMVGASYAAVPLYRRFCQATGYGGT
+                     VQRRESVEEKISRHARDGTTTSREIIVQFNADVADGMPWKFIPTQREVKVKPGESALA
+                     FYTAENRSSAPITGVSTYNVAPMKAAIYFNKIQCFCFEEQTLLPGEQIDMPVFFYIDP
+                     EFETDPKMEGVNNIVLSYTFFKVNDSLLYRYPKESGNISFI"
+ORIGIN      
+        1 atgccgccgc cgccgccgcc ttcgttggcc aggctccacc aacgcctctc cctctcgctc
+       61 ctccggggac gctccccccc cgcggcggcc gacgccttcc tccgccgcgg gctcgcctcg
+      121 tccgcctcct cctcctcttc cgccgccgcc gccgcggcgg tggcggcggc ggcggcaggc
+      181 cgggagaaga gctcgaggag gacgctagcg tacctgctag gcgtggccgc ggcgatggtc
+      241 ggcgcctcct acgccgccgt cccgctctac cgccgcttct gccaggccac cggctatggc
+      301 ggcaccgtcc agcgccgcga gagtgtggag gagaagatct cacgacatgc tcgagacgga
+      361 acaacaactt caagagagat aattgtccaa tttaatgctg acgttgctga tggaatgccg
+      421 tggaaattca ttccaacaca gagagaagtg aaggttaaac ctggtgaaag tgctcttgca
+      481 ttttatactg ctgaaaatcg tagttcagct ccaataactg gtgtatccac atataacgta
+      541 gctcctatga aggctgcaat atatttcaat aagatacaat gtttttgctt tgaggagcaa
+      601 acacttcttc caggggagca gattgacatg ccggtgttct tctacatcga tcctgagttt
+      661 gagacagacc ccaaaatgga aggggtgaac aatattgtcc tttcttacac attctttaag
+      721 gtgaacgaca gtttattgta tcggtacccg aaagaaagtg gtaacattag ttttatttaa
+//
+

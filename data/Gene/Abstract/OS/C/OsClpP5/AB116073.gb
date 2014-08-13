@@ -1,0 +1,65 @@
+LOCUS       AB116073                1188 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group mRNA for ATP-dependent protease,
+            complete cds.
+ACCESSION   AB116073
+VERSION     AB116073.1  GI:63003512
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Tsugane,K., Maekawa,M., Takagi,K., Takahara,H., Qian,Q., Eun,C.H.
+            and Iida,S.
+  TITLE     An active DNA transposon nDart causing leaf variegation and mutable
+            dwarfism and its related elements in rice
+  JOURNAL   Plant J. 45 (1), 46-57 (2006)
+   PUBMED   16367953
+REFERENCE   2  (bases 1 to 1188)
+  AUTHORS   Tsugane,K., Maekawa,M. and Iida,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUL-2003) Contact:Kazuo Tsugane NATIONAL INSTITUTE
+            FOR BASIC BIOLOGY, Division of gene expression and regulation I;
+            Nishigonaka 38, Myodaiji, Okazaki, Aichi 444-8585, Japan
+FEATURES             Location/Qualifiers
+     source          1..1188
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /clone="OsClpP5"
+     CDS             95..943
+                     /codon_start=1
+                     /product="ATP-dependent protease"
+                     /protein_id="BAD98161.1"
+                     /db_xref="GI:63003513"
+                     /translation="MATTTTTPSSSLTAPLLRPSSNANPAPRSLPLLRSRRCARAVAT
+                     AAAAAGHGAAHQRSGIWSIRDDLVVPRSPYFPVEYASGQERGPSPMVMERFQSVVSQL
+                     FQHRIIRCGGPVEDDMANIIVAQLLYLDAIDPNKDIIMYVNSPGGSVTAGMAIFDTMK
+                     HIRPDVSTVCIGLAASMGAFLLSAGTKGKRYSLPNSRIMIHQPLGGAQGQETDLEIQA
+                     NEMLHHKANLNGYLAYHTGQPLDKINVDTDRDYFMSAKEAKEYGLIDGVIMNPLKALQ
+                     PLPASS"
+ORIGIN      
+        1 acacactatt ctctcttctt cttaccaccc tctcccggat aagaggcgca accaaagccc
+       61 ccaccctcgc ccaaaacccc cacgagccgc ggccatggcg accaccacca ccaccccctc
+      121 ctcctctctc accgcccctc tcctccgccc gagctcgaac gcgaaccccg ccccgagatc
+      181 tctgccgctc ctcaggagcc ggaggtgcgc tcgggccgtg gcgaccgccg ccgccgccgc
+      241 tggccacggg gccgctcatc agaggagcgg gatttggtcg atcagggatg atttggtggt
+      301 gccgaggtcg ccctacttcc ctgtggagta tgcgtcgggg caggaacgcg ggccatcgcc
+      361 catggtgatg gagcggttcc agagcgtcgt cagccagctc ttccagcaca ggattatccg
+      421 gtgtggtgga cccgtggagg atgatatggc gaacatcatc gttgcccagc tgctatatct
+      481 cgatgccatc gatcctaaca aggatatcat tatgtatgtg aattctcctg gaggatcagt
+      541 gacagctggg atggccatat tcgacacgat gaagcatatc agacctgatg tttccacagt
+      601 ttgtattgga cttgctgcaa gtatgggagc ttttctgctt agtgctggga caaaagggaa
+      661 gcgatacagc ttacctaact caagaataat gatccatcaa cctctcggag gagcccaagg
+      721 acaagagact gatcttgaga tccaggctaa tgagatgctg catcacaagg ctaacctgaa
+      781 tggataccta gcataccaca ctgggcagcc cctagataag atcaacgtag atactgaccg
+      841 tgattacttc atgagcgcga aggaggcaaa ggagtatggt ctaattgatg gagttatcat
+      901 gaatcccctt aaagcccttc aaccgcttcc tgcttctagt tagccatgga gtgctcaatc
+      961 tccacggagc attttttggt tatcttttag aactgttatt gcatccactg tttttattag
+     1021 cttggcaaga tagttttgcg attccacaag caaccacatc ctgaggcttc aaagtttgta
+     1081 caatacagat gtactactag gaggatatct tctgcgatga atattgcaac ttatttgatg
+     1141 tactattagg aggatatctt ctgcgatgaa tattgcaact tatttgat
+//
+

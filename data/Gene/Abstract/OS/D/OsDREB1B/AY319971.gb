@@ -1,0 +1,56 @@
+LOCUS       AY319971                 902 bp    DNA     linear   PLN 07-JUN-2010
+DEFINITION  Oryza sativa Dre-binding protein gene, complete cds.
+ACCESSION   AY319971
+VERSION     AY319971.1  GI:32480954
+KEYWORDS    .
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 902)
+  AUTHORS   Peng,R.H., Xiong,A.S., Liu,J.G., Xu,F., Bin,C., Zhu,H. and Yao,Q.H.
+  TITLE     Adenosine added on the primer 5' end improved TA cloning efficiency
+            of polymerase chain reaction products
+  JOURNAL   Anal. Biochem. 363 (1), 163-165 (2007)
+   PUBMED   17303063
+REFERENCE   2  (bases 1 to 902)
+  AUTHORS   Yao,Q., Peng,R. and Xiong,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2003) Biotech Research Center, Shanghai Academy
+            of Agricultural Sciences, Beidi Road 2901, Shanghai 201106, China
+FEATURES             Location/Qualifiers
+     source          1..902
+                     /organism="Oryza sativa"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:4530"
+     CDS             21..677
+                     /note="related to stress response"
+                     /codon_start=1
+                     /product="Dre-binding protein"
+                     /protein_id="AAP83888.1"
+                     /db_xref="GI:32480955"
+                     /translation="MEVEEAAYRTVWSEPPKRPAGRTKFRETRHPVYRGVRRRGGRPG
+                     AAGRWVCEVRVPGARGSRLWLGTFATAEAAARGHDAAALALRGRAACLNFADFAWRMP
+                     PVPASAALAGARGVRDPVAVAVEAFQRQSAAPSSPAETFANDGDEEEANKEVLPVAAA
+                     EVFDAGAFELDDGFRFGGMDAGSYYASLAQGLLVEPPAAGAWWEDGELADSDMPLWSY
+                     "
+ORIGIN      
+        1 cgtccgagag agagtcatcc atggaggtgg aggaggcggc gtacaggacg gtgtggtcgg
+       61 agccgccgaa gaggccggcg ggaaggacca agttcaggga gacgaggcac ccggtgtacc
+      121 gcggtgtgcg gcggcgtggg gggcggccgg gcgcggcggg gaggtgggtg tgcgaggtgc
+      181 gggtgcccgg agcgcgcggc tccaggctgt ggctcggcac gttcgccacc gccgaggcgg
+      241 cggcgcgcgg tcacgacgcc gccgcgctgg cgctccgcgg cagggccgcc tgcctcaact
+      301 tcgccgactt cgcgtggcgg atgccgccgg tccccgcgtc cgccgcgctc gccggcgcga
+      361 ggggcgtcag ggaccccgtc gccgtggccg tcgaggcgtt ccagcgccag tcggccgcgc
+      421 cgtcgtctcc ggcggagacg ttcgccaacg atggcgacga agaagaagcc aacaaggaag
+      481 tgttgccggt ggcggcggcg gaggtgttcg atgcgggggc gttcgagctc gacgacgggt
+      541 tcaggttcgg cggtatggac gccgggtcgt actacgcgag cttggcgcag gggctgctcg
+      601 tcgagccgcc ggccgccgga gcgtggtggg aggacggcga gctcgccgac tccgacatgc
+      661 cgctctggag ctactaatca aaatctcgca ctgaaaagtg tggacacctt ttgattctcc
+      721 agaaattggg ggaaaaaaga gaacagagta ttggtgaatt tagaacagag taggcaatga
+      781 gactgaggat gaatggcaat ttttgtaatt ttggaatgtg ccagatttct ccctcctttt
+      841 gtgattccat ctgattttga atgtgcagtc aatgaattcc tgtaaattta cttctcctct
+      901 cc
+//
+

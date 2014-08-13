@@ -1,0 +1,71 @@
+LOCUS       AB274017                1370 bp    mRNA    linear   PLN 15-FEB-2008
+DEFINITION  Oryza sativa Japonica Group OsYABBY5 mRNA for OsYABBY5 protein,
+            complete cds.
+ACCESSION   AB274017
+VERSION     AB274017.1  GI:124271035
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Toriba,T., Harada,K., Takamura,A., Nakamura,H., Ichikawa,H.,
+            Suzaki,T. and Hirano,H.Y.
+  TITLE     Molecular characterization the YABBY gene family in Oryza sativa
+            and expression analysis of OsYABBY1
+  JOURNAL   Mol. Genet. Genomics 277 (5), 457-468 (2007)
+   PUBMED   17216490
+REFERENCE   2  (bases 1 to 1370)
+  AUTHORS   Hirano,H., Toriba,T., Harada,K., Takamura,A., Nakamura,H.,
+            Ichikawa,H. and Suzaki,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-SEP-2006) Contact:Hiroyuki Hirano University of
+            Tokyo, Graduate School of Science; 7-3-1, Hongo, Tokyo 113-00331,
+            Japan
+FEATURES             Location/Qualifiers
+     source          1..1370
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="4"
+     gene            1..1370
+                     /gene="OsYABBY5"
+     CDS             142..942
+                     /gene="OsYABBY5"
+                     /codon_start=1
+                     /product="OsYABBY5 protein"
+                     /protein_id="BAF45806.1"
+                     /db_xref="GI:124271036"
+                     /translation="MMSSAPETFSLDHLSQHQQQQPPPLAEQEQLCYVHCNFCDTILA
+                     VGVPCSSLFKTVTVRCGHCANLLSVNLRGLLLPAAASTANQLPFGQALLSPTSPHGLL
+                     DEVPSFQAPASLMTEQASPNVSSITSSNSSCANNAPATSMASAANKATQREPQQPKNA
+                     PSANRTSEKRQRVPSAYNRFIKDEIQRIKASNPDITHREAFSAAAKNWAHFPHIHFGL
+                     MPDQGLKKTGIQSQDGAGECMLFKDGLYAAAAAAAAATAASSMGVTPF"
+ORIGIN      
+        1 gtcgacagct tcatctccac tagtctcatc cctccttctc cctctcctcg ttgaacaccg
+       61 cactatcaaa tcacccagct gaaagccaag accgcgcgcg ccggccggcc gggcagggat
+      121 cacctagcta ggatacgcgc catgatgtcg tcggcgccgg agacgttctc gctggaccac
+      181 ctctcgcagc atcagcagca gcagccgccg ccgctcgccg agcaggagca gctctgctac
+      241 gtgcactgca acttctgcga caccatcctc gcggtgggcg tgccgtgtag cagcctgttc
+      301 aagacggtca ccgtgcggtg cggccactgc gccaacctgc tctccgtcaa cctccgcggc
+      361 ctcctgctcc cggccgccgc ctccaccgcc aaccagctcc ccttcggcca ggctctcctc
+      421 tcccccacct caccgcacgg cctccttgat gaggtgccgt cattccaagc gccggcgagc
+      481 ctaatgaccg aacaggcgag tcccaacgtg agcagcatca cgagcagcaa cagcagctgt
+      541 gctaacaacg cgccggcgac gtcgatggcg tcggcggcca acaaggctac ccagcgagag
+      601 ccgcagcagc cgaagaacgc gccgtcagcc aacaggactt cagagaagcg gcagagggtt
+      661 ccctcggcat acaaccgatt catcaaagat gagatacaac gcatcaaggc aagcaatccg
+      721 gacatcaccc acagggaggc tttcagcgct gctgccaaga actgggccca tttcccacac
+      781 atccattttg gcctgatgcc ggaccagggc ctgaagaaga ccggcataca aagccaggac
+      841 ggagctgggg aatgcatgct cttcaaggac ggtctctacg ctgcagccgc cgccgctgca
+      901 gcagccacag cagcatctag catgggtgtc actccattct aacgcctcag atcaatgcac
+      961 gatctggctt aaaaaaaact ttgtgtccca ccctgtagtt agggtcctgc atgtctcgat
+     1021 ctccagatat gatctccggt tgcttgttaa ctgaaatgtt cctctatata tggacgatca
+     1081 tggcaccata tgcatggcat cttggcatgc atcgatcgta tctaagtcct tatctatgtg
+     1141 taattctagt tttctcagtt tcttcatgta ttttcccctt aatttttcct attcctattc
+     1201 gcctgtacag aggctgctag ctgtgcgtgc tgcctcttat atatcttatg gacataacta
+     1261 gatcgatttg gtttaattac caggtgatca tttgaaatca aatcgtctga ttcttttagg
+     1321 ggtggggagt tgaaaccctt ttcaaaaaaa aaaaaaaaaa aaaaaaaaaa
+//
+

@@ -1,0 +1,71 @@
+LOCUS       AB513135                1053 bp    DNA     linear   PLN 05-DEC-2013
+DEFINITION  Oryza sativa Japonica Group TGW6 gene for hypothetical protein,
+            complete cds.
+ACCESSION   AB513135
+VERSION     AB513135.1  GI:480305432
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Ishimaru,K., Hirotsu,N., Madoka,Y., Murakami,N., Hara,N.,
+            Onodera,H., Kashiwagi,T., Ujiie,K., Shimizu,B., Onishi,A.,
+            Miyagawa,H. and Katoh,E.
+  TITLE     Loss of function of the IAA-glucose hydrolase gene TGW6 enhances
+            rice grain weight and increases yield
+  JOURNAL   Nat. Genet. 45 (6), 707-711 (2013)
+   PUBMED   23583977
+  REMARK    DOI:10.1038/ng.2612
+REFERENCE   2  (bases 1 to 1053)
+  AUTHORS   Ishimaru,K. and Hirotsu,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUL-2009) Contact:Ken Ishimaru National Institute of
+            Agrobiological Sciences, Division of Plant Sciences; Kannondai
+            2-1-2, Tsukuba, Ibaraki 305-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..1053
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="genomic DNA"
+                     /cultivar="Nipponbare"
+                     /db_xref="taxon:39947"
+                     /chromosome="6"
+     gene            1..1053
+                     /gene="TGW6"
+     CDS             1..1053
+                     /gene="TGW6"
+                     /note="Os06g0623700 in the Rice Annotation Project
+                     Database (RAP-DB)"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="BAN15820.1"
+                     /db_xref="GI:480305433"
+                     /translation="MRSTARQAATAAAFALIVFLVLLSPSPTAAATATTRMFKTIDAR
+                     RSQHLDLGGSLVGPESVAFDGKGRGPYSGVSDGRIMRWNGEAAGWSTYTYSPSYTKNK
+                     CAASTLPTVQTESKCGRPLGLRFHYKTGNLYIADAYMGLMRVGPKGGEATVLAMKADG
+                     VPLRFTNGVDIDQVTGDVYFTDSSMNYQRSQHEQVTATKDSTGRLMKYDPRTNQVTVL
+                     QSNITYPNGVAMSADRTHLIVALTGPCKLMRHWIRGPKTGKSEPFVDLPGYPDNVRPD
+                     GKGGYWIALHREKYELPFGPDSHLVAMRVSAGGKLVQQMRGPKSLRPTEVMERKDGKI
+                     YMGNVELPYVGVVKSS"
+ORIGIN      
+        1 atgagaagca cggcgaggca agcggcgacc gcggcggcgt tcgcgctcat tgtcttcctc
+       61 gtgctgctct cgccgtcccc tactgccgcc gccacagcca caacgagaat gttcaagacc
+      121 attgacgccc ggcggagcca gcatctggac ctcggcggat cactggtcgg cccggagagc
+      181 gtcgcgttcg acggcaaagg ccgcggcccg tacagcggcg tctccgacgg ccgcatcatg
+      241 aggtggaacg gcgaggccgc tggctggagc acctacacgt acagccccag ctacacgaaa
+      301 aacaagtgcg cggcatcgac tctccccacg gtccagaccg agagcaaatg cggccgcccg
+      361 ttaggcctac ggtttcacta caaaaccggc aacctgtaca tcgccgacgc ctacatggga
+      421 ttgatgcgag ttggtccaaa aggcggggag gcaaccgtgc tagccatgaa ggctgatggc
+      481 gtgccacttc gcttcaccaa tggggtggac attgatcagg ttaccggaga tgtttatttc
+      541 accgacagca gcatgaacta ccaacgatct cagcacgagc aagtcacggc gaccaaggat
+      601 tcgaccggac ggctcatgaa gtatgaccca cgaactaacc aagtcaccgt tcttcaatcc
+      661 aacataacct acccgaacgg tgtcgccatg agcgctgacc gaacacatct gatcgttgca
+      721 ttgaccgggc catgtaagtt gatgaggcat tggatccgag gcccgaagac tggcaaatct
+      781 gaaccatttg ttgacctgcc aggctatcct gataatgtga ggcctgatgg aaaaggtggt
+      841 tattggatag cgcttcatcg cgagaagtat gagcttccct ttggtccgga tagtcacttg
+      901 gttgctatga gggttagtgc tggtgggaag ctggttcaac agatgagagg accaaagagc
+      961 ttgaggccaa ccgaagtgat ggagaggaag gatggcaaaa tatacatggg aaatgttgaa
+     1021 ttgccgtatg tcggagtcgt caaaagcagc tag
+//
+

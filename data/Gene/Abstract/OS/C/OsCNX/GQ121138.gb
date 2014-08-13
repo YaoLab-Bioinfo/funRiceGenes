@@ -1,0 +1,79 @@
+LOCUS       GQ121138                1614 bp    mRNA    linear   PLN 11-SEP-2013
+DEFINITION  Oryza sativa Indica Group cultivar Swarna calnexin (CNX) mRNA,
+            complete cds.
+ACCESSION   GQ121138
+VERSION     GQ121138.1  GI:239737036
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1614)
+  AUTHORS   Sarwat,M. and Naqvi,A.R.
+  TITLE     Heterologous expression of rice calnexin (OsCNX) confers drought
+            tolerance in Nicotiana tabacum
+  JOURNAL   Mol. Biol. Rep. 40 (9), 5451-5464 (2013)
+   PUBMED   23681551
+REFERENCE   2  (bases 1 to 1614)
+  AUTHORS   Sarwat,M. and Tuteja,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAY-2009) Plant Molecular Biology, International
+            Centre for Genetic Engineering and Biotechnology, Aruna Asaf Ali
+            Marg, New Delhi 110067, India
+FEATURES             Location/Qualifiers
+     source          1..1614
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Swarna"
+                     /db_xref="taxon:39946"
+     gene            1..1614
+                     /gene="CNX"
+                     /note="OsCNX"
+     CDS             1..1614
+                     /gene="CNX"
+                     /note="chaperone; ABA and cold-induced"
+                     /codon_start=1
+                     /product="calnexin"
+                     /protein_id="ACS13098.1"
+                     /db_xref="GI:239737037"
+                     /translation="MVGGRALLPLLLLSALLVQIRASDPLFYEPFDESFEGRWVLSGK
+                     DDYKGVWKHEKSDGHEDYGLLVSEKAKKYAIIKELDEPVTLKDGTVVLQFEVRLQNGL
+                     ECGGAYLKYIRPQDAAWDAKEFDNETPYTIMFGPDKCGSTNKVHFILKHKNPKTGKYV
+                     EHHLKFPPSVPYDKLSHVYTAILKPDNEVRILVDGEEKKKANFLSADDFEPSLIPSKT
+                     IPDPDDKKPEDWDERAKIPDPDAVKPDDWDEDAPMEIEDEEATKPEGWLDDEPEEIDD
+                     PEANKPEDWDDEEDGEWEAPKIDNPKCEEAPGCGEWKRPMKQNPAYKGKWHAPLIDNP
+                     NYKGIWKPQEIPNPEYFELDKPDSDPIAAIGIEIWTMQDGILFDNILIADDEKVATSI
+                     LEKSWKPKYEVEKEKEKAEEAAAAAGDGLSEFQKKIFDVLYKLADIPFLEPYKTKIID
+                     VIEKGEKQPNITIGILVSIVVVFVTVLFRILFGGKKPAAPVKPVAEVKKPKSTESEAA
+                     GSSGGKEDEKEEEEKDGAAAPRRRSRRET"
+ORIGIN      
+        1 atggtgggtg ggcgcgcgct cctgccgctg cttctgctct ccgcgctgct cgtccagatc
+       61 cgcgcctccg atccgctgtt ctatgagccg ttcgacgaga gcttcgaggg gaggtgggtt
+      121 ctctccggga aggacgacta caaaggtgta tggaagcacg aaaagagtga tggacatgaa
+      181 gactatggcc tgcttgttag tgagaaggcc aagaaatatg ccataatcaa ggagcttgat
+      241 gagcctgtta ctttgaagga tgggactgtt gtcctgcagt ttgaagtgag gcttcagaat
+      301 ggccttgagt gtggaggtgc atatcttaag tacattcgtc ctcaggatgc tgcatgggat
+      361 gccaaggagt ttgataatga gactccttac actattatgt ttggtcctga caaatgtgga
+      421 tcaactaaca aggtgcattt catccttaag cacaagaacc ccaagactgg caagtatgtt
+      481 gaacaccacc tcaagttccc accttctgtc ccatatgata agctctctca tgtctacacg
+      541 gctatcttga agcctgataa tgaggtgaga attttggttg atggggaaga gaagaagaag
+      601 gcaaacttcc tttctgctga tgattttgag ccatcactta tcccatccaa gaccattcct
+      661 gatcctgatg acaaaaagcc agaagactgg gatgagagag ctaaaatccc tgatccagat
+      721 gctgtgaagc ctgatgactg ggatgaggat gcccccatgg aaattgagga cgaagaggcc
+      781 acaaagccag aggggtggct ggatgatgag ccagaggaaa ttgatgatcc ggaggctaac
+      841 aagcctgaag actgggatga tgaggaggat ggagaatggg aagcaccaaa gattgacaac
+      901 cccaagtgtg aagaggctcc tggttgtggt gagtggaaga ggccgatgaa gcagaaccct
+      961 gcttacaagg gcaagtggca tgcgcctctt atcgacaacc ccaactacaa aggaatctgg
+     1021 aagccccaag agatccccaa ccctgagtac ttcgagcttg acaagcctga ctctgatccg
+     1081 attgccgcta ttgggattga gatctggacg atgcaagatg gcatcctgtt tgacaacatt
+     1141 ttgatcgctg atgatgagaa ggttgccact tctatcctgg agaagtcttg gaagcccaag
+     1201 tacgaagtag agaaggagaa ggagaaggct gaggaggcag cagcggcagc aggtgatggt
+     1261 ctttctgagt tccagaagaa gatctttgac gttctgtaca aactcgctga cattccattc
+     1321 ttggaaccct acaagactaa gatcattgat gtaattgaga agggagagaa gcagcccaac
+     1381 atcaccattg gaattctggt ctccatcgtt gtcgtctttg tgactgtgct cttcaggatc
+     1441 ctgttcggcg gcaagaagcc agcggctcct gtgaagcccg tagccgaggt caaaaaacca
+     1501 aagtctaccg agtccgaagc agctggaagc agcggtggca aggaggacga gaaggaagag
+     1561 gaagagaagg atggagctgc tgccccacgc cggaggtccc gaagggagac atga
+//
+

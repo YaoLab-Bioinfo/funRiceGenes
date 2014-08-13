@@ -1,0 +1,43 @@
+LOCUS       CN487723                 201 bp    mRNA    linear   EST 26-APR-2004
+DEFINITION  EST0003 Water-deficit induced fragments in three parts of rice
+            roots Oryza sativa cDNA clone T17, mRNA sequence.
+ACCESSION   CN487723
+VERSION     CN487723.1  GI:46573741
+DBLINK      BioSample: LIBEST_015619
+KEYWORDS    EST.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 201)
+  AUTHORS   Yang,L., Zheng,B., Mao,C., Yi,K., Liu,F., Wu,Y. and Wu,P.
+  TITLE     Analysis of differentially expressed transcripts in three parts of
+            rice roots under a water deficit
+  JOURNAL   Unpublished (2004)
+COMMENT     Contact: Wu P (2004)
+            State Lab of plant physiology and biochemistry
+            Institute of Plant Science
+            Kaixuan Road 268#, Hangzhou, Zhejiang, P.R.China
+            Tel: 86-571-86971130
+            Fax: 86-571-86971323
+            Email: yangl@mail.zjnu.net.cn
+            Seq primer: M13 Forward.
+FEATURES             Location/Qualifiers
+     source          1..201
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /clone="T17"
+                     /tissue_type="root"
+                     /dev_stage="Eight-day seedlings"
+                     /clone_lib="LIBEST_015619 Water-deficit induced fragments
+                     in three parts of rice roots"
+                     /note="Vector: PUCm-T"
+ORIGIN      
+        1 cgagatactc ctttctagct ggcagatggt catggggacg gttgtacggc gtccagacag
+       61 gctctcccac aaagagccgc atgccttgat gtagttgtca ctgtccaatg tgaagcggtg
+      121 atacattccc gcaggcaaaa caatcatgcc ccctttcttc actgctacac ggatccactg
+      181 atcatttggt ccatgacatt a
+//
+

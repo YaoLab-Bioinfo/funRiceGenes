@@ -1,0 +1,77 @@
+LOCUS       AJ278822                1331 bp    mRNA    linear   PLN 15-APR-2005
+DEFINITION  Oryza sativa mRNA for replication protein A2 (RPA2 gene).
+ACCESSION   AJ278822
+VERSION     AJ278822.1  GI:9801267
+KEYWORDS    replication protein A2; rpa2 gene.
+SOURCE      Oryza sativa (rice)
+  ORGANISM  Oryza sativa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1
+  AUTHORS   Lorbiecke,R., Fabian,T., Huss,S. and Sauter,M.
+  TITLE     Transcript levels of replication proteins A1 (RPA1) and A2 (RPA2)
+            are upregulated in an S phase-specific manner in rice
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1331)
+  AUTHORS   Sauter,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2000) Sauter M., Institut fur Allgemeine Botanik,
+            Universitaet Hamburg, Ohnhorststrasse 18, Hamburg, 22609, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1331
+                     /organism="Oryza sativa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4530"
+                     /country="Philippines"
+     gene            1..1331
+                     /gene="RPA2"
+     CDS             122..961
+                     /gene="RPA2"
+                     /function="putative subunit of a heterotrimeric RPA
+                     complex"
+                     /codon_start=1
+                     /product="replication protein A2"
+                     /protein_id="CAC03572.1"
+                     /db_xref="GI:9801268"
+                     /db_xref="GOA:Q9FY12"
+                     /db_xref="HSSP:1DPU"
+                     /db_xref="InterPro:IPR004365"
+                     /db_xref="InterPro:IPR011991"
+                     /db_xref="InterPro:IPR012340"
+                     /db_xref="InterPro:IPR014646"
+                     /db_xref="InterPro:IPR014892"
+                     /db_xref="InterPro:IPR016027"
+                     /db_xref="UniProtKB/TrEMBL:Q9FY12"
+                     /translation="MMSFSQPDAFSPSQFTSSQNAAADSTTPSKSRGASSTMPLTVKQ
+                     ISEAQQSGITGEKGAPFVVDGVETANVRLVGLVSGKTERNTDVSFTIDDGTGRLDFIR
+                     WVNDGADSAETAAVQNGMYVSVIGSLKGLQERKRATAFAIRPVTDYNEVTLHFIQCVR
+                     MHLENTKSQIGSPAKTYSAMGSSSSNGFSEMTTPTSVKSNPAPVLSVTNGSKTDLNTE
+                     VLNVFREPANVESEHGVHIDEIVKRFRLPEAKIKVAIDYLADIGHIYSTIDESHYKSA
+                     FNE"
+ORIGIN      
+        1 ctttttagtc aactcgatct aactccaaat cccatcaacc ccgccgccgc cgccgccgcc
+       61 gccaccaccg cgagacgcga gaggagactg aaagaaagat tcagagagag agagagtaag
+      121 catgatgtcc ttcagccagc ccgacgcctt ctcgccgtcg cagttcacct cctcccagaa
+      181 tgccgccgcc gactctacca ccccttccaa gagccggggc gcatcgagca ccatgccgct
+      241 caccgtgaag cagatctctg aagcgcagca atctggcatc accggggaga agggcgctcc
+      301 cttcgtcgtc gacggcgtcg agacagccaa cgttaggctt gtgggattgg tcagtggcaa
+      361 gacggagcgg aacaccgatg tgtccttcac gatcgacgat ggcaccggcc gcctcgattt
+      421 catcagatgg gtcaatgatg gtgctgattc tgctgaaacc gctgctgttc agaatggaat
+      481 gtatgtttct gtcattggta gcctcaaggg gcttcaggag aggaagcgtg ctactgcttt
+      541 cgctatcagg cctgtaactg attataatga ggtcacactg catttcattc agtgcgtgcg
+      601 aatgcattta gagaacacca aatcacagat tggtagccct gcaaaaacat attctgccat
+      661 gggatcctca tcttccaatg gcttcagtga aatgaccact ccgacctctg tgaaatccaa
+      721 cccggcacca gtgctcagtg taacaaatgg atcaaaaact gatttgaaca cagaggtgct
+      781 gaatgttttc cgcgaaccag caaacgtcga gagcgagcat ggtgtgcaca ttgatgaaat
+      841 cgtgaagcgc ttcaggctac cggaggccaa gatcaaggta gctattgatt acctcgctga
+      901 cattgggcac atatactcaa caatcgacga gtctcactac aagtcagcgt tcaatgaata
+      961 aaggggattg aagcctcagt tacttactag tatgtatcct ctagcctcga agctggctgc
+     1021 agctgaaact gaagaacaat cgagatgctt catgtttgct tgtcatacta accagtgtgc
+     1081 gtttgttttg ctccatccag tgaaattaca tgtaaccgta tctgtattac gagtagcaca
+     1141 tatcgagtga caaaacatat aatatatgta tgtttgttgt tttgcagcat cagcattatt
+     1201 tggactgtaa catgcttgat tgatctcttt ggatgcagtt aatttcattg tgatattaac
+     1261 tcacgcatca tcgatcgatc gtgtgttttt tggtagctag atggtccaat cacaataatc
+     1321 tgctcgtgcc g
+//
+

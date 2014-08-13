@@ -1,0 +1,72 @@
+LOCUS       EF447275                1278 bp    mRNA    linear   PLN 15-MAY-2007
+DEFINITION  Oryza sativa (indica cultivar-group) RING-type E3 ubiquitin ligase
+            (GW2) mRNA, complete cds.
+ACCESSION   EF447275
+VERSION     EF447275.1  GI:129563705
+KEYWORDS    .
+SOURCE      Oryza sativa Indica Group (long-grained rice)
+  ORGANISM  Oryza sativa Indica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1278)
+  AUTHORS   Song,X.J., Huang,W., Shi,M., Zhu,M.Z. and Lin,H.X.
+  TITLE     A QTL for rice grain width and weight encodes a previously unknown
+            RING-type E3 ubiquitin ligase
+  JOURNAL   Nat. Genet. 39 (5), 623-630 (2007)
+   PUBMED   17417637
+REFERENCE   2  (bases 1 to 1278)
+  AUTHORS   Lin,H.-X., Song,X.-J., Huang,W., Shi,M. and Zhu,M.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-FEB-2007) National Key Laboratory of Plant Molecular
+            Genetics, Shanghai Institute of Plant Physiology and Ecology,
+            Shanghai Institute for Biological Sciences, The Chinese Academy of
+            Sciences, 300 Fenglin Road, Shanghai 200032, China
+FEATURES             Location/Qualifiers
+     source          1..1278
+                     /organism="Oryza sativa Indica Group"
+                     /mol_type="mRNA"
+                     /cultivar="Fengaizhan-1"
+                     /db_xref="taxon:39946"
+                     /chromosome="2"
+     gene            1..1278
+                     /gene="GW2"
+     CDS             1..1278
+                     /gene="GW2"
+                     /codon_start=1
+                     /product="RING-type E3 ubiquitin ligase"
+                     /protein_id="ABO31101.1"
+                     /db_xref="GI:129563706"
+                     /translation="MGNRIGGRRKAGVEERYTRPQGLYEHRDIDQKKLRKLILEAKLA
+                     PCYMGADDAAAAADLEECPICFLYYPSLNRSKCCSKGICTECFLQMKPTHTAQPTQCP
+                     FCKTPSYAVEYRGVKTKEERSIEQFEEQKVIEAQMRMRQQALQDEEDKMKRKQNRCSS
+                     SRTITPTKEVEYRDICSTSFSVPSYRCAEQETECCSSEPSCSAQTSMRPFHSRHNRDD
+                     NIDMNIEDMMVMEAIWRSIQEQGSIGNPVCGNFMPVTEPSPRERQPFVPAASLEIPHG
+                     GGFSCAVAAMAEHQPPSMDFSYMAGSSAFPVFDMFRRPCNIAGGSMCNLESSPESWSG
+                     IAPSCSREVVREEGECSADHWSEGAEAGTSYAGSDIVADAGTMPQLPFAENFAMAPSH
+                     FRPESIEEQMMFSMALSLADGHGRTHSQGLAWL"
+ORIGIN      
+        1 atggggaaca ggataggggg gaggaggaag gcgggggtgg aggagaggta cacgaggccg
+       61 caggggctgt acgagcacag ggacatcgac cagaagaagc tccggaagct gattctcgag
+      121 gccaagctcg cgccgtgcta catgggcgcc gacgacgccg ccgccgccgc cgacctcgag
+      181 gagtgcccca tctgcttcct gtactaccca agtcttaacc gatcaaagtg ttgctcaaaa
+      241 gggatatgca ccgagtgctt tctccaaatg aaaccaactc acactgctca gcctacacaa
+      301 tgtccattct gcaaaactcc cagttatgct gtggagtatc gtggtgtaaa gacaaaggag
+      361 gaaaggagca tagaacaatt tgaagagcag aaagtcatag aagcacaaat gaggatgcgc
+      421 cagcaagcac ttcaagatga agaagataag atgaaaagaa aacagaacag gtgctcttct
+      481 agcagaacaa tcacaccgac caaagaagtg gagtatagag atatttgcag cacatccttt
+      541 tcagtgccgt cataccgatg tgctgagcaa gaaactgaat gctgttcatc ggaaccttca
+      601 tgctctgccc agactagcat gcgccctttc cattctaggc ataaccgtga tgataacatt
+      661 gacatgaata tagaggatat gatggttatg gaagcgattt ggcgttccat tcaggagcag
+      721 ggaagtatag ggaatcctgt ctgtggcaac tttatgcctg taactgagcc atctccgcgt
+      781 gaacgccagc cattcgttcc agctgcttct ctagaaatac ctcatggtgg tggattttcc
+      841 tgtgcggttg cggcaatggc tgagcaccag ccacccagta tggacttctc ttacatggct
+      901 ggcagcagcg cattcccagt tttcgacatg ttccggcgac catgcaacat tgctggtgga
+      961 agcatgtgta atctggagag ctcaccggag agctggagcg ggatagcacc aagctgcagc
+     1021 agggaagtgg taagagaaga aggagagtgc tcggctgacc actggtcgga gggtgcagag
+     1081 gccggaacaa gctacgcggg ctcagacatc gtggcggatg ccgggaccat gccgcagctg
+     1141 cctttcgccg agaacttcgc catggcgcca agccacttcc gcccggagag catcgaagaa
+     1201 cagatgatgt tttccatggc tctttcttta gcagatggtc atggaagaac acactcgcaa
+     1261 gggttggcat ggttgtag
+//
+

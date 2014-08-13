@@ -1,0 +1,70 @@
+LOCUS       AY466471                1497 bp    mRNA    linear   PLN 18-AUG-2006
+DEFINITION  Oryza sativa (japonica cultivar-group) bZIP transcription factor
+            RF2b (RF2b) mRNA, complete cds.
+ACCESSION   AY466471
+VERSION     AY466471.1  GI:39579225
+KEYWORDS    .
+SOURCE      Oryza sativa Japonica Group (Japanese rice)
+  ORGANISM  Oryza sativa Japonica Group
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BEP
+            clade; Ehrhartoideae; Oryzeae; Oryza.
+REFERENCE   1  (bases 1 to 1497)
+  AUTHORS   Dai,S., Zhang,Z., Chen,S. and Beachy,R.N.
+  TITLE     RF2b, a rice bZIP transcription activator, interacts with RF2a and
+            is involved in symptom development of rice tungro disease
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (2), 687-692 (2004)
+   PUBMED   14704272
+REFERENCE   2  (bases 1 to 1497)
+  AUTHORS   Dai,S., Zhang,Z. and Beachy,R.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-NOV-2003) Donald Danforth Plant Science Center, 975
+            N. Warson Road, St. Louis, MO 63146, USA
+FEATURES             Location/Qualifiers
+     source          1..1497
+                     /organism="Oryza sativa Japonica Group"
+                     /mol_type="mRNA"
+                     /cultivar="japonica"
+                     /db_xref="taxon:39947"
+     gene            1..1497
+                     /gene="RF2b"
+     CDS             175..1164
+                     /gene="RF2b"
+                     /codon_start=1
+                     /product="bZIP transcription factor RF2b"
+                     /protein_id="AAR28765.1"
+                     /db_xref="GI:39579226"
+                     /translation="MQEPKHTDPAAMRGAHHRRARSEVAFRLPDDLDLGGGGAGAFDE
+                     IGSEDDLFSTFMDIEKISSGPAAAGGSDRDRAAETSSPPRPKHRHSSSVDGSGFFAAA
+                     RKDAAASLAEVMEAKKAMTPEQLSDLAAIDPKRAKRILANRQSAARSKERKARYITEL
+                     ERKVQTLQTEATTLSAQLTLFQRDTTGLSAENAELKIRLQAMEQQAQLRDALNDALKQ
+                     ELERLKLATGEMTNSNETYSMGLQHVPYNTPFFPLAQHNAARQNGGTQLPPQFQPPRP
+                     NVPNHMLSHPNGLQDIMQQDPLGRLQGLDISKGPLVVKSESSSISASESSSTF"
+ORIGIN      
+        1 aacgccatcc cagcgcagcg caggcacgca cggcaccggc ggcggaggac gcggcaggag
+       61 cagcagccgc ctcctccaat ccccgagccg aacactcgct ggcgggcgcg cgcgcgcgca
+      121 gccggggaac cgggggggag acagggtggt ggtggtgagg cgggggcgag cgcaatgcag
+      181 gagccaaagc acaccgatcc ggcggccatg cgcggggcgc accaccgccg ggccagatct
+      241 gaggtcgcct tccgcctgcc cgacgacctc gacctcggcg gcggcggcgc gggggcgttc
+      301 gacgagatcg gctccgagga cgacctcttc tccaccttca tggacatcga gaagatctcc
+      361 tccggccccg ccgccgcggg gggctccgac cgggaccgcg ccgcggagac gtcctcgccg
+      421 ccgcgcccca agcaccgcca cagcagctcc gtcgacggct ccgggttctt cgccgccgcg
+      481 cggaaggacg ccgccgcatc gctggcggag gtcatggagg ctaagaaggc catgaccccc
+      541 gagcagctct ccgatctcgc cgccatcgac cccaagcgcg ccaaaagaat tctggcgaac
+      601 agacaatctg cagctcggtc aaaagagaga aaagctcgtt acataacaga acttgagcgg
+      661 aaggttcaaa ctcttcagac tgaagccact actctctcag cacaactcac actatttcag
+      721 agagacacaa ctgggctttc tgcagaaaat gcagagctca agatacggtt gcaggccatg
+      781 gaacaacagg ctcaactgcg agatgctctg aatgatgcac taaagcagga actggagagg
+      841 cttaagctcg ctactggtga gatgacaaat tccaatgaga catatagcat gggactgcaa
+      901 catgtcccat acaacacccc tttcttccct ctcgcccagc ataatgcagc ccgccagaac
+      961 ggtggaaccc agttgccacc acaattccaa ccaccccgtc ctaatgtgcc caatcacatg
+     1021 ctatcccatc caaacggttt gcaagatatc atgcagcaag accctcttgg ccggcttcag
+     1081 ggtttggaca tcagcaaagg gcctctagtt gtgaaatcag agagcagctc gatctctgca
+     1141 agtgaaagca gcagcacctt ctaaccaggc ctacccaccg agcccacagt tccattagat
+     1201 tcgtttgttc atagcctgac atcctcgcgc tgctccctgt tctgtaagct tattatttat
+     1261 tcaattcgtt cgatttagtt gaaattgttc gtaattgcag tggctgatct attcccttct
+     1321 gtggacatga ttcctgtacc cctcacatcc atttgttttg ggttcatctc ctgtgtgctg
+     1381 tgtttgggat tatcagggca ccaggactgg ctttctccga gaatactgtg ttctttgtgg
+     1441 tcgtgtggac ttgttcacca tggattcaat tcaacctttt gaaaaaaaaa aaaaaaa
+//
+
