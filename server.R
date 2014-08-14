@@ -810,7 +810,7 @@ write.pub <- function(df) {
   df$Publication <- NA
   df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
   if (file.exists(out.fl)) {
-    dat.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
+    df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
     df.new <- unique(rbind(df.tmp, df))
     write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
   } else {
@@ -875,7 +875,7 @@ write.key <- function(df) {
   dir.to <- paste(dir.to, symbol, sep="/")
   out.fl <- paste(dir.to, "Keyword.trait", sep="/")
   if (file.exists(out.fl)) {
-    dat.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
+    df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
     df.new <- unique(rbind(df.tmp, df))
     write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
   } else {
@@ -909,7 +909,7 @@ write.con <- function(df) {
   dir.to.1 <- paste(dir.to.1, symbol.1, sep="/")
   out.fl.1 <- paste(dir.to.1, "Connection", sep="/")
   if (file.exists(out.fl.1)) {
-    dat.tmp <- read.table(out.fl.1, sep="\t", quote="", head=T, as.is=T, comment="")
+    df.tmp <- read.table(out.fl.1, sep="\t", quote="", head=T, as.is=T, comment="")
     df.new <- unique(rbind(df.tmp, df))
     write.table(df.new, file=out.fl.1, sep="\t", quote=F, row.names=F)
   } else {
@@ -942,7 +942,7 @@ write.con <- function(df) {
   dir.to.2 <- paste(dir.to.2, symbol.2, sep="/")
   out.fl.2 <- paste(dir.to.2, "Connection", sep="/")
   if (file.exists(out.fl.2)) {
-    dat.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
+    df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
     df.new <- unique(rbind(df.tmp, df))
     write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
   } else {
