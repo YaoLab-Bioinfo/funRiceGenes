@@ -942,9 +942,9 @@ write.con <- function(df) {
   dir.to.2 <- paste(dir.to.2, symbol.2, sep="/")
   out.fl.2 <- paste(dir.to.2, "Connection", sep="/")
   if (file.exists(out.fl.2)) {
-    df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
+    df.tmp <- read.table(out.fl.2, sep="\t", quote="", head=T, as.is=T, comment="")
     df.new <- unique(rbind(df.tmp, df))
-    write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
+    write.table(df.new, file=out.fl.2, sep="\t", quote=F, row.names=F)
   } else {
     write.table(df, file=out.fl.2, sep="\t", quote=F, row.names=F,
                 col.names=F)
