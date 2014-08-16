@@ -868,15 +868,17 @@ write.pub <- function(df) {
   
   symbol <- gsub("\\|", "~", symbol)
   dir.to <- paste(dir.to, symbol, sep="/")
-  out.fl <- paste(dir.to, "reference.info", sep="/")
-  df$Publication <- NA
-  df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
-  if (file.exists(out.fl)) {
-    df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
-    df.new <- unique(rbind(df.tmp, df))
-    write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
-  } else {
-    write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
+  if (file.exists(dir.to)) {
+    out.fl <- paste(dir.to, "reference.info", sep="/")
+    df$Publication <- NA
+    df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
+    if (file.exists(out.fl)) {
+      df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
+      df.new <- unique(rbind(df.tmp, df))
+      write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
+    } else {
+      write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
+    }
   }
 }
 
@@ -904,10 +906,12 @@ write.acc <- function(df) {
   
   symbol <- gsub("\\|", "~", symbol)
   dir.to <- paste(dir.to, symbol, sep="/")
-  out.fl <- paste("acc-", df$Accession, sep="")
-  out.fl <- paste(dir.to, out.fl, sep="/")
-  if (!file.exists(out.fl)) {
-    file.create(out.fl)
+  if (file.exists(dir.to)) {
+    out.fl <- paste("acc-", df$Accession, sep="")
+    out.fl <- paste(dir.to, out.fl, sep="/")
+    if (!file.exists(out.fl)) {
+      file.create(out.fl)
+    }
   }
 }
 
@@ -935,13 +939,15 @@ write.key <- function(df) {
   
   symbol <- gsub("\\|", "~", symbol)
   dir.to <- paste(dir.to, symbol, sep="/")
-  out.fl <- paste(dir.to, "Keyword.trait", sep="/")
-  if (file.exists(out.fl)) {
-    df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
-    df.new <- unique(rbind(df.tmp, df))
-    write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
-  } else {
-    write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
+  if (file.exists(dir.to)) {
+    out.fl <- paste(dir.to, "Keyword.trait", sep="/")
+    if (file.exists(out.fl)) {
+      df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
+      df.new <- unique(rbind(df.tmp, df))
+      write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
+    } else {
+      write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
+    }
   }
 }
 
@@ -969,14 +975,16 @@ write.con <- function(df) {
   
   symbol.1 <- gsub("\\|", "~", symbol.1)
   dir.to.1 <- paste(dir.to.1, symbol.1, sep="/")
-  out.fl.1 <- paste(dir.to.1, "Connection", sep="/")
-  if (file.exists(out.fl.1)) {
-    df.tmp <- read.table(out.fl.1, sep="\t", quote="", head=T, as.is=T, comment="")
-    df.new <- unique(rbind(df.tmp, df))
-    write.table(df.new, file=out.fl.1, sep="\t", quote=F, row.names=F)
-  } else {
-    write.table(df, file=out.fl.1, sep="\t", quote=F, row.names=F,
-                col.names=F)
+  if (file.exists(dir.to.1)) {
+    out.fl.1 <- paste(dir.to.1, "Connection", sep="/")
+    if (file.exists(out.fl.1)) {
+      df.tmp <- read.table(out.fl.1, sep="\t", quote="", head=T, as.is=T, comment="")
+      df.new <- unique(rbind(df.tmp, df))
+      write.table(df.new, file=out.fl.1, sep="\t", quote=F, row.names=F)
+    } else {
+      write.table(df, file=out.fl.1, sep="\t", quote=F, row.names=F,
+                  col.names=F)
+    }
   }
   
   symbol.2 <- df$Symbol2
@@ -1002,14 +1010,16 @@ write.con <- function(df) {
   
   symbol.2 <- gsub("\\|", "~", symbol.2)
   dir.to.2 <- paste(dir.to.2, symbol.2, sep="/")
-  out.fl.2 <- paste(dir.to.2, "Connection", sep="/")
-  if (file.exists(out.fl.2)) {
-    df.tmp <- read.table(out.fl.2, sep="\t", quote="", head=T, as.is=T, comment="")
-    df.new <- unique(rbind(df.tmp, df))
-    write.table(df.new, file=out.fl.2, sep="\t", quote=F, row.names=F)
-  } else {
-    write.table(df, file=out.fl.2, sep="\t", quote=F, row.names=F,
-                col.names=F)
+  if (file.exists(dir.to.2)) {
+    out.fl.2 <- paste(dir.to.2, "Connection", sep="/")
+    if (file.exists(out.fl.2)) {
+      df.tmp <- read.table(out.fl.2, sep="\t", quote="", head=T, as.is=T, comment="")
+      df.new <- unique(rbind(df.tmp, df))
+      write.table(df.new, file=out.fl.2, sep="\t", quote=F, row.names=F)
+    } else {
+      write.table(df, file=out.fl.2, sep="\t", quote=F, row.names=F,
+                  col.names=F)
+    }
   }
 }
 
@@ -1043,6 +1053,7 @@ updateKeyword <- function() {
   write.table(all.gene.key, file="geneKeyword.table",
               sep="\t", quote=F, row.names=F)
 }
+
 
 #### Shiny
 shinyServer(function(input, output) {
@@ -1148,44 +1159,54 @@ shinyServer(function(input, output) {
   
   observe({
     if (input$submit1>0) {
-      df.gene <- data.frame(Symbol=input$symsub1, MSU=input$msusub, RAPdb=input$rapsub,
-                            stringsAsFactors=FALSE)
-      write.gene(df.gene)
+      isolate({
+        df.gene <- data.frame(Symbol=input$symsub1, MSU=input$msusub1, RAPdb=input$rapsub1,
+                              stringsAsFactors=FALSE)
+        write.gene(df.gene)
+      })
     } else {NULL}
   })
   
   observe({
     if (input$submit2>0) {
-      df.pub <- data.frame(Symbol=input$symsub2, Title=input$tilsub, Year=input$yearsub,
-                           Journal=input$jousub, Affiliation=input$afisub, Abstract=input$abssub,
-                          stringsAsFactors=FALSE)
-      write.pub(df.pub)
+      isolate({
+        df.pub <- data.frame(Symbol=input$symsub2, Title=input$tilsub2, Year=input$yearsub2,
+                             Journal=input$jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
+                             stringsAsFactors=FALSE)
+        write.pub(df.pub)
+      })
     } else {NULL}
   })
   
   observe({
     if (input$submit3>0) {
-      df.acc <- data.frame(Symbol=input$symsub3, Accession=input$accsub, 
-                           stringsAsFactors=FALSE)
-      write.acc(df.acc)
+      isolate({
+        df.acc <- data.frame(Symbol=input$symsub3, Accession=input$accsub3, 
+                             stringsAsFactors=FALSE)
+        write.acc(df.acc)
+      })
     } else {NULL}
   })
   
   observe({
     if (input$submit4>0) {
-      df.key <- data.frame(Symbol=input$symsub4, Keyword=input$keysub, 
-                           Title=input$tilsub4, Evidence=input$evisub4,
-                           stringsAsFactors=FALSE)
-      write.key(df.key)
+      isolate({
+        df.key <- data.frame(Symbol=input$symsub4, Keyword=input$keysub4, 
+                             Title=input$tilsub4, Evidence=input$evisub4,
+                             stringsAsFactors=FALSE)
+        write.key(df.key)
+      })
     } else {NULL}
   })
   
   observe({
     if (input$submit5>0) {
-      df.con <- data.frame(Symbol1=input$symsub5, Symbol2=input$sym2sub5, 
-                           Title=input$tilsub5, Evidence=input$evisub5,
-                           stringsAsFactors=FALSE)
-      write.con(df.con)
+      isolate({
+        df.con <- data.frame(Symbol1=input$symsub5, Symbol2=input$sym2sub5, 
+                             Title=input$tilsub5, Evidence=input$evisub5,
+                             stringsAsFactors=FALSE)
+        write.con(df.con)
+      })
     } else {NULL}
   })
   

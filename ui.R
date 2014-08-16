@@ -68,8 +68,8 @@ shinyUI(fluidPage(
       helpText(h5("Submit new gene.")),
       wellPanel(
         column(4, textInput('symsub1', strong("Gene symbol"),value="")),
-        column(4, textInput('msusub', strong("MSU genomic locus"),value="")),
-        column(4, textInput('rapsub', strong("RAPdb genomic locus"),value="")),
+        column(4, textInput('msusub1', strong("MSU genomic locus"),value="")),
+        column(4, textInput('rapsub1', strong("RAPdb genomic locus"),value="")),
         actionButton("submit1", strong("Submit"))
       ),
       
@@ -81,11 +81,11 @@ shinyUI(fluidPage(
       helpText(h5("Submit new publication.")),
       wellPanel(
         column(2, textInput('symsub2', strong("Gene symbol"),value="")),
-        column(2, textInput('tilsub', strong("Title"),value="")),
-        column(2, textInput('yearsub', strong("Year"),value="")),
-        column(2, textInput('jousub', strong("Journal"),value="")), 
-        column(2, textInput('afisub', strong("Affiliation"),value="")),
-        column(2, textInput('abssub', strong("Abstract"),value="")),
+        column(2, textInput('tilsub2', strong("Title"),value="")),
+        column(2, textInput('yearsub2', strong("Year"),value="")),
+        column(2, textInput('jousub2', strong("Journal"),value="")), 
+        column(2, textInput('afisub2', strong("Affiliation"),value="")),
+        column(2, textInput('abssub2', strong("Abstract"),value="")),
         actionButton("submit2", strong("Submit"))
       ),
       
@@ -95,7 +95,7 @@ shinyUI(fluidPage(
       helpText(h5("Submit new Genbank accession.")),
       wellPanel(
         column(6, textInput('symsub3', strong("Gene symbol"),value="")),
-        column(6, textInput('accsub', strong("Accession"),value="")),
+        column(6, textInput('accsub3', strong("Accession"),value="")),
         actionButton("submit3", strong("Submit"))
       ),
       
@@ -105,7 +105,7 @@ shinyUI(fluidPage(
       helpText(h5("Submit new Keyword.")),
       wellPanel(
         column(3, textInput('symsub4', strong("Gene symbol"),value="")),
-        column(3, textInput('keysub', strong("Keyword"),value="")),
+        column(3, textInput('keysub4', strong("Keyword"),value="")),
         column(3, textInput('tilsub4', strong("Title"),value="")),
         column(3, textInput('evisub4', strong("Evidence"),value="")),
         actionButton("submit4", strong("Submit"))
