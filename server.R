@@ -33,24 +33,11 @@ gene.rap.new <- sapply(names(gene.rap), function(x) {
 })
 gene.rap.final <- unlist(unname(gene.rap.new))
 
-gene.sym <- 1:nrow(gene.info)
-names(gene.sym) <- gene.info$Symbol
-gene.sym.new <- sapply(names(gene.sym), function(x) {
-  x.name <- unlist(strsplit(x, split="\\|"))
-  if (length(x.name)==1) {
-    return(gene.sym[x])
-  } else {
-    y <- rep(gene.sym[x], length(x.name))
-    names(y) <- x.name
-    return(y)
-  }
-})
-gene.sym.final <- unlist(unname(gene.sym.new))
-names(gene.sym.final) <- tolower(names(gene.sym.final))
-
 
 ####  MSU
 fetchInfoByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -86,6 +73,8 @@ fetchInfoByMsu <- function(locus="") {
 }
 
 fetchRefByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -114,6 +103,8 @@ fetchRefByMsu <- function(locus="") {
 }
 
 fetchAccByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -137,6 +128,8 @@ fetchAccByMsu <- function(locus="") {
 }
 
 fetchTextByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -217,6 +210,8 @@ fetchTextByMsu <- function(locus="") {
 }
 
 fetchKeyByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -243,6 +238,8 @@ fetchKeyByMsu <- function(locus="") {
 }
 
 fetchConneByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -272,6 +269,8 @@ fetchConneByMsu <- function(locus="") {
 
 #### RAPdb
 fetchInfoByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -306,6 +305,8 @@ fetchInfoByRap <- function(locus="") {
 }
 
 fetchRefByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -334,6 +335,8 @@ fetchRefByRap <- function(locus="") {
 }
 
 fetchAccByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -357,6 +360,8 @@ fetchAccByRap <- function(locus="") {
 }
 
 fetchTextByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -437,6 +442,8 @@ fetchTextByRap <- function(locus="") {
 }
 
 fetchKeyByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -463,6 +470,8 @@ fetchKeyByRap <- function(locus="") {
 }
 
 fetchConneByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub("\\s+$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -489,9 +498,25 @@ fetchConneByRap <- function(locus="") {
   }
 }
 
+findDirBySym <- function(symbol="") {
+  line.tar <- sapply(1:nrow(gene.info), function(x){
+    sym.line <- gene.info$Symbol[x]
+    sym.line <- unlist(strsplit(sym.line, split="\\|"))
+    sym.line <- tolower(sym.line)
+    if (any(sym.line==symbol)) {
+      return(x)
+    } else {
+      return(NULL)
+    }
+  })
+  return(unlist(unname(line.tar)))
+}
+
 #### Symbol
 fetchInfoBySym <- function(symbol="") {
-  locus.line <- gene.sym.final[tolower(symbol)]
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
     gene.fl <- paste(path, "gene.info", sep="/")
@@ -520,13 +545,40 @@ fetchInfoBySym <- function(symbol="") {
       
       return(dat)
     }
+  } else if (length(locus.line)>1) {
+    dat <- gene.info[locus.line, ]
+    dat$path <- NULL
+    for (i in 1:nrow(dat)) {    
+      msu <- unlist(strsplit(dat$MSU[i], split="\\|"))
+      msu.new <- sapply(msu, function(x){
+        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- HTML(y)
+      })
+      msu.new <- paste(unname(msu.new), sep="", collapse="|")
+      dat$MSU[i] <- msu.new
+      
+      rap <- unlist(strsplit(dat$RAPdb[i], split="\\|"))
+      rap.new <- sapply(rap, function(x){
+        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- HTML(y)
+      })
+      rap.new <- paste(unname(rap.new), sep="", collapse="|")
+      dat$RAPdb[i] <- rap.new
+    }
+    return(dat)
   } else {
     return(NULL)
   }
 }
 
 fetchRefBySym <- function(symbol="") {
-  locus.line <- gene.sym.final[tolower(symbol)]
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
     ref.fl <- paste(path, "reference.info", sep="/")
@@ -554,7 +606,9 @@ fetchRefBySym <- function(symbol="") {
 }
 
 fetchAccBySym <- function(symbol="") {
-  locus.line <- gene.sym.final[tolower(symbol)]
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
     acc.fls <- list.files(path, patter="*acc-*", full=T)
@@ -577,7 +631,9 @@ fetchAccBySym <- function(symbol="") {
 }
 
 fetchTextBySym <- function(symbol="") {
-  locus.line <- gene.sym.final[tolower(symbol)]
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
     text.fls <- list.files(path, patter="^pub.text.mining$", full=T)
@@ -657,7 +713,9 @@ fetchTextBySym <- function(symbol="") {
 }
 
 fetchKeyBySym <- function(symbol="") {
-  locus.line <- gene.sym.final[tolower(symbol)]
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
     key.fl <- paste(path, "Keyword.trait", sep="/")
@@ -683,7 +741,9 @@ fetchKeyBySym <- function(symbol="") {
 }
 
 fetchConneBySym <- function(symbol="") {
-  locus.line <- gene.sym.final[tolower(symbol)]
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
     conne.fl <- paste(path, "Connection", sep="/")
@@ -711,6 +771,8 @@ fetchConneBySym <- function(symbol="") {
 
 #### Keyword
 fetchInfoByKey <- function(keyword="") {
+  keyword <- gsub("^\\s+", "", keyword)
+  keyword <- gsub("\\s+$", "", keyword)
   all.key <- unique(gene.keyword$Keyword)
   if (tolower(keyword) %in% all.key) {
     dat <- gene.keyword[gene.keyword$Keyword==tolower(keyword), ]
