@@ -1038,20 +1038,20 @@ updateGeneInfo <- function() {
 }
 
 updateKeyword <- function() {
-  all.gene <- read.table("geneInfo.table",
-                         head=T, sep="\t", as.is=T, quote="", comment="")
-  all.key.fls <- list.files("data/Gene",
-                             patter="^Keyword.trait$", full=T, recur=T)
+  all.key.fls <- list.files("data/Gene", patter="^Keyword.trait$",
+                            full=T, recur=T)
   all.key.lst <- lapply(all.key.fls, function(x){
-    dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
-    return(dat)
+    cwd.dir <- dirname(x)
+    cwd.gene <- paste(cwd.dir, "gene.info", sep="/")
+    gene.dat <- read.table(cwd.gene, head=T, sep="\t", as.is=T, quote="", comment="")
+    key.dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
+    key.dat$RAPdb <- gene.dat$RAPdb
+    key.dat$MSU <- gene.dat$MSU
+    key.dat <- key.dat[, c("Symbol", "RAPdb",  "MSU",	"Keyword",	"Title")]
+    return(key.dat)
   })
   all.key.df <- do.call(rbind, all.key.lst)
-  all.gene$path <- NULL
-  all.gene.key <- merge(all.key.df, all.gene, by="Symbol")
-  all.gene.key <- all.gene.key[, c("Symbol", "RAPdb", "MSU", "Keyword", "Title")]
-  write.table(all.gene.key, file="geneKeyword.table",
-              sep="\t", quote=F, row.names=F)
+  write.table(all.key.df, file="geneKeyword.table", sep="\t", quote=F, row.names=F)
 }
 
 
