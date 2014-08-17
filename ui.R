@@ -5,7 +5,7 @@ shinyUI(fluidPage(
     absolutePanel(
       br(),
       p(HTML("<div align='center'; style='font-size:500%'><font face='Monotype Corsiva'; color='green3';>RicENcode</font></div>")),
-#      p(HTML("<div align='center'><img src='E:/GIT/RICENCODE/ricencode.jpg'></div>")),
+      #      p(HTML("<div align='center'><img src='E:/GIT/RICENCODE/ricencode.jpg'></div>")),
       br(),
       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
                        blue;'></div></b>")),
@@ -121,6 +121,20 @@ shinyUI(fluidPage(
         column(3, textInput('tilsub5', strong("Title"),value="")),
         column(3, textInput('evisub5', strong("Evidence"),value="")),
         actionButton("submit5", strong("Submit"))
+      ),
+      
+      p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
+                       blue;'></div></b>")),
+      
+      helpText(h5("Edit existing gene information.")),
+      wellPanel(
+        column(2, textInput('oldsym', strong("Old Gene symbol"),value="")),
+        column(2, textInput('newsym', strong("New Gene Symbol"),value="")),
+        column(2, textInput('oldmsu', strong("Old MSU locus"),value="")),
+        column(2, textInput('newmsu', strong("New MSU locus"),value="")),
+        column(2, textInput('oldrap', strong("Old RAPdb locus"),value="")),
+        column(2, textInput('newrap', strong("New RAPdb locus"),value="")),
+        actionButton("submit6", strong("Submit"))
       ),
       
       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid

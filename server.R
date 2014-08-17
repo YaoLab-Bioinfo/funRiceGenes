@@ -1023,6 +1023,15 @@ write.con <- function(df) {
   }
 }
 
+gene.edit <- function(df){
+  gene.tar <- gene.info[gene.info$Symbol==df$oldsym&gene.info$RAPdb==df$oldrap&
+                          gene.info$MSU==df$oldmsu,]
+  df.dat <- df[, c("newsym", "newrap", "newmsu")]
+  names(df.dat) <- c("Symbol", "RAPdb", "MSU")
+  tar.fl <- paste(gene.tar$path, "gene.info", sep="/")
+  write.table(df.dat, file=tar.fl, sep="\t", quote=F, row.names=F)
+}
+
 updateGeneInfo <- function() {
   all.gene.fls <- list.files("data/Gene",
                              patter="^gene.info$", full=T, recur=T)
@@ -1206,6 +1215,18 @@ shinyServer(function(input, output) {
                              Title=input$tilsub5, Evidence=input$evisub5,
                              stringsAsFactors=FALSE)
         write.con(df.con)
+      })
+    } else {NULL}
+  })
+  
+  observe({
+    if (input$submit6>0) {
+      isolate({
+        df.con <- data.frame(oldsym=input$oldsym, newsym=input$newsym, 
+                             oldmsu=input$oldmsu, newmsu=input$newmsu,
+                             oldrap=input$oldrap, newrap=input$newrap,
+                             stringsAsFactors=FALSE)
+        gene.edit(df.con)
       })
     } else {NULL}
   })
