@@ -915,17 +915,19 @@ write.con <- function(df) {
     path.2 <- gene.info$path[locus.line.2]
     out.fl.2 <- paste(path.2, "Connection", sep="/")
     if (file.exists(out.fl.1)) {
-      df.tmp <- read.table(out.fl.1, sep="\t", quote="", head=T, as.is=T, comment="")
+      df.tmp <- read.table(out.fl.1, sep="\t", quote="", head=F, as.is=T, comment="")
+      names(df) <- names(df.tmp)
       df.new <- unique(rbind(df.tmp, df))
-      write.table(df.new, file=out.fl.1, sep="\t", quote=F, row.names=F)
+      write.table(df.new, file=out.fl.1, sep="\t", quote=F, row.names=F, col.names=F)
     } else {
       write.table(df, file=out.fl.1, sep="\t", quote=F, row.names=F,
                   col.names=F)
     }
     if (file.exists(out.fl.2)) {
-      df.tmp <- read.table(out.fl.2, sep="\t", quote="", head=T, as.is=T, comment="")
+      df.tmp <- read.table(out.fl.2, sep="\t", quote="", head=F, as.is=T, comment="")
+      names(df) <- names(df.tmp)
       df.new <- unique(rbind(df.tmp, df))
-      write.table(df.new, file=out.fl.2, sep="\t", quote=F, row.names=F)
+      write.table(df.new, file=out.fl.2, sep="\t", quote=F, row.names=F, col.names=F)
     } else {
       write.table(df, file=out.fl.2, sep="\t", quote=F, row.names=F,
                   col.names=F)
@@ -1142,7 +1144,7 @@ shinyServer(function(input, output) {
   })
   
   observe({
-    if (input$submit6>0) {
+    if (input$submit7>0) {
       updateGeneInfo()
       updateKeyword()
     } else {NULL}

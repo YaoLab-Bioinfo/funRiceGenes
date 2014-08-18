@@ -142,7 +142,7 @@ shinyUI(fluidPage(
       
       helpText(h4("Update the database.")),
       wellPanel(
-        actionButton("submit6", strong("Submit"))
+        actionButton("submit7", strong("Submit"))
       ),
       
       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
