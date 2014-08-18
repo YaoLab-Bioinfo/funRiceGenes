@@ -999,16 +999,16 @@ FCP2	Os06g0532500	LOC_Os06g34180	meristem	WUSCHEL-RELATED HOMEOBOX4 is involved 
 FCP2	Os06g0532500	LOC_Os06g34180	shoot apical meristem	WUSCHEL-RELATED HOMEOBOX4 is involved in meristem maintenance and is negatively regulated by the CLE gene FCP1 in rice
 FDH	Os02g0815500	LOC_Os02g57040	homeostasis	Expression profiling of Oryza sativa metal homeostasis genes in different rice cultivars using a cDNA macroarray
 FDH	Os02g0815500	LOC_Os02g57040	transporter	Expression profiling of Oryza sativa metal homeostasis genes in different rice cultivars using a cDNA macroarray
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	chloroplast	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	panicle	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	growth	BENT UPPERMOST INTERNODE1 encodes the class II formin FH5 crucial for actin organization and rice development
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	seed	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	dwarf	BENT UPPERMOST INTERNODE1 encodes the class II formin FH5 crucial for actin organization and rice development
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	seedling	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	growth	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	inflorescence	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	cell elongation	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
-FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510	panicle	BENT UPPERMOST INTERNODE1 encodes the class II formin FH5 crucial for actin organization and rice development
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	chloroplast	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	panicle	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	growth	BENT UPPERMOST INTERNODE1 encodes the class II formin FH5 crucial for actin organization and rice development
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	seed	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	dwarf	BENT UPPERMOST INTERNODE1 encodes the class II formin FH5 crucial for actin organization and rice development
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	seedling	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	growth	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	inflorescence	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	cell elongation	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis
+FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	panicle	BENT UPPERMOST INTERNODE1 encodes the class II formin FH5 crucial for actin organization and rice development
 FLO2	Os04g0645100	LOC_Os04g55230	grain size	A novel factor FLOURY ENDOSPERM2 is involved in regulation of rice grain size and starch quality
 FLO2	Os04g0645100	LOC_Os04g55230	starch	A novel factor FLOURY ENDOSPERM2 is involved in regulation of rice grain size and starch quality
 FLO2	Os04g0645100	LOC_Os04g55230	seed development	A novel factor FLOURY ENDOSPERM2 is involved in regulation of rice grain size and starch quality
@@ -2688,6 +2688,8 @@ OsARF16	Os06g0196700	LOC_Os06g09660	transcription factor	OsARF16, a transcriptio
 OsARF16	Os06g0196700	LOC_Os06g09660	lateral root	OsARF16, a transcription factor, is required for auxin and phosphate starvation response in rice (Oryza sativa L.)
 OsARF16	Os06g0196700	LOC_Os06g09660	primary root	OsARF16, a transcription factor, is required for auxin and phosphate starvation response in rice (Oryza sativa L.)
 OsARF16	Os06g0196700	LOC_Os06g09660	root	OsARF16, a transcription factor, is required for auxin and phosphate starvation response in rice (Oryza sativa L.)
+OsARF24	Os12g0479400	LOC_Os12g29520	auxin	Rice actin-binding protein RMD is a key link in the auxin¨Cactin regulatory loop that controls cell growth
+OsARF24	Os12g0479400	LOC_Os12g29520	auxin response	Rice actin-binding protein RMD is a key link in the auxin¨Cactin regulatory loop that controls cell growth
 OsARG	Os04g0106300	LOC_Os04g01590	mitochondria	OsARG encodes an arginase that plays critical roles in panicle development and grain production in rice
 OsARG	Os04g0106300	LOC_Os04g01590	grain	OsARG encodes an arginase that plays critical roles in panicle development and grain production in rice
 OsARG	Os04g0106300	LOC_Os04g01590	nitrogen	OsARG encodes an arginase that plays critical roles in panicle development and grain production in rice
