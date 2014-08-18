@@ -846,37 +846,22 @@ write.gene <- function(df) {
 
 write.pub <- function(df) {
   symbol <- df$Symbol
-  symbol.low <- tolower(symbol)
-  if (grepl("^os", symbol.low)) {
-    symbol.low <- gsub("^os", "", symbol.low)
-    symbol.head <- substr(symbol.low, 1, 1)
-    if (symbol.head %in% letters[1:24]) {
-      dir.to <- paste("data/Gene/Abstract/OS", 
-                      toupper(symbol.head), sep="/")
-    } else {
-      dir.to <- "data/Gene/Abstract/OS/0-9"
-    }
-  } else {
-    symbol.head <- substr(symbol.low, 1, 1)
-    if (symbol.head %in% letters[1:24]) {
-      dir.to <- paste("data/Gene/Abstract", 
-                      toupper(symbol.head), sep="/")
-    } else {
-      dir.to <- "data/Gene/Abstract/0-9"
-    }
-  }
-  
-  symbol <- gsub("\\|", "~", symbol)
-  dir.to <- paste(dir.to, symbol, sep="/")
-  if (file.exists(dir.to)) {
-    out.fl <- paste(dir.to, "reference.info", sep="/")
-    df$Publication <- NA
-    df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
+  df$Symbol <- gene.info$Symbol[locus.line]
+  if (length(locus.line)==1) {
+    path <- gene.info$path[locus.line]
+    out.fl <- paste(path, "reference.info", sep="/")
     if (file.exists(out.fl)) {
+      df$Publication <- NA
+      df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
       df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
       df.new <- unique(rbind(df.tmp, df))
       write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
     } else {
+      df$Publication <- NA
+      df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
       write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
     }
   }
@@ -884,31 +869,13 @@ write.pub <- function(df) {
 
 write.acc <- function(df) {
   symbol <- df$Symbol
-  symbol.low <- tolower(symbol)
-  if (grepl("^os", symbol.low)) {
-    symbol.low <- gsub("^os", "", symbol.low)
-    symbol.head <- substr(symbol.low, 1, 1)
-    if (symbol.head %in% letters[1:24]) {
-      dir.to <- paste("data/Gene/Abstract/OS", 
-                      toupper(symbol.head), sep="/")
-    } else {
-      dir.to <- "data/Gene/Abstract/OS/0-9"
-    }
-  } else {
-    symbol.head <- substr(symbol.low, 1, 1)
-    if (symbol.head %in% letters[1:24]) {
-      dir.to <- paste("data/Gene/Abstract", 
-                      toupper(symbol.head), sep="/")
-    } else {
-      dir.to <- "data/Gene/Abstract/0-9"
-    }
-  }
-  
-  symbol <- gsub("\\|", "~", symbol)
-  dir.to <- paste(dir.to, symbol, sep="/")
-  if (file.exists(dir.to)) {
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
+  if (length(locus.line)==1) {
+    path <- gene.info$path[locus.line]
     out.fl <- paste("acc-", df$Accession, sep="")
-    out.fl <- paste(dir.to, out.fl, sep="/")
+    out.fl <- paste(path, out.fl, sep="/")
     if (!file.exists(out.fl)) {
       file.create(out.fl)
     }
@@ -917,30 +884,13 @@ write.acc <- function(df) {
 
 write.key <- function(df) {
   symbol <- df$Symbol
-  symbol.low <- tolower(symbol)
-  if (grepl("^os", symbol.low)) {
-    symbol.low <- gsub("^os", "", symbol.low)
-    symbol.head <- substr(symbol.low, 1, 1)
-    if (symbol.head %in% letters[1:24]) {
-      dir.to <- paste("data/Gene/Abstract/OS", 
-                      toupper(symbol.head), sep="/")
-    } else {
-      dir.to <- "data/Gene/Abstract/OS/0-9"
-    }
-  } else {
-    symbol.head <- substr(symbol.low, 1, 1)
-    if (symbol.head %in% letters[1:24]) {
-      dir.to <- paste("data/Gene/Abstract", 
-                      toupper(symbol.head), sep="/")
-    } else {
-      dir.to <- "data/Gene/Abstract/0-9"
-    }
-  }
-  
-  symbol <- gsub("\\|", "~", symbol)
-  dir.to <- paste(dir.to, symbol, sep="/")
-  if (file.exists(dir.to)) {
-    out.fl <- paste(dir.to, "Keyword.trait", sep="/")
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub("\\s+$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
+  df$Symbol <- gene.info$Symbol[locus.line]
+  if (length(locus.line)==1) {
+    path <- gene.info$path[locus.line]
+    out.fl <- paste(path, "Keyword.trait", sep="/")
     if (file.exists(out.fl)) {
       df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
       df.new <- unique(rbind(df.tmp, df))
@@ -953,30 +903,17 @@ write.key <- function(df) {
 
 write.con <- function(df) {
   symbol.1 <- df$Symbol1
-  symbol.1.low <- tolower(symbol.1)
-  if (grepl("^os", symbol.1.low)) {
-    symbol.1.low <- gsub("^os", "", symbol.1.low)
-    symbol.1.head <- substr(symbol.1.low, 1, 1)
-    if (symbol.1.head %in% letters[1:24]) {
-      dir.to.1 <- paste("data/Gene/Abstract/OS", 
-                      toupper(symbol.1.head), sep="/")
-    } else {
-      dir.to.1 <- "data/Gene/Abstract/OS/0-9"
-    }
-  } else {
-    symbol.1.head <- substr(symbol.1.low, 1, 1)
-    if (symbol.1.head %in% letters[1:24]) {
-      dir.to.1 <- paste("data/Gene/Abstract", 
-                      toupper(symbol.1.head), sep="/")
-    } else {
-      dir.to.1 <- "data/Gene/Abstract/0-9"
-    }
-  }
+  symbol.2 <- df$Symbol2
+  locus.line.1 <- findDirBySym(tolower(symbol.1))
+  locus.line.2 <- findDirBySym(tolower(symbol.2))
+  df$Symbol1 <- gene.info$Symbol[locus.line.1]
+  df$Symbol2 <- gene.info$Symbol[locus.line.2]
   
-  symbol.1 <- gsub("\\|", "~", symbol.1)
-  dir.to.1 <- paste(dir.to.1, symbol.1, sep="/")
-  if (file.exists(dir.to.1)) {
-    out.fl.1 <- paste(dir.to.1, "Connection", sep="/")
+  if (length(locus.line.1)==1 && length(locus.line.2)==1) {
+    path.1 <- gene.info$path[locus.line.1]
+    out.fl.1 <- paste(path.1, "Connection", sep="/")
+    path.2 <- gene.info$path[locus.line.2]
+    out.fl.2 <- paste(path.2, "Connection", sep="/")
     if (file.exists(out.fl.1)) {
       df.tmp <- read.table(out.fl.1, sep="\t", quote="", head=T, as.is=T, comment="")
       df.new <- unique(rbind(df.tmp, df))
@@ -985,33 +922,6 @@ write.con <- function(df) {
       write.table(df, file=out.fl.1, sep="\t", quote=F, row.names=F,
                   col.names=F)
     }
-  }
-  
-  symbol.2 <- df$Symbol2
-  symbol.2.low <- tolower(symbol.2)
-  if (grepl("^os", symbol.2.low)) {
-    symbol.2.low <- gsub("^os", "", symbol.2.low)
-    symbol.2.head <- substr(symbol.2.low, 1, 1)
-    if (symbol.2.head %in% letters[1:24]) {
-      dir.to.2 <- paste("data/Gene/Abstract/OS", 
-                        toupper(symbol.2.head), sep="/")
-    } else {
-      dir.to.2 <- "data/Gene/Abstract/OS/0-9"
-    }
-  } else {
-    symbol.2.head <- substr(symbol.2.low, 1, 1)
-    if (symbol.2.head %in% letters[1:24]) {
-      dir.to.2 <- paste("data/Gene/Abstract", 
-                        toupper(symbol.2.head), sep="/")
-    } else {
-      dir.to.2 <- "data/Gene/Abstract/0-9"
-    }
-  }
-  
-  symbol.2 <- gsub("\\|", "~", symbol.2)
-  dir.to.2 <- paste(dir.to.2, symbol.2, sep="/")
-  if (file.exists(dir.to.2)) {
-    out.fl.2 <- paste(dir.to.2, "Connection", sep="/")
     if (file.exists(out.fl.2)) {
       df.tmp <- read.table(out.fl.2, sep="\t", quote="", head=T, as.is=T, comment="")
       df.new <- unique(rbind(df.tmp, df))
