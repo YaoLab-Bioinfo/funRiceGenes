@@ -841,6 +841,7 @@ EG1	Os01g0900400	LOC_Os01g67430	meristem	A putative lipase gene EXTRA GLUME1 reg
 EG1	Os01g0900400	LOC_Os01g67430	spikelet	A putative lipase gene EXTRA GLUME1 regulates both empty-glume fate and spikelet development in rice
 EG1	Os01g0900400	LOC_Os01g67430	floral	A putative lipase gene EXTRA GLUME1 regulates both empty-glume fate and spikelet development in rice
 EG1	Os01g0900400	LOC_Os01g67430	inflorescence	A putative lipase gene EXTRA GLUME1 regulates both empty-glume fate and spikelet development in rice
+EG1	Os01g0900400	LOC_Os01g67430	JA biosynthesis	Jasmonic acid regulates spikelet development in rice
 Ehd1	Os10g0463400	LOC_Os10g32600	flower	OsMADS51 is a short-day flowering promoter that functions upstream of Ehd1, OsMADS14, and Hd3a
 Ehd1	Os10g0463400	LOC_Os10g32600	height	A pair of floral regulators sets critical day length for Hd3a florigen expression in rice
 Ehd1	Os10g0463400	LOC_Os10g32600	grain	A pair of floral regulators sets critical day length for Hd3a florigen expression in rice
@@ -3358,6 +3359,7 @@ OsCOI1|OsCOI1a	Os01g0853400	LOC_Os01g63420	defense	silencing COI1 in rice increa
 OsCOI1|OsCOI1a	Os01g0853400	LOC_Os01g63420	 ja 	silencing COI1 in rice increases susceptibility to chewing insects and impairs inducible defense
 OsCOI1|OsCOI1a	Os01g0853400	LOC_Os01g63420	drought tolerance	"OsbHLH148, a basic helix-loop-helix protein, interacts with OsJAZ proteins in a jasmonate signaling pathway leading to drought tolerance in rice"
 OsCOI1|OsCOI1a	Os01g0853400	LOC_Os01g63420	jasmonate	OsbHLH148, a basic helix-loop-helix protein, interacts with OsJAZ proteins in a jasmonate signaling pathway leading to drought tolerance in rice
+OsCOI1b	Os05g0449500	LOC_Os05g37690	JA receptor	Jasmonic acid regulates spikelet development in rice
 OsCOIN	Os01g0104100	LOC_Os01g01420	temperature	"Overexpression of OsCOIN, a putative cold inducible zinc finger protein, increased tolerance to chilling, salt and drought, and enhanced proline level in rice"
 OsCOIN	Os01g0104100	LOC_Os01g01420	drought	"Overexpression of OsCOIN, a putative cold inducible zinc finger protein, increased tolerance to chilling, salt and drought, and enhanced proline level in rice"
 OsCOIN	Os01g0104100	LOC_Os01g01420	salt	"Overexpression of OsCOIN, a putative cold inducible zinc finger protein, increased tolerance to chilling, salt and drought, and enhanced proline level in rice"
@@ -5159,6 +5161,7 @@ OsJAR2|OsGH3.3|OsGH3-3	Os01g0221100	LOC_Os01g12160	jasmonic acid	OsJAR1 and OsJA
 OsJAZ1|OsTIFY3	Os04g0653000	LOC_Os04g55920	drought	"OsbHLH148, a basic helix-loop-helix protein, interacts with OsJAZ proteins in a jasmonate signaling pathway leading to drought tolerance in rice"
 OsJAZ1|OsTIFY3	Os04g0653000	LOC_Os04g55920	jasmonate	OsbHLH148, a basic helix-loop-helix protein, interacts with OsJAZ proteins in a jasmonate signaling pathway leading to drought tolerance in rice
 OsJAZ1|OsTIFY3	Os04g0653000	LOC_Os04g55920	drought tolerance	"OsbHLH148, a basic helix-loop-helix protein, interacts with OsJAZ proteins in a jasmonate signaling pathway leading to drought tolerance in rice"
+OsJAZ1|OsTIFY3|EG2	Os04g0653000	LOC_Os04g55920	JA signalling repressor 	Jasmonic acid regulates spikelet development in rice
 OsJAZ8|OsTIFY10c	Os09g0439200	LOC_Os09g26780	blight	Involvement of OsJAZ8 in jasmonate-induced resistance to bacterial blight in rice
 OsJAZ8|OsTIFY10c	Os09g0439200	LOC_Os09g26780	 ja 	Involvement of OsJAZ8 in jasmonate-induced resistance to bacterial blight in rice
 OsJAZ8|OsTIFY10c	Os09g0439200	LOC_Os09g26780	jasmonate	Involvement of OsJAZ8 in jasmonate-induced resistance to bacterial blight in rice
@@ -6043,6 +6046,8 @@ MYBS3|OsMYBS3	Os10g0561400	LOC_Os10g41200	yield	A novel MYBS3-dependent pathway 
 MYBS3|OsMYBS3	Os10g0561400	LOC_Os10g41200	cold tolerance	A novel MYBS3-dependent pathway confers cold tolerance in rice
 MYBS3|OsMYBS3	Os10g0561400	LOC_Os10g41200	abiotic stress	A novel MYBS3-dependent pathway confers cold tolerance in rice
 MYBS3|OsMYBS3	Os10g0561400	LOC_Os10g41200	cold stress	A novel MYBS3-dependent pathway confers cold tolerance in rice
+OsMYC2	Os10g0575000	LOC_Os10g42430	transcription factor	Jasmonic acid regulates spikelet development in rice
+OsMYC2	Os10g0575000	LOC_Os10g42430	JA signalling 	Jasmonic acid regulates spikelet development in rice
 osmyoXIB	Os02g0816900	LOC_Os02g57190	anther	ORYZA SATIVA MYOSIN XI B controls pollen development by photoperiod-sensitive protein localizations
 OsNAAT1	Os02g0306401	LOC_Os02g20360	root	Identification and localisation of the rice nicotianamine aminotransferase gene OsNAAT1 expression suggests the site of phytosiderophore synthesis in rice
 OsNAAT1	Os02g0306401	LOC_Os02g20360	shoot	Identification and localisation of the rice nicotianamine aminotransferase gene OsNAAT1 expression suggests the site of phytosiderophore synthesis in rice
