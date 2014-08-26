@@ -8628,10 +8628,10 @@ Pi9|Piz-t|Pi2	Os06g0286700	LOC_Os06g17900	disease resistance	The broad-spectrum 
 Pi9|Piz-t|Pi2	Os06g0286700	LOC_Os06g17900	blast	The broad-spectrum blast resistance gene Pi9 encodes a nucleotide-binding site-leucine-rich repeat protein and is a member of a multigene family in rice
 Pi9|Piz-t|Pi2	Os06g0286700	LOC_Os06g17900	disease	The broad-spectrum blast resistance gene Pi9 encodes a nucleotide-binding site-leucine-rich repeat protein and is a member of a multigene family in rice
 Pi9|Piz-t|Pi2	Os06g0286700	LOC_Os06g17900	resistant	The broad-spectrum blast resistance gene Pi9 encodes a nucleotide-binding site-leucine-rich repeat protein and is a member of a multigene family in rice
-PK4	Os05g0514200	LOC_Os05g43840	magnesium	Diverse response of rice and maize genes encoding homologs of WPK4, an SNF1-related protein kinase from wheat, to light, nutrients, low temperature and cytokinins
-PK4	Os05g0514200	LOC_Os05g43840	manganese	Diverse response of rice and maize genes encoding homologs of WPK4, an SNF1-related protein kinase from wheat, to light, nutrients, low temperature and cytokinins
-PK4	Os05g0514200	LOC_Os05g43840	temperature	"Diverse response of rice and maize genes encoding homologs of WPK4, an SNF1-related protein kinase from wheat, to light, nutrients, low temperature and cytokinins"
-PK4	Os05g0514200	LOC_Os05g43840	cytokinin	Diverse response of rice and maize genes encoding homologs of WPK4, an SNF1-related protein kinase from wheat, to light, nutrients, low temperature and cytokinins
+PK4|OsPK4|OsCIPK19	Os05g0514200	LOC_Os05g43840	magnesium	Diverse response of rice and maize genes encoding homologs of WPK4, an SNF1-related protein kinase from wheat, to light, nutrients, low temperature and cytokinins
+PK4|OsPK4|OsCIPK19	Os05g0514200	LOC_Os05g43840	manganese	Diverse response of rice and maize genes encoding homologs of WPK4, an SNF1-related protein kinase from wheat, to light, nutrients, low temperature and cytokinins
+PK4|OsPK4|OsCIPK19	Os05g0514200	LOC_Os05g43840	temperature	"Diverse response of rice and maize genes encoding homologs of WPK4, an SNF1-related protein kinase from wheat, to light, nutrients, low temperature and cytokinins"
+PK4|OsPK4|OsCIPK19	Os05g0514200	LOC_Os05g43840	cytokinin	Diverse response of rice and maize genes encoding homologs of WPK4, an SNF1-related protein kinase from wheat, to light, nutrients, low temperature and cytokinins
 PLA1	Os10g0403000	LOC_Os10g26340	reproductive	PLASTOCHRON1, a timekeeper of leaf initiation in rice, encodes cytochrome P450
 PLA1	Os10g0403000	LOC_Os10g26340	reproductive	NECK LEAF 1, a GATA type transcription factor, modulates organogenesis by regulating the expression of multiple regulatory genes during reproductive development in rice
 PLA1	Os10g0403000	LOC_Os10g26340	meristem	A recessive heterochronic mutation, plastochron1, shortens the plastochron and elongates the vegetative phase in rice
