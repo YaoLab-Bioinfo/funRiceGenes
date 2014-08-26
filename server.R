@@ -959,46 +959,52 @@ gene.edit <- function(df){
   df.dat <- df[, c("newsym", "newrap", "newmsu")]
   names(df.dat) <- c("Symbol", "RAPdb", "MSU")
   tar.fl <- paste(gene.tar$path, "gene.info", sep="/")
-  write.table(df.dat, file=tar.fl, sep="\t", quote=F, row.names=F)
+  if (file.exists(tar.fl)) {
+    write.table(df.dat, file=tar.fl, sep="\t", quote=F, row.names=F)
+  }
   
   key.fl <- paste(gene.tar$path, "Keyword.trait", sep="/")
-  key.con <- read.table(key.fl, sep="\t", head=T, as.is=T, quote="", comment="")
-  key.con$Symbol <- df$newsym
-  write.table(key.con, file=key.fl, sep="\t", quote=F, row.names=F)
+  if (file.exists(key.fl)) {
+    key.con <- read.table(key.fl, sep="\t", head=T, as.is=T, quote="", comment="")
+    key.con$Symbol <- df$newsym
+    write.table(key.con, file=key.fl, sep="\t", quote=F, row.names=F)
+  }
   
   cone.fl <- paste(gene.tar$path, "Connection", sep="/")
-  cone.con <- read.table(cone.fl, sep="\t", head=F, as.is=T, quote="", comment="")
-  for (i in 1:nrow(cone.con)) {
-    if (cone.con$V1[i]==df$oldsym) {
-      cone.con$V1[i] <- df$newsym
-      cone.2.sym <- cone.con$V2[i]
-      cone.2.tar <- gene.info[gene.info$Symbol==cone.2.sym, ]
-      if (nrow(cone.2.tar)==1) {
-        cone.2.fl <- paste(cone.2.tar$path, "Connection", sep="/")
-        cone.2.con <- read.table(cone.2.fl, sep="\t", head=F, as.is=T, quote="", comment="")
-        for (j in 1:nrow(cone.2.con)) {
-          if (cone.2.con$V1[j]==df$oldsym) {cone.2.con$V1[j] <- df$newsym}
-          if (cone.2.con$V2[j]==df$oldsym) {cone.2.con$V2[j] <- df$newsym}
+  if (file.exists(cone.fl)) {
+    cone.con <- read.table(cone.fl, sep="\t", head=F, as.is=T, quote="", comment="")
+    for (i in 1:nrow(cone.con)) {
+      if (cone.con$V1[i]==df$oldsym) {
+        cone.con$V1[i] <- df$newsym
+        cone.2.sym <- cone.con$V2[i]
+        cone.2.tar <- gene.info[gene.info$Symbol==cone.2.sym, ]
+        if (nrow(cone.2.tar)==1) {
+          cone.2.fl <- paste(cone.2.tar$path, "Connection", sep="/")
+          cone.2.con <- read.table(cone.2.fl, sep="\t", head=F, as.is=T, quote="", comment="")
+          for (j in 1:nrow(cone.2.con)) {
+            if (cone.2.con$V1[j]==df$oldsym) {cone.2.con$V1[j] <- df$newsym}
+            if (cone.2.con$V2[j]==df$oldsym) {cone.2.con$V2[j] <- df$newsym}
+          }
+          write.table(cone.2.con, file=cone.2.fl, sep="\t", quote=F, row.names=F, col.names=F)
         }
-        write.table(cone.2.con, file=cone.2.fl, sep="\t", quote=F, row.names=F, col.names=F)
-      }
-      
-    } else if (cone.con$V2[i]==df$oldsym) {
-      cone.con$V2[i] <- df$newsym
-      cone.2.sym <- cone.con$V1[i]
-      cone.2.tar <- gene.info[gene.info$Symbol==cone.2.sym, ]
-      if (nrow(cone.2.tar)==1) {
-        cone.2.fl <- paste(cone.2.tar$path, "Connection", sep="/")
-        cone.2.con <- read.table(cone.2.fl, sep="\t", head=F, as.is=T, quote="", comment="")
-        for (j in 1:nrow(cone.2.con)) {
-          if (cone.2.con$V1[j]==df$oldsym) {cone.2.con$V1[j] <- df$newsym}
-          if (cone.2.con$V2[j]==df$oldsym) {cone.2.con$V2[j] <- df$newsym}
+        
+      } else if (cone.con$V2[i]==df$oldsym) {
+        cone.con$V2[i] <- df$newsym
+        cone.2.sym <- cone.con$V1[i]
+        cone.2.tar <- gene.info[gene.info$Symbol==cone.2.sym, ]
+        if (nrow(cone.2.tar)==1) {
+          cone.2.fl <- paste(cone.2.tar$path, "Connection", sep="/")
+          cone.2.con <- read.table(cone.2.fl, sep="\t", head=F, as.is=T, quote="", comment="")
+          for (j in 1:nrow(cone.2.con)) {
+            if (cone.2.con$V1[j]==df$oldsym) {cone.2.con$V1[j] <- df$newsym}
+            if (cone.2.con$V2[j]==df$oldsym) {cone.2.con$V2[j] <- df$newsym}
+          }
+          write.table(cone.2.con, file=cone.2.fl, sep="\t", quote=F, row.names=F, col.names=F)
         }
-        write.table(cone.2.con, file=cone.2.fl, sep="\t", quote=F, row.names=F, col.names=F)
       }
     }
+    write.table(cone.con, file=cone.fl, sep="\t", quote=F, row.names=F, col.names=F)
   }
-  write.table(cone.con, file=cone.fl, sep="\t", quote=F, row.names=F, col.names=F)
   
 }
 
