@@ -924,6 +924,7 @@ write.con <- function(df) {
       df.new <- unique(df.new)
       write.table(df.new, file=out.fl.1, sep="\t", quote=F, row.names=F, col.names=F)
     } else {
+      names(df) <- paste("V", 1:4, sep="")
       df$v1n <- pmin(df$V1, df$V2)
       df$v2n <- pmax(df$V1, df$V2)
       df <- df[, c("v1n", "v2n", "V3", "V4")]
@@ -941,6 +942,7 @@ write.con <- function(df) {
       df.new <- unique(df.new)
       write.table(df.new, file=out.fl.2, sep="\t", quote=F, row.names=F, col.names=F)
     } else {
+      names(df) <- paste("V", 1:4, sep="")
       df$v1n <- pmin(df$V1, df$V2)
       df$v2n <- pmax(df$V1, df$V2)
       df <- df[, c("v1n", "v2n", "V3", "V4")]
