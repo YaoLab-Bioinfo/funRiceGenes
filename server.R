@@ -962,7 +962,7 @@ gene.edit <- function(df){
   key.fl <- paste(gene.tar$path, "Keyword.trait", sep="/")
   key.con <- read.table(key.fl, sep="\t", head=T, as.is=T, quote="", comment="")
   key.con$Symbol <- df$newsym
-  write.table(key.con, file=key.fl, sep="\t", quote=F)
+  write.table(key.con, file=key.fl, sep="\t", quote=F, row.names=F)
   
   cone.fl <- paste(gene.tar$path, "Connection", sep="/")
   cone.con <- read.table(cone.fl, sep="\t", head=F, as.is=T, quote="", comment="")
@@ -975,9 +975,10 @@ gene.edit <- function(df){
         cone.2.fl <- paste(cone.2.tar$path, "Connection", sep="/")
         cone.2.con <- read.table(cone.2.fl, sep="\t", head=F, as.is=T, quote="", comment="")
         for (j in 1:nrow(cone.2.con)) {
-          if (cone.2.con$V1[j]==df$oldsym) {cone.2.con$V1[j]==df$newsym}
-          if (cone.2.con$V2[j]==df$oldsym) {cone.2.con$V2[j]==df$newsym}
+          if (cone.2.con$V1[j]==df$oldsym) {cone.2.con$V1[j] <- df$newsym}
+          if (cone.2.con$V2[j]==df$oldsym) {cone.2.con$V2[j] <- df$newsym}
         }
+        write.table(cone.2.con, file=cone.2.fl, sep="\t", quote=F, row.names=F, col.names=F)
       }
       
     } else if (cone.con$V2[i]==df$oldsym) {
@@ -988,12 +989,15 @@ gene.edit <- function(df){
         cone.2.fl <- paste(cone.2.tar$path, "Connection", sep="/")
         cone.2.con <- read.table(cone.2.fl, sep="\t", head=F, as.is=T, quote="", comment="")
         for (j in 1:nrow(cone.2.con)) {
-          if (cone.2.con$V1[j]==df$oldsym) {cone.2.con$V1[j]==df$newsym}
-          if (cone.2.con$V2[j]==df$oldsym) {cone.2.con$V2[j]==df$newsym}
+          if (cone.2.con$V1[j]==df$oldsym) {cone.2.con$V1[j] <- df$newsym}
+          if (cone.2.con$V2[j]==df$oldsym) {cone.2.con$V2[j] <- df$newsym}
         }
+        write.table(cone.2.con, file=cone.2.fl, sep="\t", quote=F, row.names=F, col.names=F)
       }
     }
   }
+  write.table(cone.con, file=cone.fl, sep="\t", quote=F, row.names=F, col.names=F)
+  
 }
 
 updateGeneInfo <- function() {
