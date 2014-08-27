@@ -1137,19 +1137,19 @@ GD1	Os07g0563300|Os07g0563350	LOC_Os07g37610	dwarf	The rice GERMINATION DEFECTIV
 GD1	Os07g0563300|Os07g0563350	LOC_Os07g37610	 ga 	The rice GERMINATION DEFECTIVE 1, encoding a B3 domain transcriptional repressor, regulates seed germination and seedling development by integrating GA and carbohydrate metabolism
 GD1	Os07g0563300|Os07g0563350	LOC_Os07g37610	seed development	The rice GERMINATION DEFECTIVE 1, encoding a B3 domain transcriptional repressor, regulates seed germination and seedling development by integrating GA and carbohydrate metabolism
 GD1	Os07g0563300|Os07g0563350	LOC_Os07g37610	transcription factor	The rice GERMINATION DEFECTIVE 1, encoding a B3 domain transcriptional repressor, regulates seed germination and seedling development by integrating GA and carbohydrate metabolism
-GE	Os07g0603700	LOC_Os07g41240	grain yield	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	grain	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	cell death	GIANT EMBRYO encodes CYP78A13, required for proper size balance between embryo and endosperm in rice
-GE	Os07g0603700	LOC_Os07g41240	shoot	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	meristem	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	endosperm	GIANT EMBRYO encodes CYP78A13, required for proper size balance between embryo and endosperm in rice
-GE	Os07g0603700	LOC_Os07g41240	yield	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	endosperm	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	seed	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	seed development	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	shoot apical meristem	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	growth	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
-GE	Os07g0603700	LOC_Os07g41240	seedling	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	grain yield	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	grain	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	cell death	GIANT EMBRYO encodes CYP78A13, required for proper size balance between embryo and endosperm in rice
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	shoot	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	meristem	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	endosperm	GIANT EMBRYO encodes CYP78A13, required for proper size balance between embryo and endosperm in rice
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	yield	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	endosperm	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	seed	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	seed development	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	shoot apical meristem	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	growth	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
+GE|CYP78A13	Os07g0603700	LOC_Os07g41240	seedling	Control of rice embryo development, shoot apical meristem maintenance, and grain yield by a novel cytochrome p450
 GF14c	Os08g0430500	LOC_Os08g33370	flower	The 14-3-3 protein GF14c acts as a negative regulator of flowering in rice by interacting with the florigen Hd3a
 GF14c	Os08g0430500	LOC_Os08g33370	drought	Sugar starvation- and GA-inducible calcium-dependent protein kinase 1 feedback regulates GA biosynthesis and activates a 14-3-3 protein to confer drought tolerance in rice seedlings
 GF14c	Os08g0430500	LOC_Os08g33370	seedling	Sugar starvation- and GA-inducible calcium-dependent protein kinase 1 feedback regulates GA biosynthesis and activates a 14-3-3 protein to confer drought tolerance in rice seedlings
@@ -10404,4 +10404,10 @@ OsRHC1	Os03g0706900	LOC_Os03g49900	disease resistance	Expression of a RING-HC pr
 OsRHC1	Os03g0706900	LOC_Os03g49900	disease	Expression of a RING-HC protein from rice improves resistance to Pseudomonas syringae pv. tomato DC3000 in transgenic Arabidopsis thaliana
 OsZFP1|SRZ3	Os06g0141200	LOC_Os06g04920	 ABA 	Transgenic analysis of a salt-inhibited OsZFP1 gene from rice
 OsZFP1|SRZ3	Os06g0141200	LOC_Os06g04920	salt	Transgenic analysis of a salt-inhibited OsZFP1 gene from rice
+PAD4|OsPAD4	Os11g0195500	LOC_Os11g09010	bacteria blight disease	Rice OsPAD4 functions differently from Arabidopsis AtPAD4 in host-pathogen interactions
+PAD4|OsPAD4	Os11g0195500	LOC_Os11g09010	blight disease	Rice OsPAD4 functions differently from Arabidopsis AtPAD4 in host-pathogen interactions
+PAD4|OsPAD4	Os11g0195500	LOC_Os11g09010	disease	Rice OsPAD4 functions differently from Arabidopsis AtPAD4 in host-pathogen interactions
+PAD4|OsPAD4	Os11g0195500	LOC_Os11g09010	JA	Rice OsPAD4 functions differently from Arabidopsis AtPAD4 in host-pathogen interactions
+PAD4|OsPAD4	Os11g0195500	LOC_Os11g09010	jasmonic acid	Rice OsPAD4 functions differently from Arabidopsis AtPAD4 in host-pathogen interactions
+PAD4|OsPAD4	Os11g0195500	LOC_Os11g09010	jasmonic acid	Rice OsPAD4 functions differently from Arabidopsis AtPAD4 in host-pathogen interactions
 rml1|RML1	Os04g0486400	LOC_Os04g40930	transcription factor	Transcript abundance of rml1, encoding a putative GT1-like factor in rice, is up-regulated by Magnaporthe grisea and down-regulated by light
