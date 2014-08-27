@@ -136,62 +136,65 @@ fetchTextByMsu <- function(locus="") {
     text.fls <- list.files(path, patter="^pub.text.mining$", full=T)
     if (length(text.fls)>0) {
       text.con <- readLines(text.fls)
+      text.con <- text.con[!grepl("^symbol:", text.con)]
       clone <- sapply(seq(2, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("cloning:\\s+", "", y)
+        y <- gsub("^cloning:\\s+", "", y)
         return(y)
       })
       tdna <- sapply(seq(4, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("tdna:\\s+", "", y)
+        y <- gsub("^tdna:\\s+", "", y)
         return(y)
       })
       tos <- sapply(seq(5, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("tos:\\s+", "", y)
+        y <- gsub("^tos:\\s+", "", y)
         return(y)
       })
       homo <- sapply(seq(6, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("homol:\\s+", "", y)
+        y <- gsub("^homol:\\s+", "", y)
         return(y)
       })
       rnai <- sapply(seq(7, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("rnai:\\s+", "", y)
+        y <- gsub("^rnai:\\s+", "", y)
         return(y)
       })
       ove <- sapply(seq(8, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("ove:\\s+", "", y)
+        y <- gsub("^ove:\\s+", "", y)
         return(y)
       })
       rt <- sapply(seq(9, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("rt:\\s+", "", y)
+        y <- gsub("^rt:\\s+", "", y)
         return(y)
       })
       north <- sapply(seq(10, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("N:\\s+", "", y)
+        y <- gsub("^N:\\s+", "", y)
         return(y)
       })
       south <- sapply(seq(11, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("S:\\s+", "", y)
+        y <- gsub("^S:\\s+", "", y)
         return(y)
       })
       west <- sapply(seq(12, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("W:\\s+", "", y)
+        y <- gsub("^W:\\s+", "", y)
         return(y)
       })
       access <- sapply(seq(3, length(text.con), by=12), function(x){
         y <- text.con[x]
+        y <- gsub("^access:\\s+", "", y)
         return(y)
       })
       locus <- sapply(seq(1, length(text.con), by=12), function(x){
         y <- text.con[x]
+        y <- gsub("^locus:\\s+", "", y)
         return(y)
       })
       
@@ -368,62 +371,65 @@ fetchTextByRap <- function(locus="") {
     text.fls <- list.files(path, patter="^pub.text.mining$", full=T)
     if (length(text.fls)>0) {
       text.con <- readLines(text.fls)
+      text.con <- text.con[!grepl("^symbol:", text.con)]
       clone <- sapply(seq(2, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("cloning:\\s+", "", y)
+        y <- gsub("^cloning:\\s+", "", y)
         return(y)
       })
       tdna <- sapply(seq(4, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("tdna:\\s+", "", y)
+        y <- gsub("^tdna:\\s+", "", y)
         return(y)
       })
       tos <- sapply(seq(5, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("tos:\\s+", "", y)
+        y <- gsub("^tos:\\s+", "", y)
         return(y)
       })
       homo <- sapply(seq(6, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("homol:\\s+", "", y)
+        y <- gsub("^homol:\\s+", "", y)
         return(y)
       })
       rnai <- sapply(seq(7, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("rnai:\\s+", "", y)
+        y <- gsub("^rnai:\\s+", "", y)
         return(y)
       })
       ove <- sapply(seq(8, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("ove:\\s+", "", y)
+        y <- gsub("^ove:\\s+", "", y)
         return(y)
       })
       rt <- sapply(seq(9, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("rt:\\s+", "", y)
+        y <- gsub("^rt:\\s+", "", y)
         return(y)
       })
       north <- sapply(seq(10, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("N:\\s+", "", y)
+        y <- gsub("^N:\\s+", "", y)
         return(y)
       })
       south <- sapply(seq(11, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("S:\\s+", "", y)
+        y <- gsub("^S:\\s+", "", y)
         return(y)
       })
       west <- sapply(seq(12, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("W:\\s+", "", y)
+        y <- gsub("^W:\\s+", "", y)
         return(y)
       })
       access <- sapply(seq(3, length(text.con), by=12), function(x){
         y <- text.con[x]
+        y <- gsub("^access:\\s+", "", y)
         return(y)
       })
       locus <- sapply(seq(1, length(text.con), by=12), function(x){
         y <- text.con[x]
+        y <- gsub("^locus:\\s+", "", y)
         return(y)
       })
       
@@ -639,62 +645,65 @@ fetchTextBySym <- function(symbol="") {
     text.fls <- list.files(path, patter="^pub.text.mining$", full=T)
     if (length(text.fls)>0) {
       text.con <- readLines(text.fls)
+      text.con <- text.con[!grepl("^symbol:", text.con)]
       clone <- sapply(seq(2, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("cloning:\\s+", "", y)
+        y <- gsub("^cloning:\\s+", "", y)
         return(y)
       })
       tdna <- sapply(seq(4, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("tdna:\\s+", "", y)
+        y <- gsub("^tdna:\\s+", "", y)
         return(y)
       })
       tos <- sapply(seq(5, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("tos:\\s+", "", y)
+        y <- gsub("^tos:\\s+", "", y)
         return(y)
       })
       homo <- sapply(seq(6, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("homol:\\s+", "", y)
+        y <- gsub("^homol:\\s+", "", y)
         return(y)
       })
       rnai <- sapply(seq(7, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("rnai:\\s+", "", y)
+        y <- gsub("^rnai:\\s+", "", y)
         return(y)
       })
       ove <- sapply(seq(8, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("ove:\\s+", "", y)
+        y <- gsub("^ove:\\s+", "", y)
         return(y)
       })
       rt <- sapply(seq(9, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("rt:\\s+", "", y)
+        y <- gsub("^rt:\\s+", "", y)
         return(y)
       })
       north <- sapply(seq(10, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("N:\\s+", "", y)
+        y <- gsub("^N:\\s+", "", y)
         return(y)
       })
       south <- sapply(seq(11, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("S:\\s+", "", y)
+        y <- gsub("^S:\\s+", "", y)
         return(y)
       })
       west <- sapply(seq(12, length(text.con), by=12), function(x){
         y <- text.con[x]
-        y <- gsub("W:\\s+", "", y)
+        y <- gsub("^W:\\s+", "", y)
         return(y)
       })
       access <- sapply(seq(3, length(text.con), by=12), function(x){
         y <- text.con[x]
+        y <- gsub("^access:\\s+", "", y)
         return(y)
       })
       locus <- sapply(seq(1, length(text.con), by=12), function(x){
         y <- text.con[x]
+        y <- gsub("^locus:\\s+", "", y)
         return(y)
       })
       
