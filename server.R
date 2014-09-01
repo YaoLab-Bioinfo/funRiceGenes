@@ -83,7 +83,7 @@ fetchRefByMsu <- function(locus="") {
       dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
                         quote="", comment="")
       dat$Publication <- NULL
-      dat$Abstract <- NULL
+      dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
@@ -318,7 +318,7 @@ fetchRefByRap <- function(locus="") {
       dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
                         quote="", comment="")
       dat$Publication <- NULL
-      dat$Abstract <- NULL
+      dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
@@ -592,7 +592,7 @@ fetchRefBySym <- function(symbol="") {
       dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
                         quote="", comment="")
       dat$Publication <- NULL
-      dat$Abstract <- NULL
+      dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
