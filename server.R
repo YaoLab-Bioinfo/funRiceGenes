@@ -1054,96 +1054,95 @@ shinyServer(function(input, output) {
   
   output$mytable1 = renderDataTable({
     fetchInfoByMsu(input$msu)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
-                    bPaginate = FALSE)
+  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
   )
   
   output$mytable2 = renderDataTable({
     fetchRefByMsu(input$msu)
-  }, options = list(aLengthMenu = c(2, 3, 4), iDisplayLength = 2,
+  }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
                     bFilter = FALSE, bAutoWidth = FALSE)
   )
   
   output$mytable3 = renderDataTable({
     fetchAccByMsu(input$msu)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
                     iDisplayLength = 2))
   
   output$mytable4 = renderDataTable({
     fetchTextByMsu(input$msu)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable5 = renderDataTable({
     fetchKeyByMsu(input$msu)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable6 = renderDataTable({
     fetchConneByMsu(input$msu)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable7 = renderDataTable({
     fetchInfoByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
-                    bPaginate = FALSE))
+  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
+  )
   
   output$mytable8 = renderDataTable({
     fetchRefByRap(input$rap)
-  }, options = list(aLengthMenu = c(2, 3, 4), iDisplayLength = 2,
+  }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
                     bFilter = FALSE, bAutoWidth = FALSE)
   )
   
   output$mytable9 = renderDataTable({
     fetchAccByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
                     iDisplayLength = 2))
   
   output$mytable10 = renderDataTable({
     fetchTextByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable11 = renderDataTable({
     fetchKeyByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable12 = renderDataTable({
     fetchConneByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable13 = renderDataTable({
     fetchInfoBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
-                    bPaginate = FALSE))
+  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
+  )
   
   output$mytable14 = renderDataTable({
     fetchRefBySym(input$symbol)
-  }, options = list(aLengthMenu = c(2, 3, 4), iDisplayLength = 2,
+  }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
                     bFilter = FALSE, bAutoWidth = FALSE)
   )
   
   output$mytable15 = renderDataTable({
     fetchAccBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
                     iDisplayLength = 2))
   
   output$mytable16 = renderDataTable({
     fetchTextBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable17 = renderDataTable({
     fetchKeyBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable18 = renderDataTable({
     fetchConneBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE,
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable19 = renderDataTable({
