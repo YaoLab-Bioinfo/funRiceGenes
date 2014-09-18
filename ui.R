@@ -1,5 +1,6 @@
 
-shinyUI(fluidPage(theme="bootstrap.css",
+shinyUI(fluidPage(theme="mystyle.css",
+                  tags$head(includeScript("google-analytics.js")),
   
   fluidRow(
     absolutePanel(
@@ -211,6 +212,8 @@ shinyUI(fluidPage(theme="bootstrap.css",
       ),
       wellPanel(
         actionButton("submit7", strong("Update!"))
+#         ,
+#         textOutput("mytext20")
       ),
       
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid

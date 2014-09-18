@@ -9,8 +9,8 @@ geocoding <- function(address="")
   if (grepl("location:", urlRes)) {
     urlRes <- gsub(".+location:", "location:", urlRes)
     urlRes <- gsub("location_type.*", "", urlRes)
-    lng <- gsub(".+lng:\\s+(-*\\d+\\.\\d+).+","\\1",urlRes)
-    lat <- gsub(".+lat:\\s+(-*\\d+\\.\\d+).+","\\1",urlRes)
+    lng <- gsub(".+lng: +(-*\\d+\\.\\d+).+","\\1",urlRes)
+    lat <- gsub(".+lat: +(-*\\d+\\.\\d+).+","\\1",urlRes)
     return(c(lng, lat))
   } else {
     return(c(NA, NA))

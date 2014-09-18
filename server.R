@@ -7,7 +7,7 @@ gene.msu <- 1:nrow(gene.info)
 names(gene.msu) <- gene.info$MSU
 gene.msu <- gene.msu[names(gene.msu)!="None"]
 gene.msu.new <- sapply(names(gene.msu), function(x) {
-  x.name <- unlist(strsplit(x, split="\\|"))
+  x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
   if (length(x.name)==1) {
     return(gene.msu[x])
   } else {
@@ -22,7 +22,7 @@ gene.rap <- 1:nrow(gene.info)
 names(gene.rap) <- gene.info$RAPdb
 gene.rap <- gene.rap[names(gene.rap)!="None"]
 gene.rap.new <- sapply(names(gene.rap), function(x) {
-  x.name <- unlist(strsplit(x, split="\\|"))
+  x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
   if (length(x.name)==1) {
     return(gene.rap[x])
   } else {
@@ -37,7 +37,7 @@ gene.rap.final <- unlist(unname(gene.rap.new))
 ####  MSU
 fetchInfoByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -45,7 +45,7 @@ fetchInfoByMsu <- function(locus="") {
     if (file.exists(gene.fl)) {
       dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
       
-      msu <- unlist(strsplit(dat$MSU, split="\\|"))
+      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
@@ -55,7 +55,7 @@ fetchInfoByMsu <- function(locus="") {
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU <- msu.new
       
-      rap <- unlist(strsplit(dat$RAPdb, split="\\|"))
+      rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                    x, sep="")
@@ -74,7 +74,7 @@ fetchInfoByMsu <- function(locus="") {
 
 fetchRefByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -104,7 +104,7 @@ fetchRefByMsu <- function(locus="") {
 
 fetchAccByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -129,7 +129,7 @@ fetchAccByMsu <- function(locus="") {
 
 fetchTextByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -214,7 +214,7 @@ fetchTextByMsu <- function(locus="") {
 
 fetchKeyByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -242,7 +242,7 @@ fetchKeyByMsu <- function(locus="") {
 
 fetchConneByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -273,14 +273,14 @@ fetchConneByMsu <- function(locus="") {
 #### RAPdb
 fetchInfoByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
     gene.fl <- paste(path, "gene.info", sep="/")
     if (file.exists(gene.fl)) {
       dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
-      msu <- unlist(strsplit(dat$MSU, split="\\|"))
+      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
@@ -290,7 +290,7 @@ fetchInfoByRap <- function(locus="") {
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU <- msu.new
       
-      rap <- unlist(strsplit(dat$RAPdb, split="\\|"))
+      rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                    x, sep="")
@@ -309,7 +309,7 @@ fetchInfoByRap <- function(locus="") {
 
 fetchRefByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -339,7 +339,7 @@ fetchRefByRap <- function(locus="") {
 
 fetchAccByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -364,7 +364,7 @@ fetchAccByRap <- function(locus="") {
 
 fetchTextByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -449,7 +449,7 @@ fetchTextByRap <- function(locus="") {
 
 fetchKeyByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -477,7 +477,7 @@ fetchKeyByRap <- function(locus="") {
 
 fetchConneByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
-  locus <- gsub("\\s+$", "", locus)
+  locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -507,7 +507,7 @@ fetchConneByRap <- function(locus="") {
 findDirBySym <- function(symbol="") {
   line.tar <- sapply(1:nrow(gene.info), function(x){
     sym.line <- gene.info$Symbol[x]
-    sym.line <- unlist(strsplit(sym.line, split="\\|"))
+    sym.line <- unlist(strsplit(sym.line, split='|', fixed=TRUE))
     sym.line <- tolower(sym.line)
     if (any(sym.line==symbol)) {
       return(x)
@@ -521,7 +521,7 @@ findDirBySym <- function(symbol="") {
 #### Symbol
 fetchInfoBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -529,7 +529,7 @@ fetchInfoBySym <- function(symbol="") {
     if (file.exists(gene.fl)) {
       dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
       
-      msu <- unlist(strsplit(dat$MSU, split="\\|"))
+      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
@@ -539,7 +539,7 @@ fetchInfoBySym <- function(symbol="") {
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU <- msu.new
       
-      rap <- unlist(strsplit(dat$RAPdb, split="\\|"))
+      rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                    x, sep="")
@@ -555,7 +555,7 @@ fetchInfoBySym <- function(symbol="") {
     dat <- gene.info[locus.line, ]
     dat$path <- NULL
     for (i in 1:nrow(dat)) {    
-      msu <- unlist(strsplit(dat$MSU[i], split="\\|"))
+      msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
@@ -565,7 +565,7 @@ fetchInfoBySym <- function(symbol="") {
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU[i] <- msu.new
       
-      rap <- unlist(strsplit(dat$RAPdb[i], split="\\|"))
+      rap <- unlist(strsplit(dat$RAPdb[i], split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                    x, sep="")
@@ -583,7 +583,7 @@ fetchInfoBySym <- function(symbol="") {
 
 fetchRefBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -613,7 +613,7 @@ fetchRefBySym <- function(symbol="") {
 
 fetchAccBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -638,7 +638,7 @@ fetchAccBySym <- function(symbol="") {
 
 fetchTextBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -723,7 +723,7 @@ fetchTextBySym <- function(symbol="") {
 
 fetchKeyBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -751,7 +751,7 @@ fetchKeyBySym <- function(symbol="") {
 
 fetchConneBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -781,13 +781,13 @@ fetchConneBySym <- function(symbol="") {
 #### Keyword
 fetchInfoByKey <- function(keyword="") {
   keyword <- gsub("^\\s+", "", keyword)
-  keyword <- gsub("\\s+$", "", keyword)
+  keyword <- gsub(" +$", "", keyword)
   all.key <- unique(gene.keyword$Keyword)
   if (tolower(keyword) %in% all.key) {
     dat <- gene.keyword[gene.keyword$Keyword==tolower(keyword), ]
     dat$Keyword <- NULL
     for (i in 1:nrow(dat)) {    
-      msu <- unlist(strsplit(dat$MSU[i], split="\\|"))
+      msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
@@ -797,7 +797,7 @@ fetchInfoByKey <- function(keyword="") {
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU[i] <- msu.new
       
-      rap <- unlist(strsplit(dat$RAPdb[i], split="\\|"))
+      rap <- unlist(strsplit(dat$RAPdb[i], split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                    x, sep="")
@@ -844,7 +844,7 @@ write.gene <- function(df) {
     }
   }
   
-  symbol <- gsub("\\|", "~", symbol)
+  symbol <- gsub('|', "~", symbol, fixed=TRUE)
   dir.to <- paste(dir.to, symbol, sep="/")
   if (!file.exists(dir.to)) {
     dir.create(dir.to)
@@ -856,7 +856,7 @@ write.gene <- function(df) {
 write.pub <- function(df) {
   symbol <- df$Symbol
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   df$Symbol <- gene.info$Symbol[locus.line]
   if (length(locus.line)==1) {
@@ -879,7 +879,7 @@ write.pub <- function(df) {
 write.acc <- function(df) {
   symbol <- df$Symbol
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
@@ -894,7 +894,7 @@ write.acc <- function(df) {
 write.key <- function(df) {
   symbol <- df$Symbol
   symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub("\\s+$", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
   df$Symbol <- gene.info$Symbol[locus.line]
   if (length(locus.line)==1) {
@@ -1217,8 +1217,11 @@ shinyServer(function(input, output) {
   
   observe({
     if (input$submit7>0) {
-      updateGeneInfo()
-      updateKeyword()
+      isolate({
+        updateGeneInfo()
+        updateKeyword()
+        renderPrint({ "Update successfully!" })
+      })
     } else {NULL}
   })
   
