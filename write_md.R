@@ -2,7 +2,7 @@
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
 # for (j in 1:nrow(gene.lst)) {
-for (j in 1:5) {
+for (j in 6:nrow(gene.lst)) {
   sym <- gene.lst$Symbol[j]
   sym <- gsub("\\|", ",", sym)
   msu <- gene.lst$MSU[j]
@@ -159,6 +159,7 @@ for (j in 1:5) {
   }
   md.cont <- c(md.cont, "", "")
   
+  gene.lst$Symbol[j] <- gsub("\\|", "~", gene.lst$Symbol[j])
   out.fl.name <- paste("2014-09-20-", gene.lst$Symbol[j], ".md", sep="")
   out.fl.name <- paste(path, out.fl.name, sep="/")
   
