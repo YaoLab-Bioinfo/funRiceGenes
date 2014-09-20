@@ -122,11 +122,11 @@ for (j in 1:5) {
   md.cont[8] <- "{% include JB/setup %}"
   md.cont[9] <- ""
   md.cont[10] <- "## Information"
-  md.sym <- paste("__Symbol__: ", sym, sep="")
+  md.sym <- paste("__Symbol__: ", sym, "  ", sep="")
   md.cont <- c(md.cont, md.sym)
-  md.msu <- paste("__MSU__: ", msu.new, sep="")
+  md.msu <- paste("__MSU__: ", msu.new, "  ", sep="")
   md.cont <- c(md.cont, md.msu)
-  md.rap <- paste("__RAPdb__: ", rap.new, sep="")
+  md.rap <- paste("__RAPdb__: ", rap.new, "  ", sep="")
   md.cont <- c(md.cont, md.rap)
   md.cont <- c(md.cont, "", "## Publication")
   if (!is.null(ref)) {
