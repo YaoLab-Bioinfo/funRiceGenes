@@ -1,4 +1,5 @@
 
+setwd("E:/GIT/RICENCODE")
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
 # for (j in 1:nrow(gene.lst)) {
@@ -8,7 +9,7 @@ for (j in 6:nrow(gene.lst)) {
   msu <- gene.lst$MSU[j]
   rap <- gene.lst$RAPdb[j]
   path <- gene.lst$path[j]
-  path <- paste("E:/git/RicENcode/RICENCODE", path, sep="/")
+  path <- paste("E:/GIT/RICENCODE", path, sep="/")
   
   ### msu
   msu <- unlist(strsplit(msu, split='|', fixed=TRUE))
@@ -101,8 +102,8 @@ for (j in 6:nrow(gene.lst)) {
                             sep="")
     }
     cone$Evidence <- gsub("\\|", ",", cone$Evidence)
-    cone$Symbol1 <- gsub("\\|", ",", cone$Symbol1)
-    cone$Symbol2 <- gsub("\\|", ",", cone$Symbol2)
+    cone$Symbol1 <- gsub("\\|", "~", cone$Symbol1)
+    cone$Symbol2 <- gsub("\\|", "~", cone$Symbol2)
   }
   
   ###  output file
@@ -113,7 +114,7 @@ for (j in 6:nrow(gene.lst)) {
   md.cont[4] <- 'description: ""'
   md.cont[5] <- "category: genes"
   if (!is.null(key)) {
-    key.tmp <- paste(key$Keyword, sep="", collapse=", ")
+    key.tmp <- paste(unique(key$Keyword), sep="", collapse=", ")
     md.cont[6] <- paste('tags: [', key.tmp, ']', sep="")
   } else {
     md.cont[6] <- 'tags: '
