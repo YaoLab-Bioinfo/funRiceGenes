@@ -7936,12 +7936,12 @@ OsTPS1	Os05g0518600	LOC_Os05g44210	salt	"Characterization of a drought-responsiv
 OsTPS1	Os05g0518600	LOC_Os05g44210	transcription factor	Characterization of a drought-responsive gene, OsTPS1, identified by the T-DNA gene-trap system in rice
 OsTPS3	Os01g0730300	LOC_Os01g53000	defense	The rice (E)-beta-caryophyllene synthase (OsTPS3) accounts for the major inducible volatile sesquiterpenes
 OsTPS3	Os01g0730300	LOC_Os01g53000	jasmonate	The rice (E)-beta-caryophyllene synthase (OsTPS3) accounts for the major inducible volatile sesquiterpenes
-OsTrx1	Os09g0134500	LOC_Os09g04890	flowering time	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
-OsTrx1	Os09g0134500	LOC_Os09g04890	height	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
-OsTrx1	Os09g0134500	LOC_Os09g04890	grain number	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
-OsTrx1	Os09g0134500	LOC_Os09g04890	flower	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
-OsTrx1	Os09g0134500	LOC_Os09g04890	grain	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
-OsTrx1	Os09g0134500	LOC_Os09g04890	heading date	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
+OsTrx1|SDG723	Os09g0134500	LOC_Os09g04890	flowering time	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
+OsTrx1|SDG723	Os09g0134500	LOC_Os09g04890	height	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
+OsTrx1|SDG723	Os09g0134500	LOC_Os09g04890	grain number	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
+OsTrx1|SDG723	Os09g0134500	LOC_Os09g04890	flower	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
+OsTrx1|SDG723	Os09g0134500	LOC_Os09g04890	grain	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
+OsTrx1|SDG723	Os09g0134500	LOC_Os09g04890	heading date	Trithorax group protein Oryza sativa Trithorax1 controls flowering time in rice via interaction with early heading date3
 OsTrx23|OsTRXh1	Os07g0186000	LOC_Os07g08840	tiller	An apoplastic h-type thioredoxin is involved in the stress response through regulation of the apoplastic reactive oxygen species in rice
 OsTrx23|OsTRXh1	Os07g0186000	LOC_Os07g08840	seed germination	An apoplastic h-type thioredoxin is involved in the stress response through regulation of the apoplastic reactive oxygen species in rice
 OsTrx23|OsTRXh1	Os07g0186000	LOC_Os07g08840	growth	An apoplastic h-type thioredoxin is involved in the stress response through regulation of the apoplastic reactive oxygen species in rice
@@ -9558,6 +9558,13 @@ sh4|SHA1	Os04g0670900	LOC_Os04g57530	shattering	Origin of seed shattering in ric
 sh4|SHA1	Os04g0670900	LOC_Os04g57530	spikelet	Genetic control of seed shattering in rice by the APETALA2 transcription factor shattering abortion1
 sh4|SHA1	Os04g0670900	LOC_Os04g57530	shattering	Molecular evolution of shattering loci in U.S. weedy rice
 sh4|SHA1	Os04g0670900	LOC_Os04g57530	seed	Genetic control of seed shattering in rice by the APETALA2 transcription factor shattering abortion1
+SH5	Os05g0455200	LOC_Os05g38120	homeobox gene	The BEL1-type homeobox gene SH5 induces seed shattering by enhancing abscission-zone development and inhibiting lignin biosynthesis
+SH5	Os05g0455200	LOC_Os05g38120	seed shattering	The BEL1-type homeobox gene SH5 induces seed shattering by enhancing abscission-zone development and inhibiting lignin biosynthesis
+SH5	Os05g0455200	LOC_Os05g38120	shattering	The BEL1-type homeobox gene SH5 induces seed shattering by enhancing abscission-zone development and inhibiting lignin biosynthesis
+SH5	Os05g0455200	LOC_Os05g38120	abscission-zone development	The BEL1-type homeobox gene SH5 induces seed shattering by enhancing abscission-zone development and inhibiting lignin biosynthesis
+SH5	Os05g0455200	LOC_Os05g38120	development	The BEL1-type homeobox gene SH5 induces seed shattering by enhancing abscission-zone development and inhibiting lignin biosynthesis
+SH5	Os05g0455200	LOC_Os05g38120	lignin biosynthesis	The BEL1-type homeobox gene SH5 induces seed shattering by enhancing abscission-zone development and inhibiting lignin biosynthesis
+SH5	Os05g0455200	LOC_Os05g38120	lignin	The BEL1-type homeobox gene SH5 induces seed shattering by enhancing abscission-zone development and inhibiting lignin biosynthesis
 SHAT1	Os04g0649100	LOC_Os04g55560	transcription factor	Genetic control of seed shattering in rice by the APETALA2 transcription factor shattering abortion1
 SHAT1	Os04g0649100	LOC_Os04g55560	seed	Genetic control of seed shattering in rice by the APETALA2 transcription factor shattering abortion1
 SHAT1	Os04g0649100	LOC_Os04g55560	shattering	Genetic control of seed shattering in rice by the APETALA2 transcription factor shattering abortion1
