@@ -32,14 +32,12 @@ shinyUI(fluidPage(theme="mystyle.css",
 #                        cyan;'></div>")),
       br(),
       
-      textInput("msu", label = 
-                   HTML("
-                       <h4>* Query with the genomic locus
-                           assigned by the <a href='http://rice.plantbiology.msu.edu'>
-                           Rice Genome Annotation Project</a>
-                       </h4>
-                        "), 
-                value = "LOC_Os07g15770"),
+      selectInput("query", h4("* Query with gene symbol or genomic locus 
+                              assigned by the Rice Genome Annotation Project:"), 
+            choices=c("Msu locus", "RAPdb locus", "Gene symbol")),
+
+      uiOutput("inText"),
+
       tabsetPanel(
         tabPanel(strong('Information'), dataTableOutput("mytable1")),
         tabPanel('Reference', dataTableOutput("mytable2")),
@@ -48,51 +46,68 @@ shinyUI(fluidPage(theme="mystyle.css",
         tabPanel('Keyword', dataTableOutput("mytable5")),
         tabPanel('Connection', dataTableOutput("mytable6"))
       ),
-      
-      br(),
+
+#       textInput("msu", label = 
+#                    HTML("
+#                        <h4>* Query with the genomic locus
+#                            assigned by the <a href='http://rice.plantbiology.msu.edu'>
+#                            Rice Genome Annotation Project</a>
+#                        </h4>
+#                         "), 
+#                 value = "LOC_Os07g15770"),
+#       tabsetPanel(
+#         tabPanel(strong('Information'), dataTableOutput("mytable1")),
+#         tabPanel('Reference', dataTableOutput("mytable2")),
+#         tabPanel('Accession', dataTableOutput("mytable3")),
+#         tabPanel('Text-mining', dataTableOutput("mytable4")),
+#         tabPanel('Keyword', dataTableOutput("mytable5")),
+#         tabPanel('Connection', dataTableOutput("mytable6"))
+#       ),
+#       
+#       br(),
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
 #                        blue;'></div></b>")),
       
-      textInput("rap", label = 
-                  HTML("
-                       <h4>* Query with the genomic locus
-                           assigned by the <a href='http://rapdb.dna.affrc.go.jp/'>
-                           Rice Annotation Project</a>
-                       </h4>
-                        "), 
-                value = "Os05g0158500"),
-      tabsetPanel(
-        tabPanel('Information', dataTableOutput("mytable7")),
-        tabPanel('Reference', dataTableOutput("mytable8")),
-        tabPanel('Accession', dataTableOutput("mytable9")),
-        tabPanel('Text-mining', dataTableOutput("mytable10")),
-        tabPanel('Keyword', dataTableOutput("mytable11")),
-        tabPanel('Connection', dataTableOutput("mytable12"))
-      ), 
-      
-      br(),
+#       textInput("rap", label = 
+#                   HTML("
+#                        <h4>* Query with the genomic locus
+#                            assigned by the <a href='http://rapdb.dna.affrc.go.jp/'>
+#                            Rice Annotation Project</a>
+#                        </h4>
+#                         "), 
+#                 value = "Os05g0158500"),
+#       tabsetPanel(
+#         tabPanel('Information', dataTableOutput("mytable7")),
+#         tabPanel('Reference', dataTableOutput("mytable8")),
+#         tabPanel('Accession', dataTableOutput("mytable9")),
+#         tabPanel('Text-mining', dataTableOutput("mytable10")),
+#         tabPanel('Keyword', dataTableOutput("mytable11")),
+#         tabPanel('Connection', dataTableOutput("mytable12"))
+#       ), 
+#       
+#       br(),
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
 #                        blue;'></div></b>")),
       
-      textInput("symbol", label = h4("* Query with gene symbol"), 
-                value = "Moc1"),
-      tabsetPanel(
-        tabPanel('Information', dataTableOutput("mytable13")),
-        tabPanel('Reference', dataTableOutput("mytable14")),
-        tabPanel('Accession', dataTableOutput("mytable15")),
-        tabPanel('Text-mining', dataTableOutput("mytable16")),
-        tabPanel('Keyword', dataTableOutput("mytable17")),
-        tabPanel('Connection', dataTableOutput("mytable18"))
-      ),
-      
-      br(),
+#       textInput("symbol", label = h4("* Query with gene symbol"), 
+#                 value = "Moc1"),
+#       tabsetPanel(
+#         tabPanel('Information', dataTableOutput("mytable13")),
+#         tabPanel('Reference', dataTableOutput("mytable14")),
+#         tabPanel('Accession', dataTableOutput("mytable15")),
+#         tabPanel('Text-mining', dataTableOutput("mytable16")),
+#         tabPanel('Keyword', dataTableOutput("mytable17")),
+#         tabPanel('Connection', dataTableOutput("mytable18"))
+#       ),
+#       
+#       br(),
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
 #                        blue;'></div></b>")),
       
       textInput("keyword", label = h4("* Query with keyword to characterize agronomic trait"), 
                 value = "heading date"),
       tabsetPanel(
-        tabPanel('Information', dataTableOutput("mytable19"))
+        tabPanel('Information', dataTableOutput("mytable7"))
       ),
       
       br(),

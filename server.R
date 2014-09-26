@@ -1,4 +1,37 @@
 
+fam.gene.info <- read.table("famInfo.table", head=T, sep="\t", as.is=T)
+
+fam.gene.msu <- 1:nrow(fam.gene.info)
+names(fam.gene.msu) <- fam.gene.info$MSU
+fam.gene.msu <- fam.gene.msu[names(fam.gene.msu)!="None"]
+fam.gene.msu.new <- sapply(names(fam.gene.msu), function(x) {
+  x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
+  if (length(x.name)==1) {
+    return(fam.gene.msu[x])
+  } else {
+    y <- rep(fam.gene.msu[x], length(x.name))
+    names(y) <- x.name
+    return(y)
+  }
+})
+fam.gene.msu.final <- unlist(unname(fam.gene.msu.new))
+
+fam.gene.rap <- 1:nrow(fam.gene.info)
+names(fam.gene.rap) <- fam.gene.info$RAPdb
+fam.gene.rap <- fam.gene.rap[names(fam.gene.rap)!="None"]
+fam.gene.rap.new <- sapply(names(fam.gene.rap), function(x) {
+  x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
+  if (length(x.name)==1) {
+    return(fam.gene.rap[x])
+  } else {
+    y <- rep(fam.gene.rap[x], length(x.name))
+    names(y) <- x.name
+    return(y)
+  }
+})
+fam.gene.rap.final <- unlist(unname(fam.gene.rap.new))
+
+
 gene.info <- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
 gene.keyword <- read.table("geneKeyword.table", head=T, 
                            sep="\t", as.is=T, quote="", comment="")
@@ -41,6 +74,43 @@ fetchInfoByMsu <- function(locus="") {
   locus.line <- gene.msu.final[locus]
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
+    gene.fl <- paste(path, "gene.info", sep="/")
+    if (file.exists(gene.fl)) {
+      dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
+      
+      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
+      msu.new <- sapply(msu, function(x){
+        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- HTML(y)
+      })
+      msu.new <- paste(unname(msu.new), sep="", collapse="|")
+      dat$MSU <- msu.new
+      
+      rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
+      rap.new <- sapply(rap, function(x){
+        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- HTML(y)
+      })
+      rap.new <- paste(unname(rap.new), sep="", collapse="|")
+      dat$RAPdb <- rap.new
+      
+      return(dat)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
+fetchFamInfoByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub(" +$", "", locus)
+  locus.line <- fam.gene.msu.final[locus]
+  if (length(locus.line)==1) {
+    path <- fam.gene.info$path[locus.line]
     gene.fl <- paste(path, "gene.info", sep="/")
     if (file.exists(gene.fl)) {
       dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
@@ -1048,104 +1118,109 @@ updateKeyword <- function() {
   write.table(all.key.df, file="geneKeyword.table", sep="\t", quote=F, row.names=F)
 }
 
+fetchInfoByChoice <- function(query="", text="") {
+  if (query=="Msu locus") {
+    return(fetchInfoByMsu(text))
+  } else if (query=="RAPdb locus") {
+    return(fetchInfoByRap(text))
+  } else if (query=="Gene symbol") {
+    return(fetchInfoBySym(text))
+  }
+}
+
+fetchRefByChoice <- function(query="", text="") {
+  if (query=="Msu locus") {
+    return(fetchRefByMsu(text))
+  } else if (query=="RAPdb locus") {
+    return(fetchRefByRap(text))
+  } else if (query=="Gene symbol") {
+    return(fetchRefBySym(text))
+  }
+}
+
+fetchAccByChoice <- function(query="", text="") {
+  if (query=="Msu locus") {
+    return(fetchAccByMsu(text))
+  } else if (query=="RAPdb locus") {
+    return(fetchAccByRap(text))
+  } else if (query=="Gene symbol") {
+    return(fetchAccBySym(text))
+  }
+}
+
+fetchTextByChoice <- function(query="", text="") {
+  if (query=="Msu locus") {
+    return(fetchTextByMsu(text))
+  } else if (query=="RAPdb locus") {
+    return(fetchTextByRap(text))
+  } else if (query=="Gene symbol") {
+    return(fetchTextBySym(text))
+  }
+}
+
+fetchKeyByChoice <- function(query="", text="") {
+  if (query=="Msu locus") {
+    return(fetchKeyByMsu(text))
+  } else if (query=="RAPdb locus") {
+    return(fetchKeyByRap(text))
+  } else if (query=="Gene symbol") {
+    return(fetchKeyBySym(text))
+  }
+}
+
+fetchConneByChoice <- function(query="", text="") {
+  if (query=="Msu locus") {
+    return(fetchConneByMsu(text))
+  } else if (query=="RAPdb locus") {
+    return(fetchConneByRap(text))
+  } else if (query=="Gene symbol") {
+    return(fetchConneBySym(text))
+  }
+}
+
+query.intext <- c("LOC_Os07g15770", "Os05g0158500", "Moc1")
+names(query.intext) <- c("Msu locus", "RAPdb locus", "Gene symbol")
 
 #### Shiny
 shinyServer(function(input, output) {
   
+  output$inText <- renderUI({
+    textInput("inText", strong("Put your query here:"), 
+              value=query.intext[input$query])
+  })
+  
   output$mytable1 = renderDataTable({
-    fetchInfoByMsu(input$msu)
+    fetchInfoByChoice(input$query, input$inText)
   }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
   )
   
   output$mytable2 = renderDataTable({
-    fetchRefByMsu(input$msu)
+    fetchRefByChoice(input$query, input$inText)
   }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
                     bFilter = FALSE, bAutoWidth = FALSE)
   )
   
   output$mytable3 = renderDataTable({
-    fetchAccByMsu(input$msu)
+    fetchAccByChoice(input$query, input$inText)
   }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
                     iDisplayLength = 2))
   
   output$mytable4 = renderDataTable({
-    fetchTextByMsu(input$msu)
+    fetchTextByChoice(input$query, input$inText)
   }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable5 = renderDataTable({
-    fetchKeyByMsu(input$msu)
+    fetchKeyByChoice(input$query, input$inText)
   }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable6 = renderDataTable({
-    fetchConneByMsu(input$msu)
+    fetchConneByChoice(input$query, input$inText)
   }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable7 = renderDataTable({
-    fetchInfoByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
-  )
-  
-  output$mytable8 = renderDataTable({
-    fetchRefByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
-                    bFilter = FALSE, bAutoWidth = FALSE)
-  )
-  
-  output$mytable9 = renderDataTable({
-    fetchAccByRap(input$rap)
-  }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
-                    iDisplayLength = 2))
-  
-  output$mytable10 = renderDataTable({
-    fetchTextByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
-  
-  output$mytable11 = renderDataTable({
-    fetchKeyByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
-  
-  output$mytable12 = renderDataTable({
-    fetchConneByRap(input$rap)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
-  
-  output$mytable13 = renderDataTable({
-    fetchInfoBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
-  )
-  
-  output$mytable14 = renderDataTable({
-    fetchRefBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
-                    bFilter = FALSE, bAutoWidth = FALSE)
-  )
-  
-  output$mytable15 = renderDataTable({
-    fetchAccBySym(input$symbol)
-  }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
-                    iDisplayLength = 2))
-  
-  output$mytable16 = renderDataTable({
-    fetchTextBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
-  
-  output$mytable17 = renderDataTable({
-    fetchKeyBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
-  
-  output$mytable18 = renderDataTable({
-    fetchConneBySym(input$symbol)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
-  
-  output$mytable19 = renderDataTable({
     fetchInfoByKey(input$keyword)
   }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
                     iDisplayLength = 2, bAutoWidth = FALSE))
