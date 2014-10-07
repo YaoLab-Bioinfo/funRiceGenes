@@ -33,7 +33,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       br(),
       
       selectInput("query", h4("* Query with gene symbol or genomic locus 
-                              assigned by the Rice Genome Annotation Project:"), 
+                              assigned by the Rice Genome Annotation Project"), 
             choices=c("Msu locus", "RAPdb locus", "Gene symbol")),
 
       uiOutput("inText"),
@@ -45,6 +45,17 @@ shinyUI(fluidPage(theme="mystyle.css",
         tabPanel('Text-mining', dataTableOutput("mytable4")),
         tabPanel('Keyword', dataTableOutput("mytable5")),
         tabPanel('Connection', dataTableOutput("mytable6"))
+      ),
+
+      selectInput("queryfam", h4("* Query gene family using 
+                                    gene symbol or genomic locus"), 
+            choices=c("Msu locus", "RAPdb locus", "Gene symbol")),
+
+      uiOutput("inTextfam"),
+
+      tabsetPanel(
+        tabPanel(strong('Information'), dataTableOutput("mytable8")),
+        tabPanel('Reference', dataTableOutput("mytable9"))
       ),
 
 #       textInput("msu", label = 

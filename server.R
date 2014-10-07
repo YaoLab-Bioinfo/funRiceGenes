@@ -110,10 +110,7 @@ fetchFamInfoByMsu <- function(locus="") {
   locus <- gsub(" +$", "", locus)
   locus.line <- fam.gene.msu.final[locus]
   if (length(locus.line)==1) {
-    path <- fam.gene.info$path[locus.line]
-    gene.fl <- paste(path, "gene.info", sep="/")
-    if (file.exists(gene.fl)) {
-      dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
+      dat <- fam.gene.info[locus.line, ]
       
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
@@ -135,8 +132,8 @@ fetchFamInfoByMsu <- function(locus="") {
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
       dat$RAPdb <- rap.new
       
+      dat$path <- NULL
       return(dat)
-    }
   } else {
     return(NULL)
   }
@@ -153,6 +150,35 @@ fetchRefByMsu <- function(locus="") {
       dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
                         quote="", comment="")
       dat$Publication <- NULL
+      dat$Affiliation <- NULL
+      for (i in 1:nrow(dat)) {
+        title <- dat$Title[i]
+        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+                              '?term=(', dat$Title[i],'%5BTitle%5D', 
+                              ')', sep='')
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+                              '</a>', sep="")
+        dat$Title[i] <- HTML(dat$Title[i])
+      }
+      return(dat)
+    } else {
+      return(NULL)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
+fetchFamRefByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub(" +$", "", locus)
+  locus.line <- fam.gene.msu.final[locus]
+  if (length(locus.line)==1) {
+    path <- fam.gene.info$path[locus.line]
+    ref.fl <- paste(path, "family.ref", sep="/")
+    if (file.exists(ref.fl)) {
+      dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
+                        quote="", comment="")
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
@@ -377,6 +403,40 @@ fetchInfoByRap <- function(locus="") {
   }
 }
 
+fetchFamInfoByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub(" +$", "", locus)
+  locus.line <- fam.gene.rap.final[locus]
+  if (length(locus.line)==1) {
+      dat <- fam.gene.info[locus.line, ]
+      
+      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
+      msu.new <- sapply(msu, function(x){
+        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- HTML(y)
+      })
+      msu.new <- paste(unname(msu.new), sep="", collapse="|")
+      dat$MSU <- msu.new
+      
+      rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
+      rap.new <- sapply(rap, function(x){
+        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- HTML(y)
+      })
+      rap.new <- paste(unname(rap.new), sep="", collapse="|")
+      dat$RAPdb <- rap.new
+      dat$path <- NULL
+      
+      return(dat)
+  } else {
+    return(NULL)
+  }
+}
+
 fetchRefByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
@@ -388,6 +448,35 @@ fetchRefByRap <- function(locus="") {
       dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
                         quote="", comment="")
       dat$Publication <- NULL
+      dat$Affiliation <- NULL
+      for (i in 1:nrow(dat)) {
+        title <- dat$Title[i]
+        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+                              '?term=(', dat$Title[i],'%5BTitle%5D', 
+                              ')', sep='')
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+                              '</a>', sep="")
+        dat$Title[i] <- HTML(dat$Title[i])
+      }
+      return(dat)
+    } else {
+      return(NULL)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
+fetchFamRefByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub(" +$", "", locus)
+  locus.line <- fam.gene.rap.final[locus]
+  if (length(locus.line)==1) {
+    path <- fam.gene.info$path[locus.line]
+    ref.fl <- paste(path, "family.ref", sep="/")
+    if (file.exists(ref.fl)) {
+      dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
+                        quote="", comment="")
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
@@ -588,6 +677,20 @@ findDirBySym <- function(symbol="") {
   return(unlist(unname(line.tar)))
 }
 
+findDirByFamSym <- function(symbol="") {
+  line.tar <- sapply(1:nrow(fam.gene.info), function(x){
+    sym.line <- fam.gene.info$Symbol[x]
+    sym.line <- unlist(strsplit(sym.line, split='|', fixed=TRUE))
+    sym.line <- tolower(sym.line)
+    if (any(sym.line==symbol)) {
+      return(x)
+    } else {
+      return(NULL)
+    }
+  })
+  return(unlist(unname(line.tar)))
+}
+
 #### Symbol
 fetchInfoBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
@@ -651,6 +754,40 @@ fetchInfoBySym <- function(symbol="") {
   }
 }
 
+fetchFamInfoBySym <- function(symbol="") {
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
+  locus.line <- findDirByFamSym(tolower(symbol))
+  if (length(locus.line) >= 1) {
+    dat <- fam.gene.info[locus.line, ]
+    dat$path <- NULL
+    for (i in 1:nrow(dat)) {    
+      msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
+      msu.new <- sapply(msu, function(x){
+        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- HTML(y)
+      })
+      msu.new <- paste(unname(msu.new), sep="", collapse="|")
+      dat$MSU[i] <- msu.new
+      
+      rap <- unlist(strsplit(dat$RAPdb[i], split='|', fixed=TRUE))
+      rap.new <- sapply(rap, function(x){
+        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- HTML(y)
+      })
+      rap.new <- paste(unname(rap.new), sep="", collapse="|")
+      dat$RAPdb[i] <- rap.new
+    }
+    return(dat)
+  } else {
+    return(NULL)
+  }
+}
+
 fetchRefBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
@@ -662,6 +799,36 @@ fetchRefBySym <- function(symbol="") {
       dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
                         quote="", comment="")
       dat$Publication <- NULL
+      dat$Affiliation <- NULL
+      for (i in 1:nrow(dat)) {
+        title <- dat$Title[i]
+        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+                              '?term=(', dat$Title[i],'%5BTitle%5D', 
+                              ')', sep='')
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+                              '</a>', sep="")
+        dat$Title[i] <- HTML(dat$Title[i])
+      }
+      return(dat)
+    } else {
+      return(NULL)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
+
+fetchFamRefBySym <- function(symbol="") {
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
+  locus.line <- findDirByFamSym(tolower(symbol))
+  if (length(locus.line)==1) {
+    path <- fam.gene.info$path[locus.line]
+    ref.fl <- paste(path, "family.ref", sep="/")
+    if (file.exists(ref.fl)) {
+      dat <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
+                        quote="", comment="")
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
@@ -1181,6 +1348,29 @@ fetchConneByChoice <- function(query="", text="") {
 query.intext <- c("LOC_Os07g15770", "Os05g0158500", "Moc1")
 names(query.intext) <- c("Msu locus", "RAPdb locus", "Gene symbol")
 
+fetchFamInfoByChoice <- function(query="", text="") {
+  if (query=="Msu locus") {
+    return(fetchFamInfoByMsu(text))
+  } else if (query=="RAPdb locus") {
+    return(fetchFamInfoByRap(text))
+  } else if (query=="Gene symbol") {
+    return(fetchFamInfoBySym(text))
+  }
+}
+
+fetchFamRefByChoice <- function(query="", text="") {
+  if (query=="Msu locus") {
+    return(fetchFamRefByMsu(text))
+  } else if (query=="RAPdb locus") {
+    return(fetchFamRefByRap(text))
+  } else if (query=="Gene symbol") {
+    return(fetchFamRefBySym(text))
+  }
+}
+
+query.intext.fam <- c("LOC_Os10g41510", "Os02g0677300", "RCN1")
+names(query.intext.fam) <- c("Msu locus", "RAPdb locus", "Gene symbol")
+
 #### Shiny
 shinyServer(function(input, output) {
   
@@ -1224,6 +1414,22 @@ shinyServer(function(input, output) {
     fetchInfoByKey(input$keyword)
   }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
                     iDisplayLength = 2, bAutoWidth = FALSE))
+  
+  output$inTextfam <- renderUI({
+    textInput("inTextfam", strong("Put your query here:"), 
+              value=query.intext.fam[input$queryfam])
+  })
+  
+  output$mytable8 = renderDataTable({
+    fetchFamInfoByChoice(input$queryfam, input$inTextfam)
+  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
+  )
+  
+  output$mytable9 = renderDataTable({
+    fetchFamRefByChoice(input$queryfam, input$inTextfam)
+  }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
+                    bFilter = FALSE, bAutoWidth = FALSE)
+  )
   
   observe({
     if (input$submit1>0) {
