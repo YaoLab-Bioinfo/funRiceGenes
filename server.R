@@ -1346,7 +1346,7 @@ fetchConneByChoice <- function(query="", text="") {
 }
 
 query.intext <- c("LOC_Os07g15770", "Os05g0158500", "Moc1")
-names(query.intext) <- c("Msu locus", "RAPdb locus", "Gene symbol")
+names(query.intext) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
 fetchFamInfoByChoice <- function(query="", text="") {
   if (query=="Msu locus") {
@@ -1369,7 +1369,7 @@ fetchFamRefByChoice <- function(query="", text="") {
 }
 
 query.intext.fam <- c("LOC_Os10g41510", "Os02g0677300", "RCN1")
-names(query.intext.fam) <- c("Msu locus", "RAPdb locus", "Gene symbol")
+names(query.intext.fam) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
 #### Shiny
 shinyServer(function(input, output) {

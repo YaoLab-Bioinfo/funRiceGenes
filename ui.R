@@ -34,7 +34,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       
       selectInput("query", h4("* Query with gene symbol or genomic locus 
                               assigned by the Rice Genome Annotation Project"), 
-            choices=c("Msu locus", "RAPdb locus", "Gene symbol")),
+            choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol")),
 
       uiOutput("inText"),
 
@@ -49,7 +49,7 @@ shinyUI(fluidPage(theme="mystyle.css",
 
       selectInput("queryfam", h4("* Query gene family using 
                                     gene symbol or genomic locus"), 
-            choices=c("Msu locus", "RAPdb locus", "Gene symbol")),
+            choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol")),
 
       uiOutput("inTextfam"),
 
@@ -207,6 +207,23 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(3, textInput('evisub5', strong("Evidence"),value="")),
         actionButton("submit5", strong("Submit"))
       ),
+
+      p(HTML("
+        <h4>* Submit new phenotype and expression figures to this database
+        </h4>
+        ")
+      ),
+      wellPanel(
+        column(3, textInput('symsub8', strong("Gene symbol"),value="")),
+        column(3, fileInput('phenofig', strong("Phenotype Figure"),
+                            accept=c(".tif", ".png", ".tiff"))),
+        column(3, fileInput('expfig', strong("Expression Figure"),
+                            accept=c(".tif", ".png", ".tiff"))),
+        actionButton("submit8", strong("Submit"))
+      ),
+
+fileInput('file1', 'Choose CSV File',
+          accept=c('text/csv', 'text/comma-separated-values,text/plain', '.csv')),
       
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
 #                        blue;'></div></b>")),
