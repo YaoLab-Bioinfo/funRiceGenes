@@ -1286,61 +1286,61 @@ updateKeyword <- function() {
 }
 
 fetchInfoByChoice <- function(query="", text="") {
-  if (query=="Msu locus") {
+  if (query=="MSU Locus") {
     return(fetchInfoByMsu(text))
-  } else if (query=="RAPdb locus") {
+  } else if (query=="RAPdb Locus") {
     return(fetchInfoByRap(text))
-  } else if (query=="Gene symbol") {
+  } else if (query=="Gene Symbol") {
     return(fetchInfoBySym(text))
   }
 }
 
 fetchRefByChoice <- function(query="", text="") {
-  if (query=="Msu locus") {
+  if (query=="MSU Locus") {
     return(fetchRefByMsu(text))
-  } else if (query=="RAPdb locus") {
+  } else if (query=="RAPdb Locus") {
     return(fetchRefByRap(text))
-  } else if (query=="Gene symbol") {
+  } else if (query=="Gene Symbol") {
     return(fetchRefBySym(text))
   }
 }
 
 fetchAccByChoice <- function(query="", text="") {
-  if (query=="Msu locus") {
+  if (query=="MSU Locus") {
     return(fetchAccByMsu(text))
-  } else if (query=="RAPdb locus") {
+  } else if (query=="RAPdb Locus") {
     return(fetchAccByRap(text))
-  } else if (query=="Gene symbol") {
+  } else if (query=="Gene Symbol") {
     return(fetchAccBySym(text))
   }
 }
 
 fetchTextByChoice <- function(query="", text="") {
-  if (query=="Msu locus") {
+  if (query=="MSU Locus") {
     return(fetchTextByMsu(text))
-  } else if (query=="RAPdb locus") {
+  } else if (query=="RAPdb Locus") {
     return(fetchTextByRap(text))
-  } else if (query=="Gene symbol") {
+  } else if (query=="Gene Symbol") {
     return(fetchTextBySym(text))
   }
 }
 
 fetchKeyByChoice <- function(query="", text="") {
-  if (query=="Msu locus") {
+  if (query=="MSU Locus") {
     return(fetchKeyByMsu(text))
-  } else if (query=="RAPdb locus") {
+  } else if (query=="RAPdb Locus") {
     return(fetchKeyByRap(text))
-  } else if (query=="Gene symbol") {
+  } else if (query=="Gene Symbol") {
     return(fetchKeyBySym(text))
   }
 }
 
 fetchConneByChoice <- function(query="", text="") {
-  if (query=="Msu locus") {
+  if (query=="MSU Locus") {
     return(fetchConneByMsu(text))
-  } else if (query=="RAPdb locus") {
+  } else if (query=="RAPdb Locus") {
     return(fetchConneByRap(text))
-  } else if (query=="Gene symbol") {
+  } else if (query=="Gene Symbol") {
     return(fetchConneBySym(text))
   }
 }
@@ -1349,21 +1349,21 @@ query.intext <- c("LOC_Os07g15770", "Os05g0158500", "Moc1")
 names(query.intext) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
 fetchFamInfoByChoice <- function(query="", text="") {
-  if (query=="Msu locus") {
+  if (query=="MSU Locus") {
     return(fetchFamInfoByMsu(text))
-  } else if (query=="RAPdb locus") {
+  } else if (query=="RAPdb Locus") {
     return(fetchFamInfoByRap(text))
-  } else if (query=="Gene symbol") {
+  } else if (query=="Gene Symbol") {
     return(fetchFamInfoBySym(text))
   }
 }
 
 fetchFamRefByChoice <- function(query="", text="") {
-  if (query=="Msu locus") {
+  if (query=="MSU Locus") {
     return(fetchFamRefByMsu(text))
-  } else if (query=="RAPdb locus") {
+  } else if (query=="RAPdb Locus") {
     return(fetchFamRefByRap(text))
-  } else if (query=="Gene symbol") {
+  } else if (query=="Gene Symbol") {
     return(fetchFamRefBySym(text))
   }
 }
@@ -1501,7 +1501,6 @@ shinyServer(function(input, output) {
       isolate({
         updateGeneInfo()
         updateKeyword()
-        renderPrint({ "Update successfully!" })
       })
     } else {NULL}
   })

@@ -214,17 +214,15 @@ shinyUI(fluidPage(theme="mystyle.css",
         ")
       ),
       wellPanel(
-        column(3, textInput('symsub8', strong("Gene symbol"),value="")),
-        column(3, fileInput('phenofig', strong("Phenotype Figure"),
+        column(4, textInput('symsub8', strong("Gene symbol"),value="")),
+        column(4, fileInput('phenofig', strong("Phenotype Figure"),
                             accept=c(".tif", ".png", ".tiff"))),
-        column(3, fileInput('expfig', strong("Expression Figure"),
+        column(4, fileInput('expfig', strong("Expression Figure"),
                             accept=c(".tif", ".png", ".tiff"))),
         actionButton("submit8", strong("Submit"))
       ),
 
-fileInput('file1', 'Choose CSV File',
-          accept=c('text/csv', 'text/comma-separated-values,text/plain', '.csv')),
-      
+
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
 #                        blue;'></div></b>")),
       
