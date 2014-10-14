@@ -1371,6 +1371,26 @@ fetchFamRefByChoice <- function(query="", text="") {
 query.intext.fam <- c("LOC_Os10g41510", "Os02g0677300", "RCN1")
 names(query.intext.fam) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
+save.image <- function(symbol="", phenofig="", expfig="") {
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
+  if (length(locus.line)==1) {
+    path <- gene.info$path[locus.line]
+    phenofig.source <- phenofig$datapath
+    expfig.source <- expfig$datapath
+    phenofig.suffix <- gsub(".+\\.", "", basename(phenofig$type))
+    expfig.suffix <- gsub(".+\\.", "", basename(expfig$type))
+    phenofig.target <- paste(path, "/", symbol, ".pheno.", phenofig.suffix, sep="")
+    expfig.target <- paste(path, "/", symbol, ".exp.", expfig.suffix, sep="")
+    file.copy(phenofig.source, phenofig.target)
+    file.copy(expfig.source, expfig.target)
+    
+    write(c(phenofig$name, phenofig$size, phenofig$type, phenofig$datapath),
+          file="tmp.1", ncol=1)
+  }
+}
+
 #### Shiny
 shinyServer(function(input, output) {
   
@@ -1485,6 +1505,14 @@ shinyServer(function(input, output) {
   })
   
   observe({
+    if (input$submit8>0) {
+      isolate({
+        save.image(input$symsub8, input$phenofig, input$expfig)
+      })
+    } else {NULL}
+  })
+
+  observe({
     if (input$submit6>0) {
       isolate({
         df.con <- data.frame(oldsym=input$oldsym, newsym=input$newsym, 
@@ -1506,11 +1534,6 @@ shinyServer(function(input, output) {
   })
   
 })
-
-
-
-
-
 
 
 
