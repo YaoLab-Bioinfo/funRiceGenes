@@ -1395,10 +1395,10 @@ shinyServer(function(input, output) {
   }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
                     iDisplayLength = 2))
   
-  output$mytable4 = renderDataTable({
-    fetchTextByChoice(input$query, input$inText)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
+#   output$mytable4 = renderDataTable({
+#     fetchTextByChoice(input$query, input$inText)
+#   }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
+#                     iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable5 = renderDataTable({
     fetchKeyByChoice(input$query, input$inText)

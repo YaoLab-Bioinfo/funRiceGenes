@@ -42,7 +42,7 @@ shinyUI(fluidPage(theme="mystyle.css",
         tabPanel(strong('Information'), dataTableOutput("mytable1")),
         tabPanel('Reference', dataTableOutput("mytable2")),
         tabPanel('Accession', dataTableOutput("mytable3")),
-        tabPanel('Text-mining', dataTableOutput("mytable4")),
+#         tabPanel('Text-mining', dataTableOutput("mytable4")),
         tabPanel('Keyword', dataTableOutput("mytable5")),
         tabPanel('Connection', dataTableOutput("mytable6"))
       ),
