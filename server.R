@@ -1023,6 +1023,7 @@ fetchInfoByKey <- function(keyword="") {
   if (tolower(keyword) %in% all.key) {
     dat <- gene.keyword[gene.keyword$Keyword==tolower(keyword), ]
     dat$Keyword <- NULL
+    dat$path <- NULL
     for (i in 1:nrow(dat)) {    
       msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
@@ -1151,7 +1152,8 @@ write.key <- function(df) {
       
       df$RAPdb <- gene.info$RAPdb[locus.line]
       df$MSU <- gene.info$MSU[locus.line]
-      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title")]
+      df$path <- gene.info$path[locus.line]
+      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title", "path")]
       gene.keyword.new <- rbind(gene.keyword, df)
       gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
       write.table(gene.keyword.new, file="geneKeyword.table", 
@@ -1161,7 +1163,8 @@ write.key <- function(df) {
       
       df$RAPdb <- gene.info$RAPdb[locus.line]
       df$MSU <- gene.info$MSU[locus.line]
-      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title")]
+      df$path <- gene.info$path[locus.line]
+      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title", "path")]
       gene.keyword.new <- rbind(gene.keyword, df)
       gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
       write.table(gene.keyword.new, file="geneKeyword.table", 
@@ -1230,6 +1233,13 @@ gene.edit <- function(df){
   tar.fl <- paste(gene.tar$path, "gene.info", sep="/")
   if (file.exists(tar.fl)) {
     write.table(df.dat, file=tar.fl, sep="\t", quote=F, row.names=F)
+    
+    gene.info <- gene.info[gene.info$path!=gene.tar$path, ]
+    df.dat$path <- gene.tar$path
+    gene.info.new <- rbind(gene.info, df.dat)
+    gene.info.new <- gene.info.new[order(gene.info.new$Symbol), ]
+    write.table(gene.info.new, file="geneInfo.table", 
+                sep="\t", quote=F, row.names=F)
   }
   
   key.fl <- paste(gene.tar$path, "Keyword.trait", sep="/")
@@ -1237,6 +1247,16 @@ gene.edit <- function(df){
     key.con <- read.table(key.fl, sep="\t", head=T, as.is=T, quote="", comment="")
     key.con$Symbol <- df$newsym
     write.table(key.con, file=key.fl, sep="\t", quote=F, row.names=F)
+    
+    gene.keyword <- gene.keyword[gene.keyword$path!=gene.tar$path, ]
+    key.con$path <- gene.tar$path
+    key.con$RAPdb <- df.dat$RAPdb
+    key.con$MSU <- df.dat$MSU
+    key.con <- key.con[, c("Symbol","RAPdb","MSU","Keyword","Title", "path")]
+    gene.keyword.new <- rbind(gene.keyword, key.con)
+    gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
+    write.table(gene.keyword.new, file="geneKeyword.table", 
+                sep="\t", quote=F, row.names=F)
   }
   
   cone.fl <- paste(gene.tar$path, "Connection", sep="/")
@@ -1335,7 +1355,8 @@ updateGeneInfo <- function() {
 #     key.dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
 #     key.dat$RAPdb <- gene.dat$RAPdb
 #     key.dat$MSU <- gene.dat$MSU
-#     key.dat <- key.dat[, c("Symbol", "RAPdb",  "MSU",	"Keyword",	"Title")]
+#     key.dat$path <- cwd.dir
+#     key.dat <- key.dat[, c("Symbol", "RAPdb",  "MSU",	"Keyword",	"Title", "path")]
 #     return(key.dat)
 #   })
 #   all.key.df <- do.call(rbind, all.key.lst)
