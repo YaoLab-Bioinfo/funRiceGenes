@@ -1150,11 +1150,12 @@ write.key <- function(df) {
       df.new <- unique(rbind(df.tmp, df))
       write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
       
-      df$RAPdb <- gene.info$RAPdb[locus.line]
-      df$MSU <- gene.info$MSU[locus.line]
-      df$path <- gene.info$path[locus.line]
-      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title", "path")]
-      gene.keyword.new <- rbind(gene.keyword, df)
+      df.new$RAPdb <- gene.info$RAPdb[locus.line]
+      df.new$MSU <- gene.info$MSU[locus.line]
+      df.new$path <- gene.info$path[locus.line]
+      df.new <- df.new[, c("Symbol","RAPdb","MSU","Keyword","Title", "path")]
+      gene.keyword <- gene.keyword[gene.keyword$path!=path, ]
+      gene.keyword.new <- rbind(gene.keyword, df.new)
       gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
       write.table(gene.keyword.new, file="geneKeyword.table", 
                   sep="\t", quote=F, row.names=F)
