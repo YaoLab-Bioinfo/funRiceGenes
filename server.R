@@ -1059,6 +1059,7 @@ fetchInfoByKey <- function(keyword="") {
   }
 }
 
+#### submit new information to this database
 write.gene <- function(df) {
   symbol <- df$Symbol
   symbol.low <- tolower(symbol)
@@ -1087,6 +1088,12 @@ write.gene <- function(df) {
     dir.create(dir.to)
     out.fl <- paste(dir.to, "gene.info", sep="/")
     write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
+    
+    df$path <- dir.to
+    gene.info.new <- rbind(gene.info, df)
+    gene.info.new <- gene.info.new[order(gene.info.new$Symbol), ]
+    write.table(gene.info.new, file="geneInfo.table", 
+                sep="\t", quote=F, row.names=F)
   }
 }
 
@@ -1141,8 +1148,24 @@ write.key <- function(df) {
       df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
       df.new <- unique(rbind(df.tmp, df))
       write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
+      
+      df$RAPdb <- gene.info$RAPdb[locus.line]
+      df$MSU <- gene.info$MSU[locus.line]
+      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title")]
+      gene.keyword.new <- rbind(gene.keyword, df)
+      gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
+      write.table(gene.keyword.new, file="geneKeyword.table", 
+                  sep="\t", quote=F, row.names=F)
     } else {
       write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
+      
+      df$RAPdb <- gene.info$RAPdb[locus.line]
+      df$MSU <- gene.info$MSU[locus.line]
+      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title")]
+      gene.keyword.new <- rbind(gene.keyword, df)
+      gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
+      write.table(gene.keyword.new, file="geneKeyword.table", 
+                  sep="\t", quote=F, row.names=F)
     }
   }
 }
@@ -1255,35 +1278,71 @@ gene.edit <- function(df){
 }
 
 updateGeneInfo <- function() {
-  all.gene.fls <- list.files("data/Gene",
-                             patter="^gene.info$", full=T, recur=T)
-  all.gene.lst <- lapply(all.gene.fls, function(x){
-    dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
-    dir.cwd <- dirname(x)
-    dat$path <- dir.cwd
-    return(dat)
+#   all.gene.fls <- list.files("data/Gene",
+#                              patter="^gene.info$", full=T, recur=T)
+#   all.gene.lst <- lapply(all.gene.fls, function(x){
+#     dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
+#     dir.cwd <- dirname(x)
+#     dat$path <- dir.cwd
+#     return(dat)
+#   })
+#   all.gene.df <- do.call(rbind, all.gene.lst)
+#   write.table(all.gene.df, file="geneInfo.table",
+#               sep="\t", quote=F, row.names=F)
+  
+  gene.info <- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
+  gene.keyword <- read.table("geneKeyword.table", head=T, 
+                             sep="\t", as.is=T, quote="", comment="")
+  
+  gene.msu <- 1:nrow(gene.info)
+  names(gene.msu) <- gene.info$MSU
+  gene.msu <- gene.msu[names(gene.msu)!="None"]
+  gene.msu.new <- sapply(names(gene.msu), function(x) {
+    x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
+    if (length(x.name)==1) {
+      return(gene.msu[x])
+    } else {
+      y <- rep(gene.msu[x], length(x.name))
+      names(y) <- x.name
+      return(y)
+    }
   })
-  all.gene.df <- do.call(rbind, all.gene.lst)
-  write.table(all.gene.df, file="geneInfo.table",
-              sep="\t", quote=F, row.names=F)
+  gene.msu.final <- unlist(unname(gene.msu.new))
+  
+  gene.rap <- 1:nrow(gene.info)
+  names(gene.rap) <- gene.info$RAPdb
+  gene.rap <- gene.rap[names(gene.rap)!="None"]
+  gene.rap.new <- sapply(names(gene.rap), function(x) {
+    x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
+    if (length(x.name)==1) {
+      return(gene.rap[x])
+    } else {
+      y <- rep(gene.rap[x], length(x.name))
+      names(y) <- x.name
+      return(y)
+    }
+  })
+  gene.rap.final <- unlist(unname(gene.rap.new))
 }
 
-updateKeyword <- function() {
-  all.key.fls <- list.files("data/Gene", patter="^Keyword.trait$",
-                            full=T, recur=T)
-  all.key.lst <- lapply(all.key.fls, function(x){
-    cwd.dir <- dirname(x)
-    cwd.gene <- paste(cwd.dir, "gene.info", sep="/")
-    gene.dat <- read.table(cwd.gene, head=T, sep="\t", as.is=T, quote="", comment="")
-    key.dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
-    key.dat$RAPdb <- gene.dat$RAPdb
-    key.dat$MSU <- gene.dat$MSU
-    key.dat <- key.dat[, c("Symbol", "RAPdb",  "MSU",	"Keyword",	"Title")]
-    return(key.dat)
-  })
-  all.key.df <- do.call(rbind, all.key.lst)
-  write.table(all.key.df, file="geneKeyword.table", sep="\t", quote=F, row.names=F)
-}
+# updateKeyword <- function() {
+#   all.key.fls <- list.files("data/Gene", patter="^Keyword.trait$",
+#                             full=T, recur=T)
+#   all.key.lst <- lapply(all.key.fls, function(x){
+#     cwd.dir <- dirname(x)
+#     cwd.gene <- paste(cwd.dir, "gene.info", sep="/")
+#     gene.dat <- read.table(cwd.gene, head=T, sep="\t", as.is=T, quote="", comment="")
+#     key.dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
+#     key.dat$RAPdb <- gene.dat$RAPdb
+#     key.dat$MSU <- gene.dat$MSU
+#     key.dat <- key.dat[, c("Symbol", "RAPdb",  "MSU",	"Keyword",	"Title")]
+#     return(key.dat)
+#   })
+#   all.key.df <- do.call(rbind, all.key.lst)
+#   write.table(all.key.df, file="geneKeyword.table", sep="\t", quote=F, row.names=F)
+#   
+#   
+# }
 
 fetchInfoByChoice <- function(query="", text="") {
   if (query=="MSU Locus") {
@@ -1385,9 +1444,6 @@ save.image <- function(symbol="", phenofig="", expfig="") {
     expfig.target <- paste(path, "/", symbol, ".exp.", expfig.suffix, sep="")
     file.copy(phenofig.source, phenofig.target)
     file.copy(expfig.source, expfig.target)
-    
-    write(c(phenofig$name, phenofig$size, phenofig$type, phenofig$datapath),
-          file="tmp.1", ncol=1)
   }
 }
 
@@ -1457,6 +1513,7 @@ shinyServer(function(input, output) {
         df.gene <- data.frame(Symbol=input$symsub1, MSU=input$msusub1, RAPdb=input$rapsub1,
                               stringsAsFactors=FALSE)
         write.gene(df.gene)
+        updateGeneInfo()
       })
     } else {NULL}
   })
@@ -1489,6 +1546,7 @@ shinyServer(function(input, output) {
                              Title=input$tilsub4, Evidence=input$evisub4,
                              stringsAsFactors=FALSE)
         write.key(df.key)
+        updateGeneInfo()
       })
     } else {NULL}
   })
@@ -1520,18 +1578,19 @@ shinyServer(function(input, output) {
                              oldrap=input$oldrap, newrap=input$newrap,
                              stringsAsFactors=FALSE)
         gene.edit(df.con)
+        updateGeneInfo()
       })
     } else {NULL}
   })
   
-  observe({
-    if (input$submit7>0) {
-      isolate({
-        updateGeneInfo()
-        updateKeyword()
-      })
-    } else {NULL}
-  })
+#   observe({
+#     if (input$submit7>0) {
+#       isolate({
+#         updateGeneInfo()
+#         updateKeyword()
+#       })
+#     } else {NULL}
+#   })
   
 })
 

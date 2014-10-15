@@ -246,16 +246,16 @@ shinyUI(fluidPage(theme="mystyle.css",
 #              blue;'></div></b>")),
       
 #       helpText(h4("Update the database.")),
-      p(HTML("
-             <h4>* Update the database
-             </h4>
-       ")
-      ),
-      wellPanel(
-        actionButton("submit7", strong("Update!"))
+#       p(HTML("
+#              <h4>* Update the database
+#              </h4>
+#        ")
+#       ),
+#       wellPanel(
+#         actionButton("submit7", strong("Update!"))
 #         ,
 #         textOutput("mytext20")
-      ),
+#       ),
       
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
 #              blue;'></div></b>")),
