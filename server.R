@@ -1311,8 +1311,8 @@ updateGeneInfo <- function() {
 #   write.table(all.gene.df, file="geneInfo.table",
 #               sep="\t", quote=F, row.names=F)
   
-  gene.info <- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
-  gene.keyword <- read.table("geneKeyword.table", head=T, 
+  gene.info <<- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
+  gene.keyword <<- read.table("geneKeyword.table", head=T, 
                              sep="\t", as.is=T, quote="", comment="")
   
   gene.msu <- 1:nrow(gene.info)
@@ -1328,7 +1328,7 @@ updateGeneInfo <- function() {
       return(y)
     }
   })
-  gene.msu.final <- unlist(unname(gene.msu.new))
+  gene.msu.final <<- unlist(unname(gene.msu.new))
   
   gene.rap <- 1:nrow(gene.info)
   names(gene.rap) <- gene.info$RAPdb
@@ -1343,7 +1343,7 @@ updateGeneInfo <- function() {
       return(y)
     }
   })
-  gene.rap.final <- unlist(unname(gene.rap.new))
+  gene.rap.final <<- unlist(unname(gene.rap.new))
 }
 
 # updateKeyword <- function() {
