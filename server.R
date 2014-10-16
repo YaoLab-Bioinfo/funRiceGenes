@@ -80,20 +80,30 @@ fetchInfoByMsu <- function(locus="") {
       
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU <- msu.new
       
       rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
       dat$RAPdb <- rap.new
@@ -114,20 +124,30 @@ fetchFamInfoByMsu <- function(locus="") {
       
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU <- msu.new
       
       rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
       dat$RAPdb <- rap.new
@@ -378,20 +398,30 @@ fetchInfoByRap <- function(locus="") {
       dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU <- msu.new
       
       rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
       dat$RAPdb <- rap.new
@@ -412,20 +442,30 @@ fetchFamInfoByRap <- function(locus="") {
       
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU <- msu.new
       
       rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
       dat$RAPdb <- rap.new
@@ -704,20 +744,30 @@ fetchInfoBySym <- function(symbol="") {
       
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU <- msu.new
       
       rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
       dat$RAPdb <- rap.new
@@ -730,20 +780,30 @@ fetchInfoBySym <- function(symbol="") {
     for (i in 1:nrow(dat)) {    
       msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU[i] <- msu.new
       
       rap <- unlist(strsplit(dat$RAPdb[i], split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
       dat$RAPdb[i] <- rap.new
@@ -764,20 +824,30 @@ fetchFamInfoBySym <- function(symbol="") {
     for (i in 1:nrow(dat)) {    
       msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
       dat$MSU[i] <- msu.new
       
       rap <- unlist(strsplit(dat$RAPdb[i], split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                   x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
-        y <- HTML(y)
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
       })
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
       dat$RAPdb[i] <- rap.new
