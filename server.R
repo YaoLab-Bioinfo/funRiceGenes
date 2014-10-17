@@ -72,7 +72,7 @@ fetchInfoByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     gene.fl <- paste(path, "gene.info", sep="/")
     if (file.exists(gene.fl)) {
@@ -119,7 +119,7 @@ fetchFamInfoByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- fam.gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
       dat <- fam.gene.info[locus.line, ]
       
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
@@ -163,7 +163,7 @@ fetchRefByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     ref.fl <- paste(path, "reference.info", sep="/")
     if (file.exists(ref.fl)) {
@@ -193,7 +193,7 @@ fetchFamRefByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- fam.gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- fam.gene.info$path[locus.line]
     ref.fl <- paste(path, "family.ref", sep="/")
     if (file.exists(ref.fl)) {
@@ -222,7 +222,7 @@ fetchAccByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     acc.fls <- list.files(path, patter="*acc-*", full=T)
     if (length(acc.fls)>0) {
@@ -247,7 +247,7 @@ fetchExpByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     exp.fl <- paste(path, "expression.info", sep="/")
     if (file.exists(exp.fl)) {
@@ -264,7 +264,7 @@ fetchTextByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     text.fls <- list.files(path, patter="^pub.text.mining$", full=T)
     if (length(text.fls)>0) {
@@ -349,7 +349,7 @@ fetchKeyByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     key.fl <- paste(path, "Keyword.trait", sep="/")
     if (file.exists(key.fl)) {
@@ -377,7 +377,7 @@ fetchConneByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.msu.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     conne.fl <- paste(path, "Connection", sep="/")
     if (file.exists(conne.fl)) {
@@ -408,7 +408,7 @@ fetchInfoByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     gene.fl <- paste(path, "gene.info", sep="/")
     if (file.exists(gene.fl)) {
@@ -454,7 +454,7 @@ fetchFamInfoByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- fam.gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
       dat <- fam.gene.info[locus.line, ]
       
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
@@ -498,7 +498,7 @@ fetchRefByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     ref.fl <- paste(path, "reference.info", sep="/")
     if (file.exists(ref.fl)) {
@@ -528,7 +528,7 @@ fetchFamRefByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- fam.gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- fam.gene.info$path[locus.line]
     ref.fl <- paste(path, "family.ref", sep="/")
     if (file.exists(ref.fl)) {
@@ -557,7 +557,7 @@ fetchAccByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     acc.fls <- list.files(path, patter="*acc-*", full=T)
     if (length(acc.fls)>0) {
@@ -582,7 +582,7 @@ fetchExpByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     exp.fl <- paste(path, "expression.info", sep="/")
     if (file.exists(exp.fl)) {
@@ -599,7 +599,7 @@ fetchTextByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     text.fls <- list.files(path, patter="^pub.text.mining$", full=T)
     if (length(text.fls)>0) {
@@ -684,7 +684,7 @@ fetchKeyByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     key.fl <- paste(path, "Keyword.trait", sep="/")
     if (file.exists(key.fl)) {
@@ -712,7 +712,7 @@ fetchConneByRap <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
   locus.line <- gene.rap.final[locus]
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     conne.fl <- paste(path, "Connection", sep="/")
     if (file.exists(conne.fl)) {
@@ -770,7 +770,7 @@ fetchInfoBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     gene.fl <- paste(path, "gene.info", sep="/")
     if (file.exists(gene.fl)) {
@@ -852,7 +852,7 @@ fetchFamInfoBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirByFamSym(tolower(symbol))
-  if (length(locus.line) >= 1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     dat <- fam.gene.info[locus.line, ]
     dat$path <- NULL
     for (i in 1:nrow(dat)) {    
@@ -896,7 +896,7 @@ fetchRefBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     ref.fl <- paste(path, "reference.info", sep="/")
     if (file.exists(ref.fl)) {
@@ -927,7 +927,7 @@ fetchFamRefBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirByFamSym(tolower(symbol))
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- fam.gene.info$path[locus.line]
     ref.fl <- paste(path, "family.ref", sep="/")
     if (file.exists(ref.fl)) {
@@ -956,7 +956,7 @@ fetchAccBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     acc.fls <- list.files(path, patter="*acc-*", full=T)
     if (length(acc.fls)>0) {
@@ -981,7 +981,7 @@ fetchExpBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     exp.fl <- paste(path, "expression.info", sep="/")
     if (file.exists(exp.fl)) {
@@ -998,7 +998,7 @@ fetchTextBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     text.fls <- list.files(path, patter="^pub.text.mining$", full=T)
     if (length(text.fls)>0) {
@@ -1083,7 +1083,7 @@ fetchKeyBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     key.fl <- paste(path, "Keyword.trait", sep="/")
     if (file.exists(key.fl)) {
@@ -1111,7 +1111,7 @@ fetchConneBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
-  if (length(locus.line)==1) {
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
     path <- gene.info$path[locus.line]
     conne.fl <- paste(path, "Connection", sep="/")
     if (file.exists(conne.fl)) {
