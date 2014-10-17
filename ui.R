@@ -43,6 +43,7 @@ shinyUI(fluidPage(theme="mystyle.css",
         tabPanel('Reference', dataTableOutput("mytable2")),
         tabPanel('Accession', dataTableOutput("mytable3")),
 #         tabPanel('Text-mining', dataTableOutput("mytable4")),
+        tabPanel('Expression', dataTableOutput("mytable4")),
         tabPanel('Keyword', dataTableOutput("mytable5")),
         tabPanel('Connection', dataTableOutput("mytable6"))
       ),
@@ -172,6 +173,19 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(6, textInput('symsub3', strong("Gene symbol"),value="")),
         column(6, textInput('accsub3', strong("Accession"),value="")),
         actionButton("submit3", strong("Submit"))
+      ),
+
+      p(HTML("
+             <h4>* Submit new Expression information to this database
+             </h4>
+        ")
+      ),
+      wellPanel(
+        column(3, textInput('symsub9', strong("Gene symbol"),value="")),
+        column(3, textInput('exp9', strong("Expression"),value="")),
+        column(3, textInput('ove9', strong("Overexpression"),value="")),
+        column(3, textInput('rnai9', strong("RNAi"),value="")),
+        actionButton("submit9", strong("Submit"))
       ),
       
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid

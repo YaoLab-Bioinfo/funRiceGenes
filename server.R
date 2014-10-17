@@ -243,6 +243,23 @@ fetchAccByMsu <- function(locus="") {
   }
 }
 
+fetchExpByMsu <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub(" +$", "", locus)
+  locus.line <- gene.msu.final[locus]
+  if (length(locus.line)==1) {
+    path <- gene.info$path[locus.line]
+    exp.fl <- paste(path, "expression.info", sep="/")
+    if (file.exists(exp.fl)) {
+      dat <- read.table(exp.fl, head=T, sep="\t", as.is=T)
+      
+      return(dat)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
 fetchTextByMsu <- function(locus="") {
   locus <- gsub("^\\s+", "", locus)
   locus <- gsub(" +$", "", locus)
@@ -555,6 +572,23 @@ fetchAccByRap <- function(locus="") {
       return(dat)
     } else {
       return(NULL)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
+fetchExpByRap <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub(" +$", "", locus)
+  locus.line <- gene.rap.final[locus]
+  if (length(locus.line)==1) {
+    path <- gene.info$path[locus.line]
+    exp.fl <- paste(path, "expression.info", sep="/")
+    if (file.exists(exp.fl)) {
+      dat <- read.table(exp.fl, head=T, sep="\t", as.is=T)
+      
+      return(dat)
     }
   } else {
     return(NULL)
@@ -943,6 +977,23 @@ fetchAccBySym <- function(symbol="") {
   }
 }
 
+fetchExpBySym <- function(symbol="") {
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
+  if (length(locus.line)==1) {
+    path <- gene.info$path[locus.line]
+    exp.fl <- paste(path, "expression.info", sep="/")
+    if (file.exists(exp.fl)) {
+      dat <- read.table(exp.fl, head=T, sep="\t", as.is=T)
+      
+      return(dat)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
 fetchTextBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
@@ -1244,6 +1295,25 @@ write.key <- function(df) {
   }
 }
 
+write.exp <- function(df) {
+  symbol <- df$Symbol
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
+  df$Symbol <- gene.info$Symbol[locus.line]
+  if (length(locus.line)==1) {
+    path <- gene.info$path[locus.line]
+    out.fl <- paste(path, "expression.info", sep="/")
+    if (file.exists(out.fl)) {
+      df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
+      df.new <- unique(rbind(df.tmp, df))
+      write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
+    } else {
+      write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
+    }
+  }
+}
+
 write.con <- function(df) {
   symbol.1 <- df$Symbol1
   symbol.2 <- df$Symbol2
@@ -1466,6 +1536,16 @@ fetchAccByChoice <- function(query="", text="") {
   }
 }
 
+fetchExpByChoice <- function(query="", text="") {
+  if (query=="MSU Locus") {
+    return(fetchExpByMsu(text))
+  } else if (query=="RAPdb Locus") {
+    return(fetchExpByRap(text))
+  } else if (query=="Gene Symbol") {
+    return(fetchExpBySym(text))
+  }
+}
+
 fetchTextByChoice <- function(query="", text="") {
   if (query=="MSU Locus") {
     return(fetchTextByMsu(text))
@@ -1567,6 +1647,11 @@ shinyServer(function(input, output) {
 #     fetchTextByChoice(input$query, input$inText)
 #   }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
 #                     iDisplayLength = 1, bAutoWidth = FALSE))
+
+  output$mytable4 = renderDataTable({
+    fetchExpByChoice(input$query, input$inText)
+  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
+                    iDisplayLength = 1, bAutoWidth = FALSE))
   
   output$mytable5 = renderDataTable({
     fetchKeyByChoice(input$query, input$inText)
@@ -1627,6 +1712,17 @@ shinyServer(function(input, output) {
         df.acc <- data.frame(Symbol=input$symsub3, Accession=input$accsub3, 
                              stringsAsFactors=FALSE)
         write.acc(df.acc)
+      })
+    } else {NULL}
+  })
+
+  observe({
+    if (input$submit9>0) {
+      isolate({
+        df.exp <- data.frame(Symbol=input$symsub9, Expression=input$exp9, 
+                             Overexpression=input$ove9, RNAi=input$rnai9,
+                           stringsAsFactors=FALSE)
+        write.exp(df.exp)
       })
     } else {NULL}
   })
