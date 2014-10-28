@@ -127,6 +127,17 @@ shinyUI(fluidPage(theme="mystyle.css",
 #                        blue;'></div></b>")),
       
 #       helpText(h4("* Submit new gene to this database")),
+
+      selectInput("queryconv", h4("* Convert ID of MSU genomic locus
+                                  and RAPdb genomic locus"), 
+                 choices=c("MSU Locus", "RAPdb Locus")),
+
+      uiOutput("inTextconv"),
+
+      tabsetPanel(
+          tabPanel(strong('Result'), dataTableOutput("mytable10"))
+      ),
+
       p(HTML("
              <h4>* Submit new gene to this database
              </h4>

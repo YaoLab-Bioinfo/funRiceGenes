@@ -1,4 +1,7 @@
 
+msurap <- read.table("RAP-MSU.txt", as.is=T)
+names(msurap) <- c("rap", "msu")
+
 fam.gene.info <- read.table("famInfo.table", head=T, sep="\t", as.is=T)
 
 fam.gene.msu <- 1:nrow(fam.gene.info)
@@ -1602,6 +1605,27 @@ fetchFamRefByChoice <- function(query="", text="") {
 query.intext.fam <- c("LOC_Os10g41510", "Os02g0677300", "RCN1")
 names(query.intext.fam) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
+convID <- function(query="", text="") {
+  if (query=="RAPdb Locus") {
+    tar.line <- grep(text, msurap$rap)
+    if ( (length(tar.line)>=1) && (nchar(text)==12) ) {
+      return(msurap[tar.line,])
+    } else {
+      return(NULL)
+    }
+  } else if (query=="MSU Locus") {
+    tar.line <- grep(patter=text, msurap$msu)
+    if ( (length(tar.line)>=1) && (nchar(text)==14) ) {
+      return(msurap[tar.line,])
+    } else {
+      return(NULL)
+    }
+  }
+}
+
+query.intext.conv <- c("LOC_Os10g41510", "Os02g0677300")
+names(query.intext.conv) <- c("MSU Locus", "RAPdb Locus")
+
 save.image <- function(symbol="", phenofig="", expfig="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
@@ -1682,6 +1706,17 @@ shinyServer(function(input, output) {
     fetchFamRefByChoice(input$queryfam, input$inTextfam)
   }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
                     bFilter = FALSE, bAutoWidth = FALSE)
+  )
+
+  output$inTextconv <- renderUI({
+    textInput("inTextconv", strong("Put your query here:"), 
+            value=query.intext.conv[input$queryconv])
+  })
+
+  output$mytable10 = renderDataTable({
+    convID(input$queryconv, input$inTextconv)
+  }, options = list(aLengthMenu = c(1,2), iDisplayLength = 1,
+                  bFilter = FALSE, bAutoWidth = FALSE)
   )
   
   observe({
