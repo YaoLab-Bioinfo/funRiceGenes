@@ -130,7 +130,7 @@ shinyUI(fluidPage(theme="mystyle.css",
 
       selectInput("queryconv", h4("* Convert ID of MSU genomic locus
                                   and RAPdb genomic locus"), 
-                 choices=c("MSU Locus", "RAPdb Locus")),
+                 choices=c("RAPdb Locus", "MSU Locus")),
 
       uiOutput("inTextconv"),
 

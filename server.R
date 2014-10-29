@@ -1,6 +1,5 @@
 
-msurap <- read.table("RAP-MSU.txt", as.is=T)
-names(msurap) <- c("rap", "msu")
+load("rapmsu.rda")
 
 fam.gene.info <- read.table("famInfo.table", head=T, sep="\t", as.is=T)
 
@@ -1605,26 +1604,40 @@ fetchFamRefByChoice <- function(query="", text="") {
 query.intext.fam <- c("LOC_Os10g41510", "Os02g0677300", "RCN1")
 names(query.intext.fam) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
-convID <- function(query="", text="") {
-  if (query=="RAPdb Locus") {
-    tar.line <- grep(text, msurap$rap)
-    if ( (length(tar.line)>=1) && (nchar(text)==12) ) {
-      return(msurap[tar.line,])
-    } else {
-      return(NULL)
-    }
-  } else if (query=="MSU Locus") {
-    tar.line <- grep(patter=text, msurap$msu)
-    if ( (length(tar.line)>=1) && (nchar(text)==14) ) {
-      return(msurap[tar.line,])
-    } else {
-      return(NULL)
-    }
+convMSU <- function(locus="Os02g0677300") {
+  if (is.null(locus) || is.na(locus)) {
+    return(NULL)
+  } else if (nchar(locus)==12) {
+    datRes <- rapmsu[rapmsu$rap==locus,]
+    names(datRes) <- c("RAPdb", "MSU")
+    return(datRes)
+  } else {
+    return(NULL)
   }
 }
 
-query.intext.conv <- c("LOC_Os10g41510", "Os02g0677300")
-names(query.intext.conv) <- c("MSU Locus", "RAPdb Locus")
+convRap <- function(locus="LOC_Os03g57940") {
+  if (is.null(locus) || is.na(locus)) {
+    return(NULL)
+  } else if (nchar(locus)==14) {
+    datRes <- rapmsu[rapmsu$msu==locus,]
+    names(datRes) <- c("RAPdb", "MSU")
+    return(datRes)
+  } else {
+    return(NULL)
+  }
+}
+
+convID <- function(query="", text="") {
+  if (query=="RAPdb Locus") {
+    return(convMSU(text))
+  } else if (query=="MSU Locus") {
+    return(convRap(text))
+  }
+}
+
+query.intext.conv <- c("Os02g0677300", "LOC_Os03g57940")
+names(query.intext.conv) <- c("RAPdb Locus", "MSU Locus")
 
 save.image <- function(symbol="", phenofig="", expfig="") {
   symbol <- gsub("^\\s+", "", symbol)
@@ -1715,7 +1728,7 @@ shinyServer(function(input, output) {
 
   output$mytable10 = renderDataTable({
     convID(input$queryconv, input$inTextconv)
-  }, options = list(aLengthMenu = c(1,2), iDisplayLength = 1,
+  }, options = list(aLengthMenu = 1, iDisplayLength = 1,
                   bFilter = FALSE, bAutoWidth = FALSE)
   )
   
