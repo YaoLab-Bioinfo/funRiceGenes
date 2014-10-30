@@ -1,6 +1,9 @@
 
 load("rapmsu.rda")
 
+ref.info <- read.table("reference.table", head=T, as.is=T, sep="\t", 
+                       quote="", comment="")
+
 fam.gene.info <- read.table("famInfo.table", head=T, sep="\t", as.is=T)
 
 fam.gene.msu <- 1:nrow(fam.gene.info)
@@ -67,6 +70,22 @@ gene.rap.new <- sapply(names(gene.rap), function(x) {
   }
 })
 gene.rap.final <- unlist(unname(gene.rap.new))
+
+#### publication
+fetchRefByKey <- function(keyword="") {
+  keyword <- gsub("^\\s+", "", keyword)
+  keyword <- gsub(" +$", "", keyword)
+  if (nchar(keyword)<1) {
+    return(NULL)
+  } else {
+    datRes <- ref.info[grepl(keyword, ref.info$Title)|grepl(keyword, ref.info$Abstract), ]
+    if (nrow(datRes)>0) {
+      return(datRes)
+    } else {
+      return(NULL)
+    }
+  }
+}
 
 
 ####  MSU
@@ -1230,6 +1249,7 @@ write.pub <- function(df) {
   if (length(locus.line)==1) {
     path <- gene.info$path[locus.line]
     out.fl <- paste(path, "reference.info", sep="/")
+    df.sub <- df[, c("Title", "Year", "Journal", "Affiliation", "Abstract", "Symbol")]
     if (file.exists(out.fl)) {
       df$Publication <- NA
       df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
@@ -1241,6 +1261,15 @@ write.pub <- function(df) {
       df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
       write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
     }
+    
+    names(df.sub)[6] <- "Gene"
+    ref.info <- rbind(ref.info, df.sub)
+    ref.info.new <- ddply(ref.info, .(Title, Year, Journal, Affiliation, Abstract), function(df){
+      symbol <- paste(df$Gene, sep=",", collapse=",")
+      return(symbol)
+    })
+    names(ref.info.new)[6] <- "Gene"
+    write.table(ref.info.new, file="reference.table", sep="\t", quote=F, row.names=F)
   }
 }
 
@@ -1456,6 +1485,8 @@ updateGeneInfo <- function() {
   gene.info <<- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
   gene.keyword <<- read.table("geneKeyword.table", head=T, 
                              sep="\t", as.is=T, quote="", comment="")
+  ref.info <<- read.table("reference.table", head=T, as.is=T, sep="\t", 
+                         quote="", comment="")
   
   gene.msu <- 1:nrow(gene.info)
   names(gene.msu) <- gene.info$MSU
@@ -1731,6 +1762,11 @@ shinyServer(function(input, output) {
   }, options = list(aLengthMenu = 1, iDisplayLength = 1,
                   bFilter = FALSE, bAutoWidth = FALSE)
   )
+
+  output$mytable11 = renderDataTable({
+    fetchRefByKey(input$publication)
+  }, options = list(aLengthMenu = c(1, 2, 4, 6), bFilter = FALSE,
+                  iDisplayLength = 1, bAutoWidth = FALSE))
   
   observe({
     if (input$submit1>0) {

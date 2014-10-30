@@ -123,6 +123,14 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       
       br(),
+
+      textInput("publication", label = h4("* Query the title or abstract of collected publications"), 
+               value = "heading date"),
+      tabsetPanel(
+        tabPanel('Result', dataTableOutput("mytable11"))
+      ),
+
+br(),
 #       p(HTML("<b><div style='background-color:#FADDF2;border:1px solid
 #                        blue;'></div></b>")),
       
