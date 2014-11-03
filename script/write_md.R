@@ -179,11 +179,11 @@ for (j in 1:nrow(gene.lst)) {
   
   md.cont <- c(md.cont, "", "## Key figures")
   if (length(exp.fig.fl)==1) {
-    md.cont <- c(md.cont, paste('<img src=', '"', basename(exp.fig.fl), '"', 'width="400" height="200">'))
+    md.cont <- c(md.cont, paste('<img src=', '"', '{{ site.url }}/assets/images/', basename(exp.fig.fl), '>'))
   }
   
   if (length(pheno.fig.fl)==1) {
-    md.cont <- c(md.cont, paste('<img src=', '"', basename(pheno.fig.fl), '"', 'width="400" height="200">'))
+    md.cont <- c(md.cont, paste('<img src=', '"', '{{ site.url }}/assets/images/', basename(pheno.fig.fl), '>'))
   }
   
   md.cont <- c(md.cont, "", "")
@@ -210,11 +210,11 @@ for (j in 1:nrow(gene.lst)) {
 	  
   out.fl.name <- paste(path, out.fl.name, sep="/")
   if (length(exp.fig.fl)==1) {
-    file.copy(from=exp.fig.fl, to=path)
+    file.copy(from=exp.fig.fl, to="E:/GIT/ricencode-pg/RICENCODE/assets/images")
   }
   
   if (length(pheno.fig.fl)==1) {
-    file.copy(from=pheno.fig.fl, to=path)
+    file.copy(from=pheno.fig.fl, to="E:/GIT/ricencode-pg/RICENCODE/assets/images")
   }
   writeLines(md.cont, con=out.fl.name)
 }
