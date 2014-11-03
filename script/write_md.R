@@ -2,8 +2,8 @@
 setwd("E:/GIT/RICENCODE")
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
-# for (j in 1:nrow(gene.lst)) {
-for (j in 6:nrow(gene.lst)) {
+for (j in 1:nrow(gene.lst)) {
+#for (j in 6:nrow(gene.lst)) {
   sym <- gene.lst$Symbol[j]
   sym <- gsub("\\|", ",", sym)
   msu <- gene.lst$MSU[j]
@@ -69,6 +69,14 @@ for (j in 6:nrow(gene.lst)) {
     acc <- data.frame(Accession=acc.fls, stringsAsFactors=FALSE)
   }
   
+  ### Expression
+  exp.fl <- paste(path, "expression.info", sep="/")
+  exp <- NULL
+  if (file.exists(exp.fl)) {
+    exp <- read.table(exp.fl, head=T, sep="\t", as.is=T,
+	                  quote="", comment="")
+  }
+  
   ### key
   key.fl <- paste(path, "Keyword.trait", sep="/")
   key <- NULL
@@ -106,6 +114,10 @@ for (j in 6:nrow(gene.lst)) {
     cone$Symbol2 <- gsub("\\|", "~", cone$Symbol2)
   }
   
+  ### figures
+  exp.fig.fl <- list.files(path, patter=".*\\.exp\\..+", full=T)
+  pheno.fig.fl <- list.files(path, patter=".*\\.pheno\\..+", full=T)
+  
   ###  output file
   md.cont <- ""
   md.cont[1] <- "---"
@@ -142,6 +154,12 @@ for (j in 6:nrow(gene.lst)) {
     md.acc <- paste(acc$Accession, sep="", collapse=", ")
     md.cont <- c(md.cont, md.acc)
   }
+  md.cont <- c(md.cont, "", "## Expression information")
+  if (!is.null(exp)) {
+    md.cont <- c(md.cont, paste("__Expression__:", paste(exp$Expression, sep="//"), "  ", sep=""))
+	md.cont <- c(md.cont, paste("__OverExpression__:", paste(exp$Overexpression, sep="//"), "  ", sep=""))
+	md.cont <- c(md.cont, paste("__RNAi__:", paste(exp$RNAi, sep="//"), "  ", sep=""))
+  }
   md.cont <- c(md.cont, "", "## Key message")
   if (!is.null(key)) {
     for (i in 1:nrow(key)) {
@@ -158,12 +176,46 @@ for (j in 6:nrow(gene.lst)) {
       md.cont <- c(md.cont, md.cone)
     }
   }
+  
+  md.cont <- c(md.cont, "", "## Key figures")
+  if (length(exp.fig.fl)==1) {
+    md.cont <- c(md.cont, paste('<img src=', '"', basename(exp.fig.fl), '"', 'width="400" height="200">'))
+  }
+  
+  if (length(pheno.fig.fl)==1) {
+    md.cont <- c(md.cont, paste('<img src=', '"', basename(pheno.fig.fl), '"', 'width="400" height="200">'))
+  }
+  
   md.cont <- c(md.cont, "", "")
   
   gene.lst$Symbol[j] <- gsub("\\|", "~", gene.lst$Symbol[j])
   out.fl.name <- paste("2014-09-20-", gene.lst$Symbol[j], ".md", sep="")
+  if (grepl("^os", gene.lst$Symbol[j], ignore.case=T)) {
+    tmp.tag <- substr(gsub("^os", "", gene.lst$Symbol[j], ignore.case=T), 1,1)
+	tmp.tag <- toupper(tmp.tag)
+	if (tmp.tag %in% LETTERS[1:24]) {
+	  path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/OS/", tmp.tag, sep="")
+	} else {
+	  path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/OS/0-9"
+	}
+  } else {
+    tmp.tag <- substr(gene.lst$Symbol[j], 1,1)
+	tmp.tag <- toupper(tmp.tag)
+	if (tmp.tag %in% LETTERS[1:24]) {
+	  path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/", tmp.tag, sep="")
+	} else {
+	  path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/0-9"
+	}
+  }
+	  
   out.fl.name <- paste(path, out.fl.name, sep="/")
+  if (length(exp.fig.fl)==1) {
+    file.copy(from=exp.fig.fl, to=path)
+  }
   
+  if (length(pheno.fig.fl)==1) {
+    file.copy(from=pheno.fig.fl, to=path)
+  }
   writeLines(md.cont, con=out.fl.name)
 }
 
