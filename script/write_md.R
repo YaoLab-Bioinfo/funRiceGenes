@@ -178,12 +178,12 @@ for (j in 1:nrow(gene.lst)) {
   }
   
   md.cont <- c(md.cont, "", "## Key figures")
-  if (length(exp.fig.fl)==1) {
-    md.cont <- c(md.cont, paste('<img src=', '"', '{{ site.url }}/assets/images/', basename(exp.fig.fl), '>'))
+  if (length(pheno.fig.fl)==1) {
+    md.cont <- c(md.cont, paste("![phenotype]({{ BASE_PATH }}/assets/images/", basename(pheno.fig.fl), ")", sep=""))
   }
   
-  if (length(pheno.fig.fl)==1) {
-    md.cont <- c(md.cont, paste('<img src=', '"', '{{ site.url }}/assets/images/', basename(pheno.fig.fl), '>'))
+  if (length(exp.fig.fl)==1) {
+    md.cont <- c(md.cont, paste("![expression]({{ BASE_PATH }}/assets/images/", basename(exp.fig.fl), ")", sep=""))
   }
   
   md.cont <- c(md.cont, "", "")
