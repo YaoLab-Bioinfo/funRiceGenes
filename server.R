@@ -1,4 +1,5 @@
 
+library(plyr)
 load("rapmsu.rda")
 
 ref.info <- read.table("reference.table", head=T, as.is=T, sep="\t", 
