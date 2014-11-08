@@ -1697,44 +1697,44 @@ shinyServer(function(input, output) {
   
   output$mytable1 = renderDataTable({
     fetchInfoByChoice(input$query, input$inText)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
+  }, options = list(lengthMenu = c(1, 2), searching = FALSE)
   )
   
   output$mytable2 = renderDataTable({
     fetchRefByChoice(input$query, input$inText)
-  }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
-                    bFilter = FALSE, bAutoWidth = FALSE)
+  }, options = list(lengthMenu = c(1, 2, 4), pageLength = 1,
+                    searching = FALSE, autoWidth = FALSE)
   )
   
   output$mytable3 = renderDataTable({
     fetchAccByChoice(input$query, input$inText)
-  }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
-                    iDisplayLength = 2))
+  }, options = list(lengthMenu = c(2, 4, 6), searching = FALSE,
+                    pageLength = 2))
   
 #   output$mytable4 = renderDataTable({
 #     fetchTextByChoice(input$query, input$inText)
-#   }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-#                     iDisplayLength = 1, bAutoWidth = FALSE))
+#   }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
+#                     pageLength = 1, autoWidth = FALSE))
 
   output$mytable4 = renderDataTable({
     fetchExpByChoice(input$query, input$inText)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
+  }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
+                    pageLength = 1, autoWidth = FALSE))
   
   output$mytable5 = renderDataTable({
     fetchKeyByChoice(input$query, input$inText)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
+  }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
+                    pageLength = 1, autoWidth = FALSE))
   
   output$mytable6 = renderDataTable({
     fetchConneByChoice(input$query, input$inText)
-  }, options = list(aLengthMenu = c(1, 2, 4), bFilter = FALSE,
-                    iDisplayLength = 1, bAutoWidth = FALSE))
+  }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
+                    pageLength = 1, autoWidth = FALSE))
   
   output$mytable7 = renderDataTable({
     fetchInfoByKey(input$keyword)
-  }, options = list(aLengthMenu = c(2, 4, 6), bFilter = FALSE,
-                    iDisplayLength = 2, bAutoWidth = FALSE))
+  }, options = list(lengthMenu = c(2, 4, 6), searching = FALSE,
+                    pageLength = 2, autoWidth = FALSE))
   
   output$inTextfam <- renderUI({
     textInput("inTextfam", strong("Put your query here:"), 
@@ -1743,13 +1743,13 @@ shinyServer(function(input, output) {
   
   output$mytable8 = renderDataTable({
     fetchFamInfoByChoice(input$queryfam, input$inTextfam)
-  }, options = list(aLengthMenu = c(1, 2), bFilter = FALSE)
+  }, options = list(lengthMenu = c(1, 2), searching = FALSE)
   )
   
   output$mytable9 = renderDataTable({
     fetchFamRefByChoice(input$queryfam, input$inTextfam)
-  }, options = list(aLengthMenu = c(1, 2, 4), iDisplayLength = 1,
-                    bFilter = FALSE, bAutoWidth = FALSE)
+  }, options = list(lengthMenu = c(1, 2, 4), pageLength = 1,
+                    searching = FALSE, autoWidth = FALSE)
   )
 
   output$inTextconv <- renderUI({
@@ -1759,14 +1759,14 @@ shinyServer(function(input, output) {
 
   output$mytable10 = renderDataTable({
     convID(input$queryconv, input$inTextconv)
-  }, options = list(aLengthMenu = 1, iDisplayLength = 1,
-                  bFilter = FALSE, bAutoWidth = FALSE)
+  }, options = list(lengthMenu = 1, pageLength = 1,
+                  searching = FALSE, autoWidth = FALSE)
   )
 
   output$mytable11 = renderDataTable({
     fetchRefByKey(input$publication)
-  }, options = list(aLengthMenu = c(1, 2, 4, 6), bFilter = FALSE,
-                  iDisplayLength = 1, bAutoWidth = FALSE))
+  }, options = list(lengthMenu = c(1, 2, 4, 6), searching = FALSE,
+                  pageLength = 1, autoWidth = FALSE))
   
   observe({
     if (input$submit1>0) {
