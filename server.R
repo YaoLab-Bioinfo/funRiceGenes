@@ -1242,27 +1242,9 @@ write.gene <- function(df) {
 }
 
 write.pub <- function(df) {
-  symbol <- df$Symbol
-  symbol <- gsub("^\\s+", "", symbol)
-  symbol <- gsub(" +$", "", symbol)
-  locus.line <- findDirBySym(tolower(symbol))
-  df$Symbol <- gene.info$Symbol[locus.line]
-  if (length(locus.line)==1) {
-    path <- gene.info$path[locus.line]
-    out.fl <- paste(path, "reference.info", sep="/")
+  if (df$Symbol=="") {
     df.sub <- df[, c("Title", "Year", "Journal", "Affiliation", "Abstract", "Symbol")]
-    if (file.exists(out.fl)) {
-      df$Publication <- NA
-      df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
-      df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
-      df.new <- unique(rbind(df.tmp, df))
-      write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
-    } else {
-      df$Publication <- NA
-      df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
-      write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
-    }
-    
+    df.sub$Symbol <- "None"
     names(df.sub)[6] <- "Gene"
     ref.info <- rbind(ref.info, df.sub)
     ref.info.new <- ddply(ref.info, .(Title, Year, Journal, Affiliation, Abstract), function(df){
@@ -1271,6 +1253,37 @@ write.pub <- function(df) {
     })
     names(ref.info.new)[6] <- "Gene"
     write.table(ref.info.new, file="reference.table", sep="\t", quote=F, row.names=F)
+  } else {
+    symbol <- df$Symbol
+    symbol <- gsub("^\\s+", "", symbol)
+    symbol <- gsub(" +$", "", symbol)
+    locus.line <- findDirBySym(tolower(symbol))
+    df$Symbol <- gene.info$Symbol[locus.line]
+    if (length(locus.line)==1) {
+      path <- gene.info$path[locus.line]
+      out.fl <- paste(path, "reference.info", sep="/")
+      df.sub <- df[, c("Title", "Year", "Journal", "Affiliation", "Abstract", "Symbol")]
+      if (file.exists(out.fl)) {
+        df$Publication <- NA
+        df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
+        df.tmp <- read.table(out.fl, sep="\t", quote="", head=T, as.is=T, comment="")
+        df.new <- unique(rbind(df.tmp, df))
+        write.table(df.new, file=out.fl, sep="\t", quote=F, row.names=F)
+      } else {
+        df$Publication <- NA
+        df <- df[, c("Publication", "Title", "Year", "Journal", "Affiliation", "Abstract")]
+        write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
+      }
+      
+      names(df.sub)[6] <- "Gene"
+      ref.info <- rbind(ref.info, df.sub)
+      ref.info.new <- ddply(ref.info, .(Title, Year, Journal, Affiliation, Abstract), function(df){
+        symbol <- paste(df$Gene, sep=",", collapse=",")
+        return(symbol)
+      })
+      names(ref.info.new)[6] <- "Gene"
+      write.table(ref.info.new, file="reference.table", sep="\t", quote=F, row.names=F)
+    }
   }
 }
 
