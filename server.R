@@ -1800,6 +1800,7 @@ shinyServer(function(input, output) {
                              Journal=input$jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
                              stringsAsFactors=FALSE)
         write.pub(df.pub)
+        updateGeneInfo()
       })
     } else {NULL}
   })
@@ -1810,6 +1811,7 @@ shinyServer(function(input, output) {
         df.acc <- data.frame(Symbol=input$symsub3, Accession=input$accsub3, 
                              stringsAsFactors=FALSE)
         write.acc(df.acc)
+        updateGeneInfo()
       })
     } else {NULL}
   })
@@ -1821,6 +1823,7 @@ shinyServer(function(input, output) {
                              Overexpression=input$ove9, RNAi=input$rnai9,
                            stringsAsFactors=FALSE)
         write.exp(df.exp)
+        updateGeneInfo()
       })
     } else {NULL}
   })
@@ -1844,6 +1847,7 @@ shinyServer(function(input, output) {
                              Title=input$tilsub5, Evidence=input$evisub5,
                              stringsAsFactors=FALSE)
         write.con(df.con)
+        updateGeneInfo()
       })
     } else {NULL}
   })
