@@ -392,13 +392,13 @@ CAP1	Os02g0141300	LOC_Os02g04840	growth	Collapsed abnormal pollen1 gene encoding
 CAP1	Os02g0141300	LOC_Os02g04840	anther	Collapsed abnormal pollen1 gene encoding the Arabinokinase-like protein is involved in pollen development in rice	data/Gene/Abstract/C/CAP1
 CAP1	Os02g0141300	LOC_Os02g04840	pollen	Collapsed abnormal pollen1 gene encoding the Arabinokinase-like protein is involved in pollen development in rice	data/Gene/Abstract/C/CAP1
 CAP1	Os02g0141300	LOC_Os02g04840	vegetative	Collapsed abnormal pollen1 gene encoding the Arabinokinase-like protein is involved in pollen development in rice	data/Gene/Abstract/C/CAP1
-cdc2Os-1	Os03g0118400	LOC_Os03g02680	temperature	Isolation and characterization of cDNA clones encoding cdc2 homologues from Oryza sativa: a functional homologue and cognate variants	data/Gene/Abstract/C/cdc2Os-1
-CDKB1;1	Os01g0897000	LOC_Os01g67160	root apical meristem	Isolation and characterization of a rice cDNA encoding B1-type cyclin-dependent kinase	data/Gene/Abstract/C/CDKB1;1
-CDKB1;1	Os01g0897000	LOC_Os01g67160	root	Isolation and characterization of a rice cDNA encoding B1-type cyclin-dependent kinase	data/Gene/Abstract/C/CDKB1;1
-CDKB1;1	Os01g0897000	LOC_Os01g67160	shoot	Isolation and characterization of a rice cDNA encoding B1-type cyclin-dependent kinase	data/Gene/Abstract/C/CDKB1;1
-CDKB1;1	Os01g0897000	LOC_Os01g67160	meristem	Isolation and characterization of a rice cDNA encoding B1-type cyclin-dependent kinase	data/Gene/Abstract/C/CDKB1;1
-CDKB2;1|cdc2Os3	Os08g0512600	LOC_Os08g40170	root	Differential expression of genes for cyclin-dependent protein kinases in rice plants	data/Gene/Abstract/C/CDKB2;1~cdc2Os3
-CDKB2;1|cdc2Os3	Os08g0512600	LOC_Os08g40170	mitosis	CDKB2 is involved in mitosis and DNA damage response in rice	data/Gene/Abstract/C/CDKB2;1~cdc2Os3
+cdc2Os-1|CDKA1	Os03g0118400	LOC_Os03g02680	temperature	Isolation and characterization of cDNA clones encoding cdc2 homologues from Oryza sativa: a functional homologue and cognate variants	data/Gene/Abstract/C/cdc2Os-1
+CDKB1;1|CDKB1	Os01g0897000	LOC_Os01g67160	root apical meristem	Isolation and characterization of a rice cDNA encoding B1-type cyclin-dependent kinase	data/Gene/Abstract/C/CDKB1;1
+CDKB1;1|CDKB1	Os01g0897000	LOC_Os01g67160	root	Isolation and characterization of a rice cDNA encoding B1-type cyclin-dependent kinase	data/Gene/Abstract/C/CDKB1;1
+CDKB1;1|CDKB1	Os01g0897000	LOC_Os01g67160	shoot	Isolation and characterization of a rice cDNA encoding B1-type cyclin-dependent kinase	data/Gene/Abstract/C/CDKB1;1
+CDKB1;1|CDKB1	Os01g0897000	LOC_Os01g67160	meristem	Isolation and characterization of a rice cDNA encoding B1-type cyclin-dependent kinase	data/Gene/Abstract/C/CDKB1;1
+CDKB2;1|cdc2Os3|CDKB2	Os08g0512600	LOC_Os08g40170	root	Differential expression of genes for cyclin-dependent protein kinases in rice plants	data/Gene/Abstract/C/CDKB2;1~cdc2Os3
+CDKB2;1|cdc2Os3|CDKB2	Os08g0512600	LOC_Os08g40170	mitosis	CDKB2 is involved in mitosis and DNA damage response in rice	data/Gene/Abstract/C/CDKB2;1~cdc2Os3
 CDSP32	Os07g0476900	LOC_Os07g29410	oxidative	Rice NTRC is a high-efficiency redox system for chloroplast protection against oxidative damage	data/Gene/Body/C/CDSP32
 CDSP32	Os07g0476900	LOC_Os07g29410	chloroplast	Rice NTRC is a high-efficiency redox system for chloroplast protection against oxidative damage	data/Gene/Body/C/CDSP32
 CEBiP	Os03g0133400	LOC_Os03g04110	magnaporthe oryzae	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
