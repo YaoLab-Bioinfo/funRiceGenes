@@ -1138,6 +1138,8 @@ DST	Os03g0786400	LOC_Os03g57240	transcription factor	Rice zinc finger protein DS
 DST	Os03g0786400	LOC_Os03g57240	panicle	Rice zinc finger protein DST enhances grain production through controlling Gn1a/OsCKX2 expression	data/Gene/Abstract/D/DST
 DST	Os03g0786400	LOC_Os03g57240	homeostasis	A previously unknown zinc finger protein, DST, regulates drought and salt tolerance in rice via stomatal aperture control	data/Gene/Abstract/D/DST
 DST	Os03g0786400	LOC_Os03g57240	transcription factor	A previously unknown zinc finger protein, DST, regulates drought and salt tolerance in rice via stomatal aperture control	data/Gene/Abstract/D/DST
+DST	Os03g0786400	LOC_Os03g57240	drought sensitivity	Plasma membrane receptor-like kinase leaf panicle 2 acts downstream of the DROUGHT AND SALT TOLERANCE transcription factor to regulate drought sensitivity in rice	data/Gene/Abstract/D/DST
+DST	Os03g0786400	LOC_Os03g57240	drought	Plasma membrane receptor-like kinase leaf panicle 2 acts downstream of the DROUGHT AND SALT TOLERANCE transcription factor to regulate drought sensitivity in rice	data/Gene/Abstract/D/DST
 DTD|EAT1	Os04g0599300	LOC_Os04g51070	tapetal	EAT1 promotes tapetal cell death by regulating aspartic proteases during male reproductive development in rice	data/Gene/Abstract/E/EAT1
 DTD|EAT1	Os04g0599300	LOC_Os04g51070	cell death	EAT1 promotes tapetal cell death by regulating aspartic proteases during male reproductive development in rice	data/Gene/Abstract/E/EAT1
 DTD|EAT1	Os04g0599300	LOC_Os04g51070	transcription factor	A novel rice bHLH transcription factor, DTD, acts coordinately with TDR in controlling tapetum function and pollen development	data/Gene/Abstract/E/EAT1
@@ -2353,6 +2355,8 @@ LP2	Os02g0615800	LOC_Os02g40240	panicle	The LP2 leucine-rich repeat receptor kin
 LP2	Os02g0615800	LOC_Os02g40240	seedling	The LP2 leucine-rich repeat receptor kinase gene promoter directs organ-specific, light-responsive expression in transgenic rice	data/Gene/Abstract/L/LP2
 LP2	Os02g0615800	LOC_Os02g40240	root	The LP2 leucine-rich repeat receptor kinase gene promoter directs organ-specific, light-responsive expression in transgenic rice	data/Gene/Abstract/L/LP2
 LP2	Os02g0615800	LOC_Os02g40240	leaf	The LP2 leucine-rich repeat receptor kinase gene promoter directs organ-specific, light-responsive expression in transgenic rice	data/Gene/Abstract/L/LP2
+LP2	Os02g0615800	LOC_Os02g40240	drought sensitivity	Plasma membrane receptor-like kinase leaf panicle 2 acts downstream of the DROUGHT AND SALT TOLERANCE transcription factor to regulate drought sensitivity in rice	data/Gene/Abstract/L/LP2
+LP2	Os02g0615800	LOC_Os02g40240	drought	Plasma membrane receptor-like kinase leaf panicle 2 acts downstream of the DROUGHT AND SALT TOLERANCE transcription factor to regulate drought sensitivity in rice	data/Gene/Abstract/L/LP2
 LPA1	Os03g0237250	LOC_Os03g13400	tiller	Loose Plant Architecture1, an INDETERMINATE DOMAIN protein involved in shoot gravitropism, regulates plant architecture in rice	data/Gene/Abstract/L/LPA1
 LPA1	Os03g0237250	LOC_Os03g13400	tiller angle	Loose Plant Architecture1, an INDETERMINATE DOMAIN protein involved in shoot gravitropism, regulates plant architecture in rice	data/Gene/Abstract/L/LPA1
 LPA1	Os03g0237250	LOC_Os03g13400	ethylene	Loose Plant Architecture1, an INDETERMINATE DOMAIN protein involved in shoot gravitropism, regulates plant architecture in rice	data/Gene/Abstract/L/LPA1
@@ -3304,6 +3308,14 @@ OsARF16	Os06g0196700	LOC_Os06g09660	transcription factor	OsARF16, a transcriptio
 OsARF16	Os06g0196700	LOC_Os06g09660	lateral root	OsARF16, a transcription factor, is required for auxin and phosphate starvation response in rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
 OsARF16	Os06g0196700	LOC_Os06g09660	primary root	OsARF16, a transcription factor, is required for auxin and phosphate starvation response in rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
 OsARF16	Os06g0196700	LOC_Os06g09660	root	OsARF16, a transcription factor, is required for auxin and phosphate starvation response in rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
+OsARF16	Os06g0196700	LOC_Os06g09660	phosphate	OsARF16 Is Involved in Cytokinin-Mediated Inhibition of Phosphate Transport and Phosphate Signaling in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
+OsARF16	Os06g0196700	LOC_Os06g09660	phosphate transport	OsARF16 Is Involved in Cytokinin-Mediated Inhibition of Phosphate Transport and Phosphate Signaling in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
+OsARF16	Os06g0196700	LOC_Os06g09660	phosphate signaling	OsARF16 Is Involved in Cytokinin-Mediated Inhibition of Phosphate Transport and Phosphate Signaling in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
+OsARF16	Os06g0196700	LOC_Os06g09660	cytokinin	OsARF16 Is Involved in Cytokinin-Mediated Inhibition of Phosphate Transport and Phosphate Signaling in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
+OsARF16	Os06g0196700	LOC_Os06g09660	cytokinin	OsARF16 Is Involved in Cytokinin-Mediated Inhibition of Phosphate Transport and Phosphate Signaling in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
+OsARF16	Os06g0196700	LOC_Os06g09660	cytokinin response	OsARF16 Is Involved in Cytokinin-Mediated Inhibition of Phosphate Transport and Phosphate Signaling in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
+OsARF16	Os06g0196700	LOC_Os06g09660	Pi uptake	OsARF16 Is Involved in Cytokinin-Mediated Inhibition of Phosphate Transport and Phosphate Signaling in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
+OsARF16	Os06g0196700	LOC_Os06g09660	Pi signaling	OsARF16 Is Involved in Cytokinin-Mediated Inhibition of Phosphate Transport and Phosphate Signaling in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/A/OsARF16
 OsARF24	Os12g0479400	LOC_Os12g29520	auxin	Rice actin-binding protein RMD is a key link in the auxin¨Cactin regulatory loop that controls cell growth	data/Gene/Abstract/OS/A/OsARF24
 OsARF24	Os12g0479400	LOC_Os12g29520	auxin response	Rice actin-binding protein RMD is a key link in the auxin¨Cactin regulatory loop that controls cell growth	data/Gene/Abstract/OS/A/OsARF24
 OsARG	Os04g0106300	LOC_Os04g01590	mitochondria	OsARG encodes an arginase that plays critical roles in panicle development and grain production in rice	data/Gene/Abstract/OS/A/OsARG
@@ -7286,6 +7298,7 @@ OsPIP1;2	Os04g0559700	LOC_Os04g47220	arsenite	Members of rice plasma membrane in
 OsPIP1;2	Os04g0559700	LOC_Os04g47220	seed	The role of water channel proteins and nitric oxide signaling in rice seed germination	data/Gene/Abstract/OS/P/OsPIP1;2
 OsPIP1;2	Os04g0559700	LOC_Os04g47220	root	Members of rice plasma membrane intrinsic proteins subfamily are involved in arsenite permeability and tolerance in plants	data/Gene/Abstract/OS/P/OsPIP1;2
 OsPIP1;2	Os04g0559700	LOC_Os04g47220	shoot	Members of rice plasma membrane intrinsic proteins subfamily are involved in arsenite permeability and tolerance in plants	data/Gene/Abstract/OS/P/OsPIP1;2
+OsPIP2;3	Os04g0521100	LOC_Os04g44060	drought sensitivity	Plasma membrane receptor-like kinase leaf panicle 2 acts downstream of the DROUGHT AND SALT TOLERANCE transcription factor to regulate drought sensitivity in rice	data/Gene/Abstract/OS/P/OsPIP2;3
 OsPIP2;4	Os07g0448100	LOC_Os07g26630	boron	Two rice plasma membrane intrinsic proteins, OsPIP2;4 and OsPIP2;7, are involved in transport and providing tolerance to boron toxicity	data/Gene/Abstract/OS/P/OsPIP2;4
 OsPIP2;4	Os07g0448100	LOC_Os07g26630	root	Two rice plasma membrane intrinsic proteins, OsPIP2;4 and OsPIP2;7, are involved in transport and providing tolerance to boron toxicity	data/Gene/Abstract/OS/P/OsPIP2;4
 OsPIP2;4	Os07g0448100	LOC_Os07g26630	shoot	Two rice plasma membrane intrinsic proteins, OsPIP2;4 and OsPIP2;7, are involved in transport and providing tolerance to boron toxicity	data/Gene/Abstract/OS/P/OsPIP2;4
