@@ -30,6 +30,3 @@ fetchPubmedById <- function(id="")
   }
 }
 
-
-a2 <- fetchPubmedById("25412256vx")
-
