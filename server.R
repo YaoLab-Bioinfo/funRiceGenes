@@ -1,4 +1,6 @@
 
+source("script/fetchPubmedById.R")
+
 library(plyr)
 load("rapmsu.rda")
 
@@ -1873,14 +1875,26 @@ shinyServer(function(input, output) {
     } else {NULL}
   })
   
-#   observe({
-#     if (input$submit7>0) {
-#       isolate({
-#         updateGeneInfo()
-#         updateKeyword()
-#       })
-#     } else {NULL}
-#   })
+   observe({
+     if (input$submit7>0) {
+       isolate({
+         if (input$symsub7!="") {
+           df.gene <- data.frame(Symbol=input$symsub7, MSU=input$msusub7, RAPdb=input$rapsub7,
+                                 stringsAsFactors=FALSE)
+           write.gene(df.gene)
+           updateGeneInfo()
+         } 
+         pubmedRes <- fetchPubmedById(input$pubmed7)
+         if (all(pubmedRes!="")) {  
+           df.pub <- data.frame(Symbol=input$symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
+                                Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
+                                stringsAsFactors=FALSE)
+           write.pub(df.pub)
+           updateGeneInfo()
+         }
+       })
+     } else {NULL}
+   })
   
 })
 
