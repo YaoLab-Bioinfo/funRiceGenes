@@ -9913,6 +9913,8 @@ sd1|GA20ox2	Os01g0883800	LOC_Os01g66100	dwarf	Overexpression of a GRAS protein l
 sd1|GA20ox2	Os01g0883800	LOC_Os01g66100	growth	Green revolution: a mutant gibberellin-synthesis gene in rice	data/Gene/Abstract/S/sd1~GA20ox2
 sd1|GA20ox2	Os01g0883800	LOC_Os01g66100	shoot	Overexpression of a GRAS protein lacking the DELLA domain confers altered gibberellin responses in rice	data/Gene/Abstract/S/sd1~GA20ox2
 sd1|GA20ox2	Os01g0883800	LOC_Os01g66100	 ga 	The rice YABBY1 gene is involved in the feedback regulation of gibberellin metabolism	data/Gene/Abstract/S/sd1~GA20ox2
+sd1|GA20ox2	Os01g0883800	LOC_Os01g66100	grain protein content	Control of grain protein contents through SEMIDWARF1 mutant alleles: sd1 increases the grain protein content in Dee-geo-woo-gen but not in Reimei.	data/Gene/Abstract/S/sd1~GA20ox2
+sd1|GA20ox2	Os01g0883800	LOC_Os01g66100	grain protein	Control of grain protein contents through SEMIDWARF1 mutant alleles: sd1 increases the grain protein content in Dee-geo-woo-gen but not in Reimei.	data/Gene/Abstract/S/sd1~GA20ox2
 SDG714	Os01g0927000	LOC_Os01g70220	culm	SDG714, a histone H3K9 methyltransferase, is involved in Tos17 DNA methylation and transposition in rice	data/Gene/Abstract/S/SDG714
 SDG714	Os01g0927000	LOC_Os01g70220	growth	SDG714 regulates specific gene expression and consequently affects plant growth via H3K9 dimethylation	data/Gene/Abstract/S/SDG714
 SDG724|lvp1	Os09g0307800	LOC_Os09g13740	flowering time	The histone methyltransferase SDG724 mediates H3K36me2/3 deposition at MADS50 and RFT1 and promotes flowering in rice	data/Gene/Abstract/S/SDG724~lvp1
@@ -10377,7 +10379,7 @@ TUD1	Os03g0232600	LOC_Os03g13010	dwarf	The U-box E3 ubiquitin ligase TUD1 functi
 TUD1	Os03g0232600	LOC_Os03g13010	 BR 	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
 TYDC	Os01g0770200	LOC_Os01g56380	growth	Characterization of rice tryptophan decarboxylases and their direct involvement in serotonin biosynthesis in transgenic rice	data/Gene/Abstract/T/TYDC
 TYDC	Os01g0770200	LOC_Os01g56380	seed	Characterization of rice tryptophan decarboxylases and their direct involvement in serotonin biosynthesis in transgenic rice	data/Gene/Abstract/T/TYDC
-UBQ	Os03g0234200	LOC_Os03g13170	Ubiquitin	Rice actin-binding protein RMD is a key link in the auxin¨Cactin regulatory loop that controls cell growth	data/Gene/Abstract/U/UBQ
+UBQ	Os03g0234200	LOC_Os03g13170	Ubiquitin	Rice actin-binding protein RMD is a key link in the auxin-actin regulatory loop that controls cell growth	data/Gene/Abstract/U/UBQ
 Udt1	Os07g0549600	LOC_Os07g36460	anther	The rice gene DEFECTIVE TAPETUM AND MEIOCYTES 1 (DTM1) is required for early tapetum development and meiosis	data/Gene/Abstract/U/Udt1
 Udt1	Os07g0549600	LOC_Os07g36460	cell death	Identification of gamyb-4 and analysis of the regulatory role of GAMYB in rice anther development	data/Gene/Abstract/U/Udt1
 Udt1	Os07g0549600	LOC_Os07g36460	anther development	Identification of gamyb-4 and analysis of the regulatory role of GAMYB in rice anther development	data/Gene/Abstract/U/Udt1
@@ -10681,4 +10683,4 @@ ZIP4|SPO22	Os01g0890900	LOC_Os01g66690	meiotic	The role of OsMSH5 in crossover f
 ZN	Os06g0116400	LOC_Os06g02580	leaf development	ZEBRA-NECROSIS, a thylakoid-bound protein, is critical for the photoprotection of developing chloroplasts during early leaf development	data/Gene/Abstract/Z/ZN
 ZN	Os06g0116400	LOC_Os06g02580	chloroplast	ZEBRA-NECROSIS, a thylakoid-bound protein, is critical for the photoprotection of developing chloroplasts during early leaf development	data/Gene/Abstract/Z/ZN
 ZN	Os06g0116400	LOC_Os06g02580	leaf	ZEBRA-NECROSIS, a thylakoid-bound protein, is critical for the photoprotection of developing chloroplasts during early leaf development	data/Gene/Abstract/Z/ZN
-¦ÁAmy3|OsAmy3D|RAmy3D	Os08g0473900	LOC_Os08g36910	seed	Structural organization and differential expression of rice alpha-amylase genes	data/Gene/Abstract/OS/A/OsAmy3D~RAmy3D
+alphaAmy3|OsAmy3D|RAmy3D	Os08g0473900	LOC_Os08g36910	seed	Structural organization and differential expression of rice alpha-amylase genes	data/Gene/Abstract/OS/A/OsAmy3D~RAmy3D
