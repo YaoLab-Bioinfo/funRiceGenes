@@ -19,6 +19,9 @@ fetchPubmedById <- function(id="")
     
     affiliation <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/AuthorList/Author/Affiliation", xmlValue)
     affiliation <- affiliation[1]
+    if (class(affiliation)!="character") {
+      affiliation <- ""
+    }
     if (is.list(year)) {
       year <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/Journal/JournalIssue/PubDate/Year", xmlValue)
       #      month <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/Journal/JournalIssue/PubDate/Month", xmlValue)
