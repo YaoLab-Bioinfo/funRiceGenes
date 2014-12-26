@@ -14,6 +14,7 @@ shinyUI(fluidPage(theme="mystyle.css",
                    </font>
              </div>
              <br>
+			 <h3>Introdution</h3>
              <div align='justify'>
                    More than 2204 cloned rice genes and 303 gene families 
                    comprised of 3381 genes were collected. For each gene, various information 
@@ -23,10 +24,41 @@ shinyUI(fluidPage(theme="mystyle.css",
                    related publications and the text mining result of the 
                    publications were provided.
              </div>
+			 
+			 <h3>How to query this database?</h3>
+			 <div align='justify'>
+                   This database was designed as a Shiny application and was deployed in the <a href='http://www.shinyapps.io/'>Cloud</a>. 
+                   You can query this database <a href='https://ricencode.shinyapps.io/RICENCODE/'>HERE</a>.
+                   You can query this database using the genomic locus assigned by the <a href='http://rice.plantbiology.msu.edu/'>Rice Genome Annotation Project</a>, 
+                   or the genomic locus assigned by the <a href='http://rapdb.dna.affrc.go.jp/'>Rice Annotation Project</a>, or the gene symbol. 
+                   You can retrieve the basic information of a gene, the publications on a gene, the agronomic traits associated with a gene, the connections between genes from this database.
+                   
+				   <br>
+                   You can also query this database by downloading the whole database to your local computer. In this way, you need <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer (See the <a href='http://andrewhzau.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+				   
+				   <br>
+				   Finally, this database were also provided to users as <a href='http://andrewhzau.github.io/RICENCODE/'>static web pages</a>. You can query this website through in-site search using the searching box on the top right of this website.
+             </div>
+			 
+			 <h3>How to contribute to this database?</h3>
+			 <div align='justify'>
+			       You can also contribute to this database by submitting information on newly cloned rice gene or new publications to this database. To do this, you need to download the database and have <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer(See the <a href='http://andrewhzau.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+			 </div>
+			 
+			 <h3>Further information</h3>
+			 <div align='justify'>
+			      Further information concerning the details on querying and contributing to this database can be found in the <a href='http://andrewhzau.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+			 </div>
+			 
+			 <h3>Contact us</h3>
+			 <div align='justify'>
+			      If you encounter any problems or have any suggestions concerning this database, please send email to ywhzau at gmail.com.
+			 </div>
+			 
              ")),
       br(),
       p(HTML("<div align='center'>
-                 <a href='http://www.croplab.org'>National Key Laboratory of Crop Genetic Improvement</a>
+                 <a href='http://croplab.hzau.edu.cn'>National Key Laboratory of Crop Genetic Improvement</a>
                  <br>
                  <a href='http://www.ncpgr.cn'>National Center of Plant Gene Research (Wuhan)</a>
               </div>")),
@@ -92,6 +124,10 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
       
 	  tabPanel("Keyword",
+	  p(HTML("<div align='justify'>
+                         Keywords in this database were used to describe phenotypic trait or biological process. As these keywords were collected from the publications, you can only use the keywords listed on <a href='http://andrewhzau.github.io/RICENCODE/tags.html'>this web page</a> to query this database. To use any keyword you like to query this database, you can use the 'Publication' panel on the navigation bar.
+             </div>"
+	  )),
       textInput("keyword", label = h4("* Query with keyword to characterize agronomic trait"), 
                 value = "heading date"),
       tabsetPanel(
