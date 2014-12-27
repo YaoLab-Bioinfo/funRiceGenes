@@ -17,7 +17,7 @@ fetchPubmedById <- function(id="")
     abstract <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/Abstract/AbstractText", xmlValue)
     abstract <- paste(abstract,sep="",collapse="")
     
-    affiliation <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/AuthorList/Author/Affiliation", xmlValue)
+    affiliation <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/AuthorList/Author/AffiliationInfo/Affiliation", xmlValue)
     affiliation <- affiliation[1]
     if (class(affiliation)!="character") {
       affiliation <- "Fail"
