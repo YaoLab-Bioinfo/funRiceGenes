@@ -1,8 +1,7 @@
 
 library(RCurl); library(XML); library(stringr); library(plyr);
 
-fetchPubmedById <- function(id="")
-{
+fetchPubmedById <- function(id="") {
   url <- "http://www.ncbi.nlm.nih.gov/pubmed"
   finalUrl <- paste(url,'?term=', id, '&report=xml&format=text', sep='')
   urlRes <- getURL(finalUrl)
@@ -74,6 +73,11 @@ fam.gene.rap.final <- unlist(unname(fam.gene.rap.new))
 gene.info <- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
 gene.keyword <- read.table("geneKeyword.table", head=T, 
                            sep="\t", as.is=T, quote="", comment="")
+all.key <- gene.keyword$Keyword
+all.sym <- sapply(gene.info$Symbol, function(x) {
+  symb <- unlist(strsplit(x, split="\\|"))
+  return(symb)
+})
 
 gene.msu <- 1:nrow(gene.info)
 names(gene.msu) <- gene.info$MSU
@@ -120,7 +124,6 @@ fetchRefByKey <- function(keyword="") {
     }
   }
 }
-
 
 ####  MSU
 fetchInfoByMsu <- function(locus="") {
@@ -456,7 +459,6 @@ fetchConneByMsu <- function(locus="") {
     return(NULL)
   }
 }
-
 
 #### RAPdb
 fetchInfoByRap <- function(locus="") {
@@ -977,7 +979,6 @@ fetchRefBySym <- function(symbol="") {
   }
 }
 
-
 fetchFamRefBySym <- function(symbol="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
@@ -1373,6 +1374,24 @@ write.key <- function(df) {
   }
 }
 
+scanAndWriteKey <- function(df) {
+  title <- df$Title; abstract <- df$Abstract; symbol <- df$Symbol
+  all.sent <- unlist(strsplit(abstract, split="\\."))
+  all.sent <- c(title, all.sent)
+  lstRes <- lapply(all.key, function(x) {
+    if (any(grepl(x, all.sent))) {
+      return(cbind(x, all.sent[grepl(x, all.sent)]))
+    }
+  })
+  dfRes <- do.call(rbind, lstRes)
+  if (nrow(dfRes)>0) {
+    names(dfRes) <- c("Keyword", "Evidence")
+    dfRes$Symbol <- symbol
+    dfRes$Title <- title
+    write.key(dfRes)
+  }
+}
+
 write.exp <- function(df) {
   symbol <- df$Symbol
   symbol <- gsub("^\\s+", "", symbol)
@@ -1389,6 +1408,36 @@ write.exp <- function(df) {
     } else {
       write.table(df, file=out.fl, sep="\t", quote=F, row.names=F)
     }
+  }
+}
+
+scanAndWriteExp <- function(df) {
+  title <- df$Title; abstract <- df$Abstract; symbol <- df$Symbol
+  all.sent <- unlist(strsplit(abstract, split="\\."))
+  all.sent <- c(title, all.sent)
+  all.key <- c("expression", "overexpression", "rnai")
+  lstRes <- lapply(all.key, function(x) {
+    if (any(grepl(x, all.sent))) {
+      return(cbind(x, all.sent[grepl(x, all.sent)]))
+    }
+  })
+  dfRes <- do.call(rbind, lstRes)
+  if (nrow(dfRes)>0) {
+    names(dfRes) <- c("Keyword", "Evidence")
+    dfRes$Symbol <- symbol
+    dfRes$Title <- title
+    df.new <- NULL
+    df.new$Symbol <- symbol
+    if (any(dfRes$Keyword=="expression")) {
+      df.new$Expression <- paste(dfRes$Evidence[dfRes$Keyword=="expression"], sep=" | ", collapse=" | ")
+    }
+    if (any(dfRes$Keyword=="overexpression")) {
+      df.new$Overexpression <- paste(dfRes$Evidence[dfRes$Keyword=="overexpression"], sep=" | ", collapse=" | ")
+    }
+    if (any(dfRes$Keyword=="rnai")) {
+      df.new$RNAi <- paste(dfRes$Evidence[dfRes$Keyword=="rnai"], sep=" | ", collapse=" | ")
+    }
+    write.exp(df.new)
   }
 }
 
@@ -1442,6 +1491,28 @@ write.con <- function(df) {
                   col.names=F)
     }
   }
+}
+
+scanAndWriteCon <- function(df) {
+  title <- df$Title; abstract <- df$Abstract; symbol <- df$Symbol
+  all.sent <- unlist(strsplit(abstract, split="\\."))
+  all.sent <- c(title, all.sent)
+  all.sent <- all.sent[grepl(symbol, all.sent)]
+  all.sym <- setdiff(all.sym, symbol)
+  if (length(all.sent)>0) {
+    lstRes <- lapply(all.sym, function(x) {
+      if (grepl(x, all.sent)) {
+        return(cbind(x, all.sent[grepl(x, all.sent)]))
+      }
+    })
+    dfRes <- do.call(rbind, lstRes)
+    if (nrow(dfRes)>0) {
+      names(dfRes) <- c("Symbol2", "Evidence")
+      dfRes$Symbol1 <- symbol
+      dfRes$Title <- title
+      write.con(dfRes)
+    }
+  } 
 }
 
 gene.edit <- function(df){
@@ -1921,6 +1992,9 @@ shinyServer(function(input, output) {
                                 Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
                                 stringsAsFactors=FALSE)
            write.pub(df.pub)
+           scanAndWriteKey(df.pub)
+           scanAndWriteCon(df.pub)
+           scanAndWriteExp(df.pub)
            updateGeneInfo()
          }
        })
