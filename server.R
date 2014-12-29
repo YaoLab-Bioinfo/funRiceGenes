@@ -1379,7 +1379,7 @@ scanAndWriteKey <- function(df) {
   all.sent <- unlist(strsplit(abstract, split="\\."))
   all.sent <- c(title, all.sent)
   lstRes <- lapply(all.key, function(x) {
-    if (any(grepl(x, all.sent))) {
+    if (any(grepl(x, all.sent, ignore.case=TRUE))) {
       return(cbind(x, all.sent[grepl(x, all.sent)]))
     }
   })
@@ -1992,9 +1992,11 @@ shinyServer(function(input, output) {
                                 Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
                                 stringsAsFactors=FALSE)
            write.pub(df.pub)
-           scanAndWriteKey(df.pub)
-           scanAndWriteCon(df.pub)
-           scanAndWriteExp(df.pub)
+           if (input$symsub7!="") {
+             scanAndWriteKey(df.pub)
+             scanAndWriteCon(df.pub)
+             scanAndWriteExp(df.pub)
+           }
            updateGeneInfo()
          }
        })
