@@ -1337,7 +1337,7 @@ write.acc <- function(df) {
 }
 
 write.key <- function(df) {
-  symbol <- df$Symbol
+  symbol <- df$Symbol[1]
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
   locus.line <- findDirBySym(tolower(symbol))
@@ -1389,9 +1389,8 @@ scanAndWriteKey <- function(df) {
     names(dfRes) <- c("Keyword", "Evidence")
     dfRes$Symbol <- symbol
     dfRes$Title <- title
-    for (i in 1:nrow(dfRes)) {
-      write.key(dfRes[i, ])
-    }
+    dfRes <- dfRes[, c("Symbol",  "Keyword",	"Title",	"Evidence")]
+    write.key(dfRes)
   }
 }
 
