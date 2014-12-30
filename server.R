@@ -1984,7 +1984,7 @@ shinyServer(function(input, output) {
     } else {NULL}
   })
   
-   observe({
+  observe({
      if (input$submit7>0) {
        isolate({
          if (input$symsub7!="") {
