@@ -1380,15 +1380,18 @@ scanAndWriteKey <- function(df) {
   all.sent <- c(title, all.sent)
   lstRes <- lapply(all.key, function(x) {
     if (any(grepl(x, all.sent, ignore.case=TRUE))) {
-      return(cbind(x, all.sent[grepl(x, all.sent)]))
+      return(cbind(x, all.sent[grepl(x, all.sent, ignore.case=TRUE)]))
     }
   })
   dfRes <- do.call(rbind, lstRes)
+  dfRes <- data.frame(dfRes, stringsAsFactors=FALSE)
   if (nrow(dfRes)>0) {
     names(dfRes) <- c("Keyword", "Evidence")
     dfRes$Symbol <- symbol
     dfRes$Title <- title
-    write.key(dfRes)
+    for (i in 1:nrow(dfRes)) {
+      write.key(dfRes[i, ])
+    }
   }
 }
 
@@ -1417,11 +1420,12 @@ scanAndWriteExp <- function(df) {
   all.sent <- c(title, all.sent)
   all.key <- c("expression", "overexpression", "rnai")
   lstRes <- lapply(all.key, function(x) {
-    if (any(grepl(x, all.sent))) {
-      return(cbind(x, all.sent[grepl(x, all.sent)]))
+    if (any(grepl(x, all.sent, ignore.case=TRUE))) {
+      return(cbind(x, all.sent[grepl(x, all.sent, ignore.case=TRUE)]))
     }
   })
   dfRes <- do.call(rbind, lstRes)
+  dfRes <- data.frame(dfRes, stringsAsFactors=FALSE)
   if (nrow(dfRes)>0) {
     names(dfRes) <- c("Keyword", "Evidence")
     dfRes$Symbol <- symbol
@@ -1501,16 +1505,19 @@ scanAndWriteCon <- function(df) {
   all.sym <- setdiff(all.sym, symbol)
   if (length(all.sent)>0) {
     lstRes <- lapply(all.sym, function(x) {
-      if (grepl(x, all.sent)) {
-        return(cbind(x, all.sent[grepl(x, all.sent)]))
+      if (grepl(x, all.sent, ignore.case=TRUE)) {
+        return(cbind(x, all.sent[grepl(x, all.sent, ignore.case=TRUE)]))
       }
     })
     dfRes <- do.call(rbind, lstRes)
+    dfRes <- data.frame(dfRes, stringsAsFactors=FALSE)
     if (nrow(dfRes)>0) {
       names(dfRes) <- c("Symbol2", "Evidence")
       dfRes$Symbol1 <- symbol
       dfRes$Title <- title
-      write.con(dfRes)
+      for (i in 1:nrow(dfRes)) {
+        write.con(dfRes[i, ])
+      }
     }
   } 
 }
