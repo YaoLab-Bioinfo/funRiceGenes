@@ -1990,8 +1990,11 @@ shinyServer(function(input, output) {
          if (input$symsub7!="") {
            df.gene <- data.frame(Symbol=input$symsub7, MSU=input$msusub7, RAPdb=input$rapsub7,
                                  stringsAsFactors=FALSE)
-           write.gene(df.gene)
-           updateGeneInfo()
+           locus.line <- findDirBySym(tolower(input$symsub7))
+           if (length(locus.line)==0) {
+             write.gene(df.gene)
+             updateGeneInfo()
+           }
          } 
          pubmedRes <- fetchPubmedById(input$pubmed7)
          if (all(pubmedRes!="")) {  
