@@ -1380,6 +1380,7 @@ scanAndWriteKey <- function(df) {
   title <- df$Title; abstract <- df$Abstract; symbol <- df$Symbol
   all.sent <- unlist(strsplit(abstract, split="\\."))
   all.sent <- c(title, all.sent)
+  all.sent <- all.sent[grepl(symbol, all.sent, ignore.case=TRUE)]
   lstRes <- lapply(all.key, function(key) {
     if (any(grepl(key, all.sent, ignore.case=TRUE))) {
       return(cbind(key, all.sent[grepl(key, all.sent, ignore.case=TRUE)]))
@@ -1392,7 +1393,17 @@ scanAndWriteKey <- function(df) {
     dfRes$Symbol <- symbol
     dfRes$Title <- title
     dfRes <- dfRes[, c("Symbol",  "Keyword",	"Title",	"Evidence")]
-    write.key(dfRes)
+    line.right <- vector()
+    for (i in 1:nrow(dfRes)) {
+      evid.words <- tolower(unlist(strsplit(dfRes$Evidence[i], split="\\s+")))
+      if (tolower(dfRes$Symbol[i])%in%evid.words && tolower(dfRes$Keyword[i])%in%evid.words) {
+        line.right <- c(line.right, i)
+      }
+    }
+    if (length(line.right)>0) {
+      dfRes <- dfRes[line.right, ]
+      write.key(dfRes)
+    }
   }
 }
 
@@ -1419,6 +1430,7 @@ scanAndWriteExp <- function(df) {
   title <- df$Title; abstract <- df$Abstract; symbol <- df$Symbol
   all.sent <- unlist(strsplit(abstract, split="\\."))
   all.sent <- c(title, all.sent)
+  all.sent <- all.sent[grepl(symbol, all.sent, ignore.case=TRUE)]
   all.exp <- c("expression", "overexpression", "rnai")
   lstRes <- lapply(all.exp, function(exp) {
     if (any(grepl(exp, all.sent, ignore.case=TRUE))) {
@@ -1518,7 +1530,10 @@ scanAndWriteCon <- function(df) {
       dfRes$Title <- title
       dfRes <- dfRes[, c("Symbol1", "Symbol2", "Title", "Evidence")]
       for (i in 1:nrow(dfRes)) {
-        write.con(dfRes[i, ])
+        evid.words <- tolower(unlist(strsplit(dfRes$Evidence[i], split="\\s+")))
+        if (tolower(dfRes$Symbol1[i])%in%evid.words && tolower(dfRes$Symbol2[i])%in%evid.words) {
+          write.con(dfRes[i, ])
+        }
       }
     }
   } 
