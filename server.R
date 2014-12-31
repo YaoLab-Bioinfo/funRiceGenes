@@ -73,7 +73,7 @@ fam.gene.rap.final <- unlist(unname(fam.gene.rap.new))
 gene.info <- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
 gene.keyword <- read.table("geneKeyword.table", head=T, 
                            sep="\t", as.is=T, quote="", comment="")
-all.key <- gene.keyword$Keyword
+all.key <- unique(gene.keyword$Keyword)
 all.sym <- sapply(gene.info$Symbol, function(x) {
   symb <- unlist(strsplit(x, split="\\|"))
   return(symb)
@@ -1378,9 +1378,9 @@ scanAndWriteKey <- function(df) {
   title <- df$Title; abstract <- df$Abstract; symbol <- df$Symbol
   all.sent <- unlist(strsplit(abstract, split="\\."))
   all.sent <- c(title, all.sent)
-  lstRes <- lapply(all.key, function(x) {
-    if (any(grepl(x, all.sent, ignore.case=TRUE))) {
-      return(cbind(x, all.sent[grepl(x, all.sent, ignore.case=TRUE)]))
+  lstRes <- lapply(all.key, function(key) {
+    if (any(grepl(key, all.sent, ignore.case=TRUE))) {
+      return(cbind(key, all.sent[grepl(key, all.sent, ignore.case=TRUE)]))
     }
   })
   dfRes <- do.call(rbind, lstRes)
@@ -1417,10 +1417,10 @@ scanAndWriteExp <- function(df) {
   title <- df$Title; abstract <- df$Abstract; symbol <- df$Symbol
   all.sent <- unlist(strsplit(abstract, split="\\."))
   all.sent <- c(title, all.sent)
-  all.key <- c("expression", "overexpression", "rnai")
-  lstRes <- lapply(all.key, function(x) {
-    if (any(grepl(x, all.sent, ignore.case=TRUE))) {
-      return(cbind(x, all.sent[grepl(x, all.sent, ignore.case=TRUE)]))
+  all.exp <- c("expression", "overexpression", "rnai")
+  lstRes <- lapply(all.exp, function(exp) {
+    if (any(grepl(exp, all.sent, ignore.case=TRUE))) {
+      return(cbind(exp, all.sent[grepl(exp, all.sent, ignore.case=TRUE)]))
     }
   })
   dfRes <- do.call(rbind, lstRes)
@@ -1503,9 +1503,9 @@ scanAndWriteCon <- function(df) {
   all.sent <- all.sent[grepl(symbol, all.sent)]
   all.sym <- setdiff(all.sym, symbol)
   if (length(all.sent)>0) {
-    lstRes <- lapply(all.sym, function(x) {
-      if (grepl(x, all.sent, ignore.case=TRUE)) {
-        return(cbind(x, all.sent[grepl(x, all.sent, ignore.case=TRUE)]))
+    lstRes <- lapply(all.sym, function(sym) {
+      if (grepl(sym, all.sent, ignore.case=TRUE)) {
+        return(cbind(sym, all.sent[grepl(sym, all.sent, ignore.case=TRUE)]))
       }
     })
     dfRes <- do.call(rbind, lstRes)
