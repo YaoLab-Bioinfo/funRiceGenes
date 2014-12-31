@@ -1514,6 +1514,7 @@ scanAndWriteCon <- function(df) {
       names(dfRes) <- c("Symbol2", "Evidence")
       dfRes$Symbol1 <- symbol
       dfRes$Title <- title
+      dfRes <- dfRes[, c("Symbol1", "Symbol2", "Title", "Evidence")]
       for (i in 1:nrow(dfRes)) {
         write.con(dfRes[i, ])
       }
