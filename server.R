@@ -78,6 +78,8 @@ all.sym <- sapply(gene.info$Symbol, function(x) {
   symb <- unlist(strsplit(x, split="\\|"))
   return(symb)
 })
+all.sym <- unlist(all.sym)
+names(all.sym) <- NULL
 
 gene.msu <- 1:nrow(gene.info)
 names(gene.msu) <- gene.info$MSU
