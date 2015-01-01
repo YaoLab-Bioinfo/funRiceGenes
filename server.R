@@ -75,7 +75,7 @@ gene.keyword <- read.table("geneKeyword.table", head=T,
                            sep="\t", as.is=T, quote="", comment="")
 all.key <- unique(gene.keyword$Keyword)
 all.sym <- sapply(gene.info$Symbol, function(x) {
-  symb <- unlist(strsplit(x, split="\\|"))
+  symb <- unlist(strsplit(x, split="|", fixed=TRUE))
   return(symb)
 })
 all.sym <- unlist(all.sym)
