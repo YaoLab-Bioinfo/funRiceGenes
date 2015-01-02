@@ -1529,7 +1529,6 @@ scanAndWriteCon <- function(df) {
       dfRes$Symbol1 <- symbol
       dfRes$Title <- title
       dfRes <- dfRes[, c("Symbol1", "Symbol2", "Title", "Evidence")]
-      save(dfRes, file="E:/dfRes.RData")
       for (i in 1:nrow(dfRes)) {
         evid.words <- tolower(unlist(strsplit(dfRes$Evidence[i], split="\\s+")))
         evid.words <- gsub(",$", "", evid.words)
