@@ -1313,6 +1313,7 @@ write.pub <- function(df) {
       
       names(df.sub)[6] <- "Gene"
       ref.info <- rbind(ref.info, df.sub)
+      ref.info <- unique(ref.info)
       ref.info.new <- ddply(ref.info, .(Title, Year, Journal, Affiliation, Abstract), function(df){
         symbol <- paste(df$Gene, sep=",", collapse=",")
         return(symbol)
