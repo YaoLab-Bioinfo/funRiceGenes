@@ -1466,7 +1466,7 @@ write.con <- function(df) {
   df$Symbol1 <- gene.info$Symbol[locus.line.1]
   df$Symbol2 <- gene.info$Symbol[locus.line.2]
   
-  if (length(locus.line.1)==1 && length(locus.line.2)==1) {
+  if (length(locus.line.1)==1 && length(locus.line.2)==1 && locus.line.1!=locus.line.2) {
     path.1 <- gene.info$path[locus.line.1]
     out.fl.1 <- paste(path.1, "Connection", sep="/")
     path.2 <- gene.info$path[locus.line.2]
@@ -1514,12 +1514,11 @@ scanAndWriteCon <- function(df) {
   title <- df$Title; abstract <- df$Abstract; symbol <- df$Symbol
   all.sent <- unlist(strsplit(abstract, split="\\."))
   all.sent <- c(title, all.sent)
-  all.sent <- all.sent[grepl(symbol, all.sent)]
+  all.sent <- all.sent[grepl(symbol, all.sent, ignore.case=TRUE)]
   all.sym <- setdiff(all.sym, symbol)
-  save(all.sym, file="E:/all.sym.RData")
   if (length(all.sent)>0) {
     lstRes <- lapply(all.sym, function(sym) {
-      if (grepl(sym, all.sent, ignore.case=TRUE)) {
+      if (any(grepl(sym, all.sent, ignore.case=TRUE))) {
         return(cbind(sym, all.sent[grepl(sym, all.sent, ignore.case=TRUE)]))
       }
     })
@@ -1530,8 +1529,13 @@ scanAndWriteCon <- function(df) {
       dfRes$Symbol1 <- symbol
       dfRes$Title <- title
       dfRes <- dfRes[, c("Symbol1", "Symbol2", "Title", "Evidence")]
+      save(dfRes, file="E:/dfRes.RData")
       for (i in 1:nrow(dfRes)) {
         evid.words <- tolower(unlist(strsplit(dfRes$Evidence[i], split="\\s+")))
+        evid.words <- gsub(",$", "", evid.words)
+        evid.words <- gsub("\\.$", "", evid.words)
+        evid.words <- gsub("\\)$", "", evid.words)
+        evid.words <- gsub("^\\(", "", evid.words)
         if (tolower(dfRes$Symbol1[i])%in%evid.words && tolower(dfRes$Symbol2[i])%in%evid.words) {
           write.con(dfRes[i, ])
         }
