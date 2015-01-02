@@ -1516,6 +1516,7 @@ scanAndWriteCon <- function(df) {
   all.sent <- c(title, all.sent)
   all.sent <- all.sent[grepl(symbol, all.sent)]
   all.sym <- setdiff(all.sym, symbol)
+  save(all.sym, file="E:/all.sym.RData")
   if (length(all.sent)>0) {
     lstRes <- lapply(all.sym, function(sym) {
       if (grepl(sym, all.sent, ignore.case=TRUE)) {
