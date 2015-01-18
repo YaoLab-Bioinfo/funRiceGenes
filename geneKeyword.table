@@ -412,20 +412,20 @@ CDKB2;1|cdc2Os3|CDKB2	Os08g0512600	LOC_Os08g40170	root	Differential expression o
 CDKB2;1|cdc2Os3|CDKB2	Os08g0512600	LOC_Os08g40170	mitosis	CDKB2 is involved in mitosis and DNA damage response in rice	data/Gene/Abstract/C/CDKB2;1~cdc2Os3
 CDSP32	Os07g0476900	LOC_Os07g29410	oxidative	Rice NTRC is a high-efficiency redox system for chloroplast protection against oxidative damage	data/Gene/Body/C/CDSP32
 CDSP32	Os07g0476900	LOC_Os07g29410	chloroplast	Rice NTRC is a high-efficiency redox system for chloroplast protection against oxidative damage	data/Gene/Body/C/CDSP32
-CEBiP	Os03g0133400	LOC_Os03g04110	magnaporthe oryzae	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	defense response	Functional characterization of CEBiP and CERK1 homologs in arabidopsis and rice reveals the presence of different chitin receptor systems in plants	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	blight	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	nitrogen	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	oxidative	Plant cells recognize chitin fragments for defense signaling through a plasma membrane receptor	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	disease resistance	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	leaf	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	disease	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	blast	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	defense	Functional characterization of CEBiP and CERK1 homologs in arabidopsis and rice reveals the presence of different chitin receptor systems in plants	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	cell wall	Effector-mediated suppression of chitin-triggered immunity by magnaporthe oryzae is necessary for rice blast disease	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	defense	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	defense response	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
-CEBiP	Os03g0133400	LOC_Os03g04110	cell death	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	magnaporthe oryzae	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	defense response	Functional characterization of CEBiP and CERK1 homologs in arabidopsis and rice reveals the presence of different chitin receptor systems in plants	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	blight	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	nitrogen	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	oxidative	Plant cells recognize chitin fragments for defense signaling through a plasma membrane receptor	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	disease resistance	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	leaf	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	disease	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	blast	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	defense	Functional characterization of CEBiP and CERK1 homologs in arabidopsis and rice reveals the presence of different chitin receptor systems in plants	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	cell wall	Effector-mediated suppression of chitin-triggered immunity by magnaporthe oryzae is necessary for rice blast disease	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	defense	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	defense response	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
+CEBiP|OsCEBiP	Os03g0133400	LOC_Os03g04110	cell death	Perception of the chitin oligosaccharides contributes to disease resistance to blast fungus Magnaporthe oryzae in rice	data/Gene/Abstract/C/CEBiP
 CFL1	Os02g0516400	LOC_Os02g31140	cuticle	CFL1, a WW domain protein, regulates cuticle development by modulating the function of HDG1, a class IV homeodomain transcription factor, in rice and Arabidopsis	data/Gene/Abstract/C/CFL1
 CFL1	Os02g0516400	LOC_Os02g31140	transcription factor	CFL1, a WW domain protein, regulates cuticle development by modulating the function of HDG1, a class IV homeodomain transcription factor, in rice and Arabidopsis	data/Gene/Abstract/C/CFL1
 CFL1	Os02g0516400	LOC_Os02g31140	leaf	CFL1, a WW domain protein, regulates cuticle development by modulating the function of HDG1, a class IV homeodomain transcription factor, in rice and Arabidopsis	data/Gene/Abstract/C/CFL1
