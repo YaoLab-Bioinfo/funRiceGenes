@@ -95,6 +95,19 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       
       p(HTML("
+             <h4>* Submit new Gene or add new information for existing genes in one shot
+             </h4>
+        ")
+      ),
+      wellPanel(
+        column(3, textInput('symsub7', strong("Gene symbol"),value="")),
+        column(3, textInput('msusub7', strong("MSU genomic locus"),value="")),
+        column(3, textInput('rapsub7', strong("RAPdb genomic locus"),value="")),
+        column(3, textInput('pubmed7', strong("Pubmed ID"),value="")),
+        actionButton("submit7", strong("Submit"))
+      ),
+      
+      p(HTML("
              <h4>* Edit existing gene information
              </h4>
        ")
@@ -237,19 +250,6 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(4, fileInput('expfig', strong("Expression Figure"),
                             accept=c(".tif", ".png", ".tiff"))),
         actionButton("submit8", strong("Submit"))
-      ),
-      
-      p(HTML("
-             <h4>* Submit new Gene and Publication in one shot
-             </h4>
-        ")
-      ),
-      wellPanel(
-        column(3, textInput('symsub7', strong("Gene symbol"),value="")),
-        column(3, textInput('msusub7', strong("MSU genomic locus"),value="")),
-        column(3, textInput('rapsub7', strong("RAPdb genomic locus"),value="")),
-        column(3, textInput('pubmed7', strong("Pubmed ID"),value="")),
-        actionButton("submit7", strong("Submit"))
       )
       
 	  )

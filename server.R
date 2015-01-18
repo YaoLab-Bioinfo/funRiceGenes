@@ -1397,6 +1397,9 @@ scanAndWriteKey <- function(df) {
     line.right <- vector()
     for (i in 1:nrow(dfRes)) {
       evid.words <- tolower(unlist(strsplit(dfRes$Evidence[i], split="\\s+")))
+      if (tolower(dfRes$Symbol[i])%in%evid.words && grepl("\\s+", dfRes$Keyword[i])) {
+        line.right <- c(line.right, i)
+      }
       if (tolower(dfRes$Symbol[i])%in%evid.words && tolower(dfRes$Keyword[i])%in%evid.words) {
         line.right <- c(line.right, i)
       }
