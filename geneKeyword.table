@@ -355,21 +355,30 @@ BLEC-Str8	Os04g0110100	LOC_Os04g01950	root	Analysis of transcriptional and upstr
 BLEC-Str8	Os04g0110100	LOC_Os04g01950	seedling	Analysis of transcriptional and upstream regulatory sequence activity of two environmental stress-inducible genes, NBS-Str1 and BLEC-Str8, of rice	data/Gene/Abstract/B/BLEC-Str8
 BLEC-Str8	Os04g0110100	LOC_Os04g01950	leaf	Analysis of transcriptional and upstream regulatory sequence activity of two environmental stress-inducible genes, NBS-Str1 and BLEC-Str8, of rice	data/Gene/Abstract/B/BLEC-Str8
 BLEC-Str8	Os04g0110100	LOC_Os04g01950	salt	"Analysis of transcriptional and upstream regulatory sequence activity of two environmental stress-inducible genes, NBS-Str1 and BLEC-Str8, of rice"	data/Gene/Abstract/B/BLEC-Str8
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	inflorescence	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	architecture	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	lemma	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	cell division	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	grain size	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	palea	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	grain	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	spikelet	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	lemma	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	cell cycle	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	stem	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	starch	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	palea	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	floral	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
-BLS1|BSG1	Os02g0811000	LOC_Os02g56610	panicle	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	inflorescence	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	architecture	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	lemma	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	cell division	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	grain size	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	palea	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	grain	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	spikelet	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	lemma	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	cell cycle	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	stem	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	starch	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	palea	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	floral	BEAK LIKE SPIKELET1 is Required for Lateral Development of Lemma and Palea in Rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	panicle	Beak-shaped grain 1/TRIANGULAR HULL 1, a DUF640 gene, is associated with grain shape, size and weight in rice	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	palea	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	palea	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	lemma	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	lemma	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	lemma	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	lemma	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	lemma	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	sterile	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
+BLS1|BSG1|OsG1L6|TH1	Os02g0811000	LOC_Os02g56610	sterile	A role for TRIANGULAR HULL1 in fine-tuning spikelet morphogenesis in rice.	data/Gene/Abstract/B/BSG1
 Bph14	Os03g0848700	LOC_Os03g63150	salicylic acid	Identification and characterization of Bph14, a gene conferring resistance to brown planthopper in rice	data/Gene/Abstract/B/Bph14
 Bph14	Os03g0848700	LOC_Os03g63150	defense	"Identification and characterization of Bph14, a gene conferring resistance to brown planthopper in rice"	data/Gene/Abstract/B/Bph14
 Bph14	Os03g0848700	LOC_Os03g63150	growth	Identification and characterization of Bph14, a gene conferring resistance to brown planthopper in rice	data/Gene/Abstract/B/Bph14
