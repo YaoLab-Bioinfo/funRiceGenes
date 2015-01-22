@@ -189,7 +189,7 @@ for (j in 1:nrow(gene.lst)) {
   md.cont <- c(md.cont, "", "")
   
   gene.lst$Symbol[j] <- gsub("\\|", "~", gene.lst$Symbol[j])
-  out.fl.name <- paste("2014-09-20-", gene.lst$Symbol[j], ".md", sep="")
+  out.fl.name <- paste("2015-01-20-", gene.lst$Symbol[j], ".md", sep="")
   if (grepl("^os", gene.lst$Symbol[j], ignore.case=T)) {
     tmp.tag <- substr(gsub("^os", "", gene.lst$Symbol[j], ignore.case=T), 1,1)
 	tmp.tag <- toupper(tmp.tag)
@@ -220,7 +220,127 @@ for (j in 1:nrow(gene.lst)) {
 }
 
 
+####### gene family
+fam.lst <- read.table("famInfo.table", head=T, 
+                       as.is=T, sep="\t", quote="", comment="")
+fam.path <- unique(fam.lst$path)
+for (j in 1:length(fam.path)) {
+  path <- fam.path[i]
+  path <- paste("E:/GIT/RICENCODE", path, sep="/")
+  
+  info.fl <- paste(path, "family.info", sep="/")
+  fam.info <- NULL
+  if (file.exists(fam.info)) {
+    fam.info <- read.table(info.fl, head=T, sep="\t", as.is=T, 
+                      quote="", comment="")
+    
+    for (i in 1:nrow(fam.info)) {
+      ### msu
+      msu <- fam.info$MSU[i]
+      msu <- unlist(strsplit(msu, split='|', fixed=TRUE))
+      msu.new <- sapply(msu, function(x){
+        if (x!="None") {
+          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('[',x,']', '(', y, ')', sep="")
+          return(y)
+        } else {
+          return(x)
+        }
+      })
+      msu.new <- paste(unname(msu.new), sep="", collapse=",")
+      fam.info$MSU[i] <- msu.new
+      
+      ### rapdb
+      rap <- fam.info$RAPdb[i]
+      rap <- unlist(strsplit(rap, split='|', fixed=TRUE))
+      rap.new <- sapply(rap, function(x){
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('[', x, ']', '(', y, ')', sep="")
+          return(y)
+        } else {
+          return(x)
+        }
+      })
+      rap.new <- paste(unname(rap.new), sep="", collapse=",")
+      fam.info$RAPdb[i] <- rap.new
+    }
+  }
+  
+  ### reference 
+  ref.fl <- paste(path, "family.ref", sep="/")
+  ref <- NULL
+  if (file.exists(ref.fl)) {
+    ref <- read.table(ref.fl, head=T, sep="\t", as.is=T, 
+                      quote="", comment="")
+    ref$Publication <- NULL
+    ref$Affiliation <- NULL
+    for (i in 1:nrow(ref)) {
+      title <- ref$Title[i]
+      ref$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+                            '?term=(', ref$Title[i],'%5BTitle%5D', 
+                            ')', sep='')
+      ref$Title[i] <- paste('[', title, ']', '(', ref$Title[i], ')', 
+                            sep="")
+    }
+  }
+  
+  ###  output file
+  name <- basename(path)
+  
+  md.cont <- ""
+  md.cont[1] <- "---"
+  md.cont[2] <- "layout: post"
+  md.cont[3] <- paste('title: "', name, '"', sep="")
+  md.cont[4] <- 'description: ""'
+  md.cont[5] <- "category: gene family"
+  md.cont[6] <- 'tags: '
+  md.cont[7] <- "---"
+  md.cont[8] <- "{% include JB/setup %}"
+  md.cont[9] <- ""
+  md.cont[10] <- "## Information"
+  if (!is.null(fam.info)) {
+    for (i in 1:nrow(fam.info)) {
+      md.info <- paste(i, ". ", fam.info$Symbol[i], ", ", fam.info$MSU[i], ", ",
+                      fam.info$RAPdb[i], ".", sep="")
+      md.cont <- c(md.cont, md.ref)
+    }
+  }
+  
+  md.cont <- c(md.cont, "", "## Publication")
+  if (!is.null(ref)) {
+    for (i in 1:nrow(ref)) {
+      md.ref <- paste(i, ". ", ref$Title[i], ", ", ref$Year[i], ", ",
+                      ref$Journal[i], ".", sep="")
+      md.cont <- c(md.cont, md.ref)
+    }
+  }
+  
+  out.fl.name <- paste("2015-01-20-", name, ".md", sep="")
+  if (grepl("^os", name, ignore.case=T)) {
+    tmp.tag <- substr(gsub("^os", "", gene.lst$Symbol[j], ignore.case=T), 1,1)
+    tmp.tag <- toupper(tmp.tag)
+    if (tmp.tag %in% LETTERS[1:24]) {
+      path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/OS/", tmp.tag, sep="")
+    } else {
+      path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/OS/0-9"
+    }
+  } else {
+    tmp.tag <- substr(gene.lst$Symbol[j], 1,1)
+    tmp.tag <- toupper(tmp.tag)
+    if (tmp.tag %in% LETTERS[1:24]) {
+      path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/", tmp.tag, sep="")
+    } else {
+      path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/0-9"
+    }
+  }
+  
+  out.fl.name <- paste(path, out.fl.name, sep="/")
 
+  writeLines(md.cont, con=out.fl.name)
+}
 
 
 
