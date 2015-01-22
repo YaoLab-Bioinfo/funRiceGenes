@@ -127,6 +127,7 @@ for (j in 1:nrow(gene.lst)) {
   md.cont[5] <- "category: genes"
   if (!is.null(key)) {
     key.tmp <- paste(unique(key$Keyword), sep="", collapse=", ")
+    key.tmp <- paste(c(key.tmp, "Gene"), sep="", collapse=", ")
     md.cont[6] <- paste('tags: [', key.tmp, ']', sep="")
   } else {
     md.cont[6] <- 'tags: '
@@ -301,7 +302,7 @@ for (j in 1:length(fam.path)) {
   md.cont[3] <- paste('title: "', name, '"', sep="")
   md.cont[4] <- 'description: ""'
   md.cont[5] <- "category: gene family"
-  md.cont[6] <- 'tags: '
+  md.cont[6] <- 'tags: GeneFamily'
   md.cont[7] <- "---"
   md.cont[8] <- "{% include JB/setup %}"
   md.cont[9] <- ""
@@ -352,6 +353,31 @@ for (j in 1:length(fam.path)) {
 
   writeLines(md.cont, con=out.fl.name)
 }
+
+
+pub.df <- read.table("reference.table", head=T, as.is=T, sep="\t", quote="", comment="")
+md.cont <- ""
+md.cont[1] <- "---"
+md.cont[2] <- "layout: page"
+md.cont[3] <- "title: Publications"
+md.cont[4] <- "group: navigation"
+md.cont[5] <- "---"
+md.cont[6] <- "{% include JB/setup %}"
+md.cont[7] <- ""
+for (i in 1:nrow(pub.df)) {
+  title <- pub.df$Title[i]
+  pub.df$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+                        '?term=(', pub.df$Title[i],'%5BTitle%5D', 
+                        ')', sep='')
+  pub.df$Title[i] <- paste('[', title, ']', '(', pub.df$Title[i], ')', 
+                        sep="")
+  md.ref <- paste(i, ". ", pub.df$Title[i], ", ", pub.df$Year[i], ", ",
+                  pub.df$Journal[i], ".", sep="")
+  md.cont <- c(md.cont, md.ref)
+}
+writeLines(md.cont, con="E:/GIT/ricencode-pg/RICENCODE/publication.md")
+
+
 
 
 
