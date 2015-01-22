@@ -193,7 +193,7 @@ for (j in 1:nrow(gene.lst)) {
   if (grepl("^os", gene.lst$Symbol[j], ignore.case=T)) {
     tmp.tag <- substr(gsub("^os", "", gene.lst$Symbol[j], ignore.case=T), 1,1)
 	tmp.tag <- toupper(tmp.tag)
-	if (tmp.tag %in% LETTERS[1:24]) {
+	if (tmp.tag %in% LETTERS[1:26]) {
 	  path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/OS/", tmp.tag, sep="")
 	} else {
 	  path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/OS/0-9"
@@ -201,7 +201,7 @@ for (j in 1:nrow(gene.lst)) {
   } else {
     tmp.tag <- substr(gene.lst$Symbol[j], 1,1)
 	tmp.tag <- toupper(tmp.tag)
-	if (tmp.tag %in% LETTERS[1:24]) {
+	if (tmp.tag %in% LETTERS[1:26]) {
 	  path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/", tmp.tag, sep="")
 	} else {
 	  path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/0-9"
@@ -216,6 +216,11 @@ for (j in 1:nrow(gene.lst)) {
   if (length(pheno.fig.fl)==1) {
     file.copy(from=pheno.fig.fl, to="E:/GIT/ricencode-pg/RICENCODE/assets/images")
   }
+  
+  dir.name <- dirname(out.fl.name)
+  if (!file.exists(dir.name)) {
+    dir.create(dir.name, recursive=TRUE)
+  }
   writeLines(md.cont, con=out.fl.name)
 }
 
@@ -225,12 +230,12 @@ fam.lst <- read.table("famInfo.table", head=T,
                        as.is=T, sep="\t", quote="", comment="")
 fam.path <- unique(fam.lst$path)
 for (j in 1:length(fam.path)) {
-  path <- fam.path[i]
+  path <- fam.path[j]
   path <- paste("E:/GIT/RICENCODE", path, sep="/")
   
   info.fl <- paste(path, "family.info", sep="/")
   fam.info <- NULL
-  if (file.exists(fam.info)) {
+  if (file.exists(info.fl)) {
     fam.info <- read.table(info.fl, head=T, sep="\t", as.is=T, 
                       quote="", comment="")
     
@@ -305,7 +310,7 @@ for (j in 1:length(fam.path)) {
     for (i in 1:nrow(fam.info)) {
       md.info <- paste(i, ". ", fam.info$Symbol[i], ", ", fam.info$MSU[i], ", ",
                       fam.info$RAPdb[i], ".", sep="")
-      md.cont <- c(md.cont, md.ref)
+      md.cont <- c(md.cont, md.info)
     }
   }
   
@@ -318,19 +323,21 @@ for (j in 1:length(fam.path)) {
     }
   }
   
+  md.cont <- c(md.cont, "", "")
+  
   out.fl.name <- paste("2015-01-20-", name, ".md", sep="")
   if (grepl("^os", name, ignore.case=T)) {
-    tmp.tag <- substr(gsub("^os", "", gene.lst$Symbol[j], ignore.case=T), 1,1)
+    tmp.tag <- substr(gsub("^os", "", name, ignore.case=T), 1,1)
     tmp.tag <- toupper(tmp.tag)
-    if (tmp.tag %in% LETTERS[1:24]) {
+    if (tmp.tag %in% LETTERS[1:26]) {
       path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/OS/", tmp.tag, sep="")
     } else {
       path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/OS/0-9"
     }
   } else {
-    tmp.tag <- substr(gene.lst$Symbol[j], 1,1)
+    tmp.tag <- substr(name, 1,1)
     tmp.tag <- toupper(tmp.tag)
-    if (tmp.tag %in% LETTERS[1:24]) {
+    if (tmp.tag %in% LETTERS[1:26]) {
       path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/", tmp.tag, sep="")
     } else {
       path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/0-9"
@@ -338,6 +345,10 @@ for (j in 1:length(fam.path)) {
   }
   
   out.fl.name <- paste(path, out.fl.name, sep="/")
+  dir.name <- dirname(out.fl.name)
+  if (!file.exists(dir.name)) {
+    dir.create(dir.name, recursive=TRUE)
+  }
 
   writeLines(md.cont, con=out.fl.name)
 }
