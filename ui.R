@@ -27,8 +27,8 @@ shinyUI(fluidPage(theme="mystyle.css",
 			 
 			 <h3>How to query this database?</h3>
 			 <div align='justify'>
-                   This database was designed as a Shiny application and was deployed in the <a href='http://www.shinyapps.io/'>Cloud</a>. 
-                   You can query this database <a href='http://211.69.128.148:3838/ricencode/'>HERE</a>.
+                   This database was designed as a Shiny application and was deployed in the Cloud. 
+                   You can query this database <a href='http://ricencode.ncpgr.cn'>HERE</a>.
                    You can query this database using the genomic locus assigned by the <a href='http://rice.plantbiology.msu.edu/'>Rice Genome Annotation Project</a>, 
                    or the genomic locus assigned by the <a href='http://rapdb.dna.affrc.go.jp/'>Rice Annotation Project</a>, or the gene symbol. 
                    You can retrieve the basic information of a gene, the publications on a gene, the agronomic traits associated with a gene, the connections between genes from this database.
