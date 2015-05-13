@@ -34,20 +34,20 @@ shinyUI(fluidPage(theme="mystyle.css",
                    You can retrieve the basic information of a gene, the publications on a gene, the agronomic traits associated with a gene, the connections between genes from this database.
                    
 				   <br>
-                   You can also query this database by downloading the whole database to your local computer. In this way, you need <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer (See the <a href='http://andrewhzau.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+                   You can also query this database by downloading the whole database to your local computer. In this way, you need <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer (See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
 				   
 				   <br>
-				   Finally, this database were also provided to users as <a href='http://andrewhzau.github.io/RICENCODE/'>static web pages</a>. You can query this website through in-site search using the searching box on the top right of this website.
+				   Finally, this database were also provided to users as <a href='http://venyao.github.io/RICENCODE/'>static web pages</a>. You can query this website through in-site search using the searching box on the top right of this website.
              </div>
 			 
 			 <h3>How to contribute to this database?</h3>
 			 <div align='justify'>
-			       You can also contribute to this database by submitting information on newly cloned rice gene or new publications to this database. To do this, you need to download the database and have <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer(See the <a href='http://andrewhzau.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+			       You can also contribute to this database by submitting information on newly cloned rice gene or new publications to this database. To do this, you need to download the database and have <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer(See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
 			 </div>
 			 
 			 <h3>Further information</h3>
 			 <div align='justify'>
-			      Further information concerning the details on querying and contributing to this database can be found in the <a href='http://andrewhzau.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+			      Further information concerning the details on querying and contributing to this database can be found in the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
 			 </div>
 			 
 			 <h3>Contact us</h3>
@@ -138,7 +138,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       
 	  tabPanel("Keyword",
 	  p(HTML("<div align='justify'>
-                         Keywords in this database were used to describe phenotypic trait or biological process. As these keywords were collected from the publications, you can only use the keywords listed on <a href='http://andrewhzau.github.io/RICENCODE/tags.html'>this web page</a> to query this database. To use any keyword you like to query this database, you can use the 'Publication' panel on the navigation bar.
+                         Keywords in this database were used to describe phenotypic trait or biological process. As these keywords were collected from the publications, you can only use the keywords listed on <a href='http://venyao.github.io/RICENCODE/tags.html'>this web page</a> to query this database. To use any keyword you like to query this database, you can use the 'Publication' panel on the navigation bar.
              </div>"
 	  )),
       textInput("keyword", label = h4("* Query with keyword to characterize agronomic trait"), 
