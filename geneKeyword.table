@@ -1162,6 +1162,7 @@ DLT|OsGRAS-32|D62|GS6	Os06g0127800	LOC_Os06g03710	yield	GS6, a member of the GRA
 DLT|OsGRAS-32|D62|GS6	Os06g0127800	LOC_Os06g03710	root	Identification and characterization of dwarf 62, a loss-of-function mutation in DLT/OsGRAS-32 affecting gibberellin metabolism in rice	data/Gene/Abstract/G/GS6
 DMC1A|DMC1	Os12g0143800	LOC_Os12g04980	meiosis	Filament formation and robust strand exchange activities of the rice DMC1A and DMC1B proteins	data/Gene/Abstract/D/DMC1A
 DMC1A|DMC1	Os12g0143800	LOC_Os12g04980	meiosis	Filament formation and robust strand exchange activities of the rice DMC1A and DMC1B proteins	data/Gene/Abstract/D/DMC1A
+DMC1B	Os11g0146800	LOC_Os11g04954	meiosis	Filament formation and robust strand exchange activities of the rice DMC1A and DMC1B proteins.	data/Gene/Abstract/D/DMC1B
 DNG701	Os05g0445900	LOC_Os05g37350	seed	A 5-methylcytosine DNA glycosylase/lyase demethylates the retrotransposon Tos17 and promotes its transposition in rice	data/Gene/Abstract/D/DNG701
 Docs1	Os02g0236100	LOC_Os02g14120	leaf	A leucine-rich repeat receptor-like kinase gene is involved in the specification of outer cell layers in rice roots	data/Gene/Abstract/D/Docs1
 Docs1	Os02g0236100	LOC_Os02g14120	root	A leucine-rich repeat receptor-like kinase gene is involved in the specification of outer cell layers in rice roots	data/Gene/Abstract/D/Docs1
@@ -4864,18 +4865,18 @@ OsDIS1	Os03g0356414	LOC_Os03g24040	drought tolerance	The SINA E3 ligase OsDIS1 n
 OsDIS1	Os03g0356414	LOC_Os03g24040	salt stress	OsDIS1-mediated stress response pathway in rice	data/Gene/Abstract/OS/D/OsDIS1
 OsDIS1	Os03g0356414	LOC_Os03g24040	drought	OsDIS1-mediated stress response pathway in rice	data/Gene/Abstract/OS/D/OsDIS1
 OsDIS1	Os03g0356414	LOC_Os03g24040	drought	The SINA E3 ligase OsDIS1 negatively regulates drought response in rice	data/Gene/Abstract/OS/D/OsDIS1
-OsDMC1	Os11g0146800	LOC_Os11g04954	sterility	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	root	Isolation and characterization of OsDMC1 , the rice homologue of the yeast DMC1 gene essential for meiosis	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	pollen	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	spikelet	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	meiosis	Isolation and characterization of OsDMC1 , the rice homologue of the yeast DMC1 gene essential for meiosis	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	reproductive	Isolation and characterization of OsDMC1 , the rice homologue of the yeast DMC1 gene essential for meiosis	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	meiotic	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	vegetative	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	meiotic	DNA strand exchange activity of rice recombinase OsDmc1 monitored by fluorescence resonance energy transfer and the role of ATP hydrolysis	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	anther	DNA binding and pairing activity of OsDmc1, a recombinase from rice	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	meiosis	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
-OsDMC1	Os11g0146800	LOC_Os11g04954	seedling	Isolation and characterization of OsDMC1 , the rice homologue of the yeast DMC1 gene essential for meiosis	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	sterility	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	root	Isolation and characterization of OsDMC1 , the rice homologue of the yeast DMC1 gene essential for meiosis	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	pollen	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	spikelet	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	meiosis	Isolation and characterization of OsDMC1 , the rice homologue of the yeast DMC1 gene essential for meiosis	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	reproductive	Isolation and characterization of OsDMC1 , the rice homologue of the yeast DMC1 gene essential for meiosis	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	meiotic	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	vegetative	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	meiotic	DNA strand exchange activity of rice recombinase OsDmc1 monitored by fluorescence resonance energy transfer and the role of ATP hydrolysis	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	anther	DNA binding and pairing activity of OsDmc1, a recombinase from rice	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	meiosis	OsDMC1 is required for homologous pairing in Oryza sativa	data/Gene/Abstract/OS/D/OsDMC1
+OsDMC1|DMC1B	Os11g0146800	LOC_Os11g04954	seedling	Isolation and characterization of OsDMC1 , the rice homologue of the yeast DMC1 gene essential for meiosis	data/Gene/Abstract/OS/D/OsDMC1
 OsDof12|OsCDF1	Os03g0169600	LOC_Os03g07360	flowering time	Functional characterization of rice OsDof12	data/Gene/Abstract/OS/D/OsDof12
 OsDof12|OsCDF1	Os03g0169600	LOC_Os03g07360	flower	Functional characterization of rice OsDof12	data/Gene/Abstract/OS/D/OsDof12
 OsDOG|OsSAP11	Os08g0504700	LOC_Os08g39450	abiotic stress	Rice A20/AN1 zinc-finger containing stress-associated proteins (SAP1/11) and a receptor-like cytoplasmic kinase (OsRLCK253) interact via A20 zinc-finger and confer abiotic stress tolerance in transgenic Arabidopsis plants	data/Gene/Abstract/OS/S/OsSAP11
