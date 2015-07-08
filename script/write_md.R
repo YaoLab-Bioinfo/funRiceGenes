@@ -1,5 +1,6 @@
 
 setwd("E:/GIT/RICENCODE")
+unlink("E:/GIT/ricencode-pg/RICENCODE/_posts", recur=T, force=T)
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
 for (j in 1:nrow(gene.lst)) {
