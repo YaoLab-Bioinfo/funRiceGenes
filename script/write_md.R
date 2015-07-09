@@ -379,9 +379,27 @@ for (i in 1:nrow(pub.df)) {
 writeLines(md.cont, con="E:/GIT/ricencode-pg/RICENCODE/publication.md")
 
 
-
-
-
-
+meg <- readLines("git.log")
+md.cont <- ""
+md.cont[1] <- "---"
+md.cont[2] <- "layout: page"
+md.cont[3] <- "title: News"
+md.cont[4] <- "group: navigation"
+md.cont[5] <- "---"
+md.cont[6] <- "{% include JB/setup %}"
+md.cont[7] <- ""
+for (i in seq(1, length(meg), by=6)) {
+  meg.date <- meg[i+2]
+  meg.con <- meg[i+4]
+  meg.con <- gsub("^\\s+","", meg.con)
+  meg.date.lst <- strsplit(meg.date, split="\\s+")
+  meg.date.lst <- unlist(meg.date.lst)
+  meg.date.vec <- meg.date.lst[c(6,3:4)]
+  meg.date.str <- paste(meg.date.vec, sep="", collapse="/")
+  meg.final <- paste("*", meg.date.str, meg.con, sep=" ")
+  md.cont <- c(md.cont, meg.final)
+}
+md.cont <- gsub("\\|", "/", md.cont)
+writeLines(md.cont, con="E:/GIT/ricencode-pg/RICENCODE/news.md")
 
 
