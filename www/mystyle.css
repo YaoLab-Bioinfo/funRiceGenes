@@ -224,11 +224,11 @@ textarea {
 
 body {
   margin: 0;
-  font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
+  font-family: 'Comic Sans MS', Georgia, Utopia, Palatino, 'Palatino Linotype', serif;
   font-size: 15px;
   line-height: 20px;
-  color: #ece9d7;
-  background-color: #2a333c;
+  color: black;
+  background-color: white;
 }
 
 a {
@@ -740,10 +740,10 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Comic Sans MS', sans-serif;
   font-weight: bold;
   line-height: 20px;
-  color: #e36b23;
+  color: black;
   text-rendering: optimizelegibility;
 }
 

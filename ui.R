@@ -4,18 +4,21 @@ shinyUI(fluidPage(theme="mystyle.css",
                   
   fluidRow(
     absolutePanel(
-    navbarPage("RicENcode",
-      tabPanel("About",
-      br(),
-      p(HTML("<div align='center'; style='font-size:150%'>
-                   <font color='cyan'>
-                         The knowledge of cloned rice genes lost in the 
-                         information of rice functional genomic studies
-                   </font>
-             </div>
-             <br>
-			 <h3>Introdution</h3>
-             <div align='justify'>
+    navbarPage(HTML("<span style='font-family: Comic Sans MS;color:white'>RicENcode</span>
+                    <span style='font-family: Comic Sans MS;color:white; font-size: 50%'>
+                       The knowledge of cloned rice genes lost in the 
+                       information of rice functional genomic studies
+                    </span>
+                    "),
+      footer=p(HTML("<div align='center'>
+                 <a href='http://croplab.hzau.edu.cn'>National Key Laboratory of Crop Genetic Improvement</a>
+                 <br>
+                 <a href='http://www.ncpgr.cn'>National Center of Plant Gene Research (Wuhan)</a>
+              </div>")),
+      tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>About</span>"),
+      p(HTML("
+			 <h3><span style='font-family: Comic Sans MS'>Introdution</span></h3>
+             <div align='justify' style='font-family: Comic Sans MS'>
                    More than 2204 cloned rice genes and 303 gene families 
                    comprised of 3381 genes were collected. For each gene, various information 
                    concerning the gene symbol, the genomic locus in the 
@@ -34,7 +37,7 @@ shinyUI(fluidPage(theme="mystyle.css",
                    You can retrieve the basic information of a gene, the publications on a gene, the agronomic traits associated with a gene, the connections between genes from this database.
                    
 				   <br>
-                   You can also query this database by downloading the whole database to your local computer. In this way, you need <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer (See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+                   You can also query this database by downloading the whole database to your local computer. In this way, you need <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer (See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>manual</a>).
 				   
 				   <br>
 				   Finally, this database were also provided to users as <a href='http://venyao.github.io/RICENCODE/'>static web pages</a>. You can query this website through in-site search using the searching box on the top right of this website.
@@ -42,12 +45,12 @@ shinyUI(fluidPage(theme="mystyle.css",
 			 
 			 <h3>How to contribute to this database?</h3>
 			 <div align='justify'>
-			       You can also contribute to this database by submitting information on newly cloned rice gene or new publications to this database. To do this, you need to download the database and have <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer(See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+			       You can also contribute to this database by submitting information on newly cloned rice gene or new publications to this database. To do this, you need to download the database and have <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer(See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>manual</a>).
 			 </div>
 			 
 			 <h3>Further information</h3>
 			 <div align='justify'>
-			      Further information concerning the details on querying and contributing to this database can be found in the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>munual</a>).
+			      Further information concerning the details on querying and contributing to this database can be found in the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>manual</a>.
 			 </div>
 			 
 			 <h3>Contact us</h3>
@@ -56,16 +59,10 @@ shinyUI(fluidPage(theme="mystyle.css",
 			 </div>
 			 
              ")),
-      br(),
-      p(HTML("<div align='center'>
-                 <a href='http://croplab.hzau.edu.cn'>National Key Laboratory of Crop Genetic Improvement</a>
-                 <br>
-                 <a href='http://www.ncpgr.cn'>National Center of Plant Gene Research (Wuhan)</a>
-              </div>")),
       br()
 	  ),
       
-	  tabPanel("Gene",
+	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Gene</span>"),
       selectInput("query", h4("* Query with gene symbol or genomic locus 
                               assigned by the Rice Genome Annotation Project"), 
             choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol")),
@@ -73,7 +70,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       uiOutput("inText"),
 
       tabsetPanel(
-        tabPanel(strong('Information'), dataTableOutput("mytable1")),
+        tabPanel('Information', dataTableOutput("mytable1")),
         tabPanel('Reference', dataTableOutput("mytable2")),
         tabPanel('Accession', dataTableOutput("mytable3")),
         tabPanel('Expression', dataTableOutput("mytable4")),
@@ -110,7 +107,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       )
 	  ),
 
-	  tabPanel("Gene Family",
+	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Gene Family</span>"),
       selectInput("queryfam", h4("* Query gene family using 
                                     gene symbol or genomic locus"), 
             choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol")),
@@ -123,7 +120,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       )
 	  ),
       
-	  tabPanel("Keyword",
+	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Keyword</span>"),
 	  p(HTML("<div align='justify'>
                          Keywords in this database were used to describe phenotypic trait or biological process. As these keywords were collected from the publications, you can only use the keywords listed on <a href='http://venyao.github.io/RICENCODE/tags.html'>this web page</a> to query this database. To use any keyword you like to query this database, you can use the 'Publication' panel on the navigation bar.
              </div>"
@@ -149,7 +146,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       )
 	  ),
     
-    tabPanel("Publication",
+    tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Publication</span>"),
       textInput("publication", label = h4("* Query the title or abstract of collected publications"), 
                value = "heading date"),
       tabsetPanel(
@@ -174,7 +171,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       )
 	  ),
 
-     tabPanel("ID conversion",
+     tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>ID Conversion</span>"),
       selectInput("queryconv", h4("* Convert ID of MSU genomic locus
                                   and RAPdb genomic locus"), 
                  choices=c("RAPdb Locus", "MSU Locus")),
@@ -186,7 +183,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       )
 	  ),
 
-	  tabPanel("Submit",
+	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Submit</span>"),
       
       p(HTML("
              <h4>* Submit new Genbank accession to this database
@@ -240,8 +237,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       )
       
 	  )
-  )
-  ,
+    ),
   right=5, left=5
   )
   ) 

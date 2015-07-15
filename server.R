@@ -1847,7 +1847,7 @@ shinyServer(function(input, output) {
   
   output$mytable1 = renderDataTable({
     fetchInfoByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(1, 2), searching = FALSE)
+  }, options = list(lengthMenu = c(1, 2), searching = FALSE, autoWidth = FALSE)
   )
   
   output$mytable2 = renderDataTable({
@@ -1859,7 +1859,7 @@ shinyServer(function(input, output) {
   output$mytable3 = renderDataTable({
     fetchAccByChoice(input$query, input$inText)
   }, options = list(lengthMenu = c(2, 4, 6), searching = FALSE,
-                    pageLength = 2))
+                    pageLength = 2, autoWidth = FALSE))
   
 #   output$mytable4 = renderDataTable({
 #     fetchTextByChoice(input$query, input$inText)
