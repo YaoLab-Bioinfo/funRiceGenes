@@ -82,20 +82,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       
       p(HTML("
-             <h4>* Submit new gene to this database
-             </h4>
-        ")
-      ),
-      
-      wellPanel(
-        column(4, textInput('symsub1', strong("Gene symbol"),value="")),
-        column(4, textInput('msusub1', strong("MSU genomic locus"),value="")),
-        column(4, textInput('rapsub1', strong("RAPdb genomic locus"),value="")),
-        actionButton("submit1", strong("Submit"))
-      ),
-      
-      p(HTML("
-             <h4>* Submit new Gene or add new information for existing genes in one shot
+             <h4>* Submit new Gene or add new information for existing genes
              </h4>
         ")
       ),

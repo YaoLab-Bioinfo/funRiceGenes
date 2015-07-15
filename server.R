@@ -1919,17 +1919,6 @@ shinyServer(function(input, output) {
                   pageLength = 1, autoWidth = FALSE))
   
   observe({
-    if (input$submit1>0) {
-      isolate({
-        df.gene <- data.frame(Symbol=input$symsub1, MSU=input$msusub1, RAPdb=input$rapsub1,
-                              stringsAsFactors=FALSE)
-        write.gene(df.gene)
-        updateGeneInfo()
-      })
-    } else {NULL}
-  })
-  
-  observe({
     if (input$submit2>0) {
       isolate({
         df.pub <- data.frame(Symbol=input$symsub2, Title=input$tilsub2, Year=input$yearsub2,
