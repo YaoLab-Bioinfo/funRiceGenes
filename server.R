@@ -1841,7 +1841,7 @@ save.image <- function(symbol="", phenofig="", expfig="") {
 shinyServer(function(input, output) {
   
   output$inText <- renderUI({
-    textInput("inText", strong("Put your query here:"), 
+    textInput("inText", "Put your query here:", 
               value=query.intext[input$query])
   })
   
@@ -1893,7 +1893,7 @@ shinyServer(function(input, output) {
   
   output$mytable8 = renderDataTable({
     fetchFamInfoByChoice(input$queryfam, input$inTextfam)
-  }, options = list(lengthMenu = c(1, 2), searching = FALSE)
+  }, options = list(lengthMenu = c(1, 2), searching = FALSE, autoWidth = FALSE)
   )
   
   output$mytable9 = renderDataTable({
@@ -1903,7 +1903,7 @@ shinyServer(function(input, output) {
   )
 
   output$inTextconv <- renderUI({
-    textInput("inTextconv", strong("Put your query here:"), 
+    textInput("inTextconv", "Put your query here:", 
             value=query.intext.conv[input$queryconv])
   })
 

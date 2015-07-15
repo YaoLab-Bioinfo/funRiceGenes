@@ -4,7 +4,7 @@ shinyUI(fluidPage(theme="mystyle.css",
                   
   fluidRow(
     absolutePanel(
-    navbarPage(HTML("<span style='font-family: Comic Sans MS;color:white'>RicENcode</span>
+    navbarPage(HTML("<span style='font-family: Comic Sans MS;color:white;'>RicENcode</span>
                     <span style='font-family: Comic Sans MS;color:white; font-size: 50%'>
                        The knowledge of cloned rice genes lost in the 
                        information of rice functional genomic studies
@@ -70,12 +70,12 @@ shinyUI(fluidPage(theme="mystyle.css",
       uiOutput("inText"),
 
       tabsetPanel(
-        tabPanel('Information', dataTableOutput("mytable1")),
-        tabPanel('Reference', dataTableOutput("mytable2")),
-        tabPanel('Accession', dataTableOutput("mytable3")),
-        tabPanel('Expression', dataTableOutput("mytable4")),
-        tabPanel('Keyword', dataTableOutput("mytable5")),
-        tabPanel('Connection', dataTableOutput("mytable6"))
+        tabPanel('Information', dataTableOutput("mytable1"), style = "color: white; background-color: white"),
+        tabPanel('Reference', dataTableOutput("mytable2"), style = "color: white; background-color: white"),
+        tabPanel('Accession', dataTableOutput("mytable3"), style = "color: white; background-color: white"),
+        tabPanel('Expression', dataTableOutput("mytable4"), style = "color: white; background-color: white"),
+        tabPanel('Keyword', dataTableOutput("mytable5"), style = "color: white; background-color: white"),
+        tabPanel('Connection', dataTableOutput("mytable6"), style = "color: white; background-color: white")
       ),
       
       p(HTML("
@@ -83,7 +83,7 @@ shinyUI(fluidPage(theme="mystyle.css",
              </h4>
         ")
       ),
-      wellPanel(
+      wellPanel(style = "background-color: #6699CC",
         column(3, textInput('symsub7', strong("Gene symbol"),value="")),
         column(3, textInput('msusub7', strong("MSU genomic locus"),value="")),
         column(3, textInput('rapsub7', strong("RAPdb genomic locus"),value="")),
@@ -96,7 +96,7 @@ shinyUI(fluidPage(theme="mystyle.css",
              </h4>
        ")
       ),
-      wellPanel(
+      wellPanel(style = "background-color: #66CCCC",
         column(2, textInput('oldsym', strong("Old Gene symbol"),value="")),
         column(2, textInput('newsym', strong("New Gene Symbol"),value="")),
         column(2, textInput('oldmsu', strong("Old MSU locus"),value="")),
@@ -115,8 +115,8 @@ shinyUI(fluidPage(theme="mystyle.css",
       uiOutput("inTextfam"),
 
       tabsetPanel(
-        tabPanel(strong('Information'), dataTableOutput("mytable8")),
-        tabPanel('Reference', dataTableOutput("mytable9"))
+        tabPanel(strong('Information'), dataTableOutput("mytable8"), style = "color: white; background-color: white"),
+        tabPanel('Reference', dataTableOutput("mytable9"), style = "color: white; background-color: white")
       )
 	  ),
       
@@ -128,7 +128,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       textInput("keyword", label = h4("* Query with keyword to characterize agronomic trait"), 
                 value = "heading date"),
       tabsetPanel(
-        tabPanel('Information', dataTableOutput("mytable7"))
+        tabPanel('Information', dataTableOutput("mytable7"), style = "color: white; background-color: white")
       ),
       
       br(),
@@ -150,7 +150,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       textInput("publication", label = h4("* Query the title or abstract of collected publications"), 
                value = "heading date"),
       tabsetPanel(
-        tabPanel('Result', dataTableOutput("mytable11"))
+        tabPanel('Result', dataTableOutput("mytable11"), style = "color: white; background-color: white")
       ),
 
       br(),
@@ -179,7 +179,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       uiOutput("inTextconv"),
 
       tabsetPanel(
-          tabPanel(strong('Result'), dataTableOutput("mytable10"))
+          tabPanel(strong('Result'), dataTableOutput("mytable10"), style = "color: white; background-color: white")
       )
 	  ),
 
