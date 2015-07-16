@@ -1841,7 +1841,7 @@ save.image <- function(symbol="", phenofig="", expfig="") {
 shinyServer(function(input, output) {
   
   output$inText <- renderUI({
-    textInput("inText", "Put your query here:", 
+    textInput("inText", HTML("<span style='font-family: Comic Sans MS;color:black'>Put your query here:</span>"), 
               value=query.intext[input$query])
   })
   
@@ -1887,7 +1887,7 @@ shinyServer(function(input, output) {
                     pageLength = 2, autoWidth = FALSE))
   
   output$inTextfam <- renderUI({
-    textInput("inTextfam", strong("Put your query here:"), 
+    textInput("inTextfam", HTML("<span style='font-family: Comic Sans MS;color:black'>Put your query here:</span>"), 
               value=query.intext.fam[input$queryfam])
   })
   
@@ -1903,7 +1903,7 @@ shinyServer(function(input, output) {
   )
 
   output$inTextconv <- renderUI({
-    textInput("inTextconv", "Put your query here:", 
+    textInput("inTextconv", HTML("<span style='font-family: Comic Sans MS;color:black'>Put your query here:</span>"), 
             value=query.intext.conv[input$queryconv])
   })
 
