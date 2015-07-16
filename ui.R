@@ -11,9 +11,15 @@ shinyUI(fluidPage(theme="mystyle.css",
                     </span>
                     "),
       footer=p(HTML("<div align='center'>
-                 <a href='http://croplab.hzau.edu.cn'>National Key Laboratory of Crop Genetic Improvement</a>
-                 <br>
-                 <a href='http://www.ncpgr.cn'>National Center of Plant Gene Research (Wuhan)</a>
+
+                 <a href='http://croplab.hzau.edu.cn'><img src='croplab.png' width='130' height='130'></a>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href='http://venyao.github.io/RICENCODE/'><img src='rice.png' width='130' height='130'></a>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href='https://github.com/venyao/RICENCODE'><img src='github.png' width='130' height='130'></a>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href='https://www.researchgate.net/profile/Wen_Yao'><img src='RG.jpg' width='130' height='130'></a>
+
               </div>")),
       tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>About</span>"),
       p(HTML("
