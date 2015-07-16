@@ -69,9 +69,9 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Gene</span>"),
-      selectInput("query", h4("* Query with gene symbol or genomic locus 
+	           radioButtons("query", h4("* Query with gene symbol or genomic locus 
                               assigned by the Rice Genome Annotation Project"), 
-            choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol")),
+            choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol"), inline=TRUE),
 
       uiOutput("inText"),
 
@@ -114,9 +114,9 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
 
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Gene Family</span>"),
-      selectInput("queryfam", h4("* Query gene family using 
+	           radioButtons("queryfam", h4("* Query gene family using 
                                     gene symbol or genomic locus"), 
-            choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol")),
+            choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol"), inline=TRUE),
 
       uiOutput("inTextfam"),
 
@@ -178,9 +178,9 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
 
      tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>ID Conversion</span>"),
-      selectInput("queryconv", h4("* Convert ID of MSU genomic locus
+              radioButtons("queryconv", h4("* Convert ID of MSU genomic locus
                                   and RAPdb genomic locus"), 
-                 choices=c("RAPdb Locus", "MSU Locus")),
+                 choices=c("RAPdb to MSU", "MSU to RAPdb"), inline=TRUE),
 
       uiOutput("inTextconv"),
 

@@ -1810,15 +1810,15 @@ convRap <- function(locus="LOC_Os03g57940") {
 }
 
 convID <- function(query="", text="") {
-  if (query=="RAPdb Locus") {
+  if (query=="RAPdb to MSU") {
     return(convMSU(text))
-  } else if (query=="MSU Locus") {
+  } else if (query=="MSU to RAPdb") {
     return(convRap(text))
   }
 }
 
 query.intext.conv <- c("Os02g0677300", "LOC_Os03g57940")
-names(query.intext.conv) <- c("RAPdb Locus", "MSU Locus")
+names(query.intext.conv) <- c("RAPdb to MSU", "MSU to RAPdb")
 
 save.image <- function(symbol="", phenofig="", expfig="") {
   symbol <- gsub("^\\s+", "", symbol)
@@ -1841,7 +1841,7 @@ save.image <- function(symbol="", phenofig="", expfig="") {
 shinyServer(function(input, output) {
   
   output$inText <- renderUI({
-    textInput("inText", HTML("<span style='font-family: Comic Sans MS;color:black'>Put your query here:</span>"), 
+    textInput("inText", label=NULL, 
               value=query.intext[input$query])
   })
   
@@ -1860,11 +1860,6 @@ shinyServer(function(input, output) {
     fetchAccByChoice(input$query, input$inText)
   }, options = list(lengthMenu = c(2, 4, 6), searching = FALSE,
                     pageLength = 2, autoWidth = FALSE))
-  
-#   output$mytable4 = renderDataTable({
-#     fetchTextByChoice(input$query, input$inText)
-#   }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
-#                     pageLength = 1, autoWidth = FALSE))
 
   output$mytable4 = renderDataTable({
     fetchExpByChoice(input$query, input$inText)
@@ -1887,7 +1882,7 @@ shinyServer(function(input, output) {
                     pageLength = 2, autoWidth = FALSE))
   
   output$inTextfam <- renderUI({
-    textInput("inTextfam", HTML("<span style='font-family: Comic Sans MS;color:black'>Put your query here:</span>"), 
+    textInput("inTextfam", label=NULL, 
               value=query.intext.fam[input$queryfam])
   })
   
@@ -1903,7 +1898,7 @@ shinyServer(function(input, output) {
   )
 
   output$inTextconv <- renderUI({
-    textInput("inTextconv", HTML("<span style='font-family: Comic Sans MS;color:black'>Put your query here:</span>"), 
+    textInput("inTextconv", label=NULL, 
             value=query.intext.conv[input$queryconv])
   })
 

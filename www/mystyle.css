@@ -975,7 +975,7 @@ pre {
   padding: 0 3px 2px;
   font-family: "Comic Sans MS", Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 13px;
-  color: #333333;
+  color: black;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -1505,7 +1505,7 @@ input[type="checkbox"][readonly] {
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  color: #b94a48;
+  color: black;
 }
 
 .control-group.error input,
@@ -6691,14 +6691,14 @@ textarea {
 
 legend {
   font-family: "Comic Sans MS", 'Oswald', sans-serif;
-  color: #e36b23;
+  color: black;
   text-shadow: -2px 2px 0 #612c0c;
   border-bottom: none;
 }
 
 label {
   line-height: 15px;
-  color: #ece9d7;
+  color: black;
 }
 
 .help-block {
