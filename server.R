@@ -143,7 +143,7 @@ fetchInfoByMsu <- function(locus="") {
         if (x!="None") {
           y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -158,7 +158,7 @@ fetchInfoByMsu <- function(locus="") {
         if (x!="None") {
           y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -187,7 +187,7 @@ fetchFamInfoByMsu <- function(locus="") {
         if (x!="None") {
           y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -202,7 +202,7 @@ fetchFamInfoByMsu <- function(locus="") {
         if (x!="None") {
           y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -236,7 +236,7 @@ fetchRefByMsu <- function(locus="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -265,7 +265,7 @@ fetchFamRefByMsu <- function(locus="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -289,7 +289,7 @@ fetchAccByMsu <- function(locus="") {
       acc.fls <- gsub(".+-", "", acc.fls)
       acc.fls <- sapply(acc.fls, function(x){
         y <- paste("http://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
       })
@@ -420,7 +420,7 @@ fetchKeyByMsu <- function(locus="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -449,7 +449,7 @@ fetchConneByMsu <- function(locus="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -477,7 +477,7 @@ fetchInfoByRap <- function(locus="") {
         if (x!="None") {
           y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -492,7 +492,7 @@ fetchInfoByRap <- function(locus="") {
         if (x!="None") {
           y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -521,7 +521,7 @@ fetchFamInfoByRap <- function(locus="") {
         if (x!="None") {
           y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -536,7 +536,7 @@ fetchFamInfoByRap <- function(locus="") {
         if (x!="None") {
           y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -570,7 +570,7 @@ fetchRefByRap <- function(locus="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -599,7 +599,7 @@ fetchFamRefByRap <- function(locus="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -623,7 +623,7 @@ fetchAccByRap <- function(locus="") {
       acc.fls <- gsub(".+-", "", acc.fls)
       acc.fls <- sapply(acc.fls, function(x){
         y <- paste("http://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
       })
@@ -754,7 +754,7 @@ fetchKeyByRap <- function(locus="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -783,7 +783,7 @@ fetchConneByRap <- function(locus="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -840,7 +840,7 @@ fetchInfoBySym <- function(symbol="") {
         if (x!="None") {
           y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -855,7 +855,7 @@ fetchInfoBySym <- function(symbol="") {
         if (x!="None") {
           y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -876,7 +876,7 @@ fetchInfoBySym <- function(symbol="") {
         if (x!="None") {
           y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -891,7 +891,7 @@ fetchInfoBySym <- function(symbol="") {
         if (x!="None") {
           y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -920,7 +920,7 @@ fetchFamInfoBySym <- function(symbol="") {
         if (x!="None") {
           y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -935,7 +935,7 @@ fetchFamInfoBySym <- function(symbol="") {
         if (x!="None") {
           y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                      x, sep="")
-          y <- paste('<a href="', y, '">', x, '</a>', sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
           return(y)
         } else {
@@ -968,7 +968,7 @@ fetchRefBySym <- function(symbol="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -997,7 +997,7 @@ fetchFamRefBySym <- function(symbol="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -1021,7 +1021,7 @@ fetchAccBySym <- function(symbol="") {
       acc.fls <- gsub(".+-", "", acc.fls)
       acc.fls <- sapply(acc.fls, function(x){
         y <- paste("http://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
       })
@@ -1152,7 +1152,7 @@ fetchKeyBySym <- function(symbol="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -1181,7 +1181,7 @@ fetchConneBySym <- function(symbol="") {
         dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
-        dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+        dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                               '</a>', sep="")
         dat$Title[i] <- HTML(dat$Title[i])
       }
@@ -1208,7 +1208,7 @@ fetchInfoByKey <- function(keyword="") {
       msu.new <- sapply(msu, function(x){
         y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
       })
       msu.new <- paste(unname(msu.new), sep="", collapse="|")
@@ -1218,7 +1218,7 @@ fetchInfoByKey <- function(keyword="") {
       rap.new <- sapply(rap, function(x){
         y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                    x, sep="")
-        y <- paste('<a href="', y, '">', x, '</a>', sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
       })
       rap.new <- paste(unname(rap.new), sep="", collapse="|")
@@ -1228,7 +1228,7 @@ fetchInfoByKey <- function(keyword="") {
       dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
                             '?term=(', dat$Title[i],'%5BTitle%5D', 
                             ')', sep='')
-      dat$Title[i] <- paste('<a href="', dat$Title[i], '">', title, 
+      dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
                             '</a>', sep="")
       dat$Title[i] <- HTML(dat$Title[i])
     }
