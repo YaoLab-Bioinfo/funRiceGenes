@@ -2142,10 +2142,11 @@ shinyServer(function(input, output, session) {
            write.table(df.genefam, file=file.to, sep="\t", quote=F, row.names=F)
            
            df.genefam <- df.genefam[, c("Symbol", "RAPdb", "MSU")]
+           dir.to <- gsub("/+", "/", dir.to)
            df.genefam$path <- dir.to
            fam.info.new <- rbind(fam.gene.info, df.genefam)
            fam.info.new <- fam.info.new[order(fam.info.new$Symbol), ]
-           write.table(fam.info.new, file="fam.gene.info", 
+           write.table(fam.info.new, file="famInfo.table", 
                        sep="\t", quote=F, row.names=F)
            fam.gene.info <<- read.table("famInfo.table", head=T, sep="\t", as.is=T)
            fam.gene.msu <- 1:nrow(fam.gene.info)
