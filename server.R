@@ -1838,7 +1838,7 @@ save.image <- function(symbol="", phenofig="", expfig="") {
 }
 
 #### Shiny
-shinyServer(function(input, output) {
+shinyServer(function(input, output, session) {
   
   output$inText <- renderUI({
     textInput("inText", label=NULL, 
@@ -2021,7 +2021,95 @@ shinyServer(function(input, output) {
        })
      } else {NULL}
    })
-  
+
+   observe({
+	  if (input$clear1>0) {
+		isolate({
+			updateTextInput(session, "symsub7", value="")
+			updateTextInput(session, "msusub7", value="")
+			updateTextInput(session, "rapsub7", value="")
+			updateTextInput(session, "pubmed7", value="")
+		})
+      } else {NULL}
+   })
+
+   observe({
+	  if (input$clear2>0) {
+		isolate({
+			updateTextInput(session, "oldsym", value="")
+			updateTextInput(session, "newsym", value="")
+			updateTextInput(session, "oldmsu", value="")
+			updateTextInput(session, "newmsu", value="")
+			updateTextInput(session, "oldrap", value="")
+			updateTextInput(session, "newrap", value="")
+		})
+      } else {NULL}
+   })
+ 
+   observe({
+	  if (input$clear3>0) {
+		isolate({
+			updateTextInput(session, "symsub4", value="")
+			updateTextInput(session, "keysub4", value="")
+			updateTextInput(session, "tilsub4", value="")
+			updateTextInput(session, "evisub4", value="")
+		})
+      } else {NULL}
+   })
+
+   observe({
+	  if (input$clear4>0) {
+		isolate({
+			updateTextInput(session, "symsub2", value="")
+			updateTextInput(session, "tilsub2", value="")
+			updateTextInput(session, "yearsub2", value="")
+			updateTextInput(session, "jousub2", value="")
+			updateTextInput(session, "afisub2", value="")
+			updateTextInput(session, "abssub2", value="")
+		})
+      } else {NULL}
+   })
+
+   observe({
+	  if (input$clear5>0) {
+		isolate({
+			updateTextInput(session, "symsub3", value="")
+			updateTextInput(session, "accsub3", value="")
+		})
+      } else {NULL}
+   })
+
+   observe({
+	  if (input$clear6>0) {
+		isolate({
+			updateTextInput(session, "symsub9", value="")
+			updateTextInput(session, "exp9", value="")
+			updateTextInput(session, "ove9", value="")
+			updateTextInput(session, "rnai9", value="")
+		})
+      } else {NULL}
+   })
+
+   observe({
+	  if (input$clear7>0) {
+		isolate({
+			updateTextInput(session, "symsub5", value="")
+			updateTextInput(session, "sym2sub5", value="")
+			updateTextInput(session, "tilsub5", value="")
+			updateTextInput(session, "evisub5", value="")
+		})
+      } else {NULL}
+   })
+
+   observe({
+	  if (input$clear8>0) {
+		isolate({
+			updateTextInput(session, "symsub8", value="")
+		})
+      } else {NULL}
+   })
+
+ 
 })
 
 

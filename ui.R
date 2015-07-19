@@ -94,7 +94,8 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(3, textInput('msusub7', strong("MSU genomic locus"),value="")),
         column(3, textInput('rapsub7', strong("RAPdb genomic locus"),value="")),
         column(3, textInput('pubmed7', strong("Pubmed ID"),value="")),
-        actionButton("submit7", strong("Submit"))
+        actionButton("submit7", strong("Submit")),
+        actionButton("clear1", strong("Clear"))
       ),
       
       p(HTML("
@@ -109,7 +110,8 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(2, textInput('newmsu', strong("New MSU locus"),value="")),
         column(2, textInput('oldrap', strong("Old RAPdb locus"),value="")),
         column(2, textInput('newrap', strong("New RAPdb locus"),value="")),
-        actionButton("submit6", strong("Submit"))
+        actionButton("submit6", strong("Submit")),
+        actionButton("clear2", strong("Clear"))
       )
 	  ),
 
@@ -148,7 +150,8 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(3, textInput('keysub4', strong("Keyword"),value="")),
         column(3, textInput('tilsub4', strong("Title"),value="")),
         column(3, textInput('evisub4', strong("Evidence"),value="")),
-        actionButton("submit4", strong("Submit"))
+        actionButton("submit4", strong("Submit")),
+        actionButton("clear3", strong("Clear"))
       )
 	  ),
     
@@ -173,7 +176,8 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(2, textInput('jousub2', strong("Journal"),value="")), 
         column(2, textInput('afisub2', strong("Affiliation"),value="")),
         column(2, textInput('abssub2', strong("Abstract"),value="")),
-        actionButton("submit2", strong("Submit"))
+        actionButton("submit2", strong("Submit")),
+        actionButton("clear4", strong("Clear"))
       )
 	  ),
 
@@ -199,7 +203,8 @@ shinyUI(fluidPage(theme="mystyle.css",
       wellPanel(style = "background-color: #00b271",
         column(6, textInput('symsub3', strong("Gene symbol"),value="")),
         column(6, textInput('accsub3', strong("Accession"),value="")),
-        actionButton("submit3", strong("Submit"))
+        actionButton("submit3", strong("Submit")),
+        actionButton("clear5", strong("Clear"))
       ),
 
       p(HTML("
@@ -212,7 +217,8 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(3, textInput('exp9', strong("Expression"),value="")),
         column(3, textInput('ove9', strong("Overexpression"),value="")),
         column(3, textInput('rnai9', strong("RNAi"),value="")),
-        actionButton("submit9", strong("Submit"))
+        actionButton("submit9", strong("Submit")),
+        actionButton("clear6", strong("Clear"))
       ),
       
       p(HTML("
@@ -225,7 +231,8 @@ shinyUI(fluidPage(theme="mystyle.css",
         column(3, textInput('sym2sub5', strong("Gene symbol 2"),value="")),
         column(3, textInput('tilsub5', strong("Title"),value="")),
         column(3, textInput('evisub5', strong("Evidence"),value="")),
-        actionButton("submit5", strong("Submit"))
+        actionButton("submit5", strong("Submit")),
+        actionButton("clear7", strong("Clear"))
       ),
 
       p(HTML("
@@ -239,7 +246,8 @@ shinyUI(fluidPage(theme="mystyle.css",
                             accept=c(".tif", ".png", ".tiff"))),
         column(4, fileInput('expfig', strong("Expression Figure"),
                             accept=c(".tif", ".png", ".tiff"))),
-        actionButton("submit8", strong("Submit"))
+        actionButton("submit8", strong("Submit")),
+        actionButton("clear8", strong("Clear"))
       )
       
 	  )
