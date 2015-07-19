@@ -2113,8 +2113,7 @@ shinyServer(function(input, output, session) {
      if (input$submit10>0) {
        isolate({
          if (input$genfamin!="") {
-           df.genefam <- read.table(text=input$genfamin, head=F, sep="\t", as.is=T)
-           names(df.genefam) <- c("Accession", "Symbol", "MSU", "RAPdb", "Name")
+           df.genefam <- read.table(input$genfamin$datapath, head=T, sep="\t", as.is=T)
            
            symbol <- df.genefam$Name
            symbol.low <- tolower(symbol)
@@ -2122,18 +2121,18 @@ shinyServer(function(input, output, session) {
              symbol.low <- gsub("^os", "", symbol.low)
              symbol.head <- substr(symbol.low, 1, 1)
              if (symbol.head %in% letters[1:24]) {
-               dir.to <- paste("data/Family/Abstract/OS", 
+               dir.to <- paste("data/Family/OS", 
                                toupper(symbol.head), sep="/")
              } else {
-               dir.to <- "data/Family/Abstract/OS/0-9"
+               dir.to <- "data/Family/OS/0-9"
              }
            } else {
              symbol.head <- substr(symbol.low, 1, 1)
              if (symbol.head %in% letters[1:24]) {
-               dir.to <- paste("data/Family/Abstract", 
+               dir.to <- paste("data/Family/", 
                                toupper(symbol.head), sep="/")
              } else {
-               dir.to <- "data/Family/Abstract/0-9"
+               dir.to <- "data/Family/0-9"
              }
            }
            

@@ -1,6 +1,12 @@
 
+returnTextAreaInput <- function(inputId, label, value = "") {
+  tagList(tags$label(label, `for` = inputId), br(),
+          tags$input(id = inputId, type = "text", value = value,
+                     class="returnTextArea form-control"))
+}
+
 shinyUI(fluidPage(theme="mystyle.css",
-                  tags$head(includeScript("google-analytics.js")),
+                  tags$head(includeScript("returnTextAreaBinding.js")),
                   
   fluidRow(
     absolutePanel(
@@ -134,11 +140,10 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       
       wellPanel(style = "background-color: #336699",
-                column(6,  HTML("<label for='genfamin'><strong>Gene Family info</strong></label>
-                         <textarea rows='3' id='genfamin' name='genfamin'></textarea>")   ),
-                column(6,  HTML("<label for='pubmed10'><strong>Pubmed ID</strong></label>
-                         <textarea rows='3' id='pubmed10' name='pubmed10'></textarea>")   ),
-                actionButton("submit10", strong("Submit"))
+        column(6, fileInput('genfamin', strong("Gene Family info"),
+                            accept=c(".txt"))),
+        column(6, textInput('pubmed10', strong("Pubmed ID"),value="")),
+        actionButton("submit10", strong("Submit"))
       )
       
 	  ),
