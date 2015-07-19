@@ -125,7 +125,22 @@ shinyUI(fluidPage(theme="mystyle.css",
       tabsetPanel(
         tabPanel(strong('Information'), dataTableOutput("mytable8"), style = "color: white; background-color: black"),
         tabPanel('Reference', dataTableOutput("mytable9"), style = "color: white; background-color: black")
+      ),
+      
+      p(HTML("
+             <h4>* Submit new gene family
+             </h4>
+       ")
+      ),
+      
+      wellPanel(style = "background-color: #336699",
+                column(6,  HTML("<label for='genfamin'><strong>Gene Family info</strong></label>
+                         <textarea rows='3' id='genfamin' name='genfamin'></textarea>")   ),
+                column(6,  HTML("<label for='pubmed10'><strong>Pubmed ID</strong></label>
+                         <textarea rows='3' id='pubmed10' name='pubmed10'></textarea>")   ),
+                actionButton("submit10", strong("Submit"))
       )
+      
 	  ),
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Keyword</span>"),

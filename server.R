@@ -2109,7 +2109,88 @@ shinyServer(function(input, output, session) {
       } else {NULL}
    })
 
- 
+   observe({
+     if (input$submit10>0) {
+       isolate({
+         if (input$genfamin!="") {
+           df.genefam <- read.table(text=input$genfamin, head=F, sep="\t", as.is=T)
+           names(df.genefam) <- c("Accession", "Symbol", "MSU", "RAPdb", "Name")
+           
+           symbol <- df.genefam$Name
+           symbol.low <- tolower(symbol)
+           if (grepl("^os", symbol.low)) {
+             symbol.low <- gsub("^os", "", symbol.low)
+             symbol.head <- substr(symbol.low, 1, 1)
+             if (symbol.head %in% letters[1:24]) {
+               dir.to <- paste("data/Family/Abstract/OS", 
+                               toupper(symbol.head), sep="/")
+             } else {
+               dir.to <- "data/Family/Abstract/OS/0-9"
+             }
+           } else {
+             symbol.head <- substr(symbol.low, 1, 1)
+             if (symbol.head %in% letters[1:24]) {
+               dir.to <- paste("data/Family/Abstract", 
+                               toupper(symbol.head), sep="/")
+             } else {
+               dir.to <- "data/Family/Abstract/0-9"
+             }
+           }
+           
+           symbol <- gsub("\\s+", "_", symbol)
+           dir.to <- paste(dir.to, symbol, sep="/")
+           file.to <- paste(dir.to, "family.info", sep="/")
+           write.table(df.genefam, file=file.to, sep="\t", quote=F, row.names=F)
+           
+           df.genefam <- df.genefam[, c("Symbol", "RAPdb", "MSU")]
+           df.genefam$path <- dir.to
+           fam.info.new <- rbind(fam.gene.info, df.genefam)
+           fam.info.new <- fam.info.new[order(fam.info.new$Symbol), ]
+           write.table(fam.info.new, file="fam.gene.info", 
+                       sep="\t", quote=F, row.names=F)
+           fam.gene.info <<- read.table("famInfo.table", head=T, sep="\t", as.is=T)
+           fam.gene.msu <- 1:nrow(fam.gene.info)
+           names(fam.gene.msu) <- fam.gene.info$MSU
+           fam.gene.msu <- fam.gene.msu[names(fam.gene.msu)!="None"]
+           fam.gene.msu.new <- sapply(names(fam.gene.msu), function(x) {
+             x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
+             if (length(x.name)==1) {
+               return(fam.gene.msu[x])
+             } else {
+               y <- rep(fam.gene.msu[x], length(x.name))
+               names(y) <- x.name
+               return(y)
+             }
+           })
+           fam.gene.msu.final <<- unlist(unname(fam.gene.msu.new))
+           
+           fam.gene.rap <- 1:nrow(fam.gene.info)
+           names(fam.gene.rap) <- fam.gene.info$RAPdb
+           fam.gene.rap <- fam.gene.rap[names(fam.gene.rap)!="None"]
+           fam.gene.rap.new <- sapply(names(fam.gene.rap), function(x) {
+             x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
+             if (length(x.name)==1) {
+               return(fam.gene.rap[x])
+             } else {
+               y <- rep(fam.gene.rap[x], length(x.name))
+               names(y) <- x.name
+               return(y)
+             }
+           })
+           fam.gene.rap.final <<- unlist(unname(fam.gene.rap.new))
+         } 
+         pubmedRes <- fetchPubmedById(input$pubmed10)
+         if (all(pubmedRes!="")) {  
+           df.pub <- data.frame(Journal=pubmedRes[1], Title=pubmedRes[2], Year=pubmedRes[3],
+                                Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
+                                stringsAsFactors=FALSE)
+           file.to <- paste(dir.to, "family.ref", sep="/")
+           write.table(df.pub, file=file.to, sep="\t", quote=F, row.names=F)
+         }
+       })
+     } else {NULL}
+   }) 
+   
 })
 
 
