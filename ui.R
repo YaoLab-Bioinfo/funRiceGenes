@@ -12,13 +12,13 @@ shinyUI(fluidPage(theme="mystyle.css",
                     "),
       footer=p(HTML("<div align='center'>
 
-                 <a href='http://croplab.hzau.edu.cn'><img src='croplab.png' width='130' height='130'></a>
+                 <a href='http://croplab.hzau.edu.cn' target='_blank'><img src='croplab.png' width='130' height='130'></a>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href='http://venyao.github.io/RICENCODE/'><img src='rice.png' width='130' height='130'></a>
+                 <a href='http://venyao.github.io/RICENCODE/' target='_blank'><img src='rice.png' width='130' height='130'></a>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href='https://github.com/venyao/RICENCODE'><img src='github.png' width='130' height='130'></a>
+                 <a href='https://github.com/venyao/RICENCODE' target='_blank'><img src='github.png' width='130' height='130'></a>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href='https://www.researchgate.net/profile/Wen_Yao'><img src='RG.jpg' width='130' height='130'></a>
+                 <a href='https://www.researchgate.net/profile/Wen_Yao' target='_blank'><img src='RG.jpg' width='130' height='130'></a>
 
               </div>")),
       tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>About</span>"),
@@ -37,26 +37,26 @@ shinyUI(fluidPage(theme="mystyle.css",
 			 <h3>How to query this database?</h3>
 			 <div align='justify'>
                    This database was designed as a Shiny application and was deployed in the Cloud. 
-                   You can query this database <a href='http://ricencode.ncpgr.cn'>HERE</a>.
-                   You can query this database using the genomic locus assigned by the <a href='http://rice.plantbiology.msu.edu/'>Rice Genome Annotation Project</a>, 
-                   or the genomic locus assigned by the <a href='http://rapdb.dna.affrc.go.jp/'>Rice Annotation Project</a>, or the gene symbol. 
+                   You can query this database <a href='http://ricencode.ncpgr.cn' target='_blank'>HERE</a>.
+                   You can query this database using the genomic locus assigned by the <a href='http://rice.plantbiology.msu.edu/' target='_blank'>Rice Genome Annotation Project</a>, 
+                   or the genomic locus assigned by the <a href='http://rapdb.dna.affrc.go.jp/' target='_blank'>Rice Annotation Project</a>, or the gene symbol. 
                    You can retrieve the basic information of a gene, the publications on a gene, the agronomic traits associated with a gene, the connections between genes from this database.
                    
 				   <br>
-                   You can also query this database by downloading the whole database to your local computer. In this way, you need <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer (See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>manual</a>).
+                   You can also query this database by downloading the whole database to your local computer. In this way, you need <a href='http://www.rstudio.com/' target='_blank'>RStudio</a> and the <a href='http://shiny.rstudio.com/' target='_blank'>Shiny</a> package installed on your computer (See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf' target='_blank'>manual</a>).
 				   
 				   <br>
-				   Finally, this database were also provided to users as <a href='http://venyao.github.io/RICENCODE/'>static web pages</a>. You can query this website through in-site search using the searching box on the top right of this website.
+				   Finally, this database were also provided to users as <a href='http://venyao.github.io/RICENCODE/' target='_blank'>static web pages</a>. You can query this website through in-site search using the searching box on the top right of this website.
              </div>
 			 
 			 <h3>How to contribute to this database?</h3>
 			 <div align='justify'>
-			       You can also contribute to this database by submitting information on newly cloned rice gene or new publications to this database. To do this, you need to download the database and have <a href='http://www.rstudio.com/'>RStudio</a> and the <a href='http://shiny.rstudio.com/'>Shiny</a> package installed on your computer(See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>manual</a>).
+			       You can also contribute to this database by submitting information on newly cloned rice gene or new publications to this database. To do this, you need to download the database and have <a href='http://www.rstudio.com/' target='_blank'>RStudio</a> and the <a href='http://shiny.rstudio.com/' target='_blank'>Shiny</a> package installed on your computer(See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf' target='_blank'>manual</a>).
 			 </div>
 			 
 			 <h3>Further information</h3>
 			 <div align='justify'>
-			      Further information concerning the details on querying and contributing to this database can be found in the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf'>manual</a>.
+			      Further information concerning the details on querying and contributing to this database can be found in the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf' target='_blank'>manual</a>.
 			 </div>
 			 
 			 <h3>Contact us</h3>
@@ -128,7 +128,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Keyword</span>"),
 	  p(HTML("<div align='justify'>
-                         Keywords in this database were used to describe phenotypic trait or biological process. As these keywords were collected from the publications, you can only use the keywords listed on <a href='http://venyao.github.io/RICENCODE/tags.html'>this web page</a> to query this database. To use any keyword you like to query this database, you can use the 'Publication' panel on the navigation bar.
+                         Keywords in this database were used to describe phenotypic trait or biological process. As these keywords were collected from the publications, you can only use the keywords listed on <a href='http://venyao.github.io/RICENCODE/tags.html' target='_blank'>this web page</a> to query this database. To use any keyword you like to query this database, you can use the 'Publication' panel on the navigation bar.
              </div>"
 	  )),
       textInput("keyword", label = h4("* Query with keyword to characterize agronomic trait"), 
