@@ -134,9 +134,10 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       
       wellPanel(style = "background-color: #336699",
+        column(6, textInput('pubmed10', strong("Pubmed ID"),value="")),
+        #column(4, textInput('famname', strong("Family Name"),value="")),
         column(6, fileInput('genfamin', strong("Gene Family info"),
                             accept=c(".txt"))),
-        column(6, textInput('pubmed10', strong("Pubmed ID"),value="")),
         actionButton("submit10", strong("Submit"))
       )
       
