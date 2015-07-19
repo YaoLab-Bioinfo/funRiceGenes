@@ -2112,10 +2112,9 @@ shinyServer(function(input, output, session) {
    observe({
      if (input$submit10>0) {
        isolate({
-         if (input$genfamin!="") {
            df.genefam <- read.table(input$genfamin$datapath, head=T, sep="\t", as.is=T)
            
-           symbol <- df.genefam$Name
+           symbol <- df.genefam$Name[1]
            symbol.low <- tolower(symbol)
            if (grepl("^os", symbol.low)) {
              symbol.low <- gsub("^os", "", symbol.low)
@@ -2181,7 +2180,7 @@ shinyServer(function(input, output, session) {
              }
            })
            fam.gene.rap.final <<- unlist(unname(fam.gene.rap.new))
-         } 
+
          pubmedRes <- fetchPubmedById(input$pubmed10)
          if (all(pubmedRes!="")) {  
            df.pub <- data.frame(Journal=pubmedRes[1], Title=pubmedRes[2], Year=pubmedRes[3],
