@@ -1,12 +1,6 @@
 
-returnTextAreaInput <- function(inputId, label, value = "") {
-  tagList(tags$label(label, `for` = inputId), br(),
-          tags$input(id = inputId, type = "text", value = value,
-                     class="returnTextArea form-control"))
-}
-
 shinyUI(fluidPage(theme="mystyle.css",
-                  tags$head(includeScript("returnTextAreaBinding.js")),
+                  tags$head(includeScript("google-analytics.js")),
                   
   fluidRow(
     absolutePanel(
