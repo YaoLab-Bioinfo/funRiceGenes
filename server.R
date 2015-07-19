@@ -2138,11 +2138,14 @@ shinyServer(function(input, output, session) {
            
            symbol <- gsub("\\s+", "_", symbol)
            dir.to <- paste(dir.to, symbol, sep="/")
+           dir.to <- gsub("/+", "/", dir.to)
+           if (!file.exists(dir.to)) {
+             dir.create(dir.to)
+           }
            file.to <- paste(dir.to, "family.info", sep="/")
            write.table(df.genefam, file=file.to, sep="\t", quote=F, row.names=F)
-           
            df.genefam <- df.genefam[, c("Symbol", "RAPdb", "MSU")]
-           dir.to <- gsub("/+", "/", dir.to)
+           
            df.genefam$path <- dir.to
            fam.info.new <- rbind(fam.gene.info, df.genefam)
            fam.info.new <- fam.info.new[order(fam.info.new$Symbol), ]
