@@ -115,10 +115,11 @@ gene.rap.final <- unlist(unname(gene.rap.new))
 fetchRefByKey <- function(keyword="") {
   keyword <- gsub("^\\s+", "", keyword)
   keyword <- gsub(" +$", "", keyword)
+  keyword <- tolower(keyword)
   if (nchar(keyword)<1) {
     return(NULL)
   } else {
-    datRes <- ref.info[grepl(keyword, ref.info$Title)|grepl(keyword, ref.info$Abstract), ]
+    datRes <- ref.info[grepl(keyword, ref.info$Title)|grepl(keyword, ref.info$Abstract, ignore.case=TRUE), ]
     if (nrow(datRes)>0) {
       return(datRes)
     } else {
