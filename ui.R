@@ -69,8 +69,14 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Gene</span>"),
-	           radioButtons("query", h4("* Query with gene symbol or genomic locus 
-                              assigned by the Rice Genome Annotation Project"), 
+	           radioButtons("query", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Query with gene symbol or genomic locus 
+                              assigned by the Rice Genome Annotation Project</h4></td>
+<td>
+<div class='help-tip'>
+	<p>Fill in the form (case insensitive) to fetch information on cloned rice genes.</p>
+	                                      </div></td></tr>
+	                                      </table>
+	                                      "), 
             choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol"), inline=TRUE),
 
       uiOutput("inText"),
@@ -84,9 +90,16 @@ shinyUI(fluidPage(theme="mystyle.css",
         tabPanel('Connection', dataTableOutput("mytable6"), style = "color: white; background-color: black")
       ),
       
-      p(HTML("
-             <h4>* Submit new Gene or add new information for existing genes
-             </h4>
+      p(HTML("<table style='background-color: #DDF3FF'><tr><td>
+             <h4>* Submit new Gene or add new information for existing genes</h4>
+             </td><td>
+<div class='help-tip'>
+	<p>To only submit a new publication, fill in the 'Pubmed ID' form. 
+     To submit a new publication for an existing gene, fill in the 'Gene symbol' and 'Pubmed ID' forms.
+     To submit a new gene, fill in all the four forms.
+</p>
+	                                      </div></td></tr>
+	                                      </table>
         ")
       ),
       wellPanel(style = "background-color: #00b271",
@@ -127,9 +140,16 @@ shinyUI(fluidPage(theme="mystyle.css",
         tabPanel('Reference', dataTableOutput("mytable9"), style = "color: white; background-color: black")
       ),
       
-      p(HTML("
+      p(HTML("<table style='background-color: #DDF3FF'><tr><td>
              <h4>* Submit new gene family
-             </h4>
+             </h4></td><td>
+<div class='help-tip'>
+             <p>The file 'Gene Family info' should contain 5 columns with names 'Accession',
+             'Symbol', 'MSU', 'RAPdb' and 'Name' separated by '\\t'. And the 1st row should
+             be the column names.
+             </p>
+             </div></td></tr>
+             </table>
        ")
       ),
       
@@ -144,11 +164,20 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Keyword</span>"),
-	  p(HTML("<div align='justify'>
-                         Keywords in this database were used to describe phenotypic trait or biological process. As these keywords were collected from the publications, you can only use the keywords listed on <a href='http://venyao.github.io/RICENCODE/tags.html' target='_blank'>this web page</a> to query this database. To use any keyword you like to query this database, you can use the 'Publication' panel on the navigation bar.
-             </div>"
-	  )),
-      textInput("keyword", label = h4("* Query with keyword to characterize agronomic trait"), 
+      textInput("keyword", label = HTML("<table style='background-color: #DDF3FF'><tr><td>
+                                        <h4>* Query with keyword to characterize agronomic trait</h4>
+                                        </td><td>
+<div class='help-tip'>
+	<p>Keywords in this database were used to describe phenotypic trait or biological process. 
+As these keywords were collected from publications, 
+you can only use the keywords listed on <a href='http://venyao.github.io/RICENCODE/tags.html' target='_blank'>
+this web page</a> to query this database. 
+To use any keyword you like to query this database, 
+you can use the 'Publication' panel on the navigation bar.
+</p>
+	                                      </div></td></tr>
+	                                      </table>
+                                        "), 
                 value = "heading date"),
       tabsetPanel(
         tabPanel('Information', dataTableOutput("mytable7"), style = "color: white; background-color: black")

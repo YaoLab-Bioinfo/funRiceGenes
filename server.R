@@ -1905,7 +1905,7 @@ shinyServer(function(input, output, session) {
 
   output$mytable10 = renderDataTable({
     convID(input$queryconv, input$inTextconv)
-  }, options = list(lengthMenu = 1, pageLength = 1,
+  }, options = list(lengthMenu = c(1, 4), pageLength = 4,
                   searching = FALSE, autoWidth = FALSE)
   )
 
