@@ -1,6 +1,6 @@
 
-setwd("E:/GIT/RICENCODE")
-unlink("E:/GIT/ricencode-pg/RICENCODE/_posts", recur=T, force=T)
+setwd("E:/坚果云/GIT/RICENCODE")
+unlink("E:/坚果云/GIT/ricencode-pg/_posts", recur=T, force=T)
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
 for (j in 1:nrow(gene.lst)) {
@@ -10,7 +10,7 @@ for (j in 1:nrow(gene.lst)) {
   msu <- gene.lst$MSU[j]
   rap <- gene.lst$RAPdb[j]
   path <- gene.lst$path[j]
-  path <- paste("E:/GIT/RICENCODE", path, sep="/")
+  path <- paste("E:/坚果云/GIT/RICENCODE", path, sep="/")
   
   ### msu
   msu <- unlist(strsplit(msu, split='|', fixed=TRUE))
@@ -196,27 +196,27 @@ for (j in 1:nrow(gene.lst)) {
     tmp.tag <- substr(gsub("^os", "", gene.lst$Symbol[j], ignore.case=T), 1,1)
 	tmp.tag <- toupper(tmp.tag)
 	if (tmp.tag %in% LETTERS[1:26]) {
-	  path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/OS/", tmp.tag, sep="")
+	  path <- paste("E:/坚果云/GIT/ricencode-pg/_posts/OS/", tmp.tag, sep="")
 	} else {
-	  path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/OS/0-9"
+	  path <- "E:/坚果云/GIT/ricencode-pg/_posts/OS/0-9"
 	}
   } else {
     tmp.tag <- substr(gene.lst$Symbol[j], 1,1)
 	tmp.tag <- toupper(tmp.tag)
 	if (tmp.tag %in% LETTERS[1:26]) {
-	  path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/", tmp.tag, sep="")
+	  path <- paste("E:/坚果云/GIT/ricencode-pg/_posts/", tmp.tag, sep="")
 	} else {
-	  path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/0-9"
+	  path <- "E:/坚果云/GIT/ricencode-pg/_posts/0-9"
 	}
   }
 	  
   out.fl.name <- paste(path, out.fl.name, sep="/")
   if (length(exp.fig.fl)==1) {
-    file.copy(from=exp.fig.fl, to="E:/GIT/ricencode-pg/RICENCODE/assets/images")
+    file.copy(from=exp.fig.fl, to="E:/坚果云/GIT/ricencode-pg/assets/images")
   }
   
   if (length(pheno.fig.fl)==1) {
-    file.copy(from=pheno.fig.fl, to="E:/GIT/ricencode-pg/RICENCODE/assets/images")
+    file.copy(from=pheno.fig.fl, to="E:/坚果云/GIT/ricencode-pg/assets/images")
   }
   
   dir.name <- dirname(out.fl.name)
@@ -233,7 +233,7 @@ fam.lst <- read.table("famInfo.table", head=T,
 fam.path <- unique(fam.lst$path)
 for (j in 1:length(fam.path)) {
   path <- fam.path[j]
-  path <- paste("E:/GIT/RICENCODE", path, sep="/")
+  path <- paste("E:/坚果云/GIT/RICENCODE", path, sep="/")
   
   info.fl <- paste(path, "family.info", sep="/")
   fam.info <- NULL
@@ -332,17 +332,17 @@ for (j in 1:length(fam.path)) {
     tmp.tag <- substr(gsub("^os", "", name, ignore.case=T), 1,1)
     tmp.tag <- toupper(tmp.tag)
     if (tmp.tag %in% LETTERS[1:26]) {
-      path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/OS/", tmp.tag, sep="")
+      path <- paste("E:/坚果云/GIT/ricencode-pg/_posts/FAM/OS/", tmp.tag, sep="")
     } else {
-      path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/OS/0-9"
+      path <- "E:/坚果云/GIT/ricencode-pg/_posts/FAM/OS/0-9"
     }
   } else {
     tmp.tag <- substr(name, 1,1)
     tmp.tag <- toupper(tmp.tag)
     if (tmp.tag %in% LETTERS[1:26]) {
-      path <- paste("E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/", tmp.tag, sep="")
+      path <- paste("E:/坚果云/GIT/ricencode-pg/_posts/FAM/", tmp.tag, sep="")
     } else {
-      path <- "E:/GIT/ricencode-pg/RICENCODE/_posts/FAM/0-9"
+      path <- "E:/坚果云/GIT/ricencode-pg/_posts/FAM/0-9"
     }
   }
   
@@ -376,7 +376,7 @@ for (i in 1:nrow(pub.df)) {
                   pub.df$Journal[i], ".", sep="")
   md.cont <- c(md.cont, md.ref)
 }
-writeLines(md.cont, con="E:/GIT/ricencode-pg/RICENCODE/publication.md")
+writeLines(md.cont, con="E:/坚果云/GIT/ricencode-pg/publication.md")
 
 
 meg <- readLines("git.log")
@@ -400,6 +400,6 @@ for (i in seq(1, length(meg), by=6)) {
   md.cont <- c(md.cont, meg.final)
 }
 md.cont <- gsub("\\|", "/", md.cont)
-writeLines(md.cont, con="E:/GIT/ricencode-pg/RICENCODE/news.md")
+writeLines(md.cont, con="E:/坚果云/GIT/ricencode-pg/news.md")
 
 
