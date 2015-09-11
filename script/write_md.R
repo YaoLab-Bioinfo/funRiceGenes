@@ -143,6 +143,7 @@ for (j in 1:nrow(gene.lst)) {
   md.cont <- c(md.cont, md.msu)
   md.rap <- paste("__RAPdb__: ", rap.new, "  ", sep="")
   md.cont <- c(md.cont, md.rap)
+  
   md.cont <- c(md.cont, "", "## Publication")
   if (!is.null(ref)) {
     for (i in 1:nrow(ref)) {
@@ -151,17 +152,20 @@ for (j in 1:nrow(gene.lst)) {
       md.cont <- c(md.cont, md.ref)
     }
   }
+
   md.cont <- c(md.cont, "", "## Genbank accession number")
   if (!is.null(acc)) {
     md.acc <- paste(acc$Accession, sep="", collapse=", ")
     md.cont <- c(md.cont, md.acc)
   }
+
   md.cont <- c(md.cont, "", "## Expression information")
   if (!is.null(exp)) {
     md.cont <- c(md.cont, paste("__Expression__:", paste(exp$Expression, sep="//"), "  ", sep=""))
 	md.cont <- c(md.cont, paste("__OverExpression__:", paste(exp$Overexpression, sep="//"), "  ", sep=""))
 	md.cont <- c(md.cont, paste("__RNAi__:", paste(exp$RNAi, sep="//"), "  ", sep=""))
   }
+
   md.cont <- c(md.cont, "", "## Key message")
   if (!is.null(key)) {
     for (i in 1:nrow(key)) {
@@ -170,6 +174,7 @@ for (j in 1:nrow(gene.lst)) {
       md.cont <- c(md.cont, md.key)
     }
   }
+
   md.cont <- c(md.cont, "", "## Connection")
   if (!is.null(cone)) {
     for (i in 1:nrow(cone)) {
