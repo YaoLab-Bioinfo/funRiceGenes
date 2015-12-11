@@ -21,7 +21,7 @@ shinyUI(fluidPage(theme="mystyle.css",
                  <a href='https://www.researchgate.net/profile/Wen_Yao' target='_blank'><img src='RG.jpg' width='130' height='130'></a>
 
               </div>")),
-      tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>About</span>"),
+      tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Home</span>"),
       p(HTML("
 			 <h3><span style='font-family: Comic Sans MS'>Introdution</span></h3>
              <div align='justify' style='font-family: Comic Sans MS'>
@@ -128,7 +128,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       )
 	  ),
 
-	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Gene Family</span>"),
+	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>GeneFamily</span>"),
 	           radioButtons("queryfam", h4("* Query gene family using 
                                     gene symbol or genomic locus"), 
             choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol"), inline=TRUE),
@@ -225,7 +225,7 @@ you can use the 'Publication' panel on the navigation bar.
       )
 	  ),
 
-     tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>ID Conversion</span>"),
+     tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>IDConversion</span>"),
               radioButtons("queryconv", h4("* Convert ID of MSU genomic locus
                                   and RAPdb genomic locus"), 
                  choices=c("RAPdb to MSU", "MSU to RAPdb"), inline=TRUE),
