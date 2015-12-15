@@ -1,5 +1,6 @@
 
-library(RCurl); library(XML); library(stringr); library(plyr);
+library(RCurl); library(XML); library(stringr); library(plyr); 
+mypasswd = "asdfghjkl;'"
 
 fetchPubmedById <- function(id="") {
   url <- "http://www.ncbi.nlm.nih.gov/pubmed"
@@ -1914,110 +1915,163 @@ shinyServer(function(input, output, session) {
   }, options = list(lengthMenu = c(1, 2, 4, 6), searching = FALSE,
                   pageLength = 1, autoWidth = FALSE))
   
+  # submit new reference
   observe({
     if (input$submit2>0) {
       isolate({
-        df.pub <- data.frame(Symbol=input$symsub2, Title=input$tilsub2, Year=input$yearsub2,
-                             Journal=input$jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
-                             stringsAsFactors=FALSE)
-        write.pub(df.pub)
-        updateGeneInfo()
+        if (input$key2==mypasswd) {
+          df.pub <- data.frame(Symbol=input$symsub2, Title=input$tilsub2, Year=input$yearsub2,
+                               Journal=input$jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
+                               stringsAsFactors=FALSE)
+          write.pub(df.pub)
+          updateGeneInfo()
+        } else {
+          js_string <- 'alert("Authorization Required!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
+        }
       })
     } else {NULL}
   })
   
+  # submit new accession
   observe({
     if (input$submit3>0) {
       isolate({
-        df.acc <- data.frame(Symbol=input$symsub3, Accession=input$accsub3, 
-                             stringsAsFactors=FALSE)
-        write.acc(df.acc)
-        updateGeneInfo()
+        if (input$key3==mypasswd) {
+          df.acc <- data.frame(Symbol=input$symsub3, Accession=input$accsub3, 
+                               stringsAsFactors=FALSE)
+          write.acc(df.acc)
+          updateGeneInfo()
+        } else {
+          js_string <- 'alert("Authorization Required!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
+        }
       })
     } else {NULL}
   })
 
+  # submit new expression info
   observe({
     if (input$submit9>0) {
       isolate({
-        df.exp <- data.frame(Symbol=input$symsub9, Expression=input$exp9, 
-                             Overexpression=input$ove9, RNAi=input$rnai9,
-                           stringsAsFactors=FALSE)
-        write.exp(df.exp)
-        updateGeneInfo()
+        if (input$key9==mypasswd) {
+          df.exp <- data.frame(Symbol=input$symsub9, Expression=input$exp9, 
+                               Overexpression=input$ove9, RNAi=input$rnai9,
+                               stringsAsFactors=FALSE)
+          write.exp(df.exp)
+          updateGeneInfo()
+        } else {
+          js_string <- 'alert("Authorization Required!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
+        }
       })
     } else {NULL}
   })
   
+  # submit new keywords
   observe({
     if (input$submit4>0) {
       isolate({
-        df.key <- data.frame(Symbol=input$symsub4, Keyword=input$keysub4, 
-                             Title=input$tilsub4, Evidence=input$evisub4,
-                             stringsAsFactors=FALSE)
-        write.key(df.key)
-        updateGeneInfo()
+        if (input$key4==mypasswd) {
+          df.key <- data.frame(Symbol=input$symsub4, Keyword=input$keysub4, 
+                               Title=input$tilsub4, Evidence=input$evisub4,
+                               stringsAsFactors=FALSE)
+          write.key(df.key)
+          updateGeneInfo()
+        } else {
+          js_string <- 'alert("Authorization Required!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
+        }
       })
     } else {NULL}
   })
   
+  # submit new connections
   observe({
     if (input$submit5>0) {
       isolate({
-        df.con <- data.frame(Symbol1=input$symsub5, Symbol2=input$sym2sub5, 
-                             Title=input$tilsub5, Evidence=input$evisub5,
-                             stringsAsFactors=FALSE)
-        write.con(df.con)
-        updateGeneInfo()
+        if (input$key5==mypasswd) {
+          df.con <- data.frame(Symbol1=input$symsub5, Symbol2=input$sym2sub5, 
+                               Title=input$tilsub5, Evidence=input$evisub5,
+                               stringsAsFactors=FALSE)
+          write.con(df.con)
+          updateGeneInfo()
+        } else {
+          js_string <- 'alert("Authorization Required!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
+        }
       })
     } else {NULL}
   })
   
+  #submit new figures
   observe({
     if (input$submit8>0) {
       isolate({
-        save.image(input$symsub8, input$phenofig, input$expfig)
+        if (input$key8==mypasswd) {
+           save.image(input$symsub8, input$phenofig, input$expfig)
+           js_string <- 'alert("Figures successfully added!");'
+           session$sendCustomMessage(type='jsCode', list(value = js_string))
+        } else {
+           js_string <- 'alert("Authorization Required!");'
+           session$sendCustomMessage(type='jsCode', list(value = js_string))
+        }
       })
     } else {NULL}
   })
 
+  # edit gene info
   observe({
     if (input$submit6>0) {
       isolate({
-        df.con <- data.frame(oldsym=input$oldsym, newsym=input$newsym, 
-                             oldmsu=input$oldmsu, newmsu=input$newmsu,
-                             oldrap=input$oldrap, newrap=input$newrap,
-                             stringsAsFactors=FALSE)
-        gene.edit(df.con)
-        updateGeneInfo()
+        if (input$key6==mypasswd) {
+          df.con <- data.frame(oldsym=input$oldsym, newsym=input$newsym, 
+                               oldmsu=input$oldmsu, newmsu=input$newmsu,
+                               oldrap=input$oldrap, newrap=input$newrap,
+                               stringsAsFactors=FALSE)
+          gene.edit(df.con)
+          updateGeneInfo()
+          git.info <- gsub("\\|", " == ", input$newsym)
+          system("git add -A")
+          system(paste("git commit ", git.info, sep=""))
+        } else {
+          js_string <- 'alert("Authorization Required!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
+        }
       })
     } else {NULL}
   })
   
+  # submit gene info
   observe({
      if (input$submit7>0) {
        isolate({
-         if (input$symsub7!="") {
-           df.gene <- data.frame(Symbol=input$symsub7, MSU=input$msusub7, RAPdb=input$rapsub7,
-                                 stringsAsFactors=FALSE)
-           locus.line <- findDirBySym(tolower(input$symsub7))
-           if (length(locus.line)==0) {
-             write.gene(df.gene)
+         if (input$key7==mypasswd) {
+           if (input$symsub7!="") {
+             df.gene <- data.frame(Symbol=input$symsub7, MSU=input$msusub7, RAPdb=input$rapsub7,
+                                   stringsAsFactors=FALSE)
+             locus.line <- findDirBySym(tolower(input$symsub7))
+             if (length(locus.line)==0) {
+               write.gene(df.gene)
+               updateGeneInfo()
+             }
+           } 
+           pubmedRes <- fetchPubmedById(input$pubmed7)
+           if (all(pubmedRes!="")) {  
+             df.pub <- data.frame(Symbol=input$symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
+                                  Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
+                                  stringsAsFactors=FALSE)
+             write.pub(df.pub)
+             if (input$symsub7!="") {
+               scanAndWriteKey(df.pub)
+               scanAndWriteCon(df.pub)
+               scanAndWriteExp(df.pub)
+             }
              updateGeneInfo()
            }
-         } 
-         pubmedRes <- fetchPubmedById(input$pubmed7)
-         if (all(pubmedRes!="")) {  
-           df.pub <- data.frame(Symbol=input$symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
-                                Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
-                                stringsAsFactors=FALSE)
-           write.pub(df.pub)
-           if (input$symsub7!="") {
-             scanAndWriteKey(df.pub)
-             scanAndWriteCon(df.pub)
-             scanAndWriteExp(df.pub)
-           }
-           updateGeneInfo()
+         } else {
+           js_string <- 'alert("Authorization Required!");'
+           session$sendCustomMessage(type='jsCode', list(value = js_string))
          }
        })
      } else {NULL}
@@ -2110,9 +2164,11 @@ shinyServer(function(input, output, session) {
       } else {NULL}
    })
 
+   # submit gene family
    observe({
      if (input$submit10>0) {
        isolate({
+         if (input$key10==mypasswd) {
            df.genefam <- read.table(input$genfamin$datapath, head=T, sep="\t", as.is=T)
            
            symbol <- df.genefam$Name[1]
@@ -2181,18 +2237,22 @@ shinyServer(function(input, output, session) {
              }
            })
            fam.gene.rap.final <<- unlist(unname(fam.gene.rap.new))
-
-         pubmedRes <- fetchPubmedById(input$pubmed10)
-         if (all(pubmedRes!="")) {  
-           df.pub <- data.frame(Journal=pubmedRes[1], Title=pubmedRes[2], Year=pubmedRes[3],
-                                Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
-                                stringsAsFactors=FALSE)
-           file.to <- paste(dir.to, "family.ref", sep="/")
-           write.table(df.pub, file=file.to, sep="\t", quote=F, row.names=F)
+           
+           pubmedRes <- fetchPubmedById(input$pubmed10)
+           if (all(pubmedRes!="")) {  
+             df.pub <- data.frame(Journal=pubmedRes[1], Title=pubmedRes[2], Year=pubmedRes[3],
+                                  Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
+                                  stringsAsFactors=FALSE)
+             file.to <- paste(dir.to, "family.ref", sep="/")
+             write.table(df.pub, file=file.to, sep="\t", quote=F, row.names=F)
+           }
+         } else {
+           js_string <- 'alert("Authorization Required!");'
+           session$sendCustomMessage(type='jsCode', list(value = js_string))
          }
        })
      } else {NULL}
-   }) 
+   })
    
 })
 

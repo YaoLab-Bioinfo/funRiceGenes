@@ -1,6 +1,6 @@
 
 shinyUI(fluidPage(theme="mystyle.css",
-                  tags$head(includeScript("google-analytics.js")),
+                  tags$head(tags$script(HTML('Shiny.addCustomMessageHandler("jsCode",function(message) {eval(message.value);});'))),
                   
   fluidRow(
     absolutePanel(
@@ -103,10 +103,11 @@ shinyUI(fluidPage(theme="mystyle.css",
         ")
       ),
       wellPanel(style = "background-color: #00b271",
-        column(3, textInput('symsub7', strong("Gene symbol"),value="")),
-        column(3, textInput('msusub7', strong("MSU genomic locus"),value="")),
-        column(3, textInput('rapsub7', strong("RAPdb genomic locus"),value="")),
-        column(3, textInput('pubmed7', strong("Pubmed ID"),value="")),
+        column(2, textInput('symsub7', strong("Gene symbol"),value="")),
+        column(2, textInput('msusub7', strong("MSU genomic locus"),value="")),
+        column(2, textInput('rapsub7', strong("RAPdb genomic locus"),value="")),
+        column(2, textInput('pubmed7', strong("Pubmed ID"),value="")),
+        column(4, textInput('key7', strong("Password"),value="")),
         actionButton("submit7", strong("Submit")),
         actionButton("clear1", strong("Clear"))
       ),
@@ -118,11 +119,12 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       wellPanel(style = "background-color: #b45b3e",
         column(2, textInput('oldsym', strong("Old Gene symbol"),value="")),
-        column(2, textInput('newsym', strong("New Gene Symbol"),value="")),
+        column(2, textInput('newsym', strong("New"),value="")),
         column(2, textInput('oldmsu', strong("Old MSU locus"),value="")),
-        column(2, textInput('newmsu', strong("New MSU locus"),value="")),
+        column(2, textInput('newmsu', strong("New"),value="")),
         column(2, textInput('oldrap', strong("Old RAPdb locus"),value="")),
-        column(2, textInput('newrap', strong("New RAPdb locus"),value="")),
+        column(1, textInput('newrap', strong("New"),value="")),
+        column(1, textInput('key6', strong("Password"),value="")),
         actionButton("submit6", strong("Submit")),
         actionButton("clear2", strong("Clear"))
       )
@@ -154,9 +156,9 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       
       wellPanel(style = "background-color: #336699",
-        column(6, textInput('pubmed10', strong("Pubmed ID"),value="")),
-        #column(4, textInput('famname', strong("Family Name"),value="")),
-        column(6, fileInput('genfamin', strong("Gene Family info"),
+        column(4, textInput('pubmed10', strong("Pubmed ID"),value="")),
+        column(4, textInput('key10', strong("Password"),value="")),
+        column(4, fileInput('genfamin', strong("Gene Family info"),
                             accept=c(".txt"))),
         actionButton("submit10", strong("Submit"))
       )
@@ -190,10 +192,11 @@ you can use the 'Publication' panel on the navigation bar.
        ")
       ),
       wellPanel(style = "background-color: #336699",
-        column(3, textInput('symsub4', strong("Gene symbol"),value="")),
-        column(3, textInput('keysub4', strong("Keyword"),value="")),
-        column(3, textInput('tilsub4', strong("Title"),value="")),
-        column(3, textInput('evisub4', strong("Evidence"),value="")),
+        column(2, textInput('symsub4', strong("Gene symbol"),value="")),
+        column(2, textInput('keysub4', strong("Keyword"),value="")),
+        column(2, textInput('tilsub4', strong("Title"),value="")),
+        column(2, textInput('evisub4', strong("Evidence"),value="")),
+        column(4, textInput('key4', strong("Password"),value="")),
         actionButton("submit4", strong("Submit")),
         actionButton("clear3", strong("Clear"))
       )
@@ -215,11 +218,12 @@ you can use the 'Publication' panel on the navigation bar.
       ),
       wellPanel(style = "background-color: #8080c0",
         column(2, textInput('symsub2', strong("Gene symbol"),value="")),
-        column(2, textInput('tilsub2', strong("Title"),value="")),
-        column(2, textInput('yearsub2', strong("Year"),value="")),
+        column(1, textInput('tilsub2', strong("Title"),value="")),
+        column(1, textInput('yearsub2', strong("Year"),value="")),
         column(2, textInput('jousub2', strong("Journal"),value="")), 
         column(2, textInput('afisub2', strong("Affiliation"),value="")),
         column(2, textInput('abssub2', strong("Abstract"),value="")),
+        column(2, textInput('key2', strong("Password"),value="")),
         actionButton("submit2", strong("Submit")),
         actionButton("clear4", strong("Clear"))
       )
@@ -245,8 +249,9 @@ you can use the 'Publication' panel on the navigation bar.
         ")
       ),
       wellPanel(style = "background-color: #00b271",
-        column(6, textInput('symsub3', strong("Gene symbol"),value="")),
-        column(6, textInput('accsub3', strong("Accession"),value="")),
+        column(4, textInput('symsub3', strong("Gene symbol"),value="")),
+        column(4, textInput('accsub3', strong("Accession"),value="")),
+        column(4, textInput('key3', strong("Password"),value="")),
         actionButton("submit3", strong("Submit")),
         actionButton("clear5", strong("Clear"))
       ),
@@ -257,10 +262,11 @@ you can use the 'Publication' panel on the navigation bar.
         ")
       ),
       wellPanel(style = "background-color: #b45b3e",
-        column(3, textInput('symsub9', strong("Gene symbol"),value="")),
-        column(3, textInput('exp9', strong("Expression"),value="")),
-        column(3, textInput('ove9', strong("Overexpression"),value="")),
-        column(3, textInput('rnai9', strong("RNAi"),value="")),
+        column(2, textInput('symsub9', strong("Gene symbol"),value="")),
+        column(2, textInput('exp9', strong("Expression"),value="")),
+        column(2, textInput('ove9', strong("Overexpression"),value="")),
+        column(2, textInput('rnai9', strong("RNAi"),value="")),
+        column(4, textInput('key9', strong("Password"),value="")),
         actionButton("submit9", strong("Submit")),
         actionButton("clear6", strong("Clear"))
       ),
@@ -271,10 +277,11 @@ you can use the 'Publication' panel on the navigation bar.
        ")
       ),
       wellPanel(style = "background-color: #336699",
-        column(3, textInput('symsub5', strong("Gene symbol 1"),value="")),
-        column(3, textInput('sym2sub5', strong("Gene symbol 2"),value="")),
-        column(3, textInput('tilsub5', strong("Title"),value="")),
-        column(3, textInput('evisub5', strong("Evidence"),value="")),
+        column(2, textInput('symsub5', strong("Gene symbol 1"),value="")),
+        column(2, textInput('sym2sub5', strong("Gene symbol 2"),value="")),
+        column(2, textInput('tilsub5', strong("Title"),value="")),
+        column(2, textInput('evisub5', strong("Evidence"),value="")),
+        column(4, textInput('key5', strong("Password"),value="")),
         actionButton("submit5", strong("Submit")),
         actionButton("clear7", strong("Clear"))
       ),
@@ -285,7 +292,8 @@ you can use the 'Publication' panel on the navigation bar.
         ")
       ),
       wellPanel(style = "background-color: #8080c0",
-        column(4, textInput('symsub8', strong("Gene symbol"),value="")),
+        column(2, textInput('symsub8', strong("Gene symbol"),value="")),
+        column(2, textInput('key8', strong("Password"),value="")),
         column(4, fileInput('phenofig', strong("Phenotype Figure"),
                             accept=c(".tif", ".png", ".tiff"))),
         column(4, fileInput('expfig', strong("Expression Figure"),
