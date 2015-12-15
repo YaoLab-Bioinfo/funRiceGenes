@@ -1,6 +1,8 @@
 
 library(RCurl); library(XML); library(stringr); library(plyr); 
 mypasswd = "asdfghjkl;'"
+system('git config --global user.name "venyao"')
+system('git config --global user.email "ywhzau@gmail.com"')
 
 fetchPubmedById <- function(id="") {
   url <- "http://www.ncbi.nlm.nih.gov/pubmed"
@@ -2032,6 +2034,7 @@ shinyServer(function(input, output, session) {
           gene.edit(df.con)
           updateGeneInfo()
           git.info <- gsub("\\|", " == ", input$newsym)
+          system("git check master")
           system("git add -A")
           system(paste("git commit ", git.info, sep=""))
         } else {
