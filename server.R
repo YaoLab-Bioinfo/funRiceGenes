@@ -2034,7 +2034,7 @@ shinyServer(function(input, output, session) {
           gene.edit(df.con)
           updateGeneInfo()
           git.info <- gsub("\\|", " == ", input$newsym)
-          system("git check master")
+          system("git checkout master")
           system("git add -A")
           system(paste("git commit ", git.info, sep=""))
         } else {
