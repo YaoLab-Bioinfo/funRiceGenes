@@ -2036,7 +2036,7 @@ shinyServer(function(input, output, session) {
           git.info <- gsub("\\|", " == ", input$newsym)
           system("git checkout master")
           system("git add -A")
-          system(paste("git commit ", git.info, sep=""))
+          system(paste('git commit -m ', '"', git.info, '"', sep=""))
         } else {
           js_string <- 'alert("Authorization Required!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
