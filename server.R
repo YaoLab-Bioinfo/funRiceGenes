@@ -1926,7 +1926,18 @@ shinyServer(function(input, output, session) {
                                Journal=input$jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
                                stringsAsFactors=FALSE)
           write.pub(df.pub)
+          scanAndWriteKey(df.pub)
+          scanAndWriteCon(df.pub)
+          scanAndWriteExp(df.pub)
           updateGeneInfo()
+          
+          git.info <- paste("add new reference for ", input$symsub2, sep="")
+          system("git checkout master")
+          system("git add -A")
+          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+          js_string <- 'alert("New reference successfully added!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
         } else {
           js_string <- 'alert("Authorization Required!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -1944,6 +1955,14 @@ shinyServer(function(input, output, session) {
                                stringsAsFactors=FALSE)
           write.acc(df.acc)
           updateGeneInfo()
+          
+          git.info <- paste("add new accessions for ", input$symsub3, sep="")
+          system("git checkout master")
+          system("git add -A")
+          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+          js_string <- 'alert("Accessions successfully added!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
         } else {
           js_string <- 'alert("Authorization Required!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -1962,6 +1981,14 @@ shinyServer(function(input, output, session) {
                                stringsAsFactors=FALSE)
           write.exp(df.exp)
           updateGeneInfo()
+          
+          git.info <- paste("add new expression for ", input$symsub9, sep="")
+          system("git checkout master")
+          system("git add -A")
+          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+          js_string <- 'alert("Expression info successfully added!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
         } else {
           js_string <- 'alert("Authorization Required!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -1980,6 +2007,14 @@ shinyServer(function(input, output, session) {
                                stringsAsFactors=FALSE)
           write.key(df.key)
           updateGeneInfo()
+          
+          git.info <- paste("add new keywords for ", input$symsub4, sep="")
+          system("git checkout master")
+          system("git add -A")
+          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+          js_string <- 'alert("Keywords successfully added!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
         } else {
           js_string <- 'alert("Authorization Required!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -1998,6 +2033,16 @@ shinyServer(function(input, output, session) {
                                stringsAsFactors=FALSE)
           write.con(df.con)
           updateGeneInfo()
+          
+          git.info <- paste("add new connections between ", 
+                            input$symsub5, " and ", input$sym2sub5, sep="")
+          system("git checkout master")
+          system("git add -A")
+          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+          js_string <- 'alert("Info successfully added!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          
         } else {
           js_string <- 'alert("Authorization Required!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2012,6 +2057,12 @@ shinyServer(function(input, output, session) {
       isolate({
         if (input$key8==mypasswd) {
            save.image(input$symsub8, input$phenofig, input$expfig)
+          
+           git.info <- paste("add new figures for ", input$symsub8, sep="")
+           system("git checkout master")
+           system("git add -A")
+           system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
            js_string <- 'alert("Figures successfully added!");'
            session$sendCustomMessage(type='jsCode', list(value = js_string))
         } else {
@@ -2033,10 +2084,14 @@ shinyServer(function(input, output, session) {
                                stringsAsFactors=FALSE)
           gene.edit(df.con)
           updateGeneInfo()
+          
           git.info <- gsub("\\|", " == ", input$newsym)
           system("git checkout master")
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+          js_string <- 'alert("Edit gene info successfully!");'
+          session$sendCustomMessage(type='jsCode', list(value = js_string))
         } else {
           js_string <- 'alert("Authorization Required!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2238,7 +2293,7 @@ shinyServer(function(input, output, session) {
                names(y) <- x.name
                return(y)
              }
-           })
+           }) 
            fam.gene.rap.final <<- unlist(unname(fam.gene.rap.new))
            
            pubmedRes <- fetchPubmedById(input$pubmed10)
@@ -2249,6 +2304,15 @@ shinyServer(function(input, output, session) {
              file.to <- paste(dir.to, "family.ref", sep="/")
              write.table(df.pub, file=file.to, sep="\t", quote=F, row.names=F)
            }
+           
+           git.info <- paste("add new family: ", symbol.low, sep="")
+           system("git checkout master")
+           system("git add -A")
+           system(paste('git commit -m ', '"', git.info, '"', sep=""))
+           
+           js_string <- 'alert("New gene family successfully added!");'
+           session$sendCustomMessage(type='jsCode', list(value = js_string))
+           
          } else {
            js_string <- 'alert("Authorization Required!");'
            session$sendCustomMessage(type='jsCode', list(value = js_string))
