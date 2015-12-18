@@ -2105,6 +2105,7 @@ shinyServer(function(input, output, session) {
      if (input$submit7>0) {
        isolate({
          if (input$key7==mypasswd) {
+
            if (input$symsub7!="") {
              df.gene <- data.frame(Symbol=input$symsub7, MSU=input$msusub7, RAPdb=input$rapsub7,
                                    stringsAsFactors=FALSE)
@@ -2112,21 +2113,51 @@ shinyServer(function(input, output, session) {
              if (length(locus.line)==0) {
                write.gene(df.gene)
                updateGeneInfo()
+               
+               git.info <- paste("add new gene: ", input$symsub7, sep="") 
+               system("git checkout master")
+               system("git add -A")
+               system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+			   if (input$pubmed7 == "") {
+                 js_string <- 'alert("Add new gene successfully!");'
+				 session$sendCustomMessage(type='jsCode', list(value = js_string))
+			   }
              }
-           } 
+           }
+ 
            pubmedRes <- fetchPubmedById(input$pubmed7)
            if (all(pubmedRes!="")) {  
              df.pub <- data.frame(Symbol=input$symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
                                   Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
                                   stringsAsFactors=FALSE)
              write.pub(df.pub)
+             git.info <- "add new pub."
+             system("git checkout master")
+             system("git add -A")
+             system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+             if (input$symsub7=="") {
+				js_string <- 'alert("Add new pub successfully!");'
+				session$sendCustomMessage(type='jsCode', list(value = js_string))
+			 }
+
              if (input$symsub7!="") {
                scanAndWriteKey(df.pub)
                scanAndWriteCon(df.pub)
                scanAndWriteExp(df.pub)
+               
+			   git.info <- paste("add new info for gene: ", input$symsub7, sep="") 
+               system("git checkout master")
+               system("git add -A")
+               system(paste('git commit -m ', '"', git.info, '"', sep=""))
+
+			   js_string <- 'alert("Add new gene successfully!");'
+	           session$sendCustomMessage(type='jsCode', list(value = js_string))
              }
              updateGeneInfo()
            }
+
          } else {
            js_string <- 'alert("Authorization Required!");'
            session$sendCustomMessage(type='jsCode', list(value = js_string))
