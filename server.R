@@ -2119,10 +2119,8 @@ shinyServer(function(input, output, session) {
                system("git add -A")
                system(paste('git commit -m ', '"', git.info, '"', sep=""))
           
-			   if (input$pubmed7 == "") {
-                 js_string <- 'alert("Add new gene successfully!");'
-				 session$sendCustomMessage(type='jsCode', list(value = js_string))
-			   }
+               js_string <- 'alert("Add new gene successfully!");'
+			   session$sendCustomMessage(type='jsCode', list(value = js_string))
              }
            }
  
@@ -2152,7 +2150,7 @@ shinyServer(function(input, output, session) {
                system("git add -A")
                system(paste('git commit -m ', '"', git.info, '"', sep=""))
 
-			   js_string <- 'alert("Add new gene successfully!");'
+			   js_string <- 'alert("Add new info successfully!");'
 	           session$sendCustomMessage(type='jsCode', list(value = js_string))
              }
              updateGeneInfo()
