@@ -12307,21 +12307,30 @@ Pho1	Os03g0758100	LOC_Os03g55090	endosperm	Mutation of the plastidial alpha-gluc
 phot1a	Os12g0101800	LOC_Os12g01140	seedling	Rice phot1a mutation reduces plant growth by affecting photosynthetic responses to light during early seedling growth	data/Gene/Abstract/P/phot1a
 phot1a	Os12g0101800	LOC_Os12g01140	growth	Rice phot1a mutation reduces plant growth by affecting photosynthetic responses to light during early seedling growth	data/Gene/Abstract/P/phot1a
 phot1a	Os12g0101800	LOC_Os12g01140	leaf	Rice phot1a mutation reduces plant growth by affecting photosynthetic responses to light during early seedling growth	data/Gene/Abstract/P/phot1a
-PHYA	Os03g0719800	LOC_Os03g51030	sheath	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	flower	Distinct and cooperative functions of phytochromes A, B, and C in the control of deetiolation and flowering in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	seedling	Isolation and characterization of rice phytochrome A mutants	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	seedling	Serine-to-alanine substitutions at the amino-terminal region of phytochrome A result in an increase in biological activity	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	 ga 	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	phosphate	Comprehensive metabolite profiling of phyA phyB phyC triple mutants to reveal their associated metabolic phenotype in rice leaves	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	flowering time	Distinct and cooperative functions of phytochromes A, B, and C in the control of deetiolation and flowering in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	ethylene	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	floral	Molecular dissection of the roles of phytochrome in photoperiodic flowering in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	heading date	Molecular dissection of the roles of phytochrome in photoperiodic flowering in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	seedling	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	gibberellin	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	leaf	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	dwarf	Serine-to-alanine substitutions at the amino-terminal region of phytochrome A result in an increase in biological activity	data/Gene/Abstract/P/PHYA
-PHYA	Os03g0719800	LOC_Os03g51030	leaf	Comprehensive metabolite profiling of phyA phyB phyC triple mutants to reveal their associated metabolic phenotype in rice leaves	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	sheath	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	flower	Distinct and cooperative functions of phytochromes A, B, and C in the control of deetiolation and flowering in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	flower	Distinct and cooperative functions of phytochromes A, B, and C in the control of deetiolation and flowering in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	seedling	Isolation and characterization of rice phytochrome A mutants	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	seedling	Isolation and characterization of rice phytochrome A mutants	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	seedling	Isolation and characterization of rice phytochrome A mutants	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	seedling	Serine-to-alanine substitutions at the amino-terminal region of phytochrome A result in an increase in biological activity	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	 ga 	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	phosphate	Comprehensive metabolite profiling of phyA phyB phyC triple mutants to reveal their associated metabolic phenotype in rice leaves	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	flowering time	Distinct and cooperative functions of phytochromes A, B, and C in the control of deetiolation and flowering in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	ethylene	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	ethylene	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	ethylene	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	floral	Molecular dissection of the roles of phytochrome in photoperiodic flowering in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	heading date	Molecular dissection of the roles of phytochrome in photoperiodic flowering in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	seedling	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	seedling	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	seedling	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	seedling	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	gibberellin	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	leaf	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	dwarf	Serine-to-alanine substitutions at the amino-terminal region of phytochrome A result in an increase in biological activity	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	leaf	Comprehensive metabolite profiling of phyA phyB phyC triple mutants to reveal their associated metabolic phenotype in rice leaves	data/Gene/Abstract/P/PHYA
+PHYA|OsPhyA	Os03g0719800	LOC_Os03g51030	leaf	Comprehensive metabolite profiling of phyA phyB phyC triple mutants to reveal their associated metabolic phenotype in rice leaves	data/Gene/Abstract/P/PHYA
 PHYB|OsphyB	Os03g0309200	LOC_Os03g19590	growth	Phytochrome B control of total leaf area and stomatal density affects drought tolerance in rice	data/Gene/Abstract/P/PHYB~OsphyB
 PHYB|OsphyB	Os03g0309200	LOC_Os03g19590	flower	Distinct and cooperative functions of phytochromes A, B, and C in the control of deetiolation and flowering in rice	data/Gene/Abstract/P/PHYB~OsphyB
 PHYB|OsphyB	Os03g0309200	LOC_Os03g19590	ethylene	The multiple contributions of phytochromes to the control of internode elongation in rice	data/Gene/Abstract/P/PHYB~OsphyB
