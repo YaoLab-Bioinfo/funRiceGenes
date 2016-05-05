@@ -5254,7 +5254,8 @@ OsCLC-2	Os02g0558100	LOC_Os02g35190	leaf	Molecular cloning, functional expressio
 OsCLC-2	Os02g0558100	LOC_Os02g35190	root	Molecular cloning, functional expression and subcellular localization of two putative vacuolar voltage-gated chloride channels in rice (Oryza sativa L.)	data/Gene/Abstract/OS/C/OsCLC-2
 OsCLC-2	Os02g0558100	LOC_Os02g35190	sheath	Molecular cloning, functional expression and subcellular localization of two putative vacuolar voltage-gated chloride channels in rice (Oryza sativa L.)	data/Gene/Abstract/OS/C/OsCLC-2
 OsCLF|SDG711	Os06g0275500	LOC_Os06g16390	histone trimethylation	NA	data/Gene/Abstract/OS/C/OsCLF
-OsCLF|SDG711	Os06g0275500	LOC_Os06g16390	histone trimethylation		data/Gene/Abstract/OS/C/OsCLF
+OsCLF|SDG711	Os06g0275500	LOC_Os06g16390	histone trimethylation	NA	data/Gene/Abstract/OS/C/OsCLF
+OsCLF|SDG711	Os06g0275500	LOC_Os06g16390	seed	Imprinted Gene OsFIE1 Modulates Rice Seed Development by Influencing the Nutrient Metabolism and Modifying Genome H3K27me3.	data/Gene/Abstract/OS/C/OsCLF
 OsCLP	Os01g0937050	LOC_Os01g71080	defense	Characterization of a newly identified rice chitinase-like protein (OsCLP) homologous to xylanase inhibitor	data/Gene/Abstract/OS/C/OsCLP
 OsCLP	Os01g0937050	LOC_Os01g71080	cell wall	Characterization of a newly identified rice chitinase-like protein (OsCLP) homologous to xylanase inhibitor	data/Gene/Abstract/OS/C/OsCLP
 OsCLP	Os01g0937050	LOC_Os01g71080	growth	Characterization of a newly identified rice chitinase-like protein (OsCLP) homologous to xylanase inhibitor	data/Gene/Abstract/OS/C/OsCLP
@@ -6248,6 +6249,13 @@ OsFH1	Os01g0897700	LOC_Os01g67240	growth	Formin homology 1 (OsFH1) regulates roo
 OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	floral	Identification and characterization of an epi-allele of FIE1 reveals a regulatory linkage between two epigenetic marks in rice	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
 OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	dwarf	Identification and characterization of an epi-allele of FIE1 reveals a regulatory linkage between two epigenetic marks in rice	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
 OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	endosperm	Expression, imprinting, and evolution of rice homologs of the polycomb group genes	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
+OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	seed	Imprinted Gene OsFIE1 Modulates Rice Seed Development by Influencing the Nutrient Metabolism and Modifying Genome H3K27me3.	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
+OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	seed	Imprinted Gene OsFIE1 Modulates Rice Seed Development by Influencing the Nutrient Metabolism and Modifying Genome H3K27me3.	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
+OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	seed	Imprinted Gene OsFIE1 Modulates Rice Seed Development by Influencing the Nutrient Metabolism and Modifying Genome H3K27me3.	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
+OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	seed	Imprinted Gene OsFIE1 Modulates Rice Seed Development by Influencing the Nutrient Metabolism and Modifying Genome H3K27me3.	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
+OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	development	Imprinted Gene OsFIE1 Modulates Rice Seed Development by Influencing the Nutrient Metabolism and Modifying Genome H3K27me3.	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
+OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	transcription factor	Imprinted Gene OsFIE1 Modulates Rice Seed Development by Influencing the Nutrient Metabolism and Modifying Genome H3K27me3.	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
+OsFIE1|Epi-df	Os08g0137250	LOC_Os08g04290	seed development	Imprinted Gene OsFIE1 Modulates Rice Seed Development by Influencing the Nutrient Metabolism and Modifying Genome H3K27me3.	data/Gene/Abstract/OS/F/OsFIE1~Epi-df
 OsFIE2	Os08g0137100	LOC_Os08g04270	anther	Involvement of rice Polycomb protein OsFIE2 in plant growth and seed size	data/Gene/Abstract/OS/F/OsFIE2
 OsFIE2	Os08g0137100	LOC_Os08g04270	growth	Involvement of rice Polycomb protein OsFIE2 in plant growth and seed size	data/Gene/Abstract/OS/F/OsFIE2
 OsFIE2	Os08g0137100	LOC_Os08g04270	endosperm	Polycomb group gene OsFIE2 regulates rice (Oryza sativa) seed development and grain filling via a mechanism distinct from Arabidopsis	data/Gene/Abstract/OS/F/OsFIE2
