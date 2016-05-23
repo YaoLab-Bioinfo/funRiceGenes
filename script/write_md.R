@@ -3,6 +3,7 @@ setwd("E:/GIT/RICENCODE")
 unlink("E:/GIT/ricencode.github.io/_posts", recur=T, force=T)
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
+
 for (j in 1:nrow(gene.lst)) {
   sym <- gene.lst$Symbol[j]
   sym <- gsub("\\|", ",", sym)
@@ -49,9 +50,15 @@ for (j in 1:nrow(gene.lst)) {
     ref$Affiliation <- NULL
     for (i in 1:nrow(ref)) {
       title <- ref$Title[i]
+      title <- gsub("\\)", "", title)
+      title <- gsub("\\(", "", title)
+      
+      ref$Title[i] <- gsub("\\)", "", ref$Title[i])
+      ref$Title[i] <- gsub("\\(", "", ref$Title[i])
+      
       ref$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
-                            '?term=(', ref$Title[i],'%5BTitle%5D', 
-                            ')', sep='')
+                            '?term=', ref$Title[i],'%5BTitle%5D', 
+                            sep='')
       ref$Title[i] <- paste('[', title, ']', '(', ref$Title[i], ')', 
                              sep="")
     }
@@ -69,13 +76,7 @@ for (j in 1:nrow(gene.lst)) {
     acc <- data.frame(Accession=acc.fls, stringsAsFactors=FALSE)
   }
   
-  ### Expression
-  exp.fl <- paste(path, "expression.info", sep="/")
-  exp <- NULL
-  if (file.exists(exp.fl)) {
-    exp <- read.table(exp.fl, head=T, sep="\t", as.is=T,
-	                  quote="", comment="")
-  }
+  acc <- unique(acc)
   
   ### key
   key.fl <- paste(path, "Keyword.trait", sep="/")
@@ -83,15 +84,11 @@ for (j in 1:nrow(gene.lst)) {
   if (file.exists(key.fl)) {
     key <- read.table(key.fl, head=T, sep="\t", as.is=T, 
                       quote="", comment="")
-    for (i in 1:nrow(key)) {
-      title <- key$Title[i]
-      key$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
-                            '?term=(', key$Title[i],'%5BTitle%5D', 
-                            ')', sep='')
-      key$Title[i] <- paste('[', title, ']', '(', key$Title[i], ')', 
-                            sep="")
-    }
     key$Evidence <- gsub("\\|", ",", key$Evidence)
+    key <- key[, c("Keyword", "Evidence"), drop=F]
+    key$Evidence <- gsub("^\\s+", "", key$Evidence)
+    key$Evidence <- gsub("\\s+$", "", key$Evidence)
+    key <- unique(key)
   }
   
   ### connection
@@ -103,9 +100,14 @@ for (j in 1:nrow(gene.lst)) {
     names(cone) <- c("Symbol1", "Symbol2", "Title", "Evidence")
     for (i in 1:nrow(cone)) {
       title <- cone$Title[i]
+      title <- gsub("\\)", "", title)
+      title <- gsub("\\(", "", title)
+      cone$Title[i] <- gsub("\\)", "", cone$Title[i])
+      cone$Title[i] <- gsub("\\(", "", cone$Title[i])
+      
       cone$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
-                            '?term=(', cone$Title[i],'%5BTitle%5D', 
-                            ')', sep='')
+                            '?term=', cone$Title[i],'%5BTitle%5D', 
+                            sep='')
       cone$Title[i] <- paste('[', title, ']', '(', cone$Title[i], ')', 
                             sep="")
     }
@@ -127,63 +129,57 @@ for (j in 1:nrow(gene.lst)) {
   md.cont[5] <- "category: genes"
   if (!is.null(key)) {
     key.tmp <- paste(unique(key$Keyword), sep="", collapse=", ")
-    key.tmp <- paste(c(key.tmp, "Gene"), sep="", collapse=", ")
     md.cont[6] <- paste('tags: [', key.tmp, ']', sep="")
   } else {
     md.cont[6] <- 'tags: '
   }
   md.cont[7] <- "---"
-  md.cont[8] <- "{% include JB/setup %}"
-  md.cont[9] <- ""
-  md.cont[10] <- "## Information"
-  md.sym <- paste("__Symbol__: ", sym, "  ", sep="")
+  md.cont[8] <- ""
+  md.cont[9] <- "* **Information**  "
+  md.sym <- paste("    + Symbol: ", sym, "  ", sep="")
   md.cont <- c(md.cont, md.sym)
-  md.msu <- paste("__MSU__: ", msu.new, "  ", sep="")
+  md.msu <- paste("    + MSU: ", msu.new, "  ", sep="")
   md.cont <- c(md.cont, md.msu)
-  md.rap <- paste("__RAPdb__: ", rap.new, "  ", sep="")
+  md.rap <- paste("    + RAPdb: ", rap.new, "  ", sep="")
   md.cont <- c(md.cont, md.rap)
   
-  md.cont <- c(md.cont, "", "## Publication")
+  md.cont <- c(md.cont, "", "* **Publication**  ")
   if (!is.null(ref)) {
     for (i in 1:nrow(ref)) {
-      md.ref <- paste(i, ". ", ref$Title[i], ", ", ref$Year[i], ", ",
+      md.ref <- paste("    + ", ref$Title[i], ", ", ref$Year[i], ", ",
                       ref$Journal[i], ".", sep="")
       md.cont <- c(md.cont, md.ref)
     }
   }
 
-  md.cont <- c(md.cont, "", "## Genbank accession number")
+  md.cont <- c(md.cont, "", "* **Genbank accession number**  ")
   if (!is.null(acc)) {
-    md.acc <- paste(acc$Accession, sep="", collapse=", ")
-    md.cont <- c(md.cont, md.acc)
+    for (i in 1:nrow(acc)) {
+      md.acc <- paste("    + ", acc$Accession, sep="")
+      md.cont <- c(md.cont, md.acc)
+    }
   }
 
-  md.cont <- c(md.cont, "", "## Expression information")
-  if (!is.null(exp)) {
-    md.cont <- c(md.cont, paste("__Expression__:", paste(exp$Expression, sep="//"), "  ", sep=""))
-	md.cont <- c(md.cont, paste("__OverExpression__:", paste(exp$Overexpression, sep="//"), "  ", sep=""))
-	md.cont <- c(md.cont, paste("__RNAi__:", paste(exp$RNAi, sep="//"), "  ", sep=""))
-  }
-
-  md.cont <- c(md.cont, "", "## Key message")
+  md.cont <- c(md.cont, "", "* **Key message**  ")
   if (!is.null(key)) {
+    key$Keyword <- NULL
+    key <- unique(key)
     for (i in 1:nrow(key)) {
-      md.key <- paste(i, ". __", key$Keyword[i], "__, ", key$Title[i],
-                      ", ", key$Evidence[i], sep="")
+      md.key <- paste("    + ", key$Evidence[i], sep="")
       md.cont <- c(md.cont, md.key)
     }
   }
 
-  md.cont <- c(md.cont, "", "## Connection")
+  md.cont <- c(md.cont, "", "* **Connection**  ")
   if (!is.null(cone)) {
     for (i in 1:nrow(cone)) {
-      md.cone <- paste(i, ". __", cone$Symbol1[i], "__, __",cone$Symbol2[i],
+      md.cone <- paste("    + __", cone$Symbol1[i], "__, __",cone$Symbol2[i],
                        "__, ", cone$Title[i], ", ", cone$Evidence[i], sep="")
       md.cont <- c(md.cont, md.cone)
     }
   }
   
-  md.cont <- c(md.cont, "", "## Key figures")
+  md.cont <- c(md.cont, "", "* **Key figures**  ")
   if (length(pheno.fig.fl)==1) {
     md.cont <- c(md.cont, paste('<img src="http://ricencode.github.io/images/', 
                                 basename(pheno.fig.fl), '" alt="phenotype"  style="width: 600px;"/>', sep=""))
@@ -293,9 +289,14 @@ for (j in 1:length(fam.path)) {
     ref$Affiliation <- NULL
     for (i in 1:nrow(ref)) {
       title <- ref$Title[i]
+      title <- gsub("\\)", "", title)
+      title <- gsub("\\(", "", title)
+      ref$Title[i] <- gsub("\\)", "", ref$Title[i])
+      ref$Title[i] <- gsub("\\(", "", ref$Title[i])
+      
       ref$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
-                            '?term=(', ref$Title[i],'%5BTitle%5D', 
-                            ')', sep='')
+                            '?term=', ref$Title[i],'%5BTitle%5D', 
+                            sep='')
       ref$Title[i] <- paste('[', title, ']', '(', ref$Title[i], ')', 
                             sep="")
     }
@@ -310,23 +311,21 @@ for (j in 1:length(fam.path)) {
   md.cont[3] <- paste('title: "', name, '"', sep="")
   md.cont[4] <- 'description: ""'
   md.cont[5] <- "category: gene family"
-  md.cont[6] <- 'tags: GeneFamily'
-  md.cont[7] <- "---"
-  md.cont[8] <- "{% include JB/setup %}"
-  md.cont[9] <- ""
-  md.cont[10] <- "## Information"
+  md.cont[6] <- "---"
+  md.cont[7] <- ""
+  md.cont[8] <- "* **Information**  "
   if (!is.null(fam.info)) {
     for (i in 1:nrow(fam.info)) {
-      md.info <- paste(i, ". ", fam.info$Symbol[i], ", ", fam.info$MSU[i], ", ",
+      md.info <- paste("    + ", fam.info$Symbol[i], ", ", fam.info$MSU[i], ", ",
                       fam.info$RAPdb[i], ".", sep="")
       md.cont <- c(md.cont, md.info)
     }
   }
   
-  md.cont <- c(md.cont, "", "## Publication")
+  md.cont <- c(md.cont, "", "* **Publication**  ")
   if (!is.null(ref)) {
     for (i in 1:nrow(ref)) {
-      md.ref <- paste(i, ". ", ref$Title[i], ", ", ref$Year[i], ", ",
+      md.ref <- paste( "    + ", ref$Title[i], ", ", ref$Year[i], ", ",
                       ref$Journal[i], ".", sep="")
       md.cont <- c(md.cont, md.ref)
     }
@@ -367,23 +366,27 @@ pub.df <- read.table("reference.table", head=T, as.is=T, sep="\t", quote="", com
 md.cont <- ""
 md.cont[1] <- "---"
 md.cont[2] <- "layout: page"
-md.cont[3] <- "title: Publications"
+md.cont[3] <- "title: Literatrues"
 md.cont[4] <- "group: navigation"
 md.cont[5] <- "---"
-md.cont[6] <- "{% include JB/setup %}"
-md.cont[7] <- ""
+md.cont[6] <- ""
 for (i in 1:nrow(pub.df)) {
   title <- pub.df$Title[i]
+  title <- gsub("\\)", "", title)
+  title <- gsub("\\(", "", title)
+  pub.df$Title[i] <- gsub("\\)", "", pub.df$Title[i])
+  pub.df$Title[i] <- gsub("\\(", "", pub.df$Title[i])
+  
   pub.df$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
-                        '?term=(', pub.df$Title[i],'%5BTitle%5D', 
-                        ')', sep='')
+                        '?term=', pub.df$Title[i],'%5BTitle%5D', 
+                        sep='')
   pub.df$Title[i] <- paste('[', title, ']', '(', pub.df$Title[i], ')', 
                         sep="")
   md.ref <- paste(i, ". ", pub.df$Title[i], ", ", pub.df$Year[i], ", ",
                   pub.df$Journal[i], ".", sep="")
   md.cont <- c(md.cont, md.ref)
 }
-writeLines(md.cont, con="E:/GIT/ricencode.github.io/about.md")
+writeLines(md.cont, con="E:/GIT/ricencode.github.io/docs/index.md")
 
 
 meg <- readLines("git.log")
@@ -391,9 +394,9 @@ md.cont <- ""
 md.cont[1] <- "---"
 md.cont[2] <- "layout: page"
 md.cont[3] <- "title: News"
-md.cont[4] <- "group: navigation"
-md.cont[5] <- "---"
-md.cont[6] <- "{% include JB/setup %}"
+md.cont[4] <- "comments: no"
+md.cont[5] <- "thread: 616"
+md.cont[6] <- "---"
 md.cont[7] <- ""
 for (i in seq(1, length(meg), by=6)) {
   meg.date <- meg[i+2]
@@ -407,6 +410,6 @@ for (i in seq(1, length(meg), by=6)) {
   md.cont <- c(md.cont, meg.final)
 }
 md.cont <- gsub("\\|", "/", md.cont)
-writeLines(md.cont, con="E:/GIT/ricencode.github.io/messages.md")
+writeLines(md.cont, con="E:/GIT/ricencode.github.io/news/index.md")
 
 
