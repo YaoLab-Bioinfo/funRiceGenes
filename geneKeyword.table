@@ -2791,12 +2791,13 @@ HSP70	Os11g0703900	LOC_Os11g47760	salt	Heat-inducible rice hsp82 and hsp70 are n
 HSP70	Os11g0703900	LOC_Os11g47760	temperature	Heat-inducible rice hsp82 and hsp70 are not always co-regulated	data/Gene/Abstract/H/HSP70
 HSP70	Os11g0703900	LOC_Os11g47760	growth	Heat-inducible rice hsp82 and hsp70 are not always co-regulated	data/Gene/Abstract/H/HSP70
 HSP70	Os11g0703900	LOC_Os11g47760	seedling	Mechanisms of plant adaptation/memory in rice seedlings under arsenic and heat stress: expression of heat-shock protein gene HSP70	data/Gene/Abstract/H/HSP70
-Hsp90|rHsp90	Os06g0716700	LOC_Os06g50300	abiotic stress	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
-Hsp90|rHsp90	Os06g0716700	LOC_Os06g50300	seedling	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
-Hsp90|rHsp90	Os06g0716700	LOC_Os06g50300	disease resistance	RAR1 and HSP90 form a complex with Rac/Rop GTPase and function in innate-immune responses in rice	data/Gene/Abstract/R/rHsp90
-Hsp90|rHsp90	Os06g0716700	LOC_Os06g50300	ethylene	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
-Hsp90|rHsp90	Os06g0716700	LOC_Os06g50300	salt	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
-Hsp90|rHsp90	Os06g0716700	LOC_Os06g50300	disease	RAR1 and HSP90 form a complex with Rac/Rop GTPase and function in innate-immune responses in rice	data/Gene/Abstract/R/rHsp90
+Hsp90|rHsp90|OSGrp94	Os06g0716700	LOC_Os06g50300	abiotic stress	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
+Hsp90|rHsp90|OSGrp94	Os06g0716700	LOC_Os06g50300	seedling	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
+Hsp90|rHsp90|OSGrp94	Os06g0716700	LOC_Os06g50300	disease resistance	RAR1 and HSP90 form a complex with Rac/Rop GTPase and function in innate-immune responses in rice	data/Gene/Abstract/R/rHsp90
+Hsp90|rHsp90|OSGrp94	Os06g0716700	LOC_Os06g50300	ethylene	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
+Hsp90|rHsp90|OSGrp94	Os06g0716700	LOC_Os06g50300	salt	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
+Hsp90|rHsp90|OSGrp94	Os06g0716700	LOC_Os06g50300	salt	rHsp90 gene expression in response to several environmental stresses in rice (Oryza sativa L.)	data/Gene/Abstract/R/rHsp90
+Hsp90|rHsp90|OSGrp94	Os06g0716700	LOC_Os06g50300	disease	RAR1 and HSP90 form a complex with Rac/Rop GTPase and function in innate-immune responses in rice	data/Gene/Abstract/R/rHsp90
 HTD1|OsCCD7	Os04g0550600	LOC_Os04g46470	tillering	Characterizations and fine mapping of a mutant gene for high tillering and dwarf in rice (Oryza sativa L.)	data/Gene/Abstract/H/HTD1~OsCCD7
 HTD1|OsCCD7	Os04g0550600	LOC_Os04g46470	root	The rice HIGH-TILLERING DWARF1 encoding an ortholog of Arabidopsis MAX3 is required for negative regulation of the outgrowth of axillary buds	data/Gene/Abstract/H/HTD1~OsCCD7
 HTD1|OsCCD7	Os04g0550600	LOC_Os04g46470	strigolactone	Identification and characterization of HTD2: a novel gene negatively regulating tiller bud outgrowth in rice	data/Gene/Abstract/H/HTD1~OsCCD7
