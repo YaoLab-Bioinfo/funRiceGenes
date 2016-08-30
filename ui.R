@@ -14,63 +14,14 @@ shinyUI(fluidPage(theme="mystyle.css",
 
                  <a href='http://croplab.hzau.edu.cn' target='_blank'><img src='croplab.png' width='130' height='130'></a>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href='http://venyao.github.io/RICENCODE/' target='_blank'><img src='rice.png' width='130' height='130'></a>
+                 <a href='http://ricencode.github.io' target='_blank'><img src='rice.png' width='130' height='130'></a>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                  <a href='https://github.com/venyao/RICENCODE' target='_blank'><img src='github.png' width='130' height='130'></a>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href='https://www.researchgate.net/profile/Wen_Yao' target='_blank'><img src='RG.jpg' width='130' height='130'></a>
 
               </div>")),
-      tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Home</span>"),
-      p(HTML("
-			 <h3><span style='font-family: Comic Sans MS'>Introdution</span></h3>
-             <div align='justify' style='font-family: Comic Sans MS'>
-                   More than 2500 cloned rice genes and 310 gene families 
-                   comprised of 3691 genes were collected. For each gene, various information 
-                   concerning the gene symbol, the genomic locus in the 
-                   Nipponbare reference genome, the Genbank accession number, 
-                   the title, journal, year, author affiliation, abstract of 
-                   related publications and the text mining result of the 
-                   publications were provided.
-             </div>
-			 
-			 <h3>How to query this database?</h3>
-			 <div align='justify'>
-                   This database was designed as a Shiny application and was deployed in the Cloud. 
-                   You can query this database <a href='http://ricencode.ncpgr.cn' target='_blank'>HERE</a>.
-                   You can query this database using the genomic locus assigned by the <a href='http://rice.plantbiology.msu.edu/' target='_blank'>Rice Genome Annotation Project</a>, 
-                   or the genomic locus assigned by the <a href='http://rapdb.dna.affrc.go.jp/' target='_blank'>Rice Annotation Project</a>, or the gene symbol. 
-                   You can retrieve the basic information of a gene, the publications on a gene, the agronomic traits associated with a gene, the connections between genes from this database.
-                   
-				   <br>
-                   You can also query this database by downloading the whole database to your local computer. In this way, you need <a href='http://www.rstudio.com/' target='_blank'>RStudio</a> and the <a href='http://shiny.rstudio.com/' target='_blank'>Shiny</a> package installed on your computer (See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf' target='_blank'>manual</a>).
-				   
-				   <br>
-				   Finally, this database were also provided to users as <a href='http://venyao.github.io/RICENCODE/' target='_blank'>static web pages</a>. You can query this website through in-site search using the searching box on the top right of this website.
-             </div>
-			 
-			 <h3>How to contribute to this database?</h3>
-			 <div align='justify'>
-			       You can also contribute to this database by submitting information on newly cloned rice gene or new publications to this database. To do this, you need to download the database and have <a href='http://www.rstudio.com/' target='_blank'>RStudio</a> and the <a href='http://shiny.rstudio.com/' target='_blank'>Shiny</a> package installed on your computer(See the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf' target='_blank'>manual</a>).
-			 </div>
-			 
-			 <h3>Further information</h3>
-			 <div align='justify'>
-			      Further information concerning the details on querying and contributing to this database can be found in the <a href='http://venyao.github.io/RICENCODE/assets/ricencode-intro.pdf' target='_blank'>manual</a>.
-			 </div>
-			 
-			 <h3>Contact us</h3>
-			 <div align='justify'>
-			      If you encounter any problems or have any suggestions concerning this database, please send email to ywhzau at gmail.com.
-			 </div>
-			 
-             ")),
-      br()
-	  ),
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Gene</span>"),
-	           radioButtons("query", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Query with gene symbol or genomic locus 
-                              assigned by the Rice Genome Annotation Project</h4></td>
+	           radioButtons("query", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Query with gene symbol or genomic locus</h4></td>
 <td>
 <div class='help-tip'>
 	<p>Fill in the form (case insensitive) to fetch information on cloned rice genes.</p>
@@ -131,7 +82,7 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
 
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>GeneFamily</span>"),
-	           radioButtons("queryfam", h4("* Query gene family using 
+	           radioButtons("queryfam", h4("* Query with 
                                     gene symbol or genomic locus"), 
             choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol"), inline=TRUE),
 
@@ -145,7 +96,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       p(HTML("<table style='background-color: #DDF3FF'><tr><td>
              <h4>* Submit new gene family
              </h4></td><td>
-<div class='help-tip'>
+             <div class='help-tip'>
              <p>The file 'Gene Family info' should contain 5 columns with names 'Accession',
              'Symbol', 'MSU', 'RAPdb' and 'Name' separated by '\\t'. And the 1st row should
              be the column names.
@@ -167,7 +118,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Keyword</span>"),
       textInput("keyword", label = HTML("<table style='background-color: #DDF3FF'><tr><td>
-                                        <h4>* Query with keyword to characterize agronomic trait</h4>
+                                        <h4>* Query with keyword characterizing agronomic trait of rice</h4>
                                         </td><td>
 <div class='help-tip'>
 	<p>Keywords in this database were used to describe phenotypic trait or biological process. 
@@ -187,7 +138,7 @@ you can use the 'Publication' panel on the navigation bar.
       
       br(),
       p(HTML("
-             <h4>* Submit new keyword to this database
+             <h4>* Submit new keyword
              </h4>
        ")
       ),
@@ -203,7 +154,7 @@ you can use the 'Publication' panel on the navigation bar.
 	  ),
     
     tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Publication</span>"),
-      textInput("publication", label = h4("* Query the title or abstract of collected publications"), 
+      textInput("publication", label = h4("* Query with any word concerning rice functional studies"), 
                value = "heading date"),
       tabsetPanel(
         tabPanel('Result', dataTableOutput("mytable11"), style = "color: white; background-color: black")
@@ -212,7 +163,7 @@ you can use the 'Publication' panel on the navigation bar.
       br(),
       
       p(HTML("
-             <h4>* Submit new publication to this database
+             <h4>* Submit new publication
              </h4>
         ")
       ),
@@ -230,7 +181,7 @@ you can use the 'Publication' panel on the navigation bar.
 	  ),
 
      tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>IDConversion</span>"),
-              radioButtons("queryconv", h4("* Convert ID of MSU genomic locus
+              radioButtons("queryconv", h4("* Convert between MSU genomic locus
                                   and RAPdb genomic locus"), 
                  choices=c("RAPdb to MSU", "MSU to RAPdb"), inline=TRUE),
 
@@ -244,7 +195,7 @@ you can use the 'Publication' panel on the navigation bar.
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Submit</span>"),
       
       p(HTML("
-             <h4>* Submit new Genbank accession to this database
+             <h4>* Submit new Genbank accession
              </h4>
         ")
       ),
@@ -255,24 +206,9 @@ you can use the 'Publication' panel on the navigation bar.
         actionButton("submit3", strong("Submit")),
         actionButton("clear5", strong("Clear"))
       ),
-
-      p(HTML("
-             <h4>* Submit new Expression information to this database
-             </h4>
-        ")
-      ),
-      wellPanel(style = "background-color: #b45b3e",
-        column(2, textInput('symsub9', strong("Gene symbol"),value="")),
-        column(2, textInput('exp9', strong("Expression"),value="")),
-        column(2, textInput('ove9', strong("Overexpression"),value="")),
-        column(2, textInput('rnai9', strong("RNAi"),value="")),
-        column(4, textInput('key9', strong("Password"),value="")),
-        actionButton("submit9", strong("Submit")),
-        actionButton("clear6", strong("Clear"))
-      ),
       
       p(HTML("
-             <h4>* Submit new connection to this database
+             <h4>* Submit new connection between genes
              </h4>
        ")
       ),
@@ -287,7 +223,7 @@ you can use the 'Publication' panel on the navigation bar.
       ),
 
       p(HTML("
-        <h4>* Submit new phenotype and expression figures to this database
+        <h4>* Submit new phenotype and expression figures
         </h4>
         ")
       ),

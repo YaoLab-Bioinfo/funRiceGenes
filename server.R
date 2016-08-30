@@ -1624,17 +1624,6 @@ gene.edit <- function(df){
 }
 
 updateGeneInfo <- function() {
-#   all.gene.fls <- list.files("data/Gene",
-#                              patter="^gene.info$", full=T, recur=T)
-#   all.gene.lst <- lapply(all.gene.fls, function(x){
-#     dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
-#     dir.cwd <- dirname(x)
-#     dat$path <- dir.cwd
-#     return(dat)
-#   })
-#   all.gene.df <- do.call(rbind, all.gene.lst)
-#   write.table(all.gene.df, file="geneInfo.table",
-#               sep="\t", quote=F, row.names=F)
   
   gene.info <<- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
   gene.keyword <<- read.table("geneKeyword.table", head=T, 
@@ -1672,26 +1661,6 @@ updateGeneInfo <- function() {
   })
   gene.rap.final <<- unlist(unname(gene.rap.new))
 }
-
-# updateKeyword <- function() {
-#   all.key.fls <- list.files("data/Gene", patter="^Keyword.trait$",
-#                             full=T, recur=T)
-#   all.key.lst <- lapply(all.key.fls, function(x){
-#     cwd.dir <- dirname(x)
-#     cwd.gene <- paste(cwd.dir, "gene.info", sep="/")
-#     gene.dat <- read.table(cwd.gene, head=T, sep="\t", as.is=T, quote="", comment="")
-#     key.dat <- read.table(x, head=T, sep="\t", as.is=T, quote="", comment="")
-#     key.dat$RAPdb <- gene.dat$RAPdb
-#     key.dat$MSU <- gene.dat$MSU
-#     key.dat$path <- cwd.dir
-#     key.dat <- key.dat[, c("Symbol", "RAPdb",  "MSU",	"Keyword",	"Title", "path")]
-#     return(key.dat)
-#   })
-#   all.key.df <- do.call(rbind, all.key.lst)
-#   write.table(all.key.df, file="geneKeyword.table", sep="\t", quote=F, row.names=F)
-#   
-#   
-# }
 
 fetchInfoByChoice <- function(query="", text="") {
   if (query=="MSU Locus") {
@@ -1922,6 +1891,13 @@ shinyServer(function(input, output, session) {
     if (input$submit2>0) {
       isolate({
         if (input$key2==mypasswd) {
+		input$symsub2 <- gsub("^\\s+", "", input$symsub2)
+		input$symsub2 <- gsub("\\s+$", "", input$symsub2)
+		input$yearsub2 <- gsub("^\\s+", "", input$yearsub2)
+		input$yearsub2 <- gsub("\\s+$", "", input$yearsub2)
+		input$jousub2 <- gsub("^\\s+", "", input$jousub2)
+		input$jousub2 <- gsub("\\s+$", "", input$jousub2)
+
           df.pub <- data.frame(Symbol=input$symsub2, Title=input$tilsub2, Year=input$yearsub2,
                                Journal=input$jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
                                stringsAsFactors=FALSE)
@@ -1951,6 +1927,11 @@ shinyServer(function(input, output, session) {
     if (input$submit3>0) {
       isolate({
         if (input$key3==mypasswd) {
+		input$symsub3 <- gsub("^\\s+", "", input$symsub3)
+		input$symsub3 <- gsub("\\s+$", "", input$symsub3)
+		input$accsub3 <- gsub("^\\s+", "", input$accsub3)
+		input$accsub3 <- gsub("^\\s+", "", input$accsub3)
+
           df.acc <- data.frame(Symbol=input$symsub3, Accession=input$accsub3, 
                                stringsAsFactors=FALSE)
           write.acc(df.acc)
@@ -1970,38 +1951,17 @@ shinyServer(function(input, output, session) {
       })
     } else {NULL}
   })
-
-  # submit new expression info
-  observe({
-    if (input$submit9>0) {
-      isolate({
-        if (input$key9==mypasswd) {
-          df.exp <- data.frame(Symbol=input$symsub9, Expression=input$exp9, 
-                               Overexpression=input$ove9, RNAi=input$rnai9,
-                               stringsAsFactors=FALSE)
-          write.exp(df.exp)
-          updateGeneInfo()
-          
-          git.info <- paste("add new expression for ", input$symsub9, sep="")
-          system("git checkout master")
-          system("git add -A")
-          system(paste('git commit -m ', '"', git.info, '"', sep=""))
-          
-          js_string <- 'alert("Expression info successfully added!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
-        } else {
-          js_string <- 'alert("Authorization Required!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
-        }
-      })
-    } else {NULL}
-  })
   
   # submit new keywords
   observe({
     if (input$submit4>0) {
       isolate({
         if (input$key4==mypasswd) {
+		input$symsub4 <- gsub("^\\s+", "", input$symsub4)
+		input$symsub4 <- gsub("\\s+$", "", input$symsub4)
+		input$keysub4 <- gsub("^\\s+", "", input$keysub4)
+		input$keysub4 <- gsub("\\s+$", "", input$keysub4)
+
           df.key <- data.frame(Symbol=input$symsub4, Keyword=input$keysub4, 
                                Title=input$tilsub4, Evidence=input$evisub4,
                                stringsAsFactors=FALSE)
@@ -2028,6 +1988,11 @@ shinyServer(function(input, output, session) {
     if (input$submit5>0) {
       isolate({
         if (input$key5==mypasswd) {
+		input$symsub5 <- gsub("^\\s+", "", input$symsub5)
+		input$symsub5 <- gsub("\\s+$", "", input$symsub5)
+		input$sym2sub5 <- gsub("^\\s+", "", input$sym2sub5)
+		input$sym2sub5 <- gsub("\\s+$", "", input$sym2sub5)
+
           df.con <- data.frame(Symbol1=input$symsub5, Symbol2=input$sym2sub5, 
                                Title=input$tilsub5, Evidence=input$evisub5,
                                stringsAsFactors=FALSE)
@@ -2056,6 +2021,9 @@ shinyServer(function(input, output, session) {
     if (input$submit8>0) {
       isolate({
         if (input$key8==mypasswd) {
+		input$symsub8 <- gsub("^\\s+", "", input$symsub8)
+		input$symsub8 <- gsub("\\s+$", "", input$symsub8)
+
            save.image(input$symsub8, input$phenofig, input$expfig)
           
            git.info <- paste("add new figures for ", input$symsub8, sep="")
@@ -2078,6 +2046,20 @@ shinyServer(function(input, output, session) {
     if (input$submit6>0) {
       isolate({
         if (input$key6==mypasswd) {
+          input$oldsym <- gsub("^\\s+", "", input$oldsym)
+          input$oldsym <- gsub("\\s+$", "", input$oldsym)
+          input$newsym <- gsub("^\\s+", "", input$newsym)
+          input$newsym <- gsub("\\s+$", "", input$newsym)
+          input$oldmsu <- gsub("^\\s+", "", input$oldmsu)
+          input$oldmsu <- gsub("\\s+$", "", input$oldmsu)
+        
+          input$newmsu <- gsub("^\\s+", "", input$newmsu)
+          input$newmsu <- gsub("\\s+$", "", input$newmsu)
+          input$oldrap <- gsub("^\\s+", "", input$oldrap)
+          input$oldrap <- gsub("\\s+$", "", input$oldrap)
+          input$newrap <- gsub("^\\s+", "", input$newrap)
+          input$newrap <- gsub("\\s+$", "", input$newrap)
+          
           df.con <- data.frame(oldsym=input$oldsym, newsym=input$newsym, 
                                oldmsu=input$oldmsu, newmsu=input$newmsu,
                                oldrap=input$oldrap, newrap=input$newrap,
@@ -2105,7 +2087,13 @@ shinyServer(function(input, output, session) {
      if (input$submit7>0) {
        isolate({
          if (input$key7==mypasswd) {
-
+           input$symsub7 <- gsub("^\\s+", "", input$symsub7)
+           input$symsub7 <- gsub("\\s+$", "", input$symsub7)
+           input$msusub7 <- gsub("^\\s+", "", input$msusub7)
+           input$msusub7 <- gsub("\\s+$", "", input$msusub7)
+           input$rapsub7 <- gsub("^\\s+", "", input$rapsub7)
+           input$rapsub7 <- gsub("\\s+$", "", input$rapsub7)
+           
            if (input$symsub7!="") {
              df.gene <- data.frame(Symbol=input$symsub7, MSU=input$msusub7, RAPdb=input$rapsub7,
                                    stringsAsFactors=FALSE)
@@ -2217,17 +2205,6 @@ shinyServer(function(input, output, session) {
 		isolate({
 			updateTextInput(session, "symsub3", value="")
 			updateTextInput(session, "accsub3", value="")
-		})
-      } else {NULL}
-   })
-
-   observe({
-	  if (input$clear6>0) {
-		isolate({
-			updateTextInput(session, "symsub9", value="")
-			updateTextInput(session, "exp9", value="")
-			updateTextInput(session, "ove9", value="")
-			updateTextInput(session, "rnai9", value="")
 		})
       } else {NULL}
    })
@@ -2351,7 +2328,5 @@ shinyServer(function(input, output, session) {
    })
    
 })
-
-
 
 
