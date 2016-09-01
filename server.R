@@ -1891,15 +1891,15 @@ shinyServer(function(input, output, session) {
     if (input$submit2>0) {
       isolate({
         if (input$key2==mypasswd) {
-		input$symsub2 <- gsub("^\\s+", "", input$symsub2)
-		input$symsub2 <- gsub("\\s+$", "", input$symsub2)
-		input$yearsub2 <- gsub("^\\s+", "", input$yearsub2)
-		input$yearsub2 <- gsub("\\s+$", "", input$yearsub2)
-		input$jousub2 <- gsub("^\\s+", "", input$jousub2)
-		input$jousub2 <- gsub("\\s+$", "", input$jousub2)
+		symsub2 <- gsub("^\\s+", "", input$symsub2)
+		symsub2 <- gsub("\\s+$", "", symsub2)
+		yearsub2 <- gsub("^\\s+", "", input$yearsub2)
+		yearsub2 <- gsub("\\s+$", "", yearsub2)
+		jousub2 <- gsub("^\\s+", "", input$jousub2)
+		jousub2 <- gsub("\\s+$", "", jousub2)
 
-          df.pub <- data.frame(Symbol=input$symsub2, Title=input$tilsub2, Year=input$yearsub2,
-                               Journal=input$jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
+          df.pub <- data.frame(Symbol=symsub2, Title=input$tilsub2, Year=yearsub2,
+                               Journal=jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
                                stringsAsFactors=FALSE)
           write.pub(df.pub)
           scanAndWriteKey(df.pub)
@@ -1907,7 +1907,7 @@ shinyServer(function(input, output, session) {
           scanAndWriteExp(df.pub)
           updateGeneInfo()
           
-          git.info <- paste("add new reference for ", input$symsub2, sep="")
+          git.info <- paste("add new reference for ", symsub2, sep="")
           system("git checkout master")
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
@@ -1927,17 +1927,17 @@ shinyServer(function(input, output, session) {
     if (input$submit3>0) {
       isolate({
         if (input$key3==mypasswd) {
-		input$symsub3 <- gsub("^\\s+", "", input$symsub3)
-		input$symsub3 <- gsub("\\s+$", "", input$symsub3)
-		input$accsub3 <- gsub("^\\s+", "", input$accsub3)
-		input$accsub3 <- gsub("^\\s+", "", input$accsub3)
+		symsub3 <- gsub("^\\s+", "", input$symsub3)
+		symsub3 <- gsub("\\s+$", "", symsub3)
+		accsub3 <- gsub("^\\s+", "", input$accsub3)
+		accsub3 <- gsub("^\\s+", "", accsub3)
 
-          df.acc <- data.frame(Symbol=input$symsub3, Accession=input$accsub3, 
+          df.acc <- data.frame(Symbol=symsub3, Accession=accsub3, 
                                stringsAsFactors=FALSE)
           write.acc(df.acc)
           updateGeneInfo()
           
-          git.info <- paste("add new accessions for ", input$symsub3, sep="")
+          git.info <- paste("add new accessions for ", symsub3, sep="")
           system("git checkout master")
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
@@ -1957,18 +1957,18 @@ shinyServer(function(input, output, session) {
     if (input$submit4>0) {
       isolate({
         if (input$key4==mypasswd) {
-		input$symsub4 <- gsub("^\\s+", "", input$symsub4)
-		input$symsub4 <- gsub("\\s+$", "", input$symsub4)
-		input$keysub4 <- gsub("^\\s+", "", input$keysub4)
-		input$keysub4 <- gsub("\\s+$", "", input$keysub4)
+		symsub4 <- gsub("^\\s+", "", input$symsub4)
+		symsub4 <- gsub("\\s+$", "", symsub4)
+		keysub4 <- gsub("^\\s+", "", input$keysub4)
+		keysub4 <- gsub("\\s+$", "", keysub4)
 
-          df.key <- data.frame(Symbol=input$symsub4, Keyword=input$keysub4, 
-                               Title=input$tilsub4, Evidence=input$evisub4,
+          df.key <- data.frame(Symbol=symsub4, Keyword=keysub4, 
+                               Title=tilsub4, Evidence=evisub4,
                                stringsAsFactors=FALSE)
           write.key(df.key)
           updateGeneInfo()
           
-          git.info <- paste("add new keywords for ", input$symsub4, sep="")
+          git.info <- paste("add new keywords for ", symsub4, sep="")
           system("git checkout master")
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
@@ -1988,19 +1988,19 @@ shinyServer(function(input, output, session) {
     if (input$submit5>0) {
       isolate({
         if (input$key5==mypasswd) {
-		input$symsub5 <- gsub("^\\s+", "", input$symsub5)
-		input$symsub5 <- gsub("\\s+$", "", input$symsub5)
-		input$sym2sub5 <- gsub("^\\s+", "", input$sym2sub5)
-		input$sym2sub5 <- gsub("\\s+$", "", input$sym2sub5)
+		symsub5 <- gsub("^\\s+", "", input$symsub5)
+		symsub5 <- gsub("\\s+$", "", symsub5)
+		sym2sub5 <- gsub("^\\s+", "", input$sym2sub5)
+		sym2sub5 <- gsub("\\s+$", "", sym2sub5)
 
-          df.con <- data.frame(Symbol1=input$symsub5, Symbol2=input$sym2sub5, 
+          df.con <- data.frame(Symbol1=symsub5, Symbol2=sym2sub5, 
                                Title=input$tilsub5, Evidence=input$evisub5,
                                stringsAsFactors=FALSE)
           write.con(df.con)
           updateGeneInfo()
           
           git.info <- paste("add new connections between ", 
-                            input$symsub5, " and ", input$sym2sub5, sep="")
+                            symsub5, " and ", sym2sub5, sep="")
           system("git checkout master")
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
@@ -2021,12 +2021,12 @@ shinyServer(function(input, output, session) {
     if (input$submit8>0) {
       isolate({
         if (input$key8==mypasswd) {
-		input$symsub8 <- gsub("^\\s+", "", input$symsub8)
-		input$symsub8 <- gsub("\\s+$", "", input$symsub8)
+		symsub8 <- gsub("^\\s+", "", input$symsub8)
+		symsub8 <- gsub("\\s+$", "", symsub8)
 
-           save.image(input$symsub8, input$phenofig, input$expfig)
+           save.image(symsub8, input$phenofig, input$expfig)
           
-           git.info <- paste("add new figures for ", input$symsub8, sep="")
+           git.info <- paste("add new figures for ", symsub8, sep="")
            system("git checkout master")
            system("git add -A")
            system(paste('git commit -m ', '"', git.info, '"', sep=""))
@@ -2046,28 +2046,28 @@ shinyServer(function(input, output, session) {
     if (input$submit6>0) {
       isolate({
         if (input$key6==mypasswd) {
-          input$oldsym <- gsub("^\\s+", "", input$oldsym)
-          input$oldsym <- gsub("\\s+$", "", input$oldsym)
-          input$newsym <- gsub("^\\s+", "", input$newsym)
-          input$newsym <- gsub("\\s+$", "", input$newsym)
-          input$oldmsu <- gsub("^\\s+", "", input$oldmsu)
-          input$oldmsu <- gsub("\\s+$", "", input$oldmsu)
+          oldsym <- gsub("^\\s+", "", input$oldsym)
+          oldsym <- gsub("\\s+$", "", oldsym)
+          newsym <- gsub("^\\s+", "", input$newsym)
+          newsym <- gsub("\\s+$", "", newsym)
+          oldmsu <- gsub("^\\s+", "", input$oldmsu)
+          oldmsu <- gsub("\\s+$", "", oldmsu)
         
-          input$newmsu <- gsub("^\\s+", "", input$newmsu)
-          input$newmsu <- gsub("\\s+$", "", input$newmsu)
-          input$oldrap <- gsub("^\\s+", "", input$oldrap)
-          input$oldrap <- gsub("\\s+$", "", input$oldrap)
-          input$newrap <- gsub("^\\s+", "", input$newrap)
-          input$newrap <- gsub("\\s+$", "", input$newrap)
+          newmsu <- gsub("^\\s+", "", input$newmsu)
+          newmsu <- gsub("\\s+$", "", newmsu)
+          oldrap <- gsub("^\\s+", "", input$oldrap)
+          oldrap <- gsub("\\s+$", "", oldrap)
+          newrap <- gsub("^\\s+", "", input$newrap)
+          newrap <- gsub("\\s+$", "", newrap)
           
-          df.con <- data.frame(oldsym=input$oldsym, newsym=input$newsym, 
-                               oldmsu=input$oldmsu, newmsu=input$newmsu,
-                               oldrap=input$oldrap, newrap=input$newrap,
+          df.con <- data.frame(oldsym=oldsym, newsym=newsym, 
+                               oldmsu=oldmsu, newmsu=newmsu,
+                               oldrap=oldrap, newrap=newrap,
                                stringsAsFactors=FALSE)
           gene.edit(df.con)
           updateGeneInfo()
           
-          git.info <- gsub("\\|", " == ", input$newsym)
+          git.info <- gsub("\\|", " == ", newsym)
           system("git checkout master")
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
@@ -2087,22 +2087,22 @@ shinyServer(function(input, output, session) {
      if (input$submit7>0) {
        isolate({
          if (input$key7==mypasswd) {
-           input$symsub7 <- gsub("^\\s+", "", input$symsub7)
-           input$symsub7 <- gsub("\\s+$", "", input$symsub7)
-           input$msusub7 <- gsub("^\\s+", "", input$msusub7)
-           input$msusub7 <- gsub("\\s+$", "", input$msusub7)
-           input$rapsub7 <- gsub("^\\s+", "", input$rapsub7)
-           input$rapsub7 <- gsub("\\s+$", "", input$rapsub7)
+           symsub7 <- gsub("^\\s+", "", input$symsub7)
+           symsub7 <- gsub("\\s+$", "", symsub7)
+           msusub7 <- gsub("^\\s+", "", input$msusub7)
+           msusub7 <- gsub("\\s+$", "", msusub7)
+           rapsub7 <- gsub("^\\s+", "", input$rapsub7)
+           rapsub7 <- gsub("\\s+$", "", rapsub7)
            
-           if (input$symsub7!="") {
-             df.gene <- data.frame(Symbol=input$symsub7, MSU=input$msusub7, RAPdb=input$rapsub7,
+           if (symsub7!="") {
+             df.gene <- data.frame(Symbol=symsub7, MSU=msusub7, RAPdb=rapsub7,
                                    stringsAsFactors=FALSE)
-             locus.line <- findDirBySym(tolower(input$symsub7))
+             locus.line <- findDirBySym(tolower(symsub7))
              if (length(locus.line)==0) {
                write.gene(df.gene)
                updateGeneInfo()
                
-               git.info <- paste("add new gene: ", input$symsub7, sep="") 
+               git.info <- paste("add new gene: ", symsub7, sep="") 
                system("git checkout master")
                system("git add -A")
                system(paste('git commit -m ', '"', git.info, '"', sep=""))
@@ -2111,10 +2111,12 @@ shinyServer(function(input, output, session) {
 			   session$sendCustomMessage(type='jsCode', list(value = js_string))
              }
            }
- 
-           pubmedRes <- fetchPubmedById(input$pubmed7)
+
+	   pubmed7 <- gsub("^\\s+", "", input$pubmed7)
+	   pubmed7 <- gsub("\\s+$", "", pubmed7)
+           pubmedRes <- fetchPubmedById(pubmed7)
            if (all(pubmedRes!="")) {  
-             df.pub <- data.frame(Symbol=input$symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
+             df.pub <- data.frame(Symbol=symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
                                   Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
                                   stringsAsFactors=FALSE)
              write.pub(df.pub)
@@ -2123,17 +2125,17 @@ shinyServer(function(input, output, session) {
              system("git add -A")
              system(paste('git commit -m ', '"', git.info, '"', sep=""))
           
-             if (input$symsub7=="") {
+             if (symsub7=="") {
 				js_string <- 'alert("Add new pub successfully!");'
 				session$sendCustomMessage(type='jsCode', list(value = js_string))
 			 }
 
-             if (input$symsub7!="") {
+             if (symsub7!="") {
                scanAndWriteKey(df.pub)
                scanAndWriteCon(df.pub)
                scanAndWriteExp(df.pub)
                
-			   git.info <- paste("add new info for gene: ", input$symsub7, sep="") 
+			   git.info <- paste("add new info for gene: ", symsub7, sep="") 
                system("git checkout master")
                system("git add -A")
                system(paste('git commit -m ', '"', git.info, '"', sep=""))
@@ -2301,7 +2303,9 @@ shinyServer(function(input, output, session) {
              }
            }) 
            fam.gene.rap.final <<- unlist(unname(fam.gene.rap.new))
-           
+          
+	   pubmed10 <- gsub("^\\s+", "", input$pubmed10)
+	   pubmed10 <- gsub("\\s+$", "", pubmed10)
            pubmedRes <- fetchPubmedById(input$pubmed10)
            if (all(pubmedRes!="")) {  
              df.pub <- data.frame(Journal=pubmedRes[1], Title=pubmedRes[2], Year=pubmedRes[3],
