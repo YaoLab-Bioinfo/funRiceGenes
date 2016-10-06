@@ -1593,9 +1593,6 @@ eIF-1	Os07g0529800	LOC_Os07g34589	leaf	The SUI-homologous translation initiation
 eIF-1	Os07g0529800	LOC_Os07g34589	salt tolerance	The SUI-homologous translation initiation factor eIF-1 is involved in regulation of ion homeostasis in rice	data/Gene/Abstract/E/eIF-1
 eIF-1	Os07g0529800	LOC_Os07g34589	homeostasis	The SUI-homologous translation initiation factor eIF-1 is involved in regulation of ion homeostasis in rice	data/Gene/Abstract/E/eIF-1
 eIF-1	Os07g0529800	LOC_Os07g34589	growth	The SUI-homologous translation initiation factor eIF-1 is involved in regulation of ion homeostasis in rice	data/Gene/Abstract/E/eIF-1
-EIF3E	Os07g0222300	LOC_Os07g12110	fertility	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3E
-EIF3E	Os07g0222300	LOC_Os07g12110	pollen	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3E
-EIF3E	Os07g0222300	LOC_Os07g12110	sterile	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3E
 EIF3H	Os04g0376500	LOC_Os04g30780	fertility	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3H
 EIF3H	Os04g0376500	LOC_Os04g30780	pollen	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3H
 EIF3H	Os04g0376500	LOC_Os04g30780	sterile	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3H
@@ -6491,6 +6488,9 @@ OsEGL1	Os05g0375400	LOC_Os05g31140	cell wall	The matrix polysaccharide (1;3,1;4)
 OsEGL1	Os05g0375400	LOC_Os05g31140	glucanase	The matrix polysaccharide (1;3,1;4)-D-glucan is involved in silicon-dependent strengthening of rice cell wall	data/Gene/Abstract/OS/E/OsEGL1
 OsEGL2	Os01g0942300	LOC_Os01g71474	panicle	Expression of an endo-(1,3;1,4)-beta-glucanase in response to wounding, methyl jasmonate, abscisic acid and ethephon in rice seedlings	data/Gene/Abstract/OS/E/OsEGL2
 OsEGL2	Os01g0942300	LOC_Os01g71474	cellulose	Expression of an endo-(1,3;1,4)-beta-glucanase in response to wounding, methyl jasmonate, abscisic acid and ethephon in rice seedlings	data/Gene/Abstract/OS/E/OsEGL2
+OseIF3e|EIF3E	Os07g0222300	LOC_Os07g12110	fertility	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3E
+OseIF3e|EIF3E	Os07g0222300	LOC_Os07g12110	pollen	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3E
+OseIF3e|EIF3E	Os07g0222300	LOC_Os07g12110	sterile	Inhibition of a basal transcription factor 3-like gene Osj10gBTF3 in rice results in significant plant miniaturization and typical pollen abortion	data/Gene/Abstract/E/EIF3E
 OseIF3f	Os05g0104800	LOC_Os05g01450	root	The Rice Eukaryotic Translation Initiation Factor 3 Subunit f (OseIF3f) Is Involved in Microgametogenesis.	data/Gene/Abstract/OS/E/OseIF3f
 OseIF3f	Os05g0104800	LOC_Os05g01450	pollen	The Rice Eukaryotic Translation Initiation Factor 3 Subunit f (OseIF3f) Is Involved in Microgametogenesis.	data/Gene/Abstract/OS/E/OseIF3f
 OseIF3f	Os05g0104800	LOC_Os05g01450	seed	The Rice Eukaryotic Translation Initiation Factor 3 Subunit f (OseIF3f) Is Involved in Microgametogenesis.	data/Gene/Abstract/OS/E/OseIF3f
