@@ -1056,7 +1056,7 @@ D27	None	LOC_Os11g37650	auxin	DWARF27, an iron-containing protein required for t
 D27	None	LOC_Os11g37650	tiller	DWARF27, an iron-containing protein required for the biosynthesis of strigolactones, regulates rice tiller bud outgrowth	data/Gene/Abstract/D/D27
 D27	None	LOC_Os11g37650	branching	DWARF10, an RMS1/MAX4/DAD1 ortholog, controls lateral bud outgrowth in rice	data/Gene/Abstract/D/D27
 D27	None	LOC_Os11g37650	height	DWARF27, an iron-containing protein required for the biosynthesis of strigolactones, regulates rice tiller bud outgrowth	data/Gene/Abstract/D/D27
-D27	None	LOC_Os11g37650	strigolactone	Biochemical Characterisation &amp; Selective Inhibition of β-Carotene cis-trans-Isomerase D27 and Carotenoid Cleavage Dioxygenase CCD8 on the Strigolactone Biosynthetic Pathway.	data/Gene/Abstract/D/D27
+D27	None	LOC_Os11g37650	strigolactone	Biochemical Characterisation &amp; Selective Inhibition of beta-Carotene cis-trans-Isomerase D27 and Carotenoid Cleavage Dioxygenase CCD8 on the Strigolactone Biosynthetic Pathway.	data/Gene/Abstract/D/D27
 D3	Os06g0154200	LOC_Os06g06050	dwarf	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D3
 D3	Os06g0154200	LOC_Os06g06050	leaf	Rice tillering dwarf mutant dwarf3 has increased leaf longevity during darkness-induced senescence or hydrogen peroxide-induced cell death	data/Gene/Abstract/D/D3
 D3	Os06g0154200	LOC_Os06g06050	resistant	DWARF 53 acts as a repressor of strigolactone signalling in rice	data/Gene/Abstract/D/D3
@@ -2837,7 +2837,7 @@ HSP101|OsClpB-cyt|HSP100	Os05g0519700	LOC_Os05g44340	chloroplast	Complexity of r
 HSP101|OsClpB-cyt|HSP100	Os05g0519700	LOC_Os05g44340	seed	OsHsfA2c and OsHsfB4b are involved in the transcriptional regulation of cytoplasmic OsClpB (Hsp100) gene in rice (Oryza sativa L.)	data/Gene/Abstract/OS/C/OsClpB-cyt~HSP100
 HSP101|OsClpB-cyt|HSP100	Os05g0519700	LOC_Os05g44340	seed development	Genome-wide analysis of rice ClpB/HSP100, ClpC and ClpD genes	data/Gene/Abstract/OS/C/OsClpB-cyt~HSP100
 HSP101|OsClpB-cyt|HSP100	Os05g0519700	LOC_Os05g44340	temperature	Molecular characterization of rice hsp101: complementation of yeast hsp104 mutation by disaggregation of protein granules and differential expression in indica and japonica rice types	data/Gene/Abstract/OS/C/OsClpB-cyt~HSP100
-HSP40	Os02g0100300	LOC_Os02g01030	cytoplasm	Glucosidase II β-subunit, a novel substrate for caspase-3-like activity in rice, plays as a molecular switch between autophagy and programmed cell death.	data/Gene/Abstract/H/HSP40
+HSP40	Os02g0100300	LOC_Os02g01030	cytoplasm	Glucosidase II beta-subunit, a novel substrate for caspase-3-like activity in rice, plays as a molecular switch between autophagy and programmed cell death.	data/Gene/Abstract/H/HSP40
 HSP70	Os11g0703900	LOC_Os11g47760	salt	Heat-inducible rice hsp82 and hsp70 are not always co-regulated	data/Gene/Abstract/H/HSP70
 HSP70	Os11g0703900	LOC_Os11g47760	temperature	Heat-inducible rice hsp82 and hsp70 are not always co-regulated	data/Gene/Abstract/H/HSP70
 HSP70	Os11g0703900	LOC_Os11g47760	growth	Heat-inducible rice hsp82 and hsp70 are not always co-regulated	data/Gene/Abstract/H/HSP70
@@ -4023,20 +4023,20 @@ Os11N3|OsSWEET14	Os11g0508600	LOC_Os11g31190	sugar	A knowledge-based molecular s
 Os11N3|OsSWEET14	Os11g0508600	LOC_Os11g31190	bacterial blight	A knowledge-based molecular screen uncovers a broad spectrum OsSWEET14 resistance allele to bacterial blight from wild rice.	data/Gene/Abstract/OS/0-9/Os11N3
 Os11N3|OsSWEET14	Os11g0508600	LOC_Os11g31190	bacterial blight	A knowledge-based molecular screen uncovers a broad spectrum OsSWEET14 resistance allele to bacterial blight from wild rice.	data/Gene/Abstract/OS/0-9/Os11N3
 Os11N3|OsSWEET14	Os11g0508600	LOC_Os11g31190	resistance	Targeted promoter editing for rice resistance to Xanthomonas oryzae pv. oryzae reveals differential activities for SWEET14-inducing TAL effectors.	data/Gene/Abstract/OS/0-9/Os11N3
-Os1BGlu4	Os01g0897600	LOC_Os01g67220	leaf	Recombinant expression and characterization of the cytoplasmic rice β-glucosidase Os1BGlu4.	data/Gene/Abstract/OS/0-9/Os1BGlu4
-Os1BGlu4	Os01g0897600	LOC_Os01g67220	cytoplasm	Recombinant expression and characterization of the cytoplasmic rice β-glucosidase Os1BGlu4.	data/Gene/Abstract/OS/0-9/Os1BGlu4
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	cell wall	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	salinity	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	shoot	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	growth	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	leaf	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os1BGlu4	Os01g0897600	LOC_Os01g67220	leaf	Recombinant expression and characterization of the cytoplasmic rice beta-glucosidase Os1BGlu4.	data/Gene/Abstract/OS/0-9/Os1BGlu4
+Os1BGlu4	Os01g0897600	LOC_Os01g67220	cytoplasm	Recombinant expression and characterization of the cytoplasmic rice beta-glucosidase Os1BGlu4.	data/Gene/Abstract/OS/0-9/Os1BGlu4
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	cell wall	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	salinity	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	shoot	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	growth	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	leaf	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
 Os4BGlu12	Os04g0474800	LOC_Os04g39880	seedling	Analysis of rice glycosyl hydrolase family 1 and expression of Os4bglu12 beta-glucosidase	data/Gene/Abstract/OS/0-9/Os4BGlu12
 Os4BGlu12	Os04g0474800	LOC_Os04g39880	cell wall	Analysis of rice glycosyl hydrolase family 1 and expression of Os4bglu12 beta-glucosidase	data/Gene/Abstract/OS/0-9/Os4BGlu12
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	stem	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	sheath	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	stem	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	sheath	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
 Os4BGlu12	Os04g0474800	LOC_Os04g39880	ethylene	Expression, purification, crystallization and preliminary X-ray analysis of rice (Oryza sativa L.) Os4BGlu12 beta-glucosidase	data/Gene/Abstract/OS/0-9/Os4BGlu12
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	salinity stress	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
-Os4BGlu12	Os04g0474800	LOC_Os04g39880	defense	Rice Os4BGlu12 is a wound-induced β-glucosidase that hydrolyzes cell wall-β-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	salinity stress	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
+Os4BGlu12	Os04g0474800	LOC_Os04g39880	defense	Rice Os4BGlu12 is a wound-induced beta-glucosidase that hydrolyzes cell wall-beta-glucan-derived oligosaccharides and glycosides	data/Gene/Abstract/OS/0-9/Os4BGlu12
 Os4CL3	Os02g0177600	LOC_Os02g08100	growth	Functional characterization of evolutionarily divergent 4-coumarate:coenzyme a ligases in rice	data/Gene/Abstract/OS/0-9/Os4CL3
 Os6PGDH	Os06g0111500	LOC_Os06g02144	inflorescence	Molecular cloning and characterization of rice 6-phosphogluconate dehydrogenase gene that is up-regulated by salt stress	data/Gene/Abstract/OS/0-9/Os6PGDH
 Os6PGDH	Os06g0111500	LOC_Os06g02144	salt	Molecular cloning and characterization of rice 6-phosphogluconate dehydrogenase gene that is up-regulated by salt stress	data/Gene/Abstract/OS/0-9/Os6PGDH
@@ -4906,20 +4906,20 @@ OsBC1L4	Os05g0386800	LOC_Os05g32110	dwarf	OsBC1L4 encodes a COBRA-like protein t
 OsBC1L4	Os05g0386800	LOC_Os05g32110	starch	OsBC1L4 encodes a COBRA-like protein that affects cellulose synthesis in rice	data/Gene/Abstract/OS/B/OsBC1L4
 OsBC1L4	Os05g0386800	LOC_Os05g32110	culm	OsBC1L4 encodes a COBRA-like protein that affects cellulose synthesis in rice	data/Gene/Abstract/OS/B/OsBC1L4
 OsBEIIb	Os02g0528200	LOC_Os02g32660	starch	OsbZIP58, a basic leucine zipper transcription factor, regulates starch biosynthesis in rice endosperm	data/Gene/Abstract/OS/B/OsBEIIb
-OsBGal1	Os03g0165400	LOC_Os03g06940	seedling	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
-OsBGal1	Os03g0165400	LOC_Os03g06940	sheath	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
-OsBGal1	Os03g0165400	LOC_Os03g06940	shoot	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
-OsBGal1	Os03g0165400	LOC_Os03g06940	root	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
-OsBGal1	Os03g0165400	LOC_Os03g06940	leaf	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
-OsBGal1	Os03g0165400	LOC_Os03g06940	panicle	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
-OsBGal2	Os06g0573600	LOC_Os06g37560	seedling	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
-OsBGal2	Os06g0573600	LOC_Os06g37560	root	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
-OsBGal2	Os06g0573600	LOC_Os06g37560	panicle	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
-OsBGal2	Os06g0573600	LOC_Os06g37560	shoot	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
-OsBGal2	Os06g0573600	LOC_Os06g37560	sheath	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
-OsBGal2	Os06g0573600	LOC_Os06g37560	leaf	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
-OsBGal2	Os06g0573600	LOC_Os06g37560	flower	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
-OsBGal2	Os06g0573600	LOC_Os06g37560	seed	Molecular characterization of β-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
+OsBGal1	Os03g0165400	LOC_Os03g06940	seedling	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
+OsBGal1	Os03g0165400	LOC_Os03g06940	sheath	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
+OsBGal1	Os03g0165400	LOC_Os03g06940	shoot	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
+OsBGal1	Os03g0165400	LOC_Os03g06940	root	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
+OsBGal1	Os03g0165400	LOC_Os03g06940	leaf	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
+OsBGal1	Os03g0165400	LOC_Os03g06940	panicle	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal1
+OsBGal2	Os06g0573600	LOC_Os06g37560	seedling	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
+OsBGal2	Os06g0573600	LOC_Os06g37560	root	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
+OsBGal2	Os06g0573600	LOC_Os06g37560	panicle	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
+OsBGal2	Os06g0573600	LOC_Os06g37560	shoot	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
+OsBGal2	Os06g0573600	LOC_Os06g37560	sheath	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
+OsBGal2	Os06g0573600	LOC_Os06g37560	leaf	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
+OsBGal2	Os06g0573600	LOC_Os06g37560	flower	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
+OsBGal2	Os06g0573600	LOC_Os06g37560	seed	Molecular characterization of beta-galactosidases from germinating rice (Oryza sativa)	data/Gene/Abstract/OS/B/OsBGal2
 OsbHLH001|OsICE2	Os01g0928000	LOC_Os01g70310	cold stress	Rice homologs of inducer of CBF expression (OsICE) are involved in cold acclimation	data/Gene/Abstract/OS/I/OsICE2
 OsbHLH1|OsbHLH062	Os07g0628500	LOC_Os07g43530	 ABA 	A rice transcription factor OsbHLH1 is involved in cold stress response	data/Gene/Abstract/OS/B/OsbHLH1
 OsbHLH1|OsbHLH062	Os07g0628500	LOC_Os07g43530	root	A rice transcription factor OsbHLH1 is involved in cold stress response	data/Gene/Abstract/OS/B/OsbHLH1
@@ -6989,11 +6989,11 @@ OsFtsH2	Os06g0669400	LOC_Os06g45820	ABA	Involvement of Abscisic Acid in PSII Pho
 OsFY	Os01g0951000	LOC_Os01g72220	flower	Survey of rice proteins interacting with OsFCA and OsFY proteins which are homologous to the Arabidopsis flowering time proteins, FCA and FY	data/Gene/Abstract/OS/F/OsFY
 OsFY	Os01g0951000	LOC_Os01g72220	flowering time	Survey of rice proteins interacting with OsFCA and OsFY proteins which are homologous to the Arabidopsis flowering time proteins, FCA and FY	data/Gene/Abstract/OS/F/OsFY
 OsFY	Os01g0951000	LOC_Os01g72220	flower	OsFY, a Homolog of AtFY, Encodes a Protein that Can Interact with OsFCA-γ in Rice (Oryza sativa L.)	data/Gene/Abstract/OS/F/OsFY
-Osg1	Os01g0947700	LOC_Os01g71930	anther	Molecular Cloning and Characterization of a Novel β-1,3-Glucanase Gene from Rice	data/Gene/Abstract/OS/G/Osg1
+Osg1	Os01g0947700	LOC_Os01g71930	anther	Molecular Cloning and Characterization of a Novel beta-1,3-Glucanase Gene from Rice	data/Gene/Abstract/OS/G/Osg1
 Osg1	Os01g0947700	LOC_Os01g71930	leaf	A rice beta-1,3-glucanase gene Osg1 is required for callose degradation in pollen development	data/Gene/Abstract/OS/G/Osg1
 Osg1	Os01g0947700	LOC_Os01g71930	sheath	A rice beta-1,3-glucanase gene Osg1 is required for callose degradation in pollen development	data/Gene/Abstract/OS/G/Osg1
 Osg1	Os01g0947700	LOC_Os01g71930	anther	A rice beta-1,3-glucanase gene Osg1 is required for callose degradation in pollen development	data/Gene/Abstract/OS/G/Osg1
-Osg1	Os01g0947700	LOC_Os01g71930	root	Molecular Cloning and Characterization of a Novel β-1,3-Glucanase Gene from Rice	data/Gene/Abstract/OS/G/Osg1
+Osg1	Os01g0947700	LOC_Os01g71930	root	Molecular Cloning and Characterization of a Novel beta-1,3-Glucanase Gene from Rice	data/Gene/Abstract/OS/G/Osg1
 Osg1	Os01g0947700	LOC_Os01g71930	microspore	A rice beta-1,3-glucanase gene Osg1 is required for callose degradation in pollen development	data/Gene/Abstract/OS/G/Osg1
 Osg1	Os01g0947700	LOC_Os01g71930	sterility	A rice beta-1,3-glucanase gene Osg1 is required for callose degradation in pollen development	data/Gene/Abstract/OS/G/Osg1
 Osg1	Os01g0947700	LOC_Os01g71930	pollen	A rice beta-1,3-glucanase gene Osg1 is required for callose degradation in pollen development	data/Gene/Abstract/OS/G/Osg1
@@ -7281,11 +7281,11 @@ OsGLK1	Os06g0348800	LOC_Os06g24070	seedling	Ectopic overexpression of the transc
 OsGLK1	Os06g0348800	LOC_Os06g24070	phytohormone	Ectopic overexpression of the transcription factor OsGLK1 induces chloroplast development in non-green rice cells	data/Gene/Abstract/OS/G/OsGLK1
 OsGLK1	Os06g0348800	LOC_Os06g24070	vascular bundle	Ectopic overexpression of the transcription factor OsGLK1 induces chloroplast development in non-green rice cells	data/Gene/Abstract/OS/G/OsGLK1
 OsGLK1	Os06g0348800	LOC_Os06g24070	sheath	Ectopic overexpression of the transcription factor OsGLK1 induces chloroplast development in non-green rice cells	data/Gene/Abstract/OS/G/OsGLK1
-OsGLN1	Os01g0946700	LOC_Os01g71830	drought	"Molecular cloning, characterization and in vitro expression of a novel endo-1,3-β-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)"	data/Gene/Abstract/OS/G/OsGLN1
-OsGLN1	Os01g0946700	LOC_Os01g71830	root	Molecular cloning, characterization and in vitro expression of a novel endo-1,3-β-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLN1
-OsGLN1	Os01g0946700	LOC_Os01g71830	biotic stress	"Molecular cloning, characterization and in vitro expression of a novel endo-1,3-β-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)"	data/Gene/Abstract/OS/G/OsGLN1
-OsGLN1	Os01g0946700	LOC_Os01g71830	seedling	Molecular cloning, characterization and in vitro expression of a novel endo-1,3-β-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLN1
-OsGLN1	Os01g0946700	LOC_Os01g71830	cell wall	Molecular cloning, characterization and in vitro expression of a novel endo-1,3-β-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLN1
+OsGLN1	Os01g0946700	LOC_Os01g71830	drought	"Molecular cloning, characterization and in vitro expression of a novel endo-1,3-beta-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)"	data/Gene/Abstract/OS/G/OsGLN1
+OsGLN1	Os01g0946700	LOC_Os01g71830	root	Molecular cloning, characterization and in vitro expression of a novel endo-1,3-beta-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLN1
+OsGLN1	Os01g0946700	LOC_Os01g71830	biotic stress	"Molecular cloning, characterization and in vitro expression of a novel endo-1,3-beta-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)"	data/Gene/Abstract/OS/G/OsGLN1
+OsGLN1	Os01g0946700	LOC_Os01g71830	seedling	Molecular cloning, characterization and in vitro expression of a novel endo-1,3-beta-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLN1
+OsGLN1	Os01g0946700	LOC_Os01g71830	cell wall	Molecular cloning, characterization and in vitro expression of a novel endo-1,3-beta-glucanase up-regulated by ABA and drought stress in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLN1
 OsGLN2	Os01g0944700	LOC_Os01g71670	root	Cloning, characterization and expression of OsGLN2, a rice endo-1,3-beta-glucanase gene regulated developmentally in flowers and hormonally in germinating seeds	data/Gene/Abstract/OS/G/OsGLN2
 OsGLN2	Os01g0944700	LOC_Os01g71670	endosperm	Cloning, characterization and expression of OsGLN2, a rice endo-1,3-beta-glucanase gene regulated developmentally in flowers and hormonally in germinating seeds	data/Gene/Abstract/OS/G/OsGLN2
 OsGLN2	Os01g0944700	LOC_Os01g71670	flower	Cloning, characterization and expression of OsGLN2, a rice endo-1,3-beta-glucanase gene regulated developmentally in flowers and hormonally in germinating seeds	data/Gene/Abstract/OS/G/OsGLN2
@@ -7350,10 +7350,10 @@ OsGLU1|OsGH9A1	Os03g0329500	LOC_Os03g21210	gibberellin	OsGLU1, a putative membra
 OsGLU1|OsGH9A1	Os03g0329500	LOC_Os03g21210	cell wall	OsGLU1, a putative membrane-bound endo-1,4-beta-D-glucanase from rice, affects plant internode elongation	data/Gene/Abstract/OS/G/OsGLU1~OsGH9A1
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	nitrogen	Modulating the root elongation by phosphate/nitrogen starvation in an OsGLU3 dependant way in rice	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	meristem	OsGLU3, a putative membrane-bound endo-1,4-beta-glucanase, is required for root cell elongation and division in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLU3~RT
-OsGLU3|RT	Os04g0497200	LOC_Os04g41970	growth	ROOT GROWTH INHIBITING, a Rice Endo-1,4-β-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
-OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cellulose	ROOT GROWTH INHIBITING, a Rice Endo-1,4-β-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
+OsGLU3|RT	Os04g0497200	LOC_Os04g41970	growth	ROOT GROWTH INHIBITING, a Rice Endo-1,4-beta-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
+OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cellulose	ROOT GROWTH INHIBITING, a Rice Endo-1,4-beta-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cellulose	Modulating the root elongation by phosphate/nitrogen starvation in an OsGLU3 dependant way in rice	data/Gene/Abstract/OS/G/OsGLU3~RT
-OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cell wall	ROOT GROWTH INHIBITING, a Rice Endo-1,4-β-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
+OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cell wall	ROOT GROWTH INHIBITING, a Rice Endo-1,4-beta-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	root	OsGLU3, a putative membrane-bound endo-1,4-beta-glucanase, is required for root cell elongation and division in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cellulose	OsGLU3, a putative membrane-bound endo-1,4-beta-glucanase, is required for root cell elongation and division in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	nitrogen	Modulating the root elongation by phosphate/nitrogen starvation in an OsGLU3 dependant way in rice	data/Gene/Abstract/OS/G/OsGLU3~RT
@@ -7367,10 +7367,10 @@ OsGLU3|RT	Os04g0497200	LOC_Os04g41970	phosphate	Modulating the root elongation b
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cellulose	OsGLU3, a putative membrane-bound endo-1,4-beta-glucanase, is required for root cell elongation and division in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	crown	OsGLU3, a putative membrane-bound endo-1,4-beta-glucanase, is required for root cell elongation and division in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	root	Modulating the root elongation by phosphate/nitrogen starvation in an OsGLU3 dependant way in rice	data/Gene/Abstract/OS/G/OsGLU3~RT
-OsGLU3|RT	Os04g0497200	LOC_Os04g41970	root	ROOT GROWTH INHIBITING, a Rice Endo-1,4-β-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
+OsGLU3|RT	Os04g0497200	LOC_Os04g41970	root	ROOT GROWTH INHIBITING, a Rice Endo-1,4-beta-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cell wall	OsGLU3, a putative membrane-bound endo-1,4-beta-glucanase, is required for root cell elongation and division in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLU3|RT	Os04g0497200	LOC_Os04g41970	lateral root	OsGLU3, a putative membrane-bound endo-1,4-beta-glucanase, is required for root cell elongation and division in rice (Oryza sativa L.)	data/Gene/Abstract/OS/G/OsGLU3~RT
-OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cell elongation	ROOT GROWTH INHIBITING, a Rice Endo-1,4-β-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
+OsGLU3|RT	Os04g0497200	LOC_Os04g41970	cell elongation	ROOT GROWTH INHIBITING, a Rice Endo-1,4-beta-d-Glucanase, Regulates Cell Wall Loosening and is Essential for Root Elongation	data/Gene/Abstract/OS/G/OsGLU3~RT
 OsGLYII1|OsETHE1	Os01g0667200	LOC_Os01g47690	root	Expression of abiotic stress inducible ETHE1-like protein from rice is higher in roots and is regulated by calcium	data/Gene/Abstract/OS/G/OsGLYII1
 OsGLYII1|OsETHE1	Os01g0667200	LOC_Os01g47690	calcium	Expression of abiotic stress inducible ETHE1-like protein from rice is higher in roots and is regulated by calcium	data/Gene/Abstract/OS/G/OsGLYII1
 OsGLYII1|OsETHE1	Os01g0667200	LOC_Os01g47690	stress	Expression of abiotic stress inducible ETHE1-like protein from rice is higher in roots and is regulated by calcium	data/Gene/Abstract/OS/G/OsGLYII1
@@ -8490,15 +8490,15 @@ OsKANADI1|OsKANADI2	Os02g0696900	LOC_Os02g46940	meristem	Rice LHS1/OsMADS1 contr
 OsKANADI1|OsKANADI2	Os02g0696900	LOC_Os02g46940	transcription factor	Rice LHS1/OsMADS1 controls floret meristem specification by coordinated regulation of transcription factors and hormone signaling pathways	data/Gene/Abstract/OS/K/OsKANADI1~OsKANADI2
 OsKANADI4	Os03g0766500	LOC_Os03g55760	meristem	Rice LHS1/OsMADS1 controls floret meristem specification by coordinated regulation of transcription factors and hormone signaling pathways	data/Gene/Abstract/OS/K/OsKANADI4
 OsKANADI4	Os03g0766500	LOC_Os03g55760	transcription factor	Rice LHS1/OsMADS1 controls floret meristem specification by coordinated regulation of transcription factors and hormone signaling pathways	data/Gene/Abstract/OS/K/OsKANADI4
-OsKASI	Os06g0196600	LOC_Os06g09630	root	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
-OsKASI	Os06g0196600	LOC_Os06g09630	root	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
-OsKASI	Os06g0196600	LOC_Os06g09630	map-based cloning	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
-OsKASI	Os06g0196600	LOC_Os06g09630	fertility	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
-OsKASI	Os06g0196600	LOC_Os06g09630	development	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
-OsKASI	Os06g0196600	LOC_Os06g09630	development	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
-OsKASI	Os06g0196600	LOC_Os06g09630	root development	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
-OsKASI	Os06g0196600	LOC_Os06g09630	root development	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
-OsKASI	Os06g0196600	LOC_Os06g09630	R protein	OsKASI, a β-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	root	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	root	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	map-based cloning	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	fertility	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	development	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	development	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	root development	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	root development	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
+OsKASI	Os06g0196600	LOC_Os06g09630	R protein	OsKASI, a beta-ketoacyl-[acyl carrier protein] synthase I, is involved in root development in rice (Oryza sativa L.).	data/Gene/Abstract/OS/K/OsKASI
 OsKAT1	Os01g0756700	LOC_Os01g55200	potassium	Rice shaker potassium channel OsKAT1 confers tolerance to salinity stress on yeast and rice cells	data/Gene/Abstract/OS/K/OsKAT1
 OsKAT1	Os01g0756700	LOC_Os01g55200	growth	Rice shaker potassium channel OsKAT1 confers tolerance to salinity stress on yeast and rice cells	data/Gene/Abstract/OS/K/OsKAT1
 OsKAT1	Os01g0756700	LOC_Os01g55200	salt stress	Rice shaker potassium channel OsKAT1 confers tolerance to salinity stress on yeast and rice cells	data/Gene/Abstract/OS/K/OsKAT1
@@ -12780,9 +12780,9 @@ OsSWEET5	Os05g0588500	LOC_Os05g51090	transporter	Overexpression of OsSWEET5 in r
 OsSWEET5	Os05g0588500	LOC_Os05g51090	sugar	Overexpression of OsSWEET5 in rice causes growth retardation and precocious senescence.	data/Gene/Abstract/OS/S/OsSWEET5
 OsSYP71	Os05g0553700	LOC_Os05g48020	oxidative	Overexpression of the Qc-SNARE gene OsSYP71 enhances tolerance to oxidative stress and resistance to rice blast in rice (Oryza sativa L.)	data/Gene/Abstract/OS/S/OsSYP71
 OsSYP71	Os05g0553700	LOC_Os05g48020	blast	Overexpression of the Qc-SNARE gene OsSYP71 enhances tolerance to oxidative stress and resistance to rice blast in rice (Oryza sativa L.)	data/Gene/Abstract/OS/S/OsSYP71
-OsTAGG1|Os4BGlu13	Os04g0474900	LOC_Os04g39900	gibberellin	Identification of rice Os4BGlu13 as a β-glucosidase which hydrolyzes gibberellin A4 1-O-β-d-glucosyl ester, in addition to tuberonic acid glucoside and salicylic acid derivative glucosides.	data/Gene/Abstract/OS/T/OsTAGG1
-OsTAGG1|Os4BGlu13	Os04g0474900	LOC_Os04g39900	salicylic acid	Identification of rice Os4BGlu13 as a β-glucosidase which hydrolyzes gibberellin A4 1-O-β-d-glucosyl ester, in addition to tuberonic acid glucoside and salicylic acid derivative glucosides.	data/Gene/Abstract/OS/T/OsTAGG1
-OsTAGG1|Os4BGlu13	Os04g0474900	LOC_Os04g39900	seedlings	Identification of rice Os4BGlu13 as a β-glucosidase which hydrolyzes gibberellin A4 1-O-β-d-glucosyl ester, in addition to tuberonic acid glucoside and salicylic acid derivative glucosides.	data/Gene/Abstract/OS/T/OsTAGG1
+OsTAGG1|Os4BGlu13	Os04g0474900	LOC_Os04g39900	gibberellin	Identification of rice Os4BGlu13 as a beta-glucosidase which hydrolyzes gibberellin A4 1-O-beta-d-glucosyl ester, in addition to tuberonic acid glucoside and salicylic acid derivative glucosides.	data/Gene/Abstract/OS/T/OsTAGG1
+OsTAGG1|Os4BGlu13	Os04g0474900	LOC_Os04g39900	salicylic acid	Identification of rice Os4BGlu13 as a beta-glucosidase which hydrolyzes gibberellin A4 1-O-beta-d-glucosyl ester, in addition to tuberonic acid glucoside and salicylic acid derivative glucosides.	data/Gene/Abstract/OS/T/OsTAGG1
+OsTAGG1|Os4BGlu13	Os04g0474900	LOC_Os04g39900	seedlings	Identification of rice Os4BGlu13 as a beta-glucosidase which hydrolyzes gibberellin A4 1-O-beta-d-glucosyl ester, in addition to tuberonic acid glucoside and salicylic acid derivative glucosides.	data/Gene/Abstract/OS/T/OsTAGG1
 OsTAR1	Os05g0169300	LOC_Os05g07720	iaa	A large increase in IAA during development of rice grains correlates with the expression of tryptophan aminotransferase OsTAR1 and a grain-specific YUCCA	data/Gene/Abstract/OS/T/OsTAR1
 OsTAR1	Os05g0169300	LOC_Os05g07720	starch	A large increase in IAA during development of rice grains correlates with the expression of tryptophan aminotransferase OsTAR1 and a grain-specific YUCCA	data/Gene/Abstract/OS/T/OsTAR1
 OsTAR1	Os05g0169300	LOC_Os05g07720	grain	A large increase in IAA during development of rice grains correlates with the expression of tryptophan aminotransferase OsTAR1 and a grain-specific YUCCA	data/Gene/Abstract/OS/T/OsTAR1
@@ -12983,19 +12983,19 @@ OsTSD2	Os02g0755000	LOC_Os02g51860	methyltransferase	Rice putative methyltransfe
 OsTSD2	Os02g0755000	LOC_Os02g51860	IAA	Rice putative methyltransferase gene OsTSD2 is required for root development involving pectin modification.	data/Gene/Abstract/OS/T/OsTSD2
 OsTSD2	Os02g0755000	LOC_Os02g51860	ABA	Rice putative methyltransferase gene OsTSD2 is required for root development involving pectin modification.	data/Gene/Abstract/OS/T/OsTSD2
 OsTT1|OsPAB1	Os03g0387100	LOC_Os03g26970	stress	Natural alleles of a proteasome α2 subunit gene contribute to thermotolerance and adaptation of African rice.	data/Gene/Abstract/OS/T/OsTT1
-OsTUB8	Os03g0661300	LOC_Os03g45920	seed	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
-OsTUB8	Os03g0661300	LOC_Os03g45920	anther	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
-OsTUB8	Os03g0661300	LOC_Os03g45920	vegetative	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
-OsTUB8	Os03g0661300	LOC_Os03g45920	leaf	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
-OsTUB8	Os03g0661300	LOC_Os03g45920	growth	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
-OsTUB8	Os03g0661300	LOC_Os03g45920	pollen	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
-OsTUB8	Os03g0661300	LOC_Os03g45920	vascular bundle	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
-OsTUB8	Os03g0661300	LOC_Os03g45920	sheath	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
-OsTUB8	Os03g0661300	LOC_Os03g45920	root	Functional analysis of OsTUB8, an anther-specific β-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	seed	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	anther	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	vegetative	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	leaf	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	growth	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	pollen	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	vascular bundle	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	sheath	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
+OsTUB8	Os03g0661300	LOC_Os03g45920	root	Functional analysis of OsTUB8, an anther-specific beta-tubulin in rice	data/Gene/Abstract/OS/T/OsTUB8
 OsTudor-SN	Os02g0523500	LOC_Os02g32350	endosperm	The cytoplasmic-localized, cytoskeletal-associated RNA binding protein OsTudor-SN: evidence for an essential role in storage protein RNA transport and localization	data/Gene/Abstract/OS/T/OsTudor-SN
-OsTVLP1	Os03g0715500	LOC_Os03g50740	disease	Molecular cloning and expression analysis of rice OsTVLP1, encoding a protein with similarity to TGF-β receptor interacting proteins and vacuolar assembly Vam6p/Vps39p proteins	data/Gene/Abstract/OS/T/OsTVLP1
-OsTVLP1	Os03g0715500	LOC_Os03g50740	blast	Molecular cloning and expression analysis of rice OsTVLP1, encoding a protein with similarity to TGF-β receptor interacting proteins and vacuolar assembly Vam6p/Vps39p proteins	data/Gene/Abstract/OS/T/OsTVLP1
-OsTVLP1	Os03g0715500	LOC_Os03g50740	disease resistance	Molecular cloning and expression analysis of rice OsTVLP1, encoding a protein with similarity to TGF-β receptor interacting proteins and vacuolar assembly Vam6p/Vps39p proteins	data/Gene/Abstract/OS/T/OsTVLP1
+OsTVLP1	Os03g0715500	LOC_Os03g50740	disease	Molecular cloning and expression analysis of rice OsTVLP1, encoding a protein with similarity to TGF-beta receptor interacting proteins and vacuolar assembly Vam6p/Vps39p proteins	data/Gene/Abstract/OS/T/OsTVLP1
+OsTVLP1	Os03g0715500	LOC_Os03g50740	blast	Molecular cloning and expression analysis of rice OsTVLP1, encoding a protein with similarity to TGF-beta receptor interacting proteins and vacuolar assembly Vam6p/Vps39p proteins	data/Gene/Abstract/OS/T/OsTVLP1
+OsTVLP1	Os03g0715500	LOC_Os03g50740	disease resistance	Molecular cloning and expression analysis of rice OsTVLP1, encoding a protein with similarity to TGF-beta receptor interacting proteins and vacuolar assembly Vam6p/Vps39p proteins	data/Gene/Abstract/OS/T/OsTVLP1
 OsTZF1	Os05g0195101	LOC_Os05g10670	shoot	Overexpression of a phytochrome-regulated tandem zinc finger protein gene, OsTZF1, confers hypersensitivity to ABA and hyposensitivity to red light and far-red light in rice seedlings	data/Gene/Abstract/OS/T/OsTZF1
 OsTZF1	Os05g0195101	LOC_Os05g10670	salt	"OsTZF1, a CCCH-tandem zinc finger protein, confers delayed senescence and stress tolerance in rice by regulating stress-related genes"	data/Gene/Abstract/OS/T/OsTZF1
 OsTZF1	Os05g0195101	LOC_Os05g10670	panicle	OsTZF1, a CCCH-tandem zinc finger protein, confers delayed senescence and stress tolerance in rice by regulating stress-related genes	data/Gene/Abstract/OS/T/OsTZF1
@@ -13532,17 +13532,17 @@ OsXXT1	Os03g0300000	LOC_Os03g18820	growth	Mutation in xyloglucan 6-xylosytransfe
 OsXXT1	Os03g0300000	LOC_Os03g18820	cell wall	Mutation in xyloglucan 6-xylosytransferase results in abnormal root hair development in Oryza sativa.	data/Gene/Abstract/OS/X/OsXXT1
 OsXXT1	Os03g0300000	LOC_Os03g18820	root hair	Mutation in xyloglucan 6-xylosytransferase results in abnormal root hair development in Oryza sativa.	data/Gene/Abstract/OS/X/OsXXT1
 OsXXT1	Os03g0300000	LOC_Os03g18820	root epidermal cells	Mutation in xyloglucan 6-xylosytransferase results in abnormal root hair development in Oryza sativa.	data/Gene/Abstract/OS/X/OsXXT1
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	root	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	growth	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	seed	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	drought	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	salinity	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	seed germination	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	abiotic stress	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	 ABA 	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	culm	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	biotic stress	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
-OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	ABA	The rice RCN11 gene encodes β1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	root	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	growth	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	seed	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	drought	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	salinity	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	seed germination	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	abiotic stress	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	 ABA 	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	culm	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	biotic stress	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
+OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	ABA	The rice RCN11 gene encodes beta1,2-xylosyltransferase and is required for plant responses to abiotic stresses and phytohormones.	data/Gene/Abstract/R/RCN11
 OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	seedlings	The rice REDUCED CULM NUMBER11 gene controls vegetative growth under low-temperature conditions in paddy fields independent of RCN1/OsABCG5.	data/Gene/Abstract/R/RCN11
 OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	root	The rice REDUCED CULM NUMBER11 gene controls vegetative growth under low-temperature conditions in paddy fields independent of RCN1/OsABCG5.	data/Gene/Abstract/R/RCN11
 OsXylT|RCN11	Os08g0503800	LOC_Os08g39380	temperature	The rice REDUCED CULM NUMBER11 gene controls vegetative growth under low-temperature conditions in paddy fields independent of RCN1/OsABCG5.	data/Gene/Abstract/R/RCN11
@@ -15998,7 +15998,7 @@ WSL	Os01g0559500|Os01g0559550	LOC_Os01g37870	abiotic stress	A novel chloroplast-
 WSL1	Os06g0598800	LOC_Os06g39750	sheath	Wax Crystal-Sparse Leaf1 encodes a beta-ketoacyl CoA synthase involved in biosynthesis of cuticular waxes on rice leaf	data/Gene/Abstract/W/WSL1
 WSL1	Os06g0598800	LOC_Os06g39750	growth	Wax Crystal-Sparse Leaf1 encodes a beta-ketoacyl CoA synthase involved in biosynthesis of cuticular waxes on rice leaf	data/Gene/Abstract/W/WSL1
 WSL1	Os06g0598800	LOC_Os06g39750	leaf	Wax Crystal-Sparse Leaf1 encodes a beta-ketoacyl CoA synthase involved in biosynthesis of cuticular waxes on rice leaf	data/Gene/Abstract/W/WSL1
-WSL3	Os04g0483500	LOC_Os04g40730	leaf	Wax crystal-sparse leaf 3 encoding a β-ketoacyl-CoA reductase is involved in cuticular wax biosynthesis in rice.	data/Gene/Abstract/W/WSL3
+WSL3	Os04g0483500	LOC_Os04g40730	leaf	Wax crystal-sparse leaf 3 encoding a beta-ketoacyl-CoA reductase is involved in cuticular wax biosynthesis in rice.	data/Gene/Abstract/W/WSL3
 WSP1	Os04g0601800	LOC_Os04g51280	leaf	The RNA editing factor WSP1 is essential for chloroplast development in rice.	data/Gene/Abstract/W/WSP1
 WSP1	Os04g0601800	LOC_Os04g51280	panicle	The RNA editing factor WSP1 is essential for chloroplast development in rice.	data/Gene/Abstract/W/WSP1
 WSP1	Os04g0601800	LOC_Os04g51280	seedling	The RNA editing factor WSP1 is essential for chloroplast development in rice.	data/Gene/Abstract/W/WSP1
