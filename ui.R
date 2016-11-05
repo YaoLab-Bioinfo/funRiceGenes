@@ -123,7 +123,7 @@ shinyUI(fluidPage(theme="mystyle.css",
 <div class='help-tip'>
 	<p>Keywords in this database were used to describe phenotypic trait or biological process. 
 As these keywords were collected from publications, 
-you can only use the keywords listed on <a href='http://venyao.github.io/RICENCODE/tags.html' target='_blank'>
+you can only use the keywords listed on <a href='http://ricencode.github.io/tags/' target='_blank'>
 this web page</a> to query this database. 
 To use any keyword you like to query this database, 
 you can use the 'Publication' panel on the navigation bar.

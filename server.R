@@ -5,7 +5,7 @@ system('git config --global user.name "venyao"')
 system('git config --global user.email "ywhzau@gmail.com"')
 
 fetchPubmedById <- function(id="") {
-  url <- "http://www.ncbi.nlm.nih.gov/pubmed"
+  url <- "https://www.ncbi.nlm.nih.gov/pubmed"
   finalUrl <- paste(url,'?term=', id, '&report=xml&format=text', sep='')
   urlRes <- getURL(finalUrl)
   if (grepl("title", urlRes, ignore.case=TRUE)) {
@@ -237,7 +237,7 @@ fetchRefByMsu <- function(locus="") {
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -266,7 +266,7 @@ fetchFamRefByMsu <- function(locus="") {
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -292,7 +292,7 @@ fetchAccByMsu <- function(locus="") {
     if (length(acc.fls)>0) {
       acc.fls <- gsub(".+-", "", acc.fls)
       acc.fls <- sapply(acc.fls, function(x){
-        y <- paste("http://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
+        y <- paste("https://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
@@ -421,7 +421,7 @@ fetchKeyByMsu <- function(locus="") {
                         quote="", comment="")
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -450,7 +450,7 @@ fetchConneByMsu <- function(locus="") {
       names(dat) <- c("Symbol1", "Symbol2", "Title", "Evidence")
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -571,7 +571,7 @@ fetchRefByRap <- function(locus="") {
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -600,7 +600,7 @@ fetchFamRefByRap <- function(locus="") {
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -626,7 +626,7 @@ fetchAccByRap <- function(locus="") {
     if (length(acc.fls)>0) {
       acc.fls <- gsub(".+-", "", acc.fls)
       acc.fls <- sapply(acc.fls, function(x){
-        y <- paste("http://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
+        y <- paste("https://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
@@ -755,7 +755,7 @@ fetchKeyByRap <- function(locus="") {
                         quote="", comment="")
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -784,7 +784,7 @@ fetchConneByRap <- function(locus="") {
       names(dat) <- c("Symbol1", "Symbol2", "Title", "Evidence")
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -969,7 +969,7 @@ fetchRefBySym <- function(symbol="") {
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -998,7 +998,7 @@ fetchFamRefBySym <- function(symbol="") {
       dat$Affiliation <- NULL
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -1024,7 +1024,7 @@ fetchAccBySym <- function(symbol="") {
     if (length(acc.fls)>0) {
       acc.fls <- gsub(".+-", "", acc.fls)
       acc.fls <- sapply(acc.fls, function(x){
-        y <- paste("http://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
+        y <- paste("https://www.ncbi.nlm.nih.gov/nuccore/", x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
@@ -1153,7 +1153,7 @@ fetchKeyBySym <- function(symbol="") {
                         quote="", comment="")
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -1182,7 +1182,7 @@ fetchConneBySym <- function(symbol="") {
       names(dat) <- c("Symbol1", "Symbol2", "Title", "Evidence")
       for (i in 1:nrow(dat)) {
         title <- dat$Title[i]
-        dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+        dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                               '?term=(', dat$Title[i],'%5BTitle%5D', 
                               ')', sep='')
         dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
@@ -1229,7 +1229,7 @@ fetchInfoByKey <- function(keyword="") {
       dat$RAPdb[i] <- rap.new
       
       title <- dat$Title[i]
-      dat$Title[i] <- paste("http://www.ncbi.nlm.nih.gov/pubmed", 
+      dat$Title[i] <- paste("https://www.ncbi.nlm.nih.gov/pubmed", 
                             '?term=(', dat$Title[i],'%5BTitle%5D', 
                             ')', sep='')
       dat$Title[i] <- paste('<a href="', dat$Title[i], '" target="_blank">', title, 
