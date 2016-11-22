@@ -1,6 +1,6 @@
 
 shinyUI(fluidPage(theme="mystyle.css",
-                  tags$head(tags$script(HTML('Shiny.addCustomMessageHandler("jsCode",function(message) {eval(message.value);});'))),
+                  tags$head(tags$script(HTML('Shiny.addCustomMessageHandler("jsCode",function(message) {eval(message.value);});')), includeScript("google-analytics.js")),
                   
   fluidRow(
     absolutePanel(
