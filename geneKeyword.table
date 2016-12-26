@@ -16464,10 +16464,11 @@ TPI	Os01g0147900	LOC_Os01g05490	chloroplast	Cytosolic triosephosphate isomerase 
 TPI	Os01g0147900	LOC_Os01g05490	leaf	Cytosolic triosephosphate isomerase is a single gene in rice	data/Gene/Abstract/T/TPI
 TRAB1|OsbZIP66	Os08g0471950|Os08g0472000	LOC_Os08g36790	dormancy	A bZIP factor, TRAB1, interacts with VP1 and mediates abscisic acid-induced transcription	data/Gene/Abstract/T/TRAB1~OsbZIP66
 TRAB1|OsbZIP66	Os08g0471950|Os08g0472000	LOC_Os08g36790	 ABA 	Abscisic Acid-Induced Transcription Is Mediated by Phosphorylation of an Abscisic Acid Response Element Binding Factor, TRAB1	data/Gene/Abstract/T/TRAB1~OsbZIP66
-TUD1	Os03g0232600	LOC_Os03g13010	growth	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
-TUD1	Os03g0232600	LOC_Os03g13010	brassinosteroid	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
-TUD1	Os03g0232600	LOC_Os03g13010	dwarf	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
-TUD1	Os03g0232600	LOC_Os03g13010	 BR 	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
+TUD1|DSG1	Os03g0232600	LOC_Os03g13010	growth	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
+TUD1|DSG1	Os03g0232600	LOC_Os03g13010	brassinosteroid	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
+TUD1|DSG1	Os03g0232600	LOC_Os03g13010	dwarf	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
+TUD1|DSG1	Os03g0232600	LOC_Os03g13010	dwarf	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
+TUD1|DSG1	Os03g0232600	LOC_Os03g13010	 BR 	The U-box E3 ubiquitin ligase TUD1 functions with a heterotrimeric G alpha subunit to regulate Brassinosteroid-mediated growth in rice	data/Gene/Abstract/T/TUD1
 TYDC	Os01g0770200	LOC_Os01g56380	growth	Characterization of rice tryptophan decarboxylases and their direct involvement in serotonin biosynthesis in transgenic rice	data/Gene/Abstract/T/TYDC
 TYDC	Os01g0770200	LOC_Os01g56380	seed	Characterization of rice tryptophan decarboxylases and their direct involvement in serotonin biosynthesis in transgenic rice	data/Gene/Abstract/T/TYDC
 UBQ	Os03g0234200	LOC_Os03g13170	Ubiquitin	Rice actin-binding protein RMD is a key link in the auxin-actin regulatory loop that controls cell growth	data/Gene/Abstract/U/UBQ
