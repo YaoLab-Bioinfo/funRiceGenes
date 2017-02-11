@@ -36,3 +36,12 @@ for (i in key.fls) {
   write.table(dat, file=i, sep="\t", quote=F, row.names=F)
 }
 
+dat <- read.table("E:/GIT/RICENCODE/geneKeyword.table", head=T, as.is=T, 
+                  sep="\t", quote="", comment="")
+dat$Title <- gsub("^\\s+", "", dat$Title)
+dat$Title <- gsub('^"+', "", dat$Title)
+dat$Title <- gsub("\\s+$", "", dat$Title)
+dat$Title <- gsub('"+$', "", dat$Title)
+
+write.table(dat, file="E:/GIT/RICENCODE/geneKeyword.table", sep="\t", quote=F, row.names=F)
+
