@@ -4,6 +4,26 @@ unlink("E:/GIT/ricencode.github.io/_posts", recur=T, force=T)
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
 
+dat.gene <- gene.lst
+dat.gene$path <- NULL
+write.table(dat.gene, file="E:/GIT/ricencode.github.io/geneInfo.table.txt", 
+            quote=F, sep="\t", row.names=F)
+
+dat.fam <- read.table("famInfo.table", head=T, 
+                      as.is=T, sep="\t", quote="", comment="")
+dat.fam$Name <- basename(dat.fam$path)
+dat.fam$path <- NULL
+write.table(dat.fam, file="E:/GIT/ricencode.github.io/famInfo.table.txt", 
+            quote=F, sep="\t", row.names=F)
+
+file.copy(from="reference.table", to="E:/GIT/ricencode.github.io/reference.table.txt", overwrite = TRUE)
+
+dat.key <- read.table("geneKeyword.table", head=T, as.is = T, sep="\t", quote="", comment="")
+dat.key$path <- NULL
+write.table(dat.key, file="E:/GIT/ricencode.github.io/geneKeyword.table.txt", 
+            quote=F, sep="\t", row.names=F)
+
+
 for (j in 1:nrow(gene.lst)) {
   sym <- gene.lst$Symbol[j]
   sym <- gsub("\\|", ",", sym)
