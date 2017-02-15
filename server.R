@@ -2239,7 +2239,7 @@ shinyServer(function(input, output, session) {
 	  if (input$clear6>0) {
 		isolate({
 			updateTextInput(session, "pubmed10", value="")
-			input$clearFile1
+			input$clear6
 			values$file1 <- NULL
 		})
       } else {NULL}
