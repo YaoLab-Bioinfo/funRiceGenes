@@ -1,6 +1,6 @@
 
 shinyUI(fluidPage(theme="mystyle.css",
-                  tags$head(tags$script(HTML('Shiny.addCustomMessageHandler("jsCode",function(message) {eval(message.value);});')), includeScript("google-analytics.js", "active.js")),
+                  tags$head(tags$script(HTML('Shiny.addCustomMessageHandler("jsCode",function(message) {eval(message.value);});')), includeScript("google-analytics.js")),
                   
   fluidRow(
     absolutePanel(
@@ -114,7 +114,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       wellPanel(style = "background-color: #336699",
         column(4, textInput('pubmed10', strong("Pubmed ID"),value="")),
         column(4, textInput('key10', strong("Password"),value="")),
-        column(4, fileInput('file1', strong("Gene Family info"),
+        column(4, fileInput('genfamin', strong("Gene Family info"),
                             accept=c(".txt"))),
         actionButton("submit10", strong("Submit")),
         actionButton("clear6", strong("Clear"))

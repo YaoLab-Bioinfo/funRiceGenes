@@ -2230,17 +2230,10 @@ shinyServer(function(input, output, session) {
       } else {NULL}
    })
 
-
-   values <- reactiveValues(
-        file1 = NULL
-    )
-
    observe({
 	  if (input$clear6>0) {
 		isolate({
 			updateTextInput(session, "pubmed10", value="")
-			input$clear6
-			values$file1 <- NULL
 		})
       } else {NULL}
    })
@@ -2250,8 +2243,7 @@ shinyServer(function(input, output, session) {
      if (input$submit10>0) {
        isolate({
          if (input$key10==mypasswd) {
-	   values$file1 <- input$file1
-           df.genefam <- read.table(values$file1$datapath, head=T, sep="\t", as.is=T)
+           df.genefam <- read.table(input$genfamin$datapath, head=T, sep="\t", as.is=T)
            
            symbol <- df.genefam$Name[1]
            symbol.low <- tolower(symbol)
