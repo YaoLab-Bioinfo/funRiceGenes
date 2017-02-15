@@ -2250,7 +2250,7 @@ shinyServer(function(input, output, session) {
      if (input$submit10>0) {
        isolate({
          if (input$key10==mypasswd) {
-	   values$file1 <- input$genfamin
+	   values$file1 <- input$file1
            df.genefam <- read.table(values$file1$datapath, head=T, sep="\t", as.is=T)
            
            symbol <- df.genefam$Name[1]

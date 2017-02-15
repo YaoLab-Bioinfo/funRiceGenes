@@ -2,16 +2,16 @@
 $(document).ready(function() {
 
     /* clear file button control */
-    var fileControl = $("#genfamin");
+    var fileControl = $("#file1");
 
     $("#clear6").on("click", function () {
         fileControl.replaceWith( fileControl = fileControl.clone( true ) );
-        $("#genfamin_progress").hide();
+        $("#file1_progress").hide();
     });
 
     /* file input progress bar control */
-    $( "#genfamin" ).change(function() {
-      document.getElementById("genfamin_progress").setAttribute('style', "height:20px; margin-top:5px;");
+    $( "#file1" ).change(function() {
+      document.getElementById("file1_progress").setAttribute('style', "height:20px; margin-top:5px;");
     });
 
 });
