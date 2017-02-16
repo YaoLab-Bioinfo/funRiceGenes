@@ -4221,10 +4221,6 @@ OgPAE1	Os11g0615700	LOC_Os11g40140	jasmonic acid	Overexpression of OgPAE1 from w
 OGR1	Os12g0270200	LOC_Os12g17080	growth	Rice OGR1 encodes a pentatricopeptide repeat-DYW protein and is essential for RNA editing in mitochondria	data/Gene/Abstract/O/OGR1
 OGR1	Os12g0270200	LOC_Os12g17080	mitochondria	Rice OGR1 encodes a pentatricopeptide repeat-DYW protein and is essential for RNA editing in mitochondria	data/Gene/Abstract/O/OGR1
 OHK2|OsHk3	Os01g0923700	LOC_Os01g69920	cytokinin	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK2~OsHk3
-OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	shoot	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
-OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	grain	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
-OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	cytokinin	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
-OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	spikelet	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
 OIP30	Os06g0186900	LOC_Os06g08770	pollen	OIP30, a RuvB-like DNA helicase 2, is a potential substrate for the pollen-predominant OsCPK25/26 in rice	data/Gene/Abstract/O/OIP30
 OMTN3	Os12g0610600	LOC_Os12g41680	drought resistance	Conserved miR164-targeted NAC genes negatively regulate drought resistance in rice	data/Gene/Abstract/O/OMTN3
 OMTN4	Os06g0675600	LOC_Os06g46270	drought resistance	Conserved miR164-targeted NAC genes negatively regulate drought resistance in rice	data/Gene/Abstract/O/OMTN4
@@ -6134,6 +6130,12 @@ OsCK1|OsCIPK31|CIPK03	Os03g0319400	LOC_Os03g20380	salt	Characterization of stres
 OsCK1|OsCIPK31|CIPK03	Os03g0319400	LOC_Os03g20380	seed germination	OsCIPK31, a CBL-interacting protein kinase is involved in germination and seedling growth under abiotic stress conditions in rice plants	data/Gene/Abstract/OS/C/CIPK03~OsCIPK31
 OsCK1|OsCIPK31|CIPK03	Os03g0319400	LOC_Os03g20380	 ABA 	OsCIPK31, a CBL-interacting protein kinase is involved in germination and seedling growth under abiotic stress conditions in rice plants	data/Gene/Abstract/OS/C/CIPK03~OsCIPK31
 OsCK1|OsCIPK31|CIPK03	Os03g0319400	LOC_Os03g20380	abiotic stress	OsCIPK31, a CBL-interacting protein kinase is involved in germination and seedling growth under abiotic stress conditions in rice plants	data/Gene/Abstract/OS/C/CIPK03~OsCIPK31
+OsCKT1|OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	shoot	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
+OsCKT1|OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	grain	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
+OsCKT1|OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	cytokinin	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
+OsCKT1|OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	cytokinin	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
+OsCKT1|OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	cytokinin	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
+OsCKT1|OHK5|OsHk6	Os02g0738400	LOC_Os02g50480	spikelet	Functional identification of OsHk6 as a homotypic cytokinin receptor in rice with preferential affinity for iP	data/Gene/Abstract/O/OHK5~OsHk6
 OsCKX4	Os01g0940000	LOC_Os01g71310	leaf	CYTOKININ OXIDASE/DEHYDROGENASE4 Integrates Cytokinin and Auxin Signaling to Control Rice Crown Root Formation.	data/Gene/Abstract/OS/C/OsCKX4
 OsCKX4	Os01g0940000	LOC_Os01g71310	root	CYTOKININ OXIDASE/DEHYDROGENASE4 Integrates Cytokinin and Auxin Signaling to Control Rice Crown Root Formation.	data/Gene/Abstract/OS/C/OsCKX4
 OsCKX4	Os01g0940000	LOC_Os01g71310	root	CYTOKININ OXIDASE/DEHYDROGENASE4 Integrates Cytokinin and Auxin Signaling to Control Rice Crown Root Formation.	data/Gene/Abstract/OS/C/OsCKX4
