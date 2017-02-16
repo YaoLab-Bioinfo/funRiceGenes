@@ -1,8 +1,8 @@
 
 library(RCurl)
 
-i.start <- 2872
-i.end <- 2900
+i.start <- 2900
+i.end <- 70000
 
 for (i in i.start:i.end) {
   url <- paste("http://www.ricedata.cn/gene/list/", i, ".htm", sep="")
