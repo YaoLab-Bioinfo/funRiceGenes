@@ -1250,7 +1250,7 @@ write.gene <- function(df) {
   if (grepl("^os", symbol.low)) {
     symbol.low <- gsub("^os", "", symbol.low)
     symbol.head <- substr(symbol.low, 1, 1)
-    if (symbol.head %in% letters[1:24]) {
+    if (symbol.head %in% letters[1:26]) {
       dir.to <- paste("data/Gene/Abstract/OS", 
                       toupper(symbol.head), sep="/")
     } else {
@@ -1258,7 +1258,7 @@ write.gene <- function(df) {
     }
   } else {
     symbol.head <- substr(symbol.low, 1, 1)
-    if (symbol.head %in% letters[1:24]) {
+    if (symbol.head %in% letters[1:26]) {
       dir.to <- paste("data/Gene/Abstract", 
                       toupper(symbol.head), sep="/")
     } else {
@@ -2250,7 +2250,7 @@ shinyServer(function(input, output, session) {
            if (grepl("^os", symbol.low)) {
              symbol.low <- gsub("^os", "", symbol.low)
              symbol.head <- substr(symbol.low, 1, 1)
-             if (symbol.head %in% letters[1:24]) {
+             if (symbol.head %in% letters[1:26]) {
                dir.to <- paste("data/Family/OS", 
                                toupper(symbol.head), sep="/")
              } else {
@@ -2258,7 +2258,7 @@ shinyServer(function(input, output, session) {
              }
            } else {
              symbol.head <- substr(symbol.low, 1, 1)
-             if (symbol.head %in% letters[1:24]) {
+             if (symbol.head %in% letters[1:26]) {
                dir.to <- paste("data/Family/", 
                                toupper(symbol.head), sep="/")
              } else {
