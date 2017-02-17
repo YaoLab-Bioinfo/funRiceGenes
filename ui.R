@@ -87,8 +87,13 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
 
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>GeneFamily</span>"),
-	           radioButtons("queryfam", h4("* Query with 
-                                    gene symbol or genomic locus"), 
+	           radioButtons("queryfam", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Query with gene symbol or genomic locus</h4></td>
+<td>
+<div class='help-tip'>
+	<p>Fill in the table cells (case insensitive) to fetch information on rice genes.</p>
+	                                      </div></td></tr>
+	                                      </table>
+	                                      "),
             choices=c("MSU Locus", "RAPdb Locus", "Gene Symbol"), inline=TRUE),
 
       uiOutput("inTextfam"),
@@ -143,9 +148,14 @@ you can use the 'Publication' panel on the navigation bar.
       ),
       
       br(),
-      p(HTML("
-             <h4>* Submit new keyword
-             </h4>
+      p(HTML("<table style='background-color: #DDF3FF'><tr><td>
+             <h4>* Submit new keywords on genes
+             </h4></td><td>
+<div class='help-tip'>
+	<p>Key information on genes extracted from abstracts.
+</p>
+	                                      </div></td></tr>
+	                                      </table>
        ")
       ),
       wellPanel(style = "background-color: #336699",
@@ -176,9 +186,14 @@ you can use the 'Publication' panel on the navigation bar.
 
       br(),
       
-      p(HTML("
+      p(HTML("<table style='background-color: #DDF3FF'><tr><td>
              <h4>* Submit new publication
-             </h4>
+             </h4></td><td>
+<div class='help-tip'>
+	<p>Submit publications not archived in Pubmed.
+</p>
+	                                      </div></td></tr>
+	                                      </table>
         ")
       ),
       wellPanel(style = "background-color: #8080c0",
@@ -195,8 +210,14 @@ you can use the 'Publication' panel on the navigation bar.
 	  ),
 
      tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>IDConversion</span>"),
-              radioButtons("queryconv", h4("* Convert between MSU genomic locus
-                                  and RAPdb genomic locus"), 
+              radioButtons("queryconv", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Convert between MSU genomic locus
+                                  and RAPdb genomic locus</h4></td>
+<td>
+<div class='help-tip'>
+	<p>Conversion.</p>
+	                                      </div></td></tr>
+	                                      </table>
+	                                      "),
                  choices=c("RAPdb to MSU", "MSU to RAPdb"), inline=TRUE),
 
       uiOutput("inTextconv"),
