@@ -1167,12 +1167,13 @@ D50	Os02g0477700	LOC_Os02g27620	dwarf	DWARF50 (D50), a rice (Oryza sativa L.) ge
 D50	Os02g0477700	LOC_Os02g27620	intercalary meristem	DWARF50 (D50), a rice (Oryza sativa L.) gene encoding inositol polyphosphate 5-phosphatase, is required for proper development of intercalary meristem	data/Gene/Abstract/D/D50
 D50	Os02g0477700	LOC_Os02g27620	cell division	DWARF50 (D50), a rice (Oryza sativa L.) gene encoding inositol polyphosphate 5-phosphatase, is required for proper development of intercalary meristem	data/Gene/Abstract/D/D50
 D50	Os02g0477700	LOC_Os02g27620	meristem	DWARF50 (D50), a rice (Oryza sativa L.) gene encoding inositol polyphosphate 5-phosphatase, is required for proper development of intercalary meristem	data/Gene/Abstract/D/D50
-D53	Os11g0104300	LOC_Os11g01330	strigolactone	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
-D53	Os11g0104300	LOC_Os11g01330	growth	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
-D53	Os11g0104300	LOC_Os11g01330	dwarf	DWARF 53 acts as a repressor of strigolactone signalling in rice	data/Gene/Abstract/D/D53
-D53	Os11g0104300	LOC_Os11g01330	dwarf	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
-D53	Os11g0104300	LOC_Os11g01330	tiller	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
-D53	Os11g0104300	LOC_Os11g01330	resistant	DWARF 53 acts as a repressor of strigolactone signalling in rice	data/Gene/Abstract/D/D53
+D53	Os11g0104300|Os11g0104350	LOC_Os11g01330	strigolactone	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
+D53	Os11g0104300|Os11g0104350	LOC_Os11g01330	growth	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
+D53	Os11g0104300|Os11g0104350	LOC_Os11g01330	dwarf	DWARF 53 acts as a repressor of strigolactone signalling in rice	data/Gene/Abstract/D/D53
+D53	Os11g0104300|Os11g0104350	LOC_Os11g01330	dwarf	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
+D53	Os11g0104300|Os11g0104350	LOC_Os11g01330	dwarf	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
+D53	Os11g0104300|Os11g0104350	LOC_Os11g01330	tiller	D14-SCF(D3)-dependent degradation of D53 regulates strigolactone signalling	data/Gene/Abstract/D/D53
+D53	Os11g0104300|Os11g0104350	LOC_Os11g01330	resistant	DWARF 53 acts as a repressor of strigolactone signalling in rice	data/Gene/Abstract/D/D53
 D6|OSH15|Oskn3	Os07g0129700	LOC_Os07g03770	vegetative	Characterization of the KNOX class homeobox genes Oskn2 and Oskn3 identified in a collection of cDNA libraries covering the early stages of rice embryogenesis	data/Gene/Abstract/D/d6~OSH15~Oskn3
 D6|OSH15|Oskn3	Os07g0129700	LOC_Os07g03770	vegetative	SUI-family genes encode phosphatidylserine synthases and regulate stem development in rice	data/Gene/Abstract/D/d6~OSH15~Oskn3
 D6|OSH15|Oskn3	Os07g0129700	LOC_Os07g03770	shoot	KNOX homeobox genes are sufficient in maintaining cultured cells in an undifferentiated state in rice	data/Gene/Abstract/D/d6~OSH15~Oskn3
