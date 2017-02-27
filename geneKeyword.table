@@ -9283,13 +9283,6 @@ OsLAC10	Os02g0749700	LOC_Os02g51440	copper	Comprehensive Analysis of Rice Laccas
 OsLAC10	Os02g0749700	LOC_Os02g51440	lignin	Comprehensive Analysis of Rice Laccase Gene (OsLAC) Family and Ectopic Expression of OsLAC10 Enhances Tolerance to Copper Stress in Arabidopsis.	data/Gene/Abstract/OS/L/OsLAC10
 OsLAC10	Os02g0749700	LOC_Os02g51440	lignin	Comprehensive Analysis of Rice Laccase Gene (OsLAC) Family and Ectopic Expression of OsLAC10 Enhances Tolerance to Copper Stress in Arabidopsis.	data/Gene/Abstract/OS/L/OsLAC10
 OsLAC10	Os02g0749700	LOC_Os02g51440	lignin biosynthesis	Comprehensive Analysis of Rice Laccase Gene (OsLAC) Family and Ectopic Expression of OsLAC10 Enhances Tolerance to Copper Stress in Arabidopsis.	data/Gene/Abstract/OS/L/OsLAC10
-OsLBD3-7	Os03g0790600	LOC_Os03g57670	leaf	OsLBD3-7 Overexpression Induced Adaxially Rolled Leaves in Rice.	data/Gene/Abstract/OS/L/OsLBD3-7
-OsLBD3-7	Os03g0790600	LOC_Os03g57670	leaf	OsLBD3-7 Overexpression Induced Adaxially Rolled Leaves in Rice.	data/Gene/Abstract/OS/L/OsLBD3-7
-OsLBD3-7	Os03g0790600	LOC_Os03g57670	development	OsLBD3-7 Overexpression Induced Adaxially Rolled Leaves in Rice.	data/Gene/Abstract/OS/L/OsLBD3-7
-OsLBD3-7	Os03g0790600	LOC_Os03g57670	nucleus	OsLBD3-7 Overexpression Induced Adaxially Rolled Leaves in Rice.	data/Gene/Abstract/OS/L/OsLBD3-7
-OsLBD3-7	Os03g0790600	LOC_Os03g57670	plasma membrane	OsLBD3-7 Overexpression Induced Adaxially Rolled Leaves in Rice.	data/Gene/Abstract/OS/L/OsLBD3-7
-OsLBD3-7	Os03g0790600	LOC_Os03g57670	transcription activator	OsLBD3-7 Overexpression Induced Adaxially Rolled Leaves in Rice.	data/Gene/Abstract/OS/L/OsLBD3-7
-OsLBD3-7	Os03g0790600	LOC_Os03g57670	leaf rolling	OsLBD3-7 Overexpression Induced Adaxially Rolled Leaves in Rice.	data/Gene/Abstract/OS/L/OsLBD3-7
 OsLCB2a1	Os01g0928800	LOC_Os01g70380	seedlings	Molecular Characterization of Rice OsLCB2a1 Gene and Functional Analysis of its Role in Insect Resistance.	data/Gene/Abstract/OS/L/OsLCB2a1
 OsLCB2a1	Os01g0928800	LOC_Os01g70380	defense	Molecular Characterization of Rice OsLCB2a1 Gene and Functional Analysis of its Role in Insect Resistance.	data/Gene/Abstract/OS/L/OsLCB2a1
 OsLCB2a1	Os01g0928800	LOC_Os01g70380	insect	Molecular Characterization of Rice OsLCB2a1 Gene and Functional Analysis of its Role in Insect Resistance.	data/Gene/Abstract/OS/L/OsLCB2a1
@@ -15553,11 +15546,13 @@ PLA2|LHD2	Os01g0907900	LOC_Os01g68000	leaf	Leafy head2, which encodes a putative
 PLA2|LHD2	Os01g0907900	LOC_Os01g68000	shoot	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA2~LHD2
 PLA2|LHD2	Os01g0907900	LOC_Os01g68000	shoot	Leafy head2, which encodes a putative RNA-binding protein, regulates shoot development of rice	data/Gene/Abstract/P/PLA2~LHD2
 PLA2|LHD2	Os01g0907900	LOC_Os01g68000	seed	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA2~LHD2
-PLA3	Os03g0790600	LOC_Os03g57660	seed	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
-PLA3	Os03g0790600	LOC_Os03g57660	homeostasis	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
-PLA3	Os03g0790600	LOC_Os03g57660	leaf	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
-PLA3	Os03g0790600	LOC_Os03g57660	shoot	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
-PLA3	Os03g0790600	LOC_Os03g57660	reproductive	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
+PLA3|OsLBD3-7	Os03g0790600	LOC_Os03g57660	seed	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
+PLA3|OsLBD3-7	Os03g0790600	LOC_Os03g57660	homeostasis	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
+PLA3|OsLBD3-7	Os03g0790600	LOC_Os03g57660	leaf	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
+PLA3|OsLBD3-7	Os03g0790600	LOC_Os03g57660	leaf	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
+PLA3|OsLBD3-7	Os03g0790600	LOC_Os03g57660	leaf	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
+PLA3|OsLBD3-7	Os03g0790600	LOC_Os03g57660	shoot	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
+PLA3|OsLBD3-7	Os03g0790600	LOC_Os03g57660	reproductive	PLASTOCHRON3/GOLIATH encodes a glutamate carboxypeptidase required for proper development in rice	data/Gene/Abstract/P/PLA3
 PMS1T	None	None	fertility	PMS1T, producing phased small-interfering RNAs, regulates photoperiod-sensitive male sterility in rice.	data/Gene/Abstract/P/PMS1T
 pms3	None	None	sterility	Localization of pms3, a gene for photoperiod-sensitive genic male sterility, to a 28.4-kb DNA fragment	data/Gene/Abstract/P/pms3
 pms3	None	None	sterile	Localization of pms3, a gene for photoperiod-sensitive genic male sterility, to a 28.4-kb DNA fragment	data/Gene/Abstract/P/pms3
