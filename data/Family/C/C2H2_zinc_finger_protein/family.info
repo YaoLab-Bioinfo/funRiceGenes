@@ -1,7 +1,6 @@
 Accession	Symbol	MSU	RAPdb	Name
 NM_184257.1	ZOS1-03	LOC_Os01g04120	Os01g0132766	C2H2 zinc finger protein, expressed
-AK105663|NM_188227.1	ZOS1-04	LOC_Os01g09850	Os01g0195066	C2H2 zinc finger protein, expressed
-AK105663|NM_188227.1	ZOS1-04	LOC_Os01g09850	Os01g0195000	C2H2 zinc finger protein, expressed
+AK105663|NM_188227.1	ZOS1-04	LOC_Os01g09850	Os01g0195000|Os01g0195066	C2H2 zinc finger protein, expressed
 AK063298|AK108417|NM_187857.1	ZOS1-06	LOC_Os01g14840	Os01g0251200	C2H2 zinc finger protein, expressed
 NA	ZOS1-08	LOC_Os01g32920	Os01g0512700	C2H2 zinc finger protein, expressed
 AK103402|AK059387|XM_463365.1	ZOS1-11	LOC_Os01g40110	Os01g0583200	C2H2 zinc finger protein, expressed
@@ -61,8 +60,7 @@ AK100915	ZOS6-10	LOC_Os06g49490	Os06g0708600	C2H2 zinc finger protein, expressed
 AK108097	ZOS6-11	LOC_Os06g51140	Os06g0727000	C2H2 zinc finger protein, expressed
 XM_476354.1	ZOS7-01	LOC_Os07g01180	Os07g0101800	C2H2 zinc finger protein, expressed
 AK062388|XM_478767.1	ZOS7-05	LOC_Os07g38240	Os07g0569700	C2H2 zinc finger protein, expressed
-XM_478884.1	ZOS7-06	LOC_Os07g39310	Os07g0581366	C2H2 zinc finger protein, expressed
-XM_478884.1	ZOS7-06	LOC_Os07g39310	Os07g0581400	C2H2 zinc finger protein, expressed
+XM_478884.1	ZOS7-06	LOC_Os07g39310	Os07g0581366|Os07g0581400	C2H2 zinc finger protein, expressed
 AK120003	ZOS7-09	LOC_Os07g40080	Os07g0590100	C2H2 zinc finger protein, expressed
 XM_479025.1	ZOS7-11	LOC_Os07g40780	Os07g0598800	C2H2 zinc finger protein, expressed
 AK108117|XM_481174.1	ZOS8-01	LOC_Os08g16940	Os08g0270900	C2H2 zinc finger protein, expressed
