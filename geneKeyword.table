@@ -6729,11 +6729,12 @@ OsDCL3a	Os01g0909200	LOC_Os01g68120	homeostasis	Dicer-like 3 produces transposab
 OsDCL3a	Os01g0909200	LOC_Os01g68120	gibberellin	Dicer-like 3 produces transposable element-associated 24-nt siRNAs that control agricultural traits in rice	data/Gene/Abstract/OS/D/OsDCL3a
 OsDDB1	Os05g0592400	LOC_Os05g51480	 ABA 	The De-Etiolated 1 Homolog of Arabidopsis Modulates the ABA Signaling Pathway and ABA Biosynthesis in Rice.	data/Gene/Abstract/OS/D/OsDDB1
 OsDDB1	Os05g0592400	LOC_Os05g51480	ABA	The De-Etiolated 1 Homolog of Arabidopsis Modulates the ABA Signaling Pathway and ABA Biosynthesis in Rice.	data/Gene/Abstract/OS/D/OsDDB1
-OsDEES1	Os09g0561600	LOC_Os09g38850	seed	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
-OsDEES1	Os09g0561600	LOC_Os09g38850	flower	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
-OsDEES1	Os09g0561600	LOC_Os09g38850	sterility	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
-OsDEES1	Os09g0561600	LOC_Os09g38850	seedling	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
-OsDEES1	Os09g0561600	LOC_Os09g38850	reproductive	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
+OsDEES1|OsWAK91	Os09g0561600	LOC_Os09g38850	seed	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
+OsDEES1|OsWAK91	Os09g0561600	LOC_Os09g38850	seed	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
+OsDEES1|OsWAK91	Os09g0561600	LOC_Os09g38850	flower	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
+OsDEES1|OsWAK91	Os09g0561600	LOC_Os09g38850	sterility	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
+OsDEES1|OsWAK91	Os09g0561600	LOC_Os09g38850	seedling	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
+OsDEES1|OsWAK91	Os09g0561600	LOC_Os09g38850	reproductive	The rice wall-associated receptor-like kinase gene OsDEES1 plays a role in female gametophyte development	data/Gene/Abstract/OS/D/OsDEES1
 OsDEG10	Os08g0139000	LOC_Os08g04440	cold stress	OsDEG10 encoding a small RNA-binding protein is involved in abiotic stress signaling	data/Gene/Abstract/OS/D/OsDEG10
 OsDEG10	Os08g0139000	LOC_Os08g04440	abiotic stress	OsDEG10 encoding a small RNA-binding protein is involved in abiotic stress signaling	data/Gene/Abstract/OS/D/OsDEG10
 OsDERF1	Os08g0454000	LOC_Os08g35240	tiller	Transcriptional activation of OsDERF1 in OsERF3 and OsAP2-39 negatively modulates ethylene synthesis and drought tolerance in rice	data/Gene/Abstract/OS/D/OsDERF1
@@ -14378,10 +14379,6 @@ OsWAK14	Os02g0632800	LOC_Os02g42150	blast resistance	Several wall-associated kin
 OsWAK25	Os03g0225700	LOC_Os03g12470	wounding	Overexpression of Rice Wall-Associated Kinase 25 (OsWAK25) Alters Resistance to Bacterial and Fungal Pathogens.	data/Gene/Abstract/OS/W/OsWAK25
 OsWAK25	Os03g0225700	LOC_Os03g12470	lesion	Overexpression of Rice Wall-Associated Kinase 25 (OsWAK25) Alters Resistance to Bacterial and Fungal Pathogens.	data/Gene/Abstract/OS/W/OsWAK25
 OsWAK25	Os03g0225700	LOC_Os03g12470	lesion mimic	Overexpression of Rice Wall-Associated Kinase 25 (OsWAK25) Alters Resistance to Bacterial and Fungal Pathogens.	data/Gene/Abstract/OS/W/OsWAK25
-OsWAK91	Os09g0561600	LOC_Os09g38850	resistance	Several wall-associated kinases participate positively and negatively in basal defense against rice blast fungus.	data/Gene/Abstract/OS/W/OsWAK91
-OsWAK91	Os09g0561600	LOC_Os09g38850	defense	Several wall-associated kinases participate positively and negatively in basal defense against rice blast fungus.	data/Gene/Abstract/OS/W/OsWAK91
-OsWAK91	Os09g0561600	LOC_Os09g38850	blast	Several wall-associated kinases participate positively and negatively in basal defense against rice blast fungus.	data/Gene/Abstract/OS/W/OsWAK91
-OsWAK91	Os09g0561600	LOC_Os09g38850	blast resistance	Several wall-associated kinases participate positively and negatively in basal defense against rice blast fungus.	data/Gene/Abstract/OS/W/OsWAK91
 OsWAK92	Os09g0562600	LOC_Os09g38910	resistance	Several wall-associated kinases participate positively and negatively in basal defense against rice blast fungus.	data/Gene/Abstract/OS/W/OsWAK92
 OsWAK92	Os09g0562600	LOC_Os09g38910	blast	Several wall-associated kinases participate positively and negatively in basal defense against rice blast fungus.	data/Gene/Abstract/OS/W/OsWAK92
 OsWAK92	Os09g0562600	LOC_Os09g38910	blast resistance	Several wall-associated kinases participate positively and negatively in basal defense against rice blast fungus.	data/Gene/Abstract/OS/W/OsWAK92
