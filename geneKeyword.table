@@ -1652,8 +1652,6 @@ Du1	Os10g0498600	LOC_Os10g35550	starch biosynthesis	Du1, encoding a novel Prp1 p
 Du1	Os10g0498600	LOC_Os10g35550	starch	Du1, encoding a novel Prp1 protein, regulates starch biosynthesis through affecting the splicing of Wxb pre-mRNAs in rice (Oryza sativa L.)	data/Gene/Abstract/D/Du1
 DWA1	Os04g0473850	LOC_Os04g39780	drought resistance	Putative megaenzyme DWA1 plays essential roles in drought resistance by regulating stress-induced wax deposition in rice	data/Gene/Abstract/D/DWA1
 DWA1	Os04g0473850	LOC_Os04g39780	drought	Putative megaenzyme DWA1 plays essential roles in drought resistance by regulating stress-induced wax deposition in rice	data/Gene/Abstract/D/DWA1
-DWF1|DIM;DWF1|DIM	Os04g0570500	LOC_Os04g48200	 BR 	OsGSR1 is involved in crosstalk between gibberellins and brassinosteroids in rice	data/Gene/Abstract/D/DWF1~DIM;DWF1~DIM
-DWF1|DIM;DWF1|DIM	Os04g0570500	LOC_Os04g48200	ethylene	OsGSR1 is involved in crosstalk between gibberellins and brassinosteroids in rice	data/Gene/Abstract/D/DWF1~DIM;DWF1~DIM
 DWT1	Os01g0667450|Os01g0667400	LOC_Os01g47710	tiller	Dwarf Tiller1, a Wuschel-related homeobox transcription factor, is required for tiller growth in rice	data/Gene/Abstract/D/DWT1
 DWT1	Os01g0667450|Os01g0667400	LOC_Os01g47710	growth	Dwarf Tiller1, a Wuschel-related homeobox transcription factor, is required for tiller growth in rice	data/Gene/Abstract/D/DWT1
 DWT1	Os01g0667450|Os01g0667400	LOC_Os01g47710	transcription factor	Dwarf Tiller1, a Wuschel-related homeobox transcription factor, is required for tiller growth in rice	data/Gene/Abstract/D/DWT1
@@ -1947,19 +1945,19 @@ FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	growth	RICE MORPHOLOGY D
 FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	inflorescence	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis	data/Gene/Abstract/F/FH5~RMD~BUI1
 FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	cell elongation	RICE MORPHOLOGY DETERMINANT encodes the type II formin FH5 and regulates rice morphogenesis	data/Gene/Abstract/F/FH5~RMD~BUI1
 FH5|RMD|BUI1	Os07g0596300	LOC_Os07g40510|LOC_Os07g40520	panicle	BENT UPPERMOST INTERNODE1 encodes the class II formin FH5 crucial for actin organization and rice development	data/Gene/Abstract/F/FH5~RMD~BUI1
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	auxin	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	tryptophan aminotransferase	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	small leaves	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	large lamina joint angles	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	IAA	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	IAA biosynthesis	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	IAA biosynthesis	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	auxin biosynthesis	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	auxin transport	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	vascular development	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	panicle	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	organ identity	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
-FIB	Os01g0169800|Os01g0169851	LOC_Os01g07500	root development	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	auxin	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	tryptophan aminotransferase	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	small leaves	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	large lamina joint angles	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	IAA	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	IAA biosynthesis	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	IAA biosynthesis	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	auxin biosynthesis	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	auxin transport	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	vascular development	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	panicle	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	organ identity	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
+FIB	Os01g0169800	LOC_Os01g07500	root development	The rice FISH BONE gene encodes a tryptophan aminotransferase, which affects pleiotropic auxin-related processes	data/Gene/Abstract/F/FIB
 FKF1|OsFKF1	Os11g0547000	LOC_Os11g34460	flower	Rice FLAVIN-BINDING, KELCH REPEAT, F-BOX 1 (OsFKF1) promotes flowering independent of photoperiod.	data/Gene/Body/F/FKF1
 FKF1|OsFKF1	Os11g0547000	LOC_Os11g34460	floral	Rice FLAVIN-BINDING, KELCH REPEAT, F-BOX 1 (OsFKF1) promotes flowering independent of photoperiod.	data/Gene/Body/F/FKF1
 FKF1|OsFKF1	Os11g0547000	LOC_Os11g34460	floral	Rice FLAVIN-BINDING, KELCH REPEAT, F-BOX 1 (OsFKF1) promotes flowering independent of photoperiod.	data/Gene/Body/F/FKF1
@@ -10521,30 +10519,30 @@ OsMYB55	Os05g0553400	LOC_Os05g48010	grain yield	The rice R2R3-MYB transcription 
 OsMYB55	Os05g0553400	LOC_Os05g48010	growth	The rice R2R3-MYB transcription factor OsMYB55 is involved in the tolerance to high temperature and modulates amino acid metabolism	data/Gene/Abstract/OS/M/OsMYB55
 OsMYB55	Os05g0553400	LOC_Os05g48010	grain	The rice R2R3-MYB transcription factor OsMYB55 is involved in the tolerance to high temperature and modulates amino acid metabolism	data/Gene/Abstract/OS/M/OsMYB55
 OsMYB55	Os05g0553400	LOC_Os05g48010	yield	The rice R2R3-MYB transcription factor OsMYB55 is involved in the tolerance to high temperature and modulates amino acid metabolism	data/Gene/Abstract/OS/M/OsMYB55
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	salt	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	salt	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	tolerance	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	tolerance	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	abiotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	abiotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	abiotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	 ABA 	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	salt stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	salt stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	biotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	biotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	biotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	ABA	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	stress tolerance	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	plant growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	plant growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
-OsMYB91	LOC_Os12g38400	LOC_Os12g38400	plant growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	salt	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	salt	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	tolerance	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	tolerance	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	abiotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	abiotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	abiotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	 ABA 	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	salt stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	salt stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	biotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	biotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	biotic stress	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	ABA	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	stress tolerance	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	plant growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	plant growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
+OsMYB91	Os12g0572000	LOC_Os12g38400	plant growth	The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice.	data/Gene/Abstract/OS/M/OsMYB91
 OsMYBGA|OsGAMYB	Os01g0812000	LOC_Os01g59660	 ga 	A rice WRKY gene encodes a transcriptional repressor of the gibberellin signaling pathway in aleurone cells	data/Gene/Abstract/OS/G/OsGAMYB
 OsMYBGA|OsGAMYB	Os01g0812000	LOC_Os01g59660	anther	Loss-of-function mutations of the rice GAMYB gene impair alpha-amylase expression in aleurone and flower development	data/Gene/Abstract/OS/G/OsGAMYB
 OsMYBGA|OsGAMYB	Os01g0812000	LOC_Os01g59660	 ga 	Loss-of-function mutations of the rice GAMYB gene impair alpha-amylase expression in aleurone and flower development	data/Gene/Abstract/OS/G/OsGAMYB
@@ -16008,7 +16006,7 @@ Rf98|PPR762	None	None	seed	A Gene Encoding Pentatricopeptide Repeat Protein Part
 Rf98|PPR762	None	None	seed	A Gene Encoding Pentatricopeptide Repeat Protein Partially Restores Fertility in RT98-Type Cytoplasmic Male-Sterile Rice	data/Gene/Abstract/R/Rf98
 Rf98|PPR762	None	None	fertility	A Gene Encoding Pentatricopeptide Repeat Protein Partially Restores Fertility in RT98-Type Cytoplasmic Male-Sterile Rice	data/Gene/Abstract/R/Rf98
 Rf98|PPR762	None	None	fertility	A Gene Encoding Pentatricopeptide Repeat Protein Partially Restores Fertility in RT98-Type Cytoplasmic Male-Sterile Rice	data/Gene/Abstract/R/Rf98
-RFC3	Os05g0230600	Os05g0230600	mitochondria	The rice DUF1620-containing and WD40-like repeat protein is required for the assembly of the restoration of fertility complex.	data/Gene/Abstract/R/RFC3
+RFC3	Os05g0230600	LOC_Os05g14170	mitochondria	The rice DUF1620-containing and WD40-like repeat protein is required for the assembly of the restoration of fertility complex.	data/Gene/Abstract/R/RFC3
 rFKBP64	Os08g0525600	LOC_Os08g41390	root	The expression of the large rice FK506 binding proteins (FKBPs) demonstrate tissue specificity and heat stress responsiveness	data/Gene/Abstract/R/rFKBP64
 rFKBP64	Os08g0525600	LOC_Os08g41390	shoot	The expression of the large rice FK506 binding proteins (FKBPs) demonstrate tissue specificity and heat stress responsiveness	data/Gene/Abstract/R/rFKBP64
 rFKBP75	Os02g0491400	LOC_Os02g28980	endosperm	The expression of the large rice FK506 binding proteins (FKBPs) demonstrate tissue specificity and heat stress responsiveness	data/Gene/Abstract/R/rFKBP75
