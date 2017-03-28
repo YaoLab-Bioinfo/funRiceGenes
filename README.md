@@ -1,7 +1,7 @@
-RICENCODE
+funRiceGenes
 =========
 
-The knowledge of cloned rice genes lost in the information of rice functional genomic studies
+A database of functionally characterized rice genes 
 
 We collected 2500 cloned rice genes and 310 gene families comprised of 3691 genes. For each gene, 
 various information concerning the gene symbol, the genomic locus in the Nipponbare reference genome, 

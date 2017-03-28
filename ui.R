@@ -4,10 +4,10 @@ shinyUI(fluidPage(theme="mystyle.css",
                   
   fluidRow(
     absolutePanel(
-    navbarPage(HTML("<span style='font-family: Comic Sans MS;color:white;'>RicENcode</span>
+    navbarPage(HTML("<span style='font-family: Comic Sans MS;color:white;'>funRiceGenes</span>
                     <span style='font-family: Comic Sans MS;color:white; font-size: 50%'>
-                       The knowledge of cloned rice genes lost in the 
-                       information of rice functional genomic studies
+                       A comprehensive database of functionally 
+                       characterized rice genes
                     </span>
                     "),
       footer=p(HTML("<div align='center'>
