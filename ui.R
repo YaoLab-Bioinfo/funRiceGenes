@@ -14,9 +14,7 @@ shinyUI(fluidPage(theme="mystyle.css",
 
                  <a href='http://croplab.hzau.edu.cn' target='_blank'><img src='croplab.png' width='130' height='130'></a>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href='http://ricencode.github.io' target='_blank'><img src='rice.png' width='130' height='130'></a>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 <a href='https://github.com/venyao/RICENCODE' target='_blank'><img src='github.png' width='130' height='130'></a>
+                 <a href='http://funricegenes.github.io' target='_blank'><img src='rice.png' width='130' height='130'></a>
 
               </div>")),
       
@@ -53,7 +51,7 @@ shinyUI(fluidPage(theme="mystyle.css",
 	                                      </table>
         ")
       ),
-      wellPanel(style = "background-color: #00b271",
+      wellPanel(style = "background-color: #8080c0",
         column(2, textInput('symsub7', strong("Gene symbol"),value="")),
         column(2, textInput('msusub7', strong("MSU genomic locus"),value="")),
         column(2, textInput('rapsub7', strong("RAPdb genomic locus"),value="")),
@@ -73,7 +71,7 @@ shinyUI(fluidPage(theme="mystyle.css",
 	                                      </table>
        ")
       ),
-      wellPanel(style = "background-color: #b45b3e",
+      wellPanel(style = "background-color: #8080c0",
         column(2, textInput('oldsym', strong("Old Gene symbol"),value="")),
         column(2, textInput('newsym', strong("New"),value="")),
         column(2, textInput('oldmsu', strong("Old MSU locus"),value="")),
@@ -116,7 +114,7 @@ shinyUI(fluidPage(theme="mystyle.css",
        ")
       ),
       
-      wellPanel(style = "background-color: #336699",
+      wellPanel(style = "background-color: #8080c0",
         column(4, textInput('pubmed10', strong("Pubmed ID"),value="")),
         column(4, textInput('key10', strong("Password"),value="")),
         column(4, fileInput('genfamin', strong("Gene Family info"),
@@ -158,7 +156,7 @@ you can use the 'Publication' panel on the navigation bar.
 	                                      </table>
        ")
       ),
-      wellPanel(style = "background-color: #336699",
+      wellPanel(style = "background-color: #8080c0",
         column(2, textInput('symsub4', strong("Gene symbol"),value="")),
         column(2, textInput('keysub4', strong("Keyword"),value="")),
         column(2, textInput('tilsub4', strong("Title"),value="")),
@@ -239,7 +237,7 @@ you can use the 'Publication' panel on the navigation bar.
 	                                      </table>
         ")
       ),
-      wellPanel(style = "background-color: #00b271",
+      wellPanel(style = "background-color: #8080c0",
         column(4, textInput('symsub3', strong("Gene symbol"),value="")),
         column(4, textInput('accsub3', strong("Accession"),value="")),
         column(4, textInput('key3', strong("Password"),value="")),
@@ -257,7 +255,7 @@ you can use the 'Publication' panel on the navigation bar.
 	                                      </table>
        ")
       ),
-      wellPanel(style = "background-color: #336699",
+      wellPanel(style = "background-color: #8080c0",
         column(2, textInput('symsub5', strong("Gene symbol 1"),value="")),
         column(2, textInput('sym2sub5', strong("Gene symbol 2"),value="")),
         column(2, textInput('tilsub5', strong("Title"),value="")),
