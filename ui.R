@@ -188,7 +188,7 @@ you can use the 'Publication' panel on the navigation bar.
              <h4>* Submit a new publication
              </h4></td><td>
 <div class='help-tip'>
-	<p>Submit a publications not archived in Pubmed.
+	<p>Submit a publication not archived in Pubmed.
 </p>
 	                                      </div></td></tr>
 	                                      </table>
