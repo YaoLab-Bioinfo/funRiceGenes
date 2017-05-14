@@ -19,7 +19,7 @@ shinyUI(fluidPage(theme="mystyle.css",
               </div>")),
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Gene</span>"),
-	           radioButtons("query", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Query with gene symbol or genomic locus</h4></td>
+	           radioButtons("query", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Query with a gene symbol or a genomic locus</h4></td>
 <td>
 <div class='help-tip'>
 	<p>Fill in the table cells (case insensitive) to fetch information on cloned rice genes.</p>
@@ -40,10 +40,10 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       
       p(HTML("<table style='background-color: #DDF3FF'><tr><td>
-             <h4>* Submit new Gene or add new information for existing genes</h4>
+             <h4>* Submit a new Gene or add new information for an existing gene</h4>
              </td><td>
 <div class='help-tip'>
-	<p>To only submit a new publication, fill in the 'Pubmed ID' cell. 
+	<p>To submit a new publication, fill in the 'Pubmed ID' cell. 
      To submit a new publication for an existing gene, fill in the 'Gene symbol' and 'Pubmed ID' cells.
      To submit a new gene, fill in all the four cells.
 </p>
@@ -85,7 +85,7 @@ shinyUI(fluidPage(theme="mystyle.css",
 	  ),
 
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>GeneFamily</span>"),
-	           radioButtons("queryfam", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Query with gene symbol or genomic locus</h4></td>
+	           radioButtons("queryfam", HTML("<table style='background-color: #DDF3FF'><tr><td><h4>* Query with a gene symbol or a genomic locus</h4></td>
 <td>
 <div class='help-tip'>
 	<p>Fill in the table cells (case insensitive) to fetch information on rice genes.</p>
@@ -102,7 +102,7 @@ shinyUI(fluidPage(theme="mystyle.css",
       ),
       
       p(HTML("<table style='background-color: #DDF3FF'><tr><td>
-             <h4>* Submit new gene family
+             <h4>* Submit a new gene family
              </h4></td><td>
              <div class='help-tip'>
              <p>The file 'Gene Family info' should contain 5 columns with names 'Accession',
@@ -127,11 +127,11 @@ shinyUI(fluidPage(theme="mystyle.css",
       
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Keyword</span>"),
       textInput("keyword", label = HTML("<table style='background-color: #DDF3FF'><tr><td>
-                                        <h4>* Query with keyword characterizing agronomic trait of rice</h4>
+                                        <h4>* Query with a keyword characterizing agronomic trait of rice</h4>
                                         </td><td>
 <div class='help-tip'>
-	<p>Keywords in this database were used to describe phenotypic trait or biological process. 
-As these keywords were collected from publications, 
+	<p>Keywords in this database are used to describe phenotypic trait or biological process. 
+As these keywords are collected from publications, 
 you can only use the keywords listed on <a href='http://ricencode.github.io/tags/' target='_blank'>
 this web page</a> to query this database. 
 To use any keyword you like to query this database, 
@@ -185,10 +185,10 @@ you can use the 'Publication' panel on the navigation bar.
       br(),
       
       p(HTML("<table style='background-color: #DDF3FF'><tr><td>
-             <h4>* Submit new publication
+             <h4>* Submit a new publication
              </h4></td><td>
 <div class='help-tip'>
-	<p>Submit publications not archived in Pubmed.
+	<p>Submit a publications not archived in Pubmed.
 </p>
 	                                      </div></td></tr>
 	                                      </table>
@@ -228,7 +228,7 @@ you can use the 'Publication' panel on the navigation bar.
 	  tabPanel(HTML("<span style='font-family: Comic Sans MS;color:white'>Submit</span>"),
       
       p(HTML("<table style='background-color: #DDF3FF'><tr><td>
-             <h4>* Submit new Genbank accession</h4>
+             <h4>* Submit a new Genbank accession</h4>
 	      </td><td>
 <div class='help-tip'>
 	<p>One item at a time.
@@ -246,7 +246,7 @@ you can use the 'Publication' panel on the navigation bar.
       ),
       
       p(HTML("<table style='background-color: #DDF3FF'><tr><td>
-             <h4>* Submit new connection between genes
+             <h4>* Submit a new connection between genes
              </h4></td><td>
 <div class='help-tip'>
 	<p>One item at a time.
