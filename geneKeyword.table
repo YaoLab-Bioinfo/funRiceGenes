@@ -18667,9 +18667,10 @@ XRCC3	Os02g0562100	LOC_Os02g35450	meiosis	XRCC3 is essential for proper double-s
 XRCC3	Os02g0562100	LOC_Os02g35450	male sterility	XRCC3 is essential for proper double-strand break repair and homologous recombination in rice meiosis.	data/Gene/Body/X/XRCC3
 XYH	Os05g0298700	LOC_Os05g23350	seed	Expression dynamics of metabolic and regulatory components across stages of panicle and seed development in indica rice	data/Gene/Abstract/X/XYH
 XYH	Os05g0298700	LOC_Os05g23350	panicle	Expression dynamics of metabolic and regulatory components across stages of panicle and seed development in indica rice	data/Gene/Abstract/X/XYH
-YGL1	Os05g0349700	LOC_Os05g28200	seedling	A chlorophyll-deficient rice mutant with impaired chlorophyllide esterification in chlorophyll biosynthesis	data/Gene/Abstract/Y/YGL1
-YGL1	Os05g0349700	LOC_Os05g28200	leaf	A chlorophyll-deficient rice mutant with impaired chlorophyllide esterification in chlorophyll biosynthesis	data/Gene/Abstract/Y/YGL1
-YGL1	Os05g0349700	LOC_Os05g28200	chloroplast	A chlorophyll-deficient rice mutant with impaired chlorophyllide esterification in chlorophyll biosynthesis	data/Gene/Abstract/Y/YGL1
+YGL1|OsCHLG	Os05g0349700	LOC_Os05g28200	seedling	A chlorophyll-deficient rice mutant with impaired chlorophyllide esterification in chlorophyll biosynthesis	data/Gene/Abstract/Y/YGL1
+YGL1|OsCHLG	Os05g0349700	LOC_Os05g28200	leaf	A chlorophyll-deficient rice mutant with impaired chlorophyllide esterification in chlorophyll biosynthesis	data/Gene/Abstract/Y/YGL1
+YGL1|OsCHLG	Os05g0349700	LOC_Os05g28200	chloroplast	A chlorophyll-deficient rice mutant with impaired chlorophyllide esterification in chlorophyll biosynthesis	data/Gene/Abstract/Y/YGL1
+YGL1|OsCHLG	Os05g0349700	LOC_Os05g28200	chloroplast	A chlorophyll-deficient rice mutant with impaired chlorophyllide esterification in chlorophyll biosynthesis	data/Gene/Abstract/Y/YGL1
 YGL8	Os01g0965400	LOC_Os01g73450	leaf	Map-based cloning and functional analysis of YGL8, which controls leaf colour in rice (Oryza sativa).	data/Gene/Abstract/0-9/YGL8
 YGL8	Os01g0965400	LOC_Os01g73450	leaf	Map-based cloning and functional analysis of YGL8, which controls leaf colour in rice (Oryza sativa).	data/Gene/Abstract/0-9/YGL8
 YGL8	Os01g0965400	LOC_Os01g73450	growth	Map-based cloning and functional analysis of YGL8, which controls leaf colour in rice (Oryza sativa).	data/Gene/Abstract/0-9/YGL8
