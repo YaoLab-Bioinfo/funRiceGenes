@@ -336,7 +336,7 @@ for (j in 1:length(fam.path)) {
   md.cont[8] <- "* **Information**  "
   if (!is.null(fam.info)) {
     for (i in 1:nrow(fam.info)) {
-      md.info <- paste("    + ", fam.info$Symbol[i], ", ", fam.info$MSU[i], ", ",
+      md.info <- paste("    + ", gsub("\\|", ",", fam.info$Symbol[i]), ", ", fam.info$MSU[i], ", ",
                       fam.info$RAPdb[i], ".", sep="")
       md.cont <- c(md.cont, md.info)
     }
