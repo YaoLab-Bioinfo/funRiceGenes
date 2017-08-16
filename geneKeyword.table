@@ -3693,11 +3693,13 @@ KS2|OsKS2|OsKSL2	Os04g0612000	LOC_Os04g52240	gibberellin	Isolation and character
 KS2|OsKS2|OsKSL2	Os04g0612000	LOC_Os04g52240	stem	Isolation and characterisation of a dwarf rice mutant exhibiting defective gibberellins biosynthesis	data/Gene/Abstract/K/KS2
 KS2|OsKS2|OsKSL2	Os04g0612000	LOC_Os04g52240	growth	Isolation and characterisation of a dwarf rice mutant exhibiting defective gibberellins biosynthesis	data/Gene/Abstract/K/KS2
 L-2	Os03g0738600	LOC_Os03g52860	seedling	cDNA cloning of rice lipoxygenase L-2 and characterization using an active enzyme expressed from the cDNA in Escherichia coli	data/Gene/Abstract/L/L-2
-LA1	Os11g0490600	LOC_Os11g29840	auxin	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
-LA1	Os11g0490600	LOC_Os11g29840	tiller	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
-LA1	Os11g0490600	LOC_Os11g29840	iaa	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
-LA1	Os11g0490600	LOC_Os11g29840	shoot	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
-LA1	Os11g0490600	LOC_Os11g29840	tiller angle	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
+LA1|LAZY1	Os11g0490600	LOC_Os11g29840	auxin	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
+LA1|LAZY1	Os11g0490600	LOC_Os11g29840	tiller	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
+LA1|LAZY1	Os11g0490600	LOC_Os11g29840	tiller	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
+LA1|LAZY1	Os11g0490600	LOC_Os11g29840	iaa	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
+LA1|LAZY1	Os11g0490600	LOC_Os11g29840	shoot	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
+LA1|LAZY1	Os11g0490600	LOC_Os11g29840	shoot	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
+LA1|LAZY1	Os11g0490600	LOC_Os11g29840	tiller angle	LAZY1 controls rice shoot gravitropism through regulating polar auxin transport	data/Gene/Abstract/L/LA1
 LABA1|OsLOGL6|An-2	Os04g0518800	LOC_Os04g43840	domestication	LABA1, a Domestication Gene Associated with Long, Barbed Awns in Wild Rice.	data/Gene/Abstract/L/LABA1
 LABA1|OsLOGL6|An-2	Os04g0518800	LOC_Os04g43840	domestication	LABA1, a Domestication Gene Associated with Long, Barbed Awns in Wild Rice.	data/Gene/Abstract/L/LABA1
 LABA1|OsLOGL6|An-2	Os04g0518800	LOC_Os04g43840	development	LABA1, a Domestication Gene Associated with Long, Barbed Awns in Wild Rice.	data/Gene/Abstract/L/LABA1
