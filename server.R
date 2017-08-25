@@ -1761,24 +1761,22 @@ names(query.intext.fam) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 convMSU <- function(locus="Os02g0677300") {
   if (is.null(locus) || is.na(locus)) {
     return(NULL)
-  } else if (nchar(locus)==12) {
-    datRes <- rapmsu[rapmsu$rap==locus,]
+  } else {
+    locus <- unlist(strsplit(locus, split="\\s+"))
+    datRes <- rapmsu[rapmsu$rap %in% locus,]
     names(datRes) <- c("RAPdb", "MSU")
     return(datRes)
-  } else {
-    return(NULL)
   }
 }
 
 convRap <- function(locus="LOC_Os03g57940") {
   if (is.null(locus) || is.na(locus)) {
     return(NULL)
-  } else if (nchar(locus)==14) {
-    datRes <- rapmsu[rapmsu$msu==locus,]
+  } else {
+    locus <- unlist(strsplit(locus, split="\\s+"))
+    datRes <- rapmsu[rapmsu$msu %in% locus,]
     names(datRes) <- c("RAPdb", "MSU")
     return(datRes)
-  } else {
-    return(NULL)
   }
 }
 
@@ -1820,39 +1818,39 @@ shinyServer(function(input, output, session) {
   
   output$mytable1 = renderDataTable({
     fetchInfoByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(1, 2), searching = FALSE, autoWidth = FALSE)
+  }, options = list(lengthMenu = c(1, 2), pageLength = 1, searching = FALSE, autoWidth = FALSE), escape = FALSE
   )
   
   output$mytable2 = renderDataTable({
     fetchRefByChoice(input$query, input$inText)
   }, options = list(lengthMenu = c(1, 2, 4), pageLength = 1,
-                    searching = FALSE, autoWidth = FALSE)
+                    searching = FALSE, autoWidth = FALSE), escape = FALSE
   )
   
   output$mytable3 = renderDataTable({
     fetchAccByChoice(input$query, input$inText)
   }, options = list(lengthMenu = c(2, 4, 6), searching = FALSE,
-                    pageLength = 2, autoWidth = FALSE))
+                    pageLength = 2, autoWidth = FALSE), escape = FALSE)
 
   output$mytable4 = renderDataTable({
     fetchExpByChoice(input$query, input$inText)
   }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
-                    pageLength = 1, autoWidth = FALSE))
+                    pageLength = 1, autoWidth = FALSE), escape = FALSE)
   
   output$mytable5 = renderDataTable({
     fetchKeyByChoice(input$query, input$inText)
   }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
-                    pageLength = 1, autoWidth = FALSE))
+                    pageLength = 1, autoWidth = FALSE), escape = FALSE)
   
   output$mytable6 = renderDataTable({
     fetchConneByChoice(input$query, input$inText)
   }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
-                    pageLength = 1, autoWidth = FALSE))
+                    pageLength = 1, autoWidth = FALSE), escape = FALSE)
   
   output$mytable7 = renderDataTable({
     fetchInfoByKey(input$keyword)
   }, options = list(lengthMenu = c(2, 4, 6), searching = FALSE,
-                    pageLength = 2, autoWidth = FALSE))
+                    pageLength = 2, autoWidth = FALSE), escape = FALSE)
   
   output$inTextfam <- renderUI({
     textInput("inTextfam", label=NULL, 
@@ -1861,13 +1859,13 @@ shinyServer(function(input, output, session) {
   
   output$mytable8 = renderDataTable({
     fetchFamInfoByChoice(input$queryfam, input$inTextfam)
-  }, options = list(lengthMenu = c(1, 2), searching = FALSE, autoWidth = FALSE)
+  }, options = list(lengthMenu = c(1, 2), pageLength = 1, searching = FALSE, autoWidth = FALSE), escape = FALSE
   )
   
   output$mytable9 = renderDataTable({
     fetchFamRefByChoice(input$queryfam, input$inTextfam)
   }, options = list(lengthMenu = c(1, 2, 4), pageLength = 1,
-                    searching = FALSE, autoWidth = FALSE)
+                    searching = FALSE, autoWidth = FALSE), escape = FALSE
   )
 
   output$inTextconv <- renderUI({
@@ -1878,13 +1876,150 @@ shinyServer(function(input, output, session) {
   output$mytable10 = renderDataTable({
     convID(input$queryconv, input$inTextconv)
   }, options = list(lengthMenu = c(1, 4), pageLength = 4,
-                  searching = FALSE, autoWidth = FALSE)
+                  searching = FALSE, autoWidth = FALSE), escape = FALSE
   )
 
   output$mytable11 = renderDataTable({
     fetchRefByKey(input$publication)
   }, options = list(lengthMenu = c(1, 2, 4, 6), searching = FALSE,
-                  pageLength = 1, autoWidth = FALSE))
+                  pageLength = 1, autoWidth = FALSE), escape = FALSE)
+  
+  gene.info.NM <- apply(gene.info, 1, function(x){
+    x.msu <- unlist(strsplit(x[3], split="\\|"))
+    res <- lapply(1:length(x.msu), function(y){
+      return(c(x[1:2], x.msu[y]))
+    })
+    return(do.call(rbind, res))
+  })
+  gene.info.NM <- as.data.frame(do.call(rbind, gene.info.NM), stringsAsFactors=FALSE)
+  
+  gene.info.NP <- apply(gene.info, 1, function(x){
+    x.rap <- unlist(strsplit(x[2], split="\\|"))
+    res <- lapply(1:length(x.rap), function(y){
+      return(c(x[1], x.rap[y], x[3]))
+    })
+    return(do.call(rbind, res))
+  })
+  gene.info.NP <- as.data.frame(do.call(rbind, gene.info.NP), stringsAsFactors=FALSE)
+  
+  fam.gene.info.NM <- apply(fam.gene.info, 1, function(x){
+    x.msu <- unlist(strsplit(x[3], split="\\|"))
+    res <- lapply(1:length(x.msu), function(y){
+      return(c(x[1:2], x.msu[y]))
+    })
+    return(do.call(rbind, res))
+  })
+  fam.gene.info.NM <- as.data.frame(do.call(rbind, fam.gene.info.NM), stringsAsFactors=FALSE)
+  
+  fam.gene.info.NP <- apply(fam.gene.info, 1, function(x){
+    x.rap <- unlist(strsplit(x[2], split="\\|"))
+    res <- lapply(1:length(x.rap), function(y){
+      return(c(x[1], x.rap[y], x[3]))
+    })
+    return(do.call(rbind, res))
+  })
+  fam.gene.info.NP <- as.data.frame(do.call(rbind, fam.gene.info.NP), stringsAsFactors=FALSE)
+  
+  output$dMsuInfo <- downloadHandler(
+    filename <- function(){paste('locusInfo.csv')},
+    content <- function(file) {
+      in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
+      in.locus <- gsub("^\\s+", "", in.locus)
+      in.locus <- gsub("\\s+$", "", in.locus)
+      dat.tmp.1 <- gene.info[gene.info$Symbol %in% unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus]), ]
+      dat.tmp.2 <- fam.gene.info[fam.gene.info$Symbol %in% unique(fam.gene.info.NM$Symbol[fam.gene.info.NM$MSU %in% in.locus]), ]
+      dat.tmp.2 <- dat.tmp.2[!dat.tmp.2$MSU %in% dat.tmp.1$MSU, ]
+      dat.tmp <- rbind(dat.tmp.1, dat.tmp.2)
+      
+      write.csv(dat.tmp, file, row.names=FALSE)
+    }, contentType = "text/csv"
+  )
+  
+  output$dRapInfo <- downloadHandler(
+    filename <- function(){paste('locusInfo.csv')},
+    content <- function(file) {
+      in.locus <- unlist(strsplit(input$raparea, split="\\n"))
+      in.locus <- gsub("^\\s+", "", in.locus)
+      in.locus <- gsub("\\s+$", "", in.locus)
+      dat.tmp.1 <- gene.info[gene.info$Symbol %in% unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus]), ]
+      dat.tmp.2 <- fam.gene.info[fam.gene.info$Symbol %in% unique(fam.gene.info.NP$Symbol[fam.gene.info.NP$RAP %in% in.locus]), ]
+      dat.tmp.2 <- dat.tmp.2[!dat.tmp.2$RAP
+                             %in% dat.tmp.1$RAP, ]
+      dat.tmp <- rbind(dat.tmp.1, dat.tmp.2)
+      
+      write.csv(dat.tmp, file, row.names=FALSE)
+    }, contentType = "text/csv"
+  )
+  
+  output$dMsuKey <- downloadHandler(
+    filename <- function(){paste('locusKeyword.txt')},
+    content <- function(file) {
+      in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
+      in.locus <- gsub("^\\s+", "", in.locus)
+      in.locus <- gsub("\\s+$", "", in.locus)
+      dat.tmp <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus]), ]
+      
+      dat.tmp$path <- NULL
+      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
+    }, contentType = "text/txt"
+  )
+  
+  output$dRapKey <- downloadHandler(
+    filename <- function(){paste('locusKeyword.txt')},
+    content <- function(file) {
+      in.locus <- unlist(strsplit(input$raparea, split="\\n"))
+      in.locus <- gsub("^\\s+", "", in.locus)
+      in.locus <- gsub("\\s+$", "", in.locus)
+      dat.tmp <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus]), ]
+      
+      dat.tmp$path <- NULL
+      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
+    }, contentType = "text/txt"
+  )
+  
+  output$dMsuPub <- downloadHandler(
+    filename <- function(){paste('locusPublication.txt')},
+    content <- function(file) {
+      in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
+      in.locus <- gsub("^\\s+", "", in.locus)
+      in.locus <- gsub("\\s+$", "", in.locus)
+      in.sym <- unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus])
+      ref.info.n <- apply(ref.info, 1, function(x){
+        x.gene <- unlist(strsplit(x[6], split=","))
+        res <- lapply(1:length(x.gene), function(y){
+          return(c(x[1:5], x.gene[y]))
+        })
+        return(do.call(rbind, res))
+      })
+      ref.info.n <- do.call(rbind, ref.info.n)
+      
+      dat.tmp <- ref.info.n[ref.info.n[, "Gene"] %in% in.sym, ]
+      
+      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
+    }, contentType = "text/txt"
+  )
+  
+  output$dRapPub <- downloadHandler(
+    filename <- function(){paste('locusPublication.txt')},
+    content <- function(file) {
+      in.locus <- unlist(strsplit(input$raparea, split="\\n"))
+      in.locus <- gsub("^\\s+", "", in.locus)
+      in.locus <- gsub("\\s+$", "", in.locus)
+      in.sym <- unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus])
+      ref.info.n <- apply(ref.info, 1, function(x){
+        x.gene <- unlist(strsplit(x[6], split=","))
+        res <- lapply(1:length(x.gene), function(y){
+          return(c(x[1:5], x.gene[y]))
+        })
+        return(do.call(rbind, res))
+      })
+      ref.info.n <- do.call(rbind, ref.info.n)
+      
+      dat.tmp <- ref.info.n[ref.info.n[, "Gene"] %in% in.sym, ]
+      
+      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
+    }, contentType = "text/txt"
+  )
   
   # submit new reference
   observe({
