@@ -2,7 +2,7 @@
 library(shinythemes)
 library(shinyBS)
 
-shinyUI(fluidPage(theme=shinytheme("darkly"),
+shinyUI(fluidPage(theme=shinytheme("united"),
                   tags$head(tags$script(HTML('Shiny.addCustomMessageHandler("jsCode",function(message) {eval(message.value);});')), includeScript("google-analytics.js")),
                   
   fluidRow(

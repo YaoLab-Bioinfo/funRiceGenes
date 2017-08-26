@@ -1930,6 +1930,7 @@ shinyServer(function(input, output, session) {
       dat.tmp.2 <- fam.gene.info[fam.gene.info$Symbol %in% unique(fam.gene.info.NM$Symbol[fam.gene.info.NM$MSU %in% in.locus]), ]
       dat.tmp.2 <- dat.tmp.2[!dat.tmp.2$MSU %in% dat.tmp.1$MSU, ]
       dat.tmp <- rbind(dat.tmp.1, dat.tmp.2)
+      dat.tmp$path <- NULL
       
       write.csv(dat.tmp, file, row.names=FALSE)
     }, contentType = "text/csv"
@@ -1946,6 +1947,7 @@ shinyServer(function(input, output, session) {
       dat.tmp.2 <- dat.tmp.2[!dat.tmp.2$RAP
                              %in% dat.tmp.1$RAP, ]
       dat.tmp <- rbind(dat.tmp.1, dat.tmp.2)
+      dat.tmp$path <- NULL
       
       write.csv(dat.tmp, file, row.names=FALSE)
     }, contentType = "text/csv"
