@@ -176,6 +176,18 @@ shinyUI(fluidPage(theme=shinytheme("darkly"),
 
       tabsetPanel(
           tabPanel(strong('Result'), dataTableOutput("mytable10"))
+      ),
+      
+      radioButtons("IJconv", h4("* Convert between ", em("indica"), " and ", em("japonica"), " gene IDs",
+                                   bsButton("q31", label="", icon=icon("question"), style="info", size="small")),
+                   choices=c("MSU Nipponbare", "RAPdb Nipponbare", "Minghui 63", "Zhenshan 97"), inline=TRUE,
+                   selected = "MSU Nipponbare"),
+      
+      bsPopover("q31", "You can submit multiple IDs delimited by space.", trigger = "focus"),
+      uiOutput("inIJconv"),
+      
+      tabsetPanel(
+        tabPanel(strong('Result'), dataTableOutput("mytable12"))
       )
 
 	  ),

@@ -1791,6 +1791,26 @@ convID <- function(query="", text="") {
 query.intext.conv <- c("Os02g0677300", "LOC_Os03g57940")
 names(query.intext.conv) <- c("RAPdb to MSU", "MSU to RAPdb")
 
+query.IJ.conv <- c("LOC_Os03g57940", "Os02g0677300", "MH01g0011000", "ZS01g0017300")
+names(query.IJ.conv) <- c("MSU Nipponbare", "RAPdb Nipponbare", "Minghui 63", "Zhenshan 97")
+
+genes.NMZ <- read.table("NIP-MH63-ZS97.txt", head=T, as.is=T, sep="\t")
+names(genes.NMZ) <- c("Nipponbare.MSU", "Nipponbare.RAPdb", "Minghui 63", "Zhenshan 97")
+
+geneID <- function(query="MSU Nipponbare", text="LOC_Os03g57940") {
+  text <- unlist(strsplit(text, split="\\s+"))
+  text <- setdiff(text, "None")
+  if (query=="MSU Nipponbare") {
+    return(genes.NMZ[genes.NMZ[,1] %in% text, ])
+  } else if (query=="RAPdb Nipponbare") {
+    return(genes.NMZ[genes.NMZ[,2] %in% text, ])
+  } else if (query=="Minghui 63") {
+    return(genes.NMZ[genes.NMZ[,3] %in% text, ])
+  } else if (query=="Zhenshan 97") {
+    return(genes.NMZ[genes.NMZ[,4] %in% text, ])
+  }
+}
+
 save.image <- function(symbol="", phenofig="", expfig="") {
   symbol <- gsub("^\\s+", "", symbol)
   symbol <- gsub(" +$", "", symbol)
@@ -1877,6 +1897,17 @@ shinyServer(function(input, output, session) {
     convID(input$queryconv, input$inTextconv)
   }, options = list(lengthMenu = c(1, 4), pageLength = 4,
                   searching = FALSE, autoWidth = FALSE), escape = FALSE
+  )
+  
+  output$inIJconv <- renderUI({
+    textInput("inIJconv", label=NULL, 
+              value=query.IJ.conv[input$IJconv])
+  })
+  
+  output$mytable12 = renderDataTable({
+    geneID(input$IJconv, input$inIJconv)
+  }, options = list(lengthMenu = c(1, 4), pageLength = 4,
+                    searching = FALSE, autoWidth = FALSE), escape = FALSE
   )
 
   output$mytable11 = renderDataTable({
