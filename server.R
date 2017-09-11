@@ -2334,7 +2334,7 @@ shinyServer(function(input, output, session) {
            rapsub7 <- gsub("\\s+$", "", rapsub7)
            
            if (symsub7!="") {
-             df.gene <- data.frame(Symbol=symsub7, MSU=msusub7, RAPdb=rapsub7,
+             df.gene <- data.frame(Symbol=symsub7, RAPdb=rapsub7, MSU=msusub7,
                                    stringsAsFactors=FALSE)
              locus.line <- findDirBySym(tolower(symsub7))
              if (length(locus.line)==0) {
