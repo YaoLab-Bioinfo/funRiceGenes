@@ -33,7 +33,8 @@ shinyUI(fluidPage(theme=shinytheme("darkly"),
         tabPanel('Accession', dataTableOutput("mytable3")),
         tabPanel('Expression', dataTableOutput("mytable4")),
         tabPanel('Keyword', dataTableOutput("mytable5")),
-        tabPanel('Connection', dataTableOutput("mytable6"))
+        tabPanel('Connection', dataTableOutput("mytable6")),
+        tabPanel('RiceNet', dataTableOutput("mytable13"))
       ),
       
       
@@ -201,6 +202,7 @@ shinyUI(fluidPage(theme=shinytheme("darkly"),
 	           downloadButton("dMsuInfo", "Download locus information"),
 	           downloadButton("dMsuKey", "Download Keywords data"),
 	           downloadButton("dMsuPub", "Download literatures"),
+	           downloadButton("dMsuRiceNet", "Download RiceNet data"),
 	           
 	           textAreaInput("raparea", HTML("<span style='white-space: nowrap'><h4>* Extract data using RAP genomic locus</h4></span>
 	                                          "), width="400px", resize="vertical", height="200px", 

@@ -35,8 +35,9 @@ fetchPubmedById <- function(id="") {
   }
 }
 
+load("RiceNet_V2_GS.RData")
+names(ricenet) <- c("Gene1", "Gene2")
 load("rapmsu.rda")
-
 ref.info <- read.table("reference.table", head=T, as.is=T, sep="\t", 
                        quote="", comment="")
 
@@ -1732,7 +1733,7 @@ fetchConneByChoice <- function(query="", text="") {
   }
 }
 
-query.intext <- c("LOC_Os07g15770", "Os05g0158500", "Moc1")
+query.intext <- c("LOC_Os05g06480", "Os05g0158500", "Moc1")
 names(query.intext) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
 fetchFamInfoByChoice <- function(query="", text="") {
@@ -1755,7 +1756,7 @@ fetchFamRefByChoice <- function(query="", text="") {
   }
 }
 
-query.intext.fam <- c("LOC_Os10g41510", "Os02g0677300", "RCN1")
+query.intext.fam <- c("LOC_Os10g38470", "Os02g0677300", "RCN1")
 names(query.intext.fam) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
 convMSU <- function(locus="Os02g0677300") {
@@ -1825,6 +1826,58 @@ save.image <- function(symbol="", phenofig="", expfig="") {
     expfig.target <- paste(path, "/", symbol, ".exp.", expfig.suffix, sep="")
     file.copy(phenofig.source, phenofig.target)
     file.copy(expfig.source, expfig.target)
+  }
+}
+
+fetctRiceNetByMSU <- function(locus="") {
+  ricenet[ricenet$Gene1 %in% locus | ricenet$Gene2 %in% locus, ]
+}
+
+fetctRiceNetByRAPdb <- function(locus="") {
+  locus <- gsub("^\\s+", "", locus)
+  locus <- gsub(" +$", "", locus)
+  locus.line <- gene.rap.final[locus]
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
+    path <- gene.info$path[locus.line]
+    gene.fl <- paste(path, "gene.info", sep="/")
+    if (file.exists(gene.fl)) { 
+      dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
+      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
+      return(ricenet[ricenet$Gene1 %in% msu | ricenet$Gene2 %in% msu, ])
+    } else {
+      return(NULL)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
+fetctRiceNetBySym <- function(symbol="") {
+  symbol <- gsub("^\\s+", "", symbol)
+  symbol <- gsub(" +$", "", symbol)
+  locus.line <- findDirBySym(tolower(symbol))
+  if ( (length(locus.line)==1) && !is.na(locus.line) ) {
+    path <- gene.info$path[locus.line]
+    gene.fl <- paste(path, "gene.info", sep="/")
+    if (file.exists(gene.fl)) {
+      dat <- read.table(gene.fl, head=T, sep="\t", as.is=T)
+      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
+      return(ricenet[ricenet$Gene1 %in% msu | ricenet$Gene2 %in% msu, ])
+    } else {
+      return(NULL)
+    }
+  } else {
+    return(NULL)
+  }
+}
+
+fetctRiceNetByChoice <- function(query="", text="") {
+  if (query=="MSU Locus") {
+    return(fetctRiceNetByMSU(text))
+  } else if (query=="RAPdb Locus") {
+    return(fetctRiceNetByRAPdb(text))
+  } else if (query=="Gene Symbol") {
+    return(fetctRiceNetBySym(text))
   }
 }
 
@@ -1914,6 +1967,12 @@ shinyServer(function(input, output, session) {
     fetchRefByKey(input$publication)
   }, options = list(lengthMenu = c(1, 2, 4, 6), searching = FALSE,
                   pageLength = 1, autoWidth = FALSE), escape = FALSE)
+  
+  output$mytable13 = renderDataTable({
+    fetctRiceNetByChoice(input$query, input$inText)
+  }, options = list(lengthMenu = c(2, 4, 8), pageLength = 4,
+                    searching = FALSE, autoWidth = FALSE), escape = FALSE
+  )
   
   gene.info.NM <- apply(gene.info, 1, function(x){
     x.msu <- unlist(strsplit(x[3], split="\\|"))
@@ -2049,6 +2108,18 @@ shinyServer(function(input, output, session) {
       ref.info.n <- do.call(rbind, ref.info.n)
       
       dat.tmp <- ref.info.n[ref.info.n[, "Gene"] %in% in.sym, ]
+      
+      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
+    }, contentType = "text/txt"
+  )
+  
+  output$dMsuRiceNet <- downloadHandler(
+    filename <- function(){paste('locusRiceNet.txt')},
+    content <- function(file) {
+      in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
+      in.locus <- gsub("^\\s+", "", in.locus)
+      in.locus <- gsub("\\s+$", "", in.locus)
+      dat.tmp <- ricenet[ricenet$Gene1 %in% in.locus | ricenet$Gene2 %in% in.locus, ]
       
       write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
     }, contentType = "text/txt"
@@ -2508,5 +2579,4 @@ shinyServer(function(input, output, session) {
    })
    
 })
-
 
