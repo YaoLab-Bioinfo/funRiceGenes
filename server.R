@@ -1799,64 +1799,67 @@ genes.NMZ <- read.table("NIP-MH63-ZS97.txt", head=T, as.is=T, sep="\t")
 names(genes.NMZ) <- c("Nipponbare.MSU", "Nipponbare.RAPdb", "Minghui 63", "Zhenshan 97")
 
 geneID <- function(query="MSU Nipponbare", text="LOC_Os03g57940") {
-  text <- unlist(strsplit(text, split="\\s+"))
-  text <- setdiff(text, "None")
-  if (query=="MSU Nipponbare") {
-    dat.res <- genes.NMZ[genes.NMZ[,1] %in% text, ]
-  } else if (query=="RAPdb Nipponbare") {
-    dat.res <- genes.NMZ[genes.NMZ[,2] %in% text, ]
-  } else if (query=="Minghui 63") {
-    dat.res <- genes.NMZ[genes.NMZ[,3] %in% text, ]
-  } else if (query=="Zhenshan 97") {
-    dat.res <- genes.NMZ[genes.NMZ[,4] %in% text, ]
+  if (is.null(text) || is.na(text)) {
+    return(NULL)
+  } else {
+    text <- unlist(strsplit(text, split="\\s+"))
+    text <- setdiff(text, "None")
+    if (query=="MSU Nipponbare") {
+      dat.res <- genes.NMZ[genes.NMZ[,1] %in% text, ]
+    } else if (query=="RAPdb Nipponbare") {
+      dat.res <- genes.NMZ[genes.NMZ[,2] %in% text, ]
+    } else if (query=="Minghui 63") {
+      dat.res <- genes.NMZ[genes.NMZ[,3] %in% text, ]
+    } else if (query=="Zhenshan 97") {
+      dat.res <- genes.NMZ[genes.NMZ[,4] %in% text, ]
+    }
+    
+    dat.res$Nipponbare.MSU <- sapply(dat.res$Nipponbare.MSU, function(x){
+      if (x!="None") {
+        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", x, sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+        y <- HTML(y)
+        return(y)
+      } else {
+        return("None")
+      }
+    })
+    
+    dat.res$Nipponbare.RAPdb <- sapply(dat.res$Nipponbare.RAPdb, function(x){
+      if (x!="None") {
+        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", x, sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+        y <- HTML(y)
+        return(y)
+      } else {
+        return("None")
+      }
+    })
+    
+    dat.res$`Minghui 63` <- sapply(dat.res$`Minghui 63`, function(x){
+      if (x!="None") {
+        y <- paste("http://rice.hzau.edu.cn/cgi-bin/rice/gene?org=MH63&locus=", x, sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+        y <- HTML(y)
+        return(y)
+      } else {
+        return("None")
+      }
+    })
+    
+    dat.res$`Zhenshan 97` <- sapply(dat.res$`Zhenshan 97`, function(x){
+      if (x!="None") {
+        y <- paste("http://rice.hzau.edu.cn/cgi-bin/rice/gene?org=ZS97&locus=", x, sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+        y <- HTML(y)
+        return(y)
+      } else {
+        return("None")
+      }
+    })
+    
+    return(dat.res)
   }
-  
-  dat.res$Nipponbare.MSU <- sapply(dat.res$Nipponbare.MSU, function(x){
-    if (x!="None") {
-      y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", x, sep="")
-      y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
-      y <- HTML(y)
-      return(y)
-    } else {
-      return("None")
-    }
-  })
-  
-  dat.res$Nipponbare.RAPdb <- sapply(dat.res$Nipponbare.RAPdb, function(x){
-    if (x!="None") {
-      y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", x, sep="")
-      y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
-      y <- HTML(y)
-      return(y)
-    } else {
-      return("None")
-    }
-  })
-  
-  dat.res$`Minghui 63` <- sapply(dat.res$`Minghui 63`, function(x){
-    if (x!="None") {
-      y <- paste("http://rice.hzau.edu.cn/cgi-bin/rice/gene?org=MH63&locus=", x, sep="")
-      y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
-      y <- HTML(y)
-      return(y)
-    } else {
-      return("None")
-    }
-  })
-  
-  dat.res$`Zhenshan 97` <- sapply(dat.res$`Zhenshan 97`, function(x){
-    if (x!="None") {
-      y <- paste("http://rice.hzau.edu.cn/cgi-bin/rice/gene?org=ZS97&locus=", x, sep="")
-      y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
-      y <- HTML(y)
-      return(y)
-    } else {
-      return("None")
-    }
-  })
-  
-  return(dat.res)
-  
 }
 
 save.image <- function(symbol="", phenofig="", expfig="") {
