@@ -7,7 +7,7 @@ shinyUI(fluidPage(theme=shinytheme("darkly"),
                   
   fluidRow(
     absolutePanel(
-    navbarPage(title="funRiceGenes", windowTitle="Wlecome to funRiceGenes!",
+    navbarPage(title="funRiceGenes", windowTitle="Welcome to funRiceGenes!",
       footer=p(HTML("<div align='center'>
 
                  <a href='http://croplab.hzau.edu.cn' target='_blank'><img src='croplab.png' width='130' height='130'></a>
