@@ -1733,7 +1733,7 @@ fetchConneByChoice <- function(query="", text="") {
   }
 }
 
-query.intext <- c("LOC_Os05g06480", "Os05g0158500", "Moc1")
+query.intext <- c("LOC_Os06g40780", "Os05g0158500", "Ghd7")
 names(query.intext) <- c("MSU Locus", "RAPdb Locus", "Gene Symbol")
 
 fetchFamInfoByChoice <- function(query="", text="") {
