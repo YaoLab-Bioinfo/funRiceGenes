@@ -21,7 +21,7 @@ extractInfoFromPdf <- function(file="")
                              pdf,ignore.case=T)]
     rnaiStat <- pdf[grepl("rnai",
                           pdf,ignore.case=T)]
-    oveStat <- pdf[grepl("overexpres",
+    oveStat <- pdf[grepl("overexpress",
                          pdf,ignore.case=T)]
     rtStat <- pdf[grepl("rt-pcr",
                         pdf,ignore.case=T)]
