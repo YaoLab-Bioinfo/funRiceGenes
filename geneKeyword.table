@@ -824,12 +824,12 @@ COP1|PPS	Os02g0771100	LOC_Os02g53140	flowering time	Role of rice PPS in late veg
 COP1|PPS	Os02g0771100	LOC_Os02g53140	vegetative	The COP1 ortholog PPS regulates the juvenile-adult and vegetative-reproductive phase changes in rice	data/Gene/Abstract/P/PPS
 COP1|PPS	Os02g0771100	LOC_Os02g53140	flower	Role of rice PPS in late vegetative and reproductive growth	data/Gene/Abstract/P/PPS
 COP1|PPS	Os02g0771100	LOC_Os02g53140	vegetative	Role of rice PPS in late vegetative and reproductive growth	data/Gene/Abstract/P/PPS
-COX11	Os03g0718600	LOC_Os03g50940	cell death	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
-COX11	Os03g0718600	LOC_Os03g50940	tapetum	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
-COX11	Os03g0718600	LOC_Os03g50940	pollen	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
-COX11	Os03g0718600	LOC_Os03g50940	anther	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
-COX11	Os03g0718600	LOC_Os03g50940	mitochondria	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
-COX11	Os03g0718600	LOC_Os03g50940	tapetal	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
+COX11|OsCOX11	Os03g0718600	LOC_Os03g50940	cell death	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
+COX11|OsCOX11	Os03g0718600	LOC_Os03g50940	tapetum	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
+COX11|OsCOX11	Os03g0718600	LOC_Os03g50940	pollen	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
+COX11|OsCOX11	Os03g0718600	LOC_Os03g50940	anther	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
+COX11|OsCOX11	Os03g0718600	LOC_Os03g50940	mitochondria	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
+COX11|OsCOX11	Os03g0718600	LOC_Os03g50940	tapetal	A detrimental mitochondrial-nuclear interaction causes cytoplasmic male sterility in rice	data/Gene/Abstract/OS/C/OsCOX11
 coxVb|COX5b	Os01g0612200	LOC_Os01g42650	mitochondria	Identification of cDNA encoding cytochrome c oxidase subunit 5c (COX5c) from rice. Comparison of its expression with nuclear-encoded and mitochondrial-encoded COX genes	data/Gene/Abstract/C/coxVb~COX5b
 CPD|OsCPDP|qUVR-10	Os10g0167600	LOC_Os10g08580	growth	Cyclobutane pyrimidine dimer (CPD) photolyase repairs ultraviolet-B-induced CPDs in rice chloroplast and mitochondrial DNA	data/Gene/Abstract/OS/C/OsCPDP~qUVR-10
 CPD|OsCPDP|qUVR-10	Os10g0167600	LOC_Os10g08580	resistant	Spontaneously occurring mutations in the cyclobutane pyrimidine dimer photolyase gene cause different sensitivities to ultraviolet-B in rice	data/Gene/Abstract/OS/C/OsCPDP~qUVR-10
