@@ -1,4 +1,8 @@
 Symbol	RAPdb	MSU	path
+			data/Family/O/Oryza_sativa_peptides
+			data/Family/O/Oryza_sativa_peptides
+			data/Family/O/Oryza_sativa_peptides
+			data/Family/O/Oryza_sativa_peptides
 ABCA1	Os02g0211000	LOC_Os02g11960	data/Family/A/ABCA
 ABCA2	Os06g0589300	LOC_Os06g38950	data/Family/A/ABCA
 ABCA3	Os08g0398000	LOC_Os08g30740	data/Family/A/ABCA
@@ -3267,6 +3271,12 @@ OsPRMT5	Os02g0139200	LOC_Os02g04660	data/Family/P/PRMT
 OsPRMT6a	Os10g0489100	LOC_Os10g34740	data/Family/P/PRMT
 OsPRMT6b	Os04g0677066	LOC_Os04g58060	data/Family/P/PRMT
 OsPRMT7	Os06g0105500	LOC_Os06g01640	data/Family/P/PRMT
+OsPROPEP1	Os04g0638700	LOC_Os04g54590	data/Family/O/Oryza_sativa_peptides
+OsPROPEP2	Os08g0172800	LOC_Os08g07600	data/Family/O/Oryza_sativa_peptides
+OsPROPEP3	Os08g0173300	LOC_Os08g07660	data/Family/O/Oryza_sativa_peptides
+OsPROPEP4	Os08g0173600	LOC_Os08g07690	data/Family/O/Oryza_sativa_peptides
+OsPROPEP5	None	None	data/Family/O/Oryza_sativa_peptides
+OsPROPEP6	None	None	data/Family/O/Oryza_sativa_peptides
 OsPRP1.1	Os10g0150400	LOC_Os10g05970	data/Family/P/PRP
 OsPRP1.2	Os10g0150600	LOC_Os10g05980	data/Family/P/PRP
 OsPRP1.3	Os10g0150700	LOC_Os10g05990	data/Family/P/PRP
