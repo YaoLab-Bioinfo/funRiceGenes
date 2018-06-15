@@ -1626,7 +1626,7 @@ gene.edit <- function(df){
 
 updateGeneInfo <- function() {
   
-  gene.info <<- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
+  gene.info <<- read.table("geneInfo.table", head=T, sep="\t", as.is=T, quote="")
   gene.keyword <<- read.table("geneKeyword.table", head=T, 
                              sep="\t", as.is=T, quote="", comment="")
   ref.info <<- read.table("reference.table", head=T, as.is=T, sep="\t", 
