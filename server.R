@@ -74,7 +74,7 @@ fam.gene.rap.new <- sapply(names(fam.gene.rap), function(x) {
 fam.gene.rap.final <- unlist(unname(fam.gene.rap.new))
 
 
-gene.info <- read.table("geneInfo.table", head=T, sep="\t", as.is=T)
+gene.info <- read.table("geneInfo.table", head=T, sep="\t", as.is=T, quote="")
 gene.keyword <- read.table("geneKeyword.table", head=T, 
                            sep="\t", as.is=T, quote="", comment="")
 all.key <- unique(gene.keyword$Keyword)
