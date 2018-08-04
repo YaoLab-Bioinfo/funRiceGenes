@@ -16,7 +16,7 @@ interactions networks for multiple genes are provided.
 * Contact: ywhzau at gmail.com   
 
 __To interactively query this database, go to the following site!__  
-[<img src="https://funricegenes.github.io/images/shiny.png" alt="Dynamic query of this database"  style="width: 600px;"/>](http://funricegenes.ncpgr.cn)   
+[<img src="https://funricegenes.github.io/images/funShiny.png" alt="Dynamic query of this database"  style="width: 600px;"/>](http://funricegenes.ncpgr.cn)   
 
 __If you use the data in this database, please cite [Yao et al. 2017](https://academic.oup.com/gigascience/advance-article/doi/10.1093/gigascience/gix119/4689117).__
 
