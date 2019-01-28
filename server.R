@@ -2252,7 +2252,7 @@ shinyServer(function(input, output, session) {
 		keysub4 <- gsub("\\s+$", "", keysub4)
 
           df.key <- data.frame(Symbol=symsub4, Keyword=keysub4, 
-                               Title=tilsub4, Evidence=evisub4,
+                               Title=input$tilsub4, Evidence=input$evisub4,
                                stringsAsFactors=FALSE)
           write.key(df.key)
           updateGeneInfo()
