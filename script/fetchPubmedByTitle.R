@@ -1,11 +1,11 @@
 
 ## Extract information of a publication using the title.
 ## To use this script, please install the RCurl and XML packages.
-## Usage: fetchPubmedByID(title="White Leaf and Panicle 2, encoding a PEP-associated protein, is required for chloroplast biogenesis under heat stress in rice")
+## Usage: fetchPubmedByID(title="OsGIF1 Positively Regulates the Sizes of Stems, Leaves, and Grains in Rice")
 
 library(RCurl); library(XML)
 
-fetchPubmedByTitle <- function(title="White Leaf and Panicle 2, encoding a PEP-associated protein, is required for chloroplast biogenesis under heat stress in rice")
+fetchPubmedByTitle <- function(title="OsGIF1 Positively Regulates the Sizes of Stems, Leaves, and Grains in Rice")
 {
   x <- URLencode(title, reserved=TRUE)
   x <- gsub(",", "%2C", x)
