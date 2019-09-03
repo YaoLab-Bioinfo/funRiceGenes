@@ -1,26 +1,26 @@
 
-setwd("~/RICENCODE")
-unlink("~/funRiceGenes.github.io/_posts", recur=T, force=T)
+setwd("E:/GIT/RICENCODE")
+unlink("E:/GIT/funRiceGenes.github.io/_posts", recur=T, force=T)
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
 
 dat.gene <- gene.lst
 dat.gene$path <- NULL
-write.table(dat.gene, file="~/funRiceGenes.github.io/geneInfo.table.txt", 
+write.table(dat.gene, file="E:/GIT/funRiceGenes.github.io/geneInfo.table.txt", 
             quote=F, sep="\t", row.names=F)
 
 dat.fam <- read.table("famInfo.table", head=T, 
                       as.is=T, sep="\t", quote="", comment="")
 dat.fam$Name <- basename(dat.fam$path)
 dat.fam$path <- NULL
-write.table(dat.fam, file="~/funRiceGenes.github.io/famInfo.table.txt", 
+write.table(dat.fam, file="E:/GIT/funRiceGenes.github.io/famInfo.table.txt", 
             quote=F, sep="\t", row.names=F)
 
-file.copy(from="reference.table", to="~/funRiceGenes.github.io/reference.table.txt", overwrite = TRUE)
+file.copy(from="reference.table", to="E:/GIT/funRiceGenes.github.io/reference.table.txt", overwrite = TRUE)
 
 dat.key <- read.table("geneKeyword.table", head=T, as.is = T, sep="\t", quote="", comment="")
 dat.key$path <- NULL
-write.table(dat.key, file="~/funRiceGenes.github.io/geneKeyword.table.txt", 
+write.table(dat.key, file="E:/GIT/funRiceGenes.github.io/geneKeyword.table.txt", 
             quote=F, sep="\t", row.names=F)
 
 
@@ -30,7 +30,7 @@ for (j in 1:nrow(gene.lst)) {
   msu <- gene.lst$MSU[j]
   rap <- gene.lst$RAPdb[j]
   path <- gene.lst$path[j]
-  path <- paste("~/RICENCODE", path, sep="/")
+  path <- paste("E:/GIT/RICENCODE", path, sep="/")
   
   ### msu
   msu <- unlist(strsplit(msu, split='|', fixed=TRUE))
@@ -219,27 +219,27 @@ for (j in 1:nrow(gene.lst)) {
     tmp.tag <- substr(gsub("^os", "", gene.lst$Symbol[j], ignore.case=T), 1,1)
 	tmp.tag <- toupper(tmp.tag)
 	if (tmp.tag %in% LETTERS[1:26]) {
-	  path <- paste("~/funRiceGenes.github.io/_posts/OS/", tmp.tag, sep="")
+	  path <- paste("E:/GIT/funRiceGenes.github.io/_posts/OS/", tmp.tag, sep="")
 	} else {
-	  path <- "~/funRiceGenes.github.io/_posts/OS/0-9"
+	  path <- "E:/GIT/funRiceGenes.github.io/_posts/OS/0-9"
 	}
   } else {
     tmp.tag <- substr(gene.lst$Symbol[j], 1,1)
 	tmp.tag <- toupper(tmp.tag)
 	if (tmp.tag %in% LETTERS[1:26]) {
-	  path <- paste("~/funRiceGenes.github.io/_posts/", tmp.tag, sep="")
+	  path <- paste("E:/GIT/funRiceGenes.github.io/_posts/", tmp.tag, sep="")
 	} else {
-	  path <- "~/funRiceGenes.github.io/_posts/0-9"
+	  path <- "E:/GIT/funRiceGenes.github.io/_posts/0-9"
 	}
   }
 	  
   out.fl.name <- paste(path, out.fl.name, sep="/")
   if (length(exp.fig.fl)==1) {
-#    file.copy(from=exp.fig.fl, to="~/funRiceGenes.github.io/images")
+#    file.copy(from=exp.fig.fl, to="E:/GIT/funRiceGenes.github.io/images")
   }
   
   if (length(pheno.fig.fl)==1) {
-#    file.copy(from=pheno.fig.fl, to="~/funRiceGenes.github.io/images")
+#    file.copy(from=pheno.fig.fl, to="E:/GIT/funRiceGenes.github.io/images")
   }
   
   dir.name <- dirname(out.fl.name)
@@ -256,7 +256,7 @@ fam.lst <- read.table("famInfo.table", head=T,
 fam.path <- unique(fam.lst$path)
 for (j in 1:length(fam.path)) {
   path <- fam.path[j]
-  path <- paste("~/RICENCODE", path, sep="/")
+  path <- paste("E:/GIT/RICENCODE", path, sep="/")
   
   info.fl <- paste(path, "family.info", sep="/")
   fam.info <- NULL
@@ -358,17 +358,17 @@ for (j in 1:length(fam.path)) {
     tmp.tag <- substr(gsub("^os", "", name, ignore.case=T), 1,1)
     tmp.tag <- toupper(tmp.tag)
     if (tmp.tag %in% LETTERS[1:26]) {
-      path <- paste("~/funRiceGenes.github.io/_posts/FAM/OS/", tmp.tag, sep="")
+      path <- paste("E:/GIT/funRiceGenes.github.io/_posts/FAM/OS/", tmp.tag, sep="")
     } else {
-      path <- "~/funRiceGenes.github.io/_posts/FAM/OS/0-9"
+      path <- "E:/GIT/funRiceGenes.github.io/_posts/FAM/OS/0-9"
     }
   } else {
     tmp.tag <- substr(name, 1,1)
     tmp.tag <- toupper(tmp.tag)
     if (tmp.tag %in% LETTERS[1:26]) {
-      path <- paste("~/funRiceGenes.github.io/_posts/FAM/", tmp.tag, sep="")
+      path <- paste("E:/GIT/funRiceGenes.github.io/_posts/FAM/", tmp.tag, sep="")
     } else {
-      path <- "~/funRiceGenes.github.io/_posts/FAM/0-9"
+      path <- "E:/GIT/funRiceGenes.github.io/_posts/FAM/0-9"
     }
   }
   
@@ -406,7 +406,7 @@ for (i in 1:nrow(pub.df)) {
                   pub.df$Journal[i], ".", sep="")
   md.cont <- c(md.cont, md.ref)
 }
-writeLines(md.cont, con="~/funRiceGenes.github.io/docs/index.md")
+writeLines(md.cont, con="E:/GIT/funRiceGenes.github.io/docs/index.md")
 
 
 meg <- readLines("git.log")
@@ -430,6 +430,6 @@ for (i in seq(1, length(meg), by=6)) {
   md.cont <- c(md.cont, meg.final)
 }
 md.cont <- gsub("\\|", "/", md.cont)
-writeLines(md.cont, con="~/funRiceGenes.github.io/news/index.md")
+writeLines(md.cont, con="E:/GIT/funRiceGenes.github.io/news/index.md")
 
 
