@@ -1,8 +1,8 @@
 
 library(RCurl); library(XML); library(stringr); library(plyr); 
 mypasswd = "asdfghjkl;'"
-system('git config --global user.name "venyao"')
-system('git config --global user.email "ywhzau@gmail.com"')
+shell('git config --global user.name "venyao"')
+shell('git config --global user.email "ywhzau@gmail.com"')
 
 fetchPubmedById <- function(id="") {
   url <- "https://www.ncbi.nlm.nih.gov/pubmed"
@@ -2197,9 +2197,9 @@ shinyServer(function(input, output, session) {
           updateGeneInfo()
           
           git.info <- paste("add new reference for ", symsub2, sep="")
-          system("git checkout master")
-          system("git add -A")
-          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          shell("git checkout master")
+          shell("git add -A")
+          shell(paste('git commit -m ', '"', git.info, '"', sep=""))
           
           js_string <- 'alert("New reference successfully added!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2227,9 +2227,9 @@ shinyServer(function(input, output, session) {
           updateGeneInfo()
           
           git.info <- paste("add new accessions for ", symsub3, sep="")
-          system("git checkout master")
-          system("git add -A")
-          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          shell("git checkout master")
+          shell("git add -A")
+          shell(paste('git commit -m ', '"', git.info, '"', sep=""))
           
           js_string <- 'alert("Accessions successfully added!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2258,9 +2258,9 @@ shinyServer(function(input, output, session) {
           updateGeneInfo()
           
           git.info <- paste("add new keywords for ", symsub4, sep="")
-          system("git checkout master")
-          system("git add -A")
-          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          shell("git checkout master")
+          shell("git add -A")
+          shell(paste('git commit -m ', '"', git.info, '"', sep=""))
           
           js_string <- 'alert("Keywords successfully added!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2290,9 +2290,9 @@ shinyServer(function(input, output, session) {
           
           git.info <- paste("add new connections between ", 
                             symsub5, " and ", sym2sub5, sep="")
-          system("git checkout master")
-          system("git add -A")
-          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          shell("git checkout master")
+          shell("git add -A")
+          shell(paste('git commit -m ', '"', git.info, '"', sep=""))
           
           js_string <- 'alert("Info successfully added!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2316,9 +2316,9 @@ shinyServer(function(input, output, session) {
            save.image(symsub8, input$phenofig, input$expfig)
           
            git.info <- paste("add new figures for ", symsub8, sep="")
-           system("git checkout master")
-           system("git add -A")
-           system(paste('git commit -m ', '"', git.info, '"', sep=""))
+           shell("git checkout master")
+           shell("git add -A")
+           shell(paste('git commit -m ', '"', git.info, '"', sep=""))
           
            js_string <- 'alert("Figures successfully added!");'
            session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2357,9 +2357,9 @@ shinyServer(function(input, output, session) {
           updateGeneInfo()
           
           git.info <- gsub("\\|", " == ", newsym)
-          system("git checkout master")
-          system("git add -A")
-          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          shell("git checkout master")
+          shell("git add -A")
+          shell(paste('git commit -m ', '"', git.info, '"', sep=""))
           
           js_string <- 'alert("Edit gene info successfully!");'
           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2392,9 +2392,9 @@ shinyServer(function(input, output, session) {
                updateGeneInfo()
                
                git.info <- paste("add new gene: ", symsub7, sep="") 
-               system("git checkout master")
-               system("git add -A")
-               system(paste('git commit -m ', '"', git.info, '"', sep=""))
+               shell("git checkout master")
+               shell("git add -A")
+               shell(paste('git commit -m ', '"', git.info, '"', sep=""))
           
                js_string <- 'alert("Add new gene successfully!");'
 			   session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2410,9 +2410,9 @@ shinyServer(function(input, output, session) {
                                   stringsAsFactors=FALSE)
              write.pub(df.pub)
              git.info <- "add new pub."
-             system("git checkout master")
-             system("git add -A")
-             system(paste('git commit -m ', '"', git.info, '"', sep=""))
+             shell("git checkout master")
+             shell("git add -A")
+             shell(paste('git commit -m ', '"', git.info, '"', sep=""))
           
              if (symsub7=="") {
 				js_string <- 'alert("Add new pub successfully!");'
@@ -2425,9 +2425,9 @@ shinyServer(function(input, output, session) {
                scanAndWriteExp(df.pub)
                
 			   git.info <- paste("add new info for gene: ", symsub7, sep="") 
-               system("git checkout master")
-               system("git add -A")
-               system(paste('git commit -m ', '"', git.info, '"', sep=""))
+               shell("git checkout master")
+               shell("git add -A")
+               shell(paste('git commit -m ', '"', git.info, '"', sep=""))
 
 			   js_string <- 'alert("Add new info successfully!");'
 	           session$sendCustomMessage(type='jsCode', list(value = js_string))
@@ -2613,9 +2613,9 @@ shinyServer(function(input, output, session) {
            }
            
            git.info <- paste("add new family: ", symbol.low, sep="")
-           system("git checkout master")
-           system("git add -A")
-           system(paste('git commit -m ', '"', git.info, '"', sep=""))
+           shell("git checkout master")
+           shell("git add -A")
+           shell(paste('git commit -m ', '"', git.info, '"', sep=""))
            
            js_string <- 'alert("New gene family successfully added!");'
            session$sendCustomMessage(type='jsCode', list(value = js_string))
