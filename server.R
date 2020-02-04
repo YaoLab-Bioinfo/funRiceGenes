@@ -2027,7 +2027,7 @@ shinyServer(function(input, output, session) {
   gene.info.NM <- apply(gene.info, 1, function(x){
     x.msu <- unlist(strsplit(x[3], split="\\|"))
     res <- lapply(1:length(x.msu), function(y){
-      return(c(x[1:2], x.msu[y]))
+      return(c(x[1:2], x.msu[y], x[4]))
     })
     return(do.call(rbind, res))
   })
@@ -2036,7 +2036,7 @@ shinyServer(function(input, output, session) {
   gene.info.NP <- apply(gene.info, 1, function(x){
     x.rap <- unlist(strsplit(x[2], split="\\|"))
     res <- lapply(1:length(x.rap), function(y){
-      return(c(x[1], x.rap[y], x[3]))
+      return(c(x[1], x.rap[y], x[3:4]))
     })
     return(do.call(rbind, res))
   })
@@ -2102,6 +2102,7 @@ shinyServer(function(input, output, session) {
       dat.tmp <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus]), ]
       
       dat.tmp$path <- NULL
+      dat.tmp <- unique(dat.tmp)
       write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
     }, contentType = "text/txt"
   )
@@ -2115,6 +2116,7 @@ shinyServer(function(input, output, session) {
       dat.tmp <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus]), ]
       
       dat.tmp$path <- NULL
+      dat.tmp <- unique(dat.tmp)
       write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
     }, contentType = "text/txt"
   )
@@ -2125,17 +2127,20 @@ shinyServer(function(input, output, session) {
       in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
       in.locus <- gsub("^\\s+", "", in.locus)
       in.locus <- gsub("\\s+$", "", in.locus)
-      in.sym <- unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus])
-      ref.info.n <- apply(ref.info, 1, function(x){
-        x.gene <- unlist(strsplit(x[6], split=","))
-        res <- lapply(1:length(x.gene), function(y){
-          return(c(x[1:5], x.gene[y]))
-        })
-        return(do.call(rbind, res))
-      })
-      ref.info.n <- do.call(rbind, ref.info.n)
+      in.info <- unique(gene.info.NM[gene.info.NM$MSU %in% in.locus, ])
       
-      dat.tmp <- ref.info.n[ref.info.n[, "Gene"] %in% in.sym, ]
+      in.info.pub <- apply(in.info, 1, function(x) {
+        x.path <- x[4]
+        x.path <- paste(x.path, "reference.info", sep="/")
+        x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                            quote="", comment="")
+        x.pub$Publication <- NULL
+        x.pub$Gene <- x[1]
+        return(x.pub)
+      })		
+      
+      dat.tmp <- do.call(rbind, in.info.pub)
+      dat.tmp <- unique(dat.tmp)
       
       write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
     }, contentType = "text/txt"
@@ -2147,17 +2152,20 @@ shinyServer(function(input, output, session) {
       in.locus <- unlist(strsplit(input$raparea, split="\\n"))
       in.locus <- gsub("^\\s+", "", in.locus)
       in.locus <- gsub("\\s+$", "", in.locus)
-      in.sym <- unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus])
-      ref.info.n <- apply(ref.info, 1, function(x){
-        x.gene <- unlist(strsplit(x[6], split=","))
-        res <- lapply(1:length(x.gene), function(y){
-          return(c(x[1:5], x.gene[y]))
-        })
-        return(do.call(rbind, res))
-      })
-      ref.info.n <- do.call(rbind, ref.info.n)
+      in.info <- unique(gene.info.NP[gene.info.NP$RAPdb %in% in.locus, ])
       
-      dat.tmp <- ref.info.n[ref.info.n[, "Gene"] %in% in.sym, ]
+      in.info.pub <- apply(in.info, 1, function(x) {
+        x.path <- x[4]
+        x.path <- paste(x.path, "reference.info", sep="/")
+        x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                            quote="", comment="")
+        x.pub$Publication <- NULL
+        x.pub$Gene <- x[1]
+        return(x.pub)
+      })		
+      
+      dat.tmp <- do.call(rbind, in.info.pub)
+      dat.tmp <- unique(dat.tmp)
       
       write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
     }, contentType = "text/txt"
