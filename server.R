@@ -2409,10 +2409,13 @@ shinyServer(function(input, output, session) {
              }
            }
 
-	   pubmed7 <- gsub("^\\s+", "", input$pubmed7)
-	   pubmed7 <- gsub("\\s+$", "", pubmed7)
-           pubmedRes <- fetchPubmedById(pubmed7)
-           if (all(pubmedRes!="")) {  
+           if (input$pubmed7 != "") {
+             pubmed7 <- gsub("^\\s+", "", input$pubmed7)
+             pubmed7 <- gsub("\\s+$", "", pubmed7)
+             pubmedRes <- fetchPubmedById(pubmed7)
+           }
+	   
+           if (all(pubmedRes!="")) {
              df.pub <- data.frame(Symbol=symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
                                   Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
                                   stringsAsFactors=FALSE)
