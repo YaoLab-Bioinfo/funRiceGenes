@@ -2409,12 +2409,11 @@ shinyServer(function(input, output, session) {
              }
            }
 
+           pubmedRes <- ""
            if (input$pubmed7 != "") {
              pubmed7 <- gsub("^\\s+", "", input$pubmed7)
              pubmed7 <- gsub("\\s+$", "", pubmed7)
              pubmedRes <- fetchPubmedById(pubmed7)
-           } else {
-             pubmedRes <- ""
            }
 	   
            if (all(pubmedRes!="")) {
