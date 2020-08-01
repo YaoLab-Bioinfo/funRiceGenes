@@ -383,6 +383,7 @@ for (j in 1:length(fam.path)) {
 
 
 pub.df <- read.table("reference.table", head=T, as.is=T, sep="\t", quote="", comment="")
+pub.df <- pub.df[order(-pub.df$Year), ]
 md.cont <- ""
 md.cont[1] <- "---"
 md.cont[2] <- "layout: page"
