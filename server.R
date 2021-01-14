@@ -1299,6 +1299,7 @@ write.pub <- function(df) {
     symbol <- gsub("^\\s+", "", symbol)
     symbol <- gsub(" +$", "", symbol)
     locus.line <- findDirBySym(tolower(symbol))
+    
     df$Symbol <- gene.info$Symbol[locus.line]
     if (length(locus.line)==1) {
       path <- gene.info$path[locus.line]
