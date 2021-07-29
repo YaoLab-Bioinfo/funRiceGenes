@@ -185,40 +185,40 @@ fetchFamInfoByMsu <- function(locus="") {
   locus <- gsub(" +$", "", locus)
   locus.line <- fam.gene.msu.final[locus]
   if ( (length(locus.line)==1) && !is.na(locus.line) ) {
-      dat <- fam.gene.info[locus.line, ]
-      
-      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
-      msu.new <- sapply(msu, function(x){
-        if (x!="None") {
-          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                     x, sep="")
-          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
-          y <- HTML(y)
-          return(y)
-        } else {
-          return("None")
-        }
-      })
-      msu.new <- paste(unname(msu.new), sep="", collapse="|")
-      dat$MSU <- msu.new
-      
-      rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
-      rap.new <- sapply(rap, function(x){
-        if (x!="None") {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                     x, sep="")
-          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
-          y <- HTML(y)
-          return(y)
-        } else {
-          return("None")
-        }
-      })
-      rap.new <- paste(unname(rap.new), sep="", collapse="|")
-      dat$RAPdb <- rap.new
-      
-      dat$path <- NULL
-      return(dat)
+    dat <- fam.gene.info[locus.line, ]
+    
+    msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
+    msu.new <- sapply(msu, function(x){
+      if (x!="None") {
+        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+        y <- HTML(y)
+        return(y)
+      } else {
+        return("None")
+      }
+    })
+    msu.new <- paste(unname(msu.new), sep="", collapse="|")
+    dat$MSU <- msu.new
+    
+    rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
+    rap.new <- sapply(rap, function(x){
+      if (x!="None") {
+        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+        y <- HTML(y)
+        return(y)
+      } else {
+        return("None")
+      }
+    })
+    rap.new <- paste(unname(rap.new), sep="", collapse="|")
+    dat$RAPdb <- rap.new
+    
+    dat$path <- NULL
+    return(dat)
   } else {
     return(NULL)
   }
@@ -519,40 +519,40 @@ fetchFamInfoByRap <- function(locus="") {
   locus <- gsub(" +$", "", locus)
   locus.line <- fam.gene.rap.final[locus]
   if ( (length(locus.line)==1) && !is.na(locus.line) ) {
-      dat <- fam.gene.info[locus.line, ]
-      
-      msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
-      msu.new <- sapply(msu, function(x){
-        if (x!="None") {
-          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
-                     x, sep="")
-          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
-          y <- HTML(y)
-          return(y)
-        } else {
-          return("None")
-        }
-      })
-      msu.new <- paste(unname(msu.new), sep="", collapse="|")
-      dat$MSU <- msu.new
-      
-      rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
-      rap.new <- sapply(rap, function(x){
-        if (x!="None") {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
-                     x, sep="")
-          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
-          y <- HTML(y)
-          return(y)
-        } else {
-          return("None")
-        }
-      })
-      rap.new <- paste(unname(rap.new), sep="", collapse="|")
-      dat$RAPdb <- rap.new
-      dat$path <- NULL
-      
-      return(dat)
+    dat <- fam.gene.info[locus.line, ]
+    
+    msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
+    msu.new <- sapply(msu, function(x){
+      if (x!="None") {
+        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+        y <- HTML(y)
+        return(y)
+      } else {
+        return("None")
+      }
+    })
+    msu.new <- paste(unname(msu.new), sep="", collapse="|")
+    dat$MSU <- msu.new
+    
+    rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
+    rap.new <- sapply(rap, function(x){
+      if (x!="None") {
+        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                   x, sep="")
+        y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+        y <- HTML(y)
+        return(y)
+      } else {
+        return("None")
+      }
+    })
+    rap.new <- paste(unname(rap.new), sep="", collapse="|")
+    dat$RAPdb <- rap.new
+    dat$path <- NULL
+    
+    return(dat)
   } else {
     return(NULL)
   }
@@ -1629,9 +1629,9 @@ updateGeneInfo <- function() {
   
   gene.info <<- read.table("geneInfo.table", head=T, sep="\t", as.is=T, quote="")
   gene.keyword <<- read.table("geneKeyword.table", head=T, 
-                             sep="\t", as.is=T, quote="", comment="")
+                              sep="\t", as.is=T, quote="", comment="")
   ref.info <<- read.table("reference.table", head=T, as.is=T, sep="\t", 
-                         quote="", comment="")
+                          quote="", comment="")
   
   gene.msu <- 1:nrow(gene.info)
   names(gene.msu) <- gene.info$MSU
@@ -1934,96 +1934,229 @@ fetctRiceNetByChoice <- function(query="", text="") {
 
 #### Shiny
 shinyServer(function(input, output, session) {
+
   
   output$inText <- renderUI({
     textInput("inText", label=NULL, 
               value=query.intext[input$query])
   })
+  output$mytable1 = DT::renderDataTable({
+    DT::datatable(
+      fetchInfoByChoice(input$query, input$inText),
+      options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Gene_Information"),
+                                    list(extend = 'excel', filename = "Gene_Information")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
   
-  output$mytable1 = renderDataTable({
-    fetchInfoByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(1, 2), pageLength = 1, searching = FALSE, autoWidth = FALSE), escape = FALSE
-  )
-  
-  output$mytable2 = renderDataTable({
-    fetchRefByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(1, 2, 4), pageLength = 1,
-                    searching = FALSE, autoWidth = FALSE), escape = FALSE
-  )
-  
-  output$mytable3 = renderDataTable({
-    fetchAccByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(2, 4, 6), searching = FALSE,
-                    pageLength = 2, autoWidth = FALSE), escape = FALSE)
+  output$mytable2 = DT::renderDataTable({
+    DT::datatable(
+      fetchRefByChoice(input$query, input$inText),
+      options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Gene_Reference"),
+                                    list(extend = 'excel', filename = "Gene_Reference")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
 
-  output$mytable4 = renderDataTable({
-    fetchExpByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
-                    pageLength = 1, autoWidth = FALSE), escape = FALSE)
+  output$mytable3 = DT::renderDataTable({
+    DT::datatable(
+      fetchAccByChoice(input$query, input$inText),
+      options = list(lengthMenu = c(2,4,6), pageLength = 2, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Gene_Accession"),
+                                    list(extend = 'excel', filename = "Gene_Accession")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
   
-  output$mytable5 = renderDataTable({
-    fetchKeyByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
-                    pageLength = 1, autoWidth = FALSE), escape = FALSE)
+  output$mytable4 = DT::renderDataTable({
+    DT::datatable(
+      fetchExpByChoice(input$query, input$inText),
+      options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Gene_Expression"),
+                                    list(extend = 'excel', filename = "Gene_Expression")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
+
+  output$mytable5 = DT::renderDataTable({
+    DT::datatable(
+      fetchKeyByChoice(input$query, input$inText),
+      options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Gene_Keyword"),
+                                    list(extend = 'excel', filename = "Gene_Keyword")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
   
-  output$mytable6 = renderDataTable({
-    fetchConneByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(1, 2, 4), searching = FALSE,
-                    pageLength = 1, autoWidth = FALSE), escape = FALSE)
+  output$mytable6 = DT::renderDataTable({
+    DT::datatable(
+      fetchConneByChoice(input$query, input$inText),
+      options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Gene_Connection"),
+                                    list(extend = 'excel', filename = "Gene_Connection")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
   
-  output$mytable7 = renderDataTable({
-    fetchInfoByKey(input$keyword)
-  }, options = list(lengthMenu = c(2, 4, 6), searching = FALSE,
-                    pageLength = 2, autoWidth = FALSE), escape = FALSE)
+
+  output$mytable7 = DT::renderDataTable({
+    if ( is.null(input$keyword) ){
+      NULL
+    }else{
+    DT::datatable(
+      fetchInfoByKey(input$keyword),
+      options = list(lengthMenu = c(5, 10, 15, 20), pageLength = 4, scrollX = TRUE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Gene_RiceNet"),
+                                    list(extend = 'excel', filename = "Gene_RiceNet")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )}
+  }, server = FALSE)
+ 
   
   output$inTextfam <- renderUI({
     textInput("inTextfam", label=NULL, 
               value=query.intext.fam[input$queryfam])
   })
-  
-  output$mytable8 = renderDataTable({
-    fetchFamInfoByChoice(input$queryfam, input$inTextfam)
-  }, options = list(lengthMenu = c(1, 2), pageLength = 1, searching = FALSE, autoWidth = FALSE), escape = FALSE
-  )
-  
-  output$mytable9 = renderDataTable({
-    fetchFamRefByChoice(input$queryfam, input$inTextfam)
-  }, options = list(lengthMenu = c(1, 2, 4), pageLength = 1,
-                    searching = FALSE, autoWidth = FALSE), escape = FALSE
-  )
+  output$mytable8 = DT::renderDataTable({
+    DT::datatable(
+      fetchFamInfoByChoice(input$queryfam, input$inTextfam),
+      options = list(lengthMenu = c(1,2), pageLength = 1, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Family_Information"),
+                                    list(extend = 'excel', filename = "Family_Information")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
 
+  output$mytable9 = DT::renderDataTable({
+    DT::datatable(
+      fetchFamRefByChoice(input$queryfam, input$inTextfam),
+      options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Family_Reference"),
+                                    list(extend = 'excel', filename = "Family_Reference")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
+
+  
   output$inTextconv <- renderUI({
     textInput("inTextconv", label=NULL, 
-            value=query.intext.conv[input$queryconv])
+              value=query.intext.conv[input$queryconv])
   })
-
-  output$mytable10 = renderDataTable({
-    convID(input$queryconv, input$inTextconv)
-  }, options = list(lengthMenu = c(1, 4), pageLength = 4,
-                  searching = FALSE, autoWidth = FALSE), escape = FALSE
-  )
+  output$mytable10 = DT::renderDataTable({
+    DT::datatable(
+      convID(input$queryconv, input$inTextconv),
+      options = list(lengthMenu = c(1,2), pageLength = 4, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "ID_conversion_MSU_RAP"),
+                                    list(extend = 'excel', filename = "ID_conversion_MSU_RAP")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
+  
+  output$mytable12 = DT::renderDataTable({
+    DT::datatable(
+      geneID(input$IJconv, input$inIJconv),
+      options = list(lengthMenu = c(1,4), pageLength = 4, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "ID_conversion_Ind_Jap"),
+                                    list(extend = 'excel', filename = "ID_conversion_Ind_Jap")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
   
   output$inIJconv <- renderUI({
     textInput("inIJconv", label=NULL, 
               value=query.IJ.conv[input$IJconv])
   })
   
-  output$mytable12 = renderDataTable({
-    geneID(input$IJconv, input$inIJconv)
-  }, options = list(lengthMenu = c(1, 4), pageLength = 4,
-                    searching = FALSE, autoWidth = FALSE), escape = FALSE
-  )
 
-  output$mytable11 = renderDataTable({
-    fetchRefByKey(input$publication)
-  }, options = list(lengthMenu = c(1, 2, 4, 6), searching = FALSE,
-                  pageLength = 1, autoWidth = FALSE), escape = FALSE)
   
-  output$mytable13 = renderDataTable({
-    fetctRiceNetByChoice(input$query, input$inText)
-  }, options = list(lengthMenu = c(2, 4, 8), pageLength = 4,
-                    searching = FALSE, autoWidth = FALSE), escape = FALSE
+  output$mytable11 = DT::renderDataTable({
+  DT::datatable(
+    fetchRefByKey(input$publication),
+    options = list(lengthMenu = c(1, 2, 4, 6, 10), pageLength = 2, scrollX = FALSE,
+                   searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                   buttons = list('pageLength', 'copy', 
+                                  list(extend = 'csv',   filename = "Publication"),
+                                  list(extend = 'excel', filename = "Publication")
+                   ), 
+                   dom = 'Bfrtip',
+                   columnDefs=list(list(targets="_all"))
+    ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
   )
+}, server = FALSE)
+  
+  output$mytable13 = DT::renderDataTable({
+    DT::datatable(
+      fetctRiceNetByChoice(input$query, input$inText),
+      options = list(lengthMenu = c(2,4,8), pageLength = 4, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "gene_RiceNet"),
+                                    list(extend = 'excel', filename = "gene_RiceNet")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
+  
+
   
   gene.info.NM <- apply(gene.info, 1, function(x){
     x.msu <- unlist(strsplit(x[3], split="\\|"))
@@ -2061,141 +2194,298 @@ shinyServer(function(input, output, session) {
   })
   fam.gene.info.NP <- as.data.frame(do.call(rbind, fam.gene.info.NP), stringsAsFactors=FALSE)
   
-  output$dMsuInfo <- downloadHandler(
-    filename <- function(){paste('locusInfo.csv')},
-    content <- function(file) {
-      in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
-      in.locus <- gsub("^\\s+", "", in.locus)
-      in.locus <- gsub("\\s+$", "", in.locus)
-      dat.tmp.1 <- gene.info[gene.info$Symbol %in% unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus]), ]
-      dat.tmp.2 <- fam.gene.info[fam.gene.info$Symbol %in% unique(fam.gene.info.NM$Symbol[fam.gene.info.NM$MSU %in% in.locus]), ]
-      dat.tmp.2 <- dat.tmp.2[!dat.tmp.2$MSU %in% dat.tmp.1$MSU, ]
-      dat.tmp <- rbind(dat.tmp.1, dat.tmp.2)
-      dat.tmp$path <- NULL
-      
-      write.csv(dat.tmp, file, row.names=FALSE)
-    }, contentType = "text/csv"
-  )
   
-  output$dRapInfo <- downloadHandler(
-    filename <- function(){paste('locusInfo.csv')},
-    content <- function(file) {
-      in.locus <- unlist(strsplit(input$raparea, split="\\n"))
-      in.locus <- gsub("^\\s+", "", in.locus)
-      in.locus <- gsub("\\s+$", "", in.locus)
-      dat.tmp.1 <- gene.info[gene.info$Symbol %in% unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus]), ]
-      dat.tmp.2 <- fam.gene.info[fam.gene.info$Symbol %in% unique(fam.gene.info.NP$Symbol[fam.gene.info.NP$RAP %in% in.locus]), ]
-      dat.tmp.2 <- dat.tmp.2[!dat.tmp.2$RAP
-                             %in% dat.tmp.1$RAP, ]
-      dat.tmp <- rbind(dat.tmp.1, dat.tmp.2)
-      dat.tmp$path <- NULL
+  observeEvent(input$submit_ID ,{
+    if (input$msuarea == "" & input$selextractdata == "1"){
+      shinyWidgets::sendSweetAlert(
+        session = session,
+        title = "Error input!", type = "error",
+        text = "The input information is empty!"
+      )
       
-      write.csv(dat.tmp, file, row.names=FALSE)
-    }, contentType = "text/csv"
-  )
+    }else if( input$raparea == "" & input$selextractdata == "2"){ 
+      shinyWidgets::sendSweetAlert(
+        session = session,
+        title = "Error input!", type = "error",
+        text = "The input information is empty!"
+      )
+      }
+    else{
+      if(input$selextractdata == "1" ) {
+        in.locus_dMsuInfo <- unlist(strsplit(input$msuarea, split="\\n"))
+        in.locus_dMsuInfo <- gsub("^\\s+", "", in.locus_dMsuInfo)
+        in.locus_dMsuInfo <- gsub("\\s+$", "", in.locus_dMsuInfo)
+        dat.tmp.1_dMsuInfo <- gene.info[gene.info$Symbol %in% unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus_dMsuInfo]), ]
+        dat.tmp.2_dMsuInfo <- fam.gene.info[fam.gene.info$Symbol %in% unique(fam.gene.info.NM$Symbol[fam.gene.info.NM$MSU %in% in.locus_dMsuInfo]), ]
+        dat.tmp.2_dMsuInfo <- dat.tmp.2_dMsuInfo[!dat.tmp.2_dMsuInfo$MSU %in% dat.tmp.1_dMsuInfo$MSU, ]
+        dat.tmp_dMsuInfo <- rbind(dat.tmp.1_dMsuInfo, dat.tmp.2_dMsuInfo)
+        dat.tmp_dMsuInfo$path <- NULL
+        if (nrow(dat.tmp_dMsuInfo) == 0){
+          NULL          
+        }else{ 
+        output$dMsuInfo = DT::renderDataTable({
+          DT::datatable(
+            dat.tmp_dMsuInfo,
+            options = list(lengthMenu = c(1,4,10), pageLength = 4, scrollX = FALSE,
+                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                           buttons = list('pageLength', 'copy', 
+                                          list(extend = 'csv',   filename = "Msu_Gene_Info"),
+                                          list(extend = 'excel', filename = "Msu_Gene_Info")
+                           ), 
+                           dom = 'Bfrtip',
+                           columnDefs=list(list(targets="_all"))
+            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+          )
+        }, server = FALSE) 
+        
+        }
+      }
+      if(input$selextractdata == "2"){
+        in.locus_dRapInfo <- unlist(strsplit(input$raparea, split="\\n"))
+        in.locus_dRapInfo <- gsub("^\\s+", "", in.locus_dRapInfo)
+        in.locus_dRapInfo <- gsub("\\s+$", "", in.locus_dRapInfo)
+        dat.tmp.1_dRapInfo <- gene.info[gene.info$Symbol %in% unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus_dRapInfo]), ]
+        dat.tmp.2_dRapInfo <- fam.gene.info[fam.gene.info$Symbol %in% unique(fam.gene.info.NP$Symbol[fam.gene.info.NP$RAP %in% in.locus_dRapInfo]), ]
+        dat.tmp.2_dRapInfo <- dat.tmp.2_dRapInfo[!dat.tmp.2_dRapInfo$RAP %in% dat.tmp.1_dRapInfo$RAP, ]
+        dat.tmp_dRapInfo <- rbind(dat.tmp.1_dRapInfo, dat.tmp.2_dRapInfo)
+        dat.tmp_dRapInfo$path <- NULL
+        if (nrow(dat.tmp_dRapInfo) == 0){
+          NULL
+        }else{ 
+        output$dRapInfo = DT::renderDataTable({
+          DT::datatable(
+            dat.tmp_dRapInfo,
+            options = list(lengthMenu = c(1,4,10), pageLength = 4, scrollX = FALSE,
+                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                           buttons = list('pageLength', 'copy', 
+                                          list(extend = 'csv',   filename = "RAP_Gene_Info"),
+                                          list(extend = 'excel', filename = "RAP_Gene_Info")
+                           ), 
+                           dom = 'Bfrtip',
+                           columnDefs=list(list(targets="_all"))
+            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+          )
+        }, server = FALSE)  
+        
+        }}
+        
+      if(input$selextractdata == "1"){
+        in.locus_dMsuKey <- unlist(strsplit(input$msuarea, split="\\n"))
+        in.locus_dMsuKey <- gsub("^\\s+", "", in.locus_dMsuKey)
+        in.locus_dMsuKey <- gsub("\\s+$", "", in.locus_dMsuKey)
+        dat.tmp_dMsuKey <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus_dMsuKey]), ]
+        
+        dat.tmp_dMsuKey$path <- NULL
+        dat.tmp_dMsuKey <- unique(dat.tmp_dMsuKey)
+        
+        if (nrow(dat.tmp_dMsuKey) == 0){
+          NULL
+        }else{ 
+        
+        output$dMsuKey = DT::renderDataTable({
+          DT::datatable(
+            dat.tmp_dMsuKey,
+            options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
+                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                           buttons = list('pageLength', 'copy', 
+                                          list(extend = 'csv',   filename = "MSU_gene_keyword"),
+                                          list(extend = 'excel', filename = "MSU_gene_keyword")
+                           ), 
+                           dom = 'Bfrtip',
+                           columnDefs=list(list(targets="_all"))
+            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+          )
+        }, server = FALSE) 
+      }}
+      if(input$selextractdata == "2"){
+        in.locus_dRapKey <- unlist(strsplit(input$raparea, split="\\n"))
+        in.locus_dRapKey <- gsub("^\\s+", "", in.locus_dRapKey)
+        in.locus_dRapKey <- gsub("\\s+$", "", in.locus_dRapKey)
+        dat.tmp_dRapKey <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus_dRapKey]), ]
+        dat.tmp_dRapKey$path <- NULL
+        dat.tmp_dRapKey <- unique(dat.tmp_dRapKey)
+        if (nrow(dat.tmp_dRapKey) == 0){
+          NULL
+          
+        }else{
+         
+        output$dRapKey = DT::renderDataTable({
+          DT::datatable(
+            dat.tmp_dRapKey,
+            options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
+                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                           buttons = list('pageLength', 'copy', 
+                                          list(extend = 'csv',   filename = "RAP_gene_keyword"),
+                                          list(extend = 'excel', filename = "RAP_gene_keyword")
+                           ), 
+                           dom = 'Bfrtip',
+                           columnDefs=list(list(targets="_all"))
+            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+          )
+        }, server = FALSE) 
+      }}
+      if(input$selextractdata == "1"){
+        in.locus_dMsuPub <- unlist(strsplit(input$msuarea, split="\\n"))
+        in.locus_dMsuPub <- gsub("^\\s+", "", in.locus_dMsuPub)
+        in.locus_dMsuPub <- gsub("\\s+$", "", in.locus_dMsuPub)
+        in.info_dMsuPub <- unique(gene.info.NM[gene.info.NM$MSU %in% in.locus_dMsuPub, ])
+        if (nrow(in.info_dMsuPub) == 0){
+          NULL
+        }else{
+        in.info.pub_MsuPub <- apply(in.info_dMsuPub, 1, function(x) {
+          x.path <- x[4]
+          x.path <- paste(x.path, "reference.info", sep="/")
+          x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                              quote="", comment="")
+          x.pub$Publication <- NULL
+          x.pub$Gene <- x[1]
+          return(x.pub)
+        })		
+        
+        dat.tmp_dMsuPub <- do.call(rbind, in.info.pub_MsuPub)
+        dat.tmp_dMsuPub <- unique(dat.tmp_dMsuPub)
+        
+        output$dMsuPub = DT::renderDataTable({
+          DT::datatable(
+            dat.tmp_dMsuPub,
+            options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
+                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                           buttons = list('pageLength', 'copy', 
+                                          list(extend = 'csv',   filename = "MSU_gene_publication"),
+                                          list(extend = 'excel', filename = "MSU_gene_publication")
+                           ), 
+                           dom = 'Bfrtip',
+                           columnDefs=list(list(targets="_all"))
+            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+          )
+        }, server = FALSE)}
+      }
+      
+      if(input$selextractdata == "2"){
+        in.locus_dRapPub <- unlist(strsplit(input$raparea, split="\\n"))
+        in.locus_dRapPub <- gsub("^\\s+", "", in.locus_dRapPub)
+        in.locus_dRapPub <- gsub("\\s+$", "", in.locus_dRapPub)
+        in.info_dRapPub <- unique(gene.info.NP[gene.info.NP$RAPdb %in% in.locus_dRapPub, ])
+        if ( nrow(in.info_dRapPub) == 0 ){
+          dat.tmp_dRapPub <- data.frame()
+          
+        }else{ 
+        in.info.pub_dRapPub <- apply(in.info_dRapPub, 1, function(x) {
+          x.path <- x[4]
+          x.path <- paste(x.path, "reference.info", sep="/")
+          x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                              quote="", comment="")
+          x.pub$Publication <- NULL
+          x.pub$Gene <- x[1]
+          return(x.pub)})
+        dat.tmp_dRapPub <- do.call(rbind, in.info.pub_dRapPub)
+        dat.tmp_dRapPub <- unique(dat.tmp_dRapPub)
+        }
+
+        if (nrow(dat.tmp_dRapPub) == 0){
+            NULL
+          }else{ 
+        output$dRapPub = DT::renderDataTable({
+          DT::datatable(
+            dat.tmp_dRapPub,
+            options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
+                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                           buttons = list('pageLength', 'copy', 
+                                          list(extend = 'csv',   filename = "RAP_gene_publication"),
+                                          list(extend = 'excel', filename = "RAP_gene_publication")
+                           ), 
+                           dom = 'Bfrtip',
+                           columnDefs=list(list(targets="_all"))
+            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+          )
+        }, server = FALSE)}}
+      
+      if(input$selextractdata == "1"){
+        in.locus_dMsuRiceNet <- unlist(strsplit(input$msuarea, split="\\n"))
+        in.locus_dMsuRiceNet <- gsub("^\\s+", "", in.locus_dMsuRiceNet)
+        in.locus_dMsuRiceNet <- gsub("\\s+$", "", in.locus_dMsuRiceNet)
+        dat.tmp_dMsuRiceNet <- ricenet[ricenet$Gene1 %in% in.locus_dMsuRiceNet | ricenet$Gene2 %in% in.locus_dMsuRiceNet, ] 
+        if (nrow(dat.tmp_dMsuRiceNet) == 0){
+          NULL
+        }else{ 
+        output$dMsuRiceNet = DT::renderDataTable({
+          DT::datatable(
+            dat.tmp_dMsuRiceNet,
+            options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
+                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                           buttons = list('pageLength', 'copy', 
+                                          list(extend = 'csv',   filename = "MSU_gene_RiceNet"),
+                                          list(extend = 'excel', filename = "MSU_gene_RiceNet")
+                           ), 
+                           dom = 'Bfrtip',
+                           columnDefs=list(list(targets="_all"))
+            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+          )
+        }, server = FALSE)}}
+      if( input$selextractdata == "1"){
+        if ( nrow(dat.tmp_dMsuRiceNet) == 0 & nrow(in.info_dMsuPub) == 0 & nrow(dat.tmp_dMsuInfo) == 0 & nrow(dat.tmp_dMsuKey) == 0){
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "NO data avaliable!"
+          )
+        }else{
+          NULL
+        }
+      }else if (( input$selextractdata == "2") ){
+        if ( nrow(dat.tmp_dRapPub) == 0 & nrow(dat.tmp_dRapKey) == 0 & nrow(dat.tmp_dRapInfo) == 0){
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "NO data avaliable!"
+          )
+        }else{
+          NULL
+        }
+     }
+    }
+  })
   
-  output$dMsuKey <- downloadHandler(
-    filename <- function(){paste('locusKeyword.txt')},
-    content <- function(file) {
-      in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
-      in.locus <- gsub("^\\s+", "", in.locus)
-      in.locus <- gsub("\\s+$", "", in.locus)
-      dat.tmp <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NM$Symbol[gene.info.NM$MSU %in% in.locus]), ]
-      
-      dat.tmp$path <- NULL
-      dat.tmp <- unique(dat.tmp)
-      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
-    }, contentType = "text/txt"
-  )
+  observe({
+    if (input$example_ID >0 ) {
+      if(input$selextractdata =="1"){
+        isolate({
+          updateSelectInput(session, "selextractdata", selected = "1")
+          updateTextInput(session, "msuarea", value =paste("LOC_Os07g49460","LOC_Os06g40780","LOC_Os05g06660",sep = "\n"))
+        }) }
+     else { 
+      updateSelectInput(session, "selextractdata", selected = "2")
+      updateTextInput(session, "raparea", value = paste("Os02g0677300","Os10g0528100","Os06g0610350",sep = "\n"))
+     }}
+      else{NULL}
+  })
   
-  output$dRapKey <- downloadHandler(
-    filename <- function(){paste('locusKeyword.txt')},
-    content <- function(file) {
-      in.locus <- unlist(strsplit(input$raparea, split="\\n"))
-      in.locus <- gsub("^\\s+", "", in.locus)
-      in.locus <- gsub("\\s+$", "", in.locus)
-      dat.tmp <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus]), ]
-      
-      dat.tmp$path <- NULL
-      dat.tmp <- unique(dat.tmp)
-      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
-    }, contentType = "text/txt"
-  )
-  
-  output$dMsuPub <- downloadHandler(
-    filename <- function(){paste('locusPublication.txt')},
-    content <- function(file) {
-      in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
-      in.locus <- gsub("^\\s+", "", in.locus)
-      in.locus <- gsub("\\s+$", "", in.locus)
-      in.info <- unique(gene.info.NM[gene.info.NM$MSU %in% in.locus, ])
-      
-      in.info.pub <- apply(in.info, 1, function(x) {
-        x.path <- x[4]
-        x.path <- paste(x.path, "reference.info", sep="/")
-        x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
-                            quote="", comment="")
-        x.pub$Publication <- NULL
-        x.pub$Gene <- x[1]
-        return(x.pub)
-      })		
-      
-      dat.tmp <- do.call(rbind, in.info.pub)
-      dat.tmp <- unique(dat.tmp)
-      
-      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
-    }, contentType = "text/txt"
-  )
-  
-  output$dRapPub <- downloadHandler(
-    filename <- function(){paste('locusPublication.txt')},
-    content <- function(file) {
-      in.locus <- unlist(strsplit(input$raparea, split="\\n"))
-      in.locus <- gsub("^\\s+", "", in.locus)
-      in.locus <- gsub("\\s+$", "", in.locus)
-      in.info <- unique(gene.info.NP[gene.info.NP$RAPdb %in% in.locus, ])
-      
-      in.info.pub <- apply(in.info, 1, function(x) {
-        x.path <- x[4]
-        x.path <- paste(x.path, "reference.info", sep="/")
-        x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
-                            quote="", comment="")
-        x.pub$Publication <- NULL
-        x.pub$Gene <- x[1]
-        return(x.pub)
-      })		
-      
-      dat.tmp <- do.call(rbind, in.info.pub)
-      dat.tmp <- unique(dat.tmp)
-      
-      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
-    }, contentType = "text/txt"
-  )
-  
-  output$dMsuRiceNet <- downloadHandler(
-    filename <- function(){paste('locusRiceNet.txt')},
-    content <- function(file) {
-      in.locus <- unlist(strsplit(input$msuarea, split="\\n"))
-      in.locus <- gsub("^\\s+", "", in.locus)
-      in.locus <- gsub("\\s+$", "", in.locus)
-      dat.tmp <- ricenet[ricenet$Gene1 %in% in.locus | ricenet$Gene2 %in% in.locus, ]
-      
-      write.table(dat.tmp, file, row.names=FALSE, sep="\t", quote=F)
-    }, contentType = "text/txt"
-  )
-  
+  observe({
+    if (input$Clear_ID>0) {
+      if(input$selextractdata =="1"){  
+      isolate({
+        updateSelectInput(session, "selextractdata", selected = "1")
+        updateTextInput(session, "msuarea", value = "")
+      })} 
+      else {
+        updateSelectInput(session, "selextractdata", selected = "2")
+        updateTextInput(session, "raparea", value = "")}}
+    
+    else{NULL}
+    
+  })
   # submit new reference
   observe({
     if (input$submit2>0) {
       isolate({
         if (input$key2==mypasswd) {
-		symsub2 <- gsub("^\\s+", "", input$symsub2)
-		symsub2 <- gsub("\\s+$", "", symsub2)
-		yearsub2 <- gsub("^\\s+", "", input$yearsub2)
-		yearsub2 <- gsub("\\s+$", "", yearsub2)
-		jousub2 <- gsub("^\\s+", "", input$jousub2)
-		jousub2 <- gsub("\\s+$", "", jousub2)
-
+          symsub2 <- gsub("^\\s+", "", input$symsub2)
+          symsub2 <- gsub("\\s+$", "", symsub2)
+          yearsub2 <- gsub("^\\s+", "", input$yearsub2)
+          yearsub2 <- gsub("\\s+$", "", yearsub2)
+          jousub2 <- gsub("^\\s+", "", input$jousub2)
+          jousub2 <- gsub("\\s+$", "", jousub2)
+          
           df.pub <- data.frame(Symbol=symsub2, Title=input$tilsub2, Year=yearsub2,
                                Journal=jousub2, Affiliation=input$afisub2, Abstract=input$abssub2,
                                stringsAsFactors=FALSE)
@@ -2210,11 +2500,17 @@ shinyServer(function(input, output, session) {
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
           
-          js_string <- 'alert("New reference successfully added!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Success input!", type = "success",
+            text = "Edit gene info successfully!"
+          )
         } else {
-          js_string <- 'alert("Authorization Required!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "Authorization Required!"
+          )
         }
       })
     } else {NULL}
@@ -2225,11 +2521,11 @@ shinyServer(function(input, output, session) {
     if (input$submit3>0) {
       isolate({
         if (input$key3==mypasswd) {
-		symsub3 <- gsub("^\\s+", "", input$symsub3)
-		symsub3 <- gsub("\\s+$", "", symsub3)
-		accsub3 <- gsub("^\\s+", "", input$accsub3)
-		accsub3 <- gsub("^\\s+", "", accsub3)
-
+          symsub3 <- gsub("^\\s+", "", input$symsub3)
+          symsub3 <- gsub("\\s+$", "", symsub3)
+          accsub3 <- gsub("^\\s+", "", input$accsub3)
+          accsub3 <- gsub("^\\s+", "", accsub3)
+          
           df.acc <- data.frame(Symbol=symsub3, Accession=accsub3, 
                                stringsAsFactors=FALSE)
           write.acc(df.acc)
@@ -2240,11 +2536,17 @@ shinyServer(function(input, output, session) {
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
           
-          js_string <- 'alert("Accessions successfully added!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Success input!", type = "success",
+            text = "Edit gene info successfully!"
+          )
         } else {
-          js_string <- 'alert("Authorization Required!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "Authorization Required!"
+          )
         }
       })
     } else {NULL}
@@ -2255,11 +2557,11 @@ shinyServer(function(input, output, session) {
     if (input$submit4>0) {
       isolate({
         if (input$key4==mypasswd) {
-		symsub4 <- gsub("^\\s+", "", input$symsub4)
-		symsub4 <- gsub("\\s+$", "", symsub4)
-		keysub4 <- gsub("^\\s+", "", input$keysub4)
-		keysub4 <- gsub("\\s+$", "", keysub4)
-
+          symsub4 <- gsub("^\\s+", "", input$symsub4)
+          symsub4 <- gsub("\\s+$", "", symsub4)
+          keysub4 <- gsub("^\\s+", "", input$keysub4)
+          keysub4 <- gsub("\\s+$", "", keysub4)
+          
           df.key <- data.frame(Symbol=symsub4, Keyword=keysub4, 
                                Title=input$tilsub4, Evidence=input$evisub4,
                                stringsAsFactors=FALSE)
@@ -2271,11 +2573,17 @@ shinyServer(function(input, output, session) {
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
           
-          js_string <- 'alert("Keywords successfully added!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Success input!", type = "success",
+            text = "Edit gene info successfully!"
+          )
         } else {
-          js_string <- 'alert("Authorization Required!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "Authorization Required!"
+          )
         }
       })
     } else {NULL}
@@ -2286,11 +2594,11 @@ shinyServer(function(input, output, session) {
     if (input$submit5>0) {
       isolate({
         if (input$key5==mypasswd) {
-		symsub5 <- gsub("^\\s+", "", input$symsub5)
-		symsub5 <- gsub("\\s+$", "", symsub5)
-		sym2sub5 <- gsub("^\\s+", "", input$sym2sub5)
-		sym2sub5 <- gsub("\\s+$", "", sym2sub5)
-
+          symsub5 <- gsub("^\\s+", "", input$symsub5)
+          symsub5 <- gsub("\\s+$", "", symsub5)
+          sym2sub5 <- gsub("^\\s+", "", input$sym2sub5)
+          sym2sub5 <- gsub("\\s+$", "", sym2sub5)
+          
           df.con <- data.frame(Symbol1=symsub5, Symbol2=sym2sub5, 
                                Title=input$tilsub5, Evidence=input$evisub5,
                                stringsAsFactors=FALSE)
@@ -2303,42 +2611,26 @@ shinyServer(function(input, output, session) {
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
           
-          js_string <- 'alert("Info successfully added!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Success input!", type = "success",
+            text = "Edit gene info successfully!"
+          )
           
         } else {
-          js_string <- 'alert("Authorization Required!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "Authorization Required!"
+          )
         }
       })
     } else {NULL}
   })
   
-  #submit new figures
-  observe({
-    if (input$submit8>0) {
-      isolate({
-        if (input$key8==mypasswd) {
-		symsub8 <- gsub("^\\s+", "", input$symsub8)
-		symsub8 <- gsub("\\s+$", "", symsub8)
 
-           save.image(symsub8, input$phenofig, input$expfig)
-          
-           git.info <- paste("add new figures for ", symsub8, sep="")
-           system("git checkout master")
-           system("git add -A")
-           system(paste('git commit -m ', '"', git.info, '"', sep=""))
-          
-           js_string <- 'alert("Figures successfully added!");'
-           session$sendCustomMessage(type='jsCode', list(value = js_string))
-        } else {
-           js_string <- 'alert("Authorization Required!");'
-           session$sendCustomMessage(type='jsCode', list(value = js_string))
-        }
-      })
-    } else {NULL}
-  })
 
+  
   # edit gene info
   observe({
     if (input$submit6>0) {
@@ -2350,7 +2642,7 @@ shinyServer(function(input, output, session) {
           newsym <- gsub("\\s+$", "", newsym)
           oldmsu <- gsub("^\\s+", "", input$oldmsu)
           oldmsu <- gsub("\\s+$", "", oldmsu)
-        
+          
           newmsu <- gsub("^\\s+", "", input$newmsu)
           newmsu <- gsub("\\s+$", "", newmsu)
           oldrap <- gsub("^\\s+", "", input$oldrap)
@@ -2370,11 +2662,21 @@ shinyServer(function(input, output, session) {
           system("git add -A")
           system(paste('git commit -m ', '"', git.info, '"', sep=""))
           
-          js_string <- 'alert("Edit gene info successfully!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Success input!", type = "success",
+            text = "Edit gene info successfully!"
+          )
+          
+          
         } else {
-          js_string <- 'alert("Authorization Required!");'
-          session$sendCustomMessage(type='jsCode', list(value = js_string))
+          
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "Authorization Required!"
+          )
+          
         }
       })
     } else {NULL}
@@ -2382,264 +2684,277 @@ shinyServer(function(input, output, session) {
   
   # submit gene info
   observe({
-     if (input$submit7>0) {
-       isolate({
-         if (input$key7==mypasswd) {
-           symsub7 <- gsub("^\\s+", "", input$symsub7)
-           symsub7 <- gsub("\\s+$", "", symsub7)
-           msusub7 <- gsub("^\\s+", "", input$msusub7)
-           msusub7 <- gsub("\\s+$", "", msusub7)
-           rapsub7 <- gsub("^\\s+", "", input$rapsub7)
-           rapsub7 <- gsub("\\s+$", "", rapsub7)
-           
-           if (symsub7!="") {
-             df.gene <- data.frame(Symbol=symsub7, RAPdb=rapsub7, MSU=msusub7,
-                                   stringsAsFactors=FALSE)
-             locus.line <- findDirBySym(tolower(symsub7))
-             if (length(locus.line)==0) {
-               write.gene(df.gene)
-               updateGeneInfo()
-               
-               git.info <- paste("add new gene: ", symsub7, sep="") 
-               system("git checkout master")
-               system("git add -A")
-               system(paste('git commit -m ', '"', git.info, '"', sep=""))
+    if (input$submit7>0) {
+      isolate({
+        if (input$key7==mypasswd) {
+          symsub7 <- gsub("^\\s+", "", input$symsub7)
+          symsub7 <- gsub("\\s+$", "", symsub7)
+          msusub7 <- gsub("^\\s+", "", input$msusub7)
+          msusub7 <- gsub("\\s+$", "", msusub7)
+          rapsub7 <- gsub("^\\s+", "", input$rapsub7)
+          rapsub7 <- gsub("\\s+$", "", rapsub7)
           
-               js_string <- 'alert("Add new gene successfully!");'
-			   session$sendCustomMessage(type='jsCode', list(value = js_string))
-             }
-           }
-
-           pubmedRes <- ""
-           if (input$pubmed7 != "") {
-             pubmed7 <- gsub("^\\s+", "", input$pubmed7)
-             pubmed7 <- gsub("\\s+$", "", pubmed7)
-             pubmedRes <- fetchPubmedById(pubmed7)
-           }
-	   
-           if (all(pubmedRes!="")) {
-             df.pub <- data.frame(Symbol=symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
-                                  Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
+          if (symsub7!="") {
+            df.gene <- data.frame(Symbol=symsub7, RAPdb=rapsub7, MSU=msusub7,
                                   stringsAsFactors=FALSE)
-             write.pub(df.pub)
-             git.info <- "add new pub."
-             system("git checkout master")
-             system("git add -A")
-             system(paste('git commit -m ', '"', git.info, '"', sep=""))
+            locus.line <- findDirBySym(tolower(symsub7))
+            if (length(locus.line)==0) {
+              write.gene(df.gene)
+              updateGeneInfo()
+              
+              git.info <- paste("add new gene: ", symsub7, sep="") 
+              system("git checkout master")
+              system("git add -A")
+              system(paste('git commit -m ', '"', git.info, '"', sep=""))
+              
+              shinyWidgets::sendSweetAlert(
+                session = session,
+                title = "Success input!", type = "success",
+                text = "Edit gene info successfully!"
+              )
+            }
+          }
           
-             if (symsub7=="") {
-				js_string <- 'alert("Add new pub successfully!");'
-				session$sendCustomMessage(type='jsCode', list(value = js_string))
-			 }
-
-             if (symsub7!="") {
-               scanAndWriteKey(df.pub)
-               scanAndWriteCon(df.pub)
-               scanAndWriteExp(df.pub)
-               
-			   git.info <- paste("add new info for gene: ", symsub7, sep="") 
-               system("git checkout master")
-               system("git add -A")
-               system(paste('git commit -m ', '"', git.info, '"', sep=""))
-
-			   js_string <- 'alert("Add new info successfully!");'
-	           session$sendCustomMessage(type='jsCode', list(value = js_string))
-             }
-             updateGeneInfo()
-           }
-
-         } else {
-           js_string <- 'alert("Authorization Required!");'
-           session$sendCustomMessage(type='jsCode', list(value = js_string))
-         }
-       })
-     } else {NULL}
-   })
-
-   observe({
-	  if (input$clear1>0) {
-		isolate({
-			updateTextInput(session, "symsub7", value="")
-			updateTextInput(session, "msusub7", value="")
-			updateTextInput(session, "rapsub7", value="")
-			updateTextInput(session, "pubmed7", value="")
-		})
-      } else {NULL}
-   })
-
-   observe({
-	  if (input$clear2>0) {
-		isolate({
-			updateTextInput(session, "oldsym", value="")
-			updateTextInput(session, "newsym", value="")
-			updateTextInput(session, "oldmsu", value="")
-			updateTextInput(session, "newmsu", value="")
-			updateTextInput(session, "oldrap", value="")
-			updateTextInput(session, "newrap", value="")
-		})
-      } else {NULL}
-   })
- 
-   observe({
-	  if (input$clear3>0) {
-		isolate({
-			updateTextInput(session, "symsub4", value="")
-			updateTextInput(session, "keysub4", value="")
-			updateTextInput(session, "tilsub4", value="")
-			updateTextInput(session, "evisub4", value="")
-		})
-      } else {NULL}
-   })
-
-   observe({
-	  if (input$clear4>0) {
-		isolate({
-			updateTextInput(session, "symsub2", value="")
-			updateTextInput(session, "tilsub2", value="")
-			updateTextInput(session, "yearsub2", value="")
-			updateTextInput(session, "jousub2", value="")
-			updateTextInput(session, "afisub2", value="")
-			updateTextInput(session, "abssub2", value="")
-		})
-      } else {NULL}
-   })
-
-   observe({
-	  if (input$clear5>0) {
-		isolate({
-			updateTextInput(session, "symsub3", value="")
-			updateTextInput(session, "accsub3", value="")
-		})
-      } else {NULL}
-   })
-
-   observe({
-	  if (input$clear7>0) {
-		isolate({
-			updateTextInput(session, "symsub5", value="")
-			updateTextInput(session, "sym2sub5", value="")
-			updateTextInput(session, "tilsub5", value="")
-			updateTextInput(session, "evisub5", value="")
-		})
-      } else {NULL}
-   })
-
-   observe({
-	  if (input$clear8>0) {
-		isolate({
-			updateTextInput(session, "symsub8", value="")
-		})
-      } else {NULL}
-   })
-
-   observe({
-	  if (input$clear6>0) {
-		isolate({
-			updateTextInput(session, "pubmed10", value="")
-		})
-      } else {NULL}
-   })
-
-   # submit gene family
-   observe({
-     if (input$submit10>0) {
-       isolate({
-         if (input$key10==mypasswd) {
-           df.genefam <- read.table(input$genfamin$datapath, head=T, sep="\t", as.is=T)
-           
-           symbol <- df.genefam$Name[1]
-           symbol.low <- tolower(symbol)
-           if (grepl("^os", symbol.low)) {
-             symbol.low <- gsub("^os", "", symbol.low)
-             symbol.head <- substr(symbol.low, 1, 1)
-             if (symbol.head %in% letters[1:26]) {
-               dir.to <- paste("data/Family/OS", 
-                               toupper(symbol.head), sep="/")
-             } else {
-               dir.to <- "data/Family/OS/0-9"
-             }
-           } else {
-             symbol.head <- substr(symbol.low, 1, 1)
-             if (symbol.head %in% letters[1:26]) {
-               dir.to <- paste("data/Family/", 
-                               toupper(symbol.head), sep="/")
-             } else {
-               dir.to <- "data/Family/0-9"
-             }
-           }
-           
-           symbol <- gsub("\\s+", "_", symbol)
-           dir.to <- paste(dir.to, symbol, sep="/")
-           dir.to <- gsub("/+", "/", dir.to)
-           if (!file.exists(dir.to)) {
-             dir.create(dir.to)
-           }
-           file.to <- paste(dir.to, "family.info", sep="/")
-           write.table(df.genefam, file=file.to, sep="\t", quote=F, row.names=F)
-           df.genefam <- df.genefam[, c("Symbol", "RAPdb", "MSU")]
-           
-           df.genefam$path <- dir.to
-           fam.info.new <- rbind(fam.gene.info, df.genefam)
-           fam.info.new <- fam.info.new[order(fam.info.new$Symbol), ]
-           write.table(fam.info.new, file="famInfo.table", 
-                       sep="\t", quote=F, row.names=F)
-           fam.gene.info <<- read.table("famInfo.table", head=T, sep="\t", as.is=T)
-           fam.gene.msu <- 1:nrow(fam.gene.info)
-           names(fam.gene.msu) <- fam.gene.info$MSU
-           fam.gene.msu <- fam.gene.msu[names(fam.gene.msu)!="None"]
-           fam.gene.msu.new <- sapply(names(fam.gene.msu), function(x) {
-             x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
-             if (length(x.name)==1) {
-               return(fam.gene.msu[x])
-             } else {
-               y <- rep(fam.gene.msu[x], length(x.name))
-               names(y) <- x.name
-               return(y)
-             }
-           })
-           fam.gene.msu.final <<- unlist(unname(fam.gene.msu.new))
-           
-           fam.gene.rap <- 1:nrow(fam.gene.info)
-           names(fam.gene.rap) <- fam.gene.info$RAPdb
-           fam.gene.rap <- fam.gene.rap[names(fam.gene.rap)!="None"]
-           fam.gene.rap.new <- sapply(names(fam.gene.rap), function(x) {
-             x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
-             if (length(x.name)==1) {
-               return(fam.gene.rap[x])
-             } else {
-               y <- rep(fam.gene.rap[x], length(x.name))
-               names(y) <- x.name
-               return(y)
-             }
-           }) 
-           fam.gene.rap.final <<- unlist(unname(fam.gene.rap.new))
+          pubmedRes <- ""
+          if (input$pubmed7 != "") {
+            pubmed7 <- gsub("^\\s+", "", input$pubmed7)
+            pubmed7 <- gsub("\\s+$", "", pubmed7)
+            pubmedRes <- fetchPubmedById(pubmed7)
+          }
           
-	   pubmed10 <- gsub("^\\s+", "", input$pubmed10)
-	   pubmed10 <- gsub("\\s+$", "", pubmed10)
-           pubmedRes <- fetchPubmedById(input$pubmed10)
-           if (all(pubmedRes!="")) {  
-             df.pub <- data.frame(Journal=pubmedRes[1], Title=pubmedRes[2], Year=pubmedRes[3],
-                                  Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
-                                  stringsAsFactors=FALSE)
-             file.to <- paste(dir.to, "family.ref", sep="/")
-             write.table(df.pub, file=file.to, sep="\t", quote=F, row.names=F)
-           }
-           
-           git.info <- paste("add new family: ", symbol.low, sep="")
-           system("git checkout master")
-           system("git add -A")
-           system(paste('git commit -m ', '"', git.info, '"', sep=""))
-           
-           js_string <- 'alert("New gene family successfully added!");'
-           session$sendCustomMessage(type='jsCode', list(value = js_string))
-           
-         } else {
-           js_string <- 'alert("Authorization Required!");'
-           session$sendCustomMessage(type='jsCode', list(value = js_string))
-         }
-       })
-     } else {NULL}
-   })
-   
+          if (all(pubmedRes!="")) {
+            df.pub <- data.frame(Symbol=symsub7, Title=pubmedRes[2], Year=pubmedRes[3],
+                                 Journal=pubmedRes[1], Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
+                                 stringsAsFactors=FALSE)
+            write.pub(df.pub)
+            git.info <- "add new pub."
+            system("git checkout master")
+            system("git add -A")
+            system(paste('git commit -m ', '"', git.info, '"', sep=""))
+            
+            if (symsub7=="") {
+              shinyWidgets::sendSweetAlert(
+                session = session,
+                title = "Success input!", type = "success",
+                text = "Edit gene info successfully!"
+              )
+            }
+            
+            if (symsub7!="") {
+              scanAndWriteKey(df.pub)
+              scanAndWriteCon(df.pub)
+              scanAndWriteExp(df.pub)
+              
+              git.info <- paste("add new info for gene: ", symsub7, sep="") 
+              system("git checkout master")
+              system("git add -A")
+              system(paste('git commit -m ', '"', git.info, '"', sep=""))
+              
+              shinyWidgets::sendSweetAlert(
+                session = session,
+                title = "Success input!", type = "success",
+                text = "Edit gene info successfully!"
+              )
+            }
+            updateGeneInfo()
+          }
+          
+        } else {
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "Authorization Required!"
+          )
+        }
+      })
+    } else {NULL}
+  })
+  
+  observe({
+    if (input$clear1>0) {
+      isolate({
+        updateTextInput(session, "symsub7", value="")
+        updateTextInput(session, "msusub7", value="")
+        updateTextInput(session, "rapsub7", value="")
+        updateTextInput(session, "pubmed7", value="")
+      })
+    } else {NULL}
+  })
+  
+  observe({
+    if (input$clear2>0) {
+      isolate({
+        updateTextInput(session, "oldsym", value="")
+        updateTextInput(session, "newsym", value="")
+        updateTextInput(session, "oldmsu", value="")
+        updateTextInput(session, "newmsu", value="")
+        updateTextInput(session, "oldrap", value="")
+        updateTextInput(session, "newrap", value="")
+      })
+    } else {NULL}
+  })
+  
+  observe({
+    if (input$clear3>0) {
+      isolate({
+        updateTextInput(session, "symsub4", value="")
+        updateTextInput(session, "keysub4", value="")
+        updateTextInput(session, "tilsub4", value="")
+        updateTextInput(session, "evisub4", value="")
+      })
+    } else {NULL}
+  })
+  
+  observe({
+    if (input$clear4>0) {
+      isolate({
+        updateTextInput(session, "symsub2", value="")
+        updateTextInput(session, "tilsub2", value="")
+        updateTextInput(session, "yearsub2", value="")
+        updateTextInput(session, "jousub2", value="")
+        updateTextInput(session, "afisub2", value="")
+        updateTextInput(session, "abssub2", value="")
+      })
+    } else {NULL}
+  })
+  
+  observe({
+    if (input$clear5>0) {
+      isolate({
+        updateTextInput(session, "symsub3", value="")
+        updateTextInput(session, "accsub3", value="")
+      })
+    } else {NULL}
+  })
+  
+  observe({
+    if (input$clear7>0) {
+      isolate({
+        updateTextInput(session, "symsub5", value="")
+        updateTextInput(session, "sym2sub5", value="")
+        updateTextInput(session, "tilsub5", value="")
+        updateTextInput(session, "evisub5", value="")
+      })
+    } else {NULL}
+  })
+  
+  
+  
+  observe({
+    if (input$clear6>0) {
+      isolate({
+        updateTextInput(session, "pubmed10", value="")
+      })
+    } else {NULL}
+  })
+  
+  # submit gene family
+  observe({
+    if (input$submit10>0) {
+      isolate({
+        if (input$key10==mypasswd) {
+          df.genefam <- read.table(input$genfamin$datapath, head=T, sep="\t", as.is=T)
+          
+          symbol <- df.genefam$Name[1]
+          symbol.low <- tolower(symbol)
+          if (grepl("^os", symbol.low)) {
+            symbol.low <- gsub("^os", "", symbol.low)
+            symbol.head <- substr(symbol.low, 1, 1)
+            if (symbol.head %in% letters[1:26]) {
+              dir.to <- paste("data/Family/OS", 
+                              toupper(symbol.head), sep="/")
+            } else {
+              dir.to <- "data/Family/OS/0-9"
+            }
+          } else {
+            symbol.head <- substr(symbol.low, 1, 1)
+            if (symbol.head %in% letters[1:26]) {
+              dir.to <- paste("data/Family/", 
+                              toupper(symbol.head), sep="/")
+            } else {
+              dir.to <- "data/Family/0-9"
+            }
+          }
+          
+          symbol <- gsub("\\s+", "_", symbol)
+          dir.to <- paste(dir.to, symbol, sep="/")
+          dir.to <- gsub("/+", "/", dir.to)
+          if (!file.exists(dir.to)) {
+            dir.create(dir.to)
+          }
+          file.to <- paste(dir.to, "family.info", sep="/")
+          write.table(df.genefam, file=file.to, sep="\t", quote=F, row.names=F)
+          df.genefam <- df.genefam[, c("Symbol", "RAPdb", "MSU")]
+          
+          df.genefam$path <- dir.to
+          fam.info.new <- rbind(fam.gene.info, df.genefam)
+          fam.info.new <- fam.info.new[order(fam.info.new$Symbol), ]
+          write.table(fam.info.new, file="famInfo.table", 
+                      sep="\t", quote=F, row.names=F)
+          fam.gene.info <<- read.table("famInfo.table", head=T, sep="\t", as.is=T)
+          fam.gene.msu <- 1:nrow(fam.gene.info)
+          names(fam.gene.msu) <- fam.gene.info$MSU
+          fam.gene.msu <- fam.gene.msu[names(fam.gene.msu)!="None"]
+          fam.gene.msu.new <- sapply(names(fam.gene.msu), function(x) {
+            x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
+            if (length(x.name)==1) {
+              return(fam.gene.msu[x])
+            } else {
+              y <- rep(fam.gene.msu[x], length(x.name))
+              names(y) <- x.name
+              return(y)
+            }
+          })
+          fam.gene.msu.final <<- unlist(unname(fam.gene.msu.new))
+          
+          fam.gene.rap <- 1:nrow(fam.gene.info)
+          names(fam.gene.rap) <- fam.gene.info$RAPdb
+          fam.gene.rap <- fam.gene.rap[names(fam.gene.rap)!="None"]
+          fam.gene.rap.new <- sapply(names(fam.gene.rap), function(x) {
+            x.name <- unlist(strsplit(x, split='|', fixed=TRUE))
+            if (length(x.name)==1) {
+              return(fam.gene.rap[x])
+            } else {
+              y <- rep(fam.gene.rap[x], length(x.name))
+              names(y) <- x.name
+              return(y)
+            }
+          }) 
+          fam.gene.rap.final <<- unlist(unname(fam.gene.rap.new))
+          
+          pubmed10 <- gsub("^\\s+", "", input$pubmed10)
+          pubmed10 <- gsub("\\s+$", "", pubmed10)
+          pubmedRes <- fetchPubmedById(input$pubmed10)
+          if (all(pubmedRes!="")) {  
+            df.pub <- data.frame(Journal=pubmedRes[1], Title=pubmedRes[2], Year=pubmedRes[3],
+                                 Affiliation=pubmedRes[4], Abstract=pubmedRes[5],
+                                 stringsAsFactors=FALSE)
+            file.to <- paste(dir.to, "family.ref", sep="/")
+            write.table(df.pub, file=file.to, sep="\t", quote=F, row.names=F)
+          }
+          
+          git.info <- paste("add new family: ", symbol.low, sep="")
+          system("git checkout master")
+          system("git add -A")
+          system(paste('git commit -m ', '"', git.info, '"', sep=""))
+          
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Success input!", type = "success",
+            text = "Edit gene info successfully!"
+          )
+          
+        } else {
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "Error input!", type = "error",
+            text = "Authorization Required!"
+          )
+          
+        }
+      })
+    } else {NULL}
+  })
+  
 })
 
