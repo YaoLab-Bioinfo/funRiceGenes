@@ -146,7 +146,7 @@ fetchInfoByMsu <- function(locus="") {
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         if (x!="None") {
-          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+          y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -190,7 +190,7 @@ fetchFamInfoByMsu <- function(locus="") {
     msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
     msu.new <- sapply(msu, function(x){
       if (x!="None") {
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+        y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
@@ -480,7 +480,7 @@ fetchInfoByRap <- function(locus="") {
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         if (x!="None") {
-          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+          y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -524,7 +524,7 @@ fetchFamInfoByRap <- function(locus="") {
     msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
     msu.new <- sapply(msu, function(x){
       if (x!="None") {
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+        y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
@@ -843,7 +843,7 @@ fetchInfoBySym <- function(symbol="") {
       msu <- unlist(strsplit(dat$MSU, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         if (x!="None") {
-          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+          y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -879,7 +879,7 @@ fetchInfoBySym <- function(symbol="") {
       msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         if (x!="None") {
-          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+          y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -923,7 +923,7 @@ fetchFamInfoBySym <- function(symbol="") {
       msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         if (x!="None") {
-          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+          y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -1211,7 +1211,7 @@ fetchInfoByKey <- function(keyword="") {
     for (i in 1:nrow(dat)) {    
       msu <- unlist(strsplit(dat$MSU[i], split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+        y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                    x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
@@ -1817,7 +1817,7 @@ geneID <- function(query="MSU Nipponbare", text="LOC_Os03g57940") {
     
     dat.res$Nipponbare.MSU <- sapply(dat.res$Nipponbare.MSU, function(x){
       if (x!="None") {
-        y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", x, sep="")
+        y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
@@ -1934,7 +1934,7 @@ fetctRiceNetByChoice <- function(query="", text="") {
 
 #### Shiny
 shinyServer(function(input, output, session) {
-
+  
   
   output$inText <- renderUI({
     textInput("inText", label=NULL, 
@@ -1969,7 +1969,7 @@ shinyServer(function(input, output, session) {
       ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
     )
   }, server = FALSE)
-
+  
   output$mytable3 = DT::renderDataTable({
     DT::datatable(
       fetchAccByChoice(input$query, input$inText),
@@ -1999,7 +1999,7 @@ shinyServer(function(input, output, session) {
       ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
     )
   }, server = FALSE)
-
+  
   output$mytable5 = DT::renderDataTable({
     DT::datatable(
       fetchKeyByChoice(input$query, input$inText),
@@ -2030,25 +2030,25 @@ shinyServer(function(input, output, session) {
     )
   }, server = FALSE)
   
-
+  
   output$mytable7 = DT::renderDataTable({
     if ( is.null(input$keyword) ){
       NULL
     }else{
-    DT::datatable(
-      fetchInfoByKey(input$keyword),
-      options = list(lengthMenu = c(5, 10, 15, 20), pageLength = 4, scrollX = TRUE,
-                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                     buttons = list('pageLength', 'copy', 
-                                    list(extend = 'csv',   filename = "Gene_RiceNet"),
-                                    list(extend = 'excel', filename = "Gene_RiceNet")
-                     ), 
-                     dom = 'Bfrtip',
-                     columnDefs=list(list(targets="_all"))
-      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-    )}
+      DT::datatable(
+        fetchInfoByKey(input$keyword),
+        options = list(lengthMenu = c(5, 10, 15, 20), pageLength = 4, scrollX = TRUE,
+                       searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                       buttons = list('pageLength', 'copy', 
+                                      list(extend = 'csv',   filename = "Gene_RiceNet"),
+                                      list(extend = 'excel', filename = "Gene_RiceNet")
+                       ), 
+                       dom = 'Bfrtip',
+                       columnDefs=list(list(targets="_all"))
+        ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+      )}
   }, server = FALSE)
- 
+  
   
   output$inTextfam <- renderUI({
     textInput("inTextfam", label=NULL, 
@@ -2068,7 +2068,7 @@ shinyServer(function(input, output, session) {
       ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
     )
   }, server = FALSE)
-
+  
   output$mytable9 = DT::renderDataTable({
     DT::datatable(
       fetchFamRefByChoice(input$queryfam, input$inTextfam),
@@ -2083,7 +2083,7 @@ shinyServer(function(input, output, session) {
       ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
     )
   }, server = FALSE)
-
+  
   
   output$inTextconv <- renderUI({
     textInput("inTextconv", label=NULL, 
@@ -2124,22 +2124,22 @@ shinyServer(function(input, output, session) {
               value=query.IJ.conv[input$IJconv])
   })
   
-
+  
   
   output$mytable11 = DT::renderDataTable({
-  DT::datatable(
-    fetchRefByKey(input$publication),
-    options = list(lengthMenu = c(1, 2, 4, 6, 10), pageLength = 2, scrollX = FALSE,
-                   searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                   buttons = list('pageLength', 'copy', 
-                                  list(extend = 'csv',   filename = "Publication"),
-                                  list(extend = 'excel', filename = "Publication")
-                   ), 
-                   dom = 'Bfrtip',
-                   columnDefs=list(list(targets="_all"))
-    ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-  )
-}, server = FALSE)
+    DT::datatable(
+      fetchRefByKey(input$publication),
+      options = list(lengthMenu = c(1, 2, 4, 6, 10), pageLength = 2, scrollX = FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename = "Publication"),
+                                    list(extend = 'excel', filename = "Publication")
+                     ), 
+                     dom = 'Bfrtip',
+                     columnDefs=list(list(targets="_all"))
+      ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+    )
+  }, server = FALSE)
   
   output$mytable13 = DT::renderDataTable({
     DT::datatable(
@@ -2156,7 +2156,7 @@ shinyServer(function(input, output, session) {
     )
   }, server = FALSE)
   
-
+  
   
   gene.info.NM <- apply(gene.info, 1, function(x){
     x.msu <- unlist(strsplit(x[3], split="\\|"))
@@ -2209,7 +2209,7 @@ shinyServer(function(input, output, session) {
         title = "Error input!", type = "error",
         text = "The input information is empty!"
       )
-      }
+    }
     else{
       if(input$selextractdata == "1" ) {
         in.locus_dMsuInfo <- unlist(strsplit(input$msuarea, split="\\n"))
@@ -2223,21 +2223,21 @@ shinyServer(function(input, output, session) {
         if (nrow(dat.tmp_dMsuInfo) == 0){
           NULL          
         }else{ 
-        output$dMsuInfo = DT::renderDataTable({
-          DT::datatable(
-            dat.tmp_dMsuInfo,
-            options = list(lengthMenu = c(1,4,10), pageLength = 4, scrollX = FALSE,
-                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                           buttons = list('pageLength', 'copy', 
-                                          list(extend = 'csv',   filename = "Msu_Gene_Info"),
-                                          list(extend = 'excel', filename = "Msu_Gene_Info")
-                           ), 
-                           dom = 'Bfrtip',
-                           columnDefs=list(list(targets="_all"))
-            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-          )
-        }, server = FALSE) 
-        
+          output$dMsuInfo = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dMsuInfo,
+              options = list(lengthMenu = c(1,4,10), pageLength = 4, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "Msu_Gene_Info"),
+                                            list(extend = 'excel', filename = "Msu_Gene_Info")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE) 
+          
         }
       }
       if(input$selextractdata == "2"){
@@ -2252,23 +2252,23 @@ shinyServer(function(input, output, session) {
         if (nrow(dat.tmp_dRapInfo) == 0){
           NULL
         }else{ 
-        output$dRapInfo = DT::renderDataTable({
-          DT::datatable(
-            dat.tmp_dRapInfo,
-            options = list(lengthMenu = c(1,4,10), pageLength = 4, scrollX = FALSE,
-                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                           buttons = list('pageLength', 'copy', 
-                                          list(extend = 'csv',   filename = "RAP_Gene_Info"),
-                                          list(extend = 'excel', filename = "RAP_Gene_Info")
-                           ), 
-                           dom = 'Bfrtip',
-                           columnDefs=list(list(targets="_all"))
-            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-          )
-        }, server = FALSE)  
-        
+          output$dRapInfo = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dRapInfo,
+              options = list(lengthMenu = c(1,4,10), pageLength = 4, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "RAP_Gene_Info"),
+                                            list(extend = 'excel', filename = "RAP_Gene_Info")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE)  
+          
         }}
-        
+      
       if(input$selextractdata == "1"){
         in.locus_dMsuKey <- unlist(strsplit(input$msuarea, split="\\n"))
         in.locus_dMsuKey <- gsub("^\\s+", "", in.locus_dMsuKey)
@@ -2281,22 +2281,22 @@ shinyServer(function(input, output, session) {
         if (nrow(dat.tmp_dMsuKey) == 0){
           NULL
         }else{ 
-        
-        output$dMsuKey = DT::renderDataTable({
-          DT::datatable(
-            dat.tmp_dMsuKey,
-            options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
-                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                           buttons = list('pageLength', 'copy', 
-                                          list(extend = 'csv',   filename = "MSU_gene_keyword"),
-                                          list(extend = 'excel', filename = "MSU_gene_keyword")
-                           ), 
-                           dom = 'Bfrtip',
-                           columnDefs=list(list(targets="_all"))
-            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-          )
-        }, server = FALSE) 
-      }}
+          
+          output$dMsuKey = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dMsuKey,
+              options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "MSU_gene_keyword"),
+                                            list(extend = 'excel', filename = "MSU_gene_keyword")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE) 
+        }}
       if(input$selextractdata == "2"){
         in.locus_dRapKey <- unlist(strsplit(input$raparea, split="\\n"))
         in.locus_dRapKey <- gsub("^\\s+", "", in.locus_dRapKey)
@@ -2308,22 +2308,22 @@ shinyServer(function(input, output, session) {
           NULL
           
         }else{
-         
-        output$dRapKey = DT::renderDataTable({
-          DT::datatable(
-            dat.tmp_dRapKey,
-            options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
-                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                           buttons = list('pageLength', 'copy', 
-                                          list(extend = 'csv',   filename = "RAP_gene_keyword"),
-                                          list(extend = 'excel', filename = "RAP_gene_keyword")
-                           ), 
-                           dom = 'Bfrtip',
-                           columnDefs=list(list(targets="_all"))
-            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-          )
-        }, server = FALSE) 
-      }}
+          
+          output$dRapKey = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dRapKey,
+              options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "RAP_gene_keyword"),
+                                            list(extend = 'excel', filename = "RAP_gene_keyword")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE) 
+        }}
       if(input$selextractdata == "1"){
         in.locus_dMsuPub <- unlist(strsplit(input$msuarea, split="\\n"))
         in.locus_dMsuPub <- gsub("^\\s+", "", in.locus_dMsuPub)
@@ -2332,33 +2332,33 @@ shinyServer(function(input, output, session) {
         if (nrow(in.info_dMsuPub) == 0){
           NULL
         }else{
-        in.info.pub_MsuPub <- apply(in.info_dMsuPub, 1, function(x) {
-          x.path <- x[4]
-          x.path <- paste(x.path, "reference.info", sep="/")
-          x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
-                              quote="", comment="")
-          x.pub$Publication <- NULL
-          x.pub$Gene <- x[1]
-          return(x.pub)
-        })		
-        
-        dat.tmp_dMsuPub <- do.call(rbind, in.info.pub_MsuPub)
-        dat.tmp_dMsuPub <- unique(dat.tmp_dMsuPub)
-        
-        output$dMsuPub = DT::renderDataTable({
-          DT::datatable(
-            dat.tmp_dMsuPub,
-            options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
-                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                           buttons = list('pageLength', 'copy', 
-                                          list(extend = 'csv',   filename = "MSU_gene_publication"),
-                                          list(extend = 'excel', filename = "MSU_gene_publication")
-                           ), 
-                           dom = 'Bfrtip',
-                           columnDefs=list(list(targets="_all"))
-            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-          )
-        }, server = FALSE)}
+          in.info.pub_MsuPub <- apply(in.info_dMsuPub, 1, function(x) {
+            x.path <- x[4]
+            x.path <- paste(x.path, "reference.info", sep="/")
+            x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                                quote="", comment="")
+            x.pub$Publication <- NULL
+            x.pub$Gene <- x[1]
+            return(x.pub)
+          })		
+          
+          dat.tmp_dMsuPub <- do.call(rbind, in.info.pub_MsuPub)
+          dat.tmp_dMsuPub <- unique(dat.tmp_dMsuPub)
+          
+          output$dMsuPub = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dMsuPub,
+              options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "MSU_gene_publication"),
+                                            list(extend = 'excel', filename = "MSU_gene_publication")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE)}
       }
       
       if(input$selextractdata == "2"){
@@ -2370,35 +2370,35 @@ shinyServer(function(input, output, session) {
           dat.tmp_dRapPub <- data.frame()
           
         }else{ 
-        in.info.pub_dRapPub <- apply(in.info_dRapPub, 1, function(x) {
-          x.path <- x[4]
-          x.path <- paste(x.path, "reference.info", sep="/")
-          x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
-                              quote="", comment="")
-          x.pub$Publication <- NULL
-          x.pub$Gene <- x[1]
-          return(x.pub)})
-        dat.tmp_dRapPub <- do.call(rbind, in.info.pub_dRapPub)
-        dat.tmp_dRapPub <- unique(dat.tmp_dRapPub)
+          in.info.pub_dRapPub <- apply(in.info_dRapPub, 1, function(x) {
+            x.path <- x[4]
+            x.path <- paste(x.path, "reference.info", sep="/")
+            x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                                quote="", comment="")
+            x.pub$Publication <- NULL
+            x.pub$Gene <- x[1]
+            return(x.pub)})
+          dat.tmp_dRapPub <- do.call(rbind, in.info.pub_dRapPub)
+          dat.tmp_dRapPub <- unique(dat.tmp_dRapPub)
         }
-
+        
         if (nrow(dat.tmp_dRapPub) == 0){
-            NULL
-          }else{ 
-        output$dRapPub = DT::renderDataTable({
-          DT::datatable(
-            dat.tmp_dRapPub,
-            options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
-                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                           buttons = list('pageLength', 'copy', 
-                                          list(extend = 'csv',   filename = "RAP_gene_publication"),
-                                          list(extend = 'excel', filename = "RAP_gene_publication")
-                           ), 
-                           dom = 'Bfrtip',
-                           columnDefs=list(list(targets="_all"))
-            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-          )
-        }, server = FALSE)}}
+          NULL
+        }else{ 
+          output$dRapPub = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dRapPub,
+              options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "RAP_gene_publication"),
+                                            list(extend = 'excel', filename = "RAP_gene_publication")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE)}}
       
       if(input$selextractdata == "1"){
         in.locus_dMsuRiceNet <- unlist(strsplit(input$msuarea, split="\\n"))
@@ -2408,20 +2408,20 @@ shinyServer(function(input, output, session) {
         if (nrow(dat.tmp_dMsuRiceNet) == 0){
           NULL
         }else{ 
-        output$dMsuRiceNet = DT::renderDataTable({
-          DT::datatable(
-            dat.tmp_dMsuRiceNet,
-            options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
-                           searching = FALSE, autoWidth = FALSE, bSort=FALSE,
-                           buttons = list('pageLength', 'copy', 
-                                          list(extend = 'csv',   filename = "MSU_gene_RiceNet"),
-                                          list(extend = 'excel', filename = "MSU_gene_RiceNet")
-                           ), 
-                           dom = 'Bfrtip',
-                           columnDefs=list(list(targets="_all"))
-            ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
-          )
-        }, server = FALSE)}}
+          output$dMsuRiceNet = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dMsuRiceNet,
+              options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "MSU_gene_RiceNet"),
+                                            list(extend = 'excel', filename = "MSU_gene_RiceNet")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE)}}
       if( input$selextractdata == "1"){
         if ( nrow(dat.tmp_dMsuRiceNet) == 0 & nrow(in.info_dMsuPub) == 0 & nrow(dat.tmp_dMsuInfo) == 0 & nrow(dat.tmp_dMsuKey) == 0){
           shinyWidgets::sendSweetAlert(
@@ -2442,7 +2442,7 @@ shinyServer(function(input, output, session) {
         }else{
           NULL
         }
-     }
+      }
     }
   })
   
@@ -2453,20 +2453,20 @@ shinyServer(function(input, output, session) {
           updateSelectInput(session, "selextractdata", selected = "1")
           updateTextInput(session, "msuarea", value =paste("LOC_Os07g49460","LOC_Os06g40780","LOC_Os05g06660",sep = "\n"))
         }) }
-     else { 
-      updateSelectInput(session, "selextractdata", selected = "2")
-      updateTextInput(session, "raparea", value = paste("Os02g0677300","Os10g0528100","Os06g0610350",sep = "\n"))
-     }}
-      else{NULL}
+      else { 
+        updateSelectInput(session, "selextractdata", selected = "2")
+        updateTextInput(session, "raparea", value = paste("Os02g0677300","Os10g0528100","Os06g0610350",sep = "\n"))
+      }}
+    else{NULL}
   })
   
   observe({
     if (input$Clear_ID>0) {
       if(input$selextractdata =="1"){  
-      isolate({
-        updateSelectInput(session, "selextractdata", selected = "1")
-        updateTextInput(session, "msuarea", value = "")
-      })} 
+        isolate({
+          updateSelectInput(session, "selextractdata", selected = "1")
+          updateTextInput(session, "msuarea", value = "")
+        })} 
       else {
         updateSelectInput(session, "selextractdata", selected = "2")
         updateTextInput(session, "raparea", value = "")}}
@@ -2628,8 +2628,8 @@ shinyServer(function(input, output, session) {
     } else {NULL}
   })
   
-
-
+  
+  
   
   # edit gene info
   observe({
