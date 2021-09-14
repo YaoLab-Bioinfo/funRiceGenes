@@ -71,8 +71,8 @@ shinyUI(
                                                         column(12, textInput('pubmed7', strong("Pubmed ID"),value="")),
                                                         column(12, passwordInput('key7', strong("Password"),value="")),
                                                         actionButton("submit7", strong("Submit"),style = "color: white; background-color: black"),
-                                                        conditionalPanel(condition="input.submit7 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0)),
-                                                        actionButton("clear1", strong("Reset"),style = "color: white; background-color: black")
+                                                        actionButton("clear1", strong("Reset"),style = "color: white; background-color: black"),
+                                                        conditionalPanel(condition="input.submit7 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0))
                                                       )
                                                ),
                                                column(6,
@@ -89,8 +89,8 @@ shinyUI(
                                                         column(12, textInput('newrap', strong("New RAPdb locus"),value="")),
                                                         column(12, passwordInput('key6', strong("Password"),value="")),
                                                         actionButton("submit6", strong("Submit"),style = "color: white;background-color: black" ),
-                                                        conditionalPanel(condition="input.submit6 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0)),
-                                                        actionButton("clear2", strong("Reset"),style = "color: white;background-color: black")
+                                                        actionButton("clear2", strong("Reset"),style = "color: white;background-color: black"),
+                                                        conditionalPanel(condition="input.submit6 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0))
                                                       )
                                                )
                                              )
@@ -135,8 +135,8 @@ shinyUI(
                                                         column(4, fileInput('genfamin', strong("Gene Family info"),
                                                                             accept=c(".txt"))),
                                                         actionButton("submit10", strong("Submit"),style = "color: white;background-color: black"),
-                                                        conditionalPanel(condition="input.submit10 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0)),
-                                                        actionButton("clear6", strong("Reset"),style = "color: white;background-color: black")
+                                                        actionButton("clear6", strong("Reset"),style = "color: white;background-color: black"),
+                                                        conditionalPanel(condition="input.submit10 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0))
                                                       )
                                                )
                                              )
@@ -185,8 +185,8 @@ shinyUI(
                                                         column(2, textInput('evisub4', strong("Evidence"),value="")),
                                                         column(4, passwordInput('key4', strong("Password"),value="")),
                                                         actionButton("submit4", strong("Submit"),style = "color: white;background-color: black"),
-                                                        conditionalPanel(condition="input.submit4 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0)),
-                                                        actionButton("clear3", strong("Reset"),style = "color: white;background-color: black")
+                                                        actionButton("clear3", strong("Reset"),style = "color: white;background-color: black"),
+                                                        conditionalPanel(condition="input.submit4 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0))
                                                       )
                                                )
                                              )
@@ -226,8 +226,8 @@ shinyUI(
                                                         column(2, textInput('abssub2', strong("Abstract"),value="")),
                                                         column(2, passwordInput('key2', strong("Password"),value="")),
                                                         actionButton("submit2", strong("Submit"),style = "color: white;background-color: black"),
-                                                        conditionalPanel(condition="input.submit2 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0)),
-                                                        actionButton("clear4", strong("Reset"),style = "color: white;background-color: black")
+                                                        actionButton("clear4", strong("Reset"),style = "color: white;background-color: black"),
+                                                        conditionalPanel(condition="input.submit2 != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0))
                                                       )
                                                )
                                              )
