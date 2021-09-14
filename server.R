@@ -1959,7 +1959,7 @@ shinyServer(function(input, output, session) {
     DT::datatable(
       fetchRefByChoice(input$query, input$inText),
       options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
-                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=TRUE,
                      buttons = list('pageLength', 'copy', 
                                     list(extend = 'csv',   filename = "Gene_Reference"),
                                     list(extend = 'excel', filename = "Gene_Reference")
@@ -1989,7 +1989,7 @@ shinyServer(function(input, output, session) {
     DT::datatable(
       fetchExpByChoice(input$query, input$inText),
       options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
-                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=TRUE,
                      buttons = list('pageLength', 'copy', 
                                     list(extend = 'csv',   filename = "Gene_Expression"),
                                     list(extend = 'excel', filename = "Gene_Expression")
@@ -2004,7 +2004,7 @@ shinyServer(function(input, output, session) {
     DT::datatable(
       fetchKeyByChoice(input$query, input$inText),
       options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
-                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=TRUE,
                      buttons = list('pageLength', 'copy', 
                                     list(extend = 'csv',   filename = "Gene_Keyword"),
                                     list(extend = 'excel', filename = "Gene_Keyword")
@@ -2073,7 +2073,7 @@ shinyServer(function(input, output, session) {
     DT::datatable(
       fetchFamRefByChoice(input$queryfam, input$inTextfam),
       options = list(lengthMenu = c(1,2,4), pageLength = 1, scrollX = FALSE,
-                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=TRUE,
                      buttons = list('pageLength', 'copy', 
                                     list(extend = 'csv',   filename = "Family_Reference"),
                                     list(extend = 'excel', filename = "Family_Reference")
@@ -2130,7 +2130,7 @@ shinyServer(function(input, output, session) {
     DT::datatable(
       fetchRefByKey(input$publication),
       options = list(lengthMenu = c(1, 2, 4, 6, 10), pageLength = 2, scrollX = FALSE,
-                     searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                     searching = FALSE, autoWidth = FALSE, bSort=TRUE,
                      buttons = list('pageLength', 'copy', 
                                     list(extend = 'csv',   filename = "Publication"),
                                     list(extend = 'excel', filename = "Publication")
@@ -2349,7 +2349,7 @@ shinyServer(function(input, output, session) {
             DT::datatable(
               dat.tmp_dMsuPub,
               options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
-                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=TRUE,
                              buttons = list('pageLength', 'copy', 
                                             list(extend = 'csv',   filename = "MSU_gene_publication"),
                                             list(extend = 'excel', filename = "MSU_gene_publication")
@@ -2389,7 +2389,7 @@ shinyServer(function(input, output, session) {
             DT::datatable(
               dat.tmp_dRapPub,
               options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
-                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=TRUE,
                              buttons = list('pageLength', 'copy', 
                                             list(extend = 'csv',   filename = "RAP_gene_publication"),
                                             list(extend = 'excel', filename = "RAP_gene_publication")
@@ -2777,6 +2777,7 @@ shinyServer(function(input, output, session) {
         updateTextInput(session, "msusub7", value="")
         updateTextInput(session, "rapsub7", value="")
         updateTextInput(session, "pubmed7", value="")
+        updateTextInput(session, "key7", value="")
       })
     } else {NULL}
   })
@@ -2790,6 +2791,7 @@ shinyServer(function(input, output, session) {
         updateTextInput(session, "newmsu", value="")
         updateTextInput(session, "oldrap", value="")
         updateTextInput(session, "newrap", value="")
+        updateTextInput(session, "key6", value="")
       })
     } else {NULL}
   })
@@ -2801,6 +2803,7 @@ shinyServer(function(input, output, session) {
         updateTextInput(session, "keysub4", value="")
         updateTextInput(session, "tilsub4", value="")
         updateTextInput(session, "evisub4", value="")
+        updateTextInput(session, "key4", value="")
       })
     } else {NULL}
   })
@@ -2814,6 +2817,7 @@ shinyServer(function(input, output, session) {
         updateTextInput(session, "jousub2", value="")
         updateTextInput(session, "afisub2", value="")
         updateTextInput(session, "abssub2", value="")
+        updateTextInput(session, "key2", value="")
       })
     } else {NULL}
   })
@@ -2823,6 +2827,7 @@ shinyServer(function(input, output, session) {
       isolate({
         updateTextInput(session, "symsub3", value="")
         updateTextInput(session, "accsub3", value="")
+        updateTextInput(session, "key3", value="")
       })
     } else {NULL}
   })
@@ -2834,6 +2839,7 @@ shinyServer(function(input, output, session) {
         updateTextInput(session, "sym2sub5", value="")
         updateTextInput(session, "tilsub5", value="")
         updateTextInput(session, "evisub5", value="")
+        updateTextInput(session, "key5", value="")
       })
     } else {NULL}
   })
@@ -2844,6 +2850,7 @@ shinyServer(function(input, output, session) {
     if (input$clear6>0) {
       isolate({
         updateTextInput(session, "pubmed10", value="")
+        updateTextInput(session, "key10", value="")
       })
     } else {NULL}
   })

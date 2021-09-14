@@ -69,7 +69,7 @@ shinyUI(
                                                         column(12, textInput('msusub7', strong("MSU genomic locus"),value="")),
                                                         column(12, textInput('rapsub7', strong("RAPdb genomic locus"),value="")),
                                                         column(12, textInput('pubmed7', strong("Pubmed ID"),value="")),
-                                                        column(12, textInput('key7', strong("Password"),value="")),
+                                                        column(12, passwordInput('key7', strong("Password"),value="")),
                                                         actionButton("submit7", strong("Submit"),style = "color: white; background-color: black"),
                                                         actionButton("clear1", strong("Reset"),style = "color: white; background-color: black")
                                                       )
@@ -86,7 +86,7 @@ shinyUI(
                                                         column(12, textInput('newmsu', strong("New MSU locus"),value="")),
                                                         column(12, textInput('oldrap', strong("Old RAPdb locus"),value="")),
                                                         column(12, textInput('newrap', strong("New RAPdb locus"),value="")),
-                                                        column(12, textInput('key6', strong("Password"),value="")),
+                                                        column(12, passwordInput('key6', strong("Password"),value="")),
                                                         actionButton("submit6", strong("Submit"),style = "color: white;background-color: black" ),
                                                         actionButton("clear2", strong("Reset"),style = "color: white;background-color: black")
                                                       )
@@ -128,7 +128,7 @@ shinyUI(
                                                                 trigger = "focus"),
                                                       wellPanel(
                                                         column(4, textInput('pubmed10', strong("Pubmed ID"),value="")),
-                                                        column(4, textInput('key10', strong("Password"),value="")),  
+                                                        column(4, passwordInput('key10', strong("Password"),value="")),  
                                                         
                                                         column(4, fileInput('genfamin', strong("Gene Family info"),
                                                                             accept=c(".txt"))),
@@ -180,7 +180,7 @@ shinyUI(
                                                         column(2, textInput('keysub4', strong("Keyword"),value="")),
                                                         column(2, textInput('tilsub4', strong("Title"),value="")),
                                                         column(2, textInput('evisub4', strong("Evidence"),value="")),
-                                                        column(4, textInput('key4', strong("Password"),value="")),
+                                                        column(4, passwordInput('key4', strong("Password"),value="")),
                                                         actionButton("submit4", strong("Submit"),style = "color: white;background-color: black"),
                                                         actionButton("clear3", strong("Reset"),style = "color: white;background-color: black")
                                                       )
@@ -220,7 +220,7 @@ shinyUI(
                                                         column(2, textInput('jousub2', strong("Journal"),value="")), 
                                                         column(2, textInput('afisub2', strong("Affiliation"),value="")),
                                                         column(2, textInput('abssub2', strong("Abstract"),value="")),
-                                                        column(2, textInput('key2', strong("Password"),value="")),
+                                                        column(2, passwordInput('key2', strong("Password"),value="")),
                                                         actionButton("submit2", strong("Submit"),style = "color: white;background-color: black"),
                                                         actionButton("clear4", strong("Reset"),style = "color: white;background-color: black")
                                                       )
@@ -331,7 +331,7 @@ shinyUI(
                                  wellPanel(
                                    column(12, textInput('symsub3', strong("Gene symbol"),value="")),
                                    column(12, textInput('accsub3', strong("Accession"),value="")),
-                                   column(12, textInput('key3', strong("Password"),value="")),
+                                   column(12, passwordInput('key3', strong("Password"),value="")),
                                    actionButton("submit3", strong("Submit"),style = "color: white;background-color: black"),
                                    actionButton("clear5", strong("Reset"),style = "color: white;background-color: black")
                                  )
@@ -344,7 +344,7 @@ shinyUI(
                                    column(12, textInput('sym2sub5', strong("Gene symbol 2"),value="")),
                                    column(12, textInput('tilsub5', strong("Title"),value="")),
                                    column(12, textInput('evisub5', strong("Evidence"),value="")),
-                                   column(12, textInput('key5', strong("Password"),value="")),
+                                   column(12, passwordInput('key5', strong("Password"),value="")),
                                    actionButton("submit5", strong("Submit"),style = "color: white;background-color: black"),
                                    actionButton("clear7", strong("Reset"),style = "color: white;background-color: black")
                                  )
