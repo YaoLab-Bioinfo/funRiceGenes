@@ -1,33 +1,47 @@
 
-library(RCurl); library(XML); library(stringr); library(plyr); 
+library(stringr); library(plyr); 
 mypasswd = "asdfghjkl;'"
 system('git config --global user.name "venyao"')
 system('git config --global user.email "ywhzau@gmail.com"')
 
 fetchPubmedById <- function(id="") {
-  url <- "https://www.ncbi.nlm.nih.gov/pubmed"
-  finalUrl <- paste(url,'?term=', id, '&report=xml&format=text', sep='')
-  urlRes <- getURL(finalUrl)
-  if (grepl("title", urlRes, ignore.case=TRUE)) {
-    urlRes <- gsub("&lt;","<",urlRes)
-    urlRes <- gsub("&gt;",">",urlRes)
-    xmlData <- xmlTreeParse(urlRes, useInternalNodes = TRUE)
-    journal <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/MedlineJournalInfo/MedlineTA", xmlValue)
-    title <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/ArticleTitle", xmlValue)
-    year <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/ArticleDate/Year", xmlValue)
-    #    month <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/ArticleDate/Month", xmlValue)
-    abstract <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/Abstract/AbstractText", xmlValue)
-    abstract <- paste(abstract,sep="",collapse="")
-    
-    affiliation <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/AuthorList/Author/AffiliationInfo/Affiliation", xmlValue)
-    affiliation <- affiliation[1]
-    if (class(affiliation)!="character") {
-      affiliation <- "Fail"
+  url <- "https://pubmed.ncbi.nlm.nih.gov/"
+  finalUrl <- paste(url, id, '/?format=pubmed', sep='')
+  urlRes <- readLines(finalUrl)
+  if (any(grepl("^LID", urlRes, ignore.case=FALSE))) {
+    journal <- urlRes[grepl("^TA\\s", urlRes, ignore.case = FALSE)]
+    journal <- gsub(".+-\\s", "", journal)
+    title.start <- which(grepl("^TI\\s", urlRes, ignore.case = FALSE))
+    title.end <- which(grepl("^PG\\s", urlRes, ignore.case = FALSE))
+    title <- urlRes[title.start:(title.end - 1)]
+    title <- gsub(".+-\\s", "", title)
+    title <- gsub("^\\s+", "", title)
+    title <- paste(title, collapse = "", sep="")
+    year <- urlRes[grepl("^DEP\\s", urlRes, ignore.case = FALSE)]
+    year <- gsub(".+-\\s", "", year)
+    year <- substr(year, 1, 4)
+    abstract.start <- which(grepl("^AB\\s", urlRes, ignore.case = FALSE))
+    abstract.end <- which(grepl("^CI\\s", urlRes, ignore.case = FALSE))
+    if (length(abstract.end) == 0) {
+      abstract.end <- which(grepl("^FAU\\s", urlRes, ignore.case = FALSE))[1]
     }
-    if (is.list(year)) {
-      year <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/Journal/JournalIssue/PubDate/Year", xmlValue)
-      #      month <- xpathSApply(xmlData, "//PubmedArticle/MedlineCitation/Article/Journal/JournalIssue/PubDate/Month", xmlValue)
+    abstract <- urlRes[abstract.start:(abstract.end - 1)]
+    abstract <- gsub(".+-\\s", "", abstract)
+    abstract <- gsub("^\\s+", "", abstract)
+    abstract <- paste(abstract, collapse = "", sep="")
+    affiliation.start <- which(grepl("^AD\\s", urlRes, ignore.case = FALSE))[1]
+    affiliation.end <- affiliation.start
+    for (i in (affiliation.start+1):(affiliation.start+10)) {
+      if (grepl("^\\s+", urlRes[i])) {
+        affiliation.end <- i
+      } else {
+        break
+      }
     }
+    affiliation <- urlRes[affiliation.start:affiliation.end]
+    affiliation <- gsub(".+-\\s", "", affiliation)
+    affiliation <- gsub("^\\s+", "", affiliation)
+    affiliation <- paste(affiliation, collapse = "", sep="")
     
     return(c(journal, title, year, affiliation, abstract))
   } else {
