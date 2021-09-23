@@ -13,6 +13,9 @@ fetchPubmedById <- function(id="") {
     journal <- gsub(".+-\\s", "", journal)
     title.start <- which(grepl("^TI\\s", urlRes, ignore.case = FALSE))
     title.end <- which(grepl("^PG\\s", urlRes, ignore.case = FALSE))
+    if (length(title.end) == 0) {
+      title.end <- which(grepl("^LID\\s", urlRes, ignore.case = FALSE))[1]
+    }
     title <- urlRes[title.start:(title.end - 1)]
     title <- gsub(".+-\\s", "", title)
     title <- gsub("^\\s+", "", title)
