@@ -21,6 +21,9 @@ fetchPubmedById <- function(id="") {
     title <- gsub("^\\s+", "", title)
     title <- paste(title, collapse = "", sep="")
     year <- urlRes[grepl("^DEP\\s", urlRes, ignore.case = FALSE)]
+    if (length(year) == 0) {
+      year <- urlRes[grepl("^PHST", urlRes, ignore.case = FALSE)][1]
+    }
     year <- gsub(".+-\\s", "", year)
     year <- substr(year, 1, 4)
     abstract.start <- which(grepl("^AB\\s", urlRes, ignore.case = FALSE))
