@@ -1,5 +1,5 @@
 
-setwd("E:/GIT/RICENCODE")
+setwd("E:/GIT/funRiceGenes")
 unlink("E:/GIT/funRiceGenes.github.io/_posts", recur=T, force=T)
 gene.lst <- read.table("geneInfo.table", head=T, 
                        as.is=T, sep="\t", quote="", comment="")
@@ -30,13 +30,13 @@ for (j in 1:nrow(gene.lst)) {
   msu <- gene.lst$MSU[j]
   rap <- gene.lst$RAPdb[j]
   path <- gene.lst$path[j]
-  path <- paste("E:/GIT/RICENCODE", path, sep="/")
+  path <- paste("E:/GIT/funRiceGenes", path, sep="/")
   
   ### msu
   msu <- unlist(strsplit(msu, split='|', fixed=TRUE))
   msu.new <- sapply(msu, function(x){
     if (x!="None") {
-      y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+      y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                  x, sep="")
       y <- paste('[',x,']', '(', y, ')', sep="")
       return(y)
@@ -256,7 +256,7 @@ fam.lst <- read.table("famInfo.table", head=T,
 fam.path <- unique(fam.lst$path)
 for (j in 1:length(fam.path)) {
   path <- fam.path[j]
-  path <- paste("E:/GIT/RICENCODE", path, sep="/")
+  path <- paste("E:/GIT/funRiceGenes", path, sep="/")
   
   info.fl <- paste(path, "family.info", sep="/")
   fam.info <- NULL
@@ -270,7 +270,7 @@ for (j in 1:length(fam.path)) {
       msu <- unlist(strsplit(msu, split='|', fixed=TRUE))
       msu.new <- sapply(msu, function(x){
         if (x!="None") {
-          y <- paste("http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+          y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
           y <- paste('[',x,']', '(', y, ')', sep="")
           return(y)
