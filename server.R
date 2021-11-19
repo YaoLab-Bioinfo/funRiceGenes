@@ -2976,5 +2976,337 @@ shinyServer(function(input, output, session) {
     } else {NULL}
   })
   
+  
+  
+  #BLAST
+
+  blast.result <- eventReactive(input$submitBLAST, {
+    #library(XML)
+    blast.in.seq <- ""
+    if (input$In_blast == "paste") {
+      blast.in.seq <- input$BlastSeqPaste
+      blast.in.seq <- gsub("^\\s+", "", blast.in.seq)
+      blast.in.seq <- gsub("\\s+$", "", blast.in.seq)
+    } else if (input$In_blast == "upload") {
+      blast.in.seq <- readLines(input$BlastSeqUpload$datapath)
+    }
+    
+    if (blast.in.seq == "") {
+      shinyWidgets::sendSweetAlert(
+        session = session,
+        title = "No input sequence received!", type = "error",
+        text = NULL
+      )
+      NULL 
+    } else {
+      blast.in.file <- gsub("\\s+", "-", Sys.time())
+      blast.in.file <- gsub(":", "-", blast.in.file)
+      blast.in.file <- paste0(blast.in.file, ".fasta")
+      blast.in.file <- file.path(tempdir(), blast.in.file)
+      writeLines(blast.in.seq, con = blast.in.file)
+
+      if (input$program_database == "Protein Sequence"){
+        blastmethod <- input$programpro
+        blast.db <- paste0("BLASTN/", "all.filter.protein")
+      } else if (input$program_database == "Gene Sequence"){
+        blastmethod <- input$programgene
+        blast.db <- paste0("BLASTN/", "all.filter.gene")
+      } else {
+        blastmethod <- input$programcds
+        blast.db <- paste0("BLASTN/", "all.filter.cds")
+      }
+      
+      blast.out.file <- paste0(blast.in.file, ".blast.out")
+      blast.cmds <- paste0(blastmethod," -query ", blast.in.file," -db ", '"', paste(blast.db, sep=" ", collapse = " "), '"', " -evalue ",
+                           input$BLASTev, " -outfmt 5", " -out ", blast.out.file)
+      system(blast.cmds, ignore.stdout = TRUE, ignore.stderr = TRUE)
+      
+      if ( file.size(blast.out.file) > 0 ) {
+        XML::xmlParse(blast.out.file)
+      } else {
+        shinyWidgets::sendSweetAlert(
+          session = session,
+          title = "No BLAST hits found!", type = "info",
+          text = NULL
+        )
+        NULL
+      }
+ 
+    }   
+  })
+  
+  #makes the datatable 
+  blastedResults <- reactive({
+    if ( is.null( blast.result() ) ){
+      shinyWidgets::sendSweetAlert(
+        session = session,
+        title = "No BLAST hits found!", type = "info",
+        text = NULL
+      )
+    } else {
+      xmltop = XML::xmlRoot(blast.result())
+      
+      #the first chunk is for multi-fastas
+      x <- which(sapply(blast.result()["//Iteration//Iteration_hits//Hit//Hsp//Hsp_num"], XML::xmlValue) == "1")
+      y <- sapply(blast.result()["//Iteration//Iteration_hits//Hit//Hit_def"], XML::xmlValue)
+      x1 <- c(x[-1], length(sapply(blast.result()["//Iteration//Iteration_hits//Hit//Hsp//Hsp_num"], XML::xmlValue)) + 1)
+      z <- sapply(blast.result()["//Iteration//Iteration_hits//Hit//Hit_id"], XML::xmlValue)
+      d <- sapply(blast.result()["//Iteration//Iteration_hits//Hit//Hit_len"], XML::xmlValue)
+      
+      results <- XML::xpathApply(blast.result(), '//Iteration', function(row){
+        qseqid <- XML::getNodeSet(row, 'Iteration_query-def') %>% sapply(., XML::xmlValue)
+        qlen <- XML::getNodeSet(row, 'Iteration_query-len') %>% sapply(., XML::xmlValue)
+        qstart <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_query-from')  %>% sapply(., XML::xmlValue)
+        qend <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_query-to')  %>% sapply(., XML::xmlValue)
+        sstart <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_hit-from')  %>% sapply(., XML::xmlValue)
+        send <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_hit-to')  %>% sapply(., XML::xmlValue)
+        bitscore <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_bit-score')  %>% sapply(., XML::xmlValue)
+        evalue <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_evalue')  %>% sapply(., XML::xmlValue)
+        gaps <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_gaps')  %>% sapply(., XML::xmlValue)
+        length <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_align-len')  %>% sapply(., XML::xmlValue)
+        identity <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hsp//Hsp_identity')  %>% sapply(., XML::xmlValue)
+        pident <- round(as.integer(identity) / as.integer(length) * 100, 2)
+        cbind(qseqid, qlen, qstart, qend, sstart, send, bitscore, evalue, gaps, pident, length)
+      })
+      
+      #this ensures that NAs get added for no hits
+      results <- plyr::rbind.fill( lapply(results, function(y) {as.data.frame((y), stringsAsFactors=FALSE)} ))
+      results <- results[!is.na(results$qstart), ]
+      
+      if (ncol(results) != 11) {
+        results <- NULL
+      } else {
+        results$sseqid <- rep(z, x1-x)
+        results$sslen <- rep(d, x1-x)
+        
+        results <- results[, c("qseqid", "qlen", "sseqid", "sslen", "qstart", "qend", "sstart", 
+                               "send", "bitscore", "evalue", "gaps", "pident", "length")]
+  
+      }
+      
+      if ( exists("famInfo") ){
+        
+      } else {
+        famInfo <- data.table::fread("./famInfo.table", sep = "\t", data.table = F)
+      }
+      
+      if ( exists("geneInfoblast") ){
+        
+      } else {
+        geneInfoblast <- data.table::fread("./geneInfo.table", sep = "\t", data.table = F)
+      }
+      
+      queid <- gsub("t", "g", gsub("-.+|\\..+", "", results$sseqid))
+      fams <- sapply(queid, function(x){
+        if (substr(x, 1, 3) == "LOC"){
+          fm <- famInfo$path[famInfo$MSU == x][1]
+        }else{
+          fm <- famInfo$path[famInfo$RAPdb == x][1]
+        }
+        ds <- unlist(strsplit(fm, "/"))[length(unlist(strsplit(fm, "/")))]
+        return(unlist(ds))
+        })
+      
+      results$Genefamily <- gsub("_", " ", as.character(fams))
+      results$Genefamily[results$Genefamily == "NULL"] <- ""
+      
+      
+      if ( exists("allinfo") ){
+      } else {
+        allinfo <- rbind(famInfo, geneInfoblast)[, c(2, 3, 1)]
+        allinfo$RAPdb <- gsub("G", "g", allinfo$RAPdb)
+        allinfo$RAPdb <- gsub("OS", "Os", allinfo$RAPdb)
+        allinfo <- unique(allinfo)
+      }
+      
+      rapmsu <- lapply(queid, function(x){
+        if (substr(x, 1, 3) == "LOC"){
+          rapmu <- allinfo[grepl(x, allinfo$MSU), ][1, ]
+        }else{
+          rapmu <- allinfo[grepl(x, allinfo$RAPdb),][1, ]
+        }
+        return(rapmu)
+      })
+      rapmsu <- do.call(rbind, rapmsu)
+      colnames(rapmsu) <- c("RAPdb", "MSU", "Symbol")
+
+      #RAPDB - Os
+      rap.new <- sapply(rapmsu$RAPdb, function(x){
+        if (x!="None") {
+          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
+      })
+      
+      
+      #MSU LOC
+      msu.new <- sapply(rapmsu$MSU, function(x){
+        if (x!="None") {
+          y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
+                     x, sep="")
+          y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
+          y <- HTML(y)
+          return(y)
+        } else {
+          return("None")
+        }
+      })
+      rapmsu$RAPdb <- as.character(rap.new)
+      rapmsu$MSU <- as.character(msu.new)
+      rapmsu$Symbol <- as.character(rapmsu$Symbol)
+      results <- cbind(results, rapmsu)
+      
+     
+      
+      
+       
+      results
+    }
+  })
+  
+  output$BLASTresult <- DT::renderDT({
+    DT::datatable(
+      if (is.null(blastedResults()) || is.null(blast.result())) {
+        blastedResults <- data.frame("V1"="No BLAST hits found!")
+        colnames(blastedResults) <- ""
+        blastedResults
+      } else {
+        blastedResults()
+      }, extensions = "Buttons", escape = FALSE, rownames= FALSE, selection="single", filter = 'top', 
+      options = list(scrollX = TRUE, dom = 'Brtip', bSort = FALSE,
+                     buttons = list('pageLength', 'copy', 
+                                    list(extend = 'csv',   filename =  paste("BLAST-result", sep = "-")),
+                                    list(extend = 'excel', filename =  paste("BLAST-result", sep = "-")),
+                                    'print'),
+                     initComplete = DT::JS(
+                       "function(settings, json) {",
+                       "$(this.api().table().header()).css({'background-color': '#676464', 'color': '#fff'});",
+                       "}")
+      ))
+  }, server = FALSE)
+  
+  # Update Tab Panel
+  observe({
+    if (input$submitBLAST >0) {
+      isolate({
+        if (!is.null(blast.result())) {
+          updateTabsetPanel(session, 'BLAST_tab', selected = 'Output')
+        } else {
+          NULL
+        }
+      })
+    } else {NULL}
+  })
+  
+  output$alignment <- renderText({
+    if(is.null(input$BLASTresult_rows_selected) || is.null(blastedResults()) ){
+      NULL
+    } else {
+      xmltop = XML::xmlRoot(blast.result())
+      
+      clicked = input$BLASTresult_rows_selected
+      #loop over the xml to get the alignments
+      align <- XML::xpathApply(blast.result(), '//Iteration',function(row){
+        top <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hit_hsps//Hsp//Hsp_qseq') %>% sapply(., XML::xmlValue)
+        mid <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hit_hsps//Hsp//Hsp_midline') %>% sapply(., XML::xmlValue)
+        bottom <- XML::getNodeSet(row, 'Iteration_hits//Hit//Hit_hsps//Hsp//Hsp_hseq') %>% sapply(., XML::xmlValue)
+        rbind(top,mid,bottom)
+      })
+      
+      #split the alignments every 100 carachters to get a "wrapped look"
+      alignx <- do.call("cbind", align)
+      splits <- strsplit(gsub("(.{100})", "\\1,", alignx[1:3,clicked]),",")
+      
+      #paste them together with returns '\n' on the breaks
+      split_out <- lapply(1:length(splits[[1]]),function(i){
+        rbind(paste0("Q:",splits[[1]][i],"\n"),paste0("M:",splits[[2]][i],"\n"),paste0("H-",splits[[3]][i],"\n"), "\n")
+      })
+      split_out[[1]][1] <- paste0(" ", split_out[[1]][1])
+      unlist(split_out)
+    }
+  })
+  
+  #this chunk gets the alignemnt information from a clicked row
+  output$clicked <- renderTable({
+    if(is.null(input$BLASTresult_rows_selected) || is.null(blastedResults())){
+      NULL
+    } else {
+      clicked = input$BLASTresult_rows_selected
+      tableout<- data.frame(blastedResults()[clicked, ])
+      tableout <- t(tableout)
+      names(tableout) <- c("")
+      
+      
+      rownames(tableout) <- c("query ID","query length", "subject ID", "subject length", "query start", "query end", 
+                              "subject start", "subject end", "bit-score", "e-value", "gaps", "percentage of identical matches", 
+                              "alignment length", "Genefamily", "RAPdb", "MSU", "Symbol")
+      
+      tableout[15,1] <- gsub('.+" target="_blank">', '', tableout[15,1])
+      tableout[15,1] <- gsub('</a>', '', tableout[15,1])
+      
+      tableout[16,1] <- gsub('.+" target="_blank">', '', tableout[16,1])
+      tableout[16,1] <- gsub('</a>', '', tableout[16,1])
+      
+      colnames(tableout) <- NULL
+      data.frame(tableout)
+    }
+  }, rownames =T, colnames =F)
+  
+  output$Alignment <- renderText({
+    if (is.null(input$BLASTresult_rows_selected) || is.null(blastedResults()) ) {
+      
+    } else {
+      HTML('<i class="fa fa-circle" aria-hidden="true"></i> <font size="5" color="red"><b>The detailed alignment of the selected BLAST hit</b></font>')
+    }
+  })
+  
+  ## Download BLAST example input
+  output$BLAST_Input.txt <- downloadHandler(
+    filename <- function() { paste('BLAST_example_input.txt') },
+    content <- function(file) {
+      if ( exists("exam1.fa") ){
+        
+      } else {
+        exam1.fa <- readLines("exam1.fa")
+      }
+      writeLines(exam1.fa, con=file)
+    }, contentType = 'text/plain'
+  )
+  
+  ##reset
+  observe({
+    if (input$clearBLAST >0) {
+      isolate({
+        updateSelectInput(session, "In_blast", selected = "paste")
+        updateTextAreaInput(session, "BlastSeqPaste", value="")
+        updateSelectInput(session, "BLASTdb", selected = "RAP-DB")
+        updateSelectInput(session, "program_database", selected = "Gene Sequence")
+        updateSelectInput(session, "programdna", selected = "blastn")
+      })
+    } else {NULL}
+  })
+  
+  #load example
+  observe({
+    if (input$blastExam >0) {
+      isolate({
+        updateSelectInput(session, "In_blast", selected = "paste")
+        if ( exists("exam1.fa") ){
+        } else {
+          exam1.fa <- readLines("exam1.fa")
+        }
+        updateTextAreaInput(session, "BlastSeqPaste", value = paste(exam1.fa, collapse = "\n"))
+        updateSelectInput(session, "BLASTdb", selected = "RAP-DB")
+        updateSelectInput(session, "program_database", selected = "Gene Sequence")
+        updateSelectInput(session, "programdna", selected = "blastn")
+      })
+    } else {NULL}
+  })
+  
 })
 

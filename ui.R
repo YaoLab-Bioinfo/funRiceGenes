@@ -5,6 +5,20 @@ library(shinyBS)
 library(shinyWidgets)
 library(data.table)
 
+Blast_Info_Title <- paste("qseqid: Query sequence ID;",
+                          "qlen: Query sequence length;",
+                          "sseqid: Subject sequence ID;",
+                          "slen: Subject sequence length;",
+                          "length: Alignment length;",
+                          "qstart: Start of alignment in query;",
+                          "qend: End of alignment in query;",
+                          "sstart: Start of alignment in subject;",
+                          "send: End of alignment in subject;",
+                          "gaps: Number of gap openings;",
+                          "pident: Percentage of identical matches;",
+                          "evalue: Expect value;",
+                          "bitscore: Bit score;",
+                          sep = "<br>")
 
 key.fl <- fread("key.txt", data.table = F)
 
@@ -193,6 +207,131 @@ shinyUI(
                                     )
                         )
                ),
+               
+               #BLAST
+               tabPanel(
+                 HTML("<strong style='font-size:18px'>BLAST</strong>"),
+                 icon = icon("rocket", class = NULL, lib = "font-awesome"),
+                 
+                 h4(HTML('<i class="fa fa-circle" aria-hidden="true"></i> <font size="4" color="red"><b>Search one or multiple soybean genomes by sequence similarity using BLAST</b></font>'),
+                    bsButton("qBlastTitle", label="", icon=icon("question"), style="info", size="small")),
+                 bsPopover("qBlastTitle", title = Blast_Info_Title, content = NULL, trigger = "focus"),
+                 
+                 tabsetPanel(id = "BLAST_tab",
+                             tabPanel("Input",
+                                      fixedRow(
+                                        column(6,
+                                               selectInput("In_blast", label = h4(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red"><b>Paste or upload input data?</b></font>'),
+                                                                                  bsButton("qBlastIn", label="", icon=icon("question"), style="info", size="small")
+                                               ), choices = list("Paste input data" = "paste", 
+                                                                 "Upload input data" = "upload"), 
+                                               selected = "paste"),
+                                               bsPopover("qBlastIn", "The input data must be DNA sequences or Protein sequences in fasta format.", trigger = "focus"),
+                                               
+                                               conditionalPanel(condition="input.In_blast == 'paste'", 
+                                                                textAreaInput("BlastSeqPaste", label = h4(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red"><b>Input sequence</b></font>')),
+                                                                              value = "", resize = "vertical", height='400px', width = '200%',
+                                                                              placeholder = "The input sequences must be in fasta format")
+                                               ),
+                                               conditionalPanel(condition="input.In_blast == 'upload'", 
+                                                                fileInput("BlastSeqUpload",
+                                                                          label = h4(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red"><b>Upload file</b></font>')), multiple = FALSE, width = "100%"),
+                                                                downloadButton("BLAST_Input.txt", "Example BLAST input data", style = "width:100%;", class = "buttDown")
+                                               )
+                                        ),
+                                        
+                                        column(6, 
+                                               
+                                               selectInput("program_database", label = h4(HTML('<i class="fa fa-play"></i> <font size="4" color="red"><b>Database type</b></font>'),
+                                                                                          bsButton("qBLASTpdata", label="", icon=icon("question"), style="info", size="small")),
+                                                           choices=c("Gene Sequence", "Protein Sequence", "CDS sequence"), width = '100%'),
+                                               bsPopover("qBLASTpdata", "Set the type of BLAST database to search against.", 
+                                                         trigger = "focus"),
+                                               textInput("BLASTev", label = h4(HTML('<i class="fa fa-play"></i> <font size="4" color="red"><b>E-value cutoff</b></font>'),
+                                                                               bsButton("qBLASTev", label="", icon=icon("question"), style="info", size="small")), 
+                                                         value = "10", placeholder = NULL, width = '100%'),
+                                               bsPopover("qBLASTev", "Set E-value threshold to filter the BLAST output.",
+                                                         trigger = "focus"),
+                                               
+                                               conditionalPanel(condition="input.program_database == 'Protein Sequence'", 
+                                                                selectInput("programpro", label = h4(HTML('<i class="fa fa-play"></i> <font size="4" color="red"><b>Program</b></font>')), 
+                                                                            choices=c("blastp", "blastx"), width = '100%'),
+                                               ),
+                                               conditionalPanel(condition="input.program_database == 'Gene Sequence'", 
+                                                                selectInput("programgene", label = h4(HTML('<i class="fa fa-play"></i> <font size="4" color="red"><b>Program</b></font>')), 
+                                                                            choices=c("blastn","tblastn", "tblastx"), width = '100%'),
+                                               ),
+                                               conditionalPanel(condition="input.program_database == 'CDS sequence'", 
+                                                                selectInput("programcds", label = h4(HTML('<i class="fa fa-play"></i> <font size="4" color="red"><b>Program</b></font>')), 
+                                                                            choices=c("blastn","tblastn", "tblastx"), width = '100%'),
+                                               ),
+                                               
+                                               br(),
+                                               
+                                               shinysky::actionButton("submitBLAST", strong("BLAST!",
+                                                                                            bsButton("qBLASTGO", label="", icon=icon("question"), style="info", size="small")
+                                               ), styleclass = "success"),
+                                               shinysky::actionButton("clearBLAST", strong("Reset"), styleclass = "warning"),
+                                               shinysky::actionButton("blastExam", strong("Load example"), styleclass = "info"),
+                                               conditionalPanel(condition="input.submitBLAST != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0)),
+                                               bsPopover("qBLASTGO", "Click this button to start the BLAST alignment!",
+                                                         trigger = "focus")
+                                               
+                                               
+                                        ),
+                                        br()
+                                        
+                                        
+                                      )
+                             ),
+                             
+                             tabPanel("Output",
+                                      conditionalPanel(condition="input.submitBLAST > 0", 
+                                                       tags$div(HTML('<i class="fa fa-circle" aria-hidden="true"></i> <font size="4" color="red"><b>BLAST output</b></font>'),
+                                                                bsButton("qBLASTresultHelp", label="", icon=icon("question"), style="info", size="small")),
+                                                       bsPopover("qBLASTresultHelp", title = "Click on a row to check the details of the BLAST alignment!", trigger = "focus", content = NULL)
+                                      ),
+                                      br(),
+                                      DT::dataTableOutput("BLASTresult"),
+                                      
+                                      fixedRow(
+                                        column(1),
+                                        column(4,
+                                               htmlOutput("Alignment"),
+                                               tableOutput("clicked"),
+                                               
+                                     tags$head(tags$style("#Alignment{color: red;
+                                       font-size: 22px;
+                                       font-style: bold;
+                                      }"
+                                               )),
+                                     tags$style("#clicked{
+                                       width = 100%;
+                                       padding: 6px 12px;
+                                       white-space: pre-wrap;
+                                      height: 600px;
+                                      }"
+                                               ),
+                                        ),
+                                 column(6,
+                                    tags$style("#alignment{
+                                        width: 100%;
+                                        padding: 6px 12px; 
+                                        white-space: pre-wrap;
+                                        height: 800px;
+                                        background: white;
+                                        }"
+                                           ),
+                                       shinycssloaders::withSpinner(verbatimTextOutput("alignment", placeholder = FALSE))
+                                           
+                                        )
+                                      ),
+                                 column(1)
+                                      
+                             )
+                 )
+               ),
+               
                
                ## publication panel
                tabPanel(HTML("<strong style='font-size:18px'>Publication</strong>"),
