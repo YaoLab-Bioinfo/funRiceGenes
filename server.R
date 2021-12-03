@@ -97,6 +97,14 @@ fam.gene.rap.final <- unlist(unname(fam.gene.rap.new))
 gene.info <- read.table("geneInfo.table", head=T, sep="\t", as.is=T, quote="")
 gene.keyword <- read.table("geneKeyword.table", head=T, 
                            sep="\t", as.is=T, quote="", comment="")
+
+RAPdb <- unique(gene.keyword[, c(2, 4)])
+names(RAPdb)[1] <- "gene"
+MSU <- unique(gene.keyword[, c(3:4)])
+names(MSU)[1] <- "gene"
+all.keyword <- rbind(RAPdb, MSU)
+all.keyword <- all.keyword[all.keyword$gene!="None", ]
+
 all.key <- unique(gene.keyword$Keyword)
 all.sym <- sapply(gene.info$Symbol, function(x) {
   symb <- unlist(strsplit(x, split="|", fixed=TRUE))
@@ -1382,7 +1390,7 @@ write.key <- function(df) {
       df.new$RAPdb <- gene.info$RAPdb[locus.line]
       df.new$MSU <- gene.info$MSU[locus.line]
       df.new$path <- gene.info$path[locus.line]
-      df.new <- df.new[, c("Symbol","RAPdb","MSU","Keyword","Title", "path")]
+      df.new <- df.new[, c("Symbol","RAPdb","MSU","Keyword","Title", "Evidence", "path")]
       gene.keyword <- gene.keyword[gene.keyword$path!=path, ]
       gene.keyword.new <- rbind(gene.keyword, df.new)
       gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
@@ -1394,7 +1402,7 @@ write.key <- function(df) {
       df$RAPdb <- gene.info$RAPdb[locus.line]
       df$MSU <- gene.info$MSU[locus.line]
       df$path <- gene.info$path[locus.line]
-      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title", "path")]
+      df <- df[, c("Symbol","RAPdb","MSU","Keyword","Title", "Evidence", "path")]
       gene.keyword.new <- rbind(gene.keyword, df)
       gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
       write.table(gene.keyword.new, file="geneKeyword.table", 
@@ -1600,7 +1608,7 @@ gene.edit <- function(df){
     key.con$path <- gene.tar$path
     key.con$RAPdb <- df.dat$RAPdb
     key.con$MSU <- df.dat$MSU
-    key.con <- key.con[, c("Symbol","RAPdb","MSU","Keyword","Title", "path")]
+    key.con <- key.con[, c("Symbol","RAPdb","MSU","Keyword","Title", "Evidence", "path")]
     gene.keyword.new <- rbind(gene.keyword, key.con)
     gene.keyword.new <- gene.keyword.new[order(gene.keyword.new$Symbol), ]
     write.table(gene.keyword.new, file="geneKeyword.table", 
@@ -1646,7 +1654,6 @@ gene.edit <- function(df){
 }
 
 updateGeneInfo <- function() {
-  
   gene.info <<- read.table("geneInfo.table", head=T, sep="\t", as.is=T, quote="")
   gene.keyword <<- read.table("geneKeyword.table", head=T, 
                               sep="\t", as.is=T, quote="", comment="")
@@ -2648,9 +2655,6 @@ shinyServer(function(input, output, session) {
     } else {NULL}
   })
   
-  
-  
-  
   # edit gene info
   observe({
     if (input$submit6>0) {
@@ -2976,10 +2980,7 @@ shinyServer(function(input, output, session) {
     } else {NULL}
   })
   
-  
-  
   #BLAST
-
   blast.result <- eventReactive(input$submitBLAST, {
     #library(XML)
     blast.in.seq <- ""
@@ -3035,7 +3036,7 @@ shinyServer(function(input, output, session) {
     }   
   })
   
-  #makes the datatable 
+  #make the datatable 
   blastedResults <- reactive({
     if ( is.null( blast.result() ) ){
       shinyWidgets::sendSweetAlert(
@@ -3143,7 +3144,6 @@ shinyServer(function(input, output, session) {
         }
       })
       
-      
       #MSU LOC
       msu.new <- sapply(rapmsu$MSU, function(x){
         if (x!="None") {
@@ -3161,10 +3161,6 @@ shinyServer(function(input, output, session) {
       rapmsu$Symbol <- as.character(rapmsu$Symbol)
       results <- cbind(results, rapmsu)
       
-     
-      
-      
-       
       results
     }
   })
@@ -3304,6 +3300,207 @@ shinyServer(function(input, output, session) {
         updateSelectInput(session, "BLASTdb", selected = "RAP-DB")
         updateSelectInput(session, "program_database", selected = "Gene Sequence")
         updateSelectInput(session, "programdna", selected = "blastn")
+      })
+    } else {NULL}
+  })
+  
+  ## wordcloud annotation
+  observe({
+    if (input$submitwd>0) {
+      isolate({
+        genes <- ""
+        if ( input$selWordcloud =="paste" ) {
+          genes <- unlist(strsplit(input$WordcloudPaste, split="\\n"))
+          genes <- gsub("^\\s+", "", genes)
+          genes <- gsub("\\s+$", "", genes)
+          genes <- genes[genes!=""]
+        } else if ( input$selWordcloud =="upload"){
+          genes <- readLines(input$WordcloudUpload$datapath)
+        } 
+        
+        if (length(genes)==0) {
+          shinyWidgets::sendSweetAlert(
+            session = session,
+            title = "No input gene received!", type = "error",
+            text = NULL
+          )
+          NULL 
+        } else {
+          if (input$WordcloudDataType == "MSU") {
+            gene.file <- gene.keyword[gene.keyword$MSU %in% genes, ]
+          } else if (input$WordcloudDataType == "RAPdb") {
+            gene.file <- gene.keyword[gene.keyword$RAPdb %in% genes, ]
+          }
+          
+          if (nrow(gene.file)==0){
+            shinyWidgets::sendSweetAlert(
+              session = session,
+              title = "No result!", type = "error",
+              text = "No functional genes found in your input list!"
+            )
+            NULL
+          } else {
+            gene.key.cont <- gene.file$Evidence
+            docs <- Corpus(VectorSource(gene.key.cont))
+            toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
+            docs <- tm_map(docs, toSpace, "/")
+            docs <- tm_map(docs, toSpace, "@")
+            docs <- tm_map(docs, toSpace, "\\|")
+            docs <- tm_map(docs, content_transformer(tolower))
+            docs <- tm_map(docs, removeNumbers)
+            docs <- tm_map(docs, removeWords, stopwords("english"))
+            docs <- tm_map(docs, removePunctuation)
+            docs <- tm_map(docs, stripWhitespace)
+            dtm <- TermDocumentMatrix(docs)
+            m <- as.matrix(dtm)
+            v <- sort(rowSums(m), decreasing=TRUE)
+            d <- data.frame(word = names(v), freq=v)
+            
+            output$Wordcloud <- renderPlot({
+              wordcloud(words = d$word, freq = d$freq, min.freq = 1,
+                        max.words=200, random.order=FALSE, rot.per=0.35, 
+                        colors=brewer.pal(8, "Dark2"))
+            })
+          }
+        }
+      })
+    } else {
+      NULL
+    }
+  })
+  
+  ## Download PDF file of Wordcloud
+  output$downloadWordcloud.pdf <- downloadHandler(
+    filename <- function() { 'wordcloud.pdf' },
+    content <- function(file) {
+      if ( input$selWordcloud =="paste" ) {
+        genes <- unlist(strsplit(input$WordcloudPaste, split="\\n"))
+        genes <- gsub("^\\s+", "", genes)
+        genes <- gsub("\\s+$", "", genes)
+        genes <- genes[genes!=""]
+      } else if ( input$selWordcloud =="upload"){
+        genes <- readLines(input$WordcloudUpload$datapath)
+      }
+      if (input$WordcloudDataType == "MSU") {
+        gene.file <- gene.keyword[gene.keyword$MSU %in% genes, ]
+      } else if (input$WordcloudDataType == "RAPdb") {
+        gene.file <- gene.keyword[gene.keyword$RAPdb %in% genes, ]
+      }
+      gene.key.cont <- gene.file$Evidence
+      docs <- Corpus(VectorSource(gene.key.cont))
+      toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
+      docs <- tm_map(docs, toSpace, "/")
+      docs <- tm_map(docs, toSpace, "@")
+      docs <- tm_map(docs, toSpace, "\\|")
+      docs <- tm_map(docs, content_transformer(tolower))
+      docs <- tm_map(docs, removeNumbers)
+      docs <- tm_map(docs, removeWords, stopwords("english"))
+      docs <- tm_map(docs, removePunctuation)
+      docs <- tm_map(docs, stripWhitespace)
+      dtm <- TermDocumentMatrix(docs)
+      m <- as.matrix(dtm)
+      v <- sort(rowSums(m), decreasing=TRUE)
+      d <- data.frame(word = names(v), freq=v)
+      
+      pdf(file, width=8, height=8)
+      wordcloud(words = d$word, freq = d$freq, min.freq = 1,
+                max.words=200, random.order=FALSE, rot.per=0.35, 
+                colors=brewer.pal(8, "Dark2"))
+      dev.off()
+    }, contentType = "application/pdf")
+  
+  ## Download PNG file of Wordcloud
+  output$downloadWordcloud.png <- downloadHandler(
+    filename <- function() { 'wordcloud.png' },
+    content <- function(file) {
+      if ( input$selWordcloud =="paste" ) {
+        genes <- unlist(strsplit(input$WordcloudPaste, split="\\n"))
+        genes <- gsub("^\\s+", "", genes)
+        genes <- gsub("\\s+$", "", genes)
+        genes <- genes[genes!=""]
+      } else if ( input$selWordcloud =="upload"){
+        genes <- readLines(input$WordcloudUpload$datapath)
+      } 
+      if (input$WordcloudDataType == "MSU") {
+        gene.file <- gene.keyword[gene.keyword$MSU %in% genes, ]
+      } else if (input$WordcloudDataType == "RAPdb") {
+        gene.file <- gene.keyword[gene.keyword$RAPdb %in% genes, ]
+      }
+      gene.key.cont <- gene.file$Evidence
+      docs <- Corpus(VectorSource(gene.key.cont))
+      toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
+      docs <- tm_map(docs, toSpace, "/")
+      docs <- tm_map(docs, toSpace, "@")
+      docs <- tm_map(docs, toSpace, "\\|")
+      docs <- tm_map(docs, content_transformer(tolower))
+      docs <- tm_map(docs, removeNumbers)
+      docs <- tm_map(docs, removeWords, stopwords("english"))
+      docs <- tm_map(docs, removePunctuation)
+      docs <- tm_map(docs, stripWhitespace)
+      dtm <- TermDocumentMatrix(docs)
+      m <- as.matrix(dtm)
+      v <- sort(rowSums(m), decreasing=TRUE)
+      d <- data.frame(word = names(v), freq=v)
+      
+      png(file, width=800, height=800)
+      wordcloud(words = d$word, freq = d$freq, min.freq = 1,
+                max.words=200, random.order=FALSE, rot.per=0.35, 
+                colors=brewer.pal(8, "Dark2"))
+      dev.off()
+    }, contentType = "application/png")
+  
+  ## Download txt file of Wordcloud
+  output$downloadWordcloud.txt <- downloadHandler(
+    filename = function() { "Wordcloud.txt" },
+    content = function(file) {
+      if ( input$selWordcloud =="paste" ) {
+        genes <- unlist(strsplit(input$WordcloudPaste, split="\\n"))
+        genes <- gsub("^\\s+", "", genes)
+        genes <- gsub("\\s+$", "", genes)
+        genes <- genes[genes!=""]
+      } else if ( input$selWordcloud =="upload"){
+        genes <- readLines(input$WordcloudUpload$datapath)
+      } 
+      if (input$WordcloudDataType == "MSU") {
+        gene.file <- gene.keyword[gene.keyword$MSU %in% genes, ]
+      } else if (input$WordcloudDataType == "RAPdb") {
+        gene.file <- gene.keyword[gene.keyword$RAPdb %in% genes, ]
+      }
+      gene.key.cont <- gene.file$Evidence
+      docs <- Corpus(VectorSource(gene.key.cont))
+      toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
+      docs <- tm_map(docs, toSpace, "/")
+      docs <- tm_map(docs, toSpace, "@")
+      docs <- tm_map(docs, toSpace, "\\|")
+      docs <- tm_map(docs, content_transformer(tolower))
+      docs <- tm_map(docs, removeNumbers)
+      docs <- tm_map(docs, removeWords, stopwords("english"))
+      docs <- tm_map(docs, removePunctuation)
+      docs <- tm_map(docs, stripWhitespace)
+      dtm <- TermDocumentMatrix(docs)
+      m <- as.matrix(dtm)
+      v <- sort(rowSums(m), decreasing=TRUE)
+      d <- data.frame(word = names(v), freq=v)
+      
+      write.table(d, file, sep="\t", quote=F, row.names = F, col.names = T)
+    })
+  
+  observe({
+    if (input$keywordclear>0) {
+      isolate({
+        updateSelectInput(session, "selWordcloud", selected = "paste")
+        updateTextAreaInput(session, "WordcloudPaste", value="")
+        updateSelectInput(session, "WordcloudDataType", selected = "MSU")
+      })
+    } else {NULL}
+  })
+  
+  observe({
+    if (input$keywordExam >0) {
+      isolate({
+        updateSelectInput(session, "selWordcloud", selected = "paste")
+        updateTextAreaInput(session, "WordcloudPaste", value=paste(readLines("genes4wordcloud.txt"), collapse = "\n"))
+        updateSelectInput(session, "WordcloudDataType", selected = "MSU")
       })
     } else {NULL}
   })

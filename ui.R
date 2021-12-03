@@ -4,6 +4,11 @@ library(shinythemes)
 library(shinyBS)
 library(shinyWidgets)
 library(data.table)
+library(tm)
+library(wordcloud)
+library(SnowballC)
+library(htmlwidgets)
+library(RColorBrewer)
 
 Blast_Info_Title <- paste("qseqid: Query sequence ID;",
                           "qlen: Query sequence length;",
@@ -213,7 +218,7 @@ shinyUI(
                  HTML("<strong style='font-size:18px'>BLAST</strong>"),
                  icon = icon("rocket", class = NULL, lib = "font-awesome"),
                  
-                 h4(HTML('<i class="fa fa-circle" aria-hidden="true"></i> <font size="4" color="red"><b>Search one or multiple soybean genomes by sequence similarity using BLAST</b></font>'),
+                 h4(HTML('<i class="fa fa-circle" aria-hidden="true"></i> <font size="4" color="red"><b>Search genes collected in funRiceGenes by sequence similarity using BLAST</b></font>'),
                     bsButton("qBlastTitle", label="", icon=icon("question"), style="info", size="small")),
                  bsPopover("qBlastTitle", title = Blast_Info_Title, content = NULL, trigger = "focus"),
                  
@@ -242,10 +247,10 @@ shinyUI(
                                         
                                         column(6, 
                                                
-                                               selectInput("program_database", label = h4(HTML('<i class="fa fa-play"></i> <font size="4" color="red"><b>Database type</b></font>'),
+                                               selectInput("program_database", label = h4(HTML('<i class="fa fa-play"></i> <font size="4" color="red"><b>Database</b></font>'),
                                                                                           bsButton("qBLASTpdata", label="", icon=icon("question"), style="info", size="small")),
                                                            choices=c("Gene Sequence", "Protein Sequence", "CDS sequence"), width = '100%'),
-                                               bsPopover("qBLASTpdata", "Set the type of BLAST database to search against.", 
+                                               bsPopover("qBLASTpdata", "Select a BLAST database to search against.", 
                                                          trigger = "focus"),
                                                textInput("BLASTev", label = h4(HTML('<i class="fa fa-play"></i> <font size="4" color="red"><b>E-value cutoff</b></font>'),
                                                                                bsButton("qBLASTev", label="", icon=icon("question"), style="info", size="small")), 
@@ -276,12 +281,8 @@ shinyUI(
                                                conditionalPanel(condition="input.submitBLAST != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0)),
                                                bsPopover("qBLASTGO", "Click this button to start the BLAST alignment!",
                                                          trigger = "focus")
-                                               
-                                               
                                         ),
                                         br()
-                                        
-                                        
                                       )
                              ),
                              
@@ -300,12 +301,12 @@ shinyUI(
                                                htmlOutput("Alignment"),
                                                tableOutput("clicked"),
                                                
-                                     tags$head(tags$style("#Alignment{color: red;
+                                               tags$head(tags$style("#Alignment{color: red;
                                        font-size: 22px;
                                        font-style: bold;
                                       }"
                                                )),
-                                     tags$style("#clicked{
+                                               tags$style("#clicked{
                                        width = 100%;
                                        padding: 6px 12px;
                                        white-space: pre-wrap;
@@ -313,28 +314,93 @@ shinyUI(
                                       }"
                                                ),
                                         ),
-                                 column(6,
-                                    tags$style("#alignment{
+                                        column(6,
+                                               tags$style("#alignment{
                                         width: 100%;
                                         padding: 6px 12px; 
                                         white-space: pre-wrap;
                                         height: 800px;
                                         background: white;
                                         }"
-                                           ),
-                                       shinycssloaders::withSpinner(verbatimTextOutput("alignment", placeholder = FALSE))
-                                           
+                                               ),
+                                               shinycssloaders::withSpinner(verbatimTextOutput("alignment", placeholder = FALSE))
+                                               
                                         )
                                       ),
-                                 column(1)
-                                      
+                                      column(1)
                              )
                  )
                ),
                
                
+               #Wordcloud
+               tabPanel(
+                 HTML("<strong style='font-size:18px'>Annotation</strong>"),
+                 icon = icon("cloud", class = NULL, lib = "font-awesome"),
+                 
+                 sidebarPanel(
+                   width = 3,
+                   fixedRow(
+                     column(12,
+                            h4(HTML('<i class="fa fa-circle" aria-hidden="true"></i> <font size="4" color="red"><b>Annotation by keyword cloud</b></font>'),
+                               bsButton("bs01", label="", icon=icon("question"), style="info", size="small")),
+                            bsPopover("bs01", "Functional annotation of input genes by word cloud of associated keyword.", trigger = "focus")
+                     )
+                   ),
+                   selectInput("WordcloudDataType", h4(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red"><b>MSU or RAPdb gene model?</b></font>')),
+                               choices = list("MSU gene model" = "MSU", "RAPdb gene model" = "RAPdb"), selected = "MSU"
+                   ),
+                   selectInput("selWordcloud", h4(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red"><b>Paste or upload input data</b></font>'),
+                                                  bsButton("bs02", label="", icon=icon("question"), style="info", size="small")),
+                               choices = list("Paste input data" = "paste", "Upload input data" = "upload"), selected = "paste"
+                               ),
+                   bsPopover("bs02", "Search by a list of input gene models.", trigger = "focus"),
+                   conditionalPanel(condition="input.selWordcloud == 'paste'", 
+                                    textAreaInput("WordcloudPaste", label = h4(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red"><b>Input genes</b></font>')),
+                                                  value = "", resize = "vertical", height='200px', width = '100%',
+                                                  placeholder = "One gene in one row"), value = paste(readLines("genes4wordcloud.txt"), collapse = "\n")
+                                    ),
+                   conditionalPanel(condition="input.selWordcloud == 'upload'", 
+                                    fileInput("WordcloudUpload",
+                                              label = h4(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red"><b>Upload file</b></font>')), multiple = FALSE, width = "100%"),
+                                    ),
+                   # selectInput("wd.shape", h4(HTML('<i class="fa fa fa-play" aria-hidden="true"></i> <font size="3" color="red"><b>Wordcloud shapes</b></font>')), 
+                   #             choices = c("circle", "diamond", "triangle", "triangle-forward", "pentagon", "star"), selected = "circle" ),
+                   
+                   shinysky::actionButton("submitwd", strong("Submit!", bsButton("bs04", label="", icon=icon("question"), style="info", size="small")), styleclass = "success"),
+                   
+                   shinysky::actionButton("keywordclear", strong("Reset"), styleclass = "warning"),
+                   shinysky::actionButton("keywordExam", strong("Load example"), styleclass = "info"),
+                   
+                   conditionalPanel(condition="input.submitwd != '0'", shinysky::busyIndicator(HTML("<p style='color:red;font-size:30px;'>Calculation In progress...</p>"), wait = 0)),
+                   bsPopover("bs04", "Whenever the input genes is updated, please click Submit!", trigger = "focus")
+                   ),
+                 mainPanel(
+                   width = 9,
+                   fluidRow(
+                     column(4,
+                            downloadButton("downloadWordcloud.pdf", "PDF-file", style = "width:100%;", class = "buttDown"),
+                            tags$style(".buttDown{background-color:black; color: white; font-size: 16px;}")
+                     ),
+                     column(4,
+                            downloadButton("downloadWordcloud.png", "PNG-file", style = "width:100%;", class = "buttDown"),
+                            tags$style(".buttDown{background-color:black; color: white; font-size: 16px;}")
+                     ),
+                     column(4,
+                            downloadButton("downloadWordcloud.txt", "TXT-file", style = "width:100%;", class = "buttDown"),
+                            tags$style(".buttDown{background-color:black; color: white; font-size: 16px;}")
+                     )
+                   ),
+                   
+                   br(),
+                   
+                   plotOutput("Wordcloud", width = "auto", height = "500px")
+                   )
+                 ),
+                             
+
                ## publication panel
-               tabPanel(HTML("<strong style='font-size:18px'>Publication</strong>"),
+               tabPanel(HTML("<strong style='font-size:18px'>Literature</strong>"),
                         icon = icon("book", class = NULL, lib = "font-awesome"),
                         
                         tabsetPanel(id = "infor_public",
@@ -498,3 +564,4 @@ shinyUI(
     ), right=5, left=5
   )
 )
+
