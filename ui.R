@@ -486,7 +486,8 @@ shinyUI(
                         sidebarPanel(
                           selectInput("selextractdata", h4(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red">Extract  data</font>'),
                                                            bsButton("bs00", label="", icon=icon("question"), style="info", size="small")
-                          ), c("Extract data using MSU genomic locus" = "1","Extract data using RAP genomic locus" = "2"), "1"),
+                          ), c("Extract data using MSU genomic locus" = "1","Extract data using RAP genomic locus" = "2",
+                               "Extract data by genomic location" = "3"), "1"),
                           bsPopover("bs00", 'Select extract data type',"Select how to extract the data",trigger = "focus"),
                           conditionalPanel(condition="input.selextractdata == '1'",
                                            textAreaInput("msuarea", label = NULL, width="600px", resize="vertical", height="200px", 
@@ -494,9 +495,15 @@ shinyUI(
                           ),
                           conditionalPanel(condition="input.selextractdata == '2'",
                                            textAreaInput("raparea", label = NULL, width="600px", resize="vertical", height="200px", 
-                                                         placeholder = "One locus in one row",value = "Os02g0677300\nOs10g0528100\nOs06g0610350")
+                                                     placeholder = "One locus in one row",value = "Os02g0677300\nOs10g0528100\nOs03g0646900")
                                            
                           ),
+                          conditionalPanel(condition="input.selextractdata == '3'",
+                                           textInput("inGenomicReg", label = NULL, width="600px", 
+                                                         value = "Chr3:16413819-16913819")
+                                           
+                          ),
+                          
                           actionButton("submit_ID", strong("Submit"), style = "color: white;background-color: black"),
                           actionButton("example_ID", strong("Load Example"), style = "color: white;background-color: black"),
                           actionButton("Clear_ID", strong("Reset"), style = "color: white;background-color: black")
@@ -524,6 +531,19 @@ shinyUI(
                                                                 ),
                                                                 tabPanel(strong('Publication'),
                                                                          column(12,  DT::dataTableOutput("dRapPub"))
+                                                                )
+                                                    )
+                                   ),
+                                   conditionalPanel(condition="input.selextractdata == '3'",
+                                                    tabsetPanel(id = "infor_downreg"  ,       
+                                                                tabPanel(strong('Gene Information'),
+                                                                         column(12,  DT::dataTableOutput("dRegInfo"))
+                                                                ),
+                                                                tabPanel(strong('Keyword'),
+                                                                         column(12,  DT::dataTableOutput("dRegKey"))
+                                                                ),
+                                                                tabPanel(strong('Publication'),
+                                                                         column(12,  DT::dataTableOutput("dRegPub"))
                                                                 )
                                                     )
                                    )

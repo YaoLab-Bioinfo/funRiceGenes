@@ -4,6 +4,8 @@ mypasswd = "asdfghjkl;'"
 system('git config --global user.name "venyao"')
 system('git config --global user.email "ywhzau@gmail.com"')
 
+all.gene.info <- read.table("all.gene.info", head=T, as.is=T)
+
 fetchPubmedById <- function(id="") {
   url <- "https://pubmed.ncbi.nlm.nih.gov/"
   finalUrl <- paste(url, id, '/?format=pubmed', sep='')
@@ -1962,7 +1964,6 @@ fetctRiceNetByChoice <- function(query="", text="") {
 #### Shiny
 shinyServer(function(input, output, session) {
   
-  
   output$inText <- renderUI({
     textInput("inText", label=NULL, 
               value=query.intext[input$query])
@@ -2184,7 +2185,6 @@ shinyServer(function(input, output, session) {
   }, server = FALSE)
   
   
-  
   gene.info.NM <- apply(gene.info, 1, function(x){
     x.msu <- unlist(strsplit(x[3], split="\\|"))
     res <- lapply(1:length(x.msu), function(y){
@@ -2222,22 +2222,27 @@ shinyServer(function(input, output, session) {
   fam.gene.info.NP <- as.data.frame(do.call(rbind, fam.gene.info.NP), stringsAsFactors=FALSE)
   
   
-  observeEvent(input$submit_ID ,{
-    if (input$msuarea == "" & input$selextractdata == "1"){
+  observeEvent(input$submit_ID, {
+    if (input$msuarea == "" & input$selextractdata == "1") {
       shinyWidgets::sendSweetAlert(
         session = session,
         title = "Error input!", type = "error",
         text = "The input information is empty!"
       )
       
-    }else if( input$raparea == "" & input$selextractdata == "2"){ 
+    } else if(input$raparea == "" & input$selextractdata == "2") {
       shinyWidgets::sendSweetAlert(
         session = session,
         title = "Error input!", type = "error",
         text = "The input information is empty!"
       )
-    }
-    else{
+    } else if(input$inGenomicReg == "" & input$selextractdata == "3") {
+      shinyWidgets::sendSweetAlert(
+        session = session,
+        title = "Error input!", type = "error",
+        text = "The input information is empty!"
+      )
+    } else {
       if(input$selextractdata == "1" ) {
         in.locus_dMsuInfo <- unlist(strsplit(input$msuarea, split="\\n"))
         in.locus_dMsuInfo <- gsub("^\\s+", "", in.locus_dMsuInfo)
@@ -2248,8 +2253,10 @@ shinyServer(function(input, output, session) {
         dat.tmp_dMsuInfo <- rbind(dat.tmp.1_dMsuInfo, dat.tmp.2_dMsuInfo)
         dat.tmp_dMsuInfo$path <- NULL
         if (nrow(dat.tmp_dMsuInfo) == 0){
-          NULL          
-        }else{ 
+          output$dMsuInfo = DT::renderDataTable({
+            NULL
+          }, server = FALSE)
+        } else {
           output$dMsuInfo = DT::renderDataTable({
             DT::datatable(
               dat.tmp_dMsuInfo,
@@ -2263,11 +2270,11 @@ shinyServer(function(input, output, session) {
                              columnDefs=list(list(targets="_all"))
               ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
             )
-          }, server = FALSE) 
-          
+          }, server = FALSE)
         }
       }
-      if(input$selextractdata == "2"){
+      
+      if(input$selextractdata == "2") {
         in.locus_dRapInfo <- unlist(strsplit(input$raparea, split="\\n"))
         in.locus_dRapInfo <- gsub("^\\s+", "", in.locus_dRapInfo)
         in.locus_dRapInfo <- gsub("\\s+$", "", in.locus_dRapInfo)
@@ -2276,9 +2283,11 @@ shinyServer(function(input, output, session) {
         dat.tmp.2_dRapInfo <- dat.tmp.2_dRapInfo[!dat.tmp.2_dRapInfo$RAP %in% dat.tmp.1_dRapInfo$RAP, ]
         dat.tmp_dRapInfo <- rbind(dat.tmp.1_dRapInfo, dat.tmp.2_dRapInfo)
         dat.tmp_dRapInfo$path <- NULL
-        if (nrow(dat.tmp_dRapInfo) == 0){
-          NULL
-        }else{ 
+        if (nrow(dat.tmp_dRapInfo) == 0) {
+          output$dRapInfo = DT::renderDataTable({
+            NULL
+          }, server = FALSE)
+        } else {
           output$dRapInfo = DT::renderDataTable({
             DT::datatable(
               dat.tmp_dRapInfo,
@@ -2294,9 +2303,43 @@ shinyServer(function(input, output, session) {
             )
           }, server = FALSE)  
           
-        }}
+        }
+      }
       
-      if(input$selextractdata == "1"){
+      if(input$selextractdata == "3") {
+        in.locus_dRegInfo <- gsub("\\s+", "", input$inGenomicReg)
+        myChr <- gsub(":.+", "", in.locus_dRegInfo)
+        myPos <- as.numeric(gsub("\\s","", strsplit(gsub(".+:", "", in.locus_dRegInfo),"-")[[1]]))
+        myLoci <- all.gene.info$ID[all.gene.info$chr == myChr & all.gene.info$start >= myPos[1] & all.gene.info$end <= myPos[2]]
+        dat.tmp.1_dRegInfo <- gene.info[gene.info$MSU %in% myLoci, ]
+        dat.tmp.2_dRegInfo <- fam.gene.info[fam.gene.info$MSU %in% myLoci, ]
+        dat.tmp.2_dRegInfo <- dat.tmp.2_dRegInfo[!dat.tmp.2_dRegInfo$MSU %in% dat.tmp.1_dRegInfo$MSU, ]
+        dat.tmp_dRegInfo <- rbind(dat.tmp.1_dRegInfo, dat.tmp.2_dRegInfo)
+        dat.tmp_dRegInfo$path <- NULL
+        if (nrow(dat.tmp_dRegInfo) == 0) {
+          output$dRegInfo = DT::renderDataTable({
+            NULL
+          }, server = FALSE)
+        } else {
+          output$dRegInfo = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dRegInfo,
+              options = list(lengthMenu = c(1,4,10), pageLength = 4, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "Reg_Gene_Info"),
+                                            list(extend = 'excel', filename = "Reg_Gene_Info")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE)  
+          
+        }
+      }
+      
+      if(input$selextractdata == "1") {
         in.locus_dMsuKey <- unlist(strsplit(input$msuarea, split="\\n"))
         in.locus_dMsuKey <- gsub("^\\s+", "", in.locus_dMsuKey)
         in.locus_dMsuKey <- gsub("\\s+$", "", in.locus_dMsuKey)
@@ -2306,9 +2349,10 @@ shinyServer(function(input, output, session) {
         dat.tmp_dMsuKey <- unique(dat.tmp_dMsuKey)
         
         if (nrow(dat.tmp_dMsuKey) == 0){
-          NULL
-        }else{ 
-          
+          output$dMsuKey = DT::renderDataTable({
+            NULL
+          }, server = FALSE)
+        } else {
           output$dMsuKey = DT::renderDataTable({
             DT::datatable(
               dat.tmp_dMsuKey,
@@ -2323,19 +2367,21 @@ shinyServer(function(input, output, session) {
               ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
             )
           }, server = FALSE) 
-        }}
+        }
+      }
+      
       if(input$selextractdata == "2"){
         in.locus_dRapKey <- unlist(strsplit(input$raparea, split="\\n"))
         in.locus_dRapKey <- gsub("^\\s+", "", in.locus_dRapKey)
         in.locus_dRapKey <- gsub("\\s+$", "", in.locus_dRapKey)
-        dat.tmp_dRapKey <- gene.keyword[gene.keyword$Symbol %in% unique(gene.info.NP$Symbol[gene.info.NP$RAP %in% in.locus_dRapKey]), ]
+        dat.tmp_dRapKey <- gene.keyword[gene.keyword$RAPdb %in% in.locus_dRapKey, ]
         dat.tmp_dRapKey$path <- NULL
         dat.tmp_dRapKey <- unique(dat.tmp_dRapKey)
         if (nrow(dat.tmp_dRapKey) == 0){
-          NULL
-          
-        }else{
-          
+          output$dRapKey = DT::renderDataTable({
+            NULL
+          }, server = FALSE)
+        } else {
           output$dRapKey = DT::renderDataTable({
             DT::datatable(
               dat.tmp_dRapKey,
@@ -2349,15 +2395,49 @@ shinyServer(function(input, output, session) {
                              columnDefs=list(list(targets="_all"))
               ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
             )
-          }, server = FALSE) 
-        }}
+          }, server = FALSE)
+        }
+      }
+      
+      if(input$selextractdata == "3") {
+        in.locus_dRegInfo <- gsub("\\s+", "", input$inGenomicReg)
+        myChr <- gsub(":.+", "", in.locus_dRegInfo)
+        myPos <- as.numeric(gsub("\\s","", strsplit(gsub(".+:", "", in.locus_dRegInfo),"-")[[1]]))
+        myLoci <- all.gene.info$ID[all.gene.info$chr == myChr & all.gene.info$start >= myPos[1] & all.gene.info$end <= myPos[2]]
+        dat.tmp_dRapKey <- gene.keyword[gene.keyword$MSU %in% myLoci, ]
+        dat.tmp_dRapKey$path <- NULL
+        dat.tmp_dRapKey <- unique(dat.tmp_dRapKey)
+        if (nrow(dat.tmp_dRapKey) == 0) {
+          output$dRegKey = DT::renderDataTable({
+            NULL
+          }, server = FALSE)
+        } else {
+          output$dRegKey = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dRapKey,
+              options = list(lengthMenu = c(10, 20, 30, 50), pageLength = 10, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=FALSE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "RAP_gene_keyword"),
+                                            list(extend = 'excel', filename = "RAP_gene_keyword")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE)
+        }
+      }
+      
       if(input$selextractdata == "1"){
         in.locus_dMsuPub <- unlist(strsplit(input$msuarea, split="\\n"))
         in.locus_dMsuPub <- gsub("^\\s+", "", in.locus_dMsuPub)
         in.locus_dMsuPub <- gsub("\\s+$", "", in.locus_dMsuPub)
         in.info_dMsuPub <- unique(gene.info.NM[gene.info.NM$MSU %in% in.locus_dMsuPub, ])
         if (nrow(in.info_dMsuPub) == 0){
-          NULL
+          output$dMsuPub = DT::renderDataTable({
+            NULL
+          }, server = FALSE)
         }else{
           in.info.pub_MsuPub <- apply(in.info_dMsuPub, 1, function(x) {
             x.path <- x[4]
@@ -2388,15 +2468,14 @@ shinyServer(function(input, output, session) {
           }, server = FALSE)}
       }
       
-      if(input$selextractdata == "2"){
+      if(input$selextractdata == "2") {
         in.locus_dRapPub <- unlist(strsplit(input$raparea, split="\\n"))
         in.locus_dRapPub <- gsub("^\\s+", "", in.locus_dRapPub)
         in.locus_dRapPub <- gsub("\\s+$", "", in.locus_dRapPub)
         in.info_dRapPub <- unique(gene.info.NP[gene.info.NP$RAPdb %in% in.locus_dRapPub, ])
-        if ( nrow(in.info_dRapPub) == 0 ){
+        if ( nrow(in.info_dRapPub) == 0 ) {
           dat.tmp_dRapPub <- data.frame()
-          
-        }else{ 
+        } else {
           in.info.pub_dRapPub <- apply(in.info_dRapPub, 1, function(x) {
             x.path <- x[4]
             x.path <- paste(x.path, "reference.info", sep="/")
@@ -2411,7 +2490,7 @@ shinyServer(function(input, output, session) {
         
         if (nrow(dat.tmp_dRapPub) == 0){
           NULL
-        }else{ 
+        } else {
           output$dRapPub = DT::renderDataTable({
             DT::datatable(
               dat.tmp_dRapPub,
@@ -2425,7 +2504,48 @@ shinyServer(function(input, output, session) {
                              columnDefs=list(list(targets="_all"))
               ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
             )
-          }, server = FALSE)}}
+          }, server = FALSE)
+        }
+      }
+      
+      if(input$selextractdata == "3") {
+        in.locus_dRegInfo <- gsub("\\s+", "", input$inGenomicReg)
+        myChr <- gsub(":.+", "", in.locus_dRegInfo)
+        myPos <- as.numeric(gsub("\\s","", strsplit(gsub(".+:", "", in.locus_dRegInfo),"-")[[1]]))
+        myLoci <- all.gene.info$ID[all.gene.info$chr == myChr & all.gene.info$start >= myPos[1] & all.gene.info$end <= myPos[2]]
+        in.info_dRegPub <- unique(gene.info.NM[gene.info.NM$MSU %in% myLoci, ])
+        if (nrow(in.info_dRegPub) == 0) {
+          NULL
+        } else {
+          in.info.pub_RegPub <- apply(in.info_dRegPub, 1, function(x) {
+            x.path <- x[4]
+            x.path <- paste(x.path, "reference.info", sep="/")
+            x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                                quote="", comment="")
+            x.pub$Publication <- NULL
+            x.pub$Gene <- x[1]
+            return(x.pub)
+          })		
+          
+          dat.tmp_dRegPub <- do.call(rbind, in.info.pub_RegPub)
+          dat.tmp_dRegPub <- unique(dat.tmp_dRegPub)
+          
+          output$dRegPub = DT::renderDataTable({
+            DT::datatable(
+              dat.tmp_dRegPub,
+              options = list(lengthMenu = c(5, 8, 20, 50), pageLength = 4, scrollX = FALSE,
+                             searching = FALSE, autoWidth = FALSE, bSort=TRUE,
+                             buttons = list('pageLength', 'copy', 
+                                            list(extend = 'csv',   filename = "MSU_gene_publication"),
+                                            list(extend = 'excel', filename = "MSU_gene_publication")
+                             ), 
+                             dom = 'Bfrtip',
+                             columnDefs=list(list(targets="_all"))
+              ), escape = FALSE, selection="none", rownames= FALSE, extensions = "Buttons"
+            )
+          }, server = FALSE)
+        }
+      }
       
       if(input$selextractdata == "1"){
         in.locus_dMsuRiceNet <- unlist(strsplit(input$msuarea, split="\\n"))
@@ -2479,28 +2599,34 @@ shinyServer(function(input, output, session) {
         isolate({
           updateSelectInput(session, "selextractdata", selected = "1")
           updateTextInput(session, "msuarea", value =paste("LOC_Os07g49460","LOC_Os06g40780","LOC_Os05g06660",sep = "\n"))
-        }) }
-      else { 
+        })
+      } else if (input$selextractdata =="2") {
         updateSelectInput(session, "selextractdata", selected = "2")
         updateTextInput(session, "raparea", value = paste("Os02g0677300","Os10g0528100","Os06g0610350",sep = "\n"))
-      }}
-    else{NULL}
+      } else if (input$selextractdata =="3") {
+        updateSelectInput(session, "selextractdata", selected = "3")
+        updateTextInput(session, "inGenomicReg", value = "Chr3:16413819-16913819")
+      }
+    } else{NULL}
   })
   
   observe({
     if (input$Clear_ID>0) {
-      if(input$selextractdata =="1"){  
+      if(input$selextractdata =="1") {
         isolate({
           updateSelectInput(session, "selextractdata", selected = "1")
           updateTextInput(session, "msuarea", value = "")
-        })} 
-      else {
+        })
+      } else if (input$selextractdata =="2") {
         updateSelectInput(session, "selextractdata", selected = "2")
-        updateTextInput(session, "raparea", value = "")}}
-    
-    else{NULL}
-    
+        updateTextInput(session, "raparea", value = "")
+      } else if (input$selextractdata =="3") {
+        updateSelectInput(session, "selextractdata", selected = "3")
+        updateTextInput(session, "inGenomicReg", value = "")
+      }
+    } else{NULL}
   })
+  
   # submit new reference
   observe({
     if (input$submit2>0) {
