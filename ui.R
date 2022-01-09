@@ -394,7 +394,7 @@ shinyUI(
                    
                    br(),
                    
-                   plotOutput("Wordcloud", width = "auto", height = "500px")
+                   plotOutput("Wordcloud", width = "auto", height = "600px")
                    )
                  ),
                              
