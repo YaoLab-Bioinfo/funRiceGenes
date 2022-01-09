@@ -40,7 +40,7 @@ shinyUI(
         img(src = "headerN.png"),
         span("funRiceGenes:", style = "font-size:36px;color:white;"),
         span(
-          "A comprehensive database of functionally characterized rice genes", style = "font-size:28px;color:white;"
+          "a comprehensive database of functionally characterized rice genes", style = "font-size:28px;color:white;"
         ), style = "background-color:#33CCCC;margin-left: -15px;margin-right: -15px;margin-top: -20px;margin-bottom: -10px;"
       ), windowTitle = "Welcome to funRiceGenes!"
     ), 
