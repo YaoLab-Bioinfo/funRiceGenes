@@ -2655,7 +2655,7 @@ shinyServer(function(input, output, session) {
           
           shinyWidgets::sendSweetAlert(
             session = session,
-            title = "Success input!", type = "success",
+            title = "Successful input!", type = "success",
             text = "New reference added successfully!"
           )
         } else {
@@ -2691,7 +2691,7 @@ shinyServer(function(input, output, session) {
           
           shinyWidgets::sendSweetAlert(
             session = session,
-            title = "Success input!", type = "success",
+            title = "Successful input!", type = "success",
             text = "New accessions added successfully!"
           )
         } else {
@@ -2728,7 +2728,7 @@ shinyServer(function(input, output, session) {
           
           shinyWidgets::sendSweetAlert(
             session = session,
-            title = "Success input!", type = "success",
+            title = "Successful input!", type = "success",
             text = "New keywords added successfully!"
           )
         } else {
@@ -2766,7 +2766,7 @@ shinyServer(function(input, output, session) {
           
           shinyWidgets::sendSweetAlert(
             session = session,
-            title = "Success input!", type = "success",
+            title = "Successful input!", type = "success",
             text = "New connections added successfully!"
           )
           
@@ -2814,7 +2814,7 @@ shinyServer(function(input, output, session) {
           
           shinyWidgets::sendSweetAlert(
             session = session,
-            title = "Success input!", type = "success",
+            title = "Successful input!", type = "success",
             text = "Gene info edited successfully!"
           )
           
@@ -2859,7 +2859,7 @@ shinyServer(function(input, output, session) {
               
               shinyWidgets::sendSweetAlert(
                 session = session,
-                title = "Success input!", type = "success",
+                title = "Successful input!", type = "success",
                 text = "New gene added successfully!"
               )
             }
@@ -2885,7 +2885,7 @@ shinyServer(function(input, output, session) {
             if (symsub7=="") {
               shinyWidgets::sendSweetAlert(
                 session = session,
-                title = "Success input!", type = "success",
+                title = "Successful input!", type = "success",
                 text = "New publication added successfully!"
               )
             }
@@ -2902,7 +2902,7 @@ shinyServer(function(input, output, session) {
               
               shinyWidgets::sendSweetAlert(
                 session = session,
-                title = "Success input!", type = "success",
+                title = "Successful input!", type = "success",
                 text = "New gene info added successfully!"
               )
             }
@@ -3090,7 +3090,7 @@ shinyServer(function(input, output, session) {
           
           shinyWidgets::sendSweetAlert(
             session = session,
-            title = "Success input!", type = "success",
+            title = "Successful input!", type = "success",
             text = "New gene family added successfully!"
           )
           
