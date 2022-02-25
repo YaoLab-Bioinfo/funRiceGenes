@@ -1868,7 +1868,7 @@ geneID <- function(query="MSU Nipponbare", text="LOC_Os03g57940") {
     
     dat.res$`Minghui 63` <- sapply(dat.res$`Minghui 63`, function(x){
       if (x!="None") {
-        y <- paste("http://rice.hzau.edu.cn/cgi-bin/rice/gene?org=MH63&locus=", x, sep="")
+        y <- paste("http://rice.hzau.edu.cn/cgi-bin/rice_rs1/gene_test?org=MH63&locus=", x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
@@ -1879,7 +1879,7 @@ geneID <- function(query="MSU Nipponbare", text="LOC_Os03g57940") {
     
     dat.res$`Zhenshan 97` <- sapply(dat.res$`Zhenshan 97`, function(x){
       if (x!="None") {
-        y <- paste("http://rice.hzau.edu.cn/cgi-bin/rice/gene?org=ZS97&locus=", x, sep="")
+        y <- paste("http://rice.hzau.edu.cn/cgi-bin/rice_rs1/gene_test?org=ZS97&locus=", x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
