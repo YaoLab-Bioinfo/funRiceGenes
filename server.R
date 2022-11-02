@@ -3259,7 +3259,8 @@ shinyServer(function(input, output, session) {
 
       #RAPDB - Os
       rap.new <- sapply(rapmsu$RAPdb, function(x){
-        if (x!="None") {
+        #if (x!="None") {
+        if (!identical(x, integer(0))) {
           y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
@@ -3272,7 +3273,8 @@ shinyServer(function(input, output, session) {
       
       #MSU LOC
       msu.new <- sapply(rapmsu$MSU, function(x){
-        if (x!="None") {
+        #if (x!="None") {
+        if (!identical(x, integer(0))) {
           y <- paste("http://rice.uga.edu/cgi-bin/ORF_infopage.cgi?orf=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
