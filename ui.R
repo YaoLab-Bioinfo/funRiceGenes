@@ -171,19 +171,29 @@ shinyUI(
                                     tabPanel(HTML("<strong style='font-size:18px'>Search</strong>"),
                                              fluidRow(
                                                column(4,
-                                                      shinyWidgets::multiInput(
+                                                      shinyWidgets::pickerInput(
                                                         inputId = "keyword",
                                                         label = tags$div(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red">Search with predefined keywords</font>')),
-                                                        choices = NULL, width="100%", 
-                                                        choiceNames = unique(key.fl$Keyword),
-                                                        choiceValues = unique(key.fl$Keyword),
-                                                        selected = "nitrogen",
-                                                        options = list(
-                                                          enable_search = TRUE, limit = 1,
-                                                          non_selected_header = "Choose from:",
-                                                          selected_header = "You have selected:"
+                                                        choices = sort(unique(key.fl$Keyword)), width = "100%", selected = "nitrogen",
+                                                        options = shinyWidgets::pickerOptions(
+                                                          `live-search` = TRUE,
+                                                          title = "Please select"
                                                         )
                                                       )
+                                                      
+                                                      #shinyWidgets::multiInput(
+                                                      #  inputId = "keyword",
+                                                      #  label = tags$div(HTML('<i class="fa fa-play" aria-hidden="true"></i> <font size="4" color="red">Search with predefined keywords</font>')),
+                                                      #  choices = NULL, width="100%", 
+                                                      #  choiceNames = unique(key.fl$Keyword),
+                                                      #  choiceValues = unique(key.fl$Keyword),
+                                                      #  selected = "nitrogen",
+                                                      #  options = list(
+                                                      #    enable_search = TRUE,# limit = 1,
+                                                      #    non_selected_header = "Choose from:",
+                                                      #    selected_header = "You have selected:"
+                                                      #  )
+                                                      #)
                                                ),
                                                
                                                column(8,
