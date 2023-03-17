@@ -2442,11 +2442,15 @@ shinyServer(function(input, output, session) {
           in.info.pub_MsuPub <- apply(in.info_dMsuPub, 1, function(x) {
             x.path <- x[4]
             x.path <- paste(x.path, "reference.info", sep="/")
-            x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
-                                quote="", comment="")
-            x.pub$Publication <- NULL
-            x.pub$Gene <- x[1]
-            return(x.pub)
+            if (file.exists(x.path)) {
+              x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                                  quote="", comment="")
+              x.pub$Publication <- NULL
+              x.pub$Gene <- x[1]
+              return(x.pub)
+            } else {
+              return(NULL)
+            }
           })		
           
           dat.tmp_dMsuPub <- do.call(rbind, in.info.pub_MsuPub)
@@ -2479,11 +2483,17 @@ shinyServer(function(input, output, session) {
           in.info.pub_dRapPub <- apply(in.info_dRapPub, 1, function(x) {
             x.path <- x[4]
             x.path <- paste(x.path, "reference.info", sep="/")
-            x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
-                                quote="", comment="")
-            x.pub$Publication <- NULL
-            x.pub$Gene <- x[1]
-            return(x.pub)})
+            if (file.exists(x.path)) {
+              x.pub <- read.table(x.path, head=T, as.is=T, sep="\t", 
+                                  quote="", comment="")
+              x.pub$Publication <- NULL
+              x.pub$Gene <- x[1]
+              return(x.pub)
+            } else {
+              return(NULL)
+            }
+            })
+          
           dat.tmp_dRapPub <- do.call(rbind, in.info.pub_dRapPub)
           dat.tmp_dRapPub <- unique(dat.tmp_dRapPub)
         }
