@@ -50,7 +50,7 @@ for (j in 1:nrow(gene.lst)) {
   rap <- unlist(strsplit(rap, split='|', fixed=TRUE))
   rap.new <- sapply(rap, function(x){
     if (x!="None") {
-      y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+      y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                  x, sep="")
       y <- paste('[', x, ']', '(', y, ')', sep="")
       return(y)
@@ -286,7 +286,7 @@ for (j in 1:length(fam.path)) {
       rap <- unlist(strsplit(rap, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         if (x!="None") {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+          y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                      x, sep="")
           y <- paste('[', x, ']', '(', y, ')', sep="")
           return(y)
