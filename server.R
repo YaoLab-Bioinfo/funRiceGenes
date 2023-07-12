@@ -191,7 +191,7 @@ fetchInfoByMsu <- function(locus="") {
       rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         if (x!="None") {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+          y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -235,7 +235,7 @@ fetchFamInfoByMsu <- function(locus="") {
     rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
     rap.new <- sapply(rap, function(x){
       if (x!="None") {
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+        y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                    x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
@@ -525,7 +525,7 @@ fetchInfoByRap <- function(locus="") {
       rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         if (x!="None") {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+          y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -569,7 +569,7 @@ fetchFamInfoByRap <- function(locus="") {
     rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
     rap.new <- sapply(rap, function(x){
       if (x!="None") {
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+        y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                    x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
@@ -888,7 +888,7 @@ fetchInfoBySym <- function(symbol="") {
       rap <- unlist(strsplit(dat$RAPdb, split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         if (x!="None") {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+          y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -924,7 +924,7 @@ fetchInfoBySym <- function(symbol="") {
       rap <- unlist(strsplit(dat$RAPdb[i], split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         if (x!="None") {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+          y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -968,7 +968,7 @@ fetchFamInfoBySym <- function(symbol="") {
       rap <- unlist(strsplit(dat$RAPdb[i], split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
         if (x!="None") {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+          y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
@@ -1251,7 +1251,7 @@ fetchInfoByKey <- function(keyword="") {
       
       rap <- unlist(strsplit(dat$RAPdb[i], split='|', fixed=TRUE))
       rap.new <- sapply(rap, function(x){
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+        y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                    x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
@@ -1857,7 +1857,7 @@ geneID <- function(query="MSU Nipponbare", text="LOC_Os03g57940") {
     
     dat.res$Nipponbare.RAPdb <- sapply(dat.res$Nipponbare.RAPdb, function(x){
       if (x!="None") {
-        y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", x, sep="")
+        y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", x, sep="")
         y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
         y <- HTML(y)
         return(y)
@@ -3271,7 +3271,7 @@ shinyServer(function(input, output, session) {
       rap.new <- sapply(rapmsu$RAPdb, function(x){
         #if (x!="None") {
         if (!identical(x, integer(0))) {
-          y <- paste("http://rapdb.dna.affrc.go.jp/viewer/gbrowse_details/irgsp1?name=", 
+          y <- paste("https://rapdb.dna.affrc.go.jp/locus/?name=", 
                      x, sep="")
           y <- paste('<a href="', y, '" target="_blank">', x, '</a>', sep="")
           y <- HTML(y)
